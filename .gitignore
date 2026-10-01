@@ -1,0 +1,15 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / Package manager (nếu có dùng sau này)
+node_modules/
+package-lock.json
+npm-debug.log*

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="vi" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semester Hub • Quản Lý Học Phần & Deadline</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+
+  <!-- Tailwind CSS CDN with configuration -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Markdown Parser & Sanitizer -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="h-full bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 antialiased flex flex-col transition-colors duration-200">
+
+  <!-- Announcement Banner (Optional) -->
+  <div id="announcement-banner" class="hidden bg-indigo-600 text-white px-4 py-2 text-xs font-medium text-center flex items-center justify-center gap-2">
+    <span id="announcement-text">📌 Thông báo học kỳ</span>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-30 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        
+        <!-- Left: Logo & Semester Info -->
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center text-white shadow-md shadow-indigo-500/20">
+            <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+          </div>
+          <div>
+              <h1 id="header-semester-title" class="font-extrabold text-base sm:text-lg text-slate-900 dark:text-white leading-tight">
+              Học Kỳ 1 • 2026-2027
+            </h1>
+            <p id="header-student-info" class="text-xs text-slate-500 dark:text-slate-400 font-medium hidden sm:block">
+              Sinh Viên Đại Học • CNTT
+            </p>
+          </div>
+        </div>
+
+        <!-- Right: Actions -->
+        <div class="flex items-center gap-2 sm:gap-3">
+          <!-- Add Task Button -->
+          <button onclick="window.SemesterApp.openAddTaskModal()"
+                  class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 transition-colors shadow-sm shadow-indigo-500/20"
+                  title="Thêm công việc / deadline mới">
+            <i data-lucide="plus-circle" class="w-4 h-4"></i>
+            <span class="hidden sm:inline">Thêm Task</span>
+          </button>
+
+          <!-- Export / Git Sync Helper Button -->
+          <button onclick="window.SemesterApp.openExportModal()"
+                  class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold text-slate-700 dark:text-slate-300 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 transition-colors shadow-sm"
+                  title="Xuất dữ liệu để cập nhật vào Git">
+            <i data-lucide="git-commit" class="w-4 h-4 text-indigo-500"></i>
+            <span class="hidden md:inline">Đồng bộ Git</span>
+          </button>
+
+          <!-- Theme Toggle -->
+          <button onclick="window.SemesterApp.toggleTheme()"
+                  class="p-2 rounded-xl text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+                  aria-label="Đổi giao diện sáng/tối">
+            <i data-lucide="sun" class="w-5 h-5 hidden dark:block"></i>
+            <i data-lucide="moon" class="w-5 h-5 block dark:hidden"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+
+    <!-- KPI / Overview Cards -->
+    <section id="semester-overview" class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <!-- Total Courses -->
+      <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4 shadow-sm flex items-center gap-4">
+        <div class="w-12 h-12 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 flex items-center justify-center shrink-0">
+          <i data-lucide="book-marked" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <div class="text-xs font-medium text-slate-500 dark:text-slate-400">Tổng học phần</div>
+          <div class="text-2xl font-extrabold text-slate-900 dark:text-white mt-0.5">
+            <span id="stat-total-courses">0</span> <span class="text-xs font-normal text-slate-400">môn</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Total Tasks -->
+      <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4 shadow-sm flex items-center gap-4">
+        <div class="w-12 h-12 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
+          <i data-lucide="list-checks" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <div class="text-xs font-medium text-slate-500 dark:text-slate-400">Tổng task</div>
+          <div class="text-2xl font-extrabold text-slate-900 dark:text-white mt-0.5">
+            <span id="stat-total-tasks">0</span> <span class="text-xs font-normal text-slate-400">task</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Urgent Tasks -->
+      <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4 shadow-sm flex items-center gap-4">
+        <div class="w-12 h-12 rounded-xl bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 flex items-center justify-center shrink-0">
+          <i data-lucide="alert-triangle" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <div class="text-xs font-medium text-slate-500 dark:text-slate-400">Hạn chót khẩn cấp</div>
+          <div class="text-2xl font-extrabold text-rose-600 dark:text-rose-400 mt-0.5">
+            <span id="stat-urgent-tasks">0</span> <span class="text-xs font-normal text-slate-400">task</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Overall Task Progress -->
+      <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4 shadow-sm flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between text-xs font-medium text-slate-500 dark:text-slate-400">
+            <span>Tiến độ bài tập</span>
+            <span id="stat-task-progress" class="font-bold text-slate-800 dark:text-slate-200">0/0</span>
+          </div>
+          <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-2 mt-2 overflow-hidden">
+            <div id="stat-progress-bar" class="bg-indigo-600 h-full rounded-full transition-all duration-500" style="width: 0%"></div>
+          </div>
+        </div>
+        <div class="text-[11px] text-slate-400 dark:text-slate-500 mt-2 flex items-center gap-1">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-indigo-500"></i>
+          <span>Tích vào checkbox để đánh dấu xong</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation & Search Bar -->
+    <div id="semester-navigation" class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-2">
+      <!-- Tabs Switcher -->
+      <nav class="flex items-center gap-1.5 p-1 bg-slate-200/60 dark:bg-slate-900 rounded-2xl overflow-x-auto shrink-0" aria-label="Tabs">
+        <button class="nav-tab flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-sm bg-indigo-600 text-white shadow-sm transition-all" data-tab="courses">
+          <i data-lucide="layout-grid" class="w-4 h-4"></i>
+          <span>Học Phần</span>
+        </button>
+        <button class="nav-tab flex items-center gap-2 px-4 py-2.5 rounded-xl font-medium text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all" data-tab="tasks">
+          <i data-lucide="check-square" class="w-4 h-4"></i>
+          <span>Tasks & Deadline</span>
+        </button>
+        <button class="nav-tab flex items-center gap-2 px-4 py-2.5 rounded-xl font-medium text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all" data-tab="timetable">
+          <i data-lucide="calendar-days" class="w-4 h-4"></i>
+          <span>Thời Khóa Biểu</span>
+        </button>
+        <button class="nav-tab flex items-center gap-2 px-4 py-2.5 rounded-xl font-medium text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all" data-tab="syllabus">
+          <i data-lucide="book-open" class="w-4 h-4"></i>
+          <span>Đề Cương</span>
+        </button>
+        <button class="nav-tab flex items-center gap-2 px-4 py-2.5 rounded-xl font-medium text-sm text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all" data-tab="resources">
+          <i data-lucide="external-link" class="w-4 h-4"></i>
+          <span>Kho Tài Liệu</span>
+        </button>
+      </nav>
+
+      <!-- Global Search -->
+      <div class="relative flex-1 md:max-w-xs">
+        <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+        <input type="text" id="global-search" 
+               placeholder="Tìm kiếm môn, bài tập, ghi chú..." 
+               class="w-full pl-10 pr-4 py-2 text-sm rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-sm transition-all text-slate-900 dark:text-white placeholder-slate-400">
+      </div>
+    </div>
+
+    <!-- TAB 1: COURSES -->
+    <section id="tab-courses" class="space-y-6">
+      <div id="courses-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Rendered dynamically by js/app.js -->
+      </div>
+    </section>
+
+    <!-- TAB 2: TASKS & DEADLINES -->
+    <section id="tab-tasks" class="hidden space-y-6">
+      <!-- Toolbar Filters -->
+      <div class="flex flex-wrap items-center justify-between gap-3 p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+        
+        <!-- Filter pills -->
+        <div class="flex flex-wrap items-center gap-1.5">
+          <button class="task-filter-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-indigo-600 text-white shadow-sm transition-colors" data-filter="all">Tất cả</button>
+          <button class="task-filter-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors" data-filter="overdue">Quá hạn</button>
+          <button class="task-filter-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors" data-filter="today">Hôm nay</button>
+          <button class="task-filter-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors" data-filter="upcoming">7 ngày tới</button>
+          <button class="task-filter-btn px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors" data-filter="done">Đã hoàn thành</button>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2.5">
+          <!-- Course Dropdown Filter -->
+          <select id="task-course-filter" class="text-xs rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 py-1.5 px-3 focus:ring-1 focus:ring-indigo-500 cursor-pointer text-slate-700 dark:text-slate-300">
+            <option value="all">Tất cả môn học</option>
+          </select>
+
+          <!-- Sort Dropdown -->
+          <select id="task-sort-by" onchange="window.SemesterApp.changeTaskSort(this.value)" class="text-xs rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 py-1.5 px-3 focus:ring-1 focus:ring-indigo-500 cursor-pointer text-slate-700 dark:text-slate-300">
+            <option value="deadline">Hạn chót gần nhất</option>
+            <option value="priority">Độ ưu tiên cao nhất</option>
+            <option value="course">Theo môn học</option>
+            <option value="title">Tên việc (A-Z)</option>
+          </select>
+
+          <!-- View Mode (List by Course vs Kanban) -->
+          <div class="flex items-center p-1 bg-slate-100 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+            <button id="btn-view-course" class="p-1.5 rounded-lg bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-400 shadow-sm" title="Xem theo từng môn học">
+              <i data-lucide="list" class="w-4 h-4"></i>
+            </button>
+            <button id="btn-view-kanban" class="p-1.5 rounded-lg text-slate-500 hover:text-slate-900 dark:hover:text-slate-100" title="Bảng Kanban (Cần làm / Đang làm / Đã xong)">
+              <i data-lucide="columns" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+          <!-- Add Task Button -->
+          <button onclick="window.SemesterApp.openAddTaskModal()"
+                  class="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 transition-colors shadow-sm">
+            <i data-lucide="plus" class="w-4 h-4"></i>
+            <span>Thêm Task</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- View 1: Grouped by Course Container -->
+      <div id="tasks-container">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <!-- View 2: Kanban Columns Container -->
+      <div id="tasks-kanban" class="hidden grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Col 1: Todo -->
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-100/60 dark:bg-slate-900/60 p-4">
+          <div class="flex items-center justify-between mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-slate-400"></span>
+              <h4 class="font-bold text-sm text-slate-800 dark:text-slate-200">Cần làm (To do)</h4>
+            </div>
+            <span id="kanban-count-todo" class="text-xs px-2 py-0.5 rounded-full bg-slate-200 dark:bg-slate-800 font-bold">0</span>
+          </div>
+          <div id="kanban-col-todo" class="space-y-3 min-h-[150px]"></div>
+        </div>
+
+        <!-- Col 2: In-Progress -->
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-indigo-50/40 dark:bg-slate-900/60 p-4">
+          <div class="flex items-center justify-between mb-4 pb-2 border-b border-indigo-100 dark:border-slate-800">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-indigo-500"></span>
+              <h4 class="font-bold text-sm text-slate-800 dark:text-slate-200">Đang thực hiện</h4>
+            </div>
+            <span id="kanban-count-inprogress" class="text-xs px-2 py-0.5 rounded-full bg-indigo-100 dark:bg-indigo-950 font-bold text-indigo-600 dark:text-indigo-400">0</span>
+          </div>
+          <div id="kanban-col-inprogress" class="space-y-3 min-h-[150px]"></div>
+        </div>
+
+        <!-- Col 3: Done -->
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-emerald-50/40 dark:bg-slate-900/60 p-4">
+          <div class="flex items-center justify-between mb-4 pb-2 border-b border-emerald-100 dark:border-slate-800">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+              <h4 class="font-bold text-sm text-slate-800 dark:text-slate-200">Đã hoàn thành</h4>
+            </div>
+            <span id="kanban-count-done" class="text-xs px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 font-bold text-emerald-600 dark:text-emerald-400">0</span>
+          </div>
+          <div id="kanban-col-done" class="space-y-3 min-h-[150px]"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: TIMETABLE (THỜI KHÓA BIỂU) -->
+    <section id="tab-timetable" class="hidden space-y-6">
+      <div id="timetable-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- TAB 3: SYLLABUS ROADMAP -->
+    <section id="tab-syllabus" class="hidden space-y-6">
+      <div id="syllabus-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- TAB 4: RESOURCES & LINKS -->
+    <section id="tab-resources" class="hidden space-y-6">
+      <div id="resources-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <section id="course-detail" class="hidden space-y-6">
+      <header class="flex items-center gap-4">
+        <button onclick="window.SemesterApp.closeCourseDetail()"
+                class="p-2 rounded-lg text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+                aria-label="Quay lại danh sách học phần" title="Quay lại danh sách học phần">
+          <i data-lucide="arrow-left" class="w-5 h-5"></i>
+        </button>
+        <div>
+          <p class="text-xs font-semibold text-indigo-600 dark:text-indigo-400">Học phần</p>
+          <h1 id="course-detail-title" class="text-2xl font-extrabold text-slate-900 dark:text-white"></h1>
+        </div>
+      </header>
+
+      <div id="course-chapters-list" class="border-t border-slate-200 dark:border-slate-800"></div>
+    </section>
+
+    <section id="chapter-detail" class="hidden space-y-6">
+      <header class="flex items-center gap-4">
+        <button onclick="window.SemesterApp.returnToCourseDetail()"
+                class="p-2 rounded-lg text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+                aria-label="Quay lại danh sách chương" title="Quay lại danh sách chương">
+          <i data-lucide="arrow-left" class="w-5 h-5"></i>
+        </button>
+        <div>
+          <p id="chapter-detail-course" class="text-xs font-semibold text-indigo-600 dark:text-indigo-400"></p>
+          <h1 id="chapter-detail-title" class="text-2xl font-extrabold text-slate-900 dark:text-white"></h1>
+        </div>
+      </header>
+
+      <nav class="flex items-center gap-1 border-b border-slate-200 dark:border-slate-800" aria-label="Nội dung chương">
+        <button onclick="window.SemesterApp.setChapterTab('content')" data-chapter-tab="content"
+                class="chapter-tab px-4 py-3 text-sm font-bold text-indigo-600 dark:text-indigo-400 border-b-2 border-indigo-600 dark:border-indigo-400 flex items-center gap-2">
+          <i data-lucide="book-open" class="w-4 h-4"></i> Nội dung
+        </button>
+        <button onclick="window.SemesterApp.setChapterTab('tasks')" data-chapter-tab="tasks"
+                class="chapter-tab px-4 py-3 text-sm font-medium text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 border-b-2 border-transparent flex items-center gap-2">
+          <i data-lucide="check-square" class="w-4 h-4"></i> Task
+        </button>
+      </nav>
+
+      <div id="chapter-detail-panel" class="min-h-64"></div>
+    </section>
+
+    <section id="course-task-detail" class="hidden space-y-7">
+      <header class="flex items-center gap-4">
+        <button onclick="window.SemesterApp.returnToChapterTasks()"
+                class="p-2 rounded-lg text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+                aria-label="Quay lại task của chương" title="Quay lại task của chương">
+          <i data-lucide="arrow-left" class="w-5 h-5"></i>
+        </button>
+        <div>
+          <p id="course-task-chapter" class="text-sm font-semibold text-indigo-600 dark:text-indigo-400"></p>
+          <h1 id="course-task-title" class="text-2xl sm:text-3xl font-extrabold leading-tight text-slate-900 dark:text-white"></h1>
+        </div>
+      </header>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div class="p-4 rounded-lg bg-slate-50 dark:bg-slate-800/60">
+          <p class="text-sm text-slate-500 dark:text-slate-400 mb-1">Hạn</p>
+          <p id="course-task-deadline" class="text-base font-semibold text-slate-800 dark:text-slate-200"></p>
+        </div>
+        <div class="p-4 rounded-lg bg-slate-50 dark:bg-slate-800/60">
+          <p class="text-sm text-slate-500 dark:text-slate-400 mb-1">Ưu tiên</p>
+          <p id="course-task-priority" class="text-base font-semibold text-slate-800 dark:text-slate-200"></p>
+        </div>
+        <label class="p-4 rounded-lg bg-slate-50 dark:bg-slate-800/60">
+          <span class="block text-sm text-slate-500 dark:text-slate-400 mb-1">Trạng thái</span>
+          <select id="course-task-status" onchange="window.SemesterApp.setCourseTaskStatus(this.value)"
+                  class="w-full text-base font-semibold bg-transparent text-slate-800 dark:text-slate-200 focus:outline-none cursor-pointer">
+            <option value="todo">Cần làm</option>
+            <option value="in-progress">Đang làm</option>
+            <option value="done">Đã xong</option>
+          </select>
+        </label>
+      </div>
+
+      <article class="max-w-4xl">
+        <h2 class="text-lg font-bold text-slate-800 dark:text-slate-200 mb-4">Nội dung task</h2>
+        <div id="course-task-content" class="markdown-body prose prose-lg dark:prose-invert max-w-none text-lg leading-8"></div>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- MODAL: EXPORT / GIT SYNC HELPER (<dialog>) -->
+  <dialog id="export-modal" class="w-full max-w-2xl bg-white dark:bg-slate-900 text-slate-900 dark:text-white rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden">
+    <div class="p-6">
+      <div class="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-slate-800 mb-4">
+        <div class="flex items-center gap-2.5">
+          <div class="p-2 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400">
+            <i data-lucide="git-branch" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="font-extrabold text-base text-slate-900 dark:text-white">Đồng Bộ Dữ Liệu Lên Git</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400">Cập nhật các task và trạng thái bạn vừa chỉnh sửa vào mã nguồn</p>
+          </div>
+        </div>
+        <button onclick="window.SemesterApp.closeExportModal()" 
+                class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
+                aria-label="Đóng">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <p class="text-xs text-slate-600 dark:text-slate-400 mb-3 leading-relaxed">
+        Bạn có thể sao chép đoạn mã dưới đây và dán đè vào file <code class="text-indigo-600 dark:text-indigo-400 font-mono">data/courses.js</code>, hoặc bấm <strong>"Tải file courses.js"</strong> để thay thế file cũ, sau đó gõ lệnh <code class="bg-slate-100 dark:bg-slate-800 px-1 py-0.5 rounded font-mono text-xs">git commit -am "Update tasks" && git push</code>:
+      </p>
+
+      <textarea id="export-code-area" rows="11" readonly
+                class="w-full font-mono text-xs p-3.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-1 focus:ring-indigo-500 mb-4"></textarea>
+
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <button onclick="window.SemesterApp.closeExportModal()" class="px-4 py-2 text-xs font-semibold rounded-xl text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">
+          Đóng
+        </button>
+        <div class="flex items-center gap-2">
+          <button onclick="window.SemesterApp.downloadCoursesFile()" class="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 shadow-sm transition-colors">
+            <i data-lucide="download" class="w-4 h-4 text-indigo-500"></i>
+            <span>Tải file courses.js</span>
+          </button>
+          <button id="btn-copy-code" onclick="window.SemesterApp.copyExportCode()" class="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white shadow-sm transition-colors">
+            <i data-lucide="copy" class="w-4 h-4"></i>
+            <span>Sao chép mã nguồn</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- MODAL: ADD TASK (<dialog>) -->
+  <dialog id="add-task-modal" class="w-full max-w-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-white rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden">
+    <div class="p-6">
+      <div class="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-slate-800 mb-4">
+        <div class="flex items-center gap-2.5">
+          <div class="p-2 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400">
+            <i data-lucide="plus-circle" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="font-extrabold text-base text-slate-900 dark:text-white">Thêm Công Việc / Deadline Mới</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400">Tạo task mới cho học phần của bạn</p>
+          </div>
+        </div>
+        <button onclick="window.SemesterApp.closeAddTaskModal()" 
+                class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
+                aria-label="Đóng">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <form id="form-add-task" onsubmit="window.SemesterApp.handleAddTaskSubmit(event)" class="space-y-4 text-xs">
+        <div>
+          <label class="block font-semibold mb-1 text-slate-700 dark:text-slate-300">Chọn Học Phần <span class="text-rose-500">*</span></label>
+          <select id="modal-task-course" required class="w-full p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500">
+            <!-- Populated dynamically -->
+          </select>
+        </div>
+
+        <div>
+          <label class="block font-semibold mb-1 text-slate-700 dark:text-slate-300">Chương</label>
+          <select id="modal-task-chapter" class="w-full p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500">
+            <!-- Populated dynamically -->
+          </select>
+        </div>
+
+        <div>
+          <label class="block font-semibold mb-1 text-slate-700 dark:text-slate-300">Tiêu đề công việc <span class="text-rose-500">*</span></label>
+          <input type="text" id="modal-task-title" required placeholder="Ví dụ: Làm bài tập lớn giai đoạn 2" 
+                 class="w-full p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block font-semibold mb-1 text-slate-700 dark:text-slate-300">Hạn chót (Deadline)</label>
+            <input type="date" id="modal-task-deadline" 
+                   class="w-full p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500">
+          </div>
+          <div>
+            <label class="block font-semibold mb-1 text-slate-700 dark:text-slate-300">Độ ưu tiên</label>
+            <select id="modal-task-priority" class="w-full p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500">
+              <option value="high">🔴 Cao (Khẩn cấp)</option>
+              <option value="medium" selected>🟡 Trung bình</option>
+              <option value="low">🟢 Thấp</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class="block font-semibold mb-1 text-slate-700 dark:text-slate-300">Trạng thái ban đầu</label>
+          <select id="modal-task-status" class="w-full p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500">
+            <option value="todo" selected>Cần làm (To do)</option>
+            <option value="in-progress">Đang làm (In progress)</option>
+            <option value="done">Đã hoàn thành</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block font-semibold mb-1 text-slate-700 dark:text-slate-300">Ghi chú hoặc liên kết nộp bài</label>
+          <textarea id="modal-task-note" rows="3" placeholder="Ghi chú yêu cầu bài tập, link nộp bài trên Classroom..." 
+                    class="w-full p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500"></textarea>
+        </div>
+
+        <div class="flex items-center justify-end gap-3 pt-3 border-t border-slate-100 dark:border-slate-800">
+          <button type="button" onclick="window.SemesterApp.closeAddTaskModal()" class="px-4 py-2 font-semibold rounded-xl text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800">
+            Hủy bỏ
+          </button>
+          <button type="submit" class="inline-flex items-center gap-1.5 px-5 py-2 font-bold rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white shadow-sm transition-colors">
+            <i data-lucide="check" class="w-4 h-4"></i>
+            <span>Tạo Task</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 pointer-events-none transition-all duration-300 flex items-center gap-3 px-4 py-3 rounded-2xl shadow-xl border bg-slate-900 text-white dark:bg-white dark:text-slate-900 border-slate-700">
+    <i id="toast-icon" data-lucide="check-circle" class="w-5 h-5 text-emerald-400"></i>
+    <span id="toast-message" class="text-xs font-semibold">Thông báo thành công</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-6 text-center text-xs text-slate-500 dark:text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div>
+        <span>Quản lý học phần • Triển khai tĩnh trên GitHub Pages</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <button onclick="window.SemesterApp.openExportModal()" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+          Đồng bộ Git
+        </button>
+        <span>•</span>
+        <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+          Tài liệu GitHub Pages
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Data & Logic Scripts -->
+  <script src="data/courses.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

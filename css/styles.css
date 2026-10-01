@@ -1,0 +1,196 @@
+/* Custom Styles & Utilities for Semester Hub */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.5);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 114, 128, 0.8);
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(75, 85, 99, 0.6);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 114, 128, 0.9);
+}
+
+/* Modal Dialog Backdrop & Animation */
+dialog {
+  border: none;
+  border-radius: 1rem;
+  padding: 0;
+  max-width: 95vw;
+  max-height: 90vh;
+  margin: auto;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+  transition: opacity 0.25s ease, transform 0.25s ease, overlay 0.25s ease allow-discrete, display 0.25s ease allow-discrete;
+  opacity: 0;
+  transform: scale(0.95) translateY(10px);
+}
+
+dialog[open] {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+@starting-style {
+  dialog[open] {
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+  }
+}
+
+dialog::backdrop {
+  background-color: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: opacity 0.25s ease, overlay 0.25s ease allow-discrete, display 0.25s ease allow-discrete;
+  opacity: 0;
+}
+
+dialog[open]::backdrop {
+  opacity: 1;
+}
+
+@starting-style {
+  dialog[open]::backdrop {
+    opacity: 0;
+  }
+}
+
+/* Markdown Notes Rendering Styles */
+.markdown-body {
+  color: inherit;
+  line-height: 1.7;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 {
+  font-weight: 700;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+.dark .markdown-body h1, .dark .markdown-body h2, .dark .markdown-body h3, .dark .markdown-body h4 {
+  color: #f1f5f9;
+}
+
+.markdown-body h3 {
+  font-size: 1.15rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.3rem;
+}
+.dark .markdown-body h3 {
+  border-bottom-color: #334155;
+}
+
+.markdown-body h4 {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.markdown-body p {
+  margin-bottom: 0.75rem;
+}
+
+.markdown-body ul, .markdown-body ol {
+  margin-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.markdown-body ul {
+  list-style-type: disc;
+}
+
+.markdown-body ol {
+  list-style-type: decimal;
+}
+
+.markdown-body li {
+  margin-bottom: 0.25rem;
+}
+
+.markdown-body code {
+  background-color: #f1f5f9;
+  color: #0369a1;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+}
+.dark .markdown-body code {
+  background-color: #1e293b;
+  color: #38bdf8;
+}
+
+.markdown-body pre {
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+.markdown-body pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.markdown-body blockquote {
+  border-left: 4px solid #6366f1;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #64748b;
+  font-style: italic;
+}
+.dark .markdown-body blockquote {
+  border-left-color: #818cf8;
+  color: #94a3b8;
+}
+
+/* Glassmorphism helpers */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+.dark .glass-panel {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(51, 65, 85, 0.7);
+}
+
+/* Checkbox smooth interaction */
+.task-checkbox:checked + label .task-title {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Print styling for printing syllabus / tasks */
+@media print {
+  header, nav, #global-search, .action-buttons, #export-modal {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
