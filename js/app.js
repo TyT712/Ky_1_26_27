@@ -25,6 +25,10 @@
   const LS_TASKS_STATUS = 'semester_tasks_status_v1';
   const LS_CUSTOM_TASKS = 'semester_custom_tasks_v1';
   const LS_THEME = 'semester_theme';
+  const LS_DRIVE_SUBMISSIONS = 'semester_drive_submissions_v1';
+  const DRIVE_FILE_SCOPE = 'https://www.googleapis.com/auth/drive.file';
+  let driveAccessToken = null;
+  let driveAccessTokenExpiresAt = 0;
 
   // Color mapping for tailwind
   const COLOR_MAP = {
@@ -1032,6 +1036,152 @@
     if (deadline) deadline.textContent = task.deadline || 'Chưa đặt hạn';
     if (priority) priority.textContent = task.priority === 'high' ? 'Cao' : task.priority === 'low' ? 'Thấp' : 'Trung bình';
     if (status) status.value = task.status || 'todo';
+    renderDriveSubmission(task);
+  }
+
+  function getStoredDriveSubmissions() {
+    try {
+      const submissions = JSON.parse(localStorage.getItem(LS_DRIVE_SUBMISSIONS) || '{}');
+      return submissions && typeof submissions === 'object' && !Array.isArray(submissions) ? submissions : {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function getSafeDriveLink(link) {
+    try {
+      const url = new URL(link);
+      return url.protocol === 'https:' && ['drive.google.com', 'docs.google.com'].includes(url.hostname) ? url.href : '';
+    } catch (e) {
+      return '';
+    }
+  }
+
+  function renderDriveSubmission(task) {
+    const status = document.getElementById('drive-submission-status');
+    const link = document.getElementById('drive-submission-link');
+    if (!status || !link) return;
+
+    const submission = getStoredDriveSubmissions()[task.id];
+    const safeLink = submission && getSafeDriveLink(submission.webViewLink);
+    status.textContent = submission
+      ? `Bài đã nộp: ${submission.fileName || submission.name || 'Tệp trên Google Drive'}${submission.submittedAt ? ` • ${new Date(submission.submittedAt).toLocaleString('vi-VN')}` : ''}`
+      : 'Chưa có bài nộp cho task này.';
+    link.classList.toggle('hidden', !safeLink);
+    if (safeLink) link.href = safeLink;
+    lucide.createIcons();
+  }
+
+  function setDriveSubmissionStatus(message, isError = false) {
+    const status = document.getElementById('drive-submission-status');
+    if (!status) return;
+    status.textContent = message;
+    status.classList.toggle('text-rose-600', isError);
+    status.classList.toggle('dark:text-rose-400', isError);
+    status.classList.toggle('text-slate-500', !isError);
+    status.classList.toggle('dark:text-slate-400', !isError);
+  }
+
+  function requestDriveAccessToken() {
+    const clientId = document.querySelector('meta[name="google-oauth-client-id"]')?.content.trim();
+    if (!clientId) {
+      throw new Error('Chưa cấu hình Google OAuth Client ID. Xem hướng dẫn Google Drive trong README.');
+    }
+    if (!window.google?.accounts?.oauth2) {
+      throw new Error('Google Sign-In chưa tải được. Hãy kiểm tra kết nối Internet rồi thử lại.');
+    }
+    if (driveAccessToken && Date.now() < driveAccessTokenExpiresAt) {
+      return Promise.resolve(driveAccessToken);
+    }
+
+    return new Promise((resolve, reject) => {
+      const tokenClient = window.google.accounts.oauth2.initTokenClient({
+        client_id: clientId,
+        scope: DRIVE_FILE_SCOPE,
+        callback: response => {
+          if (response.error || !response.access_token) {
+            reject(new Error(response.error_description || response.error || 'Không nhận được quyền truy cập Google Drive.'));
+            return;
+          }
+          driveAccessToken = response.access_token;
+          driveAccessTokenExpiresAt = Date.now() + Math.max(0, (Number(response.expires_in || 3600) - 60) * 1000);
+          resolve(driveAccessToken);
+        },
+        error_callback: error => reject(new Error(error.message || 'Cửa sổ đăng nhập Google đã bị đóng hoặc bị chặn.'))
+      });
+      tokenClient.requestAccessToken({ prompt: 'select_account' });
+    });
+  }
+
+  async function uploadTaskToDrive() {
+    const fileInput = document.getElementById('drive-submission-file');
+    const button = document.getElementById('drive-submission-button');
+    const file = fileInput?.files?.[0];
+    const task = activeChapter?.tasks.find(item => item.id === activeCourseTaskId);
+    if (!file) {
+      setDriveSubmissionStatus('Hãy chọn tệp bài làm trước khi tải lên.', true);
+      return;
+    }
+    if (!task || !activeCourse || !activeChapter) {
+      setDriveSubmissionStatus('Không xác định được task cần nộp. Hãy mở lại chi tiết task.', true);
+      return;
+    }
+
+    if (button) button.disabled = true;
+    setDriveSubmissionStatus('Đang kết nối Google Drive...');
+    try {
+      const accessToken = await requestDriveAccessToken();
+      const submissions = getStoredDriveSubmissions();
+      const previousSubmission = submissions[task.id];
+      const fileName = [activeCourse.name, activeChapter.title, task.title, file.name]
+        .join(' - ')
+        .replace(/[\\/:*?"<>|]/g, '-')
+        .slice(0, 240);
+      const metadata = {
+        name: fileName,
+        mimeType: file.type || 'application/octet-stream',
+        description: `Bài nộp Semester Hub: ${activeCourse.name} / ${activeChapter.title} / ${task.title}`,
+        appProperties: { semesterHubTaskId: task.id }
+      };
+      const boundary = `semesterhub_${Date.now()}_${Math.random().toString(16).slice(2)}`;
+      const multipartBody = new Blob([
+        `--${boundary}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n${JSON.stringify(metadata)}\r\n--${boundary}\r\nContent-Type: ${file.type || 'application/octet-stream'}\r\n\r\n`,
+        file,
+        `\r\n--${boundary}--`
+      ], { type: `multipart/related; boundary=${boundary}` });
+      const fileId = previousSubmission?.id;
+      const endpoint = fileId
+        ? `https://www.googleapis.com/upload/drive/v3/files/${encodeURIComponent(fileId)}?uploadType=multipart&fields=id,name,webViewLink,modifiedTime`
+        : 'https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id,name,webViewLink,modifiedTime';
+      const response = await fetch(endpoint, {
+        method: fileId ? 'PATCH' : 'POST',
+        headers: {
+          Authorization: `Bearer ${accessToken}`,
+          'Content-Type': `multipart/related; boundary=${boundary}`
+        },
+        body: multipartBody
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        throw new Error(result.error?.message || `Google Drive trả về lỗi ${response.status}.`);
+      }
+
+      submissions[task.id] = {
+        id: result.id,
+        name: result.name,
+        fileName: file.name,
+        webViewLink: result.webViewLink || '',
+        submittedAt: result.modifiedTime || new Date().toISOString()
+      };
+      localStorage.setItem(LS_DRIVE_SUBMISSIONS, JSON.stringify(submissions));
+      renderDriveSubmission(task);
+      setDriveSubmissionStatus(`Đã tải “${file.name}” lên Google Drive.`);
+      fileInput.value = '';
+    } catch (error) {
+      setDriveSubmissionStatus(error.message || 'Không thể tải bài lên Google Drive.', true);
+    } finally {
+      if (button) button.disabled = false;
+    }
   }
 
   function setCourseTaskStatus(status) {
@@ -1372,6 +1522,7 @@
     openCourseTaskDetail,
     returnToChapterTasks,
     setCourseTaskStatus,
+    uploadTaskToDrive,
     openAddTaskModal,
     closeAddTaskModal,
     handleAddTaskSubmit,

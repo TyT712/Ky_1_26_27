@@ -9,6 +9,7 @@ Semester Hub là ứng dụng web tĩnh giúp quản lý học phần, nội dun
 - Xem danh sách task trong từng chương; mở task ở trang riêng để đọc yêu cầu và cập nhật trạng thái.
 - Xem task toàn kỳ theo danh sách hoặc Kanban; lọc theo trạng thái/hạn, chọn học phần và sắp xếp task.
 - Thêm task, đặt hạn, chọn ưu tiên và trạng thái.
+- Tải một tệp bài làm cho mỗi task lên Google Drive cá nhân bằng Google Sign-In.
 - Theo dõi số học phần, task, task khẩn cấp và tiến độ hoàn thành.
 - Chuyển giao diện sáng/tối và xuất dữ liệu để đồng bộ lại với Git.
 
@@ -73,6 +74,20 @@ git add data/courses.js
 git commit -m "Cập nhật dữ liệu học phần"
 git push
 ```
+
+## Nộp bài lên Google Drive
+
+Tính năng nộp bài dùng Google Identity Services và Google Drive API với scope `drive.file`. Mỗi task lưu một file ID và link trong LocalStorage của trình duyệt; tải lại bài cho cùng task sẽ cập nhật file đã nộp trước đó. Tệp mới được tạo riêng tư trong Drive của tài khoản đã chọn và không tự động chia sẻ với giảng viên. Metadata liên kết không đồng bộ sang trình duyệt/thiết bị khác.
+
+### Cấu hình Google OAuth
+
+1. Trong Google Cloud Console, tạo/chọn project và bật **Google Drive API**.
+2. Cấu hình OAuth consent screen. Nếu ứng dụng ở chế độ Testing, thêm tài khoản Google sẽ dùng để nộp bài vào danh sách test users.
+3. Tạo OAuth Client ID loại **Web application**. Thêm origin đang chạy vào **Authorized JavaScript origins**, ví dụ `http://localhost:8000` và `https://<username>.github.io`. Chỉ điền origin, không thêm đường dẫn trang.
+4. Dán Client ID vào thuộc tính `content` của thẻ `meta[name="google-oauth-client-id"]` trong `index.html`.
+5. Chạy trang qua HTTP/HTTPS, không mở trực tiếp bằng `file://`. Có thể chạy `python -m http.server 8000` từ thư mục dự án rồi truy cập `http://localhost:8000`.
+
+Client ID không phải bí mật và có thể nằm trong frontend; không đưa OAuth client secret vào repository. Khi tải bài, trình duyệt xin scope `drive.file`, chỉ cho phép ứng dụng truy cập các tệp do ứng dụng tạo/chọn, không phải toàn bộ Drive. Người nộp cần tự chia sẻ file từ Google Drive nếu muốn giảng viên truy cập.
 
 ## Triển khai GitHub Pages
 

@@ -233,8 +233,8 @@ Vòng đời phát triển phần mềm (SDLC) gồm các giai đoạn tổng qu
         },
         {
           id: "task-db-ch1-07",
-          title: "Task 7: Phân loại ngôn ngữ CSDL và lệnh thao tác",
-          note: "Nhiệm vụ: Trình bày vai trò của DDL, DML, SQL và ngôn ngữ chủ. Phân loại các thao tác: lấy họ tên và ngày sinh sinh viên; tạo bảng DANGKY_MONHOC; cập nhật địa chỉ khách hàng; viết cấu trúc IF...THEN xử lý tính lương trong chương trình C++/Pascal.\n\nMục tiêu: Hiểu chức năng của các loại ngôn ngữ giao tiếp giữa người dùng và CSDL.",
+          title: "Task 7: Phân tích điều kiện khôi phục CSDL về một thời điểm trong quá khứ",
+          note: "Tình huống: CSDL bán hàng gặp lỗi lúc 14:30 khiến một số hóa đơn bị cập nhật nhầm. Yêu cầu khôi phục trạng thái dữ liệu về 14:25, ngay trước khi xảy ra lỗi.\n\nNhiệm vụ: Phân tích những điều kiện cần để thực hiện khôi phục đến đúng thời điểm (point-in-time recovery): phải có bản sao lưu đầy đủ phù hợp được tạo trước 14:25; các bản sao lưu gia tăng/khác biệt cần thiết (nếu dùng) phải còn đầy đủ; nhật ký giao dịch hoặc log lưu trữ phải bao phủ liên tục từ bản sao lưu đến 14:25 và không bị thiếu/hỏng; hệ quản trị CSDL phải hỗ trợ khôi phục theo thời điểm và xác định chính xác mốc thời gian, múi giờ. Mô tả thứ tự khôi phục bản sao lưu và phát lại log, đồng thời nêu cách kiểm tra dữ liệu sau khôi phục.\n\nPhân tích thêm: Nếu thiếu bản sao lưu phù hợp hoặc log bị đứt đoạn trước 14:25 thì có thể khôi phục đến đâu? Vì sao nên khôi phục thử trên một máy chủ/bản sao riêng trước khi thay thế CSDL đang hoạt động?\n\nMục tiêu: Hiểu rằng khôi phục đúng một thời điểm trong quá khứ cần cả bản sao lưu và chuỗi log liên tục, không chỉ cần một file backup.",
           priority: "medium",
           status: "todo"
         },
