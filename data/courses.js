@@ -1,7 +1,7 @@
 window.SEMESTER_DATA = {
   semesterInfo: {
     title: "Học Kỳ 1 - Năm Học 2026 - 2027",
-    studentName: "Sinh Viên Đại Học",
+    studentName: "Lê Linh",
     studentId: "22020000",
     major: "Sư phạm Tin",
     academicYear: "2026-2027",
