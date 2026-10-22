@@ -1,99 +1,109 @@
-# Semester Hub
+# Academic Knowledge & Study System
+### Hệ thống Quản lý Học tập & Trợ lý Học thuật Thông minh (Antigravity Agent)
 
-Semester Hub là ứng dụng web tĩnh giúp quản lý học phần, nội dung theo chương và task trong học kỳ. Ứng dụng chạy bằng HTML, CSS và JavaScript thuần, không cần cài đặt hoặc chạy bước build.
+Hệ thống quản lý tri thức và trợ lý học thuật thông minh, lấy dữ liệu cốt lõi từ **tập hợp giáo trình PDF chính quy của các môn học** kết hợp với **các bản ghi chú/tóm tắt học tập xuất từ Google NotebookLM**. 
 
-## Tính năng
+Hệ thống được thiết kế theo kiến trúc **Dual-Layer RAG** (Retrieval-Augmented Generation hai tầng), đảm bảo nguyên tắc **Strict Grounding** (100% căn cứ giáo trình, không bịa đặt/hallucination) nhằm phục vụ sinh viên ôn tập thi cử, làm bài tập và nắm vững đề cương môn học.
 
-- Xem các học phần và điều hướng theo cấu trúc **Môn học → Chương → Nội dung hoặc Task**.
-- Đọc nội dung chương được viết bằng Markdown.
-- Xem danh sách task trong từng chương; mở task ở trang riêng để đọc yêu cầu và cập nhật trạng thái.
-- Xem task toàn kỳ theo danh sách hoặc Kanban; lọc theo trạng thái/hạn, chọn học phần và sắp xếp task.
-- Thêm task, đặt hạn, chọn ưu tiên và trạng thái.
-- Tải một tệp bài làm cho mỗi task lên Google Drive cá nhân bằng Google Sign-In.
-- Theo dõi số học phần, task, task khẩn cấp và tiến độ hoàn thành.
-- Chuyển giao diện sáng/tối và xuất dữ liệu để đồng bộ lại với Git.
+---
 
-## Chạy tại máy
-
-Mở `index.html` bằng trình duyệt. Không cần Node.js hay lệnh build. Trang tải Tailwind CSS, Lucide, Marked và DOMPurify từ CDN, vì vậy cần kết nối Internet để các thư viện và giao diện được tải đầy đủ.
-
-## Cấu trúc dự án
+## 1. Cấu Trúc Dự Án (Project Structure)
 
 ```text
 semester-hub/
-├── index.html                  # Giao diện ứng dụng
-├── css/styles.css              # Kiểu dáng bổ sung
-├── js/app.js                   # Điều hướng và xử lý tương tác
-├── data/courses.js             # Dữ liệu học kỳ, học phần, chương và task
-└── .github/workflows/deploy.yml # Tự động triển khai GitHub Pages
+├── .antigravity/                 # Cấu hình Agent & Context của IDE
+│   ├── context.md                # Mô tả bối cảnh dự án và quy tắc hoạt động học thuật
+│   └── skills_registry.json      # Định nghĩa các Agent Skills (Schema & Capabilities)
+├── data/
+│   ├── raw_pdfs/                 # Chứa file PDF giáo trình gốc (phân theo thư mục từng môn)
+│   ├── notebook_exports/         # Chứa các file .md xuất ra từ Google NotebookLM của người dùng
+│   └── parsed_markdown/          # Chứa nội dung giáo trình đã được bóc tách từ PDF sang Markdown
+├── src/
+│   ├── skills/                   # Mã nguồn thực thi của các Agent Skills
+│   │   ├── __init__.py
+│   │   ├── pdf_ingestor.py       # Skill bóc tách PDF sang Markdown giữ nguyên cấu trúc đề mục
+│   │   ├── knowledge_retriever.py# Skill tìm kiếm ngữ nghĩa / từ khóa trong kho giáo trình
+│   │   └── study_assistant.py    # Skill tổng hợp kiến thức, tạo câu hỏi ôn tập, giải bài tập
+│   └── utils/                    # Các hàm bổ trợ
+│       ├── __init__.py
+│       ├── text_processing.py    # Chuẩn hóa văn bản, trích xuất đề mục & chunking
+│       └── gemini_client.py      # Kết nối Gemini API (xử lý text & PDF multimodal)
+├── docs/
+│   └── architecture.md           # Tài liệu kiến trúc hệ thống và luồng dữ liệu (Mermaid.js)
+├── requirements.txt              # Thư viện phụ thuộc
+└── README.md
 ```
 
-## Cập nhật dữ liệu
+---
 
-Nguồn dữ liệu ban đầu nằm trong `data/courses.js`. Mỗi học phần có danh sách `chapters`; mỗi chương có tiêu đề, nội dung Markdown và danh sách task.
+## 2. Các Kỹ Năng Cốt Lõi (Core Agent Skills)
 
-```js
-{
-   id: "software-engineering",
-   name: "Công nghệ phần mềm",
-   chapters: [
-      {
-         id: "software-engineering-chapter-1",
-         title: "Chương 1: Tổng quan",
-         content: "## Nội dung chương",
-         tasks: [
-            {
-               id: "task-se-ch1-01",
-               title: "Tên task",
-               note: "Yêu cầu và mục tiêu của task",
-               deadline: "2026-10-20",
-               priority: "medium",
-               status: "todo"
-            }
-         ]
-      }
-   ]
-}
-```
+### 2.1. `pdf_ingestor`
+Bóc tách các file PDF giáo trình trong `data/raw_pdfs/` sang tài liệu Markdown chuẩn hóa trong `data/parsed_markdown/`:
+- Giữ nguyên cấu trúc cây phân cấp đề mục (`#`, `##`, `###`).
+- Giữ nguyên công thức toán/lý dạng LaTeX (`$...$` và `$$...$$`).
+- Đánh dấu số trang `<!-- PAGE X -->` để phục vụ trích dẫn chính xác.
+- Hỗ trợ chế độ AI Multimodal (sử dụng Gemini API để nhận diện bảng biểu & sơ đồ phức tạp) và chế độ cục bộ (dùng thư viện `pypdf`).
 
-- `content` và `note` hỗ trợ Markdown.
-- `deadline` có thể bỏ trống; nếu có, dùng định dạng `YYYY-MM-DD`.
-- `priority` nhận `high`, `medium` hoặc `low`.
-- `status` nhận `todo`, `in-progress` hoặc `done`.
-- Giữ `id` duy nhất cho từng học phần, chương và task.
-- Học phần chưa có nội dung có thể dùng `chapters: []`.
-
-## Trạng thái trên trình duyệt và đồng bộ Git
-
-Task tạo từ giao diện, trạng thái task và lựa chọn giao diện được lưu trong LocalStorage của trình duyệt hiện tại; các dữ liệu này không tự đồng bộ giữa các thiết bị. Để đưa thay đổi giao diện vào mã nguồn, chọn **Đồng bộ Git**, sao chép dữ liệu đã xuất hoặc tải file, rồi cập nhật `data/courses.js`.
-
-Sau khi cập nhật mã nguồn:
-
+**Cách sử dụng:**
 ```bash
-git add data/courses.js
-git commit -m "Cập nhật dữ liệu học phần"
-git push
+# Xử lý 1 file PDF cụ thể
+python src/skills/pdf_ingestor.py --file data/raw_pdfs/giai_tich_1/giao_trinh.pdf --subject giai_tich_1
+
+# Xử lý tự động toàn bộ thư mục PDF
+python src/skills/pdf_ingestor.py --batch
 ```
 
-## Nộp bài lên Google Drive
+### 2.2. `knowledge_retriever`
+Truy xuất thông tin đối chiếu 2 tầng (Dual-Layer Retrieval):
+- **Tầng 1:** Đọc hiểu nhanh bản đồ ý niệm từ tóm tắt của NotebookLM (`data/notebook_exports/`).
+- **Tầng 2:** Tra cứu chuyên sâu chi tiết định lý, công thức, số trang trong giáo trình gốc (`data/parsed_markdown/`).
 
-Tính năng nộp bài dùng Google Identity Services và Google Drive API với scope `drive.file`. Mỗi task lưu một file ID và link trong LocalStorage của trình duyệt; tải lại bài cho cùng task sẽ cập nhật file đã nộp trước đó. Tệp mới được tạo riêng tư trong Drive của tài khoản đã chọn và không tự động chia sẻ với giảng viên. Metadata liên kết không đồng bộ sang trình duyệt/thiết bị khác.
+**Cách sử dụng:**
+```bash
+python src/skills/knowledge_retriever.py "Định lý giá trị trung bình Lagrange" --subject giai_tich_1
+```
 
-### Cấu hình Google OAuth
+### 2.3. `study_assistant`
+Trợ lý học thuật giúp ôn thi và làm bài tập bám sát 100% đề cương:
+- **Giải bài tập (`solve`):** Giải từng bước chuẩn mực 4 bước, trích dẫn định lý giáo trình.
+- **Tạo câu hỏi trắc nghiệm (`quiz`):** Sinh đề ôn tập có đáp án và giải thích chi tiết.
+- **Giải thích khái niệm (`explain`):** Giảng giải trực quan lý thuyết khó.
 
-1. Trong Google Cloud Console, tạo/chọn project và bật **Google Drive API**.
-2. Cấu hình OAuth consent screen. Nếu ứng dụng ở chế độ Testing, thêm tài khoản Google sẽ dùng để nộp bài vào danh sách test users.
-3. Tạo OAuth Client ID loại **Web application**. Thêm origin đang chạy vào **Authorized JavaScript origins**, ví dụ `http://localhost:8000` và `https://<username>.github.io`. Chỉ điền origin, không thêm đường dẫn trang.
-4. Dán Client ID vào thuộc tính `content` của thẻ `meta[name="google-oauth-client-id"]` trong `index.html`.
-5. Chạy trang qua HTTP/HTTPS, không mở trực tiếp bằng `file://`. Có thể chạy `python -m http.server 8000` từ thư mục dự án rồi truy cập `http://localhost:8000`.
+**Cách sử dụng:**
+```bash
+# Giải bài tập
+python src/skills/study_assistant.py solve "Tính đạo hàm hàm số f(x) = x^2 * sin(x)" --subject giai_tich_1
 
-Client ID không phải bí mật và có thể nằm trong frontend; không đưa OAuth client secret vào repository. Khi tải bài, trình duyệt xin scope `drive.file`, chỉ cho phép ứng dụng truy cập các tệp do ứng dụng tạo/chọn, không phải toàn bộ Drive. Người nộp cần tự chia sẻ file từ Google Drive nếu muốn giảng viên truy cập.
+# Sinh bộ câu hỏi ôn tập
+python src/skills/study_assistant.py quiz "Đạo hàm và Vi phân" --subject giai_tich_1 -n 5
 
-## Triển khai GitHub Pages
+# Giải thích khái niệm
+python src/skills/study_assistant.py explain "Danh sách liên kết đơn vs mảng động" --subject cau_truc_du_lieu
+```
 
-Workflow `.github/workflows/deploy.yml` triển khai trang khi có push lên nhánh `main` hoặc `master`, và hỗ trợ chạy thủ công.
+---
 
-1. Đẩy mã nguồn lên repository GitHub.
-2. Trong repository, mở **Settings → Pages** và chọn **GitHub Actions** làm nguồn triển khai.
-3. Push lên `main`/`master` hoặc chạy workflow **Deploy to GitHub Pages** trong tab **Actions**.
-4. Mở URL Pages được hiển thị trong workflow sau khi deploy thành công.
+## 3. Cài Đặt Môi Trường (Installation & Setup)
+
+1. **Cài đặt thư viện Python:**
+```bash
+pip install -r requirements.txt
+```
+
+2. **Cấu hình biến môi trường (Tùy chọn cho tính năng LLM nâng cao):**
+```bash
+# Windows PowerShell
+$env:GEMINI_API_KEY="your_gemini_api_key_here"
+
+# Linux / macOS
+export GEMINI_API_KEY="your_gemini_api_key_here"
+```
+
+---
+
+## 4. Quy Tắc Hoạt Động Của Agent (Strict Grounding)
+Mọi phản hồi học thuật từ Agent tuân thủ nghiêm ngặt quy tắc trong [.antigravity/context.md](file:///.antigravity/context.md):
+1. **Không bịa đặt (Zero Hallucination):** Chỉ giải thích dựa trên nội dung có trong giáo trình đã nạp.
+2. **Minh bạch trích dẫn:** Mọi câu trả lời đều có nhãn `[Môn học | Tài liệu | Mục | Trang]`.
+3. **Phân tách tri thức:** Nếu giáo trình chưa đề cập, Agent sẽ thông báo rõ ràng trước khi gợi ý kiến thức tham khảo bên ngoài.

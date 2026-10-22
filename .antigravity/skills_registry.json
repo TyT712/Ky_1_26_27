@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "system_name": "Academic Knowledge & Study System",
+  "version": "1.0.0",
+  "description": "Registry of core agent skills for PDF ingestion, hybrid academic retrieval, and curriculum-grounded study assistance.",
+  "skills": [
+    {
+      "id": "pdf_ingestor",
+      "name": "PDF to Markdown Structure Ingestor",
+      "version": "1.0.0",
+      "entrypoint": "src/skills/pdf_ingestor.py",
+      "description": "Bóc tách giáo trình định dạng PDF thành tài liệu Markdown chuẩn hóa, bảo toàn thứ bậc đề mục (H1-H4), công thức toán học và bảng biểu.",
+      "capabilities": [
+        "parse_pdf_to_markdown",
+        "batch_ingest_directory",
+        "extract_document_outline",
+        "clean_extracted_text"
+      ],
+      "input_paths": {
+        "raw_pdfs_root": "data/raw_pdfs"
+      },
+      "output_paths": {
+        "parsed_markdown_root": "data/parsed_markdown"
+      },
+      "parameters": {
+        "file_path": {
+          "type": "string",
+          "description": "Đường dẫn tuyệt đối hoặc tương đối tới file PDF cần xử lý."
+        },
+        "subject_code": {
+          "type": "string",
+          "description": "Mã môn học hoặc thư mục môn học tương ứng (ví dụ: math101, cs50)."
+        },
+        "preserve_page_markers": {
+          "type": "boolean",
+          "default": true,
+          "description": "Gắn nhãn <!-- PAGE X --> để hỗ trợ trích dẫn số trang chính xác."
+        }
+      }
+    },
+    {
+      "id": "knowledge_retriever",
+      "name": "Academic Knowledge & Context Retriever (RAG)",
+      "version": "1.0.0",
+      "entrypoint": "src/skills/knowledge_retriever.py",
+      "description": "Truy xuất thông tin ngữ nghĩa và từ khóa đối chiếu chéo giữa kho giáo trình Markdown và các tóm tắt từ Google NotebookLM.",
+      "capabilities": [
+        "hybrid_search",
+        "keyword_search",
+        "dual_layer_query",
+        "get_subject_index"
+      ],
+      "input_paths": {
+        "textbooks_markdown": "data/parsed_markdown",
+        "notebooklm_summaries": "data/notebook_exports"
+      },
+      "parameters": {
+        "query": {
+          "type": "string",
+          "description": "Câu truy vấn kiến thức, câu hỏi bài tập hoặc từ khóa học thuật."
+        },
+        "subject_code": {
+          "type": "string",
+          "description": "Giới hạn phạm vi tìm kiếm theo môn học hoặc để trống nếu tìm toàn bộ."
+        },
+        "top_k": {
+          "type": "integer",
+          "default": 5,
+          "description": "Số lượng đoạn văn bản liên quan nhất cần trả về."
+        },
+        "include_notebook_summaries": {
+          "type": "boolean",
+          "default": true,
+          "description": "Đối chiếu đồng thời với các ghi chú từ Google NotebookLM."
+        }
+      }
+    },
+    {
+      "id": "study_assistant",
+      "name": "Curriculum-Grounded Study Assistant",
+      "version": "1.0.0",
+      "entrypoint": "src/skills/study_assistant.py",
+      "description": "Trợ lý học thuật giúp giải bài tập từng bước, tổng hợp lý thuyết, sinh câu hỏi trắc nghiệm/tự luận bám sát giáo trình gốc.",
+      "capabilities": [
+        "solve_exercise",
+        "generate_quiz",
+        "explain_concept",
+        "create_study_summary"
+      ],
+      "parameters": {
+        "task_type": {
+          "type": "string",
+          "enum": ["solve", "quiz", "explain", "summary"],
+          "description": "Loại tác vụ học tập cần thực hiện."
+        },
+        "query": {
+          "type": "string",
+          "description": "Nội dung câu hỏi, đề bài tập hoặc chủ đề cần ôn tập."
+        },
+        "subject_code": {
+          "type": "string",
+          "description": "Môn học liên quan."
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["basic", "intermediate", "advanced"],
+          "default": "intermediate",
+          "description": "Mức độ khó của bài tập hoặc bộ câu hỏi tự luyện."
+        }
+      }
+    }
+  ]
+}
