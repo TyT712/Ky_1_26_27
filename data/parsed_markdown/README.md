@@ -11,7 +11,15 @@ data/parsed_markdown/
 ├── giai_tich_1/
 │   ├── chuong_1_ham_so_va_gioi_han.md
 │   └── chuong_2_dao_ham_va_vi_phan.md
+├── he_qtcsdl/
+│   ├── quyen_1_nhap_mon_chuong_1.md
+│   ├── quyen_1_nhap_mon_chuong_2.md
+│   ├── quyen_1_nhap_mon_chuong_3.md
+│   ├── quyen_1_nhap_mon_chuong_4.md
+│   ├── quyen_1_nhap_mon_chuong_5.md
+│   └── quyen_1_nhap_mon_chuong_6.md
 └── cau_truc_du_lieu/
     ├── cay_nhi_phan.md
     └── do_thi.md
 ```
+

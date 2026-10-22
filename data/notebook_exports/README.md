@@ -10,6 +10,12 @@ data/notebook_exports/
 ├── giai_tich_1/
 │   ├── chuong_1_gioi_han_va_lien_tuc_summary.md
 │   └── study_guide_giua_ky.md
+├── he_qtcsdl/
+│   ├── tong_quan_csdl_va_kien_truc_summary.md
+│   ├── mo_hinh_er_va_chuyen_doi_summary.md
+│   ├── dai_so_quan_he_va_rang_buoc_summary.md
+│   ├── ngon_ngu_sql_va_truy_van_nang_cao_summary.md
+│   └── to_chuc_vat_ly_va_toi_uu_cau_hoi_summary.md
 └── cau_truc_du_lieu/
     ├── danh_sach_lien_ket_key_points.md
     └── do_phuc_tap_thuat_toan_notes.md
