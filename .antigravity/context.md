@@ -49,3 +49,5 @@ Hệ thống tổ chức dữ liệu theo kiến trúc hai tầng tri thức (Du
 1. **`pdf_ingestor`:** Bóc tách PDF sang Markdown cấu trúc cao, nhận diện tiêu đề, trích xuất text rõ ràng.
 2. **`knowledge_retriever`:** Truy xuất đa tầng (Hybrid Search: Full-text & Semantic Context) đối chiếu chéo giữa giáo trình và ghi chú NotebookLM.
 3. **`study_assistant`:** Sinh bài tập tự luyện, flashcards, giải bài tập từng bước (step-by-step) bám sát tài liệu.
+4. **`chapter_study_pack_generator`:** Đóng gói chương giáo trình Markdown và tóm tắt NotebookLM thành Module Học tập & Khảo thí tương tác (Summary + 10+ Trắc nghiệm + 5+ Trả lời ngắn + 3+ Tự luận kèm đáp án ẩn `<details>`) tương thích GitHub Pages / Docsify.
+

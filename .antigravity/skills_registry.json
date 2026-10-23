@@ -108,6 +108,41 @@
           "description": "Mức độ khó của bài tập hoặc bộ câu hỏi tự luyện."
         }
       }
+    },
+    {
+      "id": "chapter_study_pack_generator",
+      "name": "Chapter Interactive Study Pack Generator",
+      "version": "1.0.0",
+      "entrypoint": "src/skills/chapter_study_pack_generator.py",
+      "guide": ".antigravity/skills/chapter_study_pack_generator.md",
+      "description": "Chuyển hóa chương giáo trình Markdown và tóm tắt NotebookLM thành Gói học liệu tương tác hoàn chỉnh gồm 4 phần: Executive Summary (Mermaid.js), 10+ câu Trắc nghiệm, 5+ câu Trả lời ngắn, 3+ bài Tự luận/Thiết kế kèm đáp án ẩn trong thẻ details.",
+      "capabilities": [
+        "generate_study_pack",
+        "validate_study_pack",
+        "format_interactive_details"
+      ],
+      "input_paths": {
+        "parsed_markdown_root": "data/parsed_markdown",
+        "notebooklm_summaries_root": "data/notebook_exports"
+      },
+      "output_paths": {
+        "lms_docs_root": "docs/courses"
+      },
+      "parameters": {
+        "chapter_file": {
+          "type": "string",
+          "description": "Đường dẫn file chương giáo trình Markdown."
+        },
+        "summary_file": {
+          "type": "string",
+          "description": "Đường dẫn file tóm tắt bổ trợ từ NotebookLM (nếu có)."
+        },
+        "target_file": {
+          "type": "string",
+          "description": "Đường dẫn file output trong docs/courses/."
+        }
+      }
     }
   ]
 }
+
