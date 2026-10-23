@@ -17,7 +17,12 @@ data/parsed_markdown/
 │   ├── quyen_1_nhap_mon_chuong_3.md
 │   ├── quyen_1_nhap_mon_chuong_4.md
 │   ├── quyen_1_nhap_mon_chuong_5.md
-│   └── quyen_1_nhap_mon_chuong_6.md
+│   ├── quyen_1_nhap_mon_chuong_6.md
+│   ├── quyen_2_thiet_ke_chuong_1.md
+│   ├── quyen_2_thiet_ke_chuong_2.md
+│   ├── quyen_2_thiet_ke_chuong_3.md
+│   ├── quyen_2_thiet_ke_chuong_4.md
+│   └── quyen_2_thiet_ke_chuong_5.md
 └── cau_truc_du_lieu/
     ├── cay_nhi_phan.md
     └── do_thi.md

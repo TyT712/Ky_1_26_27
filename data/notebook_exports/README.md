@@ -15,7 +15,12 @@ data/notebook_exports/
 │   ├── mo_hinh_er_va_chuyen_doi_summary.md
 │   ├── dai_so_quan_he_va_rang_buoc_summary.md
 │   ├── ngon_ngu_sql_va_truy_van_nang_cao_summary.md
-│   └── to_chuc_vat_ly_va_toi_uu_cau_hoi_summary.md
+│   ├── to_chuc_vat_ly_va_toi_uu_cau_hoi_summary.md
+│   ├── rang_buoc_toan_ven_va_trigger_summary.md
+│   ├── phu_thuoc_ham_va_thuat_toan_tim_khoa_summary.md
+│   ├── ly_thuyet_phan_tach_va_bao_toan_summary.md
+│   ├── chuan_hoa_csdl_1nf_2nf_3nf_bcnf_summary.md
+│   └── phu_thuoc_da_tri_va_4nf_summary.md
 └── cau_truc_du_lieu/
     ├── danh_sach_lien_ket_key_points.md
     └── do_phuc_tap_thuat_toan_notes.md
