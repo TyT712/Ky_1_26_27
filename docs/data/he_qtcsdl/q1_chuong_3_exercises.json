@@ -1,0 +1,490 @@
+{
+ "chapter_id": "q1_chuong_3",
+ "chapter_title": "Quyển 1 - Chương 3: Mô hình quan hệ & Đại số quan hệ",
+ "multiple_choice": [
+  {
+   "id": 1,
+   "difficulty": "easy",
+   "question": "Phép toán đại số quan hệ nào sau đây làm giảm số lượng thuộc tính (cột) của một quan hệ?",
+   "options": {
+    "A": "Tích Descartes ($\\times$)",
+    "B": "Phép hợp ($\\cup$)",
+    "C": "Phép chọn ($\\sigma$)",
+    "D": "Phép chiếu ($\\pi$)"
+   },
+   "correct_answer": "D",
+   "explanation": "Phép chiếu $\\pi_L(R)$ chỉ giữ lại danh sách các thuộc tính trong $L$ và loại bỏ các cột không được liệt kê, do đó làm giảm số cột của quan hệ."
+  },
+  {
+   "id": 2,
+   "difficulty": "easy",
+   "question": "Hai quan hệ $R$ và $S$ được gọi là \"khả hợp\" (Union-compatible) khi và chỉ khi:",
+   "options": {
+    "A": "Chúng được lưu trữ trong cùng một tệp đĩa.",
+    "B": "Chúng có cùng khóa chính.",
+    "C": "Chúng có cùng số lượng các bộ dữ liệu.",
+    "D": "Chúng có cùng bậc (số lượng thuộc tính) và các cặp thuộc tính tương ứng có miền giá trị tương thích."
+   },
+   "correct_answer": "D",
+   "explanation": "Điều kiện khả hợp đòi hỏi hai quan hệ phải có cùng số lượng thuộc tính và miền giá trị của thuộc tính thứ $i$ trong $R$ phải tương thích với thuộc tính thứ $i$ trong $S$."
+  },
+  {
+   "id": 3,
+   "difficulty": "easy",
+   "question": "Cho quan hệ $R$ có 10 bộ và quan hệ $S$ có 20 bộ. Số lượng bộ tối đa có thể có trong kết quả của tích Descartes $R \\times S$ là:",
+   "options": {
+    "A": "10 bộ",
+    "B": "20 bộ",
+    "C": "200 bộ",
+    "D": "30 bộ"
+   },
+   "correct_answer": "C",
+   "explanation": "Số lượng bộ của tích Descartes luôn bằng tích số lượng bộ của hai quan hệ: $|R \\times S| = |R| \\times |S| = 10 \\times 20 = 200$ bộ."
+  },
+  {
+   "id": 4,
+   "difficulty": "easy",
+   "question": "Phép toán nào trong đại số quan hệ thường được sử dụng để giải quyết các câu hỏi truy vấn chứa mệnh đề \"với mọi\" (ví dụ: tìm sinh viên đã thi đậu TẤT CẢ các môn học)?",
+   "options": {
+    "A": "Phép giao ($\\cap$)",
+    "B": "Phép chia ($\\div$)",
+    "C": "Phép kết nối tự nhiên ($\\bowtie$)",
+    "D": "Phép trừ ($-$)"
+   },
+   "correct_answer": "B",
+   "explanation": "Phép chia $R \\div S$ là phép toán đại số chuyên biệt dùng để lọc ra những cá thể trong $R$ có mối quan hệ đồng thời với mọi cá thể trong $S$."
+  },
+  {
+   "id": 5,
+   "difficulty": "easy",
+   "question": "Kết quả của phép chọn $\\sigma_{\\text{Diem} > 8}(\\text{KETQUA})$ sẽ là:",
+   "options": {
+    "A": "Một quan hệ chứa các cột có điểm số lớn hơn 8.",
+    "B": "Một giá trị boolean `TRUE` hoặc `FALSE`.",
+    "C": "Một con số nguyên đếm số lượng sinh viên đạt điểm trên 8.",
+    "D": "Một quan hệ chứa tất cả các bộ (dòng) của `KETQUA` có giá trị tại cột `Diem` lớn hơn 8."
+   },
+   "correct_answer": "D",
+   "explanation": "Phép chọn $\\sigma_C(R)$ là phép toán lọc theo dòng (ngang), trả về một quan hệ con gồm toàn bộ các bộ thỏa mãn biểu thức điều kiện $C$."
+  },
+  {
+   "id": 6,
+   "difficulty": "easy",
+   "question": "Biểu thức nào sau đây biểu diễn mối quan hệ giữa phép giao ($\\cap$) và phép trừ ($-$) trong đại số quan hệ?",
+   "options": {
+    "A": "$R \\cap S = S - R$",
+    "B": "$R \\cap S = (R \\cup S) - R$",
+    "C": "$R \\cap S = R - (R - S)$",
+    "D": "$R \\cap S = R - S$"
+   },
+   "correct_answer": "C",
+   "explanation": "Phần tử thuộc cả $R$ và $S$ chính là phần tử thuộc $R$ sau khi loại trừ đi các phần tử thuộc $R$ nhưng không thuộc $S$."
+  },
+  {
+   "id": 7,
+   "difficulty": "easy",
+   "question": "Sự khác biệt căn bản giữa Phép kết nối có điều kiện (Theta Join: $R \\bowtie_C S$) và Phép kết tự nhiên (Natural Join: $R \\bowtie S$) là:",
+   "options": {
+    "A": "Kết tự nhiên tự động thực hiện phép kết bằng trên các thuộc tính trùng tên và tự động loại bỏ một thuộc tính trùng lặp ở kết quả.",
+    "B": "Kết tự nhiên không bao giờ sử dụng bộ nhớ RAM.",
+    "C": "Theta Join bắt buộc phải có điều kiện lớn hơn ($>$).",
+    "D": "Kết tự nhiên chỉ áp dụng được cho quan hệ có 1 cột duy nhất."
+   },
+   "correct_answer": "A",
+   "explanation": "Kết tự nhiên so sánh bằng trên các cột cùng tên giữa hai quan hệ và chỉ giữ lại một bản sao của các cột trùng đó, giúp lược đồ kết quả gọn gàng."
+  },
+  {
+   "id": 8,
+   "difficulty": "easy",
+   "question": "Khi thực hiện phép chiếu $\\pi_A(R)$, nếu trong quan hệ $R$ ban đầu có 5 dòng có giá trị tại cột $A$ bằng `'CNTT'`, thì trong quan hệ kết quả sẽ có:",
+   "options": {
+    "A": "Đúng 1 dòng có giá trị `'CNTT'`.",
+    "B": "Tùy thuộc vào phiên bản của hệ điều hành.",
+    "C": "Không có dòng nào.",
+    "D": "Đúng 5 dòng có giá trị `'CNTT'`."
+   },
+   "correct_answer": "A",
+   "explanation": "Trong lý thuyết tập hợp của Đại số quan hệ thuần túy, kết quả của một phép toán luôn là một quan hệ (tập hợp các bộ phân biệt), do đó mọi dòng trùng lặp đều được tự động loại bỏ (Duplicate Elimination)."
+  },
+  {
+   "id": 9,
+   "difficulty": "easy",
+   "question": "Phép kết trái (Left Outer Join - $\\mathbin{⟕}$) khác với phép kết nội (Inner Join - $\\bowtie$) ở điểm nào?",
+   "options": {
+    "A": "Đảo ngược vị trí các cột từ phải sang trái.",
+    "B": "Chỉ trả về các bộ không khớp nhau.",
+    "C": "Không bao giờ sử dụng điều kiện bằng.",
+    "D": "Giữ lại tất cả các bộ của quan hệ bên trái ngay cả khi chúng không tìm thấy bộ tương ứng khớp điều kiện ở quan hệ bên phải (các cột bên phải được điền giá trị `NULL`)."
+   },
+   "correct_answer": "D",
+   "explanation": "Left Outer Join bảo toàn toàn bộ dữ liệu của quan hệ bên trái; nếu không có bản ghi khớp bên phải, các thuộc tính của bảng phải sẽ nhận giá trị rỗng (`NULL`)."
+  },
+  {
+   "id": 10,
+   "difficulty": "easy",
+   "question": "Quy tắc biến đổi tương đương nào sau đây là ĐÚNG trong đại số quan hệ?",
+   "options": {
+    "A": "$R - S \\equiv S - R$",
+    "B": "$R \\bowtie S \\equiv R \\times S$",
+    "C": "$\\sigma_{C_1 \\land C_2}(R) \\equiv \\sigma_{C_1}(\\sigma_{C_2}(R))$",
+    "D": "$\\pi_L(\\sigma_C(R)) \\equiv \\sigma_C(\\pi_L(R))$ trong mọi trường hợp bất kể điều kiện $C$ chứa thuộc tính nào"
+   },
+   "correct_answer": "C",
+   "explanation": "Phép chọn với điều kiện hội $C_1 \\land C_2$ có thể tách thành chuỗi các phép chọn liên tiếp $\\sigma_{C_1}(\\sigma_{C_2}(R))$. Phép trừ không có tính giao hoán; phép chiếu không thể đảo trước nếu $C$ chứa thuộc tính bị chiếu bỏ."
+  },
+  {
+   "difficulty": "medium",
+   "question": "Biểu thức đại số quan hệ nào cho danh sách họ tên các sinh viên thuộc khoa `'CNTT'`?",
+   "options": {
+    "A": "$\\sigma_{MaKhoa='CNTT'}(\\pi_{HoTen}(SINHVIEN))$",
+    "B": "$\\pi_{HoTen}(\\sigma_{MaKhoa='CNTT'}(SINHVIEN))$",
+    "C": "$\\pi_{MaKhoa}(\\sigma_{HoTen='CNTT'}(SINHVIEN))$",
+    "D": "$\\sigma_{HoTen}(\\pi_{MaKhoa='CNTT'}(SINHVIEN))$"
+   },
+   "correct_answer": "B",
+   "explanation": "Phải chọn dòng trước ($\\sigma$) rồi mới chiếu cột ($\\pi$). Nếu chiếu trước thì cột `MaKhoa` đã bị loại nên không thể chọn theo điều kiện.",
+   "id": 11
+  },
+  {
+   "difficulty": "medium",
+   "question": "Quan hệ $R$ có 10 bộ, $S$ có 20 bộ, khả hợp. Số bộ tối đa của $R \\cup S$ là:",
+   "options": {
+    "A": "10",
+    "B": "20",
+    "C": "30",
+    "D": "200"
+   },
+   "correct_answer": "C",
+   "explanation": "Tối đa khi $R \\cap S = \\emptyset$: $10 + 20 = 30$. Tối thiểu là $\\max(10,20) = 20$ khi $R \\subseteq S$.",
+   "id": 12
+  },
+  {
+   "difficulty": "medium",
+   "question": "Quan hệ $R$ có 10 bộ, $S$ có 20 bộ, khả hợp. Số bộ tối đa của $R \\cap S$ là:",
+   "options": {
+    "A": "30",
+    "B": "10",
+    "C": "0",
+    "D": "20"
+   },
+   "correct_answer": "B",
+   "explanation": "$R \\cap S \\subseteq R$ nên tối đa bằng $\\min(|R|,|S|) = 10$.",
+   "id": 13
+  },
+  {
+   "difficulty": "medium",
+   "question": "$R$ có 3 thuộc tính, 10 bộ; $S$ có 2 thuộc tính, 5 bộ. $R \\times S$ có bậc và số bộ lần lượt là:",
+   "options": {
+    "A": "Bậc 5, 15 bộ",
+    "B": "Bậc 3, 15 bộ",
+    "C": "Bậc 6, 50 bộ",
+    "D": "Bậc 5, 50 bộ"
+   },
+   "correct_answer": "D",
+   "explanation": "Tích Descartes: bậc cộng ($3+2=5$), số bộ nhân ($10 \\times 5 = 50$).",
+   "id": 14
+  },
+  {
+   "difficulty": "medium",
+   "question": "Quan hệ $R(A,B,C)$ có khóa $A$ và 100 bộ. Số bộ của $\\pi_A(R)$ là:",
+   "options": {
+    "A": "Nhỏ hơn 100",
+    "B": "100",
+    "C": "1",
+    "D": "Không xác định được"
+   },
+   "correct_answer": "B",
+   "explanation": "Vì $A$ là khóa nên các giá trị $A$ đôi một khác nhau, phép chiếu khử trùng không loại bộ nào.",
+   "id": 15
+  },
+  {
+   "difficulty": "medium",
+   "question": "Hai quan hệ $R(A,B)$ và $S(C,D)$ không có thuộc tính chung. $R \\bowtie S$ (kết tự nhiên) tương đương với:",
+   "options": {
+    "A": "$\\emptyset$",
+    "B": "$R \\cup S$",
+    "C": "$R \\times S$",
+    "D": "$R \\cap S$"
+   },
+   "correct_answer": "C",
+   "explanation": "Kết tự nhiên kết bằng trên tập thuộc tính chung. Tập này rỗng nên điều kiện luôn đúng, kết quả là tích Descartes.",
+   "id": 16
+  },
+  {
+   "difficulty": "medium",
+   "question": "Biểu thức nào cho danh sách mã các sinh viên CHƯA có kết quả học tập nào?",
+   "options": {
+    "A": "$\\pi_{MaSV}(SINHVIEN) \\cup \\pi_{MaSV}(KETQUA)$",
+    "B": "$\\pi_{MaSV}(SINHVIEN) - \\pi_{MaSV}(KETQUA)$",
+    "C": "$\\pi_{MaSV}(SINHVIEN) \\cap \\pi_{MaSV}(KETQUA)$",
+    "D": "$\\pi_{MaSV}(KETQUA) - \\pi_{MaSV}(SINHVIEN)$"
+   },
+   "correct_answer": "B",
+   "explanation": "Lấy tập mã sinh viên trừ đi tập mã sinh viên đã có kết quả. Ý D trừ ngược nên ra tập rỗng khi ràng buộc tham chiếu được đảm bảo.",
+   "id": 17
+  },
+  {
+   "difficulty": "medium",
+   "question": "Phép đổi tên $\\rho$ đặc biệt cần thiết khi nào?",
+   "options": {
+    "A": "Khi muốn sắp xếp kết quả",
+    "B": "Khi muốn tăng tốc độ truy vấn",
+    "C": "Khi một quan hệ phải kết với chính nó (tự kết) và cần phân biệt hai bản sao",
+    "D": "Khi muốn xóa dòng trùng"
+   },
+   "correct_answer": "C",
+   "explanation": "Tự kết, ví dụ tìm hai nhân viên cùng phòng, đòi hỏi đặt tên khác nhau cho hai bản sao: $\\rho_{R1}(NV) \\bowtie \\rho_{R2}(NV)$.",
+   "id": 18
+  },
+  {
+   "difficulty": "medium",
+   "question": "Biểu thức nào sau đây ĐÚNG?",
+   "options": {
+    "A": "$\\sigma_{C_1 \\land C_2}(R) \\equiv \\sigma_{C_1}(R) \\cup \\sigma_{C_2}(R)$",
+    "B": "$\\sigma_{C_1 \\land C_2}(R) \\equiv \\pi_{C_1}(\\pi_{C_2}(R))$",
+    "C": "$\\sigma_{C_1 \\land C_2}(R) \\equiv \\sigma_{C_1}(R) - \\sigma_{C_2}(R)$",
+    "D": "$\\sigma_{C_1 \\land C_2}(R) \\equiv \\sigma_{C_1}(\\sigma_{C_2}(R))$"
+   },
+   "correct_answer": "D",
+   "explanation": "Điều kiện hội tương đương chọn lồng nhau. Hội tương ứng giao ($\\cap$) chứ không phải hợp ($\\cup$).",
+   "id": 19
+  },
+  {
+   "difficulty": "medium",
+   "question": "Điểm khác nhau giữa phép kết bằng (equi-join) và phép kết theta ($\\theta$-join) là:",
+   "options": {
+    "A": "Equi-join không dùng điều kiện",
+    "B": "Hai phép hoàn toàn khác nhau về kết quả luôn luôn",
+    "C": "Equi-join chỉ dùng phép so sánh `=`; theta-join cho phép mọi phép so sánh $(<, >, \\ne,...)$",
+    "D": "Theta-join không thể dùng `=`"
+   },
+   "correct_answer": "C",
+   "explanation": "Equi-join là trường hợp riêng của theta-join với toán tử so sánh là `=`.",
+   "id": 20
+  },
+  {
+   "difficulty": "medium",
+   "question": "Vì sao $\\pi_{HoTen}$ trên quan hệ có hai sinh viên cùng tên `'Nam'` chỉ trả về một giá trị `'Nam'`?",
+   "options": {
+    "A": "Vì `HoTen` là khóa",
+    "B": "Vì quan hệ trong đại số quan hệ là tập hợp, không chứa bộ trùng lặp",
+    "C": "Do lỗi DBMS",
+    "D": "Do sắp xếp tự động"
+   },
+   "correct_answer": "B",
+   "explanation": "Đại số quan hệ thuần túy xử lý tập hợp nên kết quả phép chiếu được khử trùng (SQL mới giữ trùng, trừ khi `DISTINCT`).",
+   "id": 21
+  },
+  {
+   "difficulty": "medium",
+   "question": "Phép toán nào sau đây KHÔNG có tính giao hoán?",
+   "options": {
+    "A": "Giao $R \\cap S$",
+    "B": "Tích Descartes $R \\times S$ (xét như tập bộ, bỏ qua thứ tự cột)",
+    "C": "Hiệu $R - S$",
+    "D": "Hợp $R \\cup S$"
+   },
+   "correct_answer": "C",
+   "explanation": "$R - S \\ne S - R$ trong trường hợp tổng quát; các phép kia đều giao hoán.",
+   "id": 22
+  },
+  {
+   "difficulty": "hard",
+   "question": "Biểu thức nào cho danh sách sinh viên đã học TẤT CẢ các môn trong `MONHOC`, chỉ dùng các phép toán cơ bản?",
+   "options": {
+    "A": "$\\pi_{MaSV}(KETQUA) \\cap \\pi_{MaMH}(MONHOC)$",
+    "B": "$\\pi_{MaSV}(KETQUA) - \\pi_{MaMH}(MONHOC)$",
+    "C": "$\\pi_{MaSV}(KETQUA) \\times \\pi_{MaMH}(MONHOC)$",
+    "D": "$\\pi_{MaSV}(KETQUA) - \\pi_{MaSV}\\big((\\pi_{MaSV}(KETQUA) \\times \\pi_{MaMH}(MONHOC)) - \\pi_{MaSV,MaMH}(KETQUA)\\big)$"
+   },
+   "correct_answer": "D",
+   "explanation": "Chia $R \\div S$ = các sinh viên trừ đi những sinh viên còn thiếu ít nhất một môn. Ý A, B sai miền thuộc tính; ý C chỉ là tập tổ hợp.",
+   "id": 23
+  },
+  {
+   "difficulty": "hard",
+   "question": "Phép kết ngoài trái $SINHVIEN ⟕ KETQUA$ (kết bằng trên `MaSV`). Để tìm sinh viên chưa có kết quả nào ta lọc thêm:",
+   "options": {
+    "A": "Không thể thực hiện",
+    "B": "$\\sigma_{Diem = 0}$",
+    "C": "$\\sigma_{MaMH \\text{ IS NULL}}$ trên kết quả kết",
+    "D": "$\\sigma_{MaMH \\text{ IS NOT NULL}}$"
+   },
+   "correct_answer": "C",
+   "explanation": "Sinh viên không khớp bản ghi bên phải được giữ lại với các cột bên phải là `NULL`; lọc `MaMH IS NULL` chọn đúng nhóm này.",
+   "id": 24
+  },
+  {
+   "difficulty": "hard",
+   "question": "Tối ưu `SELECT ... FROM SINHVIEN SV JOIN KETQUA K ON SV.MaSV = K.MaSV WHERE SV.MaKhoa = 'CNTT'` bằng đại số quan hệ, bước tối ưu hiệu quả nhất là:",
+   "options": {
+    "A": "Chiếu tất cả cột rồi mới chọn",
+    "B": "Thực hiện tích Descartes toàn bộ rồi chọn",
+    "C": "Đẩy phép chọn $\\sigma_{MaKhoa='CNTT'}$ xuống trước phép kết để giảm số bộ của `SINHVIEN`",
+    "D": "Thực hiện kết trước rồi mới chọn"
+   },
+   "correct_answer": "C",
+   "explanation": "Quy tắc heuristic: thực hiện phép chọn sớm nhất có thể, vì $\\sigma_C(R \\bowtie S) \\equiv \\sigma_C(R) \\bowtie S$ khi $C$ chỉ chứa thuộc tính của $R$.",
+   "id": 25
+  },
+  {
+   "difficulty": "hard",
+   "question": "Biến đổi nào sau đây SAI (không tương đương)?",
+   "options": {
+    "A": "$\\sigma_{C}(R \\bowtie S) \\equiv \\sigma_{C}(R) \\bowtie S$ khi $C$ chỉ chứa thuộc tính của $R$",
+    "B": "$R \\bowtie S \\equiv S \\bowtie R$",
+    "C": "$(R \\bowtie S) \\bowtie T \\equiv R \\bowtie (S \\bowtie T)$",
+    "D": "$\\pi_{A}(\\sigma_{B=1}(R)) \\equiv \\sigma_{B=1}(\\pi_{A}(R))$ khi $B \\ne A$"
+   },
+   "correct_answer": "D",
+   "explanation": "Sau $\\pi_A$ không còn thuộc tính $B$ nên không thể chọn theo $B$. Đúng ra phải chọn trước rồi chiếu.",
+   "id": 26
+  },
+  {
+   "difficulty": "hard",
+   "question": "Cho $R(A,B) = \\{(1,x),(1,y),(2,x),(3,y)\\}$ và $S(B) = \\{x,y\\}$. Kết quả $R \\div S$ là:",
+   "options": {
+    "A": "$\\{(1)\\}$",
+    "B": "$\\{(2),(3)\\}$",
+    "C": "$\\{(1),(2),(3)\\}$",
+    "D": "$\\emptyset$"
+   },
+   "correct_answer": "A",
+   "explanation": "Chỉ $A=1$ kết nối với cả $x$ và $y$. $A=2$ chỉ có $x$, $A=3$ chỉ có $y$.",
+   "id": 27
+  },
+  {
+   "difficulty": "hard",
+   "question": "$R(A,B) = \\{(1,2),(2,3),(3,4)\\}$, $S(C,D) = \\{(2,x),(3,y),(3,z)\\}$. Số bộ của $R \\bowtie_{R.B = S.C} S$ là:",
+   "options": {
+    "A": "9",
+    "B": "2",
+    "C": "4",
+    "D": "3"
+   },
+   "correct_answer": "D",
+   "explanation": "$(1,2)$ kết $(2,x)$; $(2,3)$ kết $(3,y)$ và $(3,z)$; $(3,4)$ không khớp. Tổng cộng 3 bộ.",
+   "id": 28
+  },
+  {
+   "difficulty": "hard",
+   "question": "Quan hệ `KETQUA(MaSV, ...)` có khóa ngoại `NOT NULL` tham chiếu `SINHVIEN(MaSV)` (khóa). Số bộ của `KETQUA ⋈ SINHVIEN` so với `|KETQUA|` là:",
+   "options": {
+    "A": "Nhỏ hơn `|KETQUA|` chắc chắn",
+    "B": "Lớn hơn `|KETQUA|`",
+    "C": "Bằng `|SINHVIEN|` chắc chắn",
+    "D": "Đúng bằng `|KETQUA|`"
+   },
+   "correct_answer": "D",
+   "explanation": "Mỗi bộ kết quả khớp với đúng một sinh viên (khóa ngoại và khóa chính, không `NULL`), nên số bộ không đổi.",
+   "id": 29
+  },
+  {
+   "difficulty": "hard",
+   "question": "Biểu thức nào sau đây KHÔNG tương đương $R \\cap S$?",
+   "options": {
+    "A": "$(R \\cup S) - ((R - S) \\cup (S - R))$",
+    "B": "$R - (R - S)$",
+    "C": "$S - (S - R)$",
+    "D": "$(R \\cup S) - (R - S)$"
+   },
+   "correct_answer": "D",
+   "explanation": "$(R \\cup S) - (R - S) = S$ chứ không phải giao. Cần loại bỏ cả $R - S$ lẫn $S - R$ như ý A.",
+   "id": 30
+  }
+ ],
+ "short_answers": [
+  {
+   "id": 1,
+   "question": "Cho lược đồ `SINHVIEN(MaSV, HoTen, Phai, MaKhoa)`. Viết biểu thức đại số quan hệ tìm mã và họ tên của các sinh viên nữ (`Phai = N'Nữ'`) thuộc khoa có mã `'CNTT'`.",
+   "expected_answer": "$$\\pi_{MaSV, HoTen} \\left( \\sigma_{Phai = \\text{'Nữ'} \\land MaKhoa = \\text{'CNTT'}}(SINHVIEN) \\right)$$",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 2,
+   "question": "Cho `KHACHHANG(MaKH, TenKH)` và `HOADON(SoHD, NgayLap, MaKH)`. Viết biểu thức đại số quan hệ tìm danh sách các khách hàng (gồm `MaKH`, `TenKH`) **chưa từng mua bất kỳ đơn hàng nào**.",
+   "expected_answer": "$$\\pi_{MaKH, TenKH}(KHACHHANG) - \\pi_{MaKH, TenKH}(KHACHHANG \\bowtie HOADON)$$\n  *Hoặc:*\n  $$\\pi_{MaKH, TenKH} \\left( KHACHHANG \\bowtie (\\pi_{MaKH}(KHACHHANG) - \\pi_{MaKH}(HOADON)) \\right)$$",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 3,
+   "question": "Nêu biểu thức đại số quan hệ của Phép kết tự nhiên $R \\bowtie S$ thông qua các phép toán cơ bản (Tích Descartes, Chọn, Chiếu).",
+   "expected_answer": "Nếu $R(A_1, \\dots, A_n, B_1, \\dots, B_k)$ và $S(B_1, \\dots, B_k, C_1, \\dots, C_m)$ có các thuộc tính chung là $\\{B_1, \\dots, B_k\\}$:\n  $$R \\bowtie S = \\pi_{A_1, \\dots, A_n, R.B_1, \\dots, R.B_k, C_1, \\dots, C_m} \\left( \\sigma_{R.B_1 = S.B_1 \\land \\dots \\land R.B_k = S.B_k}(R \\times S) \\right)$$",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 4,
+   "question": "Cho quan hệ `PHANCONG(MaNV, MaDA)` và quan hệ `DUAN(MaDA)`. Viết biểu thức đại số quan hệ tìm các nhân viên (`MaNV`) đã tham gia **tất cả** các dự án.",
+   "expected_answer": "Áp dụng phép chia quan hệ:\n  $$\\pi_{MaNV, MaDA}(PHANCONG) \\div \\pi_{MaDA}(DUAN)$$",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 5,
+   "question": "Khi thực hiện phép trừ $R - S$, nếu quan hệ $R$ có 15 bộ và quan hệ $S$ có 8 bộ, số bộ tối thiểu và tối đa có thể có trong quan hệ kết quả là bao nhiêu?",
+   "expected_answer": "- **Tối thiểu:** $15 - 8 = 7$ bộ (xảy ra khi toàn bộ 8 bộ của $S$ đều có mặt trong $R$).\n  - **Tối đa:** $15$ bộ (xảy ra khi $R$ và $S$ không có bất kỳ bộ nào chung, tức $R \\cap S = \\emptyset$).",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "question": "Viết biểu thức đại số quan hệ tìm tên các môn học mà sinh viên có mã `'SV01'` đã đăng ký.",
+   "expected_answer": "$\\pi_{TenMH}\\big(MONHOC \\bowtie \\sigma_{MaSV='SV01'}(KETQUA)\\big)$",
+   "explanation": "Có thể chọn trước trên `KETQUA` để giảm số bộ cần kết (tối ưu heuristic).",
+   "id": 6
+  },
+  {
+   "question": "Viết biểu thức tìm mã sinh viên có điểm $\\ge 8$ ở CẢ hai môn `'CSDL'` và `'CTDL'`.",
+   "expected_answer": "$\\pi_{MaSV}(\\sigma_{MaMH='CSDL' \\land Diem \\ge 8}(KETQUA)) \\cap \\pi_{MaSV}(\\sigma_{MaMH='CTDL' \\land Diem \\ge 8}(KETQUA))$",
+   "explanation": "Không thể viết bằng một $\\sigma$ duy nhất vì một dòng chỉ chứa một môn; 'cả hai' tương ứng với phép giao.",
+   "id": 7
+  },
+  {
+   "question": "Cho $R = \\{(1,a),(2,b)\\}$, $S = \\{(2,b),(3,c)\\}$. Tính $R \\cup S$, $R \\cap S$, $R - S$.",
+   "expected_answer": "$R \\cup S = \\{(1,a),(2,b),(3,c)\\}$; $R \\cap S = \\{(2,b)\\}$; $R - S = \\{(1,a)\\}$.",
+   "explanation": "Quan hệ là tập hợp nên bộ $(2,b)$ chỉ xuất hiện một lần trong hợp.",
+   "id": 8
+  }
+ ],
+ "essays": [
+  {
+   "id": 1,
+   "title": "Biểu Diễn Truy Vấn Bằng Đại Số Quan Hệ Đầy Đủ",
+   "problem": "Cho cơ sở dữ liệu Quản lý Đào tạo gồm các quan hệ:\n- `SINHVIEN(MaSV, HoTen, NgaySinh, QueQuan, MaLop)`\n- `LOPHOC(MaLop, TenLop, MaKhoa)`\n- `KHOA(MaKhoa, TenKhoa)`\n- `MONHOC(MaMH, TenMH, SoTinChi)`\n- `KETQUA(MaSV, MaMH, DiemThi)`\n\nHãy viết các biểu thức đại số quan hệ thực hiện các yêu cầu sau:\n1. Cho biết danh sách các sinh viên (`MaSV`, `HoTen`, `QueQuan`) có quê quán tại `'Huế'` và đang theo học tại khoa có tên `'Công nghệ Thông tin'`.\n2. Tìm mã và tên các môn học mà sinh viên có mã `'SV001'` chưa từng thi.\n3. Tìm những sinh viên (`MaSV`, `HoTen`) đã từng đạt điểm thi $\\ge 8.0$ ở **tất cả** các môn học có số tín chỉ bằng 3.",
+   "solution_steps": [
+    "Câu 1: Sinh viên quê ở 'Huế' thuộc khoa 'Công nghệ Thông tin'\n- **Bước 1: Lọc khoa CNTT:**\n  $$E_1 = \\sigma_{TenKhoa = \\text{'Công nghệ Thông tin'}}(KHOA)$$\n- **Bước 2: Kết nối tìm danh sách các lớp thuộc khoa CNTT:**\n  $$E_2 = LOPHOC \\bowtie E_1$$\n- **Bước 3: Lọc sinh viên quê ở Huế:**\n  $$E_3 = \\sigma_{QueQuan = \\text{'Huế'}}(SINHVIEN)$$\n- **Bước 4: Kết nối và chiếu lấy thông tin cần thiết:**\n  $$\\text{Kết quả} = \\pi_{MaSV, HoTen, QueQuan}(E_3 \\bowtie E_2)$$",
+    "Câu 2: Các môn học mà sinh viên 'SV001' chưa từng thi\n- **Bước 1: Danh sách toàn bộ các môn học:**\n  $$M_{All} = \\pi_{MaMH, TenMH}(MONHOC)$$\n- **Bước 2: Danh sách các môn học mà sinh viên 'SV001' đã thi:**\n  $$M_{DaThi} = \\pi_{MaMH, TenMH} \\left( MONHOC \\bowtie \\sigma_{MaSV = \\text{'SV001'}}(KETQUA) \\right)$$\n- **Bước 3: Lấy hiệu hai tập hợp để tìm các môn chưa thi:**\n  $$\\text{Kết quả} = M_{All} - M_{DaThi}$$",
+    "Câu 3: Sinh viên đạt điểm >= 8.0 ở TẤT CẢ các môn học có 3 tín chỉ\n- **Bước 1: Danh sách các môn học có 3 tín chỉ:**\n  $$M_3 = \\pi_{MaMH}(\\sigma_{SoTinChi = 3}(MONHOC))$$\n- **Bước 2: Danh sách các cặp (MaSV, MaMH) mà sinh viên đạt điểm >= 8.0:**\n  $$KQ_{Gioi} = \\pi_{MaSV, MaMH}(\\sigma_{DiemThi \\ge 8.0}(KETQUA))$$\n- **Bước 3: Thực hiện phép chia để tìm sinh viên thỏa mãn với mọi môn trong $M_3$:**\n  $$SV_{ThoaMan} = KQ_{Gioi} \\div M_3$$\n- **Bước 4: Chiếu lấy họ tên sinh viên:**\n  $$\\text{Kết quả} = \\pi_{MaSV, HoTen}(SINHVIEN \\bowtie SV_{ThoaMan})$$"
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Tối Ưu Hóa Cây Truy Vấn Đại Số Quan Hệ",
+   "problem": "Cho biểu thức đại số quan hệ chưa tối ưu sau:\n$$E = \\pi_{HoTen, TenMH, DiemThi} \\left( \\sigma_{TenKhoa = \\text{'Toán'} \\land DiemThi \\ge 9.0}(SINHVIEN \\bowtie KETQUA \\bowtie MONHOC \\bowtie LOPHOC \\bowtie KHOA) \\right)$$\n1. Hãy vẽ cây truy vấn ban đầu (chưa tối ưu).\n2. Áp dụng các quy tắc Heuristic (đẩy phép chọn $\\sigma$ xuống sớm nhất, đẩy phép chiếu $\\pi$ xuống sớm nhất) để viết lại biểu thức tối ưu và vẽ cây truy vấn sau khi tối ưu.",
+   "solution_steps": [
+    "Bước 1: Phân tích biểu thức chưa tối ưu\nBiểu thức ban đầu thực hiện kết nối toàn bộ 5 bảng lớn lại với nhau rồi mới áp dụng phép chọn lọc điều kiện. Điều này sinh ra các quan hệ trung gian khổng lồ, tiêu tốn bộ đệm và CPU.",
+    "Bước 2: Áp dụng các quy tắc Heuristic tối ưu\n1. **Đẩy phép chọn $\\sigma_{TenKhoa = \\text{'Toán'}}$ xuống bảng `KHOA` trước khi thực hiện phép kết.**\n2. **Đẩy phép chọn $\\sigma_{DiemThi \\ge 9.0}$ xuống bảng `KETQUA` trước khi thực hiện phép kết.**\n3. **Đẩy phép chiếu $\\pi$ loại bỏ sớm các cột không sử dụng (như `NgaySinh`, `QueQuan`, `SoTinChi`).**",
+    "Bước 3: Biểu thức tối ưu sau khi biến đổi\n$$E_{opt} = \\pi_{HoTen, TenMH, DiemThi} \\left( (\\pi_{MaSV, HoTen}(SINHVIEN \\bowtie (LOPHOC \\bowtie \\sigma_{TenKhoa = \\text{'Toán'}}(KHOA)))) \\bowtie (\\sigma_{DiemThi \\ge 9.0}(KETQUA)) \\bowtie (\\pi_{MaMH, TenMH}(MONHOC)) \\right)$$\n\n```mermaid\ngraph TD\n    Root[\"π (HoTen, TenMH, DiemThi)\"] --> J3[\"⋈\"]\n    J3 --> J2[\"⋈\"]\n    J3 --> M1[\"π (MaMH, TenMH) - MONHOC\"]\n    \n    J2 --> J1[\"⋈\"]\n    J2 --> K1[\"σ (DiemThi >= 9.0) - KETQUA\"]\n    \n    J1 --> SV[\"π (MaSV, HoTen, MaLop) - SINHVIEN\"]\n    J1 --> J0[\"⋈\"]\n    \n    J0 --> LH[\"π (MaLop, MaKhoa) - LOPHOC\"]\n    J0 --> KH[\"σ (TenKhoa = 'Toán') - KHOA\"]\n```"
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Phép Chia Quan Hệ Không Dùng Ký Hiệu Phép Chia",
+   "problem": "Chứng minh rằng phép chia $R(A, B) \\div S(B)$ có thể được biểu diễn hoàn toàn thông qua các phép toán tập hợp cơ bản: Phép chiếu ($\\pi$), Tích Descartes ($\\times$) và Phép trừ ($-$).",
+   "solution_steps": [
+    "Bước 1: Ý nghĩa của phép chia $R(A, B) \\div S(B)$\nTìm tập các giá trị $a \\in \\pi_A(R)$ sao cho với mọi $b \\in S$, cặp $(a, b)$ đều xuất hiện trong $R$.\nNói cách khác: $a$ thuộc kết quả nếu $a$ **KHÔNG** tồn tại bất kỳ $b \\in S$ nào mà $(a, b) \\notin R$.",
+    "Bước 2: Xây dựng các tập hợp trung gian\n1. **Tất cả các giá trị khả dĩ của thuộc tính $A$:**\n   $$T_1 = \\pi_A(R)$$\n2. **Tất cả các cặp tổ hợp lý thuyết giữa $A$ và $S(B)$:**\n   $$T_2 = T_1 \\times S = \\pi_A(R) \\times S$$\n3. **Các cặp tổ hợp $(a, b)$ lý thuyết nhưng THỰC TẾ KHÔNG CÓ trong $R$ (tức là những cặp bị thiếu):**\n   $$T_3 = T_2 - R = (\\pi_A(R) \\times S) - R$$\n4. **Chiếu lấy các giá trị $a$ bị thiếu ít nhất một giá trị $b$ của $S$:**\n   $$T_4 = \\pi_A(T_3) = \\pi_A((\\pi_A(R) \\times S) - R)$$",
+    "Bước 3: Kết luận biểu thức tương đương\nLấy toàn bộ các giá trị $a$ trong $R$ trừ đi các giá trị $a$ bị thiếu:\n$$R \\div S = \\pi_A(R) - \\pi_A \\left( (\\pi_A(R) \\times S) - R \\right)$$\nĐây là công thức chuẩn mực chứng minh Đại số quan hệ đầy đủ mà không cần phép chia làm phép toán nguyên thủy."
+   ]
+  },
+  {
+   "title": "Truy vấn đại số quan hệ nhiều bước trên cơ sở dữ liệu quản lý điểm",
+   "problem": "Cho `SINHVIEN(MaSV, HoTen, MaKhoa)`, `MONHOC(MaMH, TenMH)`, `KETQUA(MaSV, MaMH, Diem)`. Viết biểu thức đại số quan hệ cho: a) Họ tên và tên môn của các sinh viên khoa `'CNTT'` có điểm $< 5$; b) Mã các sinh viên đã học mọi môn học; c) Vẽ cây truy vấn đã tối ưu heuristic cho câu a) và giải thích các bước đẩy chọn/chiếu.",
+   "solution_steps": [
+    "Bước 1 - Câu a: $\\pi_{HoTen,TenMH}\\Big(\\sigma_{MaKhoa='CNTT'}(SINHVIEN) \\bowtie \\sigma_{Diem<5}(KETQUA) \\bowtie MONHOC\\Big)$. Ta đã đẩy hai phép chọn xuống trước các phép kết.",
+    "Bước 2 - Câu b: dùng phép chia $\\pi_{MaSV,MaMH}(KETQUA) \\div \\pi_{MaMH}(MONHOC)$. Không dùng ký hiệu chia: $T_1 = \\pi_{MaSV}(KETQUA)$; $T_2 = \\pi_{MaSV}\\big((T_1 \\times \\pi_{MaMH}(MONHOC)) - \\pi_{MaSV,MaMH}(KETQUA)\\big)$; kết quả $= T_1 - T_2$.",
+    "Bước 3 - Cây truy vấn tối ưu (từ lá lên gốc): lá `SINHVIEN` -> $\\sigma_{MaKhoa='CNTT'}$ -> $\\pi_{MaSV,HoTen}$; lá `KETQUA` -> $\\sigma_{Diem<5}$ -> $\\pi_{MaSV,MaMH}$; hai nhánh kết bằng `MaSV`; kết quả kết với `MONHOC` (đã chiếu $MaMH, TenMH$) theo `MaMH`; nút gốc $\\pi_{HoTen,TenMH}$.",
+    "Bước 4 - Giải thích tối ưu: (i) tách phép chọn hội và đẩy $\\sigma$ xuống sát lá để giảm số bộ trung gian; (ii) đẩy $\\pi$ xuống để giảm độ rộng bộ, chỉ giữ thuộc tính cần cho phép kết và đầu ra; (iii) kết các quan hệ nhỏ nhất trước.",
+    "Kết luận: các biểu thức a), b) đúng ngữ nghĩa; cây tối ưu giữ nguyên kết quả nhưng giảm đáng kể số bộ trung gian so với kết toàn bộ rồi mới lọc."
+   ],
+   "id": 4
+  }
+ ]
+}

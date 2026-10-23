@@ -1,0 +1,494 @@
+{
+ "chapter_id": "q2_chuong_4",
+ "chapter_title": "Quyển 2 - Chương 4: Chuẩn hóa CSDL (1NF-BCNF) & thuật toán Bernstein",
+ "multiple_choice": [
+  {
+   "id": 1,
+   "difficulty": "easy",
+   "question": "Một lược đồ quan hệ đạt Dạng chuẩn 1 (1NF) nhưng có khóa chính là khóa ghép gồm 2 thuộc tính $(A, B)$. Nếu tồn tại một phụ thuộc hàm $A \\to C$ (với $C$ là thuộc tính không khóa), lược đồ này:",
+   "options": {
+    "A": "Đạt BCNF.",
+    "B": "Chắc chắn đạt 2NF.",
+    "C": "Không thể lưu trữ dữ liệu.",
+    "D": "Vi phạm 2NF vì có thuộc tính không khóa phụ thuộc từng phần vào khóa."
+   },
+   "correct_answer": "D",
+   "explanation": "Khóa chính là $AB$. Phụ thuộc hàm $A \\to C$ cho thấy $C$ phụ thuộc vào một tập con thực sự của khóa ($A \\subset AB$), do đó vi phạm định nghĩa Dạng chuẩn 2 (2NF)."
+  },
+  {
+   "id": 2,
+   "difficulty": "easy",
+   "question": "Nếu tất cả các khóa của một lược đồ quan hệ $R$ đều là **khóa đơn** (chỉ gồm duy nhất 1 thuộc tính) và $R$ đã đạt 1NF, thì ta có thể kết luận ngay rằng:",
+   "options": {
+    "A": "$R$ chắc chắn đạt BCNF.",
+    "B": "$R$ chắc chắn đạt Dạng chuẩn 3 (3NF).",
+    "C": "$R$ không có khóa ngoại.",
+    "D": "$R$ chắc chắn đạt Dạng chuẩn 2 (2NF)."
+   },
+   "correct_answer": "D",
+   "explanation": "Khi mọi khóa đều là khóa đơn, không thể tồn tại bất kỳ tập con thực sự nào của khóa. Do đó không thể xảy ra hiện tượng phụ thuộc từng phần, $R$ mặc nhiên đạt 2NF."
+  },
+  {
+   "id": 3,
+   "difficulty": "easy",
+   "question": "Điều kiện tương đương để một lược đồ quan hệ $R(U, F)$ đạt Dạng chuẩn 3 (3NF) là với mọi phụ thuộc hàm không tầm thường $X \\to A \\in F^+$ ($A \\notin X$):",
+   "options": {
+    "A": "Hoặc $X$ là siêu khóa, hoặc $A$ là thuộc tính nguyên tố.",
+    "B": "$A$ phải là khóa ngoại.",
+    "C": "$X$ phải là thuộc tính đơn.",
+    "D": "$X$ và $A$ phải có cùng kiểu dữ liệu."
+   },
+   "correct_answer": "A",
+   "explanation": "Đây là mệnh đề định nghĩa tương đương kinh điển của 3NF: Mọi phụ thuộc hàm đều phải có vế trái là siêu khóa HOẶC vế phải là một thuộc tính nguyên tố (thuộc một khóa nào đó)."
+  },
+  {
+   "id": 4,
+   "difficulty": "easy",
+   "question": "Dạng chuẩn Boyce-Codd (BCNF) nghiêm ngặt hơn Dạng chuẩn 3 (3NF) ở điểm nào?",
+   "options": {
+    "A": "BCNF không cho phép ngoại lệ \"vế phải $A$ là thuộc tính nguyên tố\", mà bắt buộc mọi vế trái $X$ của phụ thuộc hàm không tầm thường đều phải là Siêu khóa.",
+    "B": "BCNF luôn bảo toàn phụ thuộc hàm trong mọi thuật toán phân tách.",
+    "C": "BCNF cấm hoàn toàn giá trị số nguyên.",
+    "D": "BCNF bắt buộc bảng chỉ có tối đa 3 cột."
+   },
+   "correct_answer": "A",
+   "explanation": "Trong BCNF, điều kiện duy nhất được chấp nhận là $X$ phải là siêu khóa ($X \\to U$). Không chấp nhận ngoại lệ $A$ nguyên tố như 3NF."
+  },
+  {
+   "id": 5,
+   "difficulty": "easy",
+   "question": "Xét lược đồ $R(A, B, C)$ với $F = \\{AB \\to C, C \\to B\\}$. Khóa của $R$ là $AB$ và $AC$. Dạng chuẩn cao nhất của $R$ là:",
+   "options": {
+    "A": "1NF",
+    "B": "BCNF",
+    "C": "3NF",
+    "D": "2NF"
+   },
+   "correct_answer": "C",
+   "explanation": "- Khóa: $AB, AC \\implies$ Thuộc tính nguyên tố: $\\{A, B, C\\}$ (Tất cả thuộc tính đều nguyên tố!).\n  - Xét $C \\to B$: $C$ không phải là siêu khóa (vì $C^+ = BC \\ne U$) $\\implies$ Vi phạm BCNF!\n  - Nhưng $B$ là thuộc tính nguyên tố (thuộc khóa $AB$) $\\implies$ Thỏa mãn điều kiện của 3NF.\n  - Do đó dạng chuẩn cao nhất là 3NF."
+  },
+  {
+   "id": 6,
+   "difficulty": "easy",
+   "question": "Ưu điểm lớn nhất của Thuật toán tổng hợp Bernstein khi chuẩn hóa về 3NF so với thuật toán phân tách về BCNF là gì?",
+   "options": {
+    "A": "Không cần tìm phủ tối thiểu.",
+    "B": "Luôn đảm bảo đồng thời cả tính Bảo toàn thông tin (Lossless Join) và tính Bảo toàn phụ thuộc hàm.",
+    "C": "Cho ra số lượng bảng con ít hơn BCNF.",
+    "D": "Không cần tìm khóa của quan hệ."
+   },
+   "correct_answer": "B",
+   "explanation": "Thuật toán Bernstein xây dựng bảng con từ phủ tối thiểu $F_{min}$ nên bảo toàn 100% phụ thuộc hàm, và bước bổ sung khóa đảm bảo bảo toàn thông tin. Trong khi BCNF có thể phải hy sinh tính bảo toàn phụ thuộc hàm."
+  },
+  {
+   "id": 7,
+   "difficulty": "easy",
+   "question": "Một quan hệ chứa thông tin `SINHVIEN_LOP(MaSV, HoTen, MaLop, TenLop, GVCN)` với các phụ thuộc hàm: $MaSV \\to HoTen, MaLop$ và $MaLop \\to TenLop, GVCN$. Dị thường nào sẽ xảy ra nếu một lớp học hiện tại chưa có sinh viên nào đăng ký nhập học?",
+   "options": {
+    "A": "Dị thường xóa (Deletion Anomaly)",
+    "B": "Dị thường sửa (Update Anomaly)",
+    "C": "Dị thường thêm (Insertion Anomaly)",
+    "D": "Không có dị thường nào."
+   },
+   "correct_answer": "C",
+   "explanation": "Khóa chính là `MaSV`. Nếu một lớp mới mở chưa có sinh viên, ta không thể nhập `MaLop`, `TenLop`, `GVCN` vào bảng vì khóa chính `MaSV` không được phép mang giá trị `NULL`."
+  },
+  {
+   "id": 8,
+   "difficulty": "easy",
+   "question": "Trong thuật toán chuẩn hóa Bernstein về 3NF, mục đích của bước: *\"Nếu chưa có lược đồ con nào chứa trọn vẹn một khóa của quan hệ ban đầu thì bổ sung thêm một lược đồ con chứa khóa đó\"* là để:",
+   "options": {
+    "A": "Chuyển bảng về dạng chuẩn 1NF.",
+    "B": "Giúp bảng có thêm nhiều cột.",
+    "C": "Bảo đảm tính Bảo toàn thông tin (Lossless Join).",
+    "D": "Bảo đảm tính Bảo toàn phụ thuộc hàm."
+   },
+   "correct_answer": "C",
+   "explanation": "Việc đảm bảo có ít nhất một lược đồ con chứa khóa của quan hệ gốc là điều kiện đủ bảo đảm khi kết nối tự nhiên tất cả các quan hệ con lại, ta thu hồi chính xác quan hệ ban đầu (Lossless Join)."
+  },
+  {
+   "id": 9,
+   "difficulty": "easy",
+   "question": "Nếu một lược đồ quan hệ đạt Dạng chuẩn Boyce-Codd (BCNF), nó có chắc chắn đạt Dạng chuẩn 3 (3NF) hay không?",
+   "options": {
+    "A": "Chắc chắn đạt 3NF (vì $\\text{BCNF} \\subset \\text{3NF}$).",
+    "B": "Không chắc chắn.",
+    "C": "Chỉ đạt nếu quan hệ có ít hơn 5 thuộc tính.",
+    "D": "Tùy thuộc vào phần mềm DBMS đang sử dụng."
+   },
+   "correct_answer": "A",
+   "explanation": "BCNF là trường hợp con khắt khe hơn của 3NF. Mọi lược đồ đạt BCNF đều mặc nhiên thỏa mãn 3NF, 2NF và 1NF."
+  },
+  {
+   "id": 10,
+   "difficulty": "easy",
+   "question": "Hiện tượng một thuộc tính không khóa $C$ phụ thuộc vào một thuộc tính không khóa $B$, và $B$ lại phụ thuộc vào khóa chính $A$ ($A \\to B \\to C$) được gọi là:",
+   "options": {
+    "A": "Phụ thuộc bắc cầu (Transitive Dependency)",
+    "B": "Phụ thuộc tầm thường (Trivial Dependency)",
+    "C": "Phụ thuộc hàm đầy đủ (Full Dependency)",
+    "D": "Phụ thuộc từng phần (Partial Dependency)"
+   },
+   "correct_answer": "A",
+   "explanation": "Phụ thuộc bắc cầu là nguyên nhân cốt lõi khiến lược đồ dừng ở 2NF mà không đạt được 3NF."
+  },
+  {
+   "difficulty": "medium",
+   "question": "$R(A,B,C,D)$, $F = \\{AB \\to C,\\ B \\to D\\}$. Dạng chuẩn cao nhất của $R$ là:",
+   "options": {
+    "A": "3NF",
+    "B": "1NF",
+    "C": "2NF",
+    "D": "BCNF"
+   },
+   "correct_answer": "B",
+   "explanation": "Khóa duy nhất $AB$. $B \\to D$: thuộc tính không nguyên tố $D$ phụ thuộc một phần khóa nên vi phạm 2NF; $R$ chỉ đạt 1NF.",
+   "id": 11
+  },
+  {
+   "difficulty": "medium",
+   "question": "$R(A,B,C)$, $F = \\{A \\to B,\\ B \\to C\\}$. Dạng chuẩn cao nhất của $R$ là:",
+   "options": {
+    "A": "2NF",
+    "B": "3NF",
+    "C": "BCNF",
+    "D": "1NF"
+   },
+   "correct_answer": "A",
+   "explanation": "Khóa $A$ (đơn) nên không có phụ thuộc một phần: đạt 2NF. $B \\to C$: $B$ không phải siêu khóa và $C$ không nguyên tố nên vi phạm 3NF.",
+   "id": 12
+  },
+  {
+   "difficulty": "medium",
+   "question": "$R(A,B,C)$, $F = \\{AB \\to C,\\ C \\to B\\}$. Dạng chuẩn cao nhất của $R$ là:",
+   "options": {
+    "A": "BCNF",
+    "B": "3NF nhưng không BCNF",
+    "C": "2NF",
+    "D": "1NF"
+   },
+   "correct_answer": "B",
+   "explanation": "Khóa $AB, AC$ nên mọi thuộc tính đều nguyên tố: đạt 3NF. $C \\to B$: $C$ không là siêu khóa nên vi phạm BCNF.",
+   "id": 13
+  },
+  {
+   "difficulty": "medium",
+   "question": "Lược đồ đạt 1NF mà mọi khóa đều là khóa đơn (một thuộc tính) thì chắc chắn đạt:",
+   "options": {
+    "A": "4NF",
+    "B": "2NF",
+    "C": "BCNF",
+    "D": "3NF"
+   },
+   "correct_answer": "B",
+   "explanation": "Phụ thuộc một phần chỉ xảy ra với khóa nhiều thuộc tính; khóa đơn thì không thể có, nên đạt 2NF.",
+   "id": 14
+  },
+  {
+   "difficulty": "medium",
+   "question": "Mối quan hệ giữa BCNF và 3NF là:",
+   "options": {
+    "A": "BCNF $\\Rightarrow$ 3NF nhưng 3NF không suy ra BCNF",
+    "B": "Không liên quan",
+    "C": "Hai dạng chuẩn tương đương",
+    "D": "3NF $\\Rightarrow$ BCNF"
+   },
+   "correct_answer": "A",
+   "explanation": "BCNF chặt hơn 3NF: loại bỏ trường hợp vế phải là thuộc tính nguyên tố.",
+   "id": 15
+  },
+  {
+   "difficulty": "medium",
+   "question": "Bảng `SINHVIEN(MaSV, HoTen, SDT)` trong đó ô `SDT` chứa `0901234567, 0912345678` vi phạm dạng chuẩn nào?",
+   "options": {
+    "A": "1NF",
+    "B": "3NF",
+    "C": "2NF",
+    "D": "BCNF"
+   },
+   "correct_answer": "A",
+   "explanation": "1NF yêu cầu giá trị nguyên tố; ô chứa danh sách là thuộc tính đa trị.",
+   "id": 16
+  },
+  {
+   "difficulty": "medium",
+   "question": "Ba loại dị thường (anomaly) do dư thừa dữ liệu là:",
+   "options": {
+    "A": "Dị thường khóa, nhóm, đếm",
+    "B": "Dị thường thêm, xóa, sửa",
+    "C": "Dị thường chọn, chiếu, kết",
+    "D": "Dị thường nhập, xuất, lưu"
+   },
+   "correct_answer": "B",
+   "explanation": "Thiết kế dư thừa gây khó khăn khi thêm (insert), xóa (delete) và sửa (update).",
+   "id": 17
+  },
+  {
+   "difficulty": "medium",
+   "question": "Khử chuẩn hóa (denormalization) thường được áp dụng nhằm mục đích:",
+   "options": {
+    "A": "Loại bỏ khóa chính",
+    "B": "Tăng tốc độ đọc/truy vấn tổng hợp bằng cách giảm phép nối, chấp nhận dư thừa có kiểm soát",
+    "C": "Tăng tính toàn vẹn",
+    "D": "Tăng dung lượng đĩa vô ích"
+   },
+   "correct_answer": "B",
+   "explanation": "Đổi lại hiệu năng đọc bằng dư thừa dữ liệu và độ phức tạp cập nhật.",
+   "id": 18
+  },
+  {
+   "difficulty": "medium",
+   "question": "Thuật toán tổng hợp Bernstein sinh ra các lược đồ ở dạng chuẩn nào và có tính chất gì?",
+   "options": {
+    "A": "3NF, bảo toàn thông tin và bảo toàn phụ thuộc hàm",
+    "B": "BCNF, có thể mất thông tin",
+    "C": "2NF, bảo toàn thông tin",
+    "D": "1NF, không tính chất nào"
+   },
+   "correct_answer": "A",
+   "explanation": "Bernstein luôn cho 3NF bảo toàn thông tin và phụ thuộc hàm.",
+   "id": 19
+  },
+  {
+   "difficulty": "medium",
+   "question": "Phép tách về BCNF theo thuật toán phân tách (tách khi gặp $X \\to Y$ vi phạm) luôn bảo đảm:",
+   "options": {
+    "A": "Cả hai tính chất",
+    "B": "Bảo toàn phụ thuộc hàm nhưng có thể mất thông tin",
+    "C": "Bảo toàn thông tin nhưng có thể không bảo toàn phụ thuộc hàm",
+    "D": "Không bảo đảm gì"
+   },
+   "correct_answer": "C",
+   "explanation": "Mỗi bước tách $R$ thành $XY$ và $R - Y$ bảo toàn thông tin; nhưng phụ thuộc hàm có thể bị chia cắt.",
+   "id": 20
+  },
+  {
+   "difficulty": "medium",
+   "question": "Mọi lược đồ quan hệ chỉ gồm hai thuộc tính $R(A,B)$:",
+   "options": {
+    "A": "Không có khóa",
+    "B": "Luôn vi phạm 3NF",
+    "C": "Luôn đạt BCNF",
+    "D": "Chỉ đạt 1NF"
+   },
+   "correct_answer": "C",
+   "explanation": "Với hai thuộc tính, mọi phụ thuộc hàm không tầm thường đều có vế trái là siêu khóa, nên đạt BCNF.",
+   "id": 21
+  },
+  {
+   "difficulty": "medium",
+   "question": "Thuộc tính không nguyên tố (non-prime attribute) là thuộc tính:",
+   "options": {
+    "A": "Chỉ xuất hiện ở vế trái",
+    "B": "Thuộc ít nhất một khóa",
+    "C": "Không thuộc bất kỳ khóa nào",
+    "D": "Thuộc mọi khóa"
+   },
+   "correct_answer": "C",
+   "explanation": "Thuộc tính nguyên tố thuộc ít nhất một khóa; không nguyên tố là không thuộc khóa nào.",
+   "id": 22
+  },
+  {
+   "difficulty": "hard",
+   "question": "$R(\\text{MaSV}, \\text{HoTen}, \\text{MaLop}, \\text{TenLop}, \\text{GVCN})$ với $\\text{MaSV} \\to \\text{HoTen}, \\text{MaLop}$; $\\text{MaLop} \\to \\text{TenLop}, \\text{GVCN}$. Dạng chuẩn cao nhất là:",
+   "options": {
+    "A": "BCNF",
+    "B": "3NF",
+    "C": "2NF",
+    "D": "1NF"
+   },
+   "correct_answer": "C",
+   "explanation": "Khóa `MaSV` (đơn) nên đạt 2NF; `MaLop` $\\to$ `TenLop, GVCN` là phụ thuộc bắc cầu vào khóa nên vi phạm 3NF.",
+   "id": 23
+  },
+  {
+   "difficulty": "hard",
+   "question": "Phân tách $R(A,B,C)$, $F = \\{A \\to B,\\ B \\to C\\}$ về BCNF cho kết quả hợp lệ nào?",
+   "options": {
+    "A": "$\\{R_1(A,C),\\ R_2(B,C)\\}$",
+    "B": "$\\{R_1(A,B),\\ R_2(B,C)\\}$",
+    "C": "$\\{R_1(A),\\ R_2(B),\\ R_3(C)\\}$",
+    "D": "$\\{R(A,B,C)\\}$ vì đã BCNF"
+   },
+   "correct_answer": "B",
+   "explanation": "$B \\to C$ vi phạm BCNF ($B$ không siêu khóa). Tách thành $R_1(B,C)$ và $R_2(A,B)$: cả hai đều BCNF, lossless và bảo toàn $F$.",
+   "id": 24
+  },
+  {
+   "difficulty": "hard",
+   "question": "$R(A,B,C)$, $F = \\{AB \\to C,\\ C \\to B\\}$. Phép tách BCNF $\\{R_1(B,C),\\ R_2(A,C)\\}$ có tính chất:",
+   "options": {
+    "A": "Bảo toàn thông tin nhưng mất phụ thuộc hàm $AB \\to C$",
+    "B": "Vẫn vi phạm BCNF",
+    "C": "Mất thông tin",
+    "D": "Bảo toàn cả hai"
+   },
+   "correct_answer": "A",
+   "explanation": "$C \\to B$ chuyển sang $R_1$; $R_1 \\cap R_2 = C \\to B$ nên lossless; nhưng $AB \\to C$ không còn nằm trong quan hệ con nào và không suy ra được.",
+   "id": 25
+  },
+  {
+   "difficulty": "hard",
+   "question": "Bernstein cho $R(A,B,C,D)$, $F = \\{A \\to B,\\ B \\to C\\}$. Kết quả đúng là:",
+   "options": {
+    "A": "$\\{ABCD\\}$",
+    "B": "$\\{AB,\\ BC\\}$",
+    "C": "$\\{ABC,\\ D\\}$",
+    "D": "$\\{AB,\\ BC,\\ AD\\}$"
+   },
+   "correct_answer": "D",
+   "explanation": "Khóa của $R$ là $AD$. Hai nhóm $AB$, $BC$ không chứa khóa nên phải thêm lược đồ khóa $AD$ để bảo toàn thông tin.",
+   "id": 26
+  },
+  {
+   "difficulty": "hard",
+   "question": "Bernstein cho $R(A,B,C,D,E)$, $F = \\{A \\to B,\\ C \\to D\\}$. Kết quả đúng là:",
+   "options": {
+    "A": "$\\{AB,\\ CD,\\ ACE\\}$",
+    "B": "$\\{AB,\\ CD\\}$",
+    "C": "$\\{AB,\\ CD,\\ E\\}$",
+    "D": "$\\{ABCDE\\}$"
+   },
+   "correct_answer": "A",
+   "explanation": "Khóa duy nhất $ACE$; cần thêm lược đồ $ACE$ để nối lại mọi thuộc tính.",
+   "id": 27
+  },
+  {
+   "difficulty": "hard",
+   "question": "$R(A,B,C,D)$, $F = \\{A \\to B,\\ B \\to C,\\ C \\to D\\}$. Dạng chuẩn cao nhất của $R$ là:",
+   "options": {
+    "A": "1NF",
+    "B": "BCNF",
+    "C": "2NF",
+    "D": "3NF"
+   },
+   "correct_answer": "C",
+   "explanation": "Khóa $A$ đơn nên đạt 2NF. $B \\to C$ có $B$ không là siêu khóa và $C$ không nguyên tố nên vi phạm 3NF.",
+   "id": 28
+  },
+  {
+   "difficulty": "hard",
+   "question": "$R(A,B,C,D)$, $F = \\{AB \\to C,\\ D \\to A\\}$. Dạng chuẩn cao nhất là:",
+   "options": {
+    "A": "BCNF",
+    "B": "3NF",
+    "C": "1NF",
+    "D": "2NF"
+   },
+   "correct_answer": "C",
+   "explanation": "Khóa duy nhất $BD$ (vì $B, D$ chỉ ở vế trái). $D \\to A$: $A$ không nguyên tố phụ thuộc vào một phần khóa $D$, nên vi phạm 2NF.",
+   "id": 29
+  },
+  {
+   "difficulty": "hard",
+   "question": "$R(A,B,C)$, $F = \\{A \\to B,\\ A \\to C,\\ C \\to A\\}$. Dạng chuẩn cao nhất là:",
+   "options": {
+    "A": "3NF nhưng không BCNF",
+    "B": "BCNF",
+    "C": "1NF",
+    "D": "2NF"
+   },
+   "correct_answer": "B",
+   "explanation": "$A^+ = ABC$ và $C^+ = ABC$ nên $A$, $C$ đều là khóa. Mọi vế trái của phụ thuộc hàm đều là siêu khóa nên đạt BCNF.",
+   "id": 30
+  }
+ ],
+ "short_answers": [
+  {
+   "id": 1,
+   "question": "Nêu 3 bước chính để xác định dạng chuẩn cao nhất của một lược đồ quan hệ $\\langle R, F \\rangle$.",
+   "expected_answer": "1. **Bước 1:** Tìm tất cả các khóa của $R$. Xác định thuộc tính nguyên tố và không nguyên tố.\n  2. **Bước 2 (Kiểm tra BCNF):** Kiểm tra xem mọi $X \\to A \\in F$ ($A \\notin X$) thì $X$ có phải là siêu khóa không. Nếu đúng $\\implies$ Đạt BCNF.\n  3. **Bước 3 (Kiểm tra 3NF):** Với các PTH vi phạm BCNF, kiểm tra xem $A$ có phải là thuộc tính nguyên tố không. Nếu đúng $\\implies$ Đạt 3NF. Nếu sai, kiểm tra xem có phụ thuộc từng phần không để kết luận 2NF hoặc 1NF.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 2,
+   "question": "Cho lược đồ $R(A, B, C, D)$ và $F = \\{AB \\to CD, C \\to D\\}$. Xác định khóa và dạng chuẩn cao nhất của $R$.",
+   "expected_answer": "- Khóa duy nhất: $AB$.\n  - Thuộc tính không khóa: $\\{C, D\\}$.\n  - Xét $C \\to D$: Vế trái $C$ không phải là siêu khóa, vế phải $D$ không phải là thuộc tính nguyên tố $\\implies$ Vi phạm 3NF và BCNF.\n  - Cả hai thuộc tính không khóa $C, D$ đều phụ thuộc đầy đủ vào khóa chính $AB$ (không phụ thuộc vào $A$ hay $B$ riêng lẻ) $\\implies$ Đạt 2NF.\n  - **Dạng chuẩn cao nhất:** **2NF**.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 3,
+   "question": "Khi nào một người thiết kế CSDL chấp nhận giữ lược đồ ở Dạng chuẩn 3 (3NF) mà không tiếp tục chuẩn hóa lên BCNF?",
+   "expected_answer": "Khi việc phân tách lên BCNF làm **mất đi tính bảo toàn phụ thuộc hàm**. Trong thực tế, các kỹ sư thường ưu tiên giữ lại ở 3NF để bảo toàn toàn bộ các ràng buộc nghiệp vụ mà không cần viết thêm Trigger kiểm tra kết nối tốn kém.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 4,
+   "question": "Cho $R(M, N, P)$ với $F = \\{M \\to N, N \\to P\\}$. Trình bày kết quả phân tách $R$ về 3NF bằng thuật toán tổng hợp Bernstein.",
+   "expected_answer": "- Phủ tối thiểu: $F_{min} = \\{M \\to N, N \\to P\\}$.\n  - Tạo các quan hệ con theo từng vế trái:\n    - $R_1(M, N)$ ứng với $M \\to N$.\n    - $R_2(N, P)$ ứng với $N \\to P$.\n  - Khóa của $R$ là $M$. Ta thấy $R_1$ đã chứa trọn vẹn khóa $M$.\n  - **Kết quả:** $\\rho = \\{R_1(M, N), R_2(N, P)\\}$.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 5,
+   "question": "Khái niệm \"Khử chuẩn hóa\" (Denormalization) trong hệ cơ sở dữ liệu lớn (Big Data / Data Warehouse) có ý nghĩa gì?",
+   "expected_answer": "Khử chuẩn hóa là kỹ thuật chủ động gộp các bảng lại với nhau (chấp nhận một lượng dư thừa dữ liệu có kiểm soát) nhằm giảm bớt số lượng phép `JOIN` khi truy vấn đọc dữ liệu, giúp tăng tối đa tốc độ đọc báo cáo trong các hệ thống OLAP/Kho dữ liệu.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "question": "$R(A,B,C,D,E)$, $F = \\{AB \\to C,\\ C \\to D,\\ D \\to E\\}$. Xác định khóa và dạng chuẩn cao nhất.",
+   "expected_answer": "Khóa: $A, B$ chỉ ở vế trái nên $AB$ là khóa duy nhất ($(AB)^+ = ABCDE$). Không có phụ thuộc một phần nên đạt 2NF. $C \\to D$ có $C$ không là siêu khóa và $D$ không nguyên tố nên vi phạm 3NF. Dạng chuẩn cao nhất: 2NF.",
+   "explanation": "Kiểm tra theo thứ tự 1NF $\\to$ 2NF $\\to$ 3NF $\\to$ BCNF.",
+   "id": 6
+  },
+  {
+   "question": "Phân tách $R(A,B,C,D)$ với $F = \\{A \\to B,\\ C \\to D\\}$ về BCNF.",
+   "expected_answer": "Khóa $AC$. $A \\to B$ vi phạm: tách $R_1(A,B)$ và $R_2(A,C,D)$. Trong $R_2$, $C \\to D$ vi phạm: tách $R_{21}(C,D)$ và $R_{22}(A,C)$. Kết quả: $\\{AB,\\ CD,\\ AC\\}$ (BCNF, lossless, bảo toàn $F$).",
+   "explanation": "Quan hệ $AC$ giữ lại liên kết giữa hai nhóm.",
+   "id": 7
+  },
+  {
+   "question": "Đưa bảng `SINHVIEN(MaSV, HoTen, SDT1, SDT2)` có SĐT lặp thành dạng chuẩn 1NF thuận lợi nhất.",
+   "expected_answer": "Tách thuộc tính lặp: `SINHVIEN(MaSV, HoTen)` và `SDT_SINHVIEN(MaSV, SDT)` với khóa chính `(MaSV, SDT)`.",
+   "explanation": "Tránh dùng cột lặp `SDT1, SDT2`: giới hạn số lượng và khó truy vấn.",
+   "id": 8
+  }
+ ],
+ "essays": [
+  {
+   "id": 1,
+   "title": "Phân Tích Dạng Chuẩn & Chuẩn Hóa Lên BCNF",
+   "problem": "Cho lược đồ quan hệ $R(A, B, C, D, J)$ và tập phụ thuộc hàm:\n$$F = \\{AB \\to C, C \\to D, D \\to J, J \\to A\\}$$\n1. Tìm tất cả các khóa của $R$.\n2. Xác định dạng chuẩn cao nhất của $R$.\n3. Nếu $R$ chưa đạt BCNF, hãy áp dụng thuật toán phân tách đệ quy để đưa $R$ về BCNF bảo toàn thông tin.",
+   "solution_steps": [
+    "Bước 1: Tìm tất cả các khóa\n- Phân loại thuộc tính:\n  - Vế trái: $\\{A, B, C, D, J\\}$\n  - Vế phải: $\\{C, D, J, A\\}$\n  - Nhóm $L$: $\\{B\\}$ (Chỉ ở vế trái $\\implies B$ bắt buộc phải có trong mọi khóa).\n  - Nhóm $M$: $\\{A, C, D, J\\}$.\n- Xét kết hợp $B$ với từng thuộc tính của $M$:\n  - $(AB)^+ = ABCDJ = U \\implies AB$ là khóa.\n  - $(CB)^+ = CBJDA = U \\implies BC$ là khóa.\n  - $(DB)^+ = DBJAC = U \\implies BD$ là khóa.\n  - $(JB)^+ = JBACD = U \\implies BJ$ là khóa.\n- **Tập các khóa của $R$:** $\\{AB, BC, BD, BJ\\}$.\n- **Thuộc tính nguyên tố:** $\\{A, B, C, D, J\\}$ (Tất cả thuộc tính đều nguyên tố!).",
+    "Bước 2: Xác định dạng chuẩn cao nhất\n- Xét phụ thuộc hàm $C \\to D$:\n  - Vế trái $C$ không phải là siêu khóa (vì $C^+ = CDJA \\ne U$, thiếu $B$).\n  - Vế phải $D$ là thuộc tính nguyên tố (thuộc khóa $BD$).\n- Tương tự, với các PTH $D \\to J$ và $J \\to A$, vế trái đều không phải siêu khóa nhưng vế phải đều là thuộc tính nguyên tố.\n- **Kết luận:** Lược đồ $R$ đạt **Dạng chuẩn 3 (3NF)** nhưng **KHÔNG đạt BCNF**.",
+    "Bước 3: Phân tách về BCNF\n- Chọn phụ thuộc hàm vi phạm BCNF: $C \\to D$.\n  - Tính $C^+ = CDJA$.\n  - Tách $R$ thành hai lược đồ con:\n    - $R_1 = C \\cup D \\cup J \\cup A = \\{A, C, D, J\\}$\n    - $R_2 = R \\setminus (\\{A, C, D, J\\} \\setminus \\{C\\}) = \\{B, C\\}$.\n- **Kiểm tra các lược đồ con:**\n  - $R_2(B, C)$: Chỉ có khóa $BC$, không có PTH không tầm thường nào khác $\\implies$ Đạt BCNF.\n  - $R_1(A, C, D, J)$: Có các PTH $\\{C \\to D, D \\to J, J \\to A, A \\to C\\}$. Các thuộc tính tạo thành chu trình xác định lẫn nhau $\\implies$ Khóa của $R_1$ gồm $\\{C\\}, \\{D\\}, \\{J\\}, \\{A\\}$. Mọi vế trái đều là siêu khóa của $R_1 \\implies R_1$ đạt BCNF!\n- **Kết quả phân tách:** $\\rho = \\{R_1(A, C, D, J), R_2(B, C)\\}$ đạt chuẩn BCNF và bảo toàn thông tin."
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Chuẩn Hóa Về 3NF Bằng Thuật Toán Tổng Hợp Bernstein",
+   "problem": "Cho lược đồ quan hệ $R(A, B, C, D, E, G)$ và tập phụ thuộc hàm:\n$$F = \\{AB \\to C, C \\to D, D \\to E, E \\to G, G \\to B\\}$$\nHãy thực hiện chuẩn hóa $R$ về Dạng chuẩn 3 (3NF) bằng thuật toán Bernstein để đảm bảo đồng thời cả hai tính chất: Bảo toàn thông tin và Bảo toàn phụ thuộc hàm.",
+   "solution_steps": [
+    "Bước 1: Tìm phủ tối thiểu $F_{min}$\n1. Vế phải của mọi PTH đều đã có 1 thuộc tính: $C, D, E, G, B$.\n2. Kiểm tra vế trái $AB \\to C$:\n   - $A^+ = A \\not\\ni C$; $B^+ = B \\not\\ni C \\implies$ Không dư thừa vế trái.\n3. Kiểm tra phụ thuộc hàm dư thừa: Không có PTH nào suy dẫn gián tiếp được từ các PTH còn lại.\n- $\\implies F_{min} = \\{AB \\to C, C \\to D, D \\to E, E \\to G, G \\to B\\}$.",
+    "Bước 2: Gom nhóm các PTH có cùng vế trái\nMỗi PTH đều có vế trái phân biệt:\n- Nhóm 1: $AB \\to C$\n- Nhóm 2: $C \\to D$\n- Nhóm 3: $D \\to E$\n- Nhóm 4: $E \\to G$\n- Nhóm 5: $G \\to B$",
+    "Bước 3: Tạo các lược đồ quan hệ con\n- $R_1(A, B, C)$\n- $R_2(C, D)$\n- $R_3(D, E)$\n- $R_4(E, G)$\n- $R_5(G, B)$",
+    "Bước 4: Kiểm tra điều kiện bảo toàn thông tin\n- Tìm một khóa của quan hệ gốc $R$:\n  - $A$ chỉ ở vế trái $\\implies A$ thuộc nhóm $L$.\n  - Tính $(AB)^+ = ABCDEGB = U \\implies AB$ là một khóa của $R$.\n- Quan sát danh sách các lược đồ con ở Bước 3, ta thấy **lược đồ $R_1(A, B, C)$ đã chứa trọn vẹn khóa $AB$**!\n- Do đó, không cần bổ sung thêm lược đồ con mới.",
+    "Bước 5: Kiểm tra lược đồ con dư thừa\nKhông có lược đồ nào là tập con của lược đồ khác.",
+    "Kết luận:\nPhép phân tách đạt 3NF là:\n$$\\rho = \\{R_1(A, B, C), R_2(C, D), R_3(D, E), R_4(E, G), R_5(G, B)\\}$$"
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Phân Tích Thực Tiễn - Chuẩn Hóa Hệ Thống Quản Lý Phòng Khám",
+   "problem": "Một phòng khám tư nhân quản lý dữ liệu khám bệnh bằng một bảng duy nhất:\n`KHAMBENH(MaBN, TenBN, NgayKham, MaBacSi, TenBacSi, PhongKham, MaThuoc, TenThuoc, CachDung)`\nVới các quy tắc nghiệp vụ:\n- Mỗi bệnh nhân có một mã bệnh nhân `MaBN` và tên `TenBN`.\n- Mỗi bác sĩ có `MaBacSi`, `TenBacSi` và phụ trách một `PhongKham` cố định.\n- Trong một ngày, một bệnh nhân có thể khám với một bác sĩ và được kê một hoặc nhiều loại thuốc.\n- Mỗi loại thuốc có `MaThuoc`, `TenThuoc` và `CachDung`.\n\n**Yêu cầu:**\n1. Xác định các phụ thuộc hàm và tìm khóa chính của quan hệ trên.\n2. Chỉ ra các dị thường dữ liệu (Thêm, Xóa, Sửa) của thiết kế ban đầu.\n3. Chuẩn hóa thiết kế trên về Dạng chuẩn 3 (3NF).",
+   "solution_steps": [
+    "Bước 1: Xác định tập phụ thuộc hàm và Khóa chính\n- Tập phụ thuộc hàm:\n  - $MaBN \\to TenBN$\n  - $MaBacSi \\to TenBacSi, PhongKham$\n  - $MaThuoc \\to TenThuoc$\n  - $(MaBN, NgayKham, MaThuoc) \\to MaBacSi, CachDung$\n- Khóa chính duy nhất của bảng gốc là:\n  $$\\text{PK} = (MaBN, NgayKham, MaThuoc)$$",
+    "Bước 2: Phân tích các dị thường dữ liệu\n1. **Dư thừa dữ liệu:** Tên bệnh nhân, tên bác sĩ, tên thuốc bị lặp lại ở mọi đơn thuốc của từng ngày khám.\n2. **Dị thường thêm:** Không thể thêm thông tin của một bác sĩ mới về phòng khám nếu bác sĩ đó chưa khám cho bệnh nhân nào (vì `MaBN`, `NgayKham`, `MaThuoc` là khóa chính, cấm `NULL`).\n3. **Dị thường xóa:** Nếu xóa đơn thuốc của một bệnh nhân duy nhất từng khám với một bác sĩ nào đó, thông tin về bác sĩ và phòng khám của người đó cũng bị xóa mất khỏi CSDL.\n4. **Dị thường sửa:** Khi bác sĩ đổi phòng khám, phải cập nhật đồng loạt hàng nghìn dòng khám bệnh cũ.",
+    "Bước 3: Chuẩn hóa về 3NF\nPhân tách thành 4 bảng độc lập, chuẩn hóa:\n1. `BENHNHAN(MaBN, TenBN)`\n   - PK: `MaBN`\n2. `BACSI(MaBacSi, TenBacSi, PhongKham)`\n   - PK: `MaBacSi`\n3. `THUOC(MaThuoc, TenThuoc)`\n   - PK: `MaThuoc`\n4. `PHIEUKHAM(MaBN, NgayKham, MaBacSi)`\n   - PK: `(MaBN, NgayKham)`\n   - FK1: `MaBN` tham chiếu `BENHNHAN(MaBN)`\n   - FK2: `MaBacSi` tham chiếu `BACSI(MaBacSi)`\n5. `DONTHUOC_CHITIET(MaBN, NgayKham, MaThuoc, CachDung)`\n   - PK: `(MaBN, NgayKham, MaThuoc)`\n   - FK1: `(MaBN, NgayKham)` tham chiếu `PHIEUKHAM(MaBN, NgayKham)`\n   - FK2: `MaThuoc` tham chiếu `THUOC(MaThuoc)`"
+   ]
+  },
+  {
+   "title": "Chuẩn hóa lược đồ hóa đơn bán hàng từ 1NF đến 3NF",
+   "problem": "Cho $R(\\text{MaHD}, \\text{NgayLap}, \\text{MaKH}, \\text{TenKH}, \\text{MaSP}, \\text{TenSP}, \\text{DonGia}, \\text{SoLuong})$ với $F = \\{\\text{MaHD} \\to \\text{NgayLap}, \\text{MaKH};\\ \\text{MaKH} \\to \\text{TenKH};\\ \\text{MaSP} \\to \\text{TenSP}, \\text{DonGia};\\ \\text{MaHD}, \\text{MaSP} \\to \\text{SoLuong}\\}$. Hãy xác định khóa, dạng chuẩn hiện tại và chuẩn hóa đến 3NF (nêu dạng chuẩn BCNF của kết quả).",
+   "solution_steps": [
+    "Bước 1 - Khóa: `MaHD` và `MaSP` không xuất hiện ở vế phải nên thuộc mọi khóa. $(\\text{MaHD}, \\text{MaSP})^+$ chứa mọi thuộc tính $\\Rightarrow$ khóa duy nhất $(\\text{MaHD}, \\text{MaSP})$.",
+    "Bước 2 - Dạng chuẩn hiện tại: `NgayLap, MaKH` phụ thuộc một phần khóa (chỉ vào `MaHD`); `TenSP, DonGia` phụ thuộc một phần (chỉ vào `MaSP`) $\\Rightarrow$ vi phạm 2NF; $R$ chỉ đạt 1NF.",
+    "Bước 3 - Về 2NF: tách $\\text{HOADON}(\\text{MaHD}, \\text{NgayLap}, \\text{MaKH}, \\text{TenKH})$, $\\text{SANPHAM}(\\text{MaSP}, \\text{TenSP}, \\text{DonGia})$, $\\text{CHITIET}(\\text{MaHD}, \\text{MaSP}, \\text{SoLuong})$.",
+    "Bước 4 - Về 3NF: trong `HOADON`, $\\text{MaKH} \\to \\text{TenKH}$ là phụ thuộc bắc cầu (`MaHD` $\\to$ `MaKH` $\\to$ `TenKH`) $\\Rightarrow$ tách $\\text{KHACHHANG}(\\text{MaKH}, \\text{TenKH})$ và $\\text{HOADON}(\\text{MaHD}, \\text{NgayLap}, \\text{MaKH})$.",
+    "Bước 5 - Kết quả: $\\{\\text{HOADON}, \\text{KHACHHANG}, \\text{SANPHAM}, \\text{CHITIET}\\}$. Mỗi lược đồ có mọi phụ thuộc hàm với vế trái là khóa $\\Rightarrow$ đạt BCNF; phép tách bảo toàn thông tin và phụ thuộc hàm.",
+    "Kết luận: $R$ ban đầu ở 1NF; sau chuẩn hóa còn 4 bảng BCNF, loại bỏ dị thường thêm/xóa/sửa."
+   ],
+   "id": 4
+  }
+ ]
+}

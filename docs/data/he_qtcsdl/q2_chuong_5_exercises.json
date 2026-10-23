@@ -1,0 +1,494 @@
+{
+ "chapter_id": "q2_chuong_5",
+ "chapter_title": "Quyển 2 - Chương 5: Phụ thuộc đa trị (MVD) & dạng chuẩn 4NF",
+ "multiple_choice": [
+  {
+   "id": 1,
+   "difficulty": "easy",
+   "question": "Khái niệm Phụ thuộc đa trị (MVD) được nhà khoa học Ronald Fagin đề xuất nhằm giải quyết loại dư thừa dữ liệu phát sinh trong trường hợp nào?",
+   "options": {
+    "A": "Bảng có chỉ mục B-Tree bị hỏng.",
+    "B": "Một bảng chứa quá nhiều số thực dấu phẩy động.",
+    "C": "Trong cùng một bảng tồn tại hai hay nhiều mối liên kết một - nhiều độc lập với nhau (dẫn đến phép nhân tích Descartes các dòng dữ liệu).",
+    "D": "Bảng không có khóa ngoại."
+   },
+   "correct_answer": "C",
+   "explanation": "Khi hai mối quan hệ 1-N độc lập được gộp chung vào một bảng (như một môn học có nhiều giảng viên độc lập và nhiều giáo trình độc lập), dữ liệu bị nhân tích chéo, sinh ra dư thừa lớn dù bảng đã đạt BCNF."
+  },
+  {
+   "id": 2,
+   "difficulty": "easy",
+   "question": "Cho lược đồ $R(A, B, C)$. Theo Luật bù (Complementation Rule) của phụ thuộc đa trị, nếu ta có $A \\twoheadrightarrow B$, thì ta cũng CHẮC CHẮN có:",
+   "options": {
+    "A": "$B \\twoheadrightarrow A$",
+    "B": "$A \\twoheadrightarrow C$",
+    "C": "$C \\twoheadrightarrow B$",
+    "D": "$B \\twoheadrightarrow C$"
+   },
+   "correct_answer": "B",
+   "explanation": "Luật bù phát biểu: Nếu $X \\twoheadrightarrow Y$ thì $X \\twoheadrightarrow U \\setminus (X \\cup Y)$. Vì $U \\setminus (A \\cup B) = C$, nên $A \\twoheadrightarrow C$ luôn đúng. MVD luôn đi theo cặp đối xứng."
+  },
+  {
+   "id": 3,
+   "difficulty": "easy",
+   "question": "Phụ thuộc đa trị nào sau đây là một Phụ thuộc đa trị tầm thường (Trivial MVD) trên lược đồ $R(A, B, C, D)$?",
+   "options": {
+    "A": "$A \\twoheadrightarrow BCD$",
+    "B": "$AB \\twoheadrightarrow C$",
+    "C": "$B \\twoheadrightarrow C$",
+    "D": "$A \\twoheadrightarrow B$"
+   },
+   "correct_answer": "A",
+   "explanation": "Phụ thuộc đa trị $X \\twoheadrightarrow Y$ là tầm thường nếu $Y \\subseteq X$ hoặc $X \\cup Y = U$. Ở đây $A \\cup BCD = ABCD = U$, nên $A \\twoheadrightarrow BCD$ là tầm thường."
+  },
+  {
+   "id": 4,
+   "difficulty": "easy",
+   "question": "Mối quan hệ nào sau đây giữa Phụ thuộc hàm (FD) và Phụ thuộc đa trị (MVD) là ĐÚNG?",
+   "options": {
+    "A": "Nếu $X \\twoheadrightarrow Y$ thì $X \\to Y$.",
+    "B": "FD và MVD hoàn toàn không có mối liên hệ nào.",
+    "C": "MVD luôn làm mất khóa chính.",
+    "D": "Nếu $X \\to Y$ thì $X \\twoheadrightarrow Y$."
+   },
+   "correct_answer": "D",
+   "explanation": "Đây là Luật sao chép (Replication Rule): Mọi phụ thuộc hàm $X \\to Y$ đều là một phụ thuộc đa trị đặc biệt (khi tập giá trị liên kết của $Y$ chỉ có duy nhất 1 phần tử). Chiều ngược lại không đúng."
+  },
+  {
+   "id": 5,
+   "difficulty": "easy",
+   "question": "Định lý Fagin đưa ra điều kiện cần và đủ để phân tách một lược đồ quan hệ $R$ thành hai lược đồ con $\\{R_1, R_2\\}$ bảo toàn thông tin dựa trên:",
+   "options": {
+    "A": "$R_1 \\cup R_2 = \\emptyset$",
+    "B": "$R_1 \\cap R_2 = \\emptyset$",
+    "C": "$|R_1| = |R_2|$",
+    "D": "$(R_1 \\cap R_2) \\twoheadrightarrow (R_1 \\setminus R_2)$ hoặc $(R_1 \\cap R_2) \\twoheadrightarrow (R_2 \\setminus R_1)$"
+   },
+   "correct_answer": "D",
+   "explanation": "Định lý Fagin mở rộng Định lý Decobel cho MVD: Phép tách 2 quan hệ là Lossless Join khi và chỉ khi phần giao của chúng xác định đa trị phần bù của ít nhất một trong hai quan hệ."
+  },
+  {
+   "id": 6,
+   "difficulty": "easy",
+   "question": "Một lược đồ quan hệ đạt Dạng chuẩn 4 (4NF) khi:",
+   "options": {
+    "A": "Bảng chỉ chứa đúng 4 cột.",
+    "B": "Bảng không chứa bất kỳ khóa ngoại nào.",
+    "C": "Mọi phụ thuộc hàm đều là tầm thường.",
+    "D": "Đạt BCNF và mọi phụ thuộc đa trị không tầm thường $X \\twoheadrightarrow Y$ đều có vế trái $X$ là một siêu khóa."
+   },
+   "correct_answer": "D",
+   "explanation": "Định nghĩa 4NF: Bắt buộc mọi vế trái của phụ thuộc đa trị không tầm thường phải là siêu khóa của quan hệ."
+  },
+  {
+   "id": 7,
+   "difficulty": "easy",
+   "question": "Xét quan hệ $R(MonHoc, GiangVien, GiaoTrinh)$ trong đó một môn học có thể có nhiều giảng viên dạy và nhiều giáo trình tham khảo, giảng viên và giáo trình hoàn toàn độc lập với nhau. Khóa chính của $R$ là:",
+   "options": {
+    "A": "`(MonHoc, GiangVien)`",
+    "B": "`(GiangVien, GiaoTrinh)`",
+    "C": "`(MonHoc, GiangVien, GiaoTrinh)`",
+    "D": "`MonHoc`"
+   },
+   "correct_answer": "C",
+   "explanation": "Do các thuộc tính hoàn toàn độc lập và là quan hệ nhiều - nhiều, không có bất kỳ tập con thực sự nào xác định được toàn thể dòng. Khóa duy nhất là tổ hợp toàn bộ 3 thuộc tính."
+  },
+  {
+   "id": 8,
+   "difficulty": "easy",
+   "question": "Trong quan hệ $R(MonHoc, GiangVien, GiaoTrinh)$ ở câu 7, mặc dù đạt chuẩn BCNF nhưng lại vi phạm 4NF. Để đưa $R$ về Dạng chuẩn 4 (4NF), ta phân tách thành:",
+   "options": {
+    "A": "$R_1(GiangVien, GiaoTrinh)$ và $R_2(MonHoc)$",
+    "B": "$R_1(MonHoc)$ và $R_2(GiangVien)$ và $R_3(GiaoTrinh)$",
+    "C": "$R_1(MonHoc, GiangVien)$ và $R_2(MonHoc, GiaoTrinh)$",
+    "D": "Không thể phân tách được."
+   },
+   "correct_answer": "C",
+   "explanation": "Theo thuật toán phân tách 4NF trên MVD $MonHoc \\twoheadrightarrow GiangVien$, ta thu được hai bảng con: $R_1(MonHoc, GiangVien)$ và $R_2(MonHoc, GiaoTrinh)$. Phép tách này theo Định lý Fagin là bảo toàn thông tin 100%."
+  },
+  {
+   "id": 9,
+   "difficulty": "easy",
+   "question": "Nếu một lược đồ quan hệ đạt Dạng chuẩn 4 (4NF), phát biểu nào sau đây là ĐÚNG?",
+   "options": {
+    "A": "Nó chắc chắn đạt Dạng chuẩn Boyce-Codd (BCNF).",
+    "B": "Nó chứa nhiều thuộc tính đa trị dư thừa.",
+    "C": "Nó không thể chuyển sang dạng chuẩn 3NF.",
+    "D": "Nó có thể vi phạm BCNF."
+   },
+   "correct_answer": "A",
+   "explanation": "Vì $\\text{4NF} \\subset \\text{BCNF}$, một khi lược đồ đã đạt 4NF thì nó đương nhiên đã đạt BCNF, 3NF, 2NF và 1NF."
+  },
+  {
+   "id": 10,
+   "difficulty": "easy",
+   "question": "Thuật toán chuẩn hóa một lược đồ quan hệ về Dạng chuẩn 4 (4NF) bảo đảm tính chất nào?",
+   "options": {
+    "A": "Luôn luôn Bảo toàn phụ thuộc đa trị.",
+    "B": "Luôn luôn Bảo toàn thông tin (Lossless Join).",
+    "C": "Giảm số lượng khóa ngoại về 0.",
+    "D": "Không bao giờ tạo thêm bảng con nào."
+   },
+   "correct_answer": "B",
+   "explanation": "Thuật toán phân tách đệ quy dựa trên MVD vi phạm kết hợp Định lý Fagin luôn luôn đảm bảo tính kết nối không mất mát thông tin (Lossless Join)."
+  },
+  {
+   "difficulty": "medium",
+   "question": "Cho $R(A,B,C,D)$ và $A \\twoheadrightarrow B$. Theo luật bù (complementation), ta suy ra:",
+   "options": {
+    "A": "$A \\twoheadrightarrow A$",
+    "B": "$B \\twoheadrightarrow A$",
+    "C": "$A \\to B$",
+    "D": "$A \\twoheadrightarrow CD$"
+   },
+   "correct_answer": "D",
+   "explanation": "Luật bù: $X \\twoheadrightarrow Y \\Rightarrow X \\twoheadrightarrow R - X - Y$; ở đây $R - A - B = CD$.",
+   "id": 11
+  },
+  {
+   "difficulty": "medium",
+   "question": "Mối quan hệ giữa phụ thuộc hàm và phụ thuộc đa trị là:",
+   "options": {
+    "A": "MVD kéo theo FD",
+    "B": "FD và MVD hoàn toàn độc lập",
+    "C": "Mọi FD $X \\to Y$ đều kéo theo MVD $X \\twoheadrightarrow Y$, nhưng chiều ngược lại không đúng",
+    "D": "Mọi MVD là FD"
+   },
+   "correct_answer": "C",
+   "explanation": "FD là trường hợp đặc biệt của MVD (mỗi $X$ xác định đúng một $Y$).",
+   "id": 12
+  },
+  {
+   "difficulty": "medium",
+   "question": "MVD nào sau đây là tầm thường trên $R(A,B,C)$?",
+   "options": {
+    "A": "$A \\twoheadrightarrow B$",
+    "B": "$C \\twoheadrightarrow A$",
+    "C": "$A \\twoheadrightarrow BC$",
+    "D": "$B \\twoheadrightarrow C$"
+   },
+   "correct_answer": "C",
+   "explanation": "MVD $X \\twoheadrightarrow Y$ tầm thường khi $Y \\subseteq X$ hoặc $X \\cup Y = R$. Ở đây $A \\cup BC = R$.",
+   "id": 13
+  },
+  {
+   "difficulty": "medium",
+   "question": "Phát biểu nào đúng về BCNF và 4NF?",
+   "options": {
+    "A": "4NF $\\Rightarrow$ BCNF, nhưng BCNF không suy ra 4NF",
+    "B": "Hai dạng chuẩn tương đương",
+    "C": "4NF yếu hơn 3NF",
+    "D": "BCNF $\\Rightarrow$ 4NF"
+   },
+   "correct_answer": "A",
+   "explanation": "4NF mở rộng BCNF sang phụ thuộc đa trị nên chặt hơn.",
+   "id": 14
+  },
+  {
+   "difficulty": "medium",
+   "question": "$R(\\text{MonHoc}, \\text{GiangVien}, \\text{GiaoTrinh})$ với $\\text{MonHoc} \\twoheadrightarrow \\text{GiangVien} \\mid \\text{GiaoTrinh}$ và không có FD không tầm thường. Dạng chuẩn cao nhất là:",
+   "options": {
+    "A": "3NF",
+    "B": "4NF",
+    "C": "BCNF nhưng không 4NF",
+    "D": "1NF"
+   },
+   "correct_answer": "C",
+   "explanation": "Khóa là cả ba thuộc tính nên không có FD vi phạm: đạt BCNF; nhưng MVD không tầm thường có vế trái `MonHoc` không là siêu khóa nên vi phạm 4NF.",
+   "id": 15
+  },
+  {
+   "difficulty": "medium",
+   "question": "Để đạt 4NF, lược đồ trên nên được tách thành:",
+   "options": {
+    "A": "$\\{(\\text{MonHoc}, \\text{GiangVien}),\\ (\\text{MonHoc}, \\text{GiaoTrinh})\\}$",
+    "B": "$\\{(\\text{GiangVien}, \\text{GiaoTrinh}),\\ (\\text{MonHoc})\\}$",
+    "C": "Giữ nguyên",
+    "D": "$\\{(\\text{MonHoc}),\\ (\\text{GiangVien}),\\ (\\text{GiaoTrinh})\\}$"
+   },
+   "correct_answer": "A",
+   "explanation": "Theo định lý Fagin, tách theo $X = \\text{MonHoc}$ thành $XY$ và $XZ$ bảo toàn thông tin.",
+   "id": 16
+  },
+  {
+   "difficulty": "medium",
+   "question": "Định lý Fagin phát biểu: $R(X,Y,Z)$ tách thành $R_1(X,Y)$ và $R_2(X,Z)$ bảo toàn thông tin khi và chỉ khi:",
+   "options": {
+    "A": "$X \\cap Y = \\emptyset$",
+    "B": "$Y \\twoheadrightarrow X$",
+    "C": "$X \\twoheadrightarrow Y$ (và do bù, $X \\twoheadrightarrow Z$)",
+    "D": "$X \\to Y$ bắt buộc"
+   },
+   "correct_answer": "C",
+   "explanation": "Định lý cho điều kiện cần và đủ bằng phụ thuộc đa trị.",
+   "id": 17
+  },
+  {
+   "difficulty": "medium",
+   "question": "Một quan hệ chỉ có hai thuộc tính $R(A,B)$:",
+   "options": {
+    "A": "Luôn đạt 4NF",
+    "B": "Luôn vi phạm 4NF",
+    "C": "Không có MVD tầm thường",
+    "D": "Chỉ đạt 1NF"
+   },
+   "correct_answer": "A",
+   "explanation": "Mọi MVD trên hai thuộc tính đều tầm thường nên đạt 4NF.",
+   "id": 18
+  },
+  {
+   "difficulty": "medium",
+   "question": "Dị thường nào thường gặp khi một nhân viên có kỹ năng và ngoại ngữ độc lập nhau nhưng lưu chung một bảng `(MaNV, KyNang, NgoaiNgu)`?",
+   "options": {
+    "A": "Mất khóa",
+    "B": "Dư thừa tổ hợp: thêm một kỹ năng mới phải thêm nhiều dòng tương ứng với mọi ngoại ngữ",
+    "C": "Không có dị thường",
+    "D": "Không thể truy vấn"
+   },
+   "correct_answer": "B",
+   "explanation": "Hai thuộc tính đa trị độc lập sinh tích Descartes các giá trị trong cùng một nhân viên.",
+   "id": 19
+  },
+  {
+   "difficulty": "medium",
+   "question": "Một môn có 2 giảng viên và 3 giáo trình độc lập. Số bộ tối thiểu mà quan hệ gốc phải chứa cho môn này là:",
+   "options": {
+    "A": "6",
+    "B": "2",
+    "C": "3",
+    "D": "5"
+   },
+   "correct_answer": "A",
+   "explanation": "MVD đòi hỏi mọi tổ hợp: $2 \\times 3 = 6$ bộ.",
+   "id": 20
+  },
+  {
+   "difficulty": "medium",
+   "question": "Điều kiện của lược đồ đạt 4NF là:",
+   "options": {
+    "A": "Mọi thuộc tính đều là khóa",
+    "B": "Mọi MVD không tầm thường $X \\twoheadrightarrow Y$ có $X$ là siêu khóa",
+    "C": "Không có phụ thuộc hàm nào",
+    "D": "Mọi MVD đều có $X$ là khóa chính"
+   },
+   "correct_answer": "B",
+   "explanation": "Đây là định nghĩa chuẩn của 4NF.",
+   "id": 21
+  },
+  {
+   "difficulty": "medium",
+   "question": "Vì sao việc chuẩn hóa về 4NF bảo toàn thông tin?",
+   "options": {
+    "A": "Vì không cần phép nối",
+    "B": "Vì dùng khóa ngoại",
+    "C": "Vì mỗi bước tách dựa trên MVD $X \\twoheadrightarrow Y$ thỏa điều kiện Fagin",
+    "D": "Vì luôn xóa bớt dữ liệu"
+   },
+   "correct_answer": "C",
+   "explanation": "Mỗi bước tách $R$ thành $XY$ và $X(R - Y)$ là phép tách lossless theo định lý Fagin.",
+   "id": 22
+  },
+  {
+   "difficulty": "hard",
+   "question": "Quan hệ $R(A,B,C) = \\{(1,x,p),\\ (1,y,q)\\}$. MVD $A \\twoheadrightarrow B$ có thỏa không?",
+   "options": {
+    "A": "Không thỏa vì thiếu các bộ $(1,x,q)$ và $(1,y,p)$",
+    "B": "Thỏa vì chỉ có 2 bộ",
+    "C": "Thỏa vì hai bộ có cùng $A$",
+    "D": "Không xác định được"
+   },
+   "correct_answer": "A",
+   "explanation": "Với $t_1 = (1,x,p)$ và $t_2 = (1,y,q)$ cần có bộ $(1,x,q)$ (lấy $B$ của $t_1$, $C$ của $t_2$) và $(1,y,p)$.",
+   "id": 23
+  },
+  {
+   "difficulty": "hard",
+   "question": "Quan hệ $R(A,B,C) = \\{(1,x,p),(1,x,q),(1,y,p),(1,y,q)\\}$. MVD $A \\twoheadrightarrow B$ có thỏa không?",
+   "options": {
+    "A": "Không thỏa",
+    "B": "Không áp dụng",
+    "C": "Chỉ thỏa nếu có FD $A \\to B$",
+    "D": "Thỏa vì mọi tổ hợp $B$ và $C$ của $A = 1$ đều có mặt"
+   },
+   "correct_answer": "D",
+   "explanation": "Với $A = 1$, tập $B = \\{x,y\\}$ và tập $C = \\{p,q\\}$ xuất hiện đủ $2 \\times 2 = 4$ tổ hợp.",
+   "id": 24
+  },
+  {
+   "difficulty": "hard",
+   "question": "Cho $R(A,B,C)$, chỉ có MVD $A \\twoheadrightarrow B$ (không có FD không tầm thường). Kết quả chuẩn hóa về 4NF là:",
+   "options": {
+    "A": "$\\{A,\\ B,\\ C\\}$",
+    "B": "$\\{ABC\\}$",
+    "C": "$\\{AB,\\ AC\\}$",
+    "D": "$\\{AB,\\ BC\\}$"
+   },
+   "correct_answer": "C",
+   "explanation": "Khóa là $ABC$. Tách $R_1(A,B)$, $R_2(A,C)$: mỗi quan hệ hai thuộc tính nên đạt 4NF.",
+   "id": 25
+  },
+  {
+   "difficulty": "hard",
+   "question": "Cho $R(A,B,C,D)$ và $A \\to B$. Phát biểu nào đúng về các MVD suy ra được?",
+   "options": {
+    "A": "Chỉ $A \\twoheadrightarrow B$",
+    "B": "Không có MVD nào",
+    "C": "Chỉ $A \\twoheadrightarrow CD$",
+    "D": "$A \\twoheadrightarrow B$ và $A \\twoheadrightarrow CD$"
+   },
+   "correct_answer": "D",
+   "explanation": "FD $A \\to B$ cho $A \\twoheadrightarrow B$; luật bù cho $A \\twoheadrightarrow R - A - B = CD$.",
+   "id": 26
+  },
+  {
+   "difficulty": "hard",
+   "question": "$R(A,B,C,D)$ với $A \\twoheadrightarrow B$ và $A \\twoheadrightarrow C$. Phụ thuộc nào sau đây suy ra được?",
+   "options": {
+    "A": "$D \\twoheadrightarrow A$",
+    "B": "Không suy ra gì thêm",
+    "C": "$A \\twoheadrightarrow D$",
+    "D": "$A \\to D$"
+   },
+   "correct_answer": "C",
+   "explanation": "Luật bù: $A \\twoheadrightarrow B \\Rightarrow A \\twoheadrightarrow CD$. Kết hợp $A \\twoheadrightarrow C$, quy tắc hiệu cho $A \\twoheadrightarrow CD - C = D$.",
+   "id": 27
+  },
+  {
+   "difficulty": "hard",
+   "question": "Lược đồ $R(A,B,C)$ chỉ có MVD $A \\twoheadrightarrow B \\mid C$ không tầm thường và không có FD không tầm thường:",
+   "options": {
+    "A": "Đạt 4NF",
+    "B": "Đạt BCNF nhưng vi phạm 4NF",
+    "C": "Vi phạm BCNF",
+    "D": "Vi phạm 1NF"
+   },
+   "correct_answer": "B",
+   "explanation": "Không có FD không tầm thường nên đạt BCNF (khóa là $ABC$). Nhưng MVD không tầm thường có vế trái $A$ không là siêu khóa nên vi phạm 4NF.",
+   "id": 28
+  },
+  {
+   "difficulty": "hard",
+   "question": "Với $R(\\text{MonHoc}, \\text{GiangVien}, \\text{GiaoTrinh})$ và $\\text{MonHoc} \\twoheadrightarrow \\text{GiangVien}$, phép tách nào mất thông tin?",
+   "options": {
+    "A": "$\\{(\\text{MonHoc}, \\text{GiangVien}),\\ (\\text{MonHoc}, \\text{GiaoTrinh})\\}$",
+    "B": "$\\{(\\text{MonHoc}, \\text{GiaoTrinh}),\\ (\\text{MonHoc}, \\text{GiangVien})\\}$",
+    "C": "Mọi phép tách đều không mất",
+    "D": "$\\{(\\text{MonHoc}, \\text{GiangVien}),\\ (\\text{GiangVien}, \\text{GiaoTrinh})\\}$"
+   },
+   "correct_answer": "D",
+   "explanation": "Thuộc tính chung `GiangVien` không xác định đa trị `MonHoc` hay `GiaoTrinh`, nên phép nối sinh bộ giả.",
+   "id": 29
+  },
+  {
+   "difficulty": "hard",
+   "question": "Quá trình chuẩn hóa một lược đồ chứa cả FD vi phạm BCNF lẫn MVD vi phạm 4NF thường được thực hiện theo trình tự:",
+   "options": {
+    "A": "Không thể thực hiện",
+    "B": "Tách thành các quan hệ một thuộc tính",
+    "C": "Tách theo các vi phạm (BCNF/4NF) lần lượt cho đến khi mọi quan hệ con không còn vi phạm",
+    "D": "Chỉ cần tách theo MVD"
+   },
+   "correct_answer": "C",
+   "explanation": "Thuật toán lặp: gặp phụ thuộc vi phạm thì tách; mỗi bước đều lossless.",
+   "id": 30
+  }
+ ],
+ "short_answers": [
+  {
+   "id": 1,
+   "question": "Phát biểu điều kiện để một phụ thuộc đa trị $X \\twoheadrightarrow Y$ trên lược đồ $R(U)$ trở thành một Phụ thuộc đa trị tầm thường.",
+   "expected_answer": "$X \\twoheadrightarrow Y$ là tầm thường khi và chỉ khi:\n  $$Y \\subseteq X \\quad \\text{HOẶC} \\quad X \\cup Y = U$$",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 2,
+   "question": "Nếu có phụ thuộc hàm $A \\to B$ trên $R(A, B, C, D)$, hãy suy ra 2 phụ thuộc đa trị tương ứng theo các tiên đề MVD.",
+   "expected_answer": "1. Theo Luật sao chép (FD $\\to$ MVD): $A \\twoheadrightarrow B$.\n  2. Theo Luật bù: $A \\twoheadrightarrow U \\setminus (A \\cup B) \\implies A \\twoheadrightarrow CD$.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 3,
+   "question": "Giải thích tại sao một quan hệ chỉ gồm đúng 2 thuộc tính $R(A, B)$ luôn luôn đạt Dạng chuẩn 4 (4NF).",
+   "expected_answer": "Vì trên quan hệ có 2 thuộc tính, mọi phụ thuộc đa trị khả dĩ (như $A \\twoheadrightarrow B$ có $A \\cup B = U$, hoặc $A \\twoheadrightarrow A$ có $A \\subseteq A$) đều là **phụ thuộc đa trị tầm thường**. Không tồn tại bất kỳ phụ thuộc đa trị không tầm thường nào có thể vi phạm 4NF.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 4,
+   "question": "Nêu bước phân tách đệ quy một lược đồ $R$ khi phát hiện một phụ thuộc đa trị $X \\twoheadrightarrow Y$ vi phạm Dạng chuẩn 4 (4NF).",
+   "expected_answer": "Phân tách $R$ thành hai lược đồ con:\n  $$R_1 = X \\cup Y$$\n  $$R_2 = R \\setminus (Y \\setminus X) = (U \\setminus Y) \\cup X$$",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 5,
+   "question": "Khái niệm \"Cơ sở phụ thuộc\" (Dependency Basis) của một tập thuộc tính $X$, ký hiệu $DepB(X)$, được hiểu như thế nào?",
+   "expected_answer": "$DepB(X)$ là một phân hoạch gồm các tập con rời nhau $\\{Y_1, Y_2, \\dots, Y_m\\}$ của $U \\setminus X$ sao cho $X \\twoheadrightarrow Y_i \\in D^+$, và bất kỳ tập $W$ nào thỏa mãn $X \\twoheadrightarrow W$ đều được tạo thành từ hợp của một số tập $Y_i$ trong phân hoạch này.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "question": "Cho $R(A,B,C,D)$ và $A \\twoheadrightarrow B$. Dùng luật bù viết MVD còn lại.",
+   "expected_answer": "$A \\twoheadrightarrow R - A - B = CD$, tức $A \\twoheadrightarrow CD$.",
+   "explanation": "Luôn kiểm tra tập phần bù là các thuộc tính ngoài $X \\cup Y$.",
+   "id": 6
+  },
+  {
+   "question": "Khi nào MVD $X \\twoheadrightarrow Y$ là tầm thường?",
+   "expected_answer": "Khi $Y \\subseteq X$ hoặc $X \\cup Y = R$.",
+   "explanation": "Các MVD tầm thường không gây dị thường nên không được xét trong 4NF.",
+   "id": 7
+  },
+  {
+   "question": "Chuẩn hóa $R(\\text{MaNV}, \\text{KyNang}, \\text{NgoaiNgu})$ với $\\text{MaNV} \\twoheadrightarrow \\text{KyNang} \\mid \\text{NgoaiNgu}$ về 4NF.",
+   "expected_answer": "$\\text{NV\\_KN}(\\text{MaNV}, \\text{KyNang})$ và $\\text{NV\\_NN}(\\text{MaNV}, \\text{NgoaiNgu})$.",
+   "explanation": "Mỗi quan hệ có hai thuộc tính nên đạt 4NF; nối lại theo `MaNV` khôi phục lại $R$.",
+   "id": 8
+  }
+ ],
+ "essays": [
+  {
+   "id": 1,
+   "title": "Phân Tích Thực Tiễn Dị Thường MVD & Chuẩn Hóa Về 4NF",
+   "problem": "Một công ty phần mềm theo dõi kỹ năng của nhân viên bằng bảng dữ liệu:\n`NHANVIEN_DUAN_NGOAINGU(MaNV, MaDA, NgoaiNgu)`\n- Mỗi nhân viên (`MaNV`) có thể tham gia vào nhiều dự án (`MaDA`).\n- Mỗi nhân viên có thể sử dụng nhiều ngoại ngữ (`NgoaiNgu`).\n- Việc một nhân viên tham gia dự án nào hoàn toàn độc lập với việc họ biết ngoại ngữ nào.\n\n**Yêu cầu:**\n1. Hãy cho một ví dụ dữ liệu mẫu (khoảng 4 dòng) minh họa sự dư thừa dữ liệu bắt buộc của thiết kế trên.\n2. Xác định các phụ thuộc đa trị tồn tại trong lược đồ.\n3. Kiểm tra xem lược đồ có đạt BCNF không? Có đạt 4NF không?\n4. Tiến hành chuẩn hóa lược đồ về Dạng chuẩn 4 (4NF) bảo đảm bảo toàn thông tin.",
+   "solution_steps": [
+    "Bước 1: Ví dụ dữ liệu mẫu minh họa dư thừa\nXét nhân viên `NV01` tham gia 2 dự án (`DA1`, `DA2`) và biết 2 ngoại ngữ (`TiengAnh`, `TiengNhat`):\n\n| `MaNV` | `MaDA` | `NgoaiNgu` |\n| :---: | :---: | :---: |\n| NV01 | DA1 | TiengAnh |\n| NV01 | DA1 | TiengNhat |\n| NV01 | DA2 | TiengAnh |\n| NV01 | DA2 | TiengNhat |\n\n- Ta thấy thông tin `NV01` tham gia `DA1` bị lặp lại 2 lần (cho mỗi ngoại ngữ), và việc `NV01` biết `TiengAnh` cũng bị lặp lại 2 lần (cho mỗi dự án). Nếu nhân viên tham gia 5 dự án và biết 4 ngoại ngữ, bảng phải lưu trữ $5 \\times 4 = 20$ dòng!",
+    "Bước 2: Xác định các Phụ thuộc đa trị\nDo sự độc lập giữa dự án và ngoại ngữ đối với từng nhân viên:\n- $MaNV \\twoheadrightarrow MaDA$\n- $MaNV \\twoheadrightarrow NgoaiNgu$",
+    "Bước 3: Kiểm tra dạng chuẩn\n- **Khóa chính:** Do không có phụ thuộc hàm đơn trị nào, khóa chính duy nhất của bảng là toàn bộ bộ ba: `(MaNV, MaDA, NgoaiNgu)`.\n- **BCNF:** Vì không có phụ thuộc hàm không tầm thường nào $\\implies$ Bảng thỏa mãn BCNF.\n- **4NF:** Xét MVD $MaNV \\twoheadrightarrow MaDA$:\n  - Đây là MVD không tầm thường (vì $MaDA \\not\\subseteq MaNV$ và $\\{MaNV, MaDA\\} \\subset U$).\n  - Vế trái $MaNV$ **không phải là siêu khóa** của bảng.\n  - $\\implies$ Quan hệ **vi phạm Dạng chuẩn 4 (4NF)**!",
+    "Bước 4: Chuẩn hóa về 4NF\nÁp dụng thuật toán phân tách theo MVD $MaNV \\twoheadrightarrow MaDA$:\n- $R_1 = \\{MaNV, MaDA\\}$\n- $R_2 = \\{MaNV, NgoaiNgu\\}$\n- **Kiểm tra tính bảo toàn thông tin:**\n  - $R_1 \\cap R_2 = \\{MaNV\\}$.\n  - Theo Định lý Fagin, vì $MaNV \\twoheadrightarrow MaDA = R_1 \\setminus R_2$, nên phép tách này **hoàn toàn bảo toàn thông tin**.\n- **Kết quả:** $\\rho = \\{R_1(MaNV, MaDA), R_2(MaNV, NgoaiNgu)\\}$ đạt chuẩn 4NF. Dữ liệu của nhân viên `NV01` từ 4 dòng giảm xuống chỉ còn $2 + 2 = 4$ dòng trong 2 bảng nhỏ gọn, triệt tiêu hoàn toàn dư thừa tích Descartes."
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Chứng Minh Bằng Hệ Tiên Đề Phụ Thuộc Đa Trị",
+   "problem": "Cho lược đồ quan hệ $R(A, B, C, D, E)$ thỏa mãn hai phụ thuộc đa trị:\n$$A \\twoheadrightarrow B \\quad \\text{và} \\quad B \\twoheadrightarrow C$$\nHãy áp dụng hệ tiên đề cho phụ thuộc đa trị để chứng minh rằng:\n$$A \\twoheadrightarrow C \\setminus B$$",
+   "solution_steps": [
+    "#### Chứng minh:",
+    "1. Theo giả thiết, ta có:\n   $$A \\twoheadrightarrow B \\quad (1)$$\n   $$B \\twoheadrightarrow C \\quad (2)$$",
+    "2. Áp dụng **Tiên đề Bắc cầu (Transitivity Rule)** của phụ thuộc đa trị:\n   > Nếu $X \\twoheadrightarrow Y$ và $Y \\twoheadrightarrow Z$, thì $X \\twoheadrightarrow Z \\setminus Y$.",
+    "3. Đặt $X = A$, $Y = B$, $Z = C$.\n   Áp dụng trực tiếp vào (1) và (2), ta suy ra:\n   $$A \\twoheadrightarrow C \\setminus B$$",
+    "4. Đây chính là điều phải chứng minh."
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Chuẩn Hóa Lược Đồ Tổng Hợp Chứa Cả FD và MVD",
+   "problem": "Cho lược đồ quan hệ $R(A, B, C, D, E)$ với tập ràng buộc $D$ gồm cả phụ thuộc hàm và phụ thuộc đa trị:\n$$D = \\{A \\to B, \\ B \\twoheadrightarrow C, \\ C \\to D\\}$$\n1. Tìm khóa của $R$.\n2. Áp dụng thuật toán phân tách để đưa $R$ về Dạng chuẩn 4 (4NF) bảo toàn thông tin.",
+   "solution_steps": [
+    "Bước 1: Tìm khóa của $R$\n- Từ $A \\to B$ và $B \\twoheadrightarrow C$:\n  - Thuộc tính $E$ không xuất hiện ở vế phải của bất kỳ FD hay MVD nào $\\implies E$ bắt buộc phải nằm trong khóa.\n  - Từ $A$ xác định được $B$. Từ $C$ xác định được $D$.\n  - Khóa của $R$ cần kết hợp $\\{A, C, E\\}$.\n  - Khóa chính tối thiểu của $R$: $K = ACE$.",
+    "Bước 2: Chuẩn hóa đệ quy về 4NF\n1. **Xét phụ thuộc hàm $A \\to B$:**\n   - Theo luật sao chép: $A \\to B \\implies A \\twoheadrightarrow B$.\n   - $A$ không phải là siêu khóa của $R$ (vì $A^+ = AB \\ne U$).\n   - Phân tách $R$ theo $A \\to B$:\n     - $R_1 = AB$ (đạt 4NF vì chỉ có 2 thuộc tính).\n     - $R_2 = R \\setminus \\{B\\} = ACDE$.\n2. **Xét lược đồ $R_2(A, C, D, E)$:**\n   - Trong $R_2$, ta có phụ thuộc hàm $C \\to D$.\n   - $C$ không phải là siêu khóa của $R_2$ (vì $C^+ = CD \\ne ACDE$).\n   - Phân tách $R_2$ theo $C \\to D$:\n     - $R_{21} = CD$ (đạt 4NF vì chỉ có 2 thuộc tính).\n     - $R_{22} = R_2 \\setminus \\{D\\} = ACE$.\n3. **Xét lược đồ $R_{22}(A, C, E)$:**\n   - Khóa của $R_{22}$ là $ACE$. Không có phụ thuộc hàm hay MVD không tầm thường nào trên $R_{22}$.\n   - Do đó $R_{22}$ đạt 4NF.",
+    "Kết luận:\nPhép phân tách đạt Dạng chuẩn 4 (4NF) bảo toàn thông tin là:\n$$\\rho = \\{R_1(A, B), R_{21}(C, D), R_{22}(A, C, E)\\}$$"
+   ]
+  },
+  {
+   "title": "Chuẩn hóa lược đồ chứa cả phụ thuộc hàm và phụ thuộc đa trị lên 4NF",
+   "problem": "Cho $R(\\text{MaNV}, \\text{KyNang}, \\text{NgoaiNgu}, \\text{PhongBan})$ với $\\text{MaNV} \\to \\text{PhongBan}$ và $\\text{MaNV} \\twoheadrightarrow \\text{KyNang} \\mid \\text{NgoaiNgu}, \\text{PhongBan}$. a) Xác định khóa; b) chỉ ra các vi phạm BCNF/4NF; c) chuẩn hóa về 4NF và chứng minh bảo toàn thông tin.",
+   "solution_steps": [
+    "Bước 1 - Khóa: không FD nào cho phép bỏ `KyNang` hay `NgoaiNgu`, nên khóa là $(\\text{MaNV}, \\text{KyNang}, \\text{NgoaiNgu})$.",
+    "Bước 2 - Vi phạm: $\\text{MaNV} \\to \\text{PhongBan}$ có `MaNV` không là siêu khóa $\\Rightarrow$ vi phạm BCNF (và 4NF vì FD kéo theo MVD không tầm thường). MVD $\\text{MaNV} \\twoheadrightarrow \\text{KyNang}$ cũng vi phạm 4NF.",
+    "Bước 3 - Tách theo $\\text{MaNV} \\to \\text{PhongBan}$: $R_1(\\text{MaNV}, \\text{PhongBan})$ và $R_2(\\text{MaNV}, \\text{KyNang}, \\text{NgoaiNgu})$. Lossless vì $R_1 \\cap R_2 = \\text{MaNV} \\to \\text{PhongBan}$.",
+    "Bước 4 - Trong $R_2$, MVD $\\text{MaNV} \\twoheadrightarrow \\text{KyNang} \\mid \\text{NgoaiNgu}$ không tầm thường và `MaNV` không là siêu khóa của $R_2$ (khóa là cả ba thuộc tính) $\\Rightarrow$ tách $R_{21}(\\text{MaNV}, \\text{KyNang})$ và $R_{22}(\\text{MaNV}, \\text{NgoaiNgu})$ theo định lý Fagin.",
+    "Bước 5 - Kết quả: $\\{R_1(\\text{MaNV}, \\text{PhongBan}),\\ R_{21}(\\text{MaNV}, \\text{KyNang}),\\ R_{22}(\\text{MaNV}, \\text{NgoaiNgu})\\}$; mỗi quan hệ có hai thuộc tính nên đạt 4NF.",
+    "Kết luận: hai bước tách đều bảo toàn thông tin (điều kiện Heath ở bước 3, Fagin ở bước 4) nên phép tách tổng thể bảo toàn thông tin; phụ thuộc hàm được giữ trong $R_1$."
+   ],
+   "id": 4
+  }
+ ]
+}

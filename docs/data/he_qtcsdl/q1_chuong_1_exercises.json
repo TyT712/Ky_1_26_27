@@ -1,0 +1,489 @@
+{
+ "chapter_id": "q1_chuong_1",
+ "chapter_title": "Quyển 1 - Chương 1: Tổng quan về CSDL & kiến trúc ANSI/SPARC",
+ "multiple_choice": [
+  {
+   "id": 1,
+   "difficulty": "easy",
+   "question": "Trong hệ thống CSDL, khái niệm \"Độc lập dữ liệu vật lý\" (Physical Data Independence) được hiểu chính xác là:",
+   "options": {
+    "A": "Thay đổi lược đồ quan hệ mức khái niệm không làm thay đổi các khung nhìn người dùng.",
+    "B": "Khả năng dữ liệu không bị phá hủy khi có sự cố mất điện đột ngột.",
+    "C": "Thay đổi phần cứng máy chủ không làm thay đổi hệ điều hành.",
+    "D": "Thay đổi cấu trúc lưu trữ và phương pháp truy xuất vật lý trên đĩa không làm thay đổi lược đồ mức khái niệm."
+   },
+   "correct_answer": "D",
+   "explanation": "Độc lập dữ liệu vật lý là khả năng điều chỉnh, tối ưu hóa cấu trúc lưu trữ nội bộ (internal schema) hoặc kỹ thuật lập chỉ mục trên đĩa mà không làm thay đổi lược đồ logic/khái niệm (conceptual schema)."
+  },
+  {
+   "id": 2,
+   "difficulty": "easy",
+   "question": "Mức biểu diễn nào trong kiến trúc ANSI/SPARC chịu trách nhiệm mô tả toàn bộ cấu trúc logic của cơ sở dữ liệu mà không quan tâm đến phương thức lưu trữ cụ thể trên đĩa từ?",
+   "options": {
+    "A": "Mức khái niệm (Conceptual Level)",
+    "B": "Mức vật lý (Physical Level)",
+    "C": "Mức trong (Internal Level)",
+    "D": "Mức ngoài (External Level)"
+   },
+   "correct_answer": "A",
+   "explanation": "Mức khái niệm mô tả toàn bộ thực thể, thuộc tính và mối quan hệ logic của toàn bộ tổ chức mà không phụ thuộc vào chi tiết cài đặt vật lý."
+  },
+  {
+   "id": 3,
+   "difficulty": "easy",
+   "question": "Thành phần nào sau đây thuộc về Ngôn ngữ Định nghĩa Dữ liệu (DDL - Data Definition Language)?",
+   "options": {
+    "A": "`SELECT`",
+    "B": "`INSERT`",
+    "C": "`UPDATE`",
+    "D": "`CREATE TABLE`"
+   },
+   "correct_answer": "D",
+   "explanation": "`CREATE TABLE`, `ALTER TABLE`, `DROP TABLE` là các câu lệnh DDL dùng để xây dựng và sửa đổi cấu trúc lược đồ. Trong khi `SELECT` thuộc DQL, `INSERT`/`UPDATE` thuộc DML."
+  },
+  {
+   "id": 4,
+   "difficulty": "easy",
+   "question": "Ưu điểm lớn nhất của cách tiếp cận Cơ sở dữ liệu so với cách tiếp cận Hệ thống tệp truyền thống (File-based system) là:",
+   "options": {
+    "A": "Không cần sử dụng bộ nhớ RAM khi truy xuất.",
+    "B": "Tốc độ đọc file nhị phân nhanh hơn trong mọi trường hợp.",
+    "C": "Không cần thực hiện sao lưu dự phòng định kỳ.",
+    "D": "Giảm thiểu dư thừa dữ liệu và loại trừ nguy cơ mất nhất quán dữ liệu."
+   },
+   "correct_answer": "D",
+   "explanation": "Hệ thống tệp truyền thống lưu trữ dữ liệu phân tán dẫn đến dư thừa lớn và dị thường cập nhật. CSDL quản trị tập trung giúp kiểm soát dư thừa và nhất quán dữ liệu."
+  },
+  {
+   "id": 5,
+   "difficulty": "easy",
+   "question": "Người chịu trách nhiệm cao nhất về việc cấp phát quyền truy cập, giám sát hiệu năng, cấu hình sao lưu và phục hồi CSDL được gọi là:",
+   "options": {
+    "A": "System Analyst (Chuyên viên phân tích hệ thống)",
+    "B": "Database Administrator (DBA - Quản trị viên CSDL)",
+    "C": "End User (Người dùng cuối)",
+    "D": "Application Programmer (Lập trình viên ứng dụng)"
+   },
+   "correct_answer": "B",
+   "explanation": "Quản trị viên CSDL (DBA) là người nắm toàn quyền quản lý kỹ thuật, cấp phát tài khoản, phân quyền bảo mật và bảo trì hệ thống CSDL."
+  },
+  {
+   "id": 6,
+   "difficulty": "easy",
+   "question": "Trong kiến trúc 3 mức của CSDL, một ứng dụng của phòng Kế toán chỉ được nhìn thấy trường `LuongCoBan` mà không được thấy trường `MatKhau` của nhân viên. Điều này thể hiện chức năng của:",
+   "options": {
+    "A": "Lược đồ ngoài / Khung nhìn (External Schema / View)",
+    "B": "Hệ điều hành máy chủ",
+    "C": "Lược đồ trong (Internal Schema)",
+    "D": "Lược đồ khái niệm (Conceptual Schema)"
+   },
+   "correct_answer": "A",
+   "explanation": "Mức ngoài cung cấp các khung nhìn (Views) được tinh chỉnh theo nhu cầu và thẩm quyền bảo mật của từng nhóm người dùng riêng biệt."
+  },
+  {
+   "id": 7,
+   "difficulty": "easy",
+   "question": "Từ điển dữ liệu (Data Dictionary / System Catalog) trong một DBMS chứa đựng:",
+   "options": {
+    "A": "Siêu dữ liệu (Metadata) mô tả cấu trúc các bảng, kiểu dữ liệu, ràng buộc và chỉ mục.",
+    "B": "Danh bạ số điện thoại của các lập trình viên phát triển hệ thống.",
+    "C": "Toàn bộ nội dung các bản ghi người dùng nhập vào.",
+    "D": "Toàn bộ mã nguồn của các phần mềm ứng dụng người dùng."
+   },
+   "correct_answer": "A",
+   "explanation": "Data Dictionary lưu trữ Metadata - tức \"dữ liệu về dữ liệu\", bao gồm định nghĩa các bảng, thuộc tính, khóa, ràng buộc và thống kê phân phối phục vụ tối ưu hóa truy vấn."
+  },
+  {
+   "id": 8,
+   "difficulty": "easy",
+   "question": "Khi bổ sung một thuộc tính mới `SoDienThoai` vào bảng `SINHVIEN` ở mức khái niệm, các ứng dụng hiện tại chỉ đọc `HoTen` và `MaSV` vẫn hoạt động bình thường mà không cần viết lại mã nguồn. Đây là minh chứng của:",
+   "options": {
+    "A": "Tính nguyên tử của giao dịch",
+    "B": "Độc lập dữ liệu logic",
+    "C": "Độc lập dữ liệu vật lý",
+    "D": "Tính toàn vẹn thực thể"
+   },
+   "correct_answer": "B",
+   "explanation": "Độc lập dữ liệu logic cho phép mở rộng lược đồ mức khái niệm mà không phá vỡ các khung nhìn mức ngoài hiện hành."
+  },
+  {
+   "id": 9,
+   "difficulty": "easy",
+   "question": "Ngôn ngữ thao tác dữ liệu (DML - Data Manipulation Language) gồm các thao tác nào sau đây?",
+   "options": {
+    "A": "`CREATE`, `DROP`, `ALTER`",
+    "B": "`INSERT`, `UPDATE`, `DELETE`",
+    "C": "`COMMIT`, `ROLLBACK`",
+    "D": "`GRANT`, `REVOKE`"
+   },
+   "correct_answer": "B",
+   "explanation": "DML đảm nhiệm việc thêm, sửa, xóa dữ liệu trong các bảng: `INSERT`, `UPDATE`, `DELETE`."
+  },
+  {
+   "id": 10,
+   "difficulty": "easy",
+   "question": "Mục tiêu chính của việc ánh xạ (Mapping) giữa các mức trong kiến trúc ANSI/SPARC là:",
+   "options": {
+    "A": "Đảm bảo tính độc lập dữ liệu giữa các mức biểu diễn.",
+    "B": "Tăng tốc độ quay của đĩa từ.",
+    "C": "Giảm dung lượng ổ đĩa cứng khi lưu trữ.",
+    "D": "Thay thế hoàn toàn giao thức mạng TCP/IP."
+   },
+   "correct_answer": "A",
+   "explanation": "Các cơ chế ánh xạ Ngoài - Khái niệm (External-to-Conceptual) và Khái niệm - Trong (Conceptual-to-Internal) chính là cầu nối chuyển đổi yêu cầu truy vấn nhằm đảm bảo tính độc lập dữ liệu."
+  },
+  {
+   "difficulty": "medium",
+   "question": "Chức năng nào sau đây KHÔNG phải là chức năng cốt lõi của một Hệ quản trị CSDL (DBMS)?",
+   "options": {
+    "A": "Sao lưu và phục hồi sau sự cố",
+    "B": "Tự động thiết kế giao diện đồ họa riêng cho từng ứng dụng khách",
+    "C": "Điều khiển truy xuất đồng thời nhiều người dùng",
+    "D": "Quản lý từ điển dữ liệu (catalog)"
+   },
+   "correct_answer": "B",
+   "explanation": "DBMS cung cấp DDL/DML/DCL, catalog, điều khiển đồng thời, an toàn và phục hồi. Thiết kế giao diện ứng dụng là việc của lập trình viên ứng dụng, không phải chức năng của DBMS.",
+   "id": 11
+  },
+  {
+   "difficulty": "medium",
+   "question": "Câu lệnh `TRUNCATE TABLE DONHANG` thuộc nhóm ngôn ngữ nào của SQL?",
+   "options": {
+    "A": "DQL",
+    "B": "DML",
+    "C": "DCL",
+    "D": "DDL"
+   },
+   "correct_answer": "D",
+   "explanation": "`TRUNCATE` tác động lên cấu trúc lưu trữ của bảng (giải phóng toàn bộ trang dữ liệu) nên được xếp vào DDL, khác với `DELETE` là DML.",
+   "id": 12
+  },
+  {
+   "difficulty": "medium",
+   "question": "Các lệnh `COMMIT`, `ROLLBACK`, `SAVEPOINT` thuộc nhóm nào?",
+   "options": {
+    "A": "DDL - định nghĩa dữ liệu",
+    "B": "DML - thao tác dữ liệu",
+    "C": "TCL - điều khiển giao dịch",
+    "D": "DCL - phân quyền"
+   },
+   "correct_answer": "C",
+   "explanation": "Đây là nhóm TCL (Transaction Control Language), dùng để xác nhận hoặc hủy các thay đổi của một giao dịch.",
+   "id": 13
+  },
+  {
+   "difficulty": "medium",
+   "question": "Giao dịch chuyển 1 triệu từ tài khoản A sang B: đã trừ A xong thì hệ thống sập trước khi cộng B. Để không mất tiền, DBMS phải hủy phép trừ A. Đây là biểu hiện của tính chất nào?",
+   "options": {
+    "A": "Consistency (nhất quán) nhưng không liên quan đến nguyên tử",
+    "B": "Durability (bền vững)",
+    "C": "Isolation (cô lập)",
+    "D": "Atomicity (nguyên tử)"
+   },
+   "correct_answer": "D",
+   "explanation": "Atomicity: giao dịch là 'tất cả hoặc không có gì'. Hủy phép trừ dở dang bảo đảm tính nguyên tử.",
+   "id": 14
+  },
+  {
+   "difficulty": "medium",
+   "question": "Sau khi giao dịch đã `COMMIT` thành công, máy chủ bị mất điện. Khi khởi động lại, dữ liệu của giao dịch đó vẫn còn. Đây là tính chất nào?",
+   "options": {
+    "A": "Atomicity",
+    "B": "Isolation",
+    "C": "Durability",
+    "D": "Consistency"
+   },
+   "correct_answer": "C",
+   "explanation": "Durability (bền vững): kết quả của giao dịch đã commit phải được lưu vĩnh viễn, thường nhờ nhật ký giao tác (log) ghi xuống đĩa.",
+   "id": 15
+  },
+  {
+   "difficulty": "medium",
+   "question": "Giao dịch T1 đang sửa `SoDu` nhưng CHƯA commit; giao dịch T2 đọc được giá trị tạm thời đó. Tính chất ACID nào bị vi phạm?",
+   "options": {
+    "A": "Consistency",
+    "B": "Durability",
+    "C": "Isolation",
+    "D": "Atomicity"
+   },
+   "correct_answer": "C",
+   "explanation": "T2 nhìn thấy dữ liệu trung gian của T1 (dirty read) nghĩa là các giao dịch không được cô lập với nhau, vi phạm Isolation.",
+   "id": 16
+  },
+  {
+   "difficulty": "medium",
+   "question": "Bảng `TAIKHOAN` có ràng buộc `CHECK (SoDu >= 0)`. Một giao dịch rút tiền làm `SoDu` âm nên bị từ chối. Tính chất nào của giao dịch được bảo vệ?",
+   "options": {
+    "A": "Consistency",
+    "B": "Atomicity",
+    "C": "Isolation",
+    "D": "Durability"
+   },
+   "correct_answer": "A",
+   "explanation": "Consistency: giao dịch chỉ được đưa CSDL từ trạng thái hợp lệ sang trạng thái hợp lệ, nên mọi ràng buộc toàn vẹn phải được thỏa mãn.",
+   "id": 17
+  },
+  {
+   "difficulty": "medium",
+   "question": "Một khung nhìn (VIEW) `V_SV_CNTT` chỉ hiển thị sinh viên khoa CNTT thuộc mức nào trong kiến trúc ANSI/SPARC?",
+   "options": {
+    "A": "Mức khái niệm",
+    "B": "Mức ngoài",
+    "C": "Mức trong",
+    "D": "Mức vật lý của hệ điều hành"
+   },
+   "correct_answer": "B",
+   "explanation": "VIEW là lược đồ ngoài: biểu diễn dữ liệu theo nhu cầu và thẩm quyền của một nhóm người dùng.",
+   "id": 18
+  },
+  {
+   "difficulty": "medium",
+   "question": "DBA tạo thêm chỉ mục `CREATE INDEX idx_hoten ON SINHVIEN(HoTen)`. Việc này tác động trực tiếp tới mức nào?",
+   "options": {
+    "A": "Cả ba mức một cách như nhau",
+    "B": "Mức khái niệm",
+    "C": "Mức ngoài",
+    "D": "Mức trong (vật lý)"
+   },
+   "correct_answer": "D",
+   "explanation": "Chỉ mục là cấu trúc truy xuất vật lý, thuộc lược đồ trong. Lược đồ khái niệm (bảng, cột, ràng buộc) không đổi.",
+   "id": 19
+  },
+  {
+   "difficulty": "medium",
+   "question": "Thông tin 'cột `HoTen` của bảng `SINHVIEN` có kiểu `NVARCHAR(100)` và `NOT NULL`' được lưu ở đâu và gọi là gì?",
+   "options": {
+    "A": "Trong bảng `SINHVIEN`, gọi là dữ liệu người dùng",
+    "B": "Trong tệp nhật ký, gọi là thể hiện",
+    "C": "Trong từ điển dữ liệu, gọi là siêu dữ liệu (metadata)",
+    "D": "Trong chương trình ứng dụng, gọi là mã nguồn"
+   },
+   "correct_answer": "C",
+   "explanation": "Mô tả cấu trúc dữ liệu là metadata và được DBMS lưu trong catalog (từ điển dữ liệu).",
+   "id": 20
+  },
+  {
+   "difficulty": "medium",
+   "question": "Khái niệm nào đúng với 'thể hiện' (instance/state) của CSDL?",
+   "options": {
+    "A": "Tập tên bảng, tên cột và kiểu dữ liệu",
+    "B": "Tập các ràng buộc toàn vẹn của CSDL",
+    "C": "Bản thiết kế ER của hệ thống",
+    "D": "Tập dữ liệu thực sự đang có trong CSDL tại một thời điểm"
+   },
+   "correct_answer": "D",
+   "explanation": "Lược đồ là cấu trúc tĩnh; thể hiện là nội dung dữ liệu tại một thời điểm và thay đổi qua mỗi thao tác DML.",
+   "id": 21
+  },
+  {
+   "difficulty": "medium",
+   "question": "Nguyên nhân gốc của 'dị thường cập nhật' (cùng một thông tin ở nhiều nơi, sửa chỗ này quên chỗ kia) trong cách tiếp cận hệ thống tệp là gì?",
+   "options": {
+    "A": "Thiếu giao diện đồ họa",
+    "B": "Thiếu bộ nhớ RAM",
+    "C": "Tốc độ đĩa chậm",
+    "D": "Dư thừa dữ liệu (redundancy)"
+   },
+   "correct_answer": "D",
+   "explanation": "Dữ liệu trùng lặp ở nhiều tệp khiến việc cập nhật không đồng bộ, dẫn tới bất nhất.",
+   "id": 22
+  },
+  {
+   "difficulty": "hard",
+   "question": "Vì sao độc lập dữ liệu logic thường khó đạt được hơn độc lập dữ liệu vật lý?",
+   "options": {
+    "A": "Vì lược đồ trong luôn trùng với lược đồ ngoài",
+    "B": "Vì các ứng dụng phụ thuộc trực tiếp vào cấu trúc logic (tên bảng, tên cột, quan hệ), nên thay đổi lược đồ khái niệm dễ lan sang ứng dụng",
+    "C": "Vì phần cứng đĩa luôn thay đổi nhanh hơn phần mềm",
+    "D": "Vì DBMS không hỗ trợ ánh xạ giữa mức ngoài và mức khái niệm"
+   },
+   "correct_answer": "B",
+   "explanation": "Độc lập vật lý chỉ cần DBMS tự chọn cách truy xuất; độc lập logic đòi hỏi cập nhật ánh xạ/view để che chắn ứng dụng khỏi thay đổi lược đồ.",
+   "id": 23
+  },
+  {
+   "difficulty": "hard",
+   "question": "Khi đổi tên cột `MaSV` thành `MSSV` ở mức khái niệm mà vẫn muốn ứng dụng mức ngoài chạy nguyên vẹn, cần làm gì?",
+   "options": {
+    "A": "Không thể thực hiện được",
+    "B": "Xóa bảng rồi tạo lại và nhập lại dữ liệu",
+    "C": "Viết lại toàn bộ ứng dụng",
+    "D": "Cập nhật định nghĩa view/ánh xạ ngoài-khái niệm để view cũ vẫn trả về cột tên `MaSV`"
+   },
+   "correct_answer": "D",
+   "explanation": "Đây chính là vai trò của ánh xạ ngoài - khái niệm: chỉ sửa định nghĩa view (alias `MSSV AS MaSV`), ứng dụng không phải đổi.",
+   "id": 24
+  },
+  {
+   "difficulty": "hard",
+   "question": "Phát biểu nào về số lượng lược đồ trong kiến trúc ANSI/SPARC là SAI?",
+   "options": {
+    "A": "Có thể có nhiều lược đồ ngoài cho các nhóm người dùng khác nhau",
+    "B": "Mỗi CSDL có một lược đồ trong",
+    "C": "Mỗi CSDL có một lược đồ khái niệm",
+    "D": "Mỗi CSDL có đúng một lược đồ ngoài"
+   },
+   "correct_answer": "D",
+   "explanation": "Mỗi nhóm người dùng có thể có lược đồ ngoài riêng, nên số lược đồ ngoài thường nhiều hơn một.",
+   "id": 25
+  },
+  {
+   "difficulty": "hard",
+   "question": "T1 và T2 cùng đọc `SoDu = 100`, T1 ghi lại 150 (100+50), T2 cũng ghi lại 150 (100+50). Kết quả đúng phải là 200. Đây là hiện tượng gì và vi phạm tính chất nào?",
+   "options": {
+    "A": "Deadlock, vi phạm Atomicity",
+    "B": "Dirty read, vi phạm Durability",
+    "C": "Lost update (mất cập nhật), vi phạm Isolation",
+    "D": "Phantom, vi phạm Consistency của ràng buộc khóa chính"
+   },
+   "correct_answer": "C",
+   "explanation": "Hai giao dịch xen kẽ không kiểm soát khiến một cập nhật bị ghi đè. Giao dịch phải cô lập sao cho kết quả tương đương thực thi tuần tự.",
+   "id": 26
+  },
+  {
+   "difficulty": "hard",
+   "question": "'Độc lập giữa chương trình và dữ liệu' (program-data independence), ưu điểm của cách tiếp cận CSDL, có nghĩa là gì?",
+   "options": {
+    "A": "Mô tả cấu trúc dữ liệu được tách khỏi chương trình và lưu trong catalog, nên đổi cấu trúc không buộc sửa mọi chương trình",
+    "B": "Mỗi chương trình tự quản lý một tệp dữ liệu riêng",
+    "C": "Dữ liệu được lưu trong mã nguồn chương trình",
+    "D": "Chương trình không bao giờ cần truy cập dữ liệu"
+   },
+   "correct_answer": "A",
+   "explanation": "Trong hệ thống tệp, cấu trúc bản ghi nằm cứng trong từng chương trình; trong CSDL, cấu trúc nằm ở catalog và được dùng chung.",
+   "id": 27
+  },
+  {
+   "difficulty": "hard",
+   "question": "DBA chuyển bảng `GIAODICH` sang phân vùng theo năm trên các ổ đĩa khác nhau; mọi câu SQL của ứng dụng vẫn giữ nguyên. Đây là minh họa của:",
+   "options": {
+    "A": "Độc lập dữ liệu vật lý",
+    "B": "Tính nhất quán dữ liệu",
+    "C": "Độc lập dữ liệu logic",
+    "D": "Tính toàn vẹn tham chiếu"
+   },
+   "correct_answer": "A",
+   "explanation": "Chỉ thay đổi cách lưu trữ vật lý (lược đồ trong), lược đồ khái niệm và ứng dụng không đổi.",
+   "id": 28
+  },
+  {
+   "difficulty": "hard",
+   "question": "Một view có cột suy diễn `TongTien = SoLuong * DonGia`. Phát biểu nào đúng nhất?",
+   "options": {
+    "A": "Không thể tạo cột suy diễn trong view",
+    "B": "Cột `TongTien` được tính từ dữ liệu mức khái niệm khi truy vấn view, không nhất thiết lưu riêng",
+    "C": "Cột `TongTien` bắt buộc phải được lưu vật lý ở mức trong như mọi cột khác",
+    "D": "View làm thay đổi lược đồ khái niệm của CSDL"
+   },
+   "correct_answer": "B",
+   "explanation": "View là lược đồ ngoài; biểu thức được tính khi truy vấn qua ánh xạ ngoài - khái niệm, thường không lưu vật lý (trừ materialized view).",
+   "id": 29
+  },
+  {
+   "difficulty": "hard",
+   "question": "Thứ tự xử lý đúng khi người dùng gửi một câu SQL truy vấn trên một view là:",
+   "options": {
+    "A": "Truy xuất đĩa -> dịch SQL -> ánh xạ -> kết quả",
+    "B": "Mức khái niệm -> mức ngoài -> mức trong -> kết quả",
+    "C": "Mức trong -> mức khái niệm -> mức ngoài -> kết quả",
+    "D": "Ánh xạ ngoài -> khái niệm, rồi khái niệm -> trong, sau đó truy xuất đĩa và trả kết quả ngược lại"
+   },
+   "correct_answer": "D",
+   "explanation": "Yêu cầu đi từ mức ngoài xuống mức trong qua hai lần ánh xạ, dữ liệu được đọc từ đĩa rồi biến đổi ngược lên thành kết quả cho người dùng.",
+   "id": 30
+  }
+ ],
+ "short_answers": [
+  {
+   "id": 1,
+   "question": "Nêu sự khác biệt cốt lõi giữa hai khái niệm: \"Lược đồ Cơ sở dữ liệu\" (Database Schema) và \"Thể hiện Cơ sở dữ liệu\" (Database Instance / State).",
+   "expected_answer": "- **Lược đồ (Schema):** Là cấu trúc logic, thiết kế tổng thể của CSDL (tên bảng, trường, kiểu dữ liệu, ràng buộc). Lược đồ có tính chất **tĩnh**, rất hiếm khi thay đổi.\n  - **Thể hiện (Instance):** Là tập hợp dữ liệu thực tế đang được lưu trữ trong CSDL tại một thời điểm cụ thể. Thể hiện có tính chất **động**, biến thiên liên tục qua mỗi thao tác thêm, xóa, sửa.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 2,
+   "question": "Liệt kê 2 loại ánh xạ (mapping) trong kiến trúc 3 mức ANSI/SPARC và nêu rõ vai trò của từng loại đối với tính độc lập dữ liệu.",
+   "expected_answer": "1. **Ánh xạ Ngoài - Khái niệm (External/Conceptual Mapping):** Ánh xạ giữa khung nhìn của từng người dùng và cấu trúc logic chung. Đảm bảo tính **Độc lập dữ liệu logic**.\n  2. **Ánh xạ Khái niệm - Trong (Conceptual/Internal Mapping):** Ánh xạ giữa cấu trúc logic chung và các tệp lưu trữ vật lý trên đĩa. Đảm bảo tính **Độc lập dữ liệu vật lý**.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 3,
+   "question": "Phân loại các câu lệnh SQL sau vào đúng 3 nhóm: DDL, DML, DCL: `GRANT`, `DROP TABLE`, `UPDATE`, `CREATE INDEX`, `INSERT`, `REVOKE`.",
+   "expected_answer": "- **DDL (Data Definition Language):** `DROP TABLE`, `CREATE INDEX`.\n  - **DML (Data Manipulation Language):** `UPDATE`, `INSERT`.\n  - **DCL (Data Control Language):** `GRANT`, `REVOKE`.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 4,
+   "question": "Tại sao một hệ thống quản lý tệp tuần tự truyền thống (như ghi chép bằng file Excel hay CSV) lại dễ gây ra tình trạng bất nhất quán dữ liệu (Data Inconsistency)?",
+   "expected_answer": "Do dữ liệu bị lưu trữ phân tán và trùng lặp ở nhiều tệp khác nhau (Redundancy). Khi có sự thay đổi thông tin (ví dụ: sinh viên đổi số điện thoại), người quản lý chỉ cập nhật ở một tệp mà quên cập nhật ở tệp khác, dẫn đến cùng một thực thể có các giá trị mâu thuẫn nhau trong cùng một hệ thống.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 5,
+   "question": "Trình bày 4 tính chất quan trọng của một Giao dịch trong CSDL (chuẩn ACID).",
+   "expected_answer": "1. **A (Atomicity - Tính nguyên tử):** Mọi thao tác trong giao dịch hoặc cùng thành công 100%, hoặc cùng bị hủy bỏ (All or Nothing).\n  2. **C (Consistency - Tính nhất quán):** Giao dịch chuyển CSDL từ trạng thái hợp lệ này sang trạng thái hợp lệ khác, không vi phạm ràng buộc toàn vẹn.\n  3. **I (Isolation - Tính cô lập):** Các giao dịch thực thi đồng thời không được can thiệp hay nhìn thấy dữ liệu trung gian chưa commit của nhau.\n  4. **D (Durability - Tính bền vững):** Khi giao dịch đã hoàn tất (commit), dữ liệu sẽ tồn tại vĩnh viễn trên đĩa dù hệ thống gặp sự cố mất điện.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "question": "Phân biệt DELETE, TRUNCATE và DROP TABLE về nhóm lệnh và phạm vi tác động.",
+   "expected_answer": "- `DELETE`: DML, xóa từng dòng (có thể có `WHERE`), ghi log từng dòng, có thể rollback.\n- `TRUNCATE`: DDL, xóa toàn bộ dòng, giải phóng trang dữ liệu, nhanh, giữ cấu trúc bảng.\n- `DROP TABLE`: DDL, xóa cả cấu trúc bảng lẫn dữ liệu và ràng buộc.",
+   "explanation": "Chỉ `DELETE` có điều kiện `WHERE`; `DROP` làm mất định nghĩa bảng khỏi catalog.",
+   "id": 6
+  },
+  {
+   "question": "Nêu 3 lợi ích của việc quản lý dữ liệu tập trung bằng DBMS so với hệ thống tệp truyền thống.",
+   "expected_answer": "(1) Giảm dư thừa và bất nhất dữ liệu; (2) Chia sẻ dữ liệu và kiểm soát truy xuất đồng thời; (3) Bảo mật, phân quyền, sao lưu/phục hồi và ràng buộc toàn vẹn tập trung.",
+   "explanation": "Có thể kể thêm: độc lập chương trình - dữ liệu, truy vấn khai báo bằng SQL.",
+   "id": 7
+  },
+  {
+   "question": "Tại sao nói 'từ điển dữ liệu' (catalog) bản thân cũng là một CSDL?",
+   "expected_answer": "Vì catalog lưu siêu dữ liệu của CSDL dưới dạng các bảng hệ thống (danh sách bảng, cột, khóa, chỉ mục, quyền...) và có thể được truy vấn bằng SQL như bảng thường.",
+   "explanation": "Ví dụ: `INFORMATION_SCHEMA.TABLES`, `sys.columns` trong SQL Server.",
+   "id": 8
+  }
+ ],
+ "essays": [
+  {
+   "id": 1,
+   "title": "Phân tích Kiến trúc ANSI/SPARC cho Hệ thống Ngân hàng",
+   "problem": "Một ngân hàng thương mại đang vận hành hệ thống phần mềm quản lý tài khoản khách hàng. Hãy phân tích cấu trúc hệ thống này theo 3 mức của kiến trúc ANSI/SPARC:\n1. Xác định nội dung của Mức ngoài (External Level) cho 2 đối tượng: Khách hàng sử dụng Mobile Banking và Giao dịch viên tại quầy.\n2. Mô tả các thành phần cần có ở Mức khái niệm (Conceptual Level).\n3. Đề xuất cấu trúc ở Mức trong/vật lý (Internal Level).",
+   "solution_steps": [
+    "Bước 1: Mức ngoài (External Level / Views)\n- **Khung nhìn của Khách hàng (Mobile Banking):** Chỉ được xem danh sách tài khoản của chính mình (`SoTK`, `SoDu`, `LichSuGiaoDich`), ẩn hoàn toàn thông tin kiểm toán nội bộ, lãi suất gốc vốn vay và tài khoản của khách hàng khác.\n- **Khung nhìn của Giao dịch viên tại quầy:** Được xem thông tin định danh khách hàng (`SoCMND/CCCD`, `HoTen`, `DiaChi`), trạng thái tài khoản, thực hiện thao tác nạp/rút tiền nhưng bị che giấu mã PIN hoặc mật khẩu đăng nhập của khách hàng.",
+    "Bước 2: Mức khái niệm (Conceptual Level / Conceptual Schema)\nMô tả toàn bộ mô hình logic của ngân hàng gồm:\n- Các thực thể: `KHACHHANG`, `TAIKHOAN`, `GIAODICH`, `CHINHANH`, `NHANVIEN`.\n- Các mối quan hệ logic: Một khách hàng sở hữu một hoặc nhiều tài khoản (1-N); Một giao dịch gắn liền với một tài khoản nguồn và tài khoản đích.\n- Các ràng buộc toàn vẹn: Số dư tài khoản không được âm (`SoDu >= 0`), mã tài khoản là duy nhất.",
+    "Bước 3: Mức trong / Vật lý (Internal Level)\n- Lưu trữ các bảng `KHACHHANG`, `TAIKHOAN` dưới dạng tệp có thứ tự sắp xếp theo trường khóa chính `MaKH`, `SoTK`.\n- Xây dựng chỉ mục Cây B+ trên trường `SoCMND` và `SoTK` để tìm kiếm siêu tốc trong $O(\\log N)$.\n- Phân vùng dữ liệu (Partitioning) bảng `GIAODICH` theo từng năm để tối ưu hóa hiệu năng I/O.\n- Áp dụng kỹ thuật mã hóa đĩa AES-256 đối với trường dữ liệu số dư và mật khẩu hash bcrypt."
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Phân tích Kịch bản Vi phạm Tính Độc lập Dữ liệu",
+   "problem": "Hãy phân tích 2 kịch bản kỹ thuật sau và xác định kịch bản nào liên quan đến **Độc lập dữ liệu logic**, kịch bản nào liên quan đến **Độc lập dữ liệu vật lý**:\n- **Kịch bản A:** Do dung lượng dữ liệu tăng vọt, DBA quyết định chuyển bảng `NHATKY_TRUYCAP` từ ổ đĩa HDD sang hệ thống mảng đĩa SSD chuẩn NVMe và tạo thêm chỉ mục Clustered Index trên cột `ThoiGian`.\n- **Kịch bản B:** Để phục vụ chương trình tiếp thị mới, phòng IT bổ sung thêm cột `DiemTichLuy` vào bảng `KHACHHANG` và tạo thêm một bảng mới `PHIEU_GIAM_GIA(MaVoucher, PhanTramGiam, NgayHetHan)`.",
+   "solution_steps": [
+    "Bước 1: Phân tích Kịch bản A\n- Kịch bản A thay đổi môi trường phần cứng lưu trữ vật lý (từ HDD sang SSD NVMe) và cấu trúc chỉ mục khối nhớ nội bộ (Clustered Index).\n- Lược đồ logic tổng thể mức khái niệm không hề thay đổi (tên bảng, các cột, kiểu dữ liệu giữ nguyên).\n- Do đó, kịch bản A thuộc về phạm trù **Độc lập dữ liệu vật lý (Physical Data Independence)**.",
+    "Bước 2: Phân tích Kịch bản B\n- Kịch bản B thay đổi lược đồ mức khái niệm (Conceptual Schema) bằng cách thêm thuộc tính mới `DiemTichLuy` và thêm một thực thể mới `PHIEU_GIAM_GIA`.\n- Các chương trình hiện tại (như module tính lương, module in hóa đơn bán hàng cũ) không sử dụng thuộc tính mới này vẫn hoạt động bình thường mà không cần sửa mã lệnh.\n- Do đó, kịch bản B là minh chứng rõ ràng của **Độc lập dữ liệu logic (Logical Data Independence)**."
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Thiết kế Lược đồ Mô tả và Bảng Từ Điển Dữ Liệu",
+   "problem": "Hãy thiết kế lược đồ quan hệ mức khái niệm và lập Bảng Từ điển dữ liệu (Data Dictionary) cho hệ thống Quản lý Thư viện trường đại học gồm 2 thực thể: `SACH` và `DOCGIA`. Yêu cầu xác định rõ khóa chính, kiểu dữ liệu và ràng buộc toàn vẹn.",
+   "solution_steps": [
+    "Bước 1: Thiết kế Lược đồ Quan hệ\n- `SACH(MaSach, TenSach, TacGia, NamXuatBan, SoLuongTon)`\n  - Khóa chính: `MaSach`.\n- `DOCGIA(MaDocGia, HoTen, Email, NgayDangKy, HanThe)`\n  - Khóa chính: `MaDocGia`.",
+    "Bước 2: Xây dựng Từ điển dữ liệu (Data Dictionary)\n\n**Bảng 1: `SACH`**\n| Tên thuộc tính | Kiểu dữ liệu | Khóa (PK/FK) | Ràng buộc kiểm tra (Check Constraint) | Diễn giải |\n| :--- | :--- | :---: | :--- | :--- |\n| `MaSach` | `VARCHAR(10)` | PK | Không được chứa khoảng trắng | Mã định danh duy nhất cuốn sách |\n| `TenSach` | `NVARCHAR(150)` | | `NOT NULL` | Nhan đề cuốn sách |\n| `TacGia` | `NVARCHAR(100)` | | `NOT NULL` | Tên tác giả |\n| `NamXuatBan` | `INT` | | `NamXuatBan > 1900 AND NamXuatBan <= YEAR(GETDATE())` | Năm xuất bản hợp lệ |\n| `SoLuongTon` | `INT` | | `SoLuongTon >= 0` | Số lượng sách sẵn sàng cho mượn |\n\n**Bảng 2: `DOCGIA`**\n| Tên thuộc tính | Kiểu dữ liệu | Khóa (PK/FK) | Ràng buộc kiểm tra (Check Constraint) | Diễn giải |\n| :--- | :--- | :---: | :--- | :--- |\n| `MaDocGia` | `VARCHAR(10)` | PK | Bắt đầu bằng ký tự 'DG' | Mã định danh bạn đọc |\n| `HoTen` | `NVARCHAR(100)` | | `NOT NULL` | Họ và tên độc giả |\n| `Email` | `VARCHAR(100)` | | `UNIQUE, Email LIKE '%_@__%.__%'` | Email định dạng hợp lệ |\n| `NgayDangKy` | `DATE` | | Mặc định là ngày hiện tại `GETDATE()` | Ngày cấp thẻ |\n| `HanThe` | `DATE` | | `HanThe >= NgayDangKy` | Ngày hết hạn sử dụng thẻ |"
+   ]
+  },
+  {
+   "title": "Phân tích tính chất ACID qua kịch bản chuyển khoản liên ngân hàng",
+   "problem": "Giao dịch `CHUYENKHOAN(A -> B, 5.000.000)` gồm 3 bước: (1) kiểm tra `SoDu(A) >= 5.000.000`; (2) trừ `SoDu(A)`; (3) cộng `SoDu(B)`. Hãy: a) chỉ ra mỗi thuộc tính A, C, I, D thể hiện thế nào; b) nêu hậu quả khi từng thuộc tính bị vi phạm; c) viết khung giao dịch T-SQL bảo đảm tính nguyên tử.",
+   "solution_steps": [
+    "Bước 1 - A (Atomicity): cả ba bước cùng thành công hoặc cùng bị hủy. Nếu sập sau bước 2 mà trước bước 3, hệ thống phải rollback phép trừ, nếu không 5 triệu 'bốc hơi'.",
+    "Bước 2 - C (Consistency): ràng buộc `SoDu >= 0` và tổng tiền hệ thống không đổi. Nếu A không đủ tiền, giao dịch phải bị từ chối, CSDL vẫn ở trạng thái hợp lệ.",
+    "Bước 3 - I (Isolation): nếu hai giao dịch cùng rút từ A, kết quả phải như thực thi tuần tự. Vi phạm sẽ gây lost update hoặc dirty read, ví dụ A bị trừ 2 lần dựa trên cùng số dư cũ.",
+    "Bước 4 - D (Durability): sau COMMIT, dù mất điện, thay đổi vẫn được phục hồi từ nhật ký giao tác (write-ahead log).",
+    "Bước 5 - Khung T-SQL:\n```sql\nBEGIN TRY\n  BEGIN TRANSACTION;\n    IF (SELECT SoDu FROM TAIKHOAN WHERE SoTK='A') < 5000000\n       THROW 50001, N'Không đủ số dư', 1;\n    UPDATE TAIKHOAN SET SoDu = SoDu - 5000000 WHERE SoTK='A';\n    UPDATE TAIKHOAN SET SoDu = SoDu + 5000000 WHERE SoTK='B';\n  COMMIT TRANSACTION;\nEND TRY\nBEGIN CATCH\n  ROLLBACK TRANSACTION;\n  THROW;\nEND CATCH\n```",
+    "Kết luận: `BEGIN/COMMIT/ROLLBACK` bảo đảm A; CHECK/FK bảo đảm C; cơ chế khóa/MVCC bảo đảm I; log bảo đảm D."
+   ],
+   "id": 4
+  }
+ ]
+}

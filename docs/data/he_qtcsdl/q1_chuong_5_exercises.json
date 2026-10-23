@@ -1,0 +1,491 @@
+{
+ "chapter_id": "q1_chuong_5",
+ "chapter_title": "Quyển 1 - Chương 5: Tổ chức vật lý dữ liệu & chỉ mục B/B+",
+ "multiple_choice": [
+  {
+   "id": 1,
+   "difficulty": "easy",
+   "question": "Hệ số kết khối (Blocking Factor - $bfr$) của một tệp dữ liệu được định nghĩa là:",
+   "options": {
+    "A": "Dung lượng tính bằng Megabyte của toàn bộ cơ sở dữ liệu.",
+    "B": "Số lượng trường (thuộc tính) có trong một bảng.",
+    "C": "Số lượng khối đĩa tối đa mà tệp có thể chiếm dụng.",
+    "D": "Số lượng bản ghi dữ liệu tối đa có thể được lưu trữ trong một khối đĩa."
+   },
+   "correct_answer": "D",
+   "explanation": "$bfr = \\lfloor B / R \\rfloor$, biểu thị có bao nhiêu bản ghi kích thước $R$ có thể đóng vừa vặn vào một khối nhớ đĩa kích thước $B$."
+  },
+  {
+   "id": 2,
+   "difficulty": "easy",
+   "question": "Ưu điểm vượt trội của cấu trúc Cây B+ (B+ Tree) so với Cây B thông thường (Standard B-Tree) trong các hệ quản trị CSDL là gì?",
+   "options": {
+    "A": "Cây B+ chỉ lưu trữ được kiểu dữ liệu số nguyên.",
+    "B": "Cây B+ không bao giờ cần phải thực hiện thao tác cân bằng cây.",
+    "C": "Cây B+ chiếm ít dung lượng bộ nhớ RAM hơn.",
+    "D": "Các nút lá trong Cây B+ được liên kết tuần tự với nhau bằng danh sách liên kết hai chiều, cho phép thực thi truy vấn theo khoảng (Range Query) cực nhanh."
+   },
+   "correct_answer": "D",
+   "explanation": "Khác với Cây B (con trỏ dữ liệu nằm rải rác ở mọi nút), Cây B+ gom toàn bộ con trỏ dữ liệu xuống tầng lá và xâu chuỗi chúng thành danh sách liên kết, giúp việc duyệt `BETWEEN val1 AND val2` chỉ cần tìm điểm đầu và quét tuần tự trên tầng lá."
+  },
+  {
+   "id": 3,
+   "difficulty": "easy",
+   "question": "Một tệp dữ liệu có 40,000 bản ghi, mỗi bản ghi có kích thước $R = 100$ bytes. Kích thước khối đĩa $B = 4096$ bytes. Hệ số kết khối $bfr$ và số khối đĩa $b$ cần thiết để lưu tệp lần lượt là:",
+   "options": {
+    "A": "$bfr = 40.96$, $b = 977$ khối",
+    "B": "$bfr = 40$, $b = 1000$ khối",
+    "C": "$bfr = 41$, $b = 976$ khối",
+    "D": "$bfr = 40$, $b = 976$ khối"
+   },
+   "correct_answer": "B",
+   "explanation": "- $bfr = \\lfloor 4096 / 100 \\rfloor = \\lfloor 40.96 \\rfloor = 40$ bản ghi/khối.\n  - Số khối $b = \\lceil 40000 / 40 \\rceil = 1000$ khối đĩa."
+  },
+  {
+   "id": 4,
+   "difficulty": "easy",
+   "question": "Loại chỉ mục nào sau đây yêu cầu mỗi bản ghi trong tệp dữ liệu đều phải có một mục tương ứng trong tệp chỉ mục?",
+   "options": {
+    "A": "Chỉ mục thưa (Sparse Index)",
+    "B": "Chỉ mục dày (Dense Index)",
+    "C": "Chỉ mục chính (Primary Index)",
+    "D": "Chỉ mục cụm (Clustering Index)"
+   },
+   "correct_answer": "B",
+   "explanation": "Chỉ mục dày (Dense Index) lưu trữ cặp `(Khóa, Con trỏ)` cho từng bản ghi riêng biệt trong tệp. Trong khi chỉ mục thưa (Sparse Index) chỉ lưu đại diện khóa đầu tiên của mỗi khối."
+  },
+  {
+   "id": 5,
+   "difficulty": "easy",
+   "question": "Trong tệp đống (Heap File / Unordered File), thao tác nào sau đây có chi phí nhanh nhất?",
+   "options": {
+    "A": "Tìm kiếm một bản ghi theo khóa chính",
+    "B": "Chèn một bản ghi mới vào cuối tệp",
+    "C": "Tìm giá trị lớn nhất của một thuộc tính",
+    "D": "Xóa một bản ghi bất kỳ"
+   },
+   "correct_answer": "B",
+   "explanation": "Trong tệp đống, dữ liệu không cần sắp thứ tự nên việc chèn bản ghi mới chỉ đơn giản là ghi vào khối cuối cùng của tệp với chi phí tối thiểu $O(1)$ I/O."
+  },
+  {
+   "id": 6,
+   "difficulty": "easy",
+   "question": "Giả sử một tệp dữ liệu đã sắp thứ tự chiếm $b = 1024$ khối đĩa. Nếu không sử dụng chỉ mục, số khối đĩa trung bình cần đọc để tìm kiếm một bản ghi bằng thuật toán tìm kiếm nhị phân (Binary Search) là:",
+   "options": {
+    "A": "10 khối",
+    "B": "1 khối",
+    "C": "1024 khối",
+    "D": "512 khối"
+   },
+   "correct_answer": "A",
+   "explanation": "Chi phí tìm kiếm nhị phân trên tệp tuần tự là $\\lceil \\log_2 b \\rceil = \\lceil \\log_2 1024 \\rceil = 10$ lần đọc khối đĩa."
+  },
+  {
+   "id": 7,
+   "difficulty": "easy",
+   "question": "Tại sao trong hầu hết các DBMS, chỉ mục Cây B+ thường có chiều cao (Height) rất nhỏ (chỉ từ 2 đến 4 tầng) ngay cả với các bảng có hàng chục triệu bản ghi?",
+   "options": {
+    "A": "Vì mỗi khối đĩa chỉ chứa được tối đa 2 con trỏ.",
+    "B": "Vì Cây B+ không bao giờ lưu trữ các giá trị số.",
+    "C": "Vì Cây B+ tự động nén toàn bộ tệp về dung lượng 0 byte.",
+    "D": "Vì bậc phân nhánh (Fan-out / Order) của mỗi nút trong cây B+ rất lớn (thường từ vài chục đến hàng trăm khóa trong một khối 4KB-8KB)."
+   },
+   "correct_answer": "D",
+   "explanation": "Nút của Cây B+ có kích thước bằng một khối đĩa (4KB - 8KB), chứa được hàng trăm cặp khóa và con trỏ, dẫn đến hệ số phân nhánh khổng lồ, khiến cây nở theo chiều rộng và có độ cao cực thấp."
+  },
+  {
+   "id": 8,
+   "difficulty": "easy",
+   "question": "Khái niệm \"Bản ghi neo\" (Anchor Record) trong cấu trúc chỉ mục chính (Primary Index) được hiểu là:",
+   "options": {
+    "A": "Bản ghi đầu tiên của mỗi khối đĩa trong tệp dữ liệu có thứ tự.",
+    "B": "Bản ghi có kích thước lớn nhất trong cơ sở dữ liệu.",
+    "C": "Bản ghi bị hỏng không thể phục hồi.",
+    "D": "Bản ghi chứa thông tin tài khoản của Quản trị viên DBA."
+   },
+   "correct_answer": "A",
+   "explanation": "Trong chỉ mục thưa (Sparse Primary Index), bản ghi neo là bản ghi đầu tiên trong một khối, khóa của bản ghi này được lưu trong tệp chỉ mục làm mốc tham chiếu cho khối đó."
+  },
+  {
+   "id": 9,
+   "difficulty": "easy",
+   "question": "Khi một nút trong Cây B+ bậc $M$ bị đầy (đã chứa đủ số lượng khóa tối đa) và có một thao tác chèn khóa mới vào nút đó, cơ chế xử lý của cây là:",
+   "options": {
+    "A": "Chuyển cây thành danh sách liên kết đơn.",
+    "B": "Hủy bỏ giao dịch và báo lỗi tràn bộ nhớ.",
+    "C": "Tách nút đó thành hai nút con (Node Split) và đưa khóa trung vị lên nút cha.",
+    "D": "Xóa bớt một khóa ngẫu nhiên trong nút."
+   },
+   "correct_answer": "C",
+   "explanation": "Khi nút bị tràn khóa, Cây B+ thực hiện phép tách nút (Split), phân chia các khóa đều cho 2 nút mới và đẩy khóa dẫn đường lên nút cha để bảo toàn tính cân bằng."
+  },
+  {
+   "id": 10,
+   "difficulty": "easy",
+   "question": "Nhược điểm lớn nhất của việc tạo quá nhiều chỉ mục (Indexes) trên các cột của một bảng trong thực tế là gì?",
+   "options": {
+    "A": "Bảng dữ liệu tự động bị chuyển sang định dạng văn bản thô.",
+    "B": "Làm chậm đáng kể hiệu năng của các thao tác ghi dữ liệu (`INSERT`, `UPDATE`, `DELETE`) và tiêu tốn nhiều dung lượng lưu trữ đĩa.",
+    "C": "Không thể viết câu lệnh `SELECT` được nữa.",
+    "D": "Làm cho hệ điều hành bị sập nguồn."
+   },
+   "correct_answer": "B",
+   "explanation": "Mỗi khi có thao tác thêm, xóa hoặc cập nhật cột có chỉ mục, hệ thống buộc phải cập nhật đồng thời cả bảng dữ liệu và cấu trúc cây của tất cả các chỉ mục liên quan, dẫn đến overhead ghi rất lớn."
+  },
+  {
+   "difficulty": "medium",
+   "question": "Khối đĩa $B = 4096$ byte, bản ghi cố định $R = 200$ byte (không có bản ghi trải khối). Hệ số kết khối $bfr$ là:",
+   "options": {
+    "A": "20",
+    "B": "22",
+    "C": "21",
+    "D": "19"
+   },
+   "correct_answer": "A",
+   "explanation": "$bfr = \\lfloor 4096/200 \\rfloor = \\lfloor 20.48 \\rfloor = 20$.",
+   "id": 11
+  },
+  {
+   "difficulty": "medium",
+   "question": "Tệp có $r = 10000$ bản ghi, $bfr = 20$. Số khối đĩa $b$ cần để lưu tệp là:",
+   "options": {
+    "A": "200",
+    "B": "1000",
+    "C": "500",
+    "D": "2000"
+   },
+   "correct_answer": "C",
+   "explanation": "$b = \\lceil 10000 / 20 \\rceil = 500$.",
+   "id": 12
+  },
+  {
+   "difficulty": "medium",
+   "question": "Tệp đống (heap) gồm $b = 500$ khối. Chi phí trung bình để tìm một bản ghi theo khóa duy nhất bằng quét tuyến tính là:",
+   "options": {
+    "A": "1 khối",
+    "B": "250 khối",
+    "C": "500 khối",
+    "D": "9 khối"
+   },
+   "correct_answer": "B",
+   "explanation": "Tìm theo khóa duy nhất trung bình quét một nửa tệp: $b/2 = 250$ (xấu nhất $b = 500$).",
+   "id": 13
+  },
+  {
+   "difficulty": "medium",
+   "question": "Tệp sắp thứ tự theo khóa gồm $b = 1024$ khối. Số khối tối đa cần đọc khi tìm kiếm nhị phân là:",
+   "options": {
+    "A": "512",
+    "B": "11",
+    "C": "1024",
+    "D": "10"
+   },
+   "correct_answer": "D",
+   "explanation": "$\\lceil \\log_2 1024 \\rceil = 10$.",
+   "id": 14
+  },
+  {
+   "difficulty": "medium",
+   "question": "Tệp băm (hash file) hỗ trợ tốt nhất loại truy vấn nào?",
+   "options": {
+    "A": "Truy vấn sắp xếp theo khóa băm",
+    "B": "Truy vấn khoảng (range) trên khóa băm",
+    "C": "Truy vấn bằng (equality) trên khóa băm",
+    "D": "Truy vấn `LIKE '%abc'`"
+   },
+   "correct_answer": "C",
+   "explanation": "Hàm băm trỏ thẳng tới bucket nên tìm bằng gần như $O(1)$; nhưng không bảo toàn thứ tự nên không hỗ trợ khoảng.",
+   "id": 15
+  },
+  {
+   "difficulty": "medium",
+   "question": "Tệp sắp thứ tự có $b = 500$ khối. Chỉ mục chính (thưa) mỗi khối một mục sẽ có bao nhiêu mục?",
+   "options": {
+    "A": "10000",
+    "B": "250",
+    "C": "1",
+    "D": "500"
+   },
+   "correct_answer": "D",
+   "explanation": "Chỉ mục thưa có một mục cho mỗi khối dữ liệu (bản ghi neo), nên số mục bằng số khối $b = 500$.",
+   "id": 16
+  },
+  {
+   "difficulty": "medium",
+   "question": "Chỉ mục phụ (secondary index) trên khóa của tệp có $r = 10000$ bản ghi (tệp không sắp theo khóa đó) là chỉ mục dày. Số mục chỉ mục là:",
+   "options": {
+    "A": "500",
+    "B": "100",
+    "C": "10000",
+    "D": "20"
+   },
+   "correct_answer": "C",
+   "explanation": "Chỉ mục dày có một mục cho mỗi bản ghi nên số mục bằng $r = 10000$.",
+   "id": 17
+  },
+  {
+   "difficulty": "medium",
+   "question": "Mỗi mục chỉ mục gồm khóa $V = 10$ byte và con trỏ $P = 6$ byte; khối $B = 1024$. Hệ số kết khối của chỉ mục $bfr_i$ là:",
+   "options": {
+    "A": "64",
+    "B": "16",
+    "C": "128",
+    "D": "102"
+   },
+   "correct_answer": "A",
+   "explanation": "$bfr_i = \\lfloor 1024/(10+6) \\rfloor = 64$.",
+   "id": 18
+  },
+  {
+   "difficulty": "medium",
+   "question": "Lợi thế nổi bật của B+ tree so với B-tree trong DBMS là:",
+   "options": {
+    "A": "Mọi khóa chỉ ở nút lá, các lá nối thành danh sách liên kết nên duyệt khoảng rất nhanh",
+    "B": "Không thể tìm theo khoảng",
+    "C": "Không cần cân bằng",
+    "D": "Chiều cao luôn bằng 1"
+   },
+   "correct_answer": "A",
+   "explanation": "Nút trong chỉ chứa khóa dẫn đường nên fan-out lớn hơn (cây thấp hơn); các lá liên kết hỗ trợ range scan.",
+   "id": 19
+  },
+  {
+   "difficulty": "medium",
+   "question": "Số chỉ mục gom cụm (clustered) tối đa trên một bảng là bao nhiêu?",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "Không giới hạn",
+    "D": "Bằng số cột"
+   },
+   "correct_answer": "A",
+   "explanation": "Dữ liệu chỉ có thể được sắp xếp vật lý theo một thứ tự duy nhất.",
+   "id": 20
+  },
+  {
+   "difficulty": "medium",
+   "question": "Hệ quả tiêu cực chính của việc tạo quá nhiều chỉ mục trên bảng thường xuyên cập nhật là:",
+   "options": {
+    "A": "Chi phí `INSERT/UPDATE/DELETE` tăng và tốn thêm dung lượng",
+    "B": "Giảm độ chính xác dữ liệu",
+    "C": "Truy vấn `SELECT` chậm đi trong mọi trường hợp",
+    "D": "Mất khóa chính"
+   },
+   "correct_answer": "A",
+   "explanation": "Mỗi thao tác ghi phải cập nhật tất cả chỉ mục liên quan.",
+   "id": 21
+  },
+  {
+   "difficulty": "medium",
+   "question": "Thêm bản ghi vào tệp đống thường có chi phí:",
+   "options": {
+    "A": "$O(b)$",
+    "B": "$O(1)$: ghi vào khối cuối còn chỗ",
+    "C": "Phải sắp xếp lại toàn tệp",
+    "D": "$O(\\log b)$"
+   },
+   "correct_answer": "B",
+   "explanation": "Heap không có thứ tự nên chèn thẳng vào cuối.",
+   "id": 22
+  },
+  {
+   "difficulty": "hard",
+   "question": "Tệp sắp thứ tự $b = 500$ khối. Chỉ mục chính thưa có 500 mục, $bfr_i = 64$ nên cần 8 khối chỉ mục. Tìm kiếm theo khóa bằng chỉ mục (tìm nhị phân trên chỉ mục + 1 khối dữ liệu) tốn bao nhiêu khối, so với tìm nhị phân trực tiếp trên tệp?",
+   "options": {
+    "A": "8 khối so với 9 khối",
+    "B": "3 khối so với 9 khối",
+    "C": "4 khối so với 9 khối",
+    "D": "4 khối so với 250 khối"
+   },
+   "correct_answer": "C",
+   "explanation": "$\\lceil \\log_2 8 \\rceil + 1 = 4$; không chỉ mục $\\lceil \\log_2 500 \\rceil = 9$ (vì $2^9 = 512$).",
+   "id": 23
+  },
+  {
+   "difficulty": "hard",
+   "question": "Tiếp tục tình huống trên (8 khối chỉ mục mức 1). Thêm chỉ mục mức 2 (thưa trên mức 1) rồi tìm theo khóa. Số khối truy xuất là:",
+   "options": {
+    "A": "3 khối",
+    "B": "2 khối",
+    "C": "9 khối",
+    "D": "4 khối"
+   },
+   "correct_answer": "A",
+   "explanation": "Mức 2 có 8 mục nên vừa 1 khối ($8 \\le 64$): đọc 1 khối mức 2, 1 khối mức 1, 1 khối dữ liệu = 3.",
+   "id": 24
+  },
+  {
+   "difficulty": "hard",
+   "question": "Nút trong của B+ tree chứa tối đa $p$ con trỏ ($6$ byte) và $p-1$ khóa ($8$ byte) trong khối $1024$ byte. Giá trị $p$ lớn nhất là:",
+   "options": {
+    "A": "72",
+    "B": "74",
+    "C": "73",
+    "D": "128"
+   },
+   "correct_answer": "C",
+   "explanation": "$6p + 8(p-1) \\le 1024 \\Rightarrow 14p \\le 1032 \\Rightarrow p \\le 73{,}7$. Vậy $p = 73$ (kiểm tra: $73 \\cdot 6 + 72 \\cdot 8 = 1014 \\le 1024$; $p=74$ cho $1028 > 1024$).",
+   "id": 25
+  },
+  {
+   "difficulty": "hard",
+   "question": "B+ tree mà mỗi nút trong có tối đa 100 con. Cần tối thiểu bao nhiêu mức để một đường đi từ gốc tới lá chạm được $10^6$ khóa ở mức lá (giả sử các nút đầy)?",
+   "options": {
+    "A": "2 mức",
+    "B": "6 mức",
+    "C": "3 mức",
+    "D": "4 mức"
+   },
+   "correct_answer": "C",
+   "explanation": "$100^3 = 10^6$ nên 3 mức là đủ.",
+   "id": 26
+  },
+  {
+   "difficulty": "hard",
+   "question": "Truy vấn `WHERE MaSP BETWEEN 100 AND 200` trên bảng lưu bằng tệp băm theo `MaSP` sẽ:",
+   "options": {
+    "A": "Rất hiệu quả, 1 khối",
+    "B": "Phải quét toàn bộ các bucket vì hàm băm không bảo toàn thứ tự",
+    "C": "Không thể thực hiện",
+    "D": "Hiệu quả hơn B+ tree"
+   },
+   "correct_answer": "B",
+   "explanation": "Giá trị liền kề bị băm vào các bucket khác nhau, nên truy vấn khoảng không tận dụng được băm.",
+   "id": 27
+  },
+  {
+   "difficulty": "hard",
+   "question": "Chỉ mục phụ trên thuộc tính không khóa có nhiều giá trị trùng thường dùng cơ chế nào?",
+   "options": {
+    "A": "Bỏ qua các giá trị trùng",
+    "B": "Chỉ lưu giá trị trùng đầu tiên",
+    "C": "Đổi thành khóa chính",
+    "D": "Thêm mức gián tiếp: mỗi giá trị khóa trỏ tới khối chứa danh sách con trỏ bản ghi"
+   },
+   "correct_answer": "D",
+   "explanation": "Mức gián tiếp (hoặc nhiều mục cùng giá trị) giúp tìm hết các bản ghi có cùng giá trị thuộc tính.",
+   "id": 28
+  },
+  {
+   "difficulty": "hard",
+   "question": "Khi chèn khóa vào nút lá B+ tree đã đầy, nút bị tách đôi. Khác với B-tree, ở B+ tree khóa chia (khóa đại diện) được:",
+   "options": {
+    "A": "Chỉ xóa khỏi lá",
+    "B": "Chỉ đẩy lên nút cha và xóa khỏi lá",
+    "C": "Đưa ra khỏi cây",
+    "D": "Sao chép lên nút cha nhưng vẫn giữ lại trong nút lá"
+   },
+   "correct_answer": "D",
+   "explanation": "Vì mọi khóa dữ liệu phải ở lá nên lá vẫn giữ khóa (copy-up); B-tree mới đẩy hẳn khóa lên (push-up).",
+   "id": 29
+  },
+  {
+   "difficulty": "hard",
+   "question": "Tệp heap $b = 500$ khối, $r = 10000$. Chỉ mục phụ dày với $bfr_i = 64$ cần $\\lceil 10000/64 \\rceil = 157$ khối. Tìm một bản ghi theo khóa phụ dùng tìm nhị phân trên chỉ mục rồi đọc khối dữ liệu tốn bao nhiêu khối?",
+   "options": {
+    "A": "157",
+    "B": "8",
+    "C": "250",
+    "D": "9"
+   },
+   "correct_answer": "D",
+   "explanation": "$\\lceil \\log_2 157 \\rceil = 8$ (vì $2^7 = 128 < 157 \\le 256$) cộng 1 khối dữ liệu $= 9$, thay vì trung bình 250 khối khi quét heap.",
+   "id": 30
+  }
+ ],
+ "short_answers": [
+  {
+   "id": 1,
+   "question": "Viết công thức xác định số lượng khối đĩa cần thiết để lưu trữ một tệp dữ liệu gồm $r$ bản ghi với kích thước khối là $B$ và kích thước bản ghi là $R$.",
+   "expected_answer": "$$bfr = \\left\\lfloor \\frac{B}{R} \\right\\rfloor$$\n  $$b = \\left\\lceil \\frac{r}{bfr} \\right\\rceil \\text{ (khối)}$$",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 2,
+   "question": "Nêu sự khác nhau cốt lõi giữa Clustered Index (Chỉ mục gom cụm) và Non-Clustered Index (Chỉ mục không gom cụm) về mặt bố trí vật lý trên đĩa.",
+   "expected_answer": "- **Clustered Index:** Các bản ghi dữ liệu vật lý trên đĩa được sắp xếp trực tiếp theo đúng thứ tự của khóa chỉ mục (một bảng chỉ có duy nhất 1 Clustered Index).\n  - **Non-Clustered Index:** Dữ liệu vật lý nằm ở một nơi khác (không sắp xếp theo khóa này), tầng lá của chỉ mục chỉ chứa con trỏ dẫn tới vị trí bản ghi thực tế (một bảng có thể tạo nhiều Non-Clustered Index).",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 3,
+   "question": "Trong tệp băm (Hash File), hiện tượng gì xảy ra khi hai khóa khác nhau $K_1 \\ne K_2$ nhưng cho cùng một giá trị băm $h(K_1) = h(K_2)$? Nêu 2 phương pháp xử lý phổ biến.",
+   "expected_answer": "- Đó là hiện tượng **Đụng độ băm (Hash Collision)**.\n  - Hai phương pháp giải quyết:\n    1. *Phương pháp địa chỉ mở (Open Addressing / Linear Probing):* Tìm ô nhớ trống kế tiếp.\n    2. *Phương pháp nối kết ngoài (Chaining / Overflow Chaining):* Tạo một danh sách liên kết các khối tràn (Overflow Blocks) móc vào Bucket đó.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 4,
+   "question": "Cho kích thước khối $B = 1024$ bytes, kích thước khóa tìm kiếm $V = 16$ bytes, kích thước con trỏ khối $P = 8$ bytes. Hãy tính bậc $p$ tối đa của một nút trong Cây B+.",
+   "expected_answer": "Một nút trung gian bậc $p$ chứa tối đa $(p - 1)$ khóa và $p$ con trỏ:\n  $$p \\cdot P + (p - 1) \\cdot V \\le B$$\n  $$p \\cdot 8 + (p - 1) \\cdot 16 \\le 1024 \\implies 24p - 16 \\le 1024 \\implies 24p \\le 1040 \\implies p \\le 43.33$$\n  Vậy bậc tối đa $p = 43$.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 5,
+   "question": "Tại sao thao tác tìm kiếm bằng chỉ mục phụ (Secondary Index) trên thuộc tính không phải khóa lại có thể phải tốn nhiều lượt I/O hơn so với chỉ mục chính?",
+   "expected_answer": "Vì trong chỉ mục phụ, tệp dữ liệu không được sắp xếp theo thuộc tính này. Các bản ghi có cùng giá trị chỉ mục có thể nằm rải rác ở nhiều khối đĩa khác nhau, do đó mỗi con trỏ trỏ tới dữ liệu có thể đòi hỏi một lượt đọc khối đĩa độc lập (Random I/O).",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "question": "Khối $B = 2048$ byte, bản ghi $R = 150$ byte, $r = 30000$ bản ghi. Tính $bfr$ và $b$.",
+   "expected_answer": "$bfr = \\lfloor 2048/150 \\rfloor = 13$; $b = \\lceil 30000/13 \\rceil = 2308$ khối.",
+   "explanation": "$30000/13 = 2307{,}69$, làm tròn lên.",
+   "id": 6
+  },
+  {
+   "question": "So sánh chỉ mục dày (dense) và chỉ mục thưa (sparse).",
+   "expected_answer": "Dày: một mục cho mỗi bản ghi (hoặc mỗi giá trị khóa), dùng được cho tệp chưa sắp thứ tự (chỉ mục phụ), tìm nhanh nhưng tốn chỗ. Thưa: một mục cho mỗi khối, yêu cầu tệp sắp thứ tự theo khóa chỉ mục, nhỏ hơn nhưng cần quét trong khối.",
+   "explanation": "Chỉ mục chính thường là thưa; chỉ mục phụ bắt buộc là dày.",
+   "id": 7
+  },
+  {
+   "question": "Vì sao B+ tree phù hợp với truy vấn `BETWEEN`?",
+   "expected_answer": "Tìm khóa nhỏ nhất của khoảng bằng $O(\\log N)$ rồi đi theo liên kết giữa các nút lá (đã sắp thứ tự) cho tới khóa lớn nhất, không phải duyệt lại từ gốc.",
+   "explanation": "Chi phí gần bằng chiều cao cây cộng số lá chứa kết quả.",
+   "id": 8
+  }
+ ],
+ "essays": [
+  {
+   "id": 1,
+   "title": "Tính Toán Dung Lượng & Hiệu Năng Truy Xuất Tệp Chỉ Mục Đa Mức",
+   "problem": "Một cơ sở dữ liệu lưu trữ bảng `HOCVIEN` gồm $r = 300,000$ bản ghi:\n- Kích thước khối đĩa: $B = 4096$ bytes.\n- Kích thước bản ghi: $R = 128$ bytes.\n- Bảng được sắp xếp theo khóa chính `MaHV` (kích thước khóa $V = 12$ bytes, con trỏ khối $P = 6$ bytes).\n- Ta xây dựng một **Chỉ mục chính sơ cấp (Primary Sparse Index)** 1 mức trên trường `MaHV`.\n\n**Yêu cầu:**\n1. Tính hệ số kết khối $bfr$ và số khối đĩa $b$ của tệp dữ liệu gốc.\n2. Tính số lượng khối đĩa cần thiết để lưu trữ tệp chỉ mục chính.\n3. So sánh số lượt truy xuất khối đĩa trung bình để tìm kiếm một bản ghi giữa:\n   - Cách 1: Tìm kiếm nhị phân trực tiếp trên tệp dữ liệu gốc.\n   - Cách 2: Tìm kiếm nhị phân trên tệp chỉ mục chính, sau đó truy xuất khối dữ liệu thực tế.",
+   "solution_steps": [
+    "Bước 1: Tính toán cho tệp dữ liệu gốc\n- Hệ số kết khối của tệp dữ liệu:\n  $$bfr = \\left\\lfloor \\frac{B}{R} \\right\\rfloor = \\left\\lfloor \\frac{4096}{128} \\right\\rfloor = 32 \\text{ (bản ghi/khối)}$$\n- Số khối đĩa của tệp dữ liệu gốc:\n  $$b = \\left\\lceil \\frac{r}{bfr} \\right\\rceil = \\left\\lceil \\frac{300000}{32} \\right\\rceil = 9375 \\text{ (khối đĩa)}$$",
+    "Bước 2: Tính toán cho tệp chỉ mục chính sơ cấp\n- Vì là chỉ mục chính thưa (Sparse Index), mỗi khối của tệp dữ liệu gốc tương ứng với đúng **1 mục chỉ mục** trong tệp chỉ mục:\n  $$r_i = b = 9375 \\text{ (mục chỉ mục)}$$\n- Kích thước của một mục chỉ mục:\n  $$R_i = V + P = 12 + 6 = 18 \\text{ (bytes)}$$\n- Hệ số kết khối của tệp chỉ mục:\n  $$bfr_i = \\left\\lfloor \\frac{B}{R_i} \\right\\rfloor = \\left\\lfloor \\frac{4096}{18} \\right\\rfloor = 227 \\text{ (mục/khối)}$$\n- Số khối đĩa cần thiết để lưu trữ tệp chỉ mục:\n  $$b_i = \\left\\lceil \\frac{r_i}{bfr_i} \\right\\rceil = \\left\\lceil \\frac{9375}{227} \\right\\rceil = 42 \\text{ (khối đĩa)}$$",
+    "Bước 3: So sánh chi phí truy xuất\n- **Cách 1 (Không dùng chỉ mục, tìm nhị phân trên tệp gốc):**\n  $$\\text{Chi phí} = \\lceil \\log_2 b \\rceil = \\lceil \\log_2 9375 \\rceil = 14 \\text{ lượt I/O}$$\n- **Cách 2 (Tìm nhị phân trên tệp chỉ mục + 1 I/O lấy dữ liệu):**\n  $$\\text{Chi phí} = \\lceil \\log_2 b_i \\rceil + 1 = \\lceil \\log_2 42 \\rceil + 1 = 6 + 1 = 7 \\text{ lượt I/O}$$\n- **Kết luận:** Sử dụng chỉ mục chính giảm số lượt đọc khối từ 14 xuống 7 (giảm 50% thời gian I/O)."
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Thiết Kế & Ước Lượng Độ Cao Của Cây B+ Tree",
+   "problem": "Cho một hệ thống quản lý giao dịch chứng khoán cần đánh chỉ mục B+ Tree trên trường khóa `MaGiaoDich`:\n- Số lượng bản ghi cần đánh chỉ mục: $N = 20,000,000$ (20 triệu giao dịch).\n- Kích thước khối đĩa: $B = 4096$ bytes.\n- Kích thước trường khóa: $V = 16$ bytes.\n- Kích thước con trỏ đĩa/khối: $P = 8$ bytes.\n- Kích thước con trỏ bản ghi: $P_{rec} = 8$ bytes.\n- Giả định hệ số chiếm dụng trung bình của các nút là 70% (khoảng $0.7 \\times M$).\n\n**Yêu cầu:**\n1. Tính bậc phân nhánh tối đa $M$ của nút trong (nút dẫn đường).\n2. Tính số lượng cặp khóa tối đa chứa trong một nút lá.\n3. Ước lượng độ cao của cây B+ Tree và số lần đọc khối đĩa tối đa để tìm một giao dịch bất kỳ.",
+   "solution_steps": [
+    "Bước 1: Tính bậc phân nhánh $M$ của nút trong\nNút trong chứa tối đa $M$ con trỏ khối và $(M - 1)$ giá trị khóa:\n$$M \\cdot P + (M - 1) \\cdot V \\le B$$\n$$8M + 16(M - 1) \\le 4096 \\implies 24M - 16 \\le 4096 \\implies 24M \\le 4112 \\implies M \\le 171.33$$\nVậy bậc cực đại của nút trong là $M = 171$.\n- Hệ số phân nhánh trung bình (70%): $M_{avg} \\approx 0.7 \\times 171 \\approx 120$ con trỏ/nút.",
+    "Bước 2: Tính sức chứa của nút lá\nNút lá chứa các cặp `(Khóa, Con trỏ bản ghi)` và 1 con trỏ khối liên kết kế tiếp ($P$):\n$$L \\cdot (V + P_{rec}) + P \\le B$$\n$$L \\cdot (16 + 8) + 8 \\le 4096 \\implies 24L \\le 4088 \\implies L \\le 170.33$$\nVậy một nút lá chứa tối đa $L = 170$ bản ghi chỉ mục.\n- Sức chứa trung bình của nút lá (70%): $L_{avg} \\approx 0.7 \\times 170 \\approx 119$ mục/khối.",
+    "Bước 3: Ước lượng độ cao của Cây B+ Tree\n- Số nút lá cần thiết để chứa 20 triệu bản ghi:\n  $$N_{leaf} = \\left\\lceil \\frac{20,000,000}{119} \\right\\rceil \\approx 168,068 \\text{ nút lá}$$\n- Tầng trên nút lá (tầng 1 trên lá):\n  $$168,068 / 120 \\approx 1,401 \\text{ nút}$$\n- Tầng tiếp theo (tầng 2 trên lá):\n  $$1,401 / 120 \\approx 12 \\text{ nút}$$\n- Nút gốc (Root):\n  $$12 / 120 \\le 1 \\implies 1 \\text{ nút gốc}$$\n- **Kết luận:**\n  - Độ cao của cây B+ Tree: **4 tầng** (1 nút gốc $\\to$ 12 nút tầng 1 $\\to$ 1,401 nút tầng 2 $\\to$ 168,068 nút lá).\n  - Vì nút gốc thường được lưu thường trực trong RAM, DBMS chỉ cần đúng **3 lượt đọc đĩa** là định vị chính xác vị trí của bất kỳ bản ghi nào trong số 20 triệu giao dịch!"
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Chiến Lược Lựa Chọn Chỉ Mục (Index Design Strategy)",
+   "problem": "Một trang thương mại điện tử có bảng `SANPHAM(MaSP, TenSP, MaDanhMuc, GiaBan, SoLuongTon, NgayDang)` với 5,000,000 dòng. Hệ thống thường xuyên phải phục vụ các câu truy vấn thuộc 3 nhóm nghiệp vụ sau:\n- **Truy vấn 1:** `SELECT * FROM SANPHAM WHERE MaSP = ?` (Tần suất: 50,000 lần/phút).\n- **Truy vấn 2:** `SELECT TenSP, GiaBan FROM SANPHAM WHERE MaDanhMuc = ? AND GiaBan BETWEEN ? AND ? ORDER BY GiaBan` (Tần suất: 20,000 lần/phút).\n- **Truy vấn 3:** `SELECT COUNT(*) FROM SANPHAM WHERE SoLuongTon = 0` (Tần suất: 10 lần/ngày).\n\nHãy đề xuất giải pháp thiết kế chỉ mục (chỉ định rõ loại chỉ mục, các cột tham gia, thứ tự cột) để tối ưu hóa hiệu năng tổng thể của hệ thống.",
+   "solution_steps": [
+    "#### Giải pháp thiết kế:",
+    "1. **Cho Truy vấn 1 (Tìm kiếm theo mã sản phẩm):**\n   - **Đề xuất:** Tạo **Clustered Index** trên cột khóa chính `MaSP`.\n   - **Lý do:** Tần suất truy vấn cực cao (50k/phút). Clustered Index đưa con trỏ trực tiếp đến dòng dữ liệu vật lý chỉ qua $O(\\log N)$ tầng cây, không cần thêm bước Look-up.",
+    "2. **Cho Truy vấn 2 (Tìm theo danh mục, lọc theo khoảng giá, sắp xếp theo giá):**\n   - **Đề xuất:** Tạo **Composite Non-Clustered Covering Index** trên các cột theo đúng thứ tự:\n     `CREATE INDEX IX_SanPham_DanhMuc_Gia ON SANPHAM(MaDanhMuc, GiaBan) INCLUDE (TenSP);`\n   - **Lý do:**\n     - Đặt `MaDanhMuc` lên đầu vì điều kiện lọc đẳng thức (`=`).\n     - Đặt `GiaBan` thứ hai để hỗ trợ tìm kiếm theo khoảng (`BETWEEN`) và phục vụ luôn thao tác `ORDER BY GiaBan` mà không cần tốn chi phí Sort trong RAM.\n     - Sử dụng mệnh đề `INCLUDE (TenSP)` để biến đây thành một **Covering Index** (chỉ mục bao phủ), giúp truy vấn lấy được toàn bộ dữ liệu cần thiết ngay trên cây chỉ mục mà không cần thực hiện Book-mark/Key Look-up vào bảng dữ liệu chính.",
+    "3. **Cho Truy vấn 3 (Đếm số sản phẩm hết hàng):**\n   - **Đề xuất:** **KHÔNG tạo chỉ mục riêng** cho cột `SoLuongTon` (hoặc nếu cần chỉ tạo Filtered Index `WHERE SoLuongTon = 0` nếu dung lượng bảng cho phép).\n   - **Lý do:** Tần suất truy vấn cực thấp (chỉ 10 lần/ngày). Việc tạo chỉ mục trên cột số lượng tồn sẽ làm chậm tất cả các giao dịch bán hàng (`UPDATE SoLuongTon`) diễn ra liên tục hàng giây trong ngày."
+   ]
+  },
+  {
+   "title": "Tính toán dung lượng và hiệu năng truy xuất với chỉ mục đa mức",
+   "problem": "Tệp `HOADON` có $r = 60000$ bản ghi, $R = 100$ byte, khối $B = 1024$ byte, sắp thứ tự theo khóa `SoHD`. Mục chỉ mục có khóa $V = 12$ byte, con trỏ $P = 8$ byte. Hãy: a) tính $bfr$ và $b$ của tệp; b) xây dựng chỉ mục chính đa mức (thưa) tới khi chỉ còn 1 khối; c) so sánh chi phí tìm một bản ghi theo khóa giữa: heap trung bình, tìm nhị phân trên tệp, và dùng chỉ mục đa mức.",
+   "solution_steps": [
+    "Bước 1 - Tệp dữ liệu: $bfr = \\lfloor 1024/100 \\rfloor = 10$; $b = \\lceil 60000/10 \\rceil = 6000$ khối.",
+    "Bước 2 - Hệ số kết khối của chỉ mục: $bfr_i = \\lfloor 1024/(12+8) \\rfloor = 51$.",
+    "Bước 3 - Mức 1: có $6000$ mục (mỗi khối một mục) $\\Rightarrow b_1 = \\lceil 6000/51 \\rceil = 118$ khối. Mức 2: $118$ mục $\\Rightarrow b_2 = \\lceil 118/51 \\rceil = 3$ khối. Mức 3: $3$ mục $\\Rightarrow b_3 = 1$ khối. Vậy chỉ mục có $x = 3$ mức.",
+    "Bước 4 - Chi phí: Heap trung bình $b/2 = 3000$ khối; tìm nhị phân trên tệp $\\lceil \\log_2 6000 \\rceil = 13$ khối; chỉ mục đa mức $x + 1 = 3 + 1 = 4$ khối.",
+    "Kết luận: chỉ mục đa mức giảm chi phí từ hàng nghìn khối xuống chỉ 4 khối, đổi lại tốn thêm $118 + 3 + 1 = 122$ khối lưu trữ chỉ mục và chi phí bảo trì khi cập nhật."
+   ],
+   "id": 4
+  }
+ ]
+}

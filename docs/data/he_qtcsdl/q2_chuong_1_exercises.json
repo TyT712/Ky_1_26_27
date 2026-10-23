@@ -1,0 +1,489 @@
+{
+ "chapter_id": "q2_chuong_1",
+ "chapter_title": "Quyển 2 - Chương 1: Ràng buộc toàn vẹn & kỹ thuật cài đặt Trigger",
+ "multiple_choice": [
+  {
+   "id": 1,
+   "difficulty": "easy",
+   "question": "Trong hệ quản trị CSDL SQL Server, bảng ảo `DELETED` được sử dụng trong Trigger chứa dữ liệu của trường hợp nào sau đây?",
+   "options": {
+    "A": "Các dòng bị xóa bởi câu lệnh `DELETE` và các giá trị cũ trước khi cập nhật của câu lệnh `UPDATE`.",
+    "B": "Toàn bộ các bản ghi trong thùng rác của hệ điều hành.",
+    "C": "Danh sách các tài khoản người dùng đã bị khóa.",
+    "D": "Các dòng mới được thêm vào qua câu lệnh `INSERT`."
+   },
+   "correct_answer": "A",
+   "explanation": "Bảng ảo `DELETED` lưu trữ ảnh chụp (snapshot) của các bản ghi bị xóa hoặc trạng thái ban đầu của các bản ghi trước khi bị câu lệnh `UPDATE` sửa đổi."
+  },
+  {
+   "id": 2,
+   "difficulty": "easy",
+   "question": "Xét ràng buộc toàn vẹn khóa ngoại giữa bảng con `KETQUA(MaSV, MaMH, DiemThi)` và bảng cha `SINHVIEN(MaSV, HoTen)`. Thao tác nào sau đây trên bảng `SINHVIEN` có nguy cơ làm vi phạm ràng buộc toàn vẹn tham chiếu?",
+   "options": {
+    "A": "Đọc dữ liệu sinh viên bằng câu lệnh `SELECT`.",
+    "B": "Thêm một sinh viên mới vào bảng `SINHVIEN`.",
+    "C": "Sửa tên của một sinh viên trong bảng `SINHVIEN`.",
+    "D": "Xóa một sinh viên khỏi bảng `SINHVIEN`."
+   },
+   "correct_answer": "D",
+   "explanation": "Nếu xóa một sinh viên trong bảng cha `SINHVIEN` mà sinh viên đó đã có điểm trong bảng con `KETQUA`, thì các bản ghi điểm sẽ trở thành bản ghi mồ côi (Orphan records), vi phạm toàn vẹn tham chiếu."
+  },
+  {
+   "id": 3,
+   "difficulty": "easy",
+   "question": "Khi một ràng buộc toàn vẹn bị vi phạm trong quá trình thực thi Trigger, câu lệnh nào sau đây được gọi để hủy bỏ toàn bộ các thao tác cập nhật trước đó và khôi phục CSDL về trạng thái ban đầu?",
+   "options": {
+    "A": "`COMMIT TRANSACTION`",
+    "B": "`DROP TRIGGER`",
+    "C": "`ALTER DATABASE RECOVER`",
+    "D": "`ROLLBACK TRANSACTION`"
+   },
+   "correct_answer": "D",
+   "explanation": "`ROLLBACK TRANSACTION` hủy bỏ toàn bộ giao dịch hiện hành, trả lại trạng thái nhất quán nguyên vẹn của CSDL trước khi câu lệnh DML được gửi tới."
+  },
+  {
+   "id": 4,
+   "difficulty": "easy",
+   "question": "Trong bảng tầm ảnh hưởng, ký hiệu dấu trừ (`-`) tại một thao tác mang ý nghĩa gì?",
+   "options": {
+    "A": "Thao tác đó không bao giờ có thể dẫn đến việc làm vi phạm ràng buộc toàn vẹn đang xét, do đó DBMS không cần kiểm tra.",
+    "B": "Thao tác đó làm giảm kích thước của bảng.",
+    "C": "Thao tác đó bị cấm hoàn toàn, không được phép thực hiện.",
+    "D": "Thao tác đó sẽ xóa đi một cột."
+   },
+   "correct_answer": "A",
+   "explanation": "Dấu `-` khẳng định về mặt toán học và logic rằng thao tác đó là an toàn tuyệt đối với ràng buộc, giúp hệ thống không tốn chi phí kiểm tra thừa."
+  },
+  {
+   "id": 5,
+   "difficulty": "easy",
+   "question": "Ràng buộc: *\"Số lượng tồn của một mặt hàng không được nhỏ hơn 0 (`SoLuongTon >= 0`)\"* thuộc loại ràng buộc toàn vẹn nào?",
+   "options": {
+    "A": "Ràng buộc toàn vẹn liên bộ liên quan hệ.",
+    "B": "Ràng buộc toàn vẹn khóa ngoại.",
+    "C": "Ràng buộc miền giá trị trên một thuộc tính.",
+    "D": "Ràng buộc phụ thuộc tồn tại."
+   },
+   "correct_answer": "C",
+   "explanation": "Ràng buộc miền giá trị (Domain Constraint) áp đặt điều kiện hợp lệ lên từng giá trị của một thuộc tính đơn lẻ trong cùng một bảng."
+  },
+  {
+   "id": 6,
+   "difficulty": "easy",
+   "question": "Trong SQL Server, Trigger loại `INSTEAD OF` khác với Trigger loại `AFTER` (hoặc `FOR`) ở điểm nào?",
+   "options": {
+    "A": "`INSTEAD OF` chạy sau khi dữ liệu đã được ghi vào bảng.",
+    "B": "`INSTEAD OF` chỉ dùng được cho câu lệnh `SELECT`.",
+    "C": "`INSTEAD OF` chỉ chạy trên máy chủ sao lưu.",
+    "D": "`INSTEAD OF` thay thế hoàn toàn hành động của câu lệnh DML kích hoạt nó, cho phép can thiệp xử lý trước khi dữ liệu được ghi vào bảng."
+   },
+   "correct_answer": "D",
+   "explanation": "`INSTEAD OF` Trigger đón đầu và ghi đè thao tác DML, rất thường dùng để cho phép cập nhật dữ liệu thông qua các Khung nhìn phức tạp (Complex Views) hoặc tiền kiểm tra dữ liệu."
+  },
+  {
+   "id": 7,
+   "difficulty": "easy",
+   "question": "Xét ràng buộc toàn vẹn: *\"Mỗi lớp học phải có sĩ số bằng đúng số lượng sinh viên hiện có trong lớp đó\"*. Ràng buộc này thuộc loại:",
+   "options": {
+    "A": "Ràng buộc liên bộ trong một quan hệ.",
+    "B": "Ràng buộc miền giá trị đơn giản.",
+    "C": "Ràng buộc khóa chính.",
+    "D": "Ràng buộc liên thuộc tính liên quan hệ (giữa `LOPHOC.SiSo` và `COUNT(SINHVIEN.MaSV)`)."
+   },
+   "correct_answer": "D",
+   "explanation": "Đây là ràng buộc liên thuộc tính liên quan hệ vì nó so sánh giá trị của cột `SiSo` trong quan hệ `LOPHOC` với hàm tổng hợp số lượng bản ghi trong quan hệ `SINHVIEN`."
+  },
+  {
+   "id": 8,
+   "difficulty": "easy",
+   "question": "Khi cập nhật dữ liệu bằng câu lệnh `UPDATE`, hai bảng ảo trong Trigger sẽ chứa dữ liệu như thế nào?",
+   "options": {
+    "A": "`INSERTED` chứa các bản ghi mới sau khi cập nhật; `DELETED` chứa các bản ghi cũ trước khi cập nhật.",
+    "B": "Cả hai bảng `INSERTED` và `DELETED` đều rỗng.",
+    "C": "Chỉ có bảng `INSERTED` có dữ liệu, bảng `DELETED` bị xóa khỏi hệ thống.",
+    "D": "`DELETED` chứa các bản ghi mới; `INSERTED` chứa các bản ghi cũ."
+   },
+   "correct_answer": "A",
+   "explanation": "Phép `UPDATE` trong SQL Server được mô hình hóa bằng hai bước: Xóa dòng cũ (đưa vào `DELETED`) và chèn dòng mới (đưa vào `INSERTED`)."
+  },
+  {
+   "id": 9,
+   "difficulty": "easy",
+   "question": "Tại sao không nên cài đặt quá nhiều Trigger phức tạp cho các bảng có tần suất giao dịch cực cao (hàng nghìn transaction/giây)?",
+   "options": {
+    "A": "Vì SQL Server chỉ cho phép tối đa 1 Trigger trên toàn hệ thống.",
+    "B": "Vì Trigger làm tăng chi phí khóa (Locking overhead), kéo dài thời gian giữ Transaction và dễ dẫn đến nghẽn cổ chai (Deadlock / Performance bottleneck).",
+    "C": "Vì Trigger sẽ tự động xóa các bảng khác trong CSDL.",
+    "D": "Vì Trigger chỉ có thể viết bằng ngôn ngữ Java."
+   },
+   "correct_answer": "B",
+   "explanation": "Trigger chạy ngầm bên trong phạm vi giao dịch (Transaction context). Nếu Trigger xử lý logic quá nặng, giao dịch sẽ kéo dài, chiếm dụng khóa tài nguyên và làm giảm thông lượng (Throughput) của hệ thống."
+  },
+  {
+   "id": 10,
+   "difficulty": "easy",
+   "question": "Để kiểm tra tính hợp lệ của ràng buộc toàn vẹn khóa chính (Entity Integrity) bằng câu lệnh SQL cơ bản khi thiết kế bảng, ta dùng mệnh đề nào?",
+   "options": {
+    "A": "`FOREIGN KEY`",
+    "B": "`COLLATE`",
+    "C": "`PRIMARY KEY`",
+    "D": "`DEFAULT`"
+   },
+   "correct_answer": "C",
+   "explanation": "Khóa chính (`PRIMARY KEY`) tự động kích hoạt hai cơ chế: Đảm bảo tính duy nhất (`UNIQUE`) và cấm giá trị rỗng (`NOT NULL`)."
+  },
+  {
+   "difficulty": "medium",
+   "question": "Ràng buộc 'Điểm thi `Diem` phải nằm trong khoảng $[0,10]$' thuộc loại ràng buộc toàn vẹn nào?",
+   "options": {
+    "A": "Ràng buộc tham chiếu",
+    "B": "Ràng buộc miền giá trị",
+    "C": "Ràng buộc khóa chính",
+    "D": "Ràng buộc liên bảng"
+   },
+   "correct_answer": "B",
+   "explanation": "Ràng buộc quy định tập giá trị hợp lệ của một thuộc tính là ràng buộc miền giá trị, cài bằng `CHECK`.",
+   "id": 11
+  },
+  {
+   "difficulty": "medium",
+   "question": "Ràng buộc 'Ngày giao hàng $\\ge$ ngày đặt hàng' trong cùng một bảng `DONHANG` là:",
+   "options": {
+    "A": "Ràng buộc liên thuộc tính (trên cùng một bộ)",
+    "B": "Ràng buộc thuộc tính tổng hợp",
+    "C": "Ràng buộc khóa ngoại",
+    "D": "Ràng buộc liên quan hệ"
+   },
+   "correct_answer": "A",
+   "explanation": "Điều kiện so sánh hai thuộc tính trong cùng một bộ, có thể khai báo bằng `CHECK (NgayGiao >= NgayDat)`.",
+   "id": 12
+  },
+  {
+   "difficulty": "medium",
+   "question": "Ràng buộc 'Mọi `MaLop` trong `SINHVIEN` phải tồn tại trong `LOPHOC`' là:",
+   "options": {
+    "A": "Ràng buộc toàn vẹn tham chiếu (khóa ngoại)",
+    "B": "Ràng buộc khóa chính",
+    "C": "Ràng buộc miền",
+    "D": "Ràng buộc duy nhất"
+   },
+   "correct_answer": "A",
+   "explanation": "Giá trị khóa ngoại phải trùng một giá trị khóa chính của bảng cha hoặc là `NULL` (nếu cho phép).",
+   "id": 13
+  },
+  {
+   "difficulty": "medium",
+   "question": "Bảng tầm ảnh hưởng của ràng buộc khóa ngoại: thao tác nào trên BẢNG CHA (được tham chiếu) có thể làm vi phạm?",
+   "options": {
+    "A": "Không thao tác nào",
+    "B": "Xóa và sửa khóa chính",
+    "C": "Thêm",
+    "D": "Chỉ sửa cột không phải khóa"
+   },
+   "correct_answer": "B",
+   "explanation": "Xóa hoặc sửa khóa chính của cha có thể để lại bản ghi con mồ côi. Thêm cha không bao giờ vi phạm.",
+   "id": 14
+  },
+  {
+   "difficulty": "medium",
+   "question": "Khi chạy trigger `AFTER INSERT` trong SQL Server, bảng ảo `INSERTED` và `DELETED` chứa:",
+   "options": {
+    "A": "Cả hai rỗng",
+    "B": "`INSERTED` rỗng, `DELETED` chứa dòng vừa thêm",
+    "C": "Cả hai chứa dòng vừa thêm",
+    "D": "`INSERTED` chứa các dòng vừa thêm, `DELETED` rỗng"
+   },
+   "correct_answer": "D",
+   "explanation": "`INSERT` chỉ có dữ liệu mới nên bảng `DELETED` không có dòng nào.",
+   "id": 15
+  },
+  {
+   "difficulty": "medium",
+   "question": "Trong trigger `AFTER DELETE`, các dòng vừa bị xóa nằm ở:",
+   "options": {
+    "A": "Bảng `INSERTED`",
+    "B": "Bảng gốc, chưa bị xóa",
+    "C": "Nhật ký hệ thống, không truy cập được",
+    "D": "Bảng `DELETED`"
+   },
+   "correct_answer": "D",
+   "explanation": "`DELETED` giữ bản sao các dòng bị xóa; `INSERTED` rỗng.",
+   "id": 16
+  },
+  {
+   "difficulty": "medium",
+   "question": "Trigger `AFTER` (hay `FOR`) được kích hoạt vào thời điểm nào?",
+   "options": {
+    "A": "Chỉ sau khi hệ thống khởi động lại",
+    "B": "Sau khi lệnh DML đã thực hiện xong và trước khi giao dịch commit",
+    "C": "Thay thế hoàn toàn lệnh DML",
+    "D": "Trước khi lệnh DML bắt đầu"
+   },
+   "correct_answer": "B",
+   "explanation": "`AFTER` chạy sau khi thay đổi đã được áp dụng; nếu phát hiện vi phạm, có thể `ROLLBACK TRANSACTION` để hủy cả lệnh gây trigger.",
+   "id": 17
+  },
+  {
+   "difficulty": "medium",
+   "question": "Trong trigger phát hiện vi phạm, câu lệnh `ROLLBACK TRANSACTION` có tác dụng:",
+   "options": {
+    "A": "Khởi động lại máy chủ",
+    "B": "Xóa trigger",
+    "C": "Hủy toàn bộ giao dịch, kể cả lệnh DML đã kích hoạt trigger",
+    "D": "Chỉ hủy dòng hiện tại"
+   },
+   "correct_answer": "C",
+   "explanation": "Trigger chạy trong cùng giao dịch với lệnh DML; rollback hoàn tác tất cả thay đổi của giao dịch đó.",
+   "id": 18
+  },
+  {
+   "difficulty": "medium",
+   "question": "Vì sao ràng buộc 'Sĩ số lớp = số sinh viên của lớp' cần trigger mà không dùng được `CHECK` thông thường?",
+   "options": {
+    "A": "Vì trigger luôn nhanh hơn",
+    "B": "Vì ràng buộc liên quan đến nhiều bảng và dữ liệu tổng hợp, `CHECK` chỉ kiểm tra trên một dòng",
+    "C": "Vì `CHECK` chỉ dùng cho khóa chính",
+    "D": "Vì `CHECK` không có kiểu số"
+   },
+   "correct_answer": "B",
+   "explanation": "`CHECK` đánh giá điều kiện trên dòng hiện tại; ràng buộc liên bảng/tổng hợp cần trigger (hoặc cơ chế khác).",
+   "id": 19
+  },
+  {
+   "difficulty": "medium",
+   "question": "Mẫu kiểm tra nào đúng trong trigger `AFTER INSERT, UPDATE` để từ chối điểm ngoài $[0,10]$?",
+   "options": {
+    "A": "`IF Diem < 0 ROLLBACK`",
+    "B": "`IF (SELECT Diem FROM inserted) < 0 ROLLBACK` (giả định một dòng)",
+    "C": "`IF EXISTS (SELECT * FROM deleted)`",
+    "D": "`IF EXISTS (SELECT * FROM inserted WHERE Diem < 0 OR Diem > 10) ROLLBACK TRANSACTION`"
+   },
+   "correct_answer": "D",
+   "explanation": "Dùng `EXISTS` trên bảng `inserted` xử lý được cả khi một câu lệnh thêm/sửa nhiều dòng; ý B chỉ đúng khi giả định một dòng.",
+   "id": 20
+  },
+  {
+   "difficulty": "medium",
+   "question": "Trigger trong SQL Server được kích hoạt:",
+   "options": {
+    "A": "Một lần cho mỗi câu lệnh DML, bất kể số dòng bị tác động",
+    "B": "Chỉ khi người dùng gọi tên",
+    "C": "Theo thời gian biểu",
+    "D": "Theo mỗi dòng bị tác động"
+   },
+   "correct_answer": "A",
+   "explanation": "Trigger SQL Server là mức câu lệnh (statement-level): một lần cho mỗi câu lệnh, nên phải viết mã xử lý tập nhiều dòng.",
+   "id": 21
+  },
+  {
+   "difficulty": "medium",
+   "question": "`ON DELETE CASCADE` trên khóa ngoại `KETQUA.MaSV` nghĩa là:",
+   "options": {
+    "A": "Không có tác dụng",
+    "B": "Cấm xóa sinh viên còn kết quả",
+    "C": "Đặt `MaSV` trong kết quả thành `NULL`",
+    "D": "Xóa sinh viên thì tự động xóa các kết quả liên quan"
+   },
+   "correct_answer": "D",
+   "explanation": "`CASCADE` lan truyền hành động xóa xuống bảng con.",
+   "id": 22
+  },
+  {
+   "difficulty": "hard",
+   "question": "Trong trigger `AFTER UPDATE` trên `SINHVIEN`, cách đúng để chỉ xử lý khi cột `MaLop` thực sự có trong danh sách `SET` của lệnh `UPDATE` là:",
+   "options": {
+    "A": "`IF COLUMNS(MaLop)`",
+    "B": "`IF NOT EXISTS (SELECT * FROM deleted)`",
+    "C": "`IF @@ROWCOUNT = 0 RETURN`",
+    "D": "`IF UPDATE(MaLop)`"
+   },
+   "correct_answer": "D",
+   "explanation": "`UPDATE(col)` trả `TRUE` nếu cột được nêu trong mệnh đề `SET` (hoặc có trong lệnh `INSERT`). Nó không bảo đảm giá trị khác đi, cần so sánh `inserted` với `deleted` nếu muốn biết.",
+   "id": 23
+  },
+  {
+   "difficulty": "hard",
+   "question": "Trigger `AFTER INSERT` trên `SINHVIEN` cần cập nhật `LOPHOC.SiSo` khi một lệnh `INSERT` thêm nhiều sinh viên cùng lớp cùng lúc. Cách nào đúng?",
+   "options": {
+    "A": "`UPDATE L SET SiSo = SiSo + 1 FROM LOPHOC L JOIN inserted i ON L.MaLop = i.MaLop`",
+    "B": "`UPDATE LOPHOC SET SiSo = (SELECT TOP 1 MaLop FROM inserted)`",
+    "C": "Chỉ cập nhật cho dòng đầu của `inserted`",
+    "D": "`UPDATE L SET SiSo = SiSo + x.n FROM LOPHOC L JOIN (SELECT MaLop, COUNT(*) AS n FROM inserted GROUP BY MaLop) x ON L.MaLop = x.MaLop`"
+   },
+   "correct_answer": "D",
+   "explanation": "Phải gom nhóm theo lớp và cộng đúng số dòng thêm vào. Ý A chỉ cộng 1 cho mỗi lớp dù thêm nhiều sinh viên (do join không nhân bản trong `UPDATE ... FROM`).",
+   "id": 24
+  },
+  {
+   "difficulty": "hard",
+   "question": "Ràng buộc 'SiSo của lớp bằng số sinh viên thực tế'. Bảng tầm ảnh hưởng đúng là:",
+   "options": {
+    "A": "`SINHVIEN`: thêm `-`, xóa `-`, sửa MaLop `-`; `LOPHOC`: không",
+    "B": "Mọi thao tác đều `-`",
+    "C": "`SINHVIEN`: thêm `+`, xóa `+`, sửa MaLop `*`; `LOPHOC`: thêm `-`, xóa `-`, sửa SiSo `*`",
+    "D": "Chỉ `LOPHOC` bị ảnh hưởng"
+   },
+   "correct_answer": "C",
+   "explanation": "Thêm/xóa sinh viên và đổi lớp làm lệch sĩ số; sửa `SiSo` trực tiếp cũng có thể gây lệch; thêm/xóa lớp mới (`SiSo = 0`) không làm sai khi chưa có sinh viên.",
+   "id": 25
+  },
+  {
+   "difficulty": "hard",
+   "question": "Khi thực hiện `UPDATE` trong SQL Server, trigger nhìn thấy:",
+   "options": {
+    "A": "`INSERTED` chứa giá trị mới và `DELETED` chứa giá trị cũ của các dòng bị sửa",
+    "B": "`INSERTED` rỗng, `DELETED` chứa giá trị mới",
+    "C": "Chỉ bảng gốc",
+    "D": "Chỉ `DELETED` chứa giá trị mới"
+   },
+   "correct_answer": "A",
+   "explanation": "Một `UPDATE` được xem như xóa dòng cũ và chèn dòng mới. Có thể ghép `inserted` và `deleted` theo khóa để so sánh trước/sau.",
+   "id": 26
+  },
+  {
+   "difficulty": "hard",
+   "question": "Trigger `INSTEAD OF` trên một VIEW cho phép:",
+   "options": {
+    "A": "Chặn lệnh DML gốc và tự viết logic thay thế (ví dụ ghi vào nhiều bảng nền)",
+    "B": "Chỉ đọc view",
+    "C": "Xóa view",
+    "D": "Tăng tốc truy vấn `SELECT`"
+   },
+   "correct_answer": "A",
+   "explanation": "`INSTEAD OF` thay thế lệnh DML; nếu muốn dữ liệu thay đổi, bản thân trigger phải thực hiện các lệnh tương ứng.",
+   "id": 27
+  },
+  {
+   "difficulty": "hard",
+   "question": "Trigger trên `SANPHAM` cập nhật chính bảng `SANPHAM` có thể gây đệ quy. Phát biểu nào đúng?",
+   "options": {
+    "A": "Luôn luôn bị cấm",
+    "B": "Đệ quy không bao giờ xảy ra",
+    "C": "Đệ quy luôn bật mặc định",
+    "D": "Đệ quy trực tiếp chịu điều khiển bởi tùy chọn `RECURSIVE_TRIGGERS` của CSDL (mặc định tắt); cần thiết kế để tránh vòng lặp vô hạn"
+   },
+   "correct_answer": "D",
+   "explanation": "Cần thiết kế điều kiện dừng hoặc dùng `IF UPDATE(...)` để tránh trigger tự kích hoạt lặp.",
+   "id": 28
+  },
+  {
+   "difficulty": "hard",
+   "question": "Ràng buộc 'Tồn kho không âm' khi xuất hàng bằng trigger `AFTER INSERT` trên `CHITIET_PHIEUXUAT`. Trình tự hợp lý là:",
+   "options": {
+    "A": "Kiểm tra `inserted`, nếu vi phạm thì rollback; nếu hợp lệ thì trừ tồn",
+    "B": "Chỉ trừ tồn mà không cần kiểm tra",
+    "C": "Xóa chi tiết phiếu",
+    "D": "Trừ tồn kho theo `inserted`, sau đó kiểm tra còn dòng `SoLuongTon < 0` hay không, nếu có thì `ROLLBACK`"
+   },
+   "correct_answer": "D",
+   "explanation": "Dòng đã được chèn rồi nên trigger tính lại tồn rồi kiểm tra; nếu âm, rollback sẽ hoàn tác cả lệnh chèn và việc trừ tồn.",
+   "id": 29
+  },
+  {
+   "difficulty": "hard",
+   "question": "Khi nào nên ưu tiên ràng buộc khai báo (`PRIMARY KEY`, `FOREIGN KEY`, `CHECK`, `UNIQUE`) thay vì trigger?",
+   "options": {
+    "A": "Không bao giờ",
+    "B": "Khi ràng buộc có thể diễn đạt bằng khai báo, vì được DBMS tối ưu, ít lỗi và áp dụng cho mọi cách truy cập",
+    "C": "Khi ràng buộc phức tạp liên quan nhiều bảng",
+    "D": "Chỉ khi bảng rỗng"
+   },
+   "correct_answer": "B",
+   "explanation": "Ràng buộc khai báo rõ ràng, hiệu quả hơn; trigger dành cho các quy tắc nghiệp vụ không khai báo được.",
+   "id": 30
+  }
+ ],
+ "short_answers": [
+  {
+   "id": 1,
+   "question": "Phát biểu biểu thức logic vị từ hình thức cho ràng buộc toàn vẹn: *\"Ngày giao hàng (`NgayGiao`) trong bảng `DONHANG` phải lớn hơn hoặc bằng Ngày đặt hàng (`NgayDat`)\"*.",
+   "expected_answer": "$$\\forall d \\in DONHANG (d.NgayGiao \\ge d.NgayDat)$$",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 2,
+   "question": "Lập bảng tầm ảnh hưởng đối với ràng buộc toàn vẹn: `PHIEUNHAP(SoPN, NgayNhap)` và `CHITIET_PHIEUNHAP(SoPN, MaSP, SoLuongNhap)`. Ràng buộc: *Một phiếu nhập chỉ được có tối đa 50 mặt hàng*.",
+   "expected_answer": "| Quan hệ | Thêm (Insert) | Xóa (Delete) | Sửa (Update) |\n| :--- | :---: | :---: | :---: |\n| `PHIEUNHAP` | $-$ | $-$ | $-$ |\n| `CHITIET_PHIEUNHAP` | $+$ | $-$ | $* (SoPN)$ |\n\n- *Giải thích:* Thêm dòng mới hoặc sửa mã phiếu nhập có thể làm số lượng mặt hàng trong phiếu vượt quá 50. Xóa dòng chỉ làm giảm số lượng nên luôn an toàn ($-$).",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 3,
+   "question": "Khi nào ta nên sử dụng ràng buộc mức khai báo (`CHECK CONSTRAINT`) thay vì viết mã `TRIGGER`?",
+   "expected_answer": "Khi điều kiện kiểm tra chỉ liên quan đến các thuộc tính **trong cùng một dòng của cùng một bảng** (ví dụ: `Luong > 0`, `NgayGiao >= NgayDat`). Ràng buộc khai báo `CHECK` có hiệu năng cao hơn rất nhiều và được bộ máy tối ưu hóa nhận biết trực tiếp. Chỉ nên dùng `TRIGGER` khi điều kiện liên quan đến **nhiều bảng khác nhau** hoặc cần gọi các hàm tổng hợp (`COUNT`, `SUM`).",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 4,
+   "question": "Nêu cú pháp hàm `RAISERROR` trong SQL Server để thông báo lỗi vi phạm ràng buộc toàn vẹn ở mức độ nghiêm trọng thông thường (Severity Level 16).",
+   "expected_answer": "```sql\nRAISERROR (N'Thông báo lỗi vi phạm ràng buộc toàn vẹn!', 16, 1);\n```",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 5,
+   "question": "Viết câu lệnh SQL định nghĩa ràng buộc khóa ngoại với hành vi tự động xóa các dòng con khi dòng cha tương ứng bị xóa (`ON DELETE CASCADE`).",
+   "expected_answer": "```sql\nALTER TABLE CHITIET_DONHANG\nADD CONSTRAINT FK_CTDH_DonHang FOREIGN KEY (SoDH) \n    REFERENCES DONHANG(SoDH)\n    ON DELETE CASCADE;\n```",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "question": "Lập bảng tầm ảnh hưởng cho ràng buộc: 'Mỗi sinh viên phải thuộc một lớp tồn tại' giữa `SINHVIEN(MaLop)` và `LOPHOC(MaLop)`.",
+   "expected_answer": "| Bảng | Thêm | Xóa | Sửa |\n| :--- | :---: | :---: | :---: |\n| `SINHVIEN` | `+` | `-` | `+ (MaLop)` |\n| `LOPHOC` | `-` | `+` | `+ (MaLop)` |",
+   "explanation": "Con: thêm/sửa khóa ngoại có thể vi phạm; cha: xóa/sửa khóa chính có thể vi phạm.",
+   "id": 6
+  },
+  {
+   "question": "Viết trigger `AFTER INSERT, UPDATE` trên `KETQUA` từ chối điểm không thuộc $[0,10]$.",
+   "expected_answer": "```sql\nCREATE TRIGGER trg_KetQua_Diem ON KETQUA\nAFTER INSERT, UPDATE\nAS\nBEGIN\n  IF EXISTS (SELECT 1 FROM inserted WHERE Diem < 0 OR Diem > 10)\n  BEGIN\n    RAISERROR(N'Điểm phải nằm trong [0,10]', 16, 1);\n    ROLLBACK TRANSACTION;\n  END\nEND\n```",
+   "explanation": "Nếu chỉ kiểm tra một dòng, `CHECK (Diem BETWEEN 0 AND 10)` là lựa chọn tốt hơn.",
+   "id": 7
+  },
+  {
+   "question": "Viết lệnh thêm ràng buộc `CHECK` bảo đảm `NgayGiao >= NgayDat` cho bảng `DONHANG`.",
+   "expected_answer": "```sql\nALTER TABLE DONHANG\nADD CONSTRAINT CK_DonHang_Ngay CHECK (NgayGiao >= NgayDat);\n```",
+   "explanation": "Nếu `NgayGiao` là `NULL`, điều kiện `UNKNOWN` được chấp nhận.",
+   "id": 8
+  }
+ ],
+ "essays": [
+  {
+   "id": 1,
+   "title": "Thiết Kế Bảng Tầm Ảnh Hưởng & Cài Đặt Trigger Nghiệp Vụ",
+   "problem": "Cho cơ sở dữ liệu Quản lý Đề án nghiên cứu khoa học gồm:\n- `GIANGVIEN(MaGV, HoTen, HocVi, SoDeAnToiDa)`\n- `DEAN(MaDA, TenDA, KinhPhi, ChuNhiemDeAn)` (Trong đó `ChuNhiemDeAn` là khóa ngoại tham chiếu đến `GIANGVIEN(MaGV)`).\n\n**Ràng buộc toàn vẹn R1:** *Số lượng đề án mà một giảng viên làm chủ nhiệm không được vượt quá số đề án tối đa (`SoDeAnToiDa`) được quy định cho giảng viên đó.*\n\n**Yêu cầu:**\n1. Xác định bối cảnh của ràng buộc R1.\n2. Thiết kế Bảng tầm ảnh hưởng chi tiết đối với các thao tác Thêm, Xóa, Sửa trên từng quan hệ.\n3. Viết Trigger hoàn chỉnh trên bảng `DEAN` bằng T-SQL để bảo đảm ràng buộc R1 luôn được thỏa mãn.",
+   "solution_steps": [
+    "Bước 1: Xác định bối cảnh\n- Bối cảnh: Hai quan hệ `GIANGVIEN` và `DEAN`.\n- Biểu thức logic:\n  $$\\forall g \\in GIANGVIEN \\left( \\text{COUNT}(\\{d \\in DEAN \\mid d.ChuNhiemDeAn = g.MaGV\\}) \\le g.SoDeAnToiDa \\right)$$",
+    "Bước 2: Bảng tầm ảnh hưởng (Impact Matrix)\n\n| Quan hệ | Thêm (Insert) | Xóa (Delete) | Sửa (Update) |\n| :--- | :---: | :---: | :---: |\n| `DEAN` | $+$ | $-$ | $* (ChuNhiemDeAn)$ |\n| `GIANGVIEN` | $-$ | $-$ | $* (SoDeAnToiDa)$ |\n\n- *Phân tích:*\n  - Bảng `DEAN`: Thao tác thêm đề án mới hoặc đổi chủ nhiệm đề án có thể làm tăng số lượng đề án của giảng viên đó vượt quá trần cho phép $\\implies (+, *)$. Xóa đề án chỉ làm giảm số lượng $\\implies (-)$.\n  - Bảng `GIANGVIEN`: Thêm hoặc xóa giảng viên không làm tăng số lượng đề án trên giảng viên hiện có $\\implies (-)$. Sửa giảm `SoDeAnToiDa` có thể khiến số đề án hiện hành vượt mức mới $\\implies (*)$.",
+    "Bước 3: Cài đặt Trigger trên bảng DEAN\n```sql\nCREATE TRIGGER trg_KiemTra_SoDeAnChuNhiem\nON DEAN\nFOR INSERT, UPDATE\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    -- Kiểm tra xem có giảng viên nào có số đề án vượt quá SoDeAnToiDa\n    IF EXISTS (\n        SELECT g.MaGV\n        FROM GIANGVIEN g\n        JOIN (\n            -- Tính số lượng đề án thực tế của các giảng viên bị ảnh hưởng bởi thao tác DML\n            SELECT d.ChuNhiemDeAn, COUNT(d.MaDA) AS SoLuongHienTai\n            FROM DEAN d\n            WHERE d.ChuNhiemDeAn IN (SELECT DISTINCT ChuNhiemDeAn FROM INSERTED WHERE ChuNhiemDeAn IS NOT NULL)\n            GROUP BY d.ChuNhiemDeAn\n        ) sub ON g.MaGV = sub.ChuNhiemDeAn\n        WHERE sub.SoLuongHienTai > g.SoDeAnToiDa\n    )\n    BEGIN\n        RAISERROR (N'Lỗi: Số lượng đề án làm chủ nhiệm vượt quá giới hạn tối đa cho phép của giảng viên!', 16, 1);\n        ROLLBACK TRANSACTION;\n        RETURN;\n    END\nEND;\n```"
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Trigger Quản Lý Kho & Cập Nhật Tồn Kho Tự Động",
+   "problem": "Trong hệ thống Bán hàng, ta có:\n- `KHO(MaSP, SoLuongTon)`\n- `CHITIET_HOADON(SoHD, MaSP, SoLuongBan)`\n\n**Yêu cầu:** Viết Trigger trên bảng `CHITIET_HOADON` khi có thao tác `INSERT`:\n1. Kiểm tra xem số lượng hàng tồn trong kho có đủ để xuất bán hay không (`SoLuongTon >= SoLuongBan`). Nếu không đủ, hủy giao dịch và báo lỗi.\n2. Nếu đủ, tự động trừ số lượng hàng xuất bán vào cột `SoLuongTon` của bảng `KHO`.",
+   "solution_steps": [
+    "Phân tích yêu cầu & cơ sở lý thuyết:\n```sql\nCREATE TRIGGER trg_XuatKho_BanHang\nON CHITIET_HOADON\nFOR INSERT\nAS\nBEGIN\n    SET NOCOUNT ON;",
+    "Thực hiện chi tiết & kết luận:\n-- 1. Kiểm tra tồn kho\n    IF EXISTS (\n        SELECT 1\n        FROM INSERTED i\n        JOIN KHO k ON i.MaSP = k.MaSP\n        WHERE k.SoLuongTon < i.SoLuongBan\n    )\n    BEGIN\n        RAISERROR (N'Lỗi: Số lượng tồn kho không đủ để đáp ứng đơn hàng!', 16, 1);\n        ROLLBACK TRANSACTION;\n        RETURN;\n    END\n\n-- 2. Tự động cập nhật giảm số lượng tồn kho\n    UPDATE k\n    SET k.SoLuongTon = k.SoLuongTon - i.TongSoLuongXuat\n    FROM KHO k\n    JOIN (\n        SELECT MaSP, SUM(SoLuongBan) AS TongSoLuongXuat\n        FROM INSERTED\n        GROUP BY MaSP\n    ) i ON k.MaSP = i.MaSP;\nEND;\n```"
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Trigger Đồng Bộ Dữ Liệu Sĩ Số Giữa Hai Bảng",
+   "problem": "Cho `LOPHOC(MaLop, TenLop, SiSo)` và `SINHVIEN(MaSV, HoTen, MaLop)`.\nThuộc tính `SiSo` trong bảng `LOPHOC` phải luôn luôn phản ánh chính xác số lượng sinh viên hiện có trong lớp đó.\nHãy viết **một Trigger duy nhất** trên bảng `SINHVIEN` để xử lý đồng bộ cột `SiSo` cho cả 3 thao tác: `INSERT`, `UPDATE` (chuyển lớp), và `DELETE` (sinh viên thôi học).",
+   "solution_steps": [
+    "Phân tích yêu cầu & cơ sở lý thuyết:\n```sql\nCREATE TRIGGER trg_DongBo_SiSo_SinhVien\nON SINHVIEN\nFOR INSERT, UPDATE, DELETE\nAS\nBEGIN\n    SET NOCOUNT ON;",
+    "Thực hiện chi tiết & kết luận:\n-- Bảng tạm lưu các mã lớp có sự thay đổi sĩ số\n    DECLARE @DanhSachLop TABLE (MaLop VARCHAR(10));\n\n-- Lấy mã lớp từ bảng INSERTED (đối với INSERT và UPDATE sang lớp mới)\n    INSERT INTO @DanhSachLop (MaLop)\n    SELECT DISTINCT MaLop FROM INSERTED WHERE MaLop IS NOT NULL;\n\n-- Lấy mã lớp từ bảng DELETED (đối với DELETE và UPDATE khỏi lớp cũ)\n    INSERT INTO @DanhSachLop (MaLop)\n    SELECT DISTINCT MaLop FROM DELETED WHERE MaLop IS NOT NULL;\n\n-- Cập nhật lại sĩ số chuẩn xác cho tất cả các lớp bị tác động\n    UPDATE l\n    SET l.SiSo = (\n        SELECT COUNT(sv.MaSV)\n        FROM SINHVIEN sv\n        WHERE sv.MaLop = l.MaLop\n    )\n    FROM LOPHOC l\n    WHERE l.MaLop IN (SELECT DISTINCT MaLop FROM @DanhSachLop);\nEND;\n```"
+   ]
+  },
+  {
+   "title": "Cài đặt ràng buộc nghiệp vụ 'một giảng viên dạy tối đa 3 lớp trong một học kỳ'",
+   "problem": "Bảng `GIANGDAY(MaGV, MaLop, HocKy)` với khóa chính `(MaGV, MaLop, HocKy)`. Yêu cầu: a) phát biểu RBTV theo logic vị từ; b) xác định bối cảnh và bảng tầm ảnh hưởng; c) viết trigger T-SQL hoàn chỉnh xử lý cả trường hợp thêm/sửa nhiều dòng cùng lúc.",
+   "solution_steps": [
+    "Bước 1 - Phát biểu: $\\forall gv, hk:\\ |\\{ lop \\mid (gv, lop, hk) \\in GIANGDAY \\}| \\le 3$.",
+    "Bước 2 - Bối cảnh: quan hệ `GIANGDAY`.",
+    "Bước 3 - Bảng tầm ảnh hưởng:\n| Thao tác | Thêm | Xóa | Sửa |\n| :--- | :---: | :---: | :---: |\n| `GIANGDAY` | `+` | `-` | `+ (MaGV, HocKy)` |",
+    "Bước 4 - Trigger:\n```sql\nCREATE TRIGGER trg_GiangDay_Max3 ON GIANGDAY\nAFTER INSERT, UPDATE\nAS\nBEGIN\n  IF EXISTS (\n    SELECT 1\n    FROM GIANGDAY g\n    JOIN (SELECT DISTINCT MaGV, HocKy FROM inserted) i\n      ON g.MaGV = i.MaGV AND g.HocKy = i.HocKy\n    GROUP BY g.MaGV, g.HocKy\n    HAVING COUNT(*) > 3\n  )\n  BEGIN\n    RAISERROR(N'Một giảng viên chỉ dạy tối đa 3 lớp mỗi học kỳ', 16, 1);\n    ROLLBACK TRANSACTION;\n  END\nEND\n```",
+    "Bước 5 - Giải thích: chỉ kiểm tra các cặp `(MaGV, HocKy)` vừa bị tác động (bảng `inserted`) để tránh quét toàn bảng; `GROUP BY ... HAVING COUNT(*) > 3` đếm số lớp thực tế sau khi lệnh đã áp dụng; `ROLLBACK` hoàn tác cả lệnh gây vi phạm.",
+    "Kết luận: xóa không bao giờ làm vi phạm nên không cần trigger `AFTER DELETE`."
+   ],
+   "id": 4
+  }
+ ]
+}

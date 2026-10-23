@@ -1,0 +1,492 @@
+{
+ "chapter_id": "q1_chuong_6",
+ "chapter_title": "Quyển 1 - Chương 6: Xử lý & tối ưu hóa câu hỏi truy vấn",
+ "multiple_choice": [
+  {
+   "id": 1,
+   "difficulty": "easy",
+   "question": "Trong các giai đoạn xử lý câu truy vấn của một hệ quản trị CSDL quan hệ, giai đoạn nào chịu trách nhiệm kiểm tra xem các tên bảng và tên thuộc tính có thực sự tồn tại trong Cơ sở dữ liệu hay không?",
+   "options": {
+    "A": "Cost-based Optimizer (Bộ tối ưu hóa chi phí)",
+    "B": "Parser & Semantic Checker (Phân tích cú pháp và ngữ nghĩa)",
+    "C": "Storage Manager (Bộ quản lý lưu trữ)",
+    "D": "Code Generator (Sinh mã thực thi)"
+   },
+   "correct_answer": "B",
+   "explanation": "Semantic Checker đối chiếu câu truy vấn với Từ điển dữ liệu (Data Dictionary/System Catalog) để kiểm tra tính hợp lệ về mặt ngữ nghĩa (tên bảng, cột, kiểu dữ liệu, quyền truy cập)."
+  },
+  {
+   "id": 2,
+   "difficulty": "easy",
+   "question": "Chiến lược tối ưu hóa logic Heuristic nào sau đây đem lại hiệu quả giảm chi phí trung gian lớn nhất cho câu truy vấn?",
+   "options": {
+    "A": "Tránh sử dụng bất kỳ chỉ mục nào trong cơ sở dữ liệu.",
+    "B": "Thực hiện các phép chiếu ở bước cuối cùng sau khi đã gom hết dữ liệu.",
+    "C": "Thực hiện phép chọn ($\\sigma$) càng sớm càng tốt để loại bỏ các bản ghi không thỏa mãn trước khi thực hiện các phép kết nối tốn kém.",
+    "D": "Luôn thực hiện tích Descartes trước rồi mới kiểm tra điều kiện sau."
+   },
+   "correct_answer": "C",
+   "explanation": "Đẩy phép chọn xuống sớm (Pushing Selection down) giúp giảm mạnh lực lượng (cardinality) của các quan hệ đầu vào, từ đó giảm thiểu kích thước kết quả trung gian của các phép kết nối phía sau."
+  },
+  {
+   "id": 3,
+   "difficulty": "easy",
+   "question": "Quy tắc biến đổi nào sau đây cho phép chuyển đổi một tích Descartes kèm phép chọn điều kiện bằng thành một phép kết nối tự nhiên?",
+   "options": {
+    "A": "$\\sigma_{A > B}(R \\times S) \\equiv R \\cup S$",
+    "B": "$\\sigma_{R.A = S.A}(R \\times S) \\equiv R \\bowtie S$",
+    "C": "$\\pi_A(R \\times S) \\equiv \\sigma_A(R)$",
+    "D": "$R \\times S \\equiv R - S$"
+   },
+   "correct_answer": "B",
+   "explanation": "Phép kết tự nhiên $R \\bowtie S$ về bản chất là tích Descartes kèm điều kiện bằng trên thuộc tính chung và khử một cột trùng."
+  },
+  {
+   "id": 4,
+   "difficulty": "easy",
+   "question": "Trong thuật toán kết nối lồng vòng lặp (Nested-Loop Join), để giảm thiểu tối đa số lượt đọc khối đĩa, bảng nào nên được chọn làm vòng lặp ngoài (Outer loop)?",
+   "options": {
+    "A": "Bảng chứa nhiều giá trị `NULL` hơn.",
+    "B": "Bảng có kích thước khối đĩa $b$ nhỏ hơn.",
+    "C": "Bảng có kích thước khối đĩa lớn hơn.",
+    "D": "Bảng nào cũng có chi phí như nhau."
+   },
+   "correct_answer": "B",
+   "explanation": "Chi phí đọc đĩa là $b_{\\text{outer}} + |r_{\\text{outer}}| \\cdot b_{\\text{inner}}$. Đặt bảng có số khối $b$ nhỏ hơn làm vòng ngoài sẽ tối ưu hóa lượng I/O tổng thể."
+  },
+  {
+   "id": 5,
+   "difficulty": "easy",
+   "question": "Thuật toán kết nối Sort-Merge Join tỏ ra vượt trội và hiệu quả nhất trong trường hợp nào?",
+   "options": {
+    "A": "Hai bảng có kích thước hoàn toàn bằng nhau.",
+    "B": "Cả hai quan hệ đầu vào đã được sắp xếp thứ tự sẵn theo các thuộc tính kết nối (hoặc có Clustered Index trên cột kết nối).",
+    "C": "Không có bất kỳ bảng nào được sắp thứ tự.",
+    "D": "Điều kiện kết nối là phép so sánh khác nhau ($\\ne$)."
+   },
+   "correct_answer": "B",
+   "explanation": "Khi cả hai bảng đã sắp xếp sẵn theo khóa kết nối, thuật toán Sort-Merge Join chỉ cần quét tuyến tính đồng thời qua hai bảng đúng 1 lần với chi phí $O(b_R + b_S)$ I/O."
+  },
+  {
+   "id": 6,
+   "difficulty": "easy",
+   "question": "Bộ tối ưu hóa dựa trên chi phí (Cost-based Optimizer - CBO) sử dụng thông tin nào sau đây từ Từ điển dữ liệu để ước lượng chi phí của các kế hoạch thực thi?",
+   "options": {
+    "A": "Số lượng dòng, số lượng khối đĩa, số lượng giá trị phân biệt ($V(A, R)$) và biểu đồ tần suất (Histograms).",
+    "B": "Họ tên và địa chỉ của lập trình viên viết câu lệnh SQL.",
+    "C": "Dung lượng nguồn điện cung cấp cho CPU.",
+    "D": "Địa chỉ IP của máy khách kết nối tới server."
+   },
+   "correct_answer": "A",
+   "explanation": "CBO dựa vào Catalog Statistics (thống kê phân phối dữ liệu, số khối, mật độ bản ghi, chiều cao chỉ mục) để tính toán số lượt I/O và chu kỳ CPU cho từng phương án thực thi khả dĩ."
+  },
+  {
+   "id": 7,
+   "difficulty": "easy",
+   "question": "Tại sao phép chiếu ($\\pi$) nên được đẩy xuống càng sớm càng tốt trong cây truy vấn?",
+   "options": {
+    "A": "Để đổi tên các cột sang tiếng Anh.",
+    "B": "Để xóa vĩnh viễn các cột đó khỏi ổ đĩa cứng.",
+    "C": "Để loại bỏ sớm các cột không cần thiết, làm giảm độ rộng của bản ghi ($R$), tăng hệ số kết khối ($bfr$) và tiết kiệm không gian bộ đệm (Buffer Pool).",
+    "D": "Để biến các giá trị `NULL` thành số 0."
+   },
+   "correct_answer": "C",
+   "explanation": "Giảm độ rộng bản ghi giúp nhồi được nhiều bản ghi hơn vào mỗi khối đĩa trong RAM, từ đó giảm số lần hoán đổi trang (paging) và tăng tốc độ xử lý các phép kết phía sau."
+  },
+  {
+   "id": 8,
+   "difficulty": "easy",
+   "question": "Khi nào bộ tối ưu hóa truy vấn sẽ quyết định chọn phương thức quét toàn bộ bảng (Table Scan) thay vì sử dụng chỉ mục Non-Clustered Index có sẵn trên cột tìm kiếm?",
+   "options": {
+    "A": "Khi bảng có ít hơn 2 cột.",
+    "B": "Khi câu truy vấn có chứa mệnh đề `ORDER BY`.",
+    "C": "Khi điều kiện tìm kiếm lọc ra phần lớn các dòng trong bảng (độ chọn lọc thấp - ví dụ: lọc ra trên 30% - 50% số dòng của bảng).",
+    "D": "Khi server sắp hết dung lượng ổ cứng."
+   },
+   "correct_answer": "C",
+   "explanation": "Điểm giới hạn (Tipping Point): Khi số dòng cần lấy quá lớn, việc duyệt chỉ mục rồi tra cứu ngẫu nhiên (Bookmark Lookup) từng dòng vào bảng chính sẽ tốn nhiều I/O hơn nhiều so với việc quét tuần tự toàn bộ bảng một lượt liên tục."
+  },
+  {
+   "id": 9,
+   "difficulty": "easy",
+   "question": "Cây truy vấn (Query Tree) là gì?",
+   "options": {
+    "A": "Cây thư mục chứa file cài đặt hệ quản trị CSDL.",
+    "B": "Một loại cây xanh trồng trong phòng máy chủ.",
+    "C": "Cấu trúc dữ liệu cây nhị phân mô tả câu lệnh SQL, trong đó các nút lá là các quan hệ cơ sở và các nút trong là các phép toán đại số quan hệ.",
+    "D": "Sơ đồ cây phân cấp thư mục người dùng trên hệ điều hành Windows."
+   },
+   "correct_answer": "C",
+   "explanation": "Cây truy vấn biểu diễn luồng dữ liệu của câu lệnh truy vấn từ dưới lên trên (lá là bảng gốc, các nút trung gian là phép lọc/kết, gốc là kết quả cuối cùng)."
+  },
+  {
+   "id": 10,
+   "difficulty": "easy",
+   "question": "Kế hoạch thực thi truy vấn (Execution Plan) được lưu trữ vào bộ nhớ tạm (Plan Cache) nhằm mục đích:",
+   "options": {
+    "A": "Tái sử dụng kế hoạch đã tối ưu hóa cho các lần thực thi tiếp theo của cùng một mẫu câu truy vấn mà không cần biên dịch lại từ đầu.",
+    "B": "Tự động xóa dữ liệu sau 30 ngày.",
+    "C": "Giúp người dùng đọc hiểu được mã máy.",
+    "D": "Đồng bộ dữ liệu sang điện thoại thông minh."
+   },
+   "correct_answer": "A",
+   "explanation": "Quá trình tối ưu hóa truy vấn tiêu tốn nhiều CPU. Việc lưu trữ Execution Plan trong Plan Cache giúp các câu truy vấn tương tự thực thi tức thì mà không cần qua các bước biên dịch và tính toán chi phí lại."
+  },
+  {
+   "difficulty": "medium",
+   "question": "Thứ tự đúng các giai đoạn xử lý một câu truy vấn trong DBMS (theo giáo trình) là:",
+   "options": {
+    "A": "Tối ưu heuristic -> Thực thi -> Phân tích cú pháp",
+    "B": "Phân tích cú pháp -> Tối ưu heuristic -> Tối ưu theo chi phí -> Thực thi",
+    "C": "Tối ưu theo chi phí -> Phân tích cú pháp -> Thực thi",
+    "D": "Thực thi -> Phân tích cú pháp -> Tối ưu hóa heuristic -> Tối ưu theo chi phí"
+   },
+   "correct_answer": "B",
+   "explanation": "Parser tạo cây đại số, heuristic biến đổi logic, cost-based chọn thuật toán dựa trên chi phí, cuối cùng engine thực thi.",
+   "id": 11
+  },
+  {
+   "difficulty": "medium",
+   "question": "Vì sao nên đẩy phép chọn $\\sigma$ xuống sát các quan hệ gốc càng sớm càng tốt?",
+   "options": {
+    "A": "Để làm tăng số bộ trung gian",
+    "B": "Để giảm số bộ cần xử lý ở các phép toán phía trên",
+    "C": "Vì $\\sigma$ luôn nhanh hơn $\\pi$",
+    "D": "Để thay đổi kết quả truy vấn"
+   },
+   "correct_answer": "B",
+   "explanation": "Phép chọn lọc bỏ sớm các bộ không cần thiết, nên kích thước dữ liệu trung gian nhỏ hơn.",
+   "id": 12
+  },
+  {
+   "difficulty": "medium",
+   "question": "Đẩy phép chiếu $\\pi$ xuống sớm mang lại lợi ích chính nào?",
+   "options": {
+    "A": "Tăng số thuộc tính",
+    "B": "Giảm độ rộng (số thuộc tính) của mỗi bộ trung gian, nên xếp được nhiều bộ hơn trên mỗi khối",
+    "C": "Không có lợi ích",
+    "D": "Giảm số bộ"
+   },
+   "correct_answer": "B",
+   "explanation": "Chiếu giảm kích thước bộ nên giảm số khối đọc/ghi và bộ nhớ đệm.",
+   "id": 13
+  },
+  {
+   "difficulty": "medium",
+   "question": "Bảng có $r = 10000$ bộ, độ chọn lọc của điều kiện là $s = 0{,}02$. Số bộ ước lượng thỏa điều kiện là:",
+   "options": {
+    "A": "200",
+    "B": "500",
+    "C": "20",
+    "D": "2000"
+   },
+   "correct_answer": "A",
+   "explanation": "$s \\cdot r = 0{,}02 \\times 10000 = 200$.",
+   "id": 14
+  },
+  {
+   "difficulty": "medium",
+   "question": "Với điều kiện bằng trên khóa của bảng có $r$ bộ, độ chọn lọc ước lượng là:",
+   "options": {
+    "A": "$r$",
+    "B": "$1$",
+    "C": "$0{,}5$",
+    "D": "$1/r$"
+   },
+   "correct_answer": "D",
+   "explanation": "Khóa nên có tối đa một bộ khớp, tức $s = 1/r$.",
+   "id": 15
+  },
+  {
+   "difficulty": "medium",
+   "question": "Nested-loop join với $b_R = 10$, $r_R = 100$, $b_S = 50$ (R là bảng ngoài). Chi phí $b_R + r_R \\cdot b_S$ là:",
+   "options": {
+    "A": "5010",
+    "B": "5050",
+    "C": "500",
+    "D": "5000"
+   },
+   "correct_answer": "A",
+   "explanation": "$10 + 100 \\times 50 = 5010$.",
+   "id": 16
+  },
+  {
+   "difficulty": "medium",
+   "question": "Block nested-loop join: $b_R = 100$, $b_S = 500$, bộ đệm $M = 12$ khối (R ngoài). Chi phí $b_R + \\lceil b_R/(M-2) \\rceil \\cdot b_S$ là:",
+   "options": {
+    "A": "5100",
+    "B": "600",
+    "C": "5000",
+    "D": "50100"
+   },
+   "correct_answer": "A",
+   "explanation": "$100 + \\lceil 100/10 \\rceil \\times 500 = 100 + 5000 = 5100$.",
+   "id": 17
+  },
+  {
+   "difficulty": "medium",
+   "question": "Hash join với $b_R = 100$, $b_S = 500$ theo công thức $3(b_R + b_S)$ có chi phí:",
+   "options": {
+    "A": "600",
+    "B": "50000",
+    "C": "1800",
+    "D": "1500"
+   },
+   "correct_answer": "C",
+   "explanation": "$3 \\times (100 + 500) = 1800$ khối.",
+   "id": 18
+  },
+  {
+   "difficulty": "medium",
+   "question": "Hai bảng đã sắp xếp sẵn theo cột kết nối, $b_R = 100$, $b_S = 500$. Chi phí sort-merge join (chỉ quét một lần mỗi bảng) là:",
+   "options": {
+    "A": "50000",
+    "B": "600",
+    "C": "5100",
+    "D": "1800"
+   },
+   "correct_answer": "B",
+   "explanation": "$b_R + b_S = 600$ khối.",
+   "id": 19
+  },
+  {
+   "difficulty": "medium",
+   "question": "Bộ tối ưu theo chi phí (CBO) dựa chủ yếu vào thông tin nào?",
+   "options": {
+    "A": "Thống kê trong catalog: số bộ, số khối, số giá trị phân biệt, phân phối dữ liệu, chỉ mục sẵn có",
+    "B": "Màu giao diện ứng dụng",
+    "C": "Tên người dùng đang kết nối",
+    "D": "Dung lượng ổ đĩa còn trống"
+   },
+   "correct_answer": "A",
+   "explanation": "CBO ước lượng chi phí các kế hoạch dựa trên thống kê, nên cần cập nhật thống kê định kỳ.",
+   "id": 20
+  },
+  {
+   "difficulty": "medium",
+   "question": "Khi nào quét toàn bộ bảng (full table scan) có thể rẻ hơn dùng chỉ mục?",
+   "options": {
+    "A": "Khi điều kiện chọn lọc rất cao (chỉ vài bộ)",
+    "B": "Khi bảng rỗng và có chỉ mục",
+    "C": "Khi điều kiện khớp với phần lớn các bộ của bảng (độ chọn lọc thấp)",
+    "D": "Không bao giờ"
+   },
+   "correct_answer": "C",
+   "explanation": "Dùng chỉ mục phụ gây nhiều truy xuất ngẫu nhiên; nếu phần lớn bộ thỏa mãn, đọc tuần tự toàn bảng rẻ hơn.",
+   "id": 21
+  },
+  {
+   "difficulty": "medium",
+   "question": "Kế hoạch thực thi (execution plan) thường được DBMS làm gì sau khi tạo?",
+   "options": {
+    "A": "Lưu trong bộ nhớ đệm (plan cache) để tái sử dụng cho các truy vấn tương tự",
+    "B": "Ghi vào bảng khách hàng",
+    "C": "Gửi cho người dùng bắt buộc xác nhận",
+    "D": "Xóa ngay sau mỗi lần dùng"
+   },
+   "correct_answer": "A",
+   "explanation": "Việc tối ưu tốn kém nên kế hoạch thường được lưu đệm để tái sử dụng.",
+   "id": 22
+  },
+  {
+   "difficulty": "hard",
+   "question": "Cho $\\sigma_{R.A=5 \\land S.B=3}(R \\bowtie_{R.K=S.K} S)$. Biến đổi tối ưu đúng là:",
+   "options": {
+    "A": "$\\sigma_{R.A=5}(R) \\bowtie_{R.K=S.K} \\sigma_{S.B=3}(S)$",
+    "B": "$\\pi_{A,B}(R \\bowtie S)$",
+    "C": "$R \\times S$",
+    "D": "$R \\bowtie \\sigma_{R.A=5 \\land S.B=3}(S)$"
+   },
+   "correct_answer": "A",
+   "explanation": "Tách điều kiện hội rồi đẩy mỗi điều kiện xuống quan hệ chứa thuộc tính tương ứng.",
+   "id": 23
+  },
+  {
+   "difficulty": "hard",
+   "question": "Chuyển $\\sigma_{R.A=S.A}(R \\times S)$ thành $R \\bowtie_{R.A=S.A} S$ nhằm mục đích gì?",
+   "options": {
+    "A": "Tránh sinh ra $|R| \\times |S|$ bộ trung gian của tích Descartes bằng thuật toán nối chuyên dụng",
+    "B": "Chỉ đổi cách viết, không ảnh hưởng chi phí",
+    "C": "Làm tăng kích thước kết quả",
+    "D": "Làm sai kết quả"
+   },
+   "correct_answer": "A",
+   "explanation": "Tích Descartes sinh ra $|R| \\cdot |S|$ bộ trước khi lọc; phép kết dùng nested-loop/hash/merge hiệu quả hơn nhiều.",
+   "id": 24
+  },
+  {
+   "difficulty": "hard",
+   "question": "Index nested-loop join: $b_R = 100$, $r_R = 5000$, chỉ mục trên cột nối của $S$ có độ cao 3. Chi phí xấp xỉ $b_R + r_R \\cdot (h + 1)$ là:",
+   "options": {
+    "A": "20100",
+    "B": "500300",
+    "C": "20000",
+    "D": "15100"
+   },
+   "correct_answer": "A",
+   "explanation": "$100 + 5000 \\times (3 + 1) = 20100$.",
+   "id": 25
+  },
+  {
+   "difficulty": "hard",
+   "question": "Block nested-loop join, $b_R = 100$, $b_S = 500$, $M = 12$. Chi phí khi R là bảng ngoài là 5100. Nếu S là bảng ngoài, chi phí là:",
+   "options": {
+    "A": "6000",
+    "B": "5500",
+    "C": "600",
+    "D": "5100"
+   },
+   "correct_answer": "B",
+   "explanation": "$500 + \\lceil 500/10 \\rceil \\times 100 = 500 + 5000 = 5500$. Bảng nhỏ làm bảng ngoài tiết kiệm hơn.",
+   "id": 26
+  },
+  {
+   "difficulty": "hard",
+   "question": "Khi đẩy phép chiếu xuống nhánh $R$ trong $\\pi_L(R \\bowtie_{R.K=S.K} S)$, cần giữ lại các thuộc tính nào của $R$?",
+   "options": {
+    "A": "Mọi thuộc tính của $R$",
+    "B": "Các thuộc tính của $L$ thuộc $R$ cộng với thuộc tính nối $K$",
+    "C": "Chỉ các thuộc tính trong $L$",
+    "D": "Chỉ thuộc tính nối $K$"
+   },
+   "correct_answer": "B",
+   "explanation": "Thuộc tính nối vẫn cần cho phép kết phía trên, nên không được chiếu bỏ chúng sớm.",
+   "id": 27
+  },
+  {
+   "difficulty": "hard",
+   "question": "Bảng $r = 50000$ bộ. Hai điều kiện độc lập $C_1$ ($s_1 = 0{,}1$) và $C_2$ ($s_2 = 0{,}2$). Số bộ ước lượng thỏa $C_1 \\land C_2$ là:",
+   "options": {
+    "A": "1000",
+    "B": "15000",
+    "C": "5000",
+    "D": "10000"
+   },
+   "correct_answer": "A",
+   "explanation": "Với giả định độc lập: $s = s_1 \\cdot s_2 = 0{,}02$; $0{,}02 \\times 50000 = 1000$.",
+   "id": 28
+  },
+  {
+   "difficulty": "hard",
+   "question": "Điểm khác biệt cốt lõi giữa tối ưu heuristic và tối ưu theo chi phí là:",
+   "options": {
+    "A": "Heuristic dùng thống kê còn cost-based thì không",
+    "B": "Hai phương pháp giống hệt nhau",
+    "C": "Heuristic dựa trên quy tắc biến đổi đại số luôn có lợi (đẩy chọn/chiếu) không cần thống kê; cost-based ước lượng chi phí để chọn thuật toán và thứ tự kết",
+    "D": "Cost-based thay đổi kết quả truy vấn"
+   },
+   "correct_answer": "C",
+   "explanation": "Heuristic chạy trước, làm cây gọn; cost-based chọn kế hoạch vật lý tối ưu theo ước lượng.",
+   "id": 29
+  },
+  {
+   "difficulty": "hard",
+   "question": "Ba bảng $R$ (1000 bộ), $S$ (10 bộ), $T$ (100000 bộ), với $|R \\bowtie S| \\le 10$ và $|S \\bowtie T|$ lớn. Thứ tự kết nối hợp lý theo heuristic là:",
+   "options": {
+    "A": "$(S \\bowtie T) \\bowtie R$",
+    "B": "Bất kỳ thứ tự nào đều tương đương về chi phí",
+    "C": "$(R \\bowtie S) \\bowtie T$",
+    "D": "$(R \\bowtie T) \\bowtie S$"
+   },
+   "correct_answer": "C",
+   "explanation": "Nên kết trước các cặp cho kết quả trung gian nhỏ nhất, $R \\bowtie S$ chỉ tối đa 10 bộ, rồi mới kết với bảng lớn $T$.",
+   "id": 30
+  }
+ ],
+ "short_answers": [
+  {
+   "id": 1,
+   "question": "Nêu 3 quy tắc Heuristic cơ bản nhất được áp dụng khi tối ưu hóa cây truy vấn logic.",
+   "expected_answer": "1. Thực hiện các phép chọn ($\\sigma$) càng sớm càng tốt (đẩy $\\sigma$ xuống lá).\n  2. Thực hiện các phép chiếu ($\\pi$) càng sớm càng tốt để loại bớt cột không dùng.\n  3. Thay thế tích Descartes kèm phép chọn bằng phép kết tự nhiên hoặc kết bằng ($R \\bowtie S$).",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 2,
+   "question": "Cho biết chi phí đọc khối đĩa tối thiểu của thuật toán Hash Join khi thực hiện kết nối hai bảng $R$ ($b_R$ khối) và $S$ ($b_S$ khối) trong trường hợp bộ đệm đủ chứa bảng nhỏ hơn.",
+   "expected_answer": "$$\\text{Chi phí I/O} = b_R + b_S \\text{ (lượt đọc khối đĩa)}$$\n  (Nạp toàn bộ bảng nhỏ hơn vào bảng băm trong RAM, sau đó quét bảng lớn hơn đúng 1 lần).",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 3,
+   "question": "Giải thích ý nghĩa của chỉ số \"Độ chọn lọc\" (Selectivity - $s$) của một điều kiện chọn $\\sigma_C(R)$ và nêu công thức ước lượng khi điều kiện là phép so sánh bằng trên thuộc tính $A$ có $V(A, R)$ giá trị phân biệt.",
+   "expected_answer": "- **Ý nghĩa:** Độ chọn lọc $s$ là tỷ lệ phần trăm số bản ghi thỏa mãn điều kiện $C$ trên tổng số bản ghi của $R$ ($0 \\le s \\le 1$).\n  - **Công thức ước lượng:** Giả định dữ liệu phân bố đều:\n    $$s = \\frac{1}{V(A, R)}$$",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 4,
+   "question": "Trong cây truy vấn đại số, phép toán nào luôn là nút gốc (Root) của cây?",
+   "expected_answer": "Nút gốc thường là **Phép chiếu cuối cùng ($\\pi$)** để chọn đúng danh sách các cột mà mệnh đề `SELECT` yêu cầu, hoặc thao tác sắp xếp (`ORDER BY`) / khử trùng (`DISTINCT`).",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 5,
+   "question": "Tại sao việc cập nhật thống kê (Update Statistics) định kỳ trong DBMS lại có ý nghĩa quyết định đối với hiệu năng của bộ tối ưu hóa chi phí CBO?",
+   "expected_answer": "Nếu dữ liệu trong bảng thay đổi lớn (thêm/xóa hàng triệu dòng) mà thống kê không được cập nhật, CBO sẽ tính toán sai lệch lực lượng dữ liệu, dẫn đến việc lựa chọn các thuật toán tồi (ví dụ: dùng nhầm Nested-Loop Join thay vì Hash Join, hoặc chọn sai chỉ mục), khiến thời gian thực thi chậm đi hàng trăm lần.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "question": "Block nested-loop join: $b_R = 20$, $b_S = 100$, $M = 7$ (R là bảng ngoài). Tính chi phí I/O.",
+   "expected_answer": "Chi phí $= b_R + \\lceil b_R/(M-2) \\rceil \\cdot b_S = 20 + \\lceil 20/5 \\rceil \\cdot 100 = 20 + 400 = 420$ khối.",
+   "explanation": "$M - 2$ khối dành cho bảng ngoài, 1 khối cho bảng trong, 1 khối cho đầu ra.",
+   "id": 6
+  },
+  {
+   "question": "Bảng $r = 100000$ bộ, cột `MaQuan` có 50 giá trị phân biệt phân phối đều. Ước lượng số bộ thỏa `MaQuan = 'Q1'`.",
+   "expected_answer": "Độ chọn lọc $s = 1/50 = 0{,}02$; số bộ ước lượng $= 0{,}02 \\times 100000 = 2000$.",
+   "explanation": "Dùng giả định phân phối đều; nếu phân phối lệch cần histogram.",
+   "id": 7
+  },
+  {
+   "question": "Vì sao sort-merge join hiệu quả khi hai bảng đã có clustered index trên cột nối?",
+   "expected_answer": "Hai bảng đã được sắp theo cột nối nên chỉ cần một lần quét tuyến tính mỗi bảng, chi phí xấp xỉ $b_R + b_S$, không phải tốn bước sắp xếp.",
+   "explanation": "Nếu chưa sắp thì phải cộng thêm chi phí sắp xếp ngoài.",
+   "id": 8
+  }
+ ],
+ "essays": [
+  {
+   "id": 1,
+   "title": "Quá Trình Tối Ưu Hóa Heuristic Từng Bước",
+   "problem": "Cho câu truy vấn SQL:\n```sql\nSELECT sv.HoTen, mh.TenMH, kq.DiemThi\nFROM SINHVIEN sv, KETQUA kq, MONHOC mh\nWHERE sv.MaSV = kq.MaSV \n  AND kq.MaMH = mh.MaMH \n  AND sv.Phai = N'Nữ' \n  AND mh.SoTinChi >= 4;\n```\n1. Hãy chuyển đổi câu truy vấn SQL trên sang Cây Đại số Quan hệ ban đầu (chưa tối ưu).\n2. Trình bày chi tiết 4 bước biến đổi Heuristic để tối ưu hóa cây truy vấn.\n3. Vẽ Cây Đại số Quan hệ sau khi đã tối ưu hóa.",
+   "solution_steps": [
+    "Bước 1: Cây truy vấn ban đầu (Chưa tối ưu)\n- Nút lá: 3 bảng `SINHVIEN`, `KETQUA`, `MONHOC`.\n- Thực hiện tích Descartes: `(SINHVIEN x KETQUA) x MONHOC`.\n- Phép chọn điều kiện toàn thể: $\\sigma_{sv.MaSV = kq.MaSV \\land kq.MaMH = mh.MaMH \\land sv.Phai = \\text{'Nữ'} \\land mh.SoTinChi \\ge 4}$.\n- Nút gốc: $\\pi_{sv.HoTen, mh.TenMH, kq.DiemThi}$.",
+    "Bước 2: Bốn bước biến đổi Heuristic\n1. **Tách phép chọn:** Tách điều kiện phức hợp thành 4 điều kiện riêng lẻ:\n   $$\\sigma_{sv.Phai = \\text{'Nữ'}}, \\quad \\sigma_{mh.SoTinChi \\ge 4}, \\quad \\sigma_{sv.MaSV = kq.MaSV}, \\quad \\sigma_{kq.MaMH = mh.MaMH}$$\n2. **Đẩy phép chọn xuống gần lá nhất:**\n   - Đẩy $\\sigma_{Phai = \\text{'Nữ'}}$ áp dụng trực tiếp lên bảng `SINHVIEN`.\n   - Đẩy $\\sigma_{SoTinChi \\ge 4}$ áp dụng trực tiếp lên bảng `MONHOC`.\n3. **Thay thế tích Descartes bằng phép kết nối:**\n   - Ghép $\\sigma_{sv.MaSV = kq.MaSV}$ với tích Descartes thành phép kết nối: $(\\sigma_{Phai = \\text{'Nữ'}}(SINHVIEN)) \\bowtie_{MaSV} KETQUA$.\n   - Ghép kết quả trên với bảng môn học đã lọc thông qua phép kết nối: $\\dots \\bowtie_{MaMH} (\\sigma_{SoTinChi \\ge 4}(MONHOC))$.\n4. **Đẩy phép chiếu xuống sớm:**\n   - Chiếu `SINHVIEN` chỉ lấy `{MaSV, HoTen}`.\n   - Chiếu `MONHOC` chỉ lấy `{MaMH, TenMH}`.\n   - Chiếu `KETQUA` chỉ lấy `{MaSV, MaMH, DiemThi}`.",
+    "Bước 3: Cây truy vấn tối ưu hóa hoàn chỉnh\n```mermaid\ngraph TD\n    Root[\"π (HoTen, TenMH, DiemThi)\"] --> J2[\"⋈ (kq.MaMH = mh.MaMH)\"]\n    \n    J2 --> J1[\"⋈ (sv.MaSV = kq.MaSV)\"]\n    J2 --> M_opt[\"π (MaMH, TenMH)\"]\n    M_opt --> M_filter[\"σ (SoTinChi >= 4)\"]\n    M_filter --> MONHOC[\"MONHOC\"]\n    \n    J1 --> SV_opt[\"π (MaSV, HoTen)\"]\n    SV_opt --> SV_filter[\"σ (Phai = 'Nữ')\"]\n    SV_filter --> SINHVIEN[\"SINHVIEN\"]\n    \n    J1 --> KQ_opt[\"π (MaSV, MaMH, DiemThi)\"]\n    KQ_opt --> KETQUA[\"KETQUA\"]\n```"
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Ước Lượng Chi Phí I/O Của Các Thuật Toán Join",
+   "problem": "Cho hai quan hệ `KHACHHANG` ($R$) và `HOADON` ($S$):\n- Bảng $R$: $r_R = 10,000$ bản ghi, $b_R = 500$ khối đĩa.\n- Bảng $S$: $r_S = 100,000$ bản ghi, $b_S = 5,000$ khối đĩa.\n- Bộ nhớ đệm dành cho phép kết: $M = 52$ khối đĩa trong RAM.\nHãy tính số lượt đọc khối đĩa (I/O) cho các thuật toán sau để thực hiện phép kết $R \\bowtie_{R.MaKH = S.MaKH} S$:\n1. Thuật toán Block Nested-Loop Join (sử dụng $R$ làm bảng ngoài).\n2. Thuật toán Index Nested-Loop Join (giả sử bảng $S$ có chỉ mục B+ Tree trên `MaKH` với độ cao 3 tầng, mỗi giá trị `MaKH` trong $S$ xuất hiện trung bình ở 1 khối).\n3. Thuật toán Hash Join (giả thiết dữ liệu băm đều và không cần phân vùng nhiều mức).",
+   "solution_steps": [
+    "1. Block Nested-Loop Join (với R làm bảng ngoài)\n- Dành $M - 2 = 52 - 2 = 50$ khối bộ đệm để nạp các khối của bảng $R$.\n- Số lượt duyệt qua bảng $S$:\n  $$\\text{Số đợt} = \\left\\lceil \\frac{b_R}{M - 2} \\right\\rceil = \\left\\lceil \\frac{500}{50} \\right\\rceil = 10 \\text{ đợt}$$\n- Tổng số lượt I/O:\n  $$\\text{Chi phí} = b_R + \\text{Số đợt} \\times b_S = 500 + 10 \\times 5,000 = 500 + 50,000 = 50,500 \\text{ I/O}$$",
+    "2. Index Nested-Loop Join (với R làm bảng ngoài, dùng chỉ mục của S)\n- Với mỗi bản ghi trong $R$ (có $10,000$ bản ghi), ta tra cứu trên cây B+ của $S$:\n  - Chi phí tra cứu chỉ mục: 3 tầng (đọc 3 khối chỉ mục).\n  - Chi phí đọc khối dữ liệu thực tế của $S$: 1 khối.\n  - Mỗi bản ghi tốn $3 + 1 = 4$ I/O.\n- Đọc bảng $R$: $b_R = 500$ khối.\n- Tổng số lượt I/O:\n  $$\\text{Chi phí} = b_R + r_R \\times (3 + 1) = 500 + 10,000 \\times 4 = 500 + 40,000 = 40,500 \\text{ I/O}$$",
+    "3. Hash Join\n- Giai đoạn phân hoạch (Partitioning) và giai đoạn khớp (Probing):\n  $$\\text{Chi phí} = 3 \\times (b_R + b_S) = 3 \\times (500 + 5,000) = 3 \\times 5,500 = 16,500 \\text{ I/O}$$\n- **Kết luận:** Thuật toán Hash Join mang lại hiệu năng cao nhất (chỉ tốn 16,500 I/O), tiếp theo là Index Nested-Loop Join (40,500 I/O)."
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Phân Tích Độ Chọn Lọc & Thứ Tự Thực Thi Tối Ưu",
+   "problem": "Xét truy vấn kết nối 3 bảng: $R(A, B)$, $S(B, C)$ và $T(C, D)$ với các thông số thống kê sau:\n- $|R| = 1,000$ dòng; $|S| = 10,000$ dòng; $|T| = 100,000$ dòng.\n- Số lượng giá trị phân biệt: $V(B, S) = 1,000$; $V(C, T) = 10,000$.\n- Phép kết $R \\bowtie S$ có kích thước ước lượng: $\\frac{|R| \\times |S|}{V(B, S)} = \\frac{1,000 \\times 10,000}{1,000} = 10,000$ dòng.\n- Phép kết $S \\bowtie T$ có kích thước ước lượng: $\\frac{|S| \\times |T|}{V(C, T)} = \\frac{10,000 \\times 100,000}{10,000} = 100,000$ dòng.\n\nHãy so sánh hai thứ tự kết nối:\n- Phương án 1: $(R \\bowtie S) \\bowtie T$\n- Phương án 2: $R \\bowtie (S \\bowtie T)$\nXác định phương án nào tối ưu hơn và giải thích nguyên lý tổng quát.",
+   "solution_steps": [
+    "Bước 1: Tính toán kích thước trung gian của Phương án 1\n- Bước 1: Thực hiện $R \\bowtie S \\implies$ Kích thước kết quả trung gian là $10,000$ dòng.\n- Bước 2: Kết nối kết quả trên với $T$: $(R \\bowtie S) \\bowtie T$.\n- **Tổng dung lượng trung gian phải xử lý và lưu giữ trong bộ đệm:** $10,000$ dòng.",
+    "Bước 2: Tính toán kích thước trung gian của Phương án 2\n- Bước 1: Thực hiện $S \\bowtie T \\implies$ Kích thước kết quả trung gian là $100,000$ dòng.\n- Bước 2: Kết nối $R$ với kết quả trên: $R \\bowtie (S \\bowtie T)$.\n- **Tổng dung lượng trung gian phải xử lý và lưu giữ trong bộ đệm:** $100,000$ dòng.",
+    "Bước 3: Đánh giá và Kết luận\n- Phương án 1 tối ưu hơn vượt bậc vì quan hệ trung gian $(R \\bowtie S)$ chỉ có $10,000$ dòng, nhỏ hơn 10 lần so với quan hệ trung gian $(S \\bowtie T)$ ($100,000$ dòng).\n- **Nguyên lý tổng quát của CBO:** Luôn ưu tiên thực hiện phép kết giữa các bảng có **kích thước kết quả trung gian nhỏ nhất trước** để hạn chế tối đa việc tràn bộ đệm RAM và chi phí I/O ở các bước kết nối tiếp theo."
+   ]
+  },
+  {
+   "title": "Tối ưu hóa truy vấn kết nối ba bảng từ cây đại số ban đầu đến kế hoạch cuối",
+   "problem": "Cho `SELECT HoTen, TenMH FROM SINHVIEN SV, KETQUA KQ, MONHOC MH WHERE SV.MaSV = KQ.MaSV AND KQ.MaMH = MH.MaMH AND SV.MaKhoa = 'CNTT' AND KQ.Diem < 5`. Thống kê: $|SV| = 10000$, $|KQ| = 100000$, $|MH| = 100$; $10\\%$ sinh viên thuộc CNTT; $5\\%$ kết quả có điểm $< 5$. Hãy: a) viết cây đại số ban đầu; b) áp dụng các quy tắc heuristic từng bước; c) so sánh kích thước trung gian của cây ban đầu và cây tối ưu.",
+   "solution_steps": [
+    "Bước 1 - Cây ban đầu: $\\pi_{HoTen,TenMH}\\big(\\sigma_{SV.MaSV=KQ.MaSV \\land KQ.MaMH=MH.MaMH \\land MaKhoa='CNTT' \\land Diem<5}((SV \\times KQ) \\times MH)\\big)$.",
+    "Bước 2 - Tách điều kiện hội thành bốn phép chọn riêng, đẩy xuống: $\\sigma_{MaKhoa='CNTT'}(SV)$ và $\\sigma_{Diem<5}(KQ)$ sát lá.",
+    "Bước 3 - Thay $\\sigma_{SV.MaSV=KQ.MaSV}(SV \\times KQ)$ bằng phép kết $SV \\bowtie KQ$; tương tự $\\bowtie MH$.",
+    "Bước 4 - Sắp xếp thứ tự kết: sau chọn, $SV'$ có $1000$ bộ, $KQ'$ có $5000$ bộ, $MH$ có 100 bộ; kết $SV' \\bowtie KQ'$ trước (kết quả ước lượng $\\approx 1000 \\times 5000 / 10000 = 500$ bộ), rồi kết với `MONHOC`.",
+    "Bước 5 - Đẩy phép chiếu xuống: `SV'` chỉ giữ `(MaSV, HoTen)`, `KQ'` chỉ giữ `(MaSV, MaMH)`, `MH` giữ `(MaMH, TenMH)`.",
+    "Bước 6 - So sánh: cây ban đầu phải sinh $SV \\times KQ$ = $10^4 \\times 10^5 = 10^9$ bộ trung gian; cây tối ưu chỉ xử lý $1000$, $5000$ bộ và kết quả trung gian $\\approx 500$ bộ.",
+    "Kết luận: kết hợp đẩy chọn, thay tích bằng kết, đẩy chiếu và sắp thứ tự kết giảm kích thước trung gian từ $10^9$ xuống vài nghìn bộ."
+   ],
+   "id": 4
+  }
+ ]
+}

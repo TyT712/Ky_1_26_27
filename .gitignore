@@ -33,3 +33,6 @@ venv/
 data/raw_pdfs/**/*.pdf
 *.pdf
 
+# Build / Scratch artifacts
+build/
+

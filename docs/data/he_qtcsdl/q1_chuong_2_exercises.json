@@ -1,0 +1,502 @@
+{
+ "chapter_id": "q1_chuong_2",
+ "chapter_title": "Quyển 1 - Chương 2: Mô hình thực thể - liên kết (E-R) & chuyển đổi sang mô hình quan hệ",
+ "multiple_choice": [
+  {
+   "id": 1,
+   "difficulty": "easy",
+   "question": "Trong mô hình Thực thể - Quan hệ (E-R), một thuộc tính có thể nhận đồng thời nhiều giá trị khác nhau cho cùng một cá thể (ví dụ: một nhân viên có nhiều bằng cấp) được gọi là:",
+   "options": {
+    "A": "Thuộc tính kết hợp (Composite attribute)",
+    "B": "Thuộc tính phức hợp (Complex attribute)",
+    "C": "Thuộc tính suy dẫn (Derived attribute)",
+    "D": "Thuộc tính đa trị (Multi-valued attribute)"
+   },
+   "correct_answer": "D",
+   "explanation": "Thuộc tính đa trị cho phép một thực thể sở hữu một tập hợp các giá trị khác nhau (như số điện thoại, bằng cấp), được ký hiệu bằng hình elip viền đôi trong sơ đồ Chen ERD."
+  },
+  {
+   "id": 2,
+   "difficulty": "easy",
+   "question": "Khi chuyển đổi một mối quan hệ nhiều - nhiều ($N - N$) giữa hai thực thể `SINHVIEN` và `MONHOC` sang mô hình quan hệ, giải pháp chuẩn mực là:",
+   "options": {
+    "A": "Tạo một bảng mới riêng biệt có khóa chính là tổ hợp khóa chính của cả `SINHVIEN` và `MONHOC`.",
+    "B": "Đưa khóa chính của `MONHOC` sang làm khóa ngoại của `SINHVIEN`.",
+    "C": "Đưa khóa chính của `SINHVIEN` sang làm khóa ngoại của `MONHOC`.",
+    "D": "Gộp chung tất cả các thuộc tính của `SINHVIEN` và `MONHOC` vào một bảng duy nhất."
+   },
+   "correct_answer": "A",
+   "explanation": "Mối quan hệ N-N không thể biểu diễn trực tiếp bằng khóa ngoại trong hai bảng gốc mà bắt buộc phải sinh ra bảng trung gian (Junction/Bridge table) chứa khóa ghép từ hai bảng."
+  },
+  {
+   "id": 3,
+   "difficulty": "easy",
+   "question": "Trong sơ đồ E-R chuẩn Chen, ký hiệu hình thoi (Diamond) được dùng để biểu diễn thành phần nào?",
+   "options": {
+    "A": "Mối liên kết / Quan hệ (Relationship)",
+    "B": "Tập thực thể (Entity set)",
+    "C": "Thuộc tính (Attribute)",
+    "D": "Khóa chính (Primary key)"
+   },
+   "correct_answer": "A",
+   "explanation": "Hình chữ nhật biểu diễn Tập thực thể; hình elip biểu diễn Thuộc tính; hình thoi biểu diễn Mối liên kết (Relationship)."
+  },
+  {
+   "id": 4,
+   "difficulty": "easy",
+   "question": "Thuộc tính `Tuoi` được tính toán trực tiếp từ `NgaySinh` và ngày hiện tại được phân loại là:",
+   "options": {
+    "A": "Thuộc tính suy dẫn (Derived attribute)",
+    "B": "Thuộc tính đa trị",
+    "C": "Thuộc tính khóa",
+    "D": "Thuộc tính kết hợp"
+   },
+   "correct_answer": "A",
+   "explanation": "Thuộc tính suy dẫn là thuộc tính mà giá trị của nó không cần lưu trữ cứng trong CSDL mà được tính toán/suy diễn logic từ các thuộc tính khác (ký hiệu bằng elip nét đứt)."
+  },
+  {
+   "id": 5,
+   "difficulty": "easy",
+   "question": "Tập thực thể yếu (Weak Entity Set) có đặc điểm nào sau đây?",
+   "options": {
+    "A": "Không có mối liên kết với bất kỳ thực thể nào khác.",
+    "B": "Không thể lưu trữ dữ liệu vào đĩa cứng.",
+    "C": "Không có đủ các thuộc tính để tự hình thành một khóa chính độc lập mà phải mượn khóa của thực thể chủ.",
+    "D": "Chỉ được chứa tối đa 1 thuộc tính đơn."
+   },
+   "correct_answer": "C",
+   "explanation": "Thực thể yếu không có khóa chính riêng mà chỉ có khóa bộ phận (discriminator), sự tồn tại của nó phụ thuộc hoàn toàn vào một thực thể mạnh thông qua quan hệ xác định (identifying relationship)."
+  },
+  {
+   "id": 6,
+   "difficulty": "easy",
+   "question": "Khi chuyển đổi mối quan hệ $1 - N$ giữa `KHOA` (bên 1) và `LOPHOC` (bên N) sang mô hình quan hệ, khóa ngoại được đặt ở đâu?",
+   "options": {
+    "A": "Đặt tại bảng `LOPHOC` tham chiếu đến `KHOA`.",
+    "B": "Tùy ý chọn đặt ở bảng nào cũng có kết quả như nhau.",
+    "C": "Đặt tại bảng `KHOA` tham chiếu đến `LOPHOC`.",
+    "D": "Bắt buộc phải tạo bảng mới thứ ba."
+   },
+   "correct_answer": "A",
+   "explanation": "Quy tắc ánh xạ mối quan hệ 1-N quy định: Lấy khóa chính của bên \"Một\" (`MaKhoa`) đưa sang làm khóa ngoại tại bảng của bên \"Nhiều\" (`LOPHOC`)."
+  },
+  {
+   "id": 7,
+   "difficulty": "easy",
+   "question": "Một thuộc tính kết hợp (Composite attribute) như `HoTen` gồm các thuộc tính thành phần `HoLot` và `Ten` sẽ được chuyển đổi sang mô hình quan hệ như thế nào?",
+   "options": {
+    "A": "Thay thế `HoTen` bằng các cột độc lập `HoLot` và `Ten` trực tiếp trong bảng đó.",
+    "B": "Tạo một bảng mới riêng biệt chỉ để lưu `HoLot` và `Ten`.",
+    "C": "Chỉ lưu trữ thuộc tính `HoTen`, bỏ qua `HoLot` và `Ten`.",
+    "D": "Không thể chuyển đổi sang mô hình quan hệ."
+   },
+   "correct_answer": "A",
+   "explanation": "Mô hình quan hệ chỉ chấp nhận các thuộc tính nguyên tử (Atomic), do đó thuộc tính kết hợp được phân rã thành các cột nguyên tử cấu thành trong cùng một quan hệ."
+  },
+  {
+   "id": 8,
+   "difficulty": "easy",
+   "question": "Khi ánh xạ thuộc tính đa trị `SoDienThoai` của thực thể `NHANVIEN(MaNV, HoTen)` sang mô hình quan hệ, cấu trúc bảng mới sẽ là:",
+   "options": {
+    "A": "`NHANVIEN(MaNV, HoTen, SoDienThoai1, SoDienThoai2)`.",
+    "B": "`DIENTHOAI(SoDienThoai)` với khóa chính là `SoDienThoai`.",
+    "C": "`DIENTHOAI(MaNV, SoDienThoai)` với khóa chính là `(MaNV, SoDienThoai)`.",
+    "D": "Không cần tạo bảng mới, nối các số điện thoại thành một chuỗi cách nhau bằng dấu phẩy."
+   },
+   "correct_answer": "C",
+   "explanation": "Để đảm bảo tính nguyên tử (1NF), thuộc tính đa trị được tách thành bảng riêng gồm khóa chính của thực thể cha và thuộc tính đa trị đó, khóa chính của bảng mới là tổ hợp cả hai trường."
+  },
+  {
+   "id": 9,
+   "difficulty": "easy",
+   "question": "Bản số (Cardinality) của một mối quan hệ trong mô hình E-R biểu thị:",
+   "options": {
+    "A": "Dung lượng tính bằng Megabyte của mối quan hệ.",
+    "B": "Số lượng các cá thể tối thiểu và tối đa của một tập thực thể có thể tham gia vào mối liên kết với các cá thể của tập thực thể khác.",
+    "C": "Số lượng các khóa ngoại có trong bảng.",
+    "D": "Số lượng các câu lệnh SQL viết cho mối quan hệ đó."
+   },
+   "correct_answer": "B",
+   "explanation": "Bản số xác định giới hạn số lượng cá thể thực thể tham gia vào mối liên kết (ví dụ: $(0, 1), (1, 1), (0, N), (1, N)$)."
+  },
+  {
+   "id": 10,
+   "difficulty": "easy",
+   "question": "Mối quan hệ tự thân (Recursive / Self-referencing Relationship) là:",
+   "options": {
+    "A": "Mối quan hệ bị lặp vô hạn trong bộ nhớ máy tính.",
+    "B": "Mối quan hệ liên kết giữa 3 tập thực thể khác nhau.",
+    "C": "Mối quan hệ mà trong đó cùng một tập thực thể tham gia nhiều lần với các vai trò (roles) khác nhau.",
+    "D": "Mối quan hệ không có thuộc tính nào."
+   },
+   "correct_answer": "C",
+   "explanation": "Ví dụ điển hình là mối quan hệ \"quản lý\" giữa các nhân viên trong cùng một thực thể `NHANVIEN`, một nhân viên vừa là nhân viên cấp dưới, vừa là người quản lý của người khác."
+  },
+  {
+   "difficulty": "medium",
+   "question": "Mỗi sinh viên thuộc đúng một lớp, một lớp có nhiều sinh viên. Khi ánh xạ sang mô hình quan hệ, khóa ngoại được đặt ở đâu?",
+   "options": {
+    "A": "Tạo bảng riêng `THUOC(MaSV, MaLop)` bắt buộc",
+    "B": "Bảng `LOPHOC` chứa `MaSV`",
+    "C": "Cả hai bảng đều chứa khóa ngoại của nhau",
+    "D": "Bảng `SINHVIEN` chứa cột `MaLop` tham chiếu `LOPHOC(MaLop)`"
+   },
+   "correct_answer": "D",
+   "explanation": "Quan hệ 1-N: lấy khóa chính của phía 1 (`LOPHOC`) đặt làm khóa ngoại ở phía N (`SINHVIEN`).",
+   "id": 11
+  },
+  {
+   "difficulty": "medium",
+   "question": "Quan hệ N-N `DANGKY` giữa `SINHVIEN(MaSV)` và `MONHOC(MaMH)` có thuộc tính `Diem`. Lược đồ đúng sau ánh xạ là:",
+   "options": {
+    "A": "Thêm cột `Diem` vào `SINHVIEN`",
+    "B": "`DANGKY(MaSV, MaMH, Diem)` với khóa chính `(MaSV, MaMH)`",
+    "C": "Thêm cột `Diem` vào `MONHOC`",
+    "D": "`DANGKY(MaSV, Diem)` với khóa chính `MaSV`"
+   },
+   "correct_answer": "B",
+   "explanation": "Quan hệ N-N thành một bảng riêng, khóa chính là tổ hợp hai khóa chính; thuộc tính riêng của mối quan hệ đi cùng vào bảng này.",
+   "id": 12
+  },
+  {
+   "difficulty": "medium",
+   "question": "Trong sơ đồ E-R theo Chen, thực thể yếu được biểu diễn bằng:",
+   "options": {
+    "A": "Hình elip nét đứt",
+    "B": "Hình chữ nhật đường viền đôi",
+    "C": "Hình chữ nhật đơn",
+    "D": "Hình thoi"
+   },
+   "correct_answer": "B",
+   "explanation": "Thực thể yếu: hình chữ nhật viền đôi, mối quan hệ định danh: hình thoi viền đôi.",
+   "id": 13
+  },
+  {
+   "difficulty": "medium",
+   "question": "Thuộc tính khóa của một tập thực thể mạnh trong sơ đồ E-R được thể hiện bằng:",
+   "options": {
+    "A": "Gạch chân tên thuộc tính",
+    "B": "In nghiêng",
+    "C": "Hình elip nét đôi",
+    "D": "Gạch chân nét đứt"
+   },
+   "correct_answer": "A",
+   "explanation": "Thuộc tính khóa gạch chân liền; gạch chân nét đứt là khóa bộ phận (discriminator) của thực thể yếu.",
+   "id": 14
+  },
+  {
+   "difficulty": "medium",
+   "question": "Thuộc tính đa trị `Email` của `NHANVIEN(MaNV, HoTen)` khi ánh xạ nên tạo:",
+   "options": {
+    "A": "Không cần lưu vì là thuộc tính phụ",
+    "B": "Thêm cột `Email1, Email2, Email3` vào `NHANVIEN`",
+    "C": "Bảng `NV_EMAIL(MaNV, Email)` với khóa chính `(MaNV, Email)`",
+    "D": "Một cột `Email` chứa các địa chỉ cách nhau dấu phẩy"
+   },
+   "correct_answer": "C",
+   "explanation": "Quy tắc 6: thuộc tính đa trị tạo quan hệ mới gồm khóa chính của thực thể gốc cộng thuộc tính đa trị, bảo đảm tính nguyên tố của giá trị.",
+   "id": 15
+  },
+  {
+   "difficulty": "medium",
+   "question": "Hai thực thể `CONGDAN` và `CCCD` quan hệ 1-1, cả hai phía đều tham gia toàn bộ. Cách ánh xạ nào hợp lý nhất?",
+   "options": {
+    "A": "Có thể gộp thành một bảng duy nhất",
+    "B": "Thêm khóa ngoại không ràng buộc UNIQUE",
+    "C": "Luôn luôn bắt buộc tạo bảng thứ ba",
+    "D": "Không thể ánh xạ"
+   },
+   "correct_answer": "A",
+   "explanation": "Với 1-1 tham gia toàn bộ hai phía, gộp thành một bảng đơn giản và tránh phép nối; hoặc dùng khóa ngoại kèm `UNIQUE`.",
+   "id": 16
+  },
+  {
+   "difficulty": "medium",
+   "question": "Mối quan hệ ba ngôi `CUNGCAP` giữa `NHACUNGCAP`, `VATTU`, `DUAN` (mỗi bộ ba có thể xuất hiện độc lập, quan hệ N-N-N). Khóa chính của bảng `CUNGCAP` là:",
+   "options": {
+    "A": "`(MaNCC, MaVT, MaDA)`",
+    "B": "`(MaVT, MaDA)`",
+    "C": "Chỉ `MaNCC`",
+    "D": "`(MaNCC, MaVT)`"
+   },
+   "correct_answer": "A",
+   "explanation": "Quy tắc 7: quan hệ bậc $\\ge 3$ thành bảng riêng có khóa chính gồm khóa của tất cả thực thể tham gia (khi các phía đều là N).",
+   "id": 17
+  },
+  {
+   "difficulty": "medium",
+   "question": "Thuộc tính kết hợp `DiaChi(SoNha, Duong, Quan, ThanhPho)` thường được ánh xạ thế nào?",
+   "options": {
+    "A": "Luôn tạo bảng riêng",
+    "B": "Chuyển thành khóa ngoại",
+    "C": "Bỏ đi các thành phần và chỉ giữ tên `DiaChi`",
+    "D": "Tách thành các cột thành phần hoặc gộp thành một cột chuỗi tùy nhu cầu truy vấn"
+   },
+   "correct_answer": "D",
+   "explanation": "Thuộc tính kết hợp có thể lưu thành các cột thành phần (dễ truy vấn theo quận) hoặc một cột duy nhất; cả hai đều chỉ chứa giá trị nguyên tố.",
+   "id": 18
+  },
+  {
+   "difficulty": "medium",
+   "question": "Thực thể yếu `THANNHAN(TenTN, QuanHe)` phụ thuộc `NHANVIEN(MaNV)`. Khóa chính của quan hệ `THANNHAN` là:",
+   "options": {
+    "A": "`MaNV`",
+    "B": "`(MaNV, TenTN)`",
+    "C": "`QuanHe`",
+    "D": "`TenTN`"
+   },
+   "correct_answer": "B",
+   "explanation": "Quy tắc 2: khóa chính = khóa thực thể chủ + khóa bộ phận. Cột `MaNV` đồng thời là khóa ngoại tham chiếu `NHANVIEN`.",
+   "id": 19
+  },
+  {
+   "difficulty": "medium",
+   "question": "Trong sơ đồ E-R, đường nối đôi (double line) giữa tập thực thể và mối quan hệ biểu thị:",
+   "options": {
+    "A": "Thuộc tính suy diễn",
+    "B": "Sự tham gia toàn bộ (total participation)",
+    "C": "Bản số 1-N",
+    "D": "Thuộc tính đa trị"
+   },
+   "correct_answer": "B",
+   "explanation": "Đường đôi: mọi thực thể trong tập bắt buộc tham gia ít nhất một lần vào mối quan hệ.",
+   "id": 20
+  },
+  {
+   "difficulty": "medium",
+   "question": "Quan hệ 1-N giữa `PHONG` (1) và `NHANVIEN` (N), mọi nhân viên bắt buộc thuộc một phòng. Cột khóa ngoại `MaPhong` trong `NHANVIEN` nên khai báo:",
+   "options": {
+    "A": "`NOT NULL` kèm khóa ngoại",
+    "B": "`PRIMARY KEY`",
+    "C": "`NULL` tùy ý",
+    "D": "`UNIQUE`"
+   },
+   "correct_answer": "A",
+   "explanation": "Tham gia toàn bộ phía N nghĩa là mỗi nhân viên phải có phòng, nên khóa ngoại phải `NOT NULL`.",
+   "id": 21
+  },
+  {
+   "difficulty": "medium",
+   "question": "Một sơ đồ E-R có 3 thực thể mạnh, 1 mối quan hệ N-N, 1 mối quan hệ 1-N, 1 thuộc tính đa trị (của một thực thể). Số bảng tối thiểu sau ánh xạ là:",
+   "options": {
+    "A": "3",
+    "B": "5",
+    "C": "6",
+    "D": "4"
+   },
+   "correct_answer": "B",
+   "explanation": "3 bảng thực thể + 1 bảng cho N-N + 1 bảng cho thuộc tính đa trị = 5. Quan hệ 1-N chỉ thêm khóa ngoại, không tạo bảng.",
+   "id": 22
+  },
+  {
+   "difficulty": "medium",
+   "question": "Thuộc tính `Tuoi` suy ra từ `NgaySinh` được xếp loại:",
+   "options": {
+    "A": "Thuộc tính suy diễn (derived)",
+    "B": "Thuộc tính đa trị",
+    "C": "Thuộc tính kết hợp",
+    "D": "Thuộc tính khóa"
+   },
+   "correct_answer": "A",
+   "explanation": "Giá trị tính được từ thuộc tính khác; thường không lưu trữ để tránh bất nhất.",
+   "id": 23
+  },
+  {
+   "difficulty": "hard",
+   "question": "Quan hệ tự thân `QUANLY` trên `NHANVIEN`: mỗi nhân viên có tối đa một quản lý trực tiếp, một quản lý quản nhiều nhân viên. Lược đồ đúng là:",
+   "options": {
+    "A": "`QUANLY(MaQL, MaNV)` với khóa chính `MaQL`",
+    "B": "`NHANVIEN(MaNV, HoTen, MaQL)` với `MaQL` là khóa ngoại tham chiếu `NHANVIEN(MaNV)`, cho phép `NULL`",
+    "C": "`NHANVIEN(MaNV, HoTen, MaQL)` với `MaQL NOT NULL`",
+    "D": "`NHANVIEN(MaNV, HoTen)` và `QUANLY(MaNV)` chỉ chứa một cột"
+   },
+   "correct_answer": "B",
+   "explanation": "Quan hệ tự thân 1-N thêm khóa ngoại về chính bảng. Phải cho phép `NULL` vì người đứng đầu không có quản lý (nếu `NOT NULL` thì không thể chèn bản ghi gốc).",
+   "id": 24
+  },
+  {
+   "difficulty": "hard",
+   "question": "Quan hệ tự thân N-N `TIENQUYET` trên `MONHOC` (một môn có nhiều môn tiên quyết và là tiên quyết của nhiều môn). Cách ánh xạ đúng là:",
+   "options": {
+    "A": "Thêm cột `MaMHTQ` vào `MONHOC`",
+    "B": "Thêm danh sách các môn tiên quyết vào một cột văn bản",
+    "C": "Chỉ cần ràng buộc `UNIQUE(MaMH)`",
+    "D": "Tạo bảng `TIENQUYET(MaMH, MaMHTQ)` với khóa chính `(MaMH, MaMHTQ)`, cả hai cột là khóa ngoại tham chiếu `MONHOC`"
+   },
+   "correct_answer": "D",
+   "explanation": "N-N tự thân vẫn cần bảng riêng; hai cột cùng tham chiếu `MONHOC` với vai trò khác nhau (môn học và môn tiên quyết).",
+   "id": 25
+  },
+  {
+   "difficulty": "hard",
+   "question": "Khi xóa một `NHANVIEN`, các `THANNHAN` của nhân viên đó không còn ý nghĩa. Ràng buộc nào phản ánh đúng bản chất thực thể yếu?",
+   "options": {
+    "A": "`ON DELETE NO ACTION` và giữ lại thân nhân",
+    "B": "Bỏ khóa ngoại để dễ xóa",
+    "C": "`ON DELETE SET NULL` trên `MaNV`",
+    "D": "`ON DELETE CASCADE` trên khóa ngoại `MaNV` của `THANNHAN`"
+   },
+   "correct_answer": "D",
+   "explanation": "Thực thể yếu phụ thuộc tồn tại vào thực thể chủ nên xóa chủ phải xóa luôn thực thể yếu. Hơn nữa `MaNV` là một phần khóa chính nên không thể là `NULL`.",
+   "id": 26
+  },
+  {
+   "difficulty": "hard",
+   "question": "Nhân viên có thể tham gia cùng một dự án nhiều lần ở các giai đoạn khác nhau (mỗi lần có `NgayBatDau` riêng). Khóa chính phù hợp của `THAMGIA` là:",
+   "options": {
+    "A": "`(MaNV, MaDA)`",
+    "B": "`(MaNV, MaDA, NgayBatDau)`",
+    "C": "`(MaNV)`",
+    "D": "`NgayBatDau`"
+   },
+   "correct_answer": "B",
+   "explanation": "Nếu cặp `(MaNV, MaDA)` lặp lại thì không còn là khóa; phải đưa `NgayBatDau` vào khóa để phân biệt từng lần tham gia.",
+   "id": 27
+  },
+  {
+   "difficulty": "hard",
+   "question": "Sinh viên làm bài sai khi đặt thuộc tính `DiemThi` vào bảng `SINHVIEN` thay vì `KETQUA(MaSV, MaMH, DiemThi)`. Lỗi thiết kế cốt lõi là:",
+   "options": {
+    "A": "`DiemThi` phụ thuộc vào cả sinh viên lẫn môn học; đặt ở `SINHVIEN` sẽ không biểu diễn được điểm của nhiều môn mà không lặp bản ghi",
+    "B": "`DiemThi` là thuộc tính suy diễn",
+    "C": "Không có lỗi gì",
+    "D": "`DiemThi` quá lớn để lưu"
+   },
+   "correct_answer": "A",
+   "explanation": "Thuộc tính của quan hệ N-N thuộc về cặp thực thể, không thuộc riêng thực thể nào.",
+   "id": 28
+  },
+  {
+   "difficulty": "hard",
+   "question": "`PHONG(MaPhong)` 1-N `NHANVIEN(MaNV)`, quan hệ `CONGTAC` có thuộc tính `NgayBatDau`. Thuộc tính này sau ánh xạ nằm ở đâu?",
+   "options": {
+    "A": "Tạo bảng `CONGTAC` bắt buộc",
+    "B": "Cả hai bảng",
+    "C": "Bảng `PHONG`",
+    "D": "Bảng `NHANVIEN` (phía N)"
+   },
+   "correct_answer": "D",
+   "explanation": "Với quan hệ 1-N, các thuộc tính riêng của mối quan hệ chuyển sang bảng phía N cùng khóa ngoại, vì mỗi nhân viên chỉ có một phòng.",
+   "id": 29
+  },
+  {
+   "difficulty": "hard",
+   "question": "Thực thể `SINHVIEN` có hai khóa ứng viên là `MaSV` và `CCCD`. Cách xử lý đúng khi ánh xạ là:",
+   "options": {
+    "A": "Chọn một khóa làm khóa chính, khóa còn lại khai báo `UNIQUE NOT NULL`",
+    "B": "Bỏ đi `CCCD`",
+    "C": "Dùng cả hai làm khóa ngoại",
+    "D": "Bắt buộc dùng cả hai làm khóa chính"
+   },
+   "correct_answer": "A",
+   "explanation": "Một quan hệ chỉ có một khóa chính; các khóa ứng viên còn lại vẫn phải đảm bảo duy nhất và không rỗng bằng `UNIQUE` và `NOT NULL`.",
+   "id": 30
+  },
+  {
+   "difficulty": "hard",
+   "question": "Cho quan hệ 1-1 `QUANLY` giữa `NHANVIEN` (tham gia không toàn bộ) và `PHONG` (tham gia toàn bộ: mỗi phòng có đúng một trưởng phòng). Phương án ánh xạ tối ưu là:",
+   "options": {
+    "A": "Thêm `MaPhong` vào `NHANVIEN` làm khóa ngoại `NOT NULL`",
+    "B": "Gộp hai bảng thành một",
+    "C": "Tạo ba bảng gồm `NHANVIEN`, `PHONG`, `QUANLY` mà không có ràng buộc UNIQUE",
+    "D": "Thêm `MaNV` vào `PHONG` làm khóa ngoại `UNIQUE NOT NULL` tham chiếu `NHANVIEN`"
+   },
+   "correct_answer": "D",
+   "explanation": "Đặt khóa ngoại về phía tham gia toàn bộ (`PHONG`) để tránh `NULL`: mỗi phòng bắt buộc có `MaNV` duy nhất. Đặt ở `NHANVIEN` sẽ sinh nhiều giá trị `NULL` vì đa số nhân viên không làm trưởng phòng.",
+   "id": 31
+  }
+ ],
+ "short_answers": [
+  {
+   "id": 1,
+   "question": "Nêu cú pháp chuyển đổi mối quan hệ 1-1 giữa hai thực thể `CONNGUOI(MaDinhDanh, HoTen)` và `HOTIEU(SoHoChieu, NgayCap)` sang mô hình quan hệ sao cho tối ưu nhất.",
+   "expected_answer": "Đưa `MaDinhDanh` sang làm khóa ngoại của bảng `HOTIEU` và đặt thêm ràng buộc duy nhất (`UNIQUE`):\n  - `CONNGUOI(MaDinhDanh, HoTen)` với PK là `MaDinhDanh`.\n  - `HOTIEU(SoHoChieu, NgayCap, MaDinhDanh)` với PK là `SoHoChieu`, FK là `MaDinhDanh` tham chiếu đến `CONNGUOI(MaDinhDanh)`, kèm `UNIQUE(MaDinhDanh)`.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 2,
+   "question": "Nếu một mối quan hệ nhiều - nhiều ($N - N$) có mang các thuộc tính riêng (ví dụ: mối quan hệ `DANGKY` giữa `SINHVIEN` và `MONHOC` có thuộc tính `NgayDangKy`, `HocKy`), các thuộc tính riêng đó sẽ được chuyển vào đâu khi sang mô hình quan hệ?",
+   "expected_answer": "Các thuộc tính riêng đó sẽ trở thành các cột bình thường nằm trong **chính bảng trung gian** được sinh ra từ mối quan hệ N-N đó:\n  `DANGKY(MaSV, MaMH, NgayDangKy, HocKy)` với PK là `(MaSV, MaMH)`.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 3,
+   "question": "Phân biệt hai khái niệm \"Sự tham gia toàn bộ\" (Total Participation / Mandatory) và \"Sự tham gia bộ phận\" (Partial Participation / Optional) trong mô hình E-R.",
+   "expected_answer": "- **Tham gia toàn bộ (Đường đôi / Mandatory):** Mọi cá thể trong tập thực thể bắt buộc phải tham gia vào mối quan hệ (ví dụ: Mọi nhân viên bắt buộc phải thuộc về một phòng ban).\n  - **Tham gia bộ phận (Đường đơn / Optional):** Có những cá thể không tham gia vào mối quan hệ (ví dụ: Không phải nhân viên nào cũng là trưởng phòng).",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 4,
+   "question": "Cho thực thể chủ `NHANVIEN(MaNV, HoTen)` và thực thể yếu `THANNHAN(TenThanNhan, NgaySinh, MoiQuanHe)`. Hãy viết cấu trúc lược đồ quan hệ chuẩn cho `THANNHAN`.",
+   "expected_answer": "`THANNHAN(MaNV, TenThanNhan, NgaySinh, MoiQuanHe)`\n  - Khóa chính (PK): `(MaNV, TenThanNhan)`\n  - Khóa ngoại (FK): `MaNV` tham chiếu đến `NHANVIEN(MaNV)` với hành vi `ON DELETE CASCADE`.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 5,
+   "question": "Tại sao trong mô hình quan hệ chuẩn mực, ta không được phép lưu trữ một danh sách các giá trị phân cách bằng dấu phẩy vào cùng một trường dữ liệu (ví dụ: lưu `'0912345678, 0987654321'` vào cột `DienThoai`)?",
+   "expected_answer": "Vì vi phạm **Tính nguyên tử của dữ liệu (Dạng chuẩn 1 - 1NF)**. Việc gộp nhiều giá trị vào một trường làm cho việc tìm kiếm, lập chỉ mục, cập nhật và kiểm tra ràng buộc toàn vẹn trở nên cực kỳ phức tạp và kém hiệu quả.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "question": "Viết lệnh `CREATE TABLE` cho quan hệ N-N `DANGKY(MaSV, MaMH, HocKy, Diem)` với khóa chính và khóa ngoại phù hợp. Lưu ý một sinh viên có thể học lại môn ở học kỳ khác.",
+   "expected_answer": "```sql\nCREATE TABLE DANGKY (\n  MaSV   VARCHAR(10) NOT NULL REFERENCES SINHVIEN(MaSV),\n  MaMH   VARCHAR(10) NOT NULL REFERENCES MONHOC(MaMH),\n  HocKy  VARCHAR(10) NOT NULL,\n  Diem   DECIMAL(4,2) CHECK (Diem BETWEEN 0 AND 10),\n  PRIMARY KEY (MaSV, MaMH, HocKy)\n);\n```",
+   "explanation": "Do cho phép học lại, `HocKy` phải thuộc khóa chính để phân biệt các lần đăng ký.",
+   "id": 6
+  },
+  {
+   "question": "Phân biệt thuộc tính suy diễn và thuộc tính lưu trữ; nêu một lợi ích và một rủi ro của việc lưu thuộc tính suy diễn.",
+   "expected_answer": "Thuộc tính lưu trữ có giá trị ghi trực tiếp (vd `NgaySinh`); thuộc tính suy diễn tính được từ thuộc tính khác (vd `Tuoi`). Lợi ích khi lưu: truy vấn nhanh, không phải tính lại. Rủi ro: dễ bất nhất khi dữ liệu nguồn đổi (vd `Tuoi` lỗi thời).",
+   "explanation": "Giải pháp: dùng cột tính toán (computed column) hoặc view.",
+   "id": 7
+  },
+  {
+   "question": "Một bác sĩ khám nhiều bệnh nhân, một bệnh nhân khám nhiều bác sĩ, mỗi lần khám có ngày giờ và kết luận. Xác định bản số và lược đồ quan hệ.",
+   "expected_answer": "Bản số N-N. Lược đồ: `BACSI(MaBS,...)`, `BENHNHAN(MaBN,...)`, `KHAM(MaBS, MaBN, NgayGio, KetLuan)` với khóa chính `(MaBS, MaBN, NgayGio)`.",
+   "explanation": "Cần `NgayGio` trong khóa vì cùng một cặp bác sĩ - bệnh nhân có thể khám nhiều lần.",
+   "id": 8
+  }
+ ],
+ "essays": [
+  {
+   "id": 1,
+   "title": "Thiết kế Sơ đồ E-R cho Hệ thống Bán Hàng Trực Tuyến (E-Commerce)",
+   "problem": "Một công ty thương mại điện tử cần thiết kế cơ sở dữ liệu với các yêu cầu nghiệp vụ sau:\n1. Mỗi khách hàng có một mã khách hàng (`MaKH`), họ tên, email, và có thể có nhiều địa chỉ nhận hàng (`DiaChi`).\n2. Khách hàng thực hiện các đơn đặt hàng (`DONHANG`). Mỗi đơn hàng có số đơn hàng (`SoDH`), ngày đặt, trạng thái đơn hàng.\n3. Mỗi đơn hàng chứa một hoặc nhiều sản phẩm (`SANPHAM`). Mỗi sản phẩm có mã sản phẩm (`MaSP`), tên sản phẩm, đơn giá niêm yết. Với mỗi sản phẩm trong đơn hàng, cần ghi nhận số lượng mua và đơn giá thực tế tại thời điểm mua.\n4. Một đơn hàng chỉ do đúng một khách hàng đặt; một khách hàng có thể đặt nhiều đơn hàng.\n\n**Yêu cầu:** Vẽ sơ đồ ER (sử dụng Mermaid.js) và chuyển đổi hoàn chỉnh sang mô hình quan hệ, chỉ rõ khóa chính và khóa ngoại.",
+   "solution_steps": [
+    "Bước 1: Sơ đồ Thực thể - Quan hệ (Mermaid ERD)\n```mermaid\nerDiagram\n    KHACHHANG ||--o{ KHACHHANG_DIACHI : \"sở hữu (1-N)\"\n    KHACHHANG ||--o{ DONHANG : \"đặt (1-N)\"\n    DONHANG ||--|{ CHITIET_DONHANG : \"gồm (1-N)\"\n    SANPHAM ||--o{ CHITIET_DONHANG : \"nằm trong (1-N)\"\n\n    KHACHHANG {\n        string MaKH PK\n        string HoTen\n        string Email\n    }\n    KHACHHANG_DIACHI {\n        string MaKH PK,FK\n        string DiaChiGiaoHang PK\n    }\n    DONHANG {\n        string SoDH PK\n        date NgayDat\n        string TrangThai\n        string MaKH FK\n    }\n    SANPHAM {\n        string MaSP PK\n        string TenSP\n        decimal DonGiaNiemYet\n    }\n    CHITIET_DONHANG {\n        string SoDH PK,FK\n        string MaSP PK,FK\n        int SoLuong\n        decimal DonGiaBan\n    }\n```",
+    "Bước 2: Chuyển đổi sang Mô hình Quan hệ\n1. `KHACHHANG(MaKH, HoTen, Email)`\n   - PK: `MaKH`\n2. `KHACHHANG_DIACHI(MaKH, DiaChiGiaoHang)`\n   - PK: `(MaKH, DiaChiGiaoHang)`\n   - FK: `MaKH` tham chiếu `KHACHHANG(MaKH)`\n3. `DONHANG(SoDH, NgayDat, TrangThai, MaKH)`\n   - PK: `SoDH`\n   - FK: `MaKH` tham chiếu `KHACHHANG(MaKH)`\n4. `SANPHAM(MaSP, TenSP, DonGiaNiemYet)`\n   - PK: `MaSP`\n5. `CHITIET_DONHANG(SoDH, MaSP, SoLuong, DonGiaBan)`\n   - PK: `(SoDH, MaSP)`\n   - FK1: `SoDH` tham chiếu `DONHANG(SoDH)`\n   - FK2: `MaSP` tham chiếu `SANPHAM(MaSP)`"
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Chuyển đổi Mối Quan Hệ Tự Thân (Recursive Relationship)",
+   "problem": "Trong một công ty, mỗi nhân viên có mã nhân viên (`MaNV`), họ tên, chức vụ và mức lương. Mỗi nhân viên trực thuộc quyền quản lý của đúng một người quản lý (cũng là một nhân viên trong công ty). Riêng Giám đốc công ty không có người quản lý.\nHãy:\n1. Mô tả mối quan hệ tự thân này trên mô hình E-R.\n2. Chuyển đổi sang lược đồ quan hệ và viết câu lệnh SQL `CREATE TABLE` tương ứng, bao gồm đầy đủ khóa chính và khóa ngoại tự tham chiếu.",
+   "solution_steps": [
+    "Bước 1: Mô hình hóa E-R\n- Tập thực thể: `NHANVIEN`\n- Mối liên kết tự thân: `QUANLY` giữa `NHANVIEN` (vai trò: Người quản lý - Bên 1) và `NHANVIEN` (vai trò: Nhân viên dưới quyền - Bên N).\n- Bản số: Một người quản lý có thể quản lý $(0, N)$ nhân viên; một nhân viên có $(0, 1)$ người quản lý.",
+    "Bước 2: Chuyển đổi sang Lược đồ Quan hệ\nÁp dụng quy tắc ánh xạ mối quan hệ 1-N: Đưa khóa chính của người quản lý vào chính bảng `NHANVIEN` làm khóa ngoại:\n`NHANVIEN(MaNV, HoTen, ChucVu, Luong, MaNQL)`\n- PK: `MaNV`\n- FK: `MaNQL` tham chiếu đến `NHANVIEN(MaNV)`, cho phép giá trị `NULL` (dành cho Giám đốc).",
+    "Bước 3: Cài đặt DDL bằng SQL\n```sql\nCREATE TABLE NHANVIEN (\n    MaNV VARCHAR(10) PRIMARY KEY,\n    HoTen NVARCHAR(100) NOT NULL,\n    ChucVu NVARCHAR(50),\n    Luong DECIMAL(12, 2) CHECK (Luong > 0),\n    MaNQL VARCHAR(10),\n    CONSTRAINT FK_NhanVien_QuanLy FOREIGN KEY (MaNQL) \n        REFERENCES NHANVIEN(MaNV)\n);\n```"
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Xử lý Thực thể Yếu và Chuyển Đổi sang Lược đồ Quan hệ",
+   "problem": "Cho bài toán quản lý Tòa nhà văn phòng:\n- Tòa nhà (`TOANHA`) có mã tòa nhà (`MaTN`), tên tòa nhà và địa chỉ.\n- Mỗi tòa nhà có nhiều tầng lầu (`TANGLAU`). Tầng lầu là một thực thể yếu phụ thuộc vào tòa nhà, có số thứ tự tầng (`SoTang`) và diện tích sử dụng (`DienTich`).\n- Mỗi tầng lầu có nhiều phòng làm việc (`PHONG`). Phòng là một thực thể yếu phụ thuộc vào tầng lầu, có số phòng (`SoPhong`) và số lượng chỗ ngồi (`SoChoNgoi`).\n\nHãy phân tích và viết lược đồ quan hệ hoàn chỉnh (gồm tên quan hệ, danh sách thuộc tính, xác định rõ PK và FK của từng bảng).",
+   "solution_steps": [
+    "Bước 1: Phân tích Cấp bậc Thực thể Yếu\n- `TOANHA`: Thực thể mạnh độc lập, khóa chính là `MaTN`.\n- `TANGLAU`: Thực thể yếu cấp 1, khóa bộ phận là `SoTang`. Để trở thành khóa chính, nó phải kết hợp với khóa của thực thể chủ `TOANHA`.\n- `PHONG`: Thực thể yếu cấp 2, khóa bộ phận là `SoPhong`. Để trở thành khóa chính, nó phải kết hợp với toàn bộ khóa chính của thực thể chủ trực tiếp là `TANGLAU`.",
+    "Bước 2: Xây dựng Lược đồ Quan hệ Hoàn chỉnh\n1. **Quan hệ `TOANHA`:**\n   `TOANHA(MaTN, TenTN, DiaChi)`\n   - PK: `MaTN`\n\n2. **Quan hệ `TANGLAU`:**\n   `TANGLAU(MaTN, SoTang, DienTich)`\n   - PK: `(MaTN, SoTang)`\n   - FK: `MaTN` tham chiếu `TOANHA(MaTN)` trên thao tác xóa dây chuyền (`ON DELETE CASCADE`).\n\n3. **Quan hệ `PHONG`:**\n   `PHONG(MaTN, SoTang, SoPhong, SoChoNgoi)`\n   - PK: `(MaTN, SoTang, SoPhong)`\n   - FK: `(MaTN, SoTang)` tham chiếu `TANGLAU(MaTN, SoTang)` trên thao tác xóa dây chuyền (`ON DELETE CASCADE`)."
+   ]
+  },
+  {
+   "title": "Thiết kế E-R và ánh xạ cho hệ thống quản lý thư viện",
+   "problem": "Thư viện quản lý SÁCH (mã sách, tên, nhà xuất bản, nhiều tác giả), ĐỘC GIẢ (mã, họ tên, nhiều số điện thoại, địa chỉ gồm số nhà - đường - quận), PHIẾU MƯỢN (mã phiếu, ngày mượn). Một phiếu mượn do một độc giả lập và gồm nhiều cuốn sách (kèm hạn trả và ngày trả thực tế). Một cuốn có nhiều bản sao vật lý (BANSAO) chỉ định danh bằng số thứ tự trong sách. Yêu cầu: a) vẽ/mô tả các thực thể, thuộc tính, bản số; b) xác định thực thể yếu; c) ánh xạ sang lược đồ quan hệ và viết khóa chính, khóa ngoại.",
+   "solution_steps": [
+    "Bước 1 - Thực thể và bản số: `SACH`, `DOCGIA`, `PHIEUMUON`, `BANSAO` (yếu, phụ thuộc `SACH`, khóa bộ phận `SoThuTu`). `DOCGIA` 1-N `PHIEUMUON`. `PHIEUMUON` N-N `BANSAO` qua mối quan hệ `CHITIETMUON(HanTra, NgayTraTT)`. `SACH` 1-N `BANSAO` (định danh). `SACH` có thuộc tính đa trị `TacGia`; `DOCGIA` có thuộc tính đa trị `SDT` và thuộc tính kết hợp `DiaChi`.",
+    "Bước 2 - Thực thể mạnh: `SACH(MaSach, TenSach, NXB)`, `DOCGIA(MaDG, HoTen, SoNha, Duong, Quan)`, `PHIEUMUON(MaPhieu, NgayMuon, MaDG)` với `MaDG` là khóa ngoại `NOT NULL`.",
+    "Bước 3 - Thực thể yếu: `BANSAO(MaSach, SoThuTu)` khóa chính `(MaSach, SoThuTu)`, `MaSach` là khóa ngoại `ON DELETE CASCADE`.",
+    "Bước 4 - Thuộc tính đa trị: `SACH_TACGIA(MaSach, TacGia)` khóa chính `(MaSach, TacGia)`; `DOCGIA_SDT(MaDG, SDT)` khóa chính `(MaDG, SDT)`.",
+    "Bước 5 - Quan hệ N-N: `CHITIETMUON(MaPhieu, MaSach, SoThuTu, HanTra, NgayTraTT)` khóa chính `(MaPhieu, MaSach, SoThuTu)`; khóa ngoại `(MaPhieu)` tham chiếu `PHIEUMUON`, `(MaSach, SoThuTu)` tham chiếu `BANSAO`.",
+    "Kết luận: lược đồ gồm 7 bảng, không có thuộc tính đa trị hay kết hợp chưa nguyên tố, mọi bản số đã được thể hiện bằng khóa ngoại hoặc bảng trung gian."
+   ],
+   "id": 4
+  }
+ ]
+}

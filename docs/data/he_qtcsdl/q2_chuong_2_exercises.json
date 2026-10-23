@@ -1,0 +1,493 @@
+{
+ "chapter_id": "q2_chuong_2",
+ "chapter_title": "Quyển 2 - Chương 2: Phụ thuộc hàm, bao đóng & thuật toán tìm khóa",
+ "multiple_choice": [
+  {
+   "id": 1,
+   "difficulty": "easy",
+   "question": "Cho lược đồ $R(A, B, C, D)$ và tập phụ thuộc hàm $F = \\{A \\to B, B \\to C, C \\to D\\}$. Bao đóng của tập thuộc tính $A$, ký hiệu là $A^+$, bằng:",
+   "options": {
+    "A": "$\\{A, D\\}$",
+    "B": "$\\{A, B\\}$",
+    "C": "$\\{A, B, C\\}$",
+    "D": "$\\{A, B, C, D\\}$"
+   },
+   "correct_answer": "D",
+   "explanation": "- $X^{(0)} = \\{A\\}$\n  - Áp dụng $A \\to B \\implies X^{(1)} = \\{A, B\\}$\n  - Áp dụng $B \\to C \\implies X^{(2)} = \\{A, B, C\\}$\n  - Áp dụng $C \\to D \\implies X^{(3)} = \\{A, B, C, D\\} = U$."
+  },
+  {
+   "id": 2,
+   "difficulty": "easy",
+   "question": "Theo hệ tiên đề Armstrong, từ hai phụ thuộc hàm $X \\to Y$ và $X \\to Z$, ta có thể suy ra được phụ thuộc hàm nào sau đây?",
+   "options": {
+    "A": "$YZ \\to X$",
+    "B": "$X \\to YZ$ (Quy tắc Hợp)",
+    "C": "$Y \\to Z$",
+    "D": "$XY \\to Z$"
+   },
+   "correct_answer": "B",
+   "explanation": "Đây chính là Quy tắc Hợp (Union Rule): Nếu cùng một vế trái $X$ xác định được cả $Y$ và $Z$, thì $X$ sẽ xác định được hợp của hai tập $YZ$."
+  },
+  {
+   "id": 3,
+   "difficulty": "easy",
+   "question": "Trong thuật toán phân loại thuộc tính tìm khóa Lucchenssi - Osborn, tập thuộc tính nhóm $L$ (Left only) là tập các thuộc tính:",
+   "options": {
+    "A": "Chỉ xuất hiện ở vế trái của các phụ thuộc hàm trong $F$ mà không bao giờ xuất hiện ở vế phải.",
+    "B": "Không bao giờ xuất hiện ở bất kỳ vế nào trong $F$.",
+    "C": "Chỉ xuất hiện ở vế phải của các phụ thuộc hàm trong $F$.",
+    "D": "Xuất hiện đồng thời ở cả hai vế."
+   },
+   "correct_answer": "A",
+   "explanation": "Nhóm $L$ chỉ nằm ở vế trái, không có bất kỳ thuộc tính nào khác xác định được nó, do đó các thuộc tính thuộc $L$ bắt buộc phải có mặt trong **mọi khóa tối thiểu** của quan hệ."
+  },
+  {
+   "id": 4,
+   "difficulty": "easy",
+   "question": "Khẳng định nào sau đây là ĐÚNG khi nói về mối quan hệ giữa Khóa (Candidate Key) và Siêu khóa (Superkey)?",
+   "options": {
+    "A": "Khóa luôn có kích thước lớn hơn siêu khóa.",
+    "B": "Một lược đồ quan hệ chỉ có tối đa một siêu khóa.",
+    "C": "Mọi khóa đều là siêu khóa, nhưng siêu khóa có thể chứa các thuộc tính dư thừa.",
+    "D": "Mọi siêu khóa đều là khóa."
+   },
+   "correct_answer": "C",
+   "explanation": "Siêu khóa là bất kỳ tập thuộc tính nào có bao đóng bằng toàn thể $U$. Khóa là siêu khóa tối thiểu (không thể bỏ bớt bất kỳ thuộc tính nào mà vẫn là siêu khóa)."
+  },
+  {
+   "id": 5,
+   "difficulty": "easy",
+   "question": "Cho lược đồ $R(A, B, C, D)$ và tập $F = \\{AB \\to C, C \\to D, D \\to A\\}$. Thuộc tính nào sau đây thuộc nhóm $R$ (Right only - chỉ xuất hiện ở vế phải)?",
+   "options": {
+    "A": "$B$",
+    "B": "$A$",
+    "C": "Không có thuộc tính nào thuộc nhóm $R$.",
+    "D": "$C$"
+   },
+   "correct_answer": "C",
+   "explanation": "- Vế trái xuất hiện: $\\{A, B, C, D\\}$\n  - Vế phải xuất hiện: $\\{C, D, A\\}$\n  - $B$ chỉ ở vế trái (thuộc $L$). Các thuộc tính $A, C, D$ đều xuất hiện ở cả hai vế (thuộc $M$). Không có thuộc tính nào chỉ xuất hiện ở vế phải."
+  },
+  {
+   "id": 6,
+   "difficulty": "easy",
+   "question": "Bài toán thành viên (Membership Problem) kiểm tra xem một phụ thuộc hàm $X \\to Y$ có thuộc về bao đóng $F^+$ hay không được giải quyết bằng điều kiện:",
+   "options": {
+    "A": "$X^+ \\subseteq Y$",
+    "B": "$X \\cap Y = \\emptyset$",
+    "C": "$Y \\subseteq X^+$",
+    "D": "$|X| = |Y|$"
+   },
+   "correct_answer": "C",
+   "explanation": "$X \\to Y \\in F^+ \\iff Y \\subseteq X^+$. Ta chỉ cần tính bao đóng của vế trái $X^+$ và kiểm tra xem tập vế phải $Y$ có nằm trọn trong $X^+$ hay không."
+  },
+  {
+   "id": 7,
+   "difficulty": "easy",
+   "question": "Tập phụ thuộc hàm nào sau đây vi phạm định nghĩa của Phủ tối thiểu (Minimal Cover)?",
+   "options": {
+    "A": "$F = \\{A \\to B, B \\to C\\}$",
+    "B": "$F = \\{AB \\to C, C \\to D\\}$",
+    "C": "$F = \\{A \\to BC, C \\to D\\}$",
+    "D": "$F = \\{A \\to B, A \\to C, C \\to D\\}$"
+   },
+   "correct_answer": "C",
+   "explanation": "Phủ tối thiểu bắt buộc vế phải của mọi phụ thuộc hàm phải là đơn thuộc tính. Tập $\\{A \\to BC, C \\to D\\}$ có vế phải chứa 2 thuộc tính $BC$ nên vi phạm điều kiện 1."
+  },
+  {
+   "id": 8,
+   "difficulty": "easy",
+   "question": "Phụ thuộc hàm nào sau đây là một phụ thuộc hàm tầm thường (Trivial Functional Dependency)?",
+   "options": {
+    "A": "$AB \\to C$",
+    "B": "$AB \\to CD$",
+    "C": "$A \\to B$",
+    "D": "$AB \\to A$"
+   },
+   "correct_answer": "D",
+   "explanation": "Phụ thuộc hàm $X \\to Y$ là tầm thường khi và chỉ khi $Y \\subseteq X$. Vì $\\{A\\} \\subseteq \\{A, B\\}$, nên $AB \\to A$ luôn luôn đúng theo tiên đề phản xạ."
+  },
+  {
+   "id": 9,
+   "difficulty": "easy",
+   "question": "Nếu trong lược đồ quan hệ $R(U, F)$, tập thuộc tính nhóm $L \\cup D$ có bao đóng bằng toàn thể $U$ ($(L \\cup D)^+ = U$), ta có thể kết luận ngay rằng:",
+   "options": {
+    "A": "Lược đồ $R$ ở dạng chuẩn 4NF.",
+    "B": "$L \\cup D$ là khóa DUY NHẤT của lược đồ quan hệ $R$.",
+    "C": "Lược đồ $R$ không có khóa nào.",
+    "D": "Lược đồ $R$ có vô số khóa."
+   },
+   "correct_answer": "B",
+   "explanation": "Vì mọi khóa bắt buộc phải chứa $L \\cup D$, mà bản thân $L \\cup D$ đã là một siêu khóa, nên không thể tồn tại bất kỳ khóa tối thiểu nào khác. $L \\cup D$ chính là khóa duy nhất."
+  },
+  {
+   "id": 10,
+   "difficulty": "easy",
+   "question": "Độ phức tạp thời gian tồi nhất của thuật toán tìm bao đóng của một tập thuộc tính $X^+$ với tập phụ thuộc hàm $F$ và tập thuộc tính $U$ là:",
+   "options": {
+    "A": "$O(1)$",
+    "B": "$O(|F| \\cdot |U|)$",
+    "C": "$O(|U|^3)$",
+    "D": "$O(2^{|U|})$"
+   },
+   "correct_answer": "B",
+   "explanation": "Thuật toán duyệt qua $|F|$ phụ thuộc hàm trong tối đa $|U|$ vòng lặp thêm thuộc tính mới, mang lại độ phức tạp đa thức $O(|F| \\cdot |U|)$ (thậm chí có thể tối ưu về $O(|F|)$ thời gian tuyến tính)."
+  },
+  {
+   "difficulty": "medium",
+   "question": "Tiên đề phản xạ (Reflexivity) của Armstrong phát biểu:",
+   "options": {
+    "A": "Nếu $X \\to Y$ và $Y \\to Z$ thì $X \\to Z$",
+    "B": "Nếu $Y \\subseteq X$ thì $X \\to Y$",
+    "C": "Nếu $X \\to YZ$ thì $X \\to Y$",
+    "D": "Nếu $X \\to Y$ thì $XZ \\to YZ$"
+   },
+   "correct_answer": "B",
+   "explanation": "Phản xạ: $Y \\subseteq X \\Rightarrow X \\to Y$ (phụ thuộc hàm tầm thường). Ý D là tiên đề tăng trưởng; ý A là bắc cầu.",
+   "id": 11
+  },
+  {
+   "difficulty": "medium",
+   "question": "Từ $X \\to YZ$ suy ra $X \\to Y$ và $X \\to Z$ nhờ quy tắc:",
+   "options": {
+    "A": "Quy tắc tách (decomposition)",
+    "B": "Quy tắc tựa bắc cầu",
+    "C": "Quy tắc hợp",
+    "D": "Quy tắc tăng trưởng"
+   },
+   "correct_answer": "A",
+   "explanation": "Quy tắc tách suy ra từ phản xạ và bắc cầu: $X \\to YZ$, $YZ \\to Y$ nên $X \\to Y$.",
+   "id": 12
+  },
+  {
+   "difficulty": "medium",
+   "question": "Quy tắc tựa bắc cầu (pseudo-transitivity) phát biểu:",
+   "options": {
+    "A": "$X \\to Y,\\ X \\to Z \\Rightarrow X \\to YZ$",
+    "B": "$X \\to Y,\\ WY \\to Z \\Rightarrow WX \\to Z$",
+    "C": "$X \\to Y,\\ Y \\to Z \\Rightarrow X \\to Z$",
+    "D": "$X \\to Y \\Rightarrow XZ \\to Y$"
+   },
+   "correct_answer": "B",
+   "explanation": "Đây là luật tựa bắc cầu (suy ra từ tăng trưởng và bắc cầu).",
+   "id": 13
+  },
+  {
+   "difficulty": "medium",
+   "question": "Cho $R(A,B,C,D)$, $F = \\{A \\to B,\\ B \\to C,\\ C \\to D\\}$. Bao đóng $A^+$ là:",
+   "options": {
+    "A": "$\\{A,C,D\\}$",
+    "B": "$\\{A,B,C\\}$",
+    "C": "$\\{A,B\\}$",
+    "D": "$\\{A,B,C,D\\}$"
+   },
+   "correct_answer": "D",
+   "explanation": "$A^+$: $A \\to B$, $B \\to C$, $C \\to D$ nên thu được $ABCD$.",
+   "id": 14
+  },
+  {
+   "difficulty": "medium",
+   "question": "Cho $R(A,B,C,D)$, $F = \\{AB \\to C,\\ C \\to D\\}$. Khóa duy nhất của $R$ là:",
+   "options": {
+    "A": "$AB$",
+    "B": "$ABD$",
+    "C": "$A$",
+    "D": "$ABC$"
+   },
+   "correct_answer": "A",
+   "explanation": "$A,B$ không xuất hiện ở vế phải nên phải thuộc mọi khóa; $(AB)^+ = ABCD$. Vậy khóa duy nhất là $AB$.",
+   "id": 15
+  },
+  {
+   "difficulty": "medium",
+   "question": "Phụ thuộc hàm nào sau đây là tầm thường?",
+   "options": {
+    "A": "$A \\to B$",
+    "B": "$A \\to AB$",
+    "C": "$AB \\to A$",
+    "D": "$AB \\to C$"
+   },
+   "correct_answer": "C",
+   "explanation": "$AB \\to A$ có vế phải là tập con của vế trái. $A \\to AB$ thì không (vế phải chứa $B \\notin A$).",
+   "id": 16
+  },
+  {
+   "difficulty": "medium",
+   "question": "Cho $F = \\{A \\to B,\\ B \\to C\\}$. Phụ thuộc hàm $A \\to C$:",
+   "options": {
+    "A": "Không suy ra được từ $F$",
+    "B": "Suy ra được từ $F$ nhờ tính bắc cầu",
+    "C": "Mâu thuẫn với $F$",
+    "D": "Chỉ đúng khi $C \\to A$"
+   },
+   "correct_answer": "B",
+   "explanation": "Bắc cầu: $A \\to B$, $B \\to C \\Rightarrow A \\to C$; tương đương $C \\in A^+$.",
+   "id": 17
+  },
+  {
+   "difficulty": "medium",
+   "question": "Điều kiện nào KHÔNG thuộc định nghĩa của phủ tối thiểu $F_{min}$?",
+   "options": {
+    "A": "Vế phải mỗi phụ thuộc chỉ có một thuộc tính",
+    "B": "Mỗi phụ thuộc hàm có vế trái là một khóa",
+    "C": "Không có thuộc tính dư thừa ở vế trái",
+    "D": "Không có phụ thuộc hàm nào dư thừa"
+   },
+   "correct_answer": "B",
+   "explanation": "Phủ tối thiểu chỉ yêu cầu ba điều kiện (vế phải đơn, không dư vế trái, không dư phụ thuộc); vế trái không nhất thiết là khóa.",
+   "id": 18
+  },
+  {
+   "difficulty": "medium",
+   "question": "Tách $A \\to BC$ để vế phải chỉ còn một thuộc tính ta được:",
+   "options": {
+    "A": "$AB \\to C$",
+    "B": "$A \\to B$ và $B \\to C$",
+    "C": "$A \\to B$ và $A \\to C$",
+    "D": "$B \\to A$ và $C \\to A$"
+   },
+   "correct_answer": "C",
+   "explanation": "Quy tắc tách cho $A \\to B$ và $A \\to C$.",
+   "id": 19
+  },
+  {
+   "difficulty": "medium",
+   "question": "Cho $F = \\{AB \\to C,\\ A \\to B\\}$. Thuộc tính nào dư thừa ở vế trái của $AB \\to C$?",
+   "options": {
+    "A": "Không có",
+    "B": "$C$",
+    "C": "$B$",
+    "D": "$A$"
+   },
+   "correct_answer": "C",
+   "explanation": "Vì $A \\to B$ nên $(A)^+ \\ni B$; $AB \\to C$ rút gọn thành $A \\to C$ (bỏ $B$).",
+   "id": 20
+  },
+  {
+   "difficulty": "medium",
+   "question": "Trong thuật toán phân loại thuộc tính tìm khóa, thuộc tính chỉ xuất hiện ở vế trái các phụ thuộc hàm (không bao giờ ở vế phải):",
+   "options": {
+    "A": "Chắc chắn thuộc mọi khóa",
+    "B": "Không bao giờ thuộc khóa",
+    "C": "Có thể bỏ khỏi khóa tùy ý",
+    "D": "Luôn là thuộc tính không nguyên tố"
+   },
+   "correct_answer": "A",
+   "explanation": "Nếu bỏ thuộc tính đó, không phụ thuộc hàm nào suy ra được nó từ các thuộc tính còn lại, nên bao đóng không bao giờ chứa nó.",
+   "id": 21
+  },
+  {
+   "difficulty": "medium",
+   "question": "Khóa (candidate key) khác với siêu khóa (superkey) ở chỗ:",
+   "options": {
+    "A": "Siêu khóa phải là khóa chính",
+    "B": "Hai khái niệm trùng nhau",
+    "C": "Khóa luôn có nhiều thuộc tính hơn",
+    "D": "Khóa là siêu khóa tối thiểu: bỏ bất kỳ thuộc tính nào cũng không còn là siêu khóa"
+   },
+   "correct_answer": "D",
+   "explanation": "Khóa = siêu khóa không chứa siêu khóa con thực sự.",
+   "id": 22
+  },
+  {
+   "difficulty": "hard",
+   "question": "Cho $R(A,B,C,D)$, $F = \\{AB \\to C,\\ C \\to D,\\ D \\to A\\}$. Số khóa của $R$ là:",
+   "options": {
+    "A": "3",
+    "B": "1",
+    "C": "4",
+    "D": "2"
+   },
+   "correct_answer": "A",
+   "explanation": "$B$ chỉ ở vế trái nên thuộc mọi khóa. $(AB)^+ = ABCD$, $(BC)^+ = ABCD$ (qua $C \\to D \\to A$), $(BD)^+ = ABCD$ (qua $D \\to A$, $AB \\to C$). Có 3 khóa: $AB, BC, BD$.",
+   "id": 23
+  },
+  {
+   "difficulty": "hard",
+   "question": "Cho $R(A,B,C)$, $F = \\{A \\to B,\\ B \\to A,\\ B \\to C\\}$. Các khóa của $R$ là:",
+   "options": {
+    "A": "$\\{C\\}$",
+    "B": "$\\{A, B\\}$",
+    "C": "Chỉ $\\{A\\}$",
+    "D": "$\\{A\\}$ và $\\{B\\}$"
+   },
+   "correct_answer": "D",
+   "explanation": "$A^+ = ABC$ và $B^+ = ABC$; cả hai đều là khóa đơn nên $\\{A,B\\}$ không phải khóa (không tối thiểu).",
+   "id": 24
+  },
+  {
+   "difficulty": "hard",
+   "question": "Phủ tối thiểu của $F = \\{A \\to BC,\\ B \\to C,\\ A \\to B,\\ AB \\to C\\}$ là:",
+   "options": {
+    "A": "$\\{A \\to B,\\ B \\to C\\}$",
+    "B": "$\\{A \\to BC,\\ B \\to C\\}$",
+    "C": "$F$ đã là phủ tối thiểu",
+    "D": "$\\{A \\to B,\\ A \\to C,\\ B \\to C\\}$"
+   },
+   "correct_answer": "A",
+   "explanation": "Tách vế phải: $A \\to B, A \\to C, B \\to C, AB \\to C$. Rút gọn $AB \\to C$ thành $B \\to C$ (trùng). $A \\to C$ dư vì suy ra từ $A \\to B, B \\to C$. Còn $\\{A \\to B, B \\to C\\}$.",
+   "id": 25
+  },
+  {
+   "difficulty": "hard",
+   "question": "Hai tập $F = \\{A \\to B,\\ B \\to C\\}$ và $G = \\{A \\to B,\\ A \\to C,\\ B \\to C\\}$:",
+   "options": {
+    "A": "Chỉ tương đương nếu $C \\to A$",
+    "B": "Không tương đương",
+    "C": "Tương đương vì mỗi phụ thuộc của $G$ suy ra được từ $F$ và ngược lại",
+    "D": "$F$ suy ra $G$ nhưng $G$ không suy ra $F$"
+   },
+   "correct_answer": "C",
+   "explanation": "$A \\to C$ suy ra từ $F$ nhờ bắc cầu; các phụ thuộc còn lại của $G$ có trong $F$; $F \\subseteq G$ nên $G$ suy ra $F$.",
+   "id": 26
+  },
+  {
+   "difficulty": "hard",
+   "question": "Cho $R(A,B,C)$, $F = \\{AB \\to C,\\ C \\to B\\}$. Các khóa của $R$ là:",
+   "options": {
+    "A": "$A$",
+    "B": "$AB$ và $AC$",
+    "C": "$BC$",
+    "D": "$ABC$"
+   },
+   "correct_answer": "B",
+   "explanation": "$A$ chỉ ở vế trái nên thuộc mọi khóa. $(AB)^+ = ABC$; $(AC)^+ = ACB$ (qua $C \\to B$); $A^+ = A$. Vậy hai khóa $AB$, $AC$.",
+   "id": 27
+  },
+  {
+   "difficulty": "hard",
+   "question": "Lược đồ $R(A,B,C)$ với $F = \\emptyset$ có khóa là:",
+   "options": {
+    "A": "$AB$",
+    "B": "$A$",
+    "C": "Không có khóa",
+    "D": "$ABC$ (toàn bộ thuộc tính)"
+   },
+   "correct_answer": "D",
+   "explanation": "Không có phụ thuộc hàm nên bao đóng của mọi tập chỉ là chính nó; khóa duy nhất là toàn bộ $U$.",
+   "id": 28
+  },
+  {
+   "difficulty": "hard",
+   "question": "Với $R(A,B,C,D)$ và $F = \\{AB \\to C,\\ C \\to D,\\ D \\to A\\}$, số thuộc tính không nguyên tố (non-prime) của $R$ là:",
+   "options": {
+    "A": "1",
+    "B": "4",
+    "C": "2",
+    "D": "0"
+   },
+   "correct_answer": "D",
+   "explanation": "Các khóa $AB, BC, BD$ chứa đủ $A,B,C,D$ nên cả bốn thuộc tính đều nguyên tố; không có thuộc tính không nguyên tố.",
+   "id": 29
+  },
+  {
+   "difficulty": "hard",
+   "question": "Với $R(A,B,C,D,E)$ và $F = \\{A \\to B,\\ C \\to D\\}$, khóa duy nhất của $R$ là:",
+   "options": {
+    "A": "$AC$",
+    "B": "$ABCDE$ là khóa duy nhất vì không thể bỏ gì",
+    "C": "$ACE$",
+    "D": "$ABCD$"
+   },
+   "correct_answer": "C",
+   "explanation": "$A, C, E$ không xuất hiện ở vế phải nên thuộc mọi khóa; $(ACE)^+ = ABCDE$. Vậy $ACE$ là khóa duy nhất.",
+   "id": 30
+  }
+ ],
+ "short_answers": [
+  {
+   "id": 1,
+   "question": "Cho $R(A, B, C, D, E)$ và $F = \\{A \\to B, BC \\to D, E \\to C\\}$. Hãy tính bao đóng $(AE)^+$.",
+   "expected_answer": "- $X^{(0)} = AE$\n  - Xét $A \\to B \\implies X^{(1)} = ABE$\n  - Xét $E \\to C \\implies X^{(2)} = ABCE$\n  - Xét $BC \\to D \\implies X^{(3)} = ABCDE = U$.\n  - **Kết quả:** $(AE)^+ = ABCDE$.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 2,
+   "question": "Cho lược đồ $R(A, B, C, D, E)$ với $F = \\{A \\to BC, CD \\to E, B \\to D, E \\to A\\}$. Phụ thuộc hàm $A \\to E$ có được suy dẫn từ $F$ hay không?",
+   "expected_answer": "**CÓ**.\n  - Tính $A^+$:\n    - $X^{(0)} = A$\n    - $A \\to BC \\implies X^{(1)} = ABC$\n    - $B \\to D \\implies X^{(2)} = ABCD$\n    - $CD \\to E \\implies X^{(3)} = ABCDE$.\n  - Vì $E \\in A^+ = ABCDE$, nên theo nguyên lý bài toán thành viên, $F \\vDash A \\to E$.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 3,
+   "question": "Liệt kê các thuộc tính nguyên tố và không nguyên tố của lược đồ $R(A, B, C, D)$ biết $R$ có 2 khóa là $AB$ và $AC$.",
+   "expected_answer": "- Tập các khóa: $\\{AB, AC\\}$.\n  - **Thuộc tính nguyên tố** (nằm trong ít nhất 1 khóa): $\\{A, B, C\\}$.\n  - **Thuộc tính không nguyên tố** (không nằm trong bất kỳ khóa nào): $\\{D\\}$.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 4,
+   "question": "Nêu bước kiểm tra loại bỏ thuộc tính dư thừa ở vế trái của phụ thuộc hàm $AB \\to C$ trong thuật toán tìm phủ tối thiểu.",
+   "expected_answer": "- Để kiểm tra xem $B$ có dư thừa hay không: Tính bao đóng của phần còn lại $A^+$ đối với $F$. Nếu $C \\in A^+$, thì $B$ là dư thừa và thay $AB \\to C$ bằng $A \\to C$.\n  - Để kiểm tra xem $A$ có dư thừa hay không: Tính bao đóng của phần còn lại $B^+$ đối với $F$. Nếu $C \\in B^+$, thì $A$ là dư thừa và thay $AB \\to C$ bằng $B \\to C$.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 5,
+   "question": "Một thuộc tính thuộc nhóm $D$ (không xuất hiện ở bất kỳ vế nào trong tập phụ thuộc hàm $F$) có vai trò gì trong việc xác định các khóa của lược đồ?",
+   "expected_answer": "Vì thuộc tính thuộc nhóm $D$ không thể được xác định bởi bất kỳ thuộc tính nào khác, nó **bắt buộc phải xuất hiện trong mọi khóa tối thiểu** của lược đồ quan hệ.",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "question": "Cho $R(A,B,C,D,E,G)$, $F = \\{AB \\to C,\\ C \\to D,\\ D \\to E,\\ G \\to A\\}$. Tính $(BG)^+$ và cho biết $BG$ có là khóa không.",
+   "expected_answer": "$(BG)^+$: $\\{B,G\\} \\to G \\to A$: $\\{A,B,G\\}$; $AB \\to C$: $\\{A,B,C,G\\}$; $C \\to D$: $\\{A,B,C,D,G\\}$; $D \\to E$: $\\{A,B,C,D,E,G\\}$. Vậy $(BG)^+ = U$, và $B^+ = B$, $G^+ = AG$ nên $BG$ là khóa (tối thiểu).",
+   "explanation": "Ghi từng bước lặp để tránh sót phụ thuộc.",
+   "id": 6
+  },
+  {
+   "question": "Tìm một phủ tối thiểu của $F = \\{A \\to B,\\ B \\to A,\\ B \\to C,\\ A \\to C,\\ C \\to A\\}$.",
+   "expected_answer": "Một phủ tối thiểu: $\\{A \\to B,\\ B \\to C,\\ C \\to A\\}$. Kiểm tra: $B \\to A$ suy ra từ $B \\to C \\to A$; $A \\to C$ suy ra từ $A \\to B \\to C$.",
+   "explanation": "Phủ tối thiểu không duy nhất (có thể chọn chu trình theo thứ tự khác).",
+   "id": 7
+  },
+  {
+   "question": "Kiểm tra $AC \\to D$ có suy ra được từ $F = \\{A \\to B,\\ BC \\to D\\}$ không.",
+   "expected_answer": "$(AC)^+$: $A \\to B$ nên $\\{A,B,C\\}$; $BC \\to D$ nên $\\{A,B,C,D\\}$. Vì $D \\in (AC)^+$ nên $AC \\to D$ suy ra được từ $F$.",
+   "explanation": "Bài toán thành viên quy về tính bao đóng.",
+   "id": 8
+  }
+ ],
+ "essays": [
+  {
+   "id": 1,
+   "title": "Thuật Toán Tìm Tất Cả Các Khóa Của Lược Đồ Quan Hệ",
+   "problem": "Cho lược đồ quan hệ $R(A, B, C, D, E, G)$ với tập phụ thuộc hàm:\n$$F = \\{AB \\to C, C \\to D, D \\to BE, E \\to G\\}$$\nHãy:\n1. Phân loại các thuộc tính thành các nhóm $L, R, D, M$.\n2. Áp dụng thuật toán Lucchenssi - Osborn tìm toàn bộ các khóa của $R$.\n3. Xác định danh sách các thuộc tính nguyên tố và không nguyên tố.",
+   "solution_steps": [
+    "Bước 1: Phân loại thuộc tính\n- Vế trái xuất hiện: $\\{A, B, C, D, E\\}$\n- Vế phải xuất hiện: $\\{C, D, B, E, G\\}$\n- **Nhóm $L$ (Chỉ xuất hiện vế trái):** $\\{A\\}$\n- **Nhóm $R$ (Chỉ xuất hiện vế phải):** $\\{G\\}$\n- **Nhóm $D$ (Không xuất hiện trong $F$):** $\\emptyset$\n- **Nhóm $M$ (Xuất hiện ở cả hai vế):** $\\{B, C, D, E\\}$",
+    "Bước 2: Tìm tất cả các khóa\n1. **Xét tập nguồn cốt lõi:** $X_0 = L \\cup D = \\{A\\}$.\n   - Tính $A^+$: Không có PTH nào có vế trái là $A \\implies A^+ = A \\ne U$.\n   - Do đó, $A$ không phải là khóa. Khóa phải là tổ hợp của $A$ với các thuộc tính trong $M = \\{B, C, D, E\\}$.\n\n2. **Thử kết hợp $A$ với 1 thuộc tính trong $M$:**\n   - **Xét $AB$:**\n     - $(AB)^{(0)} = AB$\n     - $AB \\to C \\implies ABC$\n     - $C \\to D \\implies ABCD$\n     - $D \\to BE \\implies ABCDE$\n     - $E \\to G \\implies ABCDEG = U$.\n     - $\\implies (AB)^+ = U$. Vì không có tập con nào của $AB$ là siêu khóa, nên **$AB$ là một khóa**.\n   - **Xét $AC$:**\n     - $C \\to D \\implies ACD$\n     - $D \\to BE \\implies ACDBE$\n     - $E \\to G \\implies ACDBEG = U$.\n     - $\\implies (AC)^+ = U$. Do đó, **$AC$ là một khóa**.\n   - **Xét $AD$:**\n     - $D \\to BE \\implies ADBE$\n     - $AB \\to C \\implies ADBEC$\n     - $E \\to G \\implies ADBECG = U$.\n     - $\\implies (AD)^+ = U$. Do đó, **$AD$ là một khóa**.\n   - **Xét $AE$:**\n     - $E \\to G \\implies AEG \\ne U$.\n     - $\\implies (AE)^+ = AEG \\ne U$. Không phải là khóa.\n\n3. **Thử kết hợp $A$ với 2 thuộc tính trong $M$ (chỉ xét tập không chứa $B, C, D$):**\n   - Tập duy nhất có thể xét mà không chứa các khóa đã tìm thấy là $AE$: Ta thử kết hợp thêm nhưng mọi thuộc tính khác ghép vào đều đã chứa $B, C$ hoặc $D$.\n   - Do đó không còn khóa nào có kích thước $\\ge 3$.",
+    "Bước 3: Kết luận\n- **Tập các khóa của $R$:** $\\{AB, AC, AD\\}$.\n- **Thuộc tính nguyên tố:** $\\{A, B, C, D\\}$.\n- **Thuộc tính không nguyên tố:** $\\{E, G\\}$."
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Tìm Phủ Tối Thiểu (Minimal Cover) Từng Bước",
+   "problem": "Cho lược đồ quan hệ $R(A, B, C, D)$ và tập phụ thuộc hàm:\n$$F = \\{A \\to B, B \\to C, A \\to C, AB \\to D\\}$$\nHãy tìm phủ tối thiểu $F_{min}$ của $F$ theo đúng quy trình 3 bước chuẩn mực.",
+   "solution_steps": [
+    "Bước 1: Đơn thuộc tính hóa vế phải\nTất cả các phụ thuộc hàm trong $F$ đều đã có vế phải gồm đúng 1 thuộc tính ($B, C, C, D$).\n$$F_1 = \\{A \\to B, B \\to C, A \\to C, AB \\to D\\}$$",
+    "Bước 2: Loại bỏ thuộc tính dư thừa ở vế trái\nChỉ có phụ thuộc hàm $AB \\to D$ có vế trái gồm nhiều hơn 1 thuộc tính ($|AB| = 2$).\n- **Kiểm tra xem $B$ có dư thừa không:**\n  - Tính bao đóng của phần còn lại $A^+$ đối với $F_1$:\n    - $A^{(0)} = A$\n    - $A \\to B \\implies AB$\n    - $AB \\to D \\implies ABD$\n    - $A \\to C \\implies ABCD$.\n    - Ta thấy $D \\in A_{F_1}^+$.\n  - Vì $A$ tự thân đã xác định được $D$, nên thuộc tính $B$ ở vế trái là **hoàn toàn dư thừa**!\n  - Ta thay thế $AB \\to D$ bằng $A \\to D$.\n- Tập phụ thuộc hàm sau Bước 2:\n  $$F_2 = \\{A \\to B, B \\to C, A \\to C, A \\to D\\}$$",
+    "Bước 3: Loại bỏ phụ thuộc hàm dư thừa\nLần lượt thử loại bỏ từng phụ thuộc hàm trong $F_2$:\n1. **Thử loại bỏ $f_1: A \\to B$:**\n   - Đặt $G = F_2 \\setminus \\{A \\to B\\} = \\{B \\to C, A \\to C, A \\to D\\}$.\n   - Tính $A_G^+$: $A_G^+ = ACD$ (không chứa $B$).\n   - $\\implies A \\to B$ không dư thừa, giữ lại.\n2. **Thử loại bỏ $f_2: B \\to C$:**\n   - Đặt $G = F_2 \\setminus \\{B \\to C\\} = \\{A \\to B, A \\to C, A \\to D\\}$.\n   - Tính $B_G^+$: $B_G^+ = B$ (không chứa $C$).\n   - $\\implies B \\to C$ không dư thừa, giữ lại.\n3. **Thử loại bỏ $f_3: A \\to C$:**\n   - Đặt $G = F_2 \\setminus \\{A \\to C\\} = \\{A \\to B, B \\to C, A \\to D\\}$.\n   - Tính $A_G^+$:\n     - $A^{(0)} = A$\n     - $A \\to B \\implies AB$\n     - $B \\to C \\implies ABC$\n     - $A \\to D \\implies ABCD$.\n   - Ta thấy $C \\in A_G^+$.\n   - $\\implies A \\to C$ là **phụ thuộc hàm dư thừa** (được suy dẫn gián tiếp qua $A \\to B$ và $B \\to C$).\n   - **Loại bỏ $A \\to C$ khỏi tập $F$.**\n4. **Thử loại bỏ $f_4: A \\to D$:**\n   - Đặt $G = \\{A \\to B, B \\to C\\}$.\n   - Tính $A_G^+ = ABC$ (không chứa $D$).\n   - $\\implies A \\to D$ không dư thừa, giữ lại.",
+    "Kết luận Phủ tối thiểu:\n$$F_{min} = \\{A \\to B, B \\to C, A \\to D\\}$$"
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Kiểm Tra Tính Tương Đương Của Hai Tập Phụ Thuộc Hàm",
+   "problem": "Cho hai tập phụ thuộc hàm $F$ và $G$ trên cùng lược đồ $R(A, B, C)$:\n$$F = \\{A \\to B, B \\to C\\}$$\n$$G = \\{A \\to C, AB \\to C, A \\to B\\}$$\nHãy chứng minh rằng $F$ và $G$ có tương đương với nhau hay không ($F \\equiv G$?).",
+   "solution_steps": [
+    "Định lý:\nHai tập phụ thuộc hàm $F$ và $G$ tương đương nhau ($F \\equiv G$) khi và chỉ khi:\n$$F^+ = G^+ \\iff (F \\vDash G \\quad \\text{VÀ} \\quad G \\vDash F)$$",
+    "Bước 1: Kiểm tra $F \\vDash G$ (Mọi PTH trong $G$ đều suy dẫn được từ $F$)\n1. Xét $A \\to C \\in G$:\n   - Tính $A_F^+$: $A \\to B \\implies AB$, $B \\to C \\implies ABC$.\n   - Vì $C \\in A_F^+ \\implies F \\vDash A \\to C$ (Thỏa mãn).\n2. Xét $AB \\to C \\in G$:\n   - Tính $(AB)_F^+ = ABC$. Chứa $C \\implies F \\vDash AB \\to C$ (Thỏa mãn).\n3. Xét $A \\to B \\in G$:\n   - Rõ ràng $A \\to B \\in F \\implies F \\vDash A \\to B$ (Thỏa mãn).\n- $\\implies$ **Khẳng định 1:** $F \\vDash G$ (tức $G \\subseteq F^+$).",
+    "Bước 2: Kiểm tra $G \\vDash F$ (Mọi PTH trong $F$ đều suy dẫn được từ $G$)\n1. Xét $A \\to B \\in F$:\n   - Rõ ràng $A \\to B \\in G \\implies G \\vDash A \\to B$ (Thỏa mãn).\n2. Xét $B \\to C \\in F$:\n   - Tính bao đóng của $B$ đối với $G$:\n     - Khởi tạo: $X^{(0)} = B$.\n     - Duyệt các PTH trong $G = \\{A \\to C, AB \\to C, A \\to B\\}$: Vế trái của các PTH trong $G$ đều cần có thuộc tính $A$. Tập $X^{(0)} = B$ không chứa $A$, do đó không có PTH nào kích hoạt được.\n     - $\\implies B_G^+ = B$.\n   - Vì $C \\notin B_G^+$, nên **$B \\to C$ KHÔNG THỂ suy dẫn được từ $G$** ($G \\not\\vDash B \\to C$).",
+    "Kết luận:\nDo $G \\not\\vDash F$, hai tập phụ thuộc hàm **KHÔNG TƯƠNG ĐƯƠNG NHAU** ($F \\not\\equiv G$)."
+   ]
+  },
+  {
+   "title": "Tìm mọi khóa và xác định dạng chuẩn của lược đồ vòng",
+   "problem": "Cho $R(A,B,C,D,E)$ với $F = \\{AB \\to C,\\ C \\to D,\\ D \\to E,\\ E \\to A\\}$. a) Phân loại thuộc tính và tìm tất cả các khóa; b) liệt kê thuộc tính nguyên tố; c) xác định $R$ có đạt 3NF, BCNF không.",
+   "solution_steps": [
+    "Bước 1 - Phân loại: $B$ chỉ ở vế trái nên nằm trong mọi khóa; $C, D, E, A$ xuất hiện ở cả hai vế. Ta xét $B$ kết hợp với các thuộc tính khác.",
+    "Bước 2 - $B^+ = B$ nên $B$ chưa là khóa. $(AB)^+$: $AB \\to C \\to D \\to E$ nên $= ABCDE$. $(BC)^+$: $C \\to D \\to E \\to A$ nên $= ABCDE$. $(BD)^+$: $D \\to E \\to A$, $AB \\to C$ nên $= ABCDE$. $(BE)^+$: $E \\to A$, $AB \\to C \\to D$ nên $= ABCDE$.",
+    "Bước 3 - Mỗi tập hai thuộc tính trên đều tối thiểu (vì $B^+$ và $X^+$ với $X \\in \\{A,C,D,E\\}$ không bao đủ). Khóa: $AB, BC, BD, BE$.",
+    "Bước 4 - Thuộc tính nguyên tố: $A, B, C, D, E$ (tất cả đều thuộc ít nhất một khóa).",
+    "Bước 5 - 3NF: mọi vế phải đều là thuộc tính nguyên tố nên $R$ đạt 3NF. BCNF: xét $C \\to D$ có $C^+ = \\{C,D,E,A\\}$ thiếu $B$ nên $C$ không là siêu khóa $\\Rightarrow$ vi phạm BCNF.",
+    "Kết luận: $R$ có 4 khóa, đạt 3NF nhưng KHÔNG đạt BCNF."
+   ],
+   "id": 4
+  }
+ ]
+}

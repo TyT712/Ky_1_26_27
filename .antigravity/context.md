@@ -49,5 +49,16 @@ Hệ thống tổ chức dữ liệu theo kiến trúc hai tầng tri thức (Du
 1. **`pdf_ingestor`:** Bóc tách PDF sang Markdown cấu trúc cao, nhận diện tiêu đề, trích xuất text rõ ràng.
 2. **`knowledge_retriever`:** Truy xuất đa tầng (Hybrid Search: Full-text & Semantic Context) đối chiếu chéo giữa giáo trình và ghi chú NotebookLM.
 3. **`study_assistant`:** Sinh bài tập tự luyện, flashcards, giải bài tập từng bước (step-by-step) bám sát tài liệu.
-4. **`chapter_study_pack_generator`:** Đóng gói chương giáo trình Markdown và tóm tắt NotebookLM thành Module Học tập & Khảo thí tương tác (Summary + 10+ Trắc nghiệm + 5+ Trả lời ngắn + 3+ Tự luận kèm đáp án ẩn `<details>`) tương thích GitHub Pages / Docsify.
+4. **`chapter_study_pack_generator`:** *(đã được thay thế)* Đóng gói chương thành một file Markdown đơn khối cho Docsify.
+5. **`lms_chapter_pack_generator`:** Biến chương giáo trình thành gói dữ liệu tách biệt `{chapter_id}_theory.md` + `{chapter_id}_exercises.json` (30 trắc nghiệm Easy/Medium/Hard, 8 trả lời ngắn, 4 tự luận) cho Static SPA LMS; đặc tả tại `.antigravity/skills/lms_chapter_pack_generator.md`.
+
+---
+
+## 5. KIẾN TRÚC LMS TĨNH (STATIC SPA LMS) - GitHub Pages
+- **Frontend:** `docs/index.html`, `docs/assets/css/style.css`, `docs/assets/js/app.js` (HTML5 + TailwindCSS CDN + Vanilla JS + Marked.js + KaTeX + Highlight.js + Mermaid), điều hướng bằng URL hash.
+- **Luồng:** `#/` Cổng môn học -> `#/course/{id}` Trang môn học -> `#/course/{id}/chapter/{chapter_id}` Không gian chương (4 tab: Lý thuyết, Trắc nghiệm 30 câu, Trả lời ngắn, Tự luận) -> Kết quả & Xem lại.
+- **Quy tắc chấm điểm theo lô:** không hiển thị đúng/sai khi chọn đáp án; chỉ chấm và giải thích sau khi người học bấm "Nộp bài & Chấm điểm".
+- **Dữ liệu:** `docs/data/courses_manifest.json` và `docs/data/{subject}/{chapter_id}_{theory.md|exercises.json}`; chuyên đề tổng hợp tại `docs/data/{subject}/topics/`.
+- **Pipeline sinh dữ liệu:** `scripts/extract_legacy_packs.py` -> `scripts/chapter_data/*.py` -> `scripts/build_lms_data.py` -> `scripts/verify_lms_integrity.py` (phải PASS 100%).
+- **Tiến độ người học:** lưu trong `localStorage` (khóa `semesterhub.progress.v1`).
 

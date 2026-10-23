@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "system_name": "Academic Knowledge & Study System",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Registry of core agent skills for PDF ingestion, hybrid academic retrieval, and curriculum-grounded study assistance.",
   "skills": [
     {
@@ -115,6 +115,8 @@
       "version": "1.0.0",
       "entrypoint": "src/skills/chapter_study_pack_generator.py",
       "guide": ".antigravity/skills/chapter_study_pack_generator.md",
+      "status": "superseded",
+      "superseded_by": "lms_chapter_pack_generator",
       "description": "Chuyển hóa chương giáo trình Markdown và tóm tắt NotebookLM thành Gói học liệu tương tác hoàn chỉnh gồm 4 phần: Executive Summary (Mermaid.js), 10+ câu Trắc nghiệm, 5+ câu Trả lời ngắn, 3+ bài Tự luận/Thiết kế kèm đáp án ẩn trong thẻ details.",
       "capabilities": [
         "generate_study_pack",
@@ -140,6 +142,46 @@
         "target_file": {
           "type": "string",
           "description": "Đường dẫn file output trong docs/courses/."
+        }
+      }
+    },
+    {
+      "id": "lms_chapter_pack_generator",
+      "name": "Interactive LMS Chapter Pack Generator",
+      "version": "2.0.0",
+      "entrypoint": "scripts/build_lms_data.py",
+      "guide": ".antigravity/skills/lms_chapter_pack_generator.md",
+      "description": "Biến đổi chương giáo trình Markdown thành gói dữ liệu tách biệt cho Static SPA LMS: {chapter_id}_theory.md (lý thuyết + Mermaid + LaTeX) và {chapter_id}_exercises.json (30 trắc nghiệm Easy/Medium/Hard, 8 trả lời ngắn, 4 tự luận), dùng chung cho mọi môn học. Chấm điểm theo lô (Batch Submission).",
+      "capabilities": [
+        "generate_theory_markdown",
+        "generate_exercises_json",
+        "build_courses_manifest",
+        "verify_lms_integrity"
+      ],
+      "input_paths": {
+        "parsed_markdown_root": "data/parsed_markdown",
+        "notebooklm_summaries_root": "data/notebook_exports",
+        "question_authoring_root": "scripts/chapter_data"
+      },
+      "output_paths": {
+        "lms_data_root": "docs/data",
+        "manifest": "docs/data/courses_manifest.json"
+      },
+      "quality_targets": {
+        "multiple_choice_per_chapter": 30,
+        "difficulty_matrix": {"easy": 10, "medium": 12, "hard": 8},
+        "short_answers_per_chapter": 8,
+        "essays_per_chapter": 4
+      },
+      "verification": "scripts/verify_lms_integrity.py",
+      "parameters": {
+        "subject_code": {
+          "type": "string",
+          "description": "Mã thư mục môn học (ví dụ: he_qtcsdl)."
+        },
+        "chapter_id": {
+          "type": "string",
+          "description": "Mã chương, ví dụ q1_chuong_1."
         }
       }
     }

@@ -1,0 +1,488 @@
+{
+ "chapter_id": "q1_chuong_4",
+ "chapter_title": "Quyển 1 - Chương 4: Ngôn ngữ truy vấn SQL toàn diện",
+ "multiple_choice": [
+  {
+   "id": 1,
+   "difficulty": "easy",
+   "question": "Trong câu lệnh SQL `SELECT`, mệnh đề nào sau đây được bộ máy xử lý truy vấn (Query Engine) thực thi ĐẦU TIÊN về mặt logic?",
+   "options": {
+    "A": "`WHERE`",
+    "B": "`SELECT`",
+    "C": "`FROM`",
+    "D": "`ORDER BY`"
+   },
+   "correct_answer": "C",
+   "explanation": "Mệnh đề `FROM` (kèm các phép `JOIN`) được thực thi đầu tiên để xác định nguồn tập dữ liệu cơ sở trước khi lọc dòng bằng `WHERE`."
+  },
+  {
+   "id": 2,
+   "difficulty": "easy",
+   "question": "Sự khác biệt căn bản giữa hai mệnh đề `WHERE` và `HAVING` trong SQL là:",
+   "options": {
+    "A": "`WHERE` chỉ dùng cho số nguyên, `HAVING` dùng cho chuỗi ký tự.",
+    "B": "`HAVING` luôn được thực thi trước `WHERE`.",
+    "C": "`WHERE` lọc dữ liệu trên từng bản ghi đơn lẻ trước khi gom nhóm, còn `HAVING` lọc trên các nhóm sau khi áp dụng hàm tổng hợp.",
+    "D": "`WHERE` có thể chứa hàm `COUNT()`, còn `HAVING` thì không thể."
+   },
+   "correct_answer": "C",
+   "explanation": "`WHERE` không thể chứa hàm tổng hợp vì nó lọc trước khi nhóm được tạo thành. Để lọc trên kết quả tổng hợp (ví dụ: `COUNT(*) > 5`), bắt buộc phải dùng `HAVING`."
+  },
+  {
+   "id": 3,
+   "difficulty": "easy",
+   "question": "Để tìm kiếm các sinh viên có họ bắt đầu bằng chữ `'Nguyễn'` trong bảng `SINHVIEN`, mệnh đề `WHERE` nào sau đây là chuẩn xác?",
+   "options": {
+    "A": "`WHERE HoTen IN ('Nguyễn')`",
+    "B": "`WHERE HoTen = 'Nguyễn%'`",
+    "C": "`WHERE HoTen LIKE N'%Nguyễn'`",
+    "D": "`WHERE HoTen LIKE N'Nguyễn%'`"
+   },
+   "correct_answer": "D",
+   "explanation": "Toán tử `LIKE` kết hợp ký tự đại diện `%` (đại diện cho chuỗi ký tự bất kỳ) và tiền tố `N` (chuỗi Unicode) cho phép tìm kiếm chuỗi bắt đầu bằng cụm từ `'Nguyễn'`."
+  },
+  {
+   "id": 4,
+   "difficulty": "easy",
+   "question": "Câu lệnh nào sau đây xóa toàn bộ dữ liệu trong bảng `DONHANG` nhưng vẫn giữ nguyên cấu trúc bảng và giải phóng không gian khối đĩa nhanh hơn câu lệnh `DELETE`?",
+   "options": {
+    "A": "`DROP TABLE DONHANG`",
+    "B": "`REMOVE TABLE DONHANG`",
+    "C": "`TRUNCATE TABLE DONHANG`",
+    "D": "`ALTER TABLE DONHANG CLEAR`"
+   },
+   "correct_answer": "C",
+   "explanation": "`TRUNCATE TABLE` là lệnh DDL xóa toàn bộ các dòng bằng cách hủy cấp phát các trang dữ liệu (deallocating data pages), không ghi nhật ký từng dòng như `DELETE`, do đó chạy nhanh hơn rất nhiều và giữ nguyên lược đồ bảng."
+  },
+  {
+   "id": 5,
+   "difficulty": "easy",
+   "question": "Khi thực hiện phép `LEFT JOIN` giữa bảng `A` và bảng `B`, nếu một dòng của bảng `A` không tìm thấy bất kỳ dòng nào khớp điều kiện trong bảng `B`, các cột thuộc về bảng `B` ở dòng kết quả đó sẽ mang giá trị:",
+   "options": {
+    "A": "Số 0",
+    "B": "`NULL`",
+    "C": "Giá trị mặc định của bảng A",
+    "D": "Chuỗi rỗng `''`"
+   },
+   "correct_answer": "B",
+   "explanation": "Trong các phép Outer Join, khi không có dòng khớp điều kiện, hệ quản trị CSDL tự động điền giá trị `NULL` vào tất cả các cột của bảng thiếu dữ liệu."
+  },
+  {
+   "id": 6,
+   "difficulty": "easy",
+   "question": "Toán tử nào sau đây trong SQL kiểm tra xem một truy vấn con (Subquery) có trả về **ít nhất một dòng dữ liệu** hay không?",
+   "options": {
+    "A": "`ALL`",
+    "B": "`IN`",
+    "C": "`BETWEEN`",
+    "D": "`EXISTS`"
+   },
+   "correct_answer": "D",
+   "explanation": "`EXISTS (SELECT ...)` trả về giá trị `TRUE` ngay khi truy vấn con tìm thấy dòng đầu tiên thỏa mãn mà không cần nạp toàn bộ kết quả vào bộ nhớ, mang lại hiệu năng cao."
+  },
+  {
+   "id": 7,
+   "difficulty": "easy",
+   "question": "Cho câu lệnh:\n```sql\nSELECT MaKhoa, COUNT(MaSV) AS SoLuong\nFROM SINHVIEN\nWHERE DiemTB >= 5.0\nGROUP BY MaKhoa\nHAVING COUNT(MaSV) >= 30\nORDER BY SoLuong DESC;\n```\nTrật tự lọc dữ liệu của câu lệnh trên diễn ra như thế nào?",
+   "options": {
+    "A": "Gom nhóm theo `MaKhoa`, lọc sinh viên có `DiemTB >= 5.0`, đếm số lượng rồi sắp xếp.",
+    "B": "Sắp xếp trước rồi mới lọc `WHERE`.",
+    "C": "Lọc `HAVING` trước rồi mới lọc `WHERE`.",
+    "D": "Lọc sinh viên có `DiemTB >= 5.0`, gom nhóm theo `MaKhoa`, lọc nhóm có số lượng $\\ge 30$, sắp xếp giảm dần."
+   },
+   "correct_answer": "D",
+   "explanation": "`WHERE` lọc các cá thể có `DiemTB >= 5.0` trước, sau đó hệ thống mới thực hiện `GROUP BY MaKhoa`, tiếp theo dùng `HAVING` để loại các nhóm có dưới 30 sinh viên, cuối cùng là `ORDER BY`."
+  },
+  {
+   "id": 8,
+   "difficulty": "easy",
+   "question": "Hàm tổng hợp `COUNT(*)` khác với `COUNT(TenCot)` ở điểm nào?",
+   "options": {
+    "A": "`COUNT(*)` đếm tất cả các dòng kể cả dòng chứa giá trị `NULL`, trong khi `COUNT(TenCot)` bỏ qua các dòng mà `TenCot` nhận giá trị `NULL`.",
+    "B": "`COUNT(*)` chỉ đếm được tối đa 100 dòng.",
+    "C": "Không có điểm nào khác nhau.",
+    "D": "`COUNT(TenCot)` luôn chạy nhanh hơn `COUNT(*)`."
+   },
+   "correct_answer": "A",
+   "explanation": "`COUNT(*)` đếm số lượng bộ dữ liệu trong bảng/nhóm. `COUNT(TenCot)` chỉ đếm các giá trị khác `NULL` tại thuộc tính đó."
+  },
+  {
+   "id": 9,
+   "difficulty": "easy",
+   "question": "Ràng buộc nào sau đây bảo đảm rằng hai bản ghi khác nhau trong cùng một bảng không thể có cùng giá trị trên một thuộc tính, nhưng vẫn cho phép tồn tại giá trị `NULL`?",
+   "options": {
+    "A": "`UNIQUE`",
+    "B": "`NOT NULL`",
+    "C": "`PRIMARY KEY`",
+    "D": "`FOREIGN KEY`"
+   },
+   "correct_answer": "A",
+   "explanation": "Ràng buộc `UNIQUE` đảm bảo tính duy nhất không trùng lặp nhưng theo chuẩn SQL vẫn chấp nhận chứa giá trị `NULL` (khác với `PRIMARY KEY` nghiêm cấm `NULL`)."
+  },
+  {
+   "id": 10,
+   "difficulty": "easy",
+   "question": "Để kết hợp kết quả của hai câu lệnh `SELECT` và **loại bỏ các dòng trùng lặp**, ta sử dụng toán tử tập hợp nào?",
+   "options": {
+    "A": "`UNION ALL`",
+    "B": "`UNION`",
+    "C": "`MINUS ALL`",
+    "D": "`INTERSECT ALL`"
+   },
+   "correct_answer": "B",
+   "explanation": "`UNION` tự động thực hiện phép khử trùng (Duplicate Elimination). Nếu muốn giữ lại cả các dòng trùng lặp để tối ưu tốc độ, ta dùng `UNION ALL`."
+  },
+  {
+   "difficulty": "medium",
+   "question": "Điều kiện `Diem BETWEEN 5 AND 8` tương đương với:",
+   "options": {
+    "A": "`Diem > 5 AND Diem < 8`",
+    "B": "`Diem >= 5 OR Diem <= 8`",
+    "C": "`Diem > 5 AND Diem <= 8`",
+    "D": "`Diem >= 5 AND Diem <= 8`"
+   },
+   "correct_answer": "D",
+   "explanation": "`BETWEEN` bao gồm cả hai đầu mút.",
+   "id": 11
+  },
+  {
+   "difficulty": "medium",
+   "question": "Biểu thức nào đếm số khoa khác nhau có sinh viên trong bảng `SINHVIEN`?",
+   "options": {
+    "A": "`COUNT(DISTINCT MaKhoa)`",
+    "B": "`COUNT(MaKhoa)`",
+    "C": "`COUNT(*)`",
+    "D": "`SUM(DISTINCT MaKhoa)`"
+   },
+   "correct_answer": "A",
+   "explanation": "`COUNT(DISTINCT col)` đếm số giá trị khác nhau không `NULL`.",
+   "id": 12
+  },
+  {
+   "difficulty": "medium",
+   "question": "Trong SQL Server, câu lệnh nào lấy 3 sinh viên có `DiemTB` cao nhất?",
+   "options": {
+    "A": "`SELECT TOP 3 * FROM SINHVIEN ORDER BY DiemTB DESC`",
+    "B": "`SELECT * FROM SINHVIEN ORDER BY DiemTB DESC WHERE ROWNUM <= 3`",
+    "C": "`SELECT 3 * FROM SINHVIEN`",
+    "D": "`SELECT TOP 3 * FROM SINHVIEN ORDER BY DiemTB ASC`"
+   },
+   "correct_answer": "A",
+   "explanation": "`TOP n` kết hợp `ORDER BY ... DESC`. Ý D lấy ba người thấp nhất; ý B sai cú pháp (`WHERE` đứng sau `ORDER BY`).",
+   "id": 13
+  },
+  {
+   "difficulty": "medium",
+   "question": "Để tìm sinh viên chưa có `DiemTB` (giá trị rỗng), ta viết:",
+   "options": {
+    "A": "`WHERE DiemTB IS NULL`",
+    "B": "`WHERE DiemTB = NULL`",
+    "C": "`WHERE DiemTB = 0`",
+    "D": "`WHERE DiemTB = ''`"
+   },
+   "correct_answer": "A",
+   "explanation": "`NULL` không so sánh được bằng `=`; so sánh với `NULL` cho kết quả UNKNOWN. Phải dùng `IS NULL`.",
+   "id": 14
+  },
+  {
+   "difficulty": "medium",
+   "question": "Câu lệnh `SELECT MaKhoa, HoTen, COUNT(*) FROM SINHVIEN GROUP BY MaKhoa` bị lỗi vì:",
+   "options": {
+    "A": "Thiếu mệnh đề `ORDER BY`",
+    "B": "`MaKhoa` là khóa chính",
+    "C": "Không được dùng `COUNT(*)`",
+    "D": "`HoTen` không nằm trong `GROUP BY` cũng không là hàm tổng hợp"
+   },
+   "correct_answer": "D",
+   "explanation": "Các cột ở `SELECT` phải thuộc `GROUP BY` hoặc nằm trong hàm tổng hợp.",
+   "id": 15
+  },
+  {
+   "difficulty": "medium",
+   "question": "Điểm khác nhau giữa `UNION` và `UNION ALL` là:",
+   "options": {
+    "A": "`UNION ALL` chỉ dùng cho cùng một bảng",
+    "B": "`UNION` giữ dòng trùng, `UNION ALL` loại trùng",
+    "C": "`UNION` loại trùng, `UNION ALL` giữ toàn bộ dòng",
+    "D": "Cả hai giống hệt nhau"
+   },
+   "correct_answer": "C",
+   "explanation": "`UNION` tương ứng phép hợp tập hợp (khử trùng, kèm bước sắp xếp/băm), `UNION ALL` giữ nguyên nên nhanh hơn.",
+   "id": 16
+  },
+  {
+   "difficulty": "medium",
+   "question": "Lược đồ `KETQUA(MaSV)` có khóa ngoại tham chiếu `SINHVIEN(MaSV) ON DELETE CASCADE`. Khi xóa một sinh viên:",
+   "options": {
+    "A": "Cột `MaSV` trong `KETQUA` được đặt `NULL`",
+    "B": "Các dòng `KETQUA` của sinh viên đó bị xóa theo",
+    "C": "Không có gì thay đổi trong `KETQUA`",
+    "D": "Lệnh xóa bị từ chối nếu còn kết quả"
+   },
+   "correct_answer": "B",
+   "explanation": "`CASCADE` lan truyền thao tác xóa sang bảng con.",
+   "id": 17
+  },
+  {
+   "difficulty": "medium",
+   "question": "Cột `Diem` của 3 dòng có giá trị `6`, `NULL`, `8`. Kết quả `SELECT AVG(Diem)` là:",
+   "options": {
+    "A": "`4.67`",
+    "B": "`7`",
+    "C": "`NULL`",
+    "D": "`14`"
+   },
+   "correct_answer": "B",
+   "explanation": "Hàm tổng hợp bỏ qua `NULL`: $(6+8)/2 = 7$.",
+   "id": 18
+  },
+  {
+   "difficulty": "medium",
+   "question": "`INNER JOIN` giữa `SINHVIEN` và `KHOA` trên `MaKhoa` trả về:",
+   "options": {
+    "A": "Mọi sinh viên, kể cả sinh viên chưa có khoa",
+    "B": "Mọi khoa kể cả khoa chưa có sinh viên",
+    "C": "Chỉ các cặp sinh viên - khoa thỏa điều kiện nối",
+    "D": "Tích Descartes của hai bảng"
+   },
+   "correct_answer": "C",
+   "explanation": "`INNER JOIN` chỉ giữ các cặp khớp điều kiện.",
+   "id": 19
+  },
+  {
+   "difficulty": "medium",
+   "question": "Câu lệnh `SELECT DiemTB*10 AS D FROM SINHVIEN WHERE D > 50` bị lỗi vì:",
+   "options": {
+    "A": "`WHERE` được thực hiện trước `SELECT`, nên bí danh `D` chưa tồn tại",
+    "B": "`AS` chỉ dùng trong `ORDER BY`",
+    "C": "Thiếu `GROUP BY`",
+    "D": "Không thể nhân cột số với hằng"
+   },
+   "correct_answer": "A",
+   "explanation": "Thứ tự logic: `FROM` -> `WHERE` -> `GROUP BY` -> `HAVING` -> `SELECT` -> `ORDER BY`. Bí danh chỉ dùng được từ `ORDER BY` trở đi.",
+   "id": 20
+  },
+  {
+   "difficulty": "medium",
+   "question": "Từ khóa `DISTINCT` trong `SELECT DISTINCT MaKhoa FROM SINHVIEN` có tác dụng:",
+   "options": {
+    "A": "Loại bỏ các dòng kết quả trùng nhau",
+    "B": "Chỉ lấy dòng đầu tiên",
+    "C": "Đếm số dòng",
+    "D": "Sắp xếp kết quả"
+   },
+   "correct_answer": "A",
+   "explanation": "`DISTINCT` khử các dòng trùng ở kết quả chiếu.",
+   "id": 21
+  },
+  {
+   "difficulty": "medium",
+   "question": "Toán tử nào kiểm tra một giá trị có nằm trong tập kết quả của truy vấn con không?",
+   "options": {
+    "A": "`BETWEEN`",
+    "B": "`IS`",
+    "C": "`LIKE`",
+    "D": "`IN`"
+   },
+   "correct_answer": "D",
+   "explanation": "`x IN (SELECT ...)` đúng khi `x` bằng ít nhất một giá trị của truy vấn con.",
+   "id": 22
+  },
+  {
+   "difficulty": "hard",
+   "question": "Truy vấn nào cho sinh viên có `DiemTB` cao nhất (kể cả khi có nhiều người đồng hạng)?",
+   "options": {
+    "A": "`SELECT * FROM SINHVIEN WHERE DiemTB = MAX(DiemTB)`",
+    "B": "`SELECT * FROM SINHVIEN WHERE DiemTB = (SELECT MAX(DiemTB) FROM SINHVIEN)`",
+    "C": "`SELECT MAX(DiemTB), HoTen FROM SINHVIEN`",
+    "D": "`SELECT TOP 1 * FROM SINHVIEN ORDER BY DiemTB DESC`"
+   },
+   "correct_answer": "B",
+   "explanation": "Ý D chỉ lấy một người; ý A dùng hàm tổng hợp trong `WHERE` (sai); ý C thiếu `GROUP BY`. Ý B trả về mọi sinh viên đồng hạng.",
+   "id": 23
+  },
+  {
+   "difficulty": "hard",
+   "question": "`KHACHHANG(MaKH)` và `HOADON(MaKH)`, trong đó `HOADON.MaKH` có chứa ít nhất một giá trị `NULL`. Kết quả `SELECT MaKH FROM KHACHHANG WHERE MaKH NOT IN (SELECT MaKH FROM HOADON)` là:",
+   "options": {
+    "A": "Toàn bộ khách hàng",
+    "B": "Danh sách khách hàng chưa có hóa đơn",
+    "C": "Báo lỗi cú pháp",
+    "D": "Tập rỗng"
+   },
+   "correct_answer": "D",
+   "explanation": "`x NOT IN (..., NULL)` cho UNKNOWN với mọi `x` không nằm trong tập nên không dòng nào thỏa. Nên dùng `NOT EXISTS` hoặc lọc `WHERE MaKH IS NOT NULL` trong truy vấn con.",
+   "id": 24
+  },
+  {
+   "difficulty": "hard",
+   "question": "Câu lệnh nào đúng cú pháp để liệt kê các khoa có hơn 2 sinh viên?",
+   "options": {
+    "A": "`SELECT MaKhoa FROM SINHVIEN HAVING COUNT(*) > 2`",
+    "B": "`SELECT MaKhoa FROM SINHVIEN WHERE COUNT(*) > 2 GROUP BY MaKhoa`",
+    "C": "`SELECT MaKhoa FROM SINHVIEN GROUP BY MaKhoa HAVING COUNT(*) > 2`",
+    "D": "`SELECT MaKhoa, COUNT(*) > 2 FROM SINHVIEN`"
+   },
+   "correct_answer": "C",
+   "explanation": "Điều kiện trên hàm tổng hợp phải đặt trong `HAVING` sau `GROUP BY`.",
+   "id": 25
+  },
+  {
+   "difficulty": "hard",
+   "question": "Truy vấn nào tìm sinh viên đã học TẤT CẢ các môn (giả sử `KETQUA` không có dòng trùng cặp `(MaSV,MaMH)`)?",
+   "options": {
+    "A": "`SELECT MaSV FROM KETQUA GROUP BY MaSV HAVING COUNT(DISTINCT MaMH) = (SELECT COUNT(*) FROM MONHOC)`",
+    "B": "`SELECT MaSV FROM KETQUA INNER JOIN MONHOC ON 1 = 1`",
+    "C": "`SELECT MaSV FROM KETQUA GROUP BY MaSV HAVING COUNT(MaMH) > 0`",
+    "D": "`SELECT MaSV FROM KETQUA WHERE MaMH IN (SELECT MaMH FROM MONHOC)`"
+   },
+   "correct_answer": "A",
+   "explanation": "Số môn khác nhau sinh viên đã học phải bằng tổng số môn: cài đặt phép chia bằng đếm. Có thể dùng `NOT EXISTS` lồng nhau.",
+   "id": 26
+  },
+  {
+   "difficulty": "hard",
+   "question": "Bảng `A` có 3 dòng, `B` có 4 dòng. Trong phép `A LEFT JOIN B`, dòng `a1` khớp 2 dòng `B`, `a2` không khớp dòng nào, `a3` khớp 1 dòng `B`. Số dòng kết quả là:",
+   "options": {
+    "A": "12",
+    "B": "4",
+    "C": "3",
+    "D": "5"
+   },
+   "correct_answer": "B",
+   "explanation": "$a_1$ cho 2 dòng, $a_2$ cho 1 dòng (cột $B$ là `NULL`), $a_3$ cho 1 dòng. Tổng $2+1+1 = 4$.",
+   "id": 27
+  },
+  {
+   "difficulty": "hard",
+   "question": "Mệnh đề nào sau đây CÓ THỂ dùng bí danh cột được định nghĩa ở `SELECT`?",
+   "options": {
+    "A": "`GROUP BY` (trong SQL chuẩn)",
+    "B": "`HAVING` (trong SQL chuẩn)",
+    "C": "`WHERE`",
+    "D": "`ORDER BY`"
+   },
+   "correct_answer": "D",
+   "explanation": "`ORDER BY` thực hiện sau `SELECT` nên dùng được bí danh.",
+   "id": 28
+  },
+  {
+   "difficulty": "hard",
+   "question": "Truy vấn `SELECT * FROM SINHVIEN s1 WHERE DiemTB > (SELECT AVG(DiemTB) FROM SINHVIEN s2 WHERE s2.MaKhoa = s1.MaKhoa)` trả về:",
+   "options": {
+    "A": "Toàn bộ sinh viên",
+    "B": "Sinh viên có điểm cao hơn trung bình toàn trường",
+    "C": "Sinh viên có điểm thấp hơn trung bình khoa",
+    "D": "Sinh viên có điểm cao hơn trung bình của chính khoa mình"
+   },
+   "correct_answer": "D",
+   "explanation": "Truy vấn con tương quan (correlated) tính trung bình riêng theo khoa của từng dòng ngoài.",
+   "id": 29
+  },
+  {
+   "difficulty": "hard",
+   "question": "Bảng lương `{10, 10, 8}`. Kết quả `SELECT MAX(Luong) FROM NV WHERE Luong < (SELECT MAX(Luong) FROM NV)` là:",
+   "options": {
+    "A": "10",
+    "B": "NULL",
+    "C": "18",
+    "D": "8"
+   },
+   "correct_answer": "D",
+   "explanation": "Truy vấn con trả `10`; sau đó chọn lương nhỏ hơn 10 là `{8}`, `MAX` là `8` (mức lương cao thứ nhì theo giá trị khác nhau).",
+   "id": 30
+  }
+ ],
+ "short_answers": [
+  {
+   "id": 1,
+   "question": "Cho bảng `SANPHAM(MaSP, TenSP, DonGia)`. Viết câu lệnh SQL cập nhật tăng giá bán thêm 15% cho tất cả các sản phẩm có `DonGia < 100000`.",
+   "expected_answer": "```sql\nUPDATE SANPHAM\nSET DonGia = DonGia * 1.15\nWHERE DonGia < 100000;\n```",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 2,
+   "question": "Cho bảng `NHANVIEN(MaNV, HoTen, Luong, MaPhong)`. Viết câu lệnh SQL tìm mức lương cao thứ nhì trong toàn bộ công ty (không sử dụng hàm phân tích xếp hạng).",
+   "expected_answer": "```sql\nSELECT MAX(Luong) AS LuongCaoThuNhi\nFROM NHANVIEN\nWHERE Luong < (SELECT MAX(Luong) FROM NHANVIEN);\n```",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 3,
+   "question": "Viết câu lệnh SQL tìm các phòng ban (`MaPhong`) có tổng quỹ lương lớn hơn 100 triệu đồng.",
+   "expected_answer": "```sql\nSELECT MaPhong, SUM(Luong) AS TongLuong\nFROM NHANVIEN\nGROUP BY MaPhong\nHAVING SUM(Luong) > 100000000;\n```",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 4,
+   "question": "Cho bảng `KHACHHANG(MaKH, TenKH)` và `HOADON(SoHD, MaKH)`. Viết câu lệnh SQL sử dụng `NOT EXISTS` để tìm danh sách các khách hàng chưa từng mua hàng.",
+   "expected_answer": "```sql\nSELECT k.MaKH, k.TenKH\nFROM KHACHHANG k\nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM HOADON h \n    WHERE h.MaKH = k.MaKH\n);\n```",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "id": 5,
+   "question": "Viết câu lệnh SQL `ALTER TABLE` thêm ràng buộc kiểm tra trên bảng `HOCVIEN` bảo đảm rằng cột `Diem` phải nằm trong khoảng từ 0.0 đến 10.0.",
+   "expected_answer": "```sql\nALTER TABLE HOCVIEN\nADD CONSTRAINT CK_HocVien_Diem CHECK (Diem >= 0.0 AND Diem <= 10.0);\n```",
+   "explanation": "Đối chiếu đáp án chuẩn ở trên với bài làm của bạn; chú ý các ký hiệu và thứ tự thao tác."
+  },
+  {
+   "question": "Viết SQL liệt kê tên khoa và số sinh viên, chỉ giữ khoa có từ 50 sinh viên trở lên, sắp giảm dần theo số sinh viên.",
+   "expected_answer": "```sql\nSELECT K.TenKhoa, COUNT(*) AS SoSV\nFROM KHOA K JOIN SINHVIEN S ON S.MaKhoa = K.MaKhoa\nGROUP BY K.MaKhoa, K.TenKhoa\nHAVING COUNT(*) >= 50\nORDER BY SoSV DESC;\n```",
+   "explanation": "Điều kiện trên `COUNT(*)` phải ở `HAVING`; bí danh `SoSV` dùng được trong `ORDER BY`.",
+   "id": 6
+  },
+  {
+   "question": "Viết SQL tìm mã sinh viên đã học tất cả các môn học.",
+   "expected_answer": "```sql\nSELECT MaSV\nFROM KETQUA\nGROUP BY MaSV\nHAVING COUNT(DISTINCT MaMH) = (SELECT COUNT(*) FROM MONHOC);\n```",
+   "explanation": "Cách khác: `NOT EXISTS (MonHoc ... NOT EXISTS (KetQua ...))`.",
+   "id": 7
+  },
+  {
+   "question": "Viết SQL tăng 0.5 điểm cho mọi kết quả của sinh viên khoa `'CNTT'` nhưng không vượt quá 10.",
+   "expected_answer": "```sql\nUPDATE KETQUA\nSET Diem = CASE WHEN Diem + 0.5 > 10 THEN 10 ELSE Diem + 0.5 END\nWHERE MaSV IN (SELECT MaSV FROM SINHVIEN WHERE MaKhoa = 'CNTT');\n```",
+   "explanation": "`CASE` chặn trần 10; truy vấn con lọc theo khoa.",
+   "id": 8
+  }
+ ],
+ "essays": [
+  {
+   "id": 1,
+   "title": "Xây Dựng CSDL & Viết Truy Vấn Thống Kê Nâng Cao",
+   "problem": "Cho cơ sở dữ liệu Quản lý Đề án gồm các bảng:\n- `PHONGBAN(MaPB, TenPB, TruongPhong)`\n- `NHANVIEN(MaNV, HoTen, NgaySinh, Phai, Luong, MaPB)`\n- `DEAN(MaDA, TenDA, DiaDiem, MaPB)`\n- `PHANCONG(MaNV, MaDA, SoGio)`\n\n**Yêu cầu:**\n1. Viết câu lệnh SQL DDL tạo bảng `PHANCONG` có đầy đủ khóa chính, 2 khóa ngoại và ràng buộc kiểm tra `SoGio > 0`.\n2. Cho biết họ tên nhân viên và tên đề án mà nhân viên đó tham gia với số giờ làm việc cao nhất trong từng đề án.\n3. Thống kê theo từng phòng ban gồm: `MaPB`, `TenPB`, `SoLuongNhanVien`, `LuongTrungBinh`, chỉ hiển thị những phòng ban có từ 5 nhân viên trở lên và sắp xếp giảm dần theo lương trung bình.",
+   "solution_steps": [
+    "Câu 1: DDL Tạo Bảng PHANCONG\n```sql\nCREATE TABLE PHANCONG (\n    MaNV VARCHAR(10) NOT NULL,\n    MaDA VARCHAR(10) NOT NULL,\n    SoGio DECIMAL(5, 2) NOT NULL,\n    CONSTRAINT PK_PhanCong PRIMARY KEY (MaNV, MaDA),\n    CONSTRAINT FK_PhanCong_NhanVien FOREIGN KEY (MaNV) REFERENCES NHANVIEN(MaNV),\n    CONSTRAINT FK_PhanCong_DeAn FOREIGN KEY (MaDA) REFERENCES DEAN(MaDA),\n    CONSTRAINT CK_PhanCong_SoGio CHECK (SoGio > 0)\n);\n```",
+    "Câu 2: Nhân viên có số giờ làm việc cao nhất trong từng đề án\nSử dụng truy vấn con tương quan (Correlated Subquery):\n```sql\nSELECT nv.HoTen, da.TenDA, pc.SoGio\nFROM PHANCONG pc\nJOIN NHANVIEN nv ON pc.MaNV = nv.MaNV\nJOIN DEAN da ON pc.MaDA = da.MaDA\nWHERE pc.SoGio = (\n    SELECT MAX(pc_sub.SoGio)\n    FROM PHANCONG pc_sub\n    WHERE pc_sub.MaDA = pc.MaDA\n);\n```",
+    "Câu 3: Thống kê phòng ban có từ 5 nhân viên trở lên\n```sql\nSELECT \n    pb.MaPB,\n    pb.TenPB,\n    COUNT(nv.MaNV) AS SoLuongNhanVien,\n    ROUND(AVG(nv.Luong), 2) AS LuongTrungBinh\nFROM PHONGBAN pb\nJOIN NHANVIEN nv ON pb.MaPB = nv.MaPB\nGROUP BY pb.MaPB, pb.TenPB\nHAVING COUNT(nv.MaNV) >= 5\nORDER BY LuongTrungBinh DESC;\n```"
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Chuyển Đổi Phép Chia Đại Số Sang SQL (Universal Quantification)",
+   "problem": "Trong quản lý đào tạo, ta có `SINHVIEN(MaSV, HoTen)`, `MONHOC(MaMH, TenMH)` và `KETQUA(MaSV, MaMH, DiemThi)`.\nHãy viết câu lệnh SQL tìm sinh viên (`MaSV`, `HoTen`) đã thi đạt (`DiemThi >= 5.0`) **tất cả** các môn học của nhà trường bằng 2 cách tiếp cận khác nhau:\n1. Cách 1: Sử dụng kỹ thuật gom nhóm và so sánh số lượng (`GROUP BY ... HAVING COUNT(...)`).\n2. Cách 2: Sử dụng hai lần phủ định với toán tử `NOT EXISTS` (tư duy logic: Không tồn tại môn học nào mà sinh viên đó chưa thi đạt).",
+   "solution_steps": [
+    "Cách 1: Sử dụng GROUP BY và HAVING COUNT(DISTINCT)\n```sql\nSELECT sv.MaSV, sv.HoTen\nFROM SINHVIEN sv\nJOIN KETQUA kq ON sv.MaSV = kq.MaSV\nWHERE kq.DiemThi >= 5.0\nGROUP BY sv.MaSV, sv.HoTen\nHAVING COUNT(DISTINCT kq.MaMH) = (SELECT COUNT(*) FROM MONHOC);\n```",
+    "Cách 2: Sử dụng 2 lần phủ định NOT EXISTS (Chuẩn đại số quan hệ)\n```sql\nSELECT sv.MaSV, sv.HoTen\nFROM SINHVIEN sv\nWHERE NOT EXISTS (\n    -- Tìm môn học\n    SELECT mh.MaMH\n    FROM MONHOC mh\n    WHERE NOT EXISTS (\n        -- Mà sinh viên sv ĐÃ THI ĐẠT\n        SELECT 1\n        FROM KETQUA kq\n        WHERE kq.MaSV = sv.MaSV \n          AND kq.MaMH = mh.MaMH \n          AND kq.DiemThi >= 5.0\n    )\n);\n```"
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Tối Ưu Hóa Truy Vấn Bằng Phân Tích Kế Hoạch Thực Thi (Execution Plan)",
+   "problem": "Xét câu lệnh truy vấn sau trên bảng có hàng triệu dòng dữ liệu:\n```sql\nSELECT HoTen, Luong\nFROM NHANVIEN\nWHERE YEAR(NgaySinh) = 1995;\n```\n1. Hãy chỉ ra tại sao việc sử dụng hàm `YEAR(NgaySinh)` trong mệnh đề `WHERE` sẽ làm vô hiệu hóa chỉ mục (Index Seek) trên cột `NgaySinh` và buộc DBMS phải quét toàn bộ bảng (Table Scan / Index Scan)?\n2. Viết lại câu lệnh SQL trên theo cách tối ưu nhất (SARGable Query) để tận dụng chỉ mục B-Tree trên cột `NgaySinh`.",
+   "solution_steps": [
+    "Bước 1: Phân tích hiện tượng Non-SARGable\n- Trong chỉ mục B-Tree, các khóa được sắp xếp dựa trên giá trị thô ban đầu của cột `NgaySinh` (dạng ngày tháng `YYYY-MM-DD`).\n- Khi viết `WHERE YEAR(NgaySinh) = 1995`, hệ quản trị CSDL buộc phải duyệt qua từng dòng một trong bảng, áp dụng hàm `YEAR()` để tính toán rồi mới so sánh. Điều này gọi là **Non-SARGable (Search Argument Able)**, biến thao tác tìm kiếm theo nhánh cây nhị phân $O(\\log N)$ thành duyệt tuyến tính $O(N)$ (Table Scan), gây suy giảm nghiêm trọng hiệu năng hệ thống.",
+    "Bước 2: Viết lại câu lệnh tối ưu (SARGable)\nThay vì bọc hàm lên cột dữ liệu, ta chuyển thành so sánh khoảng giá trị trực tiếp:\n```sql\nSELECT HoTen, Luong\nFROM NHANVIEN\nWHERE NgaySinh >= '1995-01-01' AND NgaySinh <= '1995-12-31';\n```\nVới cách viết này, DBMS sẽ sử dụng thao tác **Index Seek** để nhảy trực tiếp tới ngày đầu tiên của năm 1995 và duyệt tuần tự đến hết ngày cuối năm 1995 trên lá của cây B+ Tree, giảm số lượt I/O từ hàng triệu khối xuống chỉ còn vài khối đĩa."
+   ]
+  },
+  {
+   "title": "Viết các truy vấn thống kê nâng cao trên CSDL quản lý sinh viên",
+   "problem": "Với lược đồ `KHOA`, `SINHVIEN(MaSV, HoTen, MaKhoa, DiemTB)`, `MONHOC`, `KETQUA`. Viết SQL (T-SQL): a) 3 khoa có điểm trung bình sinh viên cao nhất; b) Sinh viên có `DiemTB` cao hơn trung bình khoa của mình; c) Sinh viên chưa đăng ký môn nào; d) Giải thích vì sao câu c) nên dùng `NOT EXISTS` thay vì `NOT IN`.",
+   "solution_steps": [
+    "Bước 1 - Câu a:\n```sql\nSELECT TOP 3 K.TenKhoa, AVG(S.DiemTB) AS DTB\nFROM KHOA K JOIN SINHVIEN S ON S.MaKhoa = K.MaKhoa\nGROUP BY K.MaKhoa, K.TenKhoa\nORDER BY DTB DESC;\n```",
+    "Bước 2 - Câu b (truy vấn tương quan):\n```sql\nSELECT S1.*\nFROM SINHVIEN S1\nWHERE S1.DiemTB > (SELECT AVG(S2.DiemTB) FROM SINHVIEN S2 WHERE S2.MaKhoa = S1.MaKhoa);\n```",
+    "Bước 3 - Câu c:\n```sql\nSELECT S.*\nFROM SINHVIEN S\nWHERE NOT EXISTS (SELECT 1 FROM KETQUA K WHERE K.MaSV = S.MaSV);\n```",
+    "Bước 4 - Giải thích: `NOT IN` cho kết quả sai (rỗng) nếu truy vấn con chứa `NULL` do logic ba giá trị; `NOT EXISTS` chỉ kiểm tra sự tồn tại nên không bị ảnh hưởng và thường được tối ưu thành anti-join.",
+    "Kết luận: kết hợp `JOIN`, `GROUP BY`, truy vấn con tương quan và `NOT EXISTS` giải quyết các bài toán thống kê và phủ định phổ biến."
+   ],
+   "id": 4
+  }
+ ]
+}

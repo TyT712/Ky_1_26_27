@@ -1,0 +1,241 @@
+{
+ "version": 1,
+ "courses": [
+  {
+   "id": "he_qtcsdl",
+   "code": "HQTCSDL",
+   "title": "Hệ Quản Trị Cơ Sở Dữ Liệu",
+   "description": "Nhập môn CSDL, mô hình E-R, đại số quan hệ, SQL, tối ưu truy vấn, ràng buộc toàn vẹn và lý thuyết chuẩn hóa.",
+   "status": "active",
+   "books": [
+    {
+     "id": "quyen_1",
+     "title": "Quyển 1: Nhập môn CSDL (Chương 1 - 6)",
+     "chapters": [
+      {
+       "id": "q1_chuong_1",
+       "number": 1,
+       "title": "Tổng quan về CSDL & kiến trúc ANSI/SPARC",
+       "full_title": "Quyển 1 - Chương 1: Tổng quan về CSDL & kiến trúc ANSI/SPARC",
+       "summary": "DBMS, ba mức trừu tượng, độc lập dữ liệu, DDL/DML/DCL và tính chất ACID.",
+       "theory": "data/he_qtcsdl/q1_chuong_1_theory.md",
+       "exercises": "data/he_qtcsdl/q1_chuong_1_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "q1_chuong_2",
+       "number": 2,
+       "title": "Mô hình thực thể - liên kết (E-R) & chuyển đổi sang mô hình quan hệ",
+       "full_title": "Quyển 1 - Chương 2: Mô hình thực thể - liên kết (E-R) & chuyển đổi sang mô hình quan hệ",
+       "summary": "Thực thể, thuộc tính, bản số, thực thể yếu và 7 quy tắc ánh xạ E-R sang quan hệ.",
+       "theory": "data/he_qtcsdl/q1_chuong_2_theory.md",
+       "exercises": "data/he_qtcsdl/q1_chuong_2_exercises.json",
+       "counts": {
+        "multiple_choice": 31,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "q1_chuong_3",
+       "number": 3,
+       "title": "Mô hình quan hệ & Đại số quan hệ",
+       "full_title": "Quyển 1 - Chương 3: Mô hình quan hệ & Đại số quan hệ",
+       "summary": "Các phép toán σ, π, ∪, ∩, −, ×, ⋈, ÷ và quy tắc biến đổi biểu thức.",
+       "theory": "data/he_qtcsdl/q1_chuong_3_theory.md",
+       "exercises": "data/he_qtcsdl/q1_chuong_3_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "q1_chuong_4",
+       "number": 4,
+       "title": "Ngôn ngữ truy vấn SQL toàn diện",
+       "full_title": "Quyển 1 - Chương 4: Ngôn ngữ truy vấn SQL toàn diện",
+       "summary": "DDL/DML/DQL, JOIN, GROUP BY - HAVING, truy vấn con và thứ tự thực thi.",
+       "theory": "data/he_qtcsdl/q1_chuong_4_theory.md",
+       "exercises": "data/he_qtcsdl/q1_chuong_4_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "q1_chuong_5",
+       "number": 5,
+       "title": "Tổ chức vật lý dữ liệu & chỉ mục B/B+",
+       "full_title": "Quyển 1 - Chương 5: Tổ chức vật lý dữ liệu & chỉ mục B/B+",
+       "summary": "Hệ số kết khối, tệp đống/tuần tự/băm, chỉ mục chính-phụ-gom cụm và cây B+.",
+       "theory": "data/he_qtcsdl/q1_chuong_5_theory.md",
+       "exercises": "data/he_qtcsdl/q1_chuong_5_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "q1_chuong_6",
+       "number": 6,
+       "title": "Xử lý & tối ưu hóa câu hỏi truy vấn",
+       "full_title": "Quyển 1 - Chương 6: Xử lý & tối ưu hóa câu hỏi truy vấn",
+       "summary": "Cây truy vấn, tối ưu heuristic, tối ưu theo chi phí và các thuật toán join.",
+       "theory": "data/he_qtcsdl/q1_chuong_6_theory.md",
+       "exercises": "data/he_qtcsdl/q1_chuong_6_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      }
+     ]
+    },
+    {
+     "id": "quyen_2",
+     "title": "Quyển 2: Thiết kế CSDL (Chương 1 - 5)",
+     "chapters": [
+      {
+       "id": "q2_chuong_1",
+       "number": 1,
+       "title": "Ràng buộc toàn vẹn & kỹ thuật cài đặt Trigger",
+       "full_title": "Quyển 2 - Chương 1: Ràng buộc toàn vẹn & kỹ thuật cài đặt Trigger",
+       "summary": "Bốn yếu tố của RBTV, bảng tầm ảnh hưởng, bảng ảo INSERTED/DELETED, Trigger T-SQL.",
+       "theory": "data/he_qtcsdl/q2_chuong_1_theory.md",
+       "exercises": "data/he_qtcsdl/q2_chuong_1_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "q2_chuong_2",
+       "number": 2,
+       "title": "Phụ thuộc hàm, bao đóng & thuật toán tìm khóa",
+       "full_title": "Quyển 2 - Chương 2: Phụ thuộc hàm, bao đóng & thuật toán tìm khóa",
+       "summary": "Hệ tiên đề Armstrong, bao đóng, tìm khóa và phủ tối thiểu.",
+       "theory": "data/he_qtcsdl/q2_chuong_2_theory.md",
+       "exercises": "data/he_qtcsdl/q2_chuong_2_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "q2_chuong_3",
+       "number": 3,
+       "title": "Lý thuyết phân tách lược đồ & bảo toàn thông tin",
+       "full_title": "Quyển 2 - Chương 3: Lý thuyết phân tách lược đồ & bảo toàn thông tin",
+       "summary": "Bộ giả, điều kiện nối không mất thông tin, bảng Chase, bảo toàn phụ thuộc hàm.",
+       "theory": "data/he_qtcsdl/q2_chuong_3_theory.md",
+       "exercises": "data/he_qtcsdl/q2_chuong_3_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "q2_chuong_4",
+       "number": 4,
+       "title": "Chuẩn hóa CSDL (1NF-BCNF) & thuật toán Bernstein",
+       "full_title": "Quyển 2 - Chương 4: Chuẩn hóa CSDL (1NF-BCNF) & thuật toán Bernstein",
+       "summary": "Định nghĩa 1NF/2NF/3NF/BCNF, phân tách BCNF và tổng hợp 3NF.",
+       "theory": "data/he_qtcsdl/q2_chuong_4_theory.md",
+       "exercises": "data/he_qtcsdl/q2_chuong_4_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "q2_chuong_5",
+       "number": 5,
+       "title": "Phụ thuộc đa trị (MVD) & dạng chuẩn 4NF",
+       "full_title": "Quyển 2 - Chương 5: Phụ thuộc đa trị (MVD) & dạng chuẩn 4NF",
+       "summary": "MVD, luật bù, định lý Fagin và chuẩn hóa 4NF.",
+       "theory": "data/he_qtcsdl/q2_chuong_5_theory.md",
+       "exercises": "data/he_qtcsdl/q2_chuong_5_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      }
+     ]
+    }
+   ],
+   "topics": [
+    {
+     "id": "chuan_hoa_csdl_1nf_2nf_3nf_bcnf",
+     "title": "Tóm tắt Học thuật: Chuẩn hóa Dữ liệu (1NF, 2NF, 3NF, BCNF) (Xuất từ NotebookLM)",
+     "file": "data/he_qtcsdl/topics/chuan_hoa_csdl_1nf_2nf_3nf_bcnf_summary.md"
+    },
+    {
+     "id": "dai_so_quan_he_va_rang_buoc",
+     "title": "Tóm tắt Học thuật: Đại số Quan hệ & Ràng buộc Toàn vẹn (Xuất từ NotebookLM)",
+     "file": "data/he_qtcsdl/topics/dai_so_quan_he_va_rang_buoc_summary.md"
+    },
+    {
+     "id": "ly_thuyet_phan_tach_va_bao_toan",
+     "title": "Tóm tắt Học thuật: Lý thuyết Phân tách Lược đồ Quan hệ (Xuất từ NotebookLM)",
+     "file": "data/he_qtcsdl/topics/ly_thuyet_phan_tach_va_bao_toan_summary.md"
+    },
+    {
+     "id": "mo_hinh_er_va_chuyen_doi",
+     "title": "Tóm tắt Học thuật: Mô hình E-R & Quy tắc Chuyển đổi sang Lược đồ Quan hệ (Xuất từ NotebookLM)",
+     "file": "data/he_qtcsdl/topics/mo_hinh_er_va_chuyen_doi_summary.md"
+    },
+    {
+     "id": "ngon_ngu_sql_va_truy_van_nang_cao",
+     "title": "Tóm tắt Học thuật: Ngôn ngữ SQL & Kỹ thuật Truy vấn Nâng cao (Xuất từ NotebookLM)",
+     "file": "data/he_qtcsdl/topics/ngon_ngu_sql_va_truy_van_nang_cao_summary.md"
+    },
+    {
+     "id": "phu_thuoc_da_tri_va_4nf",
+     "title": "Tóm tắt Học thuật: Phụ thuộc Đa trị & Dạng chuẩn 4 (4NF) (Xuất từ NotebookLM)",
+     "file": "data/he_qtcsdl/topics/phu_thuoc_da_tri_va_4nf_summary.md"
+    },
+    {
+     "id": "phu_thuoc_ham_va_thuat_toan_tim_khoa",
+     "title": "Tóm tắt Học thuật: Phụ thuộc Hàm, Bao đóng & Thuật toán Tìm Khóa (Xuất từ NotebookLM)",
+     "file": "data/he_qtcsdl/topics/phu_thuoc_ham_va_thuat_toan_tim_khoa_summary.md"
+    },
+    {
+     "id": "rang_buoc_toan_ven_va_trigger",
+     "title": "Tóm tắt Học thuật: Ràng buộc Toàn vẹn & Xử lý Vi phạm bằng Trigger (Xuất từ NotebookLM)",
+     "file": "data/he_qtcsdl/topics/rang_buoc_toan_ven_va_trigger_summary.md"
+    },
+    {
+     "id": "to_chuc_vat_ly_va_toi_uu_cau_hoi",
+     "title": "TỔ CHỨC VẬT LÝ DỮ LIỆU & TỐI ƯU HÓA CÂU HỎI TRUY VÂN",
+     "file": "data/he_qtcsdl/topics/to_chuc_vat_ly_va_toi_uu_cau_hoi_summary.md"
+    },
+    {
+     "id": "tong_quan_csdl_va_kien_truc",
+     "title": "Tóm tắt Học thuật: Tổng quan Cơ sở Dữ liệu & Kiến trúc Hệ QTCSDL (Xuất từ NotebookLM)",
+     "file": "data/he_qtcsdl/topics/tong_quan_csdl_va_kien_truc_summary.md"
+    }
+   ]
+  },
+  {
+   "id": "giai_tich_1",
+   "code": "GT1",
+   "title": "Giải Tích 1",
+   "description": "Giới hạn, đạo hàm và ứng dụng. Học liệu đang được chuẩn bị.",
+   "status": "coming_soon",
+   "books": [],
+   "topics": []
+  }
+ ]
+}
