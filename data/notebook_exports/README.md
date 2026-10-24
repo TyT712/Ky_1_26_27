@@ -21,6 +21,14 @@ data/notebook_exports/
 │   ├── ly_thuyet_phan_tach_va_bao_toan_summary.md
 │   ├── chuan_hoa_csdl_1nf_2nf_3nf_bcnf_summary.md
 │   └── phu_thuoc_da_tri_va_4nf_summary.md
+├── cnxhkh/
+│   ├── su_ra_doi_va_phat_trien_cnxhkh_summary.md
+│   ├── su_menh_lich_su_giai_cap_cong_nhan_summary.md
+│   ├── chu_nghia_xa_hoi_va_thoi_ky_qua_do_summary.md
+│   ├── dan_chu_va_nha_nuoc_phap_quyen_xhcn_summary.md
+│   ├── co_cau_giai_cap_va_lien_minh_cong_nong_tri_summary.md
+│   ├── van_de_dan_toc_va_ton_giao_summary.md
+│   └── xay_dung_gia_dinh_thoi_ky_qua_do_summary.md
 └── cau_truc_du_lieu/
     ├── danh_sach_lien_ket_key_points.md
     └── do_phuc_tap_thuat_toan_notes.md

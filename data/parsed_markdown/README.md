@@ -23,6 +23,14 @@ data/parsed_markdown/
 │   ├── quyen_2_thiet_ke_chuong_3.md
 │   ├── quyen_2_thiet_ke_chuong_4.md
 │   └── quyen_2_thiet_ke_chuong_5.md
+├── cnxhkh/
+│   ├── chuong_1_nhap_mon_cnxhkh.md
+│   ├── chuong_2_su_menh_lich_su_giai_cap_cong_nhan.md
+│   ├── chuong_3_chu_nghia_xa_hoi_va_thoi_ky_qua_do.md
+│   ├── chuong_4_dan_chu_xhcn_va_nha_nuoc_xhcn.md
+│   ├── chuong_5_co_cau_xa_hoi_giai_cap_va_lien_minh.md
+│   ├── chuong_6_van_de_dan_toc_va_ton_giao.md
+│   └── chuong_7_van_de_gia_dinh.md
 └── cau_truc_du_lieu/
     ├── cay_nhi_phan.md
     └── do_thi.md

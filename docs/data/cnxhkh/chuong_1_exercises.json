@@ -1,0 +1,490 @@
+{
+ "chapter_id": "chuong_1",
+ "chapter_title": "Chương 1: Nhập môn Chủ nghĩa xã hội khoa học",
+ "multiple_choice": [
+  {
+   "id": 1,
+   "difficulty": "easy",
+   "question": "Chủ nghĩa xã hội khoa học là một trong mấy bộ phận cấu thành chủ nghĩa Mác - Lênin?",
+   "options": {
+    "A": "Hai bộ phận",
+    "B": "Ba bộ phận",
+    "C": "Bốn bộ phận",
+    "D": "Năm bộ phận"
+   },
+   "correct_answer": "B",
+   "explanation": "Chủ nghĩa Mác - Lênin gồm ba bộ phận cấu thành hữu cơ: Triết học Mác - Lênin, Kinh tế chính trị Mác - Lênin và Chủ nghĩa xã hội khoa học."
+  },
+  {
+   "id": 2,
+   "difficulty": "easy",
+   "question": "Tác phẩm nào đánh dấu sự ra đời chính thức của Chủ nghĩa xã hội khoa học?",
+   "options": {
+    "A": "Tư bản",
+    "B": "Phê phán Cương lĩnh Gôta",
+    "C": "Tuyên ngôn của Đảng Cộng sản",
+    "D": "Chống Đuy-rinh"
+   },
+   "correct_answer": "C",
+   "explanation": "Tác phẩm 'Tuyên ngôn của Đảng Cộng sản' do C.Mác và Ph.Ăngghen soạn thảo, xuất bản tháng 2/1848, là văn kiện đánh dấu sự ra đời của CNXHKH."
+  },
+  {
+   "id": 3,
+   "difficulty": "easy",
+   "question": "Cuộc khởi nghĩa nào của công nhân dệt diễn ra vào năm 1831 và 1834 đánh dấu bước trưởng thành chính trị của giai cấp vô sản Pháp?",
+   "options": {
+    "A": "Khởi nghĩa Lyon",
+    "B": "Khởi nghĩa Xilêzi",
+    "C": "Phong trào Hiến chương",
+    "D": "Công xã Pari"
+   },
+   "correct_answer": "A",
+   "explanation": "Khởi nghĩa của thợ dệt ở thành phố Lyon (Pháp) nổ ra năm 1831 với khẩu hiệu 'Sống có việc làm hay chết trong đấu tranh' và tiếp tục năm 1834."
+  },
+  {
+   "id": 4,
+   "difficulty": "easy",
+   "question": "Phong trào Hiến chương là phong trào đấu tranh chính trị quần chúng rộng lớn của giai cấp công nhân ở quốc gia nào?",
+   "options": {
+    "A": "Pháp",
+    "B": "Đức",
+    "C": "Nước Anh",
+    "D": "Nước Nga"
+   },
+   "correct_answer": "C",
+   "explanation": "Phong trào Hiến chương diễn ra ở Anh từ năm 1836 đến 1848, là phong trào chính trị quần chúng đầu tiên mang tính chất vô sản."
+  },
+  {
+   "id": 5,
+   "difficulty": "easy",
+   "question": "Đâu KHÔNG phải là một trong ba phát minh lớn của khoa học tự nhiên thế kỷ XIX làm tiền đề cho chủ nghĩa Mác?",
+   "options": {
+    "A": "Học thuyết tế bào",
+    "B": "Định luật bảo toàn và chuyển hóa năng lượng",
+    "C": "Thuyết tiến hóa của Đác-uyn",
+    "D": "Thuyết tương đối của Anh-xtanh"
+   },
+   "correct_answer": "D",
+   "explanation": "Thuyết tương đối của Albert Einstein ra đời đầu thế kỷ XX, không thuộc ba phát minh KHTN thế kỷ XIX làm tiền đề cho chủ nghĩa Mác."
+  },
+  {
+   "id": 6,
+   "difficulty": "easy",
+   "question": "Ai là đại biểu tiêu biểu nhất của nền Triết học cổ điển Đức mà C.Mác đã kế thừa phép biện chứng?",
+   "options": {
+    "A": "Hêghen (G.W.F. Hegel)",
+    "B": "L. Phoiơbắc",
+    "C": "I. Kant",
+    "D": "F. Schelling"
+   },
+   "correct_answer": "A",
+   "explanation": "C.Mác và Ph.Ăngghen đã kế thừa 'hạt nhân hợp lý' trong phép biện chứng của Hêghen và cải tạo trên lập trường duy vật."
+  },
+  {
+   "id": 7,
+   "difficulty": "easy",
+   "question": "Hai nhà tư tưởng tiêu biểu của trường phái Kinh tế chính trị học cổ điển Anh là tiền đề lý luận của chủ nghĩa Mác là:",
+   "options": {
+    "A": "A. Smith và D. Ricardo",
+    "B": "K. Marx và F. Engels",
+    "C": "J.S. Mill và J. Bentham",
+    "D": "J.M. Keynes và M. Friedman"
+   },
+   "correct_answer": "A",
+   "explanation": "Adam Smith và David Ricardo là đại biểu xuất sắc của Kinh tế chính trị cổ điển Anh với học thuyết giá trị lao động."
+  },
+  {
+   "id": 8,
+   "difficulty": "easy",
+   "question": "Ai là những đại diện xuất sắc của Chủ nghĩa xã hội không tưởng - phê phán đầu thế kỷ XIX ở Pháp và Anh?",
+   "options": {
+    "A": "Xanh Ximông, Sáclơ Phuriê và Rôbớt Ôoen",
+    "B": "C.Mác, Ph.Ăngghen và V.I.Lênin",
+    "C": "Hêghen, Phoiơbắc và Can-tơ",
+    "D": "Rút-xô, Mông-te-xki-ơ và Vôn-te"
+   },
+   "correct_answer": "A",
+   "explanation": "H. Xanh Ximông, S. Phuriê (Pháp) và R. Ôoen (Anh) là các nhà xã hội chủ nghĩa không tưởng - phê phán vĩ đại."
+  },
+  {
+   "id": 9,
+   "difficulty": "easy",
+   "question": "Hạn chế lịch sử lớn nhất của Chủ nghĩa xã hội không tưởng trước Mác là gì?",
+   "options": {
+    "A": "Không phê phán gay gắt xã hội tư bản",
+    "B": "Không thấy được sứ mệnh lịch sử của giai cấp công nhân và không tìm ra con đường đấu tranh cách mạng",
+    "C": "Không mong muốn xây dựng xã hội công bằng",
+    "D": "Không có tinh thần nhân đạo sâu sắc"
+   },
+   "correct_answer": "B",
+   "explanation": "Các nhà không tưởng không phát hiện ra lực lượng xã hội tiên phong là giai cấp công nhân và chủ trương dùng con đường hòa bình, khuyên nhủ giai cấp tư sản."
+  },
+  {
+   "id": 10,
+   "difficulty": "easy",
+   "question": "Phát kiến vĩ đại thứ nhất của C.Mác và Ph.Ăngghen trong triết học là gì?",
+   "options": {
+    "A": "Chủ nghĩa duy vật lịch sử",
+    "B": "Học thuyết giá trị thặng dư",
+    "C": "Sứ mệnh lịch sử của giai cấp công nhân",
+    "D": "Lý thuyết đấu tranh giai cấp"
+   },
+   "correct_answer": "A",
+   "explanation": "Chủ nghĩa duy vật lịch sử là phát kiến vĩ đại đầu tiên, chỉ rõ quy luật vận động nội tại của các hình thái kinh tế - xã hội."
+  },
+  {
+   "id": 11,
+   "difficulty": "medium",
+   "question": "Phát kiến vĩ đại thứ hai của C.Mác và Ph.Ăngghen trong lĩnh vực kinh tế chính trị là gì?",
+   "options": {
+    "A": "Học thuyết phân chia lao động",
+    "B": "Học thuyết giá trị thặng dư",
+    "C": "Học thuyết lợi nhuận bình quân",
+    "D": "Học thuyết địa tô chênh lệch"
+   },
+   "correct_answer": "B",
+   "explanation": "Học thuyết giá trị thặng dư là phát kiến vĩ đại thứ hai, vạch trần bí mật bóc lột của phương thức sản xuất tư bản chủ nghĩa."
+  },
+  {
+   "id": 12,
+   "difficulty": "medium",
+   "question": "Phát kiến vĩ đại thứ ba của C.Mác và Ph.Ăngghen - kết luận trực tiếp dẫn tới sự ra đời của CNXHKH là:",
+   "options": {
+    "A": "Học thuyết về nhà nước chuyên chính vô sản",
+    "B": "Học thuyết về sứ mệnh lịch sử của giai cấp công nhân",
+    "C": "Học thuyết về chiến tranh nhân dân",
+    "D": "Học thuyết về liên minh công nông"
+   },
+   "correct_answer": "B",
+   "explanation": "Học thuyết về sứ mệnh lịch sử toàn thế giới của giai cấp công nhân là phát kiến vĩ đại thứ ba, khắc phục hoàn toàn hạn chế của chủ nghĩa xã hội không tưởng."
+  },
+  {
+   "id": 13,
+   "difficulty": "medium",
+   "question": "Sự kiện lịch sử nào vào năm 1871 được C.Mác xem là hình thái nhà nước chuyên chính vô sản đầu tiên trong lịch sử nhân loại?",
+   "options": {
+    "A": "Cách mạng Tháng Mười Nga",
+    "B": "Cách mạng tư sản Pháp 1789",
+    "C": "Công xã Pari",
+    "D": "Khởi nghĩa dệt Lyon"
+   },
+   "correct_answer": "C",
+   "explanation": "Công xã Pari (1871) tồn tại 72 ngày, là cuộc thử nghiệm vĩ đại đầu tiên về nhà nước của giai cấp công nhân và nhân dân lao động."
+  },
+  {
+   "id": 14,
+   "difficulty": "medium",
+   "question": "Trong tác phẩm 'Phê phán Cương lĩnh Gôta' (1875), C.Mác đã đưa ra luận điểm khoa học quan trọng nào?",
+   "options": {
+    "A": "Phân kỳ hình thái kinh tế - xã hội cộng sản chủ nghĩa thành hai giai đoạn (thấp và cao)",
+    "B": "Kêu gọi thành lập Quốc tế I",
+    "C": "Lần đầu tiên đưa ra khái niệm giá trị thặng dư",
+    "D": "Phê phán chủ nghĩa thực dân"
+   },
+   "correct_answer": "A",
+   "explanation": "C.Mác đã phân chia hình thái CSCN thành 2 giai đoạn: giai đoạn thấp (CNXH) và giai đoạn cao (CNCS), ở giữa là thời kỳ quá độ chính trị."
+  },
+  {
+   "id": 15,
+   "difficulty": "medium",
+   "question": "Luận điểm: 'Cách mạng vô sản có thể nổ ra và thắng lợi trước hết ở một số nước, thậm chí ở một nước riêng lẻ' là phát hiện sáng tạo của ai?",
+   "options": {
+    "A": "C.Mác",
+    "B": "Ph.Ăngghen",
+    "C": "V.I.Lênin",
+    "D": "Hồ Chí Minh"
+   },
+   "correct_answer": "C",
+   "explanation": "V.I.Lênin dựa trên quy luật phát triển không đều của CNTB thời kỳ đế quốc chủ nghĩa đã chỉ ra cách mạng vô sản có thể thắng lợi trước hết ở khâu yếu nhất."
+  },
+  {
+   "id": 16,
+   "difficulty": "medium",
+   "question": "Chính sách kinh tế nào được V.I.Lênin đề xướng vào năm 1921 nhằm khôi phục nước Nga Xô viết sau chiến tranh?",
+   "options": {
+    "A": "Chính sách cộng sản thời chiến",
+    "B": "Chính sách kinh tế mới (NEP)",
+    "C": "Kế hoạch 5 năm lần thứ nhất",
+    "D": "Chính sách công nghiệp hóa tập thể"
+   },
+   "correct_answer": "B",
+   "explanation": "Chính sách kinh tế mới (NEP - 1921) thay thế chính sách cộng sản thời chiến, chấp nhận nền kinh tế nhiều thành phần và kinh tế hàng hóa."
+  },
+  {
+   "id": 17,
+   "difficulty": "medium",
+   "question": "Đối tượng nghiên cứu của Chủ nghĩa xã hội khoa học là gì?",
+   "options": {
+    "A": "Các quy luật chung nhất của tự nhiên, xã hội và tư duy",
+    "B": "Các quy luật kinh tế của phương thức sản xuất tư bản chủ nghĩa",
+    "C": "Các quy luật và tính quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển của hình thái KT-XH cộng sản chủ nghĩa",
+    "D": "Toàn bộ lịch sử văn minh nhân loại"
+   },
+   "correct_answer": "C",
+   "explanation": "CNXHKH nghiên cứu các quy luật và tính quy luật chính trị - xã hội của quá trình chuyển biến từ CNTB lên CNXH và CNCS."
+  },
+  {
+   "id": 18,
+   "difficulty": "medium",
+   "question": "Mối quan hệ giữa Chủ nghĩa xã hội khoa học với Triết học và Kinh tế chính trị Mác - Lênin là gì?",
+   "options": {
+    "A": "CNXHKH độc lập hoàn toàn và không liên quan đến hai bộ phận kia",
+    "B": "CNXHKH là sự kết luận logic tất yếu về mặt chính trị - xã hội của Triết học và Kinh tế chính trị",
+    "C": "CNXHKH ra đời trước Triết học Mác",
+    "D": "CNXHKH chỉ nghiên cứu lý thuyết trừu tượng"
+   },
+   "correct_answer": "B",
+   "explanation": "Triết học cung cấp thế giới quan và phương pháp luận; Kinh tế chính trị cung cấp cơ sở kinh tế; CNXHKH là kết luận chính trị - xã hội trực tiếp."
+  },
+  {
+   "id": 19,
+   "difficulty": "medium",
+   "question": "Phương pháp nghiên cứu đặc thù và quan trọng hàng đầu của môn Chủ nghĩa xã hội khoa học là:",
+   "options": {
+    "A": "Phương pháp toán học và mô phỏng số",
+    "B": "Phương pháp thực nghiệm sinh học",
+    "C": "Phương pháp kết hợp logic và lịch sử",
+    "D": "Phương pháp phỏng vấn tâm lý cá nhân"
+   },
+   "correct_answer": "C",
+   "explanation": "Phương pháp kết hợp logic và lịch sử giúp nhìn nhận sự kiện chính trị - xã hội trong tiến trình phát triển khách quan gắn liền với bản chất quy luật."
+  },
+  {
+   "id": 20,
+   "difficulty": "medium",
+   "question": "Văn kiện nào của Đảng Cộng sản Việt Nam khởi xướng đường lối Đổi mới toàn diện đất nước?",
+   "options": {
+    "A": "Nghị quyết Đại hội IV (1976)",
+    "B": "Nghị quyết Đại hội V (1982)",
+    "C": "Nghị quyết Đại hội VI (1986)",
+    "D": "Cương lĩnh năm 1991"
+   },
+   "correct_answer": "C",
+   "explanation": "Đại hội VI (tháng 12/1986) của Đảng Cộng sản Việt Nam đã mở ra bước ngoặt lịch sử với đường lối Đổi mới toàn diện đất nước."
+  },
+  {
+   "id": 21,
+   "difficulty": "hard",
+   "question": "Điều kiện kinh tế sâu xa dẫn đến sự xuất hiện của phong trào công nhân vào những năm 40 thế kỷ XIX là gì?",
+   "options": {
+    "A": "Sự xuất hiện của công trường thủ công",
+    "B": "Sự hoàn thành của cuộc cách mạng công nghiệp làm cho LLSX mang tính xã hội hóa mâu thuẫn với QHSX chiếm hữu tư nhân TBCN",
+    "C": "Sự cạn kiệt tài nguyên thiên nhiên ở các nước châu Âu",
+    "D": "Sự sụp đổ của hệ thống các ngân hàng thương mại tư bản"
+   },
+   "correct_answer": "B",
+   "explanation": "Cách mạng công nghiệp đưa nền sản xuất lên trình độ cơ khí hóa, xã hội hóa cao, dẫn tới mâu thuẫn đối kháng gay gắt với quan hệ chiếm hữu tư nhân TBCN."
+  },
+  {
+   "id": 22,
+   "difficulty": "hard",
+   "question": "Tại sao nói 'Tuyên ngôn của Đảng Cộng sản' đánh dấu sự biến chuyển chủ nghĩa xã hội từ không tưởng thành khoa học?",
+   "options": {
+    "A": "Vì tác phẩm được in bằng nhiều thứ tiếng nhất trên thế giới",
+    "B": "Vì đã tìm ra giai cấp công nhân là lực lượng cách mạng và con đường đấu tranh giải phóng dựa trên quy luật khách quan",
+    "C": "Vì tác phẩm kêu gọi xóa bỏ hoàn toàn máy móc hiện đại",
+    "D": "Vì tác phẩm phủ nhận toàn bộ lịch sử nhân loại trước đó"
+   },
+   "correct_answer": "B",
+   "explanation": "Tuyên ngôn đã chỉ ra quy luật phát triển khách quan, xác định đúng lực lượng xã hội gánh vác sứ mệnh là giai cấp vô sản và vũ trang cho họ phương pháp cách mạng."
+  },
+  {
+   "id": 23,
+   "difficulty": "hard",
+   "question": "Sự chuyển biến tư tưởng của C.Mác và Ph.Ăngghen trong giai đoạn 1843 - 1844 diễn ra như thế nào?",
+   "options": {
+    "A": "Từ chủ nghĩa vô thần sang chủ nghĩa hữu thần",
+    "B": "Từ chủ nghĩa duy vật sang chủ nghĩa duy tâm",
+    "C": "Từ chủ nghĩa duy tâm sang chủ nghĩa duy vật, từ lập trường dân chủ cách mạng sang lập trường cộng sản chủ nghĩa",
+    "D": "Từ lập trường cộng sản sang lập trường cải lương xã hội"
+   },
+   "correct_answer": "C",
+   "explanation": "Hai ông đã hoàn thành cuộc chuyển biến căn bản: về triết học từ duy tâm sang duy vật; về chính trị từ dân chủ cách mạng sang cộng sản chủ nghĩa."
+  },
+  {
+   "id": 24,
+   "difficulty": "hard",
+   "question": "Tác phẩm nào của Ph.Ăngghen được xem là bách khoa toàn thư của chủ nghĩa Mác, trình bày có hệ thống cả ba bộ phận cấu thành?",
+   "options": {
+    "A": "Biện chứng của tự nhiên",
+    "B": "Chống Đuy-rinh",
+    "C": "Nguồn gốc của gia đình, của chế độ tư hữu và của nhà nước",
+    "D": "Tình cảnh giai cấp công nhân Anh"
+   },
+   "correct_answer": "B",
+   "explanation": "Tác phẩm 'Chống Đuy-rinh' (1878) của Ph.Ăngghen gồm 3 phần: Triết học, Kinh tế chính trị và Chủ nghĩa xã hội, trình bày hoàn chỉnh hệ thống lý luận Mác."
+  },
+  {
+   "id": 25,
+   "difficulty": "hard",
+   "question": "Trong tác phẩm nào V.I.Lênin đã chuẩn bị trực tiếp về mặt lý luận cho việc đập tan bộ máy nhà nước tư sản và thiết lập chuyên chính vô sản ở Nga?",
+   "options": {
+    "A": "Làm gì?",
+    "B": "Hai sách lược của Đảng dân chủ - xã hội trong cách mạng dân chủ",
+    "C": "Nhà nước và cách mạng",
+    "D": "Bệnh ấu trĩ 'tả khuynh' trong phong trào cộng sản"
+   },
+   "correct_answer": "C",
+   "explanation": "Tác phẩm 'Nhà nước và cách mạng' (1917) của V.I.Lênin đã làm sáng tỏ bản chất nhà nước, chuyên chính vô sản và sự tiêu vong của nhà nước trong CNCS."
+  },
+  {
+   "id": 26,
+   "difficulty": "hard",
+   "question": "Sự sụp đổ của chế độ XHCN ở Liên Xô và Đông Âu vào đầu thập niên 90 của thế kỷ XX phản ánh điều gì?",
+   "options": {
+    "A": "Sự sụp đổ của học thuyết Mác - Lênin về CNXH",
+    "B": "Sự sụp đổ của một mô hình CNXH cụ thể có nhiều khuyết tật, giáo điều và sai lầm trong cải tổ",
+    "C": "Chủ nghĩa tư bản là đỉnh cao vĩnh cửu của văn minh nhân loại",
+    "D": "Phong trào giải phóng dân tộc đã kết thúc hoàn toàn"
+   },
+   "correct_answer": "B",
+   "explanation": "Đây là sự sụp đổ của một mô hình thực hiện cụ thể (mô hình Xô viết tập trung quan liêu bao cấp) chứ không đồng nghĩa với sự sụp đổ của lý tưởng và quy luật CNXH."
+  },
+  {
+   "id": 27,
+   "difficulty": "hard",
+   "question": "Chức năng thực tiễn cơ bản của việc học tập, nghiên cứu môn Chủ nghĩa xã hội khoa học là:",
+   "options": {
+    "A": "Giúp ghi nhớ các niên đại lịch sử chiến tranh",
+    "B": "Định hướng hoạt động chính trị - xã hội, bảo vệ nền tảng tư tưởng và củng cố niềm tin vào con đường đi lên CNXH ở Việt Nam",
+    "C": "Học cách tính toán lợi nhuận siêu ngạch của doanh nghiệp",
+    "D": "Phát minh ra các công nghệ sản xuất tự động mới"
+   },
+   "correct_answer": "B",
+   "explanation": "CNXHKH giúp người học định hình lập trường chính trị vững vàng, hiểu rõ mục tiêu độc lập dân tộc gắn liền với CNXH và trách nhiệm công dân."
+  },
+  {
+   "id": 28,
+   "difficulty": "hard",
+   "question": "Luận điểm 'Vô sản tất cả các nước và các dân tộc bị áp bức, đoàn kết lại!' là khẩu hiệu chiến lược được phát triển bởi ai?",
+   "options": {
+    "A": "C.Mác",
+    "B": "Ph.Ăngghen",
+    "C": "V.I.Lênin",
+    "D": "Xanh Ximông"
+   },
+   "correct_answer": "C",
+   "explanation": "V.I.Lênin đã bổ sung thêm cụm từ 'và các dân tộc bị áp bức' vào khẩu hiệu nổi tiếng của C.Mác để gắn chặt phong trào công nhân với phong trào giải phóng thuộc địa."
+  },
+  {
+   "id": 29,
+   "difficulty": "hard",
+   "question": "Tính chất 'khoa học' của Chủ nghĩa xã hội khoa học được thể hiện rõ nét nhất ở điểm nào?",
+   "options": {
+    "A": "Dựa trên những phỏng đoán thuần túy của các thiên tài",
+    "B": "Dựa trên các quy luật vận động khách quan của lịch sử và phân tích thực chứng phương thức sản xuất tư bản",
+    "C": "Được công nhận bởi tất cả các chính phủ tư bản phương Tây",
+    "D": "Sử dụng nhiều công thức toán học phức tạp"
+   },
+   "correct_answer": "B",
+   "explanation": "CNXHKH mang tính khoa học vì xây dựng trên thế giới quan duy vật, luận giải quy luật mâu thuẫn khách quan của LLSX và QHSX, tìm ra động lực phát triển xã hội."
+  },
+  {
+   "id": 30,
+   "difficulty": "hard",
+   "question": "Cống hiến vĩ đại nhất của Chủ tịch Hồ Chí Minh đối với sự phát triển của CNXHKH ở Việt Nam là gì?",
+   "options": {
+    "A": "Áp dụng nguyên xi mô hình kinh tế bao cấp của Liên Xô",
+    "B": "Sáng tạo gắn độc lập dân tộc với chủ nghĩa xã hội, khẳng định cách mạng giải phóng dân tộc ở thuộc địa có thể giành thắng lợi trước chính quốc",
+    "C": "Kêu gọi xây dựng chủ nghĩa tư bản bản xứ trước khi làm cách mạng",
+    "D": "Chỉ chú trọng phát triển công nghiệp nặng"
+   },
+   "correct_answer": "B",
+   "explanation": "Hồ Chí Minh đã kết hợp nhuần nhuyễn chủ nghĩa yêu nước với chủ nghĩa Mác - Lênin, chỉ ra con đường cứu nước duy nhất: cách mạng vô sản, độc lập dân tộc gắn với CNXH."
+  }
+ ],
+ "short_answers": [
+  {
+   "id": 1,
+   "question": "Nêu 3 điều kiện tiền đề về khoa học tự nhiên thế kỷ XIX dẫn đến sự ra đời của Chủ nghĩa xã hội khoa học.",
+   "expected_answer": "1. **Định luật bảo toàn và chuyển hóa năng lượng:** Chứng minh sự thống nhất vật chất và sự chuyển hóa không ngừng của giới tự nhiên.\n2. **Học thuyết tế bào:** Chứng minh nguồn gốc thống nhất của sự sống sinh học.\n3. **Thuyết tiến hóa của Đác-uyn:** Chứng minh sự phát triển liên tục của các loài sinh vật qua chọn lọc tự nhiên.",
+   "explanation": "Ba phát minh này cung cấp cơ sở khoa học tự nhiên cho chủ nghĩa duy vật biện chứng và duy vật lịch sử."
+  },
+  {
+   "id": 2,
+   "question": "Liệt kê ba phát kiến vĩ đại của C.Mác và Ph.Ăngghen đưa chủ nghĩa xã hội từ không tưởng thành khoa học.",
+   "expected_answer": "1. **Chủ nghĩa duy vật lịch sử:** Phát hiện quy luật phát triển của các hình thái kinh tế - xã hội.\n2. **Học thuyết giá trị thặng dư:** Bóc trần bản chất bóc lột của phương thức sản xuất TBCN.\n3. **Học thuyết về sứ mệnh lịch sử toàn thế giới của giai cấp công nhân:** Xác định giai cấp lãnh đạo xóa bỏ CNTB và xây dựng CNXH.",
+   "explanation": "Ba phát kiến tạo nên nền tảng lý luận toàn diện của chủ nghĩa Mác."
+  },
+  {
+   "id": 3,
+   "question": "Tại sao tác phẩm 'Tuyên ngôn của Đảng Cộng sản' (1848) được coi là tác phẩm khai sinh Chủ nghĩa xã hội khoa học?",
+   "expected_answer": "Vì tác phẩm lần đầu tiên trình bày một cách có hệ thống, hoàn chỉnh và cô đọng các nguyên lý căn bản của CNXHKH: quy luật đấu tranh giai cấp, sứ mệnh lịch sử của giai cấp vô sản, sự tất yếu sụp đổ của CNTB và thắng lợi của CNXH, cũng như vai trò tiên phong của Đảng Cộng sản.",
+   "explanation": "Được công bố tháng 2/1848 tại Luân Đôn."
+  },
+  {
+   "id": 4,
+   "question": "Nêu 2 cống hiến lý luận nổi bật của V.I.Lênin trong giai đoạn trước Cách mạng Tháng Mười Nga (1917).",
+   "expected_answer": "1. Luận chứng về quy luật phát triển không đều của CNTB thời kỳ đế quốc chủ nghĩa, rút ra kết luận cách mạng vô sản có thể thắng lợi trước hết ở một số nước hoặc một nước riêng lẻ.\n2. Xây dựng lý luận về Đảng kiểu mới của giai cấp công nhân (Đảng Bônsêvích) có tổ chức chặt chẽ, kỷ luật sắt và lấy chủ nghĩa Mác làm kim chỉ nam.",
+   "explanation": "Lênin đã bảo vệ và phát triển sáng tạo chủ nghĩa Mác trong bối cảnh chủ nghĩa cơ hội lũng đoạn Quốc tế II."
+  },
+  {
+   "id": 5,
+   "question": "Chính sách kinh tế mới (NEP - 1921) của V.I.Lênin có ý nghĩa phương pháp luận như thế nào đối với thời kỳ quá độ lên CNXH?",
+   "expected_answer": "NEP khẳng định tính tất yếu của việc sử dụng nền kinh tế nhiều thành phần, quan hệ hàng hóa - tiền tệ, thương nghiệp và chủ nghĩa tư bản nhà nước để khôi phục kinh tế, phát triển lực lượng sản xuất và củng cố liên minh công nông trong thời kỳ quá độ.",
+   "explanation": "Là cơ sở lý luận gợi mở cho công cuộc Đổi mới ở Việt Nam sau này."
+  },
+  {
+   "id": 6,
+   "question": "Trình bày đối tượng nghiên cứu của bộ môn Chủ nghĩa xã hội khoa học.",
+   "expected_answer": "Là những quy luật và tính quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển của hình thái kinh tế - xã hội cộng sản chủ nghĩa; những nguyên tắc, điều kiện, con đường và phương pháp đấu tranh cách mạng của giai cấp công nhân nhằm thực hiện bước chuyển biến từ CNTB lên CNXH và CNCS.",
+   "explanation": "Phân biệt rõ đối tượng với Triết học (quy luật chung nhất) và Kinh tế chính trị (quy luật kinh tế)."
+  },
+  {
+   "id": 7,
+   "question": "Chủ nghĩa xã hội không tưởng - phê phán đầu thế kỷ XIX có những đóng góp tích cực nào mà C.Mác đã kế thừa?",
+   "expected_answer": "1. Phê phán gay gắt, sâu sắc bản chất bất công, vô nhân đạo và áp bức của chế độ tư bản chủ nghĩa.\n2. Phác thảo nhiều dự đoán thiên tài về các yếu tố tiến bộ của xã hội tương lai (bình đẳng lao động, giải phóng phụ nữ, kết hợp giáo dục với sản xuất).",
+   "explanation": "Đại diện là Xanh Ximông, Phuriê và Ôoen."
+  },
+  {
+   "id": 8,
+   "question": "Nêu ý nghĩa của việc học tập, nghiên cứu môn Chủ nghĩa xã hội khoa học đối với sinh viên Việt Nam hiện nay.",
+   "expected_answer": "1. Về nhận thức: Giúp sinh viên nắm vững bản chất khoa học và cách mạng của chủ nghĩa Mác - Lênin, hiểu rõ cơ sở lý luận con đường Đổi mới của đất nước.\n2. Về tư tưởng: Xây dựng bản lĩnh chính trị vững vàng, củng cố niềm tin vào lý tưởng XHCN, nhận diện và phản bác các luận điệu xuyên tạc, thù địch.",
+   "explanation": "Góp phần rèn luyện thế giới quan khoa học và tinh thần trách nhiệm với Tổ quốc."
+  }
+ ],
+ "essays": [
+  {
+   "id": 1,
+   "title": "Phân tích Điều kiện Kinh tế - Xã hội và Tiền đề Lý luận Dẫn đến Sự Ra Đời của CNXHKH",
+   "problem": "Hãy phân tích bối cảnh lịch sử những năm 40 thế kỷ XIX dẫn đến sự ra đời của Chủ nghĩa xã hội khoa học:\n1. Phân tích mâu thuẫn kinh tế - xã hội do cuộc cách mạng công nghiệp tạo ra.\n2. Đánh giá vai trò của ba phong trào công nhân lớn (Lyon, Hiến chương, Xilêzi).\n3. Trình bày các tiền đề tư tưởng lý luận trực tiếp và vai trò chuyển biến tư tưởng của C.Mác - Ph.Ăngghen.",
+   "solution_steps": [
+    "Bước 1: Điều kiện kinh tế - xã hội\n- Cuộc cách mạng công nghiệp ở Anh và Tây Âu đã đưa lực lượng sản xuất lên trình độ xã hội hóa cao độ.\n- Nảy sinh mâu thuẫn đối kháng sâu sắc: Lực lượng sản xuất mang tính xã hội ngày càng cao mâu thuẫn với Quan hệ sản xuất chiếm hữu tư nhân TBCN về tư liệu sản xuất.\n- Về mặt xã hội, mâu thuẫn này biểu hiện thành cuộc đối kháng giai cấp quyết liệt giữa Giai cấp vô sản (công nhân) và Giai cấp tư sản.",
+    "Bước 2: Sự trưởng thành của phong trào công nhân\n- Các cuộc khởi nghĩa tiêu biểu: Thợ dệt Lyon ở Pháp (1831, 1834), Phong trào Hiến chương ở Anh (1836 - 1848), Khởi nghĩa thợ dệt Xilêzi ở Đức (1844).\n- Ý nghĩa lịch sử: Đánh dấu giai cấp công nhân đã bước lên vũ đài chính trị như một lực lượng xã hội độc lập, có mục tiêu đấu tranh giai cấp riêng biệt. Tuy nhiên, các phong trào này đều thất bại vì thiếu một lý luận khoa học dẫn đường.",
+    "Bước 3: Tiền đề tư tưởng lý luận và cống hiến của C.Mác - Ph.Ăngghen\n- Kế thừa có phê phán: Phép biện chứng Triết học Đức, Học thuyết giá trị Kinh tế chính trị Anh, và Tư tưởng nhân đạo CNXH không tưởng Pháp - Anh.\n- Hai ông thực hiện bước chuyển tư tưởng lịch sử (1843-1844): từ chủ nghĩa duy tâm sang duy vật, từ lập trường dân chủ cách mạng sang cộng sản chủ nghĩa.\n- Sáng tạo ra ba phát kiến vĩ đại và công bố 'Tuyên ngôn của Đảng Cộng sản' (2/1848), biến CNXH từ không tưởng thành khoa học."
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Phân tích Ba Phát Kiến Vĩ Đại của C.Mác và Ph.Ăngghen",
+   "problem": "Trình bày nội dung và ý nghĩa lịch sử của ba phát kiến vĩ đại của C.Mác và Ph.Ăngghen:\n1. Chủ nghĩa duy vật lịch sử.\n2. Học thuyết giá trị thặng dư.\n3. Học thuyết về sứ mệnh lịch sử toàn thế giới của giai cấp công nhân.\nGiải thích tại sao ba phát kiến này đưa chủ nghĩa xã hội từ không tưởng trở thành khoa học.",
+   "solution_steps": [
+    "Bước 1: Phát kiến thứ nhất - Chủ nghĩa duy vật lịch sử\n- Nội dung: Vận dụng chủ nghĩa duy vật biện chứng vào nghiên cứu xã hội, chỉ rõ sự phát triển của các hình thái kinh tế - xã hội là một quá trình lịch sử - tự nhiên. Động lực thúc đẩy lịch sử phát triển là mâu thuẫn giữa LLSX và QHSX và đấu tranh giai cấp trong xã hội có đối kháng.\n- Ý nghĩa: Chấm dứt quan điểm duy tâm tôn giáo giải thích lịch sử bằng định mệnh hay ý chí của các bậc vua chúa.",
+    "Bước 2: Phát kiến thứ hai - Học thuyết giá trị thặng dư\n- Nội dung: Vạch trần cơ chế bóc lột của nhà tư bản đối với công nhân làm thuê: nhà tư bản chiếm đoạt phần lao động không công (giá trị thặng dư) do công nhân tạo ra vượt quá giá trị sức lao động.\n- Ý nghĩa: Chỉ rõ gốc rễ kinh tế của cuộc đấu tranh giữa giai cấp tư sản và vô sản; chứng minh sự diệt vong tất yếu của phương thức sản xuất TBCN.",
+    "Bước 3: Phát kiến thứ ba - Sứ mệnh lịch sử của giai cấp công nhân\n- Nội dung: Giai cấp công nhân là lực lượng xã hội duy nhất đại diện cho phương thức sản xuất tiên tiến, có khả năng và sứ mệnh lãnh đạo nhân dân lao động xóa bỏ CNTB, xây dựng CNXH và giải phóng toàn thể nhân loại.\n- Ý nghĩa: Tìm thấy lực lượng vật chất - xã hội thực tế để hiện thực hóa ước mơ công bằng của nhân loại, điều mà các nhà không tưởng bế tắc.",
+    "Bước 4: Kết luận khoa học\n- Ba phát kiến gắn kết chặt chẽ: Duy vật lịch sử chỉ ra quy luật; Giá trị thặng dư vạch trần bản chất kinh tế; Sứ mệnh GCCN tìm ra lực lượng thực thi. Nhờ đó, CNXHKH trở thành một hệ thống lý luận khoa học hoàn chỉnh."
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Cống Hiến Lịch Sử của V.I.Lênin đối với Sự Phát Triển của CNXHKH",
+   "problem": "Phân tích những đóng góp lý luận và thực tiễn kiệt xuất của V.I.Lênin trong việc bảo vệ, vận dụng và phát triển Chủ nghĩa xã hội khoa học ở nước Nga và phong trào cách mạng thế giới.",
+   "solution_steps": [
+    "Bước 1: Phát triển lý luận cách mạng vô sản thời kỳ đế quốc chủ nghĩa\n- Phân tích bản chất của chủ nghĩa đế quốc là giai đoạn tột cùng của CNTB.\n- Phát hiện quy luật phát triển không đều của CNTB, bác bỏ quan điểm giáo điều cho rằng cách mạng phải nổ ra đồng loạt ở các nước tư bản phát triển; khẳng định cách mạng có thể thắng lợi trước hết ở một số nước hoặc một nước riêng lẻ (nơi khâu yếu nhất).",
+    "Bước 2: Xây dựng chính đảng kiểu mới và lãnh đạo Cách mạng Tháng Mười Nga (1917)\n- Sáng lập Đảng Bônsêvích kiểu mới với nguyên tắc tập trung dân chủ nghiêm ngặt.\n- Lãnh đạo thắng lợi cuộc Cách mạng Tháng Mười Nga (1917), biến lý luận CNXHKH thành hiện thực sinh động, mở ra thời đại mới - thời đại quá độ từ CNTB lên CNXH trên phạm vi toàn cầu.",
+    "Bước 3: Phát triển lý luận về thời kỳ quá độ và Chính sách kinh tế mới (NEP)\n- Chỉ rõ đặc điểm đan xen phức tạp của thời kỳ quá độ giữa những nhân tố XHCN mới và tàn dư CNTB cũ.\n- Đề ra NEP (1921): cho phép phát triển kinh tế nhiều thành phần, sử dụng kinh tế hàng hóa, tư bản nhà nước và đòn bẩy lợi ích kinh tế để kích thích sản xuất, củng cố liên minh công nông.",
+    "Bước 4: Quốc tế hóa phong trào cách mạng và vấn đề thuộc địa\n- Sáng lập Quốc tế Cộng sản (Quốc tế III, 1919).\n- Soạn thảo Sơ thảo Luận cương về vấn đề dân tộc và thuộc địa, mở đường cho phong trào giải phóng dân tộc ở các nước phương Đông (trong đó có cách mạng Việt Nam dưới sự dẫn dắt của Nguyễn Ái Quốc)."
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Mối Quan Hệ Giữa Ba Bộ Phận Cấu Thành Chủ Nghĩa Mác - Lênin và Ý Nghĩa Nghiên Cứu Môn Học",
+   "problem": "Hãy làm rõ:\n1. Mối quan hệ biện chứng giữa Triết học Mác - Lênin, Kinh tế chính trị Mác - Lênin và Chủ nghĩa xã hội khoa học.\n2. Phân tích đối tượng nghiên cứu của CNXHKH và phân biệt với các khoa học xã hội khác.\n3. Rút ra ý nghĩa thực tiễn của môn học đối với việc củng cố bản lĩnh chính trị của thế hệ trẻ Việt Nam hiện nay.",
+   "solution_steps": [
+    "Bước 1: Mối quan hệ hữu cơ giữa ba bộ phận\n- **Triết học Mác - Lênin:** Đóng vai trò là nền tảng thế giới quan duy vật và phương pháp luận biện chứng cho toàn bộ hệ thống lý luận.\n- **Kinh tế chính trị Mác - Lênin:** Là cơ sở kinh tế trực tiếp, ứng dụng thế giới quan duy vật để giải phẫu phương thức sản xuất tư bản, chỉ ra quy luật kinh tế của sự bóc lột và mâu thuẫn xã hội.\n- **Chủ nghĩa xã hội khoa học:** Là sự kết luận logic tất yếu về mặt chính trị - xã hội của triết học và kinh tế chính trị; vạch ra mục tiêu, con đường, lực lượng và phương pháp cải tạo xã hội.",
+    "Bước 2: Đối tượng nghiên cứu của CNXHKH\n- Nghiên cứu quy luật và tính quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển của hình thái kinh tế - xã hội CSCN.\n- Khác với Triết học (nghiên cứu quy luật chung nhất của tự nhiên, xã hội, tư duy) và Kinh tế chính trị (nghiên cứu quan hệ sản xuất và quy luật kinh tế), CNXHKH tập trung vào các vấn đề chính trị - xã hội cụ thể: đấu tranh giai cấp, nhà nước, dân chủ, liên minh công - nông, dân tộc, tôn giáo và gia đình.",
+    "Bước 3: Ý nghĩa thực tiễn đối với thế hệ trẻ Việt Nam\n- **Định hướng lý tưởng:** Giúp sinh viên hiểu rõ tính tất yếu lịch sử của con đường đi lên CNXH ở Việt Nam, gắn độc lập dân tộc với chủ nghĩa xã hội.\n- **Nâng cao năng lực phản biện:** Trang bị vũ khí tư tưởng sắc bén để nhận diện, đấu tranh bác bỏ các quan điểm sai trái, thù địch đòi đa nguyên chính trị, phủ nhận thành quả cách mạng.\n- **Hành động thiết thực:** Biến nhận thức thành hành động cụ thể trong học tập, nghiên cứu khoa học, rèn luyện đạo đức, cống hiến cho công cuộc Đổi mới và hội nhập quốc tế của đất nước."
+   ]
+  }
+ ]
+}

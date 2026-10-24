@@ -36,6 +36,29 @@ Mỗi chương đều được đóng gói chuẩn 4 phần tương tác:
 
 ---
 
+## 🎯 Cấu Trúc Khóa Học: CHỦ NGHĨA XÃ HỘI KHOA HỌC (`cnxhkh`)
+Toàn bộ học liệu bám sát giáo trình chính thức:
+- *Giáo trình Chủ nghĩa xã hội khoa học (Dành cho bậc đại học hệ không chuyên lý luận chính trị)* - Bộ Giáo dục và Đào tạo, NXB Chính trị quốc gia Sự thật.
+
+### 📚 Danh Mục Các Chương Bài Học:
+- **Chương 1:** Nhập môn Chủ nghĩa xã hội khoa học (Hoàn cảnh lịch sử, tiền đề KHTN & lý luận, 3 phát kiến vĩ đại của Mác - Ăngghen, cống hiến của Lênin).
+- **Chương 2:** Sứ mệnh lịch sử của giai cấp công nhân (Hai phương diện xác định GCCN, nội dung kinh tế - chính trị - văn hóa, điều kiện khách quan, nhân tố chủ quan, GCCN Việt Nam).
+- **Chương 3:** Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội (Hai giai đoạn hình thái CSCN, đặc trưng bản chất của CNXH, thời kỳ quá độ, con đường quá độ bỏ qua chế độ TBCN ở Việt Nam).
+- **Chương 4:** Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa (Lịch sử các nền dân chủ, bản chất dân chủ XHCN, chức năng nhà nước XHCN, Nhà nước pháp quyền XHCN Việt Nam).
+- **Chương 5:** Cơ cấu xã hội - giai cấp và liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên CNXH (Vị trí trung tâm cơ cấu giai cấp, tính tất yếu liên minh, 3 nội dung liên minh, đặc điểm tại Việt Nam).
+- **Chương 6:** Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội (Hai xu hướng phát triển dân tộc, Cương lĩnh dân tộc Lênin, bản chất & nguồn gốc tôn giáo, chính sách dân tộc và tôn giáo tại Việt Nam).
+- **Chương 7:** Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội (Khái niệm, vị trí, 4 chức năng cơ bản, cơ sở xây dựng gia đình XHCN, chế độ hôn nhân tiến bộ, biến đổi gia đình Việt Nam).
+
+Mỗi chương đều được trang bị:
+- **Tóm tắt lý thuyết & Sơ đồ tư duy (Mermaid)**
+- **Ngân hàng 30 câu trắc nghiệm chuẩn hóa** kèm giải thích chi tiết
+- **8 câu hỏi trả lời ngắn**
+- **4 bài tập tự luận chuyên sâu** kèm hướng dẫn giải từng bước
+
+---
+
 ## 💡 Hướng Dẫn Sử Dụng
-- Sử dụng **thanh tìm kiếm** ở góc trái để tra cứu nhanh bất kỳ thuật toán, từ khóa hoặc dạng bài tập nào.
-- Trong từng bài học, hãy tự mình suy nghĩ và trả lời trước khi nhấp vào nút **`Xem đáp án & Giải thích`** để đạt hiệu quả học tập cao nhất.
+- Truy cập Cổng học liệu tại: [https://tyt712.github.io/Ky_1_26_27/](https://tyt712.github.io/Ky_1_26_27/)
+- Lựa chọn môn học trên màn hình chính: **Hệ Quản Trị Cơ Sở Dữ Liệu** hoặc **Chủ Nghĩa Xã Hội Khoa Học**.
+- Làm bài tập trắc nghiệm theo chương, chấm điểm tự động và xem lại lời giải chi tiết.
+- Tiến độ học tập và điểm số tốt nhất được tự động lưu vào trình duyệt của bạn (LocalStorage).

@@ -1,0 +1,493 @@
+# -*- coding: utf-8 -*-
+"""Chapter 7 Exercises: Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội"""
+
+DATA = {
+    "chapter_id": "chuong_7",
+    "chapter_title": "Chương 7: Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
+    "multiple_choice": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "Gia đình là một hình thức cộng đồng xã hội đặc biệt, được hình thành và duy trì chủ yếu dựa trên các mối quan hệ nào?",
+            "options": {
+                "A": "Quan hệ đồng hương và nghề nghiệp",
+                "B": "Quan hệ hôn nhân, quan hệ huyết thống và quan hệ nuôi dưỡng",
+                "C": "Quan hệ hợp đồng kinh tế thuần túy",
+                "D": "Quan hệ bạn bè đồng lứa"
+            },
+            "correct_answer": "B",
+            "explanation": "Gia đình hình thành dựa trên 3 mối quan hệ cơ bản: quan hệ hôn nhân, quan hệ huyết thống và quan hệ nuôi dưỡng (con nuôi)."
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "Vị trí của gia đình đối với xã hội được chủ nghĩa Mác - Lênin khẳng định là:",
+            "options": {
+                "A": "Một đơn vị hành chính cấp cơ sở",
+                "B": "Tế bào tự nhiên của xã hội",
+                "C": "Một doanh nghiệp sản xuất tư nhân",
+                "D": "Một câu lạc bộ giải trí"
+            },
+            "correct_answer": "B",
+            "explanation": "Chủ tịch Hồ Chí Minh đã chỉ rõ: 'Nhiều gia đình cộng lại mới thành xã hội, xã hội tốt thì gia đình càng tốt, gia đình tốt thì xã hội mới tốt. Hạt nhân của xã hội là gia đình'."
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "Chức năng nào sau đây là chức năng đặc thù, chỉ có ở gia đình mà không một tổ chức xã hội nào có thể thay thế được hoàn toàn?",
+            "options": {
+                "A": "Chức năng quản lý kinh tế",
+                "B": "Chức năng tái sản xuất ra con người (duy trì nòi giống)",
+                "C": "Chức năng tổ chức tiêu dùng",
+                "D": "Chức năng giải trí cuối tuần"
+            },
+            "correct_answer": "B",
+            "explanation": "Tái sản xuất ra con người để duy trì nòi giống và cung cấp nguồn lao động cho xã hội là chức năng tự nhiên, đặc thù duy nhất của gia đình."
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "Chức năng nào của gia đình có ý nghĩa quyết định đối với việc hình thành nhân cách, đạo đức và lối sống của trẻ em?",
+            "options": {
+                "A": "Chức năng kinh tế",
+                "B": "Chức năng nuôi dưỡng, giáo dục",
+                "C": "Chức năng phân chia tài sản thừa kế",
+                "D": "Chức năng mua sắm tiêu dùng"
+            },
+            "correct_answer": "B",
+            "explanation": "Gia đình là trường học đầu tiên; sự giáo dục yêu thương của cha mẹ đặt nền móng nhân cách cho suốt cuộc đời con người."
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "Cơ sở kinh tế - xã hội để xây dựng gia đình tiến bộ trong thời kỳ quá độ lên CNXH là gì?",
+            "options": {
+                "A": "Chế độ chiếm hữu tư nhân tư bản chủ nghĩa",
+                "B": "Việc xóa bỏ chế độ tư hữu, xác lập chế độ công hữu về các tư liệu sản xuất chủ yếu",
+                "C": "Sự thống trị của các tập đoàn bất động sản",
+                "D": "Kinh tế bao cấp hoàn toàn giá cả"
+            },
+            "correct_answer": "B",
+            "explanation": "Xóa bỏ tư hữu giải phóng người phụ nữ khỏi sự phụ thuộc kinh tế vào đàn ông, đặt cơ sở cho hôn nhân xuất phát từ tình yêu tự nguyện."
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "Cơ sở chính trị - xã hội để xây dựng gia đình trong thời kỳ quá độ lên CNXH là:",
+            "options": {
+                "A": "Thiết lập Nhà nước XHCN và hệ thống luật pháp (Luật Hôn nhân và Gia đình) bảo vệ quyền bình đẳng giới",
+                "B": "Chế độ quân chủ chuyên chế phong kiến",
+                "C": "Quyền lực gia trưởng tuyệt đối của người cha",
+                "D": "Quy ước làng xã cổ hủ"
+            },
+            "correct_answer": "A",
+            "explanation": "Nhà nước XHCN ban hành pháp luật bình đẳng giới, bảo vệ phụ nữ và trẻ em, tạo hành lang pháp lý xây dựng gia đình tiến bộ."
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "Chế độ hôn nhân tiến bộ trong xã hội xã hội chủ nghĩa bao gồm những nguyên tắc nào?",
+            "options": {
+                "A": "Hôn nhân ép buộc môn đăng hộ đối, đa thê",
+                "B": "Hôn nhân tự nguyện; Một vợ một chồng, vợ chồng bình đẳng; Hôn nhân được pháp luật bảo đảm",
+                "C": "Hôn nhân theo chỉ định của cha mẹ, trọng nam khinh nữ",
+                "D": "Hôn nhân không cần đăng ký kết hôn"
+            },
+            "correct_answer": "B",
+            "explanation": "Ba nguyên tắc của hôn nhân tiến bộ: Tự nguyện; Một vợ một chồng bình đẳng; Được pháp luật thừa nhận và bảo vệ."
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "Quy mô gia đình Việt Nam hiện nay đang có xu hướng biến đổi nổi bật nào?",
+            "options": {
+                "A": "Mở rộng thành gia đình 'ngũ đại đồng đường' hàng trăm người",
+                "B": "Thu nhỏ quy mô, chuyển dịch mạnh từ gia đình truyền thống nhiều thế hệ sang mô hình gia đình hạt nhân (chỉ có bố mẹ và con cái)",
+                "C": "Gia đình hoàn toàn biến mất khỏi xã hội",
+                "D": "Không có bất kỳ sự thay đổi nào"
+            },
+            "correct_answer": "B",
+            "explanation": "Gia đình hạt nhân quy mô 3 - 4 người (bố, mẹ và 1-2 con) đang trở thành mô hình phổ biến trong xã hội hiện đại."
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "Ngày Gia đình Việt Nam được tổ chức hàng năm vào ngày nào để tôn vinh các giá trị mái ấm gia đình?",
+            "options": {
+                "A": "Ngày 8 tháng 3",
+                "B": "Ngày 28 tháng 6",
+                "C": "Ngày 20 tháng 10",
+                "D": "Ngày 20 tháng 11"
+            },
+            "correct_answer": "B",
+            "explanation": "Thủ tướng Chính phủ đã ban hành Quyết định chọn ngày 28 tháng 6 hàng năm là Ngày Gia đình Việt Nam."
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "Mục tiêu xây dựng gia đình Việt Nam hiện nay theo chủ trương của Đảng là xây dựng gia đình:",
+            "options": {
+                "A": "Thực dụng, giàu sang bằng mọi giá",
+                "B": "No ấm, tiến bộ, hạnh phúc, văn minh",
+                "C": "Khép kín, bảo thủ gia trưởng",
+                "D": "Không quan tâm đến cộng đồng xung quanh"
+            },
+            "correct_answer": "B",
+            "explanation": "Mục tiêu nhất quán: 'Xây dựng gia đình Việt Nam no ấm, tiến bộ, hạnh phúc, văn minh, thực sự là tổ ấm của mỗi người'."
+        },
+        {
+            "id": 11,
+            "difficulty": "medium",
+            "question": "Tại sao chế độ tư hữu tư bản chủ nghĩa lại là nguồn gốc kinh tế sinh ra sự bất bình đẳng giữa nam giới và phụ nữ trong gia đình?",
+            "options": {
+                "A": "Vì phụ nữ không biết chi tiêu tiền bạc",
+                "B": "Vì tư liệu sản xuất và tài sản gia đình đều tập trung vào tay người đàn ông, biến người phụ nữ thành kẻ phụ thuộc kinh tế và làm công việc gia đình không được trả công",
+                "C": "Vì đàn ông có sức khỏe tốt hơn",
+                "D": "Do quy định của các nhà máy công nghiệp"
+            },
+            "correct_answer": "B",
+            "explanation": "Ph.Ăngghen chỉ rõ: Sự thống trị của người đàn ông trong gia đình phong kiến, tư sản là hậu quả trực tiếp của quyền tư hữu về tư liệu sản xuất."
+        },
+        {
+            "id": 12,
+            "difficulty": "medium",
+            "question": "Trong chức năng kinh tế và tổ chức tiêu dùng, sự biến đổi của gia đình Việt Nam hiện nay diễn ra theo hướng:",
+            "options": {
+                "A": "Quay trở lại nền kinh tế tự cung tự cấp khép kín",
+                "B": "Chuyển mạnh từ kinh tế tự cấp sang kinh tế hàng hóa, cung cấp dịch vụ, tham gia thị trường và nâng cao chất lượng tiêu dùng văn minh",
+                "C": "Mọi gia đình ngừng chi tiêu mua sắm",
+                "D": "Nhà nước lo toàn bộ việc ăn uống cho từng hộ dân"
+            },
+            "correct_answer": "B",
+            "explanation": "Gia đình trở thành chủ thể kinh doanh năng động, sản xuất hàng hóa đáp ứng thị trường và tiêu dùng thông minh."
+        },
+        {
+            "id": 13,
+            "difficulty": "medium",
+            "question": "Nguyên tắc 'Hôn nhân một vợ một chồng, vợ chồng bình đẳng' nhằm mục đích gì?",
+            "options": {
+                "A": "Bảo đảm trật tự nhân khẩu",
+                "B": "Giải phóng người phụ nữ, bảo đảm tình yêu thủy chung, tôn trọng lẫn nhau và tạo môi trường tâm lý lành mạnh nhất để nuôi dạy con cái",
+                "C": "Hạn chế việc sinh con",
+                "D": "Giảm bớt thủ tục hành chính"
+            },
+            "correct_answer": "B",
+            "explanation": "Hôn nhân một vợ một chồng chân chính chỉ có thể tồn tại trên cơ sở tình yêu tự nguyện và sự tôn trọng bình đẳng giữa vợ và chồng."
+        },
+        {
+            "id": 14,
+            "difficulty": "medium",
+            "question": "Mặt trái của quá trình chuyển đổi sang mô hình gia đình hạt nhân ở các đô thị lớn hiện nay là gì?",
+            "options": {
+                "A": "Nhà ở trở nên quá chật chội",
+                "B": "Sự suy giảm thời gian trò chuyện, chia sẻ giữa cha mẹ và con cái; nguy cơ người già bị cô đơn do thiếu sự chăm sóc của con cháu",
+                "C": "Không ai muốn mua xe máy",
+                "D": "Trẻ em không được đi học"
+            },
+            "correct_answer": "B",
+            "explanation": "Áp lực công việc và không gian sống độc lập dễ làm nới lỏng sợi dây tình cảm gia đình, giảm đi sự gắn kết giữa các thế hệ."
+        },
+        {
+            "id": 15,
+            "difficulty": "medium",
+            "question": "Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm gia đình có vai trò như thế nào trong xã hội hiện đại?",
+            "options": {
+                "A": "Không còn quan trọng vì đã có mạng xã hội",
+                "B": "Càng trở nên đặc biệt quan trọng, giúp các thành viên giải tỏa áp lực, cân bằng tâm lý sau những giờ làm việc căng thẳng và bảo đảm sự bình yên tinh thần",
+                "C": "Chỉ quan trọng đối với trẻ sơ sinh",
+                "D": "Bị thay thế bởi các trò chơi điện tử"
+            },
+            "correct_answer": "B",
+            "explanation": "Gia đình là bến đỗ bình yên, nơi sưởi ấm tâm hồn và tái tạo năng lượng tinh thần cho mỗi cá nhân trước những biến động xã hội."
+        },
+        {
+            "id": 16,
+            "difficulty": "medium",
+            "question": "Hành vi bạo lực gia đình (bạo lực thể xác, bạo lực tinh thần, bạo lực kinh tế) bị Nhà nước ta xử lý như thế nào?",
+            "options": {
+                "A": "Coi là chuyện nội bộ gia đình, 'đóng cửa bảo nhau' không can thiệp",
+                "B": "Bị pháp luật nghiêm cấm tuyệt đối và xử lý nghiêm minh theo Luật Phòng, chống bạo lực gia đình",
+                "C": "Chỉ phê bình nhẹ nhàng",
+                "D": "Khuyến khích hòa giải mà không cần áp dụng chế tài"
+            },
+            "correct_answer": "B",
+            "explanation": "Luật Phòng, chống bạo lực gia đình năm 2022 quy định các chế tài nghiêm khắc đối với mọi hành vi xâm hại thân thể, nhân phẩm người thân."
+        },
+        {
+            "id": 17,
+            "difficulty": "medium",
+            "question": "Việc kết hợp giữa giá trị gia đình truyền thống và giá trị gia đình hiện đại ở Việt Nam được thực hiện theo phương châm:",
+            "options": {
+                "A": "Giữ nguyên vẹn toàn bộ các hủ tục cưới hỏi phong kiến",
+                "B": "Kế thừa các chuẩn mực tốt đẹp (hiếu thảo, thủy chung, yêu thương) kết hợp với các chuẩn mực tiến bộ (bình đẳng giới, tôn trọng quyền cá nhân)",
+                "C": "Xóa bỏ toàn bộ nếp sống truyền thống để chạy theo lối sống phương Tây",
+                "D": "Cấm phụ nữ tham gia công tác xã hội"
+            },
+            "correct_answer": "B",
+            "explanation": "Sự kết hợp hài hòa tạo nên bản sắc gia đình Việt Nam hiện đại, vừa giàu truyền thống văn hóa dân tộc vừa văn minh tiến bộ."
+        },
+        {
+            "id": 18,
+            "difficulty": "medium",
+            "question": "Tại sao pháp luật Việt Nam quy định việc kết hôn phải được đăng ký tại cơ quan nhà nước có thẩm quyền?",
+            "options": {
+                "A": "Để thu lệ phí hành chính",
+                "B": "Nhằm xác lập sự thừa nhận của xã hội và pháp luật đối với quan hệ vợ chồng, bảo vệ quyền lợi hợp pháp của vợ, chồng và con cái",
+                "C": "Để nhà nước kiểm soát tên đặt cho con",
+                "D": "Để ngăn cản người nghèo kết hôn"
+            },
+            "correct_answer": "B",
+            "explanation": "Đăng ký kết hôn bảo đảm giá trị pháp lý, ngăn ngừa hôn nhân trái luật, bảo vệ chế độ một vợ một chồng và quyền thừa kế."
+        },
+        {
+            "id": 19,
+            "difficulty": "medium",
+            "question": "Hiện tượng nào sau đây phản ánh mặt trái trong nhận thức của một bộ phận giới trẻ về hôn nhân và gia đình hiện nay?",
+            "options": {
+                "A": "Chăm chỉ làm ăn để lo cho gia đình",
+                "B": "Lối sống thực dụng, 'sống thử' bừa bãi thiếu trách nhiệm, sợ sinh con, tỷ lệ ly hôn gia tăng ở các cặp vợ chồng trẻ",
+                "C": "Kính trọng ông bà cha mẹ",
+                "D": "Tham gia các lớp tiền hôn nhân"
+            },
+            "correct_answer": "B",
+            "explanation": "Tâm lý hưởng thụ ích kỷ, thiếu kỹ năng giải quyết mâu thuẫn dẫn đến đổ vỡ gia đình nhanh chóng, để lại nhiều hệ lụy cho xã hội."
+        },
+        {
+            "id": 20,
+            "difficulty": "medium",
+            "question": "Trách nhiệm của cha mẹ đối với con cái theo quy định của Luật Hôn nhân và Gia đình Việt Nam là:",
+            "options": {
+                "A": "Được quyền ép buộc con cái kết hôn theo ý mình",
+                "B": "Yêu thương, chăm sóc, nuôi dưỡng, giáo dục con cái, tôn trọng ý kiến của con và không được phân biệt đối xử giữa các con",
+                "C": "Bắt con nghỉ học sớm để đi làm kiếm tiền cho cha mẹ",
+                "D": "Có quyền đánh đập khi con không vâng lời"
+            },
+            "correct_answer": "B",
+            "explanation": "Cha mẹ có nghĩa vụ nuôi dạy con cái thành người công dân có ích, tạo điều kiện học tập tốt nhất, cấm phân biệt con trai - con gái."
+        },
+        {
+            "id": 21,
+            "difficulty": "hard",
+            "question": "Ph.Ăngghen đã khẳng định trong tác phẩm 'Nguồn gốc của gia đình, của chế độ tư hữu và của nhà nước' rằng:",
+            "options": {
+                "A": "Gia đình là bất biến từ thuở hồng hoang cho đến muôn đời sau",
+                "B": "Sự phát triển của gia đình phụ thuộc vào sự phát triển của sản xuất vật chất và chế độ sở hữu; khi chế độ tư hữu bị xóa bỏ, hôn nhân sẽ hoàn toàn dựa trên tình yêu tự do",
+                "C": "Phụ nữ sinh ra là để phục vụ nam giới",
+                "D": "Gia đình chỉ xuất hiện ở các nước tư bản chủ nghĩa"
+            },
+            "correct_answer": "B",
+            "explanation": "Ăngghen chứng minh gia đình là một phạm trù lịch sử biến đổi qua các hình thái kinh tế - xã hội gắn liền với chế độ sở hữu."
+        },
+        {
+            "id": 22,
+            "difficulty": "hard",
+            "question": "Tại sao việc giải phóng phụ nữ trong gia đình phải gắn liền với việc đưa phụ nữ tham gia vào nền sản xuất xã hội?",
+            "options": {
+                "A": "Để phụ nữ nộp nhiều thuế hơn cho nhà nước",
+                "B": "Vì khi phụ nữ có việc làm độc lập, tự chủ về kinh tế, họ mới thoát khỏi vị thế lệ thuộc vào người đàn ông và khẳng định được vị thế bình đẳng trong gia đình và xã hội",
+                "C": "Để các công ty tư nhân dễ ép lương",
+                "D": "Để bỏ trống công việc nhà"
+            },
+            "correct_answer": "B",
+            "explanation": "Độc lập về kinh tế là chìa khóa then chốt cho quyền bình đẳng thực chất của người phụ nữ trong cuộc sống."
+        },
+        {
+            "id": 23,
+            "difficulty": "hard",
+            "question": "Hiện tượng 'già hóa dân số' ở Việt Nam đặt ra thách thức gay gắt nào đối với chức năng chăm sóc, phụng dưỡng của gia đình hiện đại?",
+            "options": {
+                "A": "Thừa thãi viện dưỡng lão",
+                "B": "Gia đình ít con khiến gánh nặng chăm sóc người cao tuổi dồn lên ít thành viên, đòi hỏi phải hoàn thiện hệ thống an sinh xã hội và dịch vụ chăm sóc người già chuyên nghiệp",
+                "C": "Không ai muốn đi du lịch",
+                "D": "Không có ai tiêu dùng sữa bột"
+            },
+            "correct_answer": "B",
+            "explanation": "Tốc độ già hóa dân số nhanh đòi hỏi nhà nước và xã hội phải cùng chung tay chia sẻ gánh nặng chăm sóc người cao tuổi với gia đình."
+        },
+        {
+            "id": 24,
+            "difficulty": "hard",
+            "question": "Tác động tiêu cực của lối sống thực dụng và mạng xã hội đối với chức năng giáo dục của gia đình hiện nay là:",
+            "options": {
+                "A": "Giúp trẻ em giải toán nhanh hơn",
+                "B": "Các thành viên bị cuốn vào 'thế giới ảo', giảm thời gian giao tiếp thực tế; nguy cơ con cái tiếp nhận các thông tin độc hại, bạo lực ngoài tầm kiểm soát của cha mẹ",
+                "C": "Làm cho sách in bán chạy hơn",
+                "D": "Giúp các gia đình tiết kiệm tiền điện thoại"
+            },
+            "correct_answer": "B",
+            "explanation": "Sự xâm nhập của văn hóa mạng thiếu lành mạnh làm lỏng lẻo mối quan hệ gia đình và gây nhiễu loạn định hướng nhân cách của trẻ."
+        },
+        {
+            "id": 25,
+            "difficulty": "hard",
+            "question": "Quy định 'Vợ chồng có quyền và nghĩa vụ ngang nhau về mọi mặt trong gia đình' trong Luật Hôn nhân và Gia đình Việt Nam phản ánh nguyên tắc nào của CNXHKH?",
+            "options": {
+                "A": "Nguyên tắc chuyên chính vô sản",
+                "B": "Nguyên tắc giải phóng con người và thực hiện bình đẳng giới triệt để trong chủ nghĩa xã hội",
+                "C": "Nguyên tắc kinh tế thị trường tự do",
+                "D": "Nguyên tắc tập trung dân chủ"
+            },
+            "correct_answer": "B",
+            "explanation": "CNXH hướng tới giải phóng triệt để con người khỏi mọi áp bức, trong đó giải phóng phụ nữ và xác lập bình đẳng giới là thước đo của sự tiến bộ xã hội."
+        },
+        {
+            "id": 26,
+            "difficulty": "hard",
+            "question": "Phương hướng 'Xây dựng gia đình văn hóa' ở Việt Nam có ý nghĩa chiến lược như thế nào trong công cuộc xây dựng đất nước?",
+            "options": {
+                "A": "Chỉ là phong trào thi đua ngắn hạn để chấm điểm hàng năm",
+                "B": "Xây dựng môi trường giáo dục lành mạnh từ gốc rễ, hình thành nhân cách tốt đẹp cho thế hệ trẻ, tạo động lực tinh thần và nguồn lực con người chất lượng cao phát triển đất nước",
+                "C": "Để các địa phương thu tiền quỹ văn hóa",
+                "D": "Bắt buộc mọi người phải sống giống nhau"
+            },
+            "correct_answer": "B",
+            "explanation": "Mỗi gia đình văn hóa là một pháo đài vững chắc ngăn chặn tệ nạn xã hội, nuôi dưỡng mầm non tương lai cho đất nước."
+        },
+        {
+            "id": 27,
+            "difficulty": "hard",
+            "question": "Hậu quả xã hội nghiêm trọng của việc mất cân bằng giới tính khi sinh do tư tưởng phong kiến 'trọng nam khinh nữ' còn sót lại là:",
+            "options": {
+                "A": "Thừa lao động nữ trong ngành may mặc",
+                "B": "Tình trạng thừa nam thiếu nữ trong độ tuổi kết hôn trong tương lai, làm gia tăng nguy cơ bất ổn xã hội, tệ nạn buôn bán phụ nữ và hôn nhân cưỡng bức",
+                "C": "Không ai muốn mua nhà chung cư",
+                "D": "Năng suất lúa gạo sụt giảm"
+            },
+            "correct_answer": "B",
+            "explanation": "Tỷ lệ chênh lệch bé trai/bé gái cao sẽ gây khủng hoảng cơ cấu dân số và nhiều hệ lụy an ninh xã hội phức tạp sau này."
+        },
+        {
+            "id": 28,
+            "difficulty": "hard",
+            "question": "Mối quan hệ biện chứng giữa 'Hạnh phúc gia đình' và 'Sự phồn vinh của xã hội' được thể hiện qua luận điểm nào?",
+            "options": {
+                "A": "Chỉ cần xã hội giàu có thì mọi gia đình tự động hạnh phúc mà không cần cố gắng",
+                "B": "Gia đình là tế bào nuôi dưỡng thể chất và tâm hồn con người; xã hội văn minh tạo điều kiện cho gia đình ấm no; gia đình hạnh phúc tạo nền tảng ổn định vững chắc cho sự phồn vinh của quốc gia",
+                "C": "Hạnh phúc gia đình hoàn toàn biệt lập với sự suy vong của đất nước",
+                "D": "Muốn xã hội giàu thì phải hy sinh hạnh phúc cá nhân và gia đình"
+            },
+            "correct_answer": "B",
+            "explanation": "Gia đình và xã hội có mối quan hệ tương hỗ khăng khít; không thể có một xã hội phát triển lành mạnh nếu các gia đình rạn nứt, đổ vỡ."
+        },
+        {
+            "id": 29,
+            "difficulty": "hard",
+            "question": "Để bảo đảm quyền tự do ly hôn chính đáng nhưng vẫn hạn chế tình trạng ly hôn bừa bãi, giải pháp tối ưu là:",
+            "options": {
+                "A": "Cấm tuyệt đối mọi trường hợp ly hôn",
+                "B": "Đẩy mạnh giáo dục kỹ năng tiền hôn nhân, hòa giải cơ sở thấu tình đạt lý, đồng thời bảo đảm quyền ly hôn khi đời sống hôn nhân thực sự tan vỡ không thể hàn gắn để giải thoát cho các bên",
+                "C": "Phạt tiền thật nặng bất kỳ ai nộp đơn ly hôn",
+                "D": "Bắt con cái tự quyết định cho cha mẹ ly hôn"
+            },
+            "correct_answer": "B",
+            "explanation": "Tự do ly hôn là một phần của quyền con người khi tình yêu không còn, nhưng cần hòa giải thấu đáo để bảo vệ quyền lợi của con cái."
+        },
+        {
+            "id": 30,
+            "difficulty": "hard",
+            "question": "Trách nhiệm của thế hệ trẻ và sinh viên trong việc xây dựng gia đình tương lai hạnh phúc, văn minh là:",
+            "options": {
+                "A": "Chỉ quan tâm tìm kiếm người bạn đời giàu có về vật chất",
+                "B": "Xây dựng quan niệm đúng đắn về tình yêu chân chính, chuẩn bị đầy đủ kiến thức, kỹ năng tiền hôn nhân, tôn trọng bình đẳng giới, có trách nhiệm nuôi dưỡng cha mẹ và chăm sóc con cái",
+                "C": "Coi nhẹ giá trị hôn nhân, ủng hộ lối sống buông thả",
+                "D": "Phó thác hoàn toàn việc chăm lo gia đình cho người phụ nữ"
+            },
+            "correct_answer": "B",
+            "explanation": "Thanh niên sinh viên chuẩn bị chu đáo về nhận thức và kỹ năng sống là yếu tố quyết định để xây dựng những tổ ấm hạnh phúc tương lai."
+        }
+    ],
+    "short_answers": [
+        {
+            "id": 1,
+            "question": "Định nghĩa gia đình và nêu 3 mối quan hệ cơ bản cấu thành gia đình.",
+            "expected_answer": "- **Định nghĩa:** Gia đình là một hình thức cộng đồng xã hội đặc biệt, hình thành và duy trì dựa trên quan hệ hôn nhân, quan hệ huyết thống và quan hệ nuôi dưỡng, gắn liền với quyền và nghĩa vụ giữa các thành viên.\n- **3 Mối quan hệ:** Quan hệ hôn nhân (vợ - chồng), quan hệ huyết thống (cha mẹ - con cái, anh chị em) và quan hệ nuôi dưỡng (con nuôi).",
+            "explanation": "Gia đình là thiết chế xã hội cơ bản nhất của loài người."
+        },
+        {
+            "id": 2,
+            "question": "Trình bày 4 chức năng cơ bản của gia đình.",
+            "expected_answer": "1. Chức năng tái sản xuất ra con người (duy trì nòi giống).\n2. Chức năng nuôi dưỡng, giáo dục nhân cách con cái.\n3. Chức năng kinh tế và tổ chức tiêu dùng gia đình.\n4. Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm bền vững.",
+            "explanation": "Bốn chức năng bao quát toàn diện đời sống gia đình."
+        },
+        {
+            "id": 3,
+            "question": "Nêu vị trí của gia đình đối với xã hội và đối với mỗi cá nhân.",
+            "expected_answer": "- **Đối với xã hội:** Gia đình là tế bào tự nhiên của xã hội; xã hội chỉ lành mạnh, phát triển khi các tế bào gia đình ổn định, hạnh phúc.\n- **Đối với cá nhân:** Gia đình là tổ ấm mang lại sự an toàn, chở che tình cảm và tái tạo sức lao động cho mỗi con người từ khi sinh ra đến khi qua đời.",
+            "explanation": "Hạt nhân của xã hội là gia đình."
+        },
+        {
+            "id": 4,
+            "question": "Nêu 3 nguyên tắc của chế độ hôn nhân tiến bộ trong thời kỳ quá độ lên CNXH.",
+            "expected_answer": "1. Hôn nhân tự nguyện, xuất phát từ tình yêu chân chính.\n2. Hôn nhân một vợ một chồng, vợ chồng bình đẳng.\n3. Hôn nhân được bảo đảm về mặt pháp lý (đăng ký kết hôn theo luật định).",
+            "explanation": "Xóa bỏ tàn dư hôn nhân cưỡng ép phong kiến."
+        },
+        {
+            "id": 5,
+            "question": "Mô hình 'gia đình hạt nhân' là gì và nêu 1 ưu điểm, 1 hạn chế của mô hình này.",
+            "expected_answer": "- **Khái niệm:** Là mô hình gia đình chỉ gồm 2 thế hệ sống chung: cha mẹ và con cái chưa kết hôn.\n- **Ưu điểm:** Gọn nhẹ, năng động, độc lập, tôn trọng quyền tự do riêng tư cá nhân.\n- **Hạn chế:** Giảm bớt sự gắn kết tình cảm với ông bà, người già dễ cô đơn, thiếu người hỗ trợ chăm sóc con nhỏ khi bố mẹ đi làm.",
+            "explanation": "Mô hình gia đình phổ biến nhất tại các đô thị hiện đại."
+        },
+        {
+            "id": 6,
+            "question": "Nêu cơ sở kinh tế - xã hội và cơ sở chính trị - xã hội để xây dựng gia đình trong thời kỳ quá độ lên CNXH.",
+            "expected_answer": "- **Cơ sở kinh tế - xã hội:** Xác lập chế độ công hữu về các TLSX chủ yếu, giải phóng phụ nữ khỏi sự phụ thuộc kinh tế.\n- **Cơ sở chính trị - xã hội:** Nhà nước XHCN ban hành hệ thống pháp luật (Luật Hôn nhân và Gia đình, Luật Bình đẳng giới) bảo vệ quyền lợi hợp pháp của các thành viên.",
+            "explanation": "Tạo bệ đỡ vững chắc cho gia đình tiến bộ."
+        },
+        {
+            "id": 7,
+            "question": "Chỉ ra 2 vấn đề tiêu cực đặt ra đối với gia đình Việt Nam hiện nay cần phải khắc phục.",
+            "expected_answer": "1. Tình trạng bạo lực gia đình, bạo hành trẻ em và phân hóa mất cân bằng giới tính khi sinh do tư tưởng trọng nam khinh nữ.\n2. Lối sống thực dụng, tỷ lệ ly hôn ở giới trẻ gia tăng và sự lỏng lẻo trong việc giáo dục, gắn kết tình cảm thế hệ do tác động của mạng xã hội.",
+            "explanation": "Cần sự can thiệp đồng bộ từ gia đình, nhà trường và xã hội."
+        },
+        {
+            "id": 8,
+            "question": "Nêu mục tiêu và 4 tiêu chí cốt lõi trong xây dựng gia đình Việt Nam hiện nay.",
+            "expected_answer": "Mục tiêu: Xây dựng gia đình thực sự là tổ ấm yêu thương, tế bào lành mạnh của xã hội. 4 Tiêu chí cốt lõi: **No ấm, Tiến bộ, Hạnh phúc, Văn minh**.",
+            "explanation": "Nghị quyết của Đảng về chiến lược xây dựng gia đình Việt Nam."
+        }
+    ],
+    "essays": [
+        {
+            "id": 1,
+            "title": "Phân tích Khái Niệm, Vị Trí và Các Chức Năng Cơ Bản Của Gia Đình",
+            "problem": "Hãy phân tích:\n1. Khái niệm gia đình và 3 mối quan hệ nền tảng cấu thành gia đình.\n2. Vị trí của gia đình đối với xã hội (tế bào xã hội) và đối với cá nhân (tổ ấm hạnh phúc).\n3. Bốn chức năng cơ bản của gia đình. Tại sao nói chức năng tái sản xuất ra con người là chức năng đặc thù duy nhất của gia đình?",
+            "solution_steps": [
+                "Bước 1: Khái niệm và các mối quan hệ nền tảng\n- Gia đình là một hình thức cộng đồng xã hội đặc biệt, được hình thành, duy trì và củng cố chủ yếu dựa trên: (1) Quan hệ hôn nhân (vợ chồng); (2) Quan hệ huyết thống (cha mẹ, con cái, anh chị em); (3) Quan hệ nuôi dưỡng (cha mẹ nuôi, người đỡ đầu hợp pháp).\n- Các mối quan hệ này gắn liền với các quyền, nghĩa vụ pháp lý và đạo đức thiêng liêng giữa các thành viên.",
+                "Bước 2: Vị trí của gia đình\n- **Gia đình là tế bào tự nhiên của xã hội:** Gia đình là đơn vị nhỏ nhất sản xuất ra của cải và sản xuất ra chính bản thân con người. Một xã hội phát triển thịnh vượng chỉ khi các tế bào gia đình ấm no, bình yên và văn minh.\n- **Gia đình là tổ ấm mang lại hạnh phúc cho mỗi cá nhân:** Là nơi nương tựa tinh thần vững chắc nhất, chăm sóc nuôi nấng con người từ thuở lọt lòng đến lúc trưởng thành và an ủi lúc tuổi già.\n- **Gia đình là cầu nối giữa cá nhân và xã hội:** Xã hội truyền tải các quy phạm đạo đức, văn hóa và pháp luật vào cá nhân thông qua môi trường giáo dục gia đình.",
+                "Bước 3: Bốn chức năng cơ bản của gia đình\n1. *Chức năng tái sản xuất ra con người:* Duy trì nòi giống, quyết định quy mô và chất lượng dân số của quốc gia.\n2. *Chức năng nuôi dưỡng, giáo dục:* Dạy dỗ nhân cách, đạo đức, lối sống cho thế hệ tương lai.\n3. *Chức năng kinh tế và tổ chức tiêu dùng:* Đơn vị kinh tế gia đình, tổ chức đời sống vật chất ấm no.\n4. *Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm:* Bảo đảm sự cân bằng tâm lý và hạnh phúc lứa đôi.",
+                "Bước 4: Vì sao chức năng tái sản xuất con người là đặc thù duy nhất?\n- Mọi chức năng khác (kinh tế, giáo dục, tiêu dùng) đều có thể được các tổ chức xã hội khác hỗ trợ một phần (trường học, doanh nghiệp, bệnh viện). Riêng chức năng sinh đẻ, duy trì nòi giống và truyền tải dòng máu huyết thống là thiên chức tự nhiên chỉ có ở gia đình, không một máy móc hay cơ quan nào có thể thay thế được."
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Cơ Sở Xây Dựng Gia Đình Trong Thời Kỳ Quá Độ Lên CNXH và Chế Độ Hôn Nhân Tiến Bộ",
+            "problem": "Trình bày các cơ sở kinh tế, chính trị, văn hóa để xây dựng gia đình mới trong thời kỳ quá độ lên chủ nghĩa xã hội. Phân tích ba nội dung cốt lõi của chế độ hôn nhân tiến bộ.",
+            "solution_steps": [
+                "Bước 1: Các cơ sở xây dựng gia đình mới XHCN\n- **Cơ sở kinh tế - xã hội:** Xóa bỏ chế độ tư hữu TBCN, xác lập chế độ công hữu về các tư liệu sản xuất chủ yếu. Phụ nữ được tham gia lao động sản xuất xã hội, có thu nhập độc lập, xóa bỏ địa vị lệ thuộc kinh tế vào đàn ông.\n- **Cơ sở chính trị - xã hội:** Sự ra đời của Nhà nước XHCN với hệ thống pháp luật tiến bộ (Luật Hôn nhân và Gia đình, Luật Bình đẳng giới), tạo cơ chế bảo vệ quyền lợi của phụ nữ và trẻ em.\n- **Cơ sở văn hóa:** Nâng cao dân trí, giải phóng tư tưởng khỏi các giáo lý phong kiến lạc hậu (tam tòng tứ đức, trọng nam khinh nữ); xây dựng hệ giá trị gia đình mới tôn trọng, thủy chung, nhân ái.",
+                "Bước 2: Ba nội dung của chế độ hôn nhân tiến bộ\n1. **Hôn nhân tự nguyện:** Hôn nhân phải xuất phát từ tình yêu chân chính đôi lứa, không bị ép buộc bởi cha mẹ, tiền tài hay danh vọng. Tự nguyện kết hôn gắn liền với quyền tự do ly hôn chính đáng khi tình yêu tan vỡ không thể hàn gắn.\n2. **Hôn nhân một vợ một chồng, vợ chồng bình đẳng:** Đây là điều kiện tiên quyết để bảo đảm hạnh phúc lứa đôi bền vững; bình đẳng về quyền lợi, nghĩa vụ, tài sản và quyền quyết định các công việc gia đình.\n3. **Hôn nhân được pháp luật thừa nhận và bảo vệ:** Phải đăng ký kết hôn tại cơ quan nhà nước có thẩm quyền; bảo đảm tính pháp lý, ngăn ngừa vi phạm và bảo vệ quyền lợi con cái.",
+                "Bước 3: Ý nghĩa lịch sử\n- Chế độ hôn nhân tiến bộ XHCN là cuộc cách mạng vĩ đại giải phóng tình yêu và nhân phẩm con người khỏi sự chi phối của đồng tiền và định kiến phong kiến."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Sự Biến Đổi Của Gia Đình Việt Nam Hiện Nay và Những Vấn Đề Đặt Ra",
+            "problem": "Phân tích những biến đổi cơ bản của gia đình Việt Nam hiện nay dưới tác động của kinh tế thị trường, đô thị hóa và hội nhập quốc tế (về quy mô, kết cấu và thực hiện các chức năng). Nêu những vấn đề đặt ra cần giải quyết.",
+            "solution_steps": [
+                "Bước 1: Những biến đổi cơ bản của gia đình Việt Nam\n- **Biến đổi về quy mô và kết cấu:** Chuyển dịch nhanh chóng từ gia đình truyền thống nhiều thế hệ ('tam đại, tứ đại đồng đường') sang mô hình gia đình hạt nhân nhỏ gọn (chỉ 2 thế hệ: cha mẹ và con cái). Tỷ lệ hộ gia đình độc thân, gia đình đơn thân có xu hướng tăng.\n- **Biến đổi chức năng tái sản xuất:** Số con trong mỗi gia đình giảm mạnh (mô hình 1-2 con), chuyển từ số lượng sang chú trọng nâng cao chất lượng nuôi dạy và thể chất.\n- **Biến đổi chức năng kinh tế:** Chuyển từ kinh tế tự cấp tự túc sang kinh tế hàng hóa, kinh doanh dịch vụ năng động; gia đình trở thành đơn vị tiêu dùng thông minh.\n- **Biến đổi chức năng giáo dục và tình cảm:** Giáo dục gia đình có xu hướng bị thu hẹp hoặc phó mặc cho nhà trường; áp lực công việc làm giảm thời gian sum họp giữa các thành viên.",
+                "Bước 2: Những vấn đề đặt ra và thách thức gay gắt\n- Tình trạng bạo lực gia đình, bạo hành trẻ em và xâm hại phụ nữ vẫn còn diễn biến phức tạp.\n- Hiện tượng ly hôn, ly thân ở các cặp vợ chồng trẻ gia tăng nhanh chóng; lối sống thực dụng, ích kỷ, 'sống thử' bừa bãi làm tổn hại giá trị thiêng liêng của hôn nhân.\n- Sự suy thoái đạo đức, bất hiếu với cha mẹ già; nguy cơ mất cân bằng giới tính khi sinh do tư tưởng phong kiến còn rơi rớt.",
+                "Bước 3: Định hướng khắc phục\n- Kết hợp hài hòa giữa gìn giữ chuẩn mực đạo đức truyền thống với tiếp thu văn minh bình đẳng hiện đại; đẩy mạnh phong trào xây dựng gia đình văn hóa no ấm, tiến bộ, hạnh phúc."
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Phương Hướng và Giải Pháp Xây Dựng, Phát Triển Gia Đình Việt Nam Ấm No, Tiến Bộ, Hạnh Phúc",
+            "problem": "Trình bày phương hướng và các giải pháp chiến lược nhằm xây dựng, phát triển gia đình Việt Nam no ấm, tiến bộ, hạnh phúc, văn minh trong giai đoạn hiện nay theo định hướng của Đảng và Nhà nước.",
+            "solution_steps": [
+                "Bước 1: Tăng cường sự lãnh đạo của Đảng và quản lý của Nhà nước\n- Nâng cao nhận thức của toàn xã hội về vị trí, vai trò của gia đình; coi công tác gia đình là nhiệm vụ chiến lược của cả hệ thống chính trị.\n- Tiếp tục hoàn thiện hệ thống luật pháp, chính sách về hôn nhân, gia đình, bình đẳng giới và phòng chống bạo lực gia đình.",
+                "Bước 2: Phát triển kinh tế và bảo đảm an sinh xã hội cho gia đình\n- Hỗ trợ các gia đình phát triển kinh tế, vay vốn ưu đãi, tạo việc làm và tăng thu nhập chính đáng.\n- Hoàn thiện mạng lưới an sinh xã hội, bảo hiểm y tế, nhà ở xã hội; đặc biệt quan tâm hỗ trợ các gia đình chính sách, gia đình dân tộc thiểu số và hộ nghèo.",
+                "Bước 3: Kế thừa và phát huy giá trị văn hóa gia đình truyền thống kết hợp với hiện đại\n- Gìn giữ nếp nhà: kính trên nhường dưới, hiếu thuận với ông bà cha mẹ, thủy chung son sắt giữa vợ chồng, yêu thương đùm bọc anh em.\n- Đưa vào gia đình các giá trị hiện đại: bình đẳng giới, tôn trọng quyền tự do riêng tư chính đáng của con cái, tinh thần dân chủ và trách nhiệm xã hội.",
+                "Bước 4: Đổi mới công tác giáo dục đời sống gia đình và trách nhiệm của sinh viên\n- Đưa kiến thức tiền hôn nhân và kỹ năng sống vào chương trình giáo dục cho thanh niên.\n- Sinh viên chủ động học tập, rèn luyện lối sống lành mạnh, trân trọng mái ấm gia đình, chuẩn bị đầy đủ hành trang tri thức và đạo đức để xây dựng tổ ấm hạnh phúc tương lai."
+            ]
+        }
+    ]
+}
