@@ -29,6 +29,12 @@ data/notebook_exports/
 │   ├── co_cau_giai_cap_va_lien_minh_cong_nong_tri_summary.md
 │   ├── van_de_dan_toc_va_ton_giao_summary.md
 │   └── xay_dung_gia_dinh_thoi_ky_qua_do_summary.md
+├── cnpm/
+│   ├── tong_quan_cnpm_va_ky_nghe_he_thong_summary.md
+│   ├── mo_hinh_quy_trinh_phan_mem_va_agile_summary.md
+│   ├── ky_nghe_yeu_cau_va_ke_hoach_du_an_summary.md
+│   ├── kien_truc_solid_va_kiem_thu_phan_mem_summary.md
+│   └── trien_khai_bao_tri_va_van_hoa_devops_summary.md
 └── cau_truc_du_lieu/
     ├── danh_sach_lien_ket_key_points.md
     └── do_phuc_tap_thuat_toan_notes.md

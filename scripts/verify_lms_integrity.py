@@ -2,9 +2,13 @@
 """Verification & Self-Healing Audit Script for Semester Hub LMS.
 Checks:
   1. Skill Registry & Config (.antigravity/skills_registry.json)
-  2. Question Banks for 11 Chapters in docs/data/he_qtcsdl/ (>= 30 MCQ, >= 8 Short, >= 4 Essay, valid options/keys/explanations, no duplicates)
-  3. Theory files in docs/data/he_qtcsdl/*_theory.md (all 11 exist and non-empty)
-  4. Local HTTP server static asset verification (index.html, app.js, style.css, courses_manifest.json)
+  2. Question Banks & Theory for all active courses:
+     - he_qtcsdl: 11 Chapters
+     - cnxhkh: 7 Chapters
+     - cnpm: 5 Chapters
+     All chapters must satisfy: >= 30 MCQ, >= 8 Short, >= 4 Essay, valid options/keys/explanations, no duplicates.
+  3. Local HTTP server static asset verification (index.html, app.js, style.css, courses_manifest.json, sample theory & exercise files).
+  4. Repository & .gitignore verification.
 """
 
 import http.server
@@ -22,11 +26,33 @@ sys.stderr.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
-DATA = DOCS / "data" / "he_qtcsdl"
 
-CHAPTERS = [
-    "q1_chuong_1", "q1_chuong_2", "q1_chuong_3", "q1_chuong_4", "q1_chuong_5", "q1_chuong_6",
-    "q2_chuong_1", "q2_chuong_2", "q2_chuong_3", "q2_chuong_4", "q2_chuong_5"
+COURSES_TO_AUDIT = [
+    {
+        "id": "he_qtcsdl",
+        "name": "Hệ Quản Trị Cơ Sở Dữ Liệu",
+        "dir": DOCS / "data" / "he_qtcsdl",
+        "chapters": [
+            "q1_chuong_1", "q1_chuong_2", "q1_chuong_3", "q1_chuong_4", "q1_chuong_5", "q1_chuong_6",
+            "q2_chuong_1", "q2_chuong_2", "q2_chuong_3", "q2_chuong_4", "q2_chuong_5"
+        ]
+    },
+    {
+        "id": "cnxhkh",
+        "name": "Chủ Nghĩa Xã Hội Khoa Học",
+        "dir": DOCS / "data" / "cnxhkh",
+        "chapters": [
+            "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5", "chuong_6", "chuong_7"
+        ]
+    },
+    {
+        "id": "cnpm",
+        "name": "Công Nghệ Phần Mềm",
+        "dir": DOCS / "data" / "cnpm",
+        "chapters": [
+            "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5"
+        ]
+    }
 ]
 
 def audit_skill_config():
@@ -49,20 +75,25 @@ def audit_skill_config():
     
     print("  -> OK: Skill 'lms_chapter_pack_generator' hợp lệ và hướng dẫn tồn tại.")
 
-def audit_question_banks():
-    print("\n[2/4] Kiểm tra Ngân hàng Câu hỏi 11 Chương môn Hệ QTCSDL...")
-    total_mcq = 0
-    total_short = 0
-    total_essay = 0
+def audit_course_questions(course_info):
+    cid_course = course_info["id"]
+    cname = course_info["name"]
+    cdir = course_info["dir"]
+    chapters = course_info["chapters"]
 
-    for cid in CHAPTERS:
-        json_file = DATA / f"{cid}_exercises.json"
-        theory_file = DATA / f"{cid}_theory.md"
+    print(f"\n--- Kiểm tra Ngân hàng câu hỏi môn: {cname} ({len(chapters)} chương) ---")
+    course_mcq = 0
+    course_short = 0
+    course_essay = 0
+
+    for ch in chapters:
+        json_file = cdir / f"{ch}_exercises.json"
+        theory_file = cdir / f"{ch}_theory.md"
 
         if not json_file.exists():
-            raise AssertionError(f"Thiếu file bài tập: {json_file}")
+            raise AssertionError(f"[{cid_course}] Thiếu file bài tập: {json_file}")
         if not theory_file.exists() or theory_file.stat().st_size < 100:
-            raise AssertionError(f"File lý thuyết thiếu hoặc quá ngắn: {theory_file}")
+            raise AssertionError(f"[{cid_course}] File lý thuyết thiếu hoặc quá ngắn: {theory_file}")
 
         with open(json_file, "r", encoding="utf-8") as f:
             d = json.load(f)
@@ -73,11 +104,11 @@ def audit_question_banks():
 
         # Count checks
         if len(mcq) < 30:
-            raise AssertionError(f"Chương {cid} chỉ có {len(mcq)}/30 câu trắc nghiệm!")
+            raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(mcq)}/30 câu trắc nghiệm!")
         if len(short) < 8:
-            raise AssertionError(f"Chương {cid} chỉ có {len(short)}/8 câu trả lời ngắn!")
+            raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(short)}/8 câu trả lời ngắn!")
         if len(essay) < 4:
-            raise AssertionError(f"Chương {cid} chỉ có {len(essay)}/4 bài tự luận!")
+            raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(essay)}/4 bài tự luận!")
 
         # Quality checks: no duplicates, valid 4 options, valid correct answer, non-empty explanation
         seen_questions = set()
@@ -85,28 +116,28 @@ def audit_question_banks():
             qid = q.get("id")
             q_text = q.get("question", "").strip()
             if not q_text:
-                raise AssertionError(f"Chương {cid} câu {qid}: question rỗng")
+                raise AssertionError(f"[{cid_course} - {ch}] câu {qid}: question rỗng")
             
             clean_q = re.sub(r"\s+", " ", q_text)
             if clean_q in seen_questions:
-                raise AssertionError(f"Chương {cid} phát hiện trùng câu hỏi trắc nghiệm: {clean_q[:60]}...")
+                raise AssertionError(f"[{cid_course} - {ch}] phát hiện trùng câu hỏi trắc nghiệm: {clean_q[:60]}...")
             seen_questions.add(clean_q)
 
             opts = q.get("options", {})
             if set(opts.keys()) != {"A", "B", "C", "D"}:
-                raise AssertionError(f"Chương {cid} câu {qid}: phương án không đủ 4 A,B,C,D: {opts.keys()}")
+                raise AssertionError(f"[{cid_course} - {ch}] câu {qid}: phương án không đủ 4 A,B,C,D: {opts.keys()}")
             
             for k, v in opts.items():
                 if not str(v).strip():
-                    raise AssertionError(f"Chương {cid} câu {qid} phương án {k} bị rỗng")
+                    raise AssertionError(f"[{cid_course} - {ch}] câu {qid} phương án {k} bị rỗng")
 
             ans = q.get("correct_answer")
             if ans not in {"A", "B", "C", "D"}:
-                raise AssertionError(f"Chương {cid} câu {qid}: correct_answer không hợp lệ ({ans})")
+                raise AssertionError(f"[{cid_course} - {ch}] câu {qid}: correct_answer không hợp lệ ({ans})")
 
             expl = q.get("explanation", "").strip()
             if not expl:
-                raise AssertionError(f"Chương {cid} câu {qid}: explanation bị rỗng")
+                raise AssertionError(f"[{cid_course} - {ch}] câu {qid}: explanation bị rỗng")
 
         # Short answer quality checks
         seen_short = set()
@@ -114,26 +145,47 @@ def audit_question_banks():
             sid = s.get("id")
             sq = s.get("question", "").strip()
             if not sq or sq in seen_short:
-                raise AssertionError(f"Chương {cid} câu trả lời ngắn {sid} rỗng hoặc trùng lặp")
+                raise AssertionError(f"[{cid_course} - {ch}] câu trả lời ngắn {sid} rỗng hoặc trùng lặp")
             seen_short.add(sq)
             if not s.get("expected_answer", "").strip():
-                raise AssertionError(f"Chương {cid} câu trả lời ngắn {sid} thiếu expected_answer")
+                raise AssertionError(f"[{cid_course} - {ch}] câu trả lời ngắn {sid} thiếu expected_answer")
 
         # Essay checks
         for e in essay:
             eid = e.get("id")
             if not e.get("title", "").strip() or not e.get("problem", "").strip():
-                raise AssertionError(f"Chương {cid} bài tự luận {eid} thiếu title hoặc problem")
+                raise AssertionError(f"[{cid_course} - {ch}] bài tự luận {eid} thiếu title hoặc problem")
             steps = e.get("solution_steps", [])
             if not steps or len(steps) < 2:
-                raise AssertionError(f"Chương {cid} bài tự luận {eid} solution_steps phải có ít nhất 2 bước")
+                raise AssertionError(f"[{cid_course} - {ch}] bài tự luận {eid} solution_steps phải có ít nhất 2 bước")
 
-        total_mcq += len(mcq)
-        total_short += len(short)
-        total_essay += len(essay)
-        print(f"  -> Chương {cid}: {len(mcq)} trắc nghiệm, {len(short)} trả lời ngắn, {len(essay)} tự luận (PASS)")
+        course_mcq += len(mcq)
+        course_short += len(short)
+        course_essay += len(essay)
+        print(f"  -> Chương {ch}: {len(mcq)} trắc nghiệm, {len(short)} trả lời ngắn, {len(essay)} tự luận (PASS)")
 
-    print(f"\n  TỔNG CỘNG 11 CHƯƠNG: {total_mcq} câu trắc nghiệm (>= 330), {total_short} trả lời ngắn (>= 88), {total_essay} tự luận (>= 44).")
+    print(f"  TỔNG {cname}: {course_mcq} trắc nghiệm, {course_short} trả lời ngắn, {course_essay} tự luận.")
+    return course_mcq, course_short, course_essay
+
+def audit_all_courses():
+    print("\n[2/4] Kiểm tra Ngân hàng Câu hỏi cho toàn bộ các môn học đang Active...")
+    total_mcq = 0
+    total_short = 0
+    total_essay = 0
+
+    for c in COURSES_TO_AUDIT:
+        m, s, e = audit_course_questions(c)
+        total_mcq += m
+        total_short += s
+        total_essay += e
+
+    total_chapters = sum(len(c["chapters"]) for c in COURSES_TO_AUDIT)
+    print(f"\n================================================================")
+    print(f"  TỔNG TOÀN BỘ {total_chapters} CHƯƠNG ({len(COURSES_TO_AUDIT)} MÔN HỌC):")
+    print(f"  - Trắc nghiệm: {total_mcq} câu")
+    print(f"  - Trả lời ngắn: {total_short} câu")
+    print(f"  - Tự luận: {total_essay} bài")
+    print(f"================================================================")
 
 def audit_static_server():
     print("\n[3/4] Kiểm tra Static HTTP Server tại docs/...")
@@ -142,9 +194,9 @@ def audit_static_server():
         def __init__(self, *args, **kwargs):
             super().__init__(*args, directory=str(DOCS), **kwargs)
         def log_message(self, format, *args):
-            pass # Im lặng log
+            pass
 
-    port = 8765
+    port = 8766
     server = socketserver.TCPServer(("127.0.0.1", port), QuietHandler)
     server_thread = threading.Thread(target=server.serve_forever, daemon=True)
     server_thread.start()
@@ -156,7 +208,13 @@ def audit_static_server():
         "data/courses_manifest.json",
         "data/he_qtcsdl/q1_chuong_1_exercises.json",
         "data/he_qtcsdl/q1_chuong_1_theory.md",
-        "data/he_qtcsdl/q2_chuong_5_exercises.json",
+        "data/cnxhkh/chuong_1_exercises.json",
+        "data/cnxhkh/chuong_1_theory.md",
+        "data/cnpm/chuong_1_exercises.json",
+        "data/cnpm/chuong_1_theory.md",
+        "data/cnpm/chuong_5_exercises.json",
+        "data/cnpm/chuong_5_theory.md",
+        "data/cnpm/topics/tong_quan_cnpm_va_ky_nghe_he_thong_summary.md",
         ".nojekyll"
     ]
 
@@ -189,11 +247,11 @@ def main():
     print("================================================================")
     try:
         audit_skill_config()
-        audit_question_banks()
+        audit_all_courses()
         audit_static_server()
         audit_gitignore()
         print("\n================================================================")
-        print(">>> KẾT QUẢ KIỂM ĐỊNH: TOÀN BỘ 11/11 CHƯƠNG ĐẠT CHUẨN PASS 100%! <<<")
+        print(">>> KẾT QUẢ KIỂM ĐỊNH: TOÀN BỘ CÁC MÔN HỌC ĐẠT CHUẨN PASS 100%! <<<")
         print("================================================================")
         return 0
     except Exception as e:

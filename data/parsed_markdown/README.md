@@ -31,6 +31,12 @@ data/parsed_markdown/
 │   ├── chuong_5_co_cau_xa_hoi_giai_cap_va_lien_minh.md
 │   ├── chuong_6_van_de_dan_toc_va_ton_giao.md
 │   └── chuong_7_van_de_gia_dinh.md
+├── cnpm/
+│   ├── chuong_1_tong_quan_cnpm.md
+│   ├── chuong_2_quy_trinh_phat_trien_phan_mem.md
+│   ├── chuong_3_quan_ly_yeu_cau_va_lap_ke_hoach.md
+│   ├── chuong_4_phat_trien_tich_hop_va_dam_bao_chat_luong.md
+│   └── chuong_5_trien_khai_bao_tri_va_devops.md
 └── cau_truc_du_lieu/
     ├── cay_nhi_phan.md
     └── do_thi.md

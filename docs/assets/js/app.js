@@ -61,6 +61,36 @@
         intro: 'Đề bài tự luận tổng hợp yêu cầu phân tích quy luật khách quan, chứng minh luận điểm khoa học và liên hệ thực tiễn bám sát giáo trình chuẩn Bộ GD&ĐT.'
       }
     },
+    cnpm: {
+      profile_name: 'software_engineering',
+      short_answer: {
+        title: 'Luyện tập Trả lời ngắn & Kỹ thuật Phần mềm',
+        intro: 'Tự viết User Story, ca kiểm thử, lệnh Git/CI-CD hoặc phân tích kiến trúc trước khi bấm "Kiểm tra & Đối chiếu" để so sánh với đáp án chuẩn.',
+        label: 'Nhập câu trả lời / Cú pháp / Ca kiểm thử / Lệnh của bạn:',
+        placeholder: 'Gõ câu trả lời, cú pháp hoặc phân tích của bạn vào đây để tự rèn luyện...',
+        isMono: true
+      },
+      essay: {
+        badge: 'Tự luận & Thiết kế Phần mềm',
+        title: 'Bài Tập Tự Luận & Thiết Kế Kiến Trúc / Quy Trình',
+        intro: 'Bài toán tổng hợp đòi hỏi phân tích yêu cầu SRS, thiết kế kiến trúc hệ thống, hoạch định Sprint và xây dựng chiến lược kiểm thử / CI-CD.'
+      }
+    },
+    software_engineering: {
+      profile_name: 'software_engineering',
+      short_answer: {
+        title: 'Luyện tập Trả lời ngắn & Kỹ thuật Phần mềm',
+        intro: 'Tự viết User Story, ca kiểm thử, lệnh Git/CI-CD hoặc phân tích kiến trúc trước khi bấm "Kiểm tra & Đối chiếu" để so sánh với đáp án chuẩn.',
+        label: 'Nhập câu trả lời / Cú pháp / Ca kiểm thử / Lệnh của bạn:',
+        placeholder: 'Gõ câu trả lời, cú pháp hoặc phân tích của bạn vào đây để tự rèn luyện...',
+        isMono: true
+      },
+      essay: {
+        badge: 'Tự luận & Thiết kế Phần mềm',
+        title: 'Bài Tập Tự Luận & Thiết Kế Kiến Trúc / Quy Trình',
+        intro: 'Bài toán tổng hợp đòi hỏi phân tích yêu cầu SRS, thiết kế kiến trúc hệ thống, hoạch định Sprint và xây dựng chiến lược kiểm thử / CI-CD.'
+      }
+    },
     default: {
       profile_name: 'general_academic',
       short_answer: {

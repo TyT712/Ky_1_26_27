@@ -107,3 +107,16 @@ Mọi phản hồi học thuật từ Agent tuân thủ nghiêm ngặt quy tắc
 1. **Không bịa đặt (Zero Hallucination):** Chỉ giải thích dựa trên nội dung có trong giáo trình đã nạp.
 2. **Minh bạch trích dẫn:** Mọi câu trả lời đều có nhãn `[Môn học | Tài liệu | Mục | Trang]`.
 3. **Phân tách tri thức:** Nếu giáo trình chưa đề cập, Agent sẽ thông báo rõ ràng trước khi gợi ý kiến thức tham khảo bên ngoài.
+
+---
+
+## 5. Các Môn Học Đã Đưa Lên Semester Hub LMS (Active Courses)
+
+| STT | Mã môn | Tên môn học | Số chương | Trắc nghiệm | Trả lời ngắn | Tự luận | Chuyên đề NotebookLM |
+|:---:|:---:|:---|:---:|:---:|:---:|:---:|:---:|
+| 1 | **HQTCSDL** | Hệ Quản Trị Cơ Sở Dữ Liệu | 11 chương | 331 câu | 88 câu | 44 bài | 10 chuyên đề |
+| 2 | **CNXHKH** | Chủ Nghĩa Xã Hội Khoa Học | 7 chương | 210 câu | 56 câu | 28 bài | 7 chuyên đề |
+| 3 | **CNPM** | Công Nghệ Phần Mềm | 5 chương | 150 câu | 40 câu | 20 bài | 5 chuyên đề |
+| **Tổng cộng** | | | **23 chương** | **691 câu** | **184 câu** | **92 bài** | **22 chuyên đề** |
+
+LMS web portal được triển khai sẵn sàng tại thư mục [docs/](file:///c:/Users/dtht0/OneDrive/Desktop/semester-hub/docs) và hỗ trợ chạy static GitHub Pages.

@@ -1,0 +1,488 @@
+{
+  "chapter_id": "chuong_3",
+  "chapter_title": "Chương 3: Kỹ nghệ yêu cầu & Lập kế hoạch dự án phần mềm",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Phát biểu nào sau đây mô tả ĐÚNG NHẤT về Yêu cầu Chức năng (Functional Requirement)?",
+      "options": {
+        "A": "Mô tả thời gian phản hồi của máy chủ phải nhỏ hơn 200 miligiây",
+        "B": "Mô tả các hành vi, dịch vụ cụ thể hoặc tính năng nghiệp vụ mà hệ thống phần mềm phải thực hiện",
+        "C": "Quy định hệ thống phải được viết hoàn toàn bằng ngôn ngữ TypeScript",
+        "D": "Quy định ngân sách tối đa dành cho dự án phần mềm"
+      },
+      "correct_answer": "B",
+      "explanation": "Yêu cầu chức năng định nghĩa các dịch vụ hoặc tính năng cụ thể mà người dùng kỳ vọng hệ thống thực thi (ví dụ: đăng nhập, thanh toán, xuất báo cáo)."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Yêu cầu: 'Mật khẩu người dùng phải được băm bảo mật bằng thuật toán bcrypt với salt rounds tối thiểu là 10' thuộc loại yêu cầu nào?",
+      "options": {
+        "A": "Yêu cầu Chức năng",
+        "B": "Yêu cầu Phi chức năng về Bảo mật (Security Non-functional Requirement)",
+        "C": "Yêu cầu Giao diện đồ họa",
+        "D": "Yêu cầu Tiếp thị sản phẩm"
+      },
+      "correct_answer": "B",
+      "explanation": "Đây là ràng buộc kỹ thuật về chất lượng an toàn thông tin (Bảo mật), không phải là một chức năng nghiệp vụ tương tác trực tiếp của người dùng."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Cấu trúc chuẩn mực của một User Story trong Agile bao gồm 3 mệnh đề nào sau đây?",
+      "options": {
+        "A": "Nếu [Điều kiện] Thì [Hành động] Ngược lại [Dừng]",
+        "B": "Là một [Vai trò người dùng], tôi muốn [Hành động/Tính năng], để [Lợi ích/Giá trị]",
+        "C": "Đầu vào [Dữ liệu], Xử lý [Thuật toán], Đầu ra [Kết quả]",
+        "D": "Lập trình viên [Tên], viết [Code], trong [Số giờ]"
+      },
+      "correct_answer": "B",
+      "explanation": "Cấu trúc 'As a [Role], I want [Action], So that [Benefit]' là định dạng chuẩn toàn cầu giúp định hình mục đích và giá trị của tính năng."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Chữ cái 'I' trong bộ tiêu chuẩn INVEST dành cho User Story là viết tắt của từ tiếng Anh nào?",
+      "options": {
+        "A": "Important (Quan trọng)",
+        "B": "Independent (Độc lập)",
+        "C": "Immediate (Ngay lập tức)",
+        "D": "Intelligent (Thông minh)"
+      },
+      "correct_answer": "B",
+      "explanation": "INVEST là viết tắt của: Independent (Độc lập), Negotiable (Có thể thương lượng), Valuable (Có giá trị), Estimable (Có thể ước lượng), Small (Nhỏ gọn), Testable (Có thể kiểm thử)."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Trong phương pháp ưu tiên MoSCoW, chữ cái 'M' đại diện cho nhóm yêu cầu nào?",
+      "options": {
+        "A": "Medium (Mức độ trung bình)",
+        "B": "Must have (Bắt buộc phải có để sản phẩm tồn tại và vận hành được)",
+        "C": "Maybe (Có thể làm hoặc không)",
+        "D": "Maintenance (Thuộc về bảo trì)"
+      },
+      "correct_answer": "B",
+      "explanation": "Must have là những tính năng cốt lõi không thể thương lượng; thiếu chúng thì sản phẩm không thể phát hành hoặc vi phạm pháp lý."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Cú pháp chuẩn để viết Tiêu chí Chấp nhận (Acceptance Criteria) theo hướng hành vi (BDD) là bộ 3 từ khóa nào?",
+      "options": {
+        "A": "Start - Process - Stop",
+        "B": "Given - When - Then",
+        "C": "Input - Filter - Output",
+        "D": "Before - During - After"
+      },
+      "correct_answer": "B",
+      "explanation": "Given (Bối cảnh ban đầu) - When (Hành động kích hoạt) - Then (Kết quả mong đợi) là chuẩn Gherkin kinh điển trong kiểm thử hành vi."
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "question": "Story Points trong quản lý dự án Agile/Scrum đo lường yếu tố nào sau đây?",
+      "options": {
+        "A": "Số giờ làm việc tuyệt đối của lập trình viên ngồi trước máy tính",
+        "B": "Độ phức tạp tương đối, khối lượng công việc và mức độ rủi ro/bất định của một hạng mục",
+        "C": "Số lượng dòng code mà lập trình viên dự kiến sẽ gõ",
+        "D": "Số tiền thưởng mà lập trình viên nhận được sau Sprint"
+      },
+      "correct_answer": "B",
+      "explanation": "Story Points là thước đo tương đối tổng hợp của độ phức tạp (complexity), độ lớn công việc (effort) và độ rủi ro (uncertainty)."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "Dãy số nào sau đây là dãy số Fibonacci sửa đổi thường được sử dụng phổ biến nhất trong trò chơi ước lượng Planning Poker?",
+      "options": {
+        "A": "1, 2, 4, 8, 16, 32, 64",
+        "B": "1, 2, 3, 5, 8, 13, 21",
+        "C": "10, 20, 30, 40, 50",
+        "D": "0, 10, 100, 1000"
+      },
+      "correct_answer": "B",
+      "explanation": "Dãy Fibonacci sửa đổi (1, 2, 3, 5, 8, 13, 21...) phản ánh thực tế rằng bài toán càng lớn thì độ bất định càng cao, khoảng cách giữa các con số càng dãn cách."
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "question": "Hoạt động 'Làm mịn Backlog' (Backlog Refinement / Grooming) nhằm mục đích gì?",
+      "options": {
+        "A": "Xóa toàn bộ mã nguồn cũ để viết lại từ đầu",
+        "B": "Làm rõ chi tiết, chia nhỏ các Epic lớn thành User Story nhỏ và cập nhật ước lượng cho các hạng mục sắp tới",
+        "C": "Sa thải những lập trình viên không đạt chỉ tiêu",
+        "D": "Ký kết hợp đồng nghiệm thu dự án"
+      },
+      "correct_answer": "B",
+      "explanation": "Backlog Refinement là hoạt động liên tục giữa PO và nhóm để đảm bảo các hạng mục ở đầu Backlog luôn sẵn sàng (Ready) cho phiên Sprint Planning tiếp theo."
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "question": "Ai là người có trách nhiệm CHÍNH trong việc sắp xếp thứ tự ưu tiên của các User Story trong Product Backlog?",
+      "options": {
+        "A": "Scrum Master",
+        "B": "Product Owner (PO)",
+        "C": "Trưởng nhóm Tester",
+        "D": "Khách hàng bất kỳ không qua trung gian"
+      },
+      "correct_answer": "B",
+      "explanation": "Chỉ có duy nhất Product Owner là người sở hữu quyền quyết định thứ tự ưu tiên trong Product Backlog dựa trên giá trị kinh doanh và chiến lược sản phẩm."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Một User Story được viết như sau: 'Hệ thống cần có giao diện hiện đại và tốc độ xử lý nhanh'. User Story này vi phạm NGHIÊM TRỌNG tiêu chuẩn nào của bộ tiêu chuẩn INVEST?",
+      "options": {
+        "A": "Vi phạm tính Testable (Không thể kiểm thử được vì 'hiện đại' và 'nhanh' là các từ cảm tính, không có tiêu chí đo lường định lượng cụ thể)",
+        "B": "Vi phạm tính Independent",
+        "C": "Vi phạm tính Small",
+        "D": "Không vi phạm gì, đây là câu chuyện rất hay"
+      },
+      "correct_answer": "A",
+      "explanation": "Từ ngữ mơ hồ ('hiện đại', 'nhanh') khiến QA Tester không thể viết được kịch bản kiểm thử Pass/Fail. Cần định lượng rõ: ví dụ 'thời gian tải trang $\\le 1.5$ giây'."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Trong phiên Planning Poker, khi nhóm mở bài, 4 lập trình viên chọn 3 điểm nhưng 1 lập trình viên lại chọn 13 điểm. Cách xử lý ĐÚNG ĐẮN theo chuẩn Scrum là gì?",
+      "options": {
+        "A": "Lấy trung bình cộng của tất cả các lá bài: (3*4 + 13)/5 = 5 điểm",
+        "B": "Yêu cầu người chọn 13 điểm và một người chọn 3 điểm lần lượt giải thích góc nhìn kỹ thuật của mình, sau đó cả nhóm thảo luận và bỏ phiếu lại để đạt đồng thuận",
+        "C": "Bắt buộc người chọn 13 điểm phải theo số đông chọn 3 điểm",
+        "D": "Loại bỏ người chọn 13 điểm ra khỏi nhóm phát triển"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục đích lớn nhất của Planning Poker không phải là con số, mà là khơi gợi thảo luận (Conversation). Người chọn 13 điểm có thể đã nhìn ra một góc khuất kỹ thuật hoặc rủi ro tiềm ẩn mà những người khác chưa thấy."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Khái niệm 'Mô hình 3C' của Ron Jeffries khi nói về User Story bao gồm 3 yếu tố nào?",
+      "options": {
+        "A": "Code, Compile, Check",
+        "B": "Card (Thẻ tóm tắt), Conversation (Cuộc đối thoại liên tục), Confirmation (Tiêu chí xác nhận nghiệm thu)",
+        "C": "Cost, Customer, Contract",
+        "D": "Create, Change, Cancel"
+      },
+      "correct_answer": "B",
+      "explanation": "3C nhắc nhở rằng User Story không chỉ là tấm thẻ (Card), mà quan trọng nhất là cuộc trò chuyện (Conversation) để thấu hiểu, và được chốt lại bằng tiêu chí xác nhận (Confirmation)."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Kỹ thuật thu thập yêu cầu nào sau đây là hiệu quả nhất khi khách hàng không thể diễn đạt rõ ràng quy trình làm việc hàng ngày của họ bằng lời nói?",
+      "options": {
+        "A": "Gửi một biểu mẫu khảo sát trực tuyến qua email",
+        "B": "Kỹ thuật Quan sát thực địa (Observation / Job Shadowing) kết hợp phỏng vấn theo ngữ cảnh",
+        "C": "Đọc tài liệu tiếp thị của đối thủ cạnh tranh",
+        "D": "Ngồi tự tưởng tượng ra quy trình của khách hàng"
+      },
+      "correct_answer": "B",
+      "explanation": "Job Shadowing (quan sát trực tiếp chuyên viên thực hiện công việc thực tế) giúp kỹ sư yêu cầu nhìn thấy các thao tác thực, điểm nghẽn và thói quen mà khách hàng thường quên kể trong phòng họp."
+    },
+    {
+      "id": 15,
+      "difficulty": "medium",
+      "question": "Một User Story có kích thước quá lớn, dự kiến phải mất 3 Sprint mới có thể làm xong thì được gọi là gì trong thuật ngữ Agile?",
+      "options": {
+        "A": "Monster Story",
+        "B": "Epic",
+        "C": "Super Task",
+        "D": "Blocker"
+      },
+      "correct_answer": "B",
+      "explanation": "Epic là một khối yêu cầu lớn cấp độ vĩ mô, cần phải được phân tích và phân rã thành nhiều User Story nhỏ hơn thỏa mãn tiêu chí Small của INVEST trước khi đưa vào Sprint."
+    },
+    {
+      "id": 16,
+      "difficulty": "medium",
+      "question": "Sự khác biệt căn bản giữa Velocity (Tốc độ nhóm) và Capacity (Dung lượng làm việc) trong lập kế hoạch Sprint là gì?",
+      "options": {
+        "A": "Velocity tính bằng giờ, Capacity tính bằng tiền",
+        "B": "Velocity là số Story Points trung bình nhóm THỰC TẾ hoàn thành được ở các Sprint quá khứ, còn Capacity là tổng thời gian/nguồn lực KHẢ DỤNG của nhóm trong Sprint sắp tới (đã trừ ngày nghỉ, lễ, ốm)",
+        "C": "Velocity do giám đốc quy định, còn Capacity do PO tự tính",
+        "D": "Hai khái niệm này hoàn toàn đồng nhất"
+      },
+      "correct_answer": "B",
+      "explanation": "Velocity phản ánh năng suất lịch sử; Capacity phản ánh năng lực thực tế có sẵn trong 2 tuần tới của nhóm (nếu có 2 thành viên nghỉ phép, Capacity giảm thì không thể nhận đủ khối lượng bằng Velocity cũ)."
+    },
+    {
+      "id": 17,
+      "difficulty": "medium",
+      "question": "Khi phân loại theo ma trận MoSCoW, nhóm 'Won't have (this time)' có ý nghĩa thực tế như thế nào đối với dự án?",
+      "options": {
+        "A": "Những tính năng vô dụng sẽ bị xóa vĩnh viễn khỏi hệ thống",
+        "B": "Những tính năng đã được thống nhất nhận diện nhưng được chủ động dời sang các giai đoạn hoặc phiên bản tiếp theo, giúp đóng băng phạm vi (Scope management) của đợt phát hành hiện tại",
+        "C": "Những tính năng mà lập trình viên từ chối không chịu viết",
+        "D": "Những lỗi không bao giờ được sửa"
+      },
+      "correct_answer": "B",
+      "explanation": "Chữ 'W' giúp quản lý kỳ vọng của các bên liên quan, tránh việc tranh cãi vô bổ về các tính năng chưa cần thiết ở phiên bản hiện tại."
+    },
+    {
+      "id": 18,
+      "difficulty": "medium",
+      "question": "Một Acceptance Criteria viết theo mẫu Given-When-Then như sau: 'Given Người dùng đang ở màn hình Giỏ hàng; When Bấm nút Thanh toán; Then Hệ thống hiển thị form chọn phương thức thanh toán'. Yếu tố 'Given' ở đây đóng vai trò gì?",
+      "options": {
+        "A": "Hành động người dùng tương tác lên màn hình",
+        "B": "Bối cảnh, tiền đề hoặc trạng thái ban đầu của hệ thống trước khi hành động diễn ra",
+        "C": "Kết quả cuối cùng ghi nhận trong cơ sở dữ liệu",
+        "D": "Mã lỗi trả về từ máy chủ"
+      },
+      "correct_answer": "B",
+      "explanation": "'Given' xác định điều kiện tiên quyết (Preconditions) và trạng thái ngữ cảnh cần có để kịch bản kiểm thử có thể bắt đầu."
+    },
+    {
+      "id": 19,
+      "difficulty": "medium",
+      "question": "Kỹ thuật nào sau đây giúp phân rã một User Story lớn thành các User Story nhỏ hơn mà vẫn bảo toàn giá trị bàn giao theo chiều dọc (Vertical Slice)?",
+      "options": {
+        "A": "Tách thành 1 Story làm giao diện UI, 1 Story viết code Backend, 1 Story thiết kế CSDL",
+        "B": "Phân tách theo luồng nghiệp vụ (Workflow steps), theo kịch bản chính và kịch bản phụ (Happy path vs Error path), hoặc theo quy tắc dữ liệu",
+        "C": "Tách theo tên của từng lập trình viên trong phòng",
+        "D": "Cắt đôi số dòng code một cách ngẫu nhiên"
+      },
+      "correct_answer": "B",
+      "explanation": "Trong Agile, User Story phải được cắt theo chiều dọc (Vertical Slice - đi qua cả UI, API, DB) theo từng lát cắt nghiệp vụ hoặc kịch bản, tuyệt đối tránh cắt ngang theo tầng kỹ thuật (Horizontal Slice)."
+    },
+    {
+      "id": 20,
+      "difficulty": "medium",
+      "question": "Tại sao việc gán điểm Story Points KHÔNG NÊN do một cá nhân duy nhất (ví dụ như Tech Lead hoặc PM) tự ý áp đặt cho cả nhóm?",
+      "options": {
+        "A": "Vì Tech Lead không biết cách cộng trừ điểm số",
+        "B": "Vì mỗi thành viên có năng lực, góc nhìn công nghệ và nhận thức rủi ro khác nhau; ước lượng tập thể giúp tạo sự thấu hiểu chung, chia sẻ trách nhiệm và cam kết gắn bó của cả đội ngũ",
+        "C": "Vì luật lao động cấm quản lý làm việc ước lượng",
+        "D": "Vì điểm số ước lượng cần phải được gửi sang Mỹ phê duyệt"
+      },
+      "correct_answer": "B",
+      "explanation": "Ước lượng tập thể tạo ra sự sở hữu chung (Collective Ownership). Nếu bị áp đặt số điểm, lập trình viên sẽ có tâm lý 'đó là điểm của sếp ép, không phải cam kết của tôi'."
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "question": "Yêu cầu: 'Hệ thống phải có khả năng mở rộng để phục vụ lượng người dùng tăng gấp 10 lần trong vòng 2 năm tới mà không cần viết lại toàn bộ kiến trúc lõi'. Đây là ví dụ về thuộc tính phi chức năng nào?",
+      "options": {
+        "A": "Tính khả mở (Scalability)",
+        "B": "Tính khả dụng (Usability)",
+        "C": "Tính tương thích (Interoperability)",
+        "D": "Tính thẩm mỹ (Aesthetics)"
+      },
+      "correct_answer": "A",
+      "explanation": "Khả năng mở rộng (Scalability) phản ánh năng lực của hệ thống thích ứng với sự gia tăng mạnh mẽ về tải và lưu lượng dữ liệu mà không làm suy sụp kiến trúc."
+    },
+    {
+      "id": 22,
+      "difficulty": "medium",
+      "question": "Khi một User Story đạt trạng thái 'Definition of Ready' (DoR), điều đó có nghĩa là gì?",
+      "options": {
+        "A": "Story đã được lập trình xong và sẵn sàng đẩy lên Production",
+        "B": "Story đã đủ rõ ràng, được làm mịn (INVEST), có đầy đủ tiêu chí chấp nhận và điểm ước lượng, sẵn sàng để nhóm đưa vào lập kế hoạch trong Sprint tiếp theo",
+        "C": "Story đã được khách hàng thanh toán tiền bản quyền",
+        "D": "Story đang bị lỗi và cần được sửa"
+      },
+      "correct_answer": "B",
+      "explanation": "Definition of Ready (DoR) là tấm lưới lọc đầu vào ngăn chặn những User Story mơ hồ, thiếu thông tin lọt vào Sprint Planning gây lãng phí thời gian của nhóm."
+    },
+    {
+      "id": 23,
+      "difficulty": "hard",
+      "question": "Trong trò chơi Planning Poker, giả sử có một lá bài mang biểu tượng 'Tách cà phê' (Coffee Cup) và lá bài mang biểu tượng 'Dấu chấm hỏi' (?). Ý nghĩa kỹ thuật của lá bài '?' là gì?",
+      "options": {
+        "A": "Lập trình viên muốn từ chối không làm dự án này",
+        "B": "Lập trình viên cảm thấy yêu cầu còn quá mơ hồ, thiếu thông tin nghiêm trọng đến mức không thể đưa ra bất kỳ ước lượng nào và cần PO làm rõ thêm",
+        "C": "Lập trình viên đoán điểm số là vô cực",
+        "D": "Hệ thống máy tính bị mất mạng internet"
+      },
+      "correct_answer": "B",
+      "explanation": "Lá bài '?' là tín hiệu cảnh báo rằng User Story chưa đạt chuẩn DoR; nhóm cần PO giải thích thêm thông tin nghiệp vụ hoặc cần nghiên cứu kỹ thuật (Spike) trước khi ước lượng."
+    },
+    {
+      "id": 24,
+      "difficulty": "hard",
+      "question": "Một công ty áp dụng quy đổi cứng: '1 Story Point = 8 giờ làm việc'. Sai lầm cốt tử của cách quy đổi máy móc này trong kỹ nghệ phần mềm là gì?",
+      "options": {
+        "A": "Làm cho máy tính không thể tính toán được ma trận",
+        "B": "Phá hủy hoàn toàn bản chất ước lượng tương đối; biến Story Points trở lại thành áp lực thời gian tuyệt đối, khiến các thành viên có xu hướng thổi phồng điểm số (Point inflation) để tự bảo vệ mình và đánh mất sự tập trung vào giá trị bàn giao",
+        "C": "Vi phạm quy định của tổ chức tiêu chuẩn hóa ISO",
+        "D": "Không có sai lầm nào, đây là cách làm tiên tiến nhất"
+      },
+      "correct_answer": "B",
+      "explanation": "Đồng nhất Point với Giờ làm triệt tiêu tư duy trừu tượng về độ phức tạp và rủi ro. Hai lập trình viên trình độ khác nhau sẽ tốn số giờ khác nhau cho cùng một tính năng, nhưng độ phức tạp tương đối của tính năng đó trong hệ thống là bất biến."
+    },
+    {
+      "id": 25,
+      "difficulty": "hard",
+      "question": "Khái niệm 'Spike' trong Scrum/Agile được sử dụng trong tình huống nào?",
+      "options": {
+        "A": "Khi muốn phạt trừ điểm của thành viên đi làm muộn",
+        "B": "Một nhiệm vụ nghiên cứu hoặc thử nghiệm kỹ thuật ngắn hạn (Time-boxed) nhằm giải tỏa sự bất định, kiểm tra tính khả thi của công nghệ trước khi ước lượng một User Story phức tạp",
+        "C": "Khi hệ thống bị tấn công mạng đột ngột",
+        "D": "Khi cần đẩy nhanh tiến độ bằng cách bỏ qua kiểm thử"
+      },
+      "correct_answer": "B",
+      "explanation": "Spike (Technical Spike hoặc Functional Spike) là chiếc cầu nối giải quyết sự mơ hồ: nhóm dành 1-2 ngày viết mã thử nghiệm để hiểu rõ vấn đề trước khi bước vào ước lượng chính thức."
+    },
+    {
+      "id": 26,
+      "difficulty": "hard",
+      "question": "Khi áp dụng tiêu chuẩn INVEST, tại sao tiêu chí 'Negotiable' (Có thể thương lượng) lại cực kỳ quan trọng đối với sự hợp tác giữa PO và Developers?",
+      "options": {
+        "A": "Để PO có thể ép giá tiền lương của nhóm phát triển",
+        "B": "Vì User Story không phải là hợp đồng pháp lý một chiều; nó mở ra không gian cho Developers đề xuất các giải pháp kỹ thuật thông minh hơn, tiết kiệm chi phí hơn để đạt cùng một mục tiêu nghiệp vụ",
+        "C": "Để nhóm phát triển có thể tùy tiện bỏ bớt tính năng mà không cần hỏi PO",
+        "D": "Để khách hàng không cần phải trả tiền bản quyền"
+      },
+      "correct_answer": "B",
+      "explanation": "Tính Negotiable đề cao tinh thần đồng sáng tạo (Co-creation). Khi gặp một yêu cầu quá tốn kém, Developers có thể bàn bạc với PO để điều chỉnh phạm vi mà vẫn mang lại 80% giá trị cốt lõi."
+    },
+    {
+      "id": 27,
+      "difficulty": "hard",
+      "question": "Kỹ thuật 'User Story Mapping' do Jeff Patton đề xuất giải quyết nhược điểm lớn nhất nào của một danh sách Product Backlog phẳng (Flat Backlog)?",
+      "options": {
+        "A": "Giúp in được tài liệu Backlog ra giấy khổ lớn",
+        "B": "Trực quan hóa toàn bộ hành trình người dùng (User Journey) theo trục ngang theo thời gian và trục dọc theo mức độ ưu tiên, giúp nhóm nhìn thấy bức tranh tổng thể (Big Picture) thay vì bị lạc trong các mẩu chuyện vụn vặt",
+        "C": "Tự động lập trình mã nguồn mà không cần lập trình viên",
+        "D": "Giúp sa thải các thành viên làm việc kém hiệu quả"
+      },
+      "correct_answer": "B",
+      "explanation": "Flat Backlog dạng danh sách từ trên xuống dưới dễ làm mất bối cảnh người dùng. Story Mapping sắp xếp các câu chuyện theo tiến trình trải nghiệm từ trái sang phải, tạo ra khung xương sống (Backbone) vững chắc cho kế hoạch phát hành."
+    },
+    {
+      "id": 28,
+      "difficulty": "hard",
+      "question": "Giả sử một User Story: 'Là một tài xế, tôi muốn nhận cảnh báo bằng giọng nói khi đi quá tốc độ cho phép 5 km/h'. Tiêu chí kiểm thử nào sau đây đại diện cho kiểm thử giá trị biên (Boundary Value Analysis) trong Acceptance Criteria?",
+      "options": {
+        "A": "Kiểm tra khi xe đang dừng đỗ tắt máy",
+        "B": "Given tốc độ cho phép là 50 km/h; kiểm tra khi xe chạy ở các mốc 54 km/h (không cảnh báo), 55 km/h (bắt đầu cảnh báo) và 56 km/h (phải phát cảnh báo)",
+        "C": "Kiểm tra màu sắc của bảng đồng hồ tốc độ",
+        "D": "Kiểm tra dung lượng pin của điện thoại thông minh"
+      },
+      "correct_answer": "B",
+      "explanation": "Phân tích giá trị biên tập trung vào các điểm mút chuyển tiếp trạng thái (54, 55, 56 km/h) để phát hiện các lỗi so sánh logic (`>` thay vì `>=`)."
+    },
+    {
+      "id": 29,
+      "difficulty": "hard",
+      "question": "Hiện tượng 'Gold Plating' (Mạ vàng sản phẩm) trong kỹ nghệ yêu cầu là gì?",
+      "options": {
+        "A": "Sơn vỏ máy tính xách tay của nhân viên bằng màu vàng kim",
+        "B": "Lập trình viên tự ý thêm vào các tính năng cầu kỳ, phức tạp mà khách hàng không hề yêu cầu và không mang lại giá trị nghiệp vụ thiết thực, gây lãng phí thời gian và tăng nguy cơ sinh lỗi",
+        "C": "Bán phần mềm với giá đắt đỏ cho giới thượng lưu",
+        "D": "Mã hóa cơ sở dữ liệu bằng thuật toán của quân đội"
+      },
+      "correct_answer": "B",
+      "explanation": "Gold Plating là thói quen xấu của một số kỹ sư thích phô diễn kỹ thuật, tự ý bổ sung tính năng không được yêu cầu, làm tăng bề mặt lỗi và phân tán nguồn lực dự án."
+    },
+    {
+      "id": 30,
+      "difficulty": "hard",
+      "question": "Một tổ chức chuyển sang Agile nhận thấy sau 5 Sprint, Velocity của nhóm dao động dữ dội: 20 pts $\\to$ 85 pts $\\to$ 15 pts $\\to$ 90 pts $\\to$ 30 pts. Nguyên nhân sâu xa NGUY HIỂM NHẤT thường là gì?",
+      "options": {
+        "A": "Do thời tiết các tuần thay đổi thất thường",
+        "B": "Các User Story quá lớn (kích thước Epic), không được phân rã đồng đều; nhóm nhận story quá sức khiến công việc bị dồn ứ kéo dài qua nhiều Sprint mới hoàn thành cùng một lúc, dẫn đến mất nhịp thở ổn định",
+        "C": "Do Scrum Master đổi màu áo mỗi tuần",
+        "D": "Do mạng internet của văn phòng bị đứt cáp quang"
+      },
+      "correct_answer": "B",
+      "explanation": "Dao động hình sin cực đoan về Velocity là dấu hiệu kinh điển của việc thiếu Backlog Refinement: các Story quá to không kịp Done ở Sprint này nên bị đẩy sang Sprint sau, làm biến dạng biểu đồ tiến độ."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Phân biệt Yêu cầu Chức năng (Functional Requirements) và Yêu cầu Phi chức năng (Non-functional Requirements). Cho ví dụ cho mỗi loại.",
+      "expected_answer": "- **Yêu cầu Chức năng (FR):** Mô tả những hành vi, dịch vụ và nghiệp vụ cụ thể mà hệ thống phải thực hiện. *Ví dụ:* 'Người dùng có thể khôi phục mật khẩu thông qua mã OTP gửi về số điện thoại'.\n- **Yêu cầu Phi chức năng (NFR):** Mô tả các tiêu chuẩn chất lượng và ràng buộc kỹ thuật của hệ thống. *Ví dụ:* 'Hệ thống phải xử lý xong giao dịch thanh toán trong thời gian dưới 2 giây với độ sẵn sàng đạt 99.9%'.",
+      "explanation": "FR trả lời 'Hệ thống làm gì?', còn NFR trả lời 'Hệ thống hoạt động với chất lượng như thế nào?'."
+    },
+    {
+      "id": 2,
+      "question": "Giải thích ý nghĩa từng chữ cái trong bộ tiêu chuẩn INVEST dùng để đánh giá chất lượng User Story.",
+      "expected_answer": "- **I - Independent:** Độc lập, hạn chế tối đa phụ thuộc lẫn nhau.\n- **N - Negotiable:** Có thể thương lượng linh hoạt, không phải hợp đồng cứng.\n- **V - Valuable:** Mang lại giá trị hữu ích cho người dùng/doanh nghiệp.\n- **E - Estimable:** Đủ rõ ràng để nhóm kỹ thuật có thể ước lượng độ phức tạp.\n- **S - Small:** Kích thước vừa vặn, hoàn thành trọn vẹn trong một Sprint.\n- **T - Testable:** Có tiêu chí rõ ràng để kiểm tra tính đúng/sai.",
+      "explanation": "INVEST là kim chỉ nam của Bill Wake giúp chuẩn hóa User Story trước khi đưa vào Sprint."
+    },
+    {
+      "id": 3,
+      "question": "Viết một User Story hoàn chỉnh kèm theo 2 kịch bản Acceptance Criteria (dạng Given-When-Then) cho tính năng 'Đăng nhập vào hệ thống'.",
+      "expected_answer": "**User Story:** Là một thành viên đã đăng ký, tôi muốn đăng nhập bằng Email và Mật khẩu, để truy cập vào bảng điều khiển cá nhân.\n**Kịch bản 1 (Thành công):**\n- Given Người dùng đang ở trang đăng nhập và đã nhập đúng Email cùng Mật khẩu hợp lệ.\n- When Bấm nút 'Đăng nhập'.\n- Then Hệ thống chuyển hướng vào trang chủ Dashboard và hiển thị lời chào kèm tên người dùng.\n**Kịch bản 2 (Thất bại):**\n- Given Người dùng nhập sai mật khẩu quá 5 lần liên tiếp.\n- When Bấm nút 'Đăng nhập'.\n- Then Hệ thống hiển thị thông báo lỗi 'Tài khoản tạm khóa 15 phút' và vô hiệu hóa nút đăng nhập.",
+      "explanation": "Minh họa hoàn hảo cách kết hợp giữa User Story và kịch bản BDD rõ ràng."
+    },
+    {
+      "id": 4,
+      "question": "Tại sao trong Agile người ta lại sử dụng Story Points (ước lượng tương đối) thay vì dùng Số giờ làm việc (Man-hours) tuyệt đối?",
+      "expected_answer": "1. Con người ước lượng tương đối (so sánh bài toán A khó gấp đôi bài toán B) chính xác hơn nhiều so với ước lượng giờ tuyệt đối.\n2. Trình độ và kinh nghiệm của các kỹ sư khác nhau sẽ tốn số giờ khác nhau cho cùng một công việc, nhưng độ phức tạp khách quan của tính năng là không đổi.\n3. Loại bỏ áp lực thời gian tâm lý, tập trung vào bản chất độ khó, rủi ro và khối lượng công việc thực sự.",
+      "explanation": "Story Points giúp phản ánh năng lực bền vững của cả đội ngũ."
+    },
+    {
+      "id": 5,
+      "question": "Trình bày quy trình 4 bước tổ chức phiên ước lượng bằng bài Planning Poker trong buổi họp lập kế hoạch.",
+      "expected_answer": "1. PO đọc User Story và giải thích các tiêu chí chấp nhận cho nhóm.\n2. Nhóm Developers đặt câu hỏi làm rõ các điểm kỹ thuật còn vướng mắc.\n3. Mỗi Developer bí mật chọn một lá bài điểm số tương ứng và đặt úp xuống bàn.\n4. Toàn bộ nhóm đồng loạt lật bài. Nếu có sự chênh lệch lớn (ví dụ người chọn 2 điểm, người chọn 13 điểm), hai người này sẽ giải thích lý do trước khi nhóm thảo luận và bỏ phiếu lại để đạt đồng thuận.",
+      "explanation": "Quy trình này chống hiệu ứng đám đông (Anchoring effect) và kích hoạt đối thoại sâu sắc."
+    },
+    {
+      "id": 6,
+      "question": "Phân biệt 4 nhóm ưu tiên trong kỹ thuật MoSCoW (Must have, Should have, Could have, Won't have).",
+      "expected_answer": "- **Must have:** Bắt buộc phải có để hệ thống tồn tại, không thể thương lượng.\n- **Should have:** Rất quan trọng, nên có nhưng nếu thiếu thì vẫn có thể tìm giải pháp thay thế tạm thời.\n- **Could have:** Mong muốn có để tăng trải nghiệm, chỉ làm nếu còn thời gian và tài nguyên dôi dư.\n- **Won't have (this time):** Thống nhất chưa làm trong phiên bản hiện tại, chuyển sang tương lai.",
+      "explanation": "MoSCoW là phương pháp quản trị phạm vi (Scope) đơn giản và hiệu quả nhất."
+    },
+    {
+      "id": 7,
+      "question": "Thế nào là 'Definition of Ready' (DoR)? Nêu 3 tiêu chí điển hình trong bảng DoR của một User Story.",
+      "expected_answer": "Definition of Ready (DoR) là bộ tiêu chí thống nhất khẳng định một User Story đã đủ rõ ràng, chín muồi và sẵn sàng để đưa vào thực hiện trong Sprint.\n*3 tiêu chí điển hình:*\n1. User Story viết đúng mẫu chuẩn và thỏa mãn các tiêu chuẩn INVEST.\n2. Có ít nhất 2 kịch bản Acceptance Criteria rõ ràng (dạng Given-When-Then).\n3. Đã được nhóm Developers ước lượng điểm Story Points trong phiên Refinement.",
+      "explanation": "DoR giúp bảo vệ nhóm khỏi việc nhận những yêu cầu chưa rõ ràng dẫn đến bế tắc giữa chừng."
+    },
+    {
+      "id": 8,
+      "question": "Giải thích khái niệm 'Khách hàng phân tán' (Diverse Stakeholders) và thách thức lớn nhất khi thu thập yêu cầu từ nhiều nhóm khách hàng khác nhau.",
+      "expected_answer": "'Khách hàng phân tán' là tình trạng hệ thống phục vụ nhiều nhóm đối tượng có vai trò, quyền lợi và mục đích khác nhau (ví dụ: Nhân viên bán hàng muốn giao diện thật nhanh nhiều phím tắt, trong khi Giám đốc tài chính muốn kiểm soát chặt chẽ nhiều bước phê duyệt).\n*Thách thức lớn nhất:* Xảy ra mâu thuẫn trực diện về quyền lợi và yêu cầu (Conflicting requirements). Đòi hỏi kỹ sư yêu cầu và PO phải có kỹ năng đàm phán, phân tích giá trị cốt lõi và đưa ra giải pháp cân bằng hài hòa.",
+      "explanation": "Đây là bài toán kinh điển trong quản lý kỳ vọng các bên liên quan."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phân Tích & Chuyển Hóa Đặc Tả Nghiệp Vụ Thành Hệ Thống User Stories Chuẩn INVEST",
+      "problem": "Khách hàng gửi một đoạn mô tả nghiệp vụ thô cho Hệ thống Khóa học Trực tuyến:\n'Tôi muốn sinh viên có thể xem các video bài giảng và thi trắc nghiệm. Khi sinh viên nộp bài thi, hệ thống phải tự động chấm điểm và gửi thông báo qua email. Nếu sinh viên đạt trên 80% điểm thì tự động cấp chứng chỉ hoàn thành khóa học dưới dạng file PDF tải về được. Ngoài ra hệ thống phải chạy thật mượt mà và không được để lộ đề thi ra ngoài.'\n\nHãy đóng vai trò là Business Analyst (BA) / Product Owner:\n1. Tách và phân loại rõ ràng các Yêu cầu Chức năng (FR) và Yêu cầu Phi chức năng (NFR) từ đoạn văn trên.\n2. Chuyển hóa các yêu cầu chức năng thành 3 User Stories chuẩn mực theo định dạng: As a... I want... So that... thỏa mãn các tiêu chuẩn của INVEST.\n3. Viết chi tiết các kịch bản Acceptance Criteria (Given-When-Then) cho User Story 'Chấm điểm và cấp chứng chỉ'.",
+      "solution_steps": [
+        "Bước 1: Phân loại Yêu cầu Chức năng (FR) và Phi chức năng (NFR)\n- *Yêu cầu Chức năng (FR):*\n  1. Xem video bài giảng của khóa học.\n  2. Làm và nộp bài thi trắc nghiệm trực tuyến.\n  3. Tự động chấm điểm bài thi khi sinh viên hoàn thành.\n  4. Gửi email thông báo kết quả thi cho sinh viên.\n  5. Cấp chứng chỉ khóa học và cho phép tải file PDF chứng chỉ khi điểm $\\ge 80%$.\n- *Yêu cầu Phi chức năng (NFR):*\n  1. Hiệu năng: Tốc độ tải và phát video bài giảng mượt mà (độ trễ buffering $\\le 2$ giây).\n  2. Bảo mật: Mã hóa ngân hàng câu hỏi, ngăn chặn việc xem trước đáp án qua DevTools và ngăn lộ đề thi.",
+        "Bước 2: Xây dựng 3 User Stories chuẩn INVEST\n- **Story 1 (Làm bài trắc nghiệm):**\n  *Là một* sinh viên đang tham gia khóa học, *tôi muốn* làm bài thi trắc nghiệm trực tuyến với đồng hồ đếm ngược, *để* tự đánh giá mức độ tiếp thu kiến thức của mình.\n- **Story 2 (Xem kết quả & nhận thông báo):**\n  *Là một* sinh viên vừa nộp bài thi, *tôi muốn* xem điểm số ngay lập tức và nhận email xác nhận, *để* biết mình đã đạt chuẩn đậu hay chưa.\n- **Story 3 (Nhận chứng chỉ PDF):**\n  *Là một* sinh viên đã hoàn thành xuất sắc bài thi với điểm số $\\ge 80%$, *tôi muốn* hệ thống cấp chứng chỉ có mã xác thực và tải về file PDF, *để* bổ sung vào hồ sơ năng lực cá nhân.",
+        "Bước 3: Viết Acceptance Criteria chi tiết (Given-When-Then) cho Story 3\n- **Kịch bản 1 (Đạt chuẩn nhận chứng chỉ):**\n  - *Given* Sinh viên đã hoàn thành bài thi trắc nghiệm cuối khóa và đạt 85/100 điểm ($\\ge 80%$).\n  - *When* Sinh viên bấm nút 'Xem chứng chỉ'.\n  - *Then* Hệ thống sinh file PDF chứng chỉ chứa đầy đủ: Họ tên, Tên khóa học, Ngày cấp, Mã QR xác thực và hiển thị nút 'Tải xuống PDF'.\n- **Kịch bản 2 (Chưa đủ điểm nhận chứng chỉ):**\n  - *Given* Sinh viên hoàn thành bài thi với điểm số 75/100 điểm ($< 80%$).\n  - *When* Sinh viên xem trang kết quả.\n  - *Then* Nút 'Xem chứng chỉ' ở trạng thái ẩn/vô hiệu hóa kèm thông điệp: 'Bạn cần đạt tối thiểu 80% điểm để được cấp chứng chỉ. Hãy ôn tập và làm lại bài thi'."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Thiết Kế Chiến Lược Ước Lượng Backlog Bằng Planning Poker Cho Đồ Án Nhóm",
+      "problem": "Một nhóm phát triển gồm 5 sinh viên chuẩn bị bắt đầu Sprint đầu tiên. Nhóm có danh sách 6 User Stories chưa được ước lượng:\n1. US1: Đăng nhập bằng Google Account.\n2. US2: Tìm kiếm sản phẩm theo từ khóa và bộ lọc giá.\n3. US3: Thêm sản phẩm vào giỏ hàng và cập nhật số lượng.\n4. US4: Tích hợp cổng thanh toán trực tuyến qua thẻ tín dụng quốc tế (Stripe).\n5. US5: Xem lịch sử các đơn hàng đã đặt.\n6. US6: Đổi mật khẩu tài khoản.\n\nHãy hướng dẫn nhóm thực hiện:\n1. Chọn một User Story cơ sở (Golden Standard / Baseline Story) làm mốc 2 điểm và giải thích nguyên tắc chọn.\n2. Hướng dẫn nhóm phân tích độ phức tạp tương đối để ước lượng các Story còn lại theo dãy số Fibonacci (1, 2, 3, 5, 8, 13).\n3. Nếu một thành viên khẳng định US4 chỉ tốn 3 điểm, còn một thành viên khác khẳng định US4 phải là 13 điểm, hãy phân tích những rủi ro tiềm ẩn nào tạo nên sự chênh lệch này.",
+      "solution_steps": [
+        "Bước 1: Chọn Baseline Story (Mốc quy chiếu)\n- Chọn **US6: Đổi mật khẩu tài khoản** làm Baseline Story với giá trị **2 Story Points**.\n- *Nguyên tắc chọn:* Đây là tính năng rất quen thuộc, công nghệ đã rõ ràng, ít rủi ro bất định, nhóm đã nắm vững kiến trúc (chỉ gồm kiểm tra mật khẩu cũ, băm mật khẩu mới và cập nhật DB). Tất cả các câu chuyện khác sẽ được so sánh độ phức tạp tương đối với mốc này.",
+        "Bước 2: Phân tích và ước lượng các Stories theo Fibonacci\n- **US6 (Đổi mật khẩu):** 2 Points (Baseline).\n- **US1 (Google OAuth Login):** 3 Points (Cần đọc tài liệu Google SDK, cấu hình Client ID, xử lý JWT token nhưng luồng xử lý khá chuẩn hóa).\n- **US3 (Quản lý giỏ hàng):** 3 Points (Nghiệp vụ lưu giỏ hàng vào Session/Redis hoặc LocalStorage, tính toán tổng tiền, kiểm tra tồn kho).\n- **US5 (Xem lịch sử đơn hàng):** 3 Points (Truy vấn CSDL có phân trang, hiển thị bảng dữ liệu).\n- **US2 (Tìm kiếm & Bộ lọc đa năng):** 5 Points (Độ phức tạp cao hơn vì phải xử lý query linh hoạt theo nhiều tiêu chí, tối ưu chỉ mục tìm kiếm và xử lý chuỗi tiếng Việt).\n- **US4 (Tích hợp Stripe Payment):** 8 hoặc 13 Points (Cực kỳ phức tạp: xử lý Webhook bất đồng bộ, bảo mật thẻ tín dụng, xử lý ngoại lệ thanh toán thất bại, hoàn tiền và đối soát giao dịch).",
+        "Bước 3: Phân tích sự chênh lệch điểm số ở US4 (3 điểm vs 13 điểm)\n- *Thành viên chọn 3 điểm:* Thường suy nghĩ đơn giản: 'Chỉ cần tải thư viện Stripe về, gọi một hàm `stripe.charge()` là xong' (chưa tính đến rủi ro môi trường thực tế).\n- *Thành viên chọn 13 điểm:* Đã nhìn thấy hàng loạt rủi ro ngầm phức tạp: Phải thiết lập cơ chế Webhook an toàn (chống tấn công Replay), xử lý trường hợp tiền đã trừ ở ngân hàng nhưng mạng bị đứt trước khi hệ thống cập nhật đơn hàng (Idempotency Key), tuân thủ tiêu chuẩn bảo mật dữ liệu thẻ PCI-DSS, và viết kịch bản kiểm thử giả lập (Mocking) cho mọi mã lỗi ngân hàng.\n$\\implies$ Nhóm cần lắng nghe người chọn 13 điểm để thấy hết các công việc tiềm ẩn và thống nhất mức điểm phù hợp (thường là 8 hoặc 13 điểm), hoặc quyết định chia nhỏ US4 thành các phần nghiên cứu Spike và cài đặt cụ thể."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Áp Dụng Ma Trận Ưu Tiên MoSCoW & Hoạch Định Bản Phát Hành Khả Dụng Tối Thiểu (MVP)",
+      "problem": "Một startup phát triển Nền tảng Đặt xe Công nghệ (tương tự Grab/Gojek). Ngân sách giai đoạn 1 chỉ đủ cho đội ngũ làm việc trong 6 tuần (3 Sprints). Danh sách yêu cầu ban đầu gồm 10 tính năng:\n1. Đăng ký/Đăng nhập qua số điện thoại.\n2. Định vị GPS thời gian thực của tài xế và khách hàng trên bản đồ.\n3. Tính toán lộ trình đường đi ngắn nhất và ước tính cước phí.\n4. Kết nối khách hàng với tài xế gần nhất trong bán kính 3 km.\n5. Thanh toán bằng tiền mặt khi kết thúc chuyến đi.\n6. Tích hợp thanh toán qua Ví điện tử MoMo/ZaloPay.\n7. Trò chuyện (Chat) trực tiếp trong ứng dụng giữa khách và tài xế.\n8. Đánh giá xếp hạng sao và nhận xét tài xế sau chuyến đi.\n9. Chương trình tích điểm đổi quà và mã giảm giá khuyến mãi (Voucher).\n10. Đặt trước lịch trình xe đón sau 3 ngày.\n\nHãy đóng vai trò là Product Owner:\n1. Phân loại 10 tính năng trên vào 4 nhóm của Ma trận MoSCoW.\n2. Xác định các tính năng bắt buộc phải có trong Bản phát hành Khả dụng Tối thiểu (MVP - Minimum Viable Product) để đưa ra thị trường thử nghiệm vào tuần thứ 6.\n3. Nêu luận điểm thuyết phục Ban Giám đốc tại sao tính năng Ví điện tử và Mã giảm giá chưa nên đưa vào giai đoạn MVP.",
+      "solution_steps": [
+        "Bước 1: Phân loại theo Ma trận MoSCoW\n- **Must have (Bắt buộc phải có để luồng đặt xe vận hành được):**\n  - F1: Đăng ký/Đăng nhập qua SĐT.\n  - F2: Định vị GPS tài xế và khách trên bản đồ.\n  - F3: Tính toán lộ trình và giá cước dự kiến.\n  - F4: Ghép cuốc xe với tài xế gần nhất.\n  - F5: Thanh toán bằng tiền mặt.\n- **Should have (Rất quan trọng, nâng cao an toàn và trải nghiệm):**\n  - F8: Đánh giá xếp hạng sao và nhận xét tài xế (cần thiết để kiểm soát chất lượng tài xế).\n  - F7: Chat trực tiếp trong ứng dụng (hỗ trợ liên lạc khi số điện thoại bận).\n- **Could have (Tiện ích bổ sung, làm khi có điều kiện):**\n  - F6: Thanh toán ví điện tử (MoMo/ZaloPay).\n  - F9: Tích điểm đổi quà và Voucher khuyến mãi.\n- **Won't have (Tạm dời lại giai đoạn sau):**\n  - F10: Đặt trước chuyến đi sau 3 ngày (nghiệp vụ phức tạp, điều phối lịch hẹn khó khăn).",
+        "Bước 2: Hoạch định phạm vi phiên bản MVP (Tuần 6)\n- *MVP Scope:* Bao gồm toàn bộ nhóm **Must have (F1, F2, F3, F4, F5)** và tính năng cốt lõi của nhóm **Should have (F8 - Đánh giá sao)**.\n- *Mục tiêu MVP:* Xác thực giả thuyết kinh doanh cốt lõi: Khách hàng có nhu cầu đặt xe và tài xế có nhận cuốc hoàn thành chuyến đi để trả tiền mặt hay không. Đây là chu trình tạo giá trị khép kín ngắn nhất.",
+        "Bước 3: Luận điểm thuyết phục Ban Giám đốc hoãn Ví điện tử và Voucher\n1. *Rủi ro công nghệ và pháp lý:* Tích hợp ví điện tử đòi hỏi ký kết hợp đồng tài chính, thẩm duyệt doanh nghiệp từ phía đối tác thứ ba mất nhiều tuần và xử lý rủi ro đối soát giao dịch phức tạp.\n2. *Tập trung vào giá trị cốt lõi:* Khách hàng sử dụng dịch vụ ban đầu vì họ cần di chuyển nhanh chóng và an toàn, tiền mặt hoàn toàn đáp ứng được nhu cầu thanh toán cơ bản.\n3. *Tiết kiệm ngân sách:* Dành toàn bộ thời gian và nguồn lực 6 tuần để tối ưu hóa thuật toán định vị GPS và ghép cuốc xe mượt mà; một ứng dụng thanh toán bằng ví điện tử nhưng không tìm thấy tài xế thì vẫn là một sản phẩm thất bại hoàn toàn."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Phân Tích & Giải Quyết Hiện Tượng 'Scope Creep' (Phình Phạm Vi) Trong Dự Án Phần Mềm",
+      "problem": "Một nhóm phát triển đang thực hiện Sprint 2 của một dự án xây dựng Cổng Thông tin Việc làm. Vào ngày thứ 4 của Sprint, Giám đốc Kinh doanh (Stakeholder) gặp trực tiếp một Developer trong nhóm và nói: 'Tôi vừa gặp đối tác lớn, họ muốn trên trang chủ phải có thêm tính năng livestream phỏng vấn trực tiếp ngay tuần tới, anh code luôn giúp tôi nhé, tính năng này nhỏ thôi mà!'. Lập trình viên này nể sếp nên đã âm thầm nhận lời và ngồi viết code tính năng livestream.\n\nHãy phân tích tình huống này:\n1. Nêu rõ các sai phạm nghiêm trọng đối với quy trình quản lý yêu cầu và nguyên lý của Scrum.\n2. Phân tích các hậu quả trực tiếp đến chất lượng kỹ thuật, tiến độ Sprint và tinh thần làm việc của nhóm.\n3. Đóng vai trò là Scrum Master, hãy đưa ra quy trình xử lý khủng hoảng này ngay lập tức đối với Developer, Product Owner và Giám đốc Kinh doanh.",
+      "solution_steps": [
+        "Bước 1: Phân tích các sai phạm quy trình nghiêm trọng\n- *Phá vỡ vai trò của Product Owner:* Mọi yêu cầu mới bắt buộc phải đi qua Product Owner để phân tích giá trị và sắp xếp ưu tiên. Giám đốc Kinh doanh không có quyền giao việc trực tiếp qua đường vòng (Backdoor request) cho Developer.\n- *Vi phạm tính bất biến của Sprint Backlog:* Một khi Sprint đã bắt đầu, không ai được phép tự ý nhồi nhét thêm công việc làm phân tán sự tập trung vào Sprint Goal mà không có sự thỏa thuận của toàn đội.\n- *Developer vi phạm tính tự chủ và minh bạch:* Nhận việc riêng âm thầm, không thông báo trong Daily Scrum, phá vỡ tính minh bạch (Transparency) của nhóm.",
+        "Bước 2: Hậu quả trực tiếp của hiện tượng Scope Creep\n- *Vỡ tiến độ Sprint:* Tính năng livestream cực kỳ phức tạp (xử lý WebRTC, streaming server, băng thông), chắc chắn sẽ ngốn hết thời gian của lập trình viên, dẫn đến các User Story đã cam kết trong Sprint Goal bị bỏ dở.\n- *Nợ kỹ thuật và lỗi hệ thống:* Viết mã vội vã không qua thiết kế kiến trúc, không kiểm thử sẽ tạo ra lỗ hổng bảo mật và làm sập máy chủ khi thử nghiệm.\n- *Phá hủy tinh thần đồng đội:* Các thành viên khác bị ảnh hưởng tiến độ chung, mất niềm tin vào quy trình làm việc chuyên nghiệp.",
+        "Bước 3: Kế hoạch xử lý khủng hoảng của Scrum Master\n1. *Làm việc nội bộ với Developer:* Giải thích nhẹ nhàng nhưng kiên quyết rằng việc nhận lời riêng là vi phạm quy tắc nhóm; yêu cầu lập trình viên tạm dừng ngay việc viết tính năng livestream và quay trở lại tập trung hoàn thành các nhiệm vụ đã cam kết cho Sprint Goal.\n2. *Thông báo ngay cho Product Owner:* Để PO nắm bắt thông tin và chủ động làm việc với Giám đốc Kinh doanh.\n3. *Họp với Giám đốc Kinh doanh (Stakeholder Coaching):* Cảm ơn ý tưởng kinh doanh mới của sếp, nhưng giải thích rõ ràng cơ chế vận hành của Scrum: Tính năng livestream là một Epic lớn, PO sẽ ghi nhận vào Product Backlog, tiến hành làm mịn, phân tích tính khả thi và đưa vào lập kế hoạch ở các Sprint tiếp theo thay vì đốt cháy giai đoạn làm vỡ trận dự án hiện tại."
+      ]
+    }
+  ]
+}

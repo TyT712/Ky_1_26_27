@@ -381,6 +381,119 @@
    "ui_profile": "political_theory"
   },
   {
+   "id": "cnpm",
+   "code": "CNPM",
+   "title": "Công Nghệ Phần Mềm",
+   "description": "Vòng đời phần mềm, quy trình Agile/Scrum, kỹ nghệ yêu cầu SRS, kiến trúc SOLID, chiến lược kiểm thử, CI/CD và văn hóa DevOps.",
+   "status": "active",
+   "books": [
+    {
+     "id": "giao_trinh_cnpm",
+     "title": "Giáo Trình Công Nghệ Phần Mềm (Chương 1 - 5)",
+     "chapters": [
+      {
+       "id": "chuong_1",
+       "number": 1,
+       "title": "Tổng quan về Công nghệ phần mềm & Kỹ nghệ hệ thống",
+       "full_title": "Chương 1: Tổng quan về Công nghệ phần mềm & Kỹ nghệ hệ thống",
+       "summary": "Bản chất phần mềm, khủng hoảng phần mềm, nguyên lý IEEE, mô hình chi phí và kỹ nghệ hệ thống.",
+       "theory": "data/cnpm/chuong_1_theory.md",
+       "exercises": "data/cnpm/chuong_1_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_2",
+       "number": 2,
+       "title": "Các mô hình quy trình phát triển phần mềm & Agile/Scrum",
+       "full_title": "Chương 2: Các mô hình quy trình phát triển phần mềm & Agile/Scrum",
+       "summary": "Thác nước, V-Model, Tăng trưởng, Xoắn ốc, Tuyên ngôn Agile, khung Scrum và Kanban.",
+       "theory": "data/cnpm/chuong_2_theory.md",
+       "exercises": "data/cnpm/chuong_2_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_3",
+       "number": 3,
+       "title": "Kỹ nghệ yêu cầu & Lập kế hoạch dự án phần mềm",
+       "full_title": "Chương 3: Kỹ nghệ yêu cầu & Lập kế hoạch dự án phần mềm",
+       "summary": "Yêu cầu chức năng/phi chức năng, SRS theo IEEE 830, Use Case, User Story, WBS, PERT/CPM và COCOMO.",
+       "theory": "data/cnpm/chuong_3_theory.md",
+       "exercises": "data/cnpm/chuong_3_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_4",
+       "number": 4,
+       "title": "Phát triển, Tích hợp & Đảm bảo chất lượng phần mềm",
+       "full_title": "Chương 4: Phát triển, Tích hợp & Đảm bảo chất lượng phần mềm",
+       "summary": "Kiến trúc hệ thống, nguyên lý SOLID, Git branching, kiểm thử Hộp đen/Hộp trắng, Unit/Integration/System test, CI và QA vs QC.",
+       "theory": "data/cnpm/chuong_4_theory.md",
+       "exercises": "data/cnpm/chuong_4_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_5",
+       "number": 5,
+       "title": "Triển khai, Bảo trì phần mềm & Văn hóa DevOps",
+       "full_title": "Chương 5: Triển khai, Bảo trì phần mềm & Văn hóa DevOps",
+       "summary": "Môi trường Dev/Staging/Prod, chiến lược Blue-Green/Canary/Rolling, 4 loại bảo trì, quy luật Lehman, văn hóa CAMS và DORA metrics.",
+       "theory": "data/cnpm/chuong_5_theory.md",
+       "exercises": "data/cnpm/chuong_5_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      }
+     ]
+    }
+   ],
+   "topics": [
+    {
+     "id": "tong_quan_cnpm_va_ky_nghe_he_thong",
+     "title": "Chuyên đề: Tổng quan Công nghệ phần mềm & Kỹ nghệ hệ thống (Xuất từ NotebookLM)",
+     "file": "data/cnpm/topics/tong_quan_cnpm_va_ky_nghe_he_thong_summary.md"
+    },
+    {
+     "id": "mo_hinh_quy_trinh_phan_mem_va_agile",
+     "title": "Chuyên đề: Quy trình phát triển phần mềm & Phương pháp luận Agile/Scrum (Xuất từ NotebookLM)",
+     "file": "data/cnpm/topics/mo_hinh_quy_trinh_phan_mem_va_agile_summary.md"
+    },
+    {
+     "id": "ky_nghe_yeu_cau_va_ke_hoach_du_an",
+     "title": "Chuyên đề: Kỹ nghệ yêu cầu SRS & Hoạch định dự án phần mềm (Xuất từ NotebookLM)",
+     "file": "data/cnpm/topics/ky_nghe_yeu_cau_va_ke_hoach_du_an_summary.md"
+    },
+    {
+     "id": "kien_truc_solid_va_kiem_thu_phan_mem",
+     "title": "Chuyên đề: Kiến trúc phần mềm, Nguyên lý SOLID & Chiến lược kiểm thử (Xuất từ NotebookLM)",
+     "file": "data/cnpm/topics/kien_truc_solid_va_kiem_thu_phan_mem_summary.md"
+    },
+    {
+     "id": "trien_khai_bao_tri_va_van_hoa_devops",
+     "title": "Chuyên đề: Triển khai, 4 loại hình bảo trì & Văn hóa DevOps (Xuất từ NotebookLM)",
+     "file": "data/cnpm/topics/trien_khai_bao_tri_va_van_hoa_devops_summary.md"
+    }
+   ],
+   "ui_profile": "software_engineering"
+  },
+  {
    "id": "giai_tich_1",
    "code": "GT1",
    "title": "Giải Tích 1",

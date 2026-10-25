@@ -1,0 +1,488 @@
+{
+  "chapter_id": "chuong_5",
+  "chapter_title": "Chương 5: Triển khai, Bảo trì phần mềm & Văn hóa DevOps",
+  "multiple_choice": [
+    {
+      "id": "cnpm_c5_mcq_01",
+      "difficulty": "easy",
+      "question": "Môi trường nào có cấu hình, tài nguyên và cấu trúc dữ liệu tương đương với môi trường thực tế để người dùng kiểm thử nghiệm thu (UAT) trước khi release?",
+      "options": {
+        "A": "Development Environment",
+        "B": "Local Environment",
+        "C": "Staging Environment",
+        "D": "Temporary Sandbox"
+      },
+      "correct_answer": "C",
+      "explanation": "Staging (Pre-production) là môi trường giả lập môi trường thực tế (Production) với độ giống gần như tuyệt đối để nghiệm thu (UAT) và kiểm thử hiệu năng trước khi phát hành."
+    },
+    {
+      "id": "cnpm_c5_mcq_02",
+      "difficulty": "easy",
+      "question": "Loại hình bảo trì nào chiếm tỷ trọng lớn nhất (khoảng 50%) trong tổng số hoạt động bảo trì phần mềm?",
+      "options": {
+        "A": "Bảo trì sửa sai (Corrective Maintenance)",
+        "B": "Bảo trì thích nghi (Adaptive Maintenance)",
+        "C": "Bảo trì hoàn thiện (Perfective Maintenance)",
+        "D": "Bảo trì phòng ngừa (Preventive Maintenance)"
+      },
+      "correct_answer": "C",
+      "explanation": "Bảo trì hoàn thiện (Perfective Maintenance) chiếm khoảng 50% chi phí và thời gian bảo trì, bao gồm việc bổ sung tính năng mới, tối ưu hóa mã nguồn và cải thiện hiệu năng hệ thống."
+    },
+    {
+      "id": "cnpm_c5_mcq_03",
+      "difficulty": "easy",
+      "question": "Trong CI/CD, chữ cái 'CI' là viết tắt của thuật ngữ nào?",
+      "options": {
+        "A": "Continuous Implementation",
+        "B": "Continuous Integration",
+        "C": "Continuous Inspection",
+        "D": "Complete Integration"
+      },
+      "correct_answer": "B",
+      "explanation": "CI viết tắt của Continuous Integration (Tích hợp liên tục)."
+    },
+    {
+      "id": "cnpm_c5_mcq_04",
+      "difficulty": "easy",
+      "question": "Hoạt động nào sau đây là mục tiêu cốt lõi của Tích hợp liên tục (Continuous Integration)?",
+      "options": {
+        "A": "Viết hợp đồng pháp lý cho dự án",
+        "B": "Lập trình viên thường xuyên merge code về nhánh chung và tự động build, test để phát hiện lỗi sớm",
+        "C": "Tự động thanh toán hóa đơn lưu trữ đám mây định kỳ",
+        "D": "Thay thế hoàn toàn vai trò của người kiểm thử bằng trí tuệ nhân tạo"
+      },
+      "correct_answer": "B",
+      "explanation": "Continuous Integration nhằm mục đích tự động build và chạy bộ kiểm thử mỗi khi code mới được merge, giúp phát hiện xung đột và lỗi cú pháp ngay tức thì."
+    },
+    {
+      "id": "cnpm_c5_mcq_05",
+      "difficulty": "easy",
+      "question": "Chiến lược triển khai nào tắt hoàn toàn phiên bản cũ trước khi bật phiên bản mới, dẫn đến thời gian ngưng trệ hệ thống (downtime)?",
+      "options": {
+        "A": "Rolling Update",
+        "B": "Recreate (Big Bang Deployment)",
+        "C": "Blue-Green Deployment",
+        "D": "Canary Release"
+      },
+      "correct_answer": "B",
+      "explanation": "Chiến lược Recreate tắt phiên bản v1 rồi mới khởi chạy v2, do đó chắc chắn có downtime trong suốt thời gian hệ thống mới khởi động."
+    },
+    {
+      "id": "cnpm_c5_mcq_06",
+      "difficulty": "easy",
+      "question": "Chi phí cho hoạt động bảo trì phần mềm thường chiếm khoảng bao nhiêu phần trăm trong toàn bộ chi phí vòng đời phần mềm?",
+      "options": {
+        "A": "Dưới 10%",
+        "B": "Khoảng 20% - 30%",
+        "C": "Khoảng 60% - 80%",
+        "D": "Chính xác 100%"
+      },
+      "correct_answer": "C",
+      "explanation": "Nhiều nghiên cứu công nghệ phần mềm chỉ ra rằng chi phí bảo trì chiếm tới 60% - 80% tổng ngân sách trong suốt vòng đời của một hệ thống phần mềm thương mại."
+    },
+    {
+      "id": "cnpm_c5_mcq_07",
+      "difficulty": "easy",
+      "question": "Khắc phục một lỗi crash ứng dụng khi người dùng nhập số âm trong trường 'Tuổi' thuộc loại bảo trì nào?",
+      "options": {
+        "A": "Bảo trì sửa sai (Corrective Maintenance)",
+        "B": "Bảo trì hoàn thiện (Perfective Maintenance)",
+        "C": "Bảo trì thích nghi (Adaptive Maintenance)",
+        "D": "Bảo trì phòng ngừa (Preventive Maintenance)"
+      },
+      "correct_answer": "A",
+      "explanation": "Khắc phục lỗi tiềm ẩn hoặc lỗi sai logic trong quá trình sử dụng thuộc nhóm Bảo trì sửa sai (Corrective Maintenance)."
+    },
+    {
+      "id": "cnpm_c5_mcq_08",
+      "difficulty": "easy",
+      "question": "Trong mô hình văn hóa DevOps, từ viết tắt 'CAMS' đại diện cho những yếu tố nào?",
+      "options": {
+        "A": "Code, Architecture, Management, Security",
+        "B": "Culture, Automation, Measurement, Sharing",
+        "C": "Continuous, Agile, Modular, Scalable",
+        "D": "Cloud, API, Microservices, Storage"
+      },
+      "correct_answer": "B",
+      "explanation": "CAMS là trụ cột văn hóa DevOps gồm: Culture (Văn hóa), Automation (Tự động hóa), Measurement (Đo lường), và Sharing (Chia sẻ)."
+    },
+    {
+      "id": "cnpm_c5_mcq_09",
+      "difficulty": "easy",
+      "question": "Việc chuyển ứng dụng từ máy chủ chạy Windows Server sang Ubuntu Linux và sửa lại đường dẫn thư mục là ví dụ của loại bảo trì nào?",
+      "options": {
+        "A": "Bảo trì hoàn thiện (Perfective)",
+        "B": "Bảo trì thích nghi (Adaptive)",
+        "C": "Bảo trì sửa sai (Corrective)",
+        "D": "Bảo trì phòng ngừa (Preventive)"
+      },
+      "correct_answer": "B",
+      "explanation": "Bảo trì thích nghi (Adaptive Maintenance) nhằm thích ứng phần mềm với môi trường vận hành bên ngoài thay đổi (hệ điều hành, phần cứng, hệ thống mạng)."
+    },
+    {
+      "id": "cnpm_c5_mcq_10",
+      "difficulty": "easy",
+      "question": "Trong GitHub Actions, tệp cấu hình quy trình CI/CD được viết bằng định dạng nào và lưu trong thư mục nào?",
+      "options": {
+        "A": "XML trong thư mục /configs/workflows",
+        "B": "JSON trong thư mục .git/actions",
+        "C": "YAML (.yml hoặc .yaml) trong thư mục .github/workflows",
+        "D": "Markdown (.md) trong thư mục /docs/ci"
+      },
+      "correct_answer": "C",
+      "explanation": "GitHub Actions sử dụng cú pháp YAML và yêu cầu lưu tệp cấu hình trong thư mục `.github/workflows/`."
+    },
+    {
+      "id": "cnpm_c5_mcq_11",
+      "difficulty": "medium",
+      "question": "Điểm khác biệt căn bản nhất giữa Continuous Delivery và Continuous Deployment là gì?",
+      "options": {
+        "A": "Continuous Delivery không bao gồm bước chạy unit test tự động",
+        "B": "Continuous Delivery yêu cầu phê duyệt thủ công (Manual Approval) trước khi deploy lên Production, còn Continuous Deployment tự động deploy hoàn toàn",
+        "C": "Continuous Deployment chỉ áp dụng cho ngôn ngữ thông dịch như Python và PHP",
+        "D": "Continuous Delivery chỉ chạy trên máy chủ On-Premise, không hỗ trợ Cloud"
+      },
+      "correct_answer": "B",
+      "explanation": "Trong Continuous Delivery, bản build sẵn sàng phát hành lên Production nhưng cần nút bấm xác nhận của con người. Trong Continuous Deployment, mọi thay đổi pass qua pipeline tự động lên thẳng Production."
+    },
+    {
+      "id": "cnpm_c5_mcq_12",
+      "difficulty": "medium",
+      "question": "Chiến lược triển khai nào duy trì hai môi trường giống hệt nhau và thực hiện chuyển đổi toàn bộ traffic bằng bộ định tuyến/Load Balancer?",
+      "options": {
+        "A": "Recreate",
+        "B": "Canary Release",
+        "C": "Blue-Green Deployment",
+        "D": "Shadow Deployment"
+      },
+      "correct_answer": "C",
+      "explanation": "Blue-Green Deployment duy trì 2 cụm môi trường song song (Blue chạy bản hiện tại, Green chạy bản mới). Khi Green kiểm thử xong, Router chỉ cần đổi hướng trỏ sang Green, cho phép rollback tức thời nếu lỗi."
+    },
+    {
+      "id": "cnpm_c5_mcq_13",
+      "difficulty": "medium",
+      "question": "Chỉ số DORA nào đo lường 'Thời gian trung bình để khôi phục dịch vụ khi có sự cố phát sinh trên môi trường Production'?",
+      "options": {
+        "A": "Lead Time for Changes",
+        "B": "Deployment Frequency",
+        "C": "Change Failure Rate",
+        "D": "Mean Time to Recovery (MTTR)"
+      },
+      "correct_answer": "D",
+      "explanation": "MTTR (Mean Time to Recovery / Restore) là thời gian trung bình từ khi sự cố xảy ra cho đến khi hệ thống được phục hồi hoạt động bình thường."
+    },
+    {
+      "id": "cnpm_c5_mcq_14",
+      "difficulty": "medium",
+      "question": "Một công ty triển khai bản cập nhật phần mềm mới cho 5% người dùng ngẫu nhiên, sau khi kiểm tra không thấy lỗi tăng bất thường thì nâng dần lên 25%, 50%, 100%. Đây là chiến lược gì?",
+      "options": {
+        "A": "Big Bang Deployment",
+        "B": "Canary Release",
+        "C": "Recreate Strategy",
+        "D": "Blue-Green Switch"
+      },
+      "correct_answer": "B",
+      "explanation": "Canary Release định tuyến một tỷ lệ nhỏ lưu lượng truy cập thực tế sang phiên bản mới nhằm đo lường phản hồi thực tế trước khi phát hành diện rộng."
+    },
+    {
+      "id": "cnpm_c5_mcq_15",
+      "difficulty": "medium",
+      "question": "Tái cấu trúc mã nguồn (Refactoring) mà không làm thay đổi hành vi bên ngoài của hệ thống nhằm mục đích làm cho code dễ đọc, dễ bảo trì thuộc loại bảo trì nào?",
+      "options": {
+        "A": "Bảo trì sửa sai (Corrective)",
+        "B": "Bảo trì thích nghi (Adaptive)",
+        "C": "Bảo trì phòng ngừa (Preventive)",
+        "D": "Bảo trì hoàn thiện (Perfective)"
+      },
+      "correct_answer": "C",
+      "explanation": "Refactoring để giảm thiểu nợ kỹ thuật (technical debt) và phòng ngừa lỗi trong tương lai thuộc Bảo trì phòng ngừa (Preventive Maintenance)."
+    },
+    {
+      "id": "cnpm_c5_mcq_16",
+      "difficulty": "medium",
+      "question": "Khi áp dụng chiến lược Rolling Update, thách thức kỹ thuật lớn nhất đối với Cơ sở dữ liệu là gì?",
+      "options": {
+        "A": "Không thể sử dụng cơ sở dữ liệu quan hệ",
+        "B": "Cơ sở dữ liệu phải luôn tương thích ngược (Backward Compatible) vì cả phiên bản ứng dụng cũ và mới đều đang truy cập song song",
+        "C": "Toàn bộ dữ liệu bắt buộc phải bị xóa trước khi cập nhật",
+        "D": "Tốc độ ghi dữ liệu bị giảm xuống 50% vĩnh viễn"
+      },
+      "correct_answer": "B",
+      "explanation": "Trong quá trình Rolling Update, các node chạy v1 và v2 tồn tại đồng thời, do đó schema cơ sở dữ liệu phải được thiết kế tương thích ngược để cả hai phiên bản cùng đọc/ghi được mà không bị crash."
+    },
+    {
+      "id": "cnpm_c5_mcq_17",
+      "difficulty": "medium",
+      "question": "Trong ba trụ cột của Khả năng quan sát hệ thống (Observability), yếu tố 'Trace' mang ý nghĩa gì?",
+      "options": {
+        "A": "Đo lường tỷ lệ phần trăm sử dụng CPU của máy chủ",
+        "B": "Theo dõi toàn bộ hành trình phân tán của một yêu cầu (request) đi qua các dịch vụ và microservices",
+        "C": "Sao lưu cơ sở dữ liệu định kỳ mỗi 24 giờ",
+        "D": "Ghi nhận văn bản nhật ký lỗi của từng máy chủ đơn lẻ"
+      },
+      "correct_answer": "B",
+      "explanation": "Trace (Distributed Tracing) giúp lần theo dấu vết của một transaction/request từ lúc vào hệ thống qua hàng loạt microservices và cơ sở dữ liệu để tìm ra điểm nghẽn cổ chai hoặc điểm lỗi."
+    },
+    {
+      "id": "cnpm_c5_mcq_18",
+      "difficulty": "medium",
+      "question": "Quy luật Lehman về 'Sự phức tạp tăng dần' (Increasing Complexity) khẳng định điều gì?",
+      "options": {
+        "A": "Khi hệ thống phát triển liên tục, độ phức tạp của nó sẽ tăng dần trừ khi có công sức cụ thể để đơn giản hóa hoặc tái cấu trúc",
+        "B": "Mọi phần mềm sau 3 năm đều phải bị đập đi xây lại",
+        "C": "Số lượng lập trình viên càng nhiều thì độ phức tạp càng giảm",
+        "D": "Độ phức tạp của phần mềm chỉ phụ thuộc vào ngôn ngữ lập trình được chọn"
+      },
+      "correct_answer": "A",
+      "explanation": "Luật thứ 2 của Lehman chỉ ra rằng hệ thống phần mềm càng tiến hóa thì độ phức tạp bên trong càng tăng, trừ khi nhóm phát triển chủ động thực hiện tái cấu trúc (refactoring)."
+    },
+    {
+      "id": "cnpm_c5_mcq_19",
+      "difficulty": "medium",
+      "question": "Trong GitHub Actions, từ khóa 'runs-on: ubuntu-latest' nằm ở cấp độ nào trong file cấu hình?",
+      "options": {
+        "A": "Ở cấp độ Root Workflow",
+        "B": "Ở cấp độ cấu hình Job",
+        "C": "Ở từng Step bên trong",
+        "D": "Ở phần định nghĩa Secrets"
+      },
+      "correct_answer": "B",
+      "explanation": "'runs-on' được khai báo bên dưới tên của một Job cụ thể nhằm chỉ định môi trường máy ảo thực thi (runner OS) cho job đó."
+    },
+    {
+      "id": "cnpm_c5_mcq_20",
+      "difficulty": "medium",
+      "question": "Triết lý 'Blameless Post-mortem' (Họp rút kinh nghiệm không quy trách nhiệm cá nhân) trong văn hóa DevOps nhằm mục đích gì?",
+      "options": {
+        "A": "Sa thải ngay nhân viên gây ra lỗi cấu hình máy chủ",
+        "B": "Tập trung tìm hiểu nguyên nhân gốc rễ mang tính hệ thống và cải thiện quy trình thay vì đổ lỗi trừng phạt cá nhân",
+        "C": "Bỏ qua sự cố và không cần ghi lại nhật ký lỗi",
+        "D": "Ngăn cản lập trình viên báo cáo sự cố với ban giám đốc"
+      },
+      "correct_answer": "B",
+      "explanation": "Blameless Post-mortem khuyến khích sự minh bạch và học hỏi: thay vì quy chụp cá nhân ('ai làm sai?'), nhóm tập trung vào 'lỗ hổng quy trình nào cho phép lỗi này xảy ra và làm sao để hệ thống tự động ngăn chặn nó lần sau'."
+    },
+    {
+      "id": "cnpm_c5_mcq_21",
+      "difficulty": "medium",
+      "question": "Nợ kỹ thuật (Technical Debt) là gì?",
+      "options": {
+        "A": "Khoản tiền công ty nợ nhà cung cấp dịch vụ hạ tầng điện toán đám mây",
+        "B": "Hệ quả của việc chọn giải pháp lập trình nhanh chóng, chắp vá trong ngắn hạn dẫn đến việc tốn kém công sức và khó khăn hơn khi bảo trì trong tương lai",
+        "C": "Lương thưởng chưa thanh toán cho đội ngũ kiểm thử phần mềm",
+        "D": "Số lượng bản quyền phần mềm chưa mua chính hãng"
+      },
+      "correct_answer": "B",
+      "explanation": "Technical Debt là khái niệm mô tả việc đánh đổi chất lượng code/kiến trúc để phát hành nhanh trong ngắn hạn, tạo ra 'khoản nợ' phải trả dần bằng chi phí bảo trì và sửa lỗi tăng cao về sau."
+    },
+    {
+      "id": "cnpm_c5_mcq_22",
+      "difficulty": "medium",
+      "question": "Nếu trong tháng qua có 40 lần deploy lên Production và có 4 lần gây lỗi nghiêm trọng phải rollback, thì chỉ số Change Failure Rate (CFR) là bao nhiêu?",
+      "options": {
+        "A": "4%",
+        "B": "10%",
+        "C": "20%",
+        "D": "40%"
+      },
+      "correct_answer": "B",
+      "explanation": "Change Failure Rate = (4 / 40) * 100% = 10%."
+    },
+    {
+      "id": "cnpm_c5_mcq_23",
+      "difficulty": "hard",
+      "question": "Một ứng dụng microservices yêu cầu tính sẵn sàng cao (High Availability). Nhóm phát triển có ngân sách hạ tầng dồi dào và yêu cầu tuyệt đối 'zero downtime' kèm khả năng rollback chỉ trong 1 giây nếu gặp sự cố. Chiến lược triển khai tối ưu nhất là:",
+      "options": {
+        "A": "Recreate Deployment",
+        "B": "Rolling Update",
+        "C": "Blue-Green Deployment",
+        "D": "In-place Manual Update"
+      },
+      "correct_answer": "C",
+      "explanation": "Blue-Green Deployment duy trì song song 2 môi trường. Khi xảy ra lỗi, chỉ cần chuyển đổi rule của Router/Load Balancer quay về môi trường cũ trong vòng 1 giây mà không phải chờ đợi redeploy hay restart pod."
+    },
+    {
+      "id": "cnpm_c5_mcq_24",
+      "difficulty": "hard",
+      "question": "Khi thực hiện refactoring hệ thống cũ không có sẵn automated test, chiến lược nào an toàn nhất để đảm bảo không làm gãy tính năng hiện tại?",
+      "options": {
+        "A": "Viết Characterization Tests (End-to-End/Approval Tests) để 'chụp lại' hành vi hiện tại trước khi chạm vào mã nguồn",
+        "B": "Xóa sạch code cũ và viết lại mới hoàn toàn theo kiến trúc Clean Architecture",
+        "C": "Tắt tính năng đó trên Production cho đến khi viết xong code mới",
+        "D": "Chỉ refactor trên tài liệu thiết kế mà không thay đổi code"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Michael Feathers (Working Effectively with Legacy Code), khi sửa hệ thống cũ thiếu test, việc viết Characterization Tests để ghi nhận hành vi thực tế hiện tại là lưới an toàn bắt buộc trước khi tái cấu trúc."
+    },
+    {
+      "id": "cnpm_c5_mcq_25",
+      "difficulty": "hard",
+      "question": "Hệ thống thương mại điện tử cam kết độ sẵn sàng 99.9% (Three Nines) mỗi tháng (30 ngày = 43,200 phút). Tổng thời gian downtime tối đa cho phép trong tháng là bao nhiêu?",
+      "options": {
+        "A": "4.32 phút",
+        "B": "43.2 phút",
+        "C": "432 phút",
+        "D": "7.2 giờ"
+      },
+      "correct_answer": "B",
+      "explanation": "Tỷ lệ downtime tối đa = 100% - 99.9% = 0.1%. Thời gian downtime = 43,200 phút * 0.001 = 43.2 phút/tháng."
+    },
+    {
+      "id": "cnpm_c5_mcq_26",
+      "difficulty": "hard",
+      "question": "Mô hình triển khai Canary Release phối hợp với Service Mesh (như Istio) phân chia traffic thường sử dụng cơ chế nào để nhận diện nhóm người dùng thử nghiệm?",
+      "options": {
+        "A": "Dựa vào địa chỉ MAC của card mạng khách hàng",
+        "B": "Dựa vào HTTP Headers (như cookie, token, hoặc custom header 'X-Canary: beta')",
+        "C": "Tắt router trong 5 phút để lọc IP",
+        "D": "Yêu cầu toàn bộ người dùng khởi động lại modem mạng"
+      },
+      "correct_answer": "B",
+      "explanation": "Service Mesh sử dụng HTTP Request Headers (Cookie phiên, User-Agent, JWT claim hoặc header 'X-Canary') để định tuyến có điều kiện tới pod Canary."
+    },
+    {
+      "id": "cnpm_c5_mcq_27",
+      "difficulty": "hard",
+      "question": "Trong thực hành SRE (Site Reliability Engineering), 'Error Budget' được tính toán và áp dụng như thế nào?",
+      "options": {
+        "A": "Ngân sách tiền mặt đền bù cho khách hàng khi hệ thống sập",
+        "B": "Khoảng dung sai không sẵn sàng còn lại (100% - SLA). Nếu ngân sách lỗi cạn kiệt, mọi hoạt động phát hành tính năng mới bị dừng lại để ưu tiên tăng độ ổn định",
+        "C": "Số lượng bug cho phép một lập trình viên tạo ra mỗi sprint",
+        "D": "Chi phí bảo hiểm phần mềm hàng năm"
+      },
+      "correct_answer": "B",
+      "explanation": "Error Budget = 100% - SLO. Nếu hệ thống hoạt động quá ngưỡng lỗi cho phép (cháy budget), nhóm Dev không được deploy tính năng mới mà phải tập trung fix lỗi và gia cố hạ tầng cùng đội Ops."
+    },
+    {
+      "id": "cnpm_c5_mcq_28",
+      "difficulty": "hard",
+      "question": "Cho đoạn workflow GitHub Actions sau, điều gì xảy ra nếu step 'Run Tests' bị thất bại (exit code != 0)?\n```yaml\njobs:\n  deploy:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - name: Run Tests\n        run: npm test\n      - name: Deploy Prod\n        run: ./deploy.sh\n```",
+      "options": {
+        "A": "Step 'Deploy Prod' vẫn chạy bình thường vì nằm chung 1 job",
+        "B": "Toàn bộ job sẽ dừng ngay tại 'Run Tests', step 'Deploy Prod' bị bỏ qua (skipped) và commit bị đánh dấu thất bại",
+        "C": "Hệ thống tự động sửa mã nguồn và chạy lại test",
+        "D": "Deploy Prod chạy trước sau đó mới rollback lại"
+      },
+      "correct_answer": "B",
+      "explanation": "Mặc định trong GitHub Actions, nếu một step trả về lỗi (exit code khác 0), các step tiếp theo trong job sẽ bị dừng lập tức (skipped) trừ khi có khai báo điều kiện `if: always()`."
+    },
+    {
+      "id": "cnpm_c5_mcq_29",
+      "difficulty": "hard",
+      "question": "Hiện tượng 'Alert Fatigue' trong giám sát hệ thống phần mềm là gì và cách giải quyết khoa học nhất theo chuẩn DevOps?",
+      "options": {
+        "A": "Lập trình viên mệt mỏi vì server chạy quá nhanh",
+        "B": "Người vận hành bị choáng ngợp bởi quá nhiều cảnh báo giả/không khẩn cấp, dẫn đến việc bỏ qua các cảnh báo nghiêm trọng thực sự; giải pháp là chỉ đặt cảnh báo kích hoạt khi vi phạm SLO/SLA có hành động xử lý rõ ràng (Actionable Alerts)",
+        "C": "Máy chủ tự động tắt chuông báo động để tiết kiệm pin",
+        "D": "Chuyển toàn bộ tin nhắn cảnh báo sang hòm thư rác"
+      },
+      "correct_answer": "B",
+      "explanation": "Alert Fatigue xảy ra khi có quá nhiều thông báo không cần thiết. Khắc phục bằng cách lọc tín hiệu, chỉ bắn alert khi vi phạm ngưỡng chất lượng dịch vụ (SLO) và yêu cầu có tài liệu hướng dẫn xử lý cụ thể (Runbook/Playbook)."
+    },
+    {
+      "id": "cnpm_c5_mcq_30",
+      "difficulty": "hard",
+      "question": "Để triển khai thay đổi cấu trúc bảng cơ sở dữ liệu lớn (Zero-downtime Database Migration) trong mô hình Continuous Deployment, kỹ thuật nào sau đây là chuẩn mực?",
+      "options": {
+        "A": "Chạy lệnh DROP COLUMN và ALTER TABLE trực tiếp vào giờ cao điểm",
+        "B": "Pattern 'Expand and Contract' (Mở rộng và Thu hẹp): Thêm cột mới song song, ghi đồng thời dữ liệu ở cả 2 cột, di chuyển dữ liệu cũ, đổi ứng dụng đọc sang cột mới, rồi mới xóa cột cũ ở lần deploy kế tiếp",
+        "C": "Tắt toàn bộ database trong 24 giờ",
+        "D": "Không bao giờ được phép thay đổi cấu trúc cơ sở dữ liệu sau khi đã lên production"
+      },
+      "correct_answer": "B",
+      "explanation": "Mẫu kiến trúc Expand and Contract (Parallel Run) chia việc đổi schema thành các bước nhỏ tương thích ngược, đảm bảo code v1 và v2 đều không bị lỗi do thiếu cột."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": "cnpm_c5_sa_01",
+      "question": "Kể tên 4 loại hình bảo trì phần mềm theo chuẩn IEEE/ISO và chỉ rõ loại nào chiếm tỷ trọng công sức lớn nhất.",
+      "expected_answer": "4 loại: Bảo trì sửa sai (Corrective), Thích nghi (Adaptive), Hoàn thiện (Perfective), Phòng ngừa (Preventive). Trong đó Bảo trì hoàn thiện (Perfective) chiếm tỷ trọng lớn nhất (~50%).",
+      "explanation": "Bảo trì sửa sai khắc phục lỗi, thích nghi với môi trường mới, hoàn thiện mở rộng tính năng/tối ưu (chiếm ~50%), phòng ngừa tái cấu trúc chống nợ kỹ thuật."
+    },
+    {
+      "id": "cnpm_c5_sa_02",
+      "question": "Nêu sự khác biệt cốt lõi giữa Continuous Delivery và Continuous Deployment.",
+      "expected_answer": "Continuous Delivery dừng lại ở việc chuẩn bị sẵn bản build trên Staging và cần phê duyệt thủ công (Manual Approval) để đưa lên Prod; còn Continuous Deployment tự động đẩy thẳng lên Production khi vượt qua test pipeline mà không cần phê duyệt.",
+      "explanation": "Continuous Delivery: Automated test -> Staging -> Manual approval to Prod. Continuous Deployment: Automated test -> Prod (100% automated)."
+    },
+    {
+      "id": "cnpm_c5_sa_03",
+      "question": "Mô tả cơ chế hoạt động của chiến lược triển khai Blue-Green Deployment và một ưu điểm vượt trội của nó.",
+      "expected_answer": "Duy trì hai môi trường giống hệt nhau: Blue (live) và Green (idle). Khi có phiên bản mới, deploy lên Green, kiểm thử xong chuyển Router trỏ traffic sang Green. Ưu điểm: Zero-downtime và khả năng rollback tức thời trong 1 giây.",
+      "explanation": "Việc chuyển đổi traffic được thực hiện ở tầng Load Balancer/Router giúp việc chuyển giao và rollback diễn ra tức thì mà không cần restart máy chủ."
+    },
+    {
+      "id": "cnpm_c5_sa_04",
+      "question": "Chiến lược Canary Release hoạt động như thế nào và thích hợp trong tình huống nào?",
+      "expected_answer": "Định tuyến một tỷ lệ nhỏ traffic (ví dụ 5-10%) sang phiên bản mới để kiểm tra trong môi trường thực tế, sau đó nâng dần lên 100% nếu ổn định. Thích hợp khi triển khai tính năng có rủi ro cao hoặc hệ thống có lượng người dùng rất lớn.",
+      "explanation": "Canary giúp giới hạn 'vùng ảnh hưởng của vụ nổ' (blast radius) nếu phiên bản mới có lỗi tiềm ẩn."
+    },
+    {
+      "id": "cnpm_c5_sa_05",
+      "question": "Kể tên 4 chỉ số đo lường hiệu suất phát triển và vận hành phần mềm cốt lõi (DORA Metrics).",
+      "expected_answer": "1. Deployment Frequency; 2. Lead Time for Changes; 3. Change Failure Rate; 4. Mean Time to Recovery (MTTR).",
+      "explanation": "4 chỉ số DORA được Google/DevOps Research and Assessment công bố làm tiêu chuẩn vàng đánh giá năng lực DevOps của các tổ chức phần mềm."
+    },
+    {
+      "id": "cnpm_c5_sa_06",
+      "question": "Trong văn hóa DevOps, từ viết tắt CAMS gồm 4 thành tố nào?",
+      "expected_answer": "Culture (Văn hóa), Automation (Tự động hóa), Measurement (Đo lường), Sharing (Chia sẻ).",
+      "explanation": "CAMS là nền tảng triết lý của DevOps do Damon Edwards và John Willis khởi xướng."
+    },
+    {
+      "id": "cnpm_c5_sa_07",
+      "question": "Nêu 3 trụ cột của Khả năng quan sát hệ thống (Observability).",
+      "expected_answer": "Metrics (Chỉ số định lượng), Logs (Nhật ký sự kiện), Traces (Dấu vết phân tán của request).",
+      "explanation": "Metrics cho biết hệ thống có vấn đề không; Logs giải thích chi tiết điều gì vừa xảy ra; Traces chỉ ra vấn đề xảy ra tại đâu trong chuỗi dịch vụ phân tán."
+    },
+    {
+      "id": "cnpm_c5_sa_08",
+      "question": "Giải thích khái niệm Nợ kỹ thuật (Technical Debt) và cách phòng ngừa/giảm thiểu nó.",
+      "expected_answer": "Nợ kỹ thuật là việc chọn giải pháp nhanh, tạm bợ trong ngắn hạn khiến code khó đọc, khó bảo trì về sau. Phòng ngừa bằng cách viết test tự động, code review nghiêm ngặt và định kỳ dành thời gian tái cấu trúc (Refactoring).",
+      "explanation": "Cũng giống như nợ tài chính, nếu không 'trả lãi' định kỳ bằng việc refactor, nợ kỹ thuật sẽ khiến chi phí phát triển các tính năng sau tăng vọt."
+    }
+  ],
+  "essays": [
+    {
+      "id": "cnpm_c5_es_01",
+      "title": "Thiết Kế Chiến Lược Triển Khai Blue-Green vs Canary Release",
+      "problem": "Một nền tảng ví điện tử xử lý hàng triệu giao dịch mỗi ngày chuẩn bị phát hành phiên bản core-banking mới với nhiều thay đổi về giao thức mạng và logic thanh toán. Hãy so sánh hai chiến lược Blue-Green và Canary Release, sau đó tư vấn chiến lược phù hợp nhất cho bài toán này kèm phương án xử lý cơ sở dữ liệu.",
+      "solution_steps": [
+        "Bước 1: So sánh đặc tính kỹ thuật giữa hai chiến lược:\n- Blue-Green: Yêu cầu 2 cụm môi trường đầy đủ (100% capacity mỗi bên). Switch router tức thời. Khi switch, 100% người dùng tiếp cận code mới ngay. Rollback rất nhanh nhưng nếu code mới có bug logic thanh toán ngầm, toàn bộ người dùng đều bị ảnh hưởng.\n- Canary Release: Chỉ mở phiên bản mới cho một tỷ lệ nhỏ traffic (ví dụ 1% giao dịch viên nội bộ, sau đó 5% người dùng thông thường). Giám sát kỹ các chỉ số tỷ lệ lỗi giao dịch (transaction error rate) và độ trễ (latency).",
+        "Bước 2: Lựa chọn chiến lược tối ưu cho ví điện tử:\n- Chọn Canary Release kết hợp Feature Flags: Với hệ thống tài chính, rủi ro mất tiền hoặc sai lệch số dư là tối nghiêm trọng. Không thể mạo hiểm đưa 100% người dùng vào phiên bản mới ngay lập tức (như Blue-Green). Canary cho phép giới hạn 'blast radius' ở mức thấp nhất.",
+        "Bước 3: Phương án xử lý cơ sở dữ liệu tương thích ngược:\n- Áp dụng mẫu kiến trúc 'Expand and Contract':\n  1) Expand: Thêm các bảng/cột mới trong database, không xóa hoặc sửa cột cũ. Thiết lập trigger hoặc code kép để ghi đồng thời dữ liệu.\n  2) Migrate: Cho phiên bản Canary đọc/ghi cấu trúc mới trong khi bản cũ vẫn đọc/ghi bình thường.\n  3) Contract: Sau khi Canary rollout thành công 100% và ổn định sau 2 tuần, tạo một release bảo trì để dọn dẹp các cột và code cũ."
+      ]
+    },
+    {
+      "id": "cnpm_c5_es_02",
+      "title": "Xây Dựng CI/CD Pipeline Toàn Diện Với GitHub Actions",
+      "problem": "Hãy thiết kế một quy trình CI/CD hoàn chỉnh (Pipeline Workflow) cho một ứng dụng Web Fullstack (Node.js + React) sử dụng GitHub Actions, bao gồm các giai đoạn: Linting, Unit Test, Build Docker Image, và Deploy lên môi trường Staging/Production.",
+      "solution_steps": [
+        "Bước 1: Thiết kế các giai đoạn (Stages) trong Pipeline:\n- Stage 1 (Code Quality): Chạy linter (ESLint) và kiểm tra định dạng code (Prettier) khi có Pull Request vào nhánh `main`.\n- Stage 2 (Automated Testing): Chạy Jest Unit Tests và Integration Tests. Yêu cầu Code Coverage tối thiểu 80%.\n- Stage 3 (Build & Package): Build ứng dụng frontend/backend, đóng gói thành Docker Image và push lên Docker Registry (GitHub Packages / Docker Hub) kèm tag là git commit SHA.\n- Stage 4 (Deploy): Deploy tự động lên môi trường Staging khi merge vào nhánh `main`. Khi tạo GitHub Release (v1.x.x), kích hoạt deploy lên Production sau khi có manual approval.",
+        "Bước 2: Xây dựng cấu hình YAML mẫu (.github/workflows/deploy.yml):\n```yaml\nname: Full CI/CD Pipeline\non:\n  push:\n    branches: [ main ]\n    tags: [ 'v*' ]\n  pull_request:\n    branches: [ main ]\n\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-node@v4\n        with:\n          node-version: 18\n      - run: npm ci\n      - run: npm run lint\n      - run: npm test -- --coverage\n\n  build-and-deploy:\n    needs: test\n    if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - name: Build Docker\n        run: docker build -t myapp:${{ github.sha }} .\n      - name: Deploy Staging\n        if: github.ref == 'refs/heads/main'\n        run: ./scripts/deploy-staging.sh\n      - name: Deploy Production\n        if: startsWith(github.ref, 'refs/tags/v')\n        run: ./scripts/deploy-prod.sh\n        env:\n          API_KEY: ${{ secrets.PROD_API_KEY }}\n```",
+        "Bước 3: Biện pháp đảm bảo bảo mật cho pipeline:\n- Tuyệt đối không hard-code credentials/keys trong repository, sử dụng GitHub Encrypted Secrets.\n- Phân quyền tối thiểu cho runner token (Principle of Least Privilege).\n- Bật branch protection rule: Nhánh `main` bắt buộc phải có review từ ít nhất 1 senior dev và CI pipeline phải pass 100% trước khi được merge."
+      ]
+    },
+    {
+      "id": "cnpm_c5_es_03",
+      "title": "Phân Tích Chi Phí Vòng Đời Phần Mềm và Quản Trị Nợ Kỹ Thuật",
+      "problem": "Một công ty phần mềm sau 3 năm vận hành nhận thấy: thời gian đưa ra tính năng mới (Lead Time) tăng từ 3 ngày lên 4 tuần, tỷ lệ lỗi phát sinh sau mỗi lần deploy tăng từ 2% lên 28%, và các lập trình viên phàn nàn rằng code base quá rối rắm không ai dám sửa. Ban giám đốc yêu cầu bạn giải thích nguyên nhân theo các định luật công nghệ phần mềm và đề xuất kế hoạch giải quyết trong 6 tháng.",
+      "solution_steps": [
+        "Bước 1: Phân tích nguyên nhân theo lý thuyết công nghệ phần mềm:\n- Hiện tượng trên là minh chứng điển hình của sự tích tụ Nợ Kỹ Thuật (Technical Debt) nghiêm trọng do giai đoạn trước ưu tiên tốc độ ra mắt mà bỏ qua kiểm thử tự động, tài liệu và kiến trúc chuẩn.\n- Thể hiện rõ Luật Lehman số 2 (Increasing Complexity): Hệ thống liên tục bổ sung tính năng nhưng không được tái cấu trúc định kỳ, khiến độ phức tạp nội tại tăng đột biến, cấu trúc spaghetti code làm tăng chi phí bảo trì lên mức khổng lồ.",
+        "Bước 2: Phân bổ lại ngân sách và thời gian theo 4 loại hình bảo trì:\n- Hiện tại công ty đang bị sa lầy vào Bảo trì sửa sai (Corrective Maintenance) chiếm tới 70% thời gian xử lý sự cố khẩn cấp (fire-fighting).\n- Mục tiêu cần đưa tỷ trọng về mức chuẩn: Tăng cường Bảo trì phòng ngừa (Preventive Maintenance - dành 20-30% dung lượng mỗi sprint cho Refactoring và dọn nợ kỹ thuật); từ đó giảm tỷ lệ sự cố sửa sai xuống dưới 15%, giải phóng tài nguyên cho Bảo trì hoàn thiện (Perfective Maintenance) phát triển tính năng mới.",
+        "Bước 3: Lộ trình hành động 6 tháng:\n- Tháng 1-2: Đóng băng việc phát triển các tính năng phức tạp mới; thiết lập CI/CD pipeline tự động với unit test và integration test bao phủ các luồng nghiệp vụ cốt lõi (Core Business Flow).\n- Tháng 3-4: Xác định các 'God Class' và module có nguy cơ cao (Code Smells, Cyclomatic Complexity cao) để refactor theo từng module nhỏ độc lập (Strangler Fig Pattern).\n- Tháng 5-6: Áp dụng văn hóa DevOps, theo dõi 4 chỉ số DORA để đánh giá sự phục hồi: Đưa Lead Time về dưới 1 tuần và Change Failure Rate về dưới 5%."
+      ]
+    },
+    {
+      "id": "cnpm_c5_es_04",
+      "title": "Thiết Kế Hệ Thống Giám Sát, Cảnh Báo và Phản Ứng Sự Cố (SRE & Observability)",
+      "problem": "Hãy thiết kế kiến trúc giám sát (Observability Architecture) và quy trình xử lý sự cố (Incident Response Workflow) cho một hệ thống cổng thanh toán trực tuyến, đảm bảo cam kết SLA đạt 99.95% tính sẵn sàng.",
+      "solution_steps": [
+        "Bước 1: Thiết kế ba trụ cột Observability (Three Pillars):\n- Metrics: Triển khai Prometheus thu thập số liệu thời gian thực (Request per second, HTTP 5xx error rate, Latency p95/p99, CPU/RAM/Connection pool). Hiển thị trực quan qua Grafana Dashboard.\n- Logs: Thu thập cấu trúc log (Structured JSON logs) từ tất cả dịch vụ tập trung về ElasticSearch/Loki. Đính kèm traceId và userId trong mỗi log line.\n- Traces: Tích hợp OpenTelemetry/Jaeger để theo dõi luồng request xuyên suốt từ API Gateway qua Auth Service, Order Service đến Bank Adapter Service.",
+        "Bước 2: Thiết lập ngưỡng cảnh báo (Alerting Strategy) tránh Alert Fatigue:\n- Chỉ kích hoạt cảnh báo khẩn cấp (PagerDuty/Call) khi vi phạm SLO cam kết:\n  + Độ sẵn sàng: Tỷ lệ lỗi 5xx vượt quá 0.05% trong 3 phút liên tiếp.\n  + Độ trễ: P99 latency vượt quá 2000ms trong 5 phút.\n- Mọi cảnh báo khẩn cấp đều phải đi kèm Runbook link (hướng dẫn từng bước cách kiểm tra và lệnh khắc phục).",
+        "Bước 3: Quy trình phản ứng sự cố và Blameless Post-mortem:\n- Khi có sự cố: On-call engineer tiếp nhận trong 5 phút, tuyên bố tình trạng Incident trên kênh chỉ huy khẩn cấp; kích hoạt phương án cứu trợ nhanh (Rollback về bản trước hoặc bật chế độ bảo trì nhẹ Degraded Mode).\n- Sau khi khôi phục: Tổ chức cuộc họp rút kinh nghiệm không đổ lỗi (Blameless Post-mortem) trong vòng 48 giờ. Xác định nguyên nhân gốc rễ (Root Cause Analysis - 5 Whys), ghi nhận dòng thời gian sự cố (Timeline) và đưa các đầu việc gia cố hệ thống vào backlog của sprint tiếp theo."
+      ]
+    }
+  ]
+}
