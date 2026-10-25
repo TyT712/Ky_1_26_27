@@ -90,7 +90,12 @@
       "parameters": {
         "task_type": {
           "type": "string",
-          "enum": ["solve", "quiz", "explain", "summary"],
+          "enum": [
+            "solve",
+            "quiz",
+            "explain",
+            "summary"
+          ],
           "description": "Loại tác vụ học tập cần thực hiện."
         },
         "query": {
@@ -103,7 +108,11 @@
         },
         "difficulty": {
           "type": "string",
-          "enum": ["basic", "intermediate", "advanced"],
+          "enum": [
+            "basic",
+            "intermediate",
+            "advanced"
+          ],
           "default": "intermediate",
           "description": "Mức độ khó của bài tập hoặc bộ câu hỏi tự luyện."
         }
@@ -169,7 +178,11 @@
       },
       "quality_targets": {
         "multiple_choice_per_chapter": 30,
-        "difficulty_matrix": {"easy": 10, "medium": 12, "hard": 8},
+        "difficulty_matrix": {
+          "easy": 10,
+          "medium": 12,
+          "hard": 8
+        },
         "short_answers_per_chapter": 8,
         "essays_per_chapter": 4
       },
@@ -184,7 +197,36 @@
           "description": "Mã chương, ví dụ q1_chuong_1."
         }
       }
+    },
+    {
+      "id": "course_ui_adaptation",
+      "name": "Course UI & Pedagogical Adaptation",
+      "version": "1.0.0",
+      "guide": ".antigravity/skills/course_ui_adaptation.md",
+      "native_skill": ".agents/skills/course-ui-adaptation/SKILL.md",
+      "description": "Thích ứng giao diện học tập (tiêu đề tab, lời dẫn nhập, nhãn nhập liệu, font chữ, huy hiệu tự luận, điều hướng chương) theo từng nhóm môn học: Kỹ thuật/CSDL, Lý luận chính trị/Khoa học xã hội, Toán học/KHTN.",
+      "capabilities": [
+        "adapt_tab_introductions",
+        "apply_pedagogical_profiles",
+        "localize_input_placeholders",
+        "normalize_navigation_numbering"
+      ],
+      "profiles": [
+        "technical_database",
+        "political_theory",
+        "mathematics_natural_science",
+        "general_academic"
+      ],
+      "parameters": {
+        "subject_code": {
+          "type": "string",
+          "description": "Mã định danh môn học (ví dụ: he_qtcsdl, cnxhkh)."
+        },
+        "ui_profile": {
+          "type": "string",
+          "description": "Tên profile giao diện."
+        }
+      }
     }
   ]
 }
-

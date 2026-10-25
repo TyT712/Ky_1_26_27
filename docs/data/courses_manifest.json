@@ -226,7 +226,8 @@
      "title": "Tóm tắt Học thuật: Tổng quan Cơ sở Dữ liệu & Kiến trúc Hệ QTCSDL (Xuất từ NotebookLM)",
      "file": "data/he_qtcsdl/topics/tong_quan_csdl_va_kien_truc_summary.md"
     }
-   ]
+   ],
+   "ui_profile": "technical_database"
   },
   {
    "id": "cnxhkh",
@@ -376,7 +377,8 @@
      "title": "Chuyên đề: Xây dựng gia đình tiến bộ, ấm no, hạnh phúc thời kỳ quá độ (Xuất từ NotebookLM)",
      "file": "data/cnxhkh/topics/xay_dung_gia_dinh_thoi_ky_qua_do_summary.md"
     }
-   ]
+   ],
+   "ui_profile": "political_theory"
   },
   {
    "id": "giai_tich_1",

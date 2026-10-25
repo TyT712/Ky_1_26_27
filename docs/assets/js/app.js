@@ -29,6 +29,69 @@
     }
   };
 
+  // --- Course UI & Pedagogical Adaptation Profiles ---
+  const COURSE_PROFILES = {
+    he_qtcsdl: {
+      profile_name: 'technical_database',
+      short_answer: {
+        title: 'Luyện tập Trả lời ngắn & Thao tác hình thức',
+        intro: 'Tự gõ biểu thức đại số quan hệ, câu lệnh SQL, hoặc tính toán bao đóng trước khi bấm "Kiểm tra & Đối chiếu" để so sánh với đáp án chuẩn.',
+        label: 'Nhập câu trả lời / Biểu thức ĐSQH / Câu lệnh SQL của bạn:',
+        placeholder: 'Gõ câu trả lời, biểu thức hoặc câu lệnh của bạn vào đây để tự rèn luyện...',
+        isMono: true
+      },
+      essay: {
+        badge: 'Tự luận & Thiết kế',
+        title: 'Bài Tập Tự Luận & Thiết Kế Lớn',
+        intro: 'Bài toán tổng hợp đòi hỏi tư duy thiết kế, chứng minh, tính toán nhiều bước bám sát các thuật toán chính quy của giáo trình.'
+      }
+    },
+    cnxhkh: {
+      profile_name: 'political_theory',
+      short_answer: {
+        title: 'Luyện tập Trả lời ngắn & Khái niệm Cốt lõi',
+        intro: 'Tự suy ngẫm, tóm tắt định nghĩa, tiền đề hoặc luận điểm chính trước khi bấm "Kiểm tra & Đối chiếu" để so sánh với đáp án chuẩn.',
+        label: 'Nhập câu trả lời / Tóm tắt luận điểm của bạn:',
+        placeholder: 'Gõ câu trả lời, định nghĩa hoặc tóm tắt luận điểm của bạn vào đây để tự rèn luyện...',
+        isMono: false
+      },
+      essay: {
+        badge: 'Tự luận & Phân tích lý luận',
+        title: 'Bài Tập Tự Luận & Phân Tích Chuyên Sâu',
+        intro: 'Đề bài tự luận tổng hợp yêu cầu phân tích quy luật khách quan, chứng minh luận điểm khoa học và liên hệ thực tiễn bám sát giáo trình chuẩn Bộ GD&ĐT.'
+      }
+    },
+    default: {
+      profile_name: 'general_academic',
+      short_answer: {
+        title: 'Luyện tập Trả lời ngắn & Tự kiểm tra',
+        intro: 'Tự ghi câu trả lời hoặc tóm tắt ý chính của bạn trước khi bấm "Kiểm tra & Đối chiếu" để so sánh với đáp án chuẩn.',
+        label: 'Nhập câu trả lời của bạn:',
+        placeholder: 'Gõ câu trả lời của bạn vào đây để tự rèn luyện...',
+        isMono: false
+      },
+      essay: {
+        badge: 'Tự luận & Vận dụng',
+        title: 'Bài Tập Tự Luận & Giải Quyết Vấn Đề',
+        intro: 'Bài tập tổng hợp đòi hỏi phân tích, chứng minh và giải quyết vấn đề nhiều bước bám sát nội dung giáo trình.'
+      }
+    }
+  };
+
+  function getCourseUIConfig(course) {
+    if (!course) return COURSE_PROFILES.default;
+    const base = COURSE_PROFILES[course.ui_profile] || COURSE_PROFILES[course.id] || COURSE_PROFILES.default;
+    if (course.tabs_config) {
+      return {
+        ...base,
+        ...course.tabs_config,
+        short_answer: { ...base.short_answer, ...(course.tabs_config.short_answer || {}) },
+        essay: { ...base.essay, ...(course.tabs_config.essay || {}) }
+      };
+    }
+    return base;
+  }
+
   // --- DOM Elements ---
   const appEl = document.getElementById('app');
   const themeToggleBtn = document.getElementById('theme-toggle');
@@ -499,11 +562,21 @@
     const allChapters = [];
     course.books.forEach((b) => (b.chapters || []).forEach((c) => allChapters.push(c)));
 
-    const dropdownOptions = allChapters.map((c) => `
-      <option value="${c.id}" ${c.id === chapter.id ? 'selected' : ''}>
-        Quyển ${c.number <= 6 && c.id.startsWith('q1') ? '1' : '2'} - Chương ${c.number}: ${escapeHtml(c.title)}
-      </option>
-    `).join('');
+    const dropdownOptions = allChapters.map((c) => {
+      let label = c.full_title || c.title;
+      if (c.number && c.title) {
+        if (c.id.startsWith('q1') || c.id.startsWith('q2')) {
+          label = `Quyển ${c.id.startsWith('q1') ? '1' : '2'} - Chương ${c.number}: ${c.title}`;
+        } else {
+          label = `Chương ${c.number}: ${c.title}`;
+        }
+      }
+      return `
+        <option value="${c.id}" ${c.id === chapter.id ? 'selected' : ''}>
+          ${escapeHtml(label)}
+        </option>
+      `;
+    }).join('');
 
     appEl.innerHTML = `
       <div>
@@ -660,7 +733,7 @@
           <div class="bg-indigo-50/50 dark:bg-indigo-950/20 border border-indigo-200 dark:border-indigo-800 rounded-lg p-4 mb-6 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div class="text-sm">
               <span class="font-semibold">Quy chế thi theo lô (Batch Quiz):</span>
-              <span class="text-muted">Chọn phương án cho cả 30 câu rồi bấm "Nộp bài & Chấm điểm" để xem điểm số và lời giải chi tiết.</span>
+              <span class="text-muted">Chọn phương án cho cả ${totalCount} câu rồi bấm "Nộp bài & Chấm điểm" để xem điểm số và lời giải chi tiết.</span>
             </div>
             <button type="button" class="btn btn-primary btn-sm whitespace-nowrap btn-submit-quiz">
               Nộp bài & Chấm điểm
@@ -970,6 +1043,9 @@
   // --- Tab 3: Short Answer (>= 8 Questions) ---
   function renderTabShort(container) {
     const list = state.chapterData.short_answers;
+    const uiConfig = getCourseUIConfig(state.currentCourse);
+    const shortCfg = uiConfig.short_answer;
+
     const itemsHtml = list.map((item, idx) => {
       return `
         <div class="card mb-6" id="short-item-${item.id}">
@@ -980,8 +1056,8 @@
           <div class="font-semibold text-base mb-3">${escapeHtml(item.question)}</div>
           
           <div class="mb-3">
-            <label for="sa-input-${item.id}" class="block text-xs text-muted mb-1">Nhập câu trả lời / Biểu thức ĐSQH / Câu lệnh SQL của bạn:</label>
-            <textarea id="sa-input-${item.id}" rows="2" class="card w-full text-sm font-mono p-2.5 focus:border-indigo-500" placeholder="Gõ câu trả lời của bạn vào đây để tự rèn luyện..."></textarea>
+            <label for="sa-input-${item.id}" class="block text-xs text-muted mb-1">${escapeHtml(shortCfg.label)}</label>
+            <textarea id="sa-input-${item.id}" rows="2" class="card w-full text-sm ${shortCfg.isMono ? 'font-mono' : ''} p-2.5 focus:border-indigo-500" placeholder="${escapeHtml(shortCfg.placeholder)}"></textarea>
           </div>
 
           <div class="flex items-center justify-between">
@@ -1005,9 +1081,9 @@
     container.innerHTML = `
       <div class="max-w-4xl mx-auto">
         <div class="card mb-6 bg-indigo-50/40 dark:bg-indigo-950/20 border-indigo-200 dark:border-indigo-800">
-          <h2 class="text-base font-bold text-indigo-700 dark:text-indigo-400 mb-1">Luyện tập Trả lời ngắn & Thao tác hình thức</h2>
+          <h2 class="text-base font-bold text-indigo-700 dark:text-indigo-400 mb-1">${escapeHtml(shortCfg.title)}</h2>
           <p class="text-xs text-muted">
-            Tự gõ biểu thức đại số quan hệ, câu lệnh SQL, hoặc tính toán bao đóng trước khi bấm "Kiểm tra & Đối chiếu" để so sánh với đáp án chuẩn.
+            ${escapeHtml(shortCfg.intro)}
           </p>
         </div>
         ${itemsHtml}
@@ -1035,6 +1111,9 @@
   // --- Tab 4: Essay & Problem Solving (>= 4 Problems) ---
   function renderTabEssay(container) {
     const list = state.chapterData.essays;
+    const uiConfig = getCourseUIConfig(state.currentCourse);
+    const essayCfg = uiConfig.essay;
+
     const itemsHtml = list.map((item, idx) => {
       const stepsHtml = (item.solution_steps || []).map((step) => {
         return `<div class="mb-3 pl-3 border-l-2 border-indigo-500">${renderMarkdown(step)}</div>`;
@@ -1044,7 +1123,7 @@
         <div class="card mb-6" id="essay-item-${item.id}">
           <div class="flex items-center justify-between mb-2">
             <span class="text-sm font-bold text-indigo-600">Bài toán ${idx + 1}/${list.length}</span>
-            <span class="badge badge-primary">Tự luận & Thiết kế</span>
+            <span class="badge badge-primary">${escapeHtml(essayCfg.badge)}</span>
           </div>
           <h3 class="text-lg font-bold mb-2">${escapeHtml(item.title)}</h3>
           <div class="text-sm text-main mb-4 prose">${renderMarkdown(item.problem)}</div>
@@ -1068,9 +1147,9 @@
     container.innerHTML = `
       <div class="max-w-4xl mx-auto">
         <div class="card mb-6 bg-indigo-50/40 dark:bg-indigo-950/20 border-indigo-200 dark:border-indigo-800">
-          <h2 class="text-base font-bold text-indigo-700 dark:text-indigo-400 mb-1">Bài Tập Tự Luận & Thiết Kế Lớn</h2>
+          <h2 class="text-base font-bold text-indigo-700 dark:text-indigo-400 mb-1">${escapeHtml(essayCfg.title)}</h2>
           <p class="text-xs text-muted">
-            Bài toán tổng hợp đòi hỏi tư duy thiết kế, chứng minh, tính toán nhiều bước bám sát các thuật toán chính quy của giáo trình.
+            ${escapeHtml(essayCfg.intro)}
           </p>
         </div>
         ${itemsHtml}
