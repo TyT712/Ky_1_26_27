@@ -52,6 +52,14 @@ COURSES_TO_AUDIT = [
         "chapters": [
             "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5"
         ]
+    },
+    {
+        "id": "tam_ly_hoc_2",
+        "name": "Tâm Lý Học 2 (Lứa Tuổi & Sư Phạm)",
+        "dir": DOCS / "data" / "tam_ly_hoc_2",
+        "chapters": [
+            "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5"
+        ]
     }
 ]
 
@@ -215,6 +223,11 @@ def audit_static_server():
         "data/cnpm/chuong_5_exercises.json",
         "data/cnpm/chuong_5_theory.md",
         "data/cnpm/topics/tong_quan_cnpm_va_ky_nghe_he_thong_summary.md",
+        "data/tam_ly_hoc_2/chuong_1_exercises.json",
+        "data/tam_ly_hoc_2/chuong_1_theory.md",
+        "data/tam_ly_hoc_2/chuong_5_exercises.json",
+        "data/tam_ly_hoc_2/chuong_5_theory.md",
+        "data/tam_ly_hoc_2/topics/nhung_van_de_chung_tlh2_summary.md",
         ".nojekyll"
     ]
 

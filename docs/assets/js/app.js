@@ -91,6 +91,36 @@
         intro: 'Bài toán tổng hợp đòi hỏi phân tích yêu cầu SRS, thiết kế kiến trúc hệ thống, hoạch định Sprint và xây dựng chiến lược kiểm thử / CI-CD.'
       }
     },
+    tam_ly_hoc_2: {
+      profile_name: 'pedagogical_psychology',
+      short_answer: {
+        title: 'Luyện tập Trả lời ngắn & Khái niệm Tâm lý Sư phạm',
+        intro: 'Tự suy ngẫm, định nghĩa quy luật tâm lý, đặc điểm lứa tuổi hoặc xử lý tình huống sư phạm trước khi bấm "Kiểm tra & Đối chiếu" để so sánh với đáp án chuẩn.',
+        label: 'Nhập câu trả lời / Luận điểm tâm lý sư phạm của bạn:',
+        placeholder: 'Gõ câu trả lời, phân tích quy luật hoặc biện pháp sư phạm của bạn vào đây để tự rèn luyện...',
+        isMono: false
+      },
+      essay: {
+        badge: 'Tự luận & Ứng dụng Sư phạm',
+        title: 'Bài Tập Tự Luận & Tình Huống Sư Phạm',
+        intro: 'Bài tập tự luận tổng hợp yêu cầu phân tích bản chất tâm lý lứa tuổi, đề xuất phương pháp giáo dục khoa học và giải quyết tình huống thực tiễn sư phạm.'
+      }
+    },
+    pedagogical_psychology: {
+      profile_name: 'pedagogical_psychology',
+      short_answer: {
+        title: 'Luyện tập Trả lời ngắn & Khái niệm Tâm lý Sư phạm',
+        intro: 'Tự suy ngẫm, định nghĩa quy luật tâm lý, đặc điểm lứa tuổi hoặc xử lý tình huống sư phạm trước khi bấm "Kiểm tra & Đối chiếu" để so sánh với đáp án chuẩn.',
+        label: 'Nhập câu trả lời / Luận điểm tâm lý sư phạm của bạn:',
+        placeholder: 'Gõ câu trả lời, phân tích quy luật hoặc biện pháp sư phạm của bạn vào đây để tự rèn luyện...',
+        isMono: false
+      },
+      essay: {
+        badge: 'Tự luận & Ứng dụng Sư phạm',
+        title: 'Bài Tập Tự Luận & Tình Huống Sư Phạm',
+        intro: 'Bài tập tự luận tổng hợp yêu cầu phân tích bản chất tâm lý lứa tuổi, đề xuất phương pháp giáo dục khoa học và giải quyết tình huống thực tiễn sư phạm.'
+      }
+    },
     default: {
       profile_name: 'general_academic',
       short_answer: {

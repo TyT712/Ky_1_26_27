@@ -494,6 +494,119 @@
    "ui_profile": "software_engineering"
   },
   {
+   "id": "tam_ly_hoc_2",
+   "code": "TLH2",
+   "title": "Tâm Lý Học 2",
+   "description": "Tâm lý học lứa tuổi và tâm lý học sư phạm: Quy luật phát triển tâm lý từ sơ sinh đến THPT, bản chất hoạt động dạy học, trí tuệ và nhân cách người giáo viên.",
+   "status": "active",
+   "books": [
+    {
+     "id": "giao_trinh_tam_ly_hoc_2",
+     "title": "Giáo Trình Tâm Lý Học Lứa Tuổi & Tâm Lý Học Sư Phạm",
+     "chapters": [
+      {
+       "id": "chuong_1",
+       "number": 1,
+       "title": "Những vấn đề chung của Tâm lý học lứa tuổi và Tâm lý học sư phạm",
+       "full_title": "Chương 1: Những vấn đề chung của Tâm lý học lứa tuổi và Tâm lý học sư phạm",
+       "summary": "Đối tượng, nhiệm vụ, phương pháp nghiên cứu; quan niệm về trẻ em, phê phán các thuyết sai lầm; quan điểm CNDVBC; điều kiện, động lực và các quy luật phát triển tâm lý trẻ em.",
+       "theory": "data/tam_ly_hoc_2/chuong_1_theory.md",
+       "exercises": "data/tam_ly_hoc_2/chuong_1_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_2",
+       "number": 2,
+       "title": "Tâm lý học trẻ em trước tuổi học",
+       "full_title": "Chương 2: Tâm lý học trẻ em trước tuổi học",
+       "summary": "Đặc điểm tâm lý trẻ sơ sinh và hài nhi; trẻ ấu nhi (hoạt động với đồ vật, khủng hoảng tuổi lên 3); trẻ mẫu giáo (trò chơi đóng vai theo chủ đề); bước ngoặt 6 tuổi và chuẩn bị tâm lý vào lớp 1.",
+       "theory": "data/tam_ly_hoc_2/chuong_2_theory.md",
+       "exercises": "data/tam_ly_hoc_2/chuong_2_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_3",
+       "number": 3,
+       "title": "Tâm lý học lứa tuổi đi học",
+       "full_title": "Chương 3: Tâm lý học lứa tuổi đi học",
+       "summary": "Tâm lý học sinh tiểu học (hoạt động học tập là chủ đạo); học sinh THCS - lứa tuổi thiếu niên (khủng hoảng dậy thì, cảm nhận làm người lớn, giao tiếp bạn bè); học sinh THPT - đầu thanh niên (thế giới quan, tình yêu học trò, hướng nghiệp).",
+       "theory": "data/tam_ly_hoc_2/chuong_3_theory.md",
+       "exercises": "data/tam_ly_hoc_2/chuong_3_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_4",
+       "number": 4,
+       "title": "Tâm lý học dạy học",
+       "full_title": "Chương 4: Tâm lý học dạy học",
+       "summary": "Khái niệm, đặc điểm và yếu tố tâm lý của hoạt động dạy; đặc điểm và cấu trúc của hoạt động học (động cơ bên trong vs bên ngoài, mục đích, 4 hành động học tập); dạy học và phát triển trí tuệ (chỉ số trí tuệ, lý thuyết Vygotsky về ZPD và hai hướng phát triển trí tuệ).",
+       "theory": "data/tam_ly_hoc_2/chuong_4_theory.md",
+       "exercises": "data/tam_ly_hoc_2/chuong_4_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_5",
+       "number": 5,
+       "title": "Tâm lý học nhân cách người giáo viên",
+       "full_title": "Chương 5: Tâm lý học nhân cách người giáo viên",
+       "summary": "Sự cần thiết trau dồi nhân cách người giáo viên; cấu trúc nhân cách (thế giới quan, lý tưởng nghề nghiệp, lòng yêu trẻ, yêu nghề; nhóm năng lực dạy học & nhóm năng lực giáo dục); uy tín người giáo viên (uy tín chân chính vs uy tín giả, con đường xây dựng uy tín).",
+       "theory": "data/tam_ly_hoc_2/chuong_5_theory.md",
+       "exercises": "data/tam_ly_hoc_2/chuong_5_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      }
+     ]
+    }
+   ],
+   "topics": [
+    {
+     "id": "nhung_van_de_chung_tlh2",
+     "title": "Chuyên đề: Bản chất biện chứng của phát triển tâm lý & Vai trò của giáo dục (Xuất từ NotebookLM)",
+     "file": "data/tam_ly_hoc_2/topics/nhung_van_de_chung_tlh2_summary.md"
+    },
+    {
+     "id": "tam_ly_hoc_truoc_tuoi_hoc",
+     "title": "Chuyên đề: Tâm lý học trẻ em trước tuổi học - Khủng hoảng tuổi lên 3 & Bước ngoặt 6 tuổi (Xuất từ NotebookLM)",
+     "file": "data/tam_ly_hoc_2/topics/tam_ly_hoc_truoc_tuoi_hoc_summary.md"
+    },
+    {
+     "id": "tam_ly_hoc_tuoi_di_hoc",
+     "title": "Chuyên đề: Tâm lý học lứa tuổi đi học - Nhi đồng, Thiếu niên và Đầu thanh niên (Xuất từ NotebookLM)",
+     "file": "data/tam_ly_hoc_2/topics/tam_ly_hoc_tuoi_di_hoc_summary.md"
+    },
+    {
+     "id": "tam_ly_hoc_day_hoc",
+     "title": "Chuyên đề: Bản chất hoạt động dạy học & Cơ chế phát triển trí tuệ theo Davydov (Xuất từ NotebookLM)",
+     "file": "data/tam_ly_hoc_2/topics/tam_ly_hoc_day_hoc_summary.md"
+    },
+    {
+     "id": "tam_ly_hoc_nhan_cach_nguoi_giao_vien",
+     "title": "Chuyên đề: Cấu trúc nhân cách & Nghệ thuật xây dựng uy tín chân chính của người giáo viên (Xuất từ NotebookLM)",
+     "file": "data/tam_ly_hoc_2/topics/tam_ly_hoc_nhan_cach_nguoi_giao_vien_summary.md"
+    }
+   ],
+   "ui_profile": "pedagogical_psychology"
+  },
+  {
    "id": "giai_tich_1",
    "code": "GT1",
    "title": "Giải Tích 1",

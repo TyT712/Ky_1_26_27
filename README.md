@@ -117,6 +117,7 @@ Mọi phản hồi học thuật từ Agent tuân thủ nghiêm ngặt quy tắc
 | 1 | **HQTCSDL** | Hệ Quản Trị Cơ Sở Dữ Liệu | 11 chương | 331 câu | 88 câu | 44 bài | 10 chuyên đề |
 | 2 | **CNXHKH** | Chủ Nghĩa Xã Hội Khoa Học | 7 chương | 210 câu | 56 câu | 28 bài | 7 chuyên đề |
 | 3 | **CNPM** | Công Nghệ Phần Mềm | 5 chương | 150 câu | 40 câu | 20 bài | 5 chuyên đề |
-| **Tổng cộng** | | | **23 chương** | **691 câu** | **184 câu** | **92 bài** | **22 chuyên đề** |
+| 4 | **TLH2** | Tâm Lý Học 2 (Lứa Tuổi & Sư Phạm) | 5 chương | 150 câu | 40 câu | 20 bài | 5 chuyên đề |
+| **Tổng cộng** | | | **28 chương** | **841 câu** | **224 câu** | **112 bài** | **27 chuyên đề** |
 
 LMS web portal được triển khai sẵn sàng tại thư mục [docs/](file:///c:/Users/dtht0/OneDrive/Desktop/semester-hub/docs) và hỗ trợ chạy static GitHub Pages.

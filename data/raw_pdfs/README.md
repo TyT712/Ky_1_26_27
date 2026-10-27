@@ -20,6 +20,8 @@ data/raw_pdfs/
 ├── he_qtcsdl/
 │   ├── giao_trinh_he_co_so_du_lieu_tap_1.pdf
 │   └── giao_trinh_he_co_so_du_lieu_tap_2.pdf
+├── tam_ly_hoc_2/
+│   └── giao_trinh_tam_ly_hoc_2.md
 └── chu_nghia_xa_hoi_khoa_hoc.pdf
 ```
 
