@@ -314,7 +314,7 @@
   // --- Data Fetching ---
   async function loadManifest() {
     if (state.manifest) return state.manifest;
-    const res = await fetch('data/courses_manifest.json');
+    const res = await fetch(`data/courses_manifest.json?t=${Date.now()}`, { cache: 'no-store' });
     if (!res.ok) throw new Error('Không thể tải courses_manifest.json (HTTP ' + res.status + ')');
     state.manifest = await res.json();
     return state.manifest;
