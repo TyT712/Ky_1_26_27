@@ -55,10 +55,12 @@ Hệ thống tổ chức dữ liệu theo kiến trúc hai tầng tri thức (Du
 ---
 
 ## 5. KIẾN TRÚC LMS TĨNH (STATIC SPA LMS) - GitHub Pages
-- **Frontend:** `docs/index.html`, `docs/assets/css/style.css`, `docs/assets/js/app.js` (HTML5 + TailwindCSS CDN + Vanilla JS + Marked.js + KaTeX + Highlight.js + Mermaid), điều hướng bằng URL hash.
-- **Luồng:** `#/` Cổng môn học -> `#/course/{id}` Trang môn học -> `#/course/{id}/chapter/{chapter_id}` Không gian chương (4 tab: Lý thuyết, Trắc nghiệm 30 câu, Trả lời ngắn, Tự luận) -> Kết quả & Xem lại.
-- **Quy tắc chấm điểm theo lô:** không hiển thị đúng/sai khi chọn đáp án; chỉ chấm và giải thích sau khi người học bấm "Nộp bài & Chấm điểm".
+- **Frontend:** `docs/index.html`, `docs/assets/css/style.css`, `docs/assets/js/app.js` (HTML5 + TailwindCSS CDN + Vanilla JS + Marked.js + KaTeX + Highlight.js + Mermaid), giao diện Modern Academic Bento & Glassmorphism, điều hướng bằng URL hash.
+- **Luồng:** `#/` Cổng môn học (Bento Hero, thống kê 28 chương, tiến độ & học tiếp) -> `#/course/{id}` Trang môn học -> `#/course/{id}/chapter/{chapter_id}` Không gian chương (4 tab: Lý thuyết có Sticky TOC, Trắc nghiệm tuần tự từng câu, Trả lời ngắn, Tự luận) -> Bảng phân tích kết quả & xem lại.
+- **Cơ chế Trắc nghiệm Tuần tự Từng câu (Sequential Step-by-Step Quiz Engine):**
+  - Giao diện tập trung từng câu hỏi (Single-Question Focused Stage). Người học phải trả lời xong câu hỏi hiện tại thì câu hỏi tiếp theo mới được mở khóa; các câu hỏi phía sau trên Question Palette ở trạng thái khóa (`locked`) cho đến khi làm tuần tự tới câu đó.
+  - Hỗ trợ 2 chế độ: `instant` (Luyện tập tức thì: hiển thị đúng/sai, Streak counter 🔥 và giải thích chi tiết ngay) & `exam` (Thi thử: ẩn kết quả đến khi hoàn thành nộp bài).
+  - Quản lý trạng thái: `currentIndex`, `maxUnlockedIndex`, `lockedQuestions`, `streak`, `bestStreak`, `score`, `total`.
 - **Dữ liệu:** `docs/data/courses_manifest.json` và `docs/data/{subject}/{chapter_id}_{theory.md|exercises.json}`; chuyên đề tổng hợp tại `docs/data/{subject}/topics/`.
 - **Pipeline sinh dữ liệu:** `scripts/extract_legacy_packs.py` -> `scripts/chapter_data/*.py` -> `scripts/build_lms_data.py` -> `scripts/verify_lms_integrity.py` (phải PASS 100%).
-- **Tiến độ người học:** lưu trong `localStorage` (khóa `semesterhub.progress.v1`).
-
+- **Tiến độ người học:** lưu an toàn trong `localStorage` (khóa `semesterhub.progress.v1` và `semesterhub.last_chapter`).
