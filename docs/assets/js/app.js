@@ -771,8 +771,6 @@
           </div>
         </div>
 
-        ${topicsHtml}
-
         <!-- Chapters List -->
         <div>
           <div class="mb-4 flex items-center justify-between">
