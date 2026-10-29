@@ -175,58 +175,6 @@
      ]
     }
    ],
-   "topics": [
-    {
-     "id": "chuan_hoa_csdl_1nf_2nf_3nf_bcnf",
-     "title": "Tóm tắt Học thuật: Chuẩn hóa Dữ liệu (1NF, 2NF, 3NF, BCNF) (Xuất từ NotebookLM)",
-     "file": "data/he_qtcsdl/topics/chuan_hoa_csdl_1nf_2nf_3nf_bcnf_summary.md"
-    },
-    {
-     "id": "dai_so_quan_he_va_rang_buoc",
-     "title": "Tóm tắt Học thuật: Đại số Quan hệ & Ràng buộc Toàn vẹn (Xuất từ NotebookLM)",
-     "file": "data/he_qtcsdl/topics/dai_so_quan_he_va_rang_buoc_summary.md"
-    },
-    {
-     "id": "ly_thuyet_phan_tach_va_bao_toan",
-     "title": "Tóm tắt Học thuật: Lý thuyết Phân tách Lược đồ Quan hệ (Xuất từ NotebookLM)",
-     "file": "data/he_qtcsdl/topics/ly_thuyet_phan_tach_va_bao_toan_summary.md"
-    },
-    {
-     "id": "mo_hinh_er_va_chuyen_doi",
-     "title": "Tóm tắt Học thuật: Mô hình E-R & Quy tắc Chuyển đổi sang Lược đồ Quan hệ (Xuất từ NotebookLM)",
-     "file": "data/he_qtcsdl/topics/mo_hinh_er_va_chuyen_doi_summary.md"
-    },
-    {
-     "id": "ngon_ngu_sql_va_truy_van_nang_cao",
-     "title": "Tóm tắt Học thuật: Ngôn ngữ SQL & Kỹ thuật Truy vấn Nâng cao (Xuất từ NotebookLM)",
-     "file": "data/he_qtcsdl/topics/ngon_ngu_sql_va_truy_van_nang_cao_summary.md"
-    },
-    {
-     "id": "phu_thuoc_da_tri_va_4nf",
-     "title": "Tóm tắt Học thuật: Phụ thuộc Đa trị & Dạng chuẩn 4 (4NF) (Xuất từ NotebookLM)",
-     "file": "data/he_qtcsdl/topics/phu_thuoc_da_tri_va_4nf_summary.md"
-    },
-    {
-     "id": "phu_thuoc_ham_va_thuat_toan_tim_khoa",
-     "title": "Tóm tắt Học thuật: Phụ thuộc Hàm, Bao đóng & Thuật toán Tìm Khóa (Xuất từ NotebookLM)",
-     "file": "data/he_qtcsdl/topics/phu_thuoc_ham_va_thuat_toan_tim_khoa_summary.md"
-    },
-    {
-     "id": "rang_buoc_toan_ven_va_trigger",
-     "title": "Tóm tắt Học thuật: Ràng buộc Toàn vẹn & Xử lý Vi phạm bằng Trigger (Xuất từ NotebookLM)",
-     "file": "data/he_qtcsdl/topics/rang_buoc_toan_ven_va_trigger_summary.md"
-    },
-    {
-     "id": "to_chuc_vat_ly_va_toi_uu_cau_hoi",
-     "title": "TỔ CHỨC VẬT LÝ DỮ LIỆU & TỐI ƯU HÓA CÂU HỎI TRUY VÂN",
-     "file": "data/he_qtcsdl/topics/to_chuc_vat_ly_va_toi_uu_cau_hoi_summary.md"
-    },
-    {
-     "id": "tong_quan_csdl_va_kien_truc",
-     "title": "Tóm tắt Học thuật: Tổng quan Cơ sở Dữ liệu & Kiến trúc Hệ QTCSDL (Xuất từ NotebookLM)",
-     "file": "data/he_qtcsdl/topics/tong_quan_csdl_va_kien_truc_summary.md"
-    }
-   ],
    "ui_profile": "technical_database"
   },
   {
@@ -341,43 +289,6 @@
      ]
     }
    ],
-   "topics": [
-    {
-     "id": "su_ra_doi_va_phat_trien_cnxhkh",
-     "title": "Chuyên đề: Sự ra đời và các giai đoạn phát triển của CNXHKH (Xuất từ NotebookLM)",
-     "file": "data/cnxhkh/topics/su_ra_doi_va_phat_trien_cnxhkh_summary.md"
-    },
-    {
-     "id": "su_menh_lich_su_giai_cap_cong_nhan",
-     "title": "Chuyên đề: Sứ mệnh lịch sử của giai cấp công nhân & GCCN Việt Nam (Xuất từ NotebookLM)",
-     "file": "data/cnxhkh/topics/su_menh_lich_su_giai_cap_cong_nhan_summary.md"
-    },
-    {
-     "id": "chu_nghia_xa_hoi_va_thoi_ky_qua_do",
-     "title": "Chuyên đề: Chủ nghĩa xã hội và thời kỳ quá độ lên CNXH ở Việt Nam (Xuất từ NotebookLM)",
-     "file": "data/cnxhkh/topics/chu_nghia_xa_hoi_va_thoi_ky_qua_do_summary.md"
-    },
-    {
-     "id": "dan_chu_va_nha_nuoc_phap_quyen_xhcn",
-     "title": "Chuyên đề: Dân chủ XHCN và Nhà nước pháp quyền XHCN Việt Nam (Xuất từ NotebookLM)",
-     "file": "data/cnxhkh/topics/dan_chu_va_nha_nuoc_phap_quyen_xhcn_summary.md"
-    },
-    {
-     "id": "co_cau_giai_cap_va_lien_minh_cong_nong_tri",
-     "title": "Chuyên đề: Cơ cấu xã hội - giai cấp & liên minh Công - Nông - Trí (Xuất từ NotebookLM)",
-     "file": "data/cnxhkh/topics/co_cau_giai_cap_va_lien_minh_cong_nong_tri_summary.md"
-    },
-    {
-     "id": "van_de_dan_toc_va_ton_giao",
-     "title": "Chuyên đề: Vấn đề dân tộc, tôn giáo & khối đại đoàn kết dân tộc (Xuất từ NotebookLM)",
-     "file": "data/cnxhkh/topics/van_de_dan_toc_va_ton_giao_summary.md"
-    },
-    {
-     "id": "xay_dung_gia_dinh_thoi_ky_qua_do",
-     "title": "Chuyên đề: Xây dựng gia đình tiến bộ, ấm no, hạnh phúc thời kỳ quá độ (Xuất từ NotebookLM)",
-     "file": "data/cnxhkh/topics/xay_dung_gia_dinh_thoi_ky_qua_do_summary.md"
-    }
-   ],
    "ui_profile": "political_theory"
   },
   {
@@ -462,33 +373,6 @@
        }
       }
      ]
-    }
-   ],
-   "topics": [
-    {
-     "id": "tong_quan_cnpm_va_ky_nghe_he_thong",
-     "title": "Chuyên đề: Tổng quan Công nghệ phần mềm & Kỹ nghệ hệ thống (Xuất từ NotebookLM)",
-     "file": "data/cnpm/topics/tong_quan_cnpm_va_ky_nghe_he_thong_summary.md"
-    },
-    {
-     "id": "mo_hinh_quy_trinh_phan_mem_va_agile",
-     "title": "Chuyên đề: Quy trình phát triển phần mềm & Phương pháp luận Agile/Scrum (Xuất từ NotebookLM)",
-     "file": "data/cnpm/topics/mo_hinh_quy_trinh_phan_mem_va_agile_summary.md"
-    },
-    {
-     "id": "ky_nghe_yeu_cau_va_ke_hoach_du_an",
-     "title": "Chuyên đề: Kỹ nghệ yêu cầu SRS & Hoạch định dự án phần mềm (Xuất từ NotebookLM)",
-     "file": "data/cnpm/topics/ky_nghe_yeu_cau_va_ke_hoach_du_an_summary.md"
-    },
-    {
-     "id": "kien_truc_solid_va_kiem_thu_phan_mem",
-     "title": "Chuyên đề: Kiến trúc phần mềm, Nguyên lý SOLID & Chiến lược kiểm thử (Xuất từ NotebookLM)",
-     "file": "data/cnpm/topics/kien_truc_solid_va_kiem_thu_phan_mem_summary.md"
-    },
-    {
-     "id": "trien_khai_bao_tri_va_van_hoa_devops",
-     "title": "Chuyên đề: Triển khai, 4 loại hình bảo trì & Văn hóa DevOps (Xuất từ NotebookLM)",
-     "file": "data/cnpm/topics/trien_khai_bao_tri_va_van_hoa_devops_summary.md"
     }
    ],
    "ui_profile": "software_engineering"
@@ -577,33 +461,6 @@
      ]
     }
    ],
-   "topics": [
-    {
-     "id": "nhung_van_de_chung_tlh2",
-     "title": "Chuyên đề: Bản chất biện chứng của phát triển tâm lý & Vai trò của giáo dục (Xuất từ NotebookLM)",
-     "file": "data/tam_ly_hoc_2/topics/nhung_van_de_chung_tlh2_summary.md"
-    },
-    {
-     "id": "tam_ly_hoc_truoc_tuoi_hoc",
-     "title": "Chuyên đề: Tâm lý học trẻ em trước tuổi học - Khủng hoảng tuổi lên 3 & Bước ngoặt 6 tuổi (Xuất từ NotebookLM)",
-     "file": "data/tam_ly_hoc_2/topics/tam_ly_hoc_truoc_tuoi_hoc_summary.md"
-    },
-    {
-     "id": "tam_ly_hoc_tuoi_di_hoc",
-     "title": "Chuyên đề: Tâm lý học lứa tuổi đi học - Nhi đồng, Thiếu niên và Đầu thanh niên (Xuất từ NotebookLM)",
-     "file": "data/tam_ly_hoc_2/topics/tam_ly_hoc_tuoi_di_hoc_summary.md"
-    },
-    {
-     "id": "tam_ly_hoc_day_hoc",
-     "title": "Chuyên đề: Bản chất hoạt động dạy học & Cơ chế phát triển trí tuệ theo Davydov (Xuất từ NotebookLM)",
-     "file": "data/tam_ly_hoc_2/topics/tam_ly_hoc_day_hoc_summary.md"
-    },
-    {
-     "id": "tam_ly_hoc_nhan_cach_nguoi_giao_vien",
-     "title": "Chuyên đề: Cấu trúc nhân cách & Nghệ thuật xây dựng uy tín chân chính của người giáo viên (Xuất từ NotebookLM)",
-     "file": "data/tam_ly_hoc_2/topics/tam_ly_hoc_nhan_cach_nguoi_giao_vien_summary.md"
-    }
-   ],
    "ui_profile": "pedagogical_psychology"
   },
   {
@@ -612,8 +469,7 @@
    "title": "Giải Tích 1",
    "description": "Giới hạn, đạo hàm và ứng dụng. Học liệu đang được chuẩn bị.",
    "status": "coming_soon",
-   "books": [],
-   "topics": []
+   "books": []
   }
  ]
 }

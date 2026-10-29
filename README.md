@@ -104,13 +104,13 @@ Trợ lý học thuật giúp ôn thi và làm bài tập bám sát 100% đề c
 
 ## 4. Các Môn Học Đã Đưa Lên Semester Hub LMS (Active Courses)
 
-| STT | Mã môn | Tên môn học | Số chương | Trắc nghiệm | Trả lời ngắn | Tự luận | Chuyên đề NotebookLM | Bảng màu nhận diện |
+| STT | Mã môn | Tên môn học | Số chương | Trắc nghiệm | Trả lời ngắn | Tự luận | Tinh hoa lý thuyết | Bảng màu nhận diện |
 |:---:|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | **HQTCSDL** | Hệ Quản Trị Cơ Sở Dữ Liệu | 11 chương | 331 câu | 88 câu | 44 bài | 10 chuyên đề | Indigo - Cyan 🗄️ |
-| 2 | **CNXHKH** | Chủ Nghĩa Xã Hội Khoa Học | 7 chương | 210 câu | 56 câu | 28 bài | 7 chuyên đề | Rose - Amber 🏛️ |
-| 3 | **CNPM** | Công Nghệ Phần Mềm | 5 chương | 150 câu | 40 câu | 20 bài | 5 chuyên đề | Violet - Emerald ⚙️ |
-| 4 | **TLH2** | Tâm Lý Học 2 (Lứa Tuổi & Sư Phạm) | 5 chương | 150 câu | 40 câu | 20 bài | 5 chuyên đề | Teal - Coral 🧠 |
-| **Tổng cộng** | | | **28 chương** | **841 câu** | **224 câu** | **112 bài** | **27 chuyên đề** | **Chuẩn hóa Modern Bento** |
+| 1 | **HQTCSDL** | Hệ Quản Trị Cơ Sở Dữ Liệu | 11 chương | 331 câu | 88 câu | 44 bài | Tích hợp vào 11 chương | Indigo - Cyan 🗄️ |
+| 2 | **CNXHKH** | Chủ Nghĩa Xã Hội Khoa Học | 7 chương | 210 câu | 56 câu | 28 bài | Tích hợp vào 7 chương | Rose - Amber 🏛️ |
+| 3 | **CNPM** | Công Nghệ Phần Mềm | 5 chương | 150 câu | 40 câu | 20 bài | Tích hợp vào 5 chương | Violet - Emerald ⚙️ |
+| 4 | **TLH2** | Tâm Lý Học 2 (Lứa Tuổi & Sư Phạm) | 5 chương | 150 câu | 40 câu | 20 bài | Tích hợp vào 5 chương | Teal - Coral 🧠 |
+| **Tổng cộng** | | | **28 chương** | **841 câu** | **224 câu** | **112 bài** | **Toàn diện 100%** | **Chuẩn hóa Modern Bento** |
 
 ---
 

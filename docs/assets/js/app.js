@@ -426,12 +426,6 @@
     return await res.json();
   }
 
-  async function loadTopic(courseId, topicFile) {
-    const res = await fetch(`data/${courseId}/topics/${topicFile}`);
-    if (!res.ok) throw new Error(`Không tìm thấy chuyên đề: ${topicFile}`);
-    return await res.text();
-  }
-
   // =========================================================================
   // VIEW 1: HOME PORTAL (#/) - Modern Bento Hub
   // =========================================================================
@@ -673,37 +667,6 @@
     const circumference = 2 * Math.PI * radius;
     const strokeDashoffset = circumference - (percent / 100) * circumference;
 
-    // Topics / Chuyên đề tổng hợp Section (if any)
-    let topicsHtml = '';
-    if (course.topics && course.topics.length > 0) {
-      const topicsList = course.topics.map((t) => `
-        <div class="card hover:border-indigo-400 flex flex-col justify-between">
-          <div>
-            <div class="flex items-center justify-between mb-2">
-              <span class="badge badge-primary">Chuyên đề tổng hợp</span>
-              <span class="text-xs text-muted font-mono">NotebookLM</span>
-            </div>
-            <h4 class="text-base font-bold mb-2">${escapeHtml(t.title)}</h4>
-            <p class="text-xs text-muted line-clamp-2 mb-4">${escapeHtml(t.summary)}</p>
-          </div>
-          <a href="#/course/${course.id}/topic/${t.id}" class="btn btn-outline btn-sm w-full">
-            📖 Đọc Chuyên Đề →
-          </a>
-        </div>
-      `).join('');
-
-      topicsHtml = `
-        <div class="mb-8">
-          <h3 class="text-lg font-bold mb-3 flex items-center gap-2">
-            <span>📌</span> Chuyên Đề Tổng Hợp &amp; Tinh Hoa Kiến Thức
-          </h3>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            ${topicsList}
-          </div>
-        </div>
-      `;
-    }
-
     // Chapters Grouping
     const booksHtml = (course.books || []).map((book) => {
       const chaptersHtml = (book.chapters || []).map((ch) => {
@@ -820,65 +783,6 @@
         </div>
       </div>
     `;
-  }
-
-  // =========================================================================
-  // VIEW 3: TOPIC VIEWER (#/course/:course_id/topic/:topic_id)
-  // =========================================================================
-  async function renderTopicViewer(courseId, topicId) {
-    const course = state.manifest.courses.find((c) => c.id === courseId);
-    if (!course) {
-      appEl.innerHTML = `<div class="card text-center py-8"><p class="text-danger-text">Không tìm thấy môn học: ${escapeHtml(courseId)}</p></div>`;
-      return;
-    }
-
-    applyCourseTheme(course);
-    const topic = (course.topics || []).find((t) => t.id === topicId);
-    if (!topic) {
-      appEl.innerHTML = `<div class="card text-center py-8"><p class="text-danger-text">Không tìm thấy chuyên đề: ${escapeHtml(topicId)}</p><a href="#/course/${courseId}" class="btn btn-primary mt-4">Về môn học</a></div>`;
-      return;
-    }
-
-    appEl.innerHTML = `<div class="loading"><span class="spinner"></span> Đang tải chuyên đề tổng hợp...</div>`;
-
-    try {
-      const mdContent = await loadTopic(courseId, topic.file);
-      const html = renderMarkdown(mdContent);
-
-      appEl.innerHTML = `
-        <div class="py-2">
-          <nav class="breadcrumb" aria-label="Breadcrumb">
-            <a href="#/">Trang chủ</a>
-            <span class="sep">/</span>
-            <a href="#/course/${course.id}">${escapeHtml(course.title)}</a>
-            <span class="sep">/</span>
-            <span class="current">${escapeHtml(topic.title)}</span>
-          </nav>
-
-          <div class="card mb-6">
-            <div class="flex items-center justify-between mb-2">
-              <span class="badge badge-primary">Chuyên đề tổng hợp</span>
-              <a href="#/course/${course.id}" class="text-xs text-muted hover:text-main">← Quay lại môn học</a>
-            </div>
-            <h1 class="text-2xl font-extrabold mb-2">${escapeHtml(topic.title)}</h1>
-            <p class="text-xs text-muted">${escapeHtml(topic.summary)}</p>
-          </div>
-
-          <div class="card prose max-w-4xl mx-auto" id="topic-prose">
-            ${html}
-          </div>
-        </div>
-      `;
-
-      renderMathAndDiagrams(document.getElementById('topic-prose'));
-    } catch (err) {
-      appEl.innerHTML = `
-        <div class="card text-center py-8">
-          <p class="text-danger-text mb-3">Lỗi tải chuyên đề: ${escapeHtml(err.message)}</p>
-          <a href="#/course/${courseId}" class="btn btn-primary">Quay lại môn học</a>
-        </div>
-      `;
-    }
   }
 
   // =========================================================================
@@ -1857,16 +1761,6 @@
       const chapterId = chMatch[2];
       const subTab = chMatch[3] || 'theory';
       await renderChapterWorkspace(courseId, chapterId, subTab);
-      return;
-    }
-
-    // Route: #/course/:course_id/topic/:topic_id
-    const topicMatch = hash.match(/^#\/course\/([a-zA-Z0-9_]+)\/topic\/([a-zA-Z0-9_]+)$/);
-    if (topicMatch) {
-      const courseId = topicMatch[1];
-      const topicId = topicMatch[2];
-      await renderTopicViewer(courseId, topicId);
-      window.scrollTo(0, 0);
       return;
     }
 

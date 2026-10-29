@@ -222,12 +222,12 @@ def audit_static_server():
         "data/cnpm/chuong_1_theory.md",
         "data/cnpm/chuong_5_exercises.json",
         "data/cnpm/chuong_5_theory.md",
-        "data/cnpm/topics/tong_quan_cnpm_va_ky_nghe_he_thong_summary.md",
+        "data/he_qtcsdl/q2_chuong_5_theory.md",
         "data/tam_ly_hoc_2/chuong_1_exercises.json",
         "data/tam_ly_hoc_2/chuong_1_theory.md",
         "data/tam_ly_hoc_2/chuong_5_exercises.json",
         "data/tam_ly_hoc_2/chuong_5_theory.md",
-        "data/tam_ly_hoc_2/topics/nhung_van_de_chung_tlh2_summary.md",
+        "data/cnxhkh/chuong_7_theory.md",
         ".nojekyll"
     ]
 
