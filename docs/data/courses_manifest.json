@@ -181,24 +181,24 @@
    "id": "cnxhkh",
    "code": "CNXHKH",
    "title": "Chủ Nghĩa Xã Hội Khoa Học",
-   "description": "Giáo trình chuẩn Bộ GD&ĐT: Sứ mệnh lịch sử giai cấp công nhân, CNXH và thời kỳ quá độ, dân chủ & nhà nước XHCN, cơ cấu giai cấp, dân tộc, tôn giáo và gia đình.",
+   "description": "Giáo trình chuẩn Bộ GD&ĐT (2021): Lý thuyết ghi nhớ Cornell, sứ mệnh lịch sử GCCN, CNXH và thời kỳ quá độ, dân chủ & nhà nước XHCN, cơ cấu giai cấp, dân tộc, tôn giáo và gia đình.",
    "status": "active",
    "books": [
     {
      "id": "giao_trinh_chuan",
-     "title": "Giáo trình Chủ nghĩa xã hội khoa học (Bộ GD&ĐT - NXB Chính trị quốc gia Sự thật)",
+     "title": "Giáo trình Chủ nghĩa xã hội khoa học (Bộ GD&ĐT - NXB Chính trị quốc gia Sự thật, 2021)",
      "chapters": [
       {
        "id": "chuong_1",
        "number": 1,
        "title": "Nhập môn Chủ nghĩa xã hội khoa học",
        "full_title": "Chương 1: Nhập môn Chủ nghĩa xã hội khoa học",
-       "summary": "Điều kiện kinh tế - xã hội, ba tiền đề KHTN và lý luận, ba phát kiến vĩ đại của Mác - Ăngghen, cống hiến của Lênin.",
+       "summary": "Ghi chú Cornell: Hoàn cảnh lịch sử, tiền đề KHTN & tư tưởng lý luận, 3 phát kiến vĩ đại của Mác - Ăngghen, các giai đoạn phát triển, đối tượng, phương pháp và ý nghĩa.",
        "theory": "data/cnxhkh/chuong_1_theory.md",
        "exercises": "data/cnxhkh/chuong_1_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
+        "multiple_choice": 35,
+        "short_answers": 20,
         "essays": 4
        }
       },
@@ -207,12 +207,12 @@
        "number": 2,
        "title": "Sứ mệnh lịch sử của giai cấp công nhân",
        "full_title": "Chương 2: Sứ mệnh lịch sử của giai cấp công nhân",
-       "summary": "Khái niệm, hai phương diện xác định GCCN, nội dung kinh tế - chính trị - tư tưởng, điều kiện khách quan, nhân tố chủ quan và GCCN Việt Nam.",
+       "summary": "Ghi chú Cornell: Hai phương diện xác định GCCN, nội dung SMLS, điều kiện khách quan & chủ quan, GCCN hiện nay và SMLS của GCCN Việt Nam (Đại hội XIII).",
        "theory": "data/cnxhkh/chuong_2_theory.md",
        "exercises": "data/cnxhkh/chuong_2_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
+        "multiple_choice": 35,
+        "short_answers": 20,
         "essays": 4
        }
       },
@@ -221,12 +221,12 @@
        "number": 3,
        "title": "Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
        "full_title": "Chương 3: Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
-       "summary": "Hai giai đoạn hình thái CSCN, đặc trưng CNXH, tính tất yếu thời kỳ quá độ, con đường quá độ bỏ qua chế độ TBCN và 8 đặc trưng ở Việt Nam.",
+       "summary": "Ghi chú Cornell: Giai đoạn đầu hình thái KT-XH CSCN, 6 đặc trưng CNXH, thời kỳ quá độ, quá độ bỏ qua TBCN, 8 đặc trưng và 12 định hướng phát triển đất nước (2021-2030).",
        "theory": "data/cnxhkh/chuong_3_theory.md",
        "exercises": "data/cnxhkh/chuong_3_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
+        "multiple_choice": 35,
+        "short_answers": 20,
         "essays": 4
        }
       },
@@ -235,26 +235,26 @@
        "number": 4,
        "title": "Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
        "full_title": "Chương 4: Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
-       "summary": "Lịch sử các nền dân chủ, bản chất dân chủ XHCN, chức năng nhà nước XHCN, mối quan hệ biện chứng và Nhà nước pháp quyền XHCN Việt Nam.",
+       "summary": "Ghi chú Cornell: Quan niệm và lịch sử dân chủ, bản chất dân chủ XHCN, chức năng Nhà nước XHCN, dân chủ XHCN và Nhà nước pháp quyền XHCN ở Việt Nam.",
        "theory": "data/cnxhkh/chuong_4_theory.md",
        "exercises": "data/cnxhkh/chuong_4_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
+        "multiple_choice": 35,
+        "short_answers": 20,
         "essays": 4
        }
       },
       {
        "id": "chuong_5",
        "number": 5,
-       "title": "Cơ cấu xã hội - giai cấp và liên minh giai cấp, tầng lớp trong thời kỳ quá độ",
-       "full_title": "Chương 5: Cơ cấu xã hội - giai cấp và liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên CNXH",
-       "summary": "Vị trí trung tâm cơ cấu giai cấp, tính tất yếu liên minh, 3 nội dung liên minh (kinh tế, chính trị, văn hóa) và đặc điểm liên minh ở Việt Nam.",
+       "title": "Cơ cấu xã hội - giai cấp và liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+       "full_title": "Chương 5: Cơ cấu xã hội - giai cấp và liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội",
+       "summary": "Ghi chú Cornell: Khái niệm, vị trí và sự biến đổi có tính quy luật của cơ cấu XH - GC, tính tất yếu liên minh, và nội dung liên minh giai cấp, tầng lớp ở Việt Nam.",
        "theory": "data/cnxhkh/chuong_5_theory.md",
        "exercises": "data/cnxhkh/chuong_5_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
+        "multiple_choice": 35,
+        "short_answers": 20,
         "essays": 4
        }
       },
@@ -263,12 +263,12 @@
        "number": 6,
        "title": "Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
        "full_title": "Chương 6: Vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội",
-       "summary": "Hai xu hướng phát triển dân tộc, Cương lĩnh dân tộc Lênin, bản chất & nguồn gốc tôn giáo, chính sách dân tộc và tôn giáo ở Việt Nam.",
+       "summary": "Ghi chú Cornell: Hai xu hướng dân tộc, Cương lĩnh dân tộc Lênin, đặc điểm dân tộc Việt Nam, bản chất - nguồn gốc - tính chất tôn giáo, và quan hệ dân tộc - tôn giáo ở Việt Nam.",
        "theory": "data/cnxhkh/chuong_6_theory.md",
        "exercises": "data/cnxhkh/chuong_6_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
+        "multiple_choice": 35,
+        "short_answers": 20,
         "essays": 4
        }
       },
@@ -277,12 +277,12 @@
        "number": 7,
        "title": "Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
        "full_title": "Chương 7: Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội",
-       "summary": "Khái niệm, vị trí, 4 chức năng cơ bản của gia đình, cơ sở xây dựng gia đình XHCN, chế độ hôn nhân tiến bộ và biến đổi gia đình Việt Nam.",
+       "summary": "Ghi chú Cornell: Khái niệm, vị trí và 4 chức năng cơ bản của gia đình, cơ sở xây dựng gia đình trong thời kỳ quá độ, biến đổi và phương hướng xây dựng gia đình Việt Nam.",
        "theory": "data/cnxhkh/chuong_7_theory.md",
        "exercises": "data/cnxhkh/chuong_7_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
+        "multiple_choice": 35,
+        "short_answers": 20,
         "essays": 4
        }
       }

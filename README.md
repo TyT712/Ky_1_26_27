@@ -100,12 +100,12 @@ Trợ lý học thuật giúp ôn thi và làm bài tập bám sát 100% đề c
 | STT | Mã môn | Tên môn học | Số chương | Trắc nghiệm | Trả lời ngắn | Tự luận | Tinh hoa lý thuyết | Bảng màu nhận diện |
 |:---:|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | **HQTCSDL** | Hệ Quản Trị Cơ Sở Dữ Liệu | 11 chương | 331 câu | 88 câu | 44 bài | Tích hợp vào 11 chương | Indigo - Cyan 🗄️ |
-| 2 | **CNXHKH** | Chủ Nghĩa Xã Hội Khoa Học | 7 chương | 210 câu | 56 câu | 28 bài | Tích hợp vào 7 chương | Rose - Amber 🏛️ |
+| 2 | **CNXHKH** | Chủ Nghĩa Xã Hội Khoa Học (Bộ GD&ĐT 2021) | 7 chương | 245 câu | 140 câu | 28 bài | Ghi chép chuẩn Cornell | Rose - Amber 🏛️ |
 | 3 | **CNPM** | Công Nghệ Phần Mềm | 5 chương | 150 câu | 40 câu | 20 bài | Tích hợp vào 5 chương | Violet - Emerald ⚙️ |
 | 4 | **TLH2** | Tâm Lý Học 2 (Lứa Tuổi & Sư Phạm) | 5 chương | 150 câu | 40 câu | 20 bài | Tích hợp vào 5 chương | Teal - Coral 🧠 |
 | 5 | **TLHTT** | Tâm Lý Học Trí Tuệ (Phan Trọng Ngọ) | 7 chương | 700 câu | 56 câu | 28 bài | Ghi chép chuẩn Cornell | Fuchsia - Sky 💡 |
 | 6 | **GDH1** | Giáo Dục Học 1 (ĐHSP Huế) | 5 chương | 150 câu | 40 câu | 20 bài | Ghi chép chuẩn Cornell | Emerald - Sky 🏫 |
-| **Tổng cộng** | | | **40 chương** | **1.691 câu** | **320 câu** | **160 bài** | **Toàn diện 100%** | **Chuẩn hóa Modern Bento** |
+| **Tổng cộng** | | | **40 chương** | **1.726 câu** | **404 câu** | **160 bài** | **Toàn diện 100%** | **Chuẩn hóa Modern Bento** |
 
 ---
 

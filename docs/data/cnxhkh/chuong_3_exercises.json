@@ -1,489 +1,630 @@
 {
- "chapter_id": "chuong_3",
- "chapter_title": "Chương 3: Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
- "multiple_choice": [
-  {
-   "id": 1,
-   "difficulty": "easy",
-   "question": "Hình thái kinh tế - xã hội cộng sản chủ nghĩa phát triển qua mấy giai đoạn cơ bản?",
-   "options": {
-    "A": "Một giai đoạn",
-    "B": "Hai giai đoạn (thấp và cao)",
-    "C": "Ba giai đoạn",
-    "D": "Bốn giai đoạn"
-   },
-   "correct_answer": "B",
-   "explanation": "Hình thái KT-XH cộng sản chủ nghĩa gồm 2 giai đoạn: Giai đoạn thấp (Chủ nghĩa xã hội) và Giai đoạn cao (Chủ nghĩa cộng sản)."
-  },
-  {
-   "id": 2,
-   "difficulty": "easy",
-   "question": "Nguyên tắc phân phối cơ bản và chủ đạo trong giai đoạn Chủ nghĩa xã hội là gì?",
-   "options": {
-    "A": "Làm theo năng lực, hưởng theo nhu cầu",
-    "B": "Làm theo năng lực, hưởng theo lao động",
-    "C": "Phân phối bình quân cào bằng",
-    "D": "Phân phối hoàn toàn theo vốn đóng góp"
-   },
-   "correct_answer": "B",
-   "explanation": "Trong CNXH, phân phối theo lao động là nguyên tắc chủ đạo: ai làm nhiều hưởng nhiều, làm ít hưởng ít, có sức lao động mà không làm thì không hưởng."
-  },
-  {
-   "id": 3,
-   "difficulty": "easy",
-   "question": "Nguyên tắc phân phối: 'Làm theo năng lực, hưởng theo nhu cầu' được thực hiện ở giai đoạn nào?",
-   "options": {
-    "A": "Thời kỳ quá độ",
-    "B": "Giai đoạn thấp (Chủ nghĩa xã hội)",
-    "C": "Giai đoạn cao (Chủ nghĩa cộng sản)",
-    "D": "Thời kỳ chủ nghĩa tư bản phát triển"
-   },
-   "correct_answer": "C",
-   "explanation": "Khi sức sản xuất đạt tới trình độ cực kỳ dồi dào, của cải tuôn ra dạt dào thì xã hội thực hiện nguyên tắc 'làm theo năng lực, hưởng theo nhu cầu'."
-  },
-  {
-   "id": 4,
-   "difficulty": "easy",
-   "question": "Về mặt kinh tế, cơ sở vật chất - kỹ thuật của chủ nghĩa xã hội là gì?",
-   "options": {
-    "A": "Nền sản xuất nông nghiệp thủ công",
-    "B": "Nền đại công nghiệp cơ khí với lực lượng sản xuất hiện đại",
-    "C": "Các xưởng thủ công nhỏ lẻ",
-    "D": "Kinh tế săn bắt hái lượm"
-   },
-   "correct_answer": "B",
-   "explanation": "Cơ sở vật chất - kỹ thuật của CNXH là nền đại công nghiệp hiện đại có trình độ xã hội hóa cao độ."
-  },
-  {
-   "id": 5,
-   "difficulty": "easy",
-   "question": "Chủ nghĩa xã hội thiết lập chế độ sở hữu nào đối với các tư liệu sản xuất chủ yếu?",
-   "options": {
-    "A": "Chế độ sở hữu tư nhân tuyệt đối",
-    "B": "Chế độ sở hữu công cộng (công hữu)",
-    "C": "Chế độ sở hữu phong kiến lãnh địa",
-    "D": "Chế độ tư hữu độc quyền"
-   },
-   "correct_answer": "B",
-   "explanation": "CNXH xóa bỏ chế độ chiếm hữu tư nhân TBCN và thiết lập chế độ công hữu về các TLSX chủ yếu."
-  },
-  {
-   "id": 6,
-   "difficulty": "easy",
-   "question": "Đặc điểm xuyên suốt và bao quát nhất của thời kỳ quá độ lên chủ nghĩa xã hội là gì?",
-   "options": {
-    "A": "Sự thống trị tuyệt đối và duy nhất của phương thức sản xuất cộng sản chủ nghĩa",
-    "B": "Sự tồn tại đan xen và đấu tranh gay gắt giữa những nhân tố của xã hội mới và những tàn dư của xã hội cũ",
-    "C": "Xã hội đã hoàn toàn không còn giai cấp",
-    "D": "Nhà nước đã hoàn toàn tiêu vong"
-   },
-   "correct_answer": "B",
-   "explanation": "Thời kỳ quá độ là thời kỳ đan xen phức tạp giữa cái mới XHCN đang hình thành và cái cũ TBCN/phong kiến còn tồn tại trên mọi lĩnh vực."
-  },
-  {
-   "id": 7,
-   "difficulty": "easy",
-   "question": "Có mấy hình thức quá độ lên chủ nghĩa xã hội trong lịch sử?",
-   "options": {
-    "A": "Một hình thức duy nhất",
-    "B": "Hai hình thức (quá độ trực tiếp và quá độ gián tiếp)",
-    "C": "Ba hình thức",
-    "D": "Bốn hình thức"
-   },
-   "correct_answer": "B",
-   "explanation": "Quá độ trực tiếp (từ các nước TBCN phát triển cao) và Quá độ gián tiếp (từ các nước tiền tư bản hoặc nông nghiệp lạc hậu bỏ qua chế độ TBCN)."
-  },
-  {
-   "id": 8,
-   "difficulty": "easy",
-   "question": "Việt Nam tiến lên chủ nghĩa xã hội theo hình thức quá độ nào?",
-   "options": {
-    "A": "Quá độ trực tiếp từ chủ nghĩa tư bản phát triển cao",
-    "B": "Quá độ gián tiếp, bỏ qua chế độ tư bản chủ nghĩa",
-    "C": "Không qua thời kỳ quá độ",
-    "D": "Quá độ thông qua xâm chiếm thuộc địa"
-   },
-   "correct_answer": "B",
-   "explanation": "Việt Nam quá độ lên CNXH từ một nước thuộc địa nửa phong kiến, nông nghiệp lạc hậu, bỏ qua giai đoạn phát triển TBCN."
-  },
-  {
-   "id": 9,
-   "difficulty": "easy",
-   "question": "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên CNXH (bổ sung, phát triển năm 2011) xác định mô hình CNXH ở nước ta có bao nhiêu đặc trưng?",
-   "options": {
-    "A": "6 đặc trưng",
-    "B": "7 đặc trưng",
-    "C": "8 đặc trưng",
-    "D": "10 đặc trưng"
-   },
-   "correct_answer": "C",
-   "explanation": "Cương lĩnh 2011 của Đảng đã khái quát 8 đặc trưng của xã hội xã hội chủ nghĩa mà nhân dân ta đang xây dựng."
-  },
-  {
-   "id": 10,
-   "difficulty": "easy",
-   "question": "Đặc trưng bao trùm, tổng quát đầu tiên của mô hình CNXH ở Việt Nam được nêu trong Cương lĩnh 2011 là:",
-   "options": {
-    "A": "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh",
-    "B": "Có nền văn hóa tiên tiến, đậm đà bản sắc dân tộc",
-    "C": "Do nhân dân làm chủ",
-    "D": "Có quan hệ hữu nghị với các nước"
-   },
-   "correct_answer": "A",
-   "explanation": "Đặc trưng đầu tiên phản ánh mục tiêu tổng quát: 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh'."
-  },
-  {
-   "id": 11,
-   "difficulty": "medium",
-   "question": "Nội hàm khoa học của khái niệm 'quá độ lên CNXH bỏ qua chế độ tư bản chủ nghĩa' ở Việt Nam được Đảng ta xác định là:",
-   "options": {
-    "A": "Bỏ qua toàn bộ mọi thành tựu văn minh mà nhân loại đạt được dưới CNTB",
-    "B": "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa",
-    "C": "Không buôn bán giao thương với các nước tư bản phương Tây",
-    "D": "Tịch thu toàn bộ tài sản tư nhân ngay lập tức"
-   },
-   "correct_answer": "B",
-   "explanation": "Bỏ qua vị trí thống trị của QHSX và kiến trúc thượng tầng TBCN, nhưng kế thừa có chọn lọc các thành tựu khoa học công nghệ, quản trị hiện đại của nhân loại."
-  },
-  {
-   "id": 12,
-   "difficulty": "medium",
-   "question": "Trong thời kỳ quá độ lên CNXH ở nước ta, nền kinh tế có đặc điểm gì nổi bật?",
-   "options": {
-    "A": "Kinh tế hiện vật khép kín",
-    "B": "Nền kinh tế thị trường định hướng xã hội chủ nghĩa với nhiều thành phần kinh tế và nhiều hình thức sở hữu",
-    "C": "Chỉ có một thành phần kinh tế nhà nước duy nhất",
-    "D": "Kinh tế tư nhân hoàn toàn tự do thả nổi theo kiểu tư bản hoang dã"
-   },
-   "correct_answer": "B",
-   "explanation": "Nền kinh tế thị trường định hướng XHCN bao gồm nhiều thành phần kinh tế: kinh tế nhà nước, tập thể, tư nhân, có vốn đầu tư nước ngoài."
-  },
-  {
-   "id": 13,
-   "difficulty": "medium",
-   "question": "Thành phần kinh tế nào giữ vai trò chủ đạo trong nền kinh tế thị trường định hướng XHCN ở Việt Nam?",
-   "options": {
-    "A": "Kinh tế có vốn đầu tư nước ngoài (FDI)",
-    "B": "Kinh tế tư nhân",
-    "C": "Kinh tế nhà nước",
-    "D": "Kinh tế cá thể hộ gia đình"
-   },
-   "correct_answer": "C",
-   "explanation": "Kinh tế nhà nước giữ vai trò chủ đạo, là công cụ định hướng và điều tiết vĩ mô nền kinh tế theo định hướng XHCN."
-  },
-  {
-   "id": 14,
-   "difficulty": "medium",
-   "question": "Thành phần kinh tế nào được xác định là 'một động lực quan trọng' của nền kinh tế thị trường định hướng XHCN ở nước ta?",
-   "options": {
-    "A": "Kinh tế nhà nước",
-    "B": "Kinh tế tư nhân",
-    "C": "Kinh tế tập thể",
-    "D": "Kinh tế tự cung tự cấp"
-   },
-   "correct_answer": "B",
-   "explanation": "Nghị quyết Trung ương 5 khóa XII của Đảng khẳng định phát triển kinh tế tư nhân lành mạnh là một động lực quan trọng của nền kinh tế."
-  },
-  {
-   "id": 15,
-   "difficulty": "medium",
-   "question": "Về mặt chính trị trong thời kỳ quá độ lên CNXH, nhà nước mang bản chất của giai cấp nào?",
-   "options": {
-    "A": "Giai cấp tư sản",
-    "B": "Giai cấp phong kiến",
-    "C": "Giai cấp công nhân",
-    "D": "Tầng lớp tiểu tư sản trí thức"
-   },
-   "correct_answer": "C",
-   "explanation": "Nhà nước thời kỳ quá độ là nhà nước chuyên chính vô sản / nhà nước XHCN mang bản chất giai cấp công nhân, đại biểu quyền làm chủ của nhân dân."
-  },
-  {
-   "id": 16,
-   "difficulty": "medium",
-   "question": "Nguyên nhân căn bản và sâu xa dẫn đến sự sụp đổ của mô hình CNXH ở Liên Xô và Đông Âu là gì?",
-   "options": {
-    "A": "Do học thuyết Mác - Lênin sai lầm",
-    "B": "Do duy trì quá lâu mô hình kế hoạch hóa tập trung quan liêu bao cấp, giáo điều, chậm đổi mới và sai lầm nghiêm trọng trong đường lối cải tổ",
-    "C": "Do chi viện quá nhiều cho các nước đang phát triển",
-    "D": "Do thiên tai động đất kéo dài"
-   },
-   "correct_answer": "B",
-   "explanation": "Mô hình quan liêu bao cấp kìm hãm động lực kinh tế; khi cải tổ thì xa rời nguyên tắc Mác - Lênin, phản bội lý tưởng dẫn đến sụp đổ."
-  },
-  {
-   "id": 17,
-   "difficulty": "medium",
-   "question": "Đại hội lần thứ mấy của Đảng Cộng sản Việt Nam đã đưa ra khái niệm 'Kinh tế thị trường định hướng xã hội chủ nghĩa'?",
-   "options": {
-    "A": "Đại hội VI (1986)",
-    "B": "Đại hội VII (1991)",
-    "C": "Đại hội IX (2001)",
-    "D": "Đại hội XII (2016)"
-   },
-   "correct_answer": "C",
-   "explanation": "Tại Đại hội IX (năm 2001), Đảng ta chính thức khẳng định phát triển kinh tế thị trường định hướng XHCN là mô hình kinh tế tổng quát trong thời kỳ quá độ."
-  },
-  {
-   "id": 18,
-   "difficulty": "medium",
-   "question": "Trong thời kỳ quá độ lên CNXH, trên lĩnh vực tư tưởng - văn hóa diễn ra cuộc đấu tranh giữa:",
-   "options": {
-    "A": "Các trường phái văn học cổ điển",
-    "B": "Hệ tư tưởng Mác - Lênin với các tàn dư tư tưởng phong kiến, tư sản và các quan điểm sai trái thù địch",
-    "C": "Ngôn ngữ địa phương và ngôn ngữ quốc tế",
-    "D": "Văn hóa nghệ thuật truyền thống và âm nhạc hiện đại"
-   },
-   "correct_answer": "B",
-   "explanation": "Xác lập vị trí chủ đạo của hệ tư tưởng cách mạng Mác - Lênin, loại trừ các hủ tục, thói hư tật xấu và đấu tranh chống diễn biến hòa bình."
-  },
-  {
-   "id": 19,
-   "difficulty": "medium",
-   "question": "Mục tiêu cơ bản của thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam là gì?",
-   "options": {
-    "A": "Đưa nước ta trở thành quốc gia phát triển, có thu nhập cao theo định hướng xã hội chủ nghĩa",
-    "B": "Đạt GDP tương đương các cường quốc hạt nhân",
-    "C": "Khôi phục lại chế độ quân chủ lập hiến",
-    "D": "Mở rộng lãnh thổ ra bên ngoài"
-   },
-   "correct_answer": "A",
-   "explanation": "Mục tiêu đến giữa thế kỷ XXI nước ta trở thành nước phát triển, theo định hướng XHCN, vì hạnh phúc của nhân dân."
-  },
-  {
-   "id": 20,
-   "difficulty": "medium",
-   "question": "Yếu tố nào đóng vai trò là động lực chủ yếu để phát triển đất nước trong thời kỳ quá độ lên CNXH ở Việt Nam?",
-   "options": {
-    "A": "Vay nợ nước ngoài lãi suất thấp",
-    "B": "Đại đoàn kết toàn dân tộc trên nền tảng liên minh công - nông - trí thức dưới sự lãnh đạo của Đảng",
-    "C": "Khai thác tối đa tài nguyên dầu khí",
-    "D": "Phân chia lại đất đai hàng năm"
-   },
-   "correct_answer": "B",
-   "explanation": "Khối đại đoàn kết toàn dân tộc là nguồn sức mạnh nội sinh vô địch thúc đẩy công cuộc đổi mới và phát triển đất nước."
-  },
-  {
-   "id": 21,
-   "difficulty": "hard",
-   "question": "Tính tất yếu lịch sử của thời kỳ quá độ lên chủ nghĩa xã hội bắt nguồn sâu xa từ:",
-   "options": {
-    "A": "Ý muốn chủ quan của những người lãnh đạo Đảng",
-    "B": "Sự khác biệt căn bản về chất giữa phương thức sản xuất XHCN (dựa trên công hữu) và các phương thức sản xuất tư hữu trước đó đòi hỏi một quá trình cải tạo, xây dựng lâu dài",
-    "C": "Yêu cầu của Liên hợp quốc",
-    "D": "Áp lực cạnh tranh quân sự thời chiến tranh lạnh"
-   },
-   "correct_answer": "B",
-   "explanation": "Xóa bỏ chế độ tư hữu hàng nghìn năm, xây dựng nền văn hóa và lối sống mới đòi hỏi thời gian, không thể thực hiện bằng sắc lệnh hành chính thuần túy."
-  },
-  {
-   "id": 22,
-   "difficulty": "hard",
-   "question": "C.Mác đã sử dụng hình tượng nào để mô tả xã hội trong giai đoạn đầu của chủ nghĩa xã hội?",
-   "options": {
-    "A": "Một lâu đài nguy nga lộng lẫy không tì vết",
-    "B": "Một xã hội vừa mới thoát thai từ xã hội tư bản, về mọi phương diện - kinh tế, đạo đức, tinh thần - còn mang những vết tích của xã hội cũ",
-    "C": "Một hoang mạc cần được khai phá",
-    "D": "Một khu rừng nhiệt đới nguyên sinh"
-   },
-   "correct_answer": "B",
-   "explanation": "Trong 'Phê phán Cương lĩnh Gôta', Mác nhấn mạnh CNXH chưa thể hoàn hảo ngay mà còn mang dấu vết của xã hội cũ nơi nó sinh ra."
-  },
-  {
-   "id": 23,
-   "difficulty": "hard",
-   "question": "Nội dung nào sau đây thể hiện tính chất biện chứng trong quan niệm của Đảng ta về việc 'kế thừa' khi bỏ qua chế độ TBCN?",
-   "options": {
-    "A": "Sao chép nguyên bản mô hình quản lý của các nước tư bản",
-    "B": "Tiếp thu những thành tựu của nhân loại về lực lượng sản xuất, khoa học công nghệ và kinh tế thị trường, nhưng kiên quyết loại bỏ bản chất bóc lột và áp bức bất công",
-    "C": "Chỉ tiếp thu công nghệ, từ chối mọi hoạt động thương mại",
-    "D": "Tuyệt đối không học tập bất cứ điều gì từ chủ nghĩa tư bản"
-   },
-   "correct_answer": "B",
-   "explanation": "Kế thừa có chọn lọc, đứng vững trên lập trường giai cấp công nhân để phục vụ mục tiêu xây dựng CNXH dân giàu nước mạnh."
-  },
-  {
-   "id": 24,
-   "difficulty": "hard",
-   "question": "Tại sao trong thời kỳ quá độ lên CNXH vẫn tồn tại nhiều hình thức phân phối thu nhập khác nhau?",
-   "options": {
-    "A": "Do pháp luật chưa hoàn thiện",
-    "B": "Do tồn tại nhiều hình thức sở hữu và nhiều thành phần kinh tế khác nhau",
-    "C": "Do nhà nước khuyến khích phân hóa giàu nghèo",
-    "D": "Do ảnh hưởng của phong tục tập quán cổ xưa"
-   },
-   "correct_answer": "B",
-   "explanation": "Cơ cấu kinh tế nhiều thành phần quy định sự tồn tại của nhiều hình thức phân phối: theo lao động, theo vốn góp, theo tài sản và qua phúc lợi xã hội."
-  },
-  {
-   "id": 25,
-   "difficulty": "hard",
-   "question": "Luận điểm: 'Thời kỳ quá độ là thời kỳ đấu tranh quyết liệt giữa chủ nghĩa tư bản đang hấp hối và chủ nghĩa cộng sản đang phát sinh' là của ai?",
-   "options": {
-    "A": "C.Mác",
-    "B": "Ph.Ăngghen",
-    "C": "V.I.Lênin",
-    "D": "Hồ Chí Minh"
-   },
-   "correct_answer": "C",
-   "explanation": "V.I.Lênin phát biểu luận điểm này để cảnh báo tính chất quyết liệt, phức tạp và lâu dài của cuộc đấu tranh trong thời kỳ quá độ."
-  },
-  {
-   "id": 26,
-   "difficulty": "hard",
-   "question": "Khái niệm 'Định hướng xã hội chủ nghĩa' trong phát triển kinh tế thị trường ở Việt Nam nhằm bảo đảm điều gì?",
-   "options": {
-    "A": "Kinh tế phát triển gắn liền với tiến bộ và công bằng xã hội ngay trong từng bước đi và từng chính sách phát triển",
-    "B": "Tập trung toàn bộ của cải vào tay một nhóm nhỏ tập đoàn tư bản",
-    "C": "Xóa bỏ quyền sở hữu tài sản hợp pháp của công dân",
-    "D": "Bao cấp toàn bộ giá cả các mặt hàng tiêu dùng"
-   },
-   "correct_answer": "A",
-   "explanation": "Không đánh đổi tiến bộ, công bằng xã hội và môi trường để chạy theo tăng trưởng kinh tế đơn thuần; mục tiêu vì con người."
-  },
-  {
-   "id": 27,
-   "difficulty": "hard",
-   "question": "Điểm đột phá lý luận của Đảng Cộng sản Việt Nam về con đường đi lên CNXH qua hơn 35 năm Đổi mới là:",
-   "options": {
-    "A": "Khẳng định kinh tế thị trường là sản phẩm riêng có của chủ nghĩa tư bản",
-    "B": "Khẳng định kinh tế thị trường không đồng nhất với CNTB, nó là thành tựu chung của văn minh nhân loại và hoàn toàn có thể phát triển dưới định hướng XHCN",
-    "C": "Từ bỏ mục tiêu tiến lên chủ nghĩa cộng sản",
-    "D": "Quay lại áp dụng chế độ tem phiếu"
-   },
-   "correct_answer": "B",
-   "explanation": "Kinh tế thị trường chỉ là phương thức phân bổ nguồn lực; sử dụng kinh tế thị trường để xây dựng cơ sở vật chất cho CNXH là bước phát triển lý luận xuất sắc."
-  },
-  {
-   "id": 28,
-   "difficulty": "hard",
-   "question": "Trong các đặc trưng của CNXH ở Việt Nam theo Cương lĩnh 2011, đặc trưng nào thể hiện bản chất chính trị của chế độ?",
-   "options": {
-    "A": "Do nhân dân làm chủ",
-    "B": "Có nền kinh tế phát triển cao",
-    "C": "Có nền văn hóa tiên tiến",
-    "D": "Có quan hệ hữu nghị với các nước"
-   },
-   "correct_answer": "A",
-   "explanation": "'Do nhân dân làm chủ' là đặc trưng bản chất chính trị cốt lõi, khẳng định quyền lực nhà nước thực sự thuộc về nhân dân."
-  },
-  {
-   "id": 29,
-   "difficulty": "hard",
-   "question": "Để bảo đảm thời kỳ quá độ lên CNXH thành công, nhiệm vụ trung tâm xuyên suốt là gì?",
-   "options": {
-    "A": "Phát triển văn hóa nghệ thuật thuần túy",
-    "B": "Phát triển kinh tế, đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước",
-    "C": "Tăng cường chi viện quân sự quốc tế",
-    "D": "Nhập khẩu hàng hóa tiêu dùng từ nước ngoài"
-   },
-   "correct_answer": "B",
-   "explanation": "Xây dựng cơ sở vật chất - kỹ thuật cho CNXH thông qua công nghiệp hóa, hiện đại hóa là nhiệm vụ trung tâm hàng đầu."
-  },
-  {
-   "id": 30,
-   "difficulty": "hard",
-   "question": "Trách nhiệm của công dân và sinh viên đối với công cuộc xây dựng chủ nghĩa xã hội ở Việt Nam hiện nay là:",
-   "options": {
-    "A": "Thờ ơ với các chủ trương chính sách của Đảng và Nhà nước",
-    "B": "Tích cực học tập, nghiên cứu khoa học, rèn luyện phẩm chất đạo đức, khởi nghiệp đổi mới sáng tạo và tham gia bảo vệ vững chắc Tổ quốc",
-    "C": "Lan truyền các thông tin chưa kiểm chứng trên mạng xã hội",
-    "D": "Chỉ quan tâm đến lợi ích cá nhân trước mắt"
-   },
-   "correct_answer": "B",
-   "explanation": "Sinh viên phát huy sức trẻ, tri thức và nhiệt huyết cách mạng để đóng góp vào mục tiêu xây dựng một nước Việt Nam thịnh vượng, hùng cường."
-  }
- ],
- "short_answers": [
-  {
-   "id": 1,
-   "question": "Trình bày sự khác nhau căn bản giữa hai giai đoạn của hình thái kinh tế - xã hội cộng sản chủ nghĩa.",
-   "expected_answer": "- **Giai đoạn thấp (Chủ nghĩa xã hội):** LLSX phát triển chưa đạt đỉnh cao, còn tàn dư xã hội cũ, thực hiện phân phối theo lao động: 'Làm theo năng lực, hưởng theo lao động'.\n- **Giai đoạn cao (Chủ nghĩa cộng sản):** LLSX dồi dào tột bậc, xóa bỏ hoàn toàn giai cấp, nhà nước tự tiêu vong, thực hiện phân phối: 'Làm theo năng lực, hưởng theo nhu cầu'.",
-   "explanation": "Được C.Mác luận chứng khoa học trong 'Phê phán Cương lĩnh Gôta'."
-  },
-  {
-   "id": 2,
-   "question": "Nêu 6 đặc trưng bản chất của chủ nghĩa xã hội theo quan điểm của chủ nghĩa Mác - Lênin.",
-   "expected_answer": "1. Giải phóng giai cấp, dân tộc, xã hội và con người.\n2. Kinh tế phát triển cao dựa trên LLSX hiện đại và chế độ công hữu TLSX chủ yếu.\n3. Xã hội do nhân dân lao động làm chủ.\n4. Nhà nước kiểu mới mang bản chất giai cấp công nhân.\n5. Nền văn hóa phát triển cao, kế thừa tinh hoa nhân loại.\n6. Bảo đảm bình đẳng, đoàn kết giữa các dân tộc và hòa bình quốc tế.",
-   "explanation": "Đúc kết từ giáo trình chuẩn của Bộ GD&ĐT."
-  },
-  {
-   "id": 3,
-   "question": "Phân biệt hai hình thức quá độ lên chủ nghĩa xã hội: Quá độ trực tiếp và Quá độ gián tiếp.",
-   "expected_answer": "- **Quá độ trực tiếp:** Từ các nước tư bản phát triển cao tiến thẳng lên CNXH sau khi cách mạng vô sản thắng lợi (chưa diễn ra trên thực tế).\n- **Quá độ gián tiếp:** Từ các nước tiền tư bản hoặc nông nghiệp lạc hậu tiến lên CNXH, bỏ qua chế độ tư bản chủ nghĩa (như Việt Nam, Trung Quốc).",
-   "explanation": "V.I.Lênin nhấn mạnh các nước lạc hậu phải trải qua con đường quá độ gián tiếp đầy quanh co, phức tạp."
-  },
-  {
-   "id": 4,
-   "question": "Đảng ta hiểu như thế nào về khái niệm 'Bỏ qua chế độ tư bản chủ nghĩa' ở Việt Nam?",
-   "expected_answer": "Là bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa; nhưng tiếp thu, kế thừa có chọn lọc những thành tựu mà nhân loại đã đạt được dưới chế độ tư bản chủ nghĩa, đặc biệt là khoa học, công nghệ và phát triển lực lượng sản xuất hiện đại.",
-   "explanation": "Khẳng định trong Cương lĩnh năm 2011 của Đảng."
-  },
-  {
-   "id": 5,
-   "question": "Kể tên 4 thành phần kinh tế cơ bản trong thời kỳ quá độ lên CNXH ở Việt Nam hiện nay.",
-   "expected_answer": "1. Kinh tế nhà nước (giữ vai trò chủ đạo).\n2. Kinh tế tập thể (hợp tác xã).\n3. Kinh tế tư nhân (động lực quan trọng).\n4. Kinh tế có vốn đầu tư nước ngoài (FDI).",
-   "explanation": "Cùng hợp tác và cạnh tranh bình đẳng theo pháp luật."
-  },
-  {
-   "id": 6,
-   "question": "Tại sao trong thời kỳ quá độ lên CNXH ở Việt Nam phải phát triển kinh tế thị trường định hướng XHCN?",
-   "expected_answer": "Vì kinh tế thị trường là phương thức phân bổ nguồn lực và kích thích sản xuất hiệu quả nhất đã được nhân loại sáng tạo ra. Phát triển kinh tế thị trường giúp giải phóng sức sản xuất, huy động mọi nguồn lực trong và ngoài nước để xây dựng cơ sở vật chất - kỹ thuật cho CNXH.",
-   "explanation": "Kinh tế thị trường là phương tiện, CNXH là mục tiêu hướng tới."
-  },
-  {
-   "id": 7,
-   "question": "Nêu 4 trong số 8 đặc trưng của mô hình CNXH ở Việt Nam theo Cương lĩnh 2011.",
-   "expected_answer": "1. Dân giàu, nước mạnh, dân chủ, công bằng, văn minh.\n2. Do nhân dân làm chủ.\n3. Có nền kinh tế phát triển cao dựa trên LLSX hiện đại và QHSX tiến bộ phù hợp.\n4. Có Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân do Đảng lãnh đạo.",
-   "explanation": "Có thể kể thêm đặc trưng về văn hóa, con người, dân tộc và đối ngoại."
-  },
-  {
-   "id": 8,
-   "question": "Chỉ ra bài học kinh nghiệm sâu sắc nhất mà Việt Nam rút ra từ sự sụp đổ của CNXH ở Liên Xô và Đông Âu.",
-   "expected_answer": "Kiên định mục tiêu độc lập dân tộc gắn liền với CNXH trên nền tảng chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh; kiên quyết chống giáo điều, bảo thủ, quan liêu; đổi mới toàn diện, đồng bộ nhưng có nguyên tắc, giữ vững vai trò lãnh đạo tuyệt đối của Đảng Cộng sản.",
-   "explanation": "Đổi mới chứ không đổi màu, không đa nguyên đa đảng."
-  }
- ],
- "essays": [
-  {
-   "id": 1,
-   "title": "Phân tích Tính Tất Yếu Khách Quan và Đặc Điểm Cơ Bản của Thời Kỳ Quá Độ Lên CNXH",
-   "problem": "Hãy phân tích:\n1. Tính tất yếu khách quan của thời kỳ quá độ lên chủ nghĩa xã hội.\n2. Đặc điểm cơ bản của thời kỳ quá độ trên các lĩnh vực: kinh tế, chính trị, tư tưởng - văn hóa và xã hội.\n3. Liên hệ thực tiễn bối cảnh thời kỳ quá độ ở Việt Nam.",
-   "solution_steps": [
-    "Bước 1: Tính tất yếu khách quan của thời kỳ quá độ\n- Bất kỳ cuộc chuyển biến cách mạng nào từ hình thái kinh tế - xã hội cũ sang mới đều đòi hỏi một thời kỳ lịch sử chuyển tiếp.\n- Sự thay thế chế độ tư hữu bằng chế độ công hữu XHCN là cuộc cách mạng sâu sắc nhất trong lịch sử, không thể hoàn thành trong chốc lát.\n- CNXH đòi hỏi một nền đại công nghiệp hiện đại và năng suất lao động vượt trội CNTB, do đó cần có thời kỳ xây dựng cơ sở vật chất - kỹ thuật và đào tạo con người mới.",
-    "Bước 2: Đặc điểm cơ bản trên các lĩnh vực\n- **Kinh tế:** Tồn tại nền kinh tế nhiều thành phần, nhiều hình thức sở hữu (toàn dân, tập thể, tư nhân) và nhiều hình thức phân phối (phân phối theo lao động là chủ đạo).\n- **Chính trị:** Thiết lập nhà nước chuyên chính vô sản / nhà nước XHCN của giai cấp công nhân, trấn áp các thế lực phản động chống phá và tổ chức kiến thiết xã hội mới.\n- **Tư tưởng - văn hóa:** Tồn tại đan xen nhiều hệ tư tưởng, tín ngưỡng và văn hóa; hệ tư tưởng Mác - Lênin giữ vai trò chủ đạo từng bước định hình các giá trị văn hóa mới.\n- **Xã hội:** Tồn tại nhiều giai cấp, tầng lớp xã hội khác nhau (công nhân, nông dân, trí thức, doanh nhân), vừa hợp tác vừa có mâu thuẫn lợi ích cục bộ.",
-    "Bước 3: Liên hệ thực tiễn ở Việt Nam\n- Việt Nam bước vào thời kỳ quá độ với xuất phát điểm kinh tế thấp kém, bị chiến tranh tàn phá nặng nề. Do đó, Đảng ta chủ trương kiên trì phát triển nền kinh tế thị trường định hướng XHCN, đẩy mạnh công nghiệp hóa, hiện đại hóa và hội nhập quốc tế để từng bước tích lũy về lượng dẫn đến biến đổi về chất của CNXH."
-   ]
-  },
-  {
-   "id": 2,
-   "title": "Phân tích Con Đường Quá Độ Lên CNXH Bỏ Qua Chế Độ TBCN ở Việt Nam",
-   "problem": "Trình bày luận điểm của Đảng Cộng sản Việt Nam về con đường 'quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa':\n1. Cơ sở lý luận của chủ nghĩa Mác - Lênin về con đường quá độ rút ngắn.\n2. Nội hàm khoa học của cụm từ 'bỏ qua chế độ tư bản chủ nghĩa'.\n3. Trách nhiệm của việc kế thừa các thành tựu của CNTB để phát triển đất nước.",
-   "solution_steps": [
-    "Bước 1: Cơ sở lý luận Mác - Lênin\n- V.I.Lênin khẳng định: Với sự giúp đỡ của giai cấp vô sản ở các nước tiên tiến, các nước lạc hậu có thể đi lên chế độ Xô viết và qua những giai đoạn phát triển nhất định tiến lên chủ nghĩa cộng sản mà không phải trải qua giai đoạn phát triển tư bản chủ nghĩa.\n- Đây là khả năng khách quan mở ra cho các dân tộc thuộc địa sau khi giành độc lập dân tộc.",
-    "Bước 2: Nội hàm khoa học của khái niệm 'bỏ qua'\n- Đại hội IX của Đảng (2001) chỉ rõ: Quá độ lên CNXH bỏ qua chế độ TBCN là bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa.\n- Nhưng tiếp thu, kế thừa những thành tựu mà nhân loại đã đạt được dưới chế độ TBCN, đặc biệt về khoa học và công nghệ, để phát triển nhanh lực lượng sản xuất, xây dựng nền kinh tế hiện đại.\n- Không được hiểu 'bỏ qua' là đốt cháy giai đoạn, xóa bỏ sạch trơn kinh tế tư nhân hay áp đặt mệnh lệnh chủ quan duy ý chí.",
-    "Bước 3: Nhiệm vụ kế thừa và phát triển\n- Tiếp thu cơ chế thị trường, kỹ năng quản trị doanh nghiệp hiện đại, thành tựu cách mạng công nghệ 4.0.\n- Đồng thời xây dựng nhà nước pháp quyền XHCN mạnh mẽ để định hướng phát triển vì hạnh phúc của đại đa số nhân dân, khắc phục các mặt trái khuyết tật của chủ nghĩa tư bản (phân hóa giàu nghèo cực đoan, ô nhiễm môi trường, khủng hoảng kinh tế)."
-   ]
-  },
-  {
-   "id": 3,
-   "title": "Phân tích 8 Đặc Trưng của Mô Hình CNXH ở Việt Nam Theo Cương Lĩnh 2011",
-   "problem": "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (bổ sung, phát triển năm 2011) đã xác định 8 đặc trưng của xã hội xã hội chủ nghĩa ở Việt Nam. Hãy phân tích nội dung và mối quan hệ hữu cơ giữa các đặc trưng đó.",
-   "solution_steps": [
-    "Bước 1: Giới thiệu 8 đặc trưng của CNXH ở Việt Nam\n1. Dân giàu, nước mạnh, dân chủ, công bằng, văn minh (Mục tiêu tổng quát).\n2. Do nhân dân làm chủ (Bản chất chính trị).\n3. Có nền kinh tế phát triển cao dựa trên LLSX hiện đại và QHSX tiến bộ phù hợp (Cơ sở kinh tế).\n4. Có nền văn hóa tiên tiến, đậm đà bản sắc dân tộc (Nền tảng tinh thần).\n5. Con người có cuộc sống ấm no, tự do, hạnh phúc, có điều kiện phát triển toàn diện (Mục tiêu nhân văn cốt lõi).\n6. Các dân tộc trong cộng đồng Việt Nam bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển (Chính sách dân tộc).\n7. Có Nhà nước pháp quyền XHCN của nhân dân, do nhân dân, vì nhân dân do Đảng Cộng sản lãnh đạo (Trụ cột thể chế quyền lực).\n8. Có quan hệ hữu nghị và hợp tác với các nước trên thế giới (Chính sách đối ngoại hội nhập).",
-    "Bước 2: Mối quan hệ hữu cơ biện chứng giữa các đặc trưng\n- Mục tiêu tổng quát (đặc trưng 1) định hướng cho mọi hoạt động.\n- Dân chủ và nhân dân làm chủ (đặc trưng 2, 5, 7) là động lực và bảo đảm chính trị vững chắc.\n- Kinh tế hiện đại (đặc trưng 3) cung cấp nguồn lực vật chất dồi dào để phát triển văn hóa, con người và củng cố khối đại đoàn kết dân tộc (đặc trưng 4, 6).\n- Hội nhập quốc tế (đặc trưng 8) tạo môi trường hòa bình và tranh thủ nguồn lực bên ngoài phục vụ sự nghiệp xây dựng trong nước.",
-    "Bước 3: Ý nghĩa định hướng\n- 8 đặc trưng tạo thành một chỉnh thể mô hình xã hội hoàn chỉnh, hiện thực hóa mục tiêu độc lập dân tộc gắn liền với chủ nghĩa xã hội mà Đảng và Bác Hồ đã lựa chọn."
-   ]
-  },
-  {
-   "id": 4,
-   "title": "Bản Chất và Tính Ưu Việt của Kinh Tế Thị Trường Định Hướng XHCN ở Việt Nam",
-   "problem": "Phân tích sự khác biệt căn bản giữa Kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam với Kinh tế thị trường tự bản chủ nghĩa phương Tây trên các tiêu chí: Mục tiêu phát triển, Quan hệ sở hữu và phân phối, và Vai trò điều tiết của Nhà nước.",
-   "solution_steps": [
-    "Bước 1: Tiêu chí Mục tiêu phát triển\n- **Kinh tế thị trường TBCN:** Mục tiêu tối thượng là tối đa hóa lợi nhuận cho giai cấp tư sản và các tập đoàn tài phiệt; chấp nhận phân hóa giàu nghèo sâu sắc và bất bình đẳng xã hội.\n- **Kinh tế thị trường định hướng XHCN:** Mục tiêu là phát triển LLSX, xây dựng cơ sở vật chất cho CNXH, vì mục tiêu 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh'. Tiến bộ và công bằng xã hội được thực hiện trong từng chính sách phát triển.",
-    "Bước 2: Tiêu chí Quan hệ sở hữu và phân phối\n- **Kinh tế thị trường TBCN:** Dựa trên chế độ chiếm hữu tư nhân TBCN về tư liệu sản xuất là chủ đạo; phân phối chủ yếu theo quyền sở hữu vốn và tài sản, người lao động bị bóc lột giá trị thặng dư.\n- **Kinh tế thị trường định hướng XHCN:** Tồn tại nhiều hình thức sở hữu, trong đó kinh tế nhà nước giữ vai trò chủ đạo, kinh tế tư nhân là động lực quan trọng. Thực hiện nhiều hình thức phân phối, trong đó phân phối theo kết quả lao động và hiệu quả kinh tế là chủ đạo, kết hợp phân phối qua hệ thống an sinh xã hội.",
-    "Bước 3: Tiêu chí Vai trò quản lý của Nhà nước\n- **Nhà nước tư sản:** Bảo vệ chế độ tư hữu và lợi ích của tập đoàn tư bản thống trị.\n- **Nhà nước pháp quyền XHCN Việt Nam (dưới sự lãnh đạo của Đảng):** Quản lý nền kinh tế bằng pháp luật, chiến lược, quy hoạch; sử dụng các công cụ vĩ mô để sửa chữa các khuyết tật của thị trường, bảo vệ môi trường sinh thái, bảo đảm an sinh xã hội và nâng cao đời sống nhân dân.",
-    "Bước 4: Kết luận\n- Kinh tế thị trường định hướng XHCN là một sáng tạo lý luận độc đáo, phù hợp với thực tiễn Việt Nam trong thời kỳ quá độ."
-   ]
-  }
- ]
+  "chapter_id": "chuong_3",
+  "chapter_title": "Chương 3: Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Theo giáo trình Chủ nghĩa xã hội khoa học (2021), chủ nghĩa xã hội được tiếp cận từ bốn góc độ cơ bản nào?",
+      "options": {
+        "A": "Phong trào thực tiễn đấu tranh của nhân dân lao động; trào lưu tư tưởng, lý luận; một khoa học; và một chế độ xã hội tốt đẹp (giai đoạn đầu của hình thái KT-XH cộng sản chủ nghĩa).",
+        "B": "Học thuyết kinh tế chính trị cổ điển; phong trào cải lương nghị trường; một tôn giáo thế tục; và một mô hình nhà nước phúc lợi tư sản.",
+        "C": "Chủ nghĩa xã hội không tưởng phê phán; chủ nghĩa dân túy nông dân; một học thuyết pháp quyền tự nhiên; và một thiết chế liên minh kinh tế khu vực.",
+        "D": "Cuộc cách mạng công nghiệp cơ khí; phong trào giải phóng dân tộc thuộc địa; một hệ thống đạo đức truyền thống; và giai đoạn cao của chủ nghĩa cộng sản."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục I giáo trình CNXHKH (2021), chủ nghĩa xã hội được tiếp cận từ 4 góc độ: (1) Là phong trào thực tiễn đấu tranh của nhân dân lao động; (2) Là trào lưu tư tưởng, lý luận; (3) Là một khoa học - CNXHKH là khoa học về sứ mệnh lịch sử của giai cấp công nhân; (4) Là một chế độ xã hội tốt đẹp, giai đoạn đầu của hình thái KT-XH cộng sản chủ nghĩa."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Học thuyết hình thái kinh tế - xã hội của chủ nghĩa Mác - Lênin chỉ ra sự thay thế hình thái KT-XH tư bản chủ nghĩa bằng cộng sản chủ nghĩa là quá trình lịch sử - tự nhiên, xuất phát từ hai tiền đề vật chất quan trọng nhất nào?",
+      "options": {
+        "A": "Sự mở rộng thị trường thuộc địa của giai cấp tư sản và sự phát triển của hệ thống tài chính ngân hàng quốc tế.",
+        "B": "Sự phát triển của lực lượng sản xuất và sự trưởng thành của giai cấp công nhân.",
+        "C": "Sự gia tăng dân số đô thị và sự tiến bộ của nền nông nghiệp tiểu nông tự cấp tự túc.",
+        "D": "Sự khủng hoảng của chế độ quân chủ chuyên chế và sự phổ cập của hệ thống giáo dục đại học."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình khẳng định sự thay thế hình thái KT-XH TBCN bằng CSCN được thực hiện thông qua cách mạng xã hội chủ nghĩa xuất phát từ hai tiền đề vật chất quan trọng nhất là sự phát triển của lực lượng sản xuất và sự trưởng thành của giai cấp công nhân."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Trong tác phẩm 'Phê phán Cương lĩnh Gôta' (1875), C. Mác khẳng định nhà nước của thời kỳ quá độ chính trị giữa xã hội tư bản chủ nghĩa và xã hội cộng sản chủ nghĩa không thể là cái gì khác hơn là gì?",
+      "options": {
+        "A": "Nhà nước cộng hòa đại nghị đa nguyên dưới sự điều hành của liên minh các đảng phái tư sản.",
+        "B": "Nhà nước tự quản phi giai cấp hoàn toàn không còn chức năng trấn áp chính trị.",
+        "C": "Nền chuyên chính cách mạng của giai cấp vô sản.",
+        "D": "Chế độ quân chủ lập hiến chuyển tiếp sang nhà nước phúc lợi toàn dân."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong 'Phê phán Cương lĩnh Gôta' (1875), C. Mác viết: 'Thích ứng với thời kỳ ấy là một thời kỳ quá độ chính trị, và nhà nước của thời kỳ ấy không thể là cái gì khác hơn là nền chuyên chính cách mạng của giai cấp vô sản'."
+    },
+    {
+      "id": 4,
+      "difficulty": "medium",
+      "question": "Khi phân biệt hai nghĩa của thời kỳ quá độ từ chủ nghĩa tư bản lên chủ nghĩa cộng sản, V.I. Lênin đã dùng hình ảnh 'những cơn đau đẻ kéo dài' để chỉ thời kỳ quá độ đối với nhóm quốc gia nào?",
+      "options": {
+        "A": "Các nước đã trải qua chủ nghĩa tư bản phát triển ở trình độ công nghiệp hóa rất cao.",
+        "B": "Các quốc gia tư bản đế quốc giữ vị trí thống trị hệ thống tài chính thuộc địa toàn cầu.",
+        "C": "Các nước đã hoàn thành xong giai đoạn cao của chủ nghĩa cộng sản nhưng gặp khủng hoảng cục bộ.",
+        "D": "Các nước chưa trải qua chủ nghĩa tư bản phát triển, cần có thời kỳ quá độ khá lâu dài từ chủ nghĩa tư bản lên chủ nghĩa xã hội."
+      },
+      "correct_answer": "D",
+      "explanation": "V.I. Lênin phân biệt 2 nghĩa của thời kỳ quá độ: Thứ nhất, đối với các nước chưa trải qua CNTB phát triển, cần thiết phải có thời kỳ quá độ khá lâu dài từ CNTB lên CNXH - 'những cơn đau đẻ kéo dài'; Thứ hai, đối với những nước đã trải qua CNTB phát triển, có một thời kỳ quá độ nhất định từ CNTB lên CNCS."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Phân tích điều kiện kinh tế cho sự ra đời của chủ nghĩa xã hội, giáo trình nêu rõ bước tiến to lớn của lực lượng sản xuất dưới chủ nghĩa tư bản biểu hiện tập trung nhất ở sự ra đời của công nghiệp cơ khí gắn với cuộc cách mạng nào?",
+      "options": {
+        "A": "Cách mạng công nghiệp lần thứ hai.",
+        "B": "Cách mạng công nghiệp lần thứ tư.",
+        "C": "Cách mạng xanh trong nông nghiệp thế kỷ XX.",
+        "D": "Cách mạng thương mại hàng hải thế kỷ XV."
+      },
+      "correct_answer": "A",
+      "explanation": "Trong Mục I.2.a (Điều kiện kinh tế), giáo trình chỉ rõ: nhờ những bước tiến to lớn của lực lượng sản xuất, biểu hiện tập trung nhất là sự ra đời của công nghiệp cơ khí (Cách mạng công nghiệp lần thứ hai), chủ nghĩa tư bản đã tạo ra bước phát triển vượt bậc của lực lượng sản xuất."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "Mâu thuẫn kinh tế cơ bản trong lòng chủ nghĩa tư bản dẫn tới tính tất yếu phải thay thế bằng chủ nghĩa xã hội là mâu thuẫn giữa hai yếu tố nào?",
+      "options": {
+        "A": "Giữa sản xuất nông nghiệp manh mún truyền thống với thương mại hàng hóa tự do.",
+        "B": "Giữa tính chất xã hội hóa cao của lực lượng sản xuất với quan hệ sản xuất tư bản chủ nghĩa dựa trên chế độ chiếm hữu tư nhân tư bản chủ nghĩa.",
+        "C": "Giữa nhu cầu tiêu dùng ngày càng giảm của thị trường nội địa với sự dư thừa vốn tín dụng ngân hàng.",
+        "D": "Giữa sự phát triển của khoa học tự nhiên thuần túy với hệ tư tưởng phong kiến bảo thủ."
+      },
+      "correct_answer": "B",
+      "explanation": "Lực lượng sản xuất càng được cơ khí hóa, hiện đại hóa càng mang tính xã hội hóa cao thì càng mâu thuẫn gay gắt với quan hệ sản xuất tư bản chủ nghĩa dựa trên chế độ chiếm hữu tư nhân tư bản chủ nghĩa đối với tư liệu sản xuất, biến QHSX từ mở đường thành xiềng xích của LLSX."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Trong phân tích điều kiện chính trị - xã hội cho sự ra đời của chủ nghĩa xã hội, sự trưởng thành vượt bậc của giai cấp công nhân được đánh dấu bằng sự kiện nào?",
+      "options": {
+        "A": "Việc giai cấp tư sản nhượng bộ tăng lương tối thiểu và rút ngắn giờ làm xuống 8 giờ.",
+        "B": "Việc công nhân sở hữu cổ phần chi phối trong các tập đoàn công nghiệp độc quyền.",
+        "C": "Sự ra đời của Đảng Cộng sản - đội tiền phong của giai cấp công nhân trực tiếp lãnh đạo cuộc đấu tranh chính trị chống giai cấp tư sản.",
+        "D": "Sự hình thành các hiệp hội nghề nghiệp thuần túy nhằm thương lượng điều kiện lao động tại nhà máy."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục I.2.b giáo trình, sự trưởng thành vượt bậc của giai cấp công nhân (cả về số lượng và chất lượng) được đánh dấu bằng sự ra đời của Đảng Cộng sản, đội tiền phong của giai cấp công nhân, trực tiếp lãnh đạo cuộc đấu tranh chính trị chống giai cấp tư sản."
+    },
+    {
+      "id": 8,
+      "difficulty": "hard",
+      "question": "Về phương thức thực hiện cuộc cách mạng vô sản để thiết lập hình thái KT-XH cộng sản chủ nghĩa, nhận định nào phản ánh chính xác nhất quan điểm trong giáo trình CNXHKH (2021)?",
+      "options": {
+        "A": "Hình thái KT-XH cộng sản chủ nghĩa tự nhiên ra đời từ cải cách nghị trường mà không cần thông qua cách mạng vô sản.",
+        "B": "Cách mạng vô sản tuyệt đối chỉ có thể diễn ra bằng bạo lực vũ trang, không tồn tại khả năng hòa bình kể cả về mặt lý thuyết.",
+        "C": "Cách mạng vô sản trên thực tế ở hầu hết các quốc gia đều đã thành công bằng con đường hòa bình thông qua bầu cử.",
+        "D": "Cách mạng vô sản trên thực tế được thực hiện bằng con đường bạo lực cách mạng; về mặt lý thuyết cũng có thể tiến hành bằng con đường hòa bình nhưng vô cùng hiếm, quý và trên thực tế chưa xảy ra."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình khẳng định: hình thái KT-XH CSCN không tự nhiên ra đời mà chỉ hình thành qua cách mạng vô sản dưới sự lãnh đạo của Đảng Cộng sản; trên thực tế được thực hiện bằng con đường bạo lực cách mạng, còn về mặt lý thuyết cũng có thể bằng con đường hòa bình nhưng vô cùng hiếm, quý và trên thực tế chưa xảy ra."
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "question": "Theo V.I. Lênin, mục đích cao nhất, cuối cùng của những cải tạo xã hội chủ nghĩa là thiết lập một xã hội cộng sản chủ nghĩa thực hiện nguyên tắc phân phối nào?",
+      "options": {
+        "A": "Làm theo năng lực, hưởng theo nhu cầu.",
+        "B": "Làm theo năng lực, hưởng theo số vốn góp.",
+        "C": "Phân phối bình quân tuyệt đối theo đầu người.",
+        "D": "Phân phối theo địa vị hành chính và thâm niên."
+      },
+      "correct_answer": "A",
+      "explanation": "V.I. Lênin khẳng định mục đích cao nhất, cuối cùng của những cải tạo XHCN là thiết lập xã hội cộng sản chủ nghĩa đi tới thực hiện nguyên tắc: 'làm theo năng lực, hưởng theo nhu cầu' (đây cũng là lý do tên gọi 'đảng cộng sản' là duy nhất chính xác về mặt khoa học)."
+    },
+    {
+      "id": 10,
+      "difficulty": "hard",
+      "question": "Trả lời câu hỏi liệu có thể thủ tiêu chế độ tư hữu ngay lập tức trong giai đoạn đầu của xã hội cộng sản chủ nghĩa hay không, Ph. Ăngghen đã giải thích như thế nào?",
+      "options": {
+        "A": "Có thể thủ tiêu ngay lập tức bằng sắc lệnh hành chính ngay sau khi giai cấp vô sản nắm chính quyền.",
+        "B": "Không thể được, vì không thể làm cho lực lượng sản xuất tăng lên ngay lập tức đến mức cần thiết; chỉ khi nào tạo đủ khối lượng tư liệu sản xuất cần thiết mới thủ tiêu được chế độ tư hữu.",
+        "C": "Chỉ cần quốc hữu hóa toàn bộ ruộng đất tiểu nông trong tuần đầu cách mạng thì chế độ tư hữu sẽ tự động biến mất.",
+        "D": "Không bao giờ được phép xóa bỏ chế độ tư hữu tư bản chủ nghĩa vì tư hữu là động lực vĩnh viễn của mọi xã hội loài người."
+      },
+      "correct_answer": "B",
+      "explanation": "Ph. Ăngghen dứt khoát trả lời: 'Không, không thể được, cũng y như không thể làm cho lực lượng sản xuất hiện có tăng lên ngay lập tức đến mức cần thiết để xây dựng một nền kinh tế công hữu'; chỉ có thể cải tạo dần dần và chỉ khi tạo đủ khối lượng tư liệu sản xuất cần thiết mới thủ tiêu được chế độ tư hữu."
+    },
+    {
+      "id": 11,
+      "difficulty": "hard",
+      "question": "Đối với những nước tiểu nông chưa trải qua chủ nghĩa tư bản đi lên chủ nghĩa xã hội, V.I. Lênin chỉ rõ tất yếu phải 'bắc những chiếc cầu nhỏ vững chắc' đi xuyên qua hình thức kinh tế nào (được Người đánh giá có thể là '3/4 chủ nghĩa xã hội' dưới Chính quyền Xôviết)?",
+      "options": {
+        "A": "Kinh tế tự cấp tự túc gia trưởng.",
+        "B": "Kinh tế tư bản tư nhân tự do cạnh tranh hoàn toàn.",
+        "C": "Chủ nghĩa tư bản nhà nước.",
+        "D": "Chủ nghĩa xã hội bình quân công xã nông thôn."
+      },
+      "correct_answer": "C",
+      "explanation": "V.I. Lênin chỉ rõ: 'Trong một nước tiểu nông, trước hết các đồng chí phải bắc những chiếc cầu nhỏ vững chắc, đi xuyên qua chủ nghĩa tư bản nhà nước, tiến lên chủ nghĩa xã hội' và 'dưới Chính quyền Xôviết thì chủ nghĩa tư bản nhà nước sẽ có thể là 3/4 chủ nghĩa xã hội'."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Trong 'Cương lĩnh về vấn đề dân tộc trong chủ nghĩa xã hội', V.I. Lênin đã chỉ ra ba nội dung có tính nguyên tắc nào để giải quyết vấn đề dân tộc?",
+      "options": {
+        "A": "Đồng hóa các dân tộc thiểu số; tập trung hóa quyền lực trung ương; và đóng cửa biên giới kinh tế.",
+        "B": "Duy trì đặc quyền dân tộc đa số; phân chia lãnh thổ theo tôn giáo; và hạn chế giao lưu quốc tế.",
+        "C": "Tự trị văn hóa biệt lập; xóa bỏ mọi bản sắc dân tộc; và trung lập hóa quan hệ giai cấp.",
+        "D": "Các dân tộc hoàn toàn bình đẳng; các dân tộc được quyền tự quyết; và liên hiệp công nhân tất cả các dân tộc lại."
+      },
+      "correct_answer": "D",
+      "explanation": "V.I. Lênin nêu rõ 3 nguyên tắc trong Cương lĩnh dân tộc: 'Các dân tộc hoàn toàn bình đẳng; các dân tộc được quyền tự quyết; liên hiệp công nhân tất cả các dân tộc lại'."
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "question": "Theo học thuyết hình thái kinh tế - xã hội của chủ nghĩa Mác - Lênin, lịch sử xã hội loài người phát triển tuần tự qua 5 hình thái kinh tế - xã hội nào?",
+      "options": {
+        "A": "Cộng sản nguyên thủy, chiếm hữu nô lệ, phong kiến, tư bản chủ nghĩa và cộng sản chủ nghĩa.",
+        "B": "Thị tộc mẫu hệ, chiếm hữu nô lệ, phong kiến, xã hội công nghiệp và xã hội hậu công nghiệp.",
+        "C": "Cộng sản nguyên thủy, phong kiến phân quyền, quân chủ chuyên chế, tư bản chủ nghĩa và xã hội dân chủ.",
+        "D": "Xã hội nông nghiệp, xã hội thủ công nghiệp, tư bản thương nghiệp, tư bản tài chính và cộng sản chủ nghĩa."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục II.1 giáo trình nêu rõ: lịch sử xã hội đã trải qua 5 hình thái kinh tế - xã hội: Cộng sản nguyên thủy, chiếm hữu nô lệ, phong kiến, tư bản chủ nghĩa và cộng sản chủ nghĩa."
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "question": "Các nhà sáng lập chủ nghĩa xã hội khoa học phân biệt có hai loại hình quá độ từ chủ nghĩa tư bản lên chủ nghĩa cộng sản nào?",
+      "options": {
+        "A": "Quá độ chính trị và quá độ tự nhiên.",
+        "B": "Quá độ trực tiếp và quá độ gián tiếp.",
+        "C": "Quá độ hòa bình và quá độ cải lương.",
+        "D": "Quá độ ngắn hạn và quá độ vĩnh viễn."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình phân biệt hai loại quá độ từ CNTB lên CNCS: (1) Quá độ trực tiếp đối với những nước đã trải qua CNTB phát triển; (2) Quá độ gián tiếp đối với những nước chưa trải qua CNTB phát triển."
+    },
+    {
+      "id": 15,
+      "difficulty": "medium",
+      "question": "Nhận định nào sau đây phản ánh đúng thực tiễn lịch sử về hai loại hình quá độ lên chủ nghĩa xã hội trên thế giới?",
+      "options": {
+        "A": "Quá độ trực tiếp đã diễn ra thành công ở tất cả các nước Tây Âu từ đầu thế kỷ XX.",
+        "B": "Việt Nam và Trung Quốc thuộc loại hình quá độ trực tiếp vì đã trải qua chủ nghĩa tư bản độc quyền nhà nước.",
+        "C": "Cho đến nay thời kỳ quá độ trực tiếp từ chủ nghĩa tư bản phát triển chưa từng diễn ra; Liên Xô, Đông Âu trước đây, Trung Quốc và Việt Nam đều trải qua thời kỳ quá độ gián tiếp.",
+        "D": "Quá độ gián tiếp chỉ tồn tại trong lý luận của C. Mác chứ chưa từng được kiểm chứng ở bất kỳ quốc gia nào."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình chỉ rõ: cho đến nay thời kỳ quá độ trực tiếp lên chủ nghĩa cộng sản từ CNTB phát triển chưa từng diễn ra; Liên Xô và các nước XHCN Đông Âu trước đây, Trung Quốc, Việt Nam và một số nước XHCN khác đều đang trải qua thời kỳ quá độ gián tiếp với những trình độ phát triển khác nhau."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "question": "Điều kiện cốt lõi nào trong lý luận của C. Mác, Ph. Ăngghen và V.I. Lênin cho phép các nước lạc hậu có thể thực hiện 'con đường rút ngắn' tiến lên chủ nghĩa xã hội mà không phải trải qua giai đoạn phát triển tư bản chủ nghĩa?",
+      "options": {
+        "A": "Phải tự đóng cửa tách biệt hoàn toàn khỏi thị trường thế giới để tránh ảnh hưởng của công nghệ tư bản.",
+        "B": "Phải chờ đợi tất cả các nước Tây Âu chuyển sang chế độ cộng sản hoàn chỉnh mới bắt đầu giành chính quyền.",
+        "C": "Phải tiến hành phát triển tuần tự từ phong kiến lên tư bản chủ nghĩa kéo dài vài thế kỷ rồi mới chuyển tiếp.",
+        "D": "Có sự giúp đỡ của giai cấp vô sản đã chiến thắng ở các nước tiên tiến, kết hợp tận dụng lợi thế của thời đại (toàn cầu hóa, CMCN lần thứ tư hiện nay) dưới sự lãnh đạo của Đảng Cộng sản."
+      },
+      "correct_answer": "D",
+      "explanation": "C. Mác, Ph. Ăngghen và V.I. Lênin khẳng định: với sự giúp đỡ của giai cấp vô sản đã chiến thắng ở các nước tiên tiến, các nước lạc hậu có thể rút ngắn quá trình phát triển lên CNXH; trong thời đại ngày nay với bối cảnh toàn cầu hóa và CMCN lần thứ tư, các nước lạc hậu dưới sự lãnh đạo của Đảng Cộng sản có thể tiến thẳng lên CNXH bỏ qua chế độ TBCN."
+    },
+    {
+      "id": 17,
+      "difficulty": "easy",
+      "question": "Thực chất của thời kỳ quá độ lên chủ nghĩa xã hội là gì?",
+      "options": {
+        "A": "Thời kỳ cải biến cách mạng từ xã hội tiền tư bản chủ nghĩa và tư bản chủ nghĩa sang xã hội xã hội chủ nghĩa, trong đó đan xen nhiều tàn dư của xã hội cũ và những yếu tố mới mang tính chất XHCN mới phát sinh.",
+        "B": "Giai đoạn xã hội cộng sản chủ nghĩa đã phát triển hoàn chỉnh trên những cơ sở vật chất - kỹ thuật của chính nó.",
+        "C": "Thời kỳ xã hội cũ bị xóa bỏ hoàn toàn chỉ trong một chiến dịch cách mạng ngắn ngủi ngay sau ngày giành chính quyền.",
+        "D": "Giai đoạn tạm dừng phát triển kinh tế để chỉ tập trung đấu tranh tư tưởng trong nội bộ giai cấp tư sản."
+      },
+      "correct_answer": "A",
+      "explanation": "Thực chất của thời kỳ quá độ lên CNXH là thời kỳ cải biến cách mạng từ xã hội tiền TBCN và TBCN sang xã hội XHCN; xã hội của thời kỳ quá độ có sự đan xen của nhiều tàn dư về mọi phương diện của CNTB và những yếu tố mới mang tính chất XHCN mới phát sinh."
+    },
+    {
+      "id": 18,
+      "difficulty": "medium",
+      "question": "Vận dụng vào thực tiễn nước Nga trong thời kỳ quá độ lên chủ nghĩa xã hội, V.I. Lênin đã chỉ ra nền kinh tế tồn tại mấy thành phần kinh tế và bao gồm những thành phần nào?",
+      "options": {
+        "A": "3 thành phần: kinh tế phong kiến, kinh tế tư bản và kinh tế cộng sản chủ nghĩa.",
+        "B": "5 thành phần: kinh tế gia trưởng, kinh tế hàng hóa nhỏ, kinh tế tư bản, kinh tế tư bản nhà nước và kinh tế xã hội chủ nghĩa.",
+        "C": "2 thành phần: kinh tế quốc doanh và kinh tế tập thể hợp tác xã.",
+        "D": "4 thành phần: kinh tế nông nghiệp, kinh tế công nghiệp nặng, kinh tế thương nghiệp và kinh tế dịch vụ."
+      },
+      "correct_answer": "B",
+      "explanation": "Tương ứng với nước Nga, V.I. Lênin chỉ rõ thời kỳ quá độ tồn tại 5 thành phần kinh tế: kinh tế gia trưởng; kinh tế hàng hóa nhỏ; kinh tế tư bản; kinh tế tư bản nhà nước; kinh tế xã hội chủ nghĩa."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "question": "Trên lĩnh vực chính trị của thời kỳ quá độ, cuộc đấu tranh giai cấp giữa giai cấp vô sản đã chiến thắng nhưng chưa toàn thắng với giai cấp tư sản đã thất bại nhưng chưa thất bại hoàn toàn diễn ra với 'nội dung mới' và 'hình thức mới' là gì?",
+      "options": {
+        "A": "Nội dung mới là mở rộng chiến tranh biên giới; hình thức mới là tổng bãi công bạo động trên toàn quốc.",
+        "B": "Nội dung mới là khôi phục chế độ tư hữu tư bản; hình thức mới là cạnh tranh nghị trường đa đảng.",
+        "C": "Nội dung mới là xây dựng toàn diện xã hội mới với trọng tâm là xây dựng nhà nước có tính kinh tế; hình thức mới cơ bản là hòa bình tổ chức xây dựng.",
+        "D": "Nội dung mới là xóa bỏ ngay bộ máy nhà nước; hình thức mới là tự quản tuyệt đối không cần pháp luật."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục II.2.b giáo trình, cuộc đấu tranh giai cấp trong thời kỳ quá độ diễn ra trong điều kiện mới (GCCN đã trở thành giai cấp cầm quyền), với nội dung mới (xây dựng toàn diện xã hội mới, trọng tâm là xây dựng nhà nước có tính kinh tế), và hình thức mới (cơ bản là hòa bình tổ chức xây dựng)."
+    },
+    {
+      "id": 20,
+      "difficulty": "medium",
+      "question": "Trên lĩnh vực tư tưởng - văn hóa của thời kỳ quá độ lên chủ nghĩa xã hội, đặc điểm cơ bản nhất được thể hiện như thế nào?",
+      "options": {
+        "A": "Chỉ tồn tại duy nhất hệ tư tưởng vô sản, mọi tàn dư tư tưởng cũ đã hoàn toàn bị triệt tiêu.",
+        "B": "Hệ tư tưởng tư sản vẫn giữ vị trí độc tôn chi phối toàn bộ đời sống tinh thần của nhà nước mới.",
+        "C": "Xóa bỏ toàn bộ di sản văn hóa dân tộc truyền thống để xây dựng nền văn hóa mới hoàn toàn từ con số không.",
+        "D": "Còn tồn tại nhiều tư tưởng khác nhau (chủ yếu là tư tưởng vô sản và tư tưởng tư sản); Đảng Cộng sản từng bước xây dựng văn hóa vô sản, nền văn hóa mới XHCN, tiếp thu giá trị văn hóa dân tộc và tinh hoa nhân loại."
+      },
+      "correct_answer": "D",
+      "explanation": "Thời kỳ quá độ trên lĩnh vực tư tưởng - văn hóa còn tồn tại nhiều tư tưởng khác nhau (chủ yếu là tư tưởng vô sản và tư tưởng tư sản); giai cấp công nhân thông qua Đảng Cộng sản từng bước xây dựng văn hóa vô sản, nền văn hóa mới XHCN, tiếp thu giá trị văn hóa dân tộc và tinh hoa văn hóa nhân loại."
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "question": "Nguyên nhân trực tiếp quy định trong xã hội của thời kỳ quá độ còn tồn tại nhiều giai cấp, tầng lớp và sự khác biệt giữa các giai cấp, tầng lớp (vừa hợp tác, vừa đấu tranh với nhau) là gì?",
+      "options": {
+        "A": "Do kết cấu của nền kinh tế nhiều thành phần quy định.",
+        "B": "Do sự phân chia đẳng cấp tôn giáo từ thời cổ đại để lại.",
+        "C": "Do chính sách khuyến khích phân hóa giàu nghèo cực đoan của nhà nước vô sản.",
+        "D": "Do sự khác biệt về ngôn ngữ và tập quán địa lý giữa các vùng miền."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục II.2.d giáo trình nêu rõ: 'Do kết cấu của nền kinh tế nhiều thành phần quy định nên trong thời kỳ quá độ còn tồn tại nhiều giai cấp, tầng lớp và sự khác biệt giữa các giai cấp tầng lớp xã hội, các giai cấp, tầng lớp vừa hợp tác, vừa đấu tranh với nhau'."
+    },
+    {
+      "id": 22,
+      "difficulty": "easy",
+      "question": "Trên lĩnh vực xã hội của thời kỳ quá độ lên chủ nghĩa xã hội, việc thiết lập công bằng xã hội được thực hiện trên cơ sở lấy nguyên tắc phân phối nào làm chủ đạo?",
+      "options": {
+        "A": "Phân phối theo mức độ sở hữu tư liệu sản xuất.",
+        "B": "Phân phối theo lao động.",
+        "C": "Phân phối hoàn toàn theo nhu cầu cá nhân.",
+        "D": "Phân phối bình quân không phân biệt năng suất."
+      },
+      "correct_answer": "B",
+      "explanation": "Thời kỳ quá độ về phương diện xã hội đấu tranh chống áp bức, bất công, xóa bỏ tệ nạn và tàn dư xã hội cũ, thiết lập công bằng xã hội trên cơ sở thực hiện nguyên tắc phân phối theo lao động là chủ đạo."
+    },
+    {
+      "id": 23,
+      "difficulty": "medium",
+      "question": "Văn kiện nào của Đảng Cộng sản Việt Nam đã sớm chỉ rõ: sau khi hoàn thành cách mạng dân tộc, dân chủ nhân dân, nước ta sẽ tiến lên chủ nghĩa xã hội?",
+      "options": {
+        "A": "Đề cương về văn hóa Việt Nam năm 1943.",
+        "B": "Chính cương của Đảng Lao động Việt Nam năm 1951.",
+        "C": "Cương lĩnh năm 1930 của Đảng.",
+        "D": "Nghị quyết Đại hội đại biểu toàn quốc lần thứ VI năm 1986."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục III.1 giáo trình nêu: 'Cương lĩnh năm 1930 của Đảng đã chỉ rõ: Sau khi hoàn thành cách mạng dân tộc, dân chủ nhân dân, sẽ tiến lên chủ nghĩa xã hội'."
+    },
+    {
+      "id": 24,
+      "difficulty": "medium",
+      "question": "Tư tưởng mới xác định con đường đi lên của nước ta là sự phát triển quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa (tức là bỏ qua việc xác lập vị trí thống trị của QHSX và kiến trúc thượng tầng TBCN, nhưng tiếp thu, kế thừa thành tựu nhân loại dưới CNTB) được khẳng định tại Đại hội nào của Đảng?",
+      "options": {
+        "A": "Đại hội IV (1976).",
+        "B": "Đại hội VI (1986).",
+        "C": "Đại hội VII (1991).",
+        "D": "Đại hội IX (2001)."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình trích dẫn trực tiếp: 'Quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa, như Đại hội IX của Đảng xác định: Con đường đi lên của nước ta là sự phát triển quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa, tức là bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa...'."
+    },
+    {
+      "id": 25,
+      "difficulty": "hard",
+      "question": "Theo nhận thức đầy đủ từ Đại hội IX về thời kỳ quá độ bỏ qua chế độ tư bản chủ nghĩa ở Việt Nam, đặc điểm của quan hệ sở hữu, phân phối và bóc lột trong thời kỳ quá độ được xác định như thế nào?",
+      "options": {
+        "A": "Còn nhiều hình thức sở hữu, nhiều thành phần kinh tế nhưng sở hữu và kinh tế tư nhân TBCN không chiếm vai trò chủ đạo; phân phối theo lao động là chủ đạo cùng phân phối theo mức đóng góp và quỹ phúc lợi xã hội; còn quan hệ bóc lột nhưng quan hệ bóc lột TBCN không giữ vai trò thống trị.",
+        "B": "Chỉ tồn tại hai hình thức sở hữu công cộng là sở hữu toàn dân và sở hữu tập thể; xóa bỏ hoàn toàn mọi hình thức phân phối ngoài lao động.",
+        "C": "Kinh tế tư nhân tư bản chủ nghĩa giữ vai trò chủ đạo tuyệt đối trong toàn bộ nền kinh tế quốc dân, còn kinh tế nhà nước rút khỏi các lĩnh vực then chốt.",
+        "D": "Quá độ bỏ qua chế độ TBCN đồng nghĩa với việc không tồn tại bất kỳ hình thức thuê mướn lao động hay phân phối theo vốn đóng góp nào."
+      },
+      "correct_answer": "A",
+      "explanation": "Nội dung thứ hai trong 4 nội dung nhận thức đầy đủ từ Đại hội IX chỉ rõ: bỏ qua việc xác lập vị trí thống trị của QHSX và KTTT TBCN nghĩa là trong TKQĐ còn nhiều hình thức sở hữu, nhiều thành phần kinh tế nhưng sở hữu tư nhân TBCN và kinh tế tư nhân TBCN không chiếm vai trò chủ đạo; còn nhiều hình thức phân phối (ngoài phân phối theo lao động chủ đạo còn theo mức độ đóng góp và quỹ phúc lợi xã hội); còn quan hệ bóc lột và bị bóc lột song quan hệ bóc lột TBCN không giữ vai trò thống trị."
+    },
+    {
+      "id": 26,
+      "difficulty": "medium",
+      "question": "Trong tiến trình phát triển nhận thức của Đảng Cộng sản Việt Nam về chủ nghĩa xã hội, bước chuyển từ 'mức độ định hướng' sang trình độ 'định hình, định lượng' với 6 đặc trưng được đánh dấu bởi hai kỳ Đại hội nào?",
+      "options": {
+        "A": "Từ Đại hội III (1960) sang Đại hội V (1982).",
+        "B": "Từ Đại hội IV (1976 - mức độ định hướng) sang Đại hội VII (1991 - định hình, định lượng với Cương lĩnh 1991).",
+        "C": "Từ Đại hội VI (1986) sang Đại hội VIII (1996).",
+        "D": "Từ Đại hội IX (2001) sang Đại hội XII (2016)."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nêu rõ: Đại hội IV (1976), nhận thức của Đảng về CNXH mới dừng ở mức độ định hướng. Đến Đại hội VII (1991), nhận thức đã sáng tỏ hơn, không chỉ dừng ở định hướng, định tính mà từng bước đạt tới trình độ định hình, định lượng với 6 đặc trưng trong Cương lĩnh 1991."
+    },
+    {
+      "id": 27,
+      "difficulty": "hard",
+      "question": "So với 6 đặc trưng trong Cương lĩnh 1991, Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (bổ sung, phát triển năm 2011) tại Đại hội XI đã bổ sung thêm hai đặc trưng mới nào?",
+      "options": {
+        "A": "Đặc trưng về phát triển kinh tế số quốc gia và đặc trưng về hội nhập kinh tế xanh tuần hoàn.",
+        "B": "Đặc trưng về công nghiệp hóa nông thôn và đặc trưng về xóa bỏ hoàn toàn các thành phần kinh tế tư nhân.",
+        "C": "Đặc trưng thứ nhất ('Dân giàu, nước mạnh, dân chủ, công bằng, văn minh') và đặc trưng thứ bảy ('Có Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân do Đảng Cộng sản lãnh đạo').",
+        "D": "Đặc trưng về liên minh công - nông - trí và đặc trưng về xây dựng nền kinh tế độc lập tự chủ khép kín."
+      },
+      "correct_answer": "C",
+      "explanation": "Đối chiếu 6 đặc trưng năm 1991 và 8 đặc trưng năm 2011 cho thấy Cương lĩnh 2011 đã bổ sung 2 đặc trưng mới: (1) 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh' (làm đặc trưng thứ nhất) và (7) 'Có Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân do Đảng Cộng sản lãnh đạo'."
+    },
+    {
+      "id": 28,
+      "difficulty": "hard",
+      "question": "Khi đối chiếu đặc trưng về phương diện kinh tế giữa Cương lĩnh 1991 và Cương lĩnh 2011, điểm bổ sung và phát triển lý luận quan trọng nhất nằm ở cụm từ nào?",
+      "options": {
+        "A": "Thay cụm từ 'lực lượng sản xuất hiện đại' bằng 'kinh tế nông nghiệp tiểu nông'.",
+        "B": "Bổ sung yêu cầu 'xóa bỏ hoàn toàn kinh tế thị trường trong mọi lĩnh vực sản xuất'.",
+        "C": "Thay cụm từ 'nền kinh tế phát triển cao' bằng 'nền kinh tế tăng trưởng tự phát'.",
+        "D": "Chuyển từ 'chế độ công hữu về các tư liệu sản xuất chủ yếu' (năm 1991) thành 'quan hệ sản xuất tiến bộ phù hợp' (năm 2011)."
+      },
+      "correct_answer": "D",
+      "explanation": "Năm 1991 ghi: 'Có một nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về các tư liệu sản xuất chủ yếu'. Đến Cương lĩnh 2011 phát triển thành: 'Có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và quan hệ sản xuất tiến bộ phù hợp'."
+    },
+    {
+      "id": 29,
+      "difficulty": "easy",
+      "question": "Trong 8 đặc trưng bản chất của chủ nghĩa xã hội ở Việt Nam theo Cương lĩnh 2011, đặc trưng thứ hai khẳng định bản chất chính trị của xã hội mới là gì?",
+      "options": {
+        "A": "Do nhân dân làm chủ.",
+        "B": "Có nền văn hóa tiên tiến, đậm đà bản sắc dân tộc.",
+        "C": "Con người có cuộc sống ấm no, tự do, hạnh phúc.",
+        "D": "Có quan hệ hữu nghị và hợp tác với các nước trên thế giới."
+      },
+      "correct_answer": "A",
+      "explanation": "8 đặc trưng trong Cương lĩnh 2011 lần lượt là: (1) Dân giàu, nước mạnh, dân chủ, công bằng, văn minh; (2) Do nhân dân làm chủ; (3) Có nền kinh tế phát triển cao...; (4) Có nền văn hóa tiên tiến...; (5) Con người có cuộc sống ấm no...; (6) Các dân tộc trong cộng đồng Việt Nam bình đẳng...; (7) Có Nhà nước pháp quyền XHCN...; (8) Có quan hệ hữu nghị và hợp tác..."
+    },
+    {
+      "id": 30,
+      "difficulty": "medium",
+      "question": "Trong 8 phương hướng cơ bản xây dựng chủ nghĩa xã hội ở nước ta được xác định tại Đại hội XI, phương hướng 'Một là' đề cập trực tiếp đến nhiệm vụ chiến lược nào?",
+      "options": {
+        "A": "Xây dựng Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân.",
+        "B": "Đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước gắn với phát triển kinh tế tri thức, bảo vệ tài nguyên, môi trường.",
+        "C": "Thực hiện đường lối đối ngoại độc lập, tự chủ, hòa bình, hữu nghị, hợp tác và phát triển.",
+        "D": "Xây dựng Đảng trong sạch, vững mạnh về chính trị, tư tưởng và tổ chức."
+      },
+      "correct_answer": "B",
+      "explanation": "Phương hướng 'Một là' trong 8 phương hướng tại Đại hội XI là: 'Đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước gắn với phát triển kinh tế tri thức, bảo vệ tài nguyên, môi trường'."
+    },
+    {
+      "id": 31,
+      "difficulty": "hard",
+      "question": "So với 8 mối quan hệ lớn được xác định trong Cương lĩnh 2011, định hướng thứ (12) của Đại hội XIII (2021) đã bổ sung thêm hai mối quan hệ lớn mới nào để hoàn thiện thành 10 mối quan hệ lớn?",
+      "options": {
+        "A": "Quan hệ giữa công nghiệp và nông nghiệp; và quan hệ giữa thành thị và nông thôn.",
+        "B": "Quan hệ giữa trung ương và địa phương; và quan hệ giữa giáo dục và khoa học công nghệ.",
+        "C": "Quan hệ giữa Nhà nước, thị trường và xã hội; và quan hệ giữa thực hành dân chủ và tăng cường pháp chế, bảo đảm kỷ cương xã hội.",
+        "D": "Quan hệ giữa kinh tế nhà nước và kinh tế tập thể; và quan hệ giữa quốc phòng và ngoại giao."
+      },
+      "correct_answer": "C",
+      "explanation": "Cương lĩnh 2011 nêu 8 mối quan hệ lớn. Đến định hướng (12) của Đại hội XIII (2021), Đảng bổ sung 2 mối quan hệ lớn mới là: giữa Nhà nước, thị trường và xã hội; và giữa thực hành dân chủ và tăng cường pháp chế, bảo đảm kỷ cương xã hội (cùng việc bổ sung yếu tố bảo vệ môi trường vào quan hệ tăng trưởng kinh tế - văn hóa - công bằng xã hội)."
+    },
+    {
+      "id": 32,
+      "difficulty": "easy",
+      "question": "Theo mục tiêu phát triển cụ thể của Đại hội XIII, đến năm 2025 (kỷ niệm 50 năm giải phóng hoàn toàn miền Nam, thống nhất đất nước), Việt Nam phấn đấu đạt vị thế phát triển nào?",
+      "options": {
+        "A": "Trở thành nước phát triển, thu nhập cao.",
+        "B": "Là nước đang phát triển, có công nghiệp hiện đại, thu nhập trung bình cao.",
+        "C": "Là nước công nghiệp hóa hoàn toàn, đứng đầu khu vực châu Á về GDP bình quân đầu người.",
+        "D": "Là nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập trung bình thấp."
+      },
+      "correct_answer": "D",
+      "explanation": "Đại hội XIII xác định mục tiêu đến năm 2025 (kỷ niệm 50 năm giải phóng hoàn toàn miền Nam, thống nhất đất nước): Là nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập trung bình thấp."
+    },
+    {
+      "id": 33,
+      "difficulty": "easy",
+      "question": "Theo Đại hội XIII của Đảng, mục tiêu phát triển cụ thể đến năm 2030 (kỷ niệm 100 năm thành lập Đảng) của Việt Nam là gì?",
+      "options": {
+        "A": "Là nước đang phát triển, có công nghiệp hiện đại, thu nhập trung bình cao.",
+        "B": "Là nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập trung bình thấp.",
+        "C": "Trở thành nước phát triển hoàn toàn, thu nhập cao.",
+        "D": "Hoàn thành cơ bản quá trình chuyển sang nền kinh tế chỉ huy tập trung."
+      },
+      "correct_answer": "A",
+      "explanation": "Đại hội XIII xác định mục tiêu đến năm 2030 (kỷ niệm 100 năm thành lập Đảng): Là nước đang phát triển, có công nghiệp hiện đại, thu nhập trung bình cao."
+    },
+    {
+      "id": 34,
+      "difficulty": "medium",
+      "question": "Theo Đại hội XIII của Đảng, tầm nhìn mục tiêu phát triển cụ thể đến năm 2045 (kỷ niệm 100 năm thành lập nước Việt Nam Dân chủ Cộng hòa, nay là nước Cộng hòa xã hội chủ nghĩa Việt Nam) là gì?",
+      "options": {
+        "A": "Vượt qua mức thu nhập trung bình thấp và bước đầu hình thành công nghiệp theo hướng hiện đại.",
+        "B": "Trở thành nước phát triển, thu nhập cao.",
+        "C": "Đạt mức thu nhập trung bình cao với công nghiệp hiện đại.",
+        "D": "Trở thành nước nông nghiệp sinh thái có mức thu nhập trung bình."
+      },
+      "correct_answer": "B",
+      "explanation": "Đại hội XIII xác định mục tiêu đến năm 2045 (kỷ niệm 100 năm thành lập nước): Trở thành nước phát triển, thu nhập cao."
+    },
+    {
+      "id": 35,
+      "difficulty": "hard",
+      "question": "Trong 12 định hướng phát triển đất nước giai đoạn 2021–2030 của Đại hội XIII, định hướng thứ (4) xác định nội dung cốt lõi nào về vai trò của văn hóa và con người Việt Nam?",
+      "options": {
+        "A": "Văn hóa chỉ đóng vai trò phản ánh thụ động sau khi kinh tế đã đạt mức thu nhập cao.",
+        "B": "Lấy phát triển kinh tế thuần túy làm mục tiêu duy nhất, tạm gác đầu tư cho văn hóa và con người đến sau năm 2045.",
+        "C": "Văn hóa, con người Việt Nam thực sự trở thành sức mạnh nội sinh, động lực phát triển đất nước và bảo vệ Tổ quốc; tài năng, trí tuệ, phẩm chất của con người Việt Nam là trung tâm, mục tiêu và động lực phát triển quan trọng nhất của đất nước.",
+        "D": "Tiếp nhận toàn bộ giá trị văn hóa phương Tây để thay thế các giá trị truyền thống yêu nước của dân tộc."
+      },
+      "correct_answer": "C",
+      "explanation": "Định hướng (4) trong Văn kiện Đại hội XIII khẳng định: phát triển con người toàn diện và xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc để văn hóa, con người thực sự trở thành sức mạnh nội sinh, động lực phát triển đất nước và bảo vệ Tổ quốc; tài năng, trí tuệ, phẩm chất con người Việt Nam là trung tâm, mục tiêu và động lực phát triển quan trọng nhất."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Nêu 4 góc độ tiếp cận chủ nghĩa xã hội theo Giáo trình Chủ nghĩa xã hội khoa học (2021).",
+      "expected_answer": "1) Là phong trào thực tiễn đấu tranh của nhân dân lao động chống áp bức, bất công, chống giai cấp thống trị.\n2) Là trào lưu tư tưởng, lý luận phản ánh lý tưởng giải phóng nhân dân lao động.\n3) Là một khoa học (chủ nghĩa xã hội khoa học là khoa học về sứ mệnh lịch sử của giai cấp công nhân).\n4) Là một chế độ xã hội tốt đẹp, giai đoạn đầu của hình thái kinh tế - xã hội cộng sản chủ nghĩa.",
+      "explanation": "Bốn góc độ tiếp cận này giúp phân biệt CNXH dưới góc độ phong trào, học thuyết, khoa học và chế độ xã hội hiện thực."
+    },
+    {
+      "id": 2,
+      "question": "Trình bày cách phân kỳ hình thái kinh tế - xã hội cộng sản chủ nghĩa của C. Mác trong tác phẩm 'Phê phán Cương lĩnh Gôta' (1875).",
+      "expected_answer": "C. Mác và Ph. Ăngghen chia hình thái KT-XH cộng sản chủ nghĩa thành 2 giai đoạn: giai đoạn thấp (chủ nghĩa xã hội) và giai đoạn cao (chủ nghĩa cộng sản). Giữa xã hội tư bản chủ nghĩa và xã hội cộng sản chủ nghĩa là một thời kỳ cải biến cách mạng – thời kỳ quá độ chính trị, mà nhà nước của thời kỳ ấy không thể là cái gì khác hơn là nền chuyên chính cách mạng của giai cấp vô sản.",
+      "explanation": "Theo Mác, xã hội vừa thoát thai từ CNTB còn mang dấu vết của xã hội cũ về kinh tế, đạo đức, tinh thần."
+    },
+    {
+      "id": 3,
+      "question": "V.I. Lênin phân biệt 2 nghĩa của thời kỳ quá độ từ chủ nghĩa tư bản lên chủ nghĩa cộng sản như thế nào?",
+      "expected_answer": "- Nghĩa thứ nhất: Đối với các nước chưa trải qua chủ nghĩa tư bản phát triển, cần có thời kỳ quá độ khá lâu dài từ chủ nghĩa tư bản lên chủ nghĩa xã hội – được Lênin gọi là 'những cơn đau đẻ kéo dài'.\n- Nghĩa thứ hai: Đối với những nước đã trải qua chủ nghĩa tư bản phát triển, giữa CNTB và CNCS có một thời kỳ quá độ nhất định để cải biến cách mạng từ xã hội này sang xã hội kia.",
+      "explanation": "Hai nghĩa này bổ sung cho quan điểm của C. Mác khi vận dụng vào điều kiện thực tiễn nước Nga đầu thế kỷ XX."
+    },
+    {
+      "id": 4,
+      "question": "Tóm tắt điều kiện kinh tế và điều kiện chính trị - xã hội dẫn tới sự ra đời của chủ nghĩa xã hội.",
+      "expected_answer": "- Điều kiện kinh tế: Dưới CNTB (nhất là từ CMCN lần thứ hai), lực lượng sản xuất phát triển vượt bậc mang tính xã hội hóa cao, mâu thuẫn gay gắt với QHSX chiếm hữu tư nhân TBCN.\n- Điều kiện chính trị - xã hội: Mâu thuẫn kinh tế biểu hiện thành mâu thuẫn giữa giai cấp công nhân hiện đại với giai cấp tư sản lỗi thời; GCCN trưởng thành với sự ra đời của Đảng Cộng sản trực tiếp lãnh đạo cuộc cách mạng vô sản để thiết lập CNXH.",
+      "explanation": "Hai tiền đề vật chất quan trọng nhất là sự phát triển của lực lượng sản xuất và sự trưởng thành của giai cấp công nhân."
+    },
+    {
+      "id": 5,
+      "question": "Nêu quan điểm của giáo trình về con đường bạo lực cách mạng và con đường hòa bình trong cách mạng vô sản.",
+      "expected_answer": "Cách mạng vô sản trên thực tế được thực hiện bằng con đường bạo lực cách mạng nhằm lật đổ chế độ TBCN, thiết lập nhà nước chuyên chính vô sản. Về mặt lý thuyết, cách mạng vô sản cũng có thể tiến hành bằng con đường hòa bình, nhưng vô cùng hiếm, quý và trên thực tế chưa từng xảy ra.",
+      "explanation": "Cách mạng vô sản chỉ thành công khi tính tích cực chính trị của GCCN được phát huy trong liên minh với các tầng lớp lao động dưới sự lãnh đạo của Đảng Cộng sản."
+    },
+    {
+      "id": 6,
+      "question": "Liệt kê 6 đặc trưng bản chất của chủ nghĩa xã hội theo quan điểm của chủ nghĩa Mác - Lênin.",
+      "expected_answer": "1) Giải phóng giai cấp, dân tộc, xã hội, con người, tạo điều kiện phát triển toàn diện. 2) Có nền kinh tế phát triển cao dựa trên LLSX hiện đại và chế độ công hữu về TLSX chủ yếu.\n3) Là chế độ xã hội do nhân dân lao động làm chủ. 4) Có nhà nước kiểu mới mang bản chất giai cấp công nhân.\n5) Có nền văn hóa phát triển cao, kế thừa giá trị dân tộc và tinh hoa nhân loại. 6) Bảo đảm bình đẳng, đoàn kết giữa các dân tộc và quan hệ hữu nghị, hợp tác quốc tế.",
+      "explanation": "Sáu đặc trưng này phản ánh toàn diện bản chất nhân văn, kinh tế, chính trị, văn hóa và đối ngoại của CNXH."
+    },
+    {
+      "id": 7,
+      "question": "Vì sao Ph. Ăngghen khẳng định không thể thủ tiêu ngay lập tức chế độ tư hữu trong giai đoạn đầu của xã hội cộng sản chủ nghĩa?",
+      "expected_answer": "Ph. Ăngghen khẳng định không thể thủ tiêu ngay chế độ tư hữu vì cũng không thể làm cho lực lượng sản xuất hiện có tăng lên ngay lập tức đến mức cần thiết để xây dựng nền kinh tế công hữu. Cuộc cách mạng vô sản chỉ có thể cải tạo xã hội một cách dần dần và chỉ khi tạo đủ khối lượng tư liệu sản xuất cần thiết mới thủ tiêu được chế độ tư hữu.",
+      "explanation": "Việc xác lập chế độ công hữu phải tương ứng với trình độ phát triển của lực lượng sản xuất."
+    },
+    {
+      "id": 8,
+      "question": "Giải thích luận điểm 'bắc những chiếc cầu nhỏ vững chắc' và công thức tổng số về chủ nghĩa xã hội của V.I. Lênin.",
+      "expected_answer": "Đối với các nước tiểu nông chưa qua CNTB tiến lên CNXH, V.I. Lênin yêu cầu phải 'bắc những chiếc cầu nhỏ vững chắc' đi xuyên qua chủ nghĩa tư bản nhà nước (vốn dưới Chính quyền Xôviết có thể là '3/4 chủ nghĩa xã hội'). Đồng thời phải học hỏi kinh nghiệm phát triển theo công thức: Chính quyền Xôviết + trật tự đường sắt Phổ + kỹ thuật, tổ chức tơ-rớt Mỹ + giáo dục quốc dân Mỹ... = chủ nghĩa xã hội.",
+      "explanation": "Đây là tư tưởng sáng tạo của V.I. Lênin về việc tận dụng thành tựu tổ chức, kỹ thuật của CNTB để xây dựng CNXH."
+    },
+    {
+      "id": 9,
+      "question": "Nêu 3 nội dung nguyên tắc trong Cương lĩnh về vấn đề dân tộc của V.I. Lênin và khẩu hiệu đoàn kết quốc tế của Người.",
+      "expected_answer": "Ba nội dung có tính nguyên tắc trong Cương lĩnh dân tộc của V.I. Lênin là: (1) Các dân tộc hoàn toàn bình đẳng; (2) Các dân tộc được quyền tự quyết; (3) Liên hiệp công nhân tất cả các dân tộc lại. Trên tinh thần đó, Người đưa ra khẩu hiệu: 'Vô sản tất cả các nước và các dân tộc bị áp bức, đoàn kết lại!'.",
+      "explanation": "Giải quyết vấn đề dân tộc theo Cương lĩnh Lênin dựa trên mối quan hệ biện chứng giữa giải phóng giai cấp và giải phóng dân tộc."
+    },
+    {
+      "id": 10,
+      "question": "Vì sao thời kỳ quá độ lên chủ nghĩa xã hội là một tất yếu khách quan?",
+      "expected_answer": "Vì hình thái KT-XH cộng sản chủ nghĩa khác biệt về chất so với mọi hình thái trước đó (không có giai cấp đối kháng, con người từng bước tự do), nên không thể tự nhiên có ngay bằng phép màu 'cầu được ước thấy'. Giai cấp vô sản tất yếu phải có thời gian để cải tạo xã hội cũ do giai cấp bóc lột dựng lên và xây dựng lâu dài trên nền móng mới của chủ nghĩa xã hội.",
+      "explanation": "Cả C. Mác và V.I. Lênin đều khẳng định giữa CNTB và CNCS tất yếu có một thời kỳ quá độ nhất định."
+    },
+    {
+      "id": 11,
+      "question": "Phân biệt quá độ trực tiếp và quá độ gián tiếp lên chủ nghĩa xã hội cùng cơ sở lý luận của con đường rút ngắn.",
+      "expected_answer": "- Quá độ trực tiếp: Từ CNTB phát triển tiến lên CNCS (đến nay chưa từng diễn ra).\n- Quá độ gián tiếp: Từ những nước chưa trải qua CNTB phát triển tiến lên CNXH (như Liên Xô, Đông Âu trước đây, Trung Quốc, Việt Nam).\nCơ sở lý luận: Với sự giúp đỡ của GCVS đã chiến thắng ở các nước tiên tiến cùng lợi thế toàn cầu hóa và CMCN 4.0, các nước lạc hậu có thể rút ngắn quá trình phát triển mà không qua giai đoạn TBCN.",
+      "explanation": "Con đường quá độ gián tiếp rút ngắn đòi hỏi thời kỳ lâu dài, quanh co với nhiều bước đi quá độ trung gian."
+    },
+    {
+      "id": 12,
+      "question": "Nêu thực chất của thời kỳ quá độ lên chủ nghĩa xã hội và liệt kê 5 thành phần kinh tế ở nước Nga theo V.I. Lênin.",
+      "expected_answer": "Thực chất của thời kỳ quá độ là thời kỳ cải biến cách mạng từ xã hội tiền TBCN và TBCN sang xã hội XHCN, với sự đan xen của nhiều tàn dư xã hội cũ và những yếu tố mới mang tính chất XHCN mới phát sinh. Ở nước Nga, V.I. Lênin xác định tồn tại 5 thành phần kinh tế: (1) Kinh tế gia trưởng; (2) Kinh tế hàng hóa nhỏ; (3) Kinh tế tư bản; (4) Kinh tế tư bản nhà nước; (5) Kinh tế xã hội chủ nghĩa.",
+      "explanation": "Thời kỳ quá độ bắt đầu từ khi giai cấp công nhân và nhân dân lao động giành chính quyền đến khi xây dựng thành công CNXH."
+    },
+    {
+      "id": 13,
+      "question": "Trình bày điều kiện mới, nội dung mới và hình thức mới của cuộc đấu tranh giai cấp trên lĩnh vực chính trị trong thời kỳ quá độ.",
+      "expected_answer": "Trong thời kỳ quá độ, nhà nước chuyên chính vô sản thực hiện dân chủ với nhân dân và chuyên chính với thế lực thù địch. Cuộc đấu tranh giai cấp tiếp diễn với: (1) Điều kiện mới: giai cấp công nhân đã trở thành giai cấp cầm quyền; (2) Nội dung mới: xây dựng toàn diện xã hội mới, trọng tâm là xây dựng nhà nước có tính kinh tế; (3) Hình thức mới: cơ bản là hòa bình tổ chức xây dựng.",
+      "explanation": "Đây là cuộc đấu tranh giữa giai cấp vô sản đã chiến thắng nhưng chưa toàn thắng với giai cấp tư sản đã thất bại nhưng chưa thất bại hoàn toàn."
+    },
+    {
+      "id": 14,
+      "question": "Tóm tắt đặc điểm cơ bản trên lĩnh vực tư tưởng - văn hóa và lĩnh vực xã hội trong thời kỳ quá độ lên chủ nghĩa xã hội.",
+      "expected_answer": "- Tư tưởng - văn hóa: Tồn tại nhiều tư tưởng khác nhau (chủ yếu là tư tưởng vô sản và tư sản); ĐCS từng bước xây dựng văn hóa mới XHCN, kế thừa văn hóa dân tộc và tinh hoa nhân loại.\n- Xã hội: Kết cấu kinh tế nhiều thành phần quy định tồn tại nhiều giai cấp, tầng lớp (vừa hợp tác, vừa đấu tranh), còn khác biệt nông thôn - thành thị, lao động trí óc - chân tay; thực hiện công bằng xã hội trên cơ sở phân phối theo lao động là chủ đạo.",
+      "explanation": "Bốn lĩnh vực kinh tế, chính trị, tư tưởng - văn hóa, xã hội tác động qua lại lẫn nhau trong suốt thời kỳ quá độ."
+    },
+    {
+      "id": 15,
+      "question": "Nêu 3 đặc trưng bối cảnh xuất phát điểm của Việt Nam khi bước vào thời kỳ quá độ lên chủ nghĩa xã hội.",
+      "expected_answer": "1) Xuất phát từ xã hội vốn là thuộc địa, nửa phong kiến, LLSX rất thấp, hậu quả chiến tranh nặng nề, tàn dư cũ nhiều và thế lực thù địch thường xuyên chống phá.\n2) Cách mạng KH&CN hiện đại và quá trình quốc tế hóa sâu sắc vừa tạo thời cơ phát triển nhanh vừa đặt ra thách thức gay gắt.\n3) Thời đại ngày nay vẫn là thời đại quá độ từ CNTB lên CNXH (dù Liên Xô, Đông Âu sụp đổ); các nước vừa hợp tác vừa đấu tranh, cạnh tranh gay gắt vì lợi ích quốc gia, dân tộc.",
+      "explanation": "Ba đặc trưng này cho thấy Việt Nam tiến lên CNXH trong điều kiện vừa thuận lợi vừa khó khăn đan xen."
+    },
+    {
+      "id": 16,
+      "question": "Trình bày 4 nội dung nhận thức đầy đủ của Đảng (Đại hội IX) về con đường quá độ lên CNXH 'bỏ qua chế độ tư bản chủ nghĩa' ở Việt Nam.",
+      "expected_answer": "1) Là con đường cách mạng tất yếu khách quan để xây dựng đất nước trong thời kỳ quá độ ở nước ta.\n2) Bỏ qua việc xác lập vị trí thống trị của QHSX và kiến trúc thượng tầng TBCN (vẫn còn nhiều hình thức sở hữu, nhiều thành phần kinh tế, nhiều hình thức phân phối và còn quan hệ bóc lột, nhưng sở hữu, thành phần kinh tế và bóc lột TBCN không giữ vai trò thống trị/chủ đạo).\n3) Tiếp thu, kế thừa thành tựu nhân loại dưới CNTB, nhất là KH&CN và quản lý phát triển xã hội để xây dựng kinh tế hiện đại.\n4) Tạo ra sự biến đổi về chất trên mọi lĩnh vực, là sự nghiệp khó khăn, phức tạp, lâu dài với nhiều chặng đường.",
+      "explanation": "Nhận thức này khắc phục tư duy nóng vội, chủ quan, duy ý chí trước Đổi mới."
+    },
+    {
+      "id": 17,
+      "question": "Chỉ ra những điểm bổ sung, phát triển quan trọng nhất của 8 đặc trưng trong Cương lĩnh 2011 so với 6 đặc trưng trong Cương lĩnh 1991.",
+      "expected_answer": "- Bổ sung 2 đặc trưng mới: (1) 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh' (làm mục tiêu tổng quát đầu tiên) và (7) 'Có Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân do Đảng Cộng sản lãnh đạo'.\n- Phát triển nội hàm các đặc trưng còn lại: mở rộng chủ thể làm chủ từ 'nhân dân lao động' (1991) thành 'nhân dân' (2011); chuyển 'chế độ công hữu về các TLSX chủ yếu' (1991) thành 'quan hệ sản xuất tiến bộ phù hợp' (2011); bổ sung yếu tố 'tôn trọng' trong quan hệ các dân tộc.",
+      "explanation": "Cương lĩnh 2011 là kết quả tổng kết 25 năm đổi mới, làm rõ hơn mô hình CNXH Việt Nam."
+    },
+    {
+      "id": 18,
+      "question": "Liệt kê 8 phương hướng cơ bản xây dựng chủ nghĩa xã hội ở Việt Nam được xác định tại Đại hội XI của Đảng.",
+      "expected_answer": "1) Đẩy mạnh CNH, HĐH gắn với phát triển kinh tế tri thức, bảo vệ tài nguyên, môi trường. 2) Phát triển nền kinh tế thị trường định hướng XHCN.\n3) Xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc; xây dựng con người, nâng cao đời sống, thực hiện tiến bộ, công bằng xã hội. 4) Bảo đảm vững chắc quốc phòng, an ninh quốc gia, trật tự an toàn xã hội.\n5) Thực hiện đối ngoại độc lập, tự chủ, hòa bình, hữu nghị, hợp tác, phát triển; chủ động tích cực hội nhập quốc tế. 6) Xây dựng nền dân chủ XHCN, đại đoàn kết toàn dân tộc.\n7) Xây dựng Nhà nước pháp quyền XHCN của nhân dân, do nhân dân, vì nhân dân. 8) Xây dựng Đảng trong sạch, vững mạnh.",
+      "explanation": "Tám phương hướng tại Đại hội XI kế thừa và phát triển từ bảy phương hướng trong Cương lĩnh 1991."
+    },
+    {
+      "id": 19,
+      "question": "Kể tên 8 mối quan hệ lớn trong Cương lĩnh 2011 và 2 mối quan hệ lớn được Đại hội XIII (2021) bổ sung thành 10 mối quan hệ lớn.",
+      "expected_answer": "- 8 mối quan hệ lớn (Cương lĩnh 2011): (1) đổi mới, ổn định và phát triển; (2) đổi mới kinh tế và đổi mới chính trị; (3) kinh tế thị trường và định hướng XHCN; (4) phát triển LLSX và hoàn thiện QHSX XHCN; (5) tăng trưởng kinh tế và phát triển văn hóa, tiến bộ và công bằng xã hội; (6) xây dựng CNXH và bảo vệ Tổ quốc XHCN; (7) độc lập, tự chủ và hội nhập quốc tế; (8) Đảng lãnh đạo, Nhà nước quản lý, nhân dân làm chủ.\n- Đại hội XIII bổ sung 2 mối quan hệ mới: (9) giữa Nhà nước, thị trường và xã hội; (10) giữa thực hành dân chủ và tăng cường pháp chế, bảo đảm kỷ cương xã hội (đồng thời bổ sung 'bảo vệ môi trường' vào cặp tăng trưởng kinh tế - văn hóa).",
+      "explanation": "Việc giải quyết các mối quan hệ lớn đòi hỏi tư duy biện chứng, không phiến diện, cực đoan, duy ý chí."
+    },
+    {
+      "id": 20,
+      "question": "Nêu 3 mốc mục tiêu phát triển cụ thể đến năm 2025, 2030 và 2045 được Đại hội XIII (2021) của Đảng xác định.",
+      "expected_answer": "- Đến năm 2025 (kỷ niệm 50 năm giải phóng hoàn toàn miền Nam, thống nhất đất nước): Là nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập trung bình thấp.\n- Đến năm 2030 (kỷ niệm 100 năm thành lập Đảng): Là nước đang phát triển, có công nghiệp hiện đại, thu nhập trung bình cao.\n- Đến năm 2045 (kỷ niệm 100 năm thành lập nước CHXHCN Việt Nam): Trở thành nước phát triển, thu nhập cao.",
+      "explanation": "Ba cột mốc này cụ thể hóa khát vọng phát triển đất nước phồn vinh, hạnh phúc theo định hướng XHCN đến giữa thế kỷ XXI."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phân tích Điều kiện Ra đời và 6 Đặc trưng Bản chất của Chủ nghĩa Xã hội theo Chủ nghĩa Mác - Lênin",
+      "problem": "Dựa vào học thuyết hình thái kinh tế - xã hội của chủ nghĩa Mác - Lênin trong Giáo trình CNXHKH (2021), hãy phân tích:\n1. Cách phân kỳ hình thái kinh tế - xã hội cộng sản chủ nghĩa của C. Mác và hai nghĩa của thời kỳ quá độ theo V.I. Lênin.\n2. Hai điều kiện tất yếu dẫn tới sự ra đời của chủ nghĩa xã hội (kinh tế và chính trị - xã hội).\n3. Sáu đặc trưng bản chất của chủ nghĩa xã hội và ý nghĩa nhận thức về mục tiêu phát triển đất nước hiện nay.",
+      "solution_steps": [
+        "Bước 1: Trình bày phân kỳ hình thái KT-XH cộng sản chủ nghĩa và 2 nghĩa của thời kỳ quá độ\n- C. Mác và Ph. Ăngghen xác định sự thay thế CNTB bằng CSCN là quá trình lịch sử - tự nhiên qua cách mạng XHCN từ 2 tiền đề vật chất: phát triển của LLSX và trưởng thành của GCCN.\n- Trong 'Phê phán Cương lĩnh Gôta' (1875), C. Mác chia hình thái KT-XH CSCN thành giai đoạn thấp (CNXH) và giai đoạn cao (CNCS); giữa CNTB và CNCS là thời kỳ quá độ chính trị với nhà nước chuyên chính cách mạng của giai cấp vô sản (xã hội mới thoát thai còn mang dấu vết xã hội cũ về kinh tế, đạo đức, tinh thần).\n- V.I. Lênin phân biệt 2 nghĩa của thời kỳ quá độ: (1) Với các nước chưa qua CNTB phát triển, là thời kỳ quá độ khá lâu dài lên CNXH - 'những cơn đau đẻ kéo dài'; (2) Với các nước đã qua CNTB phát triển, là một thời kỳ cải biến cách mạng nhất định lên CNCS.",
+        "Bước 2: Phân tích hai điều kiện ra đời chủ nghĩa xã hội\n- Điều kiện kinh tế: CNTB nhờ công nghiệp cơ khí (CMCN lần thứ hai) đã tạo ra LLSX đồ sộ mang tính xã hội hóa cao; nhưng LLSX xã hội hóa cao lại mâu thuẫn gay gắt với QHSX dựa trên chế độ chiếm hữu tư nhân TBCN, biến QHSX từ chỗ mở đường thành xiềng xích của LLSX.\n- Điều kiện chính trị - xã hội: Mâu thuẫn kinh tế biểu hiện về mặt xã hội là mâu thuẫn đối kháng giữa GCCN hiện đại và GCTS lỗi thời. GCCN trưởng thành vượt bậc về số lượng, chất lượng và được đánh dấu bằng sự ra đời của Đảng Cộng sản. Hình thái KT-XH CSCN không tự nhiên ra đời mà chỉ hình thành thông qua cách mạng vô sản (trên thực tế bằng bạo lực cách mạng; về lý thuyết có thể bằng hòa bình nhưng vô cùng hiếm và thực tế chưa xảy ra) trong liên minh với các tầng lớp lao động khác.",
+        "Bước 3: Phân tích 6 đặc trưng bản chất của chủ nghĩa xã hội\n1. Giải phóng giai cấp, dân tộc, xã hội, con người, tạo điều kiện con người phát triển toàn diện (tiến tới 'sự phát triển tự do của mỗi người là điều kiện cho sự phát triển tự do của tất cả mọi người' và mục tiêu cuối cùng ở giai đoạn cao là 'làm theo năng lực, hưởng theo nhu cầu').\n2. Có nền kinh tế phát triển cao dựa trên LLSX hiện đại và chế độ công hữu về TLSX chủ yếu, phân phối chủ yếu theo lao động (Ph. Ăngghen nhấn mạnh cải tạo tư hữu dần dần khi đủ TLSX; V.I. Lênin nhấn mạnh nâng cao năng suất lao động, 'bắc những chiếc cầu nhỏ vững chắc' qua CNTB nhà nước và học hỏi kỹ thuật, tổ chức từ các nước phát triển).\n3. Là chế độ xã hội do nhân dân lao động làm chủ (dân chủ vô sản gấp triệu lần dân chủ tư sản).\n4. Có nhà nước kiểu mới mang bản chất GCCN (nhà nước chuyên chính vô sản: mở rộng dân chủ cho tuyệt đại đa số nhân dân và trấn áp thế lực bóc lột chống phá).\n5. Có nền văn hóa phát triển cao, kế thừa giá trị văn hóa dân tộc và tinh hoa văn hóa nhân loại (xây dựng 'văn hóa vô sản' trên kho tàng tri thức nhân loại, chống văn hóa phi vô sản).\n6. Bảo đảm bình đẳng, đoàn kết giữa các dân tộc (3 nguyên tắc Cương lĩnh dân tộc của V.I. Lênin: bình đẳng, tự quyết, liên hiệp công nhân các dân tộc) và quan hệ hữu nghị, hợp tác quốc tế.",
+        "Bước 4: Ý nghĩa phương pháp luận đối với thực tiễn hiện nay\n- Khẳng định con đường đi lên CNXH là tất yếu khách quan chứ không phải sản phẩm chủ quan duy ý chí.\n- Việc xây dựng chế độ công hữu và xóa bỏ tư hữu không thể nóng vội bằng mệnh lệnh hành chính mà phải gắn chặt với trình độ phát triển thực tế của LLSX và năng suất lao động xã hội."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Phân tích Tính Tất yếu Khách quan, Hai Loại hình và 4 Đặc điểm Cơ bản của Thời kỳ Quá độ lên Chủ nghĩa Xã hội",
+      "problem": "Hãy phân tích toàn diện lý luận của chủ nghĩa Mác - Lênin về thời kỳ quá độ lên chủ nghĩa xã hội:\n1. Vì sao thời kỳ quá độ là một tất yếu khách quan?\n2. Phân biệt hai loại hình quá độ (trực tiếp và gián tiếp) và cơ sở lý luận của con đường rút ngắn.\n3. Thực chất và 4 đặc điểm cơ bản của thời kỳ quá độ trên các lĩnh vực kinh tế, chính trị, tư tưởng - văn hóa và xã hội.",
+      "solution_steps": [
+        "Bước 1: Luận giải tính tất yếu khách quan của thời kỳ quá độ lên CNXH\n- Trong 5 hình thái KT-XH (cộng sản nguyên thủy, chiếm hữu nô lệ, phong kiến, tư bản chủ nghĩa, cộng sản chủ nghĩa), hình thái CSCN có sự khác biệt về chất (không có giai cấp đối kháng, con người từng bước tự do).\n- Không thể có phép màu 'cầu được ước thấy' để chuyển ngay từ xã hội cũ sang xã hội CNXH hoàn chỉnh; giai cấp vô sản cần có một thời kỳ quá độ chính trị lâu dài để cải tạo xã hội cũ do giai cấp bóc lột dựng lên và xây dựng cơ sở vật chất - kỹ thuật, tinh thần cho CNXH.",
+        "Bước 2: Phân biệt 2 loại hình quá độ và cơ sở lý luận của con đường rút ngắn\n- Quá độ trực tiếp: Từ CNTB phát triển cao tiến lên CNCS; trên thực tế lịch sử cho đến nay chưa từng diễn ra.\n- Quá độ gián tiếp: Từ các nước chưa trải qua CNTB phát triển tiến lên CNXH (như Liên Xô, Đông Âu trước đây, Trung Quốc, Việt Nam...).\n- Cơ sở lý luận con đường rút ngắn: C. Mác và Ph. Ăngghen chỉ ra với sự giúp đỡ của GCVS đã chiến thắng, các dân tộc lạc hậu có thể rút ngắn quá trình phát triển lên CNXH; V.I. Lênin khẳng định sau Cách mạng Tháng Mười, các nước lạc hậu có thể tiến tới chế độ Xôviết và CNCS không phải qua giai đoạn phát triển TBCN; ngày nay trong bối cảnh toàn cầu hóa và CMCN lần thứ tư, các nước lạc hậu dưới sự lãnh đạo của Đảng Cộng sản có thể tiến thẳng lên CNXH bỏ qua chế độ TBCN.",
+        "Bước 3: Phân tích thực chất và 4 đặc điểm cơ bản của thời kỳ quá độ\n- Thực chất: Là thời kỳ cải biến cách mạng sâu sắc, triệt để, lâu dài và gian khổ từ khi GCCN và nhân dân lao động giành được chính quyền đến khi xây dựng thành công CNXH; xã hội có sự đan xen tàn dư của xã hội cũ và những yếu tố mới XHCN mới phát sinh.\n- Trên lĩnh vực kinh tế: Tất yếu tồn tại nền kinh tế nhiều thành phần, trong đó có thành phần đối lập (ở nước Nga, V.I. Lênin chỉ ra 5 thành phần: gia trưởng, hàng hóa nhỏ, tư bản, tư bản nhà nước và XHCN).\n- Trên lĩnh vực chính trị: Thiết lập, tăng cường chuyên chính vô sản; tiếp tục cuộc đấu tranh giai cấp trong điều kiện mới (GCCN cầm quyền), nội dung mới (xây dựng toàn diện xã hội mới, trọng tâm là nhà nước có tính kinh tế) và hình thức mới (cơ bản là hòa bình tổ chức xây dựng).\n- Trên lĩnh vực tư tưởng - văn hóa: Tồn tại nhiều hệ tư tưởng (chủ yếu là vô sản và tư sản); ĐCS từng bước xây dựng văn hóa mới XHCN, tiếp thu giá trị dân tộc và tinh hoa nhân loại.\n- Trên lĩnh vực xã hội: Kết cấu kinh tế nhiều thành phần quy định tồn tại nhiều giai cấp, tầng lớp vừa hợp tác vừa đấu tranh; còn khác biệt nông thôn - thành thị, lao động trí óc - chân tay; thiết lập công bằng xã hội lấy phân phối theo lao động làm chủ đạo.",
+        "Bước 4: Rút ra kết luận thực tiễn\n- Thời kỳ quá độ mang tính chất đan xen cũ - mới và kéo dài, đòi hỏi phải kiên trì kết hợp cải tạo xã hội cũ với kiến thiết xã hội mới, tránh nóng vội đốt cháy giai đoạn nhưng cũng không buông lỏng mục tiêu XHCN."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Phân tích Con đường Quá độ lên CNXH 'Bỏ qua Chế độ Tư bản Chủ nghĩa' ở Việt Nam (Đại hội IX)",
+      "problem": "Phân tích luận điểm của Đảng Cộng sản Việt Nam về con đường đi lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa:\n1. Phân tích 3 đặc trưng bối cảnh xuất phát điểm của Việt Nam.\n2. Làm rõ 4 nội dung nhận thức đầy đủ từ Đại hội IX về khái niệm 'bỏ qua chế độ tư bản chủ nghĩa'.\n3. Rút ra ý nghĩa lý luận và thực tiễn đối với công cuộc xây dựng nền kinh tế hiện đại ở Việt Nam hiện nay.",
+      "solution_steps": [
+        "Bước 1: Phân tích 3 đặc trưng bối cảnh xuất phát điểm của Việt Nam\n- Thứ nhất, xuất phát từ một xã hội vốn là thuộc địa, nửa phong kiến, lực lượng sản xuất rất thấp; trải qua chiến tranh ác liệt kéo dài nhiều thập kỷ với hậu quả nặng nề, tàn dư thực dân phong kiến nhiều và các thế lực thù địch thường xuyên chống phá.\n- Thứ hai, cuộc cách mạng khoa học và công nghệ hiện đại cùng quá trình quốc tế hóa sâu sắc nền sản xuất và đời sống xã hội đang diễn ra mạnh mẽ, vừa tạo thời cơ phát triển nhanh vừa đặt ra những thách thức gay gắt.\n- Thứ ba, thời đại ngày nay vẫn là thời đại quá độ từ CNTB lên CNXH dù chế độ XHCN ở Liên Xô và Đông Âu sụp đổ; các nước vừa hợp tác vừa đấu tranh, cạnh tranh gay gắt vì lợi ích quốc gia, dân tộc.",
+        "Bước 2: Khẳng định tính tất yếu khách quan (Nội dung 1 Đại hội IX & Cương lĩnh 1930)\n- Ngay từ Cương lĩnh năm 1930, Đảng ta đã chỉ rõ sau khi hoàn thành cách mạng dân tộc, dân chủ nhân dân sẽ tiến lên chủ nghĩa xã hội.\n- Nội dung thứ nhất của Đại hội IX khẳng định quá độ lên CNXH bỏ qua chế độ TBCN là con đường cách mạng tất yếu khách quan, con đường xây dựng đất nước trong thời kỳ quá độ lên CNXH ở nước ta.",
+        "Bước 3: Phân tích cái 'bỏ qua' và cái 'kế thừa' (Nội dung 2 & 3 Đại hội IX)\n- Nội dung thứ hai (cái 'bỏ qua'): Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa. Do đó trong thời kỳ quá độ còn nhiều hình thức sở hữu, nhiều thành phần kinh tế nhưng sở hữu tư nhân TBCN và kinh tế tư nhân TBCN không chiếm vai trò chủ đạo; còn nhiều hình thức phân phối (ngoài phân phối theo lao động chủ đạo còn phân phối theo mức đóng góp và quỹ phúc lợi xã hội); còn quan hệ bóc lột và bị bóc lột song quan hệ bóc lột TBCN không giữ vai trò thống trị.\n- Nội dung thứ ba (cái 'kế thừa'): Đòi hỏi phải tiếp thu, kế thừa những thành tựu mà nhân loại đã đạt được dưới chủ nghĩa tư bản, đặc biệt là thành tựu về khoa học và công nghệ, thành tựu về quản lý phát triển xã hội để xây dựng nền kinh tế hiện đại, phát triển nhanh lực lượng sản xuất.",
+        "Bước 4: Phân tích tính lâu dài, phức tạp (Nội dung 4 Đại hội IX) và ý nghĩa thực tiễn\n- Nội dung thứ tư: Đây là quá trình tạo ra sự biến đổi về chất của xã hội trên tất cả các lĩnh vực – sự nghiệp rất khó khăn, phức tạp, lâu dài với nhiều chặng đường, nhiều hình thức tổ chức kinh tế, xã hội có tính chất quá độ, đòi hỏi quyết tâm chính trị cao và khát vọng lớn của toàn Đảng, toàn dân.\n- Ý nghĩa thực tiễn: Giúp Việt Nam chủ động phát triển kinh tế thị trường định hướng XHCN, thu hút đầu tư và công nghệ hiện đại (CMCN 4.0, chuyển đổi số) mà vẫn giữ vững định hướng XHCN và vai trò lãnh đạo của Đảng."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Hệ thống Đặc trưng, Phương hướng, Mối quan hệ lớn và Mục tiêu Chiến lược 2025 – 2030 – 2045 ở Việt Nam",
+      "problem": "Tổng hợp quá trình hoàn thiện lý luận về mô hình và con đường xây dựng chủ nghĩa xã hội ở Việt Nam từ Cương lĩnh 1991 đến Cương lĩnh 2011 (Đại hội XI) và Văn kiện Đại hội XIII (2021):\n1. So sánh sự phát triển từ 6 đặc trưng (Cương lĩnh 1991) lên 8 đặc trưng bản chất (Cương lĩnh 2011).\n2. Trình bày 8 phương hướng cơ bản (Đại hội XI) và việc xử lý 8/10 mối quan hệ lớn.\n3. Phân tích 3 mốc mục tiêu phát triển cụ thể (2025, 2030, 2045) và tinh thần cốt lõi của 12 định hướng phát triển đất nước giai đoạn 2021–2030.",
+      "solution_steps": [
+        "Bước 1: Tiến trình nhận thức và so sánh 6 đặc trưng (1991) với 8 đặc trưng (2011)\n- Nhận thức của Đảng đi từ mức độ định hướng (Đại hội IV, 1976) lên định hình, định lượng với 6 đặc trưng (Cương lĩnh 1991 - Đại hội VII), rồi hoàn thiện thành 8 đặc trưng bản chất (Cương lĩnh 2011 - Đại hội XI).\n- Tám đặc trưng Cương lĩnh 2011 gồm: (1) Dân giàu, nước mạnh, dân chủ, công bằng, văn minh; (2) Do nhân dân làm chủ; (3) Có nền kinh tế phát triển cao dựa trên LLSX hiện đại và QHSX tiến bộ phù hợp; (4) Có nền văn hóa tiên tiến, đậm đà bản sắc dân tộc; (5) Con người có cuộc sống ấm no, tự do, hạnh phúc, có điều kiện phát triển toàn diện; (6) Các dân tộc trong cộng đồng Việt Nam bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển; (7) Có Nhà nước pháp quyền XHCN của nhân dân, do nhân dân, vì nhân dân do Đảng Cộng sản lãnh đạo; (8) Có quan hệ hữu nghị và hợp tác với các nước trên thế giới.\n- Điểm mới nổi bật: bổ sung đặc trưng (1) và (7), mở rộng chủ thể 'nhân dân' ở đặc trưng (2), điều chỉnh 'chế độ công hữu về TLSX chủ yếu' thành 'QHSX tiến bộ phù hợp' ở đặc trưng (3).",
+        "Bước 2: Trình bày 8 phương hướng cơ bản xây dựng CNXH (Đại hội XI)\n- Kế thừa từ 7 phương hướng năm 1991, Đại hội XI xác định 8 phương hướng: (1) CNH-HĐH gắn với kinh tế tri thức, bảo vệ tài nguyên, môi trường; (2) Kinh tế thị trường định hướng XHCN; (3) Văn hóa tiên tiến, đậm đà bản sắc dân tộc, xây dựng con người, tiến bộ và công bằng xã hội; (4) Quốc phòng, an ninh quốc gia, trật tự an toàn xã hội; (5) Đối ngoại độc lập, tự chủ, hòa bình, hữu nghị, hợp tác, hội nhập quốc tế; (6) Dân chủ XHCN và đại đoàn kết toàn dân tộc; (7) Nhà nước pháp quyền XHCN của nhân dân, do nhân dân, vì nhân dân; (8) Xây dựng Đảng trong sạch, vững mạnh.",
+        "Bước 3: Giải quyết 8 mối quan hệ lớn (2011) và 10 mối quan hệ lớn (Đại hội XIII)\n- Cương lĩnh 2011 nêu 8 mối quan hệ lớn: đổi mới - ổn định - phát triển; đổi mới kinh tế - đổi mới chính trị; kinh tế thị trường - định hướng XHCN; phát triển LLSX - hoàn thiện QHSX XHCN; tăng trưởng kinh tế - văn hóa, tiến bộ công bằng xã hội; xây dựng CNXH - bảo vệ Tổ quốc; độc lập tự chủ - hội nhập quốc tế; Đảng lãnh đạo - Nhà nước quản lý - nhân dân làm chủ.\n- Định hướng (12) Đại hội XIII bổ sung thành 10 mối quan hệ lớn (thêm quan hệ giữa Nhà nước, thị trường và xã hội; quan hệ giữa thực hành dân chủ và tăng cường pháp chế, bảo đảm kỷ cương xã hội; bổ sung bảo vệ môi trường), yêu cầu không phiến diện, cực đoan, duy ý chí.",
+        "Bước 4: Phân tích 3 mốc mục tiêu chiến lược của Đại hội XIII (2025 – 2030 – 2045)\n- Đến năm 2025 (50 năm thống nhất đất nước): Nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập trung bình thấp.\n- Đến năm 2030 (100 năm thành lập Đảng): Nước đang phát triển, có công nghiệp hiện đại, thu nhập trung bình cao.\n- Đến năm 2045 (100 năm thành lập nước): Trở thành nước phát triển, thu nhập cao.",
+        "Bước 5: Khái quát 12 định hướng phát triển đất nước giai đoạn 2021–2030\n- Bao quát đồng bộ các trụ cột: (1) Thể chế phát triển bền vững; (2) Thể chế KTTT định hướng XHCN, hạ tầng, kinh tế số; (3) Đột phá GD&ĐT, nhân lực chất lượng cao, CMCN 4.0; (4) Văn hóa và con người làm sức mạnh nội sinh; (5) Quản lý xã hội, phúc lợi và an sinh; (6) Thích ứng biến đổi khí hậu, kinh tế xanh, tuần hoàn; (7) Quốc phòng, an ninh, bảo vệ Tổ quốc từ sớm, từ xa; (8) Đối ngoại đa phương hóa, đa dạng hóa, hội nhập toàn diện; (9) Dân chủ XHCN và đại đoàn kết; (10) Nhà nước pháp quyền XHCN tinh gọn, phòng chống tham nhũng; (11) Xây dựng, chỉnh đốn Đảng toàn diện; (12) Xử lý tốt 10 mối quan hệ lớn."
+      ]
+    }
+  ]
 }

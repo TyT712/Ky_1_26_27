@@ -39,11 +39,13 @@ COURSES_TO_AUDIT = [
     },
     {
         "id": "cnxhkh",
-        "name": "Chủ Nghĩa Xã Hội Khoa Học",
+        "name": "Chủ Nghĩa Xã Hội Khoa Học (Cornell, 35 MCQ & 20 Trả lời ngắn/Chương)",
         "dir": DOCS / "data" / "cnxhkh",
         "chapters": [
             "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5", "chuong_6", "chuong_7"
-        ]
+        ],
+        "min_mcq": 30,
+        "min_short": 20
     },
     {
         "id": "cnpm",
@@ -127,10 +129,12 @@ def audit_course_questions(course_info):
         essay = d.get("essays", [])
 
         # Count checks
-        if len(mcq) < 30:
-            raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(mcq)}/30 câu trắc nghiệm!")
-        if len(short) < 8:
-            raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(short)}/8 câu trả lời ngắn!")
+        min_mcq = course_info.get("min_mcq", 30)
+        min_short = course_info.get("min_short", 8)
+        if len(mcq) < min_mcq:
+            raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(mcq)}/{min_mcq} câu trắc nghiệm!")
+        if len(short) < min_short:
+            raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(short)}/{min_short} câu trả lời ngắn!")
         if len(essay) < 4:
             raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(essay)}/4 bài tự luận!")
 
@@ -171,8 +175,16 @@ def audit_course_questions(course_info):
             if not sq or sq in seen_short:
                 raise AssertionError(f"[{cid_course} - {ch}] câu trả lời ngắn {sid} rỗng hoặc trùng lặp")
             seen_short.add(sq)
-            if not s.get("expected_answer", "").strip():
+            exp_ans = s.get("expected_answer", "").strip()
+            if not exp_ans:
                 raise AssertionError(f"[{cid_course} - {ch}] câu trả lời ngắn {sid} thiếu expected_answer")
+            if cid_course == "cnxhkh" and len(exp_ans.splitlines()) > 5:
+                raise AssertionError(f"[{cid_course} - {ch}] câu trả lời ngắn {sid} vượt quá 5 dòng ({len(exp_ans.splitlines())} dòng)")
+
+        if cid_course in {"tam_ly_hoc_tri_tue", "giao_duc_hoc_1", "cnxhkh"}:
+            t_text = theory_file.read_text(encoding="utf-8")
+            if "Cornell" not in t_text or "|" not in t_text:
+                raise AssertionError(f"[{cid_course} - {ch}] lý thuyết thiếu cấu trúc bảng ghi nhớ Cornell!")
 
         # Essay checks
         for e in essay:
