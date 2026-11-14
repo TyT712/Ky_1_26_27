@@ -407,6 +407,7 @@ body {
 .footer-content {
   display: flex;
   flex-direction: column;
+  sm-flex-direction: row;
   align-items: center;
   justify-content: space-between;
   gap: 0.75rem;
