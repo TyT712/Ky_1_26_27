@@ -146,7 +146,7 @@
         intro: 'Bài tập yêu cầu so sánh các thuyết, phân tích yếu tố tác động đến sự phát triển trí tuệ và đề xuất biện pháp chẩn đoán, giáo dục phù hợp.'
       }
     },
-    giai_tich_1: {
+    mathematics_natural_science: {
       profile_name: 'mathematics_natural_science',
       theme: {
         primary: '#2563eb',
@@ -198,7 +198,6 @@
   COURSE_PROFILES.software_engineering = COURSE_PROFILES.cnpm;
   COURSE_PROFILES.pedagogical_psychology = COURSE_PROFILES.tam_ly_hoc_2;
   COURSE_PROFILES.cognitive_psychology = COURSE_PROFILES.tam_ly_hoc_tri_tue;
-  COURSE_PROFILES.mathematics_natural_science = COURSE_PROFILES.giai_tich_1;
   COURSE_PROFILES.general_academic = COURSE_PROFILES.default;
 
   function getCourseUIConfig(course) {

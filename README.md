@@ -64,7 +64,6 @@ Semester Hub LMS được xây dựng theo phong cách **Modern Academic Bento &
   - ⚙️ **Công Nghệ Phần Mềm:** Violet - Emerald (`#7c3aed` / `#10b981`).
   - 🧠 **Tâm Lý Học 2:** Teal - Coral (`#0d9488` / `#f97316`).
   - 💡 **Tâm Lý Học Trí Tuệ:** Fuchsia - Sky (`#c026d3` / `#0ea5e9`).
-  - 📐 **Giải Tích 1 / Cơ bản:** Blue - Indigo (`#2563eb` / `#6366f1`).
 
 ### 2.2. Cơ Chế Trắc Nghiệm Tuần Tự Từng Câu (Sequential Step-by-Step Quiz Engine)
 - **Tập trung Từng Câu Hỏi (Single-Question Focused Stage):** Tại một thời điểm chỉ hiển thị duy nhất 1 câu hỏi trên sân khấu chính, loại bỏ sự xao nhãng của danh sách tràn dài.
