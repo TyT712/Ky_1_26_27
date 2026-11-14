@@ -1,0 +1,1398 @@
+{
+  "chapter_id": "chuong_2",
+  "chapter_title": "Chương 2: Cấu trúc của trí tuệ",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Theo trình bày trong giáo trình Tâm lý học Trí tuệ, thuật ngữ 'trí tuệ' bắt nguồn từ tiếng Latinh mang ý nghĩa cốt lõi là gì?",
+      "options": {
+        "A": "Trong tiếng Latinh, thuật ngữ trí tuệ có nghĩa gốc là sự hiểu biết và sự thông tuệ của con người trước thế giới khách quan.",
+        "B": "Trong tiếng Latinh, thuật ngữ trí tuệ chỉ khả năng phản xạ bẩm sinh và bản năng sinh tồn tự nhiên của mọi cơ thể sống.",
+        "C": "Trong tiếng Latinh, thuật ngữ trí tuệ dùng để gọi tên quá trình ghi nhớ máy móc các tín hiệu cảm tính từ môi trường ngoài.",
+        "D": "Trong tiếng Latinh, thuật ngữ trí tuệ đồng nghĩa hoàn toàn với kỹ năng thao tác tay chân khéo léo trong lao động sản xuất."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 2.1.1 của giáo trình, trong tiếng Latinh, trí tuệ có nghĩa là hiểu biết, thông tuệ; tương ứng với thuật ngữ Intelligence trong tiếng Anh và tiếng Pháp.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Theo giải thích của Từ điển Tiếng Việt được trích dẫn trong giáo trình, thuật ngữ 'trí khôn' được định nghĩa như thế nào?",
+      "options": {
+        "A": "Trí khôn được giải thích là toàn bộ hệ thống phản xạ không điều kiện giúp cơ thể tự vệ trước các kích thích nguy hiểm.",
+        "B": "Trí khôn được giải thích là khả năng suy nghĩ và hiểu biết của con người trong quá trình nhận thức và giải quyết nhiệm vụ.",
+        "C": "Trí khôn được giải thích là trạng thái hưng phấn cảm xúc nhất thời xuất hiện khi cá nhân đạt được mục đích mong muốn xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "D": "Trí khôn được giải thích là dung lượng bộ nhớ ngắn hạn dùng để lưu trữ nguyên xi các hình ảnh tri giác trực tiếp ban đầu."
+      },
+      "correct_answer": "B",
+      "explanation": "Từ điển Tiếng Việt giải thích rõ: Trí khôn là khả năng suy nghĩ và hiểu biết; trong khi trí tuệ là khả năng nhận thức lí tính đạt đến một trình độ nhất định.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Từ điển Tiếng Việt phân biệt ý nghĩa của thuật ngữ 'trí tuệ' so với các thuật ngữ thông thường khác ở điểm cốt lõi nào?",
+      "options": {
+        "A": "Trí tuệ được hiểu là tốc độ dẫn truyền xung thần kinh thuần túy trên vỏ não mà không phụ thuộc vào nội dung nhận thức lí tính.",
+        "B": "Trí tuệ được hiểu là tập hợp những thói quen vận động cơ học được hình thành qua quá trình lặp đi lặp lại một thao tác chân tay.",
+        "C": "Trí tuệ được hiểu là khả năng nhận thức lí tính của con người đã phát triển và đạt đến một trình độ nhất định như trí tuệ minh mẫn.",
+        "D": "Trí tuệ được hiểu là khả năng trực giác cảm tính giúp cá nhân đoán biết sự việc ngẫu nhiên mà không cần qua suy luận logic theo đúng các quy luật phản ánh tâm lí khách quan."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Từ điển Tiếng Việt, trí tuệ là khả năng nhận thức lí tính đạt đến một trình độ nhất định (ví dụ: Trí tuệ minh mẫn).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Trong Từ điển Tiếng Việt, hai nghĩa cơ bản của thuật ngữ 'trí thông minh' được xác định cụ thể là gì?",
+      "options": {
+        "A": "Có sức khỏe thể chất dẻo dai bền bỉ và có khả năng chịu đựng áp lực công việc nặng nhọc trong thời gian kéo dài liên tục.",
+        "B": "Có vốn từ vựng phong phú bẩm sinh và có khả năng sao chép nguyên bản mọi hành vi ứng xử của người lớn xung quanh mình.",
+        "C": "Có giác quan thính nhạy vượt trội hơn động vật và có khả năng ghi nhớ từng chi tiết hình ảnh rời rạc không cần suy nghĩ.",
+        "D": "Có trí lực tốt, hiểu nhanh, tiếp thu nhanh và nhanh trí, khôn khéo, tài tình trong cách ứng đáp, đối phó với tình huống."
+      },
+      "correct_answer": "D",
+      "explanation": "Từ điển Tiếng Việt nêu 2 nghĩa của trí thông minh: (1) Có trí lực tốt, hiểu nhanh, tiếp thu nhanh; (2) Nhanh trí và khôn khéo, tài tình trong cách ứng đáp đối phó.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Nhà nghiên cứu Nguyễn Khắc Viện (1991) đã chỉ ra sự khác biệt giữa 'trí khôn' và 'trí tuệ' dựa trên tiêu chí nào?",
+      "options": {
+        "A": "Trí khôn là khả năng hành động thích nghi thiên về hành động cụ thể, còn trí tuệ cũng là khả năng thích nghi nhưng thiên về tư duy trừu tượng.",
+        "B": "Trí khôn là sản phẩm thuần túy của giáo dục nhà trường hiện đại, còn trí tuệ là đặc tính di truyền bẩm sinh có sẵn từ lúc mới lọt lòng.",
+        "C": "Trí khôn chỉ xuất hiện ở người trưởng thành có trình độ học vấn cao, còn trí tuệ đã hoàn thiện ngay từ giai đoạn trẻ sơ sinh.",
+        "D": "Trí khôn phản ánh năng lực cảm thụ nghệ thuật thẩm mỹ, còn trí tuệ phản ánh kỹ năng thực hiện các động tác thể dục thể thao."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Nguyễn Khắc Viện (1991), trí khôn là khả năng hành động thích nghi với những biến động của hoàn cảnh (thiên về hành động), còn trí tuệ thiên về tư duy trừu tượng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "question": "Theo quan điểm của các nhà tâm lý học Việt Nam như Phạm Hoàng Gia (1979) và Nguyễn Kế Hào (1985), 'trí thông minh' có vị trí và cốt lõi như thế nào?",
+      "options": {
+        "A": "Trí thông minh là cấp độ thấp nhất của nhận thức cảm tính, cốt lõi là sự tích lũy thụ động các mối liên tưởng gần nhau về không gian và thời gian.",
+        "B": "Trí thông minh là một phẩm chất cao của trí tuệ, cốt lõi là tính chủ động, linh hoạt và sáng tạo của tư duy để giải quyết tối ưu vấn đề mới, phức tạp.",
+        "C": "Trí thông minh là một năng lực tách biệt hoàn toàn khỏi tư duy, cốt lõi là tốc độ phản ứng cơ bắp tức thời trước các tín hiệu âm thanh hoặc ánh sáng.",
+        "D": "Trí thông minh là toàn bộ khối lượng kiến thức sách vở mà học sinh học thuộc lòng để tái hiện nguyên văn trong các kỳ thi kiểm tra định kỳ trong quá trình nghiên cứu thực nghiệm tâm lí học."
+      },
+      "correct_answer": "B",
+      "explanation": "Phạm Hoàng Gia (1979) và Nguyễn Kế Hào (1985) coi trí thông minh là một phẩm chất cao của trí tuệ, cốt lõi là tính chủ động, linh hoạt và sáng tạo của tư duy trong tình huống mới, phức tạp.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "question": "Khi hệ thống hóa các thuật ngữ trong tâm lý học trí tuệ, giáo trình xếp hai thuật ngữ 'trí năng' và 'trí lực' vào bình diện nào?",
+      "options": {
+        "A": "Các thuật ngữ trí năng và trí lực được xếp thuộc về bình diện các phản xạ sinh lý tự động của hệ thần kinh thực vật xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "B": "Các thuật ngữ trí năng và trí lực được xếp thuộc về bình diện nhu cầu bản năng và động cơ vô thức của con người.",
+        "C": "Các thuật ngữ trí năng và trí lực được xếp thuộc về bình diện năng lực hoạt động trí tuệ của mỗi cá nhân trong thực tiễn.",
+        "D": "Các thuật ngữ trí năng và trí lực được xếp thuộc về bình diện khí chất bẩm sinh không bao giờ thay đổi trong đời sống."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình nêu rõ: trí khôn, trí tuệ, trí thông minh thể hiện các mức độ khác nhau của khái niệm trí tuệ; còn trí năng, trí lực thuộc bình diện năng lực hoạt động trí tuệ của cá nhân.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "question": "Mặc dù có rất nhiều định nghĩa khác nhau về trí tuệ, giáo trình đã khái quát một cách tương đối các quan niệm hiện có thành mấy nhóm chính?",
+      "options": {
+        "A": "Hai nhóm chính: nhóm coi trí tuệ là bản năng di truyền bất biến và nhóm coi trí tuệ là tổng số các phản xạ có điều kiện đơn giản.",
+        "B": "Bốn nhóm chính: nhóm tri giác hình ảnh, nhóm ghi nhớ máy móc, nhóm tưởng tượng tự do và nhóm cảm xúc thẩm mỹ học đường xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "C": "Năm nhóm chính: nhóm thần học siêu nhiên, nhóm duy cảm cực đoan, nhóm cơ học máy móc, nhóm hành vi bảo thủ và nhóm phân tâm học.",
+        "D": "Ba nhóm chính: khả năng hoạt động lao động và học tập, đồng nhất với năng lực tư duy trừu tượng, và năng lực thích ứng tích cực của cá nhân."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.1.2 khái quát các quan niệm về trí tuệ thành 3 nhóm chính: (a) khả năng lao động và học tập; (b) đồng nhất với năng lực tư duy trừu tượng; (c) năng lực thích ứng tích cực.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Nhà tâm lý học Nga B.G. Ananhev thuộc nhóm quan niệm nào khi định nghĩa về bản chất của trí tuệ con người?",
+      "options": {
+        "A": "Ông thuộc nhóm thứ nhất, coi trí tuệ là đặc điểm tâm lí phức tạp của con người mà kết quả công việc học tập và lao động phụ thuộc vào nó.",
+        "B": "Ông thuộc nhóm cực đoan sinh học, coi trí tuệ là cấu trúc giải phẫu cố định của hộp sọ được truyền nguyên vẹn từ thế hệ cha mẹ sang con cái.",
+        "C": "Ông thuộc nhóm trắc nghiệm thực dụng, coi trí tuệ đơn thuần là con số điểm thu được sau khi cá nhân hoàn thành một bài kiểm tra viết.",
+        "D": "Ông thuộc nhóm duy cảm cổ điển, coi trí tuệ chỉ là sự kết hợp ngẫu nhiên giữa các cảm giác rời rạc do giác quan thu nhận từ thế giới."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo nhà tâm lí học Nga B.G. Ananhev (nhóm quan niệm thứ nhất), trí tuệ là đặc điểm tâm lí phức tạp của con người mà kết quả của công việc học tập và lao động phụ thuộc vào nó.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "question": "Khi đánh giá mối quan hệ giữa kết quả học tập với khả năng trí tuệ của cá nhân, các công trình nghiên cứu khoa học đã rút ra kết luận gì?",
+      "options": {
+        "A": "Giữa khả năng trí tuệ và kết quả học tập hoàn toàn độc lập với nhau, học sinh có trí tuệ cao hay thấp đều đạt điểm số học tập ngang nhau.",
+        "B": "Giữa khả năng trí tuệ và kết quả học tập có mối quan hệ nhân quả với nhau, nhưng đây không phải là mối quan hệ tương ứng một đối một.",
+        "C": "Giữa khả năng trí tuệ và kết quả học tập là quan hệ đồng nhất tuyệt đối một đối một, mọi học sinh học kém đều do thiếu hụt trí tuệ bẩm sinh.",
+        "D": "Giữa khả năng trí tuệ và kết quả học tập là mối quan hệ nghịch biến, học sinh càng phát triển tư duy sáng tạo thì kết quả học tập càng sụt giảm."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình chỉ rõ giữa học tập và khả năng trí tuệ có quan hệ nhân quả nhưng không phải tương ứng 1-1: ngay từ năm 1905, A. Binet đã phân biệt học sinh học kém do trí tuệ với học sinh kém do lười hoặc nguyên nhân khác.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 11,
+      "question": "Ngay từ năm 1905, nhà tâm lý học Pháp A. Binet (1857–1911) đã sử dụng trắc nghiệm trí lực nhằm giải quyết nhiệm vụ thực tiễn nào trong nhà trường?",
+      "options": {
+        "A": "Tuyển chọn những học sinh có năng khiếu âm nhạc và hội họa xuất sắc để đưa vào các trường đào tạo nghệ thuật chuyên nghiệp tại Paris.",
+        "B": "Đo lường tốc độ phản xạ co cơ của học sinh tiểu học nhằm xây dựng chương trình huấn luyện thể chất quân sự thống nhất trên toàn quốc trong toàn bộ tiến trình phát triển tâm lí cá thể.",
+        "C": "Xác định và phân biệt rõ những học sinh học kém do khả năng trí tuệ với những học sinh học kém do lười biếng hoặc do các nguyên nhân khác.",
+        "D": "Chứng minh rằng mọi trẻ em xuất thân từ tầng lớp lao động nghèo đều không có khả năng lĩnh hội các khái niệm khoa học trừu tượng."
+      },
+      "correct_answer": "C",
+      "explanation": "Năm 1905, A. Binet nghiên cứu bằng test trí lực và xác định được những học sinh học kém do khả năng trí tuệ và những em do lười hoặc do nguyên nhân khác.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "Những tác giả tiêu biểu nào đại diện cho nhóm quan niệm thứ hai, có xu hướng quy hẹp và đồng nhất trí tuệ với năng lực tư duy trừu tượng?",
+      "options": {
+        "A": "Nhóm quan niệm này bao gồm các nhà hành vi chủ nghĩa cổ điển như J. Watson, B.F. Skinner, E.L. Thorndike và nhà sinh lý học I.P. Pavlov.",
+        "B": "Nhóm quan niệm này bao gồm các nhà tập tính học động vật và thuyết ưu sinh học như F. Galton, K. Lorenz, Cyril Burt và E. Wilson.",
+        "C": "Nhóm quan niệm này bao gồm các nhà triết học duy cảm Anh thế kỷ XVIII như D. Hartley, J.S. Mill và H. Spencer.",
+        "D": "Nhóm quan niệm này bao gồm các tác giả tiêu biểu như A. Binet, L. Terman, G.X. Côtxchuc, V.A. Cruchetxki, R. Sternberg và D.N. Perkins."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 2.1.2, nhóm thứ hai quy hẹp khái niệm trí tuệ vào thành phần cốt lõi là tư duy, gồm: A. Binet (1905), L. Terman (1937), G.X. Côtxchuc (1971), V.A. Cruchetxki (1976), R. Sternberg (1986), D.N. Perkins (1987).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "Nhóm quan niệm thứ ba coi 'trí tuệ là khả năng thích ứng của cá nhân' thu hút sự đồng thuận của những nhà nghiên cứu lớn nào?",
+      "options": {
+        "A": "Nhóm quan niệm này thu hút nhiều nhà nghiên cứu lớn như U. Stern, G. Piagie, Đ. Wechsler, R. Zazzo, F. Raynal, A. Rieunier và N. Sillamy.",
+        "B": "Nhóm quan niệm này chỉ giới hạn trong các nhà tâm lý học trường phái Würzburg Đức như O. Külpe, O. Selz và K. Bühler.",
+        "C": "Nhóm quan niệm này chỉ bao gồm các nhà nghiên cứu trí tuệ nhân tạo và điều khiển học như Alan Turing, J. Neumann và M. Minsky.",
+        "D": "Nhóm quan niệm này chỉ bao gồm các nhà kinh tế chính trị học cổ điển trước C. Mác chuyên nghiên cứu sự lưu thông hàng hóa."
+      },
+      "correct_answer": "A",
+      "explanation": "Nhóm quan niệm thứ ba coi trí tuệ là khả năng thích ứng của cá nhân, phổ biến hơn cả và thu hút U. Sterner (Stern), G. Piagie, Đ. Wechsler, R. Zazzo, F. Raynal, A. Rieunier, N. Sillamy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Nhà tâm lý học Đ. Wechsler (1939) đã đưa ra định nghĩa nổi tiếng nào về trí tuệ trong nhóm quan niệm đề cao khả năng thích ứng?",
+      "options": {
+        "A": "Trí tuệ là tổng số các mối liên tưởng hình ảnh cảm tính được lưu giữ thụ động trong vỏ não nhờ sự lặp lại nhiều lần của kích thích.",
+        "B": "Trí tuệ là khả năng tổng thể của cá nhân để hoạt động một cách có suy nghĩ, tư duy hợp lí và chế ngự được môi trường xung quanh.",
+        "C": "Trí tuệ là sự bừng hiểu bất thình lình trong trường tri giác trực tiếp mà không có bất kỳ sự chuẩn bị hay suy luận hợp lí nào trước đó.",
+        "D": "Trí tuệ là một năng lực thần bí hoàn toàn tách rời khỏi hoạt động thực tiễn và không chịu bất kỳ ảnh hưởng nào từ môi trường sống."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Đ. Wechsler (1939), trí tuệ là khả năng tổng thể để hoạt động một cách có suy nghĩ, tư duy hợp lí, chế ngự được môi trường xung quanh.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Hai tác giả F. Raynal và A. Rieunier (1997) đã định nghĩa trí tuệ dưới góc độ xử lý thông tin và thích ứng như thế nào?",
+      "options": {
+        "A": "Trí tuệ là khả năng duy trì nguyên trạng các thói quen cũ và từ chối tiếp nhận mọi thông tin mới làm xáo trộn trạng thái cân bằng tĩnh.",
+        "B": "Trí tuệ là khả năng ghi nhớ nguyên văn các dữ liệu lịch sử mà không cần vận dụng chúng vào việc giải quyết các bài toán thực tiễn.",
+        "C": "Trí tuệ là khả năng xử lí thông tin để giải quyết vấn đề và nhanh chóng thích nghi với những tình huống mới nảy sinh trong cuộc sống.",
+        "D": "Trí tuệ là khả năng sao chép máy móc các thao tác vận động của người khác khi môi trường xung quanh không có bất kỳ sự thay đổi nào."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo F. Raynal và A. Rieunier (1997), trí tuệ là khả năng xử lí thông tin để giải quyết vấn đề và nhanh chóng thích nghi với tình huống mới.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "Theo N. Sillamy (1997), bản chất của trí tuệ được thể hiện qua khả năng nhận thức và hành động thích nghi ra sao?",
+      "options": {
+        "A": "Trí tuệ là khả năng tách rời các yếu tố của tình huống thành những mảnh vụn cô lập không có bất kỳ mối liên hệ nào với nhau.",
+        "B": "Trí tuệ là khả năng phản ứng mù quáng theo bản năng sinh học bất chấp những mối quan hệ khách quan đang tồn tại trong tình huống.",
+        "C": "Trí tuệ là khả năng tri giác trực tiếp bề ngoài của sự vật mà bỏ qua mọi mối quan hệ bản chất bên trong giữa các yếu tố cấu thành.",
+        "D": "Trí tuệ là khả năng hiểu các mối quan hệ sẵn có giữa các yếu tố của tình huống và thích nghi để thực hiện cho lợi ích bản thân."
+      },
+      "correct_answer": "D",
+      "explanation": "N. Sillamy (1997) định nghĩa: Trí tuệ là khả năng hiểu các mối quan hệ sẵn có giữa các yếu tố của tình huống và thích nghi để thực hiện cho lợi ích bản thân.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "Vì sao định nghĩa của một số nhà trắc nghiệm học coi 'trí tuệ là cái mà trắc nghiệm đo được' không thể làm định hướng lý luận trong nghiên cứu?",
+      "options": {
+        "A": "Bởi vì định nghĩa này mang tính chất thực dụng cực đoan, chỉ chú ý đến hiệu quả làm bài tập mà bỏ qua bản chất tâm lí của trí tuệ.",
+        "B": "Bởi vì định nghĩa này quá đi sâu vào phân tích cơ chế sinh lý thần kinh cấp cao nên không thể áp dụng cho học sinh phổ thông.",
+        "C": "Bởi vì định nghĩa này tuyệt đối hóa vai trò của ngôn ngữ và công cụ tâm lí xã hội mà quên mất các thao tác tính toán con số.",
+        "D": "Bởi vì định nghĩa này chỉ phù hợp để đánh giá các thiên tài nghệ thuật chứ không thể đo lường được khả năng suy luận logic thông thường."
+      },
+      "correct_answer": "A",
+      "explanation": "Các nhà trắc nghiệm học định nghĩa đơn giản 'trí tuệ là cái mà trắc nghiệm đo được'. Do tính chất thực dụng của nó, loại định nghĩa này không thể là định hướng lí luận trong nghiên cứu thực tiễn.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "Trong 4 đặc trưng cơ bản của trí tuệ được tổng kết ở Mục 2.1.2, đặc trưng thứ nhất khẳng định vị trí của trí tuệ trong đời sống tâm lý cá nhân như thế nào?",
+      "options": {
+        "A": "Trí tuệ là yếu tố tâm lí duy nhất tồn tại trong ý thức và hoàn toàn hòa tan vào trong các phản ứng xúc cảm bản năng của cơ thể.",
+        "B": "Trí tuệ là một yếu tố tâm lí có tính độc lập tương đối so với các yếu tố và phẩm chất tâm lí khác của cá nhân con người.",
+        "C": "Trí tuệ là một bộ phận phụ thuộc tuyệt đối vào khí chất bẩm sinh, khi khí chất thay đổi thì cấu trúc trí tuệ lập tức bị phá hủy.",
+        "D": "Trí tuệ là một hiện tượng siêu nhiên nằm ngoài đời sống tâm lí cá nhân và không có bất kỳ mối liên hệ nào với nhân cách."
+      },
+      "correct_answer": "B",
+      "explanation": "Đặc trưng thứ nhất trong 4 đặc trưng cơ bản của trí tuệ là: Trí tuệ là yếu tố tâm lí có tính độc lập tương đối với các yếu tố tâm lí khác của cá nhân.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Bốn đặc trưng cơ bản giúp hình thành cách hiểu bao quát và toàn diện về vấn đề trí tuệ trong tâm lý học bao gồm những nội dung nào?",
+      "options": {
+        "A": "Có tính bất biến bẩm sinh; tách biệt khỏi môi trường sống; chỉ tồn tại trong trạng thái tĩnh lặng nội tâm; hoàn toàn do gen di truyền của cha mẹ quyết định xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "B": "Đồng nhất hoàn toàn với cảm giác; chỉ xuất hiện khi làm bài trắc nghiệm IQ; không phụ thuộc vào hoạt động thực tiễn; tự phát triển theo tuổi sinh học.",
+        "C": "Có tính độc lập tương đối; tạo sự thích ứng tích cực với môi trường; hình thành và biểu hiện trong hoạt động; chịu ảnh hưởng sinh học và sự chế ước văn hóa - xã hội.",
+        "D": "Chỉ có ở các nhà bác học lỗi lạc; đối lập với sự thích nghi môi trường; hình thành qua giấc ngủ thụ động; thoát ly khỏi mọi điều kiện lịch sử - xã hội."
+      },
+      "correct_answer": "C",
+      "explanation": "4 đặc trưng cơ bản của trí tuệ (Mục 2.1.2): (1) Tính độc lập tương đối; (2) Đáp ứng tác động qua lại chủ thể - môi trường tạo sự thích ứng tích cực; (3) Hình thành và biểu hiện trong hoạt động; (4) Chịu ảnh hưởng yếu tố sinh học và sự chế ước văn hóa - xã hội.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "Theo đặc trưng cơ bản thứ tư của trí tuệ, sự phát triển trí tuệ của mỗi cá nhân chịu sự tác động của những nguồn lực nào?",
+      "options": {
+        "A": "Sự phát triển của trí tuệ chỉ phụ thuộc duy nhất vào cấu trúc nhiễm sắc thể di truyền mà không chịu tác động nào của văn hóa - xã hội.",
+        "B": "Sự phát triển của trí tuệ chỉ do các kích thích vật lý ngẫu nhiên của môi trường tự nhiên quyết định, hoàn toàn bỏ qua tiền đề sinh học.",
+        "C": "Sự phát triển của trí tuệ là quá trình tự trưởng thành nội sinh khép kín, tách biệt khỏi cả cơ thể sinh học lẫn đời sống văn hóa xã hội.",
+        "D": "Sự phát triển của trí tuệ vừa chịu ảnh hưởng của yếu tố sinh học của cơ thể, vừa chịu sự chế ước của các yếu tố văn hóa - xã hội."
+      },
+      "correct_answer": "D",
+      "explanation": "Đặc trưng thứ tư khẳng định: Sự phát triển của trí tuệ chịu ảnh hưởng của yếu tố sinh học của cơ thể và chịu sự chế ước của các yếu tố văn hóa - xã hội.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "Vào những năm đầu thế kỷ XX, các nhà nghiên cứu như A. Binet và Th. Simon đã quan niệm như thế nào về cấu trúc của trí tuệ trước khi xuất hiện các mô hình hai thành phần?",
+      "options": {
+        "A": "Trí tuệ được nghiên cứu như là một khối chung thống nhất và được hiểu là khả năng phán đoán tốt, hiểu biết tốt và lập luận tốt.",
+        "B": "Trí tuệ được chia cắt thành hàng trăm mô-đun thần kinh độc lập nằm rải rác ở tủy sống và hệ thần kinh ngoại biên của cơ thể.",
+        "C": "Trí tuệ được phân tích thành ba chiều không gian hình học gồm chiều thao tác, chiều nội dung phản ánh và chiều sản phẩm tư duy.",
+        "D": "Trí tuệ được quy về sơ đồ gián tiếp ba thành phần có sự tham gia của công cụ tâm lí và các hệ thống kí hiệu văn hóa lịch sử."
+      },
+      "correct_answer": "A",
+      "explanation": "Đầu thế kỉ XX, trong công trình của A. Binet và Th. Simon, trí tuệ được nghiên cứu như một khối chung và được hiểu là 'phán đoán tốt, hiểu biết tốt, lập luận tốt'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Trong mô hình cấu trúc trí tuệ hai thành phần đề xuất năm 1904, nhà tâm lý học người Anh C. Spearman đã xác định hai nhân tố nào?",
+      "options": {
+        "A": "Nhân tố kích thích S (Stimulus) từ môi trường bên ngoài và nhân tố phản ứng R (Response) của cơ thể sống trước kích thích đó xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "B": "Nhân tố chung G (General) định hướng chung cho mọi hoạt động và nhân tố chuyên biệt S (Special) đảm bảo thành công cho từng hoạt động riêng.",
+        "C": "Nhân tố đồng hóa (đưa khách thể vào sơ đồ cũ) và nhân tố điều ứng (biến đổi sơ đồ nhận thức cũ để thích nghi với khách thể mới).",
+        "D": "Nhân tố tư duy hội tụ (tìm ra quy luật khách quan sẵn có) và nhân tố tư duy phân kì (sáng tạo ra sản phẩm mới độc đáo cho xã hội)."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo C. Spearman (1904), cấu trúc trí tuệ gồm nhân tố chung G (General) và các nhân tố riêng chuyên biệt S (Special).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "Theo C. Spearman, nhân tố G (General) trong cấu trúc trí tuệ của cá nhân có bản chất và vai trò như thế nào?",
+      "options": {
+        "A": "Là năng khiếu bẩm sinh chỉ phát huy tác dụng trong một lĩnh vực hẹp duy nhất như khả năng chơi đàn dương cầm hoặc giải toán hình học.",
+        "B": "Là tập hợp các khái niệm chuyên ngành mà cá nhân học thuộc lòng khi theo học tại các trường đào tạo nghề nghiệp kỹ thuật cao trong toàn bộ tiến trình phát triển tâm lí cá thể.",
+        "C": "Là yếu tố chung như tính linh hoạt, sự mềm dẻo thần kinh tạo ra năng lực tâm lí đảm bảo hiệu quả thực hiện nhiều trắc nghiệm khác nhau.",
+        "D": "Là các phản xạ định hướng bản năng chỉ xuất hiện ở trẻ sơ sinh trong vài tháng đầu đời rồi tự động biến mất khi trẻ biết nói."
+      },
+      "correct_answer": "C",
+      "explanation": "Spearman nhận thấy có một yếu tố chung như tính linh hoạt, sự mềm dẻo thần kinh... tạo ra các năng lực tâm lí đảm bảo hiệu quả thực hiện nhiều trắc nghiệm, gọi là nhân tố G (General).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "question": "Theo mô hình của C. Spearman, để tiến hành thành công các hoạt động chuyên biệt như làm toán hay chơi nhạc, ngoài nhân tố G cá nhân còn cần yếu tố nào?",
+      "options": {
+        "A": "Cá nhân chỉ cần tăng cường cường độ của nhân tố G lên gấp đôi mà không cần bất kỳ sự hiểu biết hay năng khiếu chuyên biệt nào.",
+        "B": "Cá nhân phải loại bỏ hoàn toàn nhân tố G để tránh sự giao thoa gây cản trở cho việc hình thành các kỹ xảo vận động tự động hóa.",
+        "C": "Cá nhân chỉ cần dựa vào sự may mắn ngẫu nhiên của hoàn cảnh bên ngoài mà không phụ thuộc vào năng lực tâm lí bên trong.",
+        "D": "Cá nhân phải có những hiểu biết và năng khiếu riêng biệt phù hợp với lĩnh vực đó, được C. Spearman gọi là nhân tố S (Special)."
+      },
+      "correct_answer": "D",
+      "explanation": "Để tiến hành thành công các hoạt động chuyên biệt như làm toán, chơi nhạc..., ngoài yếu tố chung G, cá nhân phải có hiểu biết và năng khiếu riêng gọi là nhân tố S (Special).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "Đóng góp lịch sử to lớn nhất của C. Spearman đối với sự phát triển của tâm lý học trí tuệ được giáo trình đánh giá là gì?",
+      "options": {
+        "A": "Đã mở ra một hướng mới trong nghiên cứu trí tuệ, đặc biệt là trong lĩnh vực soạn thảo các trắc nghiệm đo lường: Phương pháp phân tích nhân tố.",
+        "B": "Đã phát hiện ra vai trò của ngôn ngữ và công cụ tâm lí xã hội trong việc cải tổ hành vi trí tuệ bậc thấp thành trí tuệ bậc cao.",
+        "C": "Đã xây dựng thành công lý thuyết về các giai đoạn phát triển trí tuệ của trẻ em từ giai đoạn giác - động đến giai đoạn thao tác hình thức.",
+        "D": "Đã xác định chính xác vùng định khu chức năng của bảy loại hình trí tuệ độc lập trên hai bán cầu đại não của con người."
+      },
+      "correct_answer": "A",
+      "explanation": "Mặc dù mô hình 2 nhân tố G và S còn quá chung và trừu tượng, đóng góp to lớn của Spearman là mở ra hướng mới trong nghiên cứu và đo lường trí tuệ: Phương pháp phân tích nhân tố.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "question": "Theo hai nhà tâm lý học Xô viết N.A. Menchinxcaia và E.N. Canbanova-Menle, cấu trúc trí tuệ của cá nhân bao gồm hai thành phần nào?",
+      "options": {
+        "A": "Bao gồm trí tuệ lỏng có từ khi mới sinh ra và trí tuệ tinh luyện được tích lũy qua quá trình học tập suốt đời của con người.",
+        "B": "Bao gồm tri thức về đối tượng (cái được phản ánh) đóng vai trò nguyên liệu và các thủ thuật trí tuệ (phương thức phản ánh) giải quyết nhiệm vụ.",
+        "C": "Bao gồm các kích thích vật lý trực tiếp từ môi trường bên ngoài và các phản ứng vận động thử - sai của cơ thể trước hoàn cảnh trong toàn bộ tiến trình phát triển tâm lí cá thể.",
+        "D": "Bao gồm năng lực hoạt động của hệ thần kinh bẩm sinh và sự nhạy cảm đối với việc giải mã các hệ thống kí hiệu âm thanh."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo N.A. Menchinxcaia và E.N. Canbanova-Menle, trí tuệ gồm hai thành phần: tri thức về đối tượng (cái được phản ánh) và các thủ thuật trí tuệ (phương thức phản ánh).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 27,
+      "question": "Trong mô hình của N.A. Menchinxcaia, nhận định 'một cái đầu trống rỗng không thể suy nghĩ được' nhằm khẳng định vai trò của thành phần nào?",
+      "options": {
+        "A": "Khẳng định rằng chỉ cần nhồi nhét thật nhiều thông tin rời rạc vào bộ nhớ là học sinh tự khắc trở thành những thiên tài sáng tạo.",
+        "B": "Khẳng định rằng các thủ thuật trí tuệ không có bất kỳ vai trò gì trong quá trình suy luận và giải quyết nhiệm vụ nhận thức.",
+        "C": "Khẳng định vai trò của tri thức về đối tượng phản ánh như là nguyên liệu và phương tiện không thể thiếu của mọi hoạt động trí tuệ.",
+        "D": "Khẳng định rằng trọng lượng và kích thước giải phẫu của não bộ quyết định trực tiếp đến khả năng suy luận logic của mỗi cá nhân xét trên bình diện cấu trúc nhận thức của cá nhân."
+      },
+      "correct_answer": "C",
+      "explanation": "Tri thức về đối tượng phản ánh được coi là nguyên liệu, phương tiện của hoạt động trí tuệ: 'một cái đầu trống rỗng không thể suy nghĩ được. Cái đầu càng có nhiều kinh nghiệm và tri thức thì càng có nhiều khả năng suy luận hơn'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Theo N.A. Menchinxcaia và E.N. Canbanova-Menle, chất lượng của thành phần 'tri thức' và bản chất của 'thủ thuật trí tuệ' được thể hiện ở đâu?",
+      "options": {
+        "A": "Tri thức thể hiện ở số lượng hình ảnh cảm tính ngẫu nhiên; còn thủ thuật trí tuệ là các phản xạ bản năng không điều kiện có sẵn từ khi sinh ra xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "B": "Tri thức thể hiện ở điểm số các bài thi trắc nghiệm khách quan; còn thủ thuật trí tuệ là khả năng bắt chước nguyên mẫu hành vi của người lớn.",
+        "C": "Tri thức thể hiện ở tốc độ đọc văn bản nhanh hay chậm; còn thủ thuật trí tuệ là khả năng chịu đựng căng thẳng thần kinh trong giờ kiểm tra.",
+        "D": "Tri thức thể hiện ở số lượng khái niệm khoa học, cách kết hợp và độ bền vững kết cấu; còn thủ thuật trí tuệ là hệ thống các thao tác giải quyết nhiệm vụ."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Menchinxcaia, tri thức thể hiện ở số lượng khái niệm khoa học, cách kết hợp và độ bền vững kết cấu của nó; còn thủ thuật trí tuệ là hệ thống các thao tác được hình thành đặc biệt để giải quyết nhiệm vụ theo một kiểu nhất định.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "Mô hình cấu trúc trí tuệ hai thành phần của N.A. Menchinxcaia và cộng sự mang lại ý nghĩa thực tiễn sư phạm quan trọng nào đối với dạy học?",
+      "options": {
+        "A": "Chỉ ra phát triển trí tuệ cho trẻ không được chỉ tăng số lượng tri thức dẫn đến nhồi nhét, hoặc chỉ nhằm vào thủ thuật, mà phải phát triển cả hai.",
+        "B": "Khuyên nhà trường nên bãi bỏ hoàn toàn việc dạy các tri thức khoa học cơ bản để dành toàn bộ thời gian cho học sinh làm bài test IQ.",
+        "C": "Chứng minh rằng nhà trường chỉ cần cung cấp thật nhiều tri thức sách vở, còn các thủ thuật tư duy sẽ tự động nảy sinh theo tuổi sinh học.",
+        "D": "Đề nghị phân loại học sinh ngay từ bậc tiểu học thành nhóm có trí tuệ bẩm sinh và nhóm không có khả năng đào tạo để dạy hai chương trình khác nhau."
+      },
+      "correct_answer": "A",
+      "explanation": "Mô hình của Menchinxcaia chỉ ra nhiệm vụ phát triển trí tuệ cho trẻ không chỉ tăng số lượng tri thức (dẫn đến nhồi nhét) hoặc chỉ nhằm vào các thủ thuật trí tuệ, mà phải quan tâm phát triển cả hai thành phần đó.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "Bên cạnh giá trị thực tiễn trong dạy học, mô hình cấu trúc hai thành phần của N.A. Menchinxcaia vẫn còn hạn chế nào được giáo trình chỉ rõ?",
+      "options": {
+        "A": "Cấu trúc này quá đi sâu vào các thao tác lao động chân tay cơ bắp mà bỏ quên hoàn toàn vai trò của hệ thống khái niệm khoa học và thao tác tư duy.",
+        "B": "Cấu trúc hai thành phần này còn quá trừu tượng và mới chủ yếu quan tâm tới các thao tác trí óc, còn hàng loạt thao tác khác (kể cả thao tác vật chất) chưa được đề cập.",
+        "C": "Cấu trúc này phủ nhận hoàn toàn vai trò của tri thức khoa học đối với sự phát triển tư duy, biến quá trình dạy học thành trò chơi giải trí đơn thuần.",
+        "D": "Cấu trúc này lệ thuộc tuyệt đối vào việc định khu các trung khu thần kinh trên vỏ não nên không thể vận dụng vào việc biên soạn sách giáo khoa trong quá trình nghiên cứu thực nghiệm tâm lí học."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nhận xét: giống Spearman, cấu trúc hai thành phần của Menchinxcaia còn quá trừu tượng và mới chủ yếu quan tâm tới các thao tác trí óc, còn hàng loạt thao tác khác (kể cả thao tác vật chất) chưa được đề cập.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 31,
+      "question": "Nhà tâm lý học R. Cattell (1967) đã phân chia cấu trúc trí tuệ của cá nhân thành hai thành phần nào?",
+      "options": {
+        "A": "Chia thành 'trí tuệ bậc thấp' mang tính tự nhiên trực tiếp và 'trí tuệ bậc cao' mang tính gián tiếp thông qua công cụ kí hiệu văn hóa trong quá trình nghiên cứu thực nghiệm tâm lí học.",
+        "B": "Chia thành 'tư duy hội tụ' hướng tới một đáp án đúng duy nhất và 'tư duy phân kì' hướng tới nhiều giải pháp sáng tạo độc đáo mới mẻ.",
+        "C": "Chia thành 'trí lỏng' (Fluid Intelligence) có từ khi mới sinh và 'trí tuệ tinh luyện' (Crystallized Intelligence) thu được qua học tập suốt đời.",
+        "D": "Chia thành 'trí tuệ nội tâm' giúp thấu hiểu cảm xúc bản thân và 'trí tuệ liên cá nhân' giúp thiết lập quan hệ giao tiếp xã hội hiệu quả."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo R. Cattell (1967), trong trí tuệ cá nhân có hai thành phần: 'trí lỏng' (Fluid Intelligence) có từ khi mới sinh và 'trí tuệ tinh luyện' (Crystallized Intelligence) gồm những kiến thức thu được qua học tập trong cả đời người.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "question": "Theo R. Cattell (1967), thành phần 'trí lỏng' (Fluid Intelligence) có nguồn gốc và chức năng gì trong hoạt động nhận thức?",
+      "options": {
+        "A": "Chỉ được hình thành sau khi cá nhân hoàn thành chương trình giáo dục đại học và dùng để giải quyết các bài toán chuyên ngành hẹp.",
+        "B": "Là hệ thống các chuẩn mực đạo đức và quy tắc ứng xử văn hóa được cá nhân tiếp thu thụ động từ truyền thống gia đình và cộng đồng.",
+        "C": "Là những kỹ xảo nghề nghiệp chuyên sâu được rèn luyện qua hàng chục năm lao động sản xuất trong một lĩnh vực kỹ thuật nhất định.",
+        "D": "Có từ khi mới sinh ra và đóng vai trò làm cơ sở nền tảng cho các khả năng tư duy, trí nhớ, khả năng lập luận của cá nhân."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo R. Cattell (1967), 'trí lỏng' (Fluid Intelligence) có từ khi mới sinh, nó là cơ sở cho các khả năng tư duy, trí nhớ, khả năng lập luận...",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Tương tự cách tiếp cận của R. Cattell, nhà tâm lý học D. Hebb (1974) đã phân biệt hai phần 'trí tuệ A' và 'trí tuệ B' như thế nào?",
+      "options": {
+        "A": "Trí tuệ A là tiềm năng có từ khi mới sinh làm nguyên liệu cơ bản, còn trí tuệ B là kết quả của sự tương tác giữa trí tuệ A với môi trường.",
+        "B": "Trí tuệ A là khả năng giải quyết các bài toán khoa học lý thuyết, còn trí tuệ B là khả năng thực hiện các công việc sinh hoạt đời thường.",
+        "C": "Trí tuệ A là năng lực ngôn ngữ khu trú ở bán cầu não trái, còn trí tuệ B là năng lực định hướng không gian khu trú ở bán cầu não phải.",
+        "D": "Trí tuệ A là thành phần điều khiển lập kế hoạch chiến lược, còn trí tuệ B là thành phần tiếp thu tri thức thông qua quá trình chọn mã."
+      },
+      "correct_answer": "A",
+      "explanation": "D. Hebb (1974) chia trí tuệ thành 'trí tuệ A' (tiềm năng có từ khi mới sinh, là nguyên liệu cơ bản cho sự phát triển năng lực trí tuệ sau này) và 'trí tuệ B' (kết quả của sự tương tác giữa trí A với môi trường).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "question": "Nhà tâm lý học A. Jensen (1969) đã phân chia cấu trúc trí tuệ theo hai mức độ (Trình độ I và Trình độ II) với nội dung cụ thể là gì?",
+      "options": {
+        "A": "Trình độ I là giai đoạn nhận thức vấn đề để tạo khung tư duy; Trình độ II là giai đoạn chuyển hóa khung tư duy sang các hoàn cảnh mới trong toàn bộ tiến trình phát triển tâm lí cá thể.",
+        "B": "Trình độ I là trí tuệ cụ thể, thực hành tham gia vào hoạt động đời thường; Trình độ II là trí tuệ trừu tượng tham gia vào hoạt động nhận thức khoa học.",
+        "C": "Trình độ I là khả năng cảm thụ âm nhạc và nghệ thuật tạo hình; Trình độ II là khả năng vận động cơ thể khéo léo của các vận động viên.",
+        "D": "Trình độ I là các phản xạ bẩm sinh không điều kiện của trẻ sơ sinh; Trình độ II là các kỹ năng giao tiếp ứng xử của người trưởng thành."
+      },
+      "correct_answer": "B",
+      "explanation": "Jensen (1969) chia trí tuệ thành 2 mức: Trí tuệ cụ thể, thực hành (trình độ I) tham gia vào các hoạt động đời thường và trí tuệ trừu tượng (trình độ II) tham gia vào các hoạt động nhận thức khoa học.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "Cùng xu hướng phân mức trí tuệ với A. Jensen, học giả Nguyễn Khắc Viện (1991) đã đề xuất hai mức độ trí tuệ nào?",
+      "options": {
+        "A": "Hai mức là 'trí nhớ máy móc' (lưu giữ nguyên bản các sự kiện) và 'trí nhớ ý nghĩa' (sắp xếp thông tin theo hệ thống khái niệm logic).",
+        "B": "Hai mức là 'trí thông minh cảm xúc' (kiểm soát tâm trạng cá nhân) và 'trí thông minh xã hội' (thấu cảm và thuyết phục người đối thoại) theo đúng các quy luật phản ánh tâm lí khách quan.",
+        "C": "Hai mức là 'trí làm' (thích nghi tình huống cụ thể theo thuộc tính cụ thể của sự vật) và 'trí nghĩ' (trí tuệ trừu tượng có sự tham gia của ngôn ngữ, kí hiệu).",
+        "D": "Hai mức là 'trí tuệ nhân tạo' (xử lý dữ liệu nhị phân trên máy tính) và 'trí tuệ sinh học' (hoạt động phản xạ của hệ thần kinh trung ương)."
+      },
+      "correct_answer": "C",
+      "explanation": "Nguyễn Khắc Viện (1991) đề nghị hai mức trí tuệ: 'trí làm' (thích nghi với tình huống cụ thể, tìm giải pháp phù hợp thuộc tính cụ thể của sự vật) và 'trí nghĩ' (trí tuệ trừu tượng, có sự tham gia của ngôn ngữ, dùng kí hiệu, tượng trưng).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 36,
+      "question": "Theo Nguyễn Khắc Viện (1991), đặc điểm cốt lõi phân biệt mức 'trí nghĩ' với mức 'trí làm' là gì?",
+      "options": {
+        "A": "Trí nghĩ diễn ra hoàn toàn trực tiếp trong trường tri giác cảm tính mà không cần đến bất kỳ hệ thống ngôn ngữ hay kí hiệu trung gian nào.",
+        "B": "Trí nghĩ chỉ gắn liền với các thao tác tay chân cụ thể nhằm biến đổi hình dạng vật lý tức thời của các công cụ lao động thủ công.",
+        "C": "Trí nghĩ là năng lực bẩm sinh có sẵn ở cả động vật bậc cao lẫn trẻ em giai đoạn tiền ngôn ngữ khi giải quyết bài toán đường vòng.",
+        "D": "Trí nghĩ là trí tuệ trừu tượng, có sự tham gia của ngôn ngữ, dùng kí hiệu và tượng trưng để biểu hiện các vật và mối quan hệ giữa chúng."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Nguyễn Khắc Viện (1991), trí nghĩ tức là trí tuệ trừu tượng, có sự tham gia của ngôn ngữ, dùng kí hiệu, tượng trưng để biểu hiện các vật và mối quan hệ giữa chúng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Khi so sánh mô hình của R. Cattell (1967) và D. Hebb (1974), điểm tương đồng rõ nét nhất giữa 'trí lỏng' và 'trí tuệ A' là gì?",
+      "options": {
+        "A": "Cả hai đều là tiềm năng sinh học có từ khi mới sinh ra và đóng vai trò làm cơ sở, nguyên liệu ban đầu cho sự phát triển trí tuệ về sau.",
+        "B": "Cả hai đều là hệ thống tri thức khoa học chuyên ngành chỉ có thể hình thành thông qua quá trình đào tạo bài bản tại nhà trường phổ thông.",
+        "C": "Cả hai đều là kết quả cuối cùng của sự tương tác lâu dài giữa chủ thể với các công cụ văn hóa xã hội ở tuổi trưởng thành.",
+        "D": "Cả hai đều là những kỹ năng giao tiếp liên cá nhân giúp con người thấu cảm và điều hòa các mối quan hệ xã hội phức tạp."
+      },
+      "correct_answer": "A",
+      "explanation": "Cả 'trí lỏng' (Cattell) và 'trí A' (Hebb) đều được xác định là tiềm năng có từ khi mới sinh, làm cơ sở/nguyên liệu cho sự phát triển các năng lực trí tuệ sau này.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Điểm giống nhau về tiêu chí phân chia giữa mô hình của A. Jensen (Trình độ I – Trình độ II) và mô hình của Nguyễn Khắc Viện (Trí làm – Trí nghĩ) là gì?",
+      "options": {
+        "A": "Cả hai mô hình đều phân chia cấu trúc trí tuệ dựa trên tỷ lệ phần trăm đóng góp của gen di truyền và môi trường văn hóa giáo dục.",
+        "B": "Cả hai mô hình đều phân chia cấu trúc trí tuệ theo hai mức độ từ trí tuệ cụ thể, thực hành đến trí tuệ trừu tượng, khái quát.",
+        "C": "Cả hai mô hình đều phân chia cấu trúc trí tuệ dựa trên sự đối lập giữa bán cầu đại não trái và bán cầu đại não phải của con người.",
+        "D": "Cả hai mô hình đều phân chia cấu trúc trí tuệ thành ba chiều không gian: mặt thao tác nhận thức, mặt nội dung và mặt sản phẩm."
+      },
+      "correct_answer": "B",
+      "explanation": "Cả Jensen (Trình độ I cụ thể thực hành - Trình độ II trừu tượng) và Nguyễn Khắc Viện (Trí làm cụ thể - Trí nghĩ trừu tượng) đều xây dựng mô hình theo kiểu phân mức trình độ phản ánh từ cụ thể đến trừu tượng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "Vì sao giáo trình nhận định giá trị thực tiễn của mô hình cấu trúc hai nhân tố (G và S) do C. Spearman đề xuất là không cao?",
+      "options": {
+        "A": "Bởi vì mô hình của C. Spearman liệt kê tới 120 yếu tố quá vụn vặt khiến các nhà tâm lý học không thể thiết kế nổi bài trắc nghiệm.",
+        "B": "Bởi vì mô hình của C. Spearman chỉ áp dụng được cho động vật trong phòng thí nghiệm chứ không áp dụng được cho học sinh trong nhà trường.",
+        "C": "Bởi vì cách phân chia trí tuệ thành nhân tố chung G và nhân tố riêng S còn quá chung chung và mang tính chất trừu tượng.",
+        "D": "Bởi vì C. Spearman hoàn toàn phủ nhận việc sử dụng phương pháp thống kê toán học và trắc nghiệm trong nghiên cứu tâm lý học trí tuệ."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.2.1 chỉ rõ: giá trị thực tiễn của mô hình cấu trúc hai nhân tố do Spearman đề xuất không cao, vì nó quá chung và trừu tượng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 40,
+      "question": "Theo N.A. Menchinxcaia, nếu trong quá trình dạy học người giáo viên chỉ tập trung làm tăng số lượng tri thức mà xem nhẹ việc rèn luyện thủ thuật trí tuệ thì sẽ dẫn đến hậu quả gì?",
+      "options": {
+        "A": "Sẽ giúp học sinh phát triển vượt bậc năng lực tư duy phân kì sáng tạo nhưng lại làm suy giảm khả năng ghi nhớ từ ngữ chính xác.",
+        "B": "Sẽ làm cho nhân tố chuyên biệt S phát triển lấn át hoàn toàn nhân tố chung G trong cấu trúc trí tuệ thứ bậc của người học.",
+        "C": "Sẽ khiến học sinh tự động chuyển hóa từ giai đoạn nhận thức vấn đề sang giai đoạn chuyển giao tri thức mà không cần qua rèn luyện.",
+        "D": "Sẽ dẫn đến quan điểm dạy học nhồi nhét kiến thức thụ động, làm học sinh không có hệ thống thao tác để giải quyết nhiệm vụ mới."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Menchinxcaia, nếu chỉ tăng số lượng tri thức sẽ dẫn đến quan điểm nhồi nhét trong dạy học; ngược lại nếu chỉ nhằm vào thủ thuật mà thiếu tri thức thì 'cái đầu trống rỗng không thể suy nghĩ được'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "question": "Nhà tâm lý học Mỹ L.L. Thurstone (1887–1955) đã sử dụng phương pháp thống kê để tách ra bao nhiêu yếu tố đặc trưng (năng lực tinh thần cơ bản) trong trí tuệ cá nhân?",
+      "options": {
+        "A": "Ông đã tách ra 7 yếu tố đặc trưng gồm: vận dụng số (N), hiểu ngôn ngữ (V), hoạt bát ngôn ngữ (W), không gian (S), trí nhớ (M), tri giác (P) và suy luận (R).",
+        "B": "Ông đã tách ra 2 yếu tố đặc trưng gồm: nhân tố trí tuệ tổng quát chung (G) và nhân tố năng khiếu hoạt động chuyên biệt (S).",
+        "C": "Ông đã tách ra 3 yếu tố đặc trưng gồm: thành phần siêu cấu trúc điều khiển, thành phần thực hiện và thành phần tiếp thu tri thức mới.",
+        "D": "Ông đã tách ra 8 dấu hiệu nhận dạng trí khôn gắn liền với sự khu biệt các trung khu chức năng trên hai bán cầu đại não người."
+      },
+      "correct_answer": "A",
+      "explanation": "L.L. Thurstone sử dụng phương pháp thống kê tách ra 7 yếu tố đặc trưng trong trí tuệ cá nhân: N (Number), V (Verbal comprehension), W (Word fluency), S (Space), M (Memory), P (Perceptual), R (Reasoning).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 42,
+      "question": "Trong mô hình đa nhân tố của L.L. Thurstone, hai yếu tố V (Verbal comprehension) và W (Word fluency) được phân biệt với nhau như thế nào?",
+      "options": {
+        "A": "Yếu tố V là khả năng tính toán nhanh với các con số, còn yếu tố W là khả năng biểu tượng về hình dáng các vật thể trong không gian ba chiều.",
+        "B": "Yếu tố V là khả năng hiểu (lĩnh hội) ngôn ngữ nói và viết, còn yếu tố W là sự hoạt bát ngôn ngữ biểu hiện qua khả năng dùng từ ngữ chính xác và linh hoạt.",
+        "C": "Yếu tố V là khả năng phát âm tiếng nước ngoài chuẩn xác, còn yếu tố W là khả năng sáng tác các bản giao hưởng âm nhạc không lời.",
+        "D": "Yếu tố V là khả năng ghi nhớ máy móc các văn bản cổ, còn yếu tố W là khả năng suy luận quy nạp từ các dữ kiện hình ảnh trực quan xét trên bình diện cấu trúc nhận thức của cá nhân."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Thurstone, yếu tố V (Verbal comprehension) là hiểu (lĩnh hội) được ngôn ngữ (nói và viết); còn yếu tố W (Word fluency) là sự hoạt bát ngôn ngữ, biểu hiện qua khả năng dùng từ ngữ chính xác và linh hoạt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "Theo mô hình cấu trúc đa nhân tố của L.L. Thurstone, yếu tố S (Space) trong 7 năng lực tinh thần cơ bản đại diện cho khả năng nào?",
+      "options": {
+        "A": "Đại diện cho các kỹ năng chuyên biệt (Special) chỉ xuất hiện khi cá nhân giải quyết một bài toán chuyên môn hẹp như đánh cờ vua.",
+        "B": "Đại diện cho các kích thích vật lý (Stimulus) tác động trực tiếp vào cơ quan thụ cảm thị giác và thính giác của chủ thể.",
+        "C": "Đại diện cho khả năng về không gian, bao hàm khả năng biểu tượng và hình dung về các vật thể trong không gian.",
+        "D": "Đại diện cho sự nhạy cảm xã hội (Social sensitivity) giúp cá nhân thấu cảm với tâm trạng và cảm xúc của những người xung quanh."
+      },
+      "correct_answer": "C",
+      "explanation": "Cần lưu ý phân biệt kí hiệu S của Spearman (Special - chuyên biệt) với yếu tố S của Thurstone (Space - khả năng về không gian, bao hàm khả năng biểu tượng về vật thể trong không gian).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "Nhà tâm lý học J.P. Guilford (1959) đã có hai đóng góp khoa học lớn nào trong việc nghiên cứu trí tuệ theo hướng phân tích nhân tố?",
+      "options": {
+        "A": "Ông đã có hai đóng góp lớn là phát minh ra khái niệm vùng phát triển gần nhất và quy luật chuyển hóa chức năng tâm lí từ ngoài vào trong.",
+        "B": "Ông đã có hai đóng góp lớn là thiết lập công thức tính thương số thông minh IQ và sáng lập thuyết ưu sinh học di truyền trong tâm lý học.",
+        "C": "Ông đã có hai đóng góp lớn là phân biệt đồng hóa với điều ứng và chia sự phát triển trí tuệ trẻ em thành bốn giai đoạn kế tiếp nhau.",
+        "D": "Ông đã có hai đóng góp lớn là xây dựng mô hình cấu trúc nội dung của trí tuệ (Khối vuông 120 yếu tố) và quan điểm về trí tuệ sáng tạo."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 2.3.2, J.P. Guilford có hai đóng góp lớn: cấu trúc nội dung của trí tuệ (Khối vuông trí tuệ 3 chiều gồm 120 yếu tố) và quan điểm về trí tuệ sáng tạo (1959).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 45,
+      "question": "Trong mô hình 'Khối vuông trí tuệ' (Mô hình ba chiều) của J.P. Guilford, ba mặt cấu thành nên mọi hoạt động trí tuệ là gì và gồm bao nhiêu yếu tố?",
+      "options": {
+        "A": "Gồm mặt Thao tác (5 yếu tố), mặt Nội dung phản ánh (4 yếu tố) và mặt Sản phẩm (6 yếu tố), kết hợp tạo thành 120 yếu tố.",
+        "B": "Gồm mặt Siêu cấu trúc (3 yếu tố), mặt Kinh nghiệm (5 yếu tố) và mặt Ngữ cảnh văn hóa (8 yếu tố), kết hợp tạo thành 120 yếu tố.",
+        "C": "Gồm mặt Năng lực thần kinh (4 yếu tố), mặt Thủ thuật tư duy (5 yếu tố) và mặt Chuyên môn (6 yếu tố), kết hợp tạo thành 120 yếu tố.",
+        "D": "Gồm mặt Kích thích (6 yếu tố), mặt Công cụ kí hiệu (4 yếu tố) và mặt Phản ứng vận động (5 yếu tố), kết hợp tạo thành 120 yếu tố."
+      },
+      "correct_answer": "A",
+      "explanation": "Guilford quan niệm vận động của các thao tác (5 yếu tố), nội dung sự vật (4 yếu tố) và sản phẩm (6 yếu tố) là ba mặt của một hoạt động trí tuệ, tạo thành khối vuông 5 x 4 x 6 = 120 yếu tố.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 46,
+      "question": "Theo mô hình ba chiều của J.P. Guilford, 'Mặt thao tác' của hoạt động trí tuệ bao gồm 5 yếu tố cụ thể nào?",
+      "options": {
+        "A": "Bao gồm: hình ảnh (tượng hình), tượng trưng (biểu tượng), ngữ nghĩa (khái niệm), hành vi (ứng xử) và chuyển hóa trạng thái trong quá trình nghiên cứu thực nghiệm tâm lí học.",
+        "B": "Bao gồm: nhận dạng các sự kiện (khả năng nhận thức), trí nhớ, tư duy hội tụ (tư duy tái tạo), tư duy phân kì (tư duy sáng tạo) và khả năng đánh giá.",
+        "C": "Bao gồm: đơn vị (cá thể), lớp (loại), quan hệ, hệ thống và tổ hợp (bao hàm các quan hệ nhân quả, suy luận, quy nạp).",
+        "D": "Bao gồm: chọn mã thông tin, chọn các tổ hợp sự kiện, chọn sự kết hợp mới - cũ, tự động hóa kinh nghiệm và thích ứng môi trường."
+      },
+      "correct_answer": "B",
+      "explanation": "Mặt thao tác trong mô hình Guilford gồm 5 yếu tố: nhận dạng các sự kiện; trí nhớ; tư duy hội tụ (tư duy tái tạo); tư duy phân kì (tư duy sáng tạo); khả năng đánh giá.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Trong mô hình Khối vuông trí tuệ của J.P. Guilford, 4 yếu tố thuộc về 'Mặt nội dung phản ánh' là những yếu tố nào?",
+      "options": {
+        "A": "Bốn yếu tố thuộc mặt nội dung phản ánh là: tính linh hoạt, tính mềm dẻo, tính độc đáo và tính nhạy cảm trước vấn đề mới.",
+        "B": "Bốn yếu tố thuộc mặt nội dung phản ánh là: nhận dạng sự kiện, ghi nhớ thông tin, suy luận hội tụ và phán đoán đánh giá theo đúng các quy luật phản ánh tâm lí khách quan.",
+        "C": "Bốn yếu tố thuộc mặt nội dung phản ánh là: hình ảnh (tượng hình), tượng trưng (biểu tượng), ngữ nghĩa (khái niệm) và hành vi (ứng xử).",
+        "D": "Bốn yếu tố thuộc mặt nội dung phản ánh là: ngữ âm học, cú pháp học, ngữ nghĩa học và thực hành giao tiếp ngôn ngữ."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 2.3.2, Mặt nội dung phản ánh của Guilford gồm 4 yếu tố: hình ảnh (tượng hình); tượng trưng (biểu tượng); ngữ nghĩa (khái niệm); hành vi (ứng xử).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Sáu yếu tố thuộc về 'Mặt sản phẩm' trong mô hình cấu trúc ba mặt của J.P. Guilford bao gồm những thành tố nào?",
+      "options": {
+        "A": "Bao gồm 6 yếu tố: trí tuệ ngôn ngữ, trí tuệ âm nhạc, trí tuệ lôgic - toán, trí tuệ không gian, trí tuệ vận động và trí tuệ nội tâm.",
+        "B": "Bao gồm 6 yếu tố: phân tích, tổng hợp, so sánh, trừu tượng hóa, khái quát hóa và cụ thể hóa các khái niệm khoa học.",
+        "C": "Bao gồm 6 yếu tố: cảm giác, tri giác, biểu tượng, trí nhớ ngắn hạn, trí nhớ dài hạn và trí tưởng tượng sáng tạo trong toàn bộ tiến trình phát triển tâm lí cá thể.",
+        "D": "Bao gồm 6 yếu tố: đơn vị (cá thể), lớp (loại), quan hệ, hệ thống, chuyển hóa và tổ hợp (bao hàm quan hệ nhân quả, suy luận, quy nạp)."
+      },
+      "correct_answer": "D",
+      "explanation": "Mặt sản phẩm trong mô hình của Guilford gồm 6 yếu tố: đơn vị (cá thể); lớp (loại); quan hệ; hệ thống; chuyển hóa; tổ hợp (bao hàm).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 49,
+      "question": "Theo J.P. Guilford, sự khác biệt bản chất giữa 'tư duy hội tụ' (Convergence thinking) và 'tư duy phân kì' (Divergence thinking) được thể hiện như thế nào?",
+      "options": {
+        "A": "Tư duy hội tụ là thành phần lôgic giúp phát hiện quy luật vốn tồn tại (tạo ra phát minh), còn tư duy phân kì là tư duy sáng tạo tạo ra cái mới độc đáo có ích mà trước đó chưa có (tạo ra sáng chế).",
+        "B": "Tư duy hội tụ là loại tư duy chỉ có ở các nghệ sĩ sáng tác nghệ thuật tự do, còn tư duy phân kì là loại tư duy đóng khung chỉ có ở các nhân viên kế toán thống kê.",
+        "C": "Tư duy hội tụ là quá trình suy nghĩ không cần ngôn ngữ của động vật bậc cao, còn tư duy phân kì là quá trình giải các bài toán cộng trừ số học theo công thức có sẵn.",
+        "D": "Tư duy hội tụ luôn dẫn đến những kết luận sai lầm chủ quan, còn tư duy phân kì là phương thức duy nhất giúp con người nhận thức đúng các quy luật tự nhiên."
+      },
+      "correct_answer": "A",
+      "explanation": "Guilford chỉ rõ: Tư duy hội tụ là thành phần lôgic làm cơ sở phát hiện sự vật, quy luật vốn tồn tại mà trước đó chưa biết (phát minh); tư duy phân kì là tư duy sáng tạo tạo ra cái mới, độc đáo và có ích mà trước đó chưa có (sáng chế).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "question": "Theo J.P. Guilford và các cộng sự, tư duy sáng tạo (tư duy phân kì) được nhận diện thông qua 4 đặc trưng cơ bản nào?",
+      "options": {
+        "A": "Bốn đặc trưng của tư duy sáng tạo là: tính khuôn mẫu (Conformity), tính tốc độ (Speed), tính chính xác số học (Accuracy) và tính ghi nhớ nguyên bản (Retention).",
+        "B": "Bốn đặc trưng của tư duy sáng tạo là: tính linh hoạt (Flexibility), tính mềm dẻo (Fluency), tính độc đáo (Originality) và tính nhạy cảm vấn đề (Problem-sensibility).",
+        "C": "Bốn đặc trưng của tư duy sáng tạo là: tính thuận nghịch (Reversibility), tính bảo tồn (Conservation), tính liên kết (Associativity) và tính đồng nhất (Identity) xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "D": "Bốn đặc trưng của tư duy sáng tạo là: tính trực tiếp cảm tính, tính tức thời ngẫu nhiên, tính lệ thuộc trường tri giác và tính không có kí hiệu ngôn ngữ."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo J.P. Guilford và cộng sự, tư duy sáng tạo có 4 đặc trưng: tính linh hoạt (Flexibility), tính mềm dẻo (Fluency), tính độc đáo (Originality) và tính nhạy cảm vấn đề (Problem-sensibility).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 51,
+      "question": "Quan điểm phân định trí tuệ lôgic và trí tuệ sáng tạo của J.P. Guilford đã đặt các nhà nghiên cứu theo xu hướng trắc nghiệm truyền thống trước vấn đề phương pháp luận gì?",
+      "options": {
+        "A": "Các bài trắc nghiệm truyền thống chỉ đo được tư duy phân kì sáng tạo của học sinh mà hoàn toàn bất lực trong việc đo lường tư duy hội tụ lôgic.",
+        "B": "Mọi bài trắc nghiệm tâm lý đều phải bị cấm sử dụng tuyệt đối vì chúng làm suy giảm nghiêm trọng khả năng ghi nhớ từ vựng của trẻ em.",
+        "C": "Trí tuệ con người không chỉ gồm thành phần lôgic biểu hiện qua các bài trắc nghiệm khuôn mẫu, mà còn có thành phần sáng tạo nhưng đã không được phản ánh vào các trắc nghiệm hiện hành.",
+        "D": "Trí tuệ sáng tạo chỉ có thể đo lường được thông qua việc giải phẫu cấu trúc tế bào thần kinh chứ không thể thiết kế thành các bài tập tình huống trong toàn bộ tiến trình phát triển tâm lí cá thể."
+      },
+      "correct_answer": "C",
+      "explanation": "Quan điểm của Guilford chỉ ra rằng trí tuệ con người không chỉ bao gồm các thành phần lôgic được biểu hiện qua các bài trắc nghiệm có tính khuôn mẫu tương ứng, mà còn có cả các thành phần sáng tạo chưa được phản ánh trong các trắc nghiệm hiện hành.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 52,
+      "question": "Theo giáo sư Đại học Yale Robert J. Sternberg (1986), bất cứ sự giải thích khoa học nào về trí tuệ cũng phải giải quyết được 3 vấn đề cốt lõi nào?",
+      "options": {
+        "A": "Xác định trọng lượng của bộ não khi mới sinh; tính toán tốc độ dẫn truyền xung thần kinh qua khớp thần kinh; và lập bản đồ gen di truyền của dòng họ trong quá trình nghiên cứu thực nghiệm tâm lí học.",
+        "B": "Đo lường dung lượng bộ nhớ cảm giác; thống kê số lượng từ vựng học thuộc lòng mỗi ngày; và kiểm tra tốc độ thực hiện các phép tính cộng trừ nhân chia.",
+        "C": "Phân tích cấu trúc hóa học của phân tử nước; phân tích giá trị thặng dư của hàng hóa trong lưu thông; và mô tả tập tính làm tổ của các loài chim.",
+        "D": "Liên kết trí tuệ với thế giới bên trong của con người; giải thích mối quan hệ giữa thế giới bên ngoài với trí tuệ; và liên kết giữa thao tác trí tuệ với kinh nghiệm cá nhân."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo R. Sternberg (1986), bất cứ sự giải thích nào về trí tuệ cũng phải giải quyết 3 vấn đề: (1) liên kết trí tuệ với thế giới bên trong; (2) giải thích quan hệ giữa thế giới bên ngoài với trí tuệ; (3) liên kết giữa thao tác trí tuệ với kinh nghiệm cá nhân.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 53,
+      "question": "Trên cơ sở giải quyết 3 vấn đề về bản chất trí tuệ, R.J. Sternberg (1986) đã xây dựng thuyết 3 thành phần của trí tuệ với tên gọi là gì?",
+      "options": {
+        "A": "Ba thành phần trong mô hình của R.J. Sternberg được gọi tên là: Thành phần Cấu trúc, thành phần Kinh nghiệm và thành phần Điều kiện (Ngữ cảnh).",
+        "B": "Ba thành phần trong mô hình của R.J. Sternberg được gọi tên là: Mặt Thao tác nhận thức, mặt Nội dung phản ánh và mặt Sản phẩm tư duy.",
+        "C": "Ba thành phần trong mô hình của R.J. Sternberg được gọi tên là: Năng lực thần kinh bẩm sinh, Thủ thuật tư duy và Trình độ chuyên môn sâu.",
+        "D": "Ba thành phần trong mô hình của R.J. Sternberg được gọi tên là: Kích thích đối tượng bên ngoài, Công cụ kí hiệu trung gian và Phản ứng hành vi."
+      },
+      "correct_answer": "A",
+      "explanation": "R. Sternberg (1986) xây dựng thuyết 3 thành phần của trí tuệ và gọi tên 3 thành phần đó là: Cấu trúc, Kinh nghiệm và Điều kiện (Ngữ cảnh).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 54,
+      "question": "Trong Thuyết 3 thành phần của R.J. Sternberg, 'Thành phần cấu trúc' (cấu trúc của kĩ năng tư duy bên trong) bao gồm 3 bộ phận nhỏ nào?",
+      "options": {
+        "A": "Bao gồm 3 bộ phận là: thích ứng với môi trường thực tại, cải tạo môi trường hiện có và lựa chọn một môi trường sống mới thuận lợi hơn.",
+        "B": "Bao gồm 3 bộ phận có độ tương hỗ cao là: thành phần siêu cấu trúc, thành phần thực hiện và thành phần tiếp nhận (tiếp thu tri thức).",
+        "C": "Bao gồm 3 bộ phận là: giai đoạn nhận thức vấn đề, giai đoạn nhập tâm tự động hóa và giai đoạn chuyển hóa tri thức sang hoàn cảnh khác.",
+        "D": "Bao gồm 3 bộ phận là: trí nhớ cảm giác tức thời, trí nhớ làm việc ngắn hạn và hệ thống trí nhớ ngữ nghĩa dài hạn trên vỏ não."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Sternberg, Thành phần cấu trúc chính là cấu trúc của kĩ năng tư duy, gồm 3 thành phần: siêu cấu trúc, thực hiện và tiếp nhận (tiếp thu tri thức).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 55,
+      "question": "Theo R.J. Sternberg, 'Thành phần siêu cấu trúc' trong cấu trúc kĩ năng tư duy đảm nhiệm chức năng gì?",
+      "options": {
+        "A": "Là bộ phận trực tiếp thu nhận các kích thích âm thanh và ánh sáng từ môi trường bên ngoài để chuyển thành xung thần kinh hướng tâm.",
+        "B": "Là bộ phận lưu trữ các thói quen vận động cơ bắp đã được tự động hóa hoàn toàn không cần sự tham gia của ý thức chủ thể.",
+        "C": "Là thành phần điều khiển trung tâm, có chức năng lập kế hoạch, theo dõi và đánh giá các chiến lược giải quyết vấn đề của cá nhân.",
+        "D": "Là bộ phận chuyên điều hòa nhịp tim, nhịp thở và các phản ứng nội tiết khi cá nhân rơi vào trạng thái xúc cảm căng thẳng."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo R. Sternberg, thành phần siêu cấu trúc là thành phần điều khiển, có chức năng lập kế hoạch, theo dõi và đánh giá các chiến lược giải quyết vấn đề của cá nhân.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 56,
+      "question": "Trong 'Thành phần tiếp thu tri thức' của R.J. Sternberg, ba quá trình quan trọng giúp cá nhân lựa chọn và xác định yếu tố phù hợp là gì?",
+      "options": {
+        "A": "Gồm quá trình đồng hóa thông tin vào sơ đồ cũ, quá trình điều ứng thay đổi sơ đồ nhận thức và quá trình thiết lập trạng thái cân bằng động.",
+        "B": "Gồm quá trình ghi nhớ máy móc từng từ ngữ, quá trình lặp lại nguyên văn định nghĩa và quá trình kiểm tra trắc nghiệm trên giấy xét trên bình diện cấu trúc nhận thức của cá nhân trong quá trình nghiên cứu thực nghiệm tâm lí học.",
+        "C": "Gồm quá trình phân tích phần tử hóa học, quá trình tổng hợp cơ học các kích thích và quá trình loại bỏ hoàn toàn kinh nghiệm đã có.",
+        "D": "Gồm quá trình chọn mã (phát hiện sự kiện tương quan chưa rõ ràng), quá trình chọn các tổ hợp (kết hợp sự kiện không liên quan) và quá trình chọn sự kết hợp (kết hợp thông tin mới và cũ)."
+      },
+      "correct_answer": "D",
+      "explanation": "Sternberg xác định 3 quá trình quan trọng trong việc lựa chọn khi tiếp thu tri thức: (1) quá trình chọn mã; (2) quá trình chọn các tổ hợp; (3) quá trình chọn sự kết hợp (giữa thông tin mới và cũ).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 57,
+      "question": "Ví dụ lịch sử về nhà bác học Fleming phát hiện ra thuốc kháng sinh Penicillin nhờ nhận thấy nấm mốc làm hỏng thí nghiệm nhưng lại diệt chết vi trùng được R.J. Sternberg dùng để minh họa cho quá trình nào?",
+      "options": {
+        "A": "Minh họa cho 'quá trình chọn mã' trong thành phần tiếp thu tri thức, nơi cá nhân phát hiện được các sự kiện tương quan chưa được rõ ràng.",
+        "B": "Minh họa cho sự tự động hóa máy móc các kỹ xảo lao động chân tay sau hàng nghìn lần lặp đi lặp lại cùng một thao tác cũ.",
+        "C": "Minh họa cho hành vi trí tuệ bậc thấp theo sơ đồ kích thích - phản ứng trực tiếp không có sự tham gia của tư duy ngôn ngữ.",
+        "D": "Minh họa cho sự suy giảm trí tuệ lôgic - toán học do quá trình lão hóa tự nhiên của các tế bào thần kinh ở bán cầu não trái."
+      },
+      "correct_answer": "A",
+      "explanation": "Trong Mục 2.3.3, Sternberg nêu ví dụ Fleming phát hiện ra pênixilin khi nhận thấy mốc làm hỏng thí nghiệm nhưng cũng làm chết vi trùng để minh họa cho 'quá trình chọn mã' (phát hiện các sự kiện tương quan chưa rõ ràng).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 58,
+      "question": "Phân tích của R.J. Sternberg về khía cạnh 'Kinh nghiệm' trong hoạt động trí tuệ đã mang lại hàm ý phê phán sâu sắc nào đối với việc đánh giá kết quả trắc nghiệm?",
+      "options": {
+        "A": "Kinh nghiệm cá nhân luôn luôn cản trở quá trình giải bài tập trắc nghiệm, do đó trẻ càng có nhiều kinh nghiệm sống thì điểm số trắc nghiệm càng thấp xét trên bình diện cấu trúc nhận thức của cá nhân trong quá trình nghiên cứu thực nghiệm tâm lí học.",
+        "B": "Cùng một điểm số cao trong trắc nghiệm, có thể coi là thông minh đối với trẻ làm lần đầu (đáp ứng sáng tạo), nhưng sẽ sai lầm nếu kết luận như vậy với trẻ đã được huấn luyện nhiều lần (tự động hóa kinh nghiệm).",
+        "C": "Trẻ em làm bài trắc nghiệm lần đầu tiên không bao giờ có thể đạt được điểm số cao nếu không được học thuộc lòng đáp án từ trước.",
+        "D": "Mọi câu trả lời đúng trong bài trắc nghiệm đều là sản phẩm của sự may mắn ngẫu nhiên chứ không liên quan gì đến khả năng sáng tạo hay kinh nghiệm."
+      },
+      "correct_answer": "B",
+      "explanation": "Sternberg chỉ ra một câu trả lời đúng có thể do sáng tạo trước cái mới, nhưng cũng có thể do tự động hóa kinh nghiệm cũ. Cùng điểm số cao, trẻ làm lần đầu là thông minh, nhưng kết luận vậy với trẻ đã được huấn luyện nhiều lần là sai lầm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 59,
+      "question": "Trong khía cạnh thứ ba 'Ngữ cảnh' của mô hình R.J. Sternberg, sự thích ứng của cá nhân thông minh với môi trường sống được hiểu theo 3 nghĩa nào?",
+      "options": {
+        "A": "Chấp nhận thụ động mọi áp đặt của hoàn cảnh; thu mình tách biệt khỏi giao tiếp xã hội; và chờ đợi sự thay đổi ngẫu nhiên của tự nhiên.",
+        "B": "Ghi nhớ vị trí địa lý của môi trường; vẽ lại bản đồ không gian của môi trường; và tính toán diện tích hình học của nơi cư trú trong quá trình nghiên cứu thực nghiệm tâm lí học.",
+        "C": "Thích ứng để phù hợp với môi trường thực tại; sắp xếp, phát triển làm thay đổi môi trường hiện tại cho phù hợp nhu cầu; và lựa chọn môi trường mới thuận lợi hơn.",
+        "D": "Phản ứng tức thời với các kích thích trong trường tri giác; bắt chước tập tính bầy đàn; và di cư theo mùa giống các loài động vật hoang dã."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Sternberg, sự thích ứng trong thành phần Ngữ cảnh được hiểu theo 3 nghĩa: (1) Thích ứng với môi trường thực tại; (2) Sắp xếp, phát triển làm thay đổi môi trường hiện tại cho phù hợp nhu cầu; (3) Lựa chọn các môi trường mới thuận lợi hơn.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 60,
+      "question": "Chương trình dạy phát triển năng lực trí tuệ do R.J. Sternberg xây dựng năm 1986 bao gồm 5 phần nào?",
+      "options": {
+        "A": "Kiểm tra sàng lọc IQ đầu vào; học thuộc lòng các bảng số liệu; luyện giải đề trắc nghiệm tốc độ cao; thi đua xếp hạng cá nhân; và trao thưởng cho học sinh điểm cao.",
+        "B": "Rèn luyện thể lực buổi sáng; bổ sung dinh dưỡng cho hệ thần kinh; nghe nhạc giao hưởng cổ điển; tập vẽ tranh không gian ba chiều; và viết nhật ký nội tâm.",
+        "C": "Phân tích cấu trúc ngữ âm; dịch thuật văn bản cổ ngữ; giải phương trình đại số tuyến tính; thực hành lắp ráp cơ khí; và kiểm tra trí nhớ ngắn hạn theo đúng các quy luật phản ánh tâm lí khách quan.",
+        "D": "Thông tin cơ sở về mô hình 3 thành phần; tài liệu huấn luyện kĩ năng bên trong; chỉ dẫn và thực hành các vấn đề; bài tập vận dụng; và thảo luận nhóm về động cơ, xúc cảm liên quan."
+      },
+      "correct_answer": "D",
+      "explanation": "Chương trình phát triển năng lực trí tuệ của Sternberg (1986) gồm 5 phần: (1) thông tin cơ sở và thảo luận về mô hình 3 thành phần; (2) tài liệu huấn luyện kĩ năng bên trong; (3) chỉ dẫn và thực hành; (4) bài tập vận dụng; (5) thảo luận nhóm về động cơ và xúc cảm (thiếu kiên trì, tự ti, quá tự tin...).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "question": "Giáo sư Đại học Harvard D.N. Perkins (1986, 1987) đã tổng hợp ba quan niệm phổ biến về trí tuệ thành công thức cấu trúc nào?",
+      "options": {
+        "A": "Trí tuệ = Năng lực (khả năng của hệ thần kinh) + Thủ thuật (chiến thuật tư duy) + Trình độ chuyên môn (hiểu biết nội dung chuyên môn).",
+        "B": "Trí tuệ = Nhân tố chung G (tính linh hoạt thần kinh) + Nhân tố chuyên biệt S (năng khiếu riêng) + Thương số thông minh IQ.",
+        "C": "Trí tuệ = Mặt thao tác nhận thức (5 yếu tố) x Mặt nội dung phản ánh (4 yếu tố) x Mặt sản phẩm tư duy (6 yếu tố).",
+        "D": "Trí tuệ = Kích thích của đối tượng môi trường (A) + Phương tiện kí hiệu tâm lí (X) + Phản ứng có kế hoạch của chủ thể (B)."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo D.N. Perkins, cấu trúc trí tuệ bao hàm cả 3 nội dung và được mô tả bằng công thức: Trí tuệ = Năng lực + Thủ thuật + Trình độ chuyên môn.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 62,
+      "question": "Theo phân tích của D.N. Perkins, những nhà tâm lý học nào là đại biểu cho quan niệm coi 'trí tuệ là năng lực cá nhân' thiên về yếu tố sinh học và các trung khu thần kinh?",
+      "options": {
+        "A": "Đại biểu cho quan niệm này là L.X. Vưgôtxki, A.N. Lêonchiev và P.Ia. Galperin thuộc trường phái tâm lí học hoạt động Xô viết.",
+        "B": "Đại biểu cho quan niệm này là A. Jensen, và nhà tâm lí học H. Gardner cũng có xu hướng đề cao vai trò của các trung khu thần kinh đối với các loại trí tuệ.",
+        "C": "Đại biểu cho quan niệm này là N.A. Menchinxcaia và E.N. Canbanova-Menle với các nghiên cứu về thủ thuật trí tuệ trong nhà trường xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "D": "Đại biểu cho quan niệm này là J. Watson và B.F. Skinner, những người phủ nhận hoàn toàn vai trò của cấu trúc sinh học thần kinh."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong Mục 2.3.4, D.N. Perkins chỉ rõ: những người coi trí tuệ là năng lực cá nhân thường quy sức mạnh trí tuệ vào yếu tố sinh học, đại biểu là A. Jensen; H. Gardner cũng có xu hướng đề cao vai trò các trung khu thần kinh.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 63,
+      "question": "Vì sao D.N. Perkins khẳng định giải pháp tốt nhất để nhà trường phát triển trí tuệ cho học sinh là phải tập trung vào việc dạy các 'thủ thuật tư duy'?",
+      "options": {
+        "A": "Vì học sinh phổ thông hoàn toàn không cần đến bất kỳ kiến thức chuyên môn nào về toán học, vật lý hay văn học trong suốt quá trình học tập.",
+        "B": "Vì hệ thần kinh của con người ngừng hoạt động ngay khi trẻ bước vào tuổi đi học nên chỉ còn các thủ thuật tư duy vận hành độc lập.",
+        "C": "Vì nâng cao năng lực hệ thần kinh rất phức tạp, lâu dài và nhà trường có vai trò không lớn; nâng cao trình độ chuyên môn cũng cần tích lũy nhiều năm tháng; trong khi thủ thuật tư duy có thể dạy và huấn luyện hiệu quả.",
+        "D": "Vì việc dạy các thủ thuật tư duy không đòi hỏi người học phải ghi nhớ hay vận dụng trí tuệ vào bất kỳ hoàn cảnh thực tế nào xét trên bình diện cấu trúc nhận thức của cá nhân trong quá trình nghiên cứu thực nghiệm tâm lí học."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Perkins, nâng cao năng lực hoạt động của hệ thần kinh rất phức tạp, lâu dài và nhà trường có vai trò không lớn; nâng cao trình độ chuyên môn phải tích lũy nhiều năm tháng; do đó giải pháp tốt nhất cho nhà trường là tập trung rèn luyện các thủ thuật, chiến thuật tư duy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 64,
+      "question": "Theo D.N. Perkins, việc dạy tư duy bao gồm 3 nội dung nào và người học phải trải qua 3 cấp độ trạng thái tư duy nào để đạt hiệu quả?",
+      "options": {
+        "A": "Ba nội dung là: Đọc chép tài liệu, Học thuộc lòng công thức, Thi trắc nghiệm khách quan; cùng 3 cấp độ là: Ghi nhớ cảm tính, Tái hiện nguyên bản và Quên dần theo thời gian trong toàn bộ tiến trình phát triển tâm lí cá thể.",
+        "B": "Ba nội dung là: Kích thích giác quan, Củng cố phần thưởng, Tránh né hình phạt; cùng 3 cấp độ là: Phản xạ bẩm sinh, Thử và sai ngẫu nhiên và Kỹ xảo cơ học.",
+        "C": "Ba nội dung là: Chọn mã thông tin, Chọn các tổ hợp, Chọn sự kết hợp; cùng 3 cấp độ là: Thích ứng môi trường, Cải tạo môi trường và Lựa chọn môi trường mới.",
+        "D": "Ba nội dung là: Vận dụng trí tuệ, Chọn phương pháp tiếp cận đúng, Dạy thủ pháp tư duy; cùng 3 cấp độ là: Nhận thức vấn đề, Giai đoạn nhập tâm (tự động hóa) và Chuyển hóa (chuyển giao)."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Perkins (Mục 2.3.4), việc dạy tư duy gồm 3 nội dung: (1) Vận dụng trí tuệ; (2) Chọn phương pháp tiếp cận đúng; (3) Dạy thủ pháp tư duy. Ba cấp độ trạng thái tư duy gồm: (1) Nhận thức vấn đề; (2) Giai đoạn nhập tâm (tự động hóa); (3) Chuyển hóa (chuyển giao).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 65,
+      "question": "Trong 3 cấp độ học tư duy của D.N. Perkins, khi người học đạt đến 'Giai đoạn nhập tâm (tự động hóa)' thì sẽ đem lại lợi ích tâm lý trực tiếp gì?",
+      "options": {
+        "A": "Khi các thao tác tư duy đã được tự động hóa thông qua rèn luyện trí nhớ, nó sẽ giải phóng bộ nhớ của người học và làm cho người học không bị phụ thuộc vào hoàn cảnh.",
+        "B": "Nó sẽ làm xóa bỏ hoàn toàn mọi khung nhận thức đã hình thành ở giai đoạn trước và buộc người học phải suy nghĩ lại từ đầu trước mọi bài toán quen thuộc.",
+        "C": "Nó sẽ biến người học thành một cỗ máy phản xạ vô thức không còn khả năng chuyển giao tri thức sang các hoàn cảnh mới mẻ khác nhau.",
+        "D": "Nó sẽ làm tăng gánh nặng quá tải cho bộ nhớ ngắn hạn và khiến người học bị lệ thuộc chặt chẽ vào các kích thích trực tiếp của hoàn cảnh."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Perkins, ở giai đoạn nhập tâm (tự động hóa), khi các thao tác tư duy đã được tự động hóa sẽ giải phóng bộ nhớ của người học, làm cho người học không bị phụ thuộc vào hoàn cảnh.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "question": "Theo D.N. Perkins, cấp độ thứ ba 'Chuyển hóa (chuyển giao)' trong việc học tư duy có đặc điểm gì cần lưu ý trong công tác huấn luyện sư phạm?",
+      "options": {
+        "A": "Chuyển hóa là khả năng bẩm sinh tự động xuất hiện ngay khi trẻ mới lọt lòng mà không cần bất kỳ sự hướng dẫn hay rèn luyện nào của nhà trường.",
+        "B": "Chuyển hóa là sử dụng hệ thống tư duy vào các hoàn cảnh khác nhau; khả năng này không xuất hiện một cách ngẫu nhiên mà bắt buộc cần phải được huấn luyện.",
+        "C": "Chuyển hóa là quá trình biến đổi cấu trúc giải phẫu của các tế bào thần kinh vỏ não thông qua việc sử dụng các loại dược phẩm kích thích trí nhớ.",
+        "D": "Chuyển hóa là việc sao chép nguyên xi lời giải của một bài toán mẫu để áp dụng máy móc vào chính bài toán đó trong kỳ thi kiểm tra trong quá trình nghiên cứu thực nghiệm tâm lí học."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Perkins, chuyển hóa (chuyển giao) tức là sử dụng hệ thống tư duy vào các hoàn cảnh khác nhau; khả năng này không xuất hiện một cách ngẫu nhiên, vì vậy cần phải được huấn luyện.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 67,
+      "question": "Khi đánh giá tổng quát các mô hình cấu trúc trí tuệ theo hướng tiếp cận phân tích nhân tố, giáo trình đã chỉ ra 3 hạn chế cố hữu nào?",
+      "options": {
+        "A": "Không thể thiết kế được các bài tập trắc nghiệm đo lường; hoàn toàn bỏ qua vai trò của các thao tác tư duy lôgic; và quá đề cao bản chất lịch sử - xã hội của trí tuệ trong quá trình nghiên cứu thực nghiệm tâm lí học.",
+        "B": "Chỉ nghiên cứu được trí tuệ của trẻ em dưới hai tuổi; không phân biệt được trí nhớ với tri giác; và phủ nhận hoàn toàn sự khác biệt cá nhân về năng lực.",
+        "C": "Làm mất bản chất, nội dung tâm lí chỉnh thể và làm lu mờ quan hệ chức năng giữa các yếu tố; khó phát hiện cơ chế hình thành, vận hành; và không xác định được sự chế ước của các yếu tố văn hóa - xã hội.",
+        "D": "Quá tập trung vào việc nghiên cứu công cụ kí hiệu ngôn ngữ; đồng nhất trí tuệ con người với máy tính điện tử; và xóa nhòa ranh giới giữa các môn học."
+      },
+      "correct_answer": "C",
+      "explanation": "Cuối Mục 2.3.4 nêu rõ 3 hạn chế cố hữu của các mô hình phân tích nhân tố: (1) Chia cắt tổng thể thành các yếu tố riêng làm mất bản chất tâm lí và làm lu mờ quan hệ chức năng, tương hỗ; (2) Khó phát hiện cơ chế hình thành và vận hành; (3) Không xác định được sự chế ước của các yếu tố văn hóa - xã hội.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 68,
+      "question": "Theo giáo trình, làm thế nào để khắc phục triệt để những hạn chế cố hữu của các mô hình cấu trúc trí tuệ theo hướng phân tích nhân tố?",
+      "options": {
+        "A": "Có thể khắc phục bằng cách tăng số lượng các yếu tố trong khối vuông trí tuệ của J.P. Guilford từ 120 yếu tố lên 500 yếu tố riêng lẻ.",
+        "B": "Có thể khắc phục bằng cách quay trở lại quan niệm cổ điển đầu thế kỷ XX coi trí tuệ là một khối nguyên vẹn không có bất kỳ cấu trúc nào.",
+        "C": "Có thể khắc phục bằng cách chỉ sử dụng duy nhất sơ đồ kích thích - phản ứng trực tiếp của chủ nghĩa hành vi bảo thủ trên động vật.",
+        "D": "Có thể khắc phục những hạn chế đó bằng cách chuyển sang tiếp cận cấu trúc trí tuệ theo hướng phương pháp phân tích đơn vị."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình khẳng định: Ta có thể khắc phục những hạn chế trên của phương pháp phân tích nhân tố bằng cách tiếp cận cấu trúc trí tuệ theo hướng phân tích đơn vị.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 69,
+      "question": "Trong mô hình của R.J. Sternberg, 'Thành phần thực hiện' giữ vai trò gì trong mối quan hệ với 'Thành phần siêu cấu trúc'?",
+      "options": {
+        "A": "Giúp cá nhân triển khai các chỉ dẫn của thành phần siêu cấu trúc, đóng vai trò là bộ phận ứng dụng của trí tuệ để suy luận, áp dụng các mối quan hệ và so sánh chất lượng kích thích.",
+        "B": "Giữ vai trò kiểm duyệt và bác bỏ mọi kế hoạch do thành phần siêu cấu trúc đề ra nhằm duy trì trạng thái nghỉ ngơi tĩnh tại của hệ thần kinh.",
+        "C": "Giữ vai trò thay thế hoàn toàn thành phần siêu cấu trúc để tự mình lập kế hoạch tổng thể mà không cần thực hiện bất kỳ thao tác suy luận cụ thể nào.",
+        "D": "Giữ vai trò lưu trữ vĩnh viễn các bản năng sinh học bẩm sinh và ngăn cản sự tiếp thu các tri thức ngôn ngữ mới từ môi trường văn hóa bên ngoài."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo R. Sternberg, thành phần thực hiện giúp cá nhân triển khai các chỉ dẫn của thành phần siêu cấu trúc; chúng là bộ phận ứng dụng của trí tuệ (suy luận ra các mối quan hệ, áp dụng quan hệ đối với kích thích mới và so sánh chất lượng kích thích).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 70,
+      "question": "Theo R.J. Sternberg, khi đánh giá khả năng trí tuệ của một cá nhân trong thực tiễn, vì sao không thể chỉ dựa vào các trắc nghiệm truyền thống cố định?",
+      "options": {
+        "A": "Vì các trắc nghiệm truyền thống chỉ đo được khả năng điều chỉnh môi trường thực tế mà hoàn toàn không có câu hỏi nào kiểm tra kiến thức ngôn ngữ hay toán học trong toàn bộ tiến trình phát triển tâm lí cá thể theo đúng các quy luật phản ánh tâm lí khách quan.",
+        "B": "Vì các trắc nghiệm truyền thống không tính đến khả năng điều chỉnh môi trường sống và sự biến đổi của hoàn cảnh từ nền văn hóa này sang nền văn hóa khác, từ thời đại này sang thời đại khác, từ giai đoạn này sang giai đoạn khác của cuộc đời.",
+        "C": "Vì khả năng trí tuệ của mỗi con người thay đổi ngẫu nhiên từng giây từng phút theo thời tiết nên không một công cụ khoa học nào có thể ghi nhận được.",
+        "D": "Vì mọi cá nhân trên thế giới ở mọi nền văn hóa và mọi độ tuổi đều có trình độ trí tuệ hoàn toàn bằng nhau, không có sự khác biệt cá nhân nào."
+      },
+      "correct_answer": "B",
+      "explanation": "Sternberg chỉ rõ người thông minh là người điều chỉnh thành công môi trường sống của họ — khả năng này không được tính đến trong các trắc nghiệm truyền thống. Khi đánh giá trí tuệ phải tính đến sự biến đổi của văn hóa, thời đại và giai đoạn cuộc đời.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 71,
+      "question": "Trong cấp độ thứ nhất 'Nhận thức vấn đề' của việc học tư duy theo D.N. Perkins, nguyên tắc sư phạm chủ đạo cần thực hiện là gì?",
+      "options": {
+        "A": "Bắt buộc người học phải học thuộc lòng một khung tư duy duy nhất của giáo viên và nghiêm cấm mọi sự biến đổi hay mô hình hóa cá nhân.",
+        "B": "Không dạy trực tiếp bất kỳ trạng thái tư duy nào mà để người học tự mò mẫm thử và sai hoàn toàn ngẫu nhiên trong suốt nhiều năm học xét trên bình diện cấu trúc nhận thức của cá nhân trong quá trình nghiên cứu thực nghiệm tâm lí học.",
+        "C": "Cố gắng phát triển tư duy bằng cách dạy trực tiếp các trạng thái của tư duy, làm phong phú khả năng khái quát và mô hình hóa, khuyến khích người học tạo ra các khung tư duy cho riêng mình.",
+        "D": "Chỉ tập trung rèn luyện trí nhớ máy móc để tự động hóa các thao tác có sẵn mà không cần cho người học tiếp xúc với bản chất của khung nhận thức."
+      },
+      "correct_answer": "C",
+      "explanation": "Ở cấp độ 1 (Nhận thức vấn đề), Perkins nêu nguyên tắc chủ đạo là: cố gắng phát triển tư duy bằng cách dạy trực tiếp các trạng thái của tư duy, làm phong phú khả năng khái quát và mô hình hóa, khuyến khích người học tạo ra các khung tư duy cho riêng mình.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 72,
+      "question": "Theo J.P. Guilford, các sáng chế kỹ thuật, sáng tạo văn học - nghệ thuật hay sáng tạo quân sự là sản phẩm trực tiếp của loại tư duy nào?",
+      "options": {
+        "A": "Đó là sản phẩm trực tiếp của tư duy hội tụ (Convergence thinking), tức là thành phần lôgic chỉ nhằm phát hiện lại các quy luật tự nhiên sẵn có.",
+        "B": "Đó là sản phẩm trực tiếp của quá trình liên tưởng gần nhau về không gian và thời gian theo cơ chế phản xạ có điều kiện cổ điển.",
+        "C": "Đó là sản phẩm trực tiếp của hành vi trí tuệ bậc thấp mang tính trực tiếp, tức thời trong trường tri giác cảm tính của cơ thể theo đúng các quy luật phản ánh tâm lí khách quan.",
+        "D": "Đó là sản phẩm trực tiếp của tư duy phân kì (Divergence thinking), tức là loại tư duy sáng tạo tạo ra cái mới, độc đáo và có ích cho xã hội mà trước đó chưa có."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Guilford, tư duy phân kì (Divergence thinking) là loại tư duy sáng tạo, làm cơ sở để cá nhân tạo ra cái mới, độc đáo và có ích cho xã hội như các sáng chế kỹ thuật, sáng tạo văn học - nghệ thuật, quân sự...",
+      "difficulty": "easy"
+    },
+    {
+      "id": 73,
+      "question": "Để làm rõ sự khác biệt về bản chất nhận thức giữa 'phương pháp phân tích nhân tố' và 'phương pháp phân tích đơn vị', L.X. Vưgôtxki đã sử dụng ví dụ kinh điển nào trong hóa học?",
+      "options": {
+        "A": "Phân tích nhân tố chia nước thành Ôxy và Hydrô (hai chất duy trì sự cháy và cháy được nên không giải thích được vì sao nước dập tắt lửa), còn phân tích đơn vị chia nước thành phân tử nước bảo toàn bản chất của nước.",
+        "B": "Phân tích nhân tố giữ nguyên phân tử nước ở trạng thái lỏng, còn phân tích đơn vị đun sôi nước thành hơi nước để đo áp suất khí quyển trong phòng thí nghiệm.",
+        "C": "Phân tích nhân tố kết hợp Ôxy và Hydrô để tạo ra chất nổ, còn phân tích đơn vị tách hạt nhân nguyên tử Ôxy thành các hạt điện tử và hạt nơtron riêng biệt.",
+        "D": "Phân tích nhân tố xem xét nước trong mối quan hệ với đời sống sinh vật, còn phân tích đơn vị cô lập nước trong ống nghiệm chân không tuyệt đối."
+      },
+      "correct_answer": "A",
+      "explanation": "Trong Mục 2.4.1, giáo trình nêu ví dụ hóa học: phân tích nhân tố chia nước thành Ôxy và Hydrô (đều duy trì sự cháy, làm mất tính chất dập tắt lửa của nước); còn phân tích đơn vị chia nước thành phân tử nước, vẫn bảo toàn bản chất cố hữu của nước.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 74,
+      "question": "Trong kinh tế chính trị học, việc C. Mác sử dụng 'phương pháp phân tích đơn vị' khác với các nhà kinh tế học trước Mác (dùng phân tích nhân tố) ở điểm cốt lõi nào?",
+      "options": {
+        "A": "Các nhà kinh tế trước Mác nghiên cứu hàng hóa công nghiệp nặng, còn C. Mác chỉ nghiên cứu các sản phẩm nông nghiệp tự cung tự cấp trong xã hội phong kiến.",
+        "B": "Các nhà kinh tế trước Mác tách rời giá trị sử dụng và lưu thông nên cho rằng tư bản sinh ra trong lưu thông; còn C. Mác lấy hàng hóa trừu tượng (gồm giá trị sử dụng và giá trị trao đổi) làm đơn vị, chứng minh tư bản nảy sinh do bóc lột sức lao động trừu tượng kết tinh trong hàng hóa.",
+        "C": "Các nhà kinh tế trước Mác dùng phương pháp thống kê toán học hiện đại, còn C. Mác dùng phương pháp tự quan sát nội quan trong phòng thí nghiệm tâm lý trong toàn bộ tiến trình phát triển tâm lí cá thể theo đúng các quy luật phản ánh tâm lí khách quan trong toàn bộ tiến trình phát triển tâm lí cá thể.",
+        "D": "Các nhà kinh tế trước Mác coi lao động của công nhân là nguồn gốc duy nhất của giá trị, còn C. Mác cho rằng máy móc tự động hóa tự sinh ra giá trị thặng dư."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 2.4.1, các nhà kinh tế học trước Mác tách hàng hóa thành giá trị sử dụng và lưu thông nên kết luận sai rằng tư bản hình thành trong lưu thông. C. Mác dùng phân tích đơn vị tách ra hàng hóa trừu tượng (giá trị sử dụng + giá trị trao đổi), chứng minh tư bản nảy sinh do bóc lột sức lao động trừu tượng của công nhân.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 75,
+      "question": "Theo phương pháp tiếp cận phân tích đơn vị do L.X. Vưgôtxki (1997) khởi xướng trong tâm lý học, nhiệm vụ cốt lõi của nhà nghiên cứu trí tuệ là gì?",
+      "options": {
+        "A": "Chia nhỏ trí tuệ thành càng nhiều yếu tố độc lập càng tốt để dễ dàng chấm điểm từng phần tử bằng các bài trắc nghiệm trắc nghiệm khách quan trên máy tính.",
+        "B": "Tách biệt hoàn toàn cấu trúc nhận thức bên trong của cá nhân khỏi mọi ảnh hưởng của môi trường văn hóa, lịch sử và các quan hệ xã hội bên ngoài.",
+        "C": "Chỉ ra được đơn vị tâm lí nhỏ nhất mà ở đó vẫn bảo toàn được bản chất tâm lí của nó: một mặt chỉ ra cấu trúc của trí tuệ, mặt khác chỉ ra nội dung tâm lí - xã hội và các yếu tố chế ước nó.",
+        "D": "Quy giản toàn bộ các hiện tượng trí tuệ phức tạp của con người về các phản xạ tiết nước bọt có điều kiện như ở động vật trong phòng thí nghiệm theo đúng các quy luật phản ánh tâm lí khách quan."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo cách tiếp cận phân tích đơn vị của Vưgôtxki, nhiệm vụ của nhà nghiên cứu là chỉ ra đơn vị tâm lí nhỏ nhất bảo toàn bản chất tâm lí: vừa chỉ ra cấu trúc của trí tuệ, vừa chỉ ra nội dung tâm lí - xã hội và các yếu tố chế ước nó.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 76,
+      "question": "Khi nghiên cứu cấu trúc trí tuệ người, L.X. Vưgôtxki đã xuất phát từ phạm trù hoạt động thực tiễn và dựa trên hai giả thuyết nền tảng nào?",
+      "options": {
+        "A": "Giả thuyết về sự di truyền nguyên vẹn chỉ số thông minh IQ qua các thế hệ và giả thuyết về sự chín muồi sinh học tự phát của các vùng vỏ não trong quá trình nghiên cứu thực nghiệm tâm lí học xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "B": "Giả thuyết về sự cân bằng giữa đồng hóa với điều ứng sinh học và giả thuyết về tính bất biến của bốn giai đoạn phát triển trí tuệ theo tuổi.",
+        "C": "Giả thuyết về sự liên tưởng tự do giữa các hình ảnh cảm tính và giả thuyết về cơ chế thử - sai ngẫu nhiên trong trường tri giác trực tiếp.",
+        "D": "Giả thuyết về tính chất gián tiếp của các chức năng tâm lí người thông qua công cụ kí hiệu và giả thuyết về nguồn gốc của các chức năng tâm lí cấp cao bên trong từ hoạt động vốn lúc đầu ở bên ngoài."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 2.4.2, quá trình nghiên cứu của Vưgôtxki xuất phát từ 2 giả thuyết: (1) tính chất gián tiếp của các chức năng tâm lí người thông qua công cụ kí hiệu; (2) nguồn gốc của các chức năng tâm lí cấp cao bên trong từ hoạt động vốn lúc đầu ở bên ngoài.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 77,
+      "question": "Theo phân tích của L.X. Vưgôtxki, các hành vi 'thông minh' ở động vật (như gà, khỉ) thuộc mức 'trí tuệ bậc thấp' có hai đặc điểm cơ bản nào?",
+      "options": {
+        "A": "Là những phản ứng trực tiếp, cụ thể, tức thời diễn ra trong trường tri giác của con vật; và hoàn toàn không có sự tham gia của ngôn ngữ hay các kí hiệu làm phương tiện trung gian.",
+        "B": "Là những hành động có kế hoạch được chuẩn bị trước bằng ngôn ngữ bên trong; và có khả năng truyền đạt kinh nghiệm văn hóa từ thế hệ này sang thế hệ khác.",
+        "C": "Là những thao tác tư duy trừu tượng vượt ra ngoài trường tri giác trực tiếp; và biết sử dụng các kí hiệu đại số để giải quyết nhiệm vụ phức tạp.",
+        "D": "Là những phản ứng hoàn toàn bất động trước kích thích của môi trường; và không bao giờ sử dụng được bất kỳ công cụ vật chất nào như hòn đá hay cành cây."
+      },
+      "correct_answer": "A",
+      "explanation": "Trí tuệ bậc thấp có 2 điểm cơ bản: (1) Là những phản ứng trực tiếp, cụ thể, tức thời diễn ra trong trường tri giác của con vật; (2) Hoàn toàn không có sự tham gia của ngôn ngữ, của các kí hiệu làm phương tiện trung gian.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 78,
+      "question": "Theo nhà tâm lý học Gestalt V. Köhler (1921) được L.X. Vưgôtxki dẫn lại, nguyên nhân cơ bản nào làm cho loài khỉ không thể có bất kỳ mầm mống phát triển văn hóa nào?",
+      "options": {
+        "A": "Do cấu tạo bàn tay của loài khỉ không thể cầm nắm được các vật thể cứng như gậy gỗ hay hòn đá trong môi trường tự nhiên.",
+        "B": "Do thiếu phương tiện trợ giúp quý báu là ngôn ngữ và sự hạn chế có tính nguyên tắc của nguyên liệu có tính chất trí tuệ là các kí hiệu.",
+        "C": "Do loài khỉ hoàn toàn không có khả năng tri giác các mối quan hệ không gian giữa các vật thể đặt trong cùng một trường nhìn.",
+        "D": "Do trọng lượng não bộ của loài khỉ quá nhỏ nên không thể hình thành được bất kỳ phản xạ có điều kiện nào với thức ăn xét trên bình diện cấu trúc nhận thức của cá nhân."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo V. Kolơ (1921), do thiếu phương tiện trợ giúp quý báu là ngôn ngữ và sự hạn chế có tính nguyên tắc của nguyên liệu có tính chất trí tuệ là các kí hiệu, là nguyên nhân cơ bản làm cho khỉ không thể có bất kì mầm mống phát triển có tính chất văn hóa nào.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 79,
+      "question": "Theo L.X. Vưgôtxki, hành vi trí tuệ bậc thấp (có ở cả động vật và trẻ em tiền ngôn ngữ) có cấu trúc gồm mấy thành phần và tương ứng với sơ đồ nào?",
+      "options": {
+        "A": "Có cấu trúc ba thành phần gián tiếp gồm kích thích đối tượng, công cụ tâm lí trung gian và phản ứng có tổ chức theo sơ đồ A - X - B xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "B": "Có cấu trúc bốn thành phần khép kín theo vòng phản hồi thông tin Kiểm tra - Thao tác - Kiểm tra - Thoát ra (sơ đồ TOTE).",
+        "C": "Có cấu trúc hai thành phần gồm các kích thích của môi trường và các phản ứng của cơ thể, phù hợp với sơ đồ trực tiếp S - R (hoặc A - B).",
+        "D": "Có cấu trúc năm thành phần tương ứng với năm mặt thao tác nhận thức trong khối vuông trí tuệ ba chiều của J.P. Guilford."
+      },
+      "correct_answer": "C",
+      "explanation": "Hành vi trí tuệ bậc thấp có cấu trúc hai thành phần: (1) các kích thích của môi trường và (2) các phản ứng của cơ thể (từ mò mẫm thử - sai đến bừng hiểu), phù hợp với sơ đồ trực tiếp S - R (hay A - B).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 80,
+      "question": "Theo L.X. Vưgôtxki, sự khác biệt giữa hành vi trí tuệ bậc cao của con người với hành vi trí tuệ bậc thấp của con vật mang bản chất gì và thể hiện qua hai dấu hiệu nào?",
+      "options": {
+        "A": "Chỉ là sự khác biệt về số lượng các phép thử và sai ngẫu nhiên, thể hiện qua tốc độ chạy nhanh hơn và thời gian lấy được mồi ngắn hơn của con người.",
+        "B": "Là sự khác biệt về độ tinh nhạy của các cơ quan thụ cảm ngoại vi, thể hiện qua khả năng nhìn xa ban đêm và khả năng nghe được sóng siêu âm xét trên bình diện cấu trúc nhận thức của cá nhân trong quá trình nghiên cứu thực nghiệm tâm lí học.",
+        "C": "Chỉ là sự khác biệt về dung lượng bộ nhớ sinh học bẩm sinh, thể hiện qua số lượng hình ảnh trực quan được lưu giữ nguyên vẹn trong trường tri giác.",
+        "D": "Là sự khác biệt về chất (chứ không chỉ ở mức độ phức tạp), thể hiện qua hai dấu hiệu cơ bản: sự xuất hiện, tham gia của ngôn ngữ và vai trò của các công cụ tâm lí trong các thao tác trí tuệ."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo L.X. Vưgôtxki, sự khác biệt giữa hành vi trí tuệ bậc thấp và bậc cao không phải ở mức độ phức tạp mà là khác về chất, qua 2 dấu hiệu cơ bản: (1) sự xuất hiện và tham gia của ngôn ngữ; (2) vai trò của các công cụ tâm lí trong các thao tác trí tuệ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 81,
+      "question": "Quan điểm của L.X. Vưgôtxki về mối quan hệ giữa 'hành vi trí tuệ thực hành' và 'hành vi kí hiệu' ở con người khác với ở động vật bậc cao như thế nào?",
+      "options": {
+        "A": "Ở động vật bậc cao hành vi trí tuệ thực hành và hành vi kí hiệu (vốn chỉ gắn với cảm xúc) độc lập với nhau, còn ở con người chúng hợp nhất thành một hệ thống hoàn chỉnh.",
+        "B": "Ở động vật bậc cao hành vi trí tuệ thực hành và hành vi kí hiệu đã hợp nhất hoàn chỉnh, còn ở con người chúng tách rời thành hai quá trình đối lập nhau.",
+        "C": "Cả ở động vật bậc cao lẫn ở con người trưởng thành, hành vi trí tuệ thực hành và hành vi kí hiệu đều vận hành hoàn toàn độc lập, không bao giờ giao nhau.",
+        "D": "Ở động vật bậc cao hành vi kí hiệu dùng để giải các bài toán khoa học trừu tượng, còn ở con người hành vi kí hiệu chỉ dùng để biểu đạt cảm xúc bản năng."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Vưgôtxki, nếu ở động vật cấp cao hành vi trí tuệ thực hành và hành vi kí hiệu (chỉ liên quan tới cảm xúc) độc lập với nhau, thì ở con người chúng hợp thành hệ thống hoàn chỉnh. Sự hợp nhất này là đặc trưng của hành vi trí tuệ người.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 82,
+      "question": "Khi ngôn ngữ tham gia vào hành vi trí tuệ của trẻ em, ngôn ngữ thực hiện hai chức năng quan trọng nào và tạo ra hai sự cải tổ căn bản nào?",
+      "options": {
+        "A": "Thực hiện 2 chức năng là phát âm và ghi chép chính tả; tạo ra 2 cải tổ là làm tăng tốc độ phản ứng co cơ bắp tức thời và thu hẹp hoàn toàn phạm vi hoạt động của trẻ vào trường tri giác trực tiếp trước mắt xét trên bình diện cấu trúc nhận thức của cá nhân trong quá trình nghiên cứu thực nghiệm tâm lí học.",
+        "B": "Thực hiện 2 chức năng là lập kế hoạch và tổ chức hành vi; tạo ra 2 cải tổ là làm giảm tính trực tiếp, ngẫu nhiên (chia hoạt động thành giải quyết bằng ngôn ngữ rồi mới thực hiện vận động) và hướng vào cả đối tượng khách quan lẫn hành vi, động cơ của bản thân chủ thể.",
+        "C": "Thực hiện 2 chức năng là biểu lộ cảm xúc bản năng và gọi bầy đàn; tạo ra 2 cải tổ là xóa bỏ toàn bộ các thao tác sử dụng công cụ vật chất và thay thế tư duy trừu tượng bằng các phép thử - sai ngẫu hứng.",
+        "D": "Thực hiện 2 chức năng là đồng hóa và điều ứng sinh học; tạo ra 2 cải tổ là tách rời người học khỏi môi trường xã hội và giam hãm nhận thức của trẻ trong các sơ đồ giác - động bẩm sinh."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong hành vi trí tuệ ngôn ngữ, ngôn ngữ có 2 chức năng quan trọng là lập kế hoạch và tổ chức hành vi, tạo ra 2 cải tổ: (1) giảm tính trực tiếp, ngẫu nhiên (phần đầu giải quyết ở bình diện ngôn ngữ, phần hai thực hiện bằng vận động); (2) hướng vào cả đối tượng bên ngoài lẫn hành vi, động cơ của chính chủ thể để tự làm chủ bản thân.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 83,
+      "question": "Theo L.X. Vưgôtxki, điểm giống nhau và khác nhau cơ bản nhất giữa 'công cụ kĩ thuật' (công cụ lao động) và 'công cụ tâm lí' (công cụ kí hiệu) là gì?",
+      "options": {
+        "A": "Giống nhau là đều có sẵn trong giới tự nhiên hoang dã từ trước khi loài người xuất hiện; khác nhau là công cụ kĩ thuật do động vật bậc cao sử dụng còn công cụ tâm lí chỉ do trẻ sơ sinh giai đoạn tiền ngôn ngữ sử dụng.",
+        "B": "Giống nhau là đều trực tiếp làm biến đổi hình dạng vật lý và cấu trúc hóa học của đối tượng bên ngoài; khác nhau là công cụ kĩ thuật tác động chậm còn công cụ tâm lí làm tan rã vật chất ngay tức khắc xét trên bình diện cấu trúc nhận thức của cá nhân trong quá trình nghiên cứu thực nghiệm tâm lí học xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "C": "Giống nhau là đều do con người tạo ra mang bản chất văn hóa - xã hội và làm trung gian giữa chủ thể với đối tượng; khác nhau ở hướng tác động: công cụ kĩ thuật hướng ra ngoài làm biến đổi đối tượng vật chất, còn công cụ tâm lí hướng vào trong làm thay đổi và điều khiển chức năng tâm lí, hành vi của bản thân chủ thể.",
+        "D": "Giống nhau là đều mang bản chất sinh học di truyền bẩm sinh trong hệ thần kinh; khác nhau là công cụ kĩ thuật nằm ở bán cầu não trái còn công cụ tâm lí nằm khu trú ở bán cầu não phải."
+      },
+      "correct_answer": "C",
+      "explanation": "Cả công cụ kĩ thuật và công cụ tâm lí đều là cấu thành nhân tạo có bản chất văn hóa - xã hội, đóng vai trò trung gian. Sự khác nhau cơ bản là hướng tác động: công cụ kĩ thuật hướng vào đối tượng bên ngoài và làm biến đổi nó; ngược lại công cụ tâm lí không làm thay đổi đối tượng mà hướng vào làm thay đổi diễn biến và cấu trúc các chức năng tâm lí, hành vi của bản thân.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 84,
+      "question": "Theo L.X. Vưgôtxki, đơn vị tâm lý tối thiểu không thể chia cắt được của 'trí tuệ bậc cao' mang tính chất văn hóa ở con người có cấu trúc như thế nào?",
+      "options": {
+        "A": "Có cấu trúc 2 thành phần trực tiếp: tồn tại mối liên hệ phản xạ thẳng từ kích thích của đối tượng môi trường (A) sang phản ứng vận động tức thời của cơ thể (B) mà không cần trung gian.",
+        "B": "Có cấu trúc 1 thành phần thuần túy tinh thần: chỉ bao gồm các ý niệm bẩm sinh tự vận động khép kín bên trong ý thức cá nhân mà không cần cả kích thích đối tượng (A) lẫn phản ứng (B).",
+        "C": "Có cấu trúc 4 thành phần tách biệt độc lập: cảm giác rời rạc, hình ảnh tri giác, liên tưởng ngẫu nhiên và phản xạ tiết dịch vị có điều kiện trong toàn bộ tiến trình phát triển tâm lí cá thể theo đúng các quy luật phản ánh tâm lí khách quan.",
+        "D": "Có cấu trúc 3 thành phần gián tiếp không thể chia cắt: tồn tại quan hệ gián tiếp giữa kích thích đối tượng (A) với phản ứng (B) thông qua kích thích phương tiện hay công cụ tâm lí (X), viết là A <-> X và X <-> B."
+      },
+      "correct_answer": "D",
+      "explanation": "Trong chức năng tâm lí cấp cao mang tính văn hóa, tồn tại quan hệ gián tiếp giữa kích thích đối tượng (A) với phản ứng (B) thông qua kích thích phương tiện (X), tạo nên cấu trúc 3 thành phần không thể chia cắt: A <-> X và X <-> B. Đây chính là đơn vị tâm lí tối thiểu của trí tuệ cấp cao.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 85,
+      "question": "Việc L.X. Vưgôtxki phát hiện ra vai trò của 'công cụ tâm lí' và cấu trúc 3 thành phần của trí tuệ bậc cao mang lại ý nghĩa thực tiễn sư phạm cốt lõi nào?",
+      "options": {
+        "A": "Cho phép xác định trình độ trí tuệ của trẻ qua loại công cụ kí hiệu trẻ sử dụng (khái niệm khoa học hay khái niệm kinh nghiệm) và chỉ ra con đường quan trọng nhất để phát triển trí tuệ là giúp trẻ học cách sử dụng các phương tiện tâm lí.",
+        "B": "Chứng minh rằng trình độ trí tuệ của trẻ em ở mọi dân tộc và mọi nền văn hóa đều giống hệt nhau vì trẻ không bao giờ sử dụng các công cụ kí hiệu xã hội vào quá trình tư duy.",
+        "C": "Khẳng định rằng người lớn không nên dạy trẻ sử dụng ngôn ngữ, sơ đồ hay khái niệm khoa học để tránh làm biến dạng các quá trình phản xạ tự nhiên bẩm sinh của trẻ.",
+        "D": "Cho thấy cách duy nhất để nâng cao trí tuệ cho học sinh là cho các em luyện tập thật nhiều các bài toán thử - sai trong trường tri giác trực tiếp giống như thực nghiệm của V. Köhler."
+      },
+      "correct_answer": "A",
+      "explanation": "Phát hiện của Vưgôtxki cho phép xác định cấu trúc và trình độ trí tuệ qua việc cá nhân sử dụng phương tiện kí hiệu (khái niệm khoa học hay khái niệm kinh nghiệm), từ đó chỉ ra con đường quan trọng nhất để phát triển trí tuệ cho trẻ là giúp các em học cách sử dụng các phương tiện tâm lí.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 86,
+      "question": "Theo L.X. Vưgôtxki, mối quan hệ giữa 'trí tuệ bậc thấp' và 'trí tuệ bậc cao' trong quá trình phát triển của trẻ em được hiểu đúng đắn như thế nào?",
+      "options": {
+        "A": "Hai mức trí tuệ này chỉ khác nhau về lượng chứ không khác nhau về chất: trí tuệ bậc cao chỉ là sự cộng dồn giản đơn hàng trăm phản xạ bậc thấp lại với nhau.",
+        "B": "Mặc dù hai mức trí tuệ này khác nhau về chất nhưng không hoàn toàn tách rời nhau: trí tuệ bậc cao là sự cấu trúc lại các hành vi trí tuệ bậc thấp trên cơ sở sử dụng phương tiện tâm lí.",
+        "C": "Hai mức trí tuệ này hoàn toàn đối lập và loại trừ nhau tuyệt đối: muốn hình thành trí tuệ bậc cao thì phải hủy diệt toàn bộ cơ sở sinh học của trí tuệ bậc thấp theo đúng các quy luật phản ánh tâm lí khách quan.",
+        "D": "Trí tuệ bậc cao xuất hiện trước ngay từ khi trẻ mới sinh ra, sau đó mới thoái hóa dần để biến thành các hành vi trí tuệ bậc thấp khi trẻ bước vào tuổi trưởng thành."
+      },
+      "correct_answer": "B",
+      "explanation": "Cuối Mục 2.4.2 khẳng định: mặc dù hai mức trí tuệ này khác nhau về chất, nhưng chúng không hoàn toàn tách rời nhau. Trí tuệ bậc cao là sự cấu trúc lại các hành vi trí tuệ bậc thấp trên cơ sở sử dụng phương tiện tâm lí.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 87,
+      "question": "Nhà tâm lý học Mỹ H. Gardner công bố 'Lý thuyết về nhiều dạng trí khôn' (Multiple Intelligences) vào năm 1983 dựa trên cách tiếp cận phương pháp luận nào?",
+      "options": {
+        "A": "Ông tuyệt đối hóa phương pháp phân tích nhân tố thống kê để quy toàn bộ trí tuệ con người về một chỉ số thương số thông minh IQ duy nhất.",
+        "B": "Ông chỉ sử dụng phương pháp tự quan sát nội quan trong phòng thí nghiệm tách biệt hoàn toàn khỏi bối cảnh giáo dục và văn hóa xã hội.",
+        "C": "Ông không quá nhiệt tình với các Test và phương pháp phân tích nhân tố, mà sử dụng cách tiếp cận phân tích theo đơn vị, đặt trí tuệ trong bối cảnh sinh học thần kinh kết hợp với văn hóa, xã hội và giáo dục xác định.",
+        "D": "Ông dựa hoàn toàn vào sơ đồ phản xạ có điều kiện cổ điển trên động vật để phủ nhận sự tồn tại của các trung khu chức năng trên vỏ não người xét trên bình diện cấu trúc nhận thức của cá nhân trong quá trình nghiên cứu thực nghiệm tâm lí học."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 2.4.3, H. Gardner không quá nhiệt tình với Test và phương pháp phân tích nhân tố; ông sử dụng cách tiếp cận phân tích theo đơn vị, nhìn trí tuệ bao quát và luôn đặt trong các bối cảnh xã hội, giáo dục xác định.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 88,
+      "question": "Theo H. Gardner (1983), có bao nhiêu dấu hiệu (tiêu chí) để nhận dạng một dạng trí khôn và từ đó ông đã xác định được bao nhiêu loại trí tuệ tương đối độc lập ở con người?",
+      "options": {
+        "A": "Có 5 dấu hiệu để nhận dạng một trí khôn, và dựa vào đó H. Gardner đã xác định được 120 loại trí tuệ tương đối độc lập của con người.",
+        "B": "Có 3 dấu hiệu để nhận dạng một trí khôn, và dựa vào đó H. Gardner đã xác định được 2 loại trí tuệ là trí tuệ lỏng và trí tuệ tinh luyện.",
+        "C": "Có 10 dấu hiệu để nhận dạng một trí khôn, và dựa vào đó H. Gardner đã xác định được 4 loại trí tuệ tương ứng với bốn giai đoạn lứa tuổi.",
+        "D": "Có 8 dấu hiệu để nhận dạng một trí khôn, và dựa vào đó H. Gardner đã xác định được 7 loại trí tuệ tương đối độc lập của con người."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 2.4.3, H. Gardner đưa ra 8 dấu hiệu để nhận dạng một trí khôn, và dựa vào 8 dấu hiệu đó ông xác định được 7 loại trí tuệ tương đối độc lập của con người.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 89,
+      "question": "Tám dấu hiệu (tiêu chí) để nhận dạng một dạng trí khôn theo lý thuyết của H. Gardner bao gồm những nội dung nào?",
+      "options": {
+        "A": "Khu biệt trung khu não; tồn tại dân cư ngoại lệ; có thao tác cốt lõi (hạt nhân); lịch sử phát triển rõ ràng; lịch sử tiến hóa; bằng chứng thực nghiệm; số liệu đo lường tâm lí; và nhạy cảm với việc giải mã hệ thống kí hiệu.",
+        "B": "Trọng lượng cơ thể lớn; tốc độ chạy nhanh; thị lực nhìn đêm tốt; thính giác nhạy bén; khứu giác phát triển; phản xạ gân xương mạnh; giấc ngủ sâu; và tuổi thọ sinh học kéo dài.",
+        "C": "Điểm trung bình môn toán cao; chữ viết tay đẹp; thuộc nhiều bài thơ; tính nhẩm nhanh; vẽ hình chính xác; hát đúng nhạc; chạy bền dẻo dai; và tuân thủ nội quy lớp học.",
+        "D": "Tính linh hoạt của tư duy; tính mềm dẻo của ngôn ngữ; tính độc đáo của sản phẩm; tính nhạy cảm vấn đề; tính thuận nghịch của thao tác; tính bảo tồn số lượng; tính đồng hóa; và tính điều ứng."
+      },
+      "correct_answer": "A",
+      "explanation": "8 dấu hiệu nhận dạng trí khôn của H. Gardner (Mục 2.4.3a): (1) Khu biệt trung khu chức năng não; (2) Tồn tại một số ít dân cư ngoại lệ; (3) Các thao tác quan trọng, cốt lõi nhất; (4) Lịch sử phát triển rõ ràng; (5) Lịch sử tiến hóa; (6) Bằng chứng thực nghiệm; (7) Số liệu đo lường tâm lí học; (8) Nhạy cảm đối với việc giải mã trong hệ thống kí hiệu.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 90,
+      "question": "Theo H. Gardner, trong 'Trí tuệ ngôn ngữ' (loại trí tuệ nổi bật của con người), cơ sở định khu trên não bộ và các thao tác cơ bản được xác định như thế nào?",
+      "options": {
+        "A": "Định khu trên bán cầu não phải (thùy chẩm kiểm soát khả năng nói, tiểu não điều khiển sự hiểu ngôn ngữ); các thao tác cơ bản gồm cảm thụ nhịp điệu, cao độ và âm sắc.",
+        "B": "Định khu trên bán cầu não trái (thùy trán kiểm soát khả năng nói, thùy thái dương điều khiển sự hiểu ngôn ngữ); các thao tác cơ bản gồm ngữ âm, cú pháp, ngữ nghĩa và thực hành ngôn ngữ.",
+        "C": "Định khu hoàn toàn ở vùng dưới đồi và hành tủy; các thao tác cơ bản gồm phản xạ phát âm bẩm sinh, bắt chước tiếng kêu và ghi nhớ hình ảnh không gian.",
+        "D": "Không có vùng định khu chuyên biệt nào trên vỏ não; các thao tác cơ bản gồm tính toán đại số, suy luận hình học và giải quyết các nghịch lý lôgic trong toàn bộ tiến trình phát triển tâm lí cá thể."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo H. Gardner (Mục 2.4.3b - mục 1), trí tuệ ngôn ngữ gắn với vùng ngôn ngữ trên bán cầu não trái: thùy trán kiểm soát khả năng nói, thùy thái dương điều khiển sự hiểu biết ngôn ngữ. Các thao tác cơ bản là: ngữ âm, cú pháp, ngữ nghĩa và thực hành ngôn ngữ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 91,
+      "question": "Khi phân tích cơ sở sinh lý thần kinh của 'Trí tuệ âm nhạc' và 'Trí tuệ lôgic - toán', H. Gardner đã chỉ ra sự khác biệt nào về vùng định khu và nguyên nhân suy giảm?",
+      "options": {
+        "A": "Trí tuệ âm nhạc gắn với bán cầu não trái và không bao giờ bị suy giảm; còn trí tuệ lôgic - toán gắn với bán cầu não phải và lập tức biến mất hoàn toàn chỉ sau một chấn thương nhẹ ở vùng da đầu trong toàn bộ tiến trình phát triển tâm lí cá thể theo đúng các quy luật phản ánh tâm lí khách quan.",
+        "B": "Cả trí tuệ âm nhạc lẫn trí tuệ lôgic - toán đều khu trú tập trung tại một điểm duy nhất ở thùy chẩm và chỉ phát triển mạnh nhất khi con người bước vào giai đoạn tuổi già sau 70 tuổi.",
+        "C": "Trí tuệ âm nhạc gắn với bán cầu não phải và có thể biến mất khi não tổn thương; còn trí tuệ lôgic - toán có thể ở bán cầu não trái (nhưng không chuyên biệt tại một vùng hẹp) và sự suy giảm của nó liên quan tới sự thoái hóa (lão hóa) toàn bộ não hơn là do tổn thương cục bộ.",
+        "D": "Trí tuệ âm nhạc do tủy sống điều khiển hoàn toàn độc lập với đại não; còn trí tuệ lôgic - toán do hệ thần kinh thực vật chi phối và chỉ suy giảm khi cá nhân ngừng hoạt động thể thao."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo H. Gardner: Trí tuệ âm nhạc gắn với bán cầu não phải (mức độ khu trú không tập trung như ngôn ngữ và có thể biến mất khi não tổn thương). Trí tuệ lôgic - toán nổi bật ở những năm trai trẻ, khu trú ở bán cầu não trái nhưng không chuyên biệt tại một vùng nào; sự suy giảm liên quan tới sự thoái hóa (lão hóa) toàn bộ não hơn là do tổn thương hay tai biến cục bộ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 92,
+      "question": "Theo H. Gardner, 'Trí tuệ thị giác - không gian' gắn với bán cầu não nào và nếu vùng não này bị tổn thương thì sẽ dẫn đến hậu quả cụ thể gì?",
+      "options": {
+        "A": "Gắn với bán cầu não trái; sự tổn thương ở vùng não này chỉ làm cá nhân mất khả năng thực hiện các phép tính nhân chia phức tạp nhưng vẫn định hướng không gian rất tốt.",
+        "B": "Gắn với phần dưới của thùy trán; sự tổn thương ở vùng não này dẫn đến trạng thái hưng phấn cảm xúc quá mức nhưng làm tăng cường khả năng vẽ bản đồ địa lý.",
+        "C": "Gắn với vùng thùy thái dương trái; sự tổn thương ở vùng não này làm cá nhân mất khả năng hiểu ngữ nghĩa câu nói nhưng vẫn nhận diện khuôn mặt người thân bình thường.",
+        "D": "Gắn với bán cầu não phải; sự tổn thương ở vùng não này có thể dẫn đến việc cá nhân không nhận ra người thân và những nơi chốn rất quen thuộc trước kia."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 2.4.3b (mục 4), trí tuệ thị giác - không gian gắn với bán cầu não phải; sự tổn thương ở vùng não này có thể dẫn đến cá nhân không nhận ra người thân và những nơi chốn rất quen thuộc trước kia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 93,
+      "question": "Trong mô hình 7 dạng trí tuệ của H. Gardner, hai thao tác cơ bản của 'Trí tuệ vận động cơ thể' là gì và cơ sở sinh lý thần kinh của nó vận hành theo quy luật nào?",
+      "options": {
+        "A": "Hai thao tác cơ bản là khả năng kiểm soát cơ thể và khả năng điều khiển các đồ vật bằng tay; về cơ sở sinh lí, trung tâm vận động của bán cầu não phải kiểm soát phần trái của cơ thể và ngược lại.",
+        "B": "Hai thao tác cơ bản là khả năng phân tích ngữ âm và khả năng suy luận lôgic hình thức; về cơ sở sinh lí, bán cầu não trái kiểm soát toàn bộ hoạt động vận động của cả hai bên cơ thể.",
+        "C": "Hai thao tác cơ bản là khả năng thấu cảm với người khác và khả năng nhận biết cảm xúc bản thân; về cơ sở sinh lí, thùy trán trực tiếp co rút các sợi cơ xương không qua tủy sống.",
+        "D": "Hai thao tác cơ bản là khả năng tưởng tượng không gian và khả năng cảm thụ giai điệu âm nhạc; về cơ sở sinh lí, trung tâm vận động của bán cầu não nào thì chỉ kiểm soát riêng phần cơ thể cùng bên đó."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo H. Gardner (Mục 2.4.3b - mục 5), khả năng kiểm soát cơ thể và điều khiển các đồ vật bằng tay là các thao tác cơ bản của trí tuệ vận động (tiêu biểu ở diễn viên kịch câm, thợ thủ công, diễn viên múa). Về sinh lí, trung tâm vận động của bán cầu não phải kiểm soát phần trái của cơ thể và ngược lại.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 94,
+      "question": "Theo H. Gardner, vùng não nào đóng vai trò trung tâm đối với cả 'Trí tuệ liên cá nhân' lẫn 'Trí tuệ nội tâm', và các tổn thương ở vùng này gây ra những biến đổi đặc trưng gì?",
+      "options": {
+        "A": "Thùy chẩm đóng vai trò trung tâm: tổn thương phần dưới thùy chẩm làm mất khả năng nghe hiểu ngôn ngữ nói, còn tổn thương phần trên thùy chẩm làm liệt hoàn toàn các chi bên trái cơ thể theo đúng các quy luật phản ánh tâm lí khách quan trong toàn bộ tiến trình phát triển tâm lí cá thể.",
+        "B": "Thùy trán đóng vai trò trung tâm: tổn thương vùng này ở trí tuệ liên cá nhân làm mất khả năng thấu cảm và thay đổi nhân cách; còn ở trí tuệ nội tâm, tổn thương phần dưới thùy trán gây hưng phấn quá mức, tổn thương phần trên thùy trán tạo ra sự vô cảm.",
+        "C": "Tiểu não đóng vai trò trung tâm: tổn thương phần dưới tiểu não làm tăng khả năng giao tiếp xã hội vượt bậc, còn tổn thương phần trên tiểu não làm cá nhân trở thành thần đồng toán học.",
+        "D": "Thùy đỉnh phải đóng vai trò trung tâm: tổn thương vùng này chỉ làm giảm nhẹ tốc độ đọc chữ viết nhưng hoàn toàn không ảnh hưởng gì đến khả năng thấu cảm, cảm xúc hay nhân cách của cá nhân."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 2.4.3b (mục 6 & 7): Thùy trán đóng vai trò quan trọng với trí tuệ liên cá nhân (tổn thương làm mất khả năng thấu cảm, thay đổi nhân cách) và là trung tâm của trí tuệ nội tâm (tổn thương phần dưới thùy trán dẫn đến hưng phấn quá mức; tổn thương phần trên của nó tạo ra sự vô cảm).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 95,
+      "question": "Trong mô tả của H. Gardner về 'Trí tuệ nội tâm' và 'Trí tuệ liên cá nhân', những nhóm người nào được nêu làm ví dụ điển hình cho sự thành công hoặc khiếm khuyết của từng loại trí tuệ này?",
+      "options": {
+        "A": "Các diễn viên kịch câm, diễn viên múa và thợ thủ công lành nghề là điển hình của trí tuệ nội tâm; còn các nhà toán học lý thuyết là biểu hiện khiếm khuyết của trí tuệ liên cá nhân.",
+        "B": "Các nhạc sĩ sáng tác giao hưởng là điển hình duy nhất của trí tuệ liên cá nhân; còn những người bị mù màu bẩm sinh là biểu hiện khiếm khuyết đặc trưng của trí tuệ nội tâm.",
+        "C": "Các nhà sư phạm, linh mục, bậc cha mẹ thành công là điển hình của trí tuệ liên cá nhân cao; còn trẻ tự kỉ là biểu hiện rõ ràng về sự khiếm khuyết của năng lực trí tuệ nội tâm.",
+        "D": "Các kiến trúc sư quy hoạch đô thị là điển hình của trí tuệ liên cá nhân; còn các vận động viên điền kinh tốc độ cao là biểu hiện khiếm khuyết của năng lực trí tuệ nội tâm."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo H. Gardner: Các nhà sư phạm, linh mục, các bậc cha mẹ thành công thường là những người có trí tuệ liên cá nhân; còn trẻ tự kỉ là biểu hiện rõ ràng về khiếm khuyết của năng lực trí tuệ nội tâm (khả năng hiểu biết cảm xúc, tình cảm của bản thân).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 96,
+      "question": "Khi so sánh xu hướng ứng dụng thực tiễn giữa R.J. Sternberg và H. Gardner, giáo trình đã chỉ ra điểm khác biệt đáng chú ý nào?",
+      "options": {
+        "A": "R. Sternberg hoàn toàn phản đối việc dạy kỹ năng tư duy trong nhà trường, còn H. Gardner chỉ tập trung thiết kế các bài trắc nghiệm IQ trên giấy để phân loại học sinh giỏi và kém.",
+        "B": "Cả R. Sternberg và H. Gardner đều cho rằng mỗi con người chỉ có duy nhất một loại trí tuệ cố định từ lúc mới sinh và giáo dục không thể tác động hay định hướng nghề nghiệp được.",
+        "C": "R. Sternberg chỉ nghiên cứu trí tuệ của động vật bậc cao trong phòng thí nghiệm, còn H. Gardner chỉ nghiên cứu bệnh nhân bị tổn thương não ở các bệnh viện tâm thần trong toàn bộ tiến trình phát triển tâm lí cá thể.",
+        "D": "Khác với R. Sternberg là người chú ý nhiều tới việc ứng dụng các trắc nghiệm, H. Gardner quan tâm nhiều hơn đến hậu quả của các tác động sư phạm để giúp trẻ phát triển năng khiếu và lựa chọn nghề nghiệp phù hợp."
+      },
+      "correct_answer": "D",
+      "explanation": "Cuối Mục 2.4.3 nêu rõ: Khác với R. Sternberg là người chú ý nhiều tới việc ứng dụng các trắc nghiệm, H. Gardner quan tâm nhiều hơn đến hậu quả của các tác động sư phạm và đề nghị tổ chức tác động sư phạm giúp trẻ phát triển năng khiếu, lựa chọn nghề nghiệp phù hợp.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 97,
+      "question": "Mặc dù bảng phân loại 7 dạng trí khôn của H. Gardner được ứng dụng rất rộng rãi trong giáo dục, giáo trình vẫn lưu ý những điểm hạn chế nào cần thảo luận thêm?",
+      "options": {
+        "A": "Còn những điểm cần thảo luận như tính chất kinh nghiệm của nguyên tắc phân loại các dạng trí tuệ và sự lệ thuộc có phần quá mức vào cơ chế thần kinh - di truyền.",
+        "B": "Bảng phân loại của H. Gardner hoàn toàn không có bất kỳ cơ sở quan sát thực tế hay thực nghiệm nào mà chỉ là sự suy diễn triết học thuần túy trên bàn giấy.",
+        "C": "H. Gardner đã phủ nhận hoàn toàn vai trò của não bộ và hệ thần kinh, coi mọi dạng trí tuệ đều là sản phẩm ngẫu nhiên không có cơ sở sinh lý học.",
+        "D": "Mô hình của H. Gardner chỉ thừa nhận duy nhất trí tuệ ngôn ngữ và trí tuệ toán học, từ đó gạt bỏ hoàn toàn các năng khiếu âm nhạc, vận động và giao tiếp xã hội."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình nhận xét ở cuối Chương 2: Mặc dù còn nhiều điểm cần thảo luận (tính kinh nghiệm của nguyên tắc phân loại, sự lệ thuộc có phần quá mức vào cơ chế thần kinh - di truyền...), nhưng nhờ rút ra từ quan sát thực tế và thực nghiệm nên bảng phân loại của H. Gardner được ứng dụng rộng rãi.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 98,
+      "question": "Theo H. Gardner, dấu hiệu thứ 8 'Nhạy cảm đối với việc giải mã trong hệ thống kí hiệu' khẳng định mối liên hệ gì giữa các dạng trí tuệ với đời sống văn hóa - xã hội?",
+      "options": {
+        "A": "Hệ thống kí hiệu hoàn toàn mang bản chất sinh học bẩm sinh có sẵn ở mọi loài động vật hoang dã và không chịu bất kỳ ảnh hưởng nào của đời sống văn hóa - xã hội loài người.",
+        "B": "Có rất nhiều kí hiệu tham gia vào hoạt động trí tuệ (trong đó ngôn ngữ, tranh ảnh, kí hiệu toán chỉ là ba loại quan trọng); các kí hiệu mang nghĩa văn hóa - xã hội và khả năng sử dụng chúng cho thấy trình độ của một dạng trí tuệ.",
+        "C": "Trong toàn bộ hoạt động trí tuệ của con người chỉ tồn tại duy nhất một hệ thống kí hiệu là chữ viết, còn tranh ảnh, nốt nhạc hay kí hiệu toán học không được coi là kí hiệu theo đúng các quy luật phản ánh tâm lí khách quan trong toàn bộ tiến trình phát triển tâm lí cá thể.",
+        "D": "Việc cá nhân giải mã và sử dụng thành thạo các hệ thống kí hiệu văn hóa là biểu hiện của sự suy giảm trí tuệ tự nhiên do bị phụ thuộc vào các quy ước xã hội bên ngoài."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo dấu hiệu thứ 8 của H. Gardner: Có rất nhiều kí hiệu tham gia vào hoạt động của trí tuệ, mà ngôn ngữ, tranh ảnh, kí hiệu toán chỉ là ba loại quan trọng. Các kí hiệu có đặc điểm là mang nghĩa văn hóa, xã hội; việc phân tích khả năng sử dụng kí hiệu cho thấy trình độ của một dạng trí tuệ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 99,
+      "question": "Trong lý thuyết của L.X. Vưgôtxki, việc đưa 'công cụ tâm lí' (công cụ kí hiệu) vào quá trình hành vi trí tuệ đã làm biến đổi cấu trúc hành vi của chủ thể như thế nào?",
+      "options": {
+        "A": "Giữ nguyên vẹn toàn bộ các quá trình tự nhiên bẩm sinh như cũ, chỉ cộng thêm một công cụ vật chất bên ngoài mà không làm thay đổi trật tự hay cấu trúc các chức năng tâm lí bên trong.",
+        "B": "Làm tê liệt hoàn toàn mọi chức năng tâm lí cấp cao của vỏ não và buộc chủ thể phải quay về sử dụng các phản ứng mò mẫm thử - sai ngẫu nhiên như ở động vật bậc thấp.",
+        "C": "Gây ra hoạt động của một loạt chức năng mới gắn với việc sử dụng và điều khiển công cụ; loại bỏ các quá trình tự nhiên không cần thiết; làm biến dạng cường độ, trường độ, trật tự các phần tử và tái tạo, sắp xếp lại toàn bộ cấu trúc hành vi.",
+        "D": "Biến đổi trực tiếp hình dạng vật lý của đối tượng bên ngoài ngay lập tức mà không cần thông qua bất kỳ hoạt động lao động hay thao tác vận động nào của con người trong quá trình nghiên cứu thực nghiệm tâm lí học xét trên bình diện cấu trúc nhận thức của cá nhân."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Vưgôtxki (Mục 2.4.2), việc đưa công cụ tâm lí vào quá trình hành vi trí tuệ: (1) gây ra hoạt động của một loạt chức năng mới liên quan sử dụng và điều khiển công cụ; (2) loại bỏ các quá trình tự nhiên không cần thiết; (3) làm biến dạng tiến trình, cường độ, trường độ, trật tự các phần tử; (4) tái tạo, sắp xếp lại toàn bộ cấu trúc hành vi.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 100,
+      "question": "Theo L.X. Vưgôtxki, nhờ chức năng tổ chức và lập kế hoạch của ngôn ngữ hướng vào hành vi cá nhân, từ đối tượng của hành vi đã tạo ra hai dãy kích thích nào?",
+      "options": {
+        "A": "Dãy thứ nhất đi từ cảm giác thị giác đến thính giác, và dãy thứ hai đi từ thính giác quay ngược trở lại võng mạc mắt tạo thành vòng tuần hoàn khép kín xét trên bình diện cấu trúc nhận thức của cá nhân.",
+        "B": "Dãy thứ nhất là các phần thưởng thức ăn củng cố hành vi đúng, và dãy thứ hai là các kích thích điện phạt nhằm dập tắt các phản ứng sai lầm của cơ thể.",
+        "C": "Dãy thứ nhất là các xung thần kinh bẩm sinh truyền từ tủy sống, và dãy thứ hai là các phản ứng cảm xúc sợ hãi bột phát khi trẻ gặp vật lạ trong trường nhìn.",
+        "D": "Dãy thứ nhất đi trực tiếp từ đối tượng đến hành vi, và dãy thứ hai đi thông qua các hành vi ngôn ngữ giúp nâng hành vi của trẻ lên trình độ chủ động, có kế hoạch và có tổ chức."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Vưgôtxki, từ đối tượng của hành vi đã tạo ra hai dãy kích thích: dãy thứ nhất từ đối tượng đến hành vi, dãy thứ hai thông qua các hành vi ngôn ngữ. Chính dãy thứ hai này nâng hành vi của trẻ lên trình độ mới: chủ động, có kế hoạch, có tổ chức.",
+      "difficulty": "hard"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Phân biệt các thuật ngữ 'trí khôn', 'trí tuệ' và 'trí thông minh' theo quan điểm của các nhà nghiên cứu Việt Nam (Nguyễn Khắc Viện, Phạm Hoàng Gia, Nguyễn Kế Hào) và xác định bình diện của hai thuật ngữ 'trí năng', 'trí lực'.",
+      "expected_answer": "- Theo Nguyễn Khắc Viện (1991): Trí khôn là khả năng hành động thích nghi với những biến động của hoàn cảnh, thiên về hành động cụ thể; còn trí tuệ cũng là khả năng thích nghi nhưng thiên về tư duy trừu tượng.\n- Theo Phạm Hoàng Gia (1979), Nguyễn Kế Hào (1985): Trí thông minh là một phẩm chất cao của trí tuệ, cốt lõi là tính chủ động, linh hoạt và sáng tạo của tư duy để giải quyết tối ưu vấn đề trong tình huống mới, phức tạp.\n- Hệ thống hóa: Trí khôn, trí tuệ và trí thông minh đều quy về khái niệm trí tuệ (thể hiện các mức độ khác nhau); còn 'trí năng' và 'trí lực' thuộc bình diện năng lực hoạt động trí tuệ của cá nhân.",
+      "explanation": "Nắm vững sự thống nhất tương đối và sắc thái biểu đạt của hệ thống thuật ngữ trí tuệ trong tâm lý học Việt Nam (Mục 2.1.1)."
+    },
+    {
+      "id": 2,
+      "question": "Trình bày 3 nhóm định nghĩa chính về trí tuệ và nêu đầy đủ 4 đặc trưng cơ bản của trí tuệ cá nhân.",
+      "expected_answer": "- 3 nhóm định nghĩa chính về trí tuệ:\n  1. Coi trí tuệ là khả năng hoạt động lao động và học tập của cá nhân (B.G. Ananhev, A. Binet...).\n  2. Đồng nhất trí tuệ với năng lực tư duy trừu tượng của cá nhân (A. Binet, L. Terman, Côtxchuc, Cruchetxki, R. Sternberg, D.N. Perkins...).\n  3. Coi trí tuệ là năng lực thích ứng tích cực của cá nhân (U. Stern, G. Piagie, Đ. Wechsler, R. Zazzo, F. Raynal, A. Rieunier, N. Sillamy...).\n- 4 đặc trưng cơ bản của trí tuệ:\n  1. Trí tuệ là yếu tố tâm lí có tính độc lập tương đối với các yếu tố tâm lí khác của cá nhân.\n  2. Trí tuệ có chức năng đáp ứng mối quan hệ tác động qua lại giữa chủ thể với môi trường sống, tạo ra sự thích ứng tích cực của cá nhân.\n  3. Trí tuệ được hình thành và biểu hiện trong hoạt động của chủ thể.\n  4. Sự phát triển của trí tuệ chịu ảnh hưởng của yếu tố sinh học của cơ thể và chịu sự chế ước của các yếu tố văn hóa - xã hội.",
+      "explanation": "Tổng hợp bản chất và 4 đặc trưng nền tảng của trí tuệ theo Mục 2.1.2."
+    },
+    {
+      "id": 3,
+      "question": "So sánh mô hình cấu trúc trí tuệ hai thành phần của C. Spearman (1904) và của N.A. Menchinxcaia – E.N. Canbanova-Menle, đồng thời rút ra ý nghĩa sư phạm đối với dạy học.",
+      "expected_answer": "- Mô hình của C. Spearman (1904): Gồm nhân tố chung G (General - tính linh hoạt, mềm dẻo thần kinh định hướng chung cho mọi hoạt động, đảm bảo hiệu quả nhiều trắc nghiệm) và nhân tố chuyên biệt S (Special - hiểu biết và năng khiếu riêng cho từng hoạt động cụ thể như làm toán, chơi nhạc). Đóng góp lớn là mở ra phương pháp phân tích nhân tố.\n- Mô hình của N.A. Menchinxcaia & E.N. Canbanova-Menle: Gồm tri thức về đối tượng (cái được phản ánh - nguyên liệu, phương tiện của hoạt động trí tuệ) và các thủ thuật trí tuệ (phương thức phản ánh - hệ thống thao tác giải quyết nhiệm vụ).\n- Ý nghĩa sư phạm: Phát triển trí tuệ cho học sinh không được chỉ tăng số lượng tri thức (dẫn đến dạy học nhồi nhét) hoặc chỉ rèn thủ thuật trống rỗng, mà phải phát triển đồng bộ cả tri thức khoa học lẫn hệ thống thủ thuật trí tuệ.",
+      "explanation": "Nắm vững hai mô hình cấu trúc hai thành phần tiêu biểu nhất ở Mục 2.2.1 và 2.2.2."
+    },
+    {
+      "id": 4,
+      "question": "Phân biệt các cặp khái niệm trong các mô hình cấu trúc trí tuệ hai thành phần của R. Cattell (1967), D. Hebb (1974), A. Jensen (1969) và Nguyễn Khắc Viện (1991).",
+      "expected_answer": "- R. Cattell (1967): 'Trí lỏng' (Fluid Intelligence - có từ khi mới sinh, làm cơ sở cho tư duy, trí nhớ, lập luận) và 'Trí tuệ tinh luyện' (Crystallized Intelligence - kiến thức thu được qua học tập suốt đời).\n- D. Hebb (1974): 'Trí tuệ A' (tiềm năng bẩm sinh có từ khi mới sinh, là nguyên liệu cơ bản) và 'Trí tuệ B' (kết quả tương tác giữa trí A với môi trường).\n- A. Jensen (1969): 'Trình độ I' (trí tuệ cụ thể, thực hành trong hoạt động đời thường) và 'Trình độ II' (trí tuệ trừu tượng trong hoạt động nhận thức khoa học).\n- Nguyễn Khắc Viện (1991): 'Trí làm' (thích nghi tình huống cụ thể theo thuộc tính cụ thể của sự vật) và 'Trí nghĩ' (trí tuệ trừu tượng có sự tham gia của ngôn ngữ, kí hiệu, tượng trưng).",
+      "explanation": "Hệ thống hóa các mô hình phân đôi trí tuệ theo nguồn gốc bẩm sinh - môi trường và theo trình độ phản ánh cụ thể - trừu tượng (cuối Mục 2.2.2)."
+    },
+    {
+      "id": 5,
+      "question": "Trình bày cấu trúc 'Khối vuông trí tuệ' 3 chiều (120 yếu tố) và quan điểm về trí tuệ sáng tạo (tư duy hội tụ và tư duy phân kì) của J.P. Guilford (1959).",
+      "expected_answer": "- Khối vuông trí tuệ 3 chiều (5 x 4 x 6 = 120 yếu tố):\n  1. Mặt thao tác (5 yếu tố): Nhận dạng sự kiện; Trí nhớ; Tư duy hội tụ; Tư duy phân kì; Khả năng đánh giá.\n  2. Mặt nội dung phản ánh (4 yếu tố): Hình ảnh (tượng hình); Tượng trưng (biểu tượng); Ngữ nghĩa (khái niệm); Hành vi (ứng xử).\n  3. Mặt sản phẩm (6 yếu tố): Đơn vị (cá thể); Lớp (loại); Quan hệ; Hệ thống; Chuyển hóa; Tổ hợp (bao hàm).\n- Quan điểm về trí tuệ sáng tạo:\n  + Tư duy hội tụ (Convergence thinking): Thành phần lôgic giúp phát hiện quy luật vốn tồn tại khách quan (tạo ra các phát minh).\n  + Tư duy phân kì (Divergence thinking): Tư duy sáng tạo tạo ra cái mới, độc đáo và có ích cho xã hội mà trước đó chưa có (tạo ra các sáng chế), gồm 4 đặc trưng: tính linh hoạt (Flexibility), tính mềm dẻo (Fluency), tính độc đáo (Originality) và tính nhạy cảm vấn đề (Problem-sensibility).",
+      "explanation": "Làm rõ hai đóng góp lớn của J.P. Guilford đối với tâm lý học trí tuệ và việc phê phán trắc nghiệm khuôn mẫu truyền thống (Mục 2.3.2)."
+    },
+    {
+      "id": 6,
+      "question": "Giải thích công thức cấu trúc trí tuệ và 3 cấp độ của việc học tư duy theo mô hình của D.N. Perkins (1986, 1987).",
+      "expected_answer": "- Công thức cấu trúc trí tuệ của D.N. Perkins: Trí tuệ = Năng lực (khả năng sinh học của hệ thần kinh) + Thủ thuật (chiến thuật, thao tác tư duy) + Trình độ chuyên môn (hiểu biết nội dung chuyên môn và lập luận trên lĩnh vực đó). Vì nâng cao năng lực thần kinh và tích lũy chuyên môn đòi hỏi thời gian rất lâu dài, nhà trường cần tập trung dạy các thủ thuật tư duy.\n- 3 cấp độ của các trạng thái tư duy khi học tư duy:\n  1. Nhận thức vấn đề: Đụng chạm tới khung nhận thức (khung tư duy), dạy trực tiếp các trạng thái tư duy, phát triển khả năng khái quát, mô hình hóa để tạo khung tư duy riêng.\n  2. Giai đoạn nhập tâm (tự động hóa): Rèn luyện khung tư duy và trí nhớ tới mức áp dụng tự giác, thuần thục, giúp giải phóng bộ nhớ và không phụ thuộc hoàn cảnh.\n  3. Chuyển hóa (chuyển giao): Sử dụng hệ thống tư duy linh hoạt vào các hoàn cảnh khác nhau (cần phải được huấn luyện chủ động).",
+      "explanation": "Nắm vững mô hình tổng hợp và định hướng sư phạm dạy tư duy của D.N. Perkins (Mục 2.3.4)."
+    },
+    {
+      "id": 7,
+      "question": "Phân biệt bản chất nhận thức của 'phương pháp phân tích nhân tố' và 'phương pháp phân tích đơn vị' qua ví dụ phân tử nước trong hóa học, và nêu cấu trúc đơn vị tối thiểu của trí tuệ bậc cao theo L.X. Vưgôtxki.",
+      "expected_answer": "- Phân biệt qua ví dụ hóa học:\n  + Phương pháp phân tích nhân tố chia nước thành hai nguyên tố biệt lập là Ôxy và Hydrô (đều là chất duy trì sự cháy/cháy được), do đó đánh mất bản chất của chỉnh thể và không giải thích được vì sao nước dập tắt lửa.\n  + Phương pháp phân tích đơn vị chia nước thành 'phân tử nước' (H2O) — đơn vị nhỏ nhất mà ở đó vẫn bảo toàn nguyên vẹn bản chất cố hữu của nước.\n- Cấu trúc trí tuệ theo L.X. Vưgôtxki:\n  + Trí tuệ bậc thấp (ở động vật và trẻ tiền ngôn ngữ): Cấu trúc 2 thành phần trực tiếp S - R (Kích thích A -> Phản ứng B), diễn ra trực tiếp trong trường tri giác và không có kí hiệu ngôn ngữ.\n  + Trí tuệ bậc cao (ở người): Đơn vị tâm lí tối thiểu không thể chia cắt là cấu trúc 3 thành phần gián tiếp A <-> X và X <-> B, trong đó X là công cụ tâm lí / kí hiệu ngôn ngữ đóng vai trò trung gian hướng vào điều khiển, lập kế hoạch và tổ chức hành vi của chính bản thân chủ thể.",
+      "explanation": "Hiểu sâu sắc bước ngoặt phương pháp luận của L.X. Vưgôtxki khi vận dụng phương pháp phân tích đơn vị và phương pháp công cụ (Mục 2.4.1 & 2.4.2)."
+    },
+    {
+      "id": 8,
+      "question": "Liệt kê 8 dấu hiệu nhận dạng một trí khôn và 7 loại trí tuệ tương đối độc lập trong mô hình đa trí tuệ của H. Gardner (1983).",
+      "expected_answer": "- 8 dấu hiệu nhận dạng một dạng trí khôn:\n  1. Sự khu biệt các trung khu chức năng của não (khi não bị tổn thương cục bộ).\n  2. Sự tồn tại một số ít dân cư ngoại lệ (thần đồng hoặc khiếm khuyết cục bộ).\n  3. Các thao tác quan trọng, cốt lõi nhất (thao tác hạt nhân xử lí thông tin).\n  4. Lịch sử phát triển rõ ràng, đặc biệt qua các giai đoạn.\n  5. Lịch sử tiến hóa (mầm mống ở động vật, tích hợp ở người).\n  6. Các bằng chứng thực nghiệm tâm lí học.\n  7. Sự giúp đỡ của các số liệu đo lường tâm lí học (trắc nghiệm chuẩn hóa).\n  8. Nhạy cảm đối với việc giải mã trong hệ thống kí hiệu văn hóa - xã hội.\n- 7 loại trí tuệ tương đối độc lập của con người:\n  1. Trí tuệ ngôn ngữ (bán cầu não trái: thùy trán - nói, thùy thái dương - hiểu).\n  2. Trí tuệ âm nhạc (bán cầu não phải).\n  3. Trí tuệ lôgic - toán (bán cầu não trái, suy giảm do lão hóa toàn bộ não).\n  4. Trí tuệ thị giác - không gian (bán cầu não phải).\n  5. Trí tuệ vận động cơ thể (trung tâm vận động bán cầu não phải kiểm soát phần trái cơ thể và ngược lại).\n  6. Trí tuệ liên cá nhân (thùy trán).\n  7. Trí tuệ nội tâm (thùy trán: tổn thương phần dưới gây hưng phấn quá mức, phần trên gây vô cảm).",
+      "explanation": "Hệ thống hóa đầy đủ 8 tiêu chí nhận diện và 7 dạng trí tuệ cùng định khu thần kinh theo H. Gardner (Mục 2.4.3)."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phân Tích Khái Niệm, Các Nhóm Định Nghĩa và Bốn Đặc Trưng Cơ Bản của Trí Tuệ",
+      "problem": "Trong tâm lý học hiện đại, tồn tại rất nhiều tên gọi và định nghĩa khác nhau về trí tuệ. Dựa vào nội dung Chương 2 giáo trình Tâm lý học Trí tuệ, anh/chị hãy:\n1. Phân tích sự khác biệt và mối liên hệ giữa các thuật ngữ: trí khôn, trí tuệ, trí thông minh, trí năng và trí lực.\n2. Phân tích 3 nhóm định nghĩa chính về trí tuệ và giải thích vì sao định nghĩa thực dụng 'trí tuệ là cái mà trắc nghiệm đo được' không thể làm định hướng lý luận.\n3. Phân tích 4 đặc trưng cơ bản của trí tuệ và rút ra bài học sư phạm trong việc đánh giá năng lực học sinh.",
+      "solution_steps": [
+        "Bước 1: Hệ thống hóa các thuật ngữ về trí tuệ (Mục 2.1.1)\n- Trong tiếng Latinh, trí tuệ nghĩa là hiểu biết, thông tuệ; tương ứng với 'Intelligence' trong tiếng Anh và tiếng Pháp.\n- Theo Từ điển Tiếng Việt và các học giả Việt Nam: Nguyễn Khắc Viện (1991) phân biệt 'trí khôn' (khả năng hành động thích nghi với biến động hoàn cảnh, thiên về hành động) với 'trí tuệ' (khả năng thích nghi nhưng thiên về tư duy trừu tượng). Phạm Hoàng Gia (1979) và Nguyễn Kế Hào (1985) coi 'trí thông minh' là phẩm chất cao của trí tuệ, cốt lõi là tính chủ động, linh hoạt và sáng tạo của tư duy trước tình huống mới, phức tạp.\n- Như vậy, trí khôn, trí tuệ, trí thông minh quy về khái niệm trí tuệ ở các mức độ khác nhau; còn 'trí năng' và 'trí lực' thuộc bình diện năng lực hoạt động trí tuệ của cá nhân.",
+        "Bước 2: Phân tích 3 nhóm định nghĩa chính và phê phán định nghĩa thực dụng (Mục 2.1.2)\n- Nhóm 1 (Khả năng lao động và học tập - B.G. Ananhev, A. Binet): Nhấn mạnh mối quan hệ nhân quả giữa khả năng trí tuệ với kết quả học tập và lao động, nhưng lưu ý đây không phải quan hệ 1-1 (học sinh học kém có thể do lười biếng hoặc nguyên nhân khác chứ không chỉ do trí tuệ).\n- Nhóm 2 (Đồng nhất trí tuệ với năng lực tư duy trừu tượng - Binet, Terman, Côtxchuc, Cruchetxki, Sternberg, Perkins): Quy hẹp trí tuệ vào thành phần cốt lõi nhất của nó là tư duy.\n- Nhóm 3 (Năng lực thích ứng tích cực - Stern, Piagie, Wechsler, Zazzo, Raynal, Sillamy): Phổ biến nhất, coi trí tuệ là khả năng xử lý thông tin, hiểu các mối quan hệ của tình huống để tư duy hợp lý và chế ngự, thích nghi với môi trường mới.\n- Phê phán định nghĩa 'trí tuệ là cái mà trắc nghiệm đo được': Do tính chất thực dụng cực đoan, chỉ chạy theo hiệu quả làm bài tập giả định của người nghiên cứu mà bỏ qua bản chất và cơ chế tâm lý của trí tuệ, nên không thể làm định hướng lý luận.",
+        "Bước 3: Bốn đặc trưng cơ bản của trí tuệ và ứng dụng sư phạm\n- 4 đặc trưng: (1) Có tính độc lập tương đối với các yếu tố tâm lý khác; (2) Đáp ứng mối quan hệ tác động qua lại giữa chủ thể với môi trường, tạo sự thích ứng tích cực; (3) Hình thành và biểu hiện trong hoạt động của chủ thể; (4) Chịu ảnh hưởng của yếu tố sinh học và chịu sự chế ước của các yếu tố văn hóa - xã hội.\n- Bài học sư phạm: Không đánh đồng máy móc điểm số học tập nhất thời với trí tuệ của trẻ; phải tổ chức các hoạt động học tập đa dạng gắn với bối cảnh văn hóa - xã hội để hình thành và phát triển trí tuệ cho người học."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Đánh Giá Các Mô Hình Cấu Trúc Trí Tuệ Theo Phương Pháp Phân Tích Nhân Tố (Spearman, Guilford, Sternberg, Perkins)",
+      "problem": "Phương pháp phân tích nhân tố đã thúc đẩy sự ra đời của hàng loạt mô hình cấu trúc trí tuệ từ hai thành phần đến đa nhân tố. Anh/chị hãy:\n1. Khái quát sự phát triển từ mô hình hai thành phần (Spearman, Menchinxcaia, Cattell) đến các mô hình đa nhân tố (Thurstone, Guilford).\n2. Phân tích chiều sâu lý luận và ứng dụng dạy học trong mô hình 3 thành phần của R.J. Sternberg (1986) và mô hình tổng hợp của D.N. Perkins (1986, 1987).\n3. Chỉ rõ 3 hạn chế phương pháp luận cố hữu của hướng tiếp cận phân tích nhân tố.",
+      "solution_steps": [
+        "Bước 1: Sự phát triển từ mô hình hai thành phần đến đa nhân tố (Mục 2.2 & 2.3.1, 2.3.2)\n- Khởi đầu từ C. Spearman (1904) với nhân tố chung G và nhân tố chuyên biệt S (đặt nền móng cho phương pháp phân tích nhân tố); N.A. Menchinxcaia với tri thức về đối tượng + thủ thuật trí tuệ (chống dạy học nhồi nhét); R. Cattell với trí lỏng + trí tinh luyện; D. Hebb với trí A + trí B; A. Jensen (Trình độ I & II) và Nguyễn Khắc Viện (trí làm & trí nghĩ).\n- Tiến tới phân tích vi mô đa nhân tố: L.L. Thurstone tách 7 năng lực tinh thần cơ bản (N, V, W, S, M, P, R). Đỉnh cao chi tiết là J.P. Guilford (1959) với Khối vuông 3 chiều (5 thao tác x 4 nội dung x 6 sản phẩm = 120 yếu tố) và sự phân biệt tư duy hội tụ (lôgic - phát minh) với tư duy phân kì (sáng tạo - sáng chế, gồm 4 đặc trưng: linh hoạt, mềm dẻo, độc đáo, nhạy cảm vấn đề), vạch rõ thiếu sót của các trắc nghiệm truyền thống vốn bỏ quên thành phần sáng tạo.",
+        "Bước 2: Mô hình của R.J. Sternberg và D.N. Perkins đối với dạy học phát triển trí tuệ (Mục 2.3.3 & 2.3.4)\n- R.J. Sternberg (1986) kết nối thế giới bên trong, kinh nghiệm và môi trường bên ngoài qua Thuyết 3 thành phần: (1) Cấu trúc (siêu cấu trúc điều khiển - thành phần thực hiện - thành phần tiếp thu tri thức qua chọn mã, chọn tổ hợp, chọn kết hợp); (2) Kinh nghiệm (ứng phó sáng tạo với cái mới và tự động hóa kinh nghiệm cũ - cảnh báo sai lầm khi đánh đồng điểm test cao do luyện tập nhiều lần với trí thông minh thực sự); (3) Ngữ cảnh (thích ứng, cải tạo môi trường hiện tại và lựa chọn môi trường mới). Chương trình dạy trí tuệ 5 phần của ông chú trọng cả kỹ năng bên trong lẫn thảo luận nhóm về động cơ, xúc cảm.\n- D.N. Perkins (1986, 1987) tích hợp: Trí tuệ = Năng lực thần kinh + Thủ thuật tư duy + Trình độ chuyên môn. Ông chỉ ra nhà trường cần tập trung dạy thủ thuật tư duy qua 3 cấp độ: Nhận thức vấn đề (tạo khung tư duy) -> Nhập tâm (tự động hóa giải phóng bộ nhớ) -> Chuyển hóa (chuyển giao sang hoàn cảnh mới).",
+        "Bước 3: Ba hạn chế cố hữu của phương pháp phân tích nhân tố (Cuối Mục 2.3.4)\n1. Chia cắt tổng thể trí tuệ trọn vẹn thành các yếu tố riêng lẻ để lượng hóa, làm mất bản chất, nội dung tâm lý của trí tuệ và làm lu mờ mối quan hệ chức năng, tương hỗ giữa các yếu tố.\n2. Khó phát hiện cơ chế hình thành và vận hành của trí tuệ trong từng thời điểm cũng như trong cả quá trình phát triển.\n3. Không xác định được sự chế ước của các yếu tố văn hóa - xã hội đối với sự phát triển trí tuệ cá nhân."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Phương Pháp Phân Tích Đơn Vị và Lý Thuyết Cấu Trúc Trí Tuệ Bậc Cao của L.X. Vưgôtxki",
+      "problem": "L.X. Vưgôtxki được coi là người đầu tiên vận dụng phương pháp phân tích đơn vị kết hợp với phương pháp công cụ vào nghiên cứu trí tuệ. Anh/chị hãy:\n1. Phân tích sự khác biệt căn bản giữa phương pháp phân tích nhân tố và phương pháp phân tích đơn vị thông qua ví dụ phân tử nước trong hóa học và phân tích hàng hóa của C. Mác.\n2. So sánh cấu trúc trí tuệ bậc thấp và cấu trúc trí tuệ bậc cao theo L.X. Vưgôtxki, làm rõ vai trò cải tổ của ngôn ngữ và sự khác biệt giữa công cụ kĩ thuật với công cụ tâm lí.\n3. Trình bày ý nghĩa lý luận và thực tiễn sư phạm của việc phát hiện ra công cụ tâm lí và đơn vị cấu trúc 3 thành phần (A <-> X <-> B).",
+      "solution_steps": [
+        "Bước 1: Bản chất của phương pháp phân tích đơn vị (Mục 2.4.1)\n- Phân tích nhân tố chia sự vật thành các phần tử biệt lập làm mất tính chất của chỉnh thể: ví dụ tách nước thành Ôxy và Hydrô (hai chất duy trì sự cháy) nên không giải thích được vì sao nước dập tắt lửa; hoặc kinh tế học trước Mác tách rời giá trị sử dụng và lưu thông nên ngộ nhận tư bản sinh ra trong lưu thông.\n- Phân tích đơn vị chia sự vật đến đơn vị nhỏ nhất mà vẫn bảo toàn nguyên vẹn bản chất cố hữu của chỉnh thể: phân tử nước (H2O) trong hóa học, tế bào sống trong sinh học, hàng hóa trừu tượng (giá trị sử dụng + giá trị trao đổi) của C. Mác. Trong tâm lý học, Vưgôtxki tìm đơn vị tâm lý nhỏ nhất vừa chỉ ra cấu trúc của trí tuệ, vừa bảo toàn nội dung tâm lý - xã hội và các yếu tố chế ước nó.",
+        "Bước 2: Trí tuệ bậc thấp, trí tuệ bậc cao và vai trò của ngôn ngữ, công cụ tâm lí (Mục 2.4.2)\n- Trí tuệ bậc thấp (ở động vật và trẻ tiền ngôn ngữ): Phản ứng trực tiếp, tức thời trong trường tri giác, không có ngôn ngữ và kí hiệu; cấu trúc 2 thành phần trực tiếp S - R (Kích thích A -> Phản ứng B).\n- Trí tuệ bậc cao (đặc trưng con người): Khác về chất nhờ sự hợp nhất giữa hành vi trí tuệ thực hành với hành vi kí hiệu ngôn ngữ. Ngôn ngữ thực hiện 2 chức năng (lập kế hoạch và tổ chức hành vi), tạo ra 2 cải tổ lớn: (1) giảm tính trực tiếp, ngẫu nhiên (giải quyết trên bình diện ngôn ngữ trước rồi mới thực hiện vận động); (2) hướng vào cả đối tượng khách quan lẫn hành vi, động cơ của chính chủ thể (tạo dãy kích thích thứ hai qua ngôn ngữ giúp trẻ tự làm chủ bản thân).\n- Công cụ tâm lí vs Công cụ kĩ thuật: Đều là cấu thành nhân tạo mang bản chất văn hóa - xã hội và làm trung gian, nhưng công cụ kĩ thuật hướng ra ngoài làm biến đổi đối tượng vật chất, còn công cụ tâm lí (ngôn ngữ, sơ đồ, thủ thuật ghi nhớ, kí hiệu đại số...) hướng vào trong làm thay đổi cấu trúc chức năng tâm lí và hành vi của chính bản thân chủ thể. Đơn vị tối thiểu không thể chia cắt của trí tuệ bậc cao là cấu trúc 3 thành phần gián tiếp: A <-> X và X <-> B.",
+        "Bước 3: Ý nghĩa lý luận và thực tiễn sư phạm\n- Giúp thấy rõ mối liên hệ lịch sử - văn hóa cụ thể giữa trí tuệ cá nhân với đời sống xã hội (trẻ em ở các nền văn hóa khác nhau có kiểu tư duy khác nhau).\n- Cho phép chẩn đoán trình độ phát triển trí tuệ của trẻ qua loại công cụ kí hiệu trẻ sử dụng (khái niệm kinh nghiệm hay khái niệm khoa học).\n- Khẳng định con đường cốt lõi để hình thành và phát triển trí tuệ cho trẻ em là dạy và giúp đỡ trẻ lĩnh hội, sử dụng thành thạo các phương tiện tâm lí trong hoạt động nhận thức."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Lý Thuyết Nhiều Dạng Trí Tuệ (Multiple Intelligences) của H. Gardner và Ứng Dụng Trong Giáo Dục",
+      "problem": "Năm 1983, nhà tâm lý học Mỹ H. Gardner đã công bố Lý thuyết về nhiều dạng trí khôn theo hướng tiếp cận phân tích đơn vị. Anh/chị hãy:\n1. Trình bày 8 dấu hiệu (tiêu chí) để nhận dạng một dạng trí khôn theo H. Gardner.\n2. Phân tích đặc điểm tâm lý, biểu hiện điển hình và cơ sở định khu não bộ của 7 loại trí tuệ tương đối độc lập.\n3. Đánh giá ưu điểm, hạn chế và giá trị ứng dụng sư phạm - hướng nghiệp của mô hình H. Gardner so với xu hướng trắc nghiệm truyền thống.",
+      "solution_steps": [
+        "Bước 1: Tám dấu hiệu nhận dạng một dạng trí khôn (Mục 2.4.3a)\n1. Sự khu biệt các trung khu chức năng của não (chứng minh qua các ca tổn thương não cục bộ làm mất một năng lực mà không ảnh hưởng năng lực khác).\n2. Sự tồn tại một số ít dân cư ngoại lệ (thần đồng hoặc người khiếm khuyết cục bộ).\n3. Các thao tác quan trọng, cốt lõi nhất (thao tác hạt nhân xử lí thông tin, như nhạy cảm quan hệ âm thanh trong âm nhạc).\n4. Lịch sử phát triển rõ ràng, đặc biệt qua các giai đoạn (cho phép phân biệt năng khiếu hay huấn luyện).\n5. Lịch sử tiến hóa (mầm mống rời rạc ở động vật và tích hợp ở con người).\n6. Các bằng chứng thực nghiệm tâm lí học kiểm chứng tính tự trị.\n7. Sự giúp đỡ của các số liệu đo lường tâm lí học.\n8. Nhạy cảm đối với việc giải mã trong hệ thống kí hiệu mang nghĩa văn hóa - xã hội (ngôn ngữ, tranh ảnh, kí hiệu toán...).",
+        "Bước 2: Phân tích 7 loại trí tuệ độc lập và định khu não bộ (Mục 2.4.3b)\n1. Trí tuệ ngôn ngữ: Làm chủ lời nói và chữ viết; thao tác cơ bản gồm ngữ âm, cú pháp, ngữ nghĩa, thực hành ngôn ngữ; định khu ở bán cầu não trái (thùy trán kiểm soát nói, thùy thái dương điều khiển hiểu).\n2. Trí tuệ âm nhạc: Nhạy cảm dấu hiệu âm thanh, nốt nhạc, giai điệu, nhịp điệu và sáng tác; gắn với bán cầu não phải (khu trú ít tập trung hơn ngôn ngữ).\n3. Trí tuệ lôgic - toán: Tính toán phức tạp, lí luận sâu sắc, nổi bật thời trai trẻ (tiêu biểu ở các nhà khoa học); gắn với bán cầu não trái nhưng không chuyên biệt một vùng hẹp, suy giảm do lão hóa toàn bộ não.\n4. Trí tuệ thị giác - không gian: Tri giác và tưởng tượng không gian; gắn với bán cầu não phải (tổn thương làm không nhận ra người thân và nơi quen thuộc).\n5. Trí tuệ vận động cơ thể: Kiểm soát điệu bộ cơ thể và điều khiển đồ vật bằng tay (diễn viên kịch câm, múa, thợ thủ công); trung tâm vận động bán cầu não phải kiểm soát phần trái cơ thể và ngược lại.\n6. Trí tuệ liên cá nhân: Thấu hiểu, thấu cảm và ứng xử xã hội khôn ngoan (nhà sư phạm, linh mục, cha mẹ thành công); gắn với thùy trán (tổn thương làm mất thấu cảm, đổi nhân cách).\n7. Trí tuệ nội tâm: Hiểu rõ cảm xúc, tình cảm bản thân để tự định hướng hành vi (trẻ tự kỉ khiếm khuyết nặng năng lực này); trung tâm ở thùy trán (tổn thương phần dưới gây hưng phấn quá mức, phần trên gây vô cảm).",
+        "Bước 3: Đánh giá và ứng dụng sư phạm - hướng nghiệp\n- Ưu điểm & Ứng dụng: Mọi người đều có đủ 7 loại trí tuệ nhưng khác nhau ở trình độ và cách kết hợp. Khác với Sternberg chú trọng trắc nghiệm, Gardner đề cao tác động sư phạm nhằm phát hiện, bồi dưỡng đa năng khiếu, thiết kế chương trình/trò chơi giáo dục đa dạng và định hướng nghề nghiệp phù hợp cho từng học sinh.\n- Hạn chế cần lưu ý: Nguyên tắc phân loại còn mang tính kinh nghiệm và còn lệ thuộc có phần quá mức vào cơ chế thần kinh - di truyền."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1398 @@
+{
+  "chapter_id": "chuong_1",
+  "chapter_title": "Chương 1: Một số hướng tiếp cận trí tuệ trong tâm lí học",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Trong lịch sử tâm lí học trí tuệ, hai hướng tiếp cận cổ điển là tiếp cận liên tưởng và tiếp cận hành động tinh thần đại diện cho hai trào lưu triết học đối lập nào?",
+      "options": {
+        "A": "Triết học duy vật - duy cảm Anh đề cao kinh nghiệm cảm tính và triết học duy lí Đức đề cao lí tính thuần túy bên trong chủ thể.",
+        "B": "Triết học thực chứng Pháp đề cao sự kiện quan sát được và triết học thực dụng Mỹ đề cao hiệu quả thích nghi của hành vi cá thể.",
+        "C": "Triết học hiện sinh châu Âu đề cao trải nghiệm chủ quan và triết học duy vật biện chứng đề cao vai trò của hoạt động thực tiễn xã hội.",
+        "D": "Triết học tự nhiên cổ đại Hy Lạp đề cao bản nguyên vật chất và triết học kinh viện thời Trung cổ đề cao đức tin tôn giáo tuyệt đối."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo giáo trình (Mục 1.1), tiếp cận liên tưởng và tiếp cận hành động tinh thần là điển hình của hai trường phái triết học trái ngược nhau: triết học duy vật - duy cảm Anh và triết học duy lí Đức.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Những học giả nào sau đây là đại biểu tiêu biểu nhất của trường phái tâm lí học liên tưởng Anh khi nghiên cứu về các quá trình tâm lí và trí tuệ?",
+      "options": {
+        "A": "Các nhà tâm lí học thực nghiệm người Đức thuộc trường phái Würzburg bao gồm O. Külpe (1862–1915), O. Selz và K. Bühler theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Các nhà triết học và tâm lí học người Anh bao gồm D. Hartley (1705–1836), J.S. Mill (1806–1873) và H. Spencer (1820–1903).",
+        "C": "Các nhà tâm lí học hình thái người Đức đầu thế kỉ XX bao gồm M. Wertheimer (1880–1943), W. Köhler và K. Koffka.",
+        "D": "Các nhà tâm lí học hành vi người Mỹ đầu thế kỉ XX bao gồm J. Watson (1878–1958), E.L. Thorndike và B.F. Skinner."
+      },
+      "correct_answer": "B",
+      "explanation": "Đại biểu của hướng tiếp cận liên tưởng Anh là D. Hartley (D. Ghatli), J.S. Mill (D.S. Milơ) và H. Spencer (H. Spenxơ).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Theo luận điểm cơ bản của thuyết liên tưởng trong tâm lí học, mối quan hệ giữa cảm giác và các cấu thành tâm lí phức tạp hơn như biểu tượng, ý nghĩ được giải thích như thế nào?",
+      "options": {
+        "A": "Ý nghĩ và khái niệm là cái thứ nhất có sẵn trong tâm trí bẩm sinh, còn cảm giác chỉ là sự phản chiếu mờ nhạt của các ý niệm đó.",
+        "B": "Cảm giác và tư duy là hai quá trình tinh thần hoàn toàn biệt lập, vận hành song song mà không có bất kì sự tác động qua lại nào.",
+        "C": "Cảm giác là cái thứ nhất đóng vai trò cơ sở, còn biểu tượng, ý nghĩ, tình cảm là cái thứ hai xuất hiện nhờ sự liên tưởng các cảm giác.",
+        "D": "Biểu tượng và ý nghĩ được hình thành trực tiếp từ sự bừng hiểu chỉnh thể trường tri giác chứ không phụ thuộc vào các cảm giác thành phần."
+      },
+      "correct_answer": "C",
+      "explanation": "Thuyết liên tưởng khẳng định tâm lí được cấu thành từ các cảm giác (cái thứ nhất, cơ sở), còn biểu tượng, ý nghĩ, tình cảm là cái thứ hai xuất hiện nhờ liên tưởng các cảm giác.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "Theo quan điểm của các nhà tâm lí học liên tưởng, những điều kiện và yếu tố nào quy định trực tiếp sự hình thành và độ bền vững của các mối liên tưởng tâm lí?",
+      "options": {
+        "A": "Nhu cầu tự khẳng định bản thân của chủ thể cùng với sự định hướng có ý thức của nhiệm vụ tư duy trong hoàn cảnh có vấn đề mới mẻ trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Sự chín muồi tự nhiên của các vùng định khu chức năng trên vỏ não bộ mà không cần đến bất kì sự lặp lại hay trải nghiệm thực tế nào.",
+        "C": "Quá trình nội tâm hóa các công cụ kí hiệu văn hóa xã hội thông qua sự tương tác và hợp tác trực tiếp giữa trẻ em với người lớn.",
+        "D": "Sự gần gũi của các quá trình tâm lí cùng với tính linh hoạt của các thành phần được liên tưởng và tần số nhắc lại của chúng trong kinh nghiệm."
+      },
+      "correct_answer": "D",
+      "explanation": "Thuyết liên tưởng chỉ rõ: điều kiện hình thành liên tưởng là sự gần gũi của các quá trình tâm lí; các mối liên tưởng bị quy định bởi sự linh hoạt của các thành phần và tần số nhắc lại của chúng trong kinh nghiệm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "question": "Vào giai đoạn phát triển về sau, các nhà tâm lí học theo hướng tiếp cận liên tưởng đã dựa vào thành tựu khoa học nào để làm cơ sở sinh lí thần kinh cho các mối liên tưởng tâm lí?",
+      "options": {
+        "A": "Cơ chế hình thành đường liên hệ thần kinh tạm thời của phản xạ có điều kiện do nhà sinh lí học người Nga I.P. Pavlov phát hiện.",
+        "B": "Cơ chế dấu ấn tập tính bẩm sinh ở động vật non trong giai đoạn nhạy cảm đầu đời do nhà tập tính học K. Lorenz thực nghiệm khám phá.",
+        "C": "Lí thuyết về sự cân bằng cấu trúc nhận thức thông qua hai quá trình đồng hóa và điều ứng do nhà tâm lí học J. Piaget đề xướng.",
+        "D": "Mô hình xử lí thông tin điện toán gồm ba thành tố đầu vào, đầu ra và siêu thành tố điều khiển do các nhà khoa học máy tính xây dựng."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình nêu rõ: Sau này thuyết liên tưởng dựa vào cơ chế phản xạ có điều kiện do I.P. Pavlov phát hiện làm cơ sở sinh lí thần kinh của các mối liên tưởng tâm lí.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Vì sao tư duy trong quan niệm của trường phái tâm lí học liên tưởng lại được đánh giá bản chất chỉ là 'tư duy hình ảnh' và 'tư duy tái tạo'?",
+      "options": {
+        "A": "Vì họ cho rằng tư duy chỉ diễn ra khi con người trực tiếp cầm nắm, thao tác vật chất bằng tay lên các đồ vật hình khối cụ thể trước mắt.",
+        "B": "Vì họ coi tư duy là sự thay đổi tự do tập hợp các hình ảnh, chỉ quan tâm tới tốc độ và mức độ liên kết, tái tạo các biểu tượng đã có sẵn.",
+        "C": "Vì họ khẳng định tư duy là khả năng sáng tạo ra các khái niệm trừu tượng hoàn toàn mới mẻ bằng cách phá vỡ mọi biểu tượng kinh nghiệm cũ.",
+        "D": "Vì họ đồng nhất hoạt động tư duy với việc mô phỏng lại các bức tranh nghệ thuật thông qua hệ thống kí hiệu ngôn ngữ và quy tắc lôgic hình thức."
+      },
+      "correct_answer": "B",
+      "explanation": "Các nhà liên tưởng coi tư duy là quá trình thay đổi tự do tập hợp các hình ảnh, liên tưởng các biểu tượng; chỉ quan tâm tốc độ và mức độ liên kết các biểu tượng đã có (tái tạo mối liên tưởng).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "question": "Các nhà tâm lí học liên tưởng đã phân chia các mối liên tưởng thành bốn loại cơ bản nào, và loại nào được xem là có vai trò đặc biệt quan trọng đối với trí tuệ?",
+      "options": {
+        "A": "Liên tưởng cảm giác, liên tưởng vận động, liên tưởng ngôn ngữ thầm và liên tưởng trực giác chỉnh thể (trong đó liên tưởng vận động quan trọng nhất).",
+        "B": "Liên tưởng bẩm sinh, liên tưởng tập nhiễm, liên tưởng điều kiện hóa cổ điển và liên tưởng điều kiện hóa tạo tác (quan trọng nhất).",
+        "C": "Liên tưởng giống nhau, liên tưởng tương phản, liên tưởng gần nhau về không gian - thời gian và liên tưởng nhân quả (quan trọng nhất).",
+        "D": "Liên tưởng đồng hóa, liên tưởng điều ứng, liên tưởng thuận nghịch và liên tưởng bảo tồn cấu trúc (trong đó liên tưởng bảo tồn quan trọng nhất)."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo thuyết liên tưởng, có 4 loại liên tưởng: giống nhau, tương phản, gần nhau về không gian và thời gian, và liên tưởng nhân quả; trong đó liên tưởng nhân quả có vai trò đặc biệt quan trọng trong các quá trình trí tuệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Theo thuyết liên tưởng, sự phát triển trí tuệ và sự khác biệt về trình độ trí tuệ giữa các cá nhân được giải thích dựa trên tiêu chí nào?",
+      "options": {
+        "A": "Sự phát triển trí tuệ là sự biến đổi nhảy vọt về chất của các cấu trúc thao tác; sự khác biệt trí tuệ quy về mức độ thuận nghịch của tư duy.",
+        "B": "Sự phát triển trí tuệ là quá trình nội tâm hóa công cụ văn hóa; sự khác biệt trí tuệ quy về độ rộng của vùng phát triển gần nhất ở trẻ.",
+        "C": "Sự phát triển trí tuệ là khả năng tổ chức lại trường tri giác; sự khác biệt trí tuệ quy về tốc độ xuất hiện trạng thái bừng hiểu bất ngờ.",
+        "D": "Sự phát triển trí tuệ là quá trình tích lũy các mối liên tưởng; sự khác biệt trí tuệ quy về số lượng liên tưởng và tốc độ hoạt hóa chúng."
+      },
+      "correct_answer": "D",
+      "explanation": "Thuyết liên tưởng quan niệm sự phát triển trí tuệ chỉ là sự tích lũy về lượng các mối liên tưởng; sự khác biệt trình độ trí tuệ được quy về số lượng các mối liên tưởng và tốc độ hoạt hóa chúng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "question": "Hạn chế phương pháp luận lớn nhất của thuyết liên tưởng khi giải thích về các hiện tượng tâm lí ý thức và trí tuệ con người là gì?",
+      "options": {
+        "A": "Chưa thoát khỏi tư duy siêu hình và quy nạp hình thức, mới chỉ nêu nguyên tắc giải thích máy móc mà chưa chạm tới bản chất, cấu trúc trí tuệ.",
+        "B": "Tuyệt đối hóa tính năng động chủ quan và ý chí tự do của cái tôi tinh thần, tách rời hoàn toàn tâm lí học khỏi cơ sở sinh lí học thần kinh.",
+        "C": "Sử dụng quá nhiều thuật ngữ toán học và lôgic hình thức để mô tả cấu trúc nhận thức khiến cho việc nghiên cứu rơi vào chủ nghĩa duy lí.",
+        "D": "Quá đề cao vai trò của môi trường văn hóa lịch sử và hoạt động hợp tác xã hội mà bỏ qua các cơ chế cảm giác, tri giác cá nhân."
+      },
+      "correct_answer": "A",
+      "explanation": "Về cơ bản thuyết liên tưởng chưa thoát khỏi tư duy siêu hình với phương pháp quy nạp hình thức, mới chỉ nêu nguyên tắc giải thích máy móc về trí tuệ mà chưa đề cập đến bản chất, cấu trúc, vai trò của trí tuệ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "question": "Trường phái tâm lí học Würzburg (Đức) với hướng tiếp cận hành động tinh thần gắn liền với tên tuổi của những nhà tâm lí học đại biểu nào?",
+      "options": {
+        "A": "Các nhà tâm lí học người Anh theo truyền thống duy cảm gồm D. Hartley (1705–1836), J.S. Mill (1806–1873) và Francis Galton (1822–1911) theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Các nhà tâm lí học người Đức theo truyền thống triết học duy lí gồm O. Külpe (1862–1915), O. Selz (1881–1944) và K. Bühler (1897–1963).",
+        "C": "Các nhà tâm lí học người Nga Xô viết theo truyền thống duy vật biện chứng gồm L.S. Vygotsky, A.N. Leontiev và P.Ya. Galperin.",
+        "D": "Các nhà tâm lí học người Mỹ theo truyền thống hành vi chủ quan gồm G.A. Miller, E. Galanter, K. Pribram và E. Tolman."
+      },
+      "correct_answer": "B",
+      "explanation": "Đại biểu của trường phái Vuxbua (Würzburg) là các nhà tâm lí học Đức: O. Quynpe (O. Külpe), O. Denxơ (O. Selz) và K. Biulơ (K. Bühler).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Phương pháp nghiên cứu chủ đạo được các nhà tâm lí học trường phái Würzburg sử dụng để khám phá bản chất của quá trình tư duy là gì?",
+      "options": {
+        "A": "Quan sát khách quan hành vi mò mẫm thử và sai của động vật trong các hộp mê cung rồi ngoại suy trực tiếp sang quy luật tư duy người.",
+        "B": "Phân tích thống kê toán học kết quả trắc nghiệm chỉ số thông minh trên các cặp trẻ sinh đôi cùng trứng được nuôi dưỡng tách biệt nhau.",
+        "C": "Thực nghiệm giải các bài toán tư duy kết hợp phương pháp tự quan sát của các nghiệm thể là những nhà tâm lí học chuyên nghiệp.",
+        "D": "Tổ chức dạy học thực nghiệm hình thành hành động trí tuệ theo từng giai đoạn từ hành động vật chất bên ngoài vào ngôn ngữ bên trong."
+      },
+      "correct_answer": "C",
+      "explanation": "Trường phái Würzburg nghiên cứu tư duy thông qua thực nghiệm giải bài toán tư duy với phương pháp chủ yếu là tự quan sát (nghiệm thể là các nhà tâm lí chuyên nghiệp thông báo diễn biến tư duy của mình).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "Trái ngược với thuyết liên tưởng coi tư duy luôn gắn với hình ảnh cảm tính, trường phái Würzburg đã rút ra kết luận gì về bản chất và đối tượng của tư duy?",
+      "options": {
+        "A": "Tư duy là tập hợp các phản xạ vận động của cơ thanh quản phát ra âm thanh lời nói thầm nhằm đáp trả lại các kích thích vật lí từ môi trường trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Tư duy là quá trình sao chép nguyên xi các hình ảnh trực quan từ thế giới bên ngoài vào bộ nhớ thông qua sự lặp đi lặp lại nhiều lần.",
+        "C": "Tư duy là sự bùng nổ cảm xúc bản năng của cá thể khi đứng trước các tác nhân gây nguy hiểm đe dọa đến sự sinh tồn sinh học của giống loài.",
+        "D": "Tư duy là hành động bên trong của chủ thể nhằm xem xét các mối quan hệ phi cảm tính, diễn ra độc lập không cần các biểu tượng rời rạc hỗ trợ."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo phái Würzburg, tư duy là hành động bên trong của chủ thể nhằm xem xét các mối quan hệ (không mang đặc điểm hình ảnh cảm tính), diễn ra không cần có sự hỗ trợ của các biểu tượng cảm tính rời rạc.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "Trong lí thuyết của trường phái Würzburg, yếu tố 'nhiệm vụ' (bài toán tư duy) và cơ chế 'tự chỉ dẫn' đóng vai trò gì đối với tính lựa chọn của tư duy?",
+      "options": {
+        "A": "Nhiệm vụ định hướng cho hành động tư duy; khi nhận ra bài toán, chủ thể biến chỉ dẫn bên ngoài thành tự chỉ dẫn để tăng cường hoặc ức chế các liên tưởng.",
+        "B": "Nhiệm vụ chỉ là tác nhân kích thích cơ học làm rối loạn các liên tưởng sẵn có, buộc chủ thể phải thực hiện các phản ứng vận động ngẫu nhiên.",
+        "C": "Tự chỉ dẫn là cơ chế bản năng di truyền giúp cá thể tự động né tránh các bài toán phức tạp để bảo toàn trạng thái cân bằng sinh lí thần kinh.",
+        "D": "Nhiệm vụ và tự chỉ dẫn hoàn toàn phụ thuộc vào tần số xuất hiện của các cảm giác thị giác và thính giác gần nhau trong không gian, thời gian."
+      },
+      "correct_answer": "A",
+      "explanation": "Khi chủ thể nhận ra bài toán có nghĩa là đã biến các chỉ dẫn từ bên ngoài thành tự chỉ dẫn; sự vận động của tự chỉ dẫn quy định tính lựa chọn của tư duy (tăng cường một số liên tưởng, ức chế các liên tưởng khác).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 14,
+      "question": "Trong các công trình nghiên cứu của O. Selz (O. Denxơ) thuộc trường phái Würzburg, thực chất của quá trình giải quyết bài toán tư duy được xác định là gì?",
+      "options": {
+        "A": "Là quá trình huy động tối đa số lượng các biểu tượng kí ức trong quá khứ theo nguyên tắc tương phản và gần gũi về mặt thời gian tiếp nhận theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Là sự vận hành của các thao tác trí tuệ (phân tích, tổng hợp, trừu tượng hóa, khái quát hóa), trong đó cốt lõi nhất là quá trình cấu trúc lại bài toán để tạo tình huống có vấn đề.",
+        "C": "Là quá trình lặp đi lặp lại các cử động cơ bắp theo cơ chế thử và sai cho đến khi vô tình chạm vào công tắc mở cửa thoát khỏi hoàn cảnh khó khăn.",
+        "D": "Là quá trình chuyển hóa tuần tự từ hành động trên vật thật sang hành động với lời nói to rồi rút gọn thành hành động trên bình diện ý nghĩ."
+      },
+      "correct_answer": "B",
+      "explanation": "O. Selz chỉ ra thực chất của tư duy là sự vận hành của các thao tác trí tuệ để giải quyết bài toán; giai đoạn nhận thức đầu bài toán và cấu trúc lại nó tạo ra tình huống có vấn đề là quan trọng nhất.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "Đóng góp lịch sử to lớn nhất của trường phái tâm lí học Würzburg đối với lĩnh vực nghiên cứu tư duy và trí tuệ trong tâm lí học là gì?",
+      "options": {
+        "A": "Lần đầu tiên chứng minh được nguồn gốc văn hóa - lịch sử của các chức năng tâm lí cấp cao và vai trò trung gian của công cụ kí hiệu ngôn ngữ khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Lần đầu tiên xây dựng thành công bộ trắc nghiệm khuôn hình tiếp diễn phi ngôn ngữ để đo lường năng lực suy luận quan hệ của trẻ em và người lớn.",
+        "C": "Lần đầu tiên nghiên cứu tư duy, trí tuệ như một hành động bên trong và một quá trình vận động của các thao tác trí tuệ có đối tượng là các quan hệ.",
+        "D": "Lần đầu tiên phát hiện ra sự phân hóa phát triển trí tuệ trẻ em thành bốn giai đoạn lớn từ cảm giác vận động đến thao tác hình thức trưởng thành."
+      },
+      "correct_answer": "C",
+      "explanation": "Đóng góp lớn của phái Würzburg là lần đầu tiên tư duy, trí tuệ được nghiên cứu như một hành động bên trong, là quá trình vận động của các thao tác trí tuệ có đối tượng là các mối quan hệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "Do chịu ảnh hưởng nặng nề của triết học duy lí Đức (từ Kant, Fichte đến Hegel), trường phái Würzburg đã mắc phải hạn chế căn bản nào khi lí giải về tư duy?",
+      "options": {
+        "A": "Hạ thấp tư duy của con người xuống ngang hàng với hành vi bản năng và kĩ xảo tập nhiễm của động vật trong môi trường sinh thái tự nhiên trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Đồng nhất hoàn toàn quá trình tư duy với các phản ứng sinh hóa và điện sinh lí diễn ra tại các vùng định khu chức năng trên vỏ bán cầu đại não.",
+        "C": "Chỉ tập trung mô tả các biểu hiện hành vi quan sát được từ bên ngoài mà phủ nhận hoàn toàn sự tồn tại của đời sống ý thức và các thao tác tinh thần.",
+        "D": "Coi tư duy thuần túy là hành động tinh thần khép kín bên trong, tách rời chủ thể khỏi điều kiện bên ngoài nên chưa giải quyết được bản chất xã hội và lôgic tâm lí của tư duy."
+      },
+      "correct_answer": "D",
+      "explanation": "Do ảnh hưởng của triết học duy lí Đức, phái Würzburg coi tư duy thuần túy là hành động tinh thần bên trong, tách rời các điều kiện bên ngoài, nên bản chất xã hội và lôgic tâm lí của tư duy chưa được giải quyết.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 17,
+      "question": "Mục tiêu phương pháp luận hàng đầu thúc đẩy sự ra đời của trường phái Tâm lí học hành vi vào đầu thế kỉ XX tại Mỹ là gì?",
+      "options": {
+        "A": "Khắc phục tính chủ quan, nội quan trong nghiên cứu tâm lí đương thời bằng cách chỉ nghiên cứu hành vi có thể quan sát và lượng hóa khách quan.",
+        "B": "Khôi phục lại vị thế độc tôn của phương pháp tự quan sát nội tâm nhằm khám phá các tầng bậc vô thức sâu thẳm trong tâm hồn con người.",
+        "C": "Chứng minh sự ưu việt về mặt di truyền sinh học của các tầng lớp thượng lưu trong xã hội công nghiệp thông qua hệ thống trắc nghiệm chỉ số IQ.",
+        "D": "Vận dụng triết học duy vật biện chứng và lịch sử để làm sáng tỏ quá trình chuyển hóa từ hoạt động lao động vật chất thành ý thức xã hội."
+      },
+      "correct_answer": "A",
+      "explanation": "Tiếp cận hành vi là cố gắng lớn của tâm lí học đầu thế kỉ XX nhằm khắc phục tính chủ quan trong nghiên cứu tâm lí, phủ nhận nghiên cứu ý thức bằng nội quan và chỉ nghiên cứu hành vi bằng quan sát khách quan, thực nghiệm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Theo quan điểm của thuyết hành vi cổ điển (với các đại biểu J. Watson, E.L. Thorndike, B.F. Skinner), khái niệm 'hành vi' và nhiệm vụ của nhà tâm lí học được xác định như thế nào?",
+      "options": {
+        "A": "Hành vi là sự biểu hiện ra bên ngoài của các ý đồ, nguyện vọng và cấu trúc nhận thức nội tại; nhiệm vụ của nhà tâm lí là giải mã ý nghĩa chủ quan của chúng theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Hành vi là tập hợp các phản ứng của cơ thể đáp lại kích thích từ môi trường bên ngoài; nhiệm vụ của nhà tâm lí là mô tả và lượng hóa tương quan kích thích - phản ứng.",
+        "C": "Hành vi là hệ thống các hành động có đối tượng được thúc đẩy bởi động cơ xã hội; nhiệm vụ của nhà tâm lí là phân tích cấu trúc hoạt động thực tiễn.",
+        "D": "Hành vi là sự tổ chức lại trường tri giác một cách bất ngờ; nhiệm vụ của nhà tâm lí là thiết kế các bài toán bừng hiểu để kích hoạt tư duy sáng tạo."
+      },
+      "correct_answer": "B",
+      "explanation": "Thuyết hành vi cổ điển định nghĩa hành vi là tập hợp các phản ứng của cơ thể đáp lại kích thích từ môi trường; nhiệm vụ của nhà tâm lí học là mô tả và lượng hóa các hành vi đó nhằm xác định tương quan S - R.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Trong thuyết hành vi cổ điển, cơ chế chủ yếu để cá thể (động vật và con người) hình thành các hành vi thích ứng và hành vi trí tuệ mới là gì?",
+      "options": {
+        "A": "Sự nắm bắt tức thời các mối quan hệ bản chất giữa công cụ và mục tiêu nhờ khả năng trực giác chỉnh thể mà không cần qua bất kì phép thử nào.",
+        "B": "Sự vận hành tự động của các sơ đồ thao tác lôgic thuận nghịch nhằm biến đổi cấu trúc nhận thức cũ cho thích nghi với hoàn cảnh có vấn đề.",
+        "C": "Sự mò mẫm của chủ thể theo nguyên tắc 'thử và sai' qua nhiều lần cho tới khi xác lập được phản ứng phù hợp, sau đó luyện tập và củng cố nó.",
+        "D": "Sự lĩnh hội có định hướng các tri thức khoa học thông qua quá trình tương tác sư phạm với người lớn trong vùng phát triển gần nhất của cá nhân."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo thuyết hành vi cổ điển, cơ chế hình thành hành vi là sự mò mẫm của chủ thể theo nguyên tắc 'thử và sai' qua nhiều lần cho tới khi xác lập được phản ứng phù hợp, luyện tập và củng cố nó.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Vì sao trong tâm lí học hành vi cổ điển, việc nghiên cứu và điều khiển quá trình hình thành hành vi trí tuệ lại được quy về quá trình 'điều kiện hóa hành vi'?",
+      "options": {
+        "A": "Vì họ cho rằng mọi năng lực trí tuệ đều đã được lập trình sẵn trong mã gen di truyền, môi trường chỉ có vai trò kích hoạt các bản năng tiềm ẩn đó trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Vì họ quan niệm trí tuệ là một hệ thống mở luôn tự điều chỉnh thông qua các kế hoạch hành động chủ quan và sự mong đợi ở trung ương thần kinh.",
+        "C": "Vì họ đồng nhất việc phát triển trí tuệ với việc rèn luyện khả năng tự quan sát nội tâm của các nhà tâm lí học chuyên nghiệp trong phòng thí nghiệm.",
+        "D": "Vì họ coi nhẹ tính tích cực chủ thể và đề cao tuyệt đối kích thích bên ngoài, nên chỉ cần sắp xếp 'môi trường các kích thích' theo lôgic để tạo ra phản ứng mong muốn."
+      },
+      "correct_answer": "D",
+      "explanation": "Các nhà hành vi coi nhẹ tính tích cực của chủ thể, đề cao vai trò kích thích bên ngoài, nên điều khiển hình thành hành vi trí tuệ được quy về việc tạo ra 'môi trường các kích thích' sắp xếp theo lôgic (điều kiện hóa hành vi).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Trong các công trình nghiên cứu của J. Watson, hành vi trí tuệ và tư duy của con người được ông đồng nhất với hiện tượng nào và chia thành mấy dạng?",
+      "options": {
+        "A": "Đồng nhất hành vi trí tuệ với ngôn ngữ bên trong và chia tư duy thành ba dạng từ thói quen ngôn ngữ đơn giản đến giải quyết nhiệm vụ mới bằng ngôn ngữ.",
+        "B": "Đồng nhất hành vi trí tuệ với các biểu tượng thị giác sinh động và chia tư duy thành bốn loại liên tưởng dựa trên sự gần gũi không gian, thời gian.",
+        "C": "Đồng nhất hành vi trí tuệ với khả năng định hướng trong mê cung và chia tư duy thành hai mức độ là bản đồ nhận thức cụ thể và bản đồ trừu tượng.",
+        "D": "Đồng nhất hành vi trí tuệ với cơ chế xử lí thông tin của máy tính điện tử và chia tư duy thành ba thành tố là đầu vào, đầu ra và siêu thành tố."
+      },
+      "correct_answer": "A",
+      "explanation": "J. Watson đồng nhất hành vi trí tuệ với ngôn ngữ bên trong và chia tư duy thành 3 dạng: (1) thói quen, kĩ xảo ngôn ngữ đơn giản; (2) giải quyết nhiệm vụ ít gặp kèm hành vi ngôn ngữ; (3) giải quyết nhiệm vụ mới phức tạp bằng ngôn ngữ trước khi hành động.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 22,
+      "question": "Theo sự phân loại ba dạng tư duy của J. Watson, việc một người 'đọc một đoạn thơ hay đoạn văn mà không làm thay đổi trật tự từ' thuộc về dạng tư duy nào?",
+      "options": {
+        "A": "Dạng thứ hai: giải quyết các nhiệm vụ tuy không mới nhưng ít gặp trong đời sống và đòi hỏi phải có hành vi ngôn ngữ kèm theo để khôi phục kí ức.",
+        "B": "Dạng thứ nhất: các thói quen và kĩ xảo ngôn ngữ đơn giản đã được hình thành vững chắc thông qua quá trình luyện tập lặp đi lặp lại.",
+        "C": "Dạng thứ ba: giải quyết các nhiệm vụ hoàn toàn mới buộc cơ thể lâm vào hoàn cảnh phức tạp đòi hỏi phải suy tính bằng ngôn ngữ trước khi hành động.",
+        "D": "Dạng tư duy siêu nhận thức: quá trình chủ thể tự giám sát, lập kế hoạch và đánh giá hiệu quả của các chiến lược ghi nhớ ngữ liệu văn học."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong 3 dạng tư duy của J. Watson, dạng thứ nhất là các thói quen, kĩ xảo ngôn ngữ đơn giản (ví dụ: đọc một đoạn thơ hay đoạn văn mà không làm thay đổi trật tự từ).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 23,
+      "question": "Sau thời kì của J. Watson, trường phái tâm lí học hành vi đã phân hóa thành ba nhánh lớn nào cùng với các đại biểu tương ứng?",
+      "options": {
+        "A": "Hành vi phản xạ cổ điển (I.P. Pavlov), Hành vi tập tính học (K. Lorenz) và Hành vi ưu sinh học xã hội (F. Galton, E.O. Wilson) khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Hành vi liên tưởng (D. Hartley), Hành vi hình thái học (W. Köhler) và Hành vi kiến tạo phát sinh nhận thức (J. Piaget, B. Inhelder).",
+        "C": "Hành vi bảo thủ S-R (B.F. Skinner), Hành vi mới S-S (E. Tolman) và Hành vi chủ quan với mô hình TOTE (G.A. Miller, E. Galanter, K. Pribram).",
+        "D": "Hành vi nội quan thực nghiệm (O. Külpe), Hành vi văn hóa - lịch sử (L.S. Vygotsky) và Hành vi mô phỏng trí tuệ nhân tạo (Alan Turing)."
+      },
+      "correct_answer": "C",
+      "explanation": "Sau J. Watson, tiếp cận hành vi phân hóa thành 3 nhánh: (1) Hành vi bảo thủ (Thuyết S-R, đại biểu Skinner); (2) Hành vi mới (Thuyết S-S, đại biểu E. Tolman); (3) Hành vi chủ quan (Thuyết TOTE, đại biểu Miller, Galanter, Pribram).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "question": "Điểm cải tiến cốt lõi nhất của Tâm lí học hành vi mới (Thuyết S-S do E. Tolman đại diện) so với thuyết hành vi cổ điển S-R của J. Watson là gì?",
+      "options": {
+        "A": "Loại bỏ hoàn toàn vai trò của các kích thích môi trường bên ngoài và khẳng định hành vi chỉ do các xung năng vô thức bẩm sinh thúc đẩy trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Thay thế phương pháp thực nghiệm trên động vật bằng phương pháp phỏng vấn lâm sàng và phân tích sản phẩm hoạt động sáng tạo của trẻ em.",
+        "C": "Khẳng định ngôn ngữ và các công cụ kí hiệu văn hóa xã hội là nguồn gốc duy nhất hình thành nên các chức năng tâm lí cấp cao ở con người.",
+        "D": "Đưa thêm việc nghiên cứu các yếu tố trung gian của chủ thể (chính là quá trình nhận thức / cấu trúc nhận thức) vào giữa sơ đồ kích thích - phản ứng."
+      },
+      "correct_answer": "D",
+      "explanation": "Tâm lí học hành vi mới (Thuyết S-S của E. Tolman) có ý đồ nghiên cứu cả các yếu tố trung gian của chủ thể trong sơ đồ kích thích - phản ứng, yếu tố đó chính là quá trình nhận thức (cấu trúc nhận thức).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "question": "Trong thuyết hành vi chủ quan của G.A. Miller, E. Galanter và K. Pribram, thuật ngữ viết tắt 'TOTE' được ghép từ những từ tiếng Anh nào và mang ý nghĩa gì?",
+      "options": {
+        "A": "Ghép từ Test – Operate – Test – Exit, nghĩa là chu trình Thử (kiểm tra) – Thao tác – Thử lại – Thoát ra trong quá trình điều chỉnh hành vi.",
+        "B": "Ghép từ Thought – Observation – Training – Evaluation, nghĩa là chu trình Tư duy – Quan sát – Huấn luyện – Đánh giá kĩ xảo vận động.",
+        "C": "Ghép từ Task – Organization – Transformation – Execution, nghĩa là chu trình Nhiệm vụ – Tổ chức – Biến đổi – Thực thi bài toán nhận thức.",
+        "D": "Ghép từ Trial – Orientation – Tension – Equilibrium, nghĩa là chu trình Thử nghiệm – Định hướng – Căng thẳng – Cân bằng cấu trúc tâm lí."
+      },
+      "correct_answer": "A",
+      "explanation": "TOTE là chữ cái đầu của các từ tiếng Anh: T: Test, O: Operate, T: Test, E: Exit, tức là thuyết Thử - Thao tác - Thử - Thoát ra.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "Khi so sánh ba nhánh của trường phái hành vi về 'nhân tố phát động một hành vi', sự khác biệt giữa thuyết hành vi cổ điển (S-R), thuyết hành vi mới (S-S) và thuyết TOTE thể hiện như thế nào?",
+      "options": {
+        "A": "Thuyết S-R coi bản năng di truyền là nhân tố phát động; thuyết S-S coi đó là kĩ xảo vận động; còn thuyết TOTE coi đó là áp lực cưỡng bức từ môi trường văn hóa xã hội theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Thuyết S-R coi kích thích/phản ứng bên ngoài là nhân tố phát động; thuyết S-S coi đó là cấu trúc nhận thức; còn thuyết TOTE coi đó là các quá trình ở trung ương thần kinh, trí nhớ, tâm thế, sự mong đợi.",
+        "C": "Thuyết S-R coi ngôn ngữ thầm là nhân tố phát động; thuyết S-S coi đó là phản xạ không điều kiện; còn thuyết TOTE coi đó là sự mất cân bằng giữa đồng hóa và điều ứng.",
+        "D": "Thuyết S-R coi sự bừng hiểu trực giác là nhân tố phát động; thuyết S-S coi đó là tự chỉ dẫn nội tâm; còn thuyết TOTE coi đó là tần số lặp lại của các cảm giác rời rạc."
+      },
+      "correct_answer": "B",
+      "explanation": "Về nhân tố phát động hành vi: Thuyết cổ điển cho là các phản ứng/kích thích bên ngoài; thuyết hành vi mới (S-S) cho là các 'cấu trúc nhận thức'; thuyết TOTE cho là các quá trình ở trung ương thần kinh, trí nhớ, tâm thế, sự mong đợi.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "Xét trên tiêu chí 'kết quả học tập', quan niệm của thuyết hành vi bảo thủ (S-R) và thuyết hành vi mới (S-S) khác nhau ở điểm cơ bản nào?",
+      "options": {
+        "A": "Thuyết S-R quan niệm kết quả học tập là sự hình thành khái niệm khoa học, còn thuyết S-S quan niệm kết quả học tập là sự tích lũy các phản xạ bẩm sinh không điều kiện khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Thuyết S-R quan niệm kết quả học tập là khả năng sáng tạo nghệ thuật, còn thuyết S-S quan niệm kết quả học tập là tốc độ đọc thuộc lòng các văn bản ngôn ngữ.",
+        "C": "Thuyết S-R quan niệm kết quả học tập là kĩ xảo (một trật tự nào đó của các cử động), còn thuyết S-S quan niệm kết quả học tập là các cấu trúc nhận thức (sự phản ánh một tình huống).",
+        "D": "Thuyết S-R quan niệm kết quả học tập là sự phát triển vùng phát triển gần nhất, còn thuyết S-S quan niệm kết quả học tập là sự hoàn thiện các thao tác lôgic hình thức."
+      },
+      "correct_answer": "C",
+      "explanation": "Về kết quả học tập: Thuyết (S-R) quan niệm kết quả học tập là kĩ xảo (trật tự nào đó của các cử động); còn thuyết (S-S) coi kết quả học tập là 'các cấu trúc nhận thức' (sự phản ánh một tình huống nào đó).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Xét trên tiêu chí 'phương pháp ứng xử', ba thuyết S-R, S-S và TOTE giải thích cơ chế thích ứng của cá thể trong tình huống như thế nào?",
+      "options": {
+        "A": "Thuyết S-R dựa vào kế hoạch nội tại; thuyết S-S dựa vào sự mò mẫm ngẫu nhiên; còn thuyết TOTE hoàn toàn phụ thuộc vào cường độ vật lí của các tác nhân kích thích bên ngoài trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Thuyết S-R dựa vào sự bừng hiểu tức thời; thuyết S-S dựa vào sự bắt chước tập tính theo dấu ấn; còn thuyết TOTE dựa vào sự liên tưởng tương phản giữa các biểu tượng cảm tính.",
+        "C": "Thuyết S-R dựa vào thao tác thuận nghịch; thuyết S-S dựa vào quá trình nội tâm hóa kí hiệu; còn thuyết TOTE dựa vào sự chọn lọc tự nhiên và cạnh tranh sinh tồn giữa các cá thể.",
+        "D": "Thuyết S-R dựa vào 'thử và sai'; thuyết S-S phụ thuộc vào cấu trúc của tình huống khách quan; còn thuyết TOTE đề cao hình ảnh, kế hoạch của các phản ứng và kinh nghiệm chỉ dẫn hành vi."
+      },
+      "correct_answer": "D",
+      "explanation": "Về phương pháp ứng xử: Thuyết S-R cho là 'thử và sai'; thuyết S-S cho rằng thành công phụ thuộc cấu trúc của tình huống khách quan; thuyết TOTE đề cao hình ảnh, kế hoạch của các phản ứng (kinh nghiệm, tri thức chỉ dẫn quá trình tiến hành hành vi).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "Đóng góp tích cực và có giá trị thực tiễn lớn nhất của hướng tiếp cận hành vi đối với khoa học tâm lí và công tác dạy học hiện đại là gì?",
+      "options": {
+        "A": "Đưa tính chặt chẽ, khách quan vào nghiên cứu trí tuệ và chỉ ra rằng muốn huấn luyện chức năng tâm lí cần thông minh hóa nội dung dạy học theo một quy trình chặt chẽ để quan sát, kiểm soát được.",
+        "B": "Khám phá ra vai trò của các xung lực vô thức và cơ chế phòng vệ tâm lí giúp giáo viên thấu hiểu đời sống tình cảm sâu kín của học sinh.",
+        "C": "Chứng minh rằng trẻ em có thể tự mình kiến tạo toàn bộ hệ thống tri thức khoa học mà không cần bất kì sự tổ chức hay kiểm soát nào từ môi trường.",
+        "D": "Xây dựng hoàn chỉnh lí thuyết về sự hình thành khái niệm theo từng giai đoạn từ hành động vật chất bên ngoài chuyển vào ngôn ngữ bên trong."
+      },
+      "correct_answer": "A",
+      "explanation": "Công lao không thể phủ nhận của tiếp cận hành vi là đưa tính chặt chẽ khoa học, khách quan vào nghiên cứu trí tuệ: muốn huấn luyện một chức năng tâm lí phải đưa chủ thể vào điều kiện xác định, thông minh hóa nội dung dạy học theo quy trình chặt chẽ để quan sát và kiểm soát được.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "Vì sao giáo trình nhận định rằng sự cực đoan hóa các luận điểm của tâm lí học hành vi sẽ dẫn đến thuyết 'định mệnh xã hội' trong dạy học và phát triển?",
+      "options": {
+        "A": "Vì trường phái này cho rằng chỉ số thông minh của mỗi học sinh đã được ấn định cố định ngay từ lúc thụ thai bởi hệ gen di truyền của cha mẹ theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Vì trường phái này tuyệt đối hóa vai trò của môi trường kích thích bên ngoài mà coi nhẹ vai trò chủ thể, tính tích cực và năng lực tự ý thức của người học.",
+        "C": "Vì trường phái này khẳng định sự phát triển trí tuệ phải chờ đợi sự chín muồi sinh học tự nhiên của các vùng vỏ não theo từng độ tuổi cứng nhắc.",
+        "D": "Vì trường phái này phủ nhận hoàn toàn khả năng huấn luyện kĩ xảo và cho rằng giáo dục không thể làm thay đổi bất kì hành vi nào của con người."
+      },
+      "correct_answer": "B",
+      "explanation": "Sự cực đoan hóa yếu tố môi trường kích thích, coi nhẹ vai trò chủ thể người học của thuyết hành vi sẽ dẫn đến sự 'định mệnh xã hội' trong dạy học và phát triển (con người hoàn toàn thụ động làm nô lệ cho hoàn cảnh kích thích).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "Trong sơ đồ lí giải của tâm lí học hành vi cổ điển, tư duy của con người được quy giản về hiện tượng tâm - sinh lí nào sau đây?",
+      "options": {
+        "A": "Tư duy được xem là một năng lực tinh thần siêu nghiệm bẩm sinh, tồn tại độc lập với bộ não và không chịu sự chi phối của các quy luật phản xạ.",
+        "B": "Tư duy được xem là hệ thống các thao tác lôgic lưỡng cực có tính thuận nghịch tuyệt đối và tính bảo tồn bất biến trước mọi biến đổi trực quan.",
+        "C": "Tư duy được xem giống như kĩ xảo, được hình thành theo cơ chế phản xạ có điều kiện thông qua việc luyện tập và củng cố các phản ứng hiệu quả.",
+        "D": "Tư duy được xem là quá trình giải mã ý nghĩa của các kí hiệu văn hóa thông qua sự giao tiếp đối thoại liên chủ thể trong cộng đồng xã hội."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo các nhà hành vi, vấn đề học tập và kĩ xảo đạt được là trung tâm; tư duy giống như kĩ xảo, được hình thành theo cơ chế phản xạ và luyện tập chúng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "question": "Điểm tương đồng về nguồn gốc xuất phát điểm giữa hướng tiếp cận hành vi và hướng tiếp cận sinh học trong nghiên cứu trí tuệ là gì?",
+      "options": {
+        "A": "Đều xuất phát từ triết học duy lí cổ điển Đức nhằm tìm kiếm các cấu trúc tư duy thuần túy tách rời khỏi cơ thể vật chất và môi trường sống.",
+        "B": "Đều lấy lí thuyết điều khiển học và kiến trúc máy tính điện tử làm mô hình chuẩn mực để phân tích quá trình mã hóa thông tin của con người.",
+        "C": "Đều khẳng định lao động sản xuất vật chất và việc chế tạo, sử dụng công cụ lao động là nguồn gốc duy nhất sinh ra trí tuệ của loài người.",
+        "D": "Đều chịu ảnh hưởng của thuyết tiến hóa hành vi cá thể thu được do tập nhiễm và sự phức tạp hóa dần các hành vi bản năng của cơ thể sống."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.3 chỉ rõ: Thực ra, cách tiếp cận hành vi cũng bắt nguồn từ hướng tiếp cận sinh học, tức là chịu ảnh hưởng của thuyết tiến hóa hành vi cá thể, thu được do tập nhiễm và sự phức tạp hóa các hành vi bản năng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Hướng tiếp cận sinh học trong nghiên cứu trí tuệ tập trung khai thác ba lĩnh vực khoa học trọng tâm nào sau đây?",
+      "options": {
+        "A": "Nghiên cứu cơ sở sinh lí - thần kinh của trí tuệ, nghiên cứu hành vi bản năng và tự tạo (tập tính học), và nghiên cứu vai trò của yếu tố di truyền trí tuệ.",
+        "B": "Nghiên cứu quy luật liên tưởng cảm giác, nghiên cứu hành động tinh thần nội quan và nghiên cứu quá trình hình thành khái niệm theo giai đoạn.",
+        "C": "Nghiên cứu cấu trúc trường tri giác chỉnh thể, nghiên cứu các giai đoạn thao tác lôgic của trẻ em và nghiên cứu vùng phát triển gần nhất.",
+        "D": "Nghiên cứu ngôn ngữ lập trình trí tuệ nhân tạo, nghiên cứu mạng thần kinh điện toán và nghiên cứu siêu thành tố điều khiển quá trình ra quyết định."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo hướng tiếp cận sinh học (Mục 1.3), có 3 lĩnh vực được quan tâm nhiều: (1) cơ sở sinh lí - thần kinh của trí tuệ; (2) vai trò và sự phát triển của hành vi bản năng và tự tạo; (3) vai trò của yếu tố di truyền trí tuệ giữa các thế hệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 34,
+      "question": "Trong lĩnh vực nghiên cứu cơ sở sinh lí - thần kinh của trí tuệ, những công trình nào của trường phái sinh lí học Nga được xem là nền tảng cốt lõi nhất?",
+      "options": {
+        "A": "Các nghiên cứu về sự di truyền thiên tài trong các gia đình quý tộc và việc sáng lập ra học thuyết ưu sinh học do F. Galton khởi xướng theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Các nghiên cứu về sự hình thành, dập tắt phản xạ có điều kiện và các quy luật hoạt động thần kinh cấp cao do nhà bác học I.P. Pavlov lĩnh xướng.",
+        "C": "Các nghiên cứu về hành vi tìm đường vòng và sử dụng công cụ để lấy thức ăn ở loài khỉ hình người do W. Köhler tiến hành thực nghiệm.",
+        "D": "Các nghiên cứu về quá trình đồng hóa và điều ứng các sơ đồ nhận thức của trẻ sơ sinh trong giai đoạn cảm giác - vận động do J. Piaget thực hiện."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong lĩnh vực cơ sở sinh lí - thần kinh, trước hết phải đặc biệt quan tâm tới các nghiên cứu về phản xạ và quy luật hoạt động thần kinh cấp cao của các nhà sinh lí học Nga do I.P. Pavlov lĩnh xướng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 35,
+      "question": "Các công trình của K.S. Lashley (Mỹ) và K. Goldstein (Đức) đã đóng góp luận điểm quan trọng nào cho hướng tiếp cận sinh học - thần kinh về trí tuệ?",
+      "options": {
+        "A": "Chứng minh rằng não bộ hoạt động như một khối đồng nhất tuyệt đối, mọi vùng vỏ não đều có thể thay thế hoàn toàn chức năng cho nhau mà không gây rối loạn gì khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Khẳng định trí thông minh của con người được quyết định 80% bởi cấu trúc gen di truyền từ cha mẹ và chỉ có 20% chịu ảnh hưởng của giáo dục nhà trường.",
+        "C": "Hình thành các lí thuyết về định khu chức năng tâm lí của não bộ, chứng minh việc tổn thương vùng thần kinh trên não sẽ làm mất hoặc rối loạn hành động trí tuệ tương ứng.",
+        "D": "Phát hiện ra cơ chế dấu ấn ban đầu ở các loài chim non mới nở và vận dụng cơ chế đó để giải thích sự hình thành gắn bó mẹ con ở loài người."
+      },
+      "correct_answer": "C",
+      "explanation": "Các công trình của K.S. Lashley (K.X. Lésli) và K. Goldstein (K. Gônđơstêin) đã hình thành các lí thuyết về định khu chức năng tâm lí của não bộ: tổn thương các vùng thần kinh trên não sẽ dẫn đến làm mất hoặc rối loạn khả năng tiến hành các hành động tâm lí, trí tuệ tương ứng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "question": "Nghiên cứu của R. Lorenz (K. Lorenz) về hành vi bản năng và tự tạo đã phát hiện ra cơ chế nào có ý nghĩa lớn đối với cả việc triển khai thao tác trí tuệ lẫn ứng xử xã hội?",
+      "options": {
+        "A": "Cơ chế thử và sai ngẫu nhiên, cho thấy cá thể chỉ giữ lại những cử động nào mang lại phần thưởng thức ăn trực tiếp ngay lập tức.",
+        "B": "Cơ chế bừng hiểu trực giác, cho thấy cá thể có khả năng đột ngột cấu trúc lại toàn bộ trường tri giác để tìm ra lời giải tối ưu nhất.",
+        "C": "Cơ chế chuyển hóa nội tâm, cho thấy mọi chức năng tâm lí đều xuất hiện trước hết trên bình diện xã hội rồi mới đi vào bình diện cá nhân.",
+        "D": "Cơ chế dấu ấn (Imprinting), cho thấy ảnh hưởng sâu sắc và bền vững của dấu ấn ban đầu đối với các hành vi tiếp theo của cá thể."
+      },
+      "correct_answer": "D",
+      "explanation": "Việc nghiên cứu về cơ chế dấu ấn của Lorenz đã cho thấy ảnh hưởng của dấu ấn ban đầu đối với các hành vi tiếp theo, có ý nghĩa cả trong triển khai thao tác trí tuệ lẫn trong ứng xử xã hội.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 37,
+      "question": "Một trong những hướng nghiên cứu đang được chú ý nhiều của tập tính học về con người (Human Ethology) hiện nay khi tìm hiểu về trí tuệ là gì?",
+      "options": {
+        "A": "Nghiên cứu mối quan hệ giữa các nền văn hóa, xã hội riêng với phương thức tư duy, giải quyết bài toán trí tuệ của các thành viên và vai trò 'tiềm ẩn' của văn hóa.",
+        "B": "Nghiên cứu việc lai tạo chọn lọc các giống nòi có chỉ số thông minh vượt trội nhằm loại bỏ hoàn toàn các gen khiếm khuyết ra khỏi quần thể loài người.",
+        "C": "Nghiên cứu việc cấy ghép các vi mạch điện tử vào thùy trán của não bộ để thay thế cho quá trình học tập và rèn luyện tư duy lâu dài ở trường học.",
+        "D": "Nghiên cứu sự suy giảm tốc độ phản xạ vận động của các loài linh trưởng khi bị nuôi nhốt cô lập hoàn toàn trong môi trường phòng thí nghiệm nhân tạo."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.3.2 nêu rõ: Tập tính học về con người hiện nay chú ý nghiên cứu mối quan hệ giữa các nền văn hóa, xã hội riêng với phương thức tư duy, giải quyết các bài toán trí tuệ của các thành viên và vai trò 'tiềm ẩn' của yếu tố văn hóa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Ai là người đã xuất bản cuốn sách 'Thiên tài di truyền' vào năm 1869 và sáng lập ra 'Thuyết ưu sinh học' (Eugenics) nhấn mạnh tuyệt đối yếu tố di truyền trí thông minh?",
+      "options": {
+        "A": "Nhà tâm lí học phát sinh người Thụy Sĩ Jean Piaget (1896–1980), người đặt nền móng cho học thuyết kiến tạo nhận thức ở trẻ em.",
+        "B": "Nhà tâm lí học và nhân chủng học người Anh Francis Galton (Pa. Galton, 1822–1911), mở đầu cho trào lưu tuyệt đối hóa di truyền trí năng.",
+        "C": "Nhà sinh lí học thần kinh người Nga Ivan Petrovich Pavlov (1849–1936), người sáng lập học thuyết về hệ thống tín hiệu thứ nhất và thứ hai.",
+        "D": "Nhà toán học và triết học người Anh Alan Turing (1912–1954), người tiên phong đặt nền móng cho lí thuyết máy tính và trí tuệ nhân tạo."
+      },
+      "correct_answer": "B",
+      "explanation": "Ngay từ năm 1869, nhà tâm lí học và nhân chủng học người Anh F. Galton (1822–1911) đã phát hành cuốn 'Thiên tài di truyền' và thành lập 'Thuyết ưu sinh học' (Eugenics).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 39,
+      "question": "Các nhà tâm lí học phương Tây ủng hộ thuyết di truyền trí năng như Cyril Burt (1966), A. Jensen (1969) và C. Jencks (1972) đã lần lượt đưa ra những số liệu định lượng nào về tỉ lệ quyết định của di truyền đối với trí tuệ?",
+      "options": {
+        "A": "Cyril Burt cho rằng 50% do di truyền; A. Jensen cho rằng 95% do di truyền; còn C. Jencks khẳng định 100% trí thông minh được quyết định bởi đột biến nhiễm sắc thể khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Cyril Burt cho rằng 20% do di truyền (80% môi trường); A. Jensen cho rằng 40% do di truyền; còn C. Jencks cho rằng di truyền không đóng bất kì vai trò nào cả.",
+        "C": "Cyril Burt cho rằng 80% do di truyền (20% môi trường); A. Jensen cho rằng 60% do di truyền (40% môi trường); còn C. Jencks đưa ra số liệu 45% di truyền, 35% môi trường và 20% tương tác.",
+        "D": "Cả ba tác giả Cyril Burt, A. Jensen và C. Jencks đều thống nhất tuyệt đối ở con số 75% do di truyền bẩm sinh và 25% do điều kiện dinh dưỡng thời thơ ấu."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 1.3.3: Cyril Burt (1966) khẳng định 80% di truyền, 20% môi trường; A. Jensen (1969) cho tỉ lệ là 60% và 40%; Jencks (1972) đưa ra số liệu 45% di truyền, 35% môi trường và 20% do tương tác giữa 2 yếu tố.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 40,
+      "question": "Trường phái sinh học - xã hội (Sociobiology) hình thành ở Mỹ vào những năm 1975 do E.O. Wilson khởi xướng đã đưa ra luận điểm cực đoan nào về trí tuệ?",
+      "options": {
+        "A": "Mọi cá nhân thuộc mọi chủng tộc và giai cấp xã hội đều sinh ra với cấu trúc não bộ hoàn toàn giống hệt nhau, sự khác biệt chỉ do may rủi ngẫu nhiên trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Sự tiến hóa văn hóa và giáo dục đại chúng đã xóa bỏ hoàn toàn tác động của chọn lọc tự nhiên sinh học đối với sự phát triển trí tuệ của loài người hiện đại.",
+        "C": "Trí thông minh của con người sẽ ngày càng thoái hóa qua các thế hệ do sự phụ thuộc quá mức vào các phương tiện máy tính điện tử và công nghệ tự động hóa.",
+        "D": "Do có sự cạnh tranh trong xã hội người nên chỉ ai có sức mạnh mới có cơ may bảo tồn và chuyển giao gen cho đời sau, từ đó ủng hộ thuyết ưu sinh dẫn đến phân biệt chủng tộc, đẳng cấp về trí tuệ."
+      },
+      "correct_answer": "D",
+      "explanation": "Trường phái sinh học - xã hội do E. Wilson khởi xướng (1975) cho rằng do cạnh tranh trong xã hội người, chỉ ai có sức mạnh mới có cơ may bảo tồn và chuyển giao gen cho đời sau, ủng hộ thuyết ưu sinh xã hội dẫn đến phân biệt chủng tộc, đẳng cấp về trí tuệ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "Trong thực tiễn y sinh học, những bằng chứng bệnh lí nào thường được dẫn ra để chứng minh rằng các sai lệch nhiễm sắc thể hoặc khuyết tật bẩm sinh có thể gây chậm phát triển trí khôn ở trẻ?",
+      "options": {
+        "A": "Các trường hợp sai lệch nhiễm sắc thể của thai nhi hoặc rối loạn chuyển hóa bẩm sinh như hội chứng Down, bệnh đầu bé và bệnh đần độn do thiếu i-ốt.",
+        "B": "Các trường hợp trẻ em bị suy giảm thị lực hoặc thính lực nhẹ do tai nạn lao động hoặc do tiếp xúc với tiếng ồn lớn trong môi trường sống đô thị.",
+        "C": "Các trường hợp học sinh gặp khó khăn tạm thời trong việc giải các bài toán hình học không gian do chưa được trang bị phương pháp học tập phù hợp.",
+        "D": "Các trường hợp cá nhân xuất hiện trạng thái căng thẳng tâm lí khi đứng trước một tình huống có vấn đề mới mẻ vượt quá các thói quen kĩ xảo cũ."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình nêu rõ: sự sai lệch về nhiễm sắc thể của thai nhi hoặc một số khuyết tật bẩm sinh là nguyên nhân chậm trí khôn của trẻ (hội chứng Down, bệnh đầu bé, bệnh đần độn do thiếu i-ốt).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 42,
+      "question": "Các công trình nghiên cứu trên trẻ em sinh đôi cùng trứng của I.I. Kanaev (1959) cũng như phân tích của Z. Kimpling và Jarvik (1993) đã đi đến kết luận khoa học nào?",
+      "options": {
+        "A": "Khẳng định yếu tố di truyền quyết định hoàn toàn 100% chỉ số thông minh của các cặp sinh đôi cùng trứng dù chúng được nuôi dưỡng ở những môi trường trái ngược nhau.",
+        "B": "Không tìm thấy ảnh hưởng quyết định tuyệt đối hoặc của riêng yếu tố di truyền hoặc của riêng yếu tố môi trường đối với sự phát triển trí tuệ của trẻ em.",
+        "C": "Khẳng định yếu tố môi trường giáo dục có thể xóa bỏ hoàn toàn mọi giới hạn sinh học kể cả những tổn thương thực thể nặng nề trên vỏ bán cầu đại não.",
+        "D": "Chứng minh rằng các cặp trẻ sinh đôi cùng trứng luôn có trình độ phát triển trí tuệ thấp hơn so với trẻ sinh đơn do phải chia sẻ nguồn dinh dưỡng trong bào thai."
+      },
+      "correct_answer": "B",
+      "explanation": "Các nghiên cứu trẻ sinh đôi cùng trứng của I.I. Kanaev (1959) và phân tích của Z. Kimpling & Jarvik (1993) đều kết luận: không tìm thấy ảnh hưởng quyết định hoặc của yếu tố di truyền hoặc của môi trường đối với sự phát triển trí tuệ của trẻ em.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "Thuật ngữ 'Gestalt' (Ghestan) trong tiếng Đức có nghĩa là gì và những nhà tâm lí học nào là đại biểu sáng lập của trường phái tâm lí học này?",
+      "options": {
+        "A": "Có nghĩa là sự liên kết các cảm giác rời rạc; được đề xướng bởi các nhà triết học duy cảm Anh D. Hartley, J.S. Mill và H. Spencer vào thế kỉ XVIII - XIX khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Có nghĩa là hành động tinh thần thuần túy; được đề xướng bởi các nhà tâm lí học trường phái Würzburg Đức là O. Külpe, O. Selz và K. Bühler.",
+        "C": "Có nghĩa là tổ chức, hình thể hay hình thái; được đề xướng bởi các nhà tâm lí học Đức M. Wertheimer (1880–1943), W. Köhler (1887–1967) và K. Koffka (1886–1941).",
+        "D": "Có nghĩa là sự thích nghi sinh học; được đề xướng bởi các nhà tâm lí học phát sinh Thụy Sĩ là É. Claparède và Jean Piaget vào giữa thế kỉ XX."
+      },
+      "correct_answer": "C",
+      "explanation": "Ghestan (Gestalt) là từ tiếng Đức có nghĩa là tổ chức, hình thể hay hình thái, được đề xướng bởi các nhà tâm lí học Đức: M. Wertheimer, W. Köhler, K. Koffka.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 44,
+      "question": "Để minh họa cho nguyên lí 'một tổng thể có tổ chức khác với tổng số các thành phần của nó', các nhà tâm lí học Gestalt đã sử dụng hình ảnh ví dụ kinh điển nào?",
+      "options": {
+        "A": "Một bức tường gạch được xây dựng từ hàng nghìn viên gạch giống hệt nhau xếp chồng lên nhau theo nguyên tắc cộng gộp cơ học về mặt khối lượng trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Một cỗ máy cơ khí hoạt động nhờ sự truyền lực tuần tự từ bánh răng thứ nhất sang bánh răng thứ hai theo đúng định luật bảo toàn cơ năng.",
+        "C": "Một cuốn từ điển ngôn ngữ tập hợp hàng vạn từ vựng độc lập được sắp xếp theo đúng thứ tự bảng chữ cái để người dùng tra cứu khi cần thiết.",
+        "D": "Một bản nhạc không phải là tổng số các nốt nhạc cộng lại mà là một tổ chức các nốt nhạc theo giai điệu nhất định; thay đổi trật tự nốt nhạc sẽ tạo ra bản nhạc mới."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo các nhà Gestalt, một bản nhạc không phải là tổng số các nốt nhạc, mà là một tổ chức các nốt nhạc được cấu trúc theo một giai điệu nhất định; thay đổi trật tự các nốt nhạc sẽ tạo ra giai điệu mới, bản nhạc mới.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 45,
+      "question": "Nhờ đứng trên quan điểm cấu trúc chỉnh thể, các nhà tâm lí học Gestalt đã phát hiện ra những tính chất và quy luật quan trọng nào trong lĩnh vực nghiên cứu tri giác?",
+      "options": {
+        "A": "Phát hiện ra tính ổn định, tính cấu trúc của tri giác và sự lệ thuộc lẫn nhau giữa hình ảnh đối tượng ('hình') với không gian bao quanh nó ('nền').",
+        "B": "Phát hiện ra ngưỡng cảm giác tuyệt đối, ngưỡng cảm giác sai biệt và quy luật thích ứng của cơ quan phân tích thị giác đối với cường độ ánh sáng.",
+        "C": "Phát hiện ra cơ chế chuyển hóa từ hành động tri giác bằng mắt bên ngoài thành các biểu tượng kí ức dài hạn thông qua việc nhẩm lại bằng ngôn ngữ.",
+        "D": "Phát hiện ra sự phụ thuộc hoàn toàn của hình ảnh tri giác vào số lần củng cố bằng phần thưởng thức ăn trong các thực nghiệm điều kiện hóa tạo tác."
+      },
+      "correct_answer": "A",
+      "explanation": "Nhờ quan điểm cấu trúc, trong lĩnh vực tri giác, các nhà Gestalt đã phát hiện ra nhiều tính chất quan trọng: tính ổn định, tính cấu trúc, sự lệ thuộc của hình ảnh đối tượng ('hình') và không gian bao quanh nó ('nền').",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "question": "Trong lĩnh vực nghiên cứu tư duy, vấn đề trung tâm mà các nhà tâm lí học Gestalt quan tâm tìm hiểu để giải thích tính sáng tạo của tư duy là gì?",
+      "options": {
+        "A": "Tốc độ tái hiện các mối liên tưởng tương tự và liên tưởng nhân quả đã được tích lũy sẵn trong kho tàng kinh nghiệm cảm tính của cá nhân từ quá khứ theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Sự biến đổi, cải tổ các cấu trúc nhận thức ('tổ chức lại', 'định hướng lại') và sự hiểu biết bất ngờ ('bừng hiểu' - Insight) các quan hệ bản chất của tình huống có vấn đề.",
+        "C": "Số lượng các phép thử và sai mà cá thể phải thực hiện lặp đi lặp lại trước khi vô tình tìm ra được phản ứng vận động thoát khỏi lồng thực nghiệm.",
+        "D": "Quy trình áp dụng các thuật toán lôgic hình thức một cách tuần tự, từng bước theo đúng các quy tắc suy diễn tam đoạn luận của triết học cổ điển."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong nghiên cứu tư duy, các nhà Gestalt quan tâm tới sự biến đổi, cải tổ các cấu trúc nhận thức ('tổ chức lại', 'định hướng lại') và coi tư duy là sự hiểu biết bất ngờ ('bừng hiểu' - Insight) các quan hệ bản chất của tình huống có vấn đề.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Qua hàng loạt thực nghiệm về tìm đường tắt, sử dụng công cụ và chế tạo công cụ ở loài khỉ hình người, W. Köhler đã rút ra nhận định gì về đặc trưng của hành động trí tuệ?",
+      "options": {
+        "A": "Hành động trí tuệ là kết quả tất yếu của hàng trăm lần thử nghiệm thất bại liên tiếp được tích lũy dần dần theo đường cong học tập kĩ xảo cơ học khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Hành động trí tuệ chỉ xuất hiện ở con người nhờ có hệ thống tín hiệu thứ hai là ngôn ngữ, còn ở loài khỉ hoàn toàn chỉ là các phản xạ bản năng mù quáng.",
+        "C": "Hành động trí tuệ là hành động xuất hiện bất ngờ, không lệ thuộc trực tiếp vào các hành động phân tích trước đó và hoàn toàn độc lập với các phép thử mù quáng.",
+        "D": "Hành động trí tuệ là sự sao chép nguyên mẫu các thao tác của người làm thực nghiệm thông qua cơ chế bắt chước thụ động ngay từ lần quan sát đầu tiên."
+      },
+      "correct_answer": "C",
+      "explanation": "Qua thực nghiệm trên khỉ, W. Köhler cho rằng đặc trưng của hành động trí tuệ là hành động bất ngờ (Insight), không được chuẩn bị sẵn trực tiếp bởi hoạt động phân tích trước đó và hoàn toàn độc lập với các phép thử.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Theo sự phân tích của trường phái Gestalt, cơ chế tâm lí dẫn đến việc giải quyết thành công một tình huống có vấn đề bằng hành động thông minh diễn ra như thế nào?",
+      "options": {
+        "A": "Khi gặp tình huống có vấn đề, chủ thể lập tức lục tìm trong trí nhớ dài hạn một kinh nghiệm giống hệt đã từng trải qua để áp đặt nguyên xi vào hoàn cảnh hiện tại trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Khi gặp tình huống có vấn đề, chủ thể tiến hành phân tích chia nhỏ bài toán thành các kích thích đơn lẻ rồi thực hiện từng phản ứng cơ bắp tương ứng với mỗi kích thích.",
+        "C": "Khi gặp tình huống có vấn đề, chủ thể tạm ngừng mọi hoạt động tri giác trực tiếp để rút vào suy ngẫm thuần túy bằng các khái niệm siêu hình phi hình ảnh.",
+        "D": "Khi lâm vào tình huống có vấn đề gây căng thẳng, các thành phần trong trường tri giác được cấu trúc lại thành một chỉnh thể mới, làm bộc lộ thuộc tính và tính chất chức năng mới của đối tượng."
+      },
+      "correct_answer": "D",
+      "explanation": "Cơ chế theo Gestalt: Khi lâm vào tình huống có vấn đề, cá thể xuất hiện sự căng thẳng; các thành phần trong trường tri giác tạo thành chỉnh thể; tình huống được cấu trúc lại nhờ đó các thành phần được tri giác trong quan hệ mới và bộc lộ thuộc tính, tính chất mới.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 49,
+      "question": "Quan điểm của các nhà tâm lí học Gestalt về vai trò của 'kinh nghiệm quá khứ' trong quá trình giải quyết các nhiệm vụ tư duy mới đối lập với thuyết liên tưởng như thế nào?",
+      "options": {
+        "A": "Kinh nghiệm quá khứ không những chưa đủ để giải quyết nhiệm vụ mới mà thậm chí còn cản trở việc tìm lời giải vì nó tạo ra 'sức ỳ' về mặt chức năng của đối tượng.",
+        "B": "Kinh nghiệm quá khứ là yếu tố quyết định duy nhất đảm bảo thành công 100% cho mọi nhiệm vụ mới, càng có nhiều liên tưởng cũ thì càng không cần cấu trúc lại bài toán.",
+        "C": "Kinh nghiệm quá khứ hoàn toàn bị xóa sạch khỏi vỏ não mỗi khi chủ thể bước vào một trường tri giác mới nên không có bất kì ảnh hưởng tích cực hay tiêu cực nào.",
+        "D": "Kinh nghiệm quá khứ chỉ có tác dụng tích cực đối với loài khỉ hình người trong tự nhiên nhưng lại hoàn toàn vô dụng đối với quá trình tư duy của con người hiện đại."
+      },
+      "correct_answer": "A",
+      "explanation": "Ngược với thuyết liên tưởng, các nhà Gestalt cho rằng sự có mặt của kinh nghiệm chưa đủ để giải quyết nhiệm vụ, thậm chí còn cản trở quá trình đi tìm lời giải cho nhiệm vụ mới vì nó tạo ra 'sức ỳ' về mặt chức năng của đối tượng được sử dụng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "question": "Theo khuyến nghị phương pháp luận của các nhà tâm lí học Gestalt, khi tiến hành nghiên cứu và thực nghiệm trí tuệ trên động vật cần phải tuân thủ nguyên tắc nào?",
+      "options": {
+        "A": "Chỉ được phép quan sát động vật từ xa trong môi trường hoang dã tự nhiên mà tuyệt đối không được đưa ra bất kì bài toán hay công cụ nhân tạo nào theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Phải nghiên cứu bằng phương pháp thực nghiệm (chứ không chỉ quan sát) và cần chọn các nhiệm vụ (bài toán) có các mức độ phức tạp khác nhau để làm rõ khả năng thực sự của chúng.",
+        "C": "Chỉ sử dụng một bài toán mê cung duy nhất có độ khó cố định áp dụng chung cho tất cả các loài từ chuột bạch, chim bồ câu cho đến khỉ hình người.",
+        "D": "Phải tiến hành phẫu thuật cắt bỏ từng phần vỏ não của động vật trước khi cho chúng giải bài toán để xác định vùng định khu của hiện tượng bừng hiểu."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo các nhà Gestalt, nghiên cứu tư duy không phải bằng quan sát mà phải thực nghiệm; khi tiến hành thực nghiệm trí tuệ trên động vật cần lưu ý chọn các nhiệm vụ (bài toán) có các mức độ phức tạp khác nhau để làm rõ khả năng thực sự của chúng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "question": "Thành tựu của tâm lí học Gestalt về sự phát sinh tri giác và tư duy trong trường tri giác khi giải quyết bài toán tư duy đã trở thành cơ sở lí luận trực tiếp cho công cụ chẩn đoán trí tuệ nổi tiếng nào?",
+      "options": {
+        "A": "Thang đo trí tuệ đầu tiên dùng để phát hiện trẻ em chậm phát triển trí khôn tại các trường học ở Pháp do A. Binet và T. Simon xây dựng.",
+        "B": "Bảng câu hỏi trắc nghiệm nhân cách đa diện Minnesota (MMPI) dùng trong chẩn đoán tâm thần học lâm sàng và tư vấn hướng nghiệp.",
+        "C": "Trắc nghiệm khuôn hình tiếp diễn (Progressive Matrices) có độ khó tăng dần do nhà tâm lí học J.C. Raven soạn thảo và chuẩn hóa.",
+        "D": "Hệ thống bài tập kiểm tra năng lực ghi nhớ các âm tiết vô nghĩa theo đường cong quên lãng do nhà tâm lí học H. Ebbinghaus thiết kế."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình khẳng định: phát hiện của Gestalt về sự phát sinh tri giác và tư duy trong trường tri giác khi giải quyết bài toán tư duy là cơ sở lí luận của Trắc nghiệm khuôn hình tiếp diễn có độ khó tăng dần do J.C. Raven soạn thảo và chuẩn hóa.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 52,
+      "question": "Trong trường phái tâm lí học Gestalt, nhà tâm lí học nào được đánh giá là người có nhiều đóng góp nổi bật và trực tiếp nhất trong lĩnh vực nghiên cứu về tư duy và trí tuệ?",
+      "options": {
+        "A": "Nhà tâm lí học người Mỹ B.F. Skinner (1904–1990) với các công trình thực nghiệm về chiếc hộp điều kiện hóa tạo tác trên chuột và chim bồ câu.",
+        "B": "Nhà tâm lí học người Nga P.Ya. Galperin (1902–1988) với lí thuyết hình thành hành động trí tuệ theo từng giai đoạn trong dạy học phát triển.",
+        "C": "Nhà tâm lí học người Anh Cyril Burt (1883–1971) với các công trình thống kê định lượng bảo vệ cho thuyết di truyền trí năng bẩm sinh.",
+        "D": "Nhà tâm lí học người Đức W. Köhler (V. Kolơ, 1887–1967) với các công trình thực nghiệm nổi tiếng về hành động trí tuệ của khỉ hình người."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 1.4, lĩnh vực chủ yếu và thành công nhất theo hướng tiếp cận hình thái là các công trình nghiên cứu về tri giác và tư duy, trí tuệ; trong lĩnh vực này, người có nhiều đóng góp nhất là W. Köhler (V. Kolơ).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 53,
+      "question": "Vì sao các nhà tâm lí học hoạt động sau này phê phán cách tiếp cận của trường phái Gestalt là kiểu nghiên cứu hành vi trí tuệ 'ở đây và bây giờ' (Here and Now)?",
+      "options": {
+        "A": "Vì Gestalt chỉ mô tả cấu trúc trường tri giác trực tiếp tại thời điểm giải bài toán mà bỏ qua lịch sử phát sinh, nguồn gốc văn hóa - xã hội và quá trình hình thành lâu dài của trí tuệ.",
+        "B": "Vì Gestalt chỉ nghiên cứu các quá trình tâm lí diễn ra trong giấc mơ và tiềm thức quá khứ mà không quan tâm đến hành động giải quyết vấn đề ở hiện tại.",
+        "C": "Vì Gestalt quá nhấn mạnh đến việc rèn luyện các kĩ xảo ngôn ngữ đọc viết trong nhà trường mà quên mất khả năng tri giác hình ảnh trực quan của trẻ.",
+        "D": "Vì Gestalt đòi hỏi mọi thực nghiệm tâm lí phải kéo dài liên tục suốt hàng chục năm theo phương pháp bổ dọc từ khi trẻ mới sinh đến khi trưởng thành."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.6 nhận xét các nhà hình thái học quan sát, mô tả hành vi trí tuệ của con vật hay trẻ em theo kiểu 'ở đây và bây giờ' (chỉ xét tương quan trường tri giác trực tiếp hiện thời mà không xét lịch sử phát sinh và nguồn gốc nội dung xã hội).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "question": "Theo quan điểm của tâm lí học Gestalt, mối quan hệ giữa việc giải quyết nhiệm vụ một cách chỉnh thể với từng giai đoạn, từng bước đi cụ thể của quá trình giải bài toán được xác định như thế nào?",
+      "options": {
+        "A": "Chủ thể phải cộng gộp từng bước đi mò mẫm ngẫu nhiên lại với nhau trước, rồi tổng số các bước đi đó mới tự động tạo thành chỉnh thể lời giải cuối cùng.",
+        "B": "Việc nắm bắt và giải quyết nhiệm vụ một cách chỉnh thể, như một cấu trúc trọn vẹn, sẽ quy định và chi phối từng giai đoạn, từng bước đi bộ phận của nó.",
+        "C": "Từng bước đi bộ phận hoàn toàn độc lập với cấu trúc chỉnh thể của bài toán và chỉ phụ thuộc vào tần số lặp lại của các cử động quen thuộc trong quá khứ.",
+        "D": "Chỉnh thể của bài toán và các bước đi cụ thể không có bất kì mối liên hệ nào với nhau vì sự bừng hiểu diễn ra bên ngoài trường tri giác của chủ thể."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.4 nêu rõ: Việc giải quyết nhiệm vụ một cách chỉnh thể, một cấu trúc trọn vẹn, quy định từng giai đoạn, từng bước đi của nó.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 55,
+      "question": "Trong thực nghiệm của W. Köhler, khi một con khỉ dùng cái hòm gỗ (vốn là vật để chứa đồ) làm bệ kê chân để với lấy nải chuối treo cao, hiện tượng gì đã diễn ra trong trường tri giác của nó?",
+      "options": {
+        "A": "Con khỉ đã sử dụng ngôn ngữ bên trong để suy luận lôgic hình thức về thể tích và chiều cao của cái hòm trước khi quyết định kéo cái hòm lại gần.",
+        "B": "Con khỉ đã thực hiện phản xạ có điều kiện cổ điển do trước đó người làm thực nghiệm đã nhiều lần gắn kết hình ảnh cái hòm với mùi vị của quả chuối.",
+        "C": "Một bộ phận của tình huống có vấn đề (cái hòm) đã được tri giác trong cấu trúc và mối quan hệ mới, nhờ đó bộc lộ thuộc tính và tính chất chức năng mới.",
+        "D": "Con khỉ đã vượt qua giai đoạn tiền thao tác để bước sang giai đoạn thao tác cụ thể có tính thuận nghịch và bảo tồn khối lượng giống như trẻ em lên tám tuổi."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Gestalt, việc giải quyết nhiệm vụ tư duy thể hiện ở chỗ một bộ phận của tình huống có vấn đề được tri giác trong cấu trúc mới, nhờ đó các thành phần tham gia bộc lộ thuộc tính, tính chất mới phụ thuộc vào quan hệ mới.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 56,
+      "question": "So với thuyết liên tưởng, cách lí giải của trường phái Gestalt về vai trò của 'hình ảnh trực giác' trong hoạt động trí tuệ có điểm gì khác biệt căn bản?",
+      "options": {
+        "A": "Hình ảnh trực giác trong thuyết Gestalt chỉ là những dư ảnh võng mạc mờ nhạt xuất hiện sau khi kích thích ánh sáng đã chấm dứt tác động lên mắt trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Thuyết Gestalt phủ nhận hoàn toàn sự tồn tại của hình ảnh trực giác và cho rằng mọi quá trình tư duy đều diễn ra dưới dạng các khái niệm thuần túy phi hình ảnh.",
+        "C": "Hình ảnh trực giác trong thuyết Gestalt được hình thành hoàn toàn nhờ sự liên kết cơ học giữa các cảm giác cơ bắp và cảm giác thính giác qua nhiều lần lặp lại.",
+        "D": "Cấu trúc hình ảnh trực giác không phải là bản sao thụ động rời rạc mà là kết quả của hành động tâm lí đặc biệt chiếm lĩnh, nắm bắt nhanh chóng các quan hệ trong trường tri giác để tổ chức phản ứng vận động."
+      },
+      "correct_answer": "D",
+      "explanation": "Trong nghiên cứu trí tuệ, các nhà Gestalt quan tâm tìm hiểu vai trò của hình ảnh trực giác trong việc tổ chức các phản ứng vận động; cấu trúc hình ảnh đó được lí giải là do hành động tâm lí đặc biệt chiếm lĩnh, nắm bắt nhanh chóng các quan hệ trong trường tri giác.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 57,
+      "question": "Khi xây dựng học thuyết phát sinh nhận thức và phát sinh trí tuệ trẻ em, nhà tâm lí học Thụy Sĩ Jean Piaget (1896–1980) đã xuất phát từ những góc độ khoa học nền tảng nào?",
+      "options": {
+        "A": "Xuất phát từ sự kết hợp giữa góc độ sinh học và lôgic học, đồng thời kế thừa có phân tích quan niệm coi trí tuệ là sự thích ứng tâm lí với điều kiện mới của Claparède và Stern.",
+        "B": "Xuất phát thuần túy từ triết học duy vật lịch sử và học thuyết đấu tranh giai cấp để giải thích sự hình thành ý thức xã hội của trẻ em trong trường học.",
+        "C": "Xuất phát từ lí thuyết điện toán đám mây và điều khiển học hiện đại nhằm mô hình hóa não bộ trẻ em như một chiếc máy tính xử lí kí hiệu nhị phân.",
+        "D": "Xuất phát từ phân tâm học cổ điển của S. Freud nhằm lí giải sự phát triển trí tuệ như là quá trình thăng hoa các xung năng tính dục vô thức bị dồn nén."
+      },
+      "correct_answer": "A",
+      "explanation": "Khi giải quyết vấn đề trí tuệ, J. Piaget đã xuất phát từ góc độ sinh học và lôgic học, đồng thời phân tích quan niệm của Claparède và W. Stern coi trí tuệ như là sự thích ứng tâm lí đối với các điều kiện mới.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 58,
+      "question": "Jean Piaget đã định nghĩa bản chất của trí tuệ như thế nào và ông phân biệt giữa 'nhận thức tri giác' với 'trí tuệ' ra sao?",
+      "options": {
+        "A": "Trí tuệ là tập hợp các phản xạ không điều kiện bẩm sinh; tri giác là quá trình xử lí thông tin ở vỏ não, còn trí tuệ là quá trình phản ứng tự động ở tủy sống theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Trí tuệ là cấu trúc tâm lí có tính chất thuận nghịch, là trạng thái cân bằng của cơ thể với môi trường; tri giác là tri thức trực tiếp khi tiếp xúc đối tượng, còn trí tuệ là tri thức gián tiếp nảy sinh khi hoàn cảnh có vấn đề.",
+        "C": "Trí tuệ là sự tích lũy số lượng các từ vựng ngôn ngữ; tri giác chỉ có ở động vật bậc thấp, còn trí tuệ xuất hiện ngay từ giây phút trẻ sơ sinh cất tiếng khóc chào đời.",
+        "D": "Trí tuệ và nhận thức tri giác là hai khái niệm hoàn toàn đồng nhất với nhau, cả hai đều là sự sao chép trực tiếp các thuộc tính bề ngoài của sự vật vào giác quan."
+      },
+      "correct_answer": "B",
+      "explanation": "J. Piaget quan niệm trí tuệ là cấu trúc tâm lí có tính chất thuận nghịch, là trạng thái cân bằng của cơ thể với môi trường. Nhận thức tri giác là tri thức trực tiếp khi tiếp xúc đối tượng, còn trí tuệ là tri thức gián tiếp và chỉ nảy sinh khi hoàn cảnh có vấn đề.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 59,
+      "question": "Những phương pháp nghiên cứu chủ yếu nào đã được Jean Piaget sử dụng để khám phá sự hình thành và phát triển cấu trúc trí tuệ ở trẻ em?",
+      "options": {
+        "A": "Sử dụng độc nhất phương pháp tự quan sát nội tâm bằng cách yêu cầu các nhà tâm lí học trưởng thành hồi tưởng lại kí ức thời thơ ấu của chính mình khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Sử dụng phương pháp phẫu thuật cắt bỏ từng vùng vỏ não trên động vật gặm nhấm rồi đối chiếu với kết quả giải toán của học sinh tiểu học.",
+        "C": "Sử dụng chủ yếu là phương pháp lâm sàng tâm lí (trò chuyện, vấn đáp lâm sàng xoay quanh thực nghiệm), kết hợp với phương pháp trắc nghiệm và quan sát khách quan.",
+        "D": "Sử dụng phương pháp phân tích thống kê nhân tố trên hàng vạn phiếu khảo sát trắc nghiệm viết tay mà không cần tiếp xúc trực tiếp với bất kì trẻ em nào."
+      },
+      "correct_answer": "C",
+      "explanation": "Các phương pháp được J. Piaget sử dụng trong nghiên cứu trí tuệ trẻ em chủ yếu là phương pháp lâm sàng tâm lí, trắc nghiệm và quan sát khách quan.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 60,
+      "question": "Học thuyết của Jean Piaget về sự phát triển trí khôn của trẻ em bao gồm hai nội dung (hai bộ phận) gắn bó hữu cơ nào sau đây?",
+      "options": {
+        "A": "Tâm lí học thần kinh (học thuyết về định khu chức năng vỏ não) và Tâm lí học ưu sinh (học thuyết về sự di truyền thiên tài qua các thế hệ gia đình) trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Tâm lí học sư phạm (học thuyết về quy trình dạy học chương trình hóa) và Tâm lí học giao tiếp (học thuyết về sự tương tác liên nhân cách trong nhóm).",
+        "C": "Tâm lí học tri giác (học thuyết về quy luật hình và nền) và Tâm lí học kĩ thuật (học thuyết về việc thiết kế giao diện máy tính thông minh).",
+        "D": "Tâm lí học phát sinh (học thuyết về chức năng, cấu trúc và sự phát sinh trí tuệ) và Tâm lí học lứa tuổi (học thuyết về các giai đoạn phát triển trí tuệ ở trẻ em)."
+      },
+      "correct_answer": "D",
+      "explanation": "Học thuyết của J. Piaget gồm hai nội dung gắn bó hữu cơ: học thuyết về chức năng, cấu trúc và sự phát sinh, phát triển của trí tuệ - Tâm lí học phát sinh (Psychologie Génétique) và học thuyết về các giai đoạn phát triển trí tuệ ở trẻ em - Tâm lí học lứa tuổi (Psychologie Infantile).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 61,
+      "question": "Theo J. Piaget, hai chức năng cơ bản của trí tuệ (cũng được coi là hai đặc tính bất biến sinh học nói chung) là gì và ông dùng những khái niệm nào để mô tả sự thích ứng?",
+      "options": {
+        "A": "Hai chức năng bất biến là tính tổ chức kinh nghiệm và sự thích ứng; để mô tả sự thích ứng, ông sử dụng bốn khái niệm gốc sinh học là Đồng hóa, Điều ứng, Sơ đồ và Cân bằng.",
+        "B": "Hai chức năng bất biến là kích thích và phản ứng; để mô tả sự thích ứng, ông sử dụng bốn khái niệm là Thử nghiệm, Sai lầm, Củng cố và Dập tắt phản xạ.",
+        "C": "Hai chức năng bất biến là ngôn ngữ và công cụ; để mô tả sự thích ứng, ông sử dụng bốn khái niệm là Giao tiếp, Nội tâm hóa, Hoạt động chủ đạo và Vùng phát triển gần.",
+        "D": "Hai chức năng bất biến là cảm giác và biểu tượng; để mô tả sự thích ứng, ông sử dụng bốn khái niệm là Liên tưởng giống nhau, Tương phản, Gần nhau và Nhân quả."
+      },
+      "correct_answer": "A",
+      "explanation": "Đặc trưng của hoạt động toàn bộ là tính tổ chức kinh nghiệm và sự thích ứng (hai chức năng cơ bản hay hai yếu tố bất biến). Để mô tả sự thích ứng, Piaget dùng 4 khái niệm gốc sinh học: Đồng hóa (Assimilation), Điều ứng (Accommodation), Cơ cấu/Sơ đồ (Scheme) và Cân bằng (Equilibrium).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 62,
+      "question": "Trong lí thuyết phát sinh trí tuệ của J. Piaget, sự khác biệt bản chất giữa hai quá trình 'Đồng hóa' (Assimilation) và 'Điều ứng' (Accommodation) là gì?",
+      "options": {
+        "A": "Trong đồng hóa, chủ thể xóa bỏ hoàn toàn mọi sơ đồ nhận thức cũ để tiếp nhận tri thức mới; còn trong điều ứng, chủ thể từ chối tiếp nhận kích thích mới để bảo vệ cấu trúc cũ theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Trong đồng hóa, chủ thể đưa đặc điểm khách thể vào sơ đồ đã có (chế biến kích thích theo cấu trúc cũ, tạo ra sự tăng trưởng); còn trong điều ứng, chủ thể buộc phải biến đổi cấu trúc cũ để tạo cấu trúc mới phù hợp với kích thích mới (tạo ra sự phát triển).",
+        "C": "Đồng hóa là quá trình chỉ diễn ra ở trẻ sơ sinh dưới hai tuổi thông qua các phản xạ bú mút; còn điều ứng là quá trình chỉ xuất hiện ở người trưởng thành khi giải toán đại số khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "D": "Đồng hóa là quá trình biến đổi cấu trúc nhận thức dẫn đến sự nhảy vọt về chất; còn điều ứng chỉ là sự tích lũy định lượng các thông tin rời rạc mà không làm thay đổi sơ đồ tư duy trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân."
+      },
+      "correct_answer": "B",
+      "explanation": "Đồng hóa là đưa đặc điểm của khách thể vào các sơ đồ đã có, không làm thay đổi nhận thức mà chỉ mở rộng cái đã biết (Đồng hóa là tăng trưởng). Điều ứng là biến đổi cấu trúc đã có, tạo ra cấu trúc mới phù hợp với kích thích mới (Điều ứng là phát triển).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 63,
+      "question": "Khái niệm 'Sơ đồ' (Scheme) và bản chất 'Thao tác' (Operations) của trí tuệ được Jean Piaget định nghĩa và giải thích như thế nào?",
+      "options": {
+        "A": "Sơ đồ là bản vẽ hình học được giáo viên trình bày trên bảng đen; còn thao tác là các cử động cơ bắp của bàn tay khi trẻ em lắp ghép các khối gỗ theo mẫu có sẵn khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Sơ đồ là đường truyền xung thần kinh cố định bẩm sinh trên vỏ não; còn thao tác là sự phóng điện tự phát của các tế bào nơ-ron khi cơ thể rơi vào trạng thái ngủ say.",
+        "C": "Sơ đồ là một cấu trúc nhận thức gồm một lớp các thao tác giống nhau theo trật tự nhất định; còn thao tác là hành động bên trong có tính rút gọn, nảy sinh từ hành động có đối tượng bên ngoài và có tính thuận nghịch, bảo tồn, liên kết.",
+        "D": "Sơ đồ là tập hợp ngẫu nhiên các hình ảnh cảm tính rời rạc; còn thao tác là quá trình liên tưởng tự do không có tính thuận nghịch và không tuân theo quy luật bảo tồn."
+      },
+      "correct_answer": "C",
+      "explanation": "Sơ đồ là cấu trúc nhận thức gồm một lớp các thao tác giống nhau theo trật tự nhất định. Thao tác là hành động bên trong, nảy sinh từ hành động có đối tượng bên ngoài, có tính rút gọn, đối tượng là hình ảnh/biểu tượng/kí hiệu, mang tính thuận nghịch, bảo tồn và liên kết.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 64,
+      "question": "Theo quan điểm kiến tạo của J. Piaget, các thao tác trí tuệ nằm ở đâu và được hình thành thông qua con đường nào từ lúc nhỏ đến khi trưởng thành?",
+      "options": {
+        "A": "Thao tác trí tuệ nằm sẵn trong cấu trúc gen di truyền của đứa trẻ ngay từ khi thụ thai và sẽ tự động bộc lộ ra ngoài khi đến tuổi dậy thì mà không cần hành động với đồ vật trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Thao tác trí tuệ nằm sẵn trong các sách giáo khoa của người lớn và được truyền thụ nguyên xi vào đầu đứa trẻ thông qua việc nghe giảng và học thuộc lòng các định nghĩa.",
+        "C": "Thao tác trí tuệ được hình thành từ mức thao tác hình thức trừu tượng ở tuổi sơ sinh rồi sau đó mới hạ dần xuống mức thao tác cụ thể thực tiễn khi trẻ bước vào tuổi thiếu niên.",
+        "D": "Thao tác trí tuệ không có sẵn trong đầu trẻ cũng không nằm sẵn trong đối tượng khách quan, mà nằm ngay trong mối tác động qua lại giữa chủ thể với đối tượng thông qua hành động (từ mức thao tác cụ thể tiến lên mức thao tác hình thức)."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Piaget, thao tác trí tuệ không có sẵn trong đầu đứa trẻ, cũng không nằm trong đối tượng khách quan, mà nằm ngay trong mối tác động qua lại giữa chủ thể với đối tượng thông qua hành động: thời kì đầu là mức thao tác cụ thể, sau đó phát triển tới mức thao tác hình thức.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 65,
+      "question": "Theo học thuyết về các giai đoạn phát triển trí tuệ của J. Piaget, quá trình phát triển trí tuệ của cá nhân tuân theo những quy luật nào và một 'giai đoạn' (Stade) có những đặc trưng gì?",
+      "options": {
+        "A": "Tuân theo trật tự kế tiếp hằng định với hai quy luật là tăng trưởng liên tục (nhờ đồng hóa) và phát triển nhảy vọt chuyển đoạn theo nguyên lí thống hợp; mỗi giai đoạn là một cấu trúc tổng thể các sơ đồ kế tiếp, thống hợp giai đoạn trước và chuẩn bị cho giai đoạn sau.",
+        "B": "Diễn ra theo trật tự ngẫu nhiên tùy thuộc vào sở thích cá nhân của từng đứa trẻ, trong đó trẻ có thể bỏ qua giai đoạn thao tác cụ thể để nhảy thẳng từ giai đoạn giác động lên thao tác hình thức.",
+        "C": "Chỉ tuân theo một quy luật duy nhất là sự cộng gộp tuyến tính từng tí một các mối liên tưởng mà hoàn toàn không có bất kì bước nhảy vọt hay sự biến đổi về chất nào giữa các lứa tuổi.",
+        "D": "Mỗi giai đoạn là sự xếp chồng cơ học các sơ đồ mới lên trên các sơ đồ cũ mà không có sự cải tổ hay thống hợp nào, đồng thời các giai đoạn sau hoàn toàn phủ định sạch trơn thành tựu giai đoạn trước."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Piaget, trí tuệ phát triển theo trật tự kế tiếp hằng định với 2 quy luật: tăng trưởng liên tục (đồng hóa) và phát triển nhảy vọt chuyển đoạn theo nguyên lí thống hợp. Một giai đoạn có 4 đặc trưng: kế tiếp giai đoạn trước, thống hợp cấu trúc đã có, là cấu trúc tổng thể các sơ đồ (không phải xếp chồng), và gồm cấu trúc đã có, đang có cùng yếu tố chuẩn bị cho giai đoạn sau.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "question": "Jean Piaget đã phân chia quá trình phát triển trí tuệ của trẻ em thành bốn giai đoạn lớn theo đúng trình tự kế tiếp và độ tuổi tương ứng nào sau đây?",
+      "options": {
+        "A": "Giai đoạn phản xạ bẩm sinh (0 đến 3 tuổi) → Giai đoạn ngôn ngữ bên ngoài (3 đến 6 tuổi) → Giai đoạn ngôn ngữ tự kỉ trung tâm (6 đến 10 tuổi) → Giai đoạn ngôn ngữ bên trong (từ sau 10 tuổi) theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Giai đoạn cảm giác - vận động (0 đến 1,5 - 2 tuổi) → Giai đoạn tiền thao tác (1,5 - 2 đến 7 tuổi) → Giai đoạn thao tác cụ thể (7 - 8 đến 11 - 12 tuổi) → Giai đoạn thao tác hình thức (từ sau 11 - 12 tuổi).",
+        "C": "Giai đoạn thử và sai (0 đến 2 tuổi) → Giai đoạn bừng hiểu trực giác (2 đến 6 tuổi) → Giai đoạn liên tưởng nhân quả (6 đến 12 tuổi) → Giai đoạn xử lí thông tin siêu nhận thức (từ sau 12 tuổi).",
+        "D": "Giai đoạn tiền thao tác (0 đến 2 tuổi) → Giai đoạn cảm giác - vận động (2 đến 7 tuổi) → Giai đoạn thao tác hình thức (7 đến 11 tuổi) → Giai đoạn thao tác cụ thể (từ sau 11 - 12 tuổi)."
+      },
+      "correct_answer": "B",
+      "explanation": "Bốn giai đoạn lớn theo J. Piaget: (1) Trí tuệ cảm giác - vận động (giác - động): 0 đến 1,5 hay 2 tuổi; (2) Trí tuệ tiền thao tác: 1,5 - 2 đến 7 tuổi; (3) Giai đoạn thao tác cụ thể: 7 - 8 đến 11 - 12 tuổi; (4) Giai đoạn thao tác hình thức: từ sau 11 - 12 tuổi.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 67,
+      "question": "Theo J. Piaget, bốn yếu tố cơ bản chi phối quá trình phát triển trí tuệ của trẻ em qua các giai đoạn là gì, và yếu tố nào đóng vai trò kết hợp các yếu tố kia thành một thể thống nhất?",
+      "options": {
+        "A": "Di truyền chủng tộc, chế độ dinh dưỡng vật chất, hệ thống phần thưởng củng cố và sự trừng phạt cưỡng chế của người lớn (trong đó sự trừng phạt giữ vai trò kết nối thống nhất) khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Cơ chế dấu ấn tập tính, tần số lặp lại của cảm giác, sức ỳ chức năng của đồ vật và dung lượng bộ nhớ đệm của não bộ (trong đó dung lượng bộ nhớ giữ vai trò thống nhất).",
+        "C": "Sự trưởng thành sinh lí thần kinh, sự luyện tập và kinh nghiệm qua hành động với đối tượng, tương tác xã hội, và tính chủ thể cùng sự phối hợp chung của hành động (yếu tố kết hợp các yếu tố trên thành thể thống nhất).",
+        "D": "Hoạt động chủ đạo của lứa tuổi, công cụ kí hiệu ngôn ngữ, vùng phát triển gần nhất và quy trình dạy học theo giai đoạn (trong đó ngôn ngữ giữ vai trò kết hợp duy nhất)."
+      },
+      "correct_answer": "C",
+      "explanation": "Quá trình phát triển trí tuệ qua các giai đoạn theo Piaget phụ thuộc vào 4 yếu tố: (1) sự trưởng thành và chín muồi chức năng sinh lí thần kinh; (2) sự luyện tập và kinh nghiệm thu được qua hành động với đối tượng; (3) tương tác của các yếu tố xã hội; (4) tính chủ thể và sự phối hợp chung của hành động (chính yếu tố chủ thể kết hợp các yếu tố trên thành một thể thống nhất).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 68,
+      "question": "Một trong những luận điểm có giá trị khoa học sâu sắc nhất của học thuyết phát sinh trí tuệ do J. Piaget đề xướng khi bàn về bản chất của hoạt động trí tuệ là gì?",
+      "options": {
+        "A": "Khẳng định hoạt động trí tuệ chỉ là một tấm gương phẳng phản chiếu thụ động các kích thích vật lí từ môi trường mà không làm biến đổi bất kì cấu trúc nào bên trong chủ thể trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Chứng minh rằng mọi cấu trúc thao tác lôgic đều bất biến từ lúc trẻ mới sinh ra cho đến khi già đi, hoàn toàn không có sự thay đổi nào về chất lượng tư duy qua các lứa tuổi.",
+        "C": "Quy toàn bộ quá trình phát triển trí tuệ của trẻ em về việc học thuộc lòng các quy tắc ngữ pháp và các công thức toán học do giáo viên áp đặt từ bên ngoài vào.",
+        "D": "Nhấn mạnh hoạt động trí tuệ không đơn thuần là sự tái lập lại đặc điểm của các vật thể bên ngoài, mà chủ yếu là sự làm thay đổi chính cấu trúc của chủ thể nhận thức, qua đó quy định khả năng nhận thức đối tượng mới."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình đánh giá cao quan điểm của Piaget nhấn mạnh hoạt động trí tuệ không đơn thuần là hoạt động nhận thức tái lập đặc điểm vật thể bên ngoài, mà chủ yếu là sự thay đổi chính chủ thể nhận thức; sự thay đổi đó quy định khả năng nhận thức đối tượng mới.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 69,
+      "question": "Vì sao khi đánh giá về mặt hạn chế, giáo trình chỉ ra rằng trong học thuyết của J. Piaget, bản chất xã hội và nội dung tâm lí của các thao tác trí tuệ đã bị bỏ qua?",
+      "options": {
+        "A": "Vì Piaget đã sử dụng quá nhiều khái niệm của sinh học, toán học và lôgic học, biến trí tuệ thành một hệ thống lôgic - sinh học, cấu trúc toán và quy quan hệ xã hội về quan hệ vật lí.",
+        "B": "Vì Piaget hoàn toàn không thực hiện bất kì một nghiên cứu thực nghiệm nào trên trẻ em mà chỉ ngồi suy diễn thuần túy dựa trên các văn bản triết học thần học thời Trung cổ.",
+        "C": "Vì Piaget đã đồng nhất hoàn toàn trí tuệ của trẻ em với hành vi mò mẫm thử và sai của loài chuột bạch trong các mê cung của trường phái tâm lí học hành vi bảo thủ.",
+        "D": "Vì Piaget chỉ tập trung nghiên cứu ảnh hưởng của văn hóa dân gian và ngôn ngữ giao tiếp hàng ngày mà quên mất việc phân tích cấu trúc lôgic của tư duy khoa học."
+      },
+      "correct_answer": "A",
+      "explanation": "Khi nhấn mạnh đặc điểm cơ bản của trí tuệ, Piaget sử dụng quá nhiều khái niệm sinh học, toán học và lôgic, khiến bản chất trí tuệ chỉ được trình bày như hệ thống lôgic - sinh học, cấu trúc toán, còn toàn bộ nội dung văn hóa - xã hội bị bỏ qua.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 70,
+      "question": "Quan niệm của J. Piaget về cơ chế phát triển 'nội sinh' của trí tuệ trẻ em và vai trò của xã hội được mô tả như thế nào, và điều đó dẫn đến hệ lụy gì trong giáo dục?",
+      "options": {
+        "A": "Piaget coi xã hội là nguồn gốc duy nhất tạo ra mọi cấu trúc trí tuệ ngay từ đầu, còn đứa trẻ chỉ là một tờ giấy trắng hoàn toàn thụ động tiếp nhận sự nhào nặn của người lớn theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Piaget coi đứa trẻ tự phát triển trí tuệ từ bên trong theo cơ chế thích nghi cá thể, còn xã hội chỉ thâm nhập vào sau để 'nhuộm màu' và xã hội hóa cái đã có; điều này dễ dẫn đến tuyệt đối hóa sự trưởng thành sinh học và coi nhẹ vai trò chủ đạo của dạy học.",
+        "C": "Piaget cho rằng dạy học luôn luôn có thể đi trước sự phát triển sinh học bất chấp độ tuổi của trẻ, chỉ cần có phương pháp sư phạm đúng là có thể dạy giải tích cho trẻ hai tuổi khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "D": "Piaget khẳng định sự phát triển trí tuệ của trẻ em hoàn toàn tách biệt với quá trình trưởng thành sinh lí thần kinh và không hề trải qua bất kì giai đoạn lứa tuổi cố định nào trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân."
+      },
+      "correct_answer": "B",
+      "explanation": "Piaget quan niệm sự phát triển trí tuệ của trẻ là sự phát triển nội sinh theo cơ chế thích nghi cá thể: đứa trẻ tự hình thành cho nó rồi xã hội mới can thiệp vào cái biểu hiện ra ngoài đó và 'nhuộm màu' nó. Điều này dễ dẫn đến tuyệt đối hóa yếu tố trưởng thành sinh học, cố định hóa các giai đoạn theo tuổi sinh học và chưa đánh giá đúng vai trò định hướng của người lớn/dạy học.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 71,
+      "question": "Công trình nghiên cứu thực nghiệm của nhà tâm lí học nào đã chứng minh rằng trong điều kiện dạy học phát triển, có thể hình thành các thao tác trí tuệ cho trẻ em sớm hơn nhiều so với mốc tuổi cố định của J. Piaget?",
+      "options": {
+        "A": "Công trình nghiên cứu của nhà tâm lí học người Anh Cyril Burt với phương pháp đối chiếu chỉ số thông minh của các cặp trẻ sinh đôi cùng trứng khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Công trình nghiên cứu của nhà tâm lí học người Đức O. Külpe với phương pháp tự quan sát nội quan thực nghiệm khi giải các bài toán lôgic trừu tượng.",
+        "C": "Công trình nghiên cứu của nhà tâm lí học Xô viết P.Ya. Galperin và các cộng sự thuộc trường phái tâm lí học hoạt động với lí thuyết hình thành hành động trí tuệ theo giai đoạn.",
+        "D": "Công trình nghiên cứu của nhà sinh lí học người Mỹ K.S. Lashley với phương pháp định khu chức năng tâm lí trên các vùng vỏ bán cầu đại não."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình nêu rõ: công trình nghiên cứu của P.Ya. Galperin và cộng sự đã chứng minh được trong điều kiện dạy học phát triển, có thể hình thành các thao tác trí tuệ cho trẻ em sớm hơn so với tuổi theo nghiên cứu của Piaget.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 72,
+      "question": "Khi chỉ ra những vấn đề còn bỏ ngỏ trong học thuyết phát sinh trí tuệ của J. Piaget, các nhà tâm lí học hoạt động đã nêu lên ba vấn đề cốt lõi nào cần phải tiếp tục giải quyết?",
+      "options": {
+        "A": "Tính thuận nghịch của thao tác lôgic, tính bảo tồn khối lượng vật chất và quy luật chuyển đoạn nhảy vọt từ giai đoạn tiền thao tác sang giai đoạn thao tác cụ thể trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Sự phân biệt giữa nhận thức tri giác trực tiếp với trí tuệ gián tiếp, vai trò của phương pháp lâm sàng tâm lí và sự cân bằng giữa đồng hóa với điều ứng.",
+        "C": "Khả năng áp dụng đại số Boole vào mô tả cấu trúc tư duy, việc xây dựng các chương trình máy tính mô phỏng trò chơi cờ vua và việc đo lường tốc độ dẫn truyền thần kinh.",
+        "D": "Nguồn gốc xã hội của các thao tác trí tuệ, nội dung tâm lí của các thao tác đó (cùng cơ chế chuyển hành động bên ngoài thành thao tác bên trong), và ảnh hưởng của điều kiện văn hóa - xã hội tới sự phát triển trí tuệ."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.5 chỉ rõ 3 vấn đề trong học thuyết Piaget cần tiếp tục giải quyết: (1) nguồn gốc xã hội của các thao tác trí tuệ; (2) nội dung tâm lí của các thao tác đó (và quá trình chuyển hành động bên ngoài thành thao tác bên trong); (3) ảnh hưởng của các điều kiện văn hóa - xã hội tới sự phát triển trí tuệ của trẻ em.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 73,
+      "question": "Hướng tiếp cận hoạt động trong tâm lí học trí tuệ được sáng lập và phát triển bởi những nhà tâm lí học kiệt xuất nào của nền tâm lí học Nga Xô viết?",
+      "options": {
+        "A": "Nhà bác học vĩ đại L.S. Vygotsky cùng các nhà tâm lí học kiệt xuất A.N. Leontiev, S.L. Rubinstein và P.Ya. Galperin từ những năm 1930 đến đỉnh cao vào những năm 1975.",
+        "B": "Các nhà sinh lí học thần kinh I.M. Sechenov, I.P. Pavlov và V.M. Bekhterev với học thuyết phản xạ có điều kiện và phản xạ học khách quan đầu thế kỉ XX.",
+        "C": "Các nhà tâm lí học phát sinh nhận thức phương Tây gồm Jean Piaget, Bärbel Inhelder, Édouard Claparède và William Stern tại Thụy Sĩ và Đức.",
+        "D": "Các nhà khoa học nhận thức và trí tuệ nhân tạo gồm Alan Turing, John von Neumann, Allen Newell, Herbert Simon và Marvin Minsky tại Anh và Mỹ."
+      },
+      "correct_answer": "A",
+      "explanation": "Tác giả của hướng tiếp cận hoạt động là các nhà tâm lí học Nga Xô viết, đại biểu là L.S. Vygotsky (L.X. Vưgôtxki), A.N. Leontiev (A.N. Lêônchiép), S.L. Rubinstein (X.L. Rubinstêin), P.Ya. Galperin... hình thành từ những năm 1930 và đạt đỉnh cao lí luận vào những năm 1975.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 74,
+      "question": "Hướng tiếp cận hoạt động đã giải quyết bài toán nan giải về việc 'nghiên cứu ý thức một cách khách quan' dựa trên nền tảng phương pháp luận triết học nào và bằng con đường nào?",
+      "options": {
+        "A": "Dựa trên triết học thực chứng lôgic: loại bỏ hoàn toàn khái niệm ý thức ra khỏi từ điển khoa học và chỉ ghi nhận các phản xạ tiết nước bọt hoặc cử động co cơ bằng máy đo theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này trong tiến trình lịch sử phát triển của khoa học tâm lí học trí tuệ hiện đại.",
+        "B": "Dựa trên triết học duy vật biện chứng và lịch sử: vì ý thức được hình thành và biểu hiện qua hoạt động thực tiễn, nên muốn nghiên cứu ý thức khách quan phải bắt đầu từ nghiên cứu hoạt động thực tiễn và quy luật chuyển hóa giữa hoạt động bên ngoài với tâm lí bên trong.",
+        "C": "Dựa trên triết học duy lí tiên nghiệm: yêu cầu các nhà nghiên cứu tự chiêm nghiệm đời sống tinh thần nội tâm của chính mình trong điều kiện cách li hoàn toàn với xã hội khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "D": "Dựa trên thuyết tiến hóa sinh học của Darwin: giải thích mọi hiện tượng ý thức của con người thông qua việc mổ xẻ cấu trúc giải phẫu não bộ của các loài linh trưởng trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân."
+      },
+      "correct_answer": "B",
+      "explanation": "Tiếp cận hoạt động lấy triết học duy vật biện chứng và lịch sử làm nền tảng: con người làm ra chính mình bằng lao động và hoạt động xã hội; tâm lí, ý thức hình thành và biểu hiện qua hoạt động thực tiễn, nên nghiên cứu khách quan ý thức phải bắt đầu từ nghiên cứu hoạt động thực tiễn và quy luật chuyển hóa từ ngoài vào trong, từ trong ra ngoài.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 75,
+      "question": "Điểm khác biệt căn bản nhất giữa hướng tiếp cận hoạt động (Vygotsky, Leontiev) và hướng tiếp cận phát sinh trí tuệ (J. Piaget) mặc dù cả hai đều đề cao hành động, thao tác trí tuệ là gì?",
+      "options": {
+        "A": "Tiếp cận phát sinh của Piaget chỉ nghiên cứu người trưởng thành bằng phương pháp nội quan, còn tiếp cận hoạt động chỉ nghiên cứu trẻ sơ sinh bằng phương pháp quan sát tự nhiên khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Tiếp cận phát sinh của Piaget phủ nhận sự tồn tại của các thao tác bên trong, còn tiếp cận hoạt động phủ nhận sự tồn tại của các hành động thực tiễn với đồ vật bên ngoài.",
+        "C": "Tiếp cận phát sinh của Piaget chủ yếu dựa vào nguyên tắc sinh học và lôgic học (quy quan hệ xã hội về quan hệ vật lí), trong khi tiếp cận hoạt động khẳng định bản chất văn hóa - lịch sử - xã hội chi phối chiều hướng và phương thức phát triển trí tuệ.",
+        "D": "Tiếp cận phát sinh của Piaget coi ngôn ngữ là nguồn gốc duy nhất của tư duy, còn tiếp cận hoạt động coi tư duy hoàn toàn độc lập với ngôn ngữ và giao tiếp xã hội."
+      },
+      "correct_answer": "C",
+      "explanation": "Cả hai đều đề cao thao tác, hành động trí tuệ, nhưng tiếp cận phát sinh của Piaget dựa theo nguyên tắc sinh học và lôgic học nên bỏ qua mặt cảm xúc và nội dung xã hội (quy quan hệ xã hội về quan hệ vật lí); còn tiếp cận hoạt động đặt trọng tâm vào mặt văn hóa - xã hội theo học thuyết lịch sử - văn hóa của Vygotsky.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 76,
+      "question": "Hai nguyên tắc phương pháp luận trụ cột được các nhà tâm lí học theo hướng tiếp cận hoạt động vận dụng xuyên suốt để nghiên cứu tâm lí và trí tuệ là gì?",
+      "options": {
+        "A": "Nguyên tắc liên tưởng gần gũi (gần nhau về không gian, thời gian) và nguyên tắc thử và sai ngẫu nhiên (củng cố các phản ứng vận động có hiệu quả) trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Nguyên tắc chỉnh thể trực giác (tổ chức lại trường tri giác 'ở đây và bây giờ') và nguyên tắc ưu sinh di truyền (chọn lọc các tính trạng thông minh bẩm sinh).",
+        "C": "Nguyên tắc nội quan thuần túy (tự quan sát dòng chảy ý thức khép kín) và nguyên tắc cân bằng sinh học nội sinh (đồng hóa và điều ứng tự phát).",
+        "D": "Nguyên tắc gián tiếp (thông qua công cụ tâm lí, kí hiệu) và nguyên tắc lịch sử - phát sinh (nghiên cứu trí tuệ trong quá trình hình thành, vận động lịch sử - văn hóa)."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 1.6, việc nghiên cứu tâm lí, trí tuệ theo cách tiếp cận hoạt động phải dựa trên các nguyên tắc phương pháp luận triết học duy vật lịch sử và biện chứng: nguyên tắc gián tiếp và nguyên tắc lịch sử - phát sinh.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 77,
+      "question": "Theo quan điểm của L.S. Vygotsky về cấu trúc của trí tuệ, sự khác biệt bản chất giữa 'trí tuệ bậc thấp' và 'trí tuệ bậc cao' thể hiện ở điểm nào?",
+      "options": {
+        "A": "Trí tuệ bậc thấp (giống trí tuệ động vật) đặc trưng bởi quan hệ trực tiếp Kích thích – Phản ứng (S-R); còn trí tuệ bậc cao (chỉ có ở người) đặc trưng bởi sự tham gia của ngôn ngữ và quan hệ gián tiếp thông qua công cụ tâm lí (kí hiệu tâm lí).",
+        "B": "Trí tuệ bậc thấp được dùng để giải quyết các bài toán sinh hoạt hàng ngày; còn trí tuệ bậc cao chỉ xuất hiện ở những nhà bác học thiên tài khi nghiên cứu lí thuyết vũ trụ.",
+        "C": "Trí tuệ bậc thấp hoạt động dựa trên vỏ bán cầu đại não trái; còn trí tuệ bậc cao hoạt động dựa trên vỏ bán cầu đại não phải và hệ thống lưới ở thân não.",
+        "D": "Trí tuệ bậc thấp mang tính chất gián tiếp thông qua hệ thống kí hiệu ngôn ngữ; còn trí tuệ bậc cao mang tính chất phản xạ trực tiếp tức thời không cần ngôn ngữ."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo L.S. Vygotsky, cần tách ra hai mức trí tuệ: trí tuệ bậc thấp (có phần giống động vật, đặc trưng bởi quan hệ trực tiếp S-R) và trí tuệ bậc cao (chỉ có ở người, đặc trưng bởi sự tham gia của ngôn ngữ và mối quan hệ gián tiếp giữa chủ thể với đối tượng thông qua công cụ tâm lí / kí hiệu tâm lí).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 78,
+      "question": "Luận điểm của trường phái tâm lí học hoạt động về vị trí, vai trò của 'môi trường văn hóa - xã hội' đối với sự phát triển trí tuệ con người được khẳng định như thế nào?",
+      "options": {
+        "A": "Môi trường văn hóa - xã hội chỉ là cái nền thụ động giúp bộc lộ khoảng 20% tiềm năng trí tuệ, còn 80% nguồn gốc trí tuệ nằm sẵn trong cấu trúc nhiễm sắc thể di truyền theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Môi trường văn hóa - xã hội không chỉ đơn thuần là 'điều kiện' bên ngoài mà chính là 'nguồn gốc' khách quan của sự phát triển trí tuệ; phương thức hoạt động trí tuệ của cá nhân là phương thức trí tuệ của xã hội.",
+        "C": "Môi trường văn hóa - xã hội chỉ can thiệp vào giai đoạn cuối cùng để 'nhuộm màu' các thao tác lôgic mà đứa trẻ đã tự mình kiến tạo hoàn chỉnh từ bên trong.",
+        "D": "Môi trường văn hóa - xã hội thường tạo ra các định kiến và sức ỳ chức năng làm kìm hãm khả năng bừng hiểu sáng tạo bẩm sinh của cá nhân."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.6 khẳng định: Nguồn gốc khách quan của trí tuệ người không nằm trong cơ chế sinh học mà ở trong thực tiễn đời sống văn hoá - xã hội. Môi trường xã hội không phải là điều kiện của sự phát triển trí tuệ, mà là nguồn gốc của sự phát triển.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 79,
+      "question": "Khác với trí tuệ bậc thấp hình thành từ dưới lên theo cơ chế tiến hóa thích nghi và tập nhiễm, trí tuệ cấp cao ở con người được hình thành theo cơ chế đặc thù nào?",
+      "options": {
+        "A": "Hình thành theo cơ chế đột biến gen ngẫu nhiên qua các thế hệ kết hợp với sự chọn lọc tự nhiên đào thải những cá thể có tốc độ phản xạ thần kinh chậm chạp khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Hình thành theo cơ chế liên tưởng cơ học bằng cách cộng dồn hàng triệu cảm giác thị giác và thính giác rời rạc lại với nhau theo tần số xuất hiện.",
+        "C": "Hình thành theo cơ chế lĩnh hội các kinh nghiệm xã hội - lịch sử, trong đó chủ thể sử dụng các công cụ tâm lí đưa vào các chức năng bậc thấp đã có để cải tổ chúng thành cấu trúc mới.",
+        "D": "Hình thành theo cơ chế tự chín muồi sinh học của các mô thần kinh trên vỏ não mà hoàn toàn không cần đến sự giao tiếp hay hướng dẫn của người lớn."
+      },
+      "correct_answer": "C",
+      "explanation": "Trí tuệ cấp cao có bản chất hoạt động và được hình thành theo cơ chế lĩnh hội các kinh nghiệm xã hội - lịch sử: chủ thể sử dụng các công cụ tâm lí đưa vào các cấu trúc chức năng bậc thấp đã có, cải tổ lại chúng để hình thành cấu trúc mới.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 80,
+      "question": "Quy luật phổ biến về sự hình thành các chức năng tâm lí cấp cao ở trẻ em do nhà bác học L.S. Vygotsky phát biểu có nội dung chính xác là gì?",
+      "options": {
+        "A": "Bất kì chức năng tâm lí cấp cao nào của trẻ cũng xuất hiện hai lần: lần đầu là ý nghĩ thuần túy khép kín bên trong đầu đứa trẻ, lần thứ hai mới được bộc lộ ra ngoài thành lời nói giao tiếp với xã hội trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Bất kì chức năng tâm lí cấp cao nào của trẻ cũng xuất hiện hai lần: lần đầu ở giai đoạn sơ sinh dưới dạng phản xạ không điều kiện, lần thứ hai ở tuổi trưởng thành dưới dạng kĩ xảo tự động hóa.",
+        "C": "Bất kì chức năng tâm lí cấp cao nào của trẻ cũng xuất hiện hai lần: lần đầu là quá trình đồng hóa kích thích vào sơ đồ cũ, lần thứ hai là quá trình điều ứng biến đổi sơ đồ nhận thức.",
+        "D": "Bất kì chức năng tâm lí cấp cao nào trong quá trình phát triển của trẻ cũng đều xuất hiện hai lần: lần đầu là hoạt động tập thể, hoạt động xã hội (chức năng tâm lí bên ngoài); lần thứ hai là hoạt động cá nhân, phương pháp tư duy bên trong của trẻ (chức năng tâm lí bên trong)."
+      },
+      "correct_answer": "D",
+      "explanation": "Quy luật của Vygotsky: Bất kì chức năng tâm lí cấp cao nào của trẻ em trong quá trình phát triển cũng đều được thể hiện hai lần: lần đầu là hoạt động tập thể, hoạt động xã hội (chức năng tâm lí bên ngoài); lần thứ hai là hoạt động cá nhân, phương pháp bên trong của tư duy trẻ em (chức năng tâm lí bên trong).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 81,
+      "question": "Quá trình chuyển hóa từ hoạt động vật chất bên ngoài thành hoạt động tâm lí, trí tuệ bên trong (nội tâm hóa) qua các khâu, các bước cụ thể đã được nhà tâm lí học nào nghiên cứu và mô tả sâu sắc nhất?",
+      "options": {
+        "A": "Nhà tâm lí học Nga Xô viết P.Ya. Galperin với học thuyết hình thành hành động trí tuệ theo từng giai đoạn và cơ sở định hướng của hành động.",
+        "B": "Nhà tâm lí học người Mỹ E. Tolman với học thuyết về bản đồ nhận thức và các biến số trung gian trong sơ đồ hành vi có mục đích.",
+        "C": "Nhà tâm lí học người Đức M. Wertheimer với các công trình nghiên cứu về tư duy sáng tạo và sự tái cấu trúc chỉnh thể trường tri giác.",
+        "D": "Nhà tâm lí học người Pháp R. Fischer với mô hình bộ máy xử lí thông tin gồm ba thành tố đầu vào, đầu ra và siêu thành tố điều khiển."
+      },
+      "correct_answer": "A",
+      "explanation": "Quá trình chuyển hóa hoạt động vật chất bên ngoài thành hoạt động tâm lí, trí tuệ bên trong diễn ra qua một số khâu, một số bước; các bước chuyển hóa này và việc định hướng chúng được nghiên cứu, mô tả kĩ trong công trình của P.Ya. Galperin.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 82,
+      "question": "Theo lí thuyết hoạt động (đặc biệt là quan điểm của A.N. Leontiev), trong mỗi giai đoạn phát triển của trẻ có nhiều hoạt động khác nhau, nhưng sự phát triển trí tuệ phụ thuộc trước hết vào loại hoạt động nào?",
+      "options": {
+        "A": "Phụ thuộc trước hết vào các hoạt động bản năng sinh tồn bẩm sinh như ăn uống, tự vệ và định hướng không gian trong môi trường tự nhiên theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Phụ thuộc trước hết vào 'hoạt động chủ đạo' của giai đoạn đó – tức là hoạt động giữ vai trò chủ yếu quy định những biến đổi căn bản nhất trong sự phát triển trí tuệ và các hoạt động khác.",
+        "C": "Phụ thuộc đồng đều như nhau vào tất cả mọi hoạt động ngẫu nhiên mà đứa trẻ tham gia hàng ngày, không có hoạt động nào giữ vai trò quyết định hơn hoạt động nào.",
+        "D": "Phụ thuộc duy nhất vào hoạt động giải các bài tập trắc nghiệm IQ trên giấy nhằm rèn luyện tốc độ khoanh đáp án trong thời gian ngắn nhất."
+      },
+      "correct_answer": "B",
+      "explanation": "Mỗi giai đoạn phát triển của trẻ có nhiều hoạt động, trong đó có hoạt động chủ đạo giữ vai trò chủ yếu đối với sự phát triển trí tuệ; hình thành và phát triển trí tuệ gắn liền với việc hình thành hoạt động chủ đạo trong mỗi giai đoạn.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 83,
+      "question": "Vì sao tâm lí học hoạt động khẳng định trẻ em không thể tự mình phát triển trí tuệ 'theo kiểu Robinson' trên đảo hoang và đề cao phương thức 'dạy học hợp tác (dạy học tương tác)'?",
+      "options": {
+        "A": "Vì trẻ em bẩm sinh có tâm lí sợ hãi sự cô đơn nên chỉ khi ngồi học chung trong một tập thể đông người thì hệ thần kinh mới tiết ra chất dẫn truyền hưng phấn khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Vì người lớn nắm giữ toàn bộ quyền lực khen thưởng và trừng phạt nhằm cưỡng bức trẻ em phải từ bỏ các thói quen tự nhiên để phục tùng kỉ luật nhà trường.",
+        "C": "Vì hoạt động của trẻ với thế giới đồ vật bao giờ cũng phải thông qua người lớn làm trung gian; trí tuệ bậc cao của trẻ là sản phẩm của hoạt động và sự hợp tác giữa hai chủ thể là người dạy và người học.",
+        "D": "Vì trẻ em hoàn toàn không có khả năng tự thực hiện bất kì một cử động cầm nắm đồ vật nào nếu người lớn không trực tiếp cầm tay điều khiển từng thao tác."
+      },
+      "correct_answer": "C",
+      "explanation": "Trẻ em không thể tự mình hoạt động 'theo kiểu Robinson'; hoạt động của trẻ với thế giới đồ vật bao giờ cũng trực tiếp hoặc gián tiếp thông qua người lớn làm trung gian. Trí tuệ bậc cao là sản phẩm của hoạt động và hợp tác với người lớn, nên dạy học hợp tác (tương tác) giữa hai chủ thể là hiệu quả nhất.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 84,
+      "question": "Nguyên lí 'Dạy học phát triển' của L.S. Vygotsky xác định mối quan hệ giữa dạy học với sự phát triển trí tuệ và 'Vùng phát triển gần nhất' (ZPD) như thế nào?",
+      "options": {
+        "A": "Dạy học phải luôn luôn đi sau sự phát triển sinh học, kiên nhẫn chờ đợi cho đến khi các cấu trúc thao tác lôgic của trẻ tự chín muồi hoàn toàn rồi mới bắt đầu truyền thụ kiến thức trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Dạy học và sự phát triển trí tuệ là hai quá trình hoàn toàn trùng khít lên nhau như hai hình học bằng nhau, học sinh học thuộc được bao nhiêu câu chữ thì trí tuệ phát triển bấy nhiêu.",
+        "C": "Dạy học chỉ nên giới hạn ở vùng phát triển hiện tại với những bài tập thật dễ mà học sinh có thể tự làm một mình 100% nhằm tránh gây ra bất kì sự căng thẳng nhận thức nào.",
+        "D": "Dạy học không được đi sau phụ họa cho sự phát triển mà phải đi trước sự phát triển, kéo theo sự phát triển bằng cách không chỉ hướng vào trình độ hiện thời mà phải tác động vào vùng phát triển gần nhất của học sinh."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Vygotsky, dạy học đúng chức năng là dạy học phát triển: không được đi sau phụ họa cho sự phát triển mà phải đi trước sự phát triển, kéo theo sự phát triển; không hướng vào trình độ hiện thời mà phải tác động vào vùng phát triển gần nhất trong trí tuệ của học sinh.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 85,
+      "question": "Theo đánh giá tổng quát trong giáo trình, thế mạnh vượt trội nhất của hướng tiếp cận hoạt động so với các trường phái tâm lí học khác về trí tuệ nằm ở đâu?",
+      "options": {
+        "A": "Nằm ở hệ thống các nguyên lí phương pháp luận nghiên cứu đúng đắn do nó vạch ra, vừa giúp định hướng chiến lược phát triển trí tuệ trẻ em, vừa cho phép kế thừa và ứng dụng các sự kiện tâm lí cụ thể do các trường phái khác phát hiện.",
+        "B": "Nằm ở việc thiết kế được hàng trăm bộ trắc nghiệm tiêu chuẩn hóa có khả năng tính toán chính xác chỉ số thông minh của từng cá nhân đến từng phần lẻ thập phân.",
+        "C": "Nằm ở việc chế tạo thành công các hệ thống người máy thông minh và mạng thần kinh nhân tạo có khả năng đánh bại các đại kiện tướng cờ vua thế giới.",
+        "D": "Nằm ở việc xóa bỏ hoàn toàn khái niệm ý thức và chủ thể ra khỏi tâm lí học để biến tâm lí học thành một phân nhánh thuần túy của khoa học sinh lí thần kinh."
+      },
+      "correct_answer": "A",
+      "explanation": "Thế mạnh của hướng tiếp cận hoạt động không phải chỉ ở các sự kiện tâm lí cụ thể mà là ở các nguyên lí phương pháp luận nghiên cứu do nó vạch ra trên mọi bình diện, đảm bảo định hướng chiến lược đúng đắn và cho phép khai thác, ứng dụng các sự kiện tâm lí do các hướng tiếp cận khác phát hiện.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 86,
+      "question": "Giáo trình đã lưu ý nguy cơ hạn chế nào cần phải tránh khi vận dụng hướng tiếp cận hoạt động vào việc tổ chức hình thành và phát triển trí tuệ cho trẻ em?",
+      "options": {
+        "A": "Vì hướng tiếp cận này quá đề cao sự bừng hiểu ngẫu nhiên và tính tự phát nội sinh của trẻ em nên dễ dẫn đến việc buông lỏng quản lí và coi nhẹ vai trò hướng dẫn của giáo viên theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Vì hướng tiếp cận này nhấn mạnh khía cạnh lĩnh hội (tái tạo kinh nghiệm xã hội chuyển thành của cá nhân), nên nếu không xác định đúng giới hạn của sự tái tạo, lặp lại sẽ dễ dẫn đến coi nhẹ yếu tố sáng tạo trong hoạt động trí tuệ của trẻ.",
+        "C": "Vì hướng tiếp cận này chỉ chú trọng rèn luyện các phản xạ vận động cơ bắp cho học sinh nên dễ dẫn đến tình trạng học sinh bị suy giảm khả năng sử dụng ngôn ngữ trừu tượng.",
+        "D": "Vì hướng tiếp cận này tuyệt đối hóa yếu tố di truyền bẩm sinh nên dễ dẫn đến thái độ bi quan, bỏ mặc những học sinh có kết quả học tập yếu kém trong nhà trường."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình lưu ý: hướng tiếp cận hoạt động có phần nhấn mạnh tới khía cạnh lĩnh hội với tư cách là sự tái tạo những kinh nghiệm của xã hội; vì vậy nếu không xác định đúng giới hạn của việc tái tạo, lặp lại sẽ dễ dẫn đến coi nhẹ yếu tố sáng tạo trong hoạt động trí tuệ của trẻ em.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 87,
+      "question": "Hướng tiếp cận lí thuyết thông tin – tâm lí học nhận thức và lí thuyết trí tuệ nhân tạo ra đời vào thập niên nào và gắn liền với tên tuổi của những nhà khoa học tiên phong nào?",
+      "options": {
+        "A": "Ra đời vào những năm 1870 với người đi đầu là nhà tâm lí học thực nghiệm Đức Wilhelm Wundt, tiếp theo là E. Titchener, F. Brentano và William James khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Ra đời vào những năm 1910 với người đi đầu là nhà tâm lí học hành vi Mỹ John Watson, tiếp theo là E.L. Thorndike, C. Hull và B.F. Skinner.",
+        "C": "Ra đời vào những năm 1950 với người đi đầu là nhà toán học Anh Alan Turing (1912–1954), tiếp theo là J. von Neumann (1903–1957) cùng A. Newell, H.A. Simon, M. Minsky và J. McCarthy.",
+        "D": "Ra đời vào những năm 1930 với người đi đầu là nhà tâm lí học văn hóa - lịch sử Nga L.S. Vygotsky, tiếp theo là A.R. Luria, A.N. Leontiev và D.B. Elkonin."
+      },
+      "correct_answer": "C",
+      "explanation": "Lí thuyết này ra đời những năm 1950, người đi đầu là nhà toán học, triết học người Anh Alan Turing (1912–1954), sau đó là J. Neumann (1903–1957), tiếp đến là A. Newell (A. Niuel), H. Simon (T. Saimon), M. Minsky (M. Minski), J. McCarthy (J. Macati).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 88,
+      "question": "Các đề tài nghiên cứu đa dạng của hướng tiếp cận lí thuyết thông tin trong tâm lí học trí tuệ được khái quát thành hai hướng nghiên cứu lớn nào?",
+      "options": {
+        "A": "Hướng thứ nhất nghiên cứu sự di truyền gen thông minh qua các phả hệ gia đình; hướng thứ hai nghiên cứu sự tiến hóa tập tính bản năng của các loài động vật có vú trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Hướng thứ nhất phân tích các giấc mơ vô thức bằng phương pháp liên tưởng tự do; hướng thứ hai điều trị các chứng rối loạn lo âu bằng phương pháp thôi miên lâm sàng.",
+        "C": "Hướng thứ nhất đo đạc thời gian phản xạ có điều kiện ở trẻ sơ sinh; hướng thứ hai phân tích quá trình nội tâm hóa công cụ lao động ở người nguyên thủy.",
+        "D": "Hướng thứ nhất phân tích, mô tả hoạt động trí tuệ của con người theo cơ chế tiếp nhận và xử lí thông tin; hướng thứ hai phân tích và mô phỏng các cơ chế hoạt động của trí óc con người để hình thành và phát triển Trí tuệ nhân tạo (AI)."
+      },
+      "correct_answer": "D",
+      "explanation": "Các đề tài theo cách tiếp cận thông tin được quy thành 2 hướng lớn: (1) phân tích và mô tả hoạt động trí tuệ, nhận thức của con người theo cơ chế tiếp nhận và xử lí thông tin; (2) phân tích và mô phỏng các cơ chế hoạt động của trí óc để hình thành và phát triển lĩnh vực Trí tuệ nhân tạo.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 89,
+      "question": "Những nhà tâm lí học nào được giáo trình nhắc đến như là các đại biểu tiêu biểu cho hướng thứ nhất (phân tích hoạt động trí tuệ theo cơ chế tiếp nhận và xử lí thông tin trong trào lưu tâm lí học nhận thức)?",
+      "options": {
+        "A": "Các nhà tâm lí học tiêu biểu bao gồm E. Tolman (công trình năm 1970), E. Tulving (công trình năm 1972) và đặc biệt là R. Fischer (công trình năm 1992).",
+        "B": "Các nhà triết học duy cảm Anh bao gồm D. Hartley, J.S. Mill và H. Spencer với học thuyết liên tưởng các biểu tượng cảm tính.",
+        "C": "Các nhà sinh lí học thần kinh bao gồm I.P. Pavlov, K.S. Lashley và K. Goldstein với học thuyết định khu chức năng tâm lí trên vỏ não.",
+        "D": "Các nhà sinh học - xã hội học bao gồm Francis Galton, Cyril Burt, A. Jensen và E.O. Wilson với học thuyết ưu sinh di truyền trí năng."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo hướng thứ nhất có các nhà tâm lí học hành vi mới và trào lưu tâm lí học nhận thức: phải kể đến các công trình nghiên cứu của Tolman (1970), Tulving (1972) và của R. Fischer (1992).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 90,
+      "question": "Theo mô hình của R. Fischer (1992), não bộ con người được xem như một bộ máy xử lí thông tin và hoạt động trí tuệ được cấu tạo bởi ba thành tố cơ bản nào?",
+      "options": {
+        "A": "Thành tố cảm giác sơ cấp (thu nhận kích thích vật lí), Thành tố liên tưởng trung gian (ghép nối các hình ảnh) và Thành tố phản xạ vận động (co cơ trả lời kích thích) theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Thành tố tiếp nhận thông tin (đầu vào - tiếp nhận ngữ liệu mới qua giác quan), Thành tố thể hiện (đầu ra - sự phản ánh của trí nhớ, ý tưởng giải quyết vấn đề) và Thành tố điều khiển (siêu thành tố - điều khiển trí nhớ, lập kế hoạch, ra quyết định).",
+        "C": "Thành tố đồng hóa (đưa kích thích vào sơ đồ cũ), Thành tố điều ứng (thay đổi sơ đồ nhận thức) và Thành tố cân bằng (duy trì tính thuận nghịch của thao tác) khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "D": "Thành tố bản năng (các xung năng sinh học bẩm sinh), Thành tố tự kỉ trung tâm (tư duy tiền thao tác của trẻ) và Thành tố xã hội hóa (sự áp đặt quy tắc của người lớn) trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo R. Fischer (1992), não là bộ máy xử lí thông tin và hoạt động trí tuệ gồm 3 thành tố: (1) Thành tố tiếp nhận thông tin (đầu vào); (2) Thành tố thể hiện (đầu ra); (3) Thành tố điều khiển (siêu thành tố - điều khiển trí nhớ, lập kế hoạch, ra quyết định...).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 91,
+      "question": "Trong mô hình 3 thành tố xử lí thông tin của R. Fischer (1992), các quá trình như 'điều khiển trí nhớ, lập kế hoạch và ra quyết định' thuộc về thành tố nào?",
+      "options": {
+        "A": "Thuộc về 'Thành tố tiếp nhận thông tin' (Đầu vào - Input) bao gồm hoạt động thể chất và sự thu nhận ngữ liệu mới của các cơ quan giác quan khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Thuộc về 'Thành tố thể hiện' (Đầu ra - Output) bao gồm các sản phẩm cuối cùng mà cá nhân làm ra sau khi đã kết thúc hoàn toàn việc giải bài toán.",
+        "C": "Thuộc về 'Thành tố điều khiển' (còn được gọi là Siêu thành tố - Metacomponent) giữ vai trò giám sát và điều hành toàn bộ quá trình xử lí thông tin.",
+        "D": "Thuộc về 'Thành tố lưu trữ thụ động' nằm ở các vùng dưới vỏ não chuyên đảm nhiệm việc duy trì các phản xạ sinh tồn không điều kiện."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Fischer (1992), Thành tố điều khiển (siêu thành tố) bao gồm các quá trình điều khiển trí nhớ, lập kế hoạch, ra quyết định...",
+      "difficulty": "easy"
+    },
+    {
+      "id": 92,
+      "question": "Bên cạnh mô hình 3 thành tố, R. Fischer (1992) còn đưa ra quan điểm như thế nào về sự đa dạng của các dạng trí tuệ ở con người?",
+      "options": {
+        "A": "Con người chỉ có một dạng trí tuệ duy nhất là năng lực tính toán số học, mọi biểu hiện nghệ thuật hay giao tiếp xã hội đều không liên quan gì đến trí tuệ trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Con người chỉ có hai dạng trí tuệ đối lập nhau là trí tuệ di truyền bẩm sinh (chiếm 80%) và trí tuệ kĩ xảo tập nhiễm qua thử và sai (chiếm 20%).",
+        "C": "Con người có bốn dạng trí tuệ kế tiếp nhau theo lứa tuổi mà khi bước sang dạng trí tuệ sau thì dạng trí tuệ trước đó sẽ hoàn toàn biến mất khỏi não bộ.",
+        "D": "Con người có nhiều dạng trí tuệ gồm: trí tuệ ngôn ngữ, lôgic - toán, hình tượng/không gian, âm nhạc, vận động và trí tuệ xã hội (giao tiếp); mỗi loại đều có thể xem như một bộ máy tiếp nhận và xử lí thông tin."
+      },
+      "correct_answer": "D",
+      "explanation": "Cũng theo Fischer, con người có nhiều dạng trí tuệ: trí tuệ ngôn ngữ, lôgic - toán, hình tượng/không gian, âm nhạc, vận động, trí tuệ xã hội (giao tiếp); mỗi loại trí tuệ trên đều có thể xem như là bộ máy tiếp nhận và xử lí thông tin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 93,
+      "question": "Hướng nghiên cứu thứ hai của tiếp cận lí thuyết thông tin (thu hút các nhà toán học, tin học, điều khiển học như Turing, Neumann, Newell, Simon, Minsky, McCarthy) tập trung phát triển những đề tài cụ thể nào?",
+      "options": {
+        "A": "Nghiên cứu lí thuyết giải các bài toán suy luận, lí thuyết may rủi, nghiên cứu ngôn ngữ trí tuệ nhân tạo, lí thuyết nhận dạng, người máy (robot) và mô hình mạng thần kinh.",
+        "B": "Nghiên cứu phương pháp tự quan sát nội tâm của các nhà triết học duy lí và phân tích cấu trúc ngữ pháp của các ngôn ngữ cổ đại đã tuyệt chủng.",
+        "C": "Nghiên cứu sự biến đổi tâm lí lứa tuổi dậy thì do ảnh hưởng của các hoóc-môn nội tiết và xây dựng quy trình tư vấn tâm lí học đường cho học sinh.",
+        "D": "Nghiên cứu tập tính làm tổ và di cư theo mùa của các loài chim hoang dã nhằm ứng dụng vào việc bảo tồn đa dạng sinh học trong tự nhiên."
+      },
+      "correct_answer": "A",
+      "explanation": "Các đề tài được quan tâm phát triển theo hướng thứ hai (Trí tuệ nhân tạo) là nghiên cứu lí thuyết giải các bài toán suy luận, lí thuyết may rủi, nghiên cứu ngôn ngữ trí tuệ nhân tạo, lí thuyết nhận dạng, người máy, mô hình thần kinh...",
+      "difficulty": "easy"
+    },
+    {
+      "id": 94,
+      "question": "Khi tổng kết toàn bộ Chương 1, giáo trình đã giải thích nguyên nhân khách quan nào khiến cho các nhà nghiên cứu của mỗi trường phái tâm lí học trước đây thường rơi vào những quan điểm cực đoan, phiến diện?",
+      "options": {
+        "A": "Do các nhà tâm lí học thế kỉ XX hoàn toàn không có kiến thức về phương pháp thực nghiệm khoa học mà chỉ dựa vào sự suy đoán cảm tính cá nhân theo đúng các luận điểm cơ bản đã được trình bày trong hệ thống lí thuyết này.",
+        "B": "Do mỗi hướng tiếp cận xuất hiện trong một bối cảnh lịch sử - xã hội xác định và thường tuyệt đối hóa khía cạnh, cơ chế cụ thể mà trường phái mình phát hiện ra.",
+        "C": "Do sự thiếu hụt các phương tiện máy tính điện tử khiến cho các nhà tâm lí học không thể tính toán được số liệu thống kê trong phòng thí nghiệm.",
+        "D": "Do tất cả các trường phái tâm lí học phương Tây đều xuất phát từ cùng một hệ thống triết học duy tâm chủ quan phủ nhận sự tồn tại của thế giới vật chất."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.7 tổng kết: Mỗi hướng tiếp cận xuất hiện trong bối cảnh lịch sử - xã hội xác định; do hoàn cảnh khách quan nên các nhà nghiên cứu của mỗi hướng tiếp cận thường có quan điểm cực đoan, dẫn tới có những mặt tích cực và hạn chế riêng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 95,
+      "question": "Theo định hướng phương pháp luận ở phần kết luận Chương 1, thái độ khoa học đúng đắn hiện nay khi tiếp cận, khai thác và vận dụng các học thuyết tâm lí học khác nhau về trí tuệ là gì?",
+      "options": {
+        "A": "Bài xích và phủ nhận sạch trơn tất cả các thành tựu của tâm lí học phương Tây (như Gestalt, Piaget, Hành vi, Nhận thức) vì chúng đều chứa đựng những sai lầm siêu hình khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Lắp ghép cơ học tất cả các khái niệm của mọi trường phái lại với nhau theo kiểu chiết trung mà không cần bất kì một nguyên tắc phương pháp luận thống nhất nào trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "C": "Kế thừa mặt tích cực và bổ sung những điểm khiếm khuyết của mỗi trường phái nhưng tránh khuynh hướng chiết trung, máy móc; phải đứng trên lập trường triết học duy vật biện chứng và lịch sử, vận dụng triệt để các nguyên tắc của tâm lí học hoạt động.",
+        "D": "Chỉ sử dụng duy nhất lí thuyết trí tuệ nhân tạo và khoa học máy tính để giải thích toàn bộ đời sống tâm lí người, thay thế hoàn toàn các phương pháp tâm lí học truyền thống trong tiến trình lịch sử phát triển của khoa học tâm lí học trí tuệ hiện đại."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình khẳng định: Ngày nay xu hướng chung là kế thừa mặt tích cực và bổ sung điểm khiếm khuyết của mỗi trường phái, nhưng cần tránh khuynh hướng chiết trung, máy móc. Tư tưởng chủ đạo là trên cơ sở lập trường triết học duy vật biện chứng và lịch sử, vận dụng triệt để các nguyên tắc phương pháp luận của tâm lí học hoạt động để phân tích, đánh giá và kế thừa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 96,
+      "question": "Nếu đặt toàn bộ 7 hướng tiếp cận trí tuệ trong Chương 1 lên một trục tiến hóa nhận thức khoa học, sự chuyển biến từ các thuyết cổ điển (Liên tưởng, Hành vi S-R) đến các thuyết hiện đại (Phát sinh Piaget, Hoạt động Vygotsky, Xử lí thông tin) phản ánh xu hướng phát triển nào?",
+      "options": {
+        "A": "Chuyển từ việc nghiên cứu con người trong các mối quan hệ văn hóa xã hội phong phú sang việc cô lập con người trong phòng thí nghiệm để chỉ đo đạc các phản xạ sinh lí đơn giản trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Chuyển từ việc đề cao vai trò chủ động sáng tạo của ý thức và thao tác trí tuệ sang việc khẳng định con người hoàn toàn bị chi phối bởi định mệnh di truyền sinh học.",
+        "C": "Chuyển từ phương pháp thực nghiệm khách quan và mô hình hóa toán học chính xác quay trở lại phương pháp tự quan sát nội tâm thuần túy của triết học duy tâm cổ điển.",
+        "D": "Chuyển từ lối giải thích cơ giới, thụ động, tách rời hoặc giản ước tâm lí sang việc khám phá cấu trúc thao tác năng động của chủ thể, bản chất lịch sử - văn hóa - xã hội và cơ chế điều khiển thông tin phức hợp của trí tuệ."
+      },
+      "correct_answer": "D",
+      "explanation": "Sự vận động qua 7 hướng tiếp cận phản ánh bước tiến từ chỗ giải thích máy móc, thụ động (liên tưởng hình ảnh, phản xạ S-R cơ giới) đến việc phát hiện cấu trúc chỉnh thể (Gestalt), thao tác kiến tạo của chủ thể (Piaget), nguồn gốc hoạt động văn hóa - lịch sử (Vygotsky, Leontiev, Galperin) và hệ thống xử lí - điều khiển thông tin (Fischer, AI).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 97,
+      "question": "Theo quan điểm của trường phái liên tưởng Anh (D. Hartley, J.S. Mill, H. Spencer), thuật ngữ 'tâm lí' khi bàn về cấu trúc nhận thức được hiểu theo nghĩa nào?",
+      "options": {
+        "A": "Tâm lí được hiểu theo nghĩa là các yếu tố ý thức, được cấu thành từ cơ sở ban đầu là các cảm giác và sự liên kết giữa chúng.",
+        "B": "Tâm lí được hiểu theo nghĩa là các xung năng vô thức bẩm sinh nằm sâu dưới tầng bản năng sinh vật của mỗi cá thể sống.",
+        "C": "Tâm lí được hiểu theo nghĩa là hệ thống các cử động cơ bắp bên ngoài hoàn toàn không có sự tham gia của bất kì yếu tố ý thức nào.",
+        "D": "Tâm lí được hiểu theo nghĩa là các cấu trúc lôgic toán học tiên nghiệm tồn tại độc lập trước mọi trải nghiệm cảm giác của con người."
+      },
+      "correct_answer": "A",
+      "explanation": "Trong phạm vi tâm lí học liên tưởng, tâm lí (hiểu theo nghĩa là yếu tố ý thức) được cấu thành từ các cảm giác; cảm giác là cái thứ nhất, là cái cơ sở.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 98,
+      "question": "Khi giải thích động thái của các quá trình tâm lí, trường phái tâm lí học liên tưởng Anh đã dựa trên nguyên tắc vận hành cốt lõi nào?",
+      "options": {
+        "A": "Giải thích động thái các quá trình tâm lí theo nguyên tắc tái cấu trúc đột ngột toàn bộ trường tri giác để tạo ra sự bừng hiểu tức thời.",
+        "B": "Giải thích động thái các quá trình tâm lí theo nguyên tắc kết hợp và liên tưởng các hình ảnh tri giác, biểu tượng đã có trong kinh nghiệm.",
+        "C": "Giải thích động thái các quá trình tâm lí theo nguyên tắc chuyển hóa từ hoạt động hợp tác xã hội bên ngoài thành chức năng tâm lí bên trong.",
+        "D": "Giải thích động thái các quá trình tâm lí theo nguyên tắc cân bằng liên tục giữa quá trình đồng hóa kích thích và điều ứng sơ đồ nhận thức."
+      },
+      "correct_answer": "B",
+      "explanation": "Tiếp cận liên tưởng là trường phái tâm lí học Anh, giải thích động thái các quá trình tâm lí theo nguyên tắc kết hợp, liên tưởng các hình ảnh tri giác.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 99,
+      "question": "Trong thực nghiệm giải các bài toán tư duy của trường phái Würzburg (Đức), vì sao hầu hết các nghiệm thể được lựa chọn lại là các nhà tâm lí học chuyên nghiệp?",
+      "options": {
+        "A": "Vì các bài toán thực nghiệm của trường phái Würzburg đều yêu cầu kiến thức toán học cao cấp mà người bình thường hoặc trẻ em không thể hiểu được đề bài khi xem xét mối tương quan giữa chủ thể nhận thức và môi trường sống xung quanh.",
+        "B": "Vì các nhà tâm lí học Würzburg muốn giữ bí mật tuyệt đối nội dung thực nghiệm để tránh sự cạnh tranh học thuật từ các trường phái tâm lí học hành vi ở Mỹ.",
+        "C": "Vì phương pháp chủ yếu là tự quan sát nên đòi hỏi nghiệm thể phải có kĩ năng thường xuyên thông báo chính xác về diễn biến quá trình tư duy bên trong của mình khi giải quyết nhiệm vụ.",
+        "D": "Vì theo thuyết ưu sinh học đương thời, chỉ có các nhà tâm lí học chuyên nghiệp mới sở hữu cấu trúc gen di truyền trí thông minh đạt mức hoàn hảo."
+      },
+      "correct_answer": "C",
+      "explanation": "Phương pháp chủ yếu của phái Würzburg là tự quan sát; hầu hết nghiệm thể tham gia thực nghiệm là các nhà tâm lí chuyên nghiệp vì họ có nhiệm vụ thường xuyên thông báo về diễn biến quá trình tư duy của mình khi giải quyết nhiệm vụ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 100,
+      "question": "Theo các nhà tâm lí học trường phái Würzburg, khái niệm 'quan hệ' (đối tượng của hành động tư duy bên trong) được định nghĩa như thế nào?",
+      "options": {
+        "A": "Quan hệ là khoảng cách vật lí đo bằng đơn vị mét và giây giữa hai tác nhân kích thích xuất hiện đồng thời trên màn hình thực nghiệm trong bối cảnh nghiên cứu thực nghiệm về cơ chế vận hành của đời sống tâm lí cá nhân.",
+        "B": "Quan hệ là sự tương tác giao tiếp tình cảm giữa người làm thực nghiệm và nghiệm thể trong suốt quá trình tiến hành phỏng vấn lâm sàng.",
+        "C": "Quan hệ là tỉ lệ phần trăm giữa số lần phản ứng đúng và số lần phản ứng sai của cơ thể khi mò mẫm tìm đường thoát khỏi chiếc hộp mê cung.",
+        "D": "Quan hệ là tất cả những gì không mang đặc điểm của hình ảnh cảm tính trực quan, là tất cả sự tổng hợp phong phú của các khái niệm trừu tượng."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo trường phái Würzburg, tư duy là hành động bên trong của chủ thể nhằm xem xét các mối quan hệ; quan hệ ở đây là tất cả những gì không mang đặc điểm của hình ảnh cảm tính, là tất cả sự tổng hợp phong phú các khái niệm.",
+      "difficulty": "hard"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Trình bày 3 luận điểm cơ bản của thuyết liên tưởng Anh (Hartley, Mill, Spencer) và nêu tên 4 loại liên tưởng trong hoạt động trí tuệ.",
+      "expected_answer": "• Ba luận điểm cơ bản của thuyết liên tưởng:\n  1. Tâm lí (hiểu theo nghĩa yếu tố ý thức) được cấu thành từ các cảm giác; cảm giác là cái thứ nhất, là cơ sở, còn biểu tượng, ý nghĩ, tình cảm là cái thứ hai xuất hiện nhờ liên tưởng các cảm giác.\n  2. Điều kiện để hình thành các liên tưởng là sự gần gũi của các quá trình tâm lí.\n  3. Các mối liên tưởng bị quy định bởi sự linh hoạt của các thành phần được liên tưởng và tần số nhắc lại của chúng trong kinh nghiệm.\n• Bốn loại liên tưởng: (1) Liên tưởng giống nhau; (2) Liên tưởng tương phản; (3) Liên tưởng gần nhau về không gian và thời gian; (4) Liên tưởng nhân quả (có vai trò đặc biệt quan trọng trong các quá trình trí tuệ).",
+      "explanation": "Thuyết liên tưởng giải thích tư duy như là sự liên tưởng các biểu tượng (tư duy hình ảnh, tư duy tái tạo) và quy sự phát triển trí tuệ về số lượng các mối liên tưởng cũng như tốc độ hoạt hóa chúng."
+    },
+    {
+      "id": 2,
+      "question": "Trường phái tâm lí học Würzburg (Külpe, Selz, Bühler) đã khắc phục hạn chế của thuyết liên tưởng thông qua những kết luận cốt lõi nào về bản chất của tư duy?",
+      "expected_answer": "• Tư duy là hành động bên trong của chủ thể nhằm xem xét các mối quan hệ (những gì không mang đặc điểm hình ảnh cảm tính, là sự tổng hợp phong phú các khái niệm), diễn ra độc lập không cần sự hỗ trợ của các biểu tượng cảm tính rời rạc.\n• Hành động tư duy chịu sự định hướng của nhiệm vụ (bài toán tư duy); khi nhận ra bài toán, chủ thể biến chỉ dẫn bên ngoài thành 'tự chỉ dẫn' bên trong quy định tính lựa chọn của tư duy.\n• Theo O. Selz, thực chất của tư duy là sự vận hành của các thao tác trí tuệ (phân tích, tổng hợp, trừu tượng hóa, khái quát hóa) và giải quyết bài toán thực chất là quá trình 'cấu trúc lại bài toán' để tạo ra tình huống có vấn đề.",
+      "explanation": "Đóng góp lớn của phái Würzburg là lần đầu tiên xem tư duy như một hành động bên trong và sự vận động của các thao tác trí tuệ, tuy nhiên vẫn bị giới hạn bởi triết học duy lí Đức nên tách rời tư duy khỏi điều kiện khách quan - xã hội."
+    },
+    {
+      "id": 3,
+      "question": "Phân biệt 3 dạng tư duy (hành vi trí tuệ) theo quan điểm của J. Watson và so sánh 3 nhánh hành vi (S-R, S-S, TOTE) về nhân tố phát động, kết quả học tập và phương pháp ứng xử.",
+      "expected_answer": "• Ba dạng tư duy theo J. Watson (đồng nhất hành vi trí tuệ với ngôn ngữ bên trong):\n  1. Các thói quen, kĩ xảo ngôn ngữ đơn giản (đọc đoạn thơ/văn không đổi trật tự từ).\n  2. Giải quyết nhiệm vụ không mới nhưng ít gặp, có hành vi ngôn ngữ kèm theo (nhớ lại đoạn thơ/sự kiện thoáng qua).\n  3. Giải quyết nhiệm vụ mới trong hoàn cảnh phức tạp bằng ngôn ngữ trước khi thực hiện hành động cụ thể.\n• So sánh 3 nhánh (Hành vi bảo thủ S-R của Skinner; Hành vi mới S-S của Tolman; Hành vi chủ quan TOTE của Miller, Galanter, Pribram):\n  - Nhân tố phát động: S-R là phản ứng/kích thích bên ngoài; S-S là 'cấu trúc nhận thức'; TOTE là quá trình ở trung ương thần kinh, trí nhớ, tâm thế, sự mong đợi.\n  - Kết quả học tập: S-R là kĩ xảo (trật tự các cử động); S-S là 'các cấu trúc nhận thức' (phản ánh tình huống).\n  - Phương pháp ứng xử: S-R là 'thử và sai'; S-S phụ thuộc cấu trúc tình huống khách quan; TOTE đề cao hình ảnh, kế hoạch của các phản ứng.",
+      "explanation": "Tiếp cận hành vi có công đưa tính khách quan, quy trình hóa vào dạy học nhưng cực đoan hóa kích thích môi trường dẫn đến 'định mệnh xã hội'."
+    },
+    {
+      "id": 4,
+      "question": "Nêu 3 lĩnh vực nghiên cứu chính của hướng tiếp cận sinh học về trí tuệ và quan điểm khoa học đúng đắn trước các số liệu của thuyết di truyền ưu sinh (Galton, Burt, Jensen, Jencks, Wilson).",
+      "expected_answer": "• Ba lĩnh vực chính của tiếp cận sinh học:\n  1. Cơ sở sinh lí - thần kinh của trí tuệ: Phản xạ có điều kiện và quy luật hoạt động thần kinh cấp cao (I.P. Pavlov); lí thuyết định khu chức năng tâm lí trên não bộ (K.S. Lashley, K. Goldstein).\n  2. Vai trò của hành vi bản năng và tự tạo (Tập tính học): Cơ chế dấu ấn (Imprinting) của R. Lorenz và tập tính học người nghiên cứu mối quan hệ giữa nền văn hóa với phương thức tư duy.\n  3. Vai trò của yếu tố di truyền trí tuệ: Thuyết ưu sinh của F. Galton (1869) và các con số của Cyril Burt (80% di truyền - 20% môi trường), A. Jensen (60% - 40%), C. Jencks (45% di truyền, 35% môi trường, 20% tương tác), trường phái sinh học - xã hội của E. Wilson (1975).\n• Quan điểm khoa học: Các nghiên cứu trẻ sinh đôi cùng trứng của I.I. Kanaev (1959), Z. Kimpling và Jarvik (1993) khẳng định không có ảnh hưởng quyết định tuyệt đối của riêng di truyền hay môi trường. Không được coi nhẹ tiền đề sinh học nhưng tuyệt đối không được tuyệt đối hóa dẫn tới thuyết ưu sinh phản khoa học.",
+      "explanation": "Yếu tố sinh học - di truyền tạo tiền đề vật chất cho sự phát triển trí tuệ nhưng không tiền định sẵn trình độ trí tuệ của cá nhân."
+    },
+    {
+      "id": 5,
+      "question": "Giải thích cơ chế 'Bừng hiểu' (Insight) và khái niệm 'Sức ỳ chức năng' của kinh nghiệm cũ trong tâm lí học Hình thái (Gestalt). Thành tựu này được ứng dụng vào trắc nghiệm trí tuệ nào?",
+      "expected_answer": "• Cơ chế 'Bừng hiểu' (Insight - W. Köhler, M. Wertheimer, K. Koffka): Khi lâm vào tình huống có vấn đề, chủ thể xuất hiện sự căng thẳng tâm lí; trong trường tri giác, các thành phần của tình huống được cấu trúc lại ('tổ chức lại', 'định hướng lại') thành một chỉnh thể (Gestalt) mới. Nhờ được đặt trong mối quan hệ mới, đối tượng bộc lộ thuộc tính và tính chất chức năng mới giúp chủ thể hiểu bất ngờ bản chất tình huống mà không phụ thuộc vào phép thử mò mẫm.\n• 'Sức ỳ' chức năng của kinh nghiệm cũ: Khác với thuyết liên tưởng, Gestalt chỉ ra kinh nghiệm quá khứ không những chưa đủ giải quyết nhiệm vụ mới mà còn có thể cản trở việc tìm lời giải vì tạo ra 'sức ỳ' gắn chặt đối tượng với công dụng cũ.\n• Ứng dụng: Là cơ sở lí luận trực tiếp của Trắc nghiệm khuôn hình tiếp diễn (Progressive Matrices) có độ khó tăng dần do J.C. Raven soạn thảo và chuẩn hóa.",
+      "explanation": "Tâm lí học Gestalt đóng góp lớn trong việc phát hiện quy luật chỉnh thể của tri giác và tính sáng tạo của tư duy thông qua việc tái cấu trúc trường tri giác."
+    },
+    {
+      "id": 6,
+      "question": "Phân tích 4 khái niệm cốt lõi giải thích sự thích ứng (Sơ đồ, Đồng hóa, Điều ứng, Cân bằng) và 3 tính chất của Thao tác trí tuệ trong học thuyết phát sinh nhận thức của J. Piaget.",
+      "expected_answer": "• Bốn khái niệm cốt lõi về sự thích ứng của J. Piaget:\n  1. Sơ đồ (Scheme): Cấu trúc nhận thức bao gồm một lớp các thao tác giống nhau theo một trật tự nhất định, bền vững.\n  2. Đồng hóa (Assimilation): Chủ thể tái lập một số đặc điểm của khách thể, đưa chúng vào các sơ đồ đã có (chế biến kích thích theo cấu trúc cũ). Đồng hóa không làm thay đổi cấu trúc mà chỉ mở rộng cái đã biết -> Đồng hóa là sự tăng trưởng.\n  3. Điều ứng (Accommodation): Chủ thể biến đổi cấu trúc (sơ đồ) đã có để tạo ra cấu trúc mới phù hợp với kích thích mới -> Điều ứng là sự phát triển.\n  4. Cân bằng (Equilibrium): Quá trình tự cân bằng của chủ thể giữa hai quá trình đồng hóa và điều ứng.\n• Bản chất và 3 tính chất của Thao tác (Operations): Thao tác là hành động bên trong có tính rút gọn, nảy sinh từ hành động bên ngoài, tác động lên hình ảnh, biểu tượng, kí hiệu. Ba tính chất đặc trưng: (1) Tính thuận nghịch (Réversible); (2) Tính bảo tồn (Conservation); (3) Tính liên kết (Associative).",
+      "explanation": "Piaget chứng minh trí tuệ có bản chất thao tác, được trẻ tự kiến tạo thông qua hành động tương tác với đối tượng từ mức thao tác cụ thể tiến lên mức thao tác hình thức."
+    },
+    {
+      "id": 7,
+      "question": "Nêu quy luật hình thành các chức năng tâm lí cấp cao của L.S. Vygotsky và giải thích nguyên lí 'Dạy học đi trước sự phát triển' gắn với Vùng phát triển gần nhất (ZPD).",
+      "expected_answer": "• Quy luật phổ biến hình thành các chức năng tâm lí cấp cao (L.S. Vygotsky): Bất kì chức năng tâm lí cấp cao nào của trẻ em trong quá trình phát triển cũng đều được thể hiện hai lần: lần đầu là hoạt động tập thể, hoạt động xã hội, tức là chức năng tâm lí bên ngoài (liên cá nhân); lần thứ hai là hoạt động cá nhân, là phương pháp bên trong của tư duy trẻ em, tức là chức năng tâm lí bên trong (nội cá nhân). Quá trình chuyển hóa từ ngoài vào trong diễn ra qua các bước theo giai đoạn (được P.Ya. Galperin mô tả chi tiết).\n• Dạy học phát triển và Vùng phát triển gần nhất (ZPD): Trẻ không thể tự phát triển 'theo kiểu Robinson' mà phải thông qua sự hợp tác với người lớn và sử dụng công cụ tâm lí (ngôn ngữ). Do đó, dạy học đúng chức năng là dạy học phát triển: không được đi sau phụ họa cho sự phát triển mà phải đi trước sự phát triển, kéo theo sự phát triển bằng cách tác động vào 'vùng phát triển gần nhất' trong trí tuệ của học sinh.",
+      "explanation": "Hướng tiếp cận hoạt động khẳng định môi trường văn hóa - xã hội là nguồn gốc (chứ không chỉ là điều kiện) của sự phát triển trí tuệ."
+    },
+    {
+      "id": 8,
+      "question": "Trình bày hai hướng nghiên cứu chính của Tiếp cận lí thuyết thông tin - Tâm lí học nhận thức và phân tích mô hình 3 thành tố xử lí thông tin của R. Fischer (1992).",
+      "expected_answer": "• Hai hướng nghiên cứu lớn (ra đời từ những năm 1950 với A. Turing, J. Neumann, A. Newell, H. Simon, M. Minsky, J. McCarthy):\n  1. Phân tích và mô tả hoạt động trí tuệ, nhận thức của con người theo cơ chế tiếp nhận và xử lí thông tin (Tolman, Tulving, Fischer).\n  2. Phân tích và mô phỏng các cơ chế hoạt động của trí óc con người trên máy tính để hình thành và phát triển Trí tuệ nhân tạo (AI: giải toán suy luận, nhận dạng, người máy, mạng thần kinh...).\n• Mô hình 3 thành tố xử lí thông tin của R. Fischer (1992):\n  1. Thành tố tiếp nhận thông tin (Đầu vào - Input): Tiếp nhận các ngữ liệu mới thông qua hoạt động thể chất và giác quan.\n  2. Thành tố thể hiện (Đầu ra - Output): Cái mà cá nhân làm ra như sự phản ánh của trí nhớ, các ý tưởng giải quyết vấn đề.\n  3. Thành tố điều khiển (Siêu thành tố - Metacomponent): Các quá trình điều khiển trí nhớ, lập kế hoạch, ra quyết định.\n  (Fischer cũng chỉ ra các dạng trí tuệ: ngôn ngữ, lôgic - toán, hình tượng/không gian, âm nhạc, vận động, trí tuệ xã hội).",
+      "explanation": "Tiếp cận thông tin cung cấp cái nhìn hiện đại về cơ chế điều khiển và xử lí dữ liệu của hoạt động nhận thức."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "So Sánh Phê Phán Tiếp Cận Liên Tưởng, Trường Phái Würzburg và Tâm Lí Học Gestalt Về Bản Chất Tư Duy",
+      "problem": "Trong tiến trình lịch sử tâm lí học trí tuệ, sự ra đời của Trường phái Würzburg (Đức) và Tâm lí học Hình thái (Gestalt) là những bước ngoặt nhằm khắc phục sự giản đơn của Thuyết liên tưởng cổ điển Anh.\nHãy phân tích:\n1. Quan niệm của Thuyết liên tưởng về bản chất tư duy, sự phát triển trí tuệ và hạn chế siêu hình, máy móc của nó.\n2. Bước tiến của Trường phái Würzburg (Külpe, Selz, Bühler) trong việc phát hiện bản chất thao tác tinh thần, đối tượng quan hệ và sự cấu trúc lại bài toán tư duy.\n3. Đóng góp của Tâm lí học Gestalt (Wertheimer, Köhler, Koffka) về tính chỉnh thể, cơ chế 'Bừng hiểu' (Insight) và 'Sức ỳ chức năng' của kinh nghiệm cũ, cùng ứng dụng thực tiễn trong trắc nghiệm trí tuệ.",
+      "solution_steps": [
+        "Bước 1: Phân tích Thuyết liên tưởng Anh (D. Hartley, J.S. Mill, H. Spencer)\n- Xuất phát từ triết học duy vật - duy cảm Anh: coi cảm giác là cái thứ nhất (cơ sở), còn biểu tượng, ý nghĩ là cái thứ hai xuất hiện nhờ liên tưởng các cảm giác (dựa trên sự gần gũi, tính linh hoạt và tần số lặp lại; sau này lấy phản xạ có điều kiện của Pavlov làm cơ sở thần kinh).\n- Bản chất tư duy: Tư duy là sự thay đổi tự do tập hợp các hình ảnh, liên tưởng các biểu tượng -> Tư duy luôn là 'tư duy hình ảnh' và 'tư duy tái tạo' (gồm 4 loại: giống nhau, tương phản, gần nhau về không gian - thời gian, và nhân quả). Phát triển trí tuệ chỉ là sự tích lũy định lượng các mối liên tưởng.\n- Hạn chế: Tư duy siêu hình, quy nạp hình thức, giải thích máy móc mà chưa chạm tới bản chất, cấu trúc và tính sáng tạo của trí tuệ.",
+        "Bước 2: Phân tích Trường phái Würzburg Đức (O. Külpe, O. Selz, K. Bühler)\n- Xuất phát từ triết học duy lí Đức, sử dụng thực nghiệm giải bài toán tư duy kết hợp tự quan sát nội quan chuyên nghiệp.\n- Phát hiện cốt lõi: Tư duy là hành động bên trong nhằm xem xét các 'mối quan hệ' (phi cảm tính, độc lập với biểu tượng rời rạc). Bài toán tư duy tạo ra 'tự chỉ dẫn' quy định tính lựa chọn của tư duy. O. Selz chứng minh tư duy là sự vận hành các thao tác trí tuệ (phân tích, tổng hợp, trừu tượng hóa, khái quát hóa) và giải bài toán thực chất là 'cấu trúc lại bài toán'.\n- Hạn chế: Khép kín tư duy trong tinh thần nội tại, tách rời khỏi điều kiện khách quan bên ngoài và bản chất xã hội.",
+        "Bước 3: Phân tích Tâm lí học Hình thái - Gestalt (M. Wertheimer, W. Köhler, K. Koffka)\n- Nguyên lí cấu trúc chỉnh thể: Một tổng thể có tổ chức khác về chất với tổng số các thành phần rời rạc (ví dụ bản nhạc và các nốt nhạc; quy luật Hình và Nền).\n- Cơ chế tư duy sáng tạo: Thực nghiệm trên khỉ hình người của W. Köhler chỉ ra hành động trí tuệ diễn ra theo cơ chế 'Bừng hiểu' (Insight) bất ngờ nhờ 'tổ chức lại', 'cấu trúc lại' trường tri giác khi có sự căng thẳng của tình huống có vấn đề, làm đối tượng bộc lộ thuộc tính và chức năng mới.\n- Bác bỏ vai trò tuyệt đối của kinh nghiệm cũ vì kinh nghiệm cũ có thể tạo ra 'sức ỳ chức năng'. Thành tựu này là cơ sở lí luận trực tiếp của Trắc nghiệm khuôn hình tiếp diễn của J.C. Raven."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sự Tiến Hóa Của Hướng Tiếp Cận Hành Vi: Từ Mô Hình Cơ Giới S-R Đến Thuyết S-S và Chu Trình TOTE",
+      "problem": "Hướng tiếp cận hành vi đầu thế kỉ XX đã tạo nên ảnh hưởng sâu rộng đối với tâm lí học thế giới và công nghệ dạy học hiện đại.\nHãy thực hiện phân tích chuyên sâu:\n1. Trình bày các luận điểm của Thuyết hành vi cổ điển (J. Watson, E.L. Thorndike, B.F. Skinner) về đối tượng nghiên cứu, cơ chế 'thử và sai', 'điều kiện hóa hành vi' và 3 dạng tư duy theo J. Watson.\n2. Phân tích sự phân hóa của trường phái hành vi sau Watson thành 3 nhánh (S-R, S-S của E. Tolman và TOTE của Miller - Galanter - Pribram) trên 3 tiêu chí: nhân tố phát động hành vi, kết quả học tập và phương pháp ứng xử.\n3. Đánh giá công lao khách quan hóa quy trình dạy học và hạn chế 'định mệnh xã hội' của hướng tiếp cận này.",
+      "solution_steps": [
+        "Bước 1: Thuyết hành vi cổ điển (S - R)\n- Nhằm khắc phục tính chủ quan nội quan, thuyết hành vi loại bỏ ý thức và chỉ nghiên cứu hành vi (tập hợp các phản ứng đáp lại kích thích môi trường) bằng quan sát khách quan và thực nghiệm (trên chuột, chim bồ câu rồi ngoại suy sang người).\n- Cơ chế hình thành hành vi trí tuệ là mò mẫm 'thử và sai', luyện tập và củng cố để tạo kĩ xảo. Điều khiển hành vi trí tuệ quy về sắp xếp 'môi trường các kích thích' (điều kiện hóa hành vi).\n- J. Watson đồng nhất hành vi trí tuệ với ngôn ngữ bên trong và chia tư duy thành 3 dạng: (1) kĩ xảo ngôn ngữ đơn giản; (2) giải quyết nhiệm vụ ít gặp kèm hành vi ngôn ngữ; (3) giải quyết nhiệm vụ mới phức tạp bằng ngôn ngữ trước khi hành động.",
+        "Bước 2: Đối chiếu 3 nhánh Hành vi bảo thủ (S-R), Hành vi mới (S-S) và Hành vi chủ quan (TOTE)\n- *Nhân tố phát động hành vi:* Thuyết S-R (Skinner) coi đó là kích thích/phản ứng bên ngoài; Thuyết S-S (Tolman) coi đó là biến số trung gian 'cấu trúc nhận thức'; Thuyết TOTE (Test - Operate - Test - Exit của Miller, Galanter, Pribram) coi đó là các quá trình ở trung ương thần kinh, trí nhớ, tâm thế, sự mong đợi.\n- *Kết quả học tập:* Thuyết S-R coi kết quả là kĩ xảo (trật tự cử động); Thuyết S-S coi kết quả là 'các cấu trúc nhận thức' (phản ánh tình huống).\n- *Phương pháp ứng xử:* Thuyết S-R dựa vào 'thử và sai'; Thuyết S-S phụ thuộc vào cấu trúc của tình huống khách quan; Thuyết TOTE đề cao hình ảnh, kế hoạch của phản ứng và tri thức chỉ dẫn quá trình hành vi.",
+        "Bước 3: Đánh giá giá trị và hạn chế phương pháp luận\n- *Đóng góp:* Đưa tính chặt chẽ, khách quan vào nghiên cứu tâm lí; chỉ ra nguyên tắc muốn huấn luyện chức năng tâm lí phải đưa chủ thể vào điều kiện xác định, 'thông minh hóa nội dung dạy học theo một quy trình chặt chẽ' để quan sát và kiểm soát được.\n- *Hạn chế:* Cực đoan hóa môi trường kích thích bên ngoài, xóa bỏ ý thức và coi nhẹ vai trò chủ thể tích cực của người học, dẫn đến thuyết 'định mệnh xã hội' trong dạy học và phát triển."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Học Thuyết Phát Sinh Trí Tuệ Của Jean Piaget: Cơ Chế Thích Ứng, Bản Chất Thao Tác và Các Giai Đoạn Phát Triển",
+      "problem": "Học thuyết phát sinh nhận thức, phát sinh trí tuệ của nhà tâm lí học Thụy Sĩ Jean Piaget (1896–1980) là một trong những đỉnh cao lí luận có uy tín nhất của tâm lí học thế kỉ XX.\nHãy phân tích hệ thống lí thuyết của J. Piaget:\n1. Điểm xuất phát sinh học - lôgic học, sự phân biệt giữa tri giác và trí tuệ, cùng cơ chế thích ứng qua 4 khái niệm: Sơ đồ (Scheme), Đồng hóa (Assimilation), Điều ứng (Accommodation) và Cân bằng (Equilibrium).\n2. Bản chất thao tác (Operations) của trí tuệ, 3 tính chất của thao tác và sự phát triển từ mức thao tác cụ thể lên mức thao tác hình thức.\n3. Quy luật chuyển đoạn, 4 giai đoạn phát triển trí tuệ trẻ em, 4 yếu tố chi phối sự phát triển, cùng những hạn chế về tính nội sinh đã được trường phái tâm lí học hoạt động chỉ ra.",
+      "solution_steps": [
+        "Bước 1: Chức năng bất biến và cơ chế Thích ứng (Đồng hóa - Điều ứng - Cân bằng)\n- Piaget định nghĩa trí tuệ là cấu trúc tâm lí có tính thuận nghịch, là trạng thái cân bằng cao nhất của cơ thể với môi trường; khác với tri giác (tri thức trực tiếp), trí tuệ là tri thức gián tiếp nảy sinh khi hoàn cảnh có vấn đề.\n- Hai chức năng bất biến là tính tổ chức kinh nghiệm và sự thích ứng. Sự thích ứng vận hành qua 4 khái niệm: *Sơ đồ* (cấu trúc nhận thức gồm một lớp thao tác giống nhau theo trật tự nhất định); *Đồng hóa* (đưa đặc điểm khách thể vào sơ đồ đã có, chế biến kích thích theo cấu trúc cũ -> tạo sự tăng trưởng về lượng); *Điều ứng* (biến đổi sơ đồ cũ tạo cấu trúc mới phù hợp với kích thích mới -> tạo sự phát triển về chất); và *Cân bằng* (tự cân bằng giữa đồng hóa và điều ứng).",
+        "Bước 2: Bản chất Thao tác của trí tuệ\n- Trí tuệ có bản chất thao tác và được trẻ tự kiến tạo bằng chính hành động của mình trong tương tác với đối tượng. Thao tác là hành động bên trong có tính rút gọn, nảy sinh từ hành động có đối tượng bên ngoài, tác động lên hình ảnh, biểu tượng, kí hiệu.\n- Ba tính chất của thao tác: tính thuận nghịch (réversible), tính bảo tồn (conservation) và tính liên kết (associative). Trẻ phát triển từ mức *thao tác cụ thể* (trên vật chất cụ thể, hành động thực tiễn) lên mức *thao tác hình thức* (trên kí hiệu, khái niệm, mệnh đề).",
+        "Bước 3: Các giai đoạn phát triển, yếu tố chi phối và phê phán phương pháp luận\n- Phát triển tuân theo trật tự kế tiếp hằng định qua 4 giai đoạn: (1) Cảm giác - vận động (0 đến 1,5 - 2 tuổi); (2) Tiền thao tác (1,5 - 2 đến 7 tuổi); (3) Thao tác cụ thể (7 - 8 đến 11 - 12 tuổi); (4) Thao tác hình thức (sau 11 - 12 tuổi).\n- Bốn yếu tố chi phối: trưởng thành sinh lí thần kinh; luyện tập và kinh nghiệm hành động với đối tượng; tương tác xã hội; và tính chủ thể cùng sự phối hợp chung của hành động.\n- *Hạn chế:* Quá lạm dụng thuật ngữ sinh học - toán - lôgic, bỏ qua bản chất lịch sử - văn hóa - xã hội; coi sự phát triển là nội sinh (trẻ tự phát triển rồi xã hội mới 'nhuộm màu' sau), cố định hóa lứa tuổi và đánh giá thấp vai trò định hướng của dạy học (đã được P.Ya. Galperin chứng minh phản bác bằng thực nghiệm dạy học phát triển)."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Cuộc Cách Mạng Của Tiếp Cận Hoạt Động (Vygotsky, Leontiev, Galperin) và Sự Tích Hợp Với Lí Thuyết Thông Tin Hiện Đại",
+      "problem": "Hướng tiếp cận hoạt động trong tâm lí học Xô viết (L.S. Vygotsky, A.N. Leontiev, S.L. Rubinstein, P.Ya. Galperin) được đánh giá là cuộc cách mạng thực sự trong nghiên cứu sự hình thành và phát triển trí tuệ cá nhân.\nHãy phân tích:\n1. Nền tảng triết học duy vật biện chứng và lịch sử giúp tiếp cận hoạt động nghiên cứu khách quan về ý thức thông qua hoạt động thực tiễn và hai nguyên tắc phương pháp luận trụ cột.\n2. Các thành tựu cốt lõi: sự phân biệt trí tuệ bậc thấp và trí tuệ bậc cao (vai trò công cụ tâm lí), nguồn gốc văn hóa - xã hội, quy luật 'hai lần xuất hiện' của Vygotsky, các bước chuyển hóa của Galperin, vai trò của hoạt động chủ đạo, sự hợp tác với người lớn và nguyên lí 'Dạy học đi trước sự phát triển' (Vùng phát triển gần nhất - ZPD).\n3. Cách thức vận dụng phương pháp luận của tâm lí học hoạt động để kế thừa không chiết trung các thành tựu của Tiếp cận lí thuyết thông tin - Tâm lí học nhận thức (mô hình 3 thành tố của R. Fischer và Trí tuệ nhân tạo).",
+      "solution_steps": [
+        "Bước 1: Nền tảng phương pháp luận của Tiếp cận hoạt động\n- Dựa trên triết học duy vật biện chứng và lịch sử: con người tự làm ra chính mình bằng lao động và hoạt động xã hội; tâm lí, ý thức hình thành và biểu hiện qua hoạt động thực tiễn. Chìa khóa nghiên cứu khách quan là phân tích hoạt động thực tiễn và quy luật chuyển hóa từ hoạt động vật chất bên ngoài thành hoạt động tâm lí bên trong (nội tâm hóa) và ngược lại.\n- Hai nguyên tắc phương pháp luận: Nguyên tắc gián tiếp (thông qua công cụ tâm lí / kí hiệu) và Nguyên tắc lịch sử - phát sinh.",
+        "Bước 2: Hệ thống thành tựu lí luận và giáo dục cốt lõi\n- *Cấu trúc & Nguồn gốc:* Vygotsky phân biệt trí tuệ bậc thấp (quan hệ trực tiếp S-R) và trí tuệ bậc cao (chỉ có ở người, mang tính gián tiếp qua công cụ tâm lí và ngôn ngữ). Môi trường văn hóa - xã hội là *nguồn gốc* chứ không chỉ là điều kiện phát triển.\n- *Cơ chế hình thành (Quy luật 2 lần xuất hiện):* Mọi chức năng tâm lí cấp cao đều xuất hiện 2 lần: lần đầu là hoạt động tập thể, xã hội (chức năng bên ngoài / liên cá nhân); lần thứ hai là hoạt động cá nhân, phương pháp tư duy bên trong (chức năng bên trong / nội cá nhân) qua các bước chuyển hóa theo giai đoạn (P.Ya. Galperin).\n- *Hoạt động chủ đạo & Dạy học phát triển:* Sự phát triển phụ thuộc trước hết vào hoạt động chủ đạo của từng lứa tuổi (Leontiev) và sự hợp tác giữa trẻ với người lớn (không thể phát triển kiểu Robinson). Dạy học phải đi trước sự phát triển, kéo theo sự phát triển bằng cách tác động vào *Vùng phát triển gần nhất (ZPD)*. Cần lưu ý tránh tuyệt đối hóa sự tái tạo, lặp lại để không làm hạn chế tính sáng tạo của trẻ.",
+        "Bước 3: Kế thừa Tiếp cận lí thuyết thông tin - Tâm lí học nhận thức trên lập trường duy vật biện chứng\n- Tiếp cận thông tin (từ những năm 1950 với Turing, Neumann, Newell, Simon, Minsky, McCarthy, Tulving, Fischer) làm sáng tỏ cơ chế xử lí thông tin của não bộ qua 3 thành tố của R. Fischer (1992): Thành tố tiếp nhận thông tin (Đầu vào), Thành tố thể hiện (Đầu ra), và Thành tố điều khiển (Siêu thành tố: điều khiển trí nhớ, lập kế hoạch, ra quyết định) cùng sự đa dạng các loại hình trí tuệ và mô phỏng AI.\n- Đứng trên lập trường duy vật biện chứng và nguyên tắc của tâm lí học hoạt động giúp ta tích hợp tinh hoa của thuyết xử lí thông tin, Gestalt và Piaget một cách nhất quán, khoa học mà không rơi vào chủ nghĩa chiết trung, máy móc."
+      ]
+    }
+  ]
+}

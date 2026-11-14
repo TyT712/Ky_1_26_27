@@ -1,0 +1,1398 @@
+{
+  "chapter_id": "chuong_5",
+  "chapter_title": "Chương 5: Các phương pháp nghiên cứu trí tuệ trong tâm lí học",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Theo giải thích của Nguyễn Khắc Viện (1991), thuật ngữ 'trắc nghiệm' (Test) trong tâm lí học khác với các phép thử thông thường ở điểm cốt lõi nào?",
+      "options": {
+        "A": "Trắc nghiệm trong tâm lí học bắt buộc phải là một hệ thống phép thử đã được chuẩn hóa chặt chẽ về kĩ thuật, nội dung và quy trình để làm công cụ đo lường tâm lí.",
+        "B": "Trắc nghiệm trong tâm lí học chỉ áp dụng cho việc đo lường các chỉ số sinh lí cơ thể như nhịp tim và huyết áp chứ không đo lường các nét nhân cách.",
+        "C": "Trắc nghiệm trong tâm lí học là phương pháp quan sát trực giác của nhà nghiên cứu mà không cần bất kì tiêu chuẩn kĩ thuật hay phép đo khách quan nào.",
+        "D": "Trắc nghiệm trong tâm lí học chỉ là những câu hỏi phỏng vấn tự do không cần quy định thời gian hay thang điểm đối chiếu trên nhóm mẫu đại diện nào."
+      },
+      "correct_answer": "A",
+      "explanation": "Nguyễn Khắc Viện (1991) chỉ rõ không phải phép thử nào cũng là trắc nghiệm; trong tâm lí học, trắc nghiệm phải là phép thử đã được chuẩn hóa về kĩ thuật, nội dung và cách làm."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Trong định nghĩa của nhà tâm lí học K.M. Gurevich (1970), mục đích thực tiễn chủ yếu của trắc nghiệm tâm - sinh lí đã được chuẩn hóa là gì?",
+      "options": {
+        "A": "Dùng để xác lập sự khác biệt giữa các cá nhân về trí tuệ, nhân cách và những năng lực chuyên môn phù hợp với mục đích thực tiễn của nhà nghiên cứu.",
+        "B": "Dùng để thay thế hoàn toàn vai trò giảng dạy của giáo viên trong nhà trường bằng các bài tập tự động hóa không cần tương tác sư phạm.",
+        "C": "Dùng để chứng minh rằng mọi cá nhân trong cùng một nền văn hóa đều có năng lực tư duy lôgic và cấu trúc nhân cách giống hệt nhau tuyệt đối.",
+        "D": "Dùng để điều trị trực tiếp các tổn thương thực thể ở vỏ não mà không cần kết hợp với bất kì biện pháp y học hay phục hồi chức năng nào khác theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại."
+      },
+      "correct_answer": "A",
+      "explanation": "K.M. Gurevich (1970) định nghĩa trắc nghiệm là thử nghiệm tâm - sinh lí chuẩn hóa, thường giới hạn thời gian, nhằm xác lập sự khác biệt cá nhân về trí tuệ, nhân cách và năng lực chuyên môn."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Theo định nghĩa của F.S. Freeman (1971), trắc nghiệm tâm lí đo lường khách quan các khía cạnh của nhân cách hoàn chỉnh thông qua những dữ liệu nào?",
+      "options": {
+        "A": "Thông qua việc phân tích các giấc mơ vô thức của người bệnh mà hoàn toàn không sử dụng đến bất kì mẫu hành vi hay bài tập chuẩn hóa nào khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "B": "Thông qua việc đo đạc kích thước hộp sọ và cấu trúc xương mặt của đối tượng nghiên cứu bằng các dụng cụ giải phẫu học cổ điển.",
+        "C": "Thông qua những mẫu trả lời bằng ngôn ngữ, các mẫu trả lời phi ngôn ngữ hoặc thông qua những loại hành vi khác của nghiệm thể trong điều kiện tiêu chuẩn.",
+        "D": "Thông qua lời kể chủ quan của người thân trong gia đình mà không cần sự có mặt hay thực hiện trực tiếp của bản thân nghiệm thể."
+      },
+      "correct_answer": "C",
+      "explanation": "F.S. Freeman (1971) nhấn mạnh trắc nghiệm tâm lí đo lường khách quan nhân cách hoàn chỉnh qua các mẫu trả lời bằng ngôn ngữ, phi ngôn ngữ hoặc các loại hành vi khác."
+    },
+    {
+      "id": 4,
+      "difficulty": "medium",
+      "question": "Trong bốn tiêu chuẩn của một trắc nghiệm chuẩn hóa, tiêu chuẩn 'Độ ứng nghiệm' (Validity - tính hiệu quả) đòi hỏi công cụ đo phải thỏa mãn hai phương diện nào?",
+      "options": {
+        "A": "Vừa phải cho phép nghiệm viên tự ý gợi ý đáp án cho thí sinh yếu, vừa phải giữ nguyên điểm số tuyệt đối không cần đối chiếu với nhóm mẫu chuẩn.",
+        "B": "Vừa phải sử dụng hoàn toàn bằng ngôn ngữ bác học trừu tượng, vừa phải loại bỏ toàn bộ các bài tập sử dụng hình ảnh minh họa hay thao tác xếp hình trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "C": "Vừa phải có số lượng câu hỏi thật lớn vượt quá năm trăm mục, vừa phải đảm bảo thời gian làm bài kéo dài liên tục trong nhiều ngày liền.",
+        "D": "Vừa phải đo được đúng yếu tố tâm lí mà ta định đo, vừa phải đo được khả năng của yếu tố đó đúng như hiệu suất của nó trong hoạt động thực tiễn thường ngày."
+      },
+      "correct_answer": "D",
+      "explanation": "Độ ứng nghiệm (Validity) gồm hai mặt: đo đúng yếu tố tâm lí cần đo và phản ánh đúng hiệu suất của yếu tố đó trong hoạt động thực tiễn hàng ngày (tương quan gần 1)."
+    },
+    {
+      "id": 5,
+      "difficulty": "hard",
+      "question": "Vì sao tiêu chuẩn 'Độ ứng nghiệm' (Validity) lại là tiêu chuẩn dễ bị vi phạm nhất khi đem một trắc nghiệm chuẩn hóa ở nền văn hóa này áp dụng sang nền văn hóa khác?",
+      "options": {
+        "A": "Vì cấu trúc giải phẫu của hệ thần kinh trung ương và số lượng bán cầu não ở trẻ em các dân tộc khác nhau có sự khác biệt hoàn toàn về mặt sinh học.",
+        "B": "Vì phần lớn các bài tập trắc nghiệm (nhất là trắc nghiệm dùng lời) phản ánh tri thức, ngôn ngữ và kinh nghiệm đặc thù của nền văn hóa nơi nó được xây dựng nên dễ đo nhầm vốn văn hóa thay vì trí tuệ thực.",
+        "C": "Vì máy tính xử lí thống kê ở các quốc gia khác nhau sử dụng những hệ đếm toán học hoàn toàn khác nhau khiến công thức tính độ lệch chuẩn bị sai lệch.",
+        "D": "Vì các nhà tâm lí học ở nền văn hóa tiếp nhận thường tự ý rút ngắn thời gian làm bài xuống còn một nửa so với quy định ban đầu của bản hướng dẫn."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nêu rõ độ ứng nghiệm dễ bị vi phạm nhất khi chuyển giao giữa các nền văn hóa (đặc biệt với test ngôn ngữ), do đó cần giới hạn phạm vi ứng dụng và tăng cường test phi ngôn ngữ."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "Để kiểm tra và xác định 'Độ tin cậy / Độ trung thành' (Fidelity) của một bộ trắc nghiệm trí tuệ, các nhà tâm lí học thường sử dụng hai phương pháp kĩ thuật nào?",
+      "options": {
+        "A": "Tính tổng số trang giấy của bản hướng dẫn quy trình hoặc đếm số lượng từ vựng chuyên ngành xuất hiện trong phần lời dẫn của nghiệm viên.",
+        "B": "Tính hệ số tương quan giữa hai lần thử nghiệm lặp lại (test-retest) trên cùng đối tượng hoặc tính hệ số tương quan giữa hai nửa của cùng một trắc nghiệm (split-half).",
+        "C": "Tính tỉ lệ phần trăm thí sinh bỏ cuộc giữa chừng hoặc so sánh trực tiếp điểm số của trẻ em sáu tuổi với điểm số của người trưởng thành bốn mươi tuổi theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "D": "Tính hiệu số giữa điểm cao nhất của nhóm trẻ thành thị và điểm thấp nhất của nhóm trẻ nông thôn trong lần khảo sát đầu tiên duy nhất."
+      },
+      "correct_answer": "B",
+      "explanation": "Độ trung thành (Fidelity) được xác định qua hệ số tương quan giữa các lần đo lặp lại (test-retest) hoặc giữa hai nửa bài trắc nghiệm (split-half), và có thể tăng bằng cách tăng số lượng bài tập."
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "question": "Tiêu chuẩn 'Độ phân biệt' (Difference) của một bản trắc nghiệm trí tuệ chuẩn hóa thể hiện năng lực gì của công cụ đo lường?",
+      "options": {
+        "A": "Khả năng chỉ sử dụng một loại hình thức nghiệm pháp duy nhất bằng ngôn ngữ viết cho cả trẻ chưa biết chữ lẫn sinh viên đại học.",
+        "B": "Khả năng loại bỏ tất cả các câu hỏi khó ra khỏi bộ đề thi để đảm bảo mọi thí sinh tham gia đều đạt được điểm tối đa như nhau.",
+        "C": "Khả năng đo lường và phát hiện được những sự khác biệt nhỏ nhất giữa các yếu tố tâm lí bên trong một nghiệm thể và giữa các nghiệm thể khác nhau trong nhóm.",
+        "D": "Khả năng phân loại tự động trẻ em theo giới tính và thu nhập kinh tế của gia đình mà không cần tiến hành chấm điểm các bài tập nhận thức khi đánh giá năng lực nhận thức của đối tượng nghiên cứu."
+      },
+      "correct_answer": "C",
+      "explanation": "Độ phân biệt (Difference) là khả năng của trắc nghiệm trong việc phát hiện những khác biệt tinh tế giữa các yếu tố tâm lí trong cùng một cá nhân và giữa các cá nhân khác nhau."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "Tiêu chuẩn 'Tính quy chuẩn' (Standardize) yêu cầu điều gì đối với việc xây dựng và áp dụng một bộ trắc nghiệm tâm lí cho một quần thể?",
+      "options": {
+        "A": "Trắc nghiệm chỉ cần thử nghiệm trên một cá nhân xuất sắc duy nhất rồi lấy điểm số của cá nhân đó làm chuẩn mực chung cho toàn xã hội.",
+        "B": "Trắc nghiệm phải mang tính phổ biến để áp dụng cho một quần thể người dựa trên các tiêu chuẩn được định chuẩn từ một nhóm mẫu đại diện cho chính quần thể đó.",
+        "C": "Trắc nghiệm phải cho phép mỗi nghiệm viên tự do thay đổi nội dung câu hỏi và thời gian làm bài tùy theo cảm hứng cá nhân tại phòng thi.",
+        "D": "Trắc nghiệm chỉ được phép lưu hành nội bộ cho một nhóm nhỏ dưới năm người và tuyệt đối không được công bố thang điểm hay khóa chấm bài trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ."
+      },
+      "correct_answer": "B",
+      "explanation": "Tính quy chuẩn (Standardize) bảo đảm trắc nghiệm dùng phổ biến cho một quần thể dựa trên bảng chuẩn xây dựng từ nhóm mẫu đại diện cho quần thể đó."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Theo quan điểm phân biệt được nêu trong Chương 5, 'Đo lường tâm lí' (Psychometry) và 'Chẩn đoán tâm lí' (Psychodiagnostic) khác nhau cơ bản ở điểm nào?",
+      "options": {
+        "A": "Đo lường tâm lí hoàn toàn không sử dụng toán học thống kê, còn chẩn đoán tâm lí chỉ dựa vào duy nhất một bài trắc nghiệm viết trong mười phút.",
+        "B": "Đo lường tâm lí chỉ lượng hóa hiện trạng các yếu tố tâm lí theo chuẩn đã định, còn chẩn đoán tâm lí thu thập tư liệu đa phương pháp để kết luận bản chất và dự báo xu thế phát triển.",
+        "C": "Đo lường tâm lí luôn đi sau quá trình trị liệu giáo dục, còn chẩn đoán tâm lí chỉ quan tâm đến các triệu chứng thể chất bên ngoài của người bệnh.",
+        "D": "Đo lường tâm lí chỉ dùng cho động vật thực nghiệm trong phòng thí nghiệm, còn chẩn đoán tâm lí chỉ dùng cho các bài thi tuyển dụng nhân sự doanh nghiệp."
+      },
+      "correct_answer": "B",
+      "explanation": "Đo lường tâm lí lượng hóa hiện trạng bằng phương tiện khách quan và thống kê, trong khi chẩn đoán tâm lí phối hợp nhiều phương pháp để hiểu bản chất và dự báo xu thế phát triển."
+    },
+    {
+      "id": 10,
+      "difficulty": "hard",
+      "question": "Theo Trần Trọng Thủy (1992), bất kì một kết luận chẩn đoán tâm lí khoa học nào cũng phải đáp ứng đầy đủ ba điều kiện chung nào sau đây?",
+      "options": {
+        "A": "Vạch ra cái đặc trưng của cá nhân trên sơ đồ thống nhất, bao hàm cả sự dự đoán xu thế chứ không chỉ xác nhận cái hiện có, và trình bày bằng khái niệm giải thích hành vi.",
+        "B": "Chỉ tập trung vào việc so sánh cân nặng chiều cao của trẻ em, loại bỏ các tài liệu quan sát định tính và áp đặt định mức điểm của người lớn lên trẻ nhỏ.",
+        "C": "Chỉ mô tả đơn thuần điểm số IQ thô của thí sinh, tuyệt đối không đưa ra bất kì dự đoán nào về tương lai và giữ bí mật hoàn toàn cơ sở lí luận.",
+        "D": "Chỉ sử dụng một bài trắc nghiệm ngôn ngữ duy nhất, tách rời phẩm chất cá nhân khỏi các thuộc tính tâm lí khác và tránh mọi khái niệm giải thích nguyên nhân theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại."
+      },
+      "correct_answer": "A",
+      "explanation": "Trần Trọng Thủy (1992) nêu 3 điều kiện của chẩn đoán tâm lí: (1) vạch ra cái đặc trưng cá nhân theo sơ đồ thống nhất; (2) bao gồm dự đoán; (3) dùng khái niệm giải thích hành vi."
+    },
+    {
+      "id": 11,
+      "difficulty": "hard",
+      "question": "Trong phép ẩn dụ 'người làm vườn' nổi tiếng của L.S. Vygotsky (1982) khi phê phán việc đồng nhất đo lường triệu chứng với chẩn đoán phát triển, ông muốn nhấn mạnh điều gì?",
+      "options": {
+        "A": "Nhà tâm lí học không nên can thiệp hay gợi mở gì cho trẻ trong quá trình kiểm tra mà chỉ đứng ngoài ghi chép lại những sai sót đã xảy ra.",
+        "B": "Nhà tâm lí học không chỉ đếm những quả đã chín (trình độ hiện tại) mà phải đánh giá cả những quả chưa chín và sắp chín (vùng phát triển gần nhất đang hình thành).",
+        "C": "Nhà tâm lí học phải coi sự phát triển trí tuệ của trẻ giống như cây trồng tự nhiên không chịu bất kì ảnh hưởng nào từ hoạt động dạy học và giao tiếp xã hội khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "D": "Nhà tâm lí học chỉ cần thống kê chính xác số lượng kiến thức học sinh đã thuộc lòng ở thời điểm thi để xếp loại năng lực cố định suốt đời."
+      },
+      "correct_answer": "B",
+      "explanation": "Vygotsky ví nhà tâm lí học như người làm vườn: không chỉ dựa vào quả đã chín để tính sản lượng mà phải đánh giá những quả đang chín, sắp chín (cái đang hình thành trong ZPD)."
+    },
+    {
+      "id": 12,
+      "difficulty": "easy",
+      "question": "Khái niệm 'Tuổi trí khôn' hay 'Tuổi trí tuệ' (Mental Age - MA) được nhà tâm lí học Pháp Alfred Binet đưa ra vào năm 1905 được xác định dựa trên cơ sở nào?",
+      "options": {
+        "A": "Được xác định bằng cách đo tổng trọng lượng não bộ và mật độ tế bào thần kinh ở vỏ não trán của đứa trẻ bằng phương pháp giải phẫu hình ảnh trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "B": "Được xác định hoàn toàn dựa vào lời đánh giá cảm tính của cha mẹ về sự nhanh nhẹn của đứa trẻ trong sinh hoạt gia đình hàng ngày.",
+        "C": "Được xác định bằng cách đối chiếu kết quả thực hiện trắc nghiệm của một đứa trẻ với kết quả của những trẻ em phát triển ở mức trung bình trong cùng quần thể tuổi đời.",
+        "D": "Được xác định bằng cách lấy số năm đi học chính quy của đứa trẻ cộng thêm số lượng từ vựng tiếng mẹ đẻ mà đứa trẻ đọc được trong một phút."
+      },
+      "correct_answer": "C",
+      "explanation": "A. Binet (1905) đề xuất khái niệm Tuổi trí khôn (MA), xác định qua việc so sánh kết quả làm trắc nghiệm của trẻ với mức trung bình của quần thể trẻ cùng tuổi đời (tính theo tháng)."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Hạn chế lớn nhất của khái niệm 'Tuổi trí tuệ' (MA) đơn thuần khi đánh giá mức độ phát triển trí tuệ giữa các lứa tuổi khác nhau là gì?",
+      "options": {
+        "A": "Không phản ánh được sự chênh lệch về ý nghĩa và nhịp độ tiến bộ trí tuệ giữa các lứa tuổi khác nhau khi có cùng một khoảng chênh lệch tuyệt đối theo tháng.",
+        "B": "Luôn tạo ra những con số âm khiến các nhà giáo dục không thể sắp xếp học sinh vào các lớp học phù hợp với trình độ nhận thức.",
+        "C": "Không thể áp dụng được cho trẻ em biết đọc và biết viết ở bậc tiểu học mà chỉ dùng được cho trẻ sơ sinh trong sáu tháng đầu đời.",
+        "D": "Đòi hỏi phải sử dụng các thiết bị điện tử siêu âm hiện đại nên không thể triển khai được tại các trường học thông thường ở đầu thế kỉ XX."
+      },
+      "correct_answer": "A",
+      "explanation": "Cùng một mức chênh 30 tháng tuổi trí tuệ, ở trẻ 5 tuổi đời tương đương tỉ lệ rất lớn (1/2 hoặc gấp rưỡi), nhưng ở trẻ 12,5 tuổi chỉ bằng 1/5 tuổi thực — tuổi trí tuệ đơn thuần không lột tả được điều này."
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "question": "Năm 1912, nhà tâm lí học người Đức W. Stern đã đưa ra công thức tính chỉ số thông minh (IQ - Intelligence Quotient) ban đầu như thế nào?",
+      "options": {
+        "A": "Tính bằng tỉ số giữa Tuổi trí tuệ (MA) chia cho Tuổi đời thực tế (CA) rồi nhân kết quả với một trăm để tạo thành chỉ số phần trăm.",
+        "B": "Tính bằng tích số giữa số lượng câu trả lời đúng nhân với thời gian hoàn thành bài thi rồi cộng thêm một trăm điểm cơ sở.",
+        "C": "Tính bằng hiệu số giữa điểm bài thi cá nhân trừ đi điểm trung bình của nhóm mẫu chuẩn rồi chia cho độ lệch chuẩn của nhóm theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "D": "Tính bằng trung bình cộng của điểm môn Toán và điểm môn Ngữ văn trên học bạ phổ thông trong suốt năm năm tiểu học."
+      },
+      "correct_answer": "A",
+      "explanation": "Công thức IQ tỉ lệ của W. Stern (1912): IQ = (Tuổi trí tuệ / Tuổi đời) × 100."
+    },
+    {
+      "id": 15,
+      "difficulty": "medium",
+      "question": "Vì sao công thức tính IQ tỉ lệ của W. Stern (1912) lại tỏ ra kém hiệu quả và thiếu chính xác khi dùng để đo lường trí tuệ của người trưởng thành?",
+      "options": {
+        "A": "Vì người trưởng thành luôn có tuổi trí tuệ thấp hơn trẻ em sáu tuổi do quá trình lão hóa tự nhiên của hệ thống giác quan ngoại biên.",
+        "B": "Vì tuổi đời của người lớn vẫn tiếp tục tăng tuyến tính theo thời gian trong khi điểm tuổi trí tuệ trên thang đo lại ngừng tăng trưởng ở ngưỡng trưởng thành.",
+        "C": "Vì công thức của W. Stern chỉ cho phép tính toán bằng đơn vị ngày chứ không cho phép quy đổi tuổi đời sang đơn vị tháng hay năm.",
+        "D": "Vì người trưởng thành thường từ chối hợp tác làm bài trắc nghiệm nếu trong bản hướng dẫn có chứa các phép tính nhân chia số học đơn giản khi đánh giá năng lực nhận thức của đối tượng nghiên cứu."
+      },
+      "correct_answer": "B",
+      "explanation": "Ở người lớn, tuổi đời (mẫu số) tiếp tục tăng lên không ngừng trong khi điểm tuổi trí tuệ (tử số) chững lại, làm cho tỉ số IQ theo công thức Stern bị méo mó."
+    },
+    {
+      "id": 16,
+      "difficulty": "medium",
+      "question": "Công thức tính IQ độ lệch của nhà tâm lí học Mỹ David Wechsler (1955) đã khắc phục hạn chế của công thức W. Stern bằng cách thức toán học nào?",
+      "options": {
+        "A": "Lấy tổng số bài tập đúng nhân với tuổi đời thực tế của nghiệm thể, sau đó trừ đi hệ số sai số văn hóa của từng địa phương.",
+        "B": "So sánh độ lệch điểm số cá nhân (X) so với điểm trung bình nhóm mẫu (Xtb) chia cho độ lệch chuẩn (d), rồi nhân với 15 và cộng thêm 100.",
+        "C": "Lấy điểm cao nhất trong nhóm tuổi làm chuẩn một trăm phần trăm và quy đổi tất cả các cá nhân còn lại theo tỉ lệ nghịch với thời gian làm bài.",
+        "D": "Chia đôi điểm số của phần trắc nghiệm ngôn ngữ với điểm số của phần trắc nghiệm xếp hình rồi nhân trực tiếp với hằng số mười sáu."
+      },
+      "correct_answer": "B",
+      "explanation": "David Wechsler (1955) đưa ra công thức IQ độ lệch: IQ = [(X - Xtb) / d] × 15 + 100, loại bỏ sự phụ thuộc tuyến tính vào tuổi đời."
+    },
+    {
+      "id": 17,
+      "difficulty": "medium",
+      "question": "Theo quan điểm của R. Shaffer (1992) về bản chất chỉ số IQ, phép so sánh IQ với 'nhiệt độ của bệnh nhân' nhằm khẳng định luận điểm khoa học nào?",
+      "options": {
+        "A": "IQ là một chỉ số di truyền sinh học cố định tuyệt đối ngay từ lúc mới sinh và không bao giờ thay đổi dưới tác động của giáo dục.",
+        "B": "IQ chỉ là một ước tính về kết quả thực hiện bài kiểm tra tại một thời điểm xác định, hoàn toàn không phải là hằng số bất biến hay cái mác gắn suốt đời.",
+        "C": "IQ chỉ tăng giảm theo mùa khí hậu trong năm chứ không phản ánh bất kì sự biến đổi nào về trình độ nhận thức hay kĩ năng giải quyết vấn đề.",
+        "D": "IQ có thể đo được chính xác bằng nhiệt kế y tế thông thường trong vòng năm phút mà không cần sử dụng các bài tập trí tuệ chuẩn hóa."
+      },
+      "correct_answer": "B",
+      "explanation": "R. Shaffer (1992) ví IQ như nhiệt độ bệnh nhân đối với thầy thuốc: cung cấp chỉ báo tại thời điểm đo chứ không khẳng định sự vĩnh viễn hay bất biến suốt đời."
+    },
+    {
+      "id": 18,
+      "difficulty": "easy",
+      "question": "Đối với trẻ nhỏ dưới 3 tuổi (đặc biệt là dưới 2 tuổi), vì sao các nhà tâm lí học thường sử dụng 'Chỉ số phát triển' (DQ) thay cho chỉ số thông minh (IQ)?",
+      "options": {
+        "A": "Vì trẻ em dưới 3 tuổi đã phát triển hoàn thiện hệ thống thao tác tư duy hình thức nên thang đo IQ thông thường không còn đủ độ khó để phân biệt theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "B": "Vì ở lứa tuổi này trí khôn còn sơ đẳng và biến động rất nhanh trên bình diện Tâm - vận động, nên cần dùng DQ để đo mức độ thực hiện lịch trình phát triển tâm - vận động.",
+        "C": "Vì các nhà tâm lí học chưa xây dựng được bất kì quy trình quan sát hành vi nào cho trẻ sơ sinh và trẻ hài nhi trong ba năm đầu đời.",
+        "D": "Vì chỉ số DQ cho phép dự đoán chính xác ngành nghề tương lai và mức thu nhập của đứa trẻ khi trưởng thành mà không cần kiểm tra lại."
+      },
+      "correct_answer": "B",
+      "explanation": "Dưới 3 tuổi, trẻ phát triển nhanh trên bình diện tâm - vận động nên dùng chỉ số phát triển DQ (Developmental Quotient); IQ thường chỉ đo cho trẻ từ 3–4 tuổi trở lên."
+    },
+    {
+      "id": 19,
+      "difficulty": "medium",
+      "question": "Trên đường cong phân phối chuẩn (hình quả chuông Gauss) của điểm số IQ trong quần thể, tỉ lệ phần trăm số người có mức 'trí tuệ bình thường' nằm trong khoảng ±1 độ lệch chuẩn (±1d) là bao nhiêu?",
+      "options": {
+        "A": "Chiếm khoảng 68,2% số lượng nghiệm thể trong toàn bộ quần thể phân phối chuẩn xoay quanh giá trị trung bình 100 điểm IQ.",
+        "B": "Chiếm khoảng 99,73% số lượng nghiệm thể trong toàn bộ quần thể, chỉ để lại một tỉ lệ cực nhỏ nằm ngoài khoảng phân loại bình thường.",
+        "C": "Chiếm đúng 25,0% số lượng nghiệm thể trong quần thể, tương ứng với một phần tư diện tích nằm dưới đường cong phân phối chuẩn.",
+        "D": "Chiếm khoảng 15,0% số lượng nghiệm thể trong quần thể, phần lớn còn lại rơi vào hai cực ưu tú xuất sắc hoặc chậm phát triển nặng."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo tính chất đường cong phân phối chuẩn Gauss trong giáo trình, khoảng ±1d quanh mức trung bình chiếm khoảng 68,2% số nghiệm thể (mức trí tuệ bình thường)."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "question": "Sự khác biệt về giá trị của một độ lệch chuẩn (1d) và ngưỡng điểm phân loại mức 'Ưu tú' giữa thang đo Stanford - Binet và thang đo Wechsler (theo Godefroid, 1987) là gì?",
+      "options": {
+        "A": "Cả hai thang đo Stanford - Binet và Wechsler đều quy định cứng 1d = 15 điểm và đều ấn định mức Ưu tú bắt đầu từ ngưỡng trên 145 điểm IQ.",
+        "B": "Thang Stanford - Binet có 1d = 15 điểm với mức Ưu tú là > 129 điểm, còn thang Wechsler có 1d = 16 điểm với mức Ưu tú là > 139 điểm.",
+        "C": "Thang Stanford - Binet có 1d = 16 điểm với mức Ưu tú là > 139 điểm (chiếm 1%), còn thang Wechsler có 1d = 15 điểm với mức Ưu tú là > 129 điểm (chiếm 2,2%).",
+        "D": "Thang Stanford - Binet có 1d = 10 điểm với mức Ưu tú là > 110 điểm (chiếm 10%), còn thang Wechsler có 1d = 20 điểm với mức Ưu tú là > 160 điểm (chiếm 0,5%)."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo bảng phân loại của Godefroid (1987) trong giáo trình: Stanford - Binet dùng 1d = 16 (>139 là Ưu tú, 1%), còn Wechsler dùng 1d = 15 (>129 là Ưu tú, 2,2%)."
+    },
+    {
+      "id": 21,
+      "difficulty": "easy",
+      "question": "Theo bảng phân loại mức độ trí tuệ của cả Stanford - Binet và Wechsler (Godefroid, 1987), khoảng điểm IQ nào được xếp vào mức 'Trung bình'?",
+      "options": {
+        "A": "Khoảng điểm từ 90 đến 109 điểm IQ, chiếm 46% dân số theo bảng Stanford - Binet và chiếm 50,0% dân số theo bảng Wechsler.",
+        "B": "Khoảng điểm từ 70 đến 89 điểm IQ, chiếm khoảng 21% dân số và thường được xếp vào nhóm cần phải giáo dục chuyên biệt riêng.",
+        "C": "Khoảng điểm từ 50 đến 69 điểm IQ, chiếm khoảng 3% dân số và tương ứng với những trẻ gặp khó khăn nghiêm trọng trong học tập.",
+        "D": "Khoảng điểm từ 110 đến 129 điểm IQ, chiếm khoảng 29% dân số và đại diện cho nhóm có năng lực tư duy vượt trội rõ rệt."
+      },
+      "correct_answer": "A",
+      "explanation": "Cả hai bảng Stanford - Binet (46%) và Wechsler (50%) đều xếp khoảng IQ từ 90 đến 109 vào mức Trung bình."
+    },
+    {
+      "id": 22,
+      "difficulty": "medium",
+      "question": "Theo giáo trình, sự biến đổi của chỉ số IQ ở cùng một cá nhân theo thời gian (không bất biến) phản ánh quy luật tâm lí nào sau đây?",
+      "options": {
+        "A": "Chứng minh rằng các công cụ trắc nghiệm hiện đại đều hoàn toàn vô giá trị và không thể đo được bất kì đặc điểm tâm lí nào của con người.",
+        "B": "Phản ánh vai trò tích cực của hoạt động chủ thể và sự thay đổi của điều kiện môi trường sống, đồng thời chứng minh trí tuệ không bị đóng khung bẩm sinh.",
+        "C": "Cho thấy người có chỉ số IQ cao ở tuổi mầm non chắc chắn sẽ bị suy giảm xuống mức chậm phát triển khi bước vào độ tuổi trưởng thành.",
+        "D": "Khẳng định rằng chỉ số IQ của con người chỉ biến đổi ngẫu nhiên theo thời tiết chứ không chịu ảnh hưởng của quá trình học tập và rèn luyện theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại."
+      },
+      "correct_answer": "B",
+      "explanation": "Sự biến đổi của IQ chứng tỏ vai trò của hoạt động chủ thể và môi trường sống trong sự phát triển trí tuệ cá nhân."
+    },
+    {
+      "id": 23,
+      "difficulty": "medium",
+      "question": "Trong thực tiễn tuyển chọn và sử dụng nhân lực hiện đại, giáo trình lưu ý cần phải đặt chỉ số IQ trong mối tương quan với yếu tố nào để đạt hiệu quả?",
+      "options": {
+        "A": "Chỉ cần đặt chỉ số IQ trong mối tương quan với chiều cao, cân nặng và nhóm máu di truyền của ứng viên mà không cần phỏng vấn trực tiếp khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "B": "Cần loại bỏ hoàn toàn việc đánh giá chỉ số IQ và chỉ tuyển dụng dựa trên bài kiểm tra tốc độ đánh máy hoặc trí nhớ máy móc thuần túy.",
+        "C": "Cần đặt chỉ số IQ trong mối tương quan chặt chẽ với chỉ số trí tuệ cảm xúc (EQ) cùng các phẩm chất nhân cách và động cơ hoạt động của cá nhân.",
+        "D": "Chỉ cần sử dụng duy nhất điểm số IQ theo công thức tỉ lệ năm 1912 để quyết định bổ nhiệm vào mọi vị trí lãnh đạo cấp cao."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 5.1.1 nhấn mạnh cần đặt IQ trong tương quan với EQ để đánh giá, tuyển chọn và sử dụng nhân lực hiệu quả, vì IQ đơn lẻ không đảm bảo thành công thực tiễn."
+    },
+    {
+      "id": 24,
+      "difficulty": "hard",
+      "question": "Trong quy tắc '3d' (3 độ lệch chuẩn) của phân phối chuẩn Gauss đối với kết quả đo lường trí tuệ, tỉ lệ phần trăm các giá trị nằm ngoài khoảng ±3d là bao nhiêu?",
+      "options": {
+        "A": "Có tới khoảng 31,8% các giá trị nằm ngoài khoảng ±3d, tạo thành hai đỉnh cực trị tách biệt hoàn toàn với vùng trung tâm của đồ thị trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "B": "Có khoảng 15,5% các giá trị nằm ngoài khoảng ±3d, phân bố đều sang hai phía của trục hoành bất kể kích thước nhóm mẫu lớn hay nhỏ.",
+        "C": "Có đúng 5,0% các giá trị nằm ngoài khoảng ±3d, tương ứng với ngưỡng xác suất sai số chuẩn trong các thí nghiệm vật lí cổ điển.",
+        "D": "Chỉ có khoảng 0,27% các giá trị nằm ngoài khoảng ±3d, còn hầu hết các cá nhân trong quần thể đều phân bố tập trung trong phạm vi 6 độ lệch chuẩn."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo quy tắc 3d (3 sigma) trong giáo trình: hầu hết các giá trị nằm trong khoảng 6d (±3d), chỉ có khoảng 0,27% nằm ngoài phạm vi này."
+    },
+    {
+      "id": 25,
+      "difficulty": "medium",
+      "question": "Theo L.S. Vygotsky (1982), vì sao công việc đo lường triệu chứng bằng trắc nghiệm chỉ là một 'trường hợp riêng, cụ thể' của chẩn đoán tâm lí?",
+      "options": {
+        "A": "Vì đo lường chỉ dừng lại ở việc ghi nhận hiện trạng triệu chứng tại một thời điểm tĩnh, trong khi chẩn đoán phát triển nghiên cứu toàn bộ động thái quá trình qua các giai đoạn.",
+        "B": "Vì đo lường triệu chứng chỉ dùng được cho bệnh nhân tâm thần phân liệt ở bệnh viện, còn chẩn đoán tâm lí chỉ dùng cho sinh viên đại học.",
+        "C": "Vì đo lường triệu chứng luôn cho kết quả sai lệch một trăm phần trăm so với thực tế, nên không bao giờ được phép sử dụng trong nghiên cứu khoa học.",
+        "D": "Vì chẩn đoán tâm lí chỉ sử dụng phương pháp phỏng vấn cha mẹ học sinh mà hoàn toàn bài trừ mọi công cụ thống kê hay bài tập trắc nghiệm chuẩn hóa."
+      },
+      "correct_answer": "A",
+      "explanation": "Vygotsky (1982) phân biệt đo lường triệu chứng (tĩnh tại một thời điểm) chỉ là trường hợp riêng của chẩn đoán phát triển (nghiên cứu toàn bộ quá trình, động thái bình thường và bất thường)."
+    },
+    {
+      "id": 26,
+      "difficulty": "easy",
+      "question": "Một bộ trắc nghiệm trí tuệ chuẩn hóa hoàn chỉnh bao gồm hai bộ phận cấu thành chính nào sau đây?",
+      "options": {
+        "A": "Thiết bị ghi âm giọng nói tự động của nghiệm thể và Phần mềm phân tích sóng điện não đồ chuyên dụng trong bệnh viện.",
+        "B": "Danh sách các bài tập tự luận dài hàng chục trang và Bảng điểm tổng kết học tập của cả học kì trước của thí sinh.",
+        "C": "Bản trắc nghiệm (chứa nội dung tâm lí và hệ thống bài tập) và Bản hướng dẫn quy trình thực hiện (chỉ dẫn tiến hành, chấm điểm và bảng chuẩn).",
+        "D": "Bản câu hỏi trắc nghiệm bằng tiếng Latinh cổ điển và Bản cam kết bảo mật danh tính của toàn bộ giáo viên trong nhà trường theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 5.1.2 nêu rõ cấu tạo của trắc nghiệm gồm 2 bộ phận: (1) Bản trắc nghiệm (5.1.2.1) và (2) Bản hướng dẫn quy trình thực hiện (5.1.2.2)."
+    },
+    {
+      "id": 27,
+      "difficulty": "medium",
+      "question": "Trong cấu tạo của Bản trắc nghiệm, 'Nội dung tâm lí' của các bài tập (items) thực chất được tạo ra bằng cách thức nào?",
+      "options": {
+        "A": "Là tập hợp các bài toán cao cấp bậc đại học được cắt giảm độ khó để kiểm tra trí nhớ ngắn hạn của trẻ em mẫu giáo.",
+        "B": "Là sự sao chép ngẫu nhiên các câu đố dân gian truyền miệng trong đời sống hàng ngày mà không dựa trên bất kì lí thuyết tâm lí học nào khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "C": "Là sự cụ thể hóa khái niệm lí luận của tác giả (theo quan điểm cấu trúc và phân tích nhân tố) thành các định nghĩa làm việc dưới dạng nhiệm vụ cần giải quyết.",
+        "D": "Là sự tổng hợp các câu hỏi kiểm tra kiến thức thuộc lòng trong sách giáo khoa lịch sử và địa lí phổ thông của từng địa phương."
+      },
+      "correct_answer": "C",
+      "explanation": "Nội dung tâm lí của bản trắc nghiệm là sự cụ thể hóa khái niệm lí luận của tác giả (về cấu trúc trí tuệ) thành định nghĩa làm việc qua các bài tập."
+    },
+    {
+      "id": 28,
+      "difficulty": "easy",
+      "question": "Hình thức thể hiện các bài tập trong Bản trắc nghiệm trí tuệ thường được phân chia thành ba loại nghiệm pháp chính nào?",
+      "options": {
+        "A": "Nghiệm pháp thôi miên sâu, nghiệm pháp phân tích giấc mơ ban đêm và nghiệm pháp liên tưởng tự do trên ghế bành y khoa.",
+        "B": "Nghiệm pháp chạy bền thể lực, nghiệm pháp đo phản xạ đầu gối và nghiệm pháp kiểm tra thị lực bằng bảng chữ cái y tế.",
+        "C": "Nghiệm pháp viết tiểu luận triết học, nghiệm pháp thuyết trình nhóm trước đám đông và nghiệm pháp tranh biện đối kháng trực tiếp trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "D": "Nghiệm pháp bằng ngôn ngữ (từ ngữ và con số), nghiệm pháp phi ngôn ngữ (hình ảnh, tranh vẽ) và nghiệm pháp hành động (xếp hình, thao tác vật chất)."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình phân loại 3 hình thức nghiệm pháp trong bản trắc nghiệm: (1) ngôn ngữ (từ ngữ, con số); (2) phi ngôn ngữ (hình ảnh); (3) hành động (xếp hình vật chất)."
+    },
+    {
+      "id": 29,
+      "difficulty": "medium",
+      "question": "Nghiệm pháp bằng hình thức ngôn ngữ (ví dụ test của P. Benedetto 1969, W. Bernard 1990, R. Amthauer) thường sử dụng các dạng bài tập đặc trưng nào?",
+      "options": {
+        "A": "Nặn hai cục bột thành hình thù khác nhau rồi dự đoán xem khối lượng bột bên trong có thay đổi hay vẫn bảo toàn nguyên vẹn.",
+        "B": "Ngồi thiền tĩnh lặng trong phòng tối để quan sát dòng chảy ý thức và cắt đứt chuỗi liên kết giữa tri giác, cảm xúc và ý chí.",
+        "C": "Sắp xếp các khối gỗ lập phương nhiều màu sắc sao cho khớp hoàn toàn với hoa văn hình học trên tấm thẻ mẫu cho trước.",
+        "D": "Tìm từ khác loại, tìm từ đồng nghĩa hoặc trái nghĩa, suy luận mệnh đề đúng sai, hoàn thành câu khuyết từ, điền tiếp dãy số và đọc xuôi ngược con số."
+      },
+      "correct_answer": "D",
+      "explanation": "Các test ngôn ngữ (như Benedetto, Bernard, Amthauer) thường yêu cầu tìm từ khác loại, đồng nghĩa/trái nghĩa, suy luận mệnh đề, điền dãy số, đọc xuôi ngược số."
+    },
+    {
+      "id": 30,
+      "difficulty": "medium",
+      "question": "Ưu điểm nổi bật của nghiệm pháp bằng ngôn ngữ khi tiến hành khảo sát trí tuệ trên học sinh lớn và người trưởng thành là gì?",
+      "options": {
+        "A": "Có thể đo lường chính xác trí tuệ của trẻ sơ sinh dưới một tuổi và những người chưa từng tiếp xúc với chữ viết hay con số.",
+        "B": "Hoàn toàn miễn nhiễm với mọi rào cản văn hóa, trình độ học vấn và sự khác biệt ngôn ngữ mẹ đẻ giữa các quốc gia trên thế giới theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "C": "Giúp loại bỏ hoàn toàn khả năng gian lận hoặc luyện thi trước của thí sinh nhờ sử dụng các câu hỏi mở không có đáp án cố định.",
+        "D": "Tăng cường tính chủ động của nghiệm thể và giảm sự lệ thuộc vào nghiệm viên, cho phép tiến hành đồng loạt theo nhóm lớn với hiệu suất cao."
+      },
+      "correct_answer": "D",
+      "explanation": "Test ngôn ngữ có ưu điểm là tăng tính chủ động của nghiệm thể, ít lệ thuộc vào nghiệm viên nên rất thuận lợi khi tổ chức làm việc theo tập thể."
+    },
+    {
+      "id": 31,
+      "difficulty": "easy",
+      "question": "Hạn chế cơ bản của các trắc nghiệm trí tuệ sử dụng hình thức ngôn ngữ (từ ngữ và con số) là gì?",
+      "options": {
+        "A": "Không thể chuyển thể sang dạng bài thi trên giấy hay máy tính mà bắt buộc phải hỏi đáp trực tiếp từng cá nhân một.",
+        "B": "Chỉ đo được tốc độ vận động của bàn tay mà không đo được bất kì năng lực suy luận lôgic hay vốn từ vựng nào của người làm bài khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "C": "Thường có độ tin cậy bằng không nên không được sử dụng trong bất kì trường học hay cơ quan tuyển dụng nào trên thế giới.",
+        "D": "Chịu sự chi phối mạnh mẽ của trình độ văn hóa, vốn ngôn ngữ địa phương và không thể áp dụng được cho trẻ nhỏ chưa biết chữ hoặc người mù chữ."
+      },
+      "correct_answer": "D",
+      "explanation": "Test ngôn ngữ bị chi phối bởi ngôn ngữ, văn hóa nên khó chuyển giao giữa các cộng đồng và không dùng được cho trẻ nhỏ hoặc người mù chữ."
+    },
+    {
+      "id": 32,
+      "difficulty": "easy",
+      "question": "Trắc nghiệm khuôn hình tiếp diễn (60 bài tập) của J.C. Raven và Trắc nghiệm trí tuệ đa dạng của R. Gille thuộc nhóm hình thức nghiệm pháp nào?",
+      "options": {
+        "A": "Thuộc nhóm nghiệm pháp hành động thể chất đòi hỏi nghiệm thể phải lắp ráp các bộ phận cơ khí phức tạp bằng kim loại.",
+        "B": "Thuộc nhóm phương pháp phỏng vấn lâm sàng không chuẩn hóa hoàn toàn phụ thuộc vào cảm hứng đặt câu hỏi của từng nghiệm viên.",
+        "C": "Thuộc nhóm nghiệm pháp phi ngôn ngữ sử dụng hệ thống hình ảnh, tranh vẽ hoặc ma trận hình học nhằm khắc phục rào cản văn hóa và chữ viết.",
+        "D": "Thuộc nhóm nghiệm pháp ngôn ngữ thuần túy đòi hỏi nghiệm thể phải viết bài luận giải thích quy luật biến đổi bằng tiếng Pháp trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ."
+      },
+      "correct_answer": "C",
+      "explanation": "Test Raven (60 bài khuôn hình tiếp diễn), R. Gille, Rey và Goodenough là những đại diện tiêu biểu của nghiệm pháp phi ngôn ngữ (hình ảnh)."
+    },
+    {
+      "id": 33,
+      "difficulty": "medium",
+      "question": "Trong các bộ trắc nghiệm trí tuệ tiêu chuẩn, bài tập xếp các khối gỗ vuông nhiều màu sắc theo mẫu của Kohs hay các tiểu nghiệm lắp ghép của Wechsler thuộc hình thức nào?",
+      "options": {
+        "A": "Thuộc hình thức nghiệm pháp hành động, đánh giá trí tuệ thông qua các thao tác vật chất trực tiếp trên bìa cứng, khối gỗ hoặc vật liệu nhựa.",
+        "B": "Thuộc hình thức trắc nghiệm phóng chiếu nhân cách, đánh giá xung đột vô thức qua việc kể chuyện về các vết mực loang.",
+        "C": "Thuộc hình thức quan sát tự nhiên ngoài trời, không có bất kì vật liệu chuẩn hóa hay giới hạn thời gian thực hiện nào.",
+        "D": "Thuộc hình thức nghiệm pháp ngôn ngữ học thuật, đánh giá trí tuệ qua khả năng định nghĩa các khái niệm triết học trừu tượng."
+      },
+      "correct_answer": "A",
+      "explanation": "Test xếp khối vuông của Kohs và các tiểu nghiệm hành động của Wechsler sử dụng thao tác vật chất trên vật liệu cắt rời, thuộc hình thức nghiệm pháp hành động."
+    },
+    {
+      "id": 34,
+      "difficulty": "hard",
+      "question": "Theo Mục 5.1.2.2 của giáo trình, một Bản hướng dẫn quy trình thực hiện trắc nghiệm chuẩn hóa bắt buộc phải bao gồm bốn nội dung chính nào?",
+      "options": {
+        "A": "Xuất xứ và cơ sở lí luận; phạm vi và yêu cầu với nghiệm viên - nghiệm thể; chỉ dẫn chi tiết cách tiến hành - chấm điểm; và các khóa điểm cùng bảng định chuẩn.",
+        "B": "Lời giải thích chi tiết từng câu cho phụ huynh mang về nhà; bảng xếp hạng trí tuệ các dân tộc; và danh sách các câu hỏi bị loại bỏ.",
+        "C": "Đáp án gợi ý cho thí sinh xem trước; danh mục thuốc an thần hỗ trợ; quy định về trang phục thi đấu; và công thức tính thuế bản quyền.",
+        "D": "Tiểu sử gia đình của tác giả; danh sách các nhà tài trợ kinh phí; hướng dẫn quảng cáo thương mại; và bản sao bằng sáng chế độc quyền theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại."
+      },
+      "correct_answer": "A",
+      "explanation": "Bản hướng dẫn gồm 4 phần: (1) Xuất xứ, cơ sở lí luận, quá trình chuẩn hóa; (2) Phạm vi, mục đích, lưu ý với nghiệm viên/nghiệm thể; (3) Cách tiến hành, chấm điểm, phân tích; (4) Khóa điểm và bảng chuẩn."
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "question": "Trong Bản hướng dẫn quy trình thực hiện trắc nghiệm, phần nào được giáo trình xác định là 'phần chủ yếu' quyết định tính chuẩn xác của việc thu thập dữ liệu?",
+      "options": {
+        "A": "Phần thiết kế mẫu giấy chứng nhận khen thưởng dành cho những thí sinh đạt được điểm số cao nhất trong kì khảo sát diện rộng.",
+        "B": "Phần liệt kê tên các trường đại học đã mua bản quyền bộ công cụ trắc nghiệm trong vòng mười năm đầu tiên sau khi công bố.",
+        "C": "Phần giới thiệu tiểu sử học thuật của tác giả biên soạn và lịch sử các cuộc tranh luận triết học ở châu Âu vào đầu thế kỉ XIX khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "D": "Phần trình bày toàn bộ những chỉ dẫn cụ thể về cách thức tiến hành thực nghiệm, nguyên tắc cho điểm và phương pháp phân tích kết quả thu được."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 5.1.2.2 nêu rõ nội dung thứ ba (toàn bộ chỉ dẫn cách tiến hành, cách chấm điểm và phân tích kết quả) là phần chủ yếu của bản hướng dẫn."
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "question": "Vì sao tác giả trắc nghiệm phi ngôn ngữ (hình ảnh) thường hạn chế tối đa việc sử dụng chữ viết và các biểu tượng văn hóa đặc thù trong bài tập?",
+      "options": {
+        "A": "Để tiết kiệm chi phí in ấn mực đen trên giấy trắng khi phải tổ chức khảo sát cho hàng nghìn học sinh trong cùng một buổi sáng.",
+        "B": "Để biến bài trắc nghiệm trí tuệ thành bài kiểm tra năng khiếu hội họa chuyên nghiệp dành riêng cho các học sinh trường nghệ thuật trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "C": "Để đánh lạc hướng sự chú ý của nghiệm thể khiến họ mất tập trung và bộc lộ những phản ứng cảm xúc tiêu cực một cách tự nhiên.",
+        "D": "Để giảm thiểu sự chi phối của vốn tri thức học đường và khác biệt ngôn ngữ, giúp mở rộng phạm vi áp dụng cho trẻ nhỏ và nhiều cộng đồng văn hóa khác nhau."
+      },
+      "correct_answer": "D",
+      "explanation": "Trắc nghiệm hình ảnh phi ngôn ngữ giúp khắc phục sự chi phối của văn hóa, ngôn ngữ và dùng được cho cả trẻ nhỏ chưa biết đọc viết."
+    },
+    {
+      "id": 37,
+      "difficulty": "hard",
+      "question": "Khi nghiệm thể thực hiện nghiệm pháp xếp hình (như Test Kohs) hoặc test vẽ hình người (Goodenough), kết quả hành động đó giúp nhà nghiên cứu gián tiếp đánh giá điều gì?",
+      "options": {
+        "A": "Đánh giá năng lực nhận thức không gian, khả năng phân tích - tổng hợp trực quan hành động và mức độ phát triển biểu tượng trí tuệ của chủ thể.",
+        "B": "Đánh giá trực tiếp vốn từ vựng ngoại ngữ và khả năng thuộc lòng các quy tắc ngữ pháp phức tạp của nghiệm thể trong môi trường học đường.",
+        "C": "Đánh giá hoàn toàn điều kiện kinh tế gia đình và mức độ tiếp xúc với các thiết bị công nghệ thông tin của nghiệm thể ở nhà.",
+        "D": "Chỉ đánh giá được sức mạnh cơ bắp của các ngón tay và thị lực phân biệt màu sắc ở võng mạc mắt của nghiệm thể tại phòng đo."
+      },
+      "correct_answer": "A",
+      "explanation": "Các nghiệm pháp hành động và vẽ hình (Kohs, Goodenough, Rey) là công cụ cụ thể hóa thao tác phân tích - tổng hợp không gian và mức độ phát triển biểu tượng trí tuệ."
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "question": "Nếu một người sử dụng bản trắc nghiệm mà bỏ qua 'Bản hướng dẫn quy trình thực hiện' (tự ý thay đổi lời dẫn, thời gian hoặc cách chấm điểm), hậu quả khoa học gì sẽ xảy ra?",
+      "options": {
+        "A": "Độ ứng nghiệm của trắc nghiệm sẽ tự động tăng lên mức tuyệt đối do đã loại bỏ được các bước thủ tục hành chính rườm rà.",
+        "B": "Nghiệm thể sẽ tự động bộc lộ được toàn bộ vùng phát triển gần nhất (ZPD) ngay cả khi không có bất kì sự gợi mở hợp tác nào.",
+        "C": "Kết quả đo lường sẽ trở nên linh hoạt và chính xác hơn gấp nhiều lần so với việc tuân thủ cứng nhắc quy trình hướng dẫn gốc theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "D": "Phép thử bị phá vỡ tính quy chuẩn và độ tin cậy, khiến điểm số thu được hoàn toàn mất giá trị đối chiếu với bảng định chuẩn của nhóm mẫu."
+      },
+      "correct_answer": "D",
+      "explanation": "Trắc nghiệm là công cụ chuẩn hóa; làm sai lệch quy trình hướng dẫn sẽ phá hủy tính quy chuẩn và độ tin cậy, không thể đối chiếu với bảng chuẩn."
+    },
+    {
+      "id": 39,
+      "difficulty": "easy",
+      "question": "Trong ba hình thức nghiệm pháp (ngôn ngữ, phi ngôn ngữ, hành động), hình thức nào thường yêu cầu sự giám sát cá nhân trực tiếp chặt chẽ nhất từ phía nghiệm viên?",
+      "options": {
+        "A": "Hình thức trắc nghiệm trắc địa bằng hình ảnh tĩnh trên màn hình lớn hoàn toàn không cần sự có mặt của nghiệm viên hướng dẫn.",
+        "B": "Hình thức nghiệm pháp hành động (xếp hình, thao tác vật chất) thường đòi hỏi nghiệm viên theo dõi sát từng thao tác, bấm giờ và ghi nhận cách giải quyết của từng cá nhân.",
+        "C": "Hình thức nghiệm pháp ngôn ngữ trên giấy thường đòi hỏi năm nghiệm viên kèm cặp sát sao từng thí sinh trong suốt thời gian làm bài.",
+        "D": "Tất cả các hình thức nghiệm pháp ngôn ngữ tập thể đều bắt buộc phải thực hiện dưới hình thức hỏi đáp miệng từng người một trong phòng kín khi đánh giá năng lực nhận thức của đối tượng nghiên cứu."
+      },
+      "correct_answer": "B",
+      "explanation": "Nghiệm pháp hành động (xếp khối gỗ Kohs, tiểu nghiệm hành động Wechsler) cần bấm giờ và quan sát thao tác vật chất trực tiếp trên từng cá nhân."
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "question": "Điều kiện đầu tiên trong bốn nội dung của Bản hướng dẫn quy trình thực hiện trắc nghiệm chuẩn hóa đề cập đến vấn đề gì?",
+      "options": {
+        "A": "Quy định mức tiền thù lao cho nghiệm viên và chi phí in ấn tài liệu phát tay cho các trường học tham gia khảo sát trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "B": "Liệt kê danh sách các lỗi chính tả thường gặp của thí sinh khi viết câu trả lời tự luận vào phiếu thu bài.",
+        "C": "Giới thiệu rõ xuất xứ, cơ sở lí luận tâm lí học làm nền tảng cho trắc nghiệm cùng toàn bộ quá trình soạn thảo và định chuẩn công cụ.",
+        "D": "Hướng dẫn cách sửa đổi câu hỏi gốc sao cho phù hợp với sở thích cá nhân của từng giáo viên chủ nhiệm lớp."
+      },
+      "correct_answer": "C",
+      "explanation": "Nội dung thứ nhất của bản hướng dẫn là xuất xứ, cơ sở lí luận và quá trình soạn thảo, chuẩn hóa trắc nghiệm."
+    },
+    {
+      "id": 41,
+      "difficulty": "hard",
+      "question": "Trong bản hướng dẫn của một trắc nghiệm chuẩn hóa, 'khóa điểm và bảng kết quả định chuẩn' có vai trò quyết định gì ở khâu xử lí sau cùng?",
+      "options": {
+        "A": "Giúp biến đổi kết quả định lượng của bài trắc nghiệm thành một bản tiểu sử văn học kể lại toàn bộ quá khứ tuổi thơ của nghiệm thể.",
+        "B": "Giúp quy đổi điểm thô của từng bài tập thành điểm chuẩn (như IQ hoặc phân hạng phần trăm) để xác định vị trí trí tuệ của cá nhân so với quần thể.",
+        "C": "Giúp xóa bỏ hoàn toàn sự khác biệt giữa điểm số của nhóm trẻ sáu tuổi và nhóm người lớn trưởng thành trên cùng một thang đo thô.",
+        "D": "Giúp nghiệm viên có thể tự ý cộng thêm điểm khuyến khích cho những học sinh có thái độ lễ phép và trang phục chỉnh tề khi vào phòng đo."
+      },
+      "correct_answer": "B",
+      "explanation": "Khóa điểm giúp chấm chính xác từng item (0/1 hoặc thang điểm quy định), còn bảng kết quả định chuẩn giúp quy đổi điểm thô sang vị trí chuẩn trên quần thể."
+    },
+    {
+      "id": 42,
+      "difficulty": "medium",
+      "question": "Tại sao việc cụ thể hóa khái niệm lí luận thành 'định nghĩa làm việc' trong bản trắc nghiệm lại phụ thuộc chặt chẽ vào quan điểm cấu trúc trí tuệ của tác giả?",
+      "options": {
+        "A": "Vì định nghĩa làm việc chỉ là phần trang trí hình thức bên ngoài trang bìa chứ không liên quan gì đến nội dung các bài tập bên trong.",
+        "B": "Vì các tác giả trắc nghiệm thường không hiểu biết về thống kê toán học nên phải mượn tạm câu hỏi của đồng nghiệp thuộc trường phái đối lập theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "C": "Vì mọi mô hình cấu trúc trí tuệ đều có chung một danh sách 10 câu hỏi bắt buộc do Hội Tâm lí học Quốc tế ban hành hàng năm.",
+        "D": "Vì mỗi mô hình cấu trúc trí tuệ (ví dụ nhân tố G-S, 7 năng lực cơ bản hay đa trí tuệ) sẽ quyết định việc chọn lựa những dạng bài tập đo lường tương ứng khác nhau."
+      },
+      "correct_answer": "D",
+      "explanation": "Nội dung tâm lí của bản trắc nghiệm là sự cụ thể hóa khái niệm lí luận của tác giả theo quan điểm cấu trúc và phân tích nhân tố của chính họ."
+    },
+    {
+      "id": 43,
+      "difficulty": "easy",
+      "question": "Về mặt thực tiễn, phương pháp trắc nghiệm tâm lí mang lại ba ưu điểm nổi bật nào khiến nó được sử dụng rất phổ biến hiện nay?",
+      "options": {
+        "A": "Giúp chẩn đoán sâu sắc toàn bộ động cơ vô thức; loại bỏ hoàn toàn sai số văn hóa; và đào tạo trực tiếp được các thao tác tư duy bậc cao cho thí sinh khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "B": "Thay thế được hoàn toàn phương pháp thực nghiệm hình thành; không bao giờ bị ảnh hưởng bởi việc luyện thi; và phản ánh trọn vẹn nhân cách con người.",
+        "C": "Không cần bất kì công thức thống kê nào khi xây dựng; cho phép nghiệm viên thoải mái gợi ý bài làm; và đo chính xác vùng phát triển gần nhất.",
+        "D": "Tường minh và lượng hóa được khái niệm lí luận; có tính tiêu chuẩn phổ biến để so sánh cá nhân; và ngắn gọn, thiết bị đơn giản giúp khảo sát nhanh số lượng lớn."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 5.1.3 nêu 3 ưu điểm thực tiễn của test: (1) tường minh hóa, khách quan hóa, lượng hóa khái niệm; (2) tính tiêu chuẩn để so sánh; (3) gọn nhẹ, khảo sát nhanh diện rộng."
+    },
+    {
+      "id": 44,
+      "difficulty": "medium",
+      "question": "Ngoài ba ưu điểm thực tiễn, phương pháp trắc nghiệm còn mang lại giá trị gì về mặt lí luận cho khoa học tâm lí?",
+      "options": {
+        "A": "Dựa vào độ ứng nghiệm và độ tin cậy thu được trong thực tế để kiểm chứng ngược lại độ chân thực và tính hợp lí của khái niệm lí luận cơ sở.",
+        "B": "Cho phép nhà nghiên cứu bỏ qua bước xây dựng giả thuyết lí thuyết ban đầu mà chỉ cần thu thập ngẫu nhiên các con số thống kê.",
+        "C": "Khẳng định chắc chắn rằng chỉ có di truyền sinh học mới quyết định điểm số trắc nghiệm còn môi trường giáo dục không có tác dụng gì trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "D": "Chứng minh được rằng mọi lí thuyết tâm lí học hoạt động của trường phái Xô viết đều không có cơ sở thực nghiệm khách quan."
+      },
+      "correct_answer": "A",
+      "explanation": "Về mặt lí luận, dựa vào độ ứng nghiệm và độ tin cậy của trắc nghiệm trong thực tế, người ta có thể kiểm nghiệm độ chân thực của khái niệm lí luận gốc."
+    },
+    {
+      "id": 45,
+      "difficulty": "hard",
+      "question": "Nhà tâm lí học J. Piaget (người từng làm trợ lí chuẩn hóa test cho Binet và Simon) đã chỉ ra hạn chế cốt lõi nào của phương pháp trắc nghiệm truyền thống?",
+      "options": {
+        "A": "Trắc nghiệm truyền thống cho phép nghiệm viên trò chuyện và gợi ý quá nhiều cho trẻ nên kết quả thu được không phản ánh đúng năng lực độc lập.",
+        "B": "Trắc nghiệm truyền thống có thời gian thực hiện quá dài lên tới nhiều tuần lễ khiến trẻ em bị kiệt sức trước khi hoàn thành phần cuối.",
+        "C": "Trắc nghiệm chỉ chú ý ghi nhận kết quả đúng hay sai cuối cùng mà bỏ qua toàn bộ quá trình tư duy, cách lập luận và nguyên nhân dẫn đến câu trả lời sai của trẻ.",
+        "D": "Trắc nghiệm của Binet và Simon sử dụng quá nhiều hình vẽ minh họa màu sắc sặc sỡ làm trẻ em mất tập trung khi làm bài kiểm tra."
+      },
+      "correct_answer": "C",
+      "explanation": "Khi chuẩn hóa test cho Binet-Simon, J. Piaget nhận ra test chỉ đo kết quả đúng/sai mà bỏ qua quá trình tư duy và cấu trúc lập luận đằng sau câu trả lời (nhất là câu trả lời sai)."
+    },
+    {
+      "id": 46,
+      "difficulty": "hard",
+      "question": "Theo phê phán của L.S. Vygotsky đối với quy trình làm trắc nghiệm độc lập truyền thống, vì sao phương pháp này không phát hiện được 'Vùng phát triển gần nhất' (ZPD)?",
+      "options": {
+        "A": "Vì nguyên tắc trắc nghiệm cấm sự hợp tác và gợi mở của nghiệm viên nên chỉ đo được cái đã chín muồi trong quá khứ (mức độ hiện thời) mà không thấy được tiềm năng đang hình thành.",
+        "B": "Vì L.S. Vygotsky cho rằng vùng phát triển gần nhất chỉ có thể đo được bằng máy chụp cộng hưởng từ não bộ chứ không thể đo qua tương tác xã hội theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "C": "Vì học sinh tham gia làm trắc nghiệm thường cố tình giấu giếm năng lực thực sự của mình để tránh bị chuyển sang lớp học nâng cao.",
+        "D": "Vì các bộ trắc nghiệm trí tuệ thường có quá ít câu hỏi về kiến thức toán học và vật lí hạt nhân để kích thích tư duy sáng tạo của học sinh."
+      },
+      "correct_answer": "A",
+      "explanation": "Vygotsky phê phán việc cấm hợp tác trong test khiến nó chỉ đo được trình độ phát triển hiện tại (kết quả đã hoàn thành) chứ không phát hiện được ZPD khi trẻ được gợi ý hợp tác."
+    },
+    {
+      "id": 47,
+      "difficulty": "medium",
+      "question": "Hạn chế thứ hai của phương pháp trắc nghiệm được phân tích trong Mục 5.1.3 (tách rời khỏi tổng thể nhân cách) dẫn đến nghịch lí thực tế nào?",
+      "options": {
+        "A": "Các bài trắc nghiệm trí tuệ càng dài thì càng đo lường chính xác tuyệt đối mức độ trung thực đạo đức và lòng vị tha của người tham gia.",
+        "B": "Nhiều người đạt điểm IQ rất cao trong các bài trắc nghiệm cô lập nhưng lại thất bại khi giải quyết những tình huống thực tiễn vì test bỏ qua động cơ, cảm xúc và ý chí.",
+        "C": "Chỉ số IQ đo được trong phòng thí nghiệm luôn thấp hơn nhiều so với hiệu suất làm việc thực tế của bất kì cá nhân nào ngoài xã hội.",
+        "D": "Những người đạt điểm IQ cao trong các bài trắc nghiệm luôn trở thành những nhà lãnh đạo chính trị và nghệ sĩ thiên tài trong mọi lĩnh vực đời sống khi đánh giá năng lực nhận thức của đối tượng nghiên cứu."
+      },
+      "correct_answer": "B",
+      "explanation": "Test chỉ đo một số yếu tố trí tuệ tách khỏi tổng thể nhân cách (bỏ qua phi lôgic, cảm xúc, động cơ, ý chí), nên IQ cao trong test không đồng nghĩa với thành công trong đời thực."
+    },
+    {
+      "id": 48,
+      "difficulty": "medium",
+      "question": "Hiện tượng 'nhờn' trắc nghiệm và nguy cơ 'đánh tráo đối tượng' xảy ra khi nào theo cảnh báo của giáo trình Chương 5?",
+      "options": {
+        "A": "Khi các bộ trắc nghiệm được thiết kế hoàn toàn bằng hình ảnh phi ngôn ngữ và bảo mật tuyệt đối bộ đề chuẩn sau mỗi đợt khảo sát.",
+        "B": "Khi các bài tập trắc nghiệm đo tri thức, kĩ năng dễ thay đổi bị lạm dụng tràn lan hoặc biến thành tài liệu ôn luyện mẹo thi cử làm sai lệch bản chất trí tuệ.",
+        "C": "Khi nhà nghiên cứu chỉ sử dụng trắc nghiệm một lần duy nhất trong vòng năm năm và phối hợp chặt chẽ với phương pháp quan sát lâm sàng trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "D": "Khi nghiệm viên tuân thủ nghiêm ngặt quy định không giải đáp hay sửa bài cho trẻ trong suốt thời gian tiến hành nghiệm pháp tập thể."
+      },
+      "correct_answer": "B",
+      "explanation": "Lạm dụng test tràn lan và luyện thi theo các bài tập đo kĩ năng/tri thức khiến người học quen dạng, gây hiện tượng 'nhờn' test và đánh tráo đối tượng cần đo."
+    },
+    {
+      "id": 49,
+      "difficulty": "easy",
+      "question": "Khái quát thái độ khoa học đúng đắn nhất đối với việc sử dụng phương pháp trắc nghiệm trong nghiên cứu và chẩn đoán trí tuệ là gì?",
+      "options": {
+        "A": "Coi trắc nghiệm là công cụ vạn năng duy nhất đủ sức thay thế toàn bộ quá trình theo dõi sư phạm và chẩn đoán phát triển của giáo viên.",
+        "B": "Tuyệt đối cấm sử dụng mọi loại trắc nghiệm trí tuệ trong trường học vì chúng hoàn toàn không có bất kì giá trị lí luận hay thực tiễn nào.",
+        "C": "Thừa nhận giá trị sàng lọc nhanh và lượng hóa khách quan của trắc nghiệm, nhưng không tuyệt đối hóa mà phải kết hợp với các phương pháp lâm sàng và thực nghiệm khác.",
+        "D": "Chỉ sử dụng các bài trắc nghiệm tự chế chưa qua định chuẩn trên nhóm mẫu đại diện để tiết kiệm thời gian và kinh phí nghiên cứu."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình nhấn mạnh không cường điệu quá mức hay phủ nhận sạch trơn trắc nghiệm, mà phải đặt nó đúng phạm vi và kết hợp với các phương pháp khác."
+    },
+    {
+      "id": 50,
+      "difficulty": "hard",
+      "question": "Điểm giống nhau trong phê phán của cả J. Piaget và L.S. Vygotsky đối với kết quả do phương pháp trắc nghiệm truyền thống mang lại là gì?",
+      "options": {
+        "A": "Cả hai đều đề nghị thay thế toàn bộ các bài trắc nghiệm trí tuệ bằng phương pháp phân tích giấc mơ và liên tưởng tự do của phân tâm học theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "B": "Cả hai đều khẳng định rằng trẻ em dưới mười lăm tuổi không thể hiểu được các câu hỏi bằng ngôn ngữ nên không nên khảo sát trí tuệ.",
+        "C": "Cả hai đều chỉ ra rằng trắc nghiệm chỉ chụp lại được kết quả tĩnh bề mặt tại thời điểm hiện tại mà không soi sáng được động thái cấu trúc và tiềm năng phát triển bên trong.",
+        "D": "Cả hai đều cho rằng điểm số IQ hoàn toàn do yếu tố gen di truyền quy định và không thể thay đổi bằng bất kì tác động giáo dục nào."
+      },
+      "correct_answer": "C",
+      "explanation": "Dù xuất phát từ lí thuyết khác nhau, cả Piaget (nhấn mạnh quá trình tư duy/lập luận) và Vygotsky (nhấn mạnh ZPD qua hợp tác) đều phê phán tính chất tĩnh, chỉ đo kết quả bề mặt của test."
+    },
+    {
+      "id": 51,
+      "difficulty": "medium",
+      "question": "Vì sao tính ngắn gọn và thiết bị đơn giản của phương pháp trắc nghiệm lại đặc biệt có ý nghĩa trong tâm lí học ứng dụng hiện đại?",
+      "options": {
+        "A": "Vì nó cho phép triển khai khảo sát nhanh trên số lượng lớn nghiệm thể theo nhóm tập thể và dễ dàng xử lí dữ liệu thống kê bằng máy tính.",
+        "B": "Vì nó loại bỏ hoàn toàn sự cần thiết của việc chuẩn hóa bộ đề trên nhóm mẫu đại diện trước khi đưa vào sử dụng rộng rãi.",
+        "C": "Vì nó giúp giảm thời gian đào tạo đại học của sinh viên xuống còn một nửa bằng cách thay thế mọi kì thi học phần bằng một bài test IQ khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "D": "Vì nó cho phép bất kì ai chưa từng học qua tâm lí học cũng có thể tự ý sửa đổi thang điểm và ra kết luận chẩn đoán bệnh lí não bộ."
+      },
+      "correct_answer": "A",
+      "explanation": "Ưu điểm thực tiễn thứ ba của trắc nghiệm là ngắn gọn, thiết bị đơn giản, khảo sát nhanh được số đông (làm nhóm và xử lí máy tính)."
+    },
+    {
+      "id": 52,
+      "difficulty": "medium",
+      "question": "Khi một đứa trẻ đạt điểm cao nhờ được cha mẹ cho 'luyện thi' trước các dạng bài tương tự trong bộ trắc nghiệm IQ, điều gì đã bị vi phạm?",
+      "options": {
+        "A": "Tính quy chuẩn của đường cong phân phối chuẩn Gauss bị đảo ngược khiến toàn bộ dân số đều có mức trí tuệ dưới trung bình.",
+        "B": "Bản chất đối tượng đo đã bị đánh tráo từ 'năng lực trí tuệ tổng quát' sang 'kĩ xảo giải mẹo bài tập quen thuộc', làm mất độ ứng nghiệm của kết quả.",
+        "C": "Năng lực tư duy hình thức của đứa trẻ đã tự động phát triển vượt bậc lên trình độ của nhà bác học chỉ sau vài ngày ôn luyện trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "D": "Độ phân biệt của thước đo độ dài vật lí đã bị thay đổi dẫn tới sai lệch tuổi đời thực tế của đứa trẻ trong giấy khai sinh."
+      },
+      "correct_answer": "B",
+      "explanation": "Luyện thi test gây hiện tượng 'nhờn' trắc nghiệm và đánh tráo đối tượng đo (đo trí nhớ mẹo giải thay vì năng lực trí tuệ thực), làm mất độ ứng nghiệm."
+    },
+    {
+      "id": 53,
+      "difficulty": "hard",
+      "question": "Tại sao một bài trắc nghiệm có 'độ tin cậy' (Fidelity) rất cao khi đo lặp lại nhiều lần nhưng vẫn có thể có 'độ ứng nghiệm' (Validity) rất thấp?",
+      "options": {
+        "A": "Vì công cụ đó có thể đo rất ổn định và nhất quán qua các lần lặp lại, nhưng thứ mà nó đang đo ổn định lại không phải là năng lực trí tuệ thực sự cần đo (ví dụ đo nhầm vốn từ vựng văn hóa).",
+        "B": "Vì độ tin cậy chỉ dùng cho trắc nghiệm phi ngôn ngữ còn độ ứng nghiệm chỉ được phép tính toán cho các bài phỏng vấn lâm sàng tự do.",
+        "C": "Vì khi tăng số lượng bài tập lên gấp đôi để nâng độ tin cậy thì hệ số tương quan giữa kết quả test và hiệu suất thực tiễn luôn bằng không.",
+        "D": "Vì trong thống kê tâm lí học, độ tin cậy và độ ứng nghiệm là hai đại lượng tỉ lệ nghịch tuyệt đối với nhau trong mọi bộ công cụ đo."
+      },
+      "correct_answer": "A",
+      "explanation": "Một thước đo có thể rất ổn định (độ tin cậy cao) khi đo cùng một đối tượng lặp lại, nhưng nếu đem test ngôn ngữ sang văn hóa khác, nó đo nhầm vốn văn hóa chứ không đo đúng trí tuệ (độ ứng nghiệm thấp)."
+    },
+    {
+      "id": 54,
+      "difficulty": "easy",
+      "question": "Theo Mục 5.1.3, việc trắc nghiệm tách rời yếu tố trí tuệ khỏi đời sống thực tiễn và các yếu tố phi lôgic của chủ thể dẫn tới hệ quả gì khi dự báo thành công?",
+      "options": {
+        "A": "Kết quả trắc nghiệm không thể dự báo chắc chắn khả năng giải quyết hiệu quả các tình huống phức tạp trong cuộc sống thực tiễn của cá nhân.",
+        "B": "Kết quả trắc nghiệm luôn dự báo chính xác một trăm phần trăm mức độ hạnh phúc hôn nhân và thành công nghề nghiệp của mọi cá nhân.",
+        "C": "Kết quả trắc nghiệm chứng minh rằng cảm xúc và ý chí hoàn toàn không có bất kì mối liên hệ nào với hoạt động giải quyết vấn đề.",
+        "D": "Kết quả trắc nghiệm chỉ dự báo chính xác thành công của người lớn tuổi mà hoàn toàn không có giá trị gì đối với học sinh trung học theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại."
+      },
+      "correct_answer": "A",
+      "explanation": "Vì bỏ qua các yếu tố phi lôgic, nhân cách và bối cảnh thực tiễn nên điểm cao trong trắc nghiệm không bảo đảm chắc chắn cá nhân giải quyết tốt tình huống đời thực."
+    },
+    {
+      "id": 55,
+      "difficulty": "medium",
+      "question": "Khi muốn kiểm nghiệm lại xem khái niệm lí luận về cấu trúc trí tuệ của mình có phản ánh đúng hiện thực khách quan hay không, nhà nghiên cứu có thể dựa vào đâu trong phương pháp trắc nghiệm?",
+      "options": {
+        "A": "Dựa vào cảm nhận chủ quan của một nhóm nhỏ nghiệm viên sau khi quan sát nét mặt của thí sinh lúc bước vào phòng thi.",
+        "B": "Dựa vào việc kiểm chứng độ ứng nghiệm thực tế (tương quan với hiệu suất hoạt động đời sống) và độ tin cậy của bộ trắc nghiệm được xây dựng từ khái niệm lí luận đó.",
+        "C": "Dựa vào số lượng bản in đã bán ra trên thị trường sách giáo khoa hoặc mức độ nổi tiếng trên truyền thông của nhóm tác giả biên soạn khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "D": "Dựa vào việc loại bỏ toàn bộ các bài tập khó để đạt được phân phối điểm lệch hẳn về phía trên một trăm bốn mươi điểm IQ."
+      },
+      "correct_answer": "B",
+      "explanation": "Giá trị lí luận của trắc nghiệm là thông qua độ ứng nghiệm và độ tin cậy thực tế của công cụ để kiểm nghiệm ngược lại độ chân thực của khái niệm lí luận gốc."
+    },
+    {
+      "id": 56,
+      "difficulty": "medium",
+      "question": "Trong thực nghiệm hình thành của mình, vì sao các nhà tâm lí học hoạt động cho rằng không nên dừng lại ở kết quả trắc nghiệm độc lập ban đầu để kết luận trẻ 'kém thông minh'?",
+      "options": {
+        "A": "Vì các bộ trắc nghiệm chuẩn hóa quốc tế thường không có khóa chấm điểm cho những trẻ có tuổi đời dưới mười lăm tuổi.",
+        "B": "Vì kết quả trắc nghiệm độc lập chưa cho biết trẻ có khả năng tiếp thu và tiến bộ nhanh đến mức nào khi nhận được sự gợi ý hợp tác phù hợp từ người lớn.",
+        "C": "Vì theo quan điểm của L.S. Vygotsky, mọi trẻ em đều có trình độ phát triển hiện tại giống hệt nhau nên không cần đo lường riêng lẻ trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "D": "Vì trẻ em khi làm trắc nghiệm độc lập thường cố ý chọn sai toàn bộ đáp án để trêu chọc nghiệm viên trong lần gặp gỡ đầu tiên."
+      },
+      "correct_answer": "B",
+      "explanation": "Hai đứa trẻ có cùng điểm IQ hiện tại nhưng khi được gợi mở hợp tác, một trẻ tiến rất nhanh (ZPD rộng) còn trẻ kia tiến chậm — điều mà test độc lập không thấy được."
+    },
+    {
+      "id": 57,
+      "difficulty": "easy",
+      "question": "Theo mở đầu Chương 5, hai thái cực sai lầm phổ biến hiện nay trong việc nhìn nhận và sử dụng phương pháp trắc nghiệm ở nước ta là gì?",
+      "options": {
+        "A": "Một số người chỉ dùng trắc nghiệm của Pháp, trong khi số khác chỉ dùng trắc nghiệm của Nga mà từ chối mọi công cụ của Mỹ.",
+        "B": "Một số người chỉ dùng trắc nghiệm vào mùa hè, trong khi số khác chỉ cho phép tiến hành khảo sát trí tuệ vào mùa đông.",
+        "C": "Một số người chỉ dùng trắc nghiệm cho môn Toán học, trong khi số khác chỉ dùng trắc nghiệm để kiểm tra năng lực thể thao và âm nhạc.",
+        "D": "Một số người cường điệu hóa quá mức coi trắc nghiệm là công cụ vạn năng duy nhất, trong khi số khác lại coi nhẹ quy trình và phương pháp tiến hành chuẩn mực."
+      },
+      "correct_answer": "D",
+      "explanation": "Mở đầu Chương 5 nêu rõ sự phân hóa sai lầm: lầm tưởng chỉ cần mỗi test là đủ (cường điệu quá mức) hoặc coi nhẹ quy trình chuẩn mực khi tiến hành test."
+    },
+    {
+      "id": 58,
+      "difficulty": "medium",
+      "question": "Nếu một bài trắc nghiệm trí tuệ chỉ bao gồm các câu hỏi kiểm tra tri thức ghi nhớ lịch sử và công thức sách giáo khoa, điểm yếu phương pháp luận lớn nhất của nó là gì?",
+      "options": {
+        "A": "Làm tăng quá cao độ ứng nghiệm của công cụ đối với trẻ em vùng sâu vùng xa chưa từng được tiếp cận với hệ thống trường lớp.",
+        "B": "Biến đổi bản chất của trắc nghiệm tâm lí thành phương pháp thực nghiệm lâm sàng kiểu J. Piaget một cách hoàn toàn tự động.",
+        "C": "Đo lường nặng về trí nhớ học đường và điều kiện tiếp cận giáo dục thay vì đo lường năng lực tư duy, suy luận và thích ứng trí tuệ cốt lõi.",
+        "D": "Khiến cho thời gian chấm điểm bằng máy tính trở nên phức tạp và tốn kém hơn rất nhiều so với các bài tập xếp hình không gian theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại."
+      },
+      "correct_answer": "C",
+      "explanation": "Test nặng về tri thức học thuộc dễ bị ảnh hưởng bởi môi trường giáo dục và rèn luyện, làm sai lệch mục tiêu đo lường năng lực trí tuệ cốt lõi."
+    },
+    {
+      "id": 59,
+      "difficulty": "easy",
+      "question": "Phương pháp lâm sàng (Clinique) trong tâm lí học có nguồn gốc xuất xứ ban đầu từ lĩnh vực khoa học nào?",
+      "options": {
+        "A": "Bắt nguồn từ ngành toán học xác suất thống kê của các nhà bảo hiểm hàng hải ở châu Âu vào thế kỉ XVII.",
+        "B": "Bắt nguồn từ nghệ thuật hội họa trừu tượng và điêu khắc cổ điển Hy Lạp nhằm đánh giá tỉ lệ cân đối của cơ thể khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "C": "Bắt nguồn từ lĩnh vực y học (khám bệnh trực tiếp bên giường bệnh), sau đó được vận dụng và cải biến sâu sắc vào nghiên cứu tâm lí học.",
+        "D": "Bắt nguồn từ kĩ thuật cơ khí chế tạo dây chuyền sản xuất công nghiệp tự động hóa tại Mỹ đầu thế kỉ XX."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 5.2.1, phương pháp lâm sàng (Clinique) có xuất xứ từ y học trước khi được vận dụng vào phân tâm học và tâm lí học phát sinh."
+    },
+    {
+      "id": 60,
+      "difficulty": "medium",
+      "question": "Theo Nguyễn Khắc Viện (1992, 1999), phương pháp lâm sàng theo 'nghĩa hẹp' trong y học được hiểu như thế nào?",
+      "options": {
+        "A": "Là việc phát cho bệnh nhân một bảng câu hỏi trắc nghiệm gồm một trăm câu để bệnh nhân tự điền ở nhà rồi gửi kết quả qua bưu điện.",
+        "B": "Là việc thầy thuốc chỉ đọc kết quả chụp cắt lớp não bộ và xét nghiệm sinh hóa máu từ phòng thí nghiệm mà không cần tiếp xúc với người bệnh trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "C": "Là việc thầy thuốc trực tiếp thăm khám bằng các giác quan (nhìn, nghe, sờ, gõ...) và hỏi chuyện người bệnh để tổng hợp triệu chứng và chẩn đoán sơ bộ khi chưa dùng xét nghiệm.",
+        "D": "Là việc tiến hành phẫu thuật mở trực tiếp các cơ quan nội tạng ngay trong lần gặp đầu tiên để tìm kiếm nguyên nhân gây bệnh."
+      },
+      "correct_answer": "C",
+      "explanation": "Nguyễn Khắc Viện giải thích lâm sàng theo nghĩa hẹp là trực tiếp thăm khám bằng giác quan và hỏi chuyện người bệnh mà chưa dùng xét nghiệm cận lâm sàng."
+    },
+    {
+      "id": 61,
+      "difficulty": "medium",
+      "question": "Theo Nguyễn Khắc Viện, quy trình của phương pháp lâm sàng theo 'nghĩa rộng' (kết hợp cả lâm sàng trực tiếp và cận lâm sàng) diễn ra theo trình tự bảy khâu nào?",
+      "options": {
+        "A": "Khám bệnh nhân, hỏi chuyện, làm xét nghiệm, đặt giả thuyết chẩn đoán, chứng nghiệm giả thuyết, tiến hành trị liệu, cuối cùng là theo dõi kết quả và điều chỉnh.",
+        "B": "Phát phiếu trắc nghiệm hàng loạt, chấm điểm bằng máy tính, xếp hạng bệnh nhân theo đường cong Gauss và gửi giấy báo kết quả.",
+        "C": "Chỉ quan sát người bệnh qua gương một chiều trong phòng kín, ghi chép lại hành vi vận động rồi lưu trữ hồ sơ mà không can thiệp điều trị.",
+        "D": "Tiến hành trị liệu ngay lập tức, sau đó mới làm xét nghiệm, rồi hỏi chuyện người thân, cuối cùng mới đặt tên cho căn bệnh và kết thúc."
+      },
+      "correct_answer": "A",
+      "explanation": "Nghĩa rộng gồm 7 khâu hoàn chỉnh: Khám → Hỏi chuyện → Xét nghiệm → Giả thuyết chẩn đoán → Chứng nghiệm giả thuyết → Trị liệu → Theo dõi kết quả và điều chỉnh."
+    },
+    {
+      "id": 62,
+      "difficulty": "easy",
+      "question": "Khi vận dụng phương pháp lâm sàng vào tâm lí học, yếu tố kĩ thuật nào giữ vai trò quan trọng bậc nhất để khai thác chiều sâu đời sống tâm lí cá nhân?",
+      "options": {
+        "A": "Kĩ thuật đo phản xạ không điều kiện của đồng tử mắt khi chiếu luồng ánh sáng cường độ cao trong môi trường phòng tối.",
+        "B": "Kĩ thuật tính toán hệ số tương quan Pearson trên phần mềm thống kê cho mẫu khảo sát tối thiểu năm nghìn người trưởng thành.",
+        "C": "Kĩ thuật bấm đồng hồ đếm ngược chính xác đến từng phần nghìn giây và tuyệt đối không nói chuyện hay tương tác với đối tượng nghiên cứu theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "D": "Nghệ thuật hỏi chuyện lâm sàng (biết lắng nghe, tùy cơ ứng biến linh hoạt thay vì rập khuôn câu hỏi) kết hợp với quan sát trực giác và phân tích sản phẩm hoạt động."
+      },
+      "correct_answer": "D",
+      "explanation": "Vận dụng lâm sàng vào tâm lí học coi trọng quan sát trực giác, khám qua sản phẩm hoạt động (tranh vẽ...) và đặc biệt là hỏi chuyện lâm sàng linh hoạt."
+    },
+    {
+      "id": 63,
+      "difficulty": "medium",
+      "question": "Bản chất cốt lõi của 'Phương pháp lâm sàng tâm lí' do nhà tâm lí học Thụy Sĩ Jean Piaget sáng tạo và hoàn thiện là gì?",
+      "options": {
+        "A": "Là phương pháp chỉ sử dụng quan sát thụ động trẻ em khi chúng đang ngủ say mà không đặt ra bất kì câu hỏi hay nhiệm vụ trò chơi nào khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "B": "Là sự kết hợp nhuần nhuyễn giữa phương pháp lâm sàng truyền thống (trò chuyện, hỏi chuyện sâu) với phương pháp thực nghiệm tác động không đầy đủ.",
+        "C": "Là sự kết hợp giữa trắc nghiệm viết trên giấy theo nhóm lớn với việc tính toán chỉ số IQ độ lệch chuẩn theo công thức của Wechsler.",
+        "D": "Là sự sao chép nguyên vẹn quy trình khám bệnh nội khoa của bệnh viện kết hợp với việc kê đơn thuốc an thần cho trẻ em tiểu học."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình khẳng định: Phương pháp lâm sàng tâm lí của J. Piaget là sự kết hợp giữa phương pháp lâm sàng truyền thống với thực nghiệm tác động không đầy đủ."
+    },
+    {
+      "id": 64,
+      "difficulty": "easy",
+      "question": "Trong thực nghiệm kinh điển về 'bảo tồn lượng chất' bằng hai cục bột nặn của J. Piaget, nghiệm viên luôn hỏi trẻ câu hỏi chốt nào sau mỗi lần biến đổi hình dạng?",
+      "options": {
+        "A": "Hỏi trẻ xem cục bột nào có màu sắc đẹp hơn và yêu cầu trẻ dùng thước dây đo chính xác chiều dài của từng cục bột theo đơn vị milimét trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "B": "Yêu cầu trẻ viết một đoạn văn ngắn mô tả quy trình sản xuất bột mì công nghiệp trong thời gian quy định là năm phút.",
+        "C": "Hỏi trẻ xem lượng bột ở hai cục lúc này có còn bằng nhau hay không, và đặc biệt là truy hỏi 'Tại sao?' để làm bộc lộ cấu trúc lập luận bên trong.",
+        "D": "Im lặng ghi chép số lần trẻ chạm tay vào cục bột mà không đưa ra bất kì câu hỏi hay phản biện nào với trẻ trong suốt buổi làm việc."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong thực nghiệm bảo tồn cục bột, sau mỗi lần nặn (dài ra, vo tròn, đập dẹt), nghiệm viên luôn hỏi lượng bột hai bên có như nhau không và 'Tại sao?'."
+    },
+    {
+      "id": 65,
+      "difficulty": "medium",
+      "question": "Khác với nguyên tắc cứng nhắc của trắc nghiệm chuẩn hóa, trong phương pháp lâm sàng tâm lí của J. Piaget, việc đặt câu hỏi và chọn vật liệu cho các trẻ khác nhau được thực hiện ra sao?",
+      "options": {
+        "A": "Chỉ được phép sử dụng duy nhất vật liệu bằng bột nặn màu trắng và không bao giờ được thay thế bằng cốc nước hay các khối gỗ đồ chơi.",
+        "B": "Tuyệt đối cấm nghiệm viên đưa ra bất kì lời chỉ trích giả định, yêu cầu bổ sung hay lời động viên nào vì sợ làm ảnh hưởng đến điểm số chuẩn.",
+        "C": "Bắt buộc mọi đứa trẻ từ ba đến mười lăm tuổi phải trả lời chính xác cùng một danh sách sáu mươi hai câu hỏi theo đúng thứ tự từ trên xuống dưới.",
+        "D": "Không bắt buộc hai đứa trẻ phải làm cùng một hành động hay hỏi cùng một câu cố định; có thể linh hoạt đổi vật liệu (bột, cốc nước, khối gỗ) và dùng thủ thuật khêu gợi phù hợp."
+      },
+      "correct_answer": "D",
+      "explanation": "Piaget không yêu cầu hai trẻ làm cùng một hành động hay hỏi cùng câu cố định; có thể thay đổi vật liệu (bột, cốc nước, gỗ) và dùng thủ thuật khêu gợi linh hoạt."
+    },
+    {
+      "id": 66,
+      "difficulty": "hard",
+      "question": "Theo phân tích trong Mục 5.2.1, ưu điểm nổi bật của phương pháp lâm sàng tâm lí so với trắc nghiệm chuẩn hóa là gì?",
+      "options": {
+        "A": "Cho phép một nghiệm viên mới vào nghề có thể khảo sát đồng thời năm trăm trẻ em trong vòng ba mươi phút mà không cần kinh nghiệm chuyên môn theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "B": "Loại bỏ hoàn toàn mọi nguy cơ gợi ý áp đặt hay làm chệch hướng suy nghĩ tự nhiên của trẻ trong quá trình tương tác với nhà nghiên cứu.",
+        "C": "Cung cấp ngay lập tức các chỉ số định lượng thống kê đại trà chuẩn xác để xếp hạng học sinh trên quy mô toàn quốc chỉ sau một lần đo.",
+        "D": "Sự tự do hành động của trẻ kết hợp với sự can thiệp linh hoạt của nghiệm viên tạo ra nguồn tư liệu cực kì phong phú, sâu sắc về diễn biến và cấu trúc lập luận nội tại qua các lứa tuổi."
+      },
+      "correct_answer": "D",
+      "explanation": "Ưu điểm của phương pháp lâm sàng là tự do hành động của trẻ + can thiệp linh hoạt + ghi chép chi tiết giúp thu được tư liệu sâu sắc, tin cậy về quá trình phát sinh trí tuệ."
+    },
+    {
+      "id": 67,
+      "difficulty": "hard",
+      "question": "Hai hạn chế lớn nhất của phương pháp lâm sàng tâm lí khiến J. Piaget về sau phải kết hợp thêm phương pháp trắc nghiệm là gì?",
+      "options": {
+        "A": "Phương pháp này chỉ áp dụng được cho người lớn tuổi đã về hưu và hoàn toàn không thể thu thập được lời nói tự phát của trẻ em mầm non.",
+        "B": "Các kết quả lâm sàng luôn có độ ứng nghiệm bằng không khi đối chiếu với sự phát triển sinh học của hệ thần kinh trung ương.",
+        "C": "Chi phí mua sắm các cục bột nặn và cốc nước quá đắt đỏ, đồng thời trẻ em thường từ chối tham gia các nhiệm vụ mang tính chất trò chơi khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "D": "Dễ làm chệch hướng suy nghĩ của trẻ nếu nghiệm viên thiếu kinh nghiệm can thiệp, và tư liệu thu được mang tính định tính cá nhân nên thiếu ý nghĩa thống kê đại trà."
+      },
+      "correct_answer": "D",
+      "explanation": "Hạn chế của phương pháp lâm sàng: (1) dễ phương hại tiến trình suy nghĩ của trẻ nếu nghiệm viên thiếu kinh nghiệm; (2) thiếu ý nghĩa thống kê (nên Piaget về sau kết hợp cả lâm sàng và test)."
+    },
+    {
+      "id": 68,
+      "difficulty": "easy",
+      "question": "Trong nghiên cứu tâm lí học trí tuệ (Mục 5.2.2), phương pháp thực nghiệm được phân chia thành hai loại hình cơ bản nào tùy theo mục đích nghiên cứu?",
+      "options": {
+        "A": "Thực nghiệm trắc nghiệm ngôn ngữ tập thể và Thực nghiệm phân tích giấc mơ vô thức theo trường phái phân tâm học cổ điển.",
+        "B": "Thực nghiệm phát hiện (làm bộc lộ các yếu tố tâm lí hiện có và sắp có) và Thực nghiệm hình thành (chủ động tác động để hình thành yếu tố tâm lí mới).",
+        "C": "Thực nghiệm giải phẫu não bộ động vật và Thực nghiệm điều chế dược phẩm tăng cường trí nhớ ngắn hạn trong phòng hóa học.",
+        "D": "Thực nghiệm quan sát thụ động ngoài tự nhiên và Thực nghiệm thống kê hồi quy tuyến tính trên bảng số liệu điều tra dân số trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 5.2.2 chia thực nghiệm thành 2 loại: thực nghiệm phát hiện và thực nghiệm hình thành (tác động/giáo dục)."
+    },
+    {
+      "id": 69,
+      "difficulty": "medium",
+      "question": "Vì sao các nhà tâm lí học kiệt xuất như N. Ach, L.S. Vygotsky và P.Ia. Galperin lại coi 'Thực nghiệm hình thành' là công cụ chẩn đoán trí tuệ sắc bén nhất?",
+      "options": {
+        "A": "Vì thực nghiệm hình thành chỉ kéo dài trong năm phút và hoàn toàn không đòi hỏi nhà nghiên cứu phải thiết kế quy trình dạy học hay công cụ trung gian nào.",
+        "B": "Vì thực nghiệm hình thành chứng minh rằng trí tuệ của trẻ em phát triển hoàn toàn tự phát theo bản năng sinh học mà không cần đến sự dạy dỗ của người lớn.",
+        "C": "Vì thông qua việc chủ động tác động tổ chức quá trình hình thành chức năng tâm lí mới, nhà nghiên cứu nắm bắt được bản chất cơ chế phát sinh và tiềm năng phát triển của trẻ.",
+        "D": "Vì thực nghiệm hình thành giúp loại bỏ hoàn toàn vai trò của ngôn ngữ và các kí hiệu văn hóa ra khỏi quá trình giải quyết bài toán của học sinh."
+      },
+      "correct_answer": "C",
+      "explanation": "N. Ach, L.S. Vygotsky và P.Ia. Galperin đã biến thực nghiệm hình thành thành công cụ chẩn đoán sắc bén cơ chế hình thành và vùng phát triển gần nhất."
+    },
+    {
+      "id": 70,
+      "difficulty": "hard",
+      "question": "L.S. Vygotsky đã sử dụng phương pháp thực nghiệm hình thành để làm sáng tỏ trực tiếp cơ chế chuyển hóa cốt lõi nào trong sự phát triển trí tuệ trẻ em?",
+      "options": {
+        "A": "Chứng minh rằng trẻ em ở giai đoạn tiền thao tác hoàn toàn không thể học được bất kì khái niệm khoa học nào cho đến khi đủ mười hai tuổi.",
+        "B": "Chứng minh rằng phương pháp thử và sai ngẫu nhiên của động vật là cơ chế duy nhất giúp con người sáng tạo ra các phát minh khoa học kĩ thuật.",
+        "C": "Xác định tỉ lệ phần trăm di truyền của chỉ số IQ từ cha mẹ sang con cái thông qua việc so sánh các cặp trẻ sinh đôi cùng trứng và khác trứng theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "D": "Xác định vai trò của công cụ kí hiệu ngôn ngữ trong việc tái cấu trúc trí tuệ thực hành thành trí tuệ ngôn ngữ, qua đó đo lường chính xác vùng phát triển gần nhất (ZPD)."
+      },
+      "correct_answer": "D",
+      "explanation": "Vygotsky dùng thực nghiệm hình thành để chỉ ra vai trò của công cụ kí hiệu ngôn ngữ tái cấu trúc trí tuệ thực hành thành trí tuệ ngôn ngữ và đo lường ZPD."
+    },
+    {
+      "id": 71,
+      "difficulty": "medium",
+      "question": "Công trình thực nghiệm hình thành theo từng bước hành động trí tuệ của P.Ia. Galperin và cộng sự đã chứng minh được luận điểm quan trọng nào?",
+      "options": {
+        "A": "Chứng minh rằng trẻ em chỉ có thể hình thành thao tác bảo tồn số lượng sau khi đã bước qua tuổi dậy thì và hoàn thành chương trình trung học khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "B": "Chứng minh khả năng chủ động hình thành sớm nhiều cấu trúc tư duy khoa học ở trẻ em, vượt qua giới hạn lứa tuổi tự phát mà J. Piaget từng ấn định.",
+        "C": "Chứng minh rằng phương pháp trắc nghiệm IQ của W. Stern là công cụ duy nhất có thể thúc đẩy sự phát triển trí tuệ của học sinh tiểu học.",
+        "D": "Chứng minh rằng việc cho trẻ thao tác trên đồ vật thật ở bước đầu tiên là hoàn toàn thừa thãi và cản trở sự phát triển ngôn ngữ bên trong."
+      },
+      "correct_answer": "B",
+      "explanation": "Thực nghiệm hình thành của P.Ia. Galperin chứng minh có thể chủ động hình thành sớm các cấu trúc tư duy ở trẻ em, vượt qua giới hạn lứa tuổi cứng nhắc của Piaget."
+    },
+    {
+      "id": 72,
+      "difficulty": "easy",
+      "question": "Ngoài trắc nghiệm, lâm sàng và thực nghiệm, Mục 5.2.2 còn nhắc đến những phương pháp bổ trợ nào trong nghiên cứu trí tuệ cá nhân?",
+      "options": {
+        "A": "Phương pháp tẩy não bằng thôi miên tập thể và phương pháp sử dụng chất kích thích thần kinh trong khi làm bài thi trắc nghiệm.",
+        "B": "Phương pháp chiêm tinh học dự đoán vận mệnh theo cung hoàng đạo và phương pháp xem chỉ tay để đánh giá năng lực tư duy toán học trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "C": "Phương pháp nghiên cứu so sánh trẻ sinh đôi, phương pháp phân tích tiểu sử (nhân tài, danh nhân) và các phương pháp nghiên cứu cơ chế làm việc của não bộ.",
+        "D": "Phương pháp điều tra mức thu nhập thuế của phụ huynh và phương pháp thống kê chiều cao trung bình của học sinh toàn trường."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình liệt kê các phương pháp bổ trợ: so sánh trẻ sinh đôi, phân tích tiểu sử (nhân tài), và nghiên cứu cơ chế làm việc của não bộ."
+    },
+    {
+      "id": 73,
+      "difficulty": "medium",
+      "question": "Theo quan điểm phương pháp luận chung được đúc kết ở cuối Mục 5.2, thái độ đúng đắn nhất khi lựa chọn phương pháp nghiên cứu trí tuệ là gì?",
+      "options": {
+        "A": "Luôn luôn ưu tiên phương pháp phân tích tiểu sử làm phương pháp duy nhất và loại bỏ hoàn toàn các bài trắc nghiệm hay thực nghiệm tâm lí.",
+        "B": "Không tuyệt đối hóa hay cực đoan hóa bất kì phương pháp đơn lẻ nào mà phải biết phối hợp đồng bộ nhiều phương pháp tùy theo mục tiêu và nội dung nghiên cứu.",
+        "C": "Chỉ sử dụng phương pháp lâm sàng cho trẻ em dưới sáu tuổi và chỉ sử dụng phương pháp trắc nghiệm cho toàn bộ người trên sáu tuổi.",
+        "D": "Cố gắng phát minh ra một câu hỏi trắc nghiệm duy nhất đủ khả năng đo lường cả IQ, EQ, nhân cách lẫn bệnh lí thần kinh trong một phút."
+      },
+      "correct_answer": "B",
+      "explanation": "Kết luận Mục 5.2: Không cực đoan hóa bất kì phương pháp nào, mà phải phối hợp đồng bộ nhiều phương pháp tùy mục tiêu và nội dung nghiên cứu."
+    },
+    {
+      "id": 74,
+      "difficulty": "medium",
+      "question": "Khi nhận xét về mối quan hệ giữa trắc nghiệm, tác động lâm sàng với phương pháp thực nghiệm nói chung, giáo trình khẳng định điều gì?",
+      "options": {
+        "A": "Chỉ có thực nghiệm trên động vật mới được coi là thực nghiệm khoa học, còn mọi nghiên cứu trên trẻ em đều chỉ là quan sát ngẫu nhiên.",
+        "B": "Trắc nghiệm và lâm sàng hoàn toàn đối lập về bản chất với thực nghiệm nên không bao giờ có thể sử dụng chung trong một công trình nghiên cứu.",
+        "C": "Ngay cả các bài trắc nghiệm chuẩn hóa và các tác động lâm sàng thực chất cũng chính là những thực nghiệm ngắn gọn và không đầy đủ.",
+        "D": "Thực nghiệm phát hiện luôn làm thay đổi hoàn toàn cấu trúc nhân cách của đối tượng nên không bao giờ dùng được cho mục đích chẩn đoán."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 5.2.2 nêu: Ngay cả các trắc nghiệm, các tác động lâm sàng thực ra cũng là những thực nghiệm ngắn gọn và không đầy đủ."
+    },
+    {
+      "id": 75,
+      "difficulty": "hard",
+      "question": "Trong thực hành lâm sàng tâm lí của J. Piaget, điều gì xảy ra nếu nghiệm viên đưa ra những gợi ý mang tính áp đặt hoặc thiếu kinh nghiệm xử lí tình huống?",
+      "options": {
+        "A": "Sự can thiệp vụng về đó có thể làm phương hại, bóp méo tiến trình suy nghĩ và hành động tự nhiên của trẻ — một nguy cơ mà các trắc nghiệm chuẩn hóa ít mắc phải hơn.",
+        "B": "Kết quả thu được sẽ đạt độ tin cậy thống kê đại trà cao hơn rất nhiều so với khi để trẻ tự do giải thích cách suy nghĩ của mình.",
+        "C": "Trẻ sẽ tự động chuyển ngay từ giai đoạn tư duy tiền thao tác lên thẳng giai đoạn tư duy thao tác hình thức chỉ trong vài phút.",
+        "D": "Nghiệm viên sẽ phát hiện được chính xác hơn các đặc trưng bẩm sinh của hệ thần kinh trung ương mà không cần quan tâm đến câu trả lời của trẻ khi đánh giá năng lực nhận thức của đối tượng nghiên cứu."
+      },
+      "correct_answer": "A",
+      "explanation": "Piaget lưu ý nếu sự can thiệp của nghiệm viên thiếu kinh nghiệm sẽ làm phương hại đến tiến trình suy nghĩ của trẻ (nguy cơ mà test chuẩn hóa không mắc phải)."
+    },
+    {
+      "id": 76,
+      "difficulty": "medium",
+      "question": "Khi sử dụng phương pháp nghiên cứu trẻ sinh đôi (so sánh sinh đôi cùng trứng và khác trứng), các nhà tâm lí học trí tuệ nhằm mục đích bổ trợ giải quyết vấn đề gì?",
+      "options": {
+        "A": "Đánh giá định lượng mức độ ảnh hưởng tương đối giữa yếu tố di truyền sinh học và yếu tố môi trường giáo dục đối với sự phát triển trí tuệ cá nhân.",
+        "B": "Xác định xem phương pháp lâm sàng của Piaget hay trắc nghiệm của Gille có thời gian chấm điểm nhanh hơn trên máy tính.",
+        "C": "Chứng minh rằng hai đứa trẻ sinh đôi cùng trứng luôn có sở thích nghề nghiệp và suy nghĩ cá nhân giống hệt nhau trong mọi hoàn cảnh trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "D": "Tìm ra loại thuốc đặc trị giúp tăng gấp đôi chỉ số thông minh của tất cả trẻ em chậm phát triển trí tuệ mức độ rất nặng."
+      },
+      "correct_answer": "A",
+      "explanation": "Phương pháp nghiên cứu so sánh trẻ sinh đôi được dùng để phân tách và đánh giá vai trò của yếu tố di truyền bẩm sinh so với môi trường sống."
+    },
+    {
+      "id": 77,
+      "difficulty": "easy",
+      "question": "Trong phương pháp lâm sàng tâm lí, bên cạnh việc hỏi chuyện trực tiếp, nhà nghiên cứu còn có thể thăm dò trí tuệ và thế giới nội tâm của trẻ thông qua kênh nào?",
+      "options": {
+        "A": "Thông qua việc đo lượng thức ăn và giấc ngủ hàng ngày của trẻ trong suốt một tuần lễ mà không cần xem xét hành vi nhận thức.",
+        "B": "Thông qua việc kiểm tra khả năng ghi nhớ thuộc lòng bảng cửu chương ngược từ mười về một trong điều kiện phòng tối hoàn toàn.",
+        "C": "Thông qua việc quan sát trực giác quá trình hành động và phân tích các sản phẩm hoạt động tự nhiên của trẻ như những bức tranh trẻ tự do vẽ.",
+        "D": "Thông qua việc yêu cầu trẻ tự chấm điểm bài thi trắc nghiệm của bạn cùng lớp rồi báo cáo lại cho giáo viên chủ nhiệm."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 5.2.1 chỉ rõ việc thăm dò lâm sàng thực hiện qua quan sát trực giác, khám qua sản phẩm hoạt động (như vẽ tranh) và hỏi chuyện lâm sàng."
+    },
+    {
+      "id": 78,
+      "difficulty": "hard",
+      "question": "Theo sự đánh giá trong Mục 5.2.2, chức năng chẩn đoán của 'Thực nghiệm phát hiện' và 'Thực nghiệm hình thành' có điểm gì đáng chú ý khi đối chiếu với nhau?",
+      "options": {
+        "A": "Thực nghiệm phát hiện chỉ dùng được một lần trên mỗi lớp học, còn thực nghiệm hình thành chỉ áp dụng cho đối tượng là sinh viên năm cuối đại học.",
+        "B": "Thực nghiệm phát hiện mang chức năng chẩn đoán trực tiếp cái hiện có và sắp có, còn thực nghiệm hình thành tưởng như mờ nhạt chức năng chẩn đoán nhưng lại chẩn đoán sâu sắc nhất nhờ bộc lộ cơ chế phát sinh.",
+        "C": "Cả thực nghiệm phát hiện và thực nghiệm hình thành đều bị L.S. Vygotsky bác bỏ hoàn toàn để quay về sử dụng phương pháp tự quan sát nội quan.",
+        "D": "Thực nghiệm phát hiện hoàn toàn không có chức năng chẩn đoán gì cả, còn thực nghiệm hình thành chỉ dùng để đo chiều cao và cân nặng của học sinh tiểu học theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại."
+      },
+      "correct_answer": "B",
+      "explanation": "Thực nghiệm phát hiện chẩn đoán trực tiếp cái hiện có/sắp có; thực nghiệm hình thành có vẻ mờ nhạt chức năng chẩn đoán ban đầu nhưng qua tay Ach, Vygotsky, Galperin lại trở thành công cụ chẩn đoán sắc bén nhất."
+    },
+    {
+      "id": 79,
+      "difficulty": "medium",
+      "question": "Thuật ngữ 'lâm sàng' (Clinique) trong tâm lí học hiện đại không chỉ bó hẹp ở phòng khám bệnh viện mà được mở rộng mang ý nghĩa phương pháp luận gì?",
+      "options": {
+        "A": "Nghiên cứu bề mặt trên mẫu khảo sát hàng chục nghìn người bằng một bảng hỏi trắc nghiệm đóng khung có sẵn bốn đáp án lựa chọn.",
+        "B": "Loại bỏ hoàn toàn mọi cuộc trò chuyện trực tiếp với đối tượng để tránh làm phát sinh sự đồng cảm chủ quan của người nghiên cứu khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "C": "Nghiên cứu sâu sắc, toàn diện từng trường hợp cá nhân cụ thể bằng các kĩ thuật thăm dò linh hoạt (không nhất thiết xử lí thống kê số đông) để hiểu rõ cấu trúc nội tại.",
+        "D": "Chỉ nghiên cứu các bệnh nhân mắc chứng mất trí nhớ tuổi già hoặc tổn thương thực thể não bộ do tai nạn giao thông gây ra."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong tâm lí học, phương pháp lâm sàng là nghiên cứu sâu từng chủ thể bằng các kĩ thuật thăm dò linh hoạt, chú trọng cấu trúc cá biệt thay vì thống kê đại trà."
+    },
+    {
+      "id": 80,
+      "difficulty": "easy",
+      "question": "Bộ 'Trắc nghiệm trí tuệ đa dạng' (Test mosaïque) do nhà tâm lí học Pháp René Gille soạn thảo năm 1944 được xây dựng trên nền tảng cơ sở lí luận nào?",
+      "options": {
+        "A": "Dựa hoàn toàn trên thuyết phản xạ có điều kiện của I.P. Pavlov và thuyết hành vi thử - sai của E. Thorndike trên động vật.",
+        "B": "Dựa trên mô hình trí tuệ nhân tạo xử lí thông tin máy tính của Alan Turing và John von Neumann vào nửa sau thế kỉ XX.",
+        "C": "Dựa trên sự kết hợp giữa lí thuyết cấu trúc trí tuệ đa thành phần và lí thuyết phát sinh trí tuệ trẻ em của Jean Piaget.",
+        "D": "Dựa trên học thuyết phân tâm học vô thức của S. Freud và phương pháp phân tích giấc mơ trong điều trị bệnh tâm căn."
+      },
+      "correct_answer": "C",
+      "explanation": "René Gille (1944) soạn thảo bộ trắc nghiệm dựa trên sự kết hợp giữa lí thuyết cấu trúc trí tuệ và lí thuyết phát sinh trí tuệ trẻ em của J. Piaget."
+    },
+    {
+      "id": 81,
+      "difficulty": "easy",
+      "question": "Ủy ban Dân số Quốc gia Pháp đã tiến hành định chuẩn bộ Trắc nghiệm trí tuệ đa dạng của René Gille trên quy mô mẫu và độ tuổi như thế nào?",
+      "options": {
+        "A": "Định chuẩn trên 9.500 trẻ em Pháp có độ tuổi từ 6,0 đến 14,0 tuổi, thuộc đầy đủ mọi tầng lớp xã hội từ nông dân, công nhân đến trí thức cao cấp.",
+        "B": "Định chuẩn trên 1.000 người cao tuổi từ 60 đến 80 tuổi đang nghỉ hưu tại các viện dưỡng lão công lập ở châu Âu.",
+        "C": "Định chuẩn trên 500 sinh viên đại học năm thứ nhất tại Paris có độ tuổi từ 18 đến 22 tuổi thuộc các ngành khoa học tự nhiên.",
+        "D": "Định chuẩn trên 200 trẻ em mầm non từ 2 đến 4 tuổi sinh sống tại các gia đình quý tộc giàu có ở miền nam nước Pháp."
+      },
+      "correct_answer": "A",
+      "explanation": "Trắc nghiệm Gille được Ủy ban Dân số Quốc gia Pháp định chuẩn trên 9.500 trẻ em từ 6,0 đến 14,0 tuổi thuộc mọi tầng lớp xã hội."
+    },
+    {
+      "id": 82,
+      "difficulty": "easy",
+      "question": "Từ năm 1954, bộ Trắc nghiệm trí tuệ đa dạng của René Gille được ứng dụng phổ biến để đo lường trí tuệ cho nhóm đối tượng trẻ em nào?",
+      "options": {
+        "A": "Cho trẻ em trong độ tuổi từ 6,0 đến 12,0 tuổi, bao gồm cả những trẻ đang đi học lẫn những trẻ chưa từng đến trường hoặc chưa biết đọc viết.",
+        "B": "Chỉ dành riêng cho những học sinh trung học phổ thông đã thông thạo ít nhất hai ngoại ngữ và có điểm môn Toán từ loại giỏi trở lên theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "C": "Chỉ áp dụng được cho trẻ em sơ sinh từ 0 đến 24 tháng tuổi nhằm thay thế hoàn toàn chỉ số phát triển tâm - vận động DQ.",
+        "D": "Chỉ dùng để tuyển chọn các sĩ quan không quân và kĩ sư cơ khí trưởng thành làm việc trong các nhà máy công nghiệp nặng."
+      },
+      "correct_answer": "A",
+      "explanation": "Từ năm 1954, test Gille được dùng rộng rãi cho trẻ từ 6,0 đến 12,0 tuổi (cả trẻ đi học và chưa đi học vì sử dụng hình vẽ phi ngôn ngữ)."
+    },
+    {
+      "id": 83,
+      "difficulty": "easy",
+      "question": "Cấu trúc toàn bộ bản Trắc nghiệm trí tuệ đa dạng của René Gille bao gồm bao nhiêu bài tập hình vẽ và có tổng điểm tối đa là bao nhiêu?",
+      "options": {
+        "A": "Bao gồm 30 bài tập câu hỏi trắc nghiệm chữ viết nhiều lựa chọn, với tổng số điểm tối đa cho toàn bộ trắc nghiệm là 100 điểm khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "B": "Bao gồm 48 bài tập giải phương trình đại số tuyến tính, với tổng số điểm tối đa cho toàn bộ trắc nghiệm là 150 điểm.",
+        "C": "Bao gồm 120 bài tập xếp khối gỗ ba chiều theo mô hình Guilford, với tổng số điểm tối đa cho toàn bộ trắc nghiệm là 360 điểm.",
+        "D": "Bao gồm 62 bài tập hình vẽ đa dạng được đánh số thứ tự liên tục, với tổng số điểm tối đa cho toàn bộ trắc nghiệm là 204 điểm."
+      },
+      "correct_answer": "D",
+      "explanation": "Trắc nghiệm René Gille gồm 62 bài tập hình vẽ và có tổng số điểm tối đa là 204 điểm."
+    },
+    {
+      "id": 84,
+      "difficulty": "medium",
+      "question": "Trong quy trình tổ chức thực hiện Trắc nghiệm René Gille theo nhóm, số lượng trẻ tối đa trong một phòng và cách bố trí chỗ ngồi được quy định ra sao?",
+      "options": {
+        "A": "Tiến hành theo nhóm tối đa 100 trẻ trong một hội trường lớn, cho phép hai đến ba trẻ ngồi chung một bàn để cùng nhau thảo luận trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "B": "Cho phép phụ huynh và giáo viên chủ nhiệm ngồi ngay bên cạnh từng trẻ để nhắc nhở và giải thích lại yêu cầu của từng bức tranh.",
+        "C": "Tiến hành theo nhóm không quá 20 trẻ mỗi lần, mỗi trẻ phải ngồi một bàn riêng biệt để đảm bảo không thể nhìn hay chép bài của nhau.",
+        "D": "Bắt buộc tiến hành cá nhân từng trẻ một trong phòng cách âm tuyệt đối, nghiêm cấm hoàn toàn việc tổ chức làm bài theo nhóm."
+      },
+      "correct_answer": "C",
+      "explanation": "Quy định của Gille: tiến hành cá nhân hoặc nhóm không quá 20 trẻ; mỗi trẻ ngồi một bàn riêng; tuyệt đối không có người ngoài."
+    },
+    {
+      "id": 85,
+      "difficulty": "hard",
+      "question": "Quy định rất đặc biệt về 'cách đọc lời hướng dẫn' đối với nghiệm viên khi tiến hành Trắc nghiệm René Gille là gì?",
+      "options": {
+        "A": "Nghiệm viên phải mở băng ghi âm phát lại với tốc độ nhanh gấp đôi bình thường để kiểm tra khả năng phản xạ thính giác của trẻ.",
+        "B": "Nghiệm viên phải phát bản hướng dẫn in sẵn cho trẻ tự đọc thầm trong năm phút đầu giờ rồi tự động làm bài không cần giải thích ví dụ.",
+        "C": "Nghiệm viên được phép tùy cơ ứng biến thay đổi toàn bộ lời dẫn bằng tiếng lóng địa phương và nhấn giọng vào các từ khóa gợi ý đáp án.",
+        "D": "Nghiệm viên phải nói to, rõ ràng, tự nhiên, đọc đúng nguyên văn từng câu nhưng bắt buộc phải học thuộc lòng chứ không được cầm bản hướng dẫn lên để đọc."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình nhấn mạnh yêu cầu với nghiệm viên trong test Gille: lời hướng dẫn phải đúng nguyên văn nhưng phải thuộc lòng (không được cầm bản hướng dẫn để đọc)."
+    },
+    {
+      "id": 86,
+      "difficulty": "medium",
+      "question": "Trong quá trình trẻ làm 62 bài tập của Trắc nghiệm René Gille, nghiệm viên bắt buộc phải bố trí thời gian nghỉ giải lao 5 phút ở thời điểm nào?",
+      "options": {
+        "A": "Không được phép có bất kì phút nghỉ giải lao nào từ Hình 1 đến Hình 62 để đảm bảo tính liên tục tuyệt đối của trạng thái căng thẳng theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "B": "Cho phép từng trẻ tự do đứng lên ra ngoài nghỉ ngơi bất cứ lúc nào chúng cảm thấy mệt mỏi mà không cần chờ đợi các bạn khác.",
+        "C": "Sau khi trẻ hoàn thành xong Hình số 30 (chính giữa bài thi), cho trẻ nghỉ giải lao 15 phút và ăn nhẹ trước khi quay lại bàn.",
+        "D": "Sau khi tất cả trẻ hoàn thành xong Hình số 48, cho trẻ nghỉ giải lao 5 phút trước khi tiếp tục làm các bài tập từ Hình 49 đến Hình 62."
+      },
+      "correct_answer": "D",
+      "explanation": "Quy trình chuẩn của René Gille quy định: sau khi làm xong Hình 48, cho nghiệm thể nghỉ 5 phút rồi mới tiếp tục từ Hình 49 đến Hình 62."
+    },
+    {
+      "id": 87,
+      "difficulty": "medium",
+      "question": "Nhóm các bài tập đầu tiên và rải rác (như Hình 1, 2, 3, 4, 18–21, 26–29, 55, 56) trong Trắc nghiệm René Gille nhằm khảo sát năng lực nhận thức cơ bản nào?",
+      "options": {
+        "A": "Tri thức cơ bản về tự nhiên và biểu tượng không gian (trong/ngoài, trước/sau, trên/dưới, trái/phải), kích thước, trọng lượng và vận tốc di chuyển.",
+        "B": "Khả năng thực hiện các phép tính tích phân, đạo hàm bậc cao và giải hệ phương trình lượng giác phức tạp trên mặt phẳng tọa độ khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "C": "Khả năng thuộc lòng bảng chữ cái tiếng Pháp và kĩ năng đọc hiểu các đoạn văn xuôi miêu tả phong cảnh thiên nhiên cổ điển.",
+        "D": "Khả năng kiểm soát cảm xúc cá nhân và nhận diện biểu cảm khuôn mặt tức giận hay vui vẻ của những người xung quanh."
+      },
+      "correct_answer": "A",
+      "explanation": "Các hình này khảo sát tri thức cơ bản về vật rơi/đóng xuống nhanh, nhẹ nhất, vị trí không gian, kích thước to/cao/dài/xa, vận tốc và so sánh trọng lượng trên cân."
+    },
+    {
+      "id": 88,
+      "difficulty": "medium",
+      "question": "Nhóm các Hình 5, 6, 7, 8, 9, 10, 11, 12 và 33, 34, 35 trong Trắc nghiệm René Gille yêu cầu trẻ thực hiện thao tác tư duy cốt lõi nào?",
+      "options": {
+        "A": "Thao tác vẽ thêm các bộ phận còn thiếu trên khuôn mặt người hoặc tìm mảnh ghép hình học bị cắt rời khỏi một bức tranh lớn.",
+        "B": "Thao tác phân loại và khái quát hóa công dụng (nhóm đồ vật để ngồi, may vá, ăn uống, đựng nước, loài rau; tìm vật khác loại và cặp vật cùng loại).",
+        "C": "Thao tác sắp xếp thứ tự tăng dần theo thời gian phát triển từ cây non đến cây trưởng thành hoặc từ em bé đến cụ già.",
+        "D": "Thao tác tính toán số học chia đều số lượng quả mận hoặc suy luận số quả cam dựa theo độ tuổi năm nay, năm ngoái và sang năm trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ."
+      },
+      "correct_answer": "B",
+      "explanation": "Các hình 5–12 và 33–35 yêu cầu đánh dấu các vật có cùng công dụng/chủng loại, tìm vật không cùng loại và tìm hai vật cùng loại."
+    },
+    {
+      "id": 89,
+      "difficulty": "medium",
+      "question": "Nhóm các Hình 36, 37, 38, 39 trong Trắc nghiệm René Gille kiểm tra năng lực quan sát và tư duy phê phán của trẻ thông qua nhiệm vụ gì?",
+      "options": {
+        "A": "Đếm tổng số hạt thóc mà một đàn chuột ăn hết trong ba ngày liên tiếp dựa trên tỉ lệ một con chuột ăn hai hạt thóc.",
+        "B": "Phát hiện và đánh dấu chính xác chi tiết vô lí hoặc sai lệch trong các bức tranh quen thuộc (ví dụ lỗi ở ngón tay, đường đi hoặc cánh cửa).",
+        "C": "Gạch bỏ các chữ cái bị viết sai chính tả trong một đoạn văn ngắn miêu tả cuộc sống sinh hoạt hàng ngày của gia đình nông dân.",
+        "D": "Vẽ lại toàn bộ bức tranh phong cảnh phức tạp bằng trí nhớ sau khi chỉ được nhìn bức tranh mẫu trong thời gian năm giây."
+      },
+      "correct_answer": "B",
+      "explanation": "Hình 36–39 yêu cầu phát hiện một chi tiết vô lí được kí hiệu trong tranh (ví dụ hình 37 đánh dấu ngón tay thừa/lỗi, hình 38 lỗi ở đường đi hoặc cửa)."
+    },
+    {
+      "id": 90,
+      "difficulty": "hard",
+      "question": "Theo hướng dẫn chấm điểm Hình 50 (sắp xếp các hình vẽ cây theo thứ tự phát triển) trong Trắc nghiệm René Gille, vì sao cách xếp từ cây nhiều lá nhất đến ít lá nhất chỉ được 2 điểm thay vì 4 điểm?",
+      "options": {
+        "A": "Vì cách xếp từ cây nhiều lá nhất đến ít lá nhất mới chỉ phản ánh chu kì biến đổi theo mùa (từ mùa xuân sang mùa đông) chứ không phản ánh đúng quy luật phát triển tự nhiên của cây (được 4 điểm).",
+        "B": "Vì cách xếp từ cây nhiều lá đến ít lá khiến nghiệm thể tốn nhiều thời gian suy nghĩ hơn mức quy định tối đa là ba mươi giây.",
+        "C": "Vì theo quy tắc chấm điểm của René Gille, mọi câu trả lời của Hình 50 đều mặc định chỉ được tối đa hai điểm để tránh điểm quá cao theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "D": "Vì nghiệm thể đã dùng bút chì màu đỏ để đánh số thứ tự thay vì dùng bút chì đen hai đầu theo quy định của nghiệm viên."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo ghi chú chấm điểm Hình 50: xếp đúng quy luật phát triển từ cây ít lá đến nhiều lá được 4 điểm; xếp ngược từ nhiều lá đến ít lá (mùa xuân đến mùa đông) chỉ được 2 điểm."
+    },
+    {
+      "id": 91,
+      "difficulty": "hard",
+      "question": "Trong hướng dẫn chấm điểm Hình 57 (vẽ hình tam giác) của Trắc nghiệm René Gille, bài làm của trẻ phải đạt đủ hai tiêu chuẩn khắt khe nào mới được trọn vẹn 4 điểm?",
+      "options": {
+        "A": "Trẻ phải dùng thước kẻ có chia vạch milimét và compa kĩ thuật để dựng hình tam giác đều có diện tích bằng đúng mười xentimét vuông khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "B": "Hình tam giác do trẻ vẽ phải có kích thước nhỏ bằng một nửa hình mẫu và phải được tô kín màu đen bằng bút chì vót hai đầu.",
+        "C": "Hình tam giác do trẻ vẽ phải có kích thước lớn gấp đôi hình tam giác mẫu và phải cùng hướng với hình mẫu (tức là hai đường đáy phải song song với nhau).",
+        "D": "Hình tam giác do trẻ vẽ phải xoay ngược một góc chín mươi độ so với hình mẫu và nằm hoàn toàn bên ngoài khung hình chữ nhật."
+      },
+      "correct_answer": "C",
+      "explanation": "Hướng dẫn Hình 57: giải đáp đúng đạt 2 tiêu chuẩn: (a) hình vẽ phải gấp đôi hình mẫu; (b) hình tam giác vẽ phải cùng hướng với hình mẫu (hai đường đáy song song)."
+    },
+    {
+      "id": 92,
+      "difficulty": "medium",
+      "question": "Theo quy định chuẩn bị dụng cụ cho trẻ làm Trắc nghiệm René Gille, tại sao nghiệm viên lại phát cho trẻ 'bút chì vót hai đầu' và có bút dự phòng?",
+      "options": {
+        "A": "Để trẻ có thể bẻ đôi chiếc bút chì làm vật mẫu thực hành đo chiều dài trong các bài tập so sánh kích thước ở phần đầu.",
+        "B": "Để trẻ dùng một đầu vẽ hình tam giác vào ô vuông và dùng đầu còn lại để viết đoạn văn giải thích lí do cho từng bức tranh trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "C": "Để nghiệm viên dễ dàng phân biệt bài làm của trẻ nam và trẻ nữ thông qua màu sắc khác nhau ở hai đầu thân bút chì.",
+        "D": "Để phòng trường hợp một đầu bút bị gãy ngòi khi trẻ đang làm bài, trẻ có thể lật đầu kia dùng tiếp ngay lập tức mà không làm gián đoạn nhịp độ chung của cả nhóm."
+      },
+      "correct_answer": "D",
+      "explanation": "Quy định chuẩn bị bút chì vót hai đầu và bút dự phòng nhằm đảm bảo quá trình làm bài tập trung không bị ngắt quãng nếu gãy ngòi."
+    },
+    {
+      "id": 93,
+      "difficulty": "medium",
+      "question": "Nhóm các bài tập Hình 40 đến Hình 48 trong Trắc nghiệm René Gille (như chia mận, chuột ăn thóc, tính cam theo tuổi, vẽ đĩa bằng cốc) chủ yếu đo lường lĩnh vực trí tuệ nào?",
+      "options": {
+        "A": "Biểu tượng về số lượng, phép tương ứng một - một (bảo tồn số lượng Piaget) và năng lực suy luận toán học - thời gian gắn với tình huống đời sống.",
+        "B": "Khả năng ghi nhớ máy móc các sự kiện lịch sử nước Pháp và tên gọi của các loài động vật hoang dã ở châu Phi.",
+        "C": "Năng lực cảm thụ âm nhạc, phân biệt cao độ âm thanh và khả năng giữ nhịp điệu vận động cơ thể.",
+        "D": "Năng lực định hướng không gian ba chiều và kĩ thuật cắt dán hình học thủ công bằng kéo và giấy màu."
+      },
+      "correct_answer": "A",
+      "explanation": "Hình 40–48 khảo sát biểu tượng số lượng, tương ứng (1 chuột - 2 hạt thóc, số đĩa bằng số cốc), suy luận số học đơn giản và khái niệm thời gian (năm ngoái, hôm qua, ngày mai)."
+    },
+    {
+      "id": 94,
+      "difficulty": "medium",
+      "question": "Trong quy định tổ chức Trắc nghiệm René Gille, nguyên tắc 'tuyệt đối không sửa bài hay gợi ý cách làm' (ngoài việc hướng dẫn trên bảng các hình ví dụ) nhằm đảm bảo yêu cầu khoa học nào?",
+      "options": {
+        "A": "Nhằm giúp nghiệm viên tiết kiệm sức lực để có thể đồng thời chấm điểm và làm việc riêng trong suốt giờ khảo sát.",
+        "B": "Đảm bảo tính khách quan, tính tiêu chuẩn đồng nhất giữa mọi nghiệm thể và tránh làm sai lệch điểm số chuẩn khi đối chiếu với mẫu 9.500 trẻ Pháp.",
+        "C": "Nhằm trừng phạt những trẻ em chậm hiểu bằng cách để mặc chúng bỏ trống toàn bộ các bài tập từ Hình 1 đến Hình 62.",
+        "D": "Nhằm biến bộ trắc nghiệm René Gille trở thành một cuộc trò chuyện lâm sàng tự do không có quy tắc cố định như của J. Piaget theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại."
+      },
+      "correct_answer": "B",
+      "explanation": "Không sửa bài hay gợi ý cách làm (chỉ minh họa hình ví dụ trên bảng) là yêu cầu bắt buộc để giữ nguyên tính chuẩn hóa và khách quan của kết quả."
+    },
+    {
+      "id": 95,
+      "difficulty": "hard",
+      "question": "Theo quy tắc khóa điểm của Trắc nghiệm René Gille, điều gì sẽ xảy ra nếu nghiệm thể đánh dấu chọn tất cả các phương án trong một bài tập (hoặc vẽ thêm hình thừa ở Hình 58–60)?",
+      "options": {
+        "A": "Bài tập đó vẫn được chấm trọn vẹn điểm tối đa vì nghiệm thể đã chứng tỏ được sự cẩn thận khi xem xét mọi khả năng có thể xảy ra khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "B": "Nghiệm thể sẽ bị trừ vào tổng điểm chung đến mức âm điểm và bị xếp vào nhóm chậm phát triển trí tuệ mức độ rất nặng.",
+        "C": "Toàn bộ bài làm của nghiệm thể từ Hình 1 đến Hình 62 sẽ bị hủy bỏ và nghiệm thể bị loại khỏi danh sách học sinh chính quy.",
+        "D": "Bài tập đó sẽ bị hủy điểm (chấm 0 điểm) chứ không được cộng điểm vớt, đồng thời ở một số bài còn có quy tắc trừ điểm khi đánh dấu thừa (nhưng không lấy điểm âm)."
+      },
+      "correct_answer": "D",
+      "explanation": "Quy tắc khóa điểm Gille quy định: đánh dấu thừa bị trừ điểm hoặc đánh dấu tất cả các phương án bị 0 điểm (nhưng không lấy điểm âm); ở Hình 58–60 vẽ thêm hình thừa cũng bị 0 điểm."
+    },
+    {
+      "id": 96,
+      "difficulty": "easy",
+      "question": "Nhóm các Hình 49, 50, 51 (xếp thứ tự tuổi người, sự phát triển của cây, quá trình đào hầm) trong Trắc nghiệm René Gille kiểm tra thao tác trí tuệ đặc trưng nào của học thuyết Piaget?",
+      "options": {
+        "A": "Thao tác sắp xếp chuỗi thứ tự phát triển (Seriation) theo quy luật biến đổi liên tục của thời gian và tiến trình tự nhiên.",
+        "B": "Thao tác phản xạ vòng tròn sơ cấp lặp đi lặp lại các cử động mút tay ở trẻ sơ sinh trong những tháng đầu đời.",
+        "C": "Thao tác suy luận tam đoạn luận giả định trên các mệnh đề lôgic hình thức hoàn toàn trừu tượng không cần hình ảnh trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "D": "Thao tác bảo tồn trọng lượng vật chất khi thay đổi hình dạng từ khối cầu sang hình trụ dài."
+      },
+      "correct_answer": "A",
+      "explanation": "Hình 49–51 yêu cầu sắp xếp chuỗi hình ảnh theo thứ tự phát triển tự nhiên/lôgic thời gian (thao tác phân hạng/sắp xếp thứ tự)."
+    },
+    {
+      "id": 97,
+      "difficulty": "medium",
+      "question": "Vì sao trong quy trình chuẩn bị phòng đo cho Trắc nghiệm René Gille, nghiệm viên phải làm quen trước với trẻ và giữ phòng yên tĩnh, không có người lạ qua lại?",
+      "options": {
+        "A": "Để tạo bầu không khí trang nghiêm giống như một buổi xét xử tâm lí khiến trẻ phải tuân phục tuyệt đối mệnh lệnh của người lớn.",
+        "B": "Để nghiệm viên có thể tranh thủ ghi nhớ lại nội dung các câu hướng dẫn ngay trước khi bước vào từng hình vẽ mới.",
+        "C": "Để giữ bí mật tuyệt đối về phương pháp vẽ hình trên bảng đen nhằm ngăn chặn các trường học khác sao chép bản quyền.",
+        "D": "Để giải tỏa tâm lí căng thẳng, sợ sệt cho trẻ và loại bỏ các yếu tố gây xao nhãng từ bên ngoài, giúp trẻ thể hiện đúng năng lực trí tuệ thực có."
+      },
+      "correct_answer": "D",
+      "explanation": "Làm quen với trẻ giúp giải tỏa căng thẳng tâm lí, còn phòng yên tĩnh không người ngoài giúp đảm bảo điều kiện tập trung chuẩn mực."
+    },
+    {
+      "id": 98,
+      "difficulty": "medium",
+      "question": "Các Hình 52–54 (vẽ tiếp chuỗi kí hiệu theo quy luật) và Hình 57–62 (biến đổi hình học tương tự, liên tưởng quan hệ tương ứng) trong Trắc nghiệm René Gille đánh giá năng lực gì?",
+      "options": {
+        "A": "Năng lực ghi nhớ số điện thoại và địa chỉ nhà của người thân trong gia đình qua nhiều thế hệ.",
+        "B": "Năng lực vận động thô của cơ thể như giữ thăng bằng, chạy nhanh và ném bóng trúng đích ở cự li xa.",
+        "C": "Năng lực điều chỉnh cảm xúc tức giận khi gặp thất bại trong các trò chơi thi đấu tập thể ngoài sân trường theo đúng quy chuẩn phương pháp luận tâm lí học hiện đại.",
+        "D": "Năng lực phát hiện quy luật lôgic tuần tự và khả năng suy luận tương tự (Analogical Reasoning) trên các quan hệ hình ảnh trừu tượng."
+      },
+      "correct_answer": "D",
+      "explanation": "Hình 52–54 và 57–62 thuộc nhóm bài tập suy luận quy luật chuỗi kí hiệu, biến đổi hình học tương tự và liên tưởng quan hệ tương ứng."
+    },
+    {
+      "id": 99,
+      "difficulty": "hard",
+      "question": "Xét về mặt ý nghĩa thực tiễn, ưu thế lớn nhất của Trắc nghiệm René Gille (1944) so với nhiều bộ trắc nghiệm ngôn ngữ cùng thời là gì?",
+      "options": {
+        "A": "Đo lường được chính xác chỉ số trí tuệ cảm xúc EQ và dự báo được mức lương khởi điểm của trẻ sau khi tốt nghiệp đại học.",
+        "B": "Có thể sử dụng thay thế hoàn toàn cho các phương pháp chẩn đoán y khoa bằng điện não đồ và xét nghiệm nhiễm sắc thể di truyền khi đánh giá năng lực nhận thức của đối tượng nghiên cứu.",
+        "C": "Khảo sát được đồng thời nhiều mặt của trí lực (tri giác, số lượng, phân loại, sắp xếp, suy luận lôgic) trên cả trẻ chưa biết chữ với quy trình gọn nhẹ, ít tốn kém.",
+        "D": "Cho phép nghiệm viên can thiệp dạy kèm trực tiếp cho trẻ ngay trong giờ làm bài để nâng cao vùng phát triển gần nhất."
+      },
+      "correct_answer": "C",
+      "explanation": "Test Gille vừa đa dạng (62 hình đo nhiều mặt trí lực theo cấu trúc + Piaget) vừa phi ngôn ngữ nên dùng được cho trẻ 6–12 tuổi kể cả chưa đi học, lại tổ chức theo nhóm gọn nhẹ."
+    },
+    {
+      "id": 100,
+      "difficulty": "medium",
+      "question": "Khi nghiệm viên vẽ minh họa các hình ví dụ lên bảng đen lớn trong Trắc nghiệm René Gille, yêu cầu đặt bảng đen là gì?",
+      "options": {
+        "A": "Bảng đen phải được che phủ bằng rèm vải kín ngay sau khi trẻ ngồi vào chỗ để rèn luyện trí nhớ hình ảnh ngắn hạn.",
+        "B": "Bảng đen phải được đặt khuất sau lưng trẻ để chỉ những trẻ nào chủ động quay đầu lại mới xem được hướng dẫn ví dụ trong bối cảnh thực tiễn ứng dụng khoa học tâm lí trí tuệ.",
+        "C": "Bảng đen chỉ được dùng để viết tên tuổi của nghiệm viên và giờ bắt đầu - kết thúc của buổi khảo sát trắc nghiệm.",
+        "D": "Bảng đen lớn phải được đặt ở vị trí thuận lợi sao cho toàn bộ trẻ em ngồi ở các bàn riêng trong phòng đều có thể nhìn thấy rõ ràng."
+      },
+      "correct_answer": "D",
+      "explanation": "Quy định tổ chức test Gille: chuẩn bị phấn viết và bảng đen lớn đặt ở vị trí sao cho mọi trẻ đều nhìn rõ để minh họa các hình ví dụ."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Nêu tên và giải thích ngắn gọn 4 tiêu chuẩn bắt buộc của một bộ trắc nghiệm tâm lí đã được chuẩn hóa.",
+      "expected_answer": "1. Độ ứng nghiệm (Validity): đo đúng yếu tố tâm lí cần đo và phản ánh đúng hiệu suất của yếu tố đó trong hoạt động thực tiễn.\n2. Độ tin cậy / trung thành (Fidelity): kết quả ổn định qua các lần đo lặp lại (test-retest) hoặc giữa hai nửa bài test (split-half).\n3. Độ phân biệt (Difference): phát hiện được các khác biệt nhỏ nhất giữa các yếu tố trong một người và giữa các nghiệm thể.\n4. Tính quy chuẩn (Standardize): có thể dùng phổ biến cho một quần thể dựa trên bảng chuẩn xây dựng từ nhóm mẫu đại diện.",
+      "explanation": "Đây là 4 tiêu chuẩn phân biệt trắc nghiệm tâm lí khoa học với các phép thử tự phát thông thường."
+    },
+    {
+      "id": 2,
+      "question": "Phân biệt sự khác nhau cơ bản giữa 'Đo lường tâm lí' (Psychometry) và 'Chẩn đoán tâm lí' (Psychodiagnostic) theo quan điểm của Trần Trọng Thủy và L.S. Vygotsky.",
+      "expected_answer": "- Đo lường tâm lí (Psychometry): lượng hóa hiện trạng (triệu chứng tại một thời điểm tĩnh) nhờ phương tiện khách quan và thống kê toán học theo chuẩn có sẵn.\n- Chẩn đoán tâm lí (Psychodiagnostic): thu thập tư liệu bằng nhiều phương pháp để giải thích bản chất cấu trúc bên trong và dự báo xu thế phát triển tương lai (đánh giá cả những 'quả sắp chín' trong vùng phát triển gần nhất theo Vygotsky).",
+      "explanation": "Đo lường chỉ là một trường hợp riêng, công cụ bộ phận phục vụ cho mục tiêu tổng thể của chẩn đoán phát triển."
+    },
+    {
+      "id": 3,
+      "question": "Viết công thức tính IQ tỉ lệ của W. Stern (1912) và công thức tính IQ độ lệch của David Wechsler (1955), đồng thời giải thích ý nghĩa các đại lượng.",
+      "expected_answer": "- Công thức W. Stern (1912): IQ = (Tuổi trí tuệ / Tuổi đời) × 100 (trong đó Tuổi trí tuệ MA do Binet đề xuất theo tháng).\n- Công thức David Wechsler (1955): IQ = [(X - Xtb) / d] × 15 + 100 (trong đó X là điểm cá nhân, Xtb là điểm trung bình nhóm mẫu chuẩn, d là độ lệch chuẩn của nhóm, 1d = 15 điểm).",
+      "explanation": "Công thức độ lệch của Wechsler khắc phục nhược điểm mẫu số tuổi đời tăng liên tục ở người trưởng thành trong công thức Stern."
+    },
+    {
+      "id": 4,
+      "question": "Tại sao đối với trẻ em dưới 3 tuổi, các nhà tâm lí học thường sử dụng Chỉ số phát triển (DQ) thay vì Chỉ số trí tuệ (IQ)?",
+      "expected_answer": "Vì dưới 3 tuổi (đặc biệt dưới 2 tuổi), trí khôn của trẻ còn sơ đẳng, sự phát triển diễn ra rất nhanh và biến động mạnh trên bình diện Tâm - vận động. Chỉ số phát triển (DQ) phản ánh mức độ thực hiện lịch trình phát triển tâm - vận động so với trẻ cùng độ tuổi, phù hợp hơn thang đo IQ (thường chỉ áp dụng từ 3–4 tuổi trở lên).",
+      "explanation": "Chỉ số DQ (Developmental Quotient) gắn chặt với tiến trình phát triển tâm - vận động đầu đời của trẻ."
+    },
+    {
+      "id": 5,
+      "question": "Trình bày 3 hạn chế lớn của phương pháp trắc nghiệm trí tuệ truyền thống được phân tích trong Chương 5.",
+      "expected_answer": "1. Chỉ đo kết quả tĩnh và trình độ hiện thời (bỏ qua quá trình tư duy/lập luận theo phê phán của Piaget và bỏ qua vùng phát triển gần nhất ZPD vì cấm hợp tác theo phê phán của Vygotsky).\n2. Tách rời yếu tố trí tuệ khỏi tổng thể nhân cách (bỏ qua cảm xúc, động cơ, ý chí nên IQ cao không bảo đảm thành công thực tiễn).\n3. Nguy cơ đánh tráo đối tượng đo và hiện tượng 'nhờn' trắc nghiệm khi lạm dụng hoặc luyện thi mẹo.",
+      "explanation": "Nhận thức rõ 3 hạn chế này giúp nhà nghiên cứu không tuyệt đối hóa trắc nghiệm mà biết phối hợp đa phương pháp."
+    },
+    {
+      "id": 6,
+      "question": "Bản chất của 'Phương pháp lâm sàng tâm lí' do Jean Piaget xây dựng là gì? Nêu ưu điểm và hạn chế chính của phương pháp này.",
+      "expected_answer": "- Bản chất: Kết hợp giữa phương pháp lâm sàng truyền thống (trò chuyện, hỏi chuyện sâu linh hoạt) với thực nghiệm tác động không đầy đủ (trên các vật liệu như bột nặn, cốc nước).\n- Ưu điểm: Khai thác sâu sắc, phong phú cơ chế lập luận tự phát và sự biến đổi cấu trúc trí tuệ trẻ em.\n- Hạn chế: Đòi hỏi nghiệm viên rất giàu kinh nghiệm (dễ làm lệch hướng suy nghĩ của trẻ nếu gợi ý vụng về) và tư liệu thiếu ý nghĩa thống kê đại trà.",
+      "explanation": "Chính vì thiếu tính thống kê đại trà nên về sau J. Piaget thường kết hợp cả phương pháp lâm sàng và phương pháp trắc nghiệm."
+    },
+    {
+      "id": 7,
+      "question": "Phân biệt 'Thực nghiệm phát hiện' và 'Thực nghiệm hình thành' trong nghiên cứu trí tuệ trẻ em.",
+      "expected_answer": "- Thực nghiệm phát hiện: Hướng tới việc làm bộc lộ những yếu tố tâm lí hiện có và sắp có trong trí tuệ cá nhân.\n- Thực nghiệm hình thành (tác động/giáo dục): Chủ động tổ chức tác động sư phạm nhằm hình thành một yếu tố hoặc cấu trúc tâm lí mới; qua tay N. Ach, L.S. Vygotsky và P.Ia. Galperin, đây trở thành công cụ chẩn đoán sắc bén nhất cơ chế phát sinh và tiềm năng trí tuệ (ZPD).",
+      "explanation": "Thực nghiệm hình thành cho phép nhà tâm lí học 'nhìn thấy' chức năng tâm lí ngay trong quá trình nó đang được tạo thành."
+    },
+    {
+      "id": 8,
+      "question": "Nêu các thông số kĩ thuật cốt lõi của Trắc nghiệm trí tuệ đa dạng René Gille (1944): đối tượng, số bài tập, tổng điểm và quy định nghỉ giải lao.",
+      "expected_answer": "- Tác giả & năm: René Gille (Pháp, 1944), định chuẩn trên 9.500 trẻ 6–14 tuổi.\n- Đối tượng áp dụng: Trẻ từ 6,0 đến 12,0 tuổi (kể cả trẻ chưa biết chữ vì hoàn toàn phi ngôn ngữ).\n- Quy mô & điểm số: 62 bài tập hình vẽ đa dạng; tổng điểm tối đa là 204 điểm.\n- Quy trình đặc biệt: Nhóm tối đa 20 trẻ ngồi bàn riêng, nghiệm viên thuộc lòng nguyên văn lời dẫn, và bắt buộc cho trẻ nghỉ giải lao 5 phút sau khi làm xong Hình 48.",
+      "explanation": "Đây là bộ trắc nghiệm phi ngôn ngữ kinh điển kết hợp lí thuyết cấu trúc trí tuệ và tâm lí học phát sinh J. Piaget."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phân Tích 4 Tiêu Chuẩn Trắc Nghiệm Chuẩn Hóa và Thách Thức Chuyển Giao Văn Hóa",
+      "problem": "Phân tích 4 tiêu chuẩn của một trắc nghiệm chuẩn hóa (Độ ứng nghiệm, Độ tin cậy, Độ phân biệt, Tính quy chuẩn) và làm rõ vì sao không thể đem nguyên bản một trắc nghiệm ngôn ngữ của nước ngoài áp dụng ngay cho trẻ em Việt Nam mà không qua quá trình Việt hóa và định chuẩn lại.",
+      "solution_steps": [
+        "Bước 1: Trình bày khái niệm trắc nghiệm chuẩn hóa và phân tích chi tiết nội hàm 4 tiêu chuẩn (Validity, Fidelity, Difference, Standardize) cùng các cách kiểm chứng kĩ thuật (tương quan hiệu suất thực tiễn, test-retest, split-half, nhóm mẫu đại diện).",
+        "Bước 2: Phân tích tính nhạy cảm văn hóa của tiêu chuẩn Độ ứng nghiệm (Validity) và Tính quy chuẩn (Standardize): các bài tập dùng lời chịu sự chi phối mạnh mẽ của ngôn ngữ mẹ đẻ, hệ thống khái niệm văn hóa, lối sống và chương trình giáo dục của quốc gia gốc.",
+        "Bước 3: Kết luận ứng dụng: Nếu áp dụng nguyên bản không định chuẩn lại, trắc nghiệm sẽ đo nhầm vốn văn hóa/ngôn ngữ (vi phạm độ ứng nghiệm) và đối chiếu sai bảng chuẩn quần thể (vi phạm tính quy chuẩn). Cần Việt hóa, kiểm định lại 4 tiêu chuẩn trên mẫu đại diện Việt Nam và ưu tiên kết hợp các nghiệm pháp phi ngôn ngữ (như Raven, René Gille)."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Đối Chiếu Công Thức IQ Tỉ Lệ (W. Stern) với IQ Độ Lệch (D. Wechsler) và Tính Không Bất Biến của IQ",
+      "problem": "Đối chiếu công thức tính IQ tỉ lệ của W. Stern (1912) với công thức tính IQ độ lệch của D. Wechsler (1955). Phân tích luận điểm 'IQ không phải là hằng số bất biến' của R. Shaffer (1992) và ý nghĩa của nó đối với công tác giáo dục.",
+      "solution_steps": [
+        "Bước 1: Trình bày công thức W. Stern IQ = (MA/CA) × 100, chỉ ra ưu điểm lịch sử (so sánh tương đối nhanh ở trẻ nhỏ) và hạn chế cốt lõi (mẫu số tuổi đời tăng tuyến tính làm sai lệch IQ ở người lớn, không phản ánh đúng nhịp độ phát triển giữa các lứa tuổi).",
+        "Bước 2: Trình bày công thức độ lệch của D. Wechsler IQ = [(X - Xtb)/d] × 15 + 100 gắn với đường cong phân phối chuẩn Gauss (quy tắc 3d, khoảng bình thường ±1d chiếm ~68,2%), giải thích cách công thức này chuẩn hóa vị trí cá nhân trong cùng nhóm tuổi.",
+        "Bước 3: Phân tích luận điểm của R. Shaffer (ví IQ như nhiệt độ bệnh nhân tại thời điểm đo) và ý nghĩa sư phạm: Phê phán thái độ dán nhãn định mệnh 'thông minh/đần độn suốt đời'; khẳng định vai trò quyết định của hoạt động học tập tích cực, môi trường giáo dục và sự cần thiết phải kết hợp IQ với trí tuệ cảm xúc (EQ)."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "So Sánh Phương Pháp Trắc Nghiệm, Lâm Sàng Tâm Lí (J. Piaget) và Thực Nghiệm Hình Thành",
+      "problem": "So sánh phương pháp Trắc nghiệm (Test), phương pháp Lâm sàng tâm lí (của J. Piaget) và phương pháp Thực nghiệm hình thành (của L.S. Vygotsky & P.Ia. Galperin) trong chẩn đoán trí tuệ trẻ em. Đề xuất nguyên tắc phối hợp các phương pháp này trong thực tiễn tâm lí học đường.",
+      "solution_steps": [
+        "Bước 1: Phân tích đặc trưng, ưu điểm và hạn chế của từng phương pháp: (a) Trắc nghiệm (nhanh, lượng hóa, chuẩn hóa diện rộng nhưng tĩnh, bỏ qua quá trình lập luận và ZPD); (b) Lâm sàng tâm lí Piaget (linh hoạt, khám phá cấu trúc lập luận bên trong nhưng phụ thuộc tay nghề nghiệm viên, thiếu thống kê); (c) Thực nghiệm hình thành Vygotsky/Galperin (chủ động kiến tạo, đo chính xác ZPD nhưng đòi hỏi nhiều thời gian và thiết kế sư phạm công phu).",
+        "Bước 2: Đối chiếu triết lí nền tảng giữa Đo lường triệu chứng (Psychometry) và Chẩn đoán phát triển (Psychodiagnostic) qua ẩn dụ 'người làm vườn' của L.S. Vygotsky.",
+        "Bước 3: Đề xuất mô hình phối hợp 3 bước tại trường học: Dùng trắc nghiệm chuẩn hóa (như Raven hoặc Gille) để sàng lọc nhanh diện rộng -> Dùng hỏi chuyện lâm sàng kiểu Piaget với những trường hợp nghi ngờ để hiểu cấu trúc sai sót tư duy -> Dùng thực nghiệm hình thành/dạy học có gợi mở để đánh giá ZPD và lập kế hoạch can thiệp cá nhân hóa."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Cơ Sở Lí Luận, Cấu Trúc 62 Bài Tập và Quy Trình Chuẩn Mực của Trắc Nghiệm René Gille",
+      "problem": "Phân tích cơ sở lí luận, cấu trúc 62 bài tập và các nguyên tắc tổ chức nghiêm ngặt của Trắc nghiệm trí tuệ đa dạng René Gille (1944). Theo bạn, tại sao bộ trắc nghiệm này vẫn giữ nguyên giá trị tham khảo quan trọng cho tâm lí học phát triển hiện đại?",
+      "solution_steps": [
+        "Bước 1: Trình bày xuất xứ (René Gille 1944, định chuẩn 9.500 trẻ Pháp 6–14 tuổi) và cơ sở lí luận kết hợp giữa lí thuyết cấu trúc đa thành phần với tâm lí học phát sinh J. Piaget.",
+        "Bước 2: Hệ thống hóa 5 nhóm năng lực trong 62 bài tập hình vẽ (tổng 204 điểm): tri thức không gian/trọng lượng/vận tốc; phân loại/khái quát hóa; quan sát và phát hiện chi tiết thiếu/vô lí; biểu tượng số lượng/tương ứng; sắp xếp thứ tự phát triển và suy luận quy luật tương tự.",
+        "Bước 3: Phân tích quy trình chuẩn mực (nhóm ≤ 20 trẻ ngồi bàn riêng, thuộc lòng lời dẫn nguyên văn, không sửa bài, nghỉ 5 phút sau Hình 48) và lí giải giá trị hiện đại: hình thức phi ngôn ngữ giảm thiểu rào cản chữ viết/văn hóa, khảo sát đa diện chức năng nhận thức cho trẻ 6–12 tuổi một cách kinh tế và khách quan."
+      ]
+    }
+  ]
+}

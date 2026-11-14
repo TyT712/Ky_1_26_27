@@ -60,6 +60,14 @@ COURSES_TO_AUDIT = [
         "chapters": [
             "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5"
         ]
+    },
+    {
+        "id": "tam_ly_hoc_tri_tue",
+        "name": "Tâm Lý Học Trí Tuệ (Cornell & 100 MCQ/Chương)",
+        "dir": DOCS / "data" / "tam_ly_hoc_tri_tue",
+        "chapters": [
+            "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5", "chuong_6", "chuong_7"
+        ]
     }
 ]
 
@@ -227,6 +235,10 @@ def audit_static_server():
         "data/tam_ly_hoc_2/chuong_1_theory.md",
         "data/tam_ly_hoc_2/chuong_5_exercises.json",
         "data/tam_ly_hoc_2/chuong_5_theory.md",
+        "data/tam_ly_hoc_tri_tue/chuong_1_exercises.json",
+        "data/tam_ly_hoc_tri_tue/chuong_1_theory.md",
+        "data/tam_ly_hoc_tri_tue/chuong_7_exercises.json",
+        "data/tam_ly_hoc_tri_tue/chuong_7_theory.md",
         "data/cnxhkh/chuong_7_theory.md",
         ".nojekyll"
     ]

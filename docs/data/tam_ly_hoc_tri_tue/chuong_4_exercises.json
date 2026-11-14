@@ -1,0 +1,1398 @@
+{
+  "chapter_id": "chuong_4",
+  "chapter_title": "Chương 4: Các yếu tố tác động tới sự phát triển trí tuệ cá nhân",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Theo giáo trình Tâm lý học trí tuệ, vì sao việc làm sáng tỏ mối quan hệ giữa hoạt động chủ thể với các yếu tố khác lại có ý nghĩa then chốt?",
+      "options": {
+        "A": "Vì nó không chỉ giải quyết các tranh luận học thuật mà còn có giá trị chỉ đạo thực tiễn chẩn đoán, đo lường trí tuệ và tổ chức dạy học cho trẻ em.",
+        "B": "Vì nó giúp các nhà sinh물 học xác định chính xác bản đồ giải phẫu của toàn bộ các vùng vỏ não ngay từ khi đứa trẻ mới chào đời.",
+        "C": "Vì nó cho phép loại bỏ hoàn toàn vai trò của môi trường văn hóa xã hội để tập trung duy nhất vào việc huấn luyện các phản xạ có điều kiện.",
+        "D": "Vì nó cung cấp công thức toán học cố định để tính toán chỉ số thông minh vĩnh viễn của mỗi cá nhân mà không cần qua trắc nghiệm thực tế."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình (mục 4.1) chỉ rõ việc làm sáng tỏ mối quan hệ này vừa phản ánh các quan điểm học thuật, vừa có giá trị chỉ đạo thực tiễn trong chẩn đoán, đo lường trí tuệ trẻ em, trong dạy học và các lĩnh vực xã hội liên quan.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Tại sao phương pháp phân tích nhân tố tách rời từng biến số lại không thể đưa ra câu trả lời cuối cùng về các yếu tố ảnh hưởng tới sự phát triển trí tuệ cá nhân?",
+      "options": {
+        "A": "Bởi vì các thiết bị đo đạc điện não đồ hiện đại vẫn chưa đủ độ nhạy để ghi nhận tốc độ dẫn truyền xung thần kinh qua các khớp thần kinh.",
+        "B": "Bởi vì không thể khu biệt riêng rẽ sự tác động trực tiếp của một yếu tố bên ngoài nào đó đối với sự phát triển trí tuệ của chủ thể như trong khoa học tự nhiên.",
+        "C": "Bởi vì trí tuệ con người là một hiện tượng siêu nhiên hoàn toàn nằm ngoài khả năng nhận thức và khảo sát thực nghiệm của mọi ngành khoa học xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "D": "Bởi vì phương pháp phân tích nhân tố chỉ áp dụng được cho những đứa trẻ dưới hai tuổi khi ngôn ngữ giao tiếp xã hội chưa được hình thành."
+      },
+      "correct_answer": "B",
+      "explanation": "Khác với các khoa học tự nhiên có thể tách biệt quan hệ trực tiếp giữa hai yếu tố, trong tâm lý học không thể khu biệt riêng rẽ sự tác động trực tiếp của một yếu tố bên ngoài lên sự phát triển của chủ thể.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "question": "Dưới góc độ phương pháp luận biện chứng, sai lầm chung của các quan niệm quy kết vai trò quyết định trực tiếp cho riêng yếu tố sinh học hoặc riêng yếu tố xã hội là gì?",
+      "options": {
+        "A": "Đó là cách tiếp cận quá đề cao tính tích cực tự giác của cá nhân mà quên mất rằng con người hoàn toàn lệ thuộc vào bản năng sinh vật.",
+        "B": "Đó là phương pháp nghiên cứu chỉ dựa trên tâm lý học hoạt động mà bỏ qua toàn bộ thành tựu của trường phái tâm lý học hành vi cổ điển.",
+        "C": "Đó là cách nhìn nhận máy móc, cực đoan và phiến diện vì đã coi trí tuệ như một tổ hợp lắp ghép từ những bộ phận rời rạc khác nhau.",
+        "D": "Đó là khuynh hướng tuyệt đối hóa vai trò của cảm xúc và động cơ cá nhân trong khi phủ nhận sự tồn tại của các thao tác tư duy lôgic."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình phê phán việc quy kết vai trò quyết định trực tiếp cho sinh học hay xã hội (hoặc chia đều trung dung) là máy móc, cực đoan và phiến diện vì trí tuệ là một đơn vị tâm lý trọn vẹn chứ không phải một tổ hợp ghép nối.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "Theo quan điểm duy vật biện chứng trong tâm lý học, bản chất của trí tuệ cá nhân được nhìn nhận như thế nào trong quá trình phát triển?",
+      "options": {
+        "A": "Trí tuệ cá nhân là một tập hợp các phản xạ không điều kiện được đóng gói sẵn trong hệ thống gen di truyền từ thế hệ cha mẹ sang con cái.",
+        "B": "Trí tuệ cá nhân là phép cộng cơ học giữa năm mươi phần trăm năng lực bẩm sinh và năm mươi phần trăm tác động cưỡng bức từ hoàn cảnh sống.",
+        "C": "Trí tuệ cá nhân là một thực thể tinh thần thuần túy tự vận động bên trong ý thức mà không cần bất kỳ sự tương tác nào với thế giới vật chất.",
+        "D": "Trí tuệ cá nhân là một đơn vị tâm lý trọn vẹn được hình thành và phát triển trong quá trình phát triển chung của toàn bộ đời sống con người."
+      },
+      "correct_answer": "D",
+      "explanation": "Trí tuệ cá nhân không phải là một tổ hợp được cấu thành từ những bộ phận rời rạc, mà là một đơn vị tâm lý trọn vẹn được hình thành và phát triển trong quá trình phát triển chung của đời sống con người.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Khi nào thì các yếu tố tự nhiên và xã hội mới thực sự tham gia vào sự hình thành và phát triển trí tuệ của một cá nhân?",
+      "options": {
+        "A": "Khi và chỉ khi diễn ra sự tương tác sống động giữa các yếu tố tự nhiên và xã hội đó với chính bản thân cá nhân thông qua hoạt động.",
+        "B": "Ngay từ thời điểm phôi thai được thụ tinh và thừa hưởng toàn bộ bộ nhiễm sắc thể di truyền mang thông tin trí thông minh của dòng họ.",
+        "C": "Khi cá nhân bước vào độ tuổi trưởng thành và toàn bộ hệ thống thần kinh trung ương cùng hệ nội tiết đã ngừng quá trình biến đổi sinh học.",
+        "D": "Khi xã hội ban hành các quy chuẩn giáo dục bắt buộc và áp đặt đồng loạt một chương trình huấn luyện giống hệt nhau cho mọi đứa trẻ."
+      },
+      "correct_answer": "A",
+      "explanation": "Các yếu tố tự nhiên và xã hội không tham gia trực tiếp vào cấu thành trí tuệ mà chỉ là cái đặt ra đối với chủ thể; chúng chỉ trở thành yếu tố trong sự phát triển trí tuệ khi có sự tương tác với cá nhân thông qua hoạt động.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 6,
+      "question": "Theo phương pháp luận biện chứng, câu hỏi khoa học đúng đắn khi xem xét vai trò của cái tự nhiên và cái xã hội đối với trí tuệ cá nhân là gì?",
+      "options": {
+        "A": "Yếu tố nào chiếm tỷ lệ phần trăm lớn hơn trong việc quy định trực tiếp điểm số trắc nghiệm chỉ số thông minh của đứa trẻ ở trường học.",
+        "B": "Chúng cung cấp cái gì và cung cấp như thế nào cho chủ thể trong quá trình phát triển, tức là chúng tham gia như thế nào vào sự phát triển đó.",
+        "C": "Làm thế nào để triệt tiêu hoàn toàn ảnh hưởng của các đặc điểm tư chất bẩm sinh nhằm tạo ra những cá nhân có năng lực hoàn toàn đồng nhất.",
+        "D": "Cơ chế di truyền nhiễm sắc thể nào quyết định trực tiếp việc một người sẽ trở thành thiên tài toán học hay nhà quản lý xã hội xuất sắc dưới góc độ phân tích của các trường phái tâm lý học truyền thống."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nhấn mạnh: xem xét vai trò của cái tự nhiên và cái xã hội không phải là xác định cái nào quyết định, cái nào hơn cái nào, mà phải trả lời câu hỏi chúng cung cấp cái gì và cung cấp như thế nào cho chủ thể.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "question": "Quan điểm 'trung dung' cho rằng cả yếu tố sinh học và yếu tố môi trường xã hội đều có vai trò quyết định trực tiếp ngang nhau bị phê phán vì lý do nào?",
+      "options": {
+        "A": "Vì nó quá đề cao vai trò của hoạt động tự giác và đời sống cảm xúc cá nhân trong việc tự kiến tạo các cấu trúc nhận thức bậc cao xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "B": "Vì nó phủ nhận hoàn toàn sự tồn tại của hệ thống tín hiệu thứ nhất và hệ thống tín hiệu thứ hai trong hoạt động thần kinh cấp cao.",
+        "C": "Vì nó vẫn đứng trên lập trường siêu hình, cộng gộp cơ học hai yếu tố bên ngoài mà bỏ qua vai trò quyết định trực tiếp của hoạt động chủ thể.",
+        "D": "Vì nó chỉ công nhận ảnh hưởng của giáo dục nhà trường mà bác bỏ mọi tác động của truyền thống văn hóa gia đình đối với trẻ nhỏ."
+      },
+      "correct_answer": "C",
+      "explanation": "Dù quy kết cho một yếu tố hay trung dung coi cả hai ngang nhau một cách trực tiếp thì đều rơi vào quan điểm máy móc, phiến diện vì chưa thấy sự thống nhất biện chứng thông qua hoạt động của chủ thể.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 8,
+      "question": "Điểm đặc trưng chung của các quan niệm nhấn mạnh yếu tố sinh học trong tâm lý học trí tuệ là gì?",
+      "options": {
+        "A": "Tập trung nghiên cứu quá trình chuyển hóa các kinh nghiệm lịch sử xã hội từ bên ngoài vào bên trong thông qua việc sử dụng công cụ ký hiệu tâm lý.",
+        "B": "Tuyệt đối hóa vai trò của hệ thống kích thích và củng cố từ môi trường giáo dục trong việc nhào nặn nhân cách và trí tuệ của mọi đứa trẻ trong tiến trình hình thành và phát triển đời sống tâm lý cá thể.",
+        "C": "Giải thích sự hình thành các khái niệm khoa học của học sinh thông qua mối quan hệ hợp tác chặt chẽ giữa người thầy giáo và người học sinh.",
+        "D": "Cố gắng xác lập mối quan hệ trực tiếp giữa yếu tố sinh học với sự phát triển và khác biệt cá nhân về trí tuệ, ít quan tâm tới nội dung văn hóa xã hội."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 4.2.1, các quan niệm nhấn mạnh yếu tố sinh học cố gắng xác lập quan hệ trực tiếp giữa yếu tố sinh học với sự phát triển trí tuệ và ít quan tâm tới nội dung xã hội cũng như tác động của môi trường văn hóa - xã hội.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Tư tưởng cực đoan về sự di truyền trí tuệ qua gen giữa các thế hệ đã dẫn đến hệ lụy xã hội - chính trị nguy hiểm nào trong lịch sử?",
+      "options": {
+        "A": "Hình thành các học thuyết về ưu sinh (Eugenics) và hàng loạt học thuyết phân biệt chủng tộc, sắc tộc về năng lực trí tuệ con người.",
+        "B": "Hình thành phong trào xóa bỏ toàn bộ hệ thống trường học chính quy để thay thế bằng các máy dạy học chương trình hóa tự động.",
+        "C": "Dẫn đến việc tuyệt đối hóa phương pháp thảo luận nhóm và hợp tác xã hội trong mọi cấp học từ bậc mầm non đến bậc đại học.",
+        "D": "Thúc đẩy các chính phủ đầu tư toàn bộ ngân sách quốc gia vào việc cải thiện môi trường văn hóa cho trẻ em thuộc các gia đình nghèo."
+      },
+      "correct_answer": "A",
+      "explanation": "Những người cực đoan theo thuyết di truyền cho rằng chỉ có thiểu số người có khả năng trí tuệ tốt hơn cả, từ đó hình thành thuyết ưu sinh và các học thuyết phân biệt chủng tộc, sắc tộc về trí tuệ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "question": "Các nhà tâm lý học theo quan điểm di truyền trí tuệ thường dựa vào những nguồn tư liệu chủ yếu nào để bảo vệ luận điểm của mình?",
+      "options": {
+        "A": "Phân tích lịch sử phát triển của công cụ lao động qua các thời đại khảo cổ học và khảo sát quá trình hình thành khái niệm ở học sinh.",
+        "B": "Nghiên cứu trên động vật, phân tích so sánh chỉ số IQ của trẻ em sinh đôi và so sánh điểm trắc nghiệm giữa các nhóm chủng tộc, xã hội.",
+        "C": "Quan sát quá trình trẻ em giải quyết nhiệm vụ dưới sự gợi ý hợp tác của người lớn để xác định khoảng cách vùng phát triển gần nhất.",
+        "D": "Sử dụng phương pháp thực nghiệm dạy học hình thành hành động trí tuệ theo từng giai đoạn từ hành động vật chất bên ngoài vào bên trong."
+      },
+      "correct_answer": "B",
+      "explanation": "Nguồn tư liệu chủ yếu của thuyết di truyền trí tuệ thu từ nghiên cứu trên động vật, phân tích so sánh chỉ số IQ của các trẻ em sinh đôi và so sánh giữa các nhóm người qua trắc nghiệm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Trong luận điểm thứ nhất phê phán thuyết di truyền trí tuệ, giáo trình đánh giá như thế nào về giới hạn của các trắc nghiệm trí tuệ (Tests)?",
+      "options": {
+        "A": "Các trắc nghiệm trí tuệ hoàn toàn vô giá trị vì chúng chỉ đo được tốc độ phản xạ vận động của cơ bắp chứ không liên quan gì đến nhận thức.",
+        "B": "Trắc nghiệm trí tuệ có khả năng dự báo chính xác tuyệt đối tiềm năng phát triển trọn đời của mỗi đứa trẻ ngay từ khi trẻ mới lên ba tuổi dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "C": "Ngay cả trắc nghiệm được soạn thảo tốt nhất và tiến hành nghiêm ngặt nhất cũng chỉ phản ánh được mức độ trí tuệ của cá nhân tại một thời điểm nhất định.",
+        "D": "Các trắc nghiệm trí tuệ chỉ có thể áp dụng thành công cho động vật linh trưởng trong phòng thí nghiệm chứ không thể dùng cho trẻ em."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình khẳng định: các trắc nghiệm, dù được soạn thảo tốt nhất và tiến hành nghiêm ngặt nhất, cũng chỉ phản ánh được mức độ trí tuệ của một cá nhân tại một thời điểm nhất định; coi IQ là hằng số cố định truyền từ cha mẹ sang con cái là phi khoa học.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "Hạn chế phương pháp luận căn bản của các nhà tâm lý học nhấn mạnh yếu tố di truyền khi sử dụng 'phương pháp trẻ em sinh đôi' là gì?",
+      "options": {
+        "A": "Họ chỉ tiến hành nghiên cứu trên những cặp sinh đôi khác trứng ở độ tuổi người già mà bỏ qua toàn bộ giai đoạn phát triển ở lứa tuổi trẻ em.",
+        "B": "Họ hoàn toàn không sử dụng các bài trắc nghiệm chuẩn hóa mà chỉ dựa vào lời kể chủ quan của các bậc phụ huynh trong gia đình.",
+        "C": "Họ đã nhầm lẫn giữa các phản xạ định hướng bẩm sinh với các kỹ xảo nghề nghiệp phức tạp được hình thành ở tuổi trưởng thành theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "D": "Họ không thể tách riêng biến số di truyền ra khỏi các biến số về điều kiện sống và hoàn cảnh nuôi dưỡng tương đồng hay khác biệt để phân tích độc lập."
+      },
+      "correct_answer": "D",
+      "explanation": "Trong nghiên cứu trẻ sinh đôi, các nhà tâm lý học theo hướng di truyền đã không thể tách riêng biến số di truyền ra khỏi các biến số điều kiện nuôi dưỡng tương đồng hay không tương đồng.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 13,
+      "question": "Công trình phân tích tổng hợp của hai nhà tâm lý học Kimling và Jarvik (1993) dựa trên 52 nghiên cứu về trí tuệ trẻ em đã rút ra kết luận quan trọng nào?",
+      "options": {
+        "A": "Điều kiện sống chung và sự khác biệt của hoàn cảnh nuôi dưỡng đã tác động mạnh mẽ đến yếu tố di truyền, làm thay đổi vai trò của nó đối với trí tuệ.",
+        "B": "Yếu tố di truyền sinh học quyết định đúng tám mươi phần trăm chỉ số thông minh của trẻ em bất chấp mọi sự thay đổi của hoàn cảnh giáo dục.",
+        "C": "Trẻ em sinh đôi cùng trứng dù được nuôi dưỡng ở hai nền văn hóa hoàn toàn cách biệt vẫn luôn có suy nghĩ, tình cảm và vốn từ vựng giống hệt nhau.",
+        "D": "Môi trường gia đình hoàn toàn không có bất kỳ ảnh hưởng nào đến sự phát triển trí tuệ của trẻ em sau khi trẻ đã bước qua giai đoạn sơ sinh."
+      },
+      "correct_answer": "A",
+      "explanation": "Kimling và Jarvik (1993) khi phân tích 52 công trình nghiên cứu trí tuệ trẻ em có các quan hệ khác nhau đã nhận thấy ảnh hưởng của điều kiện sống chung và hoàn cảnh khác nhau tác động đến yếu tố di truyền, làm thay đổi vai trò của nó đối với trí tuệ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "Công trình nghiên cứu nổi tiếng của R. Zajonc và cộng sự (1973) tại Hà Lan đã khảo sát trên quy mô mẫu và đối tượng cụ thể nào?",
+      "options": {
+        "A": "Khảo sát trên 52 cặp trẻ sinh đôi cùng trứng ở độ tuổi mẫu giáo được nuôi dưỡng trong các trại trẻ mồ côi tại khu vực Bắc Âu.",
+        "B": "Khảo sát trên 386.114 thanh niên Hà Lan ở độ tuổi 19 sống trong các gia đình có quy mô số con từ 1 đến 9 người con.",
+        "C": "Khảo sát trên 99 nhà khoa học, nghệ sĩ và nhà văn nổi tiếng thế giới đã từng đạt giải thưởng Nobel trong thế kỷ hai mươi.",
+        "D": "Khảo sát trên 1.500 học sinh tiểu học da đen và da trắng đang theo học tại các trường công lập ở các thành phố lớn của nước Mỹ."
+      },
+      "correct_answer": "B",
+      "explanation": "Nghiên cứu của Zajonc và cộng sự (1973) được thực hiện trên 386.114 thanh niên (19 tuổi) Hà Lan sống trong các gia đình có quy mô số con từ 1 đến 9.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "Theo kết quả nghiên cứu của R. Zajonc và cộng sự (1973) trên 386.114 thanh niên Hà Lan, điểm trí tuệ trung bình giảm dần theo quy mô số con trong gia đình theo trật tự nào?",
+      "options": {
+        "A": "Giảm dần đều đặn một cách tuyến tính tuyệt đối từ gia đình có 1 con đến gia đình có 2 con, 3 con, 4 con cho tới gia đình 9 con.",
+        "B": "Tăng dần tỉ lệ thuận với quy mô gia đình từ 1 con lên đến 9 con do gia đình càng đông anh chị em thì tương tác xã hội càng phong phú.",
+        "C": "Giảm dần theo trật tự quy mô gia đình: 2 con -> 3 con -> 4 con -> 1 con -> 5 con -> 6 con -> 7 con -> 8 con -> 9 con.",
+        "D": "Chỉ phụ thuộc vào thu nhập tài chính của cha mẹ chứ hoàn toàn không có sự khác biệt nào giữa gia đình 2 con và gia đình 9 con."
+      },
+      "correct_answer": "C",
+      "explanation": "Kết quả nghiên cứu của Zajonc (1973) chỉ rõ thứ tự giảm dần điểm trí tuệ trung bình theo quy mô số con trong gia đình là: 2 con -> 3 con -> 4 con -> 1 con -> 5 con -> 6 con -> 7 con -> 8 con -> 9 con.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 16,
+      "question": "Trong luận điểm thứ ba phê phán thuyết di truyền trí tuệ, các nhà xã hội học đã chỉ ra bản chất thực sự của khái niệm 'chủng tộc' ở Mỹ và phương Tây hiện nay là gì?",
+      "options": {
+        "A": "Chủng tộc là một phạm trù sinh học bất biến được phân định rạch ròi bởi cấu trúc giải phẫu của thùy trán và trọng lượng tuyệt đối của não bộ.",
+        "B": "Chủng tộc là kết quả của quá trình chọn lọc nhân tạo do các nhà tâm lý học trắc nghiệm thiết lập nhằm phân loại học sinh trong nhà trường.",
+        "C": "Chủng tộc là yếu tố duy nhất quyết định tốc độ hình thành các thao tác tư duy lôgic toán học ở trẻ em trong giai đoạn tiền thao tác.",
+        "D": "Không còn chủng tộc thuần khiết theo nghĩa sinh học; chủng tộc thực chất là một khái niệm xã hội phản ánh sự khác biệt về điều kiện xã hội."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo các nhà xã hội học, hiện nay không có chủng tộc thuần khiết theo đúng nghĩa sinh học; chủng tộc ở Mỹ và phương Tây là khái niệm xã hội, và sự khác biệt IQ giữa trẻ da đen với da trắng trong nghiên cứu của C. Burt và A. Jensen phản ánh sự khác biệt về điều kiện xã hội.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "Khi giải quyết mối quan hệ giữa cơ sở sinh lý - thần kinh (tư chất bẩm sinh) với trí tuệ cá nhân, hai xu hướng đối lập nào đã xuất hiện trong tâm lý học?",
+      "options": {
+        "A": "Một xu hướng đề cao quá mức coi cơ sở thần kinh là tiền đề có trước quy định siêu hình trí tuệ, và xu hướng kia đặt tư chất trong quan hệ biện chứng với hành động chủ thể.",
+        "B": "Một xu hướng phủ nhận hoàn toàn sự tồn tại của não bộ trong hoạt động tâm lý, và xu hướng kia đồng nhất tư duy với sự tiết dịch của tuyến nội tiết.",
+        "C": "Một xu hướng quy mọi hoạt động trí tuệ về phản xạ gân xương ở tủy sống, và xu hướng kia quy trí tuệ về các xung năng vô thức bẩm sinh.",
+        "D": "Một xu hướng chỉ nghiên cứu giải phẫu não của động vật bậc thấp, và xu hướng kia chỉ nghiên cứu mô phỏng mạch điện tử trong máy tính."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.2.1.2 chỉ rõ hai xu hướng: (1) Đề cao quá mức vai trò của cơ sở sinh lý thần kinh, các trung khu não, dẫn tới cách hiểu siêu hình; (2) Đặt yếu tố tư chất bẩm sinh trong mối quan hệ biện chứng với hành động của chủ thể.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "Trường phái tâm lý học nào là đại diện điển hình nhất cho quan điểm tuyệt đối hóa vai trò của môi trường bên ngoài theo công thức Kích thích - Phản ứng (S -> R)?",
+      "options": {
+        "A": "Trường phái Tâm lý học phát sinh nhận thức do J. Piaget khởi xướng tại Thụy Sĩ với phương pháp lâm sàng tâm lý trẻ em.",
+        "B": "Trường phái Tâm lý học hành vi do J. Watson sáng lập và được B.F. Skinner tiếp tục phát triển qua hệ thống dạy học chương trình hóa.",
+        "C": "Trường phái Tâm lý học hoạt động Xô viết do L.X. Vygotsky, A.N. Leontiev và P.Ia. Galperin dày công xây dựng trong thế kỷ XX.",
+        "D": "Trường phái Tâm lý học nhân văn hiện sinh do Abraham Maslow và Carl Rogers đại diện tại Mỹ vào nửa sau thế kỷ hai mươi dưới góc độ phân tích của các trường phái tâm lý học truyền thống."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong tâm lý học, quan điểm nhấn mạnh tuyệt đối môi trường dễ nhận thấy nhất ở các nhà hành vi chủ nghĩa với công thức S -> R, tiêu biểu là J. Watson và B.F. Skinner.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Quan điểm cực đoan của J. Watson về khả năng xã hội 'nhào nặn' bất kỳ đứa trẻ bình thường nào thành mẫu người mong muốn thông qua hệ thống kích thích đã dẫn tới sai lầm nào?",
+      "options": {
+        "A": "Dẫn đến thuyết 'tiền định sinh học' cực đoan, phủ nhận hoàn toàn khả năng cải tạo con người thông qua con đường giáo dục và rèn luyện xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "B": "Dẫn đến việc đề cao quá mức tính ngẫu nhiên tự phát của các cảm xúc cá nhân mà bỏ qua việc xây dựng kỷ luật học tập trong nhà trường.",
+        "C": "Dẫn đến thuyết 'định mệnh xã hội' về sự phát triển tâm lý người, biến đứa trẻ thành thực thể thụ động trước các tác động từ môi trường bên ngoài.",
+        "D": "Dẫn đến sự sụp đổ của toàn bộ các ngành khoa học thực nghiệm do chỉ sử dụng phương pháp nội quan tự quan sát chủ quan."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình nhận định quan điểm lý luận của J. Watson là cực đoan, dẫn đến sự 'định mệnh xã hội' của sự phát triển tâm lý người.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "Theo đánh giá của giáo trình, hệ thống dạy học chương trình hóa (dạy học bằng người máy) của B.F. Skinner đã bộc lộ hạn chế lớn nào đối với người học?",
+      "options": {
+        "A": "Đòi hỏi người học phải tự mình khám phá toàn bộ các khái niệm khoa học trừu tượng mà không có bất kỳ sự hướng dẫn hay phản hồi nào.",
+        "B": "Quá tập trung vào việc phát triển trí tuệ cảm xúc và kỹ năng thấu cảm xã hội mà bỏ bê việc rèn luyện các kỹ năng tính toán cơ bản trong tiến trình hình thành và phát triển đời sống tâm lý cá thể.",
+        "C": "Chi phí vận hành quá thấp nên không tận dụng được các thành tựu của ngành công nghệ thông tin và điều khiển học hiện đại.",
+        "D": "Đưa người học đến những kiến thức chi tiết vụn vặt, thiếu tính hệ thống tổng thể và làm hạn chế năng lực tư duy sáng tạo của cá nhân."
+      },
+      "correct_answer": "D",
+      "explanation": "Kết quả của chương trình dạy học bằng máy của B.F. Skinner đã đưa người học đến những kiến thức chi tiết thiếu hệ thống và sáng tạo, khiến lý thuyết của Thorndike và Skinner suy yếu vào những năm 1960.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Theo J. Piaget, yếu tố 'sự chín muồi của phức hợp hệ thần kinh và nội tiết' đóng vai trò như thế nào đối với sự phát triển trí tuệ qua các giai đoạn lứa tuổi?",
+      "options": {
+        "A": "Chỉ là điều kiện cần chứ chưa đủ để xuất hiện hành vi mới, và vai trò quy định trực tiếp của nó đối với trí tuệ giảm dần theo sự phát triển qua các lứa tuổi.",
+        "B": "Là điều kiện vừa cần vừa đủ để quyết định toàn bộ nội dung tri thức khoa học của trẻ, và vai trò của nó ngày càng tăng lên khi trẻ trưởng thành.",
+        "C": "Là yếu tố hoàn toàn không có bất kỳ ảnh hưởng nào tới sự xuất hiện các sơ đồ giác - động ở trẻ sơ sinh trong hai năm đầu đời.",
+        "D": "Là nguồn gốc duy nhất tạo ra các khái niệm đạo đức và chuẩn mực văn hóa xã hội mà không cần đến sự luyện tập hay kinh nghiệm thực tế."
+      },
+      "correct_answer": "A",
+      "explanation": "Piaget chỉ rõ sự chín muồi các chức năng thần kinh chỉ là điều kiện cần nhưng chưa đủ (phải có luyện tập và kinh nghiệm), và vai trò quy định trực tiếp của nó đối với trí tuệ giảm dần theo sự phát triển qua các giai đoạn lứa tuổi.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 22,
+      "question": "Trong yếu tố thứ hai của J. Piaget, hai loại kinh nghiệm nào được trẻ thu nhận thông qua hoạt động tác động lên đối tượng?",
+      "options": {
+        "A": "Kinh nghiệm ngôn ngữ học (ghi nhớ từ vựng qua giao tiếp) và kinh nghiệm xúc cảm đạo đức (thể nghiệm các quy tắc ứng xử trong gia đình) theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "B": "Kinh nghiệm vật lý (trừu xuất các thuộc tính vật lý của sự vật) và kinh nghiệm lôgic - toán (trừu xuất từ chính sự phối hợp các hành động lên đối tượng).",
+        "C": "Kinh nghiệm phản xạ không điều kiện (bẩm sinh di truyền) và kinh nghiệm phản xạ có điều kiện (hình thành qua cơ chế thử và sai máy móc).",
+        "D": "Kinh nghiệm trực giác hình thái (bừng hiểu tức thời trong trường tri giác) và kinh nghiệm siêu nhận thức (lập kế hoạch xử lý thông tin đầu vào)."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo J. Piaget, thông qua hoạt động với đối tượng có hai loại kinh nghiệm: kinh nghiệm vật lý và kinh nghiệm lôgic - toán.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 23,
+      "question": "Ví dụ trẻ 5 - 6 tuổi xếp các viên sỏi và phát hiện ra rằng tổng số phần tử của một tập hợp hoàn toàn độc lập với thứ tự không gian hay thứ tự đếm minh họa cho loại kinh nghiệm nào theo J. Piaget?",
+      "options": {
+        "A": "Minh họa cho kinh nghiệm vật lý thuần túy vì con số và phép tổng là những thuộc tính vật chất sẵn có nằm bên trong cấu tạo hóa học của viên sỏi.",
+        "B": "Minh họa cho sự chuyển giao xã hội cưỡng bức từ người lớn áp đặt vào trí nhớ cơ học của đứa trẻ mà không cần trẻ thực hiện hành động nào dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "C": "Minh họa cho kinh nghiệm lôgic - toán, loại kinh nghiệm được J. Piaget rất đề cao trong cấu trúc trí tuệ và cho rằng ở trẻ em nó có trước kinh nghiệm vật lý.",
+        "D": "Minh họa cho quá trình chín muồi tự động của hệ thống tuyến nội tiết mà hoàn toàn không cần đến bất kỳ sự tương tác nào với các đồ vật."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình nêu rõ ví dụ trẻ 5-6 tuổi tìm ra tổng của một tập hợp độc lập với thứ tự không gian hay thứ tự đếm các phần tử là biểu hiện của kinh nghiệm lôgic - toán, và Piaget cho rằng ở trẻ em nó có trước kinh nghiệm vật lý.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Theo J. Piaget, tính hai mặt của yếu tố 'sự tương tác và chuyển giao xã hội' trong quá trình phát triển trí tuệ trẻ em được thể hiện như thế nào?",
+      "options": {
+        "A": "Một mặt xã hội cung cấp sẵn các tế bào thần kinh cho não bộ, mặt khác đứa trẻ phải tự mình chế tạo ra các công cụ lao động sản xuất vật chất.",
+        "B": "Một mặt tương tác xã hội thúc đẩy sự phát triển ngôn ngữ bên ngoài, mặt khác nó luôn kìm hãm và làm suy thoái các cấu trúc tư duy lôgic bên trong.",
+        "C": "Một mặt người lớn truyền thụ kiến thức qua máy dạy học tự động, mặt khác trẻ em tiếp nhận nguyên xi như một tờ giấy trắng không có sự biến đổi theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "D": "Một mặt cá nhân nhận được những khuôn mẫu trí tuệ xã hội tương ứng lứa tuổi, mặt khác tác động xã hội chỉ phát huy tác dụng khi có sự đồng hóa tích cực của trẻ."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Piaget, sự tương tác xã hội có tính hai mặt: một mặt sự xã hội hóa là quá trình cấu trúc giúp cá nhân nhận khuôn mẫu trí tuệ xã hội theo lứa tuổi; mặt khác tác động xã hội chỉ có tác dụng khi có sự đồng hóa tích cực của trẻ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "question": "Nhằm khắc phục tư tưởng tiền định nhất nguyên siêu hình, nhà tâm lý học người Đức W. Stern (1871 - 1938) đã đề xuất học thuyết nào?",
+      "options": {
+        "A": "Thuyết hội tụ hai yếu tố, chủ trương sự phát triển trí tuệ là kết quả tác động lẫn nhau giữa yếu tố sinh học (tiềm năng) và môi trường xã hội (điều kiện triển khai).",
+        "B": "Thuyết lịch sử - văn hóa về sự hình thành các chức năng tâm lý cấp cao thông qua việc sử dụng các công cụ ký hiệu tâm lý và ngôn ngữ.",
+        "C": "Thuyết hình thành hành động trí tuệ theo từng giai đoạn từ hành động vật chất bên ngoài chuyển vào hành động tinh thần ở bên trong.",
+        "D": "Thuyết đa trí tuệ phân chia năng lực nhận thức của con người thành tám loại hình trí thông minh độc lập tương đối với nhau."
+      },
+      "correct_answer": "A",
+      "explanation": "W. Stern (V. Stecnơ, 1871-1938) đã đề xuất thuyết hội tụ hai yếu tố: sự tác động lẫn nhau giữa hai yếu tố sinh học và môi trường xã hội trong quá trình phát triển trí tuệ trẻ em.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "Mặc dù có cách nhìn tích cực hơn các quan niệm độc tôn một yếu tố, thuyết hội tụ hai yếu tố của W. Stern vẫn bộc lộ hạn chế căn bản nào?",
+      "options": {
+        "A": "Ông đã phủ nhận hoàn toàn vai trò của yếu tố di truyền sinh học và coi đứa trẻ mới sinh ra chỉ là một tờ giấy trắng hoàn toàn thụ động.",
+        "B": "Yếu tố chủ thể và hoạt động tích cực của cá nhân vẫn chưa được đặt ra trực tiếp, nên mối quan hệ Sinh học - Xã hội - Chủ thể chưa được làm sáng tỏ.",
+        "C": "Ông đã tuyệt đối hóa vai trò của môi trường giáo dục nhà trường mà bỏ qua ảnh hưởng của các yếu tố dinh dưỡng và sự trưởng thành hệ thần kinh xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "D": "Ông chỉ nghiên cứu các hiện tượng tâm lý ở người trưởng thành bị tổn thương não bộ mà không hề quan tâm tới tâm lý học trẻ em."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình chỉ rõ: dù có cách nhìn tích cực hơn, nhưng trong thuyết hội tụ hai yếu tố của W. Stern, yếu tố chủ thể vẫn chưa được đặt ra trực tiếp, mà đây mới thực sự là chìa khóa giải quyết vấn đề.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "Theo phân tích của A.N. Leontiev, đặc trưng nổi bật của 'Giai đoạn hai: chuyển sang người' (từ vượn người đến người Neanderthal) là gì?",
+      "options": {
+        "A": "Các loài động vật mới chỉ biết sử dụng những công cụ thô sơ có sẵn trong tự nhiên chưa qua chế tạo và quy luật sinh vật học chiếm vị trí độc tôn.",
+        "B": "Tổ chức cơ thể của con người đã hoàn thiện hoàn toàn và quy luật xã hội - lịch sử đã trở thành quy luật duy nhất điều khiển toàn bộ sự phát triển.",
+        "C": "Con người đã bắt đầu sản xuất ra công cụ lao động, tạo ra lao động và xã hội; quy luật sinh vật học vẫn chiếm ưu thế nhưng đã xuất hiện các quy luật xã hội - lịch sử.",
+        "D": "Con người đã phát minh ra máy tính điện tử và trí tuệ nhân tạo để thay thế hoàn toàn lao động cơ bắp trong sản xuất công nghiệp trong tiến trình hình thành và phát triển đời sống tâm lý cá thể."
+      },
+      "correct_answer": "C",
+      "explanation": "Ở giai đoạn hai (từ vượn người đến người Neanderthal), con người đã sản xuất ra công cụ lao động, tạo ra lao động và xã hội; quy luật sinh vật học vẫn chiếm ưu thế nhưng đã xuất hiện nhân tố mới là các quy luật xã hội - lịch sử.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Ở giai đoạn thứ ba – giai đoạn con người hiện đại (Homo Sapiens) theo A.N. Leontiev, quy luật nào giữ vai trò điều khiển sự phát triển của loài người?",
+      "options": {
+        "A": "Quy luật chọn lọc tự nhiên và đấu tranh sinh tồn sinh học tiếp tục là động lực duy nhất thúc đẩy sự biến đổi hình thái giải phẫu não bộ dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "B": "Quy luật biến dị và di truyền nhiễm sắc thể quyết định trực tiếp sự phân hóa giai cấp xã hội và trình độ văn minh của các dân tộc.",
+        "C": "Cả quy luật sinh học lẫn quy luật xã hội lịch sử đều ngừng hoạt động vì con người đã đạt tới trạng thái cân bằng sinh thái vĩnh cửu.",
+        "D": "Sự thay đổi căn bản tổ chức cơ thể đã hoàn thành và quy luật xã hội - lịch sử là quy luật duy nhất điều khiển sự phát triển của con người hiện đại."
+      },
+      "correct_answer": "D",
+      "explanation": "Ở giai đoạn thứ ba (Homo Sapiens), sự thay đổi căn bản tổ chức cơ thể con người đã hoàn thành; quy luật duy nhất điều khiển sự phát triển của con người hiện đại là những quy luật xã hội - lịch sử.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "Xét về phương diện phát triển cá nhân, yếu tố sinh học (bẩm sinh, di truyền, tư chất) tác động tới sự phát triển trí tuệ theo con đường nào?",
+      "options": {
+        "A": "Không tác động trực tiếp mà luôn được khúc xạ và phát động gián tiếp thông qua hoạt động tích cực của chính bản thân chủ thể.",
+        "B": "Tác động trực tiếp theo đường thẳng một chiều từ cấu trúc gen di truyền sang hệ thống khái niệm khoa học mà không cần qua hoạt động.",
+        "C": "Hoàn toàn bị triệt tiêu ngay sau khi đứa trẻ chào đời để nhường chỗ tuyệt đối cho các tác động cưỡng bức từ môi trường văn hóa xã hội.",
+        "D": "Tự động chuyển hóa thành các kỹ năng tư duy lôgic toán học ngay khi đứa trẻ đạt đến độ tuổi dậy thì mà không cần học tập."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình khẳng định: yếu tố sinh học không trực tiếp ảnh hưởng tới sự phát triển trí tuệ, mà nó được khúc xạ và phát động bởi hoạt động của chủ thể, tức là gián tiếp thông qua hoạt động cá nhân.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "Nhà tâm lý học đương đại người Mỹ M. Csikszentmihalyi sau khi phân tích lao động trí tuệ của 99 nhà khoa học, nghệ sĩ, nhà văn nổi tiếng đã đi đến kết luận nào?",
+      "options": {
+        "A": "Thành tựu sáng tạo đỉnh cao của các nhà khoa học đạt giải Nobel phụ thuộc tới 99% vào cấu trúc gen di truyền quý hiếm từ dòng họ.",
+        "B": "Những trí não sáng tạo vĩ đại thường phát triển theo đúng công thức nổi tiếng của nhà phát minh Th. Edison: '1% thông minh, 99% mồ hôi'.",
+        "C": "Những người có tài năng kiệt xuất thường không cần trải qua quá trình lao động học tập gian khổ mà chỉ dựa vào sự bừng hiểu ngẫu nhiên.",
+        "D": "Khả năng sáng tạo nghệ thuật và khoa học tỉ lệ nghịch với thời gian rèn luyện thực tế và mức độ nỗ lực ý chí của cá nhân trong cuộc sống."
+      },
+      "correct_answer": "B",
+      "explanation": "M. Csikszentmihalyi phân tích lao động trí tuệ và thành quả của 99 nhà khoa học, nghệ sĩ, nhà văn nổi tiếng (nhiều người đạt giải Nobel) đã kết luận: những trí não sáng tạo vĩ đại thường phát triển theo công thức của Th. Edison: '1% thông minh, 99% mồ hôi'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 31,
+      "question": "Tại sao khi nghiên cứu theo phương pháp bổ dọc lịch sử phát triển cá thể, tâm lý học lại khẳng định các trung khu chức năng thần kinh không chỉ là tiềm năng mà còn là sản phẩm của hoạt động?",
+      "options": {
+        "A": "Vì trẻ sơ sinh khi mới chào đời hoàn toàn chưa có hộp sọ và não bộ, mà toàn bộ hệ thần kinh trung ương chỉ mới mọc ra khi trẻ đi học tiểu học xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "B": "Vì hoạt động tư duy của con người có khả năng làm thay đổi hoàn toàn số lượng nhiễm sắc thể trong nhân tế bào của mọi cơ quan nội tạng.",
+        "C": "Vì khi mới sinh trẻ có rất ít yếu tố thần kinh bẩm sinh gắn trực tiếp với từng loại trí tuệ; chính quá trình hoạt động hợp lý đã hình thành và phát triển các trung khu đó.",
+        "D": "Vì các trung khu thần kinh trên vỏ não chỉ xuất hiện tạm thời trong lúc trẻ làm bài kiểm tra trắc nghiệm rồi lập tức biến mất ngay sau đó."
+      },
+      "correct_answer": "C",
+      "explanation": "Nếu chỉ nhìn cắt ngang dễ lầm tưởng các trung khu thần kinh có trước; nhưng lần theo lịch sử phát triển của trẻ em thì chính các yếu tố sinh lý thần kinh và trung khu chức năng vừa là tiềm năng ban đầu vừa là sản phẩm của chính hoạt động của trẻ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 32,
+      "question": "Khác với yếu tố sinh học, vị trí và vai trò của môi trường xã hội đối với sự phát triển trí tuệ cá nhân được xác định như thế nào?",
+      "options": {
+        "A": "Môi trường xã hội chỉ là cái phông nền vật lý bên ngoài giúp kích hoạt các bản năng tư duy lôgic đã nằm sẵn trong bộ máy di truyền của trẻ.",
+        "B": "Môi trường xã hội là một thế lực cưỡng bức xa lạ luôn đối lập với bản chất tự nhiên và kìm hãm sự phát triển tự do của trí tuệ cá nhân trong tiến trình hình thành và phát triển đời sống tâm lý cá thể.",
+        "C": "Môi trường xã hội chỉ đóng vai trò cung cấp thức ăn và nơi ở sinh học giống hệt như vai trò của môi trường tự nhiên đối với các loài động vật.",
+        "D": "Môi trường xã hội không đơn thuần là điều kiện làm nhanh hay chậm sự phát triển, mà chính là nguồn gốc và nội dung của trí tuệ cả về phương diện loài lẫn cá nhân."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 4.3.2 khẳng định: môi trường xã hội không đơn thuần là yếu tố tác động làm cho sự phát triển diễn ra nhanh hay chậm, tốt hay xấu, mà là nguồn gốc và nội dung của trí tuệ xét cả về phương diện loài và cá nhân.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 33,
+      "question": "Khi nghiên cứu sự phát triển tư duy và trí tuệ của loài người qua các nền văn hóa, tâm lý học đã triển khai theo hai xu hướng tiếp cận chính nào?",
+      "options": {
+        "A": "Nghiên cứu sự tiến hóa trí tuệ cộng đồng tương quan với sự tiến hóa văn hóa, và nghiên cứu phương thức hành động trí tuệ của các thành viên trong các nền văn hóa khác nhau.",
+        "B": "Nghiên cứu sự biến đổi kích thước hộp sọ qua các tầng địa chất, và nghiên cứu tốc độ dẫn truyền xung điện trên sợi trục thần kinh của các chủng tộc.",
+        "C": "Nghiên cứu cấu trúc ngữ pháp của các ngôn ngữ cổ đại đã diệt vong, và nghiên cứu việc chế tạo các thuật toán mạng nơ-ron nhân tạo.",
+        "D": "Nghiên cứu tập tính di cư theo mùa của các loài động vật có vú, và nghiên cứu cơ chế phản xạ định hướng với ánh sáng của trẻ sơ sinh."
+      },
+      "correct_answer": "A",
+      "explanation": "Về phương diện phát triển loài, có 2 xu hướng tiếp cận: (1) Nghiên cứu sự tiến hóa trí tuệ của các cộng đồng người trong mối tương quan với sự tiến hóa văn hóa; (2) Nghiên cứu các phương thức hành động trí tuệ của các thành viên trong các nền văn hóa khác nhau.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "question": "Xét về phương diện tri thức và khái niệm khoa học, nhân loại đã tiến hóa qua chuỗi các trình độ nhận thức nào trong lịch sử?",
+      "options": {
+        "A": "Khái niệm khoa học chính xác -> Biểu tượng cảm tính rời rạc -> Cảm giác nguyên sơ -> Phản xạ vận động không điều kiện bẩm sinh theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "B": "Biểu tượng về thế giới -> Khái niệm biện chứng trừu tượng -> Khái niệm phân loại cụ thể siêu hình -> Khái niệm biện chứng cụ thể -> Tái tạo các dạng vật chất của thế giới.",
+        "C": "Khái niệm phân loại siêu hình -> Biểu tượng thần thoại -> Khái niệm đạo đức tôn giáo -> Trực giác nghệ thuật phi lôgic.",
+        "D": "Tái tạo vật chất nhân tạo -> Khái niệm biện chứng cụ thể -> Khái niệm biện chứng trừu tượng -> Biểu tượng trực quan nguyên thủy."
+      },
+      "correct_answer": "B",
+      "explanation": "Về phương diện tri thức, khái niệm khoa học, loài người đã tiến từ: biểu tượng về thế giới -> khái niệm biện chứng trừu tượng -> khái niệm phân loại cụ thể siêu hình -> khái niệm biện chứng cụ thể -> tái tạo lại các dạng vật chất trên cơ sở nguyên tắc sinh thành của nó.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 35,
+      "question": "Từ các công trình nghiên cứu văn hóa - tâm lý của C. Jung, G. Mead và M. Weber, giáo trình rút ra nhận định khoa học nào về hành động trí tuệ?",
+      "options": {
+        "A": "Mọi thành viên thuộc tất cả các nền văn hóa Đông - Tây cổ kim đều sử dụng duy nhất một phương thức tư duy lôgic hình thức giống hệt nhau.",
+        "B": "Đặc trưng văn hóa của cộng đồng chỉ ảnh hưởng tới trang phục và ẩm thực chứ hoàn toàn không liên quan tới phương thức tư duy của cá nhân dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "C": "Phương thức hành động trí tuệ của các thành viên sống trong một cộng đồng luôn phù hợp với những đặc trưng văn hóa của chính cộng đồng đó.",
+        "D": "Phương thức hành động trí tuệ của mỗi dân tộc được quy định tuyệt đối bởi điều kiện địa lý khí hậu và nhóm máu di truyền của dân tộc đó."
+      },
+      "correct_answer": "C",
+      "explanation": "Từ những nghiên cứu của C. Jung, G. Mead và M. Weber, giáo trình nêu nhận định: phương thức hành động trí tuệ của các thành viên sống trong một cộng đồng phù hợp với đặc trưng văn hóa của cộng đồng đó.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "question": "Vì sao hai đứa trẻ sống trong cùng một gia đình, học cùng một lớp hoặc ở cùng một khu dân cư lại có loại hình và mức độ phát triển trí tuệ khác nhau?",
+      "options": {
+        "A": "Vì môi trường xã hội hoàn toàn không có bất kỳ tác động nào tới sự phát triển trí tuệ mà tất cả đều do sự đột biến ngẫu nhiên của gen quy định.",
+        "B": "Vì giáo viên và cha mẹ luôn cố tình cung cấp những kiến thức khoa học sai lệch cho đứa trẻ này nhưng lại dạy kiến thức đúng cho đứa trẻ kia.",
+        "C": "Vì một đứa trẻ chỉ sử dụng bán cầu não trái để ghi nhớ hình ảnh còn đứa trẻ kia chỉ sử dụng tủy sống để thực hiện các phép tính toán học.",
+        "D": "Vì trong cùng một môi trường xã hội chung, mỗi đứa trẻ thông qua hoạt động của mình lại tự tạo lập một môi trường phát triển riêng khác nhau."
+      },
+      "correct_answer": "D",
+      "explanation": "Môi trường xã hội chung chỉ là nguồn gốc ở dạng tiềm năng; trong môi trường chung đó, mỗi đứa trẻ có môi trường phát triển riêng tùy thuộc vào việc triển khai hoạt động của trẻ, nên mức độ và loại hình trí tuệ khác nhau.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Khi xem xét mối quan hệ biện chứng giữa con người và hoàn cảnh xã hội, luận điểm nào của Các Mác được giáo trình coi là 'định lý của sự phát triển'?",
+      "options": {
+        "A": "Con người tạo ra hoàn cảnh đến mức nào thì hoàn cảnh cũng tạo ra con người đến mức ấy thông qua hoạt động thực tiễn.",
+        "B": "Hoàn cảnh tự nhiên quyết định tuyệt đối ý thức xã hội và con người chỉ là sản phẩm thụ động của các điều kiện địa lý khí hậu.",
+        "C": "Ý chí chủ quan của cá nhân kiệt xuất có thể thay đổi hoàn toàn lịch sử nhân loại mà không cần phụ thuộc vào điều kiện vật chất khách quan.",
+        "D": "Bản chất của con người là một tổng hòa các bản năng sinh vật bất biến được di truyền nguyên vẹn từ các loài động vật linh trưởng cổ đại."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình nhấn mạnh luận điểm của Các Mác: 'Con người tạo ra hoàn cảnh đến mức nào thì hoàn cảnh cũng tạo ra con người đến mức ấy' phải được coi là định lý của sự phát triển.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Khái niệm 'Tình huống xã hội của sự phát triển' do L.X. Vygotsky đề xuất dùng để chỉ hiện tượng tâm lý - xã hội nào?",
+      "options": {
+        "A": "Tổng số thu nhập kinh tế bình quân đầu người và diện tích nhà ở vật lý của gia đình đứa trẻ được thống kê trong hồ sơ hành chính địa phương.",
+        "B": "Tình huống trong đó có sự tác động qua lại đặc thù giữa đứa trẻ với môi trường xã hội (thế giới đồ vật và người lớn) bao quanh nó trong mỗi giai đoạn phát triển.",
+        "C": "Hệ thống các văn bản pháp luật và quy chế thi cử do Bộ Giáo dục ban hành nhằm đánh giá xếp loại học lực của học sinh cuối mỗi năm học xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "D": "Trạng thái căng thẳng thần kinh xảy ra khi đứa trẻ bị buộc phải giải quyết các bài toán vượt quá xa độ tuổi sinh học của mình."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo L.X. Vygotsky, 'tình huống xã hội của sự phát triển' là tình huống trong đó có sự tác động qua lại giữa đứa trẻ với môi trường xã hội (thế giới đồ vật và quan hệ với người lớn) bao quanh nó trong mỗi giai đoạn phát triển.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 39,
+      "question": "Tương đồng với khái niệm 'tình huống xã hội của sự phát triển' của L.X. Vygotsky và 'môi trường riêng' của D.B. Elkonin, nhà tâm lý học K. Lewin đã sử dụng thuật ngữ nào?",
+      "options": {
+        "A": "Ông sử dụng thuật ngữ 'hộp đen hành vi' (Black Box) để chỉ những quá trình sinh lý thần kinh không thể quan sát được từ bên ngoài.",
+        "B": "Ông sử dụng thuật ngữ 'vô thức tập thể' (Collective Unconscious) để chỉ các nguyên mẫu thần thoại được di truyền từ tổ tiên xa xưa.",
+        "C": "Ông sử dụng thuật ngữ 'trường tâm lý' (Psychological Field) để chỉ không gian môi trường sống động gắn liền với hoạt động của chủ thể.",
+        "D": "Ông sử dụng thuật ngữ 'sơ đồ giác - động' (Sensorimotor Schema) để chỉ các phản xạ bú mút và cầm nắm của trẻ sơ sinh trong tiến trình hình thành và phát triển đời sống tâm lý cá thể."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình chỉ rõ: tình huống xã hội của sự phát triển (Vygotsky) hay môi trường riêng của mỗi đứa trẻ (Elkonin) cũng chính là 'trường tâm lý' theo cách hiểu của K. Lewin (K. Lêvin).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "question": "Khi xem xét mối quan hệ giữa cảm xúc và trí tuệ, giáo trình đánh giá như thế nào về quan niệm thông thường trong dân gian cho rằng cảm xúc chỉ làm giảm hiệu suất trí tuệ?",
+      "options": {
+        "A": "Cách hiểu đó hoàn toàn chính xác tuyệt đối vì mọi trạng thái xúc cảm đều làm tê liệt hoàn toàn hoạt động của vỏ não đại não.",
+        "B": "Cách hiểu đó chỉ đúng với các nhà khoa học tự nhiên nhưng lại sai với những người làm việc trong lĩnh vực nghệ thuật và văn chương.",
+        "C": "Cách hiểu đó là cơ sở khoa học duy nhất để xây dựng các bài trắc nghiệm đo lường chỉ số thông minh cảm xúc trong tâm lý học hiện đại.",
+        "D": "Cách hiểu đó là phiến diện và không đầy đủ vì cảm xúc và trí tuệ thực chất là hai mặt thống nhất của một hành động cá nhân."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình khẳng định quan niệm thông thường cho rằng cảm xúc chỉ ảnh hưởng tiêu cực, làm giảm hiệu suất trí tuệ là không đầy đủ; thực chất cảm xúc và trí tuệ là hai mặt của một hành động cá nhân.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "question": "Theo J. Piaget (1997), mỗi hành vi ứng xử và hành động trí tuệ của con người luôn bao hàm hai mặt không thể tách rời nào?",
+      "options": {
+        "A": "Bao hàm mặt năng lượng (do cảm xúc tạo ra và điều tiết) và mặt nhận thức hay cấu trúc (là kết quả của các thao tác trí tuệ).",
+        "B": "Bao hàm mặt kích thích vật lý bên ngoài (do môi trường tạo ra) và mặt phản ứng cơ bắp máy móc (do hệ thống tủy sống điều khiển).",
+        "C": "Bao hàm mặt bản năng sinh dục vô thức (Id) và mặt kiểm duyệt đạo đức xã hội hà khắc (Superego) luôn xung đột gay gắt với nhau.",
+        "D": "Bao hàm mặt ghi nhớ từ vựng cơ học ở bán cầu não trái và mặt tri giác màu sắc không gian ở bán cầu não phải."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo J. Piaget (1997), mỗi ứng xử bao hàm hai mặt: mặt năng lượng (do cảm xúc tạo ra) và mặt nhận thức hay cấu trúc (kết quả của trí tuệ). Một hành động trí tuệ bao hàm sự điều tiết năng lượng liên quan tới cảm xúc và sự cấu trúc hóa sự vật liên quan tới thao tác trí tuệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 42,
+      "question": "Khi bàn về nguồn gốc sâu xa của tư duy ngôn ngữ, L.X. Vygotsky đã sử dụng hình ảnh ẩn dụ nổi tiếng nào để nói về mối quan hệ giữa ý nghĩ và động cơ, cảm xúc?",
+      "options": {
+        "A": "Ông ví ý nghĩ như một tờ giấy trắng tinh khôi, còn các kích thích từ môi trường bên ngoài như những nét mực viết lên tờ giấy đó.",
+        "B": "Ông ví ý nghĩ như đám mây đen mang cơn mưa từ ngữ, còn động cơ và cảm xúc như cơn gió làm đám mây chuyển động và đổ ra trận mưa từ ngữ đó.",
+        "C": "Ông ví ý nghĩ như một chiếc máy tính điện tử xử lý ký hiệu, còn cảm xúc như sự cố chập điện làm gián đoạn chương trình phần mềm.",
+        "D": "Ông ví ý nghĩ như những quân bài được chia sẵn từ lúc mới sinh, còn cảm xúc như luật chơi cố định không ai được phép thay đổi dưới góc độ phân tích của các trường phái tâm lý học truyền thống."
+      },
+      "correct_answer": "B",
+      "explanation": "L.X. Vygotsky khẳng định đằng sau ý là xu hướng, cảm xúc, nhu cầu, ý chí; ông ví ý nghĩ như đám mây đen mang cơn mưa từ ngữ, còn động cơ của ý nghĩ như cơn gió làm đám mây chuyển động và đổ ra trận mưa từ ngữ đó.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 43,
+      "question": "Trên cơ sở nghiên cứu mối quan hệ giữa chỉ số IQ với các yếu tố tính cách (character) của các nhà quản lý, Daniel Goleman (1995) đã rút ra kết luận gì?",
+      "options": {
+        "A": "Chỉ những người có chỉ số thông minh lôgic - toán (IQ) trên 140 mới có khả năng trở thành nhà quản lý thành đạt trong các tập đoàn kinh tế.",
+        "B": "Cảm xúc và tình cảm là rào cản lớn nhất khiến các nhà quản lý đưa ra những quyết định sai lầm nên cần phải loại bỏ cảm xúc từ nhỏ.",
+        "C": "Sự thành công của mỗi người không phải chủ yếu do chỉ số IQ cao mà do các yếu tố tạo nên tính cách và cảm xúc chỉ đạo trí tuệ.",
+        "D": "Khả năng giải các bài toán hình học không gian trên giấy trắc nghiệm quyết định tới chín mươi phần trăm hạnh phúc gia đình và thành công xã hội."
+      },
+      "correct_answer": "C",
+      "explanation": "Daniel Goleman (1995) kết luận sự thành công của mỗi người không phải chủ yếu do chỉ số IQ cao mà do các yếu tố tạo nên tính cách; cảm xúc chỉ đạo trí tuệ, thậm chí còn mạnh hơn cả khả năng lôgic - toán, nên cần giáo dục tình cảm cho trẻ từ nhỏ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "Trong thực tiễn hoạt động nhận thức, cảm xúc tham gia vào hoạt động trí tuệ của cá nhân trên hai phương diện cơ bản nào?",
+      "options": {
+        "A": "Vừa là công cụ đo lường dung lượng bộ nhớ ngắn hạn, vừa là bộ phận lưu trữ các khái niệm khoa học trừu tượng ở thùy chẩm.",
+        "B": "Vừa là tác nhân xóa bỏ toàn bộ các sơ đồ nhận thức cũ, vừa là cơ chế ngăn cản sự hình thành các phản xạ có điều kiện mới.",
+        "C": "Vừa là thước đo trình độ văn hóa của cộng đồng lịch sử, vừa là ranh giới phân biệt giữa tư duy siêu hình và tư duy biện chứng.",
+        "D": "Vừa là động lực thúc đẩy hoặc kìm hãm một hành động trí tuệ nào đó, vừa là người hướng đạo dẫn dắt cho hành động trí tuệ đó."
+      },
+      "correct_answer": "D",
+      "explanation": "Trong thực tiễn, cảm xúc tham gia vào hoạt động trí tuệ trên hai phương diện: là động lực thúc đẩy hoặc kìm hãm một hành động trí tuệ nào đó, và là người hướng đạo cho hành động đó.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 45,
+      "question": "Thuật ngữ 'Trí tuệ cảm xúc' (Emotional Intelligence) lần đầu tiên được sử dụng vào năm 1990 bởi hai nhà tâm lý học người Mỹ nào?",
+      "options": {
+        "A": "Được sử dụng lần đầu tiên bởi Peter Salovey (Trường Đại học Yale) và John Mayer (Trường Đại học New Hampshire) vào năm 1990.",
+        "B": "Được sử dụng lần đầu tiên bởi J. Watson (Đại học Johns Hopkins) và B.F. Skinner (Đại học Harvard) vào đầu thế kỷ hai mươi.",
+        "C": "Được sử dụng lần đầu tiên bởi Francis Galton và Alfred Binet khi thiết kế thang đo lường trí thông minh cho học sinh tại Pháp.",
+        "D": "Được sử dụng lần đầu tiên bởi Alan Turing và John von Neumann tại hội nghị khoa học quốc tế về trí tuệ nhân tạo năm 1956."
+      },
+      "correct_answer": "A",
+      "explanation": "Thuật ngữ 'trí tuệ cảm xúc' (Emotional Intelligence) lần đầu tiên được hai nhà tâm lý học Mỹ là Peter Salovey (ĐH Yale) và John Mayer (ĐH New Hampshire) sử dụng vào năm 1990.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 46,
+      "question": "Theo định nghĩa ban đầu của Peter Salovey và John Mayer (1990), 'Trí tuệ cảm xúc' được hiểu là khả năng gì của cá nhân?",
+      "options": {
+        "A": "Khả năng kìm nén và triệt tiêu hoàn toàn mọi rung động tình cảm cá nhân để giải quyết các bài toán lôgic hình thức một cách lạnh lùng như máy móc theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "B": "Khả năng hiểu rõ cảm xúc bản thân, thấu hiểu cảm xúc của người khác, phân biệt được chúng và sử dụng chúng để hướng dẫn suy nghĩ và hành động của bản thân.",
+        "C": "Khả năng bộc lộ tự do mọi cơn nóng giận và cảm xúc tiêu cực ra bên ngoài mà không cần quan tâm đến chuẩn mực văn hóa hay phản ứng của người xung quanh.",
+        "D": "Khả năng ghi nhớ chính xác hàng ngàn thuật ngữ tâm lý học lâm sàng để chẩn đoán các chứng rối loạn tâm thần cho bệnh nhân trong bệnh viện."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo P. Salovey và J. Mayer (1990), trí tuệ cảm xúc được hiểu là khả năng hiểu rõ cảm xúc bản thân, thấu hiểu cảm xúc của người khác, phân biệt được chúng và sử dụng chúng để hướng dẫn suy nghĩ và hành động của bản thân.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Nhà tâm lý học H. Steve (1996) đã định nghĩa 'Trí tuệ cảm xúc' như là sự kết hợp giữa hai yếu tố nào và hướng tới mục đích gì?",
+      "options": {
+        "A": "Sự kết hợp giữa dung lượng trí nhớ ngắn hạn bẩm sinh với tốc độ tính nhẩm số học được huấn luyện, nhằm giúp học sinh đạt điểm tuyệt đối trong các kỳ thi.",
+        "B": "Sự kết hợp giữa các phản xạ định hướng thụ động với hệ thống củng cố vật chất bên ngoài, nhằm duy trì sự phục tùng tuyệt đối trong các tổ chức công nghiệp dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "C": "Sự kết hợp giữa sự nhạy cảm về cảm xúc có tính chất tự nhiên với các kỹ năng quản lý cảm xúc có được do tự học hỏi, nhằm giúp con người đạt được hạnh phúc trong cuộc sống.",
+        "D": "Sự kết hợp giữa tư duy thần thoại nguyên thủy với tư duy phân loại siêu hình, nhằm tái tạo lại các dạng vật chất tự nhiên trong phòng thí nghiệm."
+      },
+      "correct_answer": "C",
+      "explanation": "H. Steve (1996) cho rằng trí tuệ cảm xúc là sự kết hợp giữa sự nhạy cảm về cảm xúc có tính chất tự nhiên với các kỹ năng quản lý cảm xúc có được do tự học hỏi, nhằm giúp con người đạt được hạnh phúc trong cuộc sống.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Trong mô hình cấu trúc trí tuệ cảm xúc gồm 5 thành phần do P. Salovey đề xuất, năm thành phần đó bao gồm những năng lực nào?",
+      "options": {
+        "A": "Tiếp nhận thông tin cảm giác; mã hóa ký hiệu ngôn ngữ; lưu trữ dữ liệu vào bộ nhớ dài hạn; truy xuất biểu tượng không gian; và kiểm tra đầu ra theo mô hình TOTE.",
+        "B": "Đồng hóa kích thích mới vào sơ đồ cũ; điều ứng biến đổi sơ đồ nhận thức; thiết lập cân bằng nội tại; trừu xuất thuộc tính vật lý; và trừu xuất thao tác lôgic - toán.",
+        "C": "Hình thành ý tưởng thắc mắc; quan sát thu thập thông tin; giải thích trao đổi dữ liệu; khảo sát thực địa; và tiến hành thí nghiệm kiểm tra lý thuyết khoa học theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "D": "Thấu hiểu cảm xúc bản thân; phát hiện, đặt tên, phân tích và truyền đạt cảm xúc; thấu cảm và truyền cảm hứng cho người khác; ra quyết định cân bằng giữa cảm xúc và lý trí; và làm chủ các mối liên hệ người - người."
+      },
+      "correct_answer": "D",
+      "explanation": "P. Salovey đưa ra cấu trúc 5 thành phần của EQ: (1) Thấu hiểu cảm xúc của chính mình; (2) Phát hiện, đặt tên, phân tích, phê phán và truyền đạt rõ ràng cảm xúc; (3) Thấu cảm, đồng cảm, thúc đẩy, truyền cảm hứng và an ủi người khác; (4) Đưa ra quyết định thông minh cân bằng giữa cảm xúc và lý trí; (5) Làm chủ các mối liên hệ người - người.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 49,
+      "question": "Theo nhà tâm lý học H. Steve, có ba dấu hiệu cơ bản nào giúp nhận dạng một người có trí tuệ cảm xúc phát triển?",
+      "options": {
+        "A": "Biết cảm xúc của mình và người khác cùng hành động sẽ xảy ra; biết nguyên nhân cảm xúc và cách chuyển cảm xúc tiêu cực thành tích cực; nhận thức, nhạy cảm và có kỹ năng quản lý cảm xúc để tăng tối đa hạnh phúc.",
+        "B": "Đạt điểm số tuyệt đối trong các bài kiểm tra toán học; có khả năng ghi nhớ nguyên văn các văn bản dài; và không bao giờ biểu lộ bất kỳ cảm xúc buồn vui nào trên khuôn mặt.",
+        "C": "Luôn đặt lợi ích vật chất cá nhân lên trên hết; biết cách che giấu suy nghĩ thật để thao túng người khác; và hoàn toàn không bị ảnh hưởng bởi nỗi đau của đồng loại.",
+        "D": "Có tốc độ phản xạ vận động tay chân cực nhanh; có thính giác phân biệt cao độ âm thanh chuẩn xác; và có khả năng định hướng không gian ba chiều trong bóng tối."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo H. Steve, 3 dấu hiệu nhận dạng trí tuệ cảm xúc gồm: (1) Biết cảm xúc của bản thân và người khác và biết hành động sẽ xảy ra; (2) Biết nguyên nhân dẫn đến cảm xúc tích cực/tiêu cực và biết chuyển tiêu cực thành tích cực; (3) Nhận thức được cảm xúc, nhạy cảm và có kỹ năng quản lý cảm xúc giúp tăng tối đa hạnh phúc.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "question": "Trong bốn thành phần cốt lõi của trí tuệ cảm xúc, năng lực 'Sự thấu cảm' (Empathy) được giáo trình phân tích gắn liền với những khả năng cụ thể nào?",
+      "options": {
+        "A": "Gắn liền với khả năng dùng lý lẽ sắc bén để bác bỏ mọi cảm xúc của người đối diện và buộc họ phải tuân theo các quy tắc lôgic hình thức của mình.",
+        "B": "Gắn liền với khả năng nhận biết chính xác cảm xúc của người khác, khả năng thể nghiệm lại cảm xúc đó vào bản thân mình, và liên quan chặt chẽ tới sự đánh giá cảm xúc của chính mình.",
+        "C": "Gắn liền với sự lây lan tâm lý tự phát vô ý thức trong đám đông khiến cá nhân đánh mất hoàn toàn khả năng tự chủ và làm theo hành vi bầy đàn xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "D": "Gắn liền với khả năng phân tích cấu trúc hóa học của các chất dẫn truyền thần kinh trong máu khi cơ thể rơi vào trạng thái hoảng loạn hay sợ hãi."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình chỉ rõ: việc đánh giá cảm xúc người khác (nhận biết chính xác) và thể hiện cảm xúc đó (thể nghiệm lại cảm xúc đó vào bản thân mình) đều liên quan tới sự thấu cảm; hơn nữa sự thấu cảm liên quan chặt chẽ tới cả việc nhận biết cảm xúc người khác lẫn đánh giá cảm xúc của chính mình.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 51,
+      "question": "Một trong những khó khăn và hạn chế lớn của việc xây dựng mô hình cấu trúc trí tuệ cảm xúc hiện nay là gì?",
+      "options": {
+        "A": "Con người hiện đại trong xã hội công nghiệp đã hoàn toàn mất đi khả năng trải nghiệm các xúc cảm và tình cảm tự nhiên trong giao tiếp hàng ngày.",
+        "B": "Các nhà tâm lý học trên thế giới hoàn toàn không quan tâm tới lĩnh vực cảm xúc mà chỉ tập trung duy nhất vào việc nghiên cứu trí tuệ nhân tạo.",
+        "C": "Các thuộc tính với tư cách là phẩm chất trí tuệ ổn định vẫn chưa được tách bạch rõ khỏi các phẩm chất nhân cách như bản lĩnh, nghị lực, tính cách, khí chất và kiểu hình thần kinh.",
+        "D": "Trí tuệ cảm xúc chỉ xuất hiện ở trẻ sơ sinh dưới một tuổi nên không thể sử dụng ngôn ngữ hay bảng hỏi để nghiên cứu trên người trưởng thành trong tiến trình hình thành và phát triển đời sống tâm lý cá thể."
+      },
+      "correct_answer": "C",
+      "explanation": "Trên thực tế, sự kiềm chế hay làm chủ cảm xúc phụ thuộc khá lớn vào các phẩm chất nhân cách (bản lĩnh, nghị lực, tính cách, hướng nội/hướng ngoại, khí chất, kiểu hình thần kinh) vốn không phải là trí tuệ; việc tách bạch chúng là khó khăn lớn hiện nay.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 52,
+      "question": "Công trình nghiên cứu của nhà tâm lý học D. Craig (Đại học Sydney) đã khẳng định nguyên tắc phổ quát nào về mối quan hệ giữa sự thấu cảm và hành vi cá nhân?",
+      "options": {
+        "A": "Sự thấu cảm chỉ là một trạng thái nhận thức thụ động bên trong tâm trí nên hoàn toàn không có bất kỳ mối liên hệ nào với hành vi ứng xử bên ngoài.",
+        "B": "Người có khả năng thấu cảm càng cao thì càng dễ rơi vào trạng thái do dự, thiếu quyết đoán và không thể thực hiện được các hành vi trợ giúp xã hội.",
+        "C": "Hành vi đạo đức của con người chỉ phụ thuộc vào mức độ trừng phạt của pháp luật chứ không liên quan gì đến năng lực đồng cảm hay thấu cảm.",
+        "D": "Giữa sự thấu cảm và hành vi cá nhân có mối quan hệ nhân quả cốt yếu theo nguyên tắc phổ quát: thấu cảm như thế nào sẽ có hành vi tương ứng như vậy."
+      },
+      "correct_answer": "D",
+      "explanation": "Công trình nghiên cứu của D. Craig (ĐH Sydney) đã chỉ ra mối quan hệ nhân quả của sự thấu cảm với hành vi cá nhân: sự thấu cảm đóng vai trò cốt yếu quyết định hành vi người, thấu cảm như thế nào sẽ có hành vi tương ứng như vậy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 53,
+      "question": "Để tìm hiểu và đo lường chỉ số cảm xúc EQ qua các biểu hiện cụ thể (tự đánh giá, tự kiềm chế, đồng cảm, kỷ luật, lạc quan), các nhà nghiên cứu thường sử dụng hai loại trắc nghiệm nào?",
+      "options": {
+        "A": "Sử dụng hai loại trắc nghiệm là trắc nghiệm tự thuật và trắc nghiệm khách quan, dù chúng khó khăn và kém khách quan hơn trắc nghiệm trí tuệ truyền thống.",
+        "B": "Sử dụng phương pháp đo đường kính hộp sọ bằng thước kẹp kim loại và phương pháp xét nghiệm nhóm máu di truyền trong phòng thí nghiệm y khoa.",
+        "C": "Sử dụng bài toán tháp Hà Nội của trí tuệ nhân tạo và bài kiểm tra tốc độ gõ bàn phím máy tính trong khoảng thời gian giới hạn năm phút.",
+        "D": "Sử dụng duy nhất phương pháp phân tích giấc mơ của phân tâm học cổ điển và phương pháp thôi miên lâm sàng đối với trẻ sơ sinh."
+      },
+      "correct_answer": "A",
+      "explanation": "Để đo lường EQ thông qua các biểu hiện cụ thể, các nhà nghiên cứu thường dùng hai loại trắc nghiệm: trắc nghiệm tự thuật và trắc nghiệm khách quan.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 54,
+      "question": "Vì sao ngày nay nhiều nhà nghiên cứu đặc biệt chú trọng tìm kiếm phương hướng kết hợp và bổ sung giữa chỉ số EQ với chỉ số IQ cho mỗi cá nhân?",
+      "options": {
+        "A": "Nhằm thay thế hoàn toàn việc giảng dạy các môn khoa học tự nhiên như Toán học, Vật lý, Hóa học trong nhà trường phổ thông bằng các trò chơi giải trí.",
+        "B": "Nhằm giúp cá nhân thích ứng với nhịp độ sống khẩn trương, căng thẳng của nền sản xuất công nghiệp và tạo khả năng đối phó với stress để tập trung sử dụng trí tuệ hiệu quả.",
+        "C": "Nhằm tuyển chọn ra những cá nhân có khả năng làm việc liên tục suốt ngày đêm như người máy mà không cần nghỉ ngơi hay giao tiếp xã hội.",
+        "D": "Nhằm chứng minh rằng học thuyết đa trí tuệ của Howard Gardner và lý thuyết kiến tạo của Jean Piaget đã hoàn toàn sai lầm và lỗi thời dưới góc độ phân tích của các trường phái tâm lý học truyền thống."
+      },
+      "correct_answer": "B",
+      "explanation": "Việc kết hợp và bổ sung giữa EQ với IQ giúp mỗi cá nhân đủ khả năng thích ứng với nhịp độ sống khẩn trương, căng thẳng của nền sản xuất công nghiệp, tạo ra khả năng đối phó với stress vốn ảnh hưởng tới việc tập trung và sử dụng trí tuệ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 55,
+      "question": "Trong lịch sử tâm lý học và giáo dục học, ba nhóm quan niệm cơ bản về mối quan hệ giữa dạy học và phát triển trí tuệ trẻ em là gì?",
+      "options": {
+        "A": "Quan niệm dạy học xóa bỏ sự phát triển; quan niệm dạy học thay thế sự chín muồi sinh học; và quan niệm dạy học chỉ dành riêng cho người trưởng thành xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "B": "Quan niệm dạy học dựa trên bản năng; quan niệm dạy học dựa trên di truyền ưu sinh; và quan niệm dạy học dựa trên sự bừng hiểu trực giác Gestalt.",
+        "C": "Quan niệm dạy học độc lập và đi sau sự phát triển; quan niệm đồng nhất dạy học chính là sự phát triển; và quan niệm dạy học đi trước kéo theo sự phát triển.",
+        "D": "Quan niệm dạy học cá nhân hóa tuyệt đối; quan niệm dạy học bằng máy móc tự động; và quan niệm dạy học không cần sự tham gia của người giáo viên."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 4.5.1 chỉ rõ 3 nhóm quan niệm: (1) Dạy học và phát triển độc lập, dạy học đi sau/song song dựa trên thành tựu phát triển; (2) Dạy học chính là sự phát triển (đồng nhất); (3) Dạy học đi trước sự phát triển và kéo theo sự phát triển.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 56,
+      "question": "Những trường phái tâm lý học nào thuộc nhóm quan niệm thứ nhất (coi sự phát triển trí tuệ độc lập với dạy học, dạy học chỉ đi sau hoặc song hành để làm bộc lộ sự phát triển)?",
+      "options": {
+        "A": "Các nhà tâm lý học thuộc trường phái lịch sử - văn hóa và tâm lý học hoạt động Xô viết như L.X. Vygotsky, A.N. Leontiev, P.Ia. Galperin và L.V. Zankov.",
+        "B": "Các nhà tâm lý học hành vi cổ điển và hành vi bảo thủ như J. Watson, E. Thorndike và B.F. Skinner với công thức Kích thích - Phản ứng trong tiến trình hình thành và phát triển đời sống tâm lý cá thể.",
+        "C": "Các nhà tâm lý học nhận thức hiện đại chuyên xây dựng các chương trình huấn luyện trực tiếp thủ thuật tư duy như R. Sternberg và E. De Bono.",
+        "D": "Các nhà tâm lý học dựa trên thuyết tiến hóa sinh học của S. Darwin, thuyết di truyền nhiễm sắc thể, và ở mức độ nhất định cả những người theo quan điểm kiến tạo của J. Piaget."
+      },
+      "correct_answer": "D",
+      "explanation": "Nhóm quan niệm thứ nhất tập hợp rộng rãi các nhà tâm lý học dựa trên thuyết tiến hóa của S. Darwin, thuyết di truyền nhiễm sắc thể, và cả những người theo quan điểm kiến tạo của J. Piaget (quan hệ song hành, không đốt cháy giai đoạn).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 57,
+      "question": "Tại sao quan niệm về mối quan hệ 'song hành' giữa dạy học và sự phát triển trí tuệ theo trường phái J. Piaget lại trở nên kém thuyết phục trước các kết quả nghiên cứu hiện đại?",
+      "options": {
+        "A": "Vì Piaget mới chủ yếu xác lập cấu trúc lôgic - tâm lý tự phát, và nhiều thực nghiệm đã chứng minh có thể thay đổi nhịp độ phát triển cấu trúc nhận thức nếu có chương trình dạy học phát triển.",
+        "B": "Vì các nhà sinh물 học đã chứng minh rằng trẻ sơ sinh ngay từ khi mới lọt lòng đã nắm vững toàn bộ các thao tác tư duy lôgic hình thức của người lớn.",
+        "C": "Vì thực tiễn giáo dục cho thấy mọi tác động dạy học của nhà trường đều làm suy giảm chỉ số thông minh bẩm sinh của học sinh qua từng năm học.",
+        "D": "Vì J. Piaget chỉ nghiên cứu trên động vật trong phòng thí nghiệm chứ chưa bao giờ trực tiếp quan sát hay trò chuyện lâm sàng với trẻ em thực tế."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình chỉ rõ: công trình của Piaget mới chủ yếu xác lập phương diện cấu trúc lôgic - tâm lý, và đã có không ít nghiên cứu thực nghiệm chứng minh khả năng thay đổi nhịp độ phát triển cấu trúc trí tuệ của trẻ nếu có chương trình dạy học phát triển.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 58,
+      "question": "Trường phái tâm lý học nào là đại diện điển hình cho quan niệm thứ hai: đồng nhất hoàn toàn dạy học với sự phát triển trí tuệ (dạy học và phát triển chồng khít lên nhau)?",
+      "options": {
+        "A": "Trường phái Tâm lý học Gestalt của Đức với quan niệm sự phát triển nhận thức là quá trình tự tổ chức lại trường tri giác để đạt tới sự bừng hiểu.",
+        "B": "Trường phái Tâm lý học hành vi với công thức S -> R, quan niệm dạy học như thế nào thì sự phát triển sẽ diễn ra đúng như thế một cách giáo điều.",
+        "C": "Trường phái Tâm lý học phát sinh của J. Piaget với quan niệm sự phát triển trí tuệ là quá trình tự kiến tạo nội sinh độc lập với việc giảng dạy.",
+        "D": "Trường phái Phân tâm học của S. Freud với quan niệm mọi sự phát triển tâm lý đều do sự thăng hoa của các xung năng tính dục vô thức bẩm sinh."
+      },
+      "correct_answer": "B",
+      "explanation": "Đại diện điển hình của quan niệm đồng nhất dạy học với phát triển trí tuệ là các nhà tâm lý học hành vi (công thức S -> R): dạy học và phát triển chồng khít lên nhau.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 59,
+      "question": "Theo L.X. Vygotsky, để thực hiện đúng chức năng của dạy học phát triển, người làm công tác giáo dục cần phải phân biệt rõ hai trình độ phát triển nào ở trẻ em?",
+      "options": {
+        "A": "Phải phân biệt rõ 'Trình độ phản xạ không điều kiện bẩm sinh' và 'Trình độ kỹ xảo vận động cơ bắp tự động hóa' trong lao động chân tay.",
+        "B": "Phải phân biệt rõ 'Chỉ số thông minh lôgic - toán học (IQ)' và 'Chỉ số thông minh cảm xúc xã hội (EQ)' thông qua bảng hỏi tự thuật dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "C": "Phải phân biệt rõ 'Trình độ phát triển hiện thời' (các chức năng tâm lý đã chín muồi) và 'Vùng phát triển gần nhất' (các chức năng đang trưởng thành nhưng chưa chín).",
+        "D": "Phải phân biệt rõ 'Giai đoạn chuẩn bị sinh vật học của vượn người' và 'Giai đoạn con người hiện đại Homo Sapiens' trong lịch sử tiến hóa."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo L.X. Vygotsky, mấu chốt của dạy học phát triển là phải phân biệt hai trình độ trong suốt quá trình phát triển của trẻ: trình độ phát triển hiện thời và khả năng phát triển gần nhất (vùng phát triển gần nhất).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 60,
+      "question": "Về phương diện chẩn đoán tâm lý, 'Trình độ phát triển hiện thời' và 'Vùng phát triển gần nhất' (ZPD) của đứa trẻ được nhận diện thông qua những tình huống thực tế nào?",
+      "options": {
+        "A": "Trình độ hiện thời đo bằng cân nặng và chiều cao cơ thể; còn vùng phát triển gần nhất đo bằng tốc độ phản xạ co đồng tử trước ánh sáng mạnh.",
+        "B": "Trình độ hiện thời thể hiện khi trẻ ngủ say; còn vùng phát triển gần nhất thể hiện khi trẻ học thuộc lòng một bài thơ mà không hiểu nghĩa.",
+        "C": "Trình độ hiện thời biểu hiện qua điểm số môn Thể dục; còn vùng phát triển gần nhất biểu hiện qua điểm số môn Âm nhạc và Mỹ thuật theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "D": "Trình độ hiện thời biểu hiện khi trẻ độc lập giải quyết nhiệm vụ không cần trợ giúp; còn vùng phát triển gần nhất biểu hiện khi trẻ hoàn thành nhiệm vụ nhờ sự hợp tác, giúp đỡ của người khác."
+      },
+      "correct_answer": "D",
+      "explanation": "Về phương diện chẩn đoán, mức độ hiện tại được biểu hiện qua tình huống trẻ độc lập giải quyết nhiệm vụ không cần trợ giúp bên ngoài; còn khả năng phát triển gần nhất thể hiện khi trẻ hoàn thành nhiệm vụ có sự hợp tác, giúp đỡ của người khác mà nếu tự mình trẻ sẽ không thực hiện được.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 61,
+      "question": "Theo L.X. Vygotsky, để việc dạy học thực sự tạo ra vùng phát triển gần nhất và đạt hiệu quả tối ưu, người giáo viên cần tuân thủ những điều kiện sư phạm cốt lõi nào?",
+      "options": {
+        "A": "Dạy học phải đi trước sự phát triển nhưng không được đi trước quá xa mà phải cận kề nhau, đồng thời phải quán triệt nguyên tắc hợp tác giữa người dạy và người học.",
+        "B": "Dạy học phải đưa các kiến thức đại học vào giảng dạy ngay cho trẻ mầm non càng xa trình độ hiện tại càng tốt mà không cần sự hợp tác của trẻ.",
+        "C": "Dạy học phải kiên nhẫn chờ đợi cho đến khi toàn bộ các chức năng tâm lý của trẻ tự chín muồi hoàn toàn rồi mới bắt đầu cung cấp bài tập củng cố.",
+        "D": "Người giáo viên chỉ cần giao đề bài khó rồi để mặc học sinh tự xoay xở độc lập theo kiểu Robinson trên đảo hoang mà tuyệt đối không gợi ý."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình lưu ý: dạy học phải đi trước sự phát triển nhưng không được đi trước quá xa, càng không được đi sau nó (dạy học và phát triển phải cận kề nhau), đồng thời phải quán triệt tư tưởng dạy học là hoạt động hợp tác giữa thầy giáo và học sinh.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 62,
+      "question": "Khi tổng kết các chương trình nâng cao hiệu quả dạy học phát triển tư duy, trí tuệ học sinh trên thế giới, giáo trình đã khái quát chúng thành hai phương hướng lớn nào?",
+      "options": {
+        "A": "Phát triển trí tuệ thông qua việc cải tạo cấu trúc gen di truyền sinh học và phát triển trí tuệ thông qua việc sử dụng dược phẩm kích thích thần kinh.",
+        "B": "Phát triển tư duy, trí tuệ học sinh thông qua việc dạy tri thức khoa học và phát triển tư duy, trí tuệ thông qua việc trực tiếp dạy các kỹ năng tư duy.",
+        "C": "Phát triển trí tuệ thông qua việc học thuộc lòng các bộ từ điển bách khoa và phát triển trí tuệ thông qua việc rèn luyện thể lực cơ bắp cường độ cao xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "D": "Phát triển trí tuệ thông qua cơ chế thử và sai trên máy dạy học tự động và phát triển trí tuệ thông qua sự bừng hiểu ngẫu nhiên không cần học tập."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 4.5.2 khái quát các chương trình dạy học phát triển tư duy, trí tuệ học sinh theo hai hướng lớn: (1) Thông qua dạy tri thức khoa học; (2) Thông qua việc trực tiếp dạy các kỹ năng tư duy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 63,
+      "question": "Dựa trên sự phân tích tư duy trẻ em theo quan điểm của J. Piaget, nhà tâm lý học Mỹ J. Bruner đã xác định cấu trúc nhận thức gồm ba mức thể hiện nào?",
+      "options": {
+        "A": "Cấu trúc nhận thức gồm ba mức thể hiện là: mức cảm giác ngoại vi, mức phản xạ tủy sống và mức kỹ xảo tự động hóa theo đường thẳng.",
+        "B": "Cấu trúc nhận thức gồm ba mức thể hiện là: mức bản năng vô thức, mức tiền ý thức cá nhân và mức siêu thức đạo đức xã hội.",
+        "C": "Cấu trúc nhận thức gồm ba mức thể hiện là: mức hành động, mức biểu tượng và mức khái niệm, từ đó đề xuất chương trình học tập theo hình 'xoáy trôn ốc'.",
+        "D": "Cấu trúc nhận thức gồm ba mức thể hiện là: mức tư duy thần thoại, mức tư duy siêu hình và mức tư duy biện chứng duy vật lịch sử trong tiến trình hình thành và phát triển đời sống tâm lý cá thể."
+      },
+      "correct_answer": "C",
+      "explanation": "J. Bruner xác định cấu trúc nhận thức với 3 mức thể hiện: hành động, biểu tượng và khái niệm; từ đó ông đề xuất chương trình học tập theo hình 'xoáy trôn ốc'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 64,
+      "question": "Trong lý thuyết hình thành hành động trí tuệ và khái niệm của trẻ em (1952), P.Ia. Galperin đã đóng góp cơ sở tâm lý quan trọng nào cho dạy học phát triển?",
+      "options": {
+        "A": "Ông chứng minh rằng các khái niệm khoa học tự động nảy sinh từ sự chín muồi của tuyến nội tiết mà không cần bất kỳ hành động vật chất nào ở bên ngoài dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "B": "Ông đề xuất việc loại bỏ hoàn toàn vai trò hướng dẫn của giáo viên để trẻ em tự mò mẫm giải quyết vấn đề thông qua hàng ngàn phép thử và sai ngẫu nhiên.",
+        "C": "Ông xây dựng công thức toán học tính toán tỷ lệ di truyền của chỉ số thông minh giữa các cặp trẻ sinh đôi cùng trứng và khác trứng tại Liên Xô.",
+        "D": "Ông phân tích triệt để cơ chế và các bước chuyển một khái niệm (đồng thời là một hành động trí tuệ) từ bên ngoài của xã hội vào bên trong của cá nhân trẻ em cùng phương pháp định hướng."
+      },
+      "correct_answer": "D",
+      "explanation": "P.Ia. Galperin (1952) đã phân tích triệt để cơ chế chuyển một khái niệm (đồng thời là một hành động trí tuệ) từ bên ngoài (của xã hội) vào bên trong (của cá nhân trẻ em) và vạch ra các phương pháp định hướng quá trình đó trong dạy học.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 65,
+      "question": "Dựa vào nguyên lý tác động vào vùng phát triển gần nhất của L.X. Vygotsky, nhà tâm lý học L.V. Zankov (1970) đã đề xuất hệ thống dạy học phát triển gồm những nguyên tắc nào?",
+      "options": {
+        "A": "Tôn trọng kinh nghiệm đã có của trẻ; tăng dần mức độ và nhịp độ khó khăn; nâng cao tỷ trọng tri thức lý luận khái quát; và làm cho học sinh có ý thức tự giác về toàn bộ quá trình học tập.",
+        "B": "Hạ thấp tối đa độ khó của bài học xuống dưới trình độ hiện tại; giảm bớt tri thức lý luận; tăng cường học vẹt máy móc; và duy trì kỷ luật bằng hình phạt.",
+        "C": "Chỉ dạy những kiến thức thực hành thủ công đơn giản; lặp đi lặp lại một bài tập duy nhất suốt cả năm học; và cấm học sinh đặt câu hỏi thắc mắc.",
+        "D": "Tách biệt hoàn toàn kinh nghiệm sống của trẻ khỏi bài học; dạy vượt trước chương trình mười năm tuổi; và để học sinh tự học không cần giáo viên."
+      },
+      "correct_answer": "A",
+      "explanation": "Phương pháp dạy học phát triển của L.V. Zankov (1970) tuân theo các nguyên tắc: tôn trọng kinh nghiệm đã có của trẻ; tăng dần mức độ và nhịp độ khó khăn của việc học; nâng cao tỷ trọng tri thức lý luận khái quát; và làm cho học sinh có ý thức về toàn bộ quá trình học tập.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 66,
+      "question": "Từ mô hình xử lý thông tin của trí tuệ, R. Fischer đã đề xuất mô hình rèn luyện các kỹ năng khoa học giúp trẻ em nhận thức thế giới gồm ba thành phần nào?",
+      "options": {
+        "A": "Gồm ba thành phần: Nghe giảng thụ động trên lớp; Ghi chép nguyên văn lời thầy cô vào vở; và Học thuộc lòng tài liệu để trả bài trong kỳ thi.",
+        "B": "Gồm ba thành phần: Hình thành ý tưởng (thể hiện, thắc mắc, nêu luận đề); Thu thập thông tin (quan sát, giải thích, trao đổi); và Thử nghiệm lý thuyết (khảo sát, thí nghiệm, kiểm tra).",
+        "C": "Gồm ba thành phần: Kích thích giác quan bằng hình ảnh; Củng cố phản ứng đúng bằng phần thưởng; và Loại bỏ phản ứng sai bằng hình phạt.",
+        "D": "Gồm ba thành phần: Chẩn đoán chỉ số thông minh bẩm sinh; Phân loại học sinh theo nhóm gen di truyền; và Đào tạo biệt lập từng nhóm dưới góc độ phân tích của các trường phái tâm lý học truyền thống."
+      },
+      "correct_answer": "B",
+      "explanation": "Mô hình rèn luyện các kỹ năng khoa học của R. Fischer gồm 3 thành phần: (1) Hình thành ý tưởng (thể hiện, thắc mắc, nêu luận đề); (2) Thu thập thông tin (quan sát, giải thích, trao đổi); (3) Thử nghiệm lý thuyết (khảo sát, thí nghiệm, kiểm tra).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 67,
+      "question": "Những chương trình tiêu biểu nào được giáo trình liệt kê thuộc phương hướng thứ hai: 'Phát triển tư duy, trí tuệ thông qua việc trực tiếp dạy các kỹ năng tư duy'?",
+      "options": {
+        "A": "Thuyết ưu sinh học của F. Galton, phương pháp trắc nghiệm trẻ sinh đôi của C. Burt, thuyết định mệnh di truyền của A. Jensen và thuyết hội tụ của W. Stern xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "B": "Thuyết liên tưởng kinh nghiệm của J. Locke, thuyết phản xạ có điều kiện của I.P. Pavlov, thuyết hành vi cổ điển của J. Watson và máy dạy học của B.F. Skinner.",
+        "C": "Chương trình huấn luyện thủ thuật trí tuệ của R. Sternberg, chương trình tư duy toán học của V.V. Davydov, chiến lược tư duy ngang - dọc của E. De Bono và luyện trí não của O. Kagayaki.",
+        "D": "Thuyết phân tâm học của S. Freud, thuyết tâm lý học cá nhân của A. Adler, thuyết vô thức tập thể của C. Jung và thuyết nhân văn của C. Rogers."
+      },
+      "correct_answer": "C",
+      "explanation": "Ở phương hướng trực tiếp dạy các kỹ năng tư duy, giáo trình nêu các chương trình tiêu biểu: huấn luyện thủ thuật trí tuệ của R. Sternberg (1987), hình thành năng lực tư duy toán học của V.V. Davydov, dạy chiến lược tư duy theo chiều ngang và chiều dọc của E. De Bono, và phương pháp luyện trí não của O. Kagayaki.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 68,
+      "question": "Theo phân tích trong mục 4.2.1.1, tại sao kết quả nghiên cứu của C. Burt và A. Jensen về sự chênh lệch chỉ số IQ giữa trẻ em da đen và trẻ em da trắng lại bị giới khoa học bác bỏ?",
+      "options": {
+        "A": "Vì họ đã sử dụng các bài trắc nghiệm bằng tiếng Pháp thay vì tiếng Anh khi tiến hành khảo sát học sinh tại các trường học ở nước Mỹ.",
+        "B": "Vì họ chỉ khảo sát những đứa trẻ da đen có chỉ số thông minh trên 150 điểm nên kết quả không đại diện cho mặt bằng chung của xã hội trong tiến trình hình thành và phát triển đời sống tâm lý cá thể.",
+        "C": "Vì họ hoàn toàn không sử dụng phương pháp thống kê toán học mà chỉ phỏng đoán kết quả bằng trực giác cá nhân trong phòng làm việc.",
+        "D": "Vì họ đã quy kết sai lầm sự khác biệt do điều kiện sống, kinh tế và văn hóa - xã hội không bình đẳng thành sự khác biệt do di truyền chủng tộc sinh học."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình chỉ rõ: chủng tộc ở Mỹ và phương Tây thực chất là khái niệm xã hội; sự khác biệt IQ giữa trẻ da đen và da trắng trong nghiên cứu của C. Burt và A. Jensen phản ánh sự khác biệt về điều kiện xã hội nhiều hơn là điều kiện sinh học.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 69,
+      "question": "Trong nghiên cứu của R. Zajonc (1973) trên 386.114 thanh niên Hà Lan, trường hợp ngoại lệ thú vị nào đã được phát hiện trong chuỗi giảm dần điểm trí tuệ theo quy mô số con?",
+      "options": {
+        "A": "Trường hợp thanh niên ở gia đình chỉ có 1 con có điểm trí tuệ trung bình thấp hơn gia đình có 2 con, 3 con và 4 con (đứng giữa gia đình 4 con và 5 con).",
+        "B": "Trường hợp thanh niên ở gia đình có 9 con lại đạt điểm trí tuệ trung bình cao nhất vượt qua tất cả các quy mô gia đình khác trong xã hội.",
+        "C": "Trường hợp những đứa con út sinh thứ chín trong gia đình luôn có chỉ số thông minh cao gấp đôi so với người anh cả đầu lòng.",
+        "D": "Trường hợp các gia đình có số con chẵn luôn có điểm trí tuệ trung bình cao hơn tuyệt đối so với tất cả các gia đình có số con lẻ."
+      },
+      "correct_answer": "A",
+      "explanation": "Thứ tự giảm dần điểm trí tuệ trung bình trong nghiên cứu của Zajonc (1973) là: 2 con -> 3 con -> 4 con -> 1 con -> 5 con -> 6 con -> 7 con -> 8 con -> 9 con. Như vậy gia đình 1 con là ngoại lệ khi đứng sau gia đình 2, 3, 4 con.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 70,
+      "question": "Vì sao đến những năm 1960, lý thuyết quy luật luyện tập (law of exercise) của E. Thorndike và lý luận củng cố (theory of reinforcement) của B.F. Skinner lại bị phê phán và suy yếu trong giáo dục Mỹ?",
+      "options": {
+        "A": "Vì chính phủ Mỹ quyết định đóng cửa toàn bộ các phòng thí nghiệm tâm lý học để chuyển ngân sách sang nghiên cứu thám hiểm vũ trụ theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "B": "Vì việc áp dụng cơ học công thức S -> R và dạy học bằng máy chỉ mang lại kiến thức chi tiết vụn vặt, thiếu tính hệ thống và làm thui chột tính sáng tạo của người học.",
+        "C": "Vì các học thuyết này đòi hỏi giáo viên phải có trình độ triết học biện chứng quá cao nên không thể triển khai đại trà ở các trường phổ thông.",
+        "D": "Vì các học thuyết này quá đề cao đời sống nội tâm, cảm xúc lãng mạn và sự tự do sáng tạo cá nhân nên gây mất trật tự trong lớp học."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nêu rõ: kết quả của chương trình dạy học bằng máy của B.F. Skinner đã đưa người học đến những kiến thức chi tiết thiếu hệ thống và sáng tạo; vì vậy đến những năm 1960, lý thuyết của Thorndike và Skinner bị phê phán và suy yếu.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 71,
+      "question": "Theo J. Piaget, yếu tố 'sự luyện tập và kinh nghiệm thu được qua hoạt động với đối tượng' giữ vai trò như thế nào trong tiến trình phát triển trí tuệ của trẻ?",
+      "options": {
+        "A": "Là yếu tố hoàn toàn thứ yếu và có thể bỏ qua vì các cấu trúc thao tác lôgic - toán đã tự động hình thành nhờ sự chín muồi nội tiết.",
+        "B": "Là yếu tố chỉ xuất hiện sau khi đứa trẻ đã bước qua tuổi mười lăm và nắm vững toàn bộ hệ thống lý thuyết đại số trừu tượng dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "C": "Là yếu tố vừa cần thiết vừa chủ yếu cho đến khi trẻ em hình thành được các cấu trúc thao tác lôgic - toán học ở giai đoạn trưởng thành.",
+        "D": "Là yếu tố đối lập hoàn toàn với tính chủ thể vì mọi kinh nghiệm vật lý đều do người lớn cưỡng bức áp đặt từ bên ngoài vào trẻ."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo J. Piaget (mục 4.2.3), sự luyện tập và kinh nghiệm thu được thông qua hoạt động với đối tượng vừa là cần thiết vừa là chủ yếu cho đến khi trẻ em hình thành được các cấu trúc thao tác lôgic - toán.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 72,
+      "question": "Theo thuyết hội tụ hai yếu tố của W. Stern, điều gì sẽ xảy ra nếu một đứa trẻ có tiềm năng sinh học tốt nhưng lại phải sống trong một môi trường không thuận lợi, hoặc ngược lại?",
+      "options": {
+        "A": "Tiềm năng sinh học tốt sẽ luôn tự động vượt qua mọi rào cản của môi trường bất lợi để biến đứa trẻ thành thiên tài xuất chúng trong mọi hoàn cảnh.",
+        "B": "Môi trường thuận lợi đến đâu cũng hoàn toàn bất lực nếu đứa trẻ không mang sẵn trong mình dòng máu di truyền của tầng lớp quý tộc thượng lưu.",
+        "C": "Cả hai trường hợp đều dẫn đến sự rối loạn tâm thần nghiêm trọng vì sự lệch pha giữa cấu trúc gen di truyền và điều kiện văn hóa xã hội theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "D": "Có thể tiềm năng sinh học tốt nhưng trong môi trường không thuận lợi thì kết quả phát triển vẫn kém; ngược lại tiềm năng nghèo nàn nhưng môi trường thuận lợi vẫn đạt hiệu quả."
+      },
+      "correct_answer": "D",
+      "explanation": "Nhiều nhà tâm lý học theo thuyết hội tụ hai yếu tố của W. Stern cho rằng: yếu tố sinh học tạo ra tiềm năng, còn triển khai thế nào tùy thuộc môi trường; tiềm năng tốt mà môi trường không thuận lợi kết quả vẫn kém, ngược lại tiềm năng nghèo nàn nhưng môi trường thuận lợi vẫn đạt hiệu quả.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 73,
+      "question": "Theo quan điểm của C. Mác và Ph. Ăngghen được trích dẫn trong mục 4.3.1, xét về phương diện phát triển loài, các yếu tố tự nhiên, nhục thể (cơ thể) của con người có nguồn gốc như thế nào?",
+      "options": {
+        "A": "Các yếu tố tự nhiên, cơ thể của con người là một bộ phận của sự phát triển và là sản phẩm của chính lịch sử phát triển loài người thông qua lao động.",
+        "B": "Cơ thể con người là một cấu trúc sinh học vĩnh cửu không hề trải qua bất kỳ sự biến đổi tiến hóa nào kể từ khi trái đất mới hình thành.",
+        "C": "Các yếu tố tự nhiên của con người hoàn toàn tách rời khỏi lịch sử xã hội và chỉ chịu sự chi phối độc tôn của quy luật chọn lọc tự nhiên.",
+        "D": "Hình thái giải phẫu của cơ thể người hiện đại là kết quả của sự đột biến ngẫu nhiên do tác động của bức xạ vũ trụ vào cuối kỷ thứ tư."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.3.1 nêu rõ: về phương diện loài, các yếu tố tự nhiên, nhục thể (cơ thể) của con người là một bộ phận của sự phát triển và là sản phẩm của chính sự phát triển đó; C. Mác và Ph. Ăngghen đã chứng minh việc tạo ra 'con người' là do lịch sử loài người.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 74,
+      "question": "Trong Giai đoạn I của quá trình tiến hóa từ động vật lên người theo A.N. Leontiev (từ đầu kỷ thứ ba đến cuối kỷ thứ tư), các loài động vật cao cấp có đặc điểm hoạt động gì?",
+      "options": {
+        "A": "Chúng đã biết nấu chảy kim loại để rèn đúc công cụ sản xuất nông nghiệp và xây dựng các nhà nước cổ đại có pháp luật thành văn.",
+        "B": "Chúng đã biết sử dụng những công cụ thô sơ có sẵn chưa qua chế tạo và đã có phương tiện giao tiếp đơn giản, dưới sự chi phối độc tôn của quy luật sinh vật học.",
+        "C": "Chúng đã sử dụng ngôn ngữ có cấu trúc ngữ pháp phức tạp để truyền đạt các khái niệm triết học trừu tượng cho thế hệ con non xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "D": "Chúng đã hoàn toàn thoát khỏi sự chi phối của quy luật sinh vật học để vận hành xã hội theo quy luật kinh tế hàng hóa thị trường."
+      },
+      "correct_answer": "B",
+      "explanation": "Ở Giai đoạn I (chuẩn bị về mặt sinh vật của con người, từ đầu kỷ thứ ba đến cuối kỷ thứ tư), đó là những động vật đã biết sử dụng công cụ thô sơ chưa qua chế tạo và có phương tiện giao tiếp đơn giản; quy luật sinh vật học chiếm độc tôn.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 75,
+      "question": "Tại sao giáo trình khẳng định việc đánh giá sự ưu việt thần kinh của người này so với người khác chỉ có thể được thực hiện thông qua hoạt động thực tế của họ?",
+      "options": {
+        "A": "Vì pháp luật quốc tế nghiêm cấm các bác sĩ và nhà khoa học sử dụng máy chụp cộng hưởng từ để quan sát cấu trúc não của người đang sống.",
+        "B": "Vì trọng lượng và số lượng nơ-ron thần kinh của tất cả mọi người trên thế giới đều bằng nhau tuyệt đối đến từng tế bào đơn lẻ.",
+        "C": "Vì mặc dù lĩnh vực não học hiện nay rất phát triển nhưng chưa có công trình nào xác định được giới hạn hoạt động của não người bình thường ngoài hoạt động thực tiễn.",
+        "D": "Vì hoạt động thần kinh cấp cao hoàn toàn không để lại bất kỳ biểu hiện nào trong kết quả lao động hay sản phẩm sáng tạo của cá nhân trong tiến trình hình thành và phát triển đời sống tâm lý cá thể."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 4.3.1 chỉ rõ: mặc dù lĩnh vực não học hiện nay rất phát triển, nhưng chưa có công trình nào xác định được giới hạn hoạt động của não người bình thường; thành ra việc đánh giá ưu việt thần kinh chỉ có thể thực hiện thông qua hoạt động của họ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 76,
+      "question": "Điều gì sẽ xảy ra đối với những tiềm năng sinh lý thần kinh ban đầu ít ỏi nhưng quý báu của đứa trẻ nếu trẻ sống trong hoàn cảnh khó khăn về kinh tế, văn hóa và không được hướng dẫn hợp lý?",
+      "options": {
+        "A": "Những tiềm năng đó vẫn tự động phát triển rực rỡ nhờ cơ chế bù trừ di truyền mà không cần bất kỳ sự hướng dẫn hay giáo dục nào từ người lớn dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "B": "Những tiềm năng đó sẽ chuyển hóa thành các bản năng săn mồi nguyên thủy giúp đứa trẻ có sức mạnh cơ bắp vượt trội so với bạn bè cùng lứa.",
+        "C": "Những tiềm năng đó sẽ đóng băng tạm thời và tự động bộc lộ thành tài năng toán học xuất sắc ngay khi cá nhân bước sang tuổi sáu mươi.",
+        "D": "Những tiềm năng sinh lý thần kinh đó sẽ bị thui chột đi và đứa trẻ dễ bị coi là kém cỏi do thiếu điều kiện hoạt động và phương pháp bồi dưỡng phù hợp."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình nêu rõ: trên cơ sở vốn liếng sinh lý thần kinh bẩm sinh ít ỏi và quý báu ban đầu, trẻ nào được tạo điều kiện thuận lợi, hướng dẫn đúng và sử dụng hợp lý thì trí tuệ phát triển; ngược lại chúng sẽ bị thui chột (trẻ sống trong gia đình khó khăn về kinh tế và văn hóa dễ rơi vào hoàn cảnh này).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 77,
+      "question": "Vì sao khi nói về vai trò của môi trường xã hội, giáo trình nhấn mạnh cần phải tránh quan niệm coi môi trường xã hội là một thế lực xa lạ, có sẵn và cưỡng bức xâm nhập vào đứa trẻ?",
+      "options": {
+        "A": "Vì cái xã hội hoàn toàn không có trước hay đối lập bất biến với con người, mà chính là sản phẩm hoạt động của con người, biến đổi cùng sự phát triển của con người.",
+        "B": "Vì môi trường xã hội thực chất chỉ là một ảo ảnh chủ quan do trí tưởng tượng của các nhà xã hội học đặt ra chứ không tồn tại trong thực tế.",
+        "C": "Vì đứa trẻ ngay từ khi mới sinh đã có hệ thống phòng vệ sinh học tuyệt đối ngăn chặn mọi ảnh hưởng của văn hóa và ngôn ngữ xã hội.",
+        "D": "Vì mọi quy tắc văn hóa xã hội đều được mã hóa sẵn trong chuỗi xoắn kép ADN nên không cần đến sự giao tiếp giữa trẻ em và người lớn."
+      },
+      "correct_answer": "A",
+      "explanation": "Cần tránh quan niệm coi môi trường xã hội là cái có sẵn, xa lạ, cưỡng bức xâm nhập vào đứa trẻ, bởi thực ra cái xã hội không có trước và đối ngược bất biến với con người, mà chính là sản phẩm hoạt động của con người, vừa quy định trí tuệ cá nhân vừa là sản phẩm của nó.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 78,
+      "question": "Cách hiểu đúng đắn về chữ 'vừa' trong luận điểm: 'Môi trường xã hội vừa quy định nội dung và phương thức phát triển trí tuệ cá nhân vừa là sản phẩm của nó' là gì?",
+      "options": {
+        "A": "Có nghĩa là trong hai mươi năm đầu đời môi trường tạo ra con người, còn trong hai mươi năm tiếp theo con người mới bắt đầu tạo ra môi trường.",
+        "B": "Không có nghĩa là cái này có trước rồi sau này mới có cái kia theo trình tự thời gian tách rời, mà là do cái này có cái kia, cái này quy định cái kia và ngược lại.",
+        "C": "Có nghĩa là môi trường xã hội quy định năm mươi phần trăm các môn khoa học tự nhiên, còn cá nhân tự sáng tạo năm mươi phần trăm các môn nghệ thuật.",
+        "D": "Có nghĩa là môi trường xã hội chỉ tác động lên những người có chỉ số thông minh thấp, còn những người thông minh cao thì tự tạo ra môi trường dưới góc độ phân tích của các trường phái tâm lý học truyền thống."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình giải thích rõ: chữ 'vừa' ở đây không có nghĩa là sau này là cái kia, mà là do cái này có cái kia, cái này quy định cái kia và ngược lại (quan hệ sinh thành lẫn nhau).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 79,
+      "question": "Trong phương diện thứ hai của vai trò hướng đạo, cảm xúc dẫn dắt tiến trình thực hiện các thao tác trí tuệ liên tiếp của chủ thể theo cơ chế nào?",
+      "options": {
+        "A": "Cảm xúc chỉ xuất hiện một lần duy nhất sau khi toàn bộ bài toán đã được giải quyết xong xuôi nên không ảnh hưởng tới các thao tác trung gian xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "B": "Cảm xúc luôn xóa sạch kết quả của thao tác trí tuệ vừa thực hiện trước đó để buộc chủ thể phải quay lại vạch xuất phát ban đầu.",
+        "C": "Mỗi khi xuất hiện một thao tác trí tuệ thì liền xuất hiện một cảm xúc tương ứng, và cảm xúc này trở thành tâm thế dẫn chuỗi thao tác tiếp theo đi theo hướng phù hợp với tâm thế đó.",
+        "D": "Mỗi thao tác trí tuệ đòi hỏi chủ thể phải triệt tiêu hoàn toàn tâm thế cảm xúc hiện có để chuyển sang trạng thái vô cảm tuyệt đối."
+      },
+      "correct_answer": "C",
+      "explanation": "Ở phương diện thứ hai của vai trò hướng đạo: ngay từ những thao tác đầu tiên cho tới thao tác cuối cùng, mỗi khi xuất hiện một thao tác thì liền ngay đó xuất hiện một cảm xúc tương ứng và cảm xúc này trở thành tâm thế dẫn chuỗi thao tác tiếp theo đi theo hướng phù hợp với tâm thế đó.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 80,
+      "question": "Theo giáo trình, phổ ảnh hưởng của đời sống xúc cảm - tình cảm đối với các hành động trí tuệ và việc ra quyết định của con người trải rộng như thế nào?",
+      "options": {
+        "A": "Phổ ảnh hưởng rất hẹp, chỉ giới hạn ở những cảm giác đau đớn sinh lý cơ thể khi con người bị đói khát hoặc làm việc trong môi trường thiếu ánh sáng.",
+        "B": "Chỉ ảnh hưởng tới quá trình tri giác hình ảnh trực quan ở trẻ mẫu giáo chứ hoàn toàn không tham gia vào tư duy trừu tượng của nhà khoa học trong tiến trình hình thành và phát triển đời sống tâm lý cá thể.",
+        "C": "Chỉ bao gồm những cơn xúc động bệnh lý cấp tính làm mất khả năng kiểm soát hành vi chứ không bao giờ có mặt trong các quyết định sáng suốt.",
+        "D": "Mức độ ảnh hưởng rất lớn và trải ra trên một phổ rộng, từ những cảm xúc đơn giản đến tình cảm phức hợp và cuối cùng là sự tham gia của những linh cảm trực giác."
+      },
+      "correct_answer": "D",
+      "explanation": "Cuối mục 4.4.1 khẳng định: mọi hành động trí tuệ đều có sự tham gia của cảm xúc; mức độ ảnh hưởng này rất lớn và trải ra trên một phổ rộng, từ những cảm xúc đơn giản, đến tình cảm phức hợp và cuối cùng là sự tham gia của những linh cảm trực giác.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 81,
+      "question": "Trong cuốn 'Sự phát triển cảm xúc và trí tuệ cảm xúc' (1997), P. Salovey đã bổ sung và hoàn thiện định nghĩa về trí tuệ cảm xúc như thế nào?",
+      "options": {
+        "A": "Bao gồm khả năng tiếp nhận đúng, đánh giá và thể hiện cảm xúc; đánh giá và phân loại cảm xúc giúp định hướng suy nghĩ; hiểu, điều khiển và định hướng cảm xúc nhằm gia tăng sự phát triển cảm xúc và trí tuệ.",
+        "B": "Chỉ bao gồm khả năng ghi nhớ tên gọi các trạng thái cảm xúc trong từ điển tâm lý học và khả năng diễn xuất khuôn mặt trên sân khấu kịch nghệ.",
+        "C": "Là năng lực bẩm sinh giúp cá nhân loại bỏ hoàn toàn các cảm xúc buồn bã hay lo âu để luôn duy trì trạng thái hưng phấn cao độ suốt ngày đêm.",
+        "D": "Là kỹ năng sử dụng các công cụ truyền thông đại chúng để thuyết phục và áp đặt quan điểm chính trị của cá nhân lên các nhóm xã hội khác."
+      },
+      "correct_answer": "A",
+      "explanation": "Trong định nghĩa nêu lại (trong cuốn 'Sự phát triển cảm xúc và trí tuệ cảm xúc'), P. Salovey xác định EQ gồm khả năng tiếp nhận đúng, đánh giá và thể hiện cảm xúc; khả năng đánh giá và phân loại cảm xúc giúp định hướng suy nghĩ; khả năng hiểu, điều khiển và định hướng cảm xúc nhằm gia tăng sự phát triển cảm xúc và trí tuệ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 82,
+      "question": "Trong thành phần thứ ba của bốn thành phần cốt lõi thuộc trí tuệ cảm xúc, 'khả năng điều chỉnh cảm xúc của bản thân và của người khác' bao hàm những nội dung gì?",
+      "options": {
+        "A": "Kích động cho cơn nóng giận của người đối diện bùng phát dữ dội hơn để dễ bề tìm ra điểm yếu trong lập luận lôgic của họ khi tranh luận theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "B": "Nỗ lực khắc phục những cảm xúc tiêu cực trong khi vẫn duy trì cảm xúc có lợi của bản thân, đồng thời có năng lực thay đổi phản ứng tương ứng của người khác như làm dịu, kiềm chế cơn nóng giận của họ.",
+        "C": "Che giấu toàn bộ cảm xúc thật bằng thái độ thờ ơ lạnh nhạt và tuyệt đối không bao giờ quan tâm tới trạng thái tâm lý của những người xung quanh.",
+        "D": "Chỉ cho phép bản thân trải nghiệm những cảm xúc buồn thương bi lụy để kích thích khả năng sáng tác thơ ca và hội họa lãng mạn."
+      },
+      "correct_answer": "B",
+      "explanation": "Khả năng điều chỉnh cảm xúc liên quan tới việc nỗ lực khắc phục những cảm xúc tiêu cực trong khi vẫn duy trì những cảm xúc có lợi của bản thân, đồng thời bao gồm cả năng lực thay đổi các phản ứng tương ứng của người khác (làm dịu, kiềm chế cơn nóng giận của người khác).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 83,
+      "question": "Theo các công trình nghiên cứu tâm lý học được nêu trong mục 4.4.2, bản thân các phẩm chất nhân cách tham gia vào việc kiểm soát cảm xúc (như bản lĩnh, nghị lực, tính cách) có nguồn gốc từ đâu?",
+      "options": {
+        "A": "Những phẩm chất nhân cách đó hoàn toàn do cấu trúc nhiễm sắc thể giới tính quy định sẵn từ trong bào thai và không hề thay đổi suốt cuộc đời.",
+        "B": "Những phẩm chất nhân cách đó chỉ xuất hiện ngẫu nhiên ở một số rất ít người có cấu tạo tuyến giáp và tuyến thượng thận khác biệt với người thường dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "C": "Những phẩm chất nhân cách đó không phải là bẩm sinh có sẵn, mà chủ yếu là do kinh nghiệm của cá nhân thu được trong mỗi nền văn hóa nhất định và liên quan mật thiết tới trí tuệ.",
+        "D": "Những phẩm chất nhân cách đó hoàn toàn tách rời khỏi kinh nghiệm văn hóa xã hội cũng như không có bất kỳ mối liên hệ nào với nhận thức trí tuệ."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình khẳng định: bản thân những phẩm chất nhân cách như bản lĩnh, nghị lực, tính cách không phải là bẩm sinh, mà chủ yếu là do kinh nghiệm của cá nhân thu được trong mỗi nền văn hóa nhất định, và điều này lại liên quan tới trí tuệ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 84,
+      "question": "Các nhà tâm lý học tiếp cận trí tuệ dựa trên học thuyết tiến hóa sinh học của S. Darwin giải thích như thế nào về sự phát triển hành vi trí tuệ và vai trò của dạy học?",
+      "options": {
+        "A": "Họ coi dạy học là nhân tố vạn năng có thể cải tạo hoàn toàn cấu trúc giải phẫu của não bộ và tạo ra loài sinh vật mới chỉ sau một khóa học.",
+        "B": "Họ khẳng định hành vi trí tuệ của con người hoàn toàn không có bất kỳ yếu tố sinh học nào mà một trăm phần trăm do nhà trường kiến tạo nên.",
+        "C": "Họ cho rằng dạy học phải luôn đi trước sự phát triển để thiết lập vùng phát triển gần nhất thông qua sự hợp tác giữa thầy giáo và học sinh theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "D": "Họ coi hành vi trí tuệ chỉ là kết quả tiến hóa lâu dài theo con đường tập nhiễm đã được lập trình từ đầu trong cuộc đời cá thể, nên dạy học chỉ làm bộc lộ sự phát triển tiềm tàng đó."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 4.5.1, đối với những nhà tiến hóa luận, hành vi trí tuệ của con người chỉ là kết quả của quá trình tiến hóa lâu dài theo con đường tập nhiễm, đã được lập trình từ đầu; do đó dạy học chỉ là yếu tố làm bộc lộ sự phát triển đã tiềm tàng trong cơ thể.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 85,
+      "question": "Theo L.X. Vygotsky, vì sao dạy học (theo nghĩa hẹp ở nhà trường) không phải là bản thân sự phát triển nhưng lại có khả năng thúc đẩy hoặc kìm hãm sự phát triển?",
+      "options": {
+        "A": "Vì trước khi đến trường trí tuệ trẻ đã phát triển ở một trình độ nhất định; nếu dạy học đi sau sự phát triển sẽ kìm hãm nó, còn nếu đi trước sẽ thúc đẩy và kéo sự phát triển đi lên.",
+        "B": "Vì trước khi đến trường đứa trẻ hoàn toàn chưa có bất kỳ một biểu hiện tâm lý hay trí tuệ nào mà chỉ tồn tại như một thực thể sinh vật thuần túy.",
+        "C": "Vì dạy học ở nhà trường chỉ cung cấp các bài tập vận động thể chất nên làm giảm thời gian tự suy nghĩ độc lập của đứa trẻ ở gia đình.",
+        "D": "Vì sự phát triển trí tuệ của trẻ em luôn diễn ra theo chu kỳ tăng giảm ngẫu nhiên không phụ thuộc vào nội dung hay phương pháp giảng dạy."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo L.X. Vygotsky, trước khi đến trường trí tuệ trẻ em đã được phát triển, nên dạy học bắt đầu từ một trình độ nhất định: nếu đi sau sự phát triển thì dạy học sẽ kìm hãm sự phát triển; ngược lại nếu đi trước sự phát triển, nó sẽ thúc đẩy và kéo sự phát triển đi lên.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 86,
+      "question": "Theo quan điểm của J. Bruner trong chương trình học tập 'xoáy trôn ốc', khả năng hình thành các khái niệm lý luận trừu tượng ở học sinh các lớp dưới được đánh giá như thế nào?",
+      "options": {
+        "A": "Học sinh các lớp dưới ở bậc tiểu học tuyệt đối không thể tiếp thu được bất kỳ khái niệm lý luận trừu tượng nào dù giáo viên có phương pháp tốt đến đâu.",
+        "B": "Có thể phát triển khả năng phân tích và hình thành khái niệm lý luận trừu tượng cho mọi đối tượng học sinh các lớp dưới nếu người giáo viên có phương pháp dạy học phù hợp.",
+        "C": "Chỉ những học sinh thần đồng có chỉ số thông minh trên 140 mới được phép tiếp cận với các khái niệm khoa học ở mức độ biểu tượng và khái niệm xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "D": "Việc dạy các khái niệm lý luận cho học sinh nhỏ tuổi sẽ gây tổn thương vĩnh viễn cho các trung khu thần kinh vận động và cảm giác ở vỏ não."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo J. Bruner (mục 4.5.2), có thể phát triển khả năng phân tích và hình thành khái niệm lý luận trừu tượng cho mọi đối tượng học sinh các lớp dưới, nếu người giáo viên có phương pháp dạy học phù hợp.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 87,
+      "question": "Khi phân tích mối quan hệ giữa cấu trúc nhận thức với kiểu tư duy tương ứng của cá nhân, nhà tâm lý học A.V. Petrovski (1982) đã rút ra kết luận sư phạm nào?",
+      "options": {
+        "A": "Ông nhận thấy cấu trúc nhận thức và kiểu tư duy hoàn toàn đối lập nhau, nên muốn rèn luyện tư duy thì phải xóa bỏ toàn bộ các tri thức khoa học.",
+        "B": "Ông khẳng định mỗi cá nhân chỉ có một kiểu tư duy cố định bẩm sinh từ lúc chào đời nên mọi phương pháp dạy học nhận thức đều không làm thay đổi được.",
+        "C": "Ông nhận thấy giữa cấu trúc nhận thức và kiểu tư duy tương ứng có sự tương đồng với nhau, từ đó khẳng định có thể dạy tư duy cho học sinh thông qua việc dạy các cấu trúc nhận thức.",
+        "D": "Ông cho rằng việc dạy các cấu trúc nhận thức chỉ có tác dụng đối với môn Lịch sử và Văn học chứ không thể áp dụng cho môn Toán học hay Vật lý trong tiến trình hình thành và phát triển đời sống tâm lý cá thể."
+      },
+      "correct_answer": "C",
+      "explanation": "Khi phân tích mối quan hệ giữa cấu trúc nhận thức với kiểu tư duy tương ứng của cá nhân, A.V. Petrovski (1982) nhận thấy giữa hai loại cấu trúc này tương đồng với nhau, từ đó cho rằng một trong những cách dạy tư duy cho học sinh là thông qua dạy các cấu trúc nhận thức.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 88,
+      "question": "Sự phát triển mạnh mẽ của phương hướng 'trực tiếp dạy các kỹ năng tư duy' trên thế giới hiện nay có sự tham gia đóng góp của những lĩnh vực khoa học liên ngành nào?",
+      "options": {
+        "A": "Chỉ có sự tham gia độc quyền của ngành cổ sinh vật học, địa chất học khảo cổ và ngành phân loại thực vật học truyền thống.",
+        "B": "Chỉ dựa vào kinh nghiệm truyền miệng dân gian và các nghi lễ tôn giáo thần bí cổ đại mà không cần đến bất kỳ ngành khoa học thực nghiệm nào.",
+        "C": "Chỉ có sự tham gia của ngành phẫu thuật thẩm mỹ và ngành công nghệ chế biến thực phẩm dinh dưỡng dành cho trẻ sơ sinh.",
+        "D": "Có sự tham gia tích cực của các lĩnh vực khoa học như toán học, điều khiển học, lý thuyết thông tin cùng với tâm lý học và giáo dục học."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 4.5.2 nêu rõ: phát triển tư duy, trí tuệ thông qua việc trực tiếp dạy các kỹ năng tư duy ngày càng được chú trọng và ứng dụng rộng rãi trên thế giới, với sự tham gia của các lĩnh vực khoa học: toán học, điều khiển học, thông tin, tâm lý - giáo dục học.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 89,
+      "question": "Chương trình dạy học của nhà tâm lý học Xô viết V.V. Davydov (V.V. Đavưđov) được giáo trình nhắc tới trong mục 4.5.2 hướng tới mục tiêu trọng tâm nào?",
+      "options": {
+        "A": "Hướng tới việc hình thành năng lực tư duy toán học và tư duy lý luận khái quát cho học sinh thông qua hoạt động học tập được tổ chức khoa học.",
+        "B": "Hướng tới việc rèn luyện các phản xạ vận động tự động hóa cho công nhân làm việc trên dây chuyền lắp ráp cơ khí đơn giản.",
+        "C": "Hướng tới việc điều trị các chứng rối loạn lo âu và trầm cảm cho người trưởng thành bằng phương pháp phân tích tâm lý tự thuật.",
+        "D": "Hướng tới việc chứng minh tính chất bất biến của chỉ số thông minh di truyền qua việc khảo sát các cặp trẻ sinh đôi cùng trứng."
+      },
+      "correct_answer": "A",
+      "explanation": "Trong mục 4.5.2, giáo trình nêu rõ Chương trình dạy học nhằm hình thành năng lực tư duy toán học cho học sinh của V.V. Davydov (Đavưđov) là một trong những chương trình tiêu biểu.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 90,
+      "question": "Khi tổng kết về vai trò của dạy học trong mục 4.5.1, L.X. Vygotsky đã khẳng định vị trí bản chất của dạy học đối với quá trình phát triển ở trẻ em như thế nào?",
+      "options": {
+        "A": "Dạy học chỉ là một yếu tố phụ trợ hoàn toàn nằm ở bên ngoài, đi sau sự trưởng thành sinh học và có thể thay thế bằng sự tự chín muồi.",
+        "B": "Dạy học có tổ chức đúng đắn là yếu tố cơ bản, cần thiết, bên trong của quá trình phát triển những thuộc tính mang tính chất lịch sử - xã hội của con người ở trẻ em.",
+        "C": "Dạy học là quá trình cưỡng bức áp đặt làm biến dạng bản chất tự nhiên thuần khiết vốn có sẵn trong tâm hồn của mỗi đứa trẻ từ lúc sơ sinh.",
+        "D": "Dạy học hoàn toàn đồng nhất với quá trình tăng trưởng chiều cao, cân nặng và sự cốt hóa hệ thống xương khớp của cơ thể trẻ em dưới góc độ phân tích của các trường phái tâm lý học truyền thống."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo L.X. Vygotsky, dạy học có tổ chức đúng đắn sẽ kéo theo sự phát triển trí tuệ của trẻ, tạo ra sự sống cho hàng loạt quá trình phát triển mà đứng ngoài dạy học không thể làm được; dạy học là yếu tố cơ bản, cần thiết, bên trong của quá trình phát triển ở trẻ em những yếu tố mang tính lịch sử của con người.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 91,
+      "question": "Nếu một nhà nghiên cứu chỉ sử dụng các bài kiểm tra độc lập để đo những gì trẻ tự làm được mà bỏ qua việc khảo sát khả năng của trẻ khi có sự hợp tác gợi ý, thì nhà nghiên cứu đó sẽ mắc phải thiếu sót gì theo L.X. Vygotsky?",
+      "options": {
+        "A": "Họ đã đánh giá quá cao tiềm năng tương lai của đứa trẻ và vô tình đẩy đứa trẻ vào trạng thái quá tải thần kinh do bài tập quá dễ xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "B": "Họ đã vi phạm nguyên tắc bảo mật thông tin cá nhân trong nghiên cứu trắc nghiệm khách quan đối với trẻ em ở độ tuổi mẫu giáo.",
+        "C": "Họ chỉ mới xác định được cái đã chín muồi (trình độ hiện thời) mà bỏ sót cái đang hình thành và phát triển (vùng phát triển gần nhất), nên không đánh giá được đầy đủ sự phát triển của trẻ.",
+        "D": "Họ đã nhầm lẫn giữa việc đo lường trí tuệ cảm xúc xã hội với việc đo lường dung lượng bộ nhớ ngắn hạn theo mô hình xử lý thông tin."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Vygotsky (mục 4.5.1), nếu chỉ xác định cái đã chín muồi (trình độ hiện thời) mà không tính đến cái đang hình thành và phát triển (vùng phát triển gần nhất qua sự hợp tác) thì sẽ không xác định được đầy đủ sự phát triển của trẻ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 92,
+      "question": "So sánh vai trò của môi trường đối với sự phát triển của động vật và vai trò của môi trường xã hội đối với sự phát triển trí tuệ của con người, giáo trình chỉ ra sự khác biệt cốt lõi nào?",
+      "options": {
+        "A": "Đối với cả động vật lẫn con người, môi trường bên ngoài đều là nguồn gốc duy nhất tạo ra toàn bộ cấu trúc giải phẫu của hệ thần kinh trung ương.",
+        "B": "Đối với động vật môi trường là nguồn gốc sáng tạo ra ý thức, còn đối với con người môi trường chỉ là nơi cung cấp oxy và thức ăn sinh học trong tiến trình hình thành và phát triển đời sống tâm lý cá thể.",
+        "C": "Không có bất kỳ sự khác biệt nào vì cả động vật và con người đều thích nghi với môi trường thông qua việc chế tạo công cụ lao động bằng kim loại.",
+        "D": "Đối với động vật môi trường chỉ là điều kiện để bộc lộ bản năng sinh học, còn đối với con người môi trường xã hội chính là nguồn gốc chứa đựng nội dung của sự phát triển trí tuệ."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 4.3.2 nhấn mạnh: về đại thể, môi trường xã hội đối với con người không phải chỉ là điều kiện (như trong sự phát triển của động vật) mà là nguồn gốc của sự phát triển trí tuệ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 93,
+      "question": "Trong thành phần thứ tư của bốn thành phần cốt lõi thuộc trí tuệ cảm xúc ('Sử dụng cảm xúc để định hướng hành động'), vì sao việc sử dụng cảm xúc để điều khiển hành vi lại giữ vị trí quan trọng?",
+      "options": {
+        "A": "Vì cảm xúc đóng vai trò là động lực thúc đẩy hoặc kìm hãm hành động, tạo ra sự định hướng và sự chú ý của cá nhân đối với hành động, giúp điều khiển hành vi nóng nảy hay ôn hòa.",
+        "B": "Vì cảm xúc có thể thay thế hoàn toàn hệ thống cơ xương khớp trong việc thực hiện các thao tác vận động vật lý nặng nhọc ngoài công trường.",
+        "C": "Vì khi sử dụng cảm xúc để định hướng hành động thì con người không cần phải suy nghĩ, lập kế hoạch hay chịu trách nhiệm pháp lý về hành vi của mình.",
+        "D": "Vì cảm xúc là yếu tố duy nhất giúp con người giải được các phương trình vi phân bậc cao mà không cần học qua chương trình toán học phổ thông."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 4.4.2, cảm xúc có vai trò như động lực thúc đẩy hoặc kìm hãm hành động, tạo ra sự định hướng, sự chú ý của cá nhân đối với hành động nào đó; vì vậy sử dụng cảm xúc để điều khiển hành vi (như điều khiển hành vi nóng nảy, ôn hòa) là thành phần quan trọng của trí tuệ cảm xúc.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 94,
+      "question": "Tại sao việc xây dựng các bài trắc nghiệm đo lường chỉ số trí tuệ cảm xúc (EQ) lại gặp nhiều khó khăn và kém khách quan hơn so với các bài trắc nghiệm trí tuệ lôgic (IQ) truyền thống?",
+      "options": {
+        "A": "Vì các nhà tâm lý học hiện đại chưa biết cách sử dụng giấy bút hay máy vi tính để in ấn các bảng câu hỏi trắc nghiệm cho người tham gia khảo sát theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "B": "Vì trí tuệ cảm xúc là một phẩm chất phức hợp, đa diện, gắn với những yếu tố khó nắm bắt như tự ý thức, sự tự tin, lạc quan, thấu cảm, tính kiên trì và năng lực giao tiếp xã hội.",
+        "C": "Vì chỉ số trí tuệ cảm xúc chỉ có thể đo được bằng cách phẫu thuật giải phẫu trực tiếp các tế bào thần kinh ở vùng hạnh nhân của não bộ.",
+        "D": "Vì tất cả những người tham gia làm bài trắc nghiệm cảm xúc đều không biết đọc chữ và không hiểu được ngôn ngữ giao tiếp thông thường."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình giải thích: hiện chưa có công thức chung tính EQ vì trí tuệ cảm xúc là một phẩm chất phức hợp, đa diện và là những cái khó nắm bắt như tự ý thức, tự tin, lạc quan, thấu cảm, kiên trì, năng lực giao tiếp xã hội... nên trắc nghiệm EQ khó khăn và kém khách quan hơn trắc nghiệm IQ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 95,
+      "question": "Theo phân tích trong mục 4.1, nếu một nhà giáo dục tuyệt đối hóa vai trò của các điều kiện bên ngoài mà bỏ qua hoạt động của bản thân người học thì đã mắc phải sai lầm phương pháp luận nào?",
+      "options": {
+        "A": "Đã đánh giá quá cao vai trò của các định khu thần kinh bẩm sinh ở vùng vỏ não trán trong việc tự động sản sinh ra các khái niệm khoa học.",
+        "B": "Đã tuân thủ quá nghiêm ngặt nguyên lý vùng phát triển gần nhất và nguyên tắc hợp tác giữa thầy giáo với học sinh của trường phái Vygotsky dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "C": "Đã quên mất rằng các yếu tố tự nhiên và xã hội chỉ là cái đặt ra đối với chủ thể và chỉ tham gia vào sự phát triển trí tuệ khi có sự tương tác với cá nhân thông qua hoạt động.",
+        "D": "Đã biến quá trình dạy học ở nhà trường thành quá trình tự giáo dục và tự nghiên cứu khoa học độc lập của những nhà bác học trưởng thành."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 4.1 nhấn mạnh các yếu tố tự nhiên và xã hội không tham gia trực tiếp vào cấu thành trí tuệ mà chỉ là cái đặt ra đối với chủ thể; chúng chỉ trở thành yếu tố trong sự phát triển trí tuệ cá nhân khi diễn ra sự tương tác giữa chúng với cá nhân thông qua hoạt động.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 96,
+      "question": "Trong mục 4.2.1.1, việc sử dụng phương pháp so sánh chỉ số IQ giữa các nhóm chủng tộc khác nhau để chứng minh tính di truyền của trí tuệ đã bỏ qua thực tế lịch sử - xã hội quan trọng nào?",
+      "options": {
+        "A": "Đã bỏ qua thực tế là tất cả các bài trắc nghiệm trí tuệ đều được viết bằng ngôn ngữ ký hiệu toán học mà không chủng tộc nào có thể đọc hiểu được.",
+        "B": "Đã bỏ qua thực tế là trẻ em thuộc các chủng tộc khác nhau có nhiệt độ cơ thể và nhịp đập tim mạch hoàn toàn trái ngược nhau khi làm bài thi.",
+        "C": "Đã bỏ qua thực tế là chỉ số thông minh của con người chỉ phụ thuộc vào mùa sinh sản trong năm chứ không phụ thuộc vào nguồn gốc gia đình theo đúng các quy luật khách quan của khoa học tâm lý học hiện đại.",
+        "D": "Đã bỏ qua thực tế là không còn chủng tộc thuần khiết theo nghĩa sinh học và các nhóm chủng tộc ở Mỹ hay phương Tây có điều kiện sống, kinh tế - xã hội rất khác biệt nhau."
+      },
+      "correct_answer": "D",
+      "explanation": "Các nhà tâm lý học theo quan niệm di truyền trí tuệ khi quy kết sự khác biệt trí tuệ giữa các cộng đồng sắc tộc, chủng tộc đã không tính đến thực tế hiện nay không có chủng tộc thuần khiết theo đúng nghĩa sinh học, và sự chênh lệch IQ phản ánh sự khác biệt về điều kiện xã hội.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 97,
+      "question": "Theo phân tích của A.N. Leontiev về ba giai đoạn tiến hóa của loài người, nhân tố mới nào đã bắt đầu xuất hiện ở Giai đoạn hai (từ vượn người đến người Neanderthal) nhờ hoạt động chế tạo công cụ lao động?",
+      "options": {
+        "A": "Đã xuất hiện nhân tố mới là các quy luật xã hội - lịch sử do lao động sản xuất tạo ra, bên cạnh các quy luật sinh vật học lúc đó vẫn còn chiếm ưu thế.",
+        "B": "Đã xuất hiện nhân tố mới là các thuật toán trí tuệ nhân tạo và hệ thống mạng máy tính toàn cầu điều khiển toàn bộ quá trình tiến hóa sinh học.",
+        "C": "Đã xuất hiện sự thoái hóa hoàn toàn của đôi bàn tay và cơ quan phát âm khiến người Neanderthal phải quay lại đời sống leo trèo trên cây.",
+        "D": "Đã xuất hiện quy luật chọn lọc tự nhiên của Darwin lần đầu tiên trong lịch sử sinh giới để thay thế cho các quy luật lịch sử xã hội trước đó."
+      },
+      "correct_answer": "A",
+      "explanation": "Ở giai đoạn hai (chuyển sang người, từ vượn người đến người Neanderthal), đặc trưng là con người đã sản xuất ra công cụ lao động, tạo ra lao động và xã hội; quy luật sinh vật học vẫn chiếm ưu thế nhưng đã xuất hiện nhân tố mới là các quy luật xã hội - lịch sử do lao động sản xuất tạo ra.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 98,
+      "question": "Khi phân tích mối quan hệ giữa chỉ số EQ và chỉ số IQ trong mục 4.4.2, giáo trình nhận định như thế nào về mức độ ổn định của hai chỉ số này trong đời sống cá nhân?",
+      "options": {
+        "A": "Chỉ số trí tuệ cảm xúc (EQ) là một hằng số sinh học bất biến tuyệt đối từ lúc sơ sinh, còn chỉ số IQ thay đổi hoàn toàn sau mỗi giờ đồng hồ.",
+        "B": "Chỉ số trí tuệ lôgic (IQ) có tính ổn định cao hơn so với chỉ số trí tuệ cảm xúc (EQ), trong khi EQ dễ biến đổi và bồi dưỡng qua kinh nghiệm sống hơn.",
+        "C": "Cả chỉ số EQ lẫn chỉ số IQ đều không có bất kỳ sự ổn định nào mà biến thiên hỗn loạn ngẫu nhiên theo sự thay đổi của thời tiết hàng ngày xét trong toàn bộ quá trình vận động của hoạt động nhận thức cá nhân.",
+        "D": "Cả chỉ số EQ lẫn chỉ số IQ đều được đóng đinh vĩnh viễn ở tuổi lên ba và không một phương pháp giáo dục nào có thể tác động vào được."
+      },
+      "correct_answer": "B",
+      "explanation": "Khía cạnh thứ ba trong 4 mối quan hệ giữa EQ và IQ được giáo trình khẳng định rõ: 'Chỉ số IQ có tính ổn định cao hơn chỉ số EQ'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 99,
+      "question": "Trong hệ thống dạy học phát triển của L.V. Zankov (1970), nguyên tắc nào thể hiện rõ sự kế thừa tư tưởng phát huy tính tích cực chủ thể và siêu nhận thức của người học?",
+      "options": {
+        "A": "Nguyên tắc giữ bí mật tuyệt đối mục tiêu bài học để học sinh chỉ làm theo mệnh lệnh từng bước nhỏ của máy dạy học mà không biết kết quả.",
+        "B": "Nguyên tắc giảm tối đa tỷ trọng các tri thức lý luận khái quát để học sinh chỉ tập trung vào việc chép phạt các quy tắc chính tả cơ bản.",
+        "C": "Nguyên tắc làm cho học sinh có ý thức đầy đủ về toàn bộ quá trình học tập của bản thân và hình thành thái độ tự giác trong hoạt động học tập đó.",
+        "D": "Nguyên tắc bác bỏ hoàn toàn mọi kinh nghiệm sống trước đó của đứa trẻ để viết lại từ đầu lên tâm hồn trẻ như viết lên một tờ giấy trắng trong tiến trình hình thành và phát triển đời sống tâm lý cá thể."
+      },
+      "correct_answer": "C",
+      "explanation": "L.V. Zankov (1970) đề xuất 4 nguyên tắc dạy học phát triển: tôn trọng kinh nghiệm đã có của trẻ; tăng dần mức độ và nhịp độ khó khăn; nâng cao tỷ trọng tri thức lý luận khái quát; và làm cho học sinh có ý thức về toàn bộ quá trình học tập, hình thành thái độ tự giác.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 100,
+      "question": "Chương trình huấn luyện các thủ thuật trí tuệ công bố năm 1987 thuộc phương hướng trực tiếp dạy các kỹ năng tư duy là công trình của nhà tâm lý học nào?",
+      "options": {
+        "A": "Là công trình của nhà sinh물 học người Anh Charles Darwin nhằm giải thích sự thích nghi tập nhiễm của các loài động vật hoang dã dưới góc độ phân tích của các trường phái tâm lý học truyền thống.",
+        "B": "Là công trình của nhà triết học duy cảm người Anh John Locke nhằm chứng minh nguồn gốc cảm tính của mọi biểu tượng trong tâm hồn.",
+        "C": "Là công trình của nhà tâm lý học người Đức Wilhelm Stern nhằm bảo vệ học thuyết hội tụ hai yếu tố di truyền và môi trường xã hội.",
+        "D": "Là công trình nghiên cứu và ứng dụng của nhà tâm lý học người Mỹ R. Sternberg (công bố năm 1987) nhằm bồi dưỡng trực tiếp các thủ thuật trí tuệ."
+      },
+      "correct_answer": "D",
+      "explanation": "Cuối mục 4.5.2, giáo trình nêu rõ các chương trình huấn luyện, bồi dưỡng tư duy trực tiếp đang được phổ biến và ứng dụng gồm: Chương trình huấn luyện các thủ thuật trí tuệ của R. Sternberg (1987), chương trình của V.V. Davydov, E. De Bono và O. Kagayaki.",
+      "difficulty": "medium"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Vì sao không thể dùng phương pháp phân tích nhân tố tách rời để quy kết vai trò quyết định trực tiếp cho riêng yếu tố sinh học hay riêng yếu tố xã hội đối với trí tuệ cá nhân?",
+      "expected_answer": "- Khác với khoa học tự nhiên (có thể tách biệt quan hệ trực tiếp giữa hai yếu tố), trong tâm lý học không thể khu biệt riêng rẽ sự tác động trực tiếp của một yếu tố bên ngoài lên chủ thể.\n- Trí tuệ cá nhân không phải là một tổ hợp lắp ghép cơ học từ nhiều bộ phận rời rạc, mà là **một đơn vị tâm lý trọn vẹn** hình thành trong đời sống con người.\n- Yếu tố tự nhiên và xã hội không tham gia trực tiếp vào cấu thành trí tuệ mà chỉ là **cái đặt ra đối với chủ thể**; chúng chỉ trở thành yếu tố phát triển trí tuệ thông qua **hoạt động tích cực của cá nhân**.",
+      "explanation": "Nêu bật nguyên tắc phương pháp luận biện chứng trong mục 4.1: thống nhất giữa Tự nhiên - Xã hội - Chủ thể thông qua hoạt động."
+    },
+    {
+      "id": 2,
+      "question": "Trình bày 3 luận điểm khoa học phê phán quan niệm di truyền trí tuệ cực đoan (kèm các dẫn chứng thực nghiệm của Kimling & Jarvik, R. Zajonc và nghiên cứu trẻ da đen ở Mỹ).",
+      "expected_answer": "1. **Về giới hạn của trắc nghiệm và chỉ số IQ:** Trắc nghiệm tốt nhất cũng chỉ phản ánh mức độ trí tuệ tại **một thời điểm nhất định**. Chỉ số IQ không phải là hằng số cố định 'dán trên trán' đứa trẻ hay bất biến truyền từ cha mẹ sang con cái.\n2. **Về sự tác động của hoàn cảnh nuôi dưỡng và văn hóa gia đình:**\n   - *Kimling và Jarvik (1993):* Phân tích 52 công trình nghiên cứu cho thấy điều kiện sống làm thay đổi vai trò của yếu tố di truyền.\n   - *Nghiên cứu trẻ da đen nuôi trong gia đình da trắng ở Mỹ:* Đạt điểm IQ trung bình **106**, tương đương chuẩn quốc gia của trẻ da trắng.\n   - *Nghiên cứu của R. Zajonc (1973) trên 386.114 thanh niên Hà Lan (19 tuổi):* Điểm trí tuệ giảm dần theo quy mô số con (**2 -> 3 -> 4 -> 1 -> 5 -> 6 -> 7 -> 8 -> 9 con**) và con đầu lòng cao hơn con út, chứng minh ảnh hưởng của mô hình 'văn hóa' gia đình.\n3. **Về bản chất khái niệm chủng tộc:** Không còn chủng tộc thuần khiết về mặt sinh học; chủng tộc ở Mỹ và phương Tây là **khái niệm xã hội**, sự chênh lệch IQ phản ánh sự khác biệt về điều kiện kinh tế - xã hội.",
+      "explanation": "Tổng hợp đầy đủ 3 luận điểm và các số liệu thực nghiệm kinh điển trong mục 4.2.1.1."
+    },
+    {
+      "id": 3,
+      "question": "Phân tích 4 yếu tố chi phối sự phát sinh và phát triển trí tuệ cá nhân theo lý thuyết kiến tạo của J. Piaget. Phân biệt kinh nghiệm vật lý và kinh nghiệm lôgic - toán.",
+      "expected_answer": "- **Bốn yếu tố theo J. Piaget:**\n  1. *Sự tăng trưởng cơ thể và chín muồi của phức hợp hệ thần kinh - nội tiết:* Chỉ là điều kiện cần chưa đủ; vai trò quy định trực tiếp giảm dần theo lứa tuổi.\n  2. *Sự luyện tập và kinh nghiệm qua hoạt động với đối tượng:* Gồm kinh nghiệm vật lý và kinh nghiệm lôgic - toán.\n  3. *Sự tương tác và chuyển giao xã hội:* Có tính hai mặt (cung cấp khuôn mẫu xã hội và đòi hỏi sự đồng hóa tích cực của trẻ).\n  4. *Tính chủ thể và sự phối hợp chung của các hành động cá nhân (tự cân bằng):* Phối hợp 3 yếu tố trên qua đồng hóa và điều ứng theo trật tự hằng định.\n- **Phân biệt 2 loại kinh nghiệm:**\n  + *Kinh nghiệm vật lý:* Tác động lên sự vật để **trừu xuất các thuộc tính vật lý** của sự vật.\n  + *Kinh nghiệm lôgic - toán:* Tác động lên đối tượng nhằm nhận biết kết quả phối hợp hành động (**trừu xuất khỏi chính hành động** để cấu trúc hóa hành động, có trước kinh nghiệm vật lý).",
+      "explanation": "Làm rõ 4 yếu tố trong mục 4.2.3 và sự phân biệt sâu sắc giữa kinh nghiệm vật lý với kinh nghiệm lôgic - toán."
+    },
+    {
+      "id": 4,
+      "question": "Trình bày 3 giai đoạn tiến hóa từ động vật lên con người theo A.N. Leontiev và giải thích cơ chế khúc xạ của yếu tố sinh học qua hoạt động cá nhân.",
+      "expected_answer": "- **Ba giai đoạn tiến hóa loài theo A.N. Leontiev:**\n  1. *Giai đoạn I (Chuẩn bị sinh vật):* Động vật dùng công cụ thô sơ chưa chế tạo, giao tiếp đơn giản; **quy luật sinh vật học chiếm độc tôn**.\n  2. *Giai đoạn II (Chuyển sang người - từ vượn người đến Neanderthal):* Chế tạo công cụ, tạo ra lao động và xã hội; quy luật sinh vật học còn chiếm ưu thế nhưng đã xuất hiện **quy luật xã hội - lịch sử**.\n  3. *Giai đoạn III (Con người hiện đại - Homo Sapiens):* Tổ chức cơ thể hoàn thiện; **quy luật xã hội - lịch sử là quy luật duy nhất** điều khiển sự phát triển.\n- **Cơ chế khúc xạ ở cá nhân:** Yếu tố sinh học không tác động trực tiếp mà **gián tiếp thông qua hoạt động chủ thể** (như người chơi sử dụng các quân bài; công thức Edison '1% thông minh, 99% mồ hôi' trong nghiên cứu của M. Csikszentmihalyi). Các trung khu thần kinh vừa là tiềm năng ban đầu vừa là **sản phẩm của hoạt động**.",
+      "explanation": "Nắm vững nội dung mục 4.3.1 về mối quan hệ giữa chủ thể với yếu tố sinh học ở cả cấp độ loài và cá thể."
+    },
+    {
+      "id": 5,
+      "question": "Tại sao nói môi trường xã hội là nguồn gốc và nội dung của sự phát triển trí tuệ cá nhân? Phân biệt môi trường xã hội chung với 'tình huống xã hội của sự phát triển' (Vygotsky) và 'môi trường riêng' (Elkonin).",
+      "expected_answer": "- **Môi trường xã hội là nguồn gốc và nội dung:** Những gì đứa trẻ cần có trong đời sống tâm lý không nằm sẵn trong cơ chế sinh học mà nằm trong nền văn hóa - xã hội bên ngoài. Tuy nhiên nó không áp đặt một chiều mà tuân theo định lý C. Mác: *'Con người tạo ra hoàn cảnh đến mức nào thì hoàn cảnh cũng tạo ra con người đến mức ấy'*.\n- **Phân biệt môi trường chung (tiềm năng) và môi trường riêng (hiện thực):**\n  + Môi trường xã hội chung chỉ là nguồn gốc ở dạng **tiềm năng**.\n  + Khi diễn ra quan hệ sinh thành lẫn nhau với hoạt động của trẻ, nó trở thành **'tình huống xã hội của sự phát triển'** (L.X. Vygotsky - tương tác giữa trẻ với đồ vật và người lớn), **'môi trường cỏn con của riêng mỗi đứa trẻ'** (D.B. Elkonin - trẻ chủ động 'rút tỉa' cái phù hợp với nhu cầu phát triển thông qua hoạt động) hay **'trường tâm lý'** (K. Lewin). Đây mới là nguồn gốc hiện thực tạo nên sự khác biệt trí tuệ giữa các cá nhân.",
+      "explanation": "Làm rõ luận điểm cốt lõi của mục 4.3.2 giải thích vì sao trẻ sống cùng gia đình/lớp học vẫn có mức độ trí tuệ khác nhau."
+    },
+    {
+      "id": 6,
+      "question": "Phân tích hai vai trò cơ bản của cảm xúc đối với hoạt động trí tuệ (động lực và hướng đạo) cùng các luận điểm của J. Piaget và L.X. Vygotsky về mối quan hệ cảm xúc - trí tuệ.",
+      "expected_answer": "- **Quan điểm của J. Piaget và L.X. Vygotsky:**\n  + *J. Piaget (1997):* Mỗi ứng xử gồm 2 mặt không tách rời là **mặt năng lượng** (do cảm xúc tạo ra và điều tiết) và **mặt cấu trúc/nhận thức** (do thao tác trí tuệ tạo nên).\n  + *L.X. Vygotsky:* Ý nghĩ khởi nguồn từ lĩnh vực động cơ - cảm xúc; ông ví **ý nghĩ như đám mây đen** mang cơn mưa từ ngữ, còn **động cơ và cảm xúc như cơn gió** đẩy đám mây chuyển động.\n- **Hai vai trò của cảm xúc (Động lực và Hướng đạo):** Cảm xúc vừa thúc đẩy/kìm hãm vừa hướng đạo hành động trí tuệ trên **3 phương diện**:\n  1. Xâm nhập và nhuốm màu toàn bộ quá trình từ tri giác đến tư duy trừu tượng.\n  2. Xuất hiện liền sau mỗi thao tác, trở thành **tâm thế** dẫn dắt chuỗi thao tác tiếp theo.\n  3. Kết quả mỗi thao tác tạo ra cảm xúc mới chi phối việc **ra quyết định và lựa chọn phương án** kế tiếp.",
+      "explanation": "Hệ thống hóa đầy đủ nội dung mục 4.4.1 về ảnh hưởng của cảm xúc tới hoạt động trí tuệ."
+    },
+    {
+      "id": 7,
+      "question": "Trình bày khái niệm Trí tuệ cảm xúc (EQ), 4 thành phần cốt lõi có thể đo lường của EQ và 4 mối quan hệ giữa chỉ số EQ với chỉ số IQ.",
+      "expected_answer": "- **Khái niệm:** Thuật ngữ do **P. Salovey và J. Mayer (1990)** đưa ra, chỉ khả năng hiểu rõ cảm xúc bản thân, thấu hiểu cảm xúc người khác, phân biệt và sử dụng chúng để hướng dẫn suy nghĩ và hành động (phát triển thêm bởi D. Goleman 1995, H. Steve 1996, E. De Bono).\n- **Bốn thành phần cốt lõi:**\n  1. Khả năng nhận biết, đánh giá và thể hiện cảm xúc bản thân.\n  2. Khả năng nhận biết và đánh giá cảm xúc người khác (gắn liền với **sự thấu cảm**).\n  3. Khả năng điều chỉnh cảm xúc của bản thân và của người khác.\n  4. Sử dụng cảm xúc để định hướng và điều khiển hành động.\n- **Bốn mối quan hệ giữa EQ và IQ:**\n  1. Có tính **độc lập tương đối** trong hệ thống nhân cách chung.\n  2. **Bổ sung cho nhau** (EQ cao tạo điều kiện cho IQ phát triển).\n  3. Chỉ số **IQ có tính ổn định cao hơn** chỉ số EQ.\n  4. **EQ ảnh hưởng tới hiệu quả hoạt động và sự thành đạt nhiều hơn** so với trí tuệ lôgic (IQ).",
+      "explanation": "Khái quát toàn diện mục 4.4.2 về Trí tuệ cảm xúc (EQ) và mối tương quan với IQ."
+    },
+    {
+      "id": 8,
+      "question": "So sánh 3 quan niệm về mối quan hệ giữa dạy học và phát triển trí tuệ. Nêu 2 phương hướng nâng cao hiệu quả dạy học phát triển trí tuệ cùng các tác giả tiêu biểu.",
+      "expected_answer": "- **Ba quan niệm về dạy học và phát triển (4.5.1):**\n  1. *Độc lập / đi sau hoặc song hành:* Thuyết tiến hóa Darwin, thuyết di truyền và thuyết kiến tạo của J. Piaget (không đốt cháy giai đoạn).\n  2. *Đồng nhất dạy học với phát triển:* Tâm lý học hành vi ($S \\rightarrow R$), chồng khít máy móc.\n  3. *Dạy học đi trước và kéo theo sự phát triển (L.X. Vygotsky):* Phân biệt **Trình độ hiện thời** (trẻ tự giải quyết độc lập) và **Vùng phát triển gần nhất - ZPD** (trẻ giải quyết được nhờ sự hợp tác giúp đỡ). Dạy học phải tác động vào ZPD thông qua hợp tác thầy - trò.\n- **Hai phương hướng nâng cao hiệu quả dạy học phát triển (4.5.2):**\n  1. *Thông qua dạy tri thức khoa học:* **J. Bruner** (3 mức hành động - biểu tượng - khái niệm, chương trình xoáy trôn ốc), **P.Ia. Galperin** (hình thành hành động trí tuệ theo giai đoạn), **L.V. Zankov** (4 nguyên tắc dạy học phát triển), **A.V. Petrovski**, **R. Fischer** (3 thành phần cấu trúc trí tuệ & 3 bước rèn kỹ năng khoa học).\n  2. *Thông qua trực tiếp dạy các kỹ năng tư duy:* **R. Sternberg** (huấn luyện thủ thuật trí tuệ), **V.V. Davydov** (tư duy toán học), **E. De Bono** (chiến lược tư duy ngang - dọc), **O. Kagayaki** (luyện trí não).",
+      "explanation": "Bao quát toàn bộ nội dung mục 4.5.1 và 4.5.2 về lý luận và ứng dụng dạy học phát triển trí tuệ."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phê Phán Thuyết Tiền Định Sinh Học và Thuyết Định Mệnh Xã Hội Dưới Ánh Sáng Của Mối Quan Hệ Biện Chứng Sinh Học - Xã Hội - Chủ Thể",
+      "problem": "Trong lịch sử tâm lý học trí tuệ, đã từng tồn tại cuộc tranh luận gay gắt giữa một bên là những người tuyệt đối hóa yếu tố di truyền sinh học (như F. Galton, C. Burt, A. Jensen) và một bên là những người tuyệt đối hóa môi trường kích thích bên ngoài (như J. Locke, J. Watson, B.F. Skinner).\nBằng kiến thức lý luận và các dẫn chứng thực nghiệm trong Chương 4, anh/chị hãy:\n1. Phân tích những sai lầm phương pháp luận và dẫn ra các bằng chứng khoa học (Kimling & Jarvik, R. Zajonc 1973, nghiên cứu trẻ da đen ở Mỹ) để bác bỏ thuyết di truyền trí tuệ cực đoan, đồng thời chỉ rõ hạn chế của thuyết định mệnh xã hội.\n2. Làm sáng tỏ mối quan hệ biện chứng giữa yếu tố Sinh học - Xã hội - Chủ thể thông qua hình ảnh ẩn dụ 'ván bài', công thức Edison của M. Csikszentmihalyi và khái niệm 'môi trường riêng' của L.X. Vygotsky, D.B. Elkonin.\n3. Rút ra những kết luận sư phạm thiết thực trong việc phát hiện, bồi dưỡng tài năng và giáo dục học sinh.",
+      "solution_steps": [
+        "Bước 1: Phê phán thuyết tiền định sinh học và thuyết định mệnh xã hội bằng dẫn chứng khoa học\n- *Bác bỏ thuyết di truyền trí tuệ cực đoan:* (a) Chỉ số IQ qua trắc nghiệm chỉ phản ánh mức độ trí tuệ tại một thời điểm nhất định chứ không phải hằng số cố định 'dán trên trán' mỗi đứa trẻ; (b) Phân tích 52 công trình của **Kimling và Jarvik (1993)** chứng minh hoàn cảnh sống làm biến đổi vai trò của di truyền; nghiên cứu trẻ em da đen được nuôi dưỡng trong gia đình da trắng ở Mỹ đạt **IQ trung bình = 106** (tương đương chuẩn quốc gia của trẻ da trắng); nghiên cứu của **R. Zajonc (1973)** trên **386.114 thanh niên Hà Lan (19 tuổi)** cho thấy điểm trí tuệ giảm dần theo quy mô số con ($2 \\rightarrow 3 \\rightarrow 4 \\rightarrow 1 \\rightarrow 5 \\rightarrow 6 \\rightarrow 7 \\rightarrow 8 \\rightarrow 9$) và thứ tự sinh, khẳng định vai trò của mô hình văn hóa gia đình; (c) Chủng tộc thực chất là một khái niệm xã hội.\n- *Phê phán thuyết định mệnh xã hội (J. Locke, J. Watson, B.F. Skinner):* Coi trẻ như 'tờ giấy trắng' thụ động theo công thức $S \\rightarrow R$, dẫn tới kiến thức vụn vặt, thiếu hệ thống và triệt tiêu tính sáng tạo chủ thể.",
+        "Bước 2: Giải quyết mối quan hệ biện chứng giữa Sinh học - Xã hội - Chủ thể\n- *Vai trò của yếu tố sinh học:* Ở cấp độ loài (Homo Sapiens), quy luật xã hội - lịch sử giữ vai trò chi phối duy nhất (A.N. Leontiev). Ở cấp độ cá nhân, tư chất sinh học không tác động trực tiếp mà **khúc xạ gián tiếp qua hoạt động chủ thể**. Giống như trong **ván bài**, quân bài tốt hay xấu chỉ tạo thuận lợi/khó khăn ban đầu, còn thắng cuộc do người chơi quyết định; nghiên cứu 99 danh nhân của **M. Csikszentmihalyi** khẳng định công thức Edison: *'1% thông minh, 99% mồ hôi'*. Các trung khu thần kinh vừa là tiềm năng ban đầu vừa là **sản phẩm của hoạt động**.\n- *Vai trò của môi trường xã hội:* Là **nguồn gốc và nội dung** của trí tuệ, nhưng ở dạng tiềm năng. Nó chỉ trở thành hiện thực thông qua hoạt động của trẻ để tạo lập **'tình huống xã hội của sự phát triển'** (Vygotsky), **'môi trường riêng'** (Elkonin - trẻ chủ động rút tỉa từ môi trường chung) hay **'trường tâm lý'** (K. Lewin).",
+        "Bước 3: Rút ra kết luận và ứng dụng sư phạm\n- Tuyệt đối tránh thái độ định kiến, dán nhãn học sinh dựa trên điểm trắc nghiệm nhất thời hoặc hoàn cảnh xuất thân.\n- Việc phát hiện và bồi dưỡng tài năng trẻ không chỉ cần tiến hành sớm mà quan trọng nhất là phải thiết kế nội dung, phương pháp tổ chức hoạt động phù hợp để tránh làm thui chột tiềm năng của trẻ (đặc biệt với trẻ em ở gia đình khó khăn về kinh tế - văn hóa).\n- Chú trọng khơi dậy tính tích cực chủ động của mỗi học sinh để các em tự kiến tạo 'môi trường phát triển riêng' giàu tính trí tuệ ngay trong tập thể lớp học chung."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Phân Tích Toàn Diện Mối Quan Hệ Giữa Cảm Xúc Và Trí Tuệ Cùng Cấu Trúc, Vai Trò Của Trí Tuệ Cảm Xúc (EQ)",
+      "problem": "Định kiến truyền thống thường đối lập lý trí với tình cảm và cho rằng cảm xúc chỉ gây nhiễu, làm suy giảm hiệu suất hoạt động của trí tuệ cá nhân. Tuy nhiên, tâm lý học hiện đại lại khẳng định cảm xúc và trí tuệ là hai mặt thống nhất của một hành động cá nhân.\nHãy phân tích:\n1. Quan điểm của P. Janet, E. Claparède, J. Piaget, L.X. Vygotsky và D. Goleman về mối quan hệ giữa cảm xúc và trí tuệ, cùng 2 vai trò cơ bản (động lực và 3 biểu hiện hướng đạo) của cảm xúc trong hành động trí tuệ.\n2. Khái niệm và cấu trúc của Trí tuệ cảm xúc (EQ) theo P. Salovey, H. Steve, E. De Bono, D. Craig và 4 thành phần cốt lõi có thể đo lường được.\n3. Bốn mối quan hệ giữa chỉ số EQ với chỉ số IQ và ý nghĩa của việc giáo dục kết hợp EQ - IQ trong bối cảnh xã hội công nghiệp hiện đại.",
+      "solution_steps": [
+        "Bước 1: Sự thống nhất giữa cảm xúc và trí tuệ cùng vai trò động lực, hướng đạo của cảm xúc\n- *Cơ sở lý luận:* Trong 'trường cư xử', cảm xúc là động lực còn trí tuệ là sự cấu trúc hóa ứng xử (Janet, Claparède). **J. Piaget (1997)** chỉ rõ mỗi hành động trí tuệ gồm **mặt năng lượng** (cảm xúc điều tiết) và **mặt cấu trúc/nhận thức** (thao tác trí tuệ). **L.X. Vygotsky** ví ý nghĩ như đám mây đen mang cơn mưa từ ngữ, còn động cơ và cảm xúc như **cơn gió** làm đám mây chuyển động. **D. Goleman (1995)** khẳng định cảm xúc chỉ đạo trí tuệ và quyết định sự thành đạt của nhà quản lý hơn cả IQ.\n- *Hai vai trò của cảm xúc:* Vừa là **động lực** (thúc đẩy/kìm hãm) vừa là **người hướng đạo** thể hiện qua **3 phương diện**: (1) Xâm nhập và nhuốm màu toàn bộ quá trình từ tri giác đến tư duy trừu tượng; (2) Mỗi thao tác xuất hiện kéo theo một cảm xúc trở thành **tâm thế** dẫn dắt chuỗi thao tác tiếp theo; (3) Kết quả mỗi thao tác mang lại cảm xúc mới chi phối việc **lựa chọn phương án và ra quyết định** tiếp theo.",
+        "Bước 2: Bản chất, cấu trúc của Trí tuệ cảm xúc (EQ) và cơ chế kiểm soát cảm xúc\n- *Định nghĩa:* Khởi xướng bởi **P. Salovey và J. Mayer (1990)**, phát triển qua Salovey (1997), Goleman (1995), H. Steve (1996). Theo **E. De Bono**, EQ là trí tuệ trực giác, linh cảm, phi lôgic giúp khám phá và bộc lộ cảm xúc tàng ẩn thành bộ phận của hành động trí tuệ thông qua **nhận thức khách quan sâu sắc**.\n- *Cấu trúc:* P. Salovey nêu 5 thành phần; H. Steve nêu 3 dấu hiệu nhận dạng. Khái quát thành **4 thành phần cốt lõi có thể đo lường**: (1) Nhận biết, đánh giá và thể hiện cảm xúc bản thân; (2) Nhận biết và đánh giá cảm xúc người khác (**sự thấu cảm** - theo **D. Craig**, thấu cảm quyết định nhân quả hành vi: *thấu cảm như thế nào sẽ có hành vi tương ứng như vậy*); (3) Điều chỉnh cảm xúc của bản thân và người khác; (4) Sử dụng cảm xúc để định hướng và điều khiển hành động.",
+        "Bước 3: Bốn mối quan hệ giữa EQ và IQ và ứng dụng thực tiễn\n- *Bốn mối quan hệ nổi bật:* (1) EQ và IQ **độc lập tương đối** trong hệ thống nhân cách chung; (2) **Bổ sung cho nhau**, EQ cao tạo điều kiện thuận lợi cho IQ phát triển; (3) **IQ có tính ổn định cao hơn** EQ; (4) **EQ ảnh hưởng tới hiệu quả hoạt động và sự thành đạt nhiều hơn** so với trí tuệ lôgic.\n- *Ứng dụng giáo dục:* Cần giáo dục tình cảm và rèn luyện kỹ năng EQ cho trẻ ngay từ nhỏ song hành với phát triển IQ, giúp người học biết tự nhận thức, thấu cảm, làm chủ giao tiếp và ứng phó hiệu quả với stress trong nhịp sống công nghiệp căng thẳng."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Giải Quyết Mối Quan Hệ Giữa Dạy Học Và Phát Triển Trí Tuệ Theo Lý Thuyết Vùng Phát Triển Gần Nhất (ZPD) Của L.X. Vygotsky",
+      "problem": "Bàn về mối quan hệ giữa dạy học và sự phát triển trí tuệ của trẻ em, L.X. Vygotsky khẳng định: 'Chỉ có cách dạy học đi trước sự phát triển mới tạo ra vùng phát triển gần nhất, mới thực sự kéo theo sự phát triển, định hướng và thúc đẩy nó'.\nAnh/chị hãy:\n1. Phân tích và phê phán 2 nhóm quan niệm lệch lạc (quan niệm dạy học độc lập/đi sau sự phát triển của thuyết tiến hóa, di truyền, kiến tạo Piaget; và quan niệm đồng nhất dạy học với phát triển của thuyết hành vi).\n2. Làm rõ nội dung học thuyết của L.X. Vygotsky về hai trình độ phát triển của trẻ em (Trình độ phát triển hiện thời và Vùng phát triển gần nhất - ZPD) cùng nguyên tắc hợp tác trong chẩn đoán tâm lý và dạy học.\n3. Vận dụng lý thuyết ZPD để đề xuất các yêu cầu sư phạm cụ thể nhằm tránh cả hai thái cực: dạy học đi sau sự phát triển hoặc dạy học đi trước quá xa sự phát triển.",
+      "solution_steps": [
+        "Bước 1: Phê phán hai nhóm quan niệm lệch lạc về quan hệ dạy học và phát triển\n- *Nhóm quan niệm 1 (Dạy học độc lập, đi sau hoặc song hành với sự phát triển):* Các nhà tiến hóa luận (Darwin) và di truyền học coi phát triển đã được lập trình sẵn, dạy học chỉ làm bộc lộ cái tiềm tàng. Thuyết kiến tạo của **J. Piaget** coi sự phát triển tuân theo trật tự hằng định nội sinh (đồng hóa - điều ứng - cân bằng), dạy học chỉ đi song hành chứ không thể thay đổi nhịp độ hay 'đốt cháy giai đoạn'. Thực nghiệm dạy học phát triển đã bác bỏ tính thụ động chờ đợi này.\n- *Nhóm quan niệm 2 (Đồng nhất dạy học với sự phát triển):* Đại diện là **Tâm lý học hành vi** ($S \\rightarrow R$), coi dạy học và phát triển chồng khít lên nhau một cách máy móc, giáo điều, phủ nhận quy luật vận động nội tại của đứa trẻ.",
+        "Bước 2: Hai trình độ phát triển và nguyên lý dạy học đi trước sự phát triển của L.X. Vygotsky\n- Trước khi đến trường, trí tuệ trẻ đã có sự phát triển nhất định. Dạy học nếu đi sau sẽ kìm hãm, còn đi trước sẽ kéo sự phát triển đi lên.\n- *Hai trình độ phát triển:* (1) **Trình độ phát triển hiện thời:** Các chức năng tâm lý đã chín muồi, biểu hiện qua việc trẻ **tự lực độc lập giải quyết nhiệm vụ** không cần trợ giúp; (2) **Vùng phát triển gần nhất (ZPD):** Các chức năng tâm lý đang trưởng thành nhưng chưa chín muồi, biểu hiện khi trẻ **hoàn thành nhiệm vụ nhờ sự hợp tác, gợi ý của người lớn/bạn bè** mà tự mình chưa làm được.\n- *Quy luật chuyển hóa và chẩn đoán:* ZPD của hôm nay sẽ trở thành trình độ hiện tại của ngày mai và mở ra ZPD mới. Do đó chẩn đoán tâm lý không được chỉ đo trình độ hiện tại mà phải phát hiện ZPD thông qua **nguyên tắc hợp tác**.",
+        "Bước 3: Các yêu cầu sư phạm hiện thực hóa dạy học trong Vùng phát triển gần nhất\n- *Định vị chuẩn xác độ khó cận kề:* Nội dung dạy học phải đi trước sự phát triển nhưng **tuyệt đối không được đi trước quá xa** (vượt ngoài ZPD sẽ gây quá tải, bất lực), càng không được lặp lại cái đã biết (đi sau gây nhàm chán, kìm hãm); dạy học và phát triển phải **cận kề nhau**.\n- *Tổ chức hoạt động hợp tác thầy - trò:* Quán triệt hoạt động dạy và hoạt động học là **hoạt động hợp tác** giữa giáo viên và học sinh; giáo viên đóng vai trò định hướng, gợi mở từng bước để học sinh chủ động chiếm lĩnh tri thức và chuyển hóa năng lực chung thành năng lực độc lập của cá nhân."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "So Sánh Và Tích Hợp Hai Phương Hướng Nâng Cao Hiệu Quả Dạy Học Phát Triển Trí Tuệ Trong Nhà Trường Hiện Đại",
+      "problem": "Trong bối cảnh bùng nổ gia tốc của tri thức khoa học hiện nay, việc nâng cao hiệu quả dạy học phát triển tư duy, trí tuệ cho học sinh được triển khai theo hai phương hướng lớn: (1) Thông qua dạy tri thức khoa học và (2) Thông qua việc trực tiếp dạy các kỹ năng tư duy.\nDựa vào nội dung mục 4.5.2 của giáo trình, anh/chị hãy:\n1. Phân tích cơ sở lý luận và nội dung cốt lõi của các mô hình thuộc phương hướng phát triển trí tuệ thông qua dạy tri thức khoa học (J. Bruner, P.Ia. Galperin, L.V. Zankov, A.V. Petrovski, R. Fischer).\n2. Trình bày đặc điểm và các chương trình tiêu biểu của phương hướng phát triển trí tuệ thông qua việc trực tiếp dạy các kỹ năng tư duy (R. Sternberg, V.V. Davydov, E. De Bono, O. Kagayaki).\n3. Đề xuất giải pháp kết hợp hài hòa cả hai phương hướng trên trong thiết kế bài giảng thực tiễn.",
+      "solution_steps": [
+        "Bước 1: Phân tích phương hướng phát triển trí tuệ thông qua dạy tri thức khoa học\n- *Cơ sở lý luận:* Trí tuệ có hai mặt không thể tách rời là **nội dung tri thức** và **các thao tác trí óc dẫn đến tri thức đó** (cấu trúc trí tuệ gắn liền cấu trúc nhận thức).\n- *Các mô hình tiêu biểu:*\n  + **J. Bruner:** Cấu trúc nhận thức gồm 3 mức (**Hành động $\\rightarrow$ Biểu tượng $\\rightarrow$ Khái niệm**); thiết kế chương trình học tập theo hình **'xoáy trôn ốc'**, khẳng định có thể dạy khái niệm lý luận trừu tượng cho học sinh các lớp dưới nếu có phương pháp phù hợp.\n  + **P.Ia. Galperin (1952):** Lý thuyết hình thành hành động trí tuệ và khái niệm theo giai đoạn, làm rõ cơ chế và phương pháp định hướng chuyển hành động trí tuệ từ **bên ngoài (xã hội) vào bên trong (cá nhân)**.\n  + **L.V. Zankov (1970):** Bốn nguyên tắc dạy học phát triển dựa trên ZPD (tôn trọng kinh nghiệm trẻ; tăng dần mức độ và nhịp độ khó khăn; **nâng cao tỷ trọng tri thức lý luận khái quát**; giúp học sinh **ý thức tự giác** về toàn bộ quá trình học tập).\n  + **A.V. Petrovski (1982):** Chỉ ra sự tương đồng giữa cấu trúc nhận thức và kiểu tư duy để dạy tư duy qua cấu trúc nhận thức.\n  + **R. Fischer:** Cấu trúc trí tuệ 3 thành phần (siêu thành tố, thành tố thể hiện, thành tố tiếp nhận thông tin) và 3 thao tác tư duy (đầu vào, đầu ra, siêu nhận thức); từ đó đề xuất mô hình rèn kỹ năng khoa học 3 bước: **Hình thành ý tưởng** (thể hiện, thắc mắc, nêu luận đề) $\\rightarrow$ **Thu thập thông tin** (quan sát, giải thích, trao đổi) $\\rightarrow$ **Thử nghiệm lý thuyết** (khảo sát, thí nghiệm, kiểm tra).",
+        "Bước 2: Phân tích phương hướng phát triển trí tuệ thông qua việc trực tiếp dạy các kỹ năng tư duy\n- *Bối cảnh liên ngành:* Phát triển mạnh mẽ với sự tham gia của toán học, điều khiển học, lý thuyết thông tin và tâm lý - giáo dục học nhằm trang bị trực tiếp các công cụ, chiến lược và thủ thuật vận hành trí óc.\n- *Các chương trình tiêu biểu:*\n  + Chương trình **huấn luyện các thủ thuật trí tuệ** của **R. Sternberg (1987)**.\n  + Chương trình dạy học hình thành **năng lực tư duy toán học** cho học sinh của **V.V. Davydov**.\n  + Chương trình dạy **chiến lược tư duy theo chiều ngang (Lateral) và chiều dọc (Vertical)** của **E. De Bono**.\n  + Phương pháp **luyện trí não** của **O. Kagayaki**.",
+        "Bước 3: Giải pháp tích hợp hai phương hướng trong thực tiễn sư phạm\n- Không tách rời việc trang bị hệ thống khái niệm khoa học chuẩn mực (theo chương trình xoáy trôn ốc của Bruner và định hướng hành động của Galperin) với việc huấn luyện tường minh các chiến lược tư duy và siêu nhận thức (theo Fischer, Sternberg, De Bono).\n- Trong mỗi tiết học chuyên môn, giáo viên vừa nâng cao tỷ trọng tri thức lý luận khái quát (Zankov), vừa tổ chức cho học sinh trải nghiệm quy trình nghiên cứu 3 bước của R. Fischer (Nêu luận đề thắc mắc $\\rightarrow$ Quan sát trao đổi $\\rightarrow$ Thí nghiệm kiểm tra) kết hợp tư duy chiều ngang (sáng tạo phương án mới) và chiều dọc (chứng minh lôgic chặt chẽ) của E. De Bono."
+      ]
+    }
+  ]
+}

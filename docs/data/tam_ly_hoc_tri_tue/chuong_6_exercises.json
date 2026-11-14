@@ -1,0 +1,1398 @@
+{
+  "chapter_id": "chuong_6",
+  "chapter_title": "Chương 6: Một số vấn đề về trẻ chậm phát triển trí tuệ",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Theo tác giả Nguyễn Khắc Viện (1991), thuật ngữ 'chậm phát triển trí tuệ' còn được gọi bằng những tên gọi đồng nghĩa nào trong tâm lí học và y học?",
+      "options": {
+        "A": "Hiện tượng này còn được gọi là chậm khôn hay thiểu năng trí tuệ để chỉ sự thấp kém về trí tuệ của cá nhân so với cộng đồng.",
+        "B": "Hiện tượng này còn được gọi là bệnh tâm thần phân liệt bẩm sinh hoặc rối loạn nhân cách chống đối xã hội ở trẻ nhỏ, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Hiện tượng này còn được gọi là hội chứng mất trí nhớ tuổi già hoặc suy thoái thần kinh vận động tiến triển cấp tính.",
+        "D": "Hiện tượng này còn được gọi là rối loạn cảm xúc lưỡng cực học đường hoặc chứng khủng hoảng bản sắc tâm lí tuổi dậy thì."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Nguyễn Khắc Viện (1991), chậm phát triển trí tuệ còn gọi là chậm khôn hay thiểu năng, phản ánh sự thấp kém về trí tuệ của một cá nhân so với các thành viên khác trong xã hội.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Biểu hiện đặc trưng nhất của cá nhân bị chậm phát triển trí tuệ khi tham gia vào đời sống hoạt động thường ngày trong xã hội là gì?",
+      "options": {
+        "A": "Cá nhân hoàn thành xuất sắc mọi công việc trí óc phức tạp nhưng luôn từ chối hợp tác vì muốn khẳng định cái tôi cá nhân.",
+        "B": "Cá nhân không có khả năng hoàn thành các công việc trí óc tương ứng với lứa tuổi và gặp nhiều hạn chế trong thích ứng xã hội.",
+        "C": "Cá nhân có chỉ số thông minh vượt trội so với lứa tuổi nhưng bị suy giảm thị lực và thính lực tạm thời do môi trường sống.",
+        "D": "Cá nhân luôn đạt thành tích học tập cao ở các môn khoa học tự nhiên nhưng không thích tham gia các hoạt động văn nghệ tập thể."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình chỉ rõ biểu hiện của chậm phát triển trí tuệ là cá nhân không có khả năng hoàn thành các công việc trí óc và các hoạt động khác tương ứng với lứa tuổi hoặc gặp nhiều khó khăn, hạn chế trong thích ứng xã hội.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Xét về phương diện bệnh lí, sự khác biệt bản chất giữa 'chậm phát triển trí tuệ' (thiểu năng) và 'bệnh mất trí' (tổn thương/sa sút trí tuệ) là gì?",
+      "options": {
+        "A": "Chậm phát triển trí tuệ là một quá trình bệnh lí cấp tính ngày càng nặng thêm, còn mất trí là trạng thái tâm lí ổn định suốt đời, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Chậm phát triển trí tuệ chỉ xuất hiện ở người cao tuổi sau tai biến, còn bệnh mất trí chỉ xuất hiện bẩm sinh ngay từ trong bào thai.",
+        "C": "Chậm phát triển trí tuệ là một trạng thái bệnh lí tĩnh tại không tăng nặng, còn mất trí là một quá trình bệnh lí có chiều hướng tăng dần.",
+        "D": "Chậm phát triển trí tuệ có thể chữa khỏi hoàn toàn bằng thuốc kháng sinh trong vài ngày, còn mất trí tự khỏi mà không cần điều trị."
+      },
+      "correct_answer": "C",
+      "explanation": "Về phương diện bệnh lí, chậm phát triển trí tuệ không phải là một quá trình bệnh lí mà là một trạng thái bệnh lí (hậu quả của bệnh trong quá khứ) không gia tăng mức độ, còn mất trí là quá trình bệnh lí tăng dần nếu không điều trị kịp thời.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "Tại sao giáo trình khẳng định chậm phát triển trí tuệ là một 'trạng thái bệnh lí' chứ không phải là một 'quá trình bệnh lí' theo đúng nghĩa của nó?",
+      "options": {
+        "A": "Vì các vi rút gây tổn thương tế bào thần kinh vẫn đang nhân lên liên tục từng giờ làm phá hủy dần các vùng vỏ não của đứa trẻ.",
+        "B": "Vì đứa trẻ hoàn toàn khỏe mạnh về mặt sinh học và chỉ giả vờ không hiểu bài nhằm thu hút sự chú ý của cha mẹ và giáo viên.",
+        "C": "Vì trạng thái này chỉ kéo dài trong khoảng hai tuần lễ đầu sau khi sinh rồi tự động biến mất mà không để lại bất kì dấu vết nào.",
+        "D": "Vì đó là kết quả di chứng của một quá trình bệnh nào đó đã kết thúc trong quá khứ khiến sự phát triển nhân cách và trí tuệ bị trì trệ."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình giải thích: Chậm phát triển trí tuệ là một trạng thái bệnh lí, là kết quả của quá trình bệnh nào đó trong quá khứ dẫn đến làm cho sự phát triển nhân cách nói chung, trí tuệ nói riêng bị trì trệ và không đầy đủ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "question": "Trong đa số các trường hợp trẻ bị chậm phát triển trí tuệ (ngoại trừ một số ít ở mức rất nặng), xu hướng biến đổi trí tuệ của các em theo thời gian diễn ra như thế nào?",
+      "options": {
+        "A": "Mức độ bệnh lí không tăng thêm mà ngược lại trí tuệ của những trẻ bị chậm vẫn tiếp tục phát triển được trong một chừng mực nhất định.",
+        "B": "Trí tuệ của trẻ sẽ suy thoái nhanh chóng từng tháng cho đến khi mất hoàn toàn mọi phản xạ không điều kiện và khả năng vận động, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Chỉ số trí tuệ của trẻ sẽ tăng vọt đột biến sau tuổi dậy thì và vượt qua tất cả những trẻ phát triển bình thường cùng trang lứa.",
+        "D": "Trí tuệ của trẻ giữ nguyên ở mức số không tuyệt đối từ lúc mới chào đời cho đến khi trưởng thành mà không có bất cứ thay đổi nào."
+      },
+      "correct_answer": "A",
+      "explanation": "Đặc điểm của chậm phát triển trí tuệ hay thiểu năng là không có sự gia tăng mức độ bệnh lí; ngược lại, trong đa số trường hợp (ngoại trừ một số mức rất nặng), trí tuệ của trẻ vẫn phát triển trong chừng mực nhất định.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Khi xem xét chậm phát triển trí tuệ dưới góc độ tâm lí - xã hội, vì sao khái niệm này được khẳng định là mang tính lịch sử - xã hội?",
+      "options": {
+        "A": "Vì hiện tượng chậm phát triển trí tuệ chỉ mới xuất hiện từ cuối thế kỉ hai mươi khi các đô thị công nghiệp hiện đại được hình thành, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Vì điểm trắc nghiệm là khái niệm thống kê xác suất và mức độ thích ứng của mỗi trẻ tùy thuộc vào đặc trưng văn hóa của cộng đồng và thời đại.",
+        "C": "Vì chỉ những quốc gia đang phát triển mới có trẻ chậm trí tuệ, còn các nước công nghiệp phát triển đã xóa bỏ hoàn toàn hiện tượng này.",
+        "D": "Vì tiêu chuẩn đánh giá trí tuệ chỉ dựa hoàn toàn vào việc đứa trẻ có thuộc lòng các sự kiện lịch sử cổ đại của dân tộc mình hay không."
+      },
+      "correct_answer": "B",
+      "explanation": "Dưới góc độ tâm lí - xã hội, điểm trắc nghiệm là khái niệm thống kê - xác suất và mức độ thích ứng của mỗi đứa trẻ tùy thuộc vào đặc trưng văn hóa của cộng đồng và thời đại mà nó tham gia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "question": "Hệ quả thực tiễn nào được rút ra từ bản chất lịch sử - văn hóa - xã hội của khái niệm chậm phát triển trí tuệ khi đánh giá cùng một đứa trẻ ở hai cộng đồng khác nhau?",
+      "options": {
+        "A": "Một đứa trẻ đã bị kết luận chậm trí tuệ ở một cộng đồng thì chắc chắn sẽ bị tổn thương giải phẫu não nặng thêm khi chuyển sang cộng đồng khác.",
+        "B": "Mọi nền văn hóa và mọi thời đại lịch sử đều áp dụng duy nhất một bộ câu hỏi trắc nghiệm giống hệt nhau với kết quả không bao giờ thay đổi.",
+        "C": "Một trẻ bị điểm trí tuệ thấp và không thích ứng được ở cộng đồng này nhưng có thể đạt điểm cao hơn và hòa nhập được ở văn hóa cộng đồng khác.",
+        "D": "Khả năng thích ứng của trẻ chỉ phụ thuộc vào nhóm máu di truyền chứ hoàn toàn không liên quan đến môi trường văn hóa nơi trẻ sinh sống."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình nêu rõ: Một đứa trẻ bị điểm trí tuệ thấp và bị coi là không thích ứng được trong văn hóa của cộng đồng này nhưng có thể đạt điểm cao hơn và hòa nhập được với văn hóa của cộng đồng khác.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 8,
+      "question": "Theo quan niệm phổ biến và xuất hiện sớm nhất trong tâm lí học đo lường, ngưỡng điểm chỉ số trí tuệ (IQ) nào được dùng để xác định một người là chậm phát triển trí tuệ?",
+      "options": {
+        "A": "Những người có kết quả đo lường bằng các trắc nghiệm trí tuệ đạt chỉ số IQ từ 110 đến 125 điểm được coi là người chậm phát triển trí tuệ.",
+        "B": "Những người có kết quả đo lường bằng các trắc nghiệm trí tuệ đạt chỉ số IQ từ 90 đến 105 điểm được coi là người chậm phát triển trí tuệ.",
+        "C": "Những người có kết quả đo lường bằng các trắc nghiệm trí tuệ đạt chỉ số IQ trên 130 điểm trở lên được coi là người chậm phát triển trí tuệ.",
+        "D": "Những người có kết quả đo lường bằng các trắc nghiệm trí tuệ đạt chỉ số IQ dưới 70 điểm thì được coi là người chậm phát triển trí tuệ."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 6.1.1.1, quan niệm phổ biến và có sớm nhất về chậm trí tuệ dựa trên kết quả đo lường bằng trắc nghiệm xác định những người có chỉ số trí tuệ dưới 70 điểm là chậm trí tuệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Ưu điểm nổi bật của phương pháp xác định mức chậm phát triển trí tuệ dựa trên chỉ số IQ qua các trắc nghiệm tâm lí là gì?",
+      "options": {
+        "A": "Phương pháp này đảm bảo tính khách quan, đơn giản, dễ thực hiện, đặc biệt hữu ích trong trường hợp cần đánh giá và phân loại nhanh.",
+        "B": "Phương pháp này cho phép chụp cắt lớp chi tiết toàn bộ cấu trúc giải phẫu của từng tế bào thần kinh trong vỏ não bộ của đứa trẻ.",
+        "C": "Phương pháp này hoàn toàn không chịu bất kì ảnh hưởng nào của yếu tố ngôn ngữ, văn hóa hay điều kiện kinh tế gia đình của người làm bài.",
+        "D": "Phương pháp này tự động chữa khỏi mọi khiếm khuyết về hành vi thích ứng và ngôn ngữ ngay sau khi đứa trẻ hoàn thành bài kiểm tra."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình khẳng định ưu điểm của việc dùng trắc nghiệm xác định mức chậm trí tuệ là khách quan, đơn giản, dễ thực hiện, đặc biệt trong trường hợp cần đánh giá, phân loại nhanh.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Hạn chế của phương pháp xác định chậm phát triển trí tuệ chỉ dựa vào điểm số trắc nghiệm IQ bộc lộ rõ nhất trên nhóm đối tượng trẻ em nào?",
+      "options": {
+        "A": "Bộc lộ rõ nhất ở nhóm trẻ em con nhà giàu có được học tập tại các trường quốc tế chất lượng cao ở trung tâm các thành phố lớn.",
+        "B": "Bộc lộ rõ nhất ở trẻ em có nguồn gốc văn hóa khác nhau và sống trong hoàn cảnh kinh tế xã hội khó khăn dù vẫn thích ứng tốt ở cộng đồng.",
+        "C": "Bộc lộ rõ nhất ở nhóm trẻ em mắc các hội chứng rối loạn nhiễm sắc thể bẩm sinh nặng như hội chứng Down hoặc hội chứng mất đoạn nhiễm sắc thể.",
+        "D": "Bộc lộ rõ nhất ở những người trưởng thành đã tốt nghiệp đại học và đang làm việc trong các viện nghiên cứu khoa học công nghệ cao."
+      },
+      "correct_answer": "B",
+      "explanation": "Hạn chế của trắc nghiệm bộc lộ rõ nhất đối với trẻ em có các nguồn gốc văn hóa khác nhau và trong những hoàn cảnh khó khăn về kinh tế, xã hội: nhiều trẻ bị coi là chậm nhẹ theo điểm test nhưng vẫn thích ứng tốt trong đời sống cộng đồng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 11,
+      "question": "Trong việc xác định chậm phát triển trí tuệ dựa trên khả năng thích ứng của cá nhân (mục 6.1.1.2), nguyên nhân chủ yếu nào gây khó khăn cho việc chẩn đoán chính xác?",
+      "options": {
+        "A": "Tất cả trẻ em trên thế giới đều có khả năng thích ứng xã hội giống hệt nhau ở mọi lứa tuổi nên không thể phân biệt được trẻ nào chậm hơn, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Khả năng thích ứng của con người hoàn toàn được quyết định bởi chiều cao và cân nặng cơ thể chứ không liên quan gì đến hoạt động tâm lí.",
+        "C": "Nhiều trẻ khó thích ứng trong cuộc sống cộng đồng không phải do nguyên nhân trí tuệ mà do các yếu tố phi trí tuệ như giáo dục gia đình hay hụt hẫng tình cảm.",
+        "D": "Việc quan sát hành vi thích ứng trong đời sống hàng ngày luôn cho kết quả định lượng chính xác tuyệt đối đến từng phần trăm điểm số."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình chỉ rõ hai khó khăn khi dựa vào khả năng thích ứng: (1) khó xác định thế nào là thích ứng vì trẻ có thể thụ động ở môi trường này nhưng chủ động ở môi trường khác; (2) chủ yếu là nhiều trẻ khó thích ứng do các yếu tố phi trí tuệ như giáo dục gia đình, sự hụt hẫng tình cảm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "Nhà tâm lí học Nga A.R. Luria (1966) đã đề xuất xác định trẻ chậm phát triển trí tuệ dựa trên tiêu chí cốt lõi nào?",
+      "options": {
+        "A": "Dựa hoàn toàn vào tổng thu nhập bình quân hàng tháng của gia đình và trình độ học vấn của cha mẹ đứa trẻ trong xã hội đương thời.",
+        "B": "Dựa trên tốc độ chạy bộ và sức bền cơ bắp của đứa trẻ khi tham gia các trò chơi vận động thể chất ngoài trời ở trường mẫu giáo.",
+        "C": "Dựa trên số lượng từ vựng ngoại ngữ mà đứa trẻ có thể ghi nhớ máy móc trong vòng một giờ đồng hồ làm thực nghiệm tại phòng lab.",
+        "D": "Dựa trên cơ sở nguyên nhân tổn thương não do trẻ mắc phải chứng bệnh về não rất nặng từ khi còn trong bào thai hoặc những tháng đầu đời."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo A.R. Luria (1966), trẻ chậm phát triển trí tuệ là những trẻ mắc phải chứng bệnh về não rất nặng từ khi còn trong bào thai hoặc trong những tháng đầu đời; tổn thương não là nguyên nhân quan trọng dẫn đến chậm phát triển trí tuệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "Việc xác định chậm phát triển trí tuệ dựa theo nguyên nhân bệnh sinh có giá trị thực tiễn cao cho chăm sóc và giáo dục, nhưng gặp phải trở ngại lớn nào?",
+      "options": {
+        "A": "Gặp khó khăn do sự đa dạng phức tạp của các nguyên nhân gây bệnh và nhiều nguyên nhân đặc biệt là nguyên nhân phi thực thể rất khó xác định.",
+        "B": "Gặp khó khăn vì mọi trường hợp chậm phát triển trí tuệ đều chỉ do một nguyên nhân duy nhất gây ra nên không cần phân loại thêm nữa, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Gặp khó khăn vì các bác sĩ và nhà tâm lí học không được phép tìm hiểu tiền sử bệnh lí của người mẹ trong suốt quá trình mang thai.",
+        "D": "Gặp khó khăn vì khi đã biết rõ nguyên nhân gây bệnh thì đứa trẻ sẽ ngay lập tức mất hết khả năng tham gia vào các lớp học đặc biệt."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 6.1.1.3, khó khăn thường gặp khi phân loại theo nguyên nhân là sự đa dạng của các nguyên nhân; hơn nữa trong thực tiễn nhiều nguyên nhân rất khó xác định, đặc biệt là những nguyên nhân phi thực thể.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "Cách phân loại của Hiệp hội Chậm phát triển trí tuệ Mỹ (AAMR) và Cẩm nang Chẩn đoán Thống kê Tâm thần (DSM) tập trung vào ba dấu hiệu chính nào?",
+      "options": {
+        "A": "Tập trung vào ba dấu hiệu gồm cân nặng lúc mới sinh, chiều cao khi dậy thì và dung tích phổi của đứa trẻ trong các kì kiểm tra y tế, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Tập trung vào ba dấu hiệu cốt lõi gồm chỉ số trí tuệ của cá nhân, khả năng thích ứng của trẻ em và giới hạn độ tuổi sinh học khởi phát.",
+        "C": "Tập trung vào ba dấu hiệu gồm năng khiếu âm nhạc, khả năng hội họa tạo hình và tốc độ giải các bài toán hình học không gian phức tạp.",
+        "D": "Tập trung vào ba dấu hiệu gồm tính cách hướng nội hay hướng ngoại, kiểu khí chất bẩm sinh và sở thích giải trí cá nhân của đứa trẻ."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 6.1.1.4, cách phân loại của AAMR và DSM cơ bản tập trung vào 3 dấu hiệu chính: 1) chỉ số trí tuệ; 2) khả năng thích ứng của trẻ em; 3) giới hạn tuổi sinh học.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Theo tiêu chuẩn chẩn đoán của Luckasson (1992) thuộc hệ thống phân loại AAMR, một đứa trẻ được coi là chậm phát triển trí tuệ khi hội đủ những điều kiện nào?",
+      "options": {
+        "A": "Có chỉ số IQ dưới 100 điểm, thiếu hụt một kỹ năng thể thao bất kì và các triệu chứng suy giảm trí nhớ bắt đầu khởi phát sau tuổi 25.",
+        "B": "Có chỉ số IQ dưới 50 điểm, bị liệt vận động toàn thân bẩm sinh và hiện tượng suy thoái trí tuệ xuất hiện sau khi nghỉ hưu ở tuổi 60.",
+        "C": "Có chỉ số IQ từ 70-75 trở xuống, khiếm khuyết ít nhất hai lĩnh vực hành vi thích ứng và hiện tượng chậm trí tuệ xuất hiện trước 18 tuổi.",
+        "D": "Có chỉ số IQ từ 85-95 điểm, gặp khó khăn trong môn toán học ở bậc trung học phổ thông và triệu chứng xuất hiện trong giai đoạn 18-22 tuổi."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Luckasson (1992), 3 tiêu chuẩn gồm: (1) IQ đạt từ 70 đến 75 hoặc thấp hơn; (2) thiếu hụt ít nhất 2 trong các lĩnh vực hành vi thích ứng; (3) hiện tượng chậm phát triển trí tuệ xuất hiện trước 18 tuổi.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "Trong tiêu chuẩn thứ hai của Luckasson (1992), cá nhân phải bị thiếu hụt hoặc khiếm khuyết ít nhất bao nhiêu lĩnh vực trong danh mục các hành vi thích ứng?",
+      "options": {
+        "A": "Cá nhân chỉ cần thiếu hụt duy nhất một kỹ năng nhỏ trong lĩnh vực giải trí nghệ thuật là đã đủ điều kiện kết luận chậm phát triển trí tuệ.",
+        "B": "Cá nhân bắt buộc phải mất hoàn toàn tất cả mười lĩnh vực hành vi thích ứng thì mới được đưa vào diện chẩn đoán chậm phát triển trí tuệ.",
+        "C": "Cá nhân không cần có bất kì sự thiếu hụt nào về hành vi thích ứng xã hội nếu điểm bài kiểm tra toán học thấp hơn mức điểm trung bình.",
+        "D": "Cá nhân phải bị thiếu hụt hoặc khiếm khuyết ít nhất là hai lĩnh vực trong số các lĩnh vực hành vi thích ứng cơ bản của đời sống."
+      },
+      "correct_answer": "D",
+      "explanation": "Tiêu chuẩn 2 của Luckasson (1992) quy định rõ: Bị thiếu hụt hoặc khiếm khuyết ít nhất là hai trong số các lĩnh vực hành vi thích ứng (giao tiếp, tự phục vụ, cuộc sống gia đình, kỹ năng xã hội, tiện ích cộng đồng, tự định hướng, sức khỏe và bảo vệ, học đường, giải trí, lao động).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "Theo cách phân loại của Nguyễn Khắc Viện (1991) với ngưỡng chỉ số khôn dưới 80, các mức độ chậm khôn được chia thành những khoảng điểm cụ thể nào?",
+      "options": {
+        "A": "Từ 70-80 là chậm khôn nhẹ, từ 50-70 là chậm khôn vừa, từ 30-50 là chậm khôn nặng và dưới 30 là mức độ chậm khôn rất nặng.",
+        "B": "Từ 80-90 là chậm khôn nhẹ, từ 60-80 là chậm khôn vừa, từ 40-60 là chậm khôn nặng và dưới 40 là mức độ chậm khôn rất nặng, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Từ 55-69 là chậm khôn nhẹ, từ 40-54 là chậm khôn vừa, từ 25-39 là chậm khôn nặng và dưới 25 là mức độ chậm khôn rất nặng.",
+        "D": "Từ 60-75 là chậm khôn nhẹ, từ 45-60 là chậm khôn vừa, từ 20-45 là chậm khôn nặng và dưới 20 là mức độ chậm khôn rất nặng."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Nguyễn Khắc Viện (1991): Chỉ số khôn 70-80 là chậm khôn nhẹ; từ 50-70 là chậm khôn vừa; từ 30-50 là chậm khôn nặng; và dưới 30 là rất nặng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Theo Bảng các mức độ chậm trí tuệ tính theo chỉ số IQ chuẩn quốc tế, mức 'Chậm nhẹ' có khoảng điểm IQ theo test Stanford-Binet và thang Wechsler lần lượt là bao nhiêu?",
+      "options": {
+        "A": "Mức chậm nhẹ có chỉ số IQ từ 36 đến 51 theo trắc nghiệm Stanford-Binet và từ 40 đến 54 theo thang đo trí tuệ của Wechsler, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Mức chậm nhẹ có chỉ số IQ từ 52 đến 69 theo trắc nghiệm Stanford-Binet và từ 55 đến 69 theo thang đo trí tuệ của Wechsler.",
+        "C": "Mức chậm nhẹ có chỉ số IQ từ 20 đến 35 theo trắc nghiệm Stanford-Binet và từ 25 đến 39 theo thang đo trí tuệ của Wechsler.",
+        "D": "Mức chậm nhẹ có chỉ số IQ từ 70 đến 84 theo trắc nghiệm Stanford-Binet và từ 75 đến 89 theo thang đo trí tuệ của Wechsler."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo bảng phân loại ở mục 6.1.3, mức Chậm nhẹ có IQ theo test Stanford-Binet là 52 - 69 và theo thang Wechsler là 55 - 69.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "Trong tổng số trẻ em bị chậm phát triển trí tuệ, nhóm trẻ ở mức độ 'Chậm nhẹ' chiếm tỷ lệ phần trăm là bao nhiêu và chiếm bao nhiêu phần trăm trong tổng dân số?",
+      "options": {
+        "A": "Nhóm trẻ chậm phát triển trí tuệ mức nhẹ chỉ chiếm 6,0% trong tổng số trẻ chậm trí tuệ và chiếm khoảng 0,13% trong tổng dân số, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Nhóm trẻ chậm phát triển trí tuệ mức nhẹ chỉ chiếm 3,0% trong tổng số trẻ chậm trí tuệ và chiếm khoảng 0,06% trong tổng dân số.",
+        "C": "Nhóm trẻ chậm phát triển trí tuệ mức nhẹ chiếm tới 90,0% trong tổng số trẻ chậm trí tuệ và chiếm khoảng 2,00% trong tổng dân số.",
+        "D": "Nhóm trẻ chậm phát triển trí tuệ mức nhẹ chỉ chiếm 1,0% trong tổng số trẻ chậm trí tuệ và chiếm khoảng 0,02% trong tổng dân số."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo bảng thống kê ở mục 6.1.3, mức Chậm nhẹ chiếm 90,0% trong số trẻ chậm trí tuệ và chiếm tỷ lệ 2,00% trong dân số.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Theo Bảng phân loại các mức độ chậm trí tuệ chuẩn, nhóm trẻ 'Chậm vừa' có chỉ số IQ theo Stanford-Binet, theo Wechsler và tỷ lệ phần trăm trong số trẻ chậm trí tuệ là bao nhiêu?",
+      "options": {
+        "A": "Nhóm chậm vừa có IQ từ 52-69 (Stanford-Binet), từ 55-69 (Wechsler) và chiếm 90,0% tổng số trẻ chậm trí tuệ (2,00% dân số).",
+        "B": "Nhóm chậm vừa có IQ từ 20-35 (Stanford-Binet), từ 25-39 (Wechsler) và chiếm 3,0% tổng số trẻ chậm trí tuệ (0,06% dân số).",
+        "C": "Nhóm chậm vừa có IQ dưới 20 (Stanford-Binet), dưới 25 (Wechsler) và chiếm 1,0% tổng số trẻ chậm trí tuệ (0,02% dân số).",
+        "D": "Nhóm chậm vừa có IQ từ 36-51 (Stanford-Binet), từ 40-54 (Wechsler) và chiếm 6,0% tổng số trẻ chậm trí tuệ (0,13% dân số)."
+      },
+      "correct_answer": "D",
+      "explanation": "Bảng các mức độ chậm trí tuệ ghi rõ: Chậm vừa có IQ 36-51 (Stanford-Binet), 40-54 (Wechsler), chiếm 6,0% trong số trẻ chậm trí tuệ và 0,13% trong dân số.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Nhóm trẻ 'Chậm nặng' và 'Chậm rất nặng' có khoảng điểm IQ (Stanford-Binet / Wechsler) và tỷ lệ phần trăm trong tổng số trẻ chậm trí tuệ lần lượt như thế nào?",
+      "options": {
+        "A": "Chậm nặng có IQ 20-35 / 25-39 chiếm 3,0%; còn chậm rất nặng có IQ dưới 20 / dưới 25 và chiếm 1,0% tổng số trẻ chậm trí tuệ.",
+        "B": "Chậm nặng có IQ 36-51 / 40-54 chiếm 25,0%; còn chậm rất nặng có IQ 20-35 / 25-39 và chiếm 15,0% tổng số trẻ chậm trí tuệ, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Chậm nặng có IQ 52-69 / 55-69 chiếm 50,0%; còn chậm rất nặng có IQ 36-51 / 40-54 và chiếm 10,0% tổng số trẻ chậm trí tuệ.",
+        "D": "Chậm nặng có IQ 10-15 / 15-20 chiếm 0,5%; còn chậm rất nặng có IQ bằng 0 tuyệt đối và chiếm 0,01% tổng số trẻ chậm trí tuệ."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo bảng ở mục 6.1.3: Chậm nặng có IQ 20-35 (Stanford-Binet), 25-39 (Wechsler), chiếm 3,0% số trẻ chậm (0,06% dân số); Chậm rất nặng có IQ < 20 (Stanford-Binet), < 25 (Wechsler), chiếm 1,0% số trẻ chậm (0,02% dân số).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 22,
+      "question": "Đối chiếu với lí thuyết các giai đoạn phát triển trí tuệ của J. Piaget, trẻ chậm phát triển trí tuệ ở mức độ 'Rất nặng' (IQ < 20/25) có trình độ trí tuệ tương đương với giai đoạn nào?",
+      "options": {
+        "A": "Trẻ ở mức độ chậm rất nặng có trình độ trí tuệ tương đương với giai đoạn tư duy tiền thao tác của trẻ mẫu giáo từ bốn đến bảy tuổi, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Trẻ ở mức độ chậm rất nặng có trình độ trí tuệ chỉ tương đương với trẻ em trong giai đoạn trí tuệ giác - động và phụ thuộc nhiều vào người khác.",
+        "C": "Trẻ ở mức độ chậm rất nặng có trình độ trí tuệ tương đương với giai đoạn thao tác cụ thể của học sinh tiểu học từ bảy đến mười một tuổi.",
+        "D": "Trẻ ở mức độ chậm rất nặng có trình độ trí tuệ tương đương với giai đoạn thao tác hình thức nhưng bị suy giảm khả năng phát âm ngôn ngữ."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nêu rõ: Mức chậm phát triển trí tuệ rất nặng (dưới 20 theo Stanford-Binet, dưới 25 theo Wechsler) có trình độ trí tuệ tương đương với trẻ em trong giai đoạn giác - động theo lí thuyết của J. Piaget.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "Theo sự phân tích dựa trên lí thuyết của J. Piaget, đặc điểm nhận thức và giao tiếp của trẻ chậm phát triển trí tuệ mức 'Nặng' (IQ từ 20-25 đến 35-39) là gì?",
+      "options": {
+        "A": "Trẻ đạt mức tư duy thao tác cụ thể, biết vận dụng phép suy luận bắc cầu lôgic và hoàn toàn thoát khỏi trạng thái tự kỷ trung tâm, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Trẻ đạt mức tư duy tiền thao tác (4-7 tuổi), có thể học hết chương trình lớp sáu phổ thông và tự lập hoàn toàn về kinh tế khi trưởng thành.",
+        "C": "Trẻ đạt mức trí tuệ tượng trưng (2-4 tuổi), có kiểu tư duy xếp kề, kỹ năng dựa vào trình tự huấn luyện máy móc và vẫn ở trình độ tự kỷ trung tâm.",
+        "D": "Trẻ có khả năng tư duy trừu tượng bằng hệ thống khái niệm khoa học nhưng không thể thực hiện được các cử động cầm nắm đồ vật đơn giản."
+      },
+      "correct_answer": "C",
+      "explanation": "Trẻ chậm nặng (IQ 20-25 đến 35-39) đạt mức trí tuệ tượng trưng 2-4 tuổi của Piaget, có tư duy xếp kề ('cái này đi với cái kia'), kỹ năng dựa vào trình tự hành vi huấn luyện tự động, lúng túng khi gặp tình huống mới và vẫn ở trình độ tự kỷ trung tâm (tách mình khỏi người khác nhưng chưa đặt mình vào người khác).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Tại sao trẻ chậm phát triển trí tuệ mức 'Nặng' lại dễ rơi vào trạng thái lúng túng, thậm chí hoảng hốt và bất lực khi một mắt xích trong hành động quen thuộc bị phá vỡ?",
+      "options": {
+        "A": "Vì trẻ có khả năng phân tích quá nhiều phương án giải quyết cùng một lúc dẫn đến sự xung đột động cơ tâm lí trong quá trình ra quyết định.",
+        "B": "Vì trẻ muốn phản kháng lại các yêu cầu khắt khe của người lớn để đòi hỏi quyền tự do lựa chọn phương pháp hành động theo ý thích riêng.",
+        "C": "Vì hệ thống thị giác của trẻ bị mù màu bẩm sinh nên không thể nhận diện được các đồ vật khi chúng được đặt ở vị trí ánh sáng khác nhau.",
+        "D": "Vì những kỹ năng của trẻ không dựa trên sự hiểu biết bản chất sự vật mà chủ yếu dựa vào trình tự hành vi được huấn luyện kỹ lưỡng thành tự động."
+      },
+      "correct_answer": "D",
+      "explanation": "Ở trẻ chậm nặng, những kỹ năng không dựa trên hiểu biết sự vật mà chủ yếu dựa vào trình tự hành vi đã được huấn luyện kỹ lưỡng, trở thành tự động. Do đó khi gặp trở ngại hoặc một mắt xích bị phá vỡ, trẻ sẽ lúng túng, hoảng hốt, không có khả năng đối phó với tình huống mới.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "question": "Trẻ chậm phát triển trí tuệ mức 'Vừa' (IQ từ 36-40 đến 51-54) đạt trình độ phát triển nhận thức tương ứng với giai đoạn nào của J. Piaget và tiến hành hành động nhận thức theo cơ chế nào?",
+      "options": {
+        "A": "Trẻ ở trong giai đoạn tư duy tiền thao tác (4-7 tuổi), xây dựng khái niệm dựa trên trải nghiệm bản thân và nhận thức theo cơ chế 'thử và sai'.",
+        "B": "Trẻ ở trong giai đoạn trí tuệ giác - động (0-2 tuổi), hoàn toàn không có khả năng giao tiếp ngôn ngữ và không thể tự đi lại trong nhà, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Trẻ ở trong giai đoạn tư duy thao tác hình thức (trên 12 tuổi), giải quyết mọi bài toán bằng các giả thuyết suy diễn lôgic trừu tượng.",
+        "D": "Trẻ ở trong giai đoạn tư duy thao tác cụ thể (7-11 tuổi), nắm vững các quy luật bảo tồn khối lượng và thể tích ngay từ khi lên năm tuổi."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo giáo trình, trẻ chậm vừa (IQ 36-40 đến 51-54) ở trong giai đoạn tư duy tiền thao tác (4-7 tuổi) của Piaget, xây dựng khái niệm dựa trên trải nghiệm bản thân và hành động nhận thức thường tiến hành theo cơ chế 'thử và sai'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "question": "Khả năng học tập văn hóa, đi lại và lao động của trẻ chậm phát triển trí tuệ mức 'Vừa' khi lớn lên đạt đến giới hạn nào?",
+      "options": {
+        "A": "Trẻ hoàn thành tốt chương trình trung học phổ thông, tự mình điều khiển các phương tiện giao thông đường dài và làm quản lí doanh nghiệp, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Trẻ học được những lớp đầu tiểu học, đi lại độc lập ở địa bàn quen thuộc và làm được công việc không đòi hỏi kỹ năng phức tạp dưới sự giám sát.",
+        "C": "Trẻ hoàn toàn không thể học được bất kì chữ cái hay con số nào và phải nằm bất động trên giường bệnh cần hộ lí phục vụ suốt cuộc đời.",
+        "D": "Trẻ đạt trình độ văn hóa lớp mười hai, có thể tự nghiên cứu tài liệu khoa học chuyên ngành và sống độc lập không cần ai giám sát."
+      },
+      "correct_answer": "B",
+      "explanation": "Trẻ chậm vừa có thể học được trình độ những lớp đầu tiểu học, học để đi lại độc lập trong địa bàn quen thuộc, khi lớn lên thực hiện được công việc không đòi hỏi kỹ năng phức tạp và có sự giám sát thường xuyên.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 27,
+      "question": "Đặc điểm tư duy và trình độ học vấn tối đa mà trẻ chậm phát triển trí tuệ mức 'Nhẹ' (IQ từ 52-55 đến 69) có thể đạt được vào cuối tuổi thanh thiếu niên là gì?",
+      "options": {
+        "A": "Trẻ đạt trình độ tư duy thao tác hình thức của Piaget, làm chủ hệ thống khái niệm khoa học trừu tượng và tốt nghiệp bậc đại học chính quy, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Trẻ chỉ dừng lại ở trình độ trí tuệ tượng trưng 2-4 tuổi của Piaget, không biết đọc biết viết và chỉ nói được vài từ đơn lẻ rời rạc.",
+        "C": "Trẻ đạt trình độ trí tuệ thao tác cụ thể của Piaget, không có khả năng tư duy trừu tượng bằng khái niệm và có thể đạt trình độ văn hóa lớp 6/12.",
+        "D": "Trẻ đạt trình độ tư duy tiền thao tác của Piaget, chỉ có thể học hết lớp một tiểu học và hoàn toàn không có khả năng chọn bạn hay lao động."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 6.1.3, trẻ chậm nhẹ (IQ 52-55 đến 69) đạt trình độ trí tuệ thao tác cụ thể của Piaget, giải quyết vấn đề bằng tư duy lôgic với vật liệu cụ thể nhưng không có khả năng tư duy trừu tượng bằng khái niệm; cuối tuổi thanh thiếu niên có thể đạt trình độ văn hóa lớp 6/12.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Ở tuổi trưởng thành, người chậm phát triển trí tuệ mức độ 'Nhẹ' có khả năng thích ứng với đời sống xã hội và lao động nghề nghiệp như thế nào?",
+      "options": {
+        "A": "Họ hoàn toàn mất khả năng tự chăm sóc vệ sinh cá nhân tối thiểu và phải sống cách li suốt đời trong các viện điều dưỡng tâm thần khép kín.",
+        "B": "Họ có khả năng tự lập tuyệt đối trong mọi hoàn cảnh khủng hoảng kinh tế - xã hội mà không bao giờ cần đến sự tư vấn hay trợ giúp của ai.",
+        "C": "Họ chỉ có thể thực hiện được một vài cử động tay chân đơn giản theo phản xạ tự động và không thể tham gia bất kì hoạt động giải trí nào.",
+        "D": "Họ có các kỹ năng lao động nghề nghiệp và sống khá độc lập trong cộng đồng nhưng vẫn cần hướng dẫn, giúp đỡ khi bị sức ép kinh tế hoặc tình cảm."
+      },
+      "correct_answer": "D",
+      "explanation": "Khi trưởng thành, người chậm nhẹ có các kỹ năng lao động nghề nghiệp và hoạt động xã hội, có thể sống độc lập và khá thành công trong cộng đồng nếu được trợ giúp thích hợp, nhưng vẫn cần giám sát, hướng dẫn khi bị sức ép về kinh tế hoặc tình cảm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 29,
+      "question": "Theo Bảng phân loại của Kisler (dẫn theo Trần Trọng Thủy, 1992), trẻ chậm phát triển trí tuệ mức 'Trung bình' (IQ 36-52) ở độ tuổi đi học (6-20 tuổi) có thể đạt tới mức kỹ năng học đường nào?",
+      "options": {
+        "A": "Trẻ có thể tập được các kỹ năng thông dụng ở trình độ lớp 3 tiểu học khi các em bước vào độ tuổi từ 15 hay 16 tuổi.",
+        "B": "Trẻ có thể hoàn thành toàn bộ chương trình các môn học tổng quát ở bậc trung học cơ sở ngay khi các em vừa tròn 12 tuổi.",
+        "C": "Trẻ hoàn toàn không tập được bất kì kỹ năng thông dụng nào ở nhà trường mà chỉ có thể tập được vài thói quen vệ sinh sơ đẳng.",
+        "D": "Trẻ không thể làm lấy được các công việc tự phục vụ bản thân và cần được người lớn chăm sóc hoàn toàn trong suốt độ tuổi đi học."
+      },
+      "correct_answer": "A",
+      "explanation": "Trong Bảng phân loại của Kisler (dẫn theo Trần Trọng Thủy, 1992), ở mức Trung bình (IQ 36-52) trong độ tuổi đi học (6-20 tuổi), trẻ có thể tập được các kỹ năng thông dụng ở trình độ lớp 3 khi 15 hay 16 tuổi.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "Tại sao sau khi phân loại mức độ chậm phát triển trí tuệ bằng điểm trắc nghiệm (lượng hóa), nhà sư phạm vẫn bắt buộc phải tiến hành phân tích định tính bằng phương pháp lâm sàng?",
+      "options": {
+        "A": "Để hủy bỏ hoàn toàn kết quả của mọi bài trắc nghiệm trí tuệ vì các con số thống kê không có bất kì ý nghĩa tham khảo nào trong giáo dục, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Để xác định đúng mức độ, tính chất chậm và phát hiện nguyên nhân cụ thể của từng trẻ, từ đó mới có hình thức chăm sóc và giáo dục thích hợp.",
+        "C": "Để nâng điểm số IQ của đứa trẻ lên mức bình thường nhằm giúp nhà trường đạt thành tích báo cáo hành chính cao hơn thực tế.",
+        "D": "Để chuyển tất cả trẻ em có điểm trắc nghiệm dưới mức trung bình vào các bệnh viện phẫu thuật thần kinh mà không cần dạy học."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình kết luận ở cuối mục 6.1.3: Phân loại theo điểm trắc nghiệm chỉ căn cứ vào dấu hiệu lượng hóa giúp đoán biết và kỳ vọng hành vi; để xác định đúng mức độ, tính chất chậm và phát hiện nguyên nhân của mỗi trẻ nhằm có hình thức chăm sóc, giáo dục thích hợp thì phải phân tích định tính qua phương pháp lâm sàng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "Quan niệm nào sau đây về cấu trúc nhân cách của trẻ chậm phát triển trí tuệ bị giáo trình bác bỏ vì không đúng với thực tiễn tâm lí học?",
+      "options": {
+        "A": "Quan niệm cho rằng ở trẻ chậm phát triển trí tuệ, không chỉ trí tuệ mà cả các yếu tố khác của nhân cách cũng bị chậm phát triển theo, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Quan niệm cho rằng nhân cách của trẻ chậm phát triển trí tuệ hợp thành một cấu trúc tâm lí ở trình độ thấp với nhịp độ phát triển chậm.",
+        "C": "Quan niệm cho rằng trẻ chậm phát triển trí tuệ chỉ có riêng phần trí tuệ bị chậm còn các chức năng tâm lí khác trong nhân cách vẫn phát triển bình thường.",
+        "D": "Quan niệm cho rằng trẻ chậm phát triển trí tuệ có cấu trúc nhân cách khác căn bản so với cấu trúc nhân cách của trẻ em phát triển bình thường."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 6.2.1 chỉ rõ: Những trẻ em chậm phát triển trí tuệ không phải chỉ có trí tuệ của nó bị chậm, còn các chức năng tâm lí khác trong cấu trúc nhân cách vẫn phát triển bình thường; ngược lại, cả các yếu tố khác của nhân cách cũng bị chậm phát triển.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "question": "Theo nhà tâm lí học L.X. Vưgôtxki, trẻ chậm phát triển trí tuệ được phân biệt với trẻ phát triển bình thường bằng dấu hiệu bản chất nào?",
+      "options": {
+        "A": "Bằng tổng số lượng các câu hỏi trắc nghiệm mà đứa trẻ trả lời sai trong một bài kiểm tra trí thông minh định kì ở trường phổ thông.",
+        "B": "Bằng sự khác biệt đơn thuần về trọng lượng tuyệt đối của não bộ và chiều dài của các sợi trục thần kinh vận động ngoại biên.",
+        "C": "Bằng tỉ lệ phần trăm số lượng các khái niệm toán học và ngữ pháp mà đứa trẻ chưa kịp ghi nhớ so với bảng tiêu chuẩn của độ tuổi.",
+        "D": "Bằng những đặc trưng về cấu tạo tâm lí và cơ thể, bằng kiểu phát triển cơ thể và nhân cách chứ không phải bằng tỉ lệ số lượng thành phần trí tuệ thiếu hụt."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo L.X. Vưgôtxki, trẻ chậm phát triển trí tuệ được phân biệt với trẻ bình thường bằng những đặc trưng về cấu tạo tâm lí và cơ thể, bằng kiểu phát triển cơ thể và nhân cách, chứ không phải bằng tỉ lệ số lượng các thành phần trí tuệ bị thiếu hụt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Các công trình nghiên cứu của W. Stern (V. Stecner), P. Gutler và A. Adler đã chỉ ra ba đặc trưng cơ bản nào trong nhân cách của trẻ khuyết tật nói chung và trẻ chậm trí tuệ nói riêng?",
+      "options": {
+        "A": "Ba đặc trưng cơ bản trong nhân cách của các em gồm: nhân cách phát triển chậm, cảm giác thiếu hụt và xu hướng tích cực bù trừ.",
+        "B": "Ba đặc trưng cơ bản trong nhân cách của các em gồm: trí nhớ máy móc siêu phàm, sự vô cảm tuyệt đối và xu hướng tự cô lập hoàn toàn.",
+        "C": "Ba đặc trưng cơ bản trong nhân cách của các em gồm: sự phát triển sớm về giới tính, tính hiếu chiến bẩm sinh và sự suy giảm thị lực.",
+        "D": "Ba đặc trưng cơ bản trong nhân cách của các em gồm: nhân cách phát triển nhảy vọt, mặc cảm tự tôn quá mức và sự từ chối giao tiếp."
+      },
+      "correct_answer": "A",
+      "explanation": "Các nghiên cứu của V. Stecner, P. Gutler, A. Adler và các nhà tâm lí học khác cho thấy có ba đặc trưng trong nhân cách trẻ khuyết tật nói chung, trẻ chậm trí tuệ nói riêng: nhân cách phát triển chậm; cảm giác thiếu hụt và xu hướng tích cực bù trừ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 34,
+      "question": "Theo lí thuyết của A. Adler và trường phái tâm lí học của ông, trong điều kiện nào thì hệ thần kinh cấp cao và cấu trúc tâm lí của cá nhân sẽ tạo ra cảm giác thiếu hụt và xu hướng bù trừ?",
+      "options": {
+        "A": "Khi một cơ thể phát triển hoàn toàn khỏe mạnh nhưng cá nhân được sống trong môi trường vật chất quá đầy đủ và được nuông chiều.",
+        "B": "Khi một cơ thể không hoàn hảo về hình thái học và chức năng nên không thể hoàn thành được nhiệm vụ của mình một cách đầy đủ.",
+        "C": "Khi cá nhân đã hoàn thành xuất sắc mọi nhiệm vụ xã hội giao phó và muốn tìm kiếm thêm những thử thách mạo hiểm ở lĩnh vực mới.",
+        "D": "Khi hệ thần kinh cấp cao bị ức chế hoàn toàn trong giấc ngủ sâu hoặc khi cá nhân đang ở trạng thái thư giãn tinh thần tuyệt đối."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo A. Adler, nếu một cơ thể không hoàn hảo về hình thái học và chức năng, nên không hoàn thành nhiệm vụ của mình một cách đầy đủ thì hệ thần kinh cấp cao và cấu trúc tâm lí của nó sẽ tạo ra cảm giác thiếu hụt và xu hướng bù trừ những thiếu hụt đó.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "Theo sự phân tích sâu sắc trong giáo trình (mục 6.2.1), 'cảm giác thiếu hụt' ở trẻ chậm phát triển trí tuệ nảy sinh trực tiếp từ nguồn gốc nào?",
+      "options": {
+        "A": "Nảy sinh trực tiếp và thuần túy từ các cơn đau đớn sinh học tại vùng vỏ não bị tổn thương ngay từ khi đứa trẻ vừa mới lọt lòng mẹ, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Nảy sinh trực tiếp từ sự di truyền nguyên vẹn cảm giác mặc cảm tự ti thông qua các nhiễm sắc thể giới tính của người cha hoặc người mẹ.",
+        "C": "Không nảy sinh trực tiếp từ bản thân khiếm khuyết trí tuệ mà từ sự khó khăn thực hiện chức năng xã hội và việc giảm vị thế xã hội của đứa trẻ.",
+        "D": "Nảy sinh trực tiếp từ việc đứa trẻ đọc được các tài liệu y học viết về căn bệnh của mình khi bước vào lứa tuổi học sinh tiểu học."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình nhấn mạnh: Cảm giác thiếu hụt không nảy sinh trực tiếp từ các khiếm khuyết trí tuệ mà từ sự khó khăn thực hiện các chức năng xã hội và từ việc giảm vị thế xã hội của đứa trẻ do các khiếm khuyết đó gây ra.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 36,
+      "question": "Quy luật tâm lí cơ bản về 'cảm giác thiếu hụt và xu hướng bù trừ' mang lại ý nghĩa tích cực gì đối với sự phát triển nhân cách của trẻ chậm phát triển trí tuệ?",
+      "options": {
+        "A": "Nó khiến cho trẻ chậm phát triển trí tuệ hoàn toàn buông xuôi mọi cố gắng và chấp nhận phụ thuộc suốt đời vào sự nuôi dưỡng của xã hội.",
+        "B": "Nó tự động biến đổi cấu trúc nhiễm sắc thể bị lỗi trở lại bình thường mà không cần bất kì sự can thiệp giáo dục nào của người lớn.",
+        "C": "Nó làm cho đứa trẻ trở nên hung dữ và luôn tìm cách tấn công những người xung quanh để che giấu sự yếu kém về mặt nhận thức của mình.",
+        "D": "Nó tạo ra sức mạnh tiềm tàng giúp trẻ chậm phát triển trí tuệ không phải là những đứa trẻ thụ động mà là những chủ thể tích cực."
+      },
+      "correct_answer": "D",
+      "explanation": "Cảm giác thiếu hụt và xu hướng bù trừ là quy luật tâm lí cơ bản giúp cho trẻ chậm phát triển trí tuệ không phải là những trẻ thụ động mà là đứa trẻ tích cực, tạo ra sức mạnh tiềm tàng mà người lớn cần biết khi chăm sóc và giáo dục.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Các công trình nghiên cứu của M.O. Gurevich và T. Heller (T. Geller) đã phát hiện ra mối quan hệ như thế nào giữa yếu tố vận động và yếu tố trí tuệ ở trẻ chậm phát triển trí tuệ?",
+      "options": {
+        "A": "Trong cấu trúc tâm lí của trẻ chậm phát triển trí tuệ có mối quan hệ vừa độc lập tương đối vừa tác động lẫn nhau giữa vận động và trí tuệ.",
+        "B": "Giữa yếu tố vận động và yếu tố trí tuệ có sự đồng nhất tuyệt đối nên mọi trẻ chậm trí tuệ đều bị liệt hoàn toàn khả năng vận động.",
+        "C": "Giữa yếu tố vận động và yếu tố trí tuệ có mối quan hệ tỉ lệ nghịch tuyệt đối nên trẻ càng chậm trí tuệ thì vận động càng khéo léo siêu việt.",
+        "D": "Yếu tố vận động và yếu tố trí tuệ hoàn toàn tách rời nhau như hai đường thẳng song song không bao giờ có bất kì ảnh hưởng nào tới nhau."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 6.2.2, các công trình của M.O. Gurevich, T. Geller cho thấy có sự độc lập tương đối đồng thời có sự tác động lẫn nhau giữa chậm vận động với chậm trí tuệ ở trẻ em chậm phát triển trí tuệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "question": "Biểu hiện cụ thể của tính độc lập tương đối giữa yếu tố vận động và yếu tố trí tuệ ở trẻ chậm phát triển trí tuệ được M.O. Gurevich và T. Heller mô tả như thế nào?",
+      "options": {
+        "A": "Trong tất cả mọi trường hợp lâm sàng, sự suy giảm vận động luôn luôn diễn ra trước sự suy giảm trí tuệ đúng ba năm theo lịch sinh học, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Trong nhiều trường hợp hai yếu tố này kết hợp tạo ra các dạng chậm khác nhau, nhưng ở trường hợp khác chỉ có trí tuệ bị chậm còn vận động vẫn bình thường.",
+        "C": "Khi yếu tố vận động của đứa trẻ phát triển bình thường thì các bài trắc nghiệm trí tuệ luôn cho kết quả chỉ số IQ trên mức 120 điểm.",
+        "D": "Chỉ có những trẻ bị chậm phát triển trí tuệ ở mức độ rất nặng mới giữ được khả năng vận động bình thường, còn trẻ chậm nhẹ đều bị liệt."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nêu rõ: Trong nhiều trường hợp, có sự kết hợp giữa hai yếu tố này tạo ra các dạng chậm trí tuệ khác nhau; trong những trường hợp khác chỉ có trí tuệ bị chậm, còn yếu tố vận động vẫn phát triển bình thường.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "Từ phát hiện cho thấy 'so với trí tuệ, yếu tố vận động có khả năng bù trừ cao hơn', bài học ứng dụng quan trọng bậc nhất trong việc khắc phục chậm trí tuệ cho trẻ là gì?",
+      "options": {
+        "A": "Phải đình chỉ mọi hoạt động thể dục thể thao và trò chơi vận động của trẻ để tập trung toàn bộ thời gian cho việc học thuộc lòng lí thuyết.",
+        "B": "Chỉ cần cho trẻ tập luyện thể hình nặng nhọc suốt ngày mà hoàn toàn không cần dạy trẻ các kỹ năng giao tiếp ngôn ngữ hay văn hóa cơ bản.",
+        "C": "Phải tách ra yếu tố vận động để tích cực huấn luyện và phát triển nó, đồng thời sử dụng chính vận động làm phương tiện bù trừ cho trí tuệ.",
+        "D": "Phải hạn chế tối đa việc cho trẻ tự đi lại hoặc cầm nắm đồ vật vì vận động nhiều sẽ làm tiêu hao năng lượng của các tế bào thần kinh vỏ não."
+      },
+      "correct_answer": "C",
+      "explanation": "Vì yếu tố vận động có khả năng bù trừ cao hơn so với trí tuệ, điều có ý nghĩa quan trọng bậc nhất trong nghiên cứu và khắc phục chậm trí tuệ là tách ra yếu tố vận động, huấn luyện và phát triển nó, đồng thời sử dụng nó như phương tiện bù trừ cho trí tuệ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 40,
+      "question": "Các nghiên cứu của M. Pechecon, P. Pinche và G. Thomson về sự phát triển không đồng đều giữa các thành phần trí tuệ đã chỉ ra hai dạng chậm trí tuệ nào?",
+      "options": {
+        "A": "Các tác giả đã chỉ ra hai dạng chậm trí tuệ là 'chậm nói' và 'chậm nghe', và hai dạng này luôn luôn xuất hiện đồng thời ở mọi đứa trẻ.",
+        "B": "Các tác giả đã chỉ ra hai dạng chậm trí tuệ là 'chậm tính toán' và 'chậm vẽ hình', và chúng hoàn toàn quy định lẫn nhau theo tỉ lệ thuận.",
+        "C": "Các tác giả đã chỉ ra hai dạng chậm trí tuệ là 'chậm cảm giác' và 'chậm xúc cảm', chỉ xuất hiện ở những trẻ sống trong gia đình giàu có.",
+        "D": "Các tác giả đã chỉ ra hai dạng chậm trí tuệ là 'chậm hiểu' và 'chậm hành động', và hai dạng này không nhất thiết trùng nhau trong một đứa trẻ."
+      },
+      "correct_answer": "D",
+      "explanation": "Trong mục 6.2.3, các nghiên cứu của M. Pechecon, P. Pinche, G. Thomson... đã chỉ ra hai dạng chậm trí tuệ: chậm hiểu và chậm hành động; hai dạng này không nhất thiết trùng nhau trong một trẻ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 41,
+      "question": "Nhiều công trình thực nghiệm trên trẻ chậm phát triển trí tuệ theo phương pháp của W. Köhler (V. Keler - vốn dùng cho khỉ hình người) đã rút ra kết luận quan trọng nào?",
+      "options": {
+        "A": "Thành phần trí tuệ thực hành của trẻ chậm phát triển trí tuệ thường ít bị ảnh hưởng và tổn thương hơn so với thành phần trí tuệ ngôn ngữ.",
+        "B": "Thành phần trí tuệ ngôn ngữ trừu tượng của trẻ chậm phát triển luôn phát triển vượt trội hơn gấp nhiều lần so với thành phần trí tuệ thực hành.",
+        "C": "Cả thành phần trí tuệ thực hành lẫn trí tuệ ngôn ngữ của trẻ chậm phát triển đều bị hủy hoại hoàn toàn ở mức độ ngang bằng nhau tuyệt đối.",
+        "D": "Trẻ chậm phát triển trí tuệ không thể giải quyết được bất kì bài toán thực hành dùng công cụ nào dù là đơn giản nhất trong phòng thí nghiệm."
+      },
+      "correct_answer": "A",
+      "explanation": "Nhiều thực nghiệm trên trẻ chậm phát triển theo phương pháp của V. Keler (W. Köhler) đối với trí tuệ thực hành của khỉ hình người đã cho thấy thành phần trí tuệ thực hành của trẻ thường ít bị ảnh hưởng hơn so với trí tuệ ngôn ngữ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "Việc phát hiện thành phần 'trí tuệ thực hành' ít bị ảnh hưởng hơn 'trí tuệ ngôn ngữ' ở trẻ chậm phát triển mở ra hướng đi thiết thực nào trong công tác giáo dục?",
+      "options": {
+        "A": "Cho phép loại bỏ hoàn toàn môn học tiếng mẹ đẻ và giao tiếp xã hội ra khỏi chương trình giáo dục đặc biệt dành cho trẻ chậm phát triển, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Cho phép tách ra thành phần trí tuệ thực hành để nghiên cứu và huấn luyện, trên cơ sở đó hình thành các kỹ năng lao động phục vụ và nghề nghiệp.",
+        "C": "Cho phép tuyển thẳng tất cả trẻ em chậm phát triển trí tuệ vào các trường đại học kĩ thuật công nghệ cao mà không cần qua đào tạo cơ bản.",
+        "D": "Cho phép kết luận rằng ngôn ngữ không đóng bất kì vai trò nào trong sự phát triển tâm lí của cả trẻ em bình thường lẫn trẻ em khuyết tật."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 6.2.3, điều này cho phép có thể tách ra thành phần trí tuệ thực hành trong trí tuệ của trẻ chậm phát triển, nghiên cứu và huấn luyện chúng; trên cơ sở đó hình thành các kĩ năng lao động phục vụ và nghề nghiệp.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "Theo L.X. Vưgôtxki (1997), bản chất văn hóa của sự phát triển tâm lí và trí tuệ ở những đứa trẻ phát triển bình thường được xác định như thế nào?",
+      "options": {
+        "A": "Là sự tích lũy tự phát các phản xạ không điều kiện bẩm sinh mà hoàn toàn không cần đến sự tham gia của hệ thống kí hiệu ngôn ngữ xã hội, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Là việc hủy bỏ hoàn toàn các chức năng tâm lí tự nhiên của cơ thể để thay thế bằng các chương trình máy tính điện tử nhân tạo từ bên ngoài.",
+        "C": "Là việc phát triển tốt các chức năng tâm lí tự nhiên, biết cách sử dụng chúng và nắm vững các công cụ tâm lí văn hóa thông qua chức năng tự nhiên đó.",
+        "D": "Là khả năng ghi nhớ máy móc các quy tắc lễ nghi giao tiếp xã hội mà không cần hiểu ý nghĩa hay vận dụng vào hoạt động nhận thức thực tiễn."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo L.X. Vưgôtxki (1997), trẻ phát triển về mặt văn hóa là những em phát triển tốt các chức năng tâm lí tự nhiên, biết cách sử dụng các chức năng tâm lí đó và các công cụ tâm lí tương ứng; nắm vững công cụ tâm lí văn hóa thông qua các chức năng tâm lí tự nhiên là bản chất văn hóa của sự phát triển.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 44,
+      "question": "Theo L.X. Vưgôtxki (1997), đâu là bản chất cốt lõi nhất trong cấu trúc trí tuệ của trẻ em chậm phát triển trí tuệ xét theo mối quan hệ giữa tự nhiên và văn hóa?",
+      "options": {
+        "A": "Sự hòa quyện chặt chẽ giữa chức năng tâm lí tự nhiên và công cụ văn hóa nhưng thiếu hụt năng lượng sinh học để duy trì sự chú ý lâu dài.",
+        "B": "Sự phát triển quá mức của các công cụ tâm lí văn hóa và ngôn ngữ làm lấn át hoàn toàn các bản năng sinh học tự nhiên của cơ thể đứa trẻ.",
+        "C": "Sự đồng nhất hoàn toàn giữa tư duy thao tác hình thức cấp cao với các phản xạ có điều kiện bậc nhất giống như ở những người trưởng thành.",
+        "D": "Sự tách rời giữa các thành phần tự nhiên với thành phần văn hóa và sự hạn chế nghiêm trọng của thành phần văn hóa đặc biệt là công cụ ngôn ngữ."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 6.2.4 khẳng định: Sự tách rời giữa các thành phần tự nhiên với văn hóa và sự hạn chế của thành phần văn hóa (đặc biệt là công cụ ngôn ngữ) là bản chất trong trí tuệ của trẻ chậm phát triển.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 45,
+      "question": "Vì sao hạn chế về ngôn ngữ ở trẻ chậm phát triển trí tuệ lại dẫn đến hệ quả là các em không có khả năng thực hiện hoạt động trí tuệ cấp cao với các thao tác hình thức?",
+      "options": {
+        "A": "Vì trẻ vừa có vốn ngôn ngữ ít ỏi vừa không có khả năng sử dụng vốn ngôn ngữ đó một cách đầy đủ và có ý thức vào trong hoạt động trí tuệ.",
+        "B": "Vì thanh quản và dây thanh âm của mọi trẻ chậm phát triển trí tuệ đều bị dị tật giải phẫu nên các em hoàn toàn không thể phát ra âm thanh.",
+        "C": "Vì trẻ chỉ thích sử dụng ngôn ngữ viết và các kí hiệu toán học phức tạp chứ không muốn sử dụng lời nói thông thường trong giao tiếp hàng ngày.",
+        "D": "Vì các thao tác trí tuệ hình thức chỉ phụ thuộc vào tốc độ dẫn truyền xung thần kinh ở tủy sống chứ không liên quan đến vỏ não ngôn ngữ."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình giải thích: Trẻ chậm phát triển có vốn ngôn ngữ ít ỏi, đồng thời không có khả năng sử dụng vốn ngôn ngữ đó một cách đầy đủ và có ý thức vào trong hoạt động trí tuệ, do vậy không có khả năng hoạt động trí tuệ cấp cao với các thao tác hình thức.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "question": "Ở trẻ chậm phát triển trí tuệ, trạng thái của 'các chức năng tâm lí tự nhiên' và 'các công cụ tâm lí văn hóa' tồn tại như thế nào theo phân tích của L.X. Vưgôtxki?",
+      "options": {
+        "A": "Các chức năng tâm lí tự nhiên đã bị tiêu biến hoàn toàn, trong khi các công cụ tâm lí văn hóa lại phát triển ở trình độ học thuật rất cao.",
+        "B": "Các chức năng tâm lí tự nhiên vẫn còn ở dạng nguyên thủy, trong khi các công cụ tâm lí văn hóa và cách sử dụng chúng lại hết sức hạn chế.",
+        "C": "Cả các chức năng tâm lí tự nhiên lẫn các công cụ tâm lí văn hóa đều phát triển hoàn chỉnh nhưng không bao giờ hoạt động vào ban ngày.",
+        "D": "Các chức năng tâm lí tự nhiên đạt trình độ siêu việt như người trưởng thành, còn các công cụ tâm lí văn hóa chỉ bị chậm lại khoảng vài tháng."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 6.2.4, với những trẻ chậm phát triển, các chức năng tâm lí tự nhiên còn ở dạng nguyên thủy; các công cụ tâm lí văn hóa và cách sử dụng chúng còn rất hạn chế, đặc biệt là công cụ ngôn ngữ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Khi luận giải về nguồn gốc của 'cảm giác thiếu hụt', A. Adler nhấn mạnh vai trò trung gian của yếu tố nào trong việc chuyển hóa khiếm khuyết cơ thể thành đặc trưng tâm lí?",
+      "options": {
+        "A": "Sự khiếm khuyết của cơ quan cơ thể trực tiếp tiết ra một loại độc tố hóa học đi vào máu và làm biến đổi ngay lập tức tính cách của đứa trẻ, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Sự khiếm khuyết của cơ quan cơ thể làm tăng áp lực nội sọ khiến đứa trẻ luôn có ảo giác thính giác về những lời chê bai của người xung quanh.",
+        "C": "Sự khiếm khuyết của các cơ quan cơ thể tạo ra vị thế xã hội đặc biệt (suy giảm vị thế xã hội) và chính thông qua vị thế này ảnh hưởng tới sự phát triển.",
+        "D": "Sự khiếm khuyết của cơ quan cơ thể hoàn toàn không có bất kì tác động trực tiếp hay gián tiếp nào đến đời sống tình cảm và vị thế của trẻ."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình phân tích rõ theo A. Adler: Sự khiếm khuyết của các cơ quan trong cơ thể đã tạo ra vị thế đặc biệt của đứa trẻ và thông qua vị thế này ảnh hưởng tới sự phát triển của nó; cảm giác thiếu hụt là tổng thể tâm lí xuất hiện trên cơ sở giảm vị thế xã hội của đứa trẻ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Theo nội dung mục 6.2, có bao nhiêu đặc trưng tâm lí lớn của trẻ em chậm phát triển trí tuệ được giáo trình khái quát và phân tích?",
+      "options": {
+        "A": "Chỉ có duy nhất một đặc trưng là sự suy giảm đồng đều tất cả các quá trình cảm giác, tri giác, trí nhớ, tư duy và tưởng tượng theo cùng tỉ lệ.",
+        "B": "Có hai đặc trưng là sự mất khả năng ngôn ngữ bẩm sinh và sự rối loạn hành vi chống đối xã hội không thể khắc phục bằng phương pháp giáo dục.",
+        "C": "Có mười đặc trưng riêng biệt tương ứng chính xác với mười lĩnh vực hành vi thích ứng trong bảng phân loại của Hiệp hội Tâm thần học Mỹ.",
+        "D": "Có bốn đặc trưng lớn về cấu trúc nhân cách, quan hệ vận động - trí tuệ, sự không đồng đều giữa các thành phần và sự tách rời tự nhiên - văn hóa."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 6.2 hệ thống hóa 4 đặc trưng tâm lí: (6.2.1) Cấu trúc nhân cách khác căn bản trẻ thường; (6.2.2) Quan hệ vừa độc lập vừa tác động lẫn nhau giữa vận động và trí tuệ; (6.2.3) Mức độ và nhịp độ chậm của các thành phần không giống nhau; (6.2.4) Không có sự kết hợp giữa phương diện tự nhiên và văn hóa.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 49,
+      "question": "Khi so sánh quá trình phát triển nhân cách của trẻ bình thường và trẻ chậm phát triển trí tuệ (mục 6.2.1), điểm tương đồng về mặt quy luật cấu trúc giữa hai nhóm trẻ này là gì?",
+      "options": {
+        "A": "Ở cả hai nhóm trẻ, trí tuệ đều kết hợp với các chức năng tâm lí khác tạo thành một cấu trúc tâm lí trọn vẹn mang đặc trưng riêng ở mỗi giai đoạn.",
+        "B": "Ở cả hai nhóm trẻ, trí tuệ hoàn toàn tách biệt khỏi đời sống tình cảm và ý chí nên khi trí tuệ bị tổn thương thì nhân cách vẫn nguyên vẹn, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Ở cả hai nhóm trẻ, nhịp độ phát triển của cấu trúc nhân cách đều diễn ra với tốc độ nhanh như nhau và đạt đỉnh cao ở cùng một độ tuổi.",
+        "D": "Ở cả hai nhóm trẻ, các chức năng tâm lí cấp cao đều tự động xuất hiện theo bản năng sinh học mà không cần sự tác động của môi trường xã hội."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.2.1 chỉ rõ: Trong quá trình phát triển của trẻ bình thường, trí tuệ kết hợp với các chức năng tâm lí khác tạo ra đặc trưng riêng về chất trong mỗi giai đoạn (một cấu trúc tâm lí trọn vẹn). Đối với trẻ chậm phát triển cũng như vậy, nhưng toàn bộ các yếu tố hợp thành cấu trúc tâm lí ở trình độ thấp với nhịp độ chậm.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 50,
+      "question": "Kết quả của tính tích cực và xu hướng bù trừ ở trẻ chậm phát triển trí tuệ trong thực tiễn giáo dục phụ thuộc vào điều gì?",
+      "options": {
+        "A": "Kết quả bù trừ luôn luôn thành công tuyệt đối ở một trăm phần trăm trẻ em khuyết tật bất kể điều kiện chăm sóc và giáo dục như thế nào, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Kết quả của tính tích cực và sự bù trừ không diễn ra tự động như nhau mà còn phụ thuộc vào rất nhiều nguyên nhân chủ quan và khách quan khác nhau.",
+        "C": "Kết quả bù trừ chỉ phụ thuộc duy nhất vào việc đứa trẻ được uống các loại thuốc bổ thần kinh đắt tiền trong giai đoạn học trường mầm non.",
+        "D": "Kết quả bù trừ hoàn toàn do ngẫu nhiên may rủi quy định chứ người lớn và nhà giáo dục không thể tác động hay định hướng được quá trình này."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình lưu ý ở cuối mục 6.2.1: Tất nhiên, kết quả của tính tích cực và sự bù trừ còn phụ thuộc vào rất nhiều nguyên nhân; điều quan trọng là chúng tạo ra sức mạnh tiềm tàng trong đứa trẻ mà người lớn cần biết để khai thác trong chăm sóc và giáo dục.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "question": "Theo Bảng phân loại của Kisler (dẫn theo Trần Trọng Thủy, 1992), trẻ ở mức 'Chậm nhẹ' (IQ 53-69) trong giai đoạn tuổi chưa đi học (0-5 tuổi) có đặc điểm phát triển như thế nào?",
+      "options": {
+        "A": "Trẻ bị liệt hoàn toàn khả năng vận động và ngôn ngữ ngay từ lúc mới sinh nên bất kì ai nhìn vào cũng phát hiện được ngay từ tháng đầu tiên, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Trẻ hoàn toàn không làm lấy được các công việc tự phục vụ tối thiểu và không có hay có rất ít kỹ năng truyền đạt với người thân trong nhà.",
+        "C": "Trẻ có thể phát triển kỹ năng xã hội và truyền đạt, chỉ bị chậm phát triển chút ít về khả năng vận - cảm nên khi lớn lên mới nhận thấy bất thường.",
+        "D": "Trẻ phát triển vượt trội hơn trẻ bình thường về cả vận động lẫn ngôn ngữ trong suốt năm năm đầu đời rồi mới đột ngột mất trí nhớ khi đi học."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo bảng Kisler ở mục 6.1.3, trẻ chậm nhẹ (IQ 53-69) ở tuổi 0-5 có thể phát triển kỹ năng xã hội và truyền đạt, chỉ bị chậm phát triển chút ít về khả năng vận - cảm, khi lớn lên mới nhận thấy bất bình thường.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 52,
+      "question": "Theo Bảng phân loại của Kisler, ở giai đoạn tuổi đi học (6-20 tuổi), trẻ chậm phát triển trí tuệ mức 'Nhẹ' (IQ 53-69) gặp giới hạn học tập nào và cần điều kiện giáo dục gì?",
+      "options": {
+        "A": "Đến tuổi 15-16 trẻ vẫn không thể tập nói hay tập được thói quen vệ sinh sơ đẳng và cần phải được hộ lí chăm sóc hoàn toàn mọi sinh hoạt.",
+        "B": "Đến tuổi 15-16 trẻ học rất giỏi các môn khoa học tổng quát trừu tượng ở bậc trung học phổ thông mà không cần bất kì sự hỗ trợ đặc biệt nào.",
+        "C": "Đến tuổi 15-16 trẻ chỉ mới bắt đầu tập đi những bước đầu tiên và hoàn toàn không thể nhận biết được mặt chữ cái hay các con số tự nhiên.",
+        "D": "Đến tuổi 15-16 trẻ đạt được các kỹ năng của bậc tiểu học, không học được các môn tổng quát ở trung học và cần được giáo dục theo chương trình đặc biệt."
+      },
+      "correct_answer": "D",
+      "explanation": "Bảng Kisler chỉ rõ: Ở tuổi đi học (6-20 tuổi), trẻ chậm nhẹ khi đến tuổi 15, 16 có thể nắm được các kỹ năng của bậc tiểu học, không học được các môn tổng quát ở trung học, cần được giáo dục theo chương trình đặc biệt, nhất là ở tuổi trung học.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 53,
+      "question": "Theo Bảng phân loại của Kisler, người chậm phát triển trí tuệ mức 'Nặng' (IQ 20-35) khi bước vào tuổi trưởng thành (trên 21 tuổi) có tiềm năng xã hội và nghề nghiệp như thế nào?",
+      "options": {
+        "A": "Họ tham gia được một phần vào việc tự lo cho bản thân dưới sự giám sát hoàn toàn và phát triển kỹ năng tự vệ ở mức tối thiểu trong môi trường hạn chế.",
+        "B": "Họ có thể sinh hoạt hoàn toàn bình thường về mặt xã hội và nghề nghiệp, chỉ cần hướng dẫn chút ít khi gặp khủng hoảng kinh tế lớn, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Họ có thể làm tốt các công việc lao động đòi hỏi chút ít huấn luyện chuyên môn và tự lập hoàn toàn trong việc quản lí tài chính gia đình.",
+        "D": "Họ hoàn toàn không có bất kì sự phát triển nào về vận động hay ngôn ngữ và không thể thực hiện được dù chỉ một cử động tự vệ nhỏ nhất."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo bảng Kisler ở mục 6.1.3, người chậm nặng (IQ 20-35) khi trưởng thành (>21 tuổi) có thể tham gia được một phần vào việc lo cho bản thân nếu được giám sát hoàn toàn; có thể phát triển kỹ năng tự vệ ở mức độ tối thiểu trong môi trường hạn chế.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 54,
+      "question": "Ở trẻ chậm phát triển trí tuệ mức 'Nặng' (IQ 20-25 đến 35-39), đặc điểm 'tự kỷ trung tâm' trong nhận thức xã hội của các em được biểu hiện cụ thể như thế nào?",
+      "options": {
+        "A": "Trẻ hoàn toàn không phân biệt được ranh giới cơ thể mình với các đồ vật vô tri xung quanh nhưng lại rất giỏi thấu cảm tâm tư người khác.",
+        "B": "Trẻ đã có thể tách bản thân mình ra khỏi người khác nhưng lại hoàn toàn không có khả năng tự đặt mình vào vị trí của người khác.",
+        "C": "Trẻ luôn luôn biết đặt lợi ích và quan điểm của người đối diện lên trên hết trước khi đưa ra bất kì một phán đoán hay hành động cá nhân nào.",
+        "D": "Trẻ có khả năng phân tích tâm lí đa chiều của nhiều nhân vật cùng lúc nhưng từ chối giao tiếp vì thích sống một mình trong phòng kín."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình giải thích rõ ở mục 6.1.3: Trẻ chậm phát triển nặng có thể tách mình ra khỏi người khác, nhưng không có khả năng đặt mình vào người khác; chúng vẫn ở trình độ tự kỷ trung tâm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 55,
+      "question": "Kiểu tư duy đặc trưng 'cái này đi với cái kia' (như cái chén đi với cái đĩa) và 'cái này rồi đến cái kia' ở trẻ chậm phát triển mức 'Nặng' được gọi là kiểu tư duy gì?",
+      "options": {
+        "A": "Đó là kiểu tư duy suy diễn giả thuyết thuộc trình độ thao tác hình thức của lứa tuổi thanh thiếu niên theo lí thuyết của J. Piaget.",
+        "B": "Đó là kiểu tư duy khái quát hóa lí luận thuộc trình độ nhận thức khoa học bậc cao theo trường phái tâm lí học hoạt động Xô viết.",
+        "C": "Đó là kiểu tư duy xếp kề thuộc trình độ trí tuệ tượng trưng từ hai đến bốn tuổi theo lí thuyết phát triển nhận thức của J. Piaget.",
+        "D": "Đó là kiểu tư duy bảo tồn thuận nghịch thuộc trình độ thao tác cụ thể của học sinh tiểu học từ bảy đến mười một tuổi của J. Piaget."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 6.1.3 mô tả: Trẻ chậm nặng đạt mức trí tuệ tượng trưng 2-4 tuổi theo lí thuyết của J. Piaget, có thể có kiểu tư duy xếp kề 'cái này đi với cái kia', như cái chén đi với cái đĩa, 'cái này rồi đến cái kia'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 56,
+      "question": "Tuy có rất nhiều cách phân loại khác nhau, giáo trình đã gộp các tác nhân chủ yếu gây chậm phát triển trí tuệ ở trẻ em thành hai nhóm lớn nào?",
+      "options": {
+        "A": "Gộp thành hai nhóm lớn là các tác nhân thời tiết khí hậu tự nhiên và các tác nhân phong tục tập quán tín ngưỡng tôn giáo của địa phương.",
+        "B": "Gộp thành hai nhóm lớn là các tác nhân do chế độ ăn uống thừa chất đạm và các tác nhân do trẻ ngủ quá nhiều giờ trong một ngày đêm.",
+        "C": "Gộp thành hai nhóm lớn là các tác nhân tâm lí học nhận thức thuần túy và các tác nhân do chương trình sách giáo khoa ở bậc đại học.",
+        "D": "Gộp thành hai nhóm lớn là các tác nhân sinh học (khiếm khuyết thực thể/chức năng cơ thể) và các tác nhân bắt nguồn từ yếu tố xã hội - gia đình."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 6.3.1 nêu rõ: Có thể gộp thành hai nhóm: các tác nhân sinh học (khiếm khuyết về thực thể hoặc chức năng của hệ thần kinh, nội tiết hay cơ quan nào đó) và tác nhân bắt nguồn từ các yếu tố xã hội và gia đình.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 57,
+      "question": "Nhiều công trình nghiên cứu thống kê dịch tễ học đã chỉ ra mối tương quan như thế nào giữa hai nhóm nguyên nhân (sinh học và môi trường xã hội) với mức độ chậm trí tuệ?",
+      "options": {
+        "A": "Những trẻ chậm phát triển trí tuệ mức nặng thường có nguyên nhân sinh học, còn đa số trường hợp chậm nhẹ là do yếu tố môi trường xã hội và gia đình.",
+        "B": "Những trẻ chậm phát triển trí tuệ mức nặng đều do thiếu thốn tình cảm gia đình, còn tất cả trẻ chậm nhẹ đều do đột biến nhiễm sắc thể, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Cả nhóm trẻ chậm nặng lẫn nhóm trẻ chậm nhẹ đều chỉ bắt nguồn từ các nguyên nhân môi trường xã hội chứ không liên quan gì đến sinh học.",
+        "D": "Yếu tố sinh học chỉ gây ra chứng chậm phát triển trí tuệ tạm thời trong vài tháng, còn yếu tố xã hội luôn gây ra mức chậm rất nặng suốt đời."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình khẳng định tại mục 6.3.1.1: Nhiều nghiên cứu thống kê cho thấy những trẻ chậm nặng thường có những nguyên nhân sinh học; còn đa số trường hợp chậm nhẹ là do yếu tố môi trường xã hội và gia đình.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 58,
+      "question": "Những hội chứng bệnh lí nào sau đây thuộc nhóm tác nhân sinh học do 'lỗi nhiễm sắc thể' mà người ta có thể quan sát thấy những rối nhiễu tâm trí bằng mắt thường?",
+      "options": {
+        "A": "Các hội chứng do lỗi nhiễm sắc thể bao gồm bệnh sởi Rubella, nhiễm vi rút cự bào và bệnh nhiễm xoắn khuẩn giang mai từ người mẹ.",
+        "B": "Các hội chứng do lỗi nhiễm sắc thể bao gồm hội chứng Down (Đao), hội chứng Cri-du-chat (tiếng mèo kêu) và hội chứng Turner.",
+        "C": "Các hội chứng do lỗi nhiễm sắc thể bao gồm viêm màng não mủ cấp tính, chấn thương sọ não do té ngã và suy dinh dưỡng độ ba sau sinh.",
+        "D": "Các hội chứng do lỗi nhiễm sắc thể bao gồm ngạt thở thiếu oxy trong khi sinh, đẻ non thiếu cân và chấn thương do dùng kẹp phoóc-xép."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 6.3.1.1, lỗi nhiễm sắc thể gồm: Hội chứng Đao (Down), Cri-du-chat, Turner; với những trẻ chậm trí tuệ do mắc phải những hội chứng này có thể quan sát những rối nhiễu tâm trí bằng mắt thường.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 59,
+      "question": "Trong nhóm tác nhân sinh học trước sinh, các hội chứng như PKU, Sanfilippo, xơ cứng dạng củ, gãy nhiễm sắc thể, Rett, Williams-Beuren, Angelman, Prader-Willi thuộc nhóm nguyên nhân nào?",
+      "options": {
+        "A": "Thuộc nhóm nguyên nhân ngoại sinh do người mẹ bị nhiễm độc chất độc màu da cam hoặc nhiễm phóng xạ hạt nhân trong thời kì mang thai, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Thuộc nhóm nguyên nhân tai biến sản khoa trong khi sinh do bác sĩ sử dụng dụng cụ y tế kẹp phoóc-xép kéo đầu trẻ gây xuất huyết não.",
+        "C": "Thuộc nhóm nguyên nhân do lỗi gen (chủ yếu do cơ thể thiếu hụt một chất men/enzym nào đó) dẫn đến các rối loạn quá trình chuyển hóa.",
+        "D": "Thuộc nhóm nguyên nhân môi trường xã hội do đứa trẻ bị bỏ rơi không được đi học và phải sống cách li hoàn toàn với cộng đồng dân cư."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình liệt kê tại mục 6.3.1.1: Lỗi gen (chủ yếu do thiếu một chất men nào đó) dẫn đến rối loạn các chuyển hóa gồm: hội chứng PKU, Sanfilippo, chứng xơ cứng dạng củ, gãy nhiễm sắc thể, Rett, Williams-Beuren, Angelman, Prader-Willi.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 60,
+      "question": "Những bệnh lí nào sau đây được giáo trình xếp vào nhóm 'rối loạn do nhiều yếu tố' trong các tác nhân sinh học gây chậm phát triển trí tuệ?",
+      "options": {
+        "A": "Nhóm rối loạn do nhiều yếu tố bao gồm bệnh thủy đậu, bệnh ho gà cấp tính và bệnh viêm đường hô hấp trên ở trẻ em dưới năm tuổi.",
+        "B": "Nhóm rối loạn do nhiều yếu tố bao gồm hội chứng thiếu hụt tình cảm mẫu tử, phương pháp giáo dục gia đình áp đặt và sự nghèo đói.",
+        "C": "Nhóm rối loạn do nhiều yếu tố bao gồm hội chứng Down ba nhiễm sắc thể hai mươi mốt, hội chứng Turner và hội chứng tiếng mèo kêu.",
+        "D": "Nhóm rối loạn do nhiều yếu tố bao gồm chứng tràn dịch màng não (não úng thủy), chứng tật đầu nhỏ và chứng rối loạn chức năng tuyến giáp trạng."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 6.3.1.1, nhóm rối loạn do nhiều yếu tố bao gồm: tràn dịch màng não, chứng đầu nhỏ, chứng rối loạn chức năng tuyến giáp trạng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 61,
+      "question": "Trong thời kì mang thai, nếu người mẹ bị lây nhiễm những tác nhân vi sinh vật ngoại sinh nào sau đây thì thai nhi có nguy cơ cao bị chậm phát triển trí tuệ?",
+      "options": {
+        "A": "Người mẹ khi mang thai bị lây nhiễm bệnh sởi Rubella, nhiễm vi rút cự bào (Cytomegalovirus) hoặc mắc bệnh nhiễm khuẩn giang mai.",
+        "B": "Người mẹ khi mang thai bị cảm lạnh thông thường do thay đổi thời tiết hoặc bị dị ứng phấn hoa nhẹ trong vài ngày đầu mùa xuân.",
+        "C": "Người mẹ khi mang thai bị đau mỏi cơ bắp do tập thể dục đi bộ nhẹ nhàng hoặc bị sâu răng hàm nhẹ đã được nha sĩ xử lí kịp thời.",
+        "D": "Người mẹ khi mang thai ăn nhiều các loại rau xanh, trái cây tươi và uống bổ sung đầy đủ các loại vitamin cùng khoáng chất thiết yếu."
+      },
+      "correct_answer": "A",
+      "explanation": "Trong mục 6.3.1.1 (Những yếu tố ngoại sinh), tác nhân do lây nhiễm trong khi người mẹ mang thai gồm: sởi Rubella, vi rút cự bào, giang mai.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 62,
+      "question": "Những tác nhân ngoại sinh thuộc nhóm 'nhiễm độc' ở người mẹ đang mang thai có thể gây chậm phát triển trí tuệ cho thai nhi bao gồm những yếu tố nào?",
+      "options": {
+        "A": "Bao gồm việc người mẹ sử dụng nước muối sinh lí để súc miệng hàng ngày hoặc uống sữa tươi tiệt trùng dành riêng cho phụ nữ mang thai, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Bao gồm thuốc chống động kinh, chất độc màu da cam, sự bất đồng kháng thể Rh giữa mẹ và con hoặc việc người mẹ bị nhiễm độc phóng xạ.",
+        "C": "Bao gồm việc người mẹ nghe nhạc giao hưởng cổ điển mỗi tối hoặc tham gia các lớp học tiền sản do bệnh viện phụ sản tổ chức định kì.",
+        "D": "Bao gồm các rối loạn di truyền nhiễm sắc thể giới tính bẩm sinh như hội chứng Turner hoặc hội chứng gãy nhiễm sắc thể ở phôi thai."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 6.3.1.1, tác nhân ngoại sinh do nhiễm độc khi mang thai gồm: người mẹ bị nhiễm độc hóa chất như thuốc chống động kinh, chất độc màu da cam, kháng thể Rh hoặc nhiễm độc phóng xạ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 63,
+      "question": "Những nguyên nhân sinh học xảy ra 'trong khi sinh' (tai biến sản khoa) dẫn đến nguy cơ chậm phát triển trí tuệ ở trẻ sơ sinh bao gồm những yếu tố nào?",
+      "options": {
+        "A": "Bao gồm việc trẻ sơ sinh cất tiếng khóc to ngay sau khi lọt lòng mẹ, da dẻ hồng hào và có phản xạ bú mẹ mạnh mẽ trong giờ đầu tiên, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Bao gồm các đột biến cấu trúc gen xảy ra từ lúc thụ tinh như hội chứng PKU thiếu men chuyển hóa hoặc hội chứng xơ cứng dạng củ.",
+        "C": "Bao gồm tình trạng thiếu oxy não do đẻ lâu, tổn thương não do đẻ khó hoặc do dùng kẹp phoóc-xép kéo đầu trẻ, và trẻ đẻ non hoặc thiếu cân.",
+        "D": "Bao gồm việc trẻ không được gửi đi học ở trường mẫu giáo đúng độ tuổi hoặc bị cha mẹ nuông chiều quá mức trong gia đình khá giả."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 'Những nguyên nhân trong khi sinh' (6.3.1.1), có 3 nguyên nhân chính: (1) Thiếu oxy trong khi sinh (đẻ lâu do nhau thai... trẻ không thở/không khóc ngay); (2) Tổn thương não khi sinh do mẹ đẻ khó hoặc dụng cụ y tế (phoóc-xép); (3) Đẻ non hoặc thiếu trọng lượng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 64,
+      "question": "Tình trạng đẻ lâu hoặc bất thường về nhau thai trong quá trình chuyển dạ gây nguy hại trực tiếp cho não bộ của trẻ sơ sinh thông qua cơ chế nào?",
+      "options": {
+        "A": "Làm thay đổi số lượng nhiễm sắc thể trong nhân tế bào của trẻ từ bốn mươi sáu chiếc lên bốn mươi bảy chiếc ngay tại phòng sinh.",
+        "B": "Làm cho cơ thể trẻ sản sinh quá nhiều kháng thể chống lại vi rút sởi Rubella và gây ra hội chứng rối loạn chuyển hóa đường huyết.",
+        "C": "Khiến cho hộp sọ của trẻ phát triển to gấp đôi bình thường ngay lập tức và làm tăng chỉ số thông minh vận động của đứa trẻ về sau.",
+        "D": "Gây ra tình trạng thiếu oxy cung cấp cho não dẫn đến việc đứa trẻ bị ngạt, không tự thở hoặc không khóc được ngay sau khi sinh ra."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình nêu rõ: Thiếu oxy do các nguyên nhân trong khi sinh như đẻ lâu do nhau thai... dẫn đến trẻ không thở hoặc không khóc ngay sau khi sinh, gây tổn thương tế bào não.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 65,
+      "question": "Các yếu tố sinh học tác động 'sau khi sinh' làm ảnh hưởng tới sự phát triển thể chất và gây chậm phát triển trí tuệ ở trẻ em được gộp thành ba nhóm nào?",
+      "options": {
+        "A": "Gộp thành ba nhóm gồm: di chứng do các bệnh viêm nhiễm, các tổn thương não thực thể (chấn thương, ngạt, u não, phẫu thuật) và suy dinh dưỡng.",
+        "B": "Gộp thành ba nhóm gồm: bất đồng nhóm máu Rh mẹ con, nhiễm chất độc màu da cam trong bào thai và đột biến mất đoạn nhiễm sắc thể số năm, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Gộp thành ba nhóm gồm: thiếu cơ hội đến trường phổ thông, phương pháp giáo dục gia đình sai lệch và sự cách li giao tiếp với cộng đồng.",
+        "D": "Gộp thành ba nhóm gồm: sự xuất hiện của tư duy tiền thao tác, cơ chế nhận thức thử và sai và hiện tượng tự kỷ trung tâm ở tuổi mẫu giáo."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 'Những nguyên nhân sau khi sinh' (6.3.1.1), các yếu tố được gộp thành 3 nhóm: (1) Di chứng do viêm nhiễm (viêm não, viêm màng não, sởi, thủy đậu, ho gà...); (2) Các tổn thương não (chấn thương do ngã, ngạt, u não, tác động phẫu thuật); (3) Suy dinh dưỡng dẫn đến suy giảm chức năng não.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 66,
+      "question": "Những căn bệnh truyền nhiễm nào mắc phải sau khi sinh có thể để lại di chứng tổn thương hệ thần kinh dẫn đến chậm phát triển trí tuệ ở trẻ em?",
+      "options": {
+        "A": "Các hội chứng rối loạn di truyền bẩm sinh từ trong phôi thai như hội chứng Prader-Willi, hội chứng Angelman và hội chứng Williams-Beuren.",
+        "B": "Các bệnh viêm nhiễm nguy hiểm sau sinh như viêm não, viêm màng não, biến chứng của bệnh sởi, bệnh thủy đậu và bệnh ho gà ở trẻ nhỏ.",
+        "C": "Các chứng bệnh tâm căn học đường nhẹ do áp lực thi cử cuối kì hoặc do sự thay đổi chỗ ngồi trong lớp học ở bậc trung học phổ thông.",
+        "D": "Các tổn thương cơ học trong lúc chuyển dạ sinh con như việc bác sĩ sản khoa dùng kẹp phoóc-xép can thiệp khi người mẹ bị đẻ khó."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong nhóm nguyên nhân sau khi sinh, giáo trình chỉ rõ các di chứng do viêm nhiễm bao gồm: viêm não, viêm màng não, sởi, thủy đậu, ho gà v.v...",
+      "difficulty": "medium"
+    },
+    {
+      "id": 67,
+      "question": "Theo mục 6.3.1.2, những yếu tố nào sau đây thuộc nhóm 'tác nhân môi trường xã hội và gia đình' có thể gây ra chậm phát triển trí tuệ ở trẻ em?",
+      "options": {
+        "A": "Trẻ được chăm sóc y tế định kì đầy đủ, sống trong gia đình ấm áp tình thương và được tạo điều kiện đến trường hòa nhập cùng bạn bè, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Trẻ bị đột biến ba nhiễm sắc thể số hai mươi mốt (hội chứng Down) hoặc bị thiếu hụt men chuyển hóa axit amin bẩm sinh (hội chứng PKU).",
+        "C": "Không được chăm sóc đầy đủ về y tế - thể chất, thiếu thốn hẫng hụt tình cảm, giáo dục gia đình không phù hợp, ít cơ hội đi học và sống cách li xã hội.",
+        "D": "Trẻ bị ngạt thở kéo dài do dây rốn quấn cổ trong lúc sinh hoặc bị chấn thương sọ não nặng do tai nạn té ngã từ trên cao xuống đất."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 6.3.1.2 liệt kê 5 tác nhân môi trường xã hội và gia đình: (1) Không được chăm sóc đầy đủ về y tế và thể chất; (2) Thiếu thốn hoặc hẫng hụt tâm lí - tình cảm xã hội; (3) Phương pháp giáo dục không phù hợp chuẩn chung (chăm sóc hoặc bỏ rơi quá mức); (4) Ít có cơ hội đi học; (5) Sống cách li với xã hội.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 68,
+      "question": "Trong các tác nhân thuộc về phương pháp giáo dục gia đình (mục 6.3.1.2), hai thái cực sai lầm nào của cha mẹ đều có thể dẫn đến sự trì trệ phát triển trí tuệ ở trẻ?",
+      "options": {
+        "A": "Phương pháp giáo dục kết hợp hài hòa giữa sự tôn trọng tính tự lập của đứa trẻ với sự hướng dẫn tận tình của người lớn trong gia đình.",
+        "B": "Phương pháp tổ chức cho trẻ tham gia các trò chơi vận động ngoài trời kết hợp với hoạt động vẽ tranh và nặn tượng theo sở thích cá nhân.",
+        "C": "Phương pháp khuyến khích trẻ giao tiếp với bạn bè cùng trang lứa ở trường mầm non và rèn luyện kỹ năng tự phục vụ vừa sức hàng ngày.",
+        "D": "Phương pháp giáo dục không phù hợp với chuẩn chung của xã hội biểu hiện ở việc chăm sóc bao bọc quá mức hoặc bỏ rơi thờ ơ quá mức đối với trẻ."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình nêu rõ tác nhân thứ 3 trong môi trường xã hội - gia đình là: Phương pháp giáo dục dành cho cá nhân trẻ không phù hợp với chuẩn chung của xã hội (chăm sóc hoặc bỏ rơi quá mức...).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 69,
+      "question": "Theo quy luật tác động của các yếu tố gây chậm phát triển trí tuệ (mục 6.3.1.2), mức độ tác hại của chúng phụ thuộc chủ yếu vào những yếu tố nào?",
+      "options": {
+        "A": "Không chỉ phụ thuộc tính chất, cường độ và thời gian tác động mà còn phụ thuộc chủ yếu vào thời điểm xảy ra tác động đó trong quá trình phát triển.",
+        "B": "Chỉ phụ thuộc duy nhất vào khối lượng phân tử hóa học của tác nhân gây độc chứ hoàn toàn không liên quan đến độ tuổi sinh học của đứa trẻ, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Chỉ phụ thuộc vào việc đứa trẻ là bé trai hay bé gái và thứ tự sinh của đứa trẻ đó trong gia đình có đông anh chị em hay có ít con.",
+        "D": "Tác nhân xuất hiện càng muộn ở giai đoạn trưởng thành thì sự hủy hoại cấu trúc trí tuệ càng mang tính chất toàn diện và nặng nề hơn."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình khẳng định: Một trong những đặc trưng ảnh hưởng của các yếu tố gây chậm trí tuệ là mức độ tác hại của chúng không chỉ phụ thuộc tính chất, cường độ và thời gian tác động, mà còn phụ thuộc chủ yếu vào thời điểm tác động trong quá trình phát triển của trẻ em.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 70,
+      "question": "Tính quy luật về sự trưởng thành không đồng đều của cơ thể và hệ thần kinh qua các thời kì phát triển dẫn đến hai phương diện biểu hiện nào khi có tác nhân gây chậm tác động?",
+      "options": {
+        "A": "Thứ nhất, mỗi tác nhân chỉ gây ra đúng một chỉ số IQ cố định; thứ hai, mọi giai đoạn phát triển từ bào thai đến tuổi già đều nhạy cảm giống hệt nhau, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Thứ nhất, hai tác nhân khác nhau có thể dẫn đến mức độ chậm như nhau; thứ hai, cùng một tác nhân nhưng tác động vào giai đoạn khác nhau thì mức ảnh hưởng khác nhau.",
+        "C": "Thứ nhất, tác nhân sinh học luôn nhẹ hơn tác nhân xã hội; thứ hai, tác nhân ngoại sinh không bao giờ gây ảnh hưởng đến thai nhi trong ba tháng đầu.",
+        "D": "Thứ nhất, hai tác nhân giống nhau luôn tạo ra hai hội chứng trái ngược nhau; thứ hai, hệ thần kinh ngừng biến đổi hoàn toàn ngay sau khi phôi làm tổ."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.3.1.2 chỉ rõ điều này thể hiện trên cả hai phương diện: thứ nhất, hai tác nhân khác nhau có thể dẫn đến mức độ chậm như nhau; thứ hai, cùng một yếu tố gây chậm nhưng tác động vào những giai đoạn khác nhau thì mức độ ảnh hưởng khác nhau.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 71,
+      "question": "Theo quy luật thời điểm tác động, các tật chậm phát triển trí tuệ thường diễn ra nghiêm trọng và nặng nề nhất khi tác nhân gây hại tấn công vào giai đoạn nào?",
+      "options": {
+        "A": "Nghiêm trọng nhất khi đứa trẻ đã bước qua giai đoạn hài nhi và đang chuẩn bị bước vào tuổi dậy thì ở bậc học trung học cơ sở phổ thông, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Nghiêm trọng nhất khi thai nhi đã hoàn toàn trưởng thành ở tuần lễ cuối cùng trước khi sinh và các cơ quan đã kết thúc quá trình phân hóa.",
+        "C": "Nghiêm trọng nhất khi tác nhân xuất hiện sớm vào lúc hệ thần kinh và các cơ quan cơ thể bắt đầu hình thành và đang được biệt hóa với tốc độ nhanh nhất.",
+        "D": "Nghiêm trọng nhất khi cá nhân đã tốt nghiệp đại học và bắt đầu tham gia vào thị trường lao động nghề nghiệp với nhiều áp lực cạnh tranh."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình nhấn mạnh: Nhìn chung, tác nhân gây chậm xuất hiện càng sớm trong quá trình phát triển của bào thai và đứa trẻ thì mức độ ảnh hưởng càng lớn; các tật chậm nghiêm trọng nhất khi hệ thần kinh và các cơ quan bắt đầu hình thành và ở thời kì chúng đang được biệt hóa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 72,
+      "question": "Vì sao khi thai nhi đã ở giai đoạn trưởng thành hoặc khi đứa trẻ đã qua giai đoạn hài nhi thì các tác động ngoại sinh lại có mức nguy hại thấp hơn so với các giai đoạn trước?",
+      "options": {
+        "A": "Vì lúc này hệ thần kinh của trẻ đã biến thành một khối xương cứng không thể bị bất kì một loại vi rút hay chấn thương cơ học nào xâm nhập.",
+        "B": "Vì sau giai đoạn hài nhi, cơ thể trẻ không còn diễn ra bất kì một quá trình trao đổi chất sinh hóa hay hoạt động dẫn truyền thần kinh nào nữa.",
+        "C": "Vì ở giai đoạn này mọi tổn thương não thực thể đều tự động được phục hồi nguyên vẹn chỉ sau một giấc ngủ ngắn mà không cần điều trị y tế.",
+        "D": "Vì lúc này các tác động ngoại sinh không còn ảnh hưởng toàn diện tới sự phát triển của trẻ nữa mà sự khu trú của tổn thương trở nên rõ ràng hơn."
+      },
+      "correct_answer": "D",
+      "explanation": "Cuối mục 6.3.1.2 giải thích: Khi thai nhi đã trong giai đoạn trưởng thành và khi đứa trẻ đã qua giai đoạn hài nhi thì các tác động ngoại sinh không còn ảnh hưởng toàn diện tới sự phát triển của trẻ, sự khu trú của nó trở nên rõ hơn, mức nguy hại sẽ thấp hơn so với các giai đoạn trước.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 73,
+      "question": "Đặc điểm chung của các giai đoạn phát triển mà ở đó tác nhân gây hại để lại hậu quả chậm phát triển trí tuệ nặng nề nhất về mặt sinh học là gì?",
+      "options": {
+        "A": "Đó là những giai đoạn mà việc cấu trúc hình thái và quá trình trao đổi sinh hóa của hệ thần kinh đang diễn ra với cường độ và tốc độ nhanh nhất.",
+        "B": "Đó là những giai đoạn mà hệ thần kinh trung ương đang ở trạng thái nghỉ ngơi tĩnh tại và tốc độ trao đổi chất giảm xuống mức thấp nhất, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Đó là những giai đoạn mà đứa trẻ bắt đầu học đọc, học viết và làm quen với các phép tính số học cơ bản ở trường tiểu học phổ thông.",
+        "D": "Đó là những giai đoạn mà các cơ quan nội tạng đã ngừng tăng trưởng về kích thước và bắt đầu bước vào quá trình lão hóa tự nhiên của cơ thể."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 6.3.1.2, hiện tượng mức độ ảnh hưởng phụ thuộc thời điểm tác động bộc lộ rõ nhất trong những giai đoạn mà ở đó việc cấu trúc hình thái và trao đổi sinh hóa đang diễn ra với cường độ và tốc độ nhanh nhất trong suốt quá trình phát triển.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 74,
+      "question": "Trong phân loại các nguyên nhân gây chậm phát triển trí tuệ, khái niệm 'tác nhân sinh học' được giáo trình định nghĩa khái quát như thế nào?",
+      "options": {
+        "A": "Là toàn bộ những điều kiện kinh tế thiếu thốn, sự thất học và thái độ kì thị của những người xung quanh đối với gia đình đứa trẻ, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Là một sự khiếm khuyết về mặt thực thể hoặc rối loạn chức năng của hệ thần kinh, hệ nội tiết hay một cơ quan nào đó trong cơ thể trẻ em.",
+        "C": "Là những sai lầm về mặt phương pháp sư phạm của giáo viên khi giảng dạy các môn khoa học tự nhiên và xã hội ở trường phổ thông.",
+        "D": "Là sự thiếu vắng giao tiếp ngôn ngữ giữa đứa trẻ với các bạn cùng trang lứa do gia đình sống ở vùng sâu vùng xa hẻo lánh cách biệt."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.3.1 định nghĩa: Các tác nhân sinh học tức là một sự khiếm khuyết về thực thể hoặc chức năng của hệ thần kinh, nội tiết hay cơ quan nào đó của cơ thể trẻ em.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 75,
+      "question": "Cơ chế bệnh sinh chung của nhóm 'lỗi gen' (như hội chứng PKU, Sanfilippo...) dẫn đến tình trạng chậm phát triển trí tuệ ở trẻ em là gì?",
+      "options": {
+        "A": "Chủ yếu do trẻ bị ngã từ trên giường cao xuống nền đất cứng gây tụ máu dưới màng cứng và làm chèn ép vùng vỏ não vận động, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Chủ yếu do bác sĩ sản khoa sử dụng kẹp phoóc-xép không đúng kĩ thuật trong ca đỡ đẻ khó làm tổn thương cơ học hộp sọ của trẻ.",
+        "C": "Chủ yếu do cơ thể bị thiếu hụt một chất men (enzym) đặc hiệu nào đó dẫn đến việc làm rối loạn các quá trình chuyển hóa sinh hóa bình thường.",
+        "D": "Chủ yếu do trẻ không được bú sữa mẹ trong sáu tháng đầu đời và bị bỏ rơi trong các trại trẻ mồ côi thiếu người chăm sóc trò chuyện."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong mục 6.3.1.1, giáo trình chỉ rõ cơ chế của lỗi gen là: chủ yếu do thiếu một chất men nào đó dẫn đến rối loạn các chuyển hóa (như hội chứng PKU, Sanfilippo, xơ cứng dạng củ...).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 76,
+      "question": "Theo mục 6.4.1, công tác chăm sóc và giáo dục trẻ em chậm phát triển trí tuệ cần phải tuân thủ bốn nguyên tắc cơ bản nào?",
+      "options": {
+        "A": "Tuân thủ nguyên tắc đồng loạt hóa đại trà, nguyên tắc tách biệt tuyệt đối, nguyên tắc bù đắp định lượng cơ học và nguyên tắc ưu sinh.",
+        "B": "Tuân thủ nguyên tắc tự phát tự nhiên, nguyên tắc chỉ dạy kiến thức trừu tượng, nguyên tắc miễn trừ lao động và nguyên tắc cách li xã hội.",
+        "C": "Tuân thủ nguyên tắc chọn lọc nhân tài, nguyên tắc thi đua điểm số khắt khe, nguyên tắc rút ngắn thời gian học và nguyên tắc học vượt lớp.",
+        "D": "Tuân thủ nguyên tắc cá thể hóa, nguyên tắc phát triển hướng vào khả năng bù trừ, nguyên tắc bình thường hóa và nguyên tắc hội nhập."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 6.4.1 trình bày 4 nguyên tắc cơ bản: (6.4.1.1) Nguyên tắc cá thể hóa; (6.4.1.2) Nguyên tắc phát triển hướng vào khả năng bù trừ của trí tuệ; (6.4.1.3) Nguyên tắc bình thường hóa; (6.4.1.4) Nguyên tắc hội nhập.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 77,
+      "question": "Nguyên tắc 'cá thể hóa' trong công tác đối với trẻ chậm phát triển trí tuệ đòi hỏi phải được tôn trọng và quán triệt ở những khâu nào và trong phương thức giáo dục nào?",
+      "options": {
+        "A": "Phải được tôn trọng trong cả quá trình chẩn đoán, chăm sóc và giáo dục trẻ em, dù được thực hiện dưới phương thức giáo dục đặc biệt hay hòa nhập.",
+        "B": "Chỉ cần áp dụng duy nhất ở khâu kiểm tra y tế ban đầu khi nhập học, còn khi đã vào lớp thì mọi trẻ đều phải học cùng một giáo án chuẩn, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Chỉ áp dụng cho những trẻ học ở các trường chuyên biệt tách riêng, còn những trẻ học ở lớp hòa nhập phổ thông thì không cần cá thể hóa.",
+        "D": "Chỉ áp dụng cho những trẻ chậm phát triển trí tuệ mức rất nặng có chỉ số IQ dưới hai mươi, còn trẻ chậm nhẹ và vừa thì dạy đại trà."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 6.4.1.1, nguyên tắc cá thể hóa đòi hỏi phải được tôn trọng trong cả quá trình chẩn đoán, chăm sóc và giáo dục trẻ em, dưới một phương thức giáo dục đặc biệt hay hòa nhập.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 78,
+      "question": "Tại sao mục tiêu của việc chăm sóc, giáo dục trẻ chậm phát triển trí tuệ không phải là 'bổ sung trực tiếp phần khiếm khuyết theo định lượng' mà phải 'hướng tới khả năng bù trừ của trí tuệ'?",
+      "options": {
+        "A": "Vì phần chức năng tâm lí bị khiếm khuyết của trẻ sẽ tự động phục hồi hoàn toàn khi trẻ đủ mười tám tuổi mà không cần bất kì tác động nào, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Vì trí tuệ không phải là phép cộng cơ học các bộ phận rời rạc mà là một khối chức năng cơ động có khả năng dùng phần lành lặn bù đắp phần thiếu hụt.",
+        "C": "Vì các nhà giáo dục hoàn toàn không có cách nào xác định được lĩnh vực nhận thức nào của đứa trẻ đang bị suy giảm hay thiếu hụt.",
+        "D": "Vì việc tác động vào các chức năng lành lặn không tốn kém kinh phí bằng việc tổ chức dạy học phục hồi các chức năng đang bị tổn thương."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.4.1.2 giải thích: Không thể coi trí tuệ được tạo bởi các bộ phận rời rạc mà bộ phận nào khiếm khuyết chỉ cần bù đắp theo định lượng; trí tuệ trẻ em đang phát triển là khối chức năng cơ động, có khả năng bù trừ, nên phải tác động vào các thành phần không bị khuyết tật hoặc bị nhẹ hơn để thúc đẩy phát triển và bù đắp phần thiếu hụt.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 79,
+      "question": "Cách thức thực hiện nguyên tắc 'hướng tới khả năng bù trừ của trí tuệ' theo nguyên lí dạy học phát triển của L.X. Vưgôtxki được tiến hành như thế nào?",
+      "options": {
+        "A": "Bắt buộc đứa trẻ phải làm đi làm lại hàng nghìn lần đúng bài tập trừu tượng mà trẻ không thể hiểu được cho đến khi trẻ trả lời đúng, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Cắt bỏ hoàn toàn các hoạt động vận động và thực hành lao động để dành toàn bộ thời gian cho việc giải các bài toán đại số nâng cao.",
+        "C": "Tác động vào các thành phần không bị khuyết tật hoặc bị nhẹ hơn, thúc đẩy sự phát triển của chúng để qua đó bù đắp cho phần thiếu hụt của trẻ.",
+        "D": "Hạ thấp mọi yêu cầu giáo dục xuống mức tối thiểu của giai đoạn sơ sinh để đứa trẻ không bao giờ phải nỗ lực vượt qua bất kì thử thách nào."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 6.4.1.2, hướng tới khả năng bù trừ nghĩa là phải tác động vào các thành phần không bị khuyết tật hoặc bị nhẹ hơn, thúc đẩy sự phát triển của nó qua đó bù đắp cho phần thiếu hụt, nhằm đạt tới sự phát triển tối đa của từng trẻ theo nguyên lí dạy học phát triển của L.X. Vưgôtxki.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 80,
+      "question": "Cơ sở thực tiễn về mặt tỉ lệ phân bố mức độ chậm trí tuệ nào khiến cho mục tiêu cơ bản của giáo dục đặc biệt phải tuân thủ 'nguyên tắc bình thường hóa'?",
+      "options": {
+        "A": "Vì một trăm phần trăm trẻ em chậm phát triển trí tuệ đều có chỉ số thông minh IQ cao hơn mức trung bình của cộng đồng dân cư nơi trẻ sống.",
+        "B": "Vì tất cả trẻ em chậm phát triển trí tuệ sẽ tự động khỏi bệnh hoàn toàn ngay sau khi kết thúc bậc học tiểu học ở tuổi mười một.",
+        "C": "Vì xã hội hiện đại không còn tồn tại bất kì một trường chuyên biệt hay lớp học hỗ trợ đặc biệt nào dành riêng cho trẻ em khuyết tật nữa.",
+        "D": "Vì ngoại trừ một số ít trẻ em ở mức chậm rất nặng và nặng, còn hầu hết tuyệt đại đa số trẻ chậm phát triển trí tuệ đều ở mức chậm nhẹ và vừa."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 6.4.1.3 chỉ rõ: Ngoại trừ một số ít trẻ em có mức chậm rất nặng, còn hầu hết ở mức chậm nhẹ và vừa; vì vậy mục tiêu của giáo dục đặc biệt về cơ bản là hướng tới cuộc sống bình thường và hòa nhập cho trẻ em.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 81,
+      "question": "Theo mục 6.4.1.3, sự 'bình thường hóa' trong chăm sóc và giáo dục trẻ chậm phát triển trí tuệ được thể hiện ít nhất trên ba phương diện cụ thể nào?",
+      "options": {
+        "A": "Thể hiện trên ba phương diện: sự tôn trọng trẻ em, sự phù hợp với đặc điểm và lứa tuổi của từng trẻ, và tạo cơ hội cho trẻ tham gia cuộc sống bình thường.",
+        "B": "Thể hiện trên ba phương diện: bắt trẻ học cùng sách giáo khoa nâng cao, chấm điểm thi cử giống hệt trẻ thường và không cho phép hưởng ưu tiên, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Thể hiện trên ba phương diện: nuôi dưỡng trẻ trong bệnh viện khép kín, miễn trừ mọi nghĩa vụ giao tiếp và cấp trợ cấp tài chính suốt đời.",
+        "D": "Thể hiện trên ba phương diện: phẫu thuật thẩm mĩ khuôn mặt, dùng thuốc kích thích thần kinh liều cao và huấn luyện phản xạ có điều kiện."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 6.4.1.3, sự bình thường hóa được thể hiện ít nhất trên 3 phương diện: (1) Sự tôn trọng trẻ em; (2) Phù hợp với đặc điểm và lứa tuổi của từng trẻ; (3) Tạo cơ hội cho trẻ tham gia vào cuộc sống bình thường.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 82,
+      "question": "Bản chất đúng đắn của việc áp dụng 'nguyên tắc bình thường hóa' đối với trẻ chậm phát triển trí tuệ cần được hiểu như thế nào để tránh nhận thức sai lầm?",
+      "options": {
+        "A": "Có nghĩa là phải dùng mọi biện pháp y học và sư phạm để nâng chỉ số IQ của mọi trẻ khuyết tật lên trên mức một trăm điểm trong vòng một năm, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Không có nghĩa là biến trẻ chậm phát triển thành người bình thường hoàn toàn, mà là làm cho điều kiện sống của trẻ trở nên bình thường ở mức tối đa.",
+        "C": "Có nghĩa là phủ nhận hoàn toàn sự tồn tại của khuyết tật trí tuệ và đối xử với trẻ chậm nặng giống hệt như những học sinh năng khiếu xuất sắc.",
+        "D": "Có nghĩa là buộc gia đình phải tự mình xoay xở nuôi dạy đứa trẻ mà nhà nước và các tổ chức giáo dục xã hội không cần can thiệp hỗ trợ."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nhấn mạnh: Việc áp dụng nguyên tắc bình thường hóa không có nghĩa là làm cho một trẻ chậm phát triển trở thành người bình thường theo đúng nghĩa của nó, mà là làm cho điều kiện sống của nó trở thành bình thường ở mức tối đa, tùy theo mức độ khuyết tật.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 83,
+      "question": "Việc thực hiện tốt 'nguyên tắc bình thường hóa' mang lại tác động tâm lí - xã hội tích cực gì đối với cộng đồng và đối với bản thân đứa trẻ chậm phát triển trí tuệ?",
+      "options": {
+        "A": "Giúp các cơ sở giáo dục công lập tiết kiệm được toàn bộ ngân sách đào tạo giáo viên chuyên trách giáo dục đặc biệt và mua sắm thiết bị dạy học, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Làm cho trẻ khuyết tật hoàn toàn quên đi việc mình cần phải học tập rèn luyện kỹ năng lao động nghề nghiệp để tự nuôi sống bản thân về sau.",
+        "C": "Thúc đẩy thái độ và cách ứng xử 'bình thường' của mọi thành viên xã hội đối với trẻ khuyết tật, giúp các em tránh được nhiều mặc cảm do khiếm khuyết gây ra.",
+        "D": "Khiến cho mọi thành viên trong xã hội cảm thấy thương hại và làm thay toàn bộ mọi công việc tự phục vụ hàng ngày cho đứa trẻ khuyết tật."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 6.4.1.3 nêu rõ: Nguyên tắc này thúc đẩy mạnh mẽ thái độ và cách ứng xử 'bình thường' của mọi thành viên trong xã hội đối với trẻ khuyết tật nói chung, trẻ chậm phát triển trí tuệ nói riêng, tránh cho các em nhiều mặc cảm do hậu quả của những khiếm khuyết gây ra.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 84,
+      "question": "Nguyên tắc 'hội nhập' (mục 6.4.1.4) đặt ra yêu cầu đổi mới cách tiếp cận giáo dục trẻ chậm phát triển trí tuệ theo định hướng trọng tâm nào?",
+      "options": {
+        "A": "Chỉ tập trung phân tích các tổn thương giải phẫu trên phim chụp não bộ của đứa trẻ mà bỏ qua toàn bộ các yếu tố môi trường lớp học xung quanh.",
+        "B": "Đặt toàn bộ gánh nặng thích ứng lên vai đứa trẻ khuyết tật và yêu cầu trẻ phải tự thay đổi bản thân để theo kịp nhịp độ học tập của lớp chọn.",
+        "C": "Tách riêng tất cả những trẻ có chỉ số IQ dưới bảy mươi đưa lên các khu điều dưỡng tập trung ở vùng ngoại ô tách biệt khỏi khu dân cư đông đúc.",
+        "D": "Không chú ý xoáy sâu quá nhiều đến khiếm khuyết của bản thân đứa trẻ mà chủ yếu hướng vào việc chuẩn bị các điều kiện môi trường mà đứa trẻ sẽ hội nhập."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 6.4.1.4, nguyên tắc hội nhập yêu cầu cách tiếp cận việc giáo dục trẻ chậm phát triển không chú ý nhiều đến khiếm khuyết của trẻ mà chủ yếu hướng vào các điều kiện môi trường đứa trẻ sẽ hội nhập.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 85,
+      "question": "Tùy theo mức độ chậm của trẻ và yêu cầu của việc chăm sóc giáo dục, nguyên tắc hội nhập có thể được thực hiện ở ba mức độ cụ thể nào?",
+      "options": {
+        "A": "Có thể thực hiện ở ba mức độ hội nhập khác nhau bao gồm: hội nhập thân thể (thể chất), hội nhập chức năng và hội nhập xã hội.",
+        "B": "Có thể thực hiện ở ba mức độ hội nhập khác nhau bao gồm: hội nhập ngôn ngữ, hội nhập toán học và hội nhập khoa học tự nhiên.",
+        "C": "Có thể thực hiện ở ba mức độ hội nhập khác nhau bao gồm: hội nhập sơ cấp ở mầm non, hội nhập trung cấp ở tiểu học và hội nhập cao cấp.",
+        "D": "Có thể thực hiện ở ba mức độ hội nhập khác nhau bao gồm: hội nhập gia đình hạt nhân, hội nhập dòng họ nội ngoại và hội nhập quốc tế."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.4.1.4 chỉ rõ: Tùy theo mức độ chậm của trẻ và yêu cầu của việc chăm sóc, giáo dục trẻ có thể thực hiện các mức độ hội nhập khác nhau: hội nhập thân thể, hội nhập chức năng và hội nhập xã hội.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 86,
+      "question": "Để thực hiện tốt việc chăm sóc và giáo dục trẻ chậm phát triển trí tuệ tại gia đình (mục 6.4.2.1), các bậc cha mẹ cần phải đáp ứng những yêu cầu thiết yếu nào?",
+      "options": {
+        "A": "Cha mẹ chỉ cần cung cấp đầy đủ thức ăn, quần áo ấm và đồ chơi đắt tiền cho trẻ mà không cần tìm hiểu về đặc điểm tâm sinh lí phức tạp của con, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Cha mẹ phải có hiểu biết về đặc điểm tâm - sinh lí trẻ chậm phát triển, có kỹ năng về nội dung, phương pháp chăm sóc giáo dục và nên tham gia lớp bồi dưỡng.",
+        "C": "Cha mẹ phải nghỉ việc hoàn toàn để ở nhà làm thay mọi công việc vệ sinh cá nhân cho trẻ suốt đời và giữ trẻ trong nhà không cho tiếp xúc người lạ.",
+        "D": "Cha mẹ phải áp dụng nguyên vẹn các phương pháp rèn luyện kỉ luật nghiêm khắc của quân đội để buộc đứa trẻ phải phát triển trí tuệ nhanh như trẻ thường."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 6.4.2.1, chăm sóc giáo dục tại gia đình đòi hỏi cha mẹ phải có hiểu biết nhất định về đặc điểm tâm - sinh lí trẻ chậm phát triển, có hiểu biết và kỹ năng cần thiết về nội dung, phương pháp chăm sóc, giáo dục và nên tham gia lớp bồi dưỡng do cơ quan chuyên môn tổ chức.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 87,
+      "question": "Theo mục 6.4.2.1, hệ thống các hình thức tổ chức chăm sóc và giáo dục xã hội dành cho trẻ chậm phát triển trí tuệ bao gồm bốn loại hình nào?",
+      "options": {
+        "A": "Bao gồm: bệnh viện tâm thần trung ương, trại giáo dưỡng thanh thiếu niên, trung tâm bảo trợ người già neo đơn và trường năng khiếu thể dục thể thao, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Bao gồm: giáo dục từ xa qua truyền hình, giáo dục tự học hoàn toàn qua sách báo, giáo dục đại học tại chức và giáo dục sau đại học chuyên sâu.",
+        "C": "Bao gồm: các trường chuyên biệt, các lớp chuyên trong trường bình thường (lớp hội nhập), hình thức giáo dục tương hỗ và hình thức giáo dục bình thường.",
+        "D": "Bao gồm: lớp học gia sư một kèm một tại nhà riêng, lớp học ngoại ngữ cấp tốc buổi tối, trại hè quân đội ngắn hạn và câu lạc bộ nghiên cứu khoa học."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 6.4.2.1 nêu 4 loại hình tổ chức chăm sóc, giáo dục xã hội: (1) Các trường chuyên dạy trẻ chậm phát triển; (2) Các lớp chuyên trong trường dạy trẻ bình thường (lớp hội nhập); (3) Giáo dục tương hỗ; (4) Giáo dục bình thường.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 88,
+      "question": "Hình thức tổ chức 'Giáo dục tương hỗ' (mục 6.4.2.1) được thiết kế dành cho đối tượng trẻ chậm phát triển mức nào và vận hành theo cơ chế ra sao?",
+      "options": {
+        "A": "Dành cho trẻ chậm rất nặng: các em chỉ học ở trường chuyên biệt suốt tuần và mỗi năm một lần được đến thăm trường phổ thông bình thường.",
+        "B": "Dành cho mọi mức độ chậm: những trẻ chậm phát triển trí tuệ tự đứng lớp giảng dạy lẫn nhau mà không cần có sự hướng dẫn của giáo viên chuyên môn.",
+        "C": "Dành cho trẻ chậm vừa và nặng: các em học buổi sáng tại bệnh viện nhi khoa và buổi chiều làm việc toàn thời gian tại các xí nghiệp công nghiệp.",
+        "D": "Dành cho trẻ chậm nhẹ: các em vẫn theo học ở các lớp bình thường, đồng thời trước đó và trong quá trình học được học thêm ở các lớp chuyên biệt để hỗ trợ."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình giải thích rõ: Giáo dục tương hỗ dành cho trẻ chậm nhẹ, các em vẫn theo học các lớp trẻ bình thường; đồng thời trước đó và trong quá trình theo học ở lớp bình thường, số trẻ chậm được học thêm ở các lớp chuyên biệt để hỗ trợ thêm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 89,
+      "question": "Khi một đứa trẻ chậm phát triển trí tuệ theo học trong hình thức 'Giáo dục bình thường' (học chung trong các lớp trẻ phát triển bình thường), cần có những điều kiện hỗ trợ gì?",
+      "options": {
+        "A": "Cần có sự quan tâm đặc biệt của giáo viên với phương pháp giáo dục cá biệt và cần nhận được sự đồng cảm của các bạn trong lớp cùng các bậc phụ huynh.",
+        "B": "Cần xếp đứa trẻ ngồi ở bàn cuối cùng tách biệt khỏi tập thể lớp và miễn cho trẻ tham gia tất cả các hoạt động học tập cũng như vui chơi chung, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Cần yêu cầu giáo viên áp dụng cùng một tiêu chuẩn đánh giá điểm số khắt khe như học sinh giỏi để tạo áp lực buộc trẻ phải tự vươn lên.",
+        "D": "Cần giữ bí mật tuyệt đối tình trạng của trẻ với giáo viên chủ nhiệm để giáo viên không dành bất kì sự ưu tiên hay điều chỉnh phương pháp nào."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 6.4.2.1, trong trường hợp trẻ chậm học trong các lớp trẻ phát triển bình thường (Giáo dục bình thường), cần có sự quan tâm đặc biệt của giáo viên với phương pháp giáo dục cá biệt và cần được sự đồng cảm của các bạn trong lớp và của phụ huynh.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 90,
+      "question": "Do đặc trưng tâm lí của trẻ chậm phát triển trí tuệ, việc chăm sóc và giáo dục đối tượng này phải được tiến hành thông qua các loại hình hoạt động cụ thể nào?",
+      "options": {
+        "A": "Phải được tiến hành thuần túy thông qua các buổi thuyết giảng lí thuyết triết học trừu tượng kéo dài nhiều giờ liên tục trong phòng học kín, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Phải được tiến hành thông qua việc tổ chức các trò chơi vận động, các hoạt động tạo hình và vẽ, cũng như thông qua thể dục và hoạt động học tập.",
+        "C": "Phải được tiến hành duy nhất bằng cách cho trẻ ngồi yên nghe băng ghi âm các bài giảng văn học cổ điển mà không cần vận động tay chân.",
+        "D": "Phải được tiến hành thông qua các kì thi sát hạch trắc nghiệm viết trên giấy liên tục hàng tuần để rèn luyện tốc độ phản xạ ngôn ngữ."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.4.2.2 nêu rõ: Do đặc trưng của trẻ chậm phát triển trí tuệ, nên việc chăm sóc và giáo dục đối tượng này phải được tiến hành thông qua việc tổ chức các trò chơi vận động, tạo hình và vẽ; thông qua thể dục và học tập.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 91,
+      "question": "Theo mục 6.4.2.2, phương pháp và kỹ thuật tâm lí học sư phạm của tác giả nào đã được vận dụng mang lại hiệu quả cao khi dạy trẻ chậm phát triển đọc, viết và làm toán?",
+      "options": {
+        "A": "Vận dụng phương pháp phân tâm học cổ điển của S. Freud thông qua việc giải mã các giấc mơ vô thức và liên tưởng tự do trên ghế nằm, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Vận dụng kỹ thuật trắc nghiệm khuôn hình tiếp diễn của J.C. Raven để thay thế hoàn toàn cho các tiết dạy tập đọc và tập viết trên lớp.",
+        "C": "Vận dụng kỹ thuật của P.Ya. Galperin về các bước hình thành hành động trí tuệ theo giai đoạn vào việc dạy đọc, viết tiếng mẹ đẻ và làm toán cho trẻ.",
+        "D": "Vận dụng học thuyết ưu sinh học của F. Galton nhằm sàng lọc chỉ số di truyền trước khi cho phép trẻ làm quen với bảng chữ cái tiếng Việt."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 6.4.2.2, một trong số phương pháp và kỹ thuật mang lại hiệu quả cao trong hướng dẫn trẻ chậm phát triển đọc, viết và làm toán là vận dụng kỹ thuật của P.Ya. Galperin về các bước hình thành hành động trí tuệ cho trẻ em.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 92,
+      "question": "Kinh nghiệm thực tiễn cho thấy khi vận dụng phương pháp hình thành hành động trí tuệ của P.Ya. Galperin vào dạy học trẻ chậm phát triển, giáo viên phải đặc biệt lưu ý điều gì?",
+      "options": {
+        "A": "Giáo viên phải nhanh chóng bỏ qua bước hành động vật chất bên ngoài để đưa trẻ đi thẳng vào bước hành động rút gọn trong óc bằng ngôn ngữ thầm.",
+        "B": "Giáo viên chỉ cần đọc to quy tắc định hướng một lần duy nhất rồi để mặc cho đứa trẻ tự mò mẫm giải quyết nhiệm vụ theo cơ chế thử và sai.",
+        "C": "Giáo viên phải gộp tất cả năm bước hình thành hành động trí tuệ vào trong một tiết học bốn mươi lăm phút để tiết kiệm thời gian giảng dạy.",
+        "D": "Giáo viên phải hết sức kiên trì và tuân thủ chặt chẽ các bước của quy trình, đặc biệt là các bước hành động vật chất ở bên ngoài với đồ vật thực."
+      },
+      "correct_answer": "D",
+      "explanation": "Cuối mục 6.4.2.2 nhấn mạnh: Kinh nghiệm cho thấy khi vận dụng phương pháp Galperin vào việc dạy học đối tượng này, giáo viên phải kiên trì và tuân thủ chặt chẽ các bước của quy trình, đặc biệt là các bước hành động vật chất, bên ngoài.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 93,
+      "question": "Tại sao trong quy trình P.Ya. Galperin áp dụng cho trẻ chậm phát triển trí tuệ, việc dừng lại lâu và kĩ ở 'các bước hành động vật chất, bên ngoài' lại có tính quyết định?",
+      "options": {
+        "A": "Vì ở trẻ chậm phát triển, công cụ ngôn ngữ và tư duy trừu tượng rất hạn chế trong khi vận động và trí tuệ thực hành với vật thật ít bị tổn thương hơn.",
+        "B": "Vì trẻ chậm phát triển trí tuệ có khả năng tư duy khái niệm trừu tượng quá cao nên cần phải dùng vật thật để kìm hãm bớt tốc độ suy luận của trẻ, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Vì bước hành động vật chất bên ngoài là bước cuối cùng cao nhất trong lí thuyết của Galperin nên khi đạt được bước này trẻ không cần học thêm nữa.",
+        "D": "Vì việc cầm nắm các đồ vật bên ngoài giúp trẻ mỏi cơ bắp nhanh hơn, từ đó giữ được trật tự kỉ luật tuyệt đối trong suốt giờ học trên lớp."
+      },
+      "correct_answer": "A",
+      "explanation": "Kết hợp mục 6.2.2, 6.2.3, 6.2.4 và 6.4.2.2: Trẻ chậm phát triển bị hạn chế nặng ở ngôn ngữ và thao tác trừu tượng bên trong, nhưng vận động và trí tuệ thực hành với vật cụ thể ít bị ảnh hưởng hơn; do đó phải bám chặt bước hành động vật chất bên ngoài để làm điểm tựa chuyển dần vào trong.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 94,
+      "question": "Sự khác biệt cơ bản giữa hình thức 'Các lớp chuyên trong trường bình thường (lớp hội nhập)' và hình thức 'Giáo dục bình thường' (mục 6.4.2.1) là gì?",
+      "options": {
+        "A": "Ở lớp hội nhập, trẻ học hoàn toàn tại bệnh viện tâm thần; còn ở giáo dục bình thường, trẻ tự học ở nhà cùng cha mẹ mà không cần đến trường, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Ở lớp hội nhập, trẻ chậm được biên chế vào lớp chuyên biệt đặt trong trường thường; còn ở giáo dục bình thường, trẻ học chung ngay trong lớp của trẻ thường.",
+        "C": "Ở lớp hội nhập, giáo viên không cần có chuyên môn sư phạm; còn ở giáo dục bình thường, mỗi học sinh phải có một bác sĩ thần kinh đi kèm.",
+        "D": "Hai hình thức này hoàn toàn giống hệt nhau về mặt biên chế lớp học và chỉ khác nhau ở tên gọi hành chính giữa khu vực thành thị và nông thôn."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 6.4.2.1: Các lớp hội nhập là 'các lớp chuyên dạy trẻ chậm phát triển đặt trong các trường dạy trẻ phát triển bình thường', trong khi Giáo dục bình thường là 'trẻ em chậm học ngay trong các lớp trẻ phát triển bình thường' với sự quan tâm cá biệt của giáo viên.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 95,
+      "question": "Nhìn tổng thể toàn bộ Chương 6, đâu là sợi chỉ đỏ xuyên suốt kết nối giữa việc nghiên cứu 'đặc trưng tâm lí' (Mục 6.2) với 'nguyên tắc và phương pháp giáo dục' (Mục 6.4)?",
+      "options": {
+        "A": "Dựa vào sự suy thoái tăng dần không thể đảo ngược của não bộ để khẳng định mọi nỗ lực giáo dục trẻ chậm phát triển đều hoàn toàn vô ích, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Dựa vào điểm số trắc nghiệm IQ thuần túy để phân loại hành chính và tách biệt vĩnh viễn trẻ chậm phát triển ra khỏi đời sống cộng đồng xã hội.",
+        "C": "Dựa vào quy luật bù trừ, ưu thế của vận động và trí tuệ thực hành để xây dựng nguyên tắc giáo dục hướng vào bù trừ qua trò chơi vận động và hành động vật chất.",
+        "D": "Dựa vào khả năng ngôn ngữ vượt trội của trẻ chậm phát triển để tập trung rèn luyện tư duy lôgic hình thức và lí luận triết học trừu tượng."
+      },
+      "correct_answer": "C",
+      "explanation": "Toàn chương 6 thể hiện tính thống nhất biện chứng: Từ việc phát hiện nhân cách có xu hướng tích cực bù trừ, vận động và trí tuệ thực hành ít tổn thương hơn ngôn ngữ (6.2), giáo dục đặc biệt xác lập nguyên tắc hướng vào bù trừ, bình thường hóa, hội nhập thông qua trò chơi vận động, tạo hình và bước hành động vật chất của Galperin (6.4).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 96,
+      "question": "Theo cấu trúc tổng thể được giới thiệu ở phần mở đầu Chương 6, vì sao vấn đề trẻ chậm phát triển trí tuệ nói riêng và trẻ khuyết tật tâm lí nói chung cần được nghiên cứu trong nhiều chuyên khảo?",
+      "options": {
+        "A": "Do hiện tượng này chỉ mới xuất hiện trong vài năm gần đây tại một số ít quốc gia công nghiệp phát triển ở khu vực Bắc Mỹ và Tây Âu.",
+        "B": "Do tất cả trẻ em chậm phát triển trí tuệ đều có những khả năng ngoại cảm thần bí vượt quá giới hạn giải thích của các ngành khoa học tự nhiên.",
+        "C": "Do việc nghiên cứu trẻ chậm phát triển trí tuệ mang lại lợi nhuận thương mại khổng lồ cho các tập đoàn sản xuất thiết bị điện tử viễn thông.",
+        "D": "Do tính chất đặc thù về mặt tâm sinh lí, tính phổ biến trong dân số và tính nhân đạo sâu sắc của vấn đề chăm sóc giáo dục nhóm trẻ em này."
+      },
+      "correct_answer": "D",
+      "explanation": "Đoạn mở đầu Chương 6 nêu rõ: Do tính chất đặc thù, tính phổ biến và tính nhân đạo của nó, vấn đề trẻ chậm phát triển trí tuệ nói riêng, trẻ khuyết tật tâm lí nói chung cần phải được nghiên cứu và thể hiện trong nhiều chuyên khảo.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 97,
+      "question": "Khi xem xét khái niệm chậm phát triển trí tuệ một cách toàn diện và khoa học, giáo trình yêu cầu người nghiên cứu bắt buộc phải kết hợp những phương diện nào?",
+      "options": {
+        "A": "Khái niệm chậm phát triển trí tuệ cần phải được xem xét một cách toàn diện theo cả hai phương diện là phương diện bệnh lí và phương diện tâm lí - xã hội.",
+        "B": "Chỉ cần xem xét thuần túy dưới phương diện giải phẫu học thần kinh mà hoàn toàn không cần quan tâm đến môi trường văn hóa xã hội của trẻ, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "C": "Chỉ cần xem xét thuần túy dưới phương diện thống kê toán học của các bài trắc nghiệm mà bỏ qua toàn bộ lịch sử bệnh lí của cá nhân đó.",
+        "D": "Chỉ cần xem xét theo phương diện kinh tế học gia đình và phương diện địa lí tự nhiên nơi đứa trẻ được sinh ra và lớn lên."
+      },
+      "correct_answer": "A",
+      "explanation": "Cuối mục 6.1.1 khẳng định: Như vậy, khái niệm chậm trí tuệ cần phải được xét theo cả hai phương diện: bệnh lí và tâm lí - xã hội.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 98,
+      "question": "Trong truyền thống tâm lí học hiện đại (mục 6.1.1), hai căn cứ chủ yếu nhất thường được sử dụng để xem xét trình độ trí tuệ của một cá nhân cũng như để xác định trẻ chậm trí tuệ là gì?",
+      "options": {
+        "A": "Chủ yếu căn cứ vào kích thước chu vi vòng đầu của đứa trẻ lúc mới sinh và tốc độ mọc răng sữa trong hai năm đầu đời của trẻ, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Chủ yếu căn cứ vào điểm chỉ số trí tuệ (IQ) thu được qua trắc nghiệm và khả năng thích ứng của cá nhân đó so với các thành viên khác trong cộng đồng.",
+        "C": "Chủ yếu căn cứ vào năng khiếu nghệ thuật bẩm sinh của đứa trẻ và địa vị kinh tế chính trị của gia đình đứa trẻ trong xã hội.",
+        "D": "Chủ yếu căn cứ vào khả năng ghi nhớ các dãy số ngẫu nhiên và tốc độ phản xạ đồng tử mắt khi chiếu luồng ánh sáng mạnh vào võng mạc."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.1.1 nêu rõ: Trong truyền thống tâm lí học hiện nay, việc xem xét trí tuệ cá nhân chủ yếu căn cứ vào điểm chỉ số trí tuệ và khả năng thích ứng của nó so với các thành viên khác trong cộng đồng; khi chuyển vào lĩnh vực chậm phát triển trí tuệ, các dấu hiệu nêu trên vẫn là chủ yếu.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 99,
+      "question": "Tại sao giáo trình nhận định rằng việc sử dụng các bài trắc nghiệm trí tuệ để xác định trẻ chậm phát triển trí tuệ cần phải hết sức thận trọng và phải được bổ sung bằng các biện pháp khác?",
+      "options": {
+        "A": "Vì tất cả các bài trắc nghiệm trí tuệ trên thế giới đều đòi hỏi chi phí bản quyền quá đắt đỏ mà các trường học phổ thông không thể chi trả, hoàn toàn trái ngược với các kết quả khảo sát lâm sàng và thực nghiệm sư phạm.",
+        "B": "Vì thời gian để thực hiện một bài trắc nghiệm trí tuệ thường kéo dài suốt nhiều tháng liên tục làm ảnh hưởng đến sức khỏe thể chất của trẻ.",
+        "C": "Vì không phải bao giờ trắc nghiệm cũng phản ánh chân thực trình độ trí tuệ và không phải lúc nào điểm test cũng tương ứng với khả năng thích ứng thực tế.",
+        "D": "Vì trẻ em dưới mười tám tuổi hoàn toàn không thể hiểu được bất kì một câu hỏi nào trong các bộ trắc nghiệm của Stanford-Binet hay Wechsler."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 6.1.1.1 chỉ rõ hạn chế của trắc nghiệm: không phải bao giờ trắc nghiệm cũng phản ánh chân thực trình độ trí tuệ; không phải bất kì ai và lúc nào điểm trắc nghiệm cũng tương ứng với khả năng thích ứng trong cuộc sống thực, nên cần thận trọng và khắc phục bằng các biện pháp khác.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 100,
+      "question": "Trên thực tế đời sống hàng ngày, những người bị chậm phát triển trí tuệ thể hiện sự hạn chế về 'khả năng thích ứng' (mục 6.1.1.2) rõ nét nhất ở điểm nào?",
+      "options": {
+        "A": "Họ luôn tự mình giải quyết xuất sắc mọi công việc sinh hoạt cá nhân và còn đứng ra quản lí tài chính cho cả những người xung quanh.",
+        "B": "Họ chỉ gặp đôi chút khó khăn khi phải giải các phương trình toán học cao cấp nhưng hoàn toàn độc lập trong mọi giao dịch xã hội phức tạp.",
+        "C": "Họ thích đi du lịch khám phá một mình ở những vùng đất xa lạ chưa từng đặt chân tới mà không cần bất kì sự hướng dẫn nào của người thân.",
+        "D": "Những người chậm phát triển trí tuệ thường không thể độc lập đảm bảo được cuộc sống của chính mình mà cần được người khác giúp đỡ nhiều hơn bình thường."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 6.1.1.2: Trên thực tế, những người chậm trí tuệ thường không độc lập đảm bảo cuộc sống của mình; họ cần được giúp đỡ nhiều hơn so với bình thường.",
+      "difficulty": "easy"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Phân biệt bản chất của 'chậm phát triển trí tuệ' (thiểu năng) và 'bệnh mất trí' (sa sút/tổn thương trí tuệ) dưới góc độ bệnh lí.",
+      "expected_answer": "Dưới góc độ bệnh lí, chậm phát triển trí tuệ (chậm khôn hay thiểu năng) không phải là một quá trình bệnh lí đang diễn tiến mà là một trạng thái bệnh lí tĩnh tại – tức là kết quả (di chứng) của một quá trình bệnh nào đó đã kết thúc trong quá khứ, làm sự phát triển nhân cách và trí tuệ bị trì trệ; mức độ bệnh lí không tăng thêm mà trí tuệ của đa số trẻ vẫn phát triển trong chừng mực nhất định. Ngược lại, bệnh mất trí (sa sút trí tuệ) là một quá trình bệnh lí đang tiến triển, có chiều hướng ngày càng tăng nặng nếu không được điều trị kịp thời.",
+      "explanation": "Nắm vững sự khác biệt giữa 'trạng thái bệnh lí tĩnh tại, có thể phát triển thêm' (chậm phát triển trí tuệ) và 'quá trình bệnh lí tăng dần' (mất trí) là cơ sở để khẳng định vai trò giáo dục đối với trẻ chậm phát triển."
+    },
+    {
+      "id": 2,
+      "question": "Trình bày 3 tiêu chuẩn chẩn đoán trẻ chậm phát triển trí tuệ theo phân loại của AAMR và DSM (Luckasson, 1992).",
+      "expected_answer": "Theo Luckasson (1992), một đứa trẻ được xác định là chậm phát triển trí tuệ khi hội đủ 3 dấu hiệu:\n1. Hoạt động trí tuệ dưới mức trung bình: Chỉ số IQ đạt từ 70 đến 75 hoặc thấp hơn.\n2. Bị thiếu hụt hoặc khiếm khuyết ít nhất 2 trong 10 lĩnh vực hành vi thích ứng: giao tiếp, tự phục vụ, cuộc sống gia đình, kỹ năng xã hội, sử dụng tiện ích cộng đồng, tự định hướng, chăm sóc sức khỏe và bảo vệ, kỹ năng học đường, giải trí và lao động.\n3. Giới hạn tuổi sinh học: Hiện tượng chậm phát triển trí tuệ xuất hiện trước 18 tuổi.",
+      "explanation": "Bộ 3 tiêu chí của AAMR & DSM khắc phục hạn chế của việc chỉ dùng đơn độc điểm IQ hoặc chỉ dùng đơn độc khả năng thích ứng xã hội."
+    },
+    {
+      "id": 3,
+      "question": "Nêu 4 mức độ chậm phát triển trí tuệ theo thang Stanford-Binet, Wechsler cùng tỷ lệ phần trăm trong nhóm trẻ chậm trí tuệ và giai đoạn nhận thức tương ứng theo J. Piaget.",
+      "expected_answer": "1. Chậm nhẹ (IQ Stanford-Binet 52–69; Wechsler 55–69): chiếm 90% số trẻ chậm (2% dân số), tương đương giai đoạn thao tác cụ thể của J. Piaget (học được tới lớp 6/12).\n2. Chậm vừa (IQ Stanford-Binet 36–51; Wechsler 40–54): chiếm 6% số trẻ chậm (0,13% dân số), tương đương giai đoạn tư duy tiền thao tác (4–7 tuổi), nhận thức theo cơ chế 'thử và sai'.\n3. Chậm nặng (IQ Stanford-Binet 20–35; Wechsler 25–39): chiếm 3% số trẻ chậm (0,06% dân số), tương đương mức trí tuệ tượng trưng (2–4 tuổi), tư duy xếp kề, tự kỷ trung tâm.\n4. Chậm rất nặng (IQ Stanford-Binet < 20; Wechsler < 25): chiếm 1% số trẻ chậm (0,02% dân số), tương đương giai đoạn giác – động, phụ thuộc hoàn toàn vào người khác.",
+      "explanation": "Bảng đối chiếu này giúp nhà sư phạm dự báo mức độ hành vi, khả năng học văn hóa và tiềm năng lao động nghề nghiệp của từng mức độ."
+    },
+    {
+      "id": 4,
+      "question": "Giải thích nguồn gốc xã hội của 'cảm giác thiếu hụt' và vai trò của 'xu hướng bù trừ' trong nhân cách trẻ chậm phát triển trí tuệ theo A. Adler và L.X. Vưgôtxki.",
+      "expected_answer": "Theo L.X. Vưgôtxki, W. Stern và A. Adler, nhân cách trẻ chậm phát triển trí tuệ có 3 đặc trưng: nhân cách phát triển chậm, cảm giác thiếu hụt và xu hướng tích cực bù trừ. Cảm giác thiếu hụt không nảy sinh trực tiếp từ bản thân khiếm khuyết sinh học/trí tuệ, mà nảy sinh từ sự khó khăn khi thực hiện các chức năng xã hội và sự suy giảm vị thế xã hội của đứa trẻ do khiếm khuyết đó gây ra. Cảm giác thiếu hụt và xu hướng bù trừ là quy luật tâm lí cơ bản tạo ra sức mạnh tiềm tàng giúp trẻ chậm phát triển không phải là đứa trẻ thụ động mà là chủ thể tích cực.",
+      "explanation": "Hiểu đúng nguồn gốc xã hội của cảm giác thiếu hụt giúp nhà giáo dục tôn trọng vị thế của trẻ và kích hoạt cơ chế tích cực bù trừ."
+    },
+    {
+      "id": 5,
+      "question": "Trình bày đặc trưng về mối quan hệ giữa vận động và trí tuệ (theo M.O. Gurevich, T. Heller) và giữa trí tuệ thực hành với trí tuệ ngôn ngữ (theo thực nghiệm kiểu W. Köhler) ở trẻ chậm phát triển.",
+      "expected_answer": "- Quan hệ vận động và trí tuệ (Gurevich, Heller): Giữa chậm vận động và chậm trí tuệ có sự độc lập tương đối (nhiều trẻ trí tuệ chậm nhưng vận động vẫn bình thường) và yếu tố vận động có khả năng bù trừ cao hơn trí tuệ.\n- Quan hệ trí tuệ thực hành và trí tuệ ngôn ngữ: Thực nghiệm theo phương pháp W. Köhler cho thấy thành phần trí tuệ thực hành của trẻ chậm phát triển ít bị ảnh hưởng hơn so với trí tuệ ngôn ngữ.\n- Ý nghĩa ứng dụng: Cần tách riêng yếu tố vận động và trí tuệ thực hành để tích cực huấn luyện, dùng chúng làm phương tiện bù trừ cho trí tuệ và hình thành kỹ năng lao động phục vụ, nghề nghiệp.",
+      "explanation": "Đây là cơ sở khoa học trực tiếp cho việc định hướng giáo dục thể chất, trò chơi vận động và dạy nghề thực hành cho trẻ chậm phát triển trí tuệ."
+    },
+    {
+      "id": 6,
+      "question": "Theo L.X. Vưgôtxki (1997), vì sao bản chất cấu trúc trí tuệ của trẻ chậm phát triển là sự tách rời giữa phương diện tự nhiên và phương diện văn hóa?",
+      "expected_answer": "Theo L.X. Vưgôtxki (1997), bản chất văn hóa của sự phát triển tâm lí là việc trẻ nắm vững các công cụ tâm lí văn hóa (đặc biệt là ngôn ngữ) thông qua các chức năng tâm lí tự nhiên để hình thành hoạt động trí tuệ cấp cao. Ở trẻ chậm phát triển trí tuệ, các chức năng tâm lí tự nhiên vẫn còn ở dạng nguyên thủy, trong khi vốn ngôn ngữ rất ít ỏi và trẻ không có khả năng sử dụng ngôn ngữ một cách đầy đủ, có ý thức vào hoạt động trí tuệ. Do đó, trẻ không đạt tới tư duy thao tác hình thức cấp cao; sự tách rời giữa thành phần tự nhiên với văn hóa và sự hạn chế của thành phần văn hóa là bản chất trí tuệ của trẻ chậm phát triển.",
+      "explanation": "Luận điểm kinh điển của L.X. Vưgôtxki làm sáng tỏ vai trò quyết định của công cụ tâm lí văn hóa (ngôn ngữ) trong cấu trúc trí tuệ."
+    },
+    {
+      "id": 7,
+      "question": "Phân tích 'quy luật thời điểm tác động' của các tác nhân gây chậm phát triển trí tuệ đối với sự phát triển của bào thai và trẻ nhỏ.",
+      "expected_answer": "Mức độ tác hại của các tác nhân gây chậm trí tuệ không chỉ phụ thuộc vào tính chất, cường độ và thời gian tác động, mà phụ thuộc chủ yếu vào thời điểm tác động trong quá trình phát triển:\n- Tác nhân gây chậm xuất hiện càng sớm trong quá trình phát triển của bào thai và trẻ sơ sinh – đặc biệt vào giai đoạn hệ thần kinh và các cơ quan bắt đầu hình thành và đang được biệt hóa với tốc độ cấu trúc hình thái và trao đổi sinh hóa nhanh nhất – thì hậu quả chậm trí tuệ càng toàn diện và nghiêm trọng.\n- Khi thai nhi đã trưởng thành hoặc khi trẻ đã qua giai đoạn hài nhi, các tác động ngoại sinh không còn ảnh hưởng toàn diện nữa mà sự tổn thương mang tính khu trú rõ hơn, mức độ nguy hại thấp hơn.",
+      "explanation": "Quy luật này giải thích tại sao hai tác nhân khác nhau tác động cùng thời điểm có thể gây hậu quả giống nhau, và cùng một tác nhân tác động ở các giai đoạn khác nhau lại gây hậu quả khác nhau."
+    },
+    {
+      "id": 8,
+      "question": "Nêu 4 nguyên tắc cơ bản và 4 hình thức tổ chức giáo dục xã hội trong chăm sóc, giáo dục trẻ chậm phát triển trí tuệ.",
+      "expected_answer": "- Bốn nguyên tắc cơ bản: (1) Nguyên tắc cá thể hóa trong chẩn đoán, chăm sóc và giáo dục; (2) Nguyên tắc phát triển hướng vào khả năng bù trừ của trí tuệ (theo nguyên lí dạy học phát triển của L.X. Vưgôtxki); (3) Nguyên tắc bình thường hóa (trên 3 phương diện: tôn trọng trẻ, phù hợp đặc điểm – lứa tuổi, tạo cơ hội tham gia cuộc sống bình thường); (4) Nguyên tắc hội nhập (hội nhập thân thể, hội nhập chức năng, hội nhập xã hội).\n- Bốn hình thức tổ chức giáo dục xã hội: (1) Các trường chuyên biệt dạy trẻ chậm phát triển; (2) Các lớp chuyên trong trường bình thường (lớp hội nhập); (3) Giáo dục tương hỗ (học lớp thường kết hợp lớp chuyên biệt hỗ trợ thêm cho trẻ chậm nhẹ); (4) Giáo dục bình thường (học chung hoàn toàn trong lớp thường với phương pháp cá biệt hóa).",
+      "explanation": "Hệ thống nguyên tắc và hình thức tổ chức này đảm bảo quyền được phát triển tối đa và hòa nhập cộng đồng của trẻ chậm phát triển trí tuệ."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phân Tích Các Quan Niệm Chẩn Đoán và Phân Loại Mức Độ Chậm Phát Triển Trí Tuệ",
+      "problem": "Hãy phân tích toàn diện cơ sở lí luận và thực tiễn trong việc xác định và phân loại trẻ chậm phát triển trí tuệ:\n1. Phân biệt khái niệm chậm phát triển trí tuệ dưới góc độ bệnh lí (so với bệnh mất trí) và dưới góc độ tâm lí – xã hội.\n2. Phân tích ưu điểm, hạn chế của các tiêu chí xác định đơn lẻ (theo IQ, theo khả năng thích ứng, theo nguyên nhân của A.R. Luria) và làm rõ tính ưu việt của bộ 3 tiêu chuẩn tổng hợp theo AAMR & DSM (Luckasson, 1992).\n3. Đối chiếu 4 mức độ chậm phát triển trí tuệ (Nhẹ, Vừa, Nặng, Rất nặng) theo thang Stanford-Binet/Wechsler, giai đoạn phát triển trí tuệ của J. Piaget và bảng tiềm năng theo độ tuổi của Kisler.",
+      "solution_steps": [
+        "Bước 1: Bản chất bệnh lí và tâm lí – xã hội của chậm phát triển trí tuệ\n- *Khái niệm:* Chậm phát triển trí tuệ (còn gọi là chậm khôn hay thiểu năng theo Nguyễn Khắc Viện, 1991) là sự thấp kém về trí tuệ so với các thành viên khác trong xã hội, biểu hiện ở việc không hoàn thành được công việc trí óc theo lứa tuổi và hạn chế trong thích ứng xã hội.\n- *Phương diện bệnh lí:* Cần phân biệt rõ chậm phát triển trí tuệ với bệnh mất trí (sa sút trí tuệ). Chậm phát triển trí tuệ là một **trạng thái bệnh lí tĩnh tại** (di chứng của quá trình bệnh trong quá khứ), mức độ bệnh lí không tăng thêm và đa số trẻ vẫn tiếp tục phát triển trong chừng mực nhất định; còn mất trí là một **quá trình bệnh lí tiến triển tăng dần**.\n- *Phương diện tâm lí – xã hội:* Mang tính lịch sử – văn hóa – xã hội. Điểm trắc nghiệm là khái niệm thống kê – xác suất, còn khả năng thích ứng phụ thuộc đặc trưng văn hóa cộng đồng. Một trẻ có thể bị coi là chậm ở cộng đồng này nhưng lại thích ứng tốt ở cộng đồng khác.",
+        "Bước 2: Đánh giá các tiêu chí chẩn đoán và tiêu chuẩn tổng hợp AAMR & DSM\n- *Theo chỉ số IQ (< 70):* Khách quan, đơn giản, phân loại nhanh nhưng không phải lúc nào cũng phản ánh đúng năng lực thực và khả năng thích ứng (nhất là với trẻ thuộc văn hóa khác nhau hoặc hoàn cảnh kinh tế – xã hội khó khăn).\n- *Theo khả năng thích ứng:* Phản ánh năng lực sống độc lập thực tế nhưng rất khó xác định chuẩn thích ứng và dễ nhầm lẫn với sự kém thích ứng do **các yếu tố phi trí tuệ** (sai lầm giáo dục gia đình, hụt hẫng tình cảm).\n- *Theo nguyên nhân bệnh sinh (A.R. Luria, 1966):* Nhấn mạnh tổn thương não nặng từ bào thai hoặc những tháng đầu đời; có giá trị định hướng điều trị – giáo dục nhưng nguyên nhân quá đa dạng và nhiều nguyên nhân phi thực thể rất khó tìm.\n- *Tiêu chuẩn tổng hợp AAMR & DSM (Luckasson, 1992):* Khắc phục các phiến diện trên bằng cách kết hợp 3 điều kiện bắt buộc: (1) IQ $\\le 70 - 75$; (2) Khiếm khuyết ít nhất 2 trong 10 lĩnh vực hành vi thích ứng; (3) Khởi phát trước 18 tuổi.",
+        "Bước 3: Phân tích hệ thống 4 mức độ chậm phát triển trí tuệ\n- *Chậm nhẹ (IQ 52/55–69, chiếm 90% trẻ chậm, 2% dân số):* Đạt mức **thao tác cụ thể** của Piaget (tư duy lôgic trên vật liệu cụ thể, không tư duy trừu tượng bằng khái niệm); học tới lớp 6/12; trưởng thành có kỹ năng nghề nghiệp và sống độc lập nhưng cần hỗ trợ khi gặp sức ép kinh tế – tình cảm.\n- *Chậm vừa (IQ 36/40–51/54, chiếm 6% trẻ chậm, 0,13% dân số):* Đạt mức **tiền thao tác (4–7 tuổi)** của Piaget; xây dựng khái niệm qua trải nghiệm bản thân, nhận thức theo cơ chế 'thử và sai'; đạt trình độ đầu tiểu học (lớp 3 khi 15–16 tuổi theo Kisler); làm được việc giản đơn có giám sát.\n- *Chậm nặng (IQ 20/25–35/39, chiếm 3% trẻ chậm, 0,06% dân số):* Đạt mức **trí tuệ tượng trưng (2–4 tuổi)**; ngôn ngữ tối giản, tư duy xếp kề ('cái này đi với cái kia'), kỹ năng dựa vào trình tự huấn luyện máy móc tự động (dễ hoảng hốt khi đứt mắt xích), còn ở trình độ **tự kỷ trung tâm**.\n- *Chậm rất nặng (IQ < 20/25, chiếm 1% trẻ chậm, 0,02% dân số):* Tương đương giai đoạn **giác – động** của Piaget; không tự phục vụ được, phụ thuộc hoàn toàn vào sự chăm sóc và giám sát của người khác."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Phân Tích Bốn Đặc Trưng Tâm Lí Cốt Lõi của Trẻ Chậm Phát Triển Trí Tuệ và Ý Nghĩa Sư Phạm",
+      "problem": "Dựa trên các công trình nghiên cứu của L.X. Vưgôtxki, A. Adler, M.O. Gurevich, T. Heller và W. Köhler được trình bày trong Chương 6:\n1. Phân tích sâu 4 đặc trưng tâm lí cốt lõi trong cấu trúc nhân cách và cấu trúc trí tuệ của trẻ chậm phát triển trí tuệ.\n2. Làm rõ cơ chế hình thành 'cảm giác thiếu hụt' và 'xu hướng bù trừ' theo quan điểm của A. Adler.\n3. Từ mỗi đặc trưng tâm lí, hãy rút ra các kết luận sư phạm trực tiếp làm cơ sở cho việc chăm sóc, dạy học và huấn luyện nghề nghiệp cho trẻ chậm phát triển trí tuệ.",
+      "solution_steps": [
+        "Bước 1: Đặc trưng cấu trúc nhân cách và quy luật bù trừ (Vưgôtxki, Stern, Gutler, Adler)\n- *Cấu trúc nhân cách khác căn bản trẻ thường:* Theo L.X. Vưgôtxki, trẻ chậm phát triển không phải chỉ bị thiếu hụt định lượng riêng phần trí tuệ, mà toàn bộ các chức năng tâm lí trong nhân cách đều phát triển theo kiểu khác, hợp thành cấu trúc tâm lí ở trình độ thấp với nhịp độ chậm.\n- *Cảm giác thiếu hụt và xu hướng bù trừ (A. Adler):* Khiếm khuyết hình thái và chức năng làm trẻ gặp khó khăn khi thực hiện chức năng xã hội, dẫn đến **suy giảm vị thế xã hội** – chính vị thế xã hội bị suy giảm này (chứ không phải bản thân khuyết tật sinh học trực tiếp) làm nảy sinh *cảm giác thiếu hụt* và kích hoạt *xu hướng tích cực bù trừ*. Nhờ đó, trẻ không phải là thực thể thụ động mà có sức mạnh tiềm tàng vươn lên.",
+        "Bước 2: Đặc trưng về vận động, trí tuệ thực hành và sự tách rời tự nhiên – văn hóa\n- *Quan hệ độc lập tương đối và tác động lẫn nhau giữa vận động và trí tuệ (Gurevich, Heller):* Nhiều trẻ trí tuệ bị chậm nhưng vận động vẫn phát triển bình thường; đồng thời yếu tố vận động có khả năng bù trừ cao hơn hẳn so với trí tuệ.\n- *Mức độ và nhịp độ chậm không đồng đều giữa các thành phần (Pechecon, Pinche, Thomson, Köhler):* Hai dạng 'chậm hiểu' và 'chậm hành động' không nhất thiết trùng nhau. Thực nghiệm theo phương pháp W. Köhler chứng minh **trí tuệ thực hành** của trẻ chậm phát triển ít bị tổn thương hơn nhiều so với **trí tuệ ngôn ngữ**.\n- *Sự tách rời giữa phương diện tự nhiên và văn hóa (L.X. Vưgôtxki, 1997):* Các chức năng tâm lí tự nhiên của trẻ còn ở dạng nguyên thủy, trong khi công cụ tâm lí văn hóa (đặc biệt là ngôn ngữ) rất nghèo nàn và trẻ không biết dùng ngôn ngữ một cách có ý thức vào hoạt động trí tuệ, khiến trẻ không thể đạt tới tư duy thao tác hình thức cấp cao.",
+        "Bước 3: Kết luận sư phạm vận dụng vào chăm sóc và giáo dục\n- Khai thác sức mạnh tiềm tàng của xu hướng bù trừ thông qua việc tôn trọng trẻ, nâng cao vị thế xã hội và xóa bỏ mặc cảm tự ti.\n- Tách riêng yếu tố **vận động** và thành phần **trí tuệ thực hành** để tích cực rèn luyện thông qua các trò chơi vận động, thể dục, tạo hình, vẽ và lao động thủ công, lấy đó làm đòn bẩy bù trừ cho sự thiếu hụt trí tuệ ngôn ngữ và hình thành kỹ năng tự phục vụ, nghề nghiệp.\n- Kiên trì rèn luyện ngôn ngữ gắn liền với hành động vật chất cụ thể bên ngoài để từng bước kết nối chức năng tự nhiên với công cụ văn hóa."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hệ Thống Hóa Nguyên Nhân Gây Chậm Phát Triển Trí Tuệ và Quy Luật Thời Điểm Tác Động",
+      "problem": "Hãy trình bày hệ thống các nguyên nhân gây chậm phát triển trí tuệ ở trẻ em và phân tích quy luật tác động của chúng:\n1. Phân loại chi tiết các tác nhân sinh học (trước khi sinh, trong khi sinh, sau khi sinh) và các tác nhân môi trường xã hội – gia đình; chỉ rõ mối tương quan thống kê giữa hai nhóm nguyên nhân này với mức độ nặng/nhẹ của tật chậm trí tuệ.\n2. Phân tích cơ sở sinh học và nội dung của 'Quy luật thời điểm tác động' trong quá trình phát triển của bào thai và trẻ nhỏ.\n3. Đề xuất các giải pháp phòng ngừa y tế – xã hội – giáo dục nhằm giảm thiểu tỷ lệ trẻ chậm phát triển trí tuệ.",
+      "solution_steps": [
+        "Bước 1: Hệ thống hóa các tác nhân sinh học và môi trường xã hội – gia đình\n- *Tương quan thống kê:* Các trường hợp **chậm nặng và rất nặng** thường bắt nguồn từ **tác nhân sinh học**; trong khi đa số trường hợp **chậm nhẹ** (chiếm 90%) bắt nguồn từ **yếu tố môi trường xã hội và gia đình**.\n- *Tác nhân sinh học trước khi sinh:* (a) Nội sinh: Lỗi nhiễm sắc thể (Down, Cri-du-chat, Turner – nhận biết được bằng mắt thường); Lỗi gen thiếu men chuyển hóa (PKU, Sanfilippo, xơ cứng dạng củ, gãy NST, Rett, Williams-Beuren, Angelman, Prader-Willi); Rối loạn đa yếu tố (tràn dịch màng não, tật đầu nhỏ, rối loạn tuyến giáp trạng). (b) Ngoại sinh khi mang thai: Lây nhiễm (sởi Rubella, vi rút cự bào CMV, giang mai); Nhiễm độc (thuốc chống động kinh, chất độc màu da cam, kháng thể Rh, phóng xạ).\n- *Tác nhân sinh học trong khi sinh:* Thiếu oxy não do đẻ lâu/nhau thai (trẻ không thở, không khóc ngay); tổn thương não do đẻ khó hoặc dùng kẹp phoóc-xép (forceps); đẻ non hoặc thiếu trọng lượng.\n- *Tác nhân sinh học sau khi sinh:* Di chứng viêm nhiễm (viêm não, viêm màng não, sởi, thủy đậu, ho gà); chấn thương não (ngã, ngạt, u não, phẫu thuật); suy dinh dưỡng nặng làm suy giảm chức năng não.\n- *Tác nhân môi trường xã hội – gia đình:* Thiếu chăm sóc y tế – thể chất; thiếu thốn/hẫng hụt tình cảm xã hội; giáo dục gia đình sai lệch (bao bọc hoặc bỏ rơi quá mức); ít cơ hội đi học; sống cách li xã hội.",
+        "Bước 2: Phân tích quy luật thời điểm tác động của các tác nhân gây chậm\n- *Cơ sở sinh học:* Sự trưởng thành về hình thái và hóa sinh của cơ thể và hệ thần kinh diễn ra với cường độ không đều qua các thời kì. Do đó: (1) Hai tác nhân khác nhau tác động cùng một thời điểm có thể gây mức chậm như nhau; (2) Cùng một tác nhân tác động vào các giai đoạn khác nhau sẽ gây mức ảnh hưởng khác nhau.\n- *Nội dung quy luật:* Mức độ chậm trí tuệ được quy định chủ yếu bởi **thời điểm tác động**. Tác nhân xuất hiện **càng sớm** trong thời kì bào thai và sơ sinh – đặc biệt vào lúc hệ thần kinh và các cơ quan bắt đầu hình thành và đang được **biệt hóa mạnh mẽ nhất** – thì tổn thương càng lan tỏa toàn diện và nghiêm trọng. Khi thai nhi đã trưởng thành hoặc trẻ đã qua tuổi hài nhi, tác động ngoại sinh chỉ gây tổn thương khu trú và mức nguy hại thấp hơn.",
+        "Bước 3: Các giải pháp phòng ngừa tổng hợp\n- *Trước và trong khi mang thai:* Tư vấn di truyền tiền hôn nhân, sàng lọc trước sinh, tiêm phòng Rubella, bảo vệ thai phụ khỏi hóa chất độc hại/phóng xạ, kiểm soát bất đồng nhóm máu Rh.\n- *Trong và sau khi sinh:* Nâng cao an toàn sản khoa (tránh ngạt, hạn chế sang chấn forceps), tiêm chủng đầy đủ phòng viêm não/màng não/sởi, đảm bảo dinh dưỡng cho trẻ nhỏ.\n- *Về gia đình và xã hội:* Xây dựng môi trường gia đình giàu tình cảm, giao tiếp sớm, xóa bỏ tình trạng bỏ rơi hoặc bao bọc quá mức, mở rộng cơ hội đến trường cho trẻ em vùng khó khăn."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Thiết Kế Chiến Lược Chăm Sóc, Giáo Dục Hòa Nhập và Vận Dụng Quy Trình P.Ya. Galperin cho Trẻ Chậm Phát Triển Trí Tuệ",
+      "problem": "Bạn là chuyên gia tâm lí học đường và giáo dục đặc biệt đang tư vấn cho một trường tiểu học có tiếp nhận học sinh chậm phát triển trí tuệ mức nhẹ và vừa:\n1. Phân tích nội dung và mối liên hệ giữa 4 nguyên tắc cơ bản trong chăm sóc, giáo dục trẻ chậm phát triển trí tuệ (Cá thể hóa, Hướng vào khả năng bù trừ, Bình thường hóa, Hội nhập).\n2. Tư vấn cách lựa chọn mô hình tổ chức giáo dục xã hội phù hợp (Trường chuyên biệt, Lớp hội nhập, Giáo dục tương hỗ, Giáo dục bình thường) kết hợp với giáo dục gia đình.\n3. Hướng dẫn giáo viên vận dụng quy trình hình thành hành động trí tuệ theo giai đoạn của P.Ya. Galperin để dạy đọc, viết và làm toán cho trẻ chậm phát triển trí tuệ.",
+      "solution_steps": [
+        "Bước 1: Quán triệt 4 nguyên tắc cơ bản trong chăm sóc và giáo dục\n- *Nguyên tắc cá thể hóa:* Tôn trọng đặc điểm riêng của từng trẻ trong suốt quá trình chẩn đoán, chăm sóc và giáo dục ở cả môi trường đặc biệt lẫn hòa nhập.\n- *Nguyên tắc phát triển hướng vào khả năng bù trừ (L.X. Vưgôtxki):* Không bù đắp định lượng cơ học vào phần bị hỏng mà tác động mạnh vào các thành phần lành lặn hoặc bị nhẹ hơn (vận động, trí tuệ thực hành) để thúc đẩy chúng phát triển, qua đó bù đắp phần thiếu hụt.\n- *Nguyên tắc bình thường hóa:* Tạo mô hình và điều kiện sống hàng ngày gần tới mức tối đa với trẻ bình thường trên 3 phương diện: (1) Tôn trọng trẻ; (2) Phù hợp đặc điểm và lứa tuổi; (3) Tạo cơ hội tham gia cuộc sống bình thường (nhằm xóa bỏ mặc cảm tự ti).\n- *Nguyên tắc hội nhập:* Chuyển trọng tâm từ việc săm soi khiếm khuyết của trẻ sang việc cải tạo điều kiện môi trường để trẻ hội nhập qua 3 mức độ: **hội nhập thân thể -> hội nhập chức năng -> hội nhập xã hội**.",
+        "Bước 2: Phối hợp giữa giáo dục gia đình và 4 hình thức tổ chức xã hội\n- *Tại gia đình:* Bồi dưỡng cho cha mẹ kiến thức tâm – sinh lí trẻ chậm phát triển và kỹ năng chăm sóc, giáo dục thông qua các lớp tập huấn chuyên môn.\n- *Lựa chọn mô hình trường lớp linh hoạt theo mức độ chậm:*\n  + Trẻ chậm nặng/vừa sâu: Học tại **Trường chuyên biệt** hoặc **Các lớp chuyên (lớp hội nhập)** đặt trong trường phổ thông bình thường.\n  + Trẻ chậm nhẹ: Áp dụng mô hình **Giáo dục tương hỗ** (trẻ học chính khóa ở lớp bình thường, đồng thời trước và trong quá trình học được học bổ trợ thêm tại các lớp chuyên biệt) hoặc **Giáo dục bình thường** (học chung hoàn toàn trong lớp thường với phương pháp cá biệt hóa của giáo viên và sự đồng cảm của bạn bè, phụ huynh).",
+        "Bước 3: Vận dụng phương pháp của P.Ya. Galperin trong dạy học đọc, viết và làm toán\n- *Tổ chức hoạt động nền tảng:* Triển khai thông qua các trò chơi vận động, hoạt động tạo hình, vẽ và thể dục để phát huy thế mạnh vận động – thực hành của trẻ.\n- *Quy trình 5 bước của P.Ya. Galperin:* (1) Lập cơ sở định hướng của hành động; (2) Hành động với vật thật hay vật chất hóa (que tính, chữ cái nổi, mẫu vật); (3) Hành động với ngôn ngữ nói to bên ngoài không còn vật thật; (4) Hành động với ngôn ngữ nói thầm cho mình nghe; (5) Hành động rút gọn bên trong óc.\n- *Yêu cầu sư phạm cốt lõi:* Giáo viên phải hết sức kiên trì và tuân thủ chặt chẽ trình tự từng bước, **đặc biệt phải dừng lại thật lâu và rèn luyện thật vững chắc ở bước hành động vật chất bên ngoài** trước khi chuyển sang bước ngôn ngữ, giúp trẻ khắc phục sự tách rời giữa tự nhiên và văn hóa."
+      ]
+    }
+  ]
+}

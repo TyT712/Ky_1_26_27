@@ -124,6 +124,28 @@
         intro: 'Bài tập tự luận tổng hợp yêu cầu phân tích bản chất tâm lý lứa tuổi, đề xuất phương pháp giáo dục khoa học và giải quyết tình huống thực tiễn sư phạm.'
       }
     },
+    tam_ly_hoc_tri_tue: {
+      profile_name: 'cognitive_psychology',
+      theme: {
+        primary: '#c026d3',
+        secondary: '#0ea5e9',
+        accent: '#a855f7',
+        icon: '💡',
+        label: 'Tâm Lý Học Trí Tuệ & Nhận Thức'
+      },
+      short_answer: {
+        title: 'Luyện tập Trả lời ngắn & Khái niệm Tâm lý Trí tuệ',
+        intro: 'Tự định nghĩa khái niệm, trình bày quan điểm của từng tác giả hoặc mô hình cấu trúc trí tuệ trước khi bấm "Kiểm tra & Đối chiếu" để so sánh với đáp án chuẩn.',
+        label: 'Nhập câu trả lời / Quan điểm tác giả / Mô hình trí tuệ của bạn:',
+        placeholder: 'Gõ định nghĩa, quan điểm hoặc phân tích của bạn vào đây để tự rèn luyện...',
+        isMono: false
+      },
+      essay: {
+        badge: 'Tự luận & Phân tích trí tuệ',
+        title: 'Bài Tập Tự Luận & Tình Huống Phát Triển Trí Tuệ',
+        intro: 'Bài tập yêu cầu so sánh các thuyết, phân tích yếu tố tác động đến sự phát triển trí tuệ và đề xuất biện pháp chẩn đoán, giáo dục phù hợp.'
+      }
+    },
     giai_tich_1: {
       profile_name: 'mathematics_natural_science',
       theme: {
@@ -175,6 +197,7 @@
   COURSE_PROFILES.political_theory = COURSE_PROFILES.cnxhkh;
   COURSE_PROFILES.software_engineering = COURSE_PROFILES.cnpm;
   COURSE_PROFILES.pedagogical_psychology = COURSE_PROFILES.tam_ly_hoc_2;
+  COURSE_PROFILES.cognitive_psychology = COURSE_PROFILES.tam_ly_hoc_tri_tue;
   COURSE_PROFILES.mathematics_natural_science = COURSE_PROFILES.giai_tich_1;
   COURSE_PROFILES.general_academic = COURSE_PROFILES.default;
 

@@ -63,6 +63,7 @@ Semester Hub LMS được xây dựng theo phong cách **Modern Academic Bento &
   - 🏛️ **Chủ Nghĩa Xã Hội Khoa Học:** Rose - Amber (`#e11d48` / `#f59e0b`).
   - ⚙️ **Công Nghệ Phần Mềm:** Violet - Emerald (`#7c3aed` / `#10b981`).
   - 🧠 **Tâm Lý Học 2:** Teal - Coral (`#0d9488` / `#f97316`).
+  - 💡 **Tâm Lý Học Trí Tuệ:** Fuchsia - Sky (`#c026d3` / `#0ea5e9`).
   - 📐 **Giải Tích 1 / Cơ bản:** Blue - Indigo (`#2563eb` / `#6366f1`).
 
 ### 2.2. Cơ Chế Trắc Nghiệm Tuần Tự Từng Câu (Sequential Step-by-Step Quiz Engine)
@@ -110,7 +111,8 @@ Trợ lý học thuật giúp ôn thi và làm bài tập bám sát 100% đề c
 | 2 | **CNXHKH** | Chủ Nghĩa Xã Hội Khoa Học | 7 chương | 210 câu | 56 câu | 28 bài | Tích hợp vào 7 chương | Rose - Amber 🏛️ |
 | 3 | **CNPM** | Công Nghệ Phần Mềm | 5 chương | 150 câu | 40 câu | 20 bài | Tích hợp vào 5 chương | Violet - Emerald ⚙️ |
 | 4 | **TLH2** | Tâm Lý Học 2 (Lứa Tuổi & Sư Phạm) | 5 chương | 150 câu | 40 câu | 20 bài | Tích hợp vào 5 chương | Teal - Coral 🧠 |
-| **Tổng cộng** | | | **28 chương** | **841 câu** | **224 câu** | **112 bài** | **Toàn diện 100%** | **Chuẩn hóa Modern Bento** |
+| 5 | **TLHTT** | Tâm Lý Học Trí Tuệ (Phan Trọng Ngọ) | 7 chương | 700 câu | 56 câu | 28 bài | Ghi chép chuẩn Cornell | Fuchsia - Sky 💡 |
+| **Tổng cộng** | | | **35 chương** | **1.541 câu** | **280 câu** | **140 bài** | **Toàn diện 100%** | **Chuẩn hóa Modern Bento** |
 
 ---
 

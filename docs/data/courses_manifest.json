@@ -464,6 +464,120 @@
    "ui_profile": "pedagogical_psychology"
   },
   {
+   "id": "tam_ly_hoc_tri_tue",
+   "code": "TLHTT",
+   "title": "Tâm Lý Học Trí Tuệ",
+   "description": "Các hướng tiếp cận trí tuệ, mô hình cấu trúc (Spearman, Guilford, Sternberg, Gardner), sự phát triển thao tác trí tuệ (Piaget, Vygotsky, Galperin), yếu tố tác động, phương pháp đo lường IQ, trẻ chậm phát triển và trực giác phương Đông. Lý thuyết chuẩn Cornell & 700 câu trắc nghiệm chuyên sâu.",
+   "status": "active",
+   "ui_profile": "cognitive_psychology",
+   "books": [
+    {
+     "id": "giao_trinh_tam_ly_hoc_tri_tue",
+     "title": "Giáo Trình Tâm Lý Học Trí Tuệ - PGS.TS. Phan Trọng Ngọ (Chương 1 - 7)",
+     "chapters": [
+      {
+       "id": "chuong_1",
+       "number": 1,
+       "title": "Một số hướng tiếp cận trí tuệ trong tâm lí học",
+       "full_title": "Chương 1: Một số hướng tiếp cận trí tuệ trong tâm lí học",
+       "summary": "Ghi chép Cornell về 7 hướng tiếp cận: Liên tưởng & Würzburg, Hành vi cổ điển & mới (S-S, TOTE), Sinh học - di truyền, Gestalt (Insight), Phát sinh trí tuệ (Piaget), Hoạt động (Vygotsky, Leontiev, Galperin) và Lý thuyết thông tin.",
+       "theory": "data/tam_ly_hoc_tri_tue/chuong_1_theory.md",
+       "exercises": "data/tam_ly_hoc_tri_tue/chuong_1_exercises.json",
+       "counts": {
+        "multiple_choice": 100,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_2",
+       "number": 2,
+       "title": "Cấu trúc của trí tuệ",
+       "full_title": "Chương 2: Cấu trúc của trí tuệ",
+       "summary": "Khái niệm & 4 đặc trưng trí tuệ; mô hình 2 thành phần (Spearman, Cattell, Hebb); mô hình đa nhân tố (Thurstone, Guilford 120 yếu tố, Sternberg 3 thành phần, Perkins) và phân tích đơn vị (Vygotsky, đa trí tuệ H. Gardner).",
+       "theory": "data/tam_ly_hoc_tri_tue/chuong_2_theory.md",
+       "exercises": "data/tam_ly_hoc_tri_tue/chuong_2_exercises.json",
+       "counts": {
+        "multiple_choice": 100,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_3",
+       "number": 3,
+       "title": "Sự hình thành và phát triển trí tuệ qua các giai đoạn lứa tuổi",
+       "full_title": "Chương 3: Sự hình thành và phát triển trí tuệ qua các giai đoạn lứa tuổi",
+       "summary": "Hành động và thao tác trí tuệ; cơ chế Đồng hóa - Điều ứng - Cân bằng và 4 giai đoạn của Piaget; lý thuyết hoạt động của Vygotsky - Leontiev và 5 bước hình thành hành động trí tuệ của Galperin; phân kỳ của Wallon, Elkonin và xã hội hóa trí tuệ.",
+       "theory": "data/tam_ly_hoc_tri_tue/chuong_3_theory.md",
+       "exercises": "data/tam_ly_hoc_tri_tue/chuong_3_exercises.json",
+       "counts": {
+        "multiple_choice": 100,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_4",
+       "number": 4,
+       "title": "Các yếu tố tác động tới sự phát triển trí tuệ cá nhân",
+       "full_title": "Chương 4: Các yếu tố tác động tới sự phát triển trí tuệ cá nhân",
+       "summary": "Biện chứng giữa Sinh học - Môi trường xã hội - Hoạt động chủ thể; 4 yếu tố của Piaget; vai trò của cảm xúc và Trí tuệ cảm xúc (EQ - Salovey, Goleman); mối quan hệ giữa dạy học và phát triển trí tuệ (ZPD, Bruner, Davydov).",
+       "theory": "data/tam_ly_hoc_tri_tue/chuong_4_theory.md",
+       "exercises": "data/tam_ly_hoc_tri_tue/chuong_4_exercises.json",
+       "counts": {
+        "multiple_choice": 100,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_5",
+       "number": 5,
+       "title": "Các phương pháp nghiên cứu trí tuệ trong tâm lí học",
+       "full_title": "Chương 5: Các phương pháp nghiên cứu trí tuệ trong tâm lí học",
+       "summary": "Phương pháp trắc nghiệm (4 tiêu chuẩn chuẩn hóa, tuổi trí khôn Binet, IQ của Stern & IQ độ lệch Wechsler, đường cong Gauss); cấu tạo & ưu nhược điểm của Test; phương pháp lâm sàng Piaget, thực nghiệm hình thành và trắc nghiệm René Gille.",
+       "theory": "data/tam_ly_hoc_tri_tue/chuong_5_theory.md",
+       "exercises": "data/tam_ly_hoc_tri_tue/chuong_5_exercises.json",
+       "counts": {
+        "multiple_choice": 100,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_6",
+       "number": 6,
+       "title": "Một số vấn đề về trẻ chậm phát triển trí tuệ",
+       "full_title": "Chương 6: Một số vấn đề về trẻ chậm phát triển trí tuệ",
+       "summary": "Khái niệm chậm phát triển trí tuệ, tiêu chuẩn chẩn đoán DSM/AAMR, 4 mức độ chậm phát triển (Nhẹ, Vừa, Nặng, Rất nặng); 4 đặc trưng tâm lý; nguyên nhân sinh học - xã hội theo thời điểm tác động; 4 nguyên tắc chăm sóc & giáo dục hòa nhập.",
+       "theory": "data/tam_ly_hoc_tri_tue/chuong_6_theory.md",
+       "exercises": "data/tam_ly_hoc_tri_tue/chuong_6_exercises.json",
+       "counts": {
+        "multiple_choice": 100,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_7",
+       "number": 7,
+       "title": "Một số vấn đề về trực giác trí tuệ trong truyền thống văn hóa phương Đông cổ đại",
+       "full_title": "Chương 7: Một số vấn đề về trực giác trí tuệ trong truyền thống văn hóa phương Đông cổ đại",
+       "summary": "Trực giác trí tuệ trong triết học phương Tây (Plato, Descartes, Spinoza, Fichte, Bergson); đặc trưng Đạo học phương Đông (Tam Tài, Vô minh vs Giác ngộ Bát nhã, 4 trạng thái Mandukya Upanishad, Bát thức Duy thức học) và phương pháp Thiền - Yoga.",
+       "theory": "data/tam_ly_hoc_tri_tue/chuong_7_theory.md",
+       "exercises": "data/tam_ly_hoc_tri_tue/chuong_7_exercises.json",
+       "counts": {
+        "multiple_choice": 100,
+        "short_answers": 8,
+        "essays": 4
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "giai_tich_1",
    "code": "GT1",
    "title": "Giải Tích 1",

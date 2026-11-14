@@ -1,0 +1,1398 @@
+{
+  "chapter_id": "chuong_3",
+  "chapter_title": "Chương 3: Sự hình thành và phát triển trí tuệ qua các giai đoạn lứa tuổi",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Theo Chương 3 của giáo trình Tâm lý học Trí tuệ, xung quanh vấn đề hình thành và phát triển trí tuệ trẻ em có hai nội dung cốt lõi nào cần phải tập trung giải quyết?",
+      "options": {
+        "A": "Cơ chế di truyền nguyên vẹn các chỉ số thông minh bẩm sinh từ cha mẹ và sự suy giảm trí nhớ ngắn hạn ở người trưởng thành sau tuổi sáu mươi.",
+        "B": "Phương pháp thiết kế các bài trắc nghiệm đo lường chỉ số IQ học đường và kỹ thuật huấn luyện phản xạ có điều kiện trên động vật thực nghiệm.",
+        "C": "Cơ chế phát sinh thao tác trí tuệ từ các hành động vật chất bên ngoài và sự phát triển trí tuệ của trẻ em qua các giai đoạn lứa tuổi khác nhau.",
+        "D": "Quá trình hình thành các phản xạ tự vệ bẩm sinh của hệ thần kinh trung ương và sự phân hóa chức năng cảm giác ở trẻ sơ sinh trong tháng đầu."
+      },
+      "correct_answer": "C",
+      "explanation": "Ngay phần mở đầu Chương 3, giáo trình chỉ rõ hai nội dung lớn cần giải quyết là: (1) cơ chế phát sinh thao tác trí tuệ từ các hành động vật chất bên ngoài và (2) sự phát triển trí tuệ của trẻ em qua các giai đoạn lứa tuổi."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Theo quan điểm của J. Piaget và nhiều nhà tâm lý học phát sinh, khái niệm 'Hành động' (Action) và 'Thao tác' (Operation) được phân biệt với nhau như thế nào?",
+      "options": {
+        "A": "Hành động là quá trình suy nghĩ thuần túy diễn ra trong đầu óc chủ thể, còn thao tác là các cử động cơ bắp tay chân tác động trực tiếp vào sự vật.",
+        "B": "Hành động là ứng xử vật chất của cá nhân đối với môi trường bên ngoài, còn thao tác là hành động đã được chuyển vào bên trong (nội hiện) và rút gọn.",
+        "C": "Hành động là các kỹ xảo tự động hóa không cần sự tham gia của ý thức, còn thao tác là hoạt động tổng thể luôn gắn liền với nhu cầu sinh học bẩm sinh.",
+        "D": "Hành động và thao tác là hai khái niệm hoàn toàn đồng nhất với nhau vì cả hai đều chỉ diễn ra trên các vật thật có thể quan sát trực tiếp từ bên ngoài."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo J. Piaget, hành động (Action) là các ứng xử thực bên ngoài đối với tác động của môi trường, còn thao tác (Operation) là hành động bên ngoài đã được nội hiện (chuyển vào bên trong) và rút gọn trên bình diện tinh thần."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Theo J. Piaget, đối tượng mà các 'thao tác trí tuệ' (Operation) tác động lên là gì và khác với đối tượng của 'hành động' (Action) ở điểm nào?",
+      "options": {
+        "A": "Đối tượng của thao tác là những công cụ lao động cơ khí nặng nhọc ngoài thực địa, trong khi đối tượng của hành động chỉ là các khái niệm triết học trừu tượng.",
+        "B": "Đối tượng của thao tác là các kích thích sinh lý tác động trực tiếp lên võng mạc mắt, còn đối tượng của hành động là các mệnh đề lôgic hình thức thuần túy.",
+        "C": "Đối tượng của thao tác và hành động đều chỉ giới hạn ở những đồ vật hữu hình mà trẻ em có thể cầm nắm, tháo lắp trực tiếp bằng đôi bàn tay của mình.",
+        "D": "Đối tượng của thao tác không phải là những sự vật vật chất có thực như của hành động mà là những hình ảnh, biểu tượng và các ký hiệu tâm lý ở bên trong."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình nêu rõ: theo J. Piaget, đối tượng của thao tác không phải là những sự vật có thực như của hành động mà là những hình ảnh, biểu tượng, ký hiệu; vì vậy thao tác là hành động tinh thần."
+    },
+    {
+      "id": 4,
+      "difficulty": "medium",
+      "question": "Theo J. Piaget, một hành động tinh thần bên trong chỉ thực sự trở thành 'thao tác trí tuệ' khi hội tụ đầy đủ ba tính chất đặc trưng cơ bản nào sau đây?",
+      "options": {
+        "A": "Tính bẩm sinh di truyền, tính bất biến tuyệt đối theo thời gian sinh học và tính độc lập tách biệt hoàn toàn giữa các thao tác riêng lẻ trong trí nhớ.",
+        "B": "Tính thuận nghịch (khả năng đảo ngược), tính bảo tồn (xác định cái bất biến trong cái biến đổi) và tính liên kết (kết hợp thành cấu trúc chỉnh thể).",
+        "C": "Tính trực giác cụ thể, tính duy kỷ tập trung vào một dấu hiệu nổi bật bề ngoài và tính xếp kề rời rạc các hình ảnh tri giác không có mối liên hệ lôgic.",
+        "D": "Tính phản xạ tự động không điều kiện, tính thử và sai máy móc theo kích thích môi trường và tính phụ thuộc tuyệt đối vào phần thưởng củng cố bên ngoài."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo J. Piaget, thao tác trí tuệ có 3 tính chất cốt lõi: thuận nghịch (khả năng đảo ngược), bảo tồn (xác định cái bất biến trong cái biến đổi) và liên kết (kết hợp các thao tác riêng thành cấu trúc, không tồn tại độc lập)."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Đối với J. Piaget, việc xác lập khái niệm 'cấu trúc thao tác' đóng vai trò làm tiêu chuẩn căn bản để phân biệt điều gì trong tâm lý học phát triển?",
+      "options": {
+        "A": "Làm tiêu chuẩn duy nhất để phân loại các kiểu khí chất bẩm sinh của con người thành bốn nhóm: linh hoạt, bình thản, nóng nảy và ưu tư trong giao tiếp.",
+        "B": "Làm tiêu chuẩn cốt lõi để phân biệt các trình độ phát triển trí tuệ của trẻ em gồm trí tuệ tiền thao tác, thao tác cụ thể và thao tác hình thức.",
+        "C": "Làm căn cứ pháp lý để phân chia học sinh thành nhóm có năng khiếu nghệ thuật bẩm sinh và nhóm chỉ có khả năng lao động chân tay giản đơn.",
+        "D": "Làm thước đo sinh lý học để xác định trọng lượng tuyệt đối của bộ não và số lượng tế bào thần kinh bị thoái hóa ở người trưởng thành sau tuổi bốn mươi."
+      },
+      "correct_answer": "B",
+      "explanation": "Đối với J. Piaget, thao tác (cấu trúc thao tác) chính là tiêu chuẩn để phân biệt các trình độ trí tuệ của trẻ em: trí tuệ tiền thao tác, thao tác trí tuệ cụ thể và trí tuệ thao tác hình thức."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "Khác với J. Piaget, A.N. Leontiev và các nhà tâm lý học hoạt động giải thích mối quan hệ giữa 'hành động' và 'thao tác' như thế nào trong cấu trúc chung của hoạt động?",
+      "options": {
+        "A": "Hành động là những phản xạ cơ bắp vô thức không có mục đích, còn thao tác là đơn vị tâm lý tối cao luôn chứa đựng động cơ và lý tưởng sống của cá nhân theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "B": "Hành động và thao tác đều không liên quan gì đến mục đích hay phương tiện công cụ mà chỉ là sự bộc lộ tự nhiên của các cấu trúc tiên nghiệm có sẵn.",
+        "C": "Hành động là quá trình tâm lý trọn vẹn chịu sự chi phối bởi một mục đích được ý thức, còn thao tác là phương tiện và cơ cấu kỹ thuật để đạt mục đích đó.",
+        "D": "Thao tác luôn ra đời trước như một hoạt động độc lập có ý thức, sau đó mới phân rã thành các hành động rời rạc không có sự kiểm soát của chủ thể."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo A.N. Leontiev, hành động trí tuệ là hành động tâm lý trọn vẹn chịu sự chi phối bởi một mục đích được ý thức; còn thao tác là phương tiện, cơ cấu kỹ thuật để triển khai đến mục đích đó và không có mục đích tâm lý riêng."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Theo A.N. Leontiev, quá trình hình thành một 'thao tác' từ 'hành động' diễn ra thông qua cơ chế tâm lý nào trong quá trình chủ thể học sử dụng công cụ?",
+      "options": {
+        "A": "Thao tác tự động xuất hiện ngay từ lúc trẻ mới chào đời nhờ cơ chế di truyền sinh học mà không cần trải qua bất kỳ quá trình luyện tập hành động nào.",
+        "B": "Ban đầu việc học sử dụng công cụ là một hành động có mục đích riêng, sau đó được luyện tập thuần thục, rút gọn, kỹ thuật hóa và chuyển vào hành động khác.",
+        "C": "Chủ thể chỉ cần quan sát người khác làm một lần duy nhất rồi bừng hiểu tức thời cấu trúc công cụ mà không cần thực hiện các hành động có mục đích.",
+        "D": "Hành động chuyển thành thao tác bằng cách xóa bỏ hoàn toàn mọi công cụ kỹ thuật và quay trở về với các phản xạ bản năng nguyên thủy của loài động vật trong toàn bộ tiến trình phát triển tâm lý cá nhân."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo A.N. Leontiev, thời kỳ đầu quá trình học sử dụng công cụ là hành động tâm lý có mục đích. Sau đó hành động được luyện tập, rút gọn, kỹ thuật hóa (tước bỏ mục đích riêng) và chuyển vào làm phương tiện cho một hành động khác."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Theo các nhà tâm lý học hoạt động, để phân loại và gọi tên các hình thức hành động cũng như thao tác tương ứng, người ta căn cứ vào những tiêu chí nào?",
+      "options": {
+        "A": "Căn cứ vào độ tuổi sinh học tuyệt đối của đứa trẻ và trọng lượng cơ thể được đo đạc định kỳ tại các cơ sở chăm sóc y tế học đường hàng năm.",
+        "B": "Căn cứ vào cường độ kích thích vật lý của môi trường tự nhiên và thời gian phản ứng tiềm tàng của các giác quan ngoại vi như thị giác và thính giác.",
+        "C": "Căn cứ vào các hình thức thể hiện của đối tượng (vật thật, ký hiệu của vật thật, ý nghĩ về vật) và các phương tiện công cụ mà hành động đó sử dụng.",
+        "D": "Căn cứ vào mức độ di truyền từ dòng họ nội ngoại và chỉ số thông minh thu được qua một lần làm bài trắc nghiệm duy nhất khi trẻ lên sáu tuổi."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình chỉ rõ: để phân loại và gọi tên hành động (và thao tác tương ứng), các nhà tâm lý học hoạt động căn cứ vào các hình thức thể hiện của đối tượng (vật thật, ký hiệu, ý nghĩ) và phương tiện mà nó sử dụng."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Trong cách phân loại của tâm lý học hoạt động, 'Hành động vật chất' và 'Hành động tinh thần' khác nhau như thế nào về mặt đối tượng và phương tiện?",
+      "options": {
+        "A": "Hành động vật chất sử dụng ngôn ngữ bên trong không lời làm công cụ, còn hành động tinh thần chỉ sử dụng các công cụ cơ khí để tác động lên vật thật.",
+        "B": "Cả hành động vật chất lẫn hành động tinh thần đều không sử dụng bất kỳ phương tiện công cụ nào mà chỉ dựa vào trực giác bẩm sinh của từng cá nhân.",
+        "C": "Hành động vật chất chỉ diễn ra trong giấc mơ của chủ thể, trong khi hành động tinh thần là sự vận động cơ bắp tay chân trực tiếp ngoài hiện trường.",
+        "D": "Hành động vật chất có đối tượng là vật thật với phương tiện là công cụ kỹ thuật, còn hành động tinh thần có đối tượng là dạng ký hiệu với phương tiện là ký hiệu ngôn ngữ."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo giáo trình: hành động vật chất có đối tượng là các dạng vật thật và phương tiện là công cụ kỹ thuật; hành động tinh thần có đối tượng là các dạng ký hiệu và phương tiện là ký hiệu ngôn ngữ."
+    },
+    {
+      "id": 10,
+      "difficulty": "hard",
+      "question": "Theo các nhà tâm lý học hoạt động, 'Hành động trí óc' (và thao tác trí óc tương ứng) có đối tượng và công cụ đặc trưng là gì?",
+      "options": {
+        "A": "Có đối tượng là các vật thể vật lý hữu hình trong không gian và công cụ là các sơ đồ hình vẽ được trình bày chi tiết trên giấy hoặc bảng đen theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "B": "Có đối tượng là các chuẩn mực pháp luật thành văn và công cụ là lời nói to phát thành tiếng đúng quy tắc ngữ pháp để giao tiếp với đám đông.",
+        "C": "Có đối tượng là ý nghĩ của chủ thể và công cụ là ngôn ngữ bên trong — tức những mảnh ký hiệu cơ động không lời chứa nghĩa khách quan và ý của chủ thể.",
+        "D": "Có đối tượng là các phản xạ vận động bẩm sinh và công cụ là sự liên tưởng máy móc giữa các hình ảnh cảm tính trực quan trong trường tri giác."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình định nghĩa: hành động trí óc có đối tượng là ý nghĩ của chủ thể và công cụ là ngôn ngữ bên trong (ngôn ngữ không lời, hướng vào bên trong chủ thể, là những mảnh ký hiệu cơ động chứa nghĩa khách quan và ý của chủ thể)."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Đối với các nhà tâm lý học hoạt động, việc xác định trình độ phát triển trí tuệ của một cá nhân cần phải dựa vào những căn cứ nào?",
+      "options": {
+        "A": "Chỉ cần đếm số lượng các mối liên tưởng hình ảnh mà cá nhân đó nhớ lại được trong một đơn vị thời gian mà không cần xét đến mục đích hành động.",
+        "B": "Không chỉ dựa vào sự hiện diện của các thao tác mà còn phải căn cứ vào cách triển khai các thao tác đó đến mục đích, tức là phương tiện và cách sử dụng nó.",
+        "C": "Chỉ căn cứ vào độ tuổi sinh học ghi trên giấy khai sinh vì mọi trẻ em ở cùng một độ tuổi đều tự động có trình độ thao tác trí tuệ giống hệt nhau.",
+        "D": "Chỉ dựa vào việc cá nhân đó có bộc lộ năng khiếu bẩm sinh ngay từ giai đoạn sơ sinh hay không mà không cần quan tâm đến công cụ phương tiện đã học trong toàn bộ tiến trình phát triển tâm lý cá nhân."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo tâm lý học hoạt động, việc xác định trình độ trí tuệ không chỉ dựa vào sự hiện diện của thao tác mà còn phải căn cứ vào cách triển khai các thao tác đó đến mục đích (phương tiện và cách sử dụng phương tiện của chủ thể)."
+    },
+    {
+      "id": 12,
+      "difficulty": "easy",
+      "question": "Khi khái quát các quan điểm giải thích sự phát sinh thao tác trí tuệ trong mối quan hệ giữa chủ thể với môi trường, giáo trình đã quy về hai nhóm lớn nào?",
+      "options": {
+        "A": "Nhóm các quan điểm giải thích theo thuyết định mệnh thần학 và nhóm các quan điểm giải thích theo thuyết phản xạ có điều kiện cổ điển.",
+        "B": "Nhóm các quan điểm chỉ nghiên cứu tâm lý động vật bậc thấp và nhóm các quan điểm chỉ nghiên cứu trí tuệ nhân tạo trên hệ thống máy tính điện tử.",
+        "C": "Nhóm các quan điểm giải thích sự phát sinh thao tác trí tuệ theo hướng nội sinh và nhóm các quan điểm giải thích theo hướng kiến tạo.",
+        "D": "Nhóm các quan điểm phủ nhận sự tồn tại của tư duy con người và nhóm các quan điểm đồng nhất hoàn toàn trí tuệ với các cảm giác ngoại vi đơn lẻ."
+      },
+      "correct_answer": "C",
+      "explanation": "Ở Mục 3.1.2, giáo trình quy các quan niệm giải thích sự phát sinh thao tác trí tuệ trong mối quan hệ giữa chủ thể với tác động của môi trường thành 2 nhóm lớn: giải thích theo quan điểm nội sinh và theo quan điểm kiến tạo."
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "question": "Các nhà tâm lý học theo quan điểm nội sinh có xu hướng sinh học hóa giải thích như thế nào về nguồn gốc và sự phát triển của trí tuệ cá nhân?",
+      "options": {
+        "A": "Họ cho rằng trí tuệ hoàn toàn do môi trường xã hội và giáo dục nhà trường nhào nặn nên, cơ thể sinh học không đóng bất kỳ vai trò tiền đề nào cả.",
+        "B": "Họ khẳng định trí tuệ là kết quả của quá trình trẻ em tích cực thao tác trên các đồ vật văn hóa dưới sự hướng dẫn trực tiếp của người lớn xung quanh.",
+        "C": "Họ giải thích trí tuệ được tạo dựng từng bước thông qua năm giai đoạn chuyển hóa từ hành động vật chất bên ngoài vào ngôn ngữ bên trong rút gọn.",
+        "D": "Họ cho rằng trí tuệ có bản chất sinh học tiềm tàng sẵn trong cơ thể (năng khiếu bẩm sinh), sự phát triển chỉ là sự bộc lộ tiềm năng đó chứ không phải hình thành mới."
+      },
+      "correct_answer": "D",
+      "explanation": "Quan điểm nội sinh bản chất sinh học coi trí tuệ đã có sẵn ở dạng tiềm tàng trong cơ thể (năng khiếu bẩm sinh); sự phát triển thực chất chỉ là sự bộc lộ những tiềm năng đó dưới tác động của hoàn cảnh sống chứ không phải là sự hình thành."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Trường phái tâm lý học Würzburg (Vuxbua) giải thích sự phát sinh hành vi và cấu trúc trí tuệ của cá nhân theo giả thuyết nào sau đây?",
+      "options": {
+        "A": "Coi hành vi trí tuệ là những cấu trúc nội tại mang tính tiên nghiệm đã có sẵn của cá nhân, còn kích thích hoàn cảnh chỉ có tác dụng khởi động làm bộc lộ chúng.",
+        "B": "Coi cấu trúc trí tuệ là kết quả của quá trình thử và sai cơ học hàng trăm lần trước các kích thích vật lý kèm theo thức ăn củng cố trong phòng thí nghiệm theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "C": "Coi cấu trúc trí tuệ được hình thành từ quá trình lao động sản xuất vật chất và lĩnh hội nền văn hóa lịch sử xã hội thông qua giao tiếp ngôn ngữ.",
+        "D": "Coi cấu trúc trí tuệ chỉ là tập hợp ngẫu nhiên của các cảm giác thị giác và thính giác rời rạc được ghép nối lại nhờ sự gần gũi về mặt không gian."
+      },
+      "correct_answer": "A",
+      "explanation": "Trường phái Würzburg (Vuxbua) theo hướng nội sinh coi hành vi trí tuệ là những cấu trúc nội tại, tiên nghiệm đã có của cá nhân; các kích thích của hoàn cảnh (đầu bài toán) chỉ có tác dụng khởi động, làm bộc lộ các cấu trúc đã có đó."
+    },
+    {
+      "id": 15,
+      "difficulty": "medium",
+      "question": "Theo trường phái tâm lý học Gestalt (Hình thái), các cấu trúc trí tuệ ở động vật và trẻ chưa biết nói xuất hiện thông qua cơ chế nào?",
+      "options": {
+        "A": "Thông qua quá trình cấu trúc lại các hình ảnh tri giác như là kết quả của sự bừng hiểu tức thời, không liên hệ trực tiếp với các hành động trước đó.",
+        "B": "Thông qua quá trình rèn luyện từng bước từ hành động nói to sang hành động nói thầm dưới sự hướng dẫn sư phạm chặt chẽ của giáo viên trên lớp.",
+        "C": "Thông qua việc tích lũy dần dần số lượng các mối liên tưởng kinh nghiệm qua nhiều năm tháng theo quy luật tần số lặp đi lặp lại các kích thích cũ.",
+        "D": "Thông qua quá trình xã hội hóa ngôn ngữ tự kỷ trung tâm thành ngôn ngữ giao tiếp hợp tác với bạn bè cùng trang lứa trong hoạt động vui chơi đóng vai."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo trường phái Gestalt (Ghestan), cấu trúc trí tuệ là quá trình cấu trúc lại các hình ảnh tri giác nhưng không liên hệ trực tiếp với các hành động trước đó, mà là kết quả của sự bừng hiểu (Insight) mang tính tức thời."
+    },
+    {
+      "id": 16,
+      "difficulty": "medium",
+      "question": "Mặc dù còn hạn chế khi coi cấu trúc trí tuệ chỉ mang tính tức thời và không có lịch sử phát triển, trường phái Gestalt đã có hai đóng góp lớn nào?",
+      "options": {
+        "A": "Phát hiện ra quy luật chuyển hóa từ hoạt động xã hội bên ngoài thành chức năng tâm lý bên trong và xây dựng bảng phân kỳ bảy giai đoạn nhân cách.",
+        "B": "Chỉ ra rằng các cấu trúc trí tuệ có tính hình thức tách ra khỏi tri giác thực tại và cần có sự liên hệ tác động qua lại giữa yếu tố vật lý với tâm lý.",
+        "C": "Chứng minh được vai trò quyết định của lao động sản xuất đối với sự hình thành ý thức và vạch ra năm bước hình thành hành động trí tuệ ở học sinh trong toàn bộ tiến trình phát triển tâm lý cá nhân.",
+        "D": "Xây dựng thành công học thuyết về bốn nhóm thao tác lôgic hình thức và làm sáng tỏ cơ chế trừu tượng phản chiếu gồm ba mức độ từ thấp đến cao."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình ghi nhận 2 đóng góp lớn của trường phái Gestalt: (1) chỉ ra các cấu trúc trí tuệ có tính hình thức, tách ra khỏi tri giác thực tại; (2) để hình thành các cấu trúc này cần có sự liên hệ, tác động qua lại giữa yếu tố vật lý và tâm lý."
+    },
+    {
+      "id": 17,
+      "difficulty": "easy",
+      "question": "Trong nhóm quan điểm kiến tạo, các nhà tâm lý học liên tưởng (theo chủ nghĩa kinh nghiệm) giải thích sự phát triển và sự khác biệt trình độ trí tuệ như thế nào?",
+      "options": {
+        "A": "Coi sự phát triển trí tuệ chỉ là sự hình thành và hoạt hóa các mối liên tưởng, nên khác biệt trí tuệ quy về số lượng liên tưởng và tốc độ hoạt hóa chúng.",
+        "B": "Coi sự phát triển trí tuệ là quá trình cải tổ toàn diện cấu trúc nhận thức thông qua cơ chế đồng hóa và điều ứng để đạt tới trạng thái cân bằng mới.",
+        "C": "Coi sự khác biệt trình độ trí tuệ phụ thuộc hoàn toàn vào mức độ làm chủ các công cụ ký hiệu ngôn ngữ và phương pháp định hướng khái quát của chủ thể.",
+        "D": "Coi sự phát triển trí tuệ là quá trình luân phiên có quy luật giữa các hoạt động chủ đạo hướng vào quan hệ người – người và quan hệ người – đồ vật."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo tâm lý học liên tưởng, trí tuệ và sự phát triển của nó chỉ là sự vận động, hoạt hóa các mối liên tưởng; do đó sự khác biệt về trình độ trí tuệ được quy về số lượng các mối liên tưởng và tốc độ hoạt hóa chúng."
+    },
+    {
+      "id": 18,
+      "difficulty": "medium",
+      "question": "Khi giải thích sự kiến tạo hành vi trí tuệ trong tương tác giữa cơ thể với môi trường, thuyết tâm lý học hành vi mắc phải hạn chế cơ bản nào?",
+      "options": {
+        "A": "Giải thích sự hình thành hành vi một cách máy móc theo cơ chế mày mò 'thử và sai', phụ thuộc hoàn toàn vào kích thích bên ngoài và kinh nghiệm sẵn có.",
+        "B": "Tuyệt đối hóa vai trò của ý thức chủ quan và phương pháp tự quan sát nội tâm mà bỏ qua hoàn toàn các tác động của kích thích môi trường bên ngoài theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "C": "Chỉ tập trung nghiên cứu các mệnh đề lôgic toán học trừu tượng ở tuổi trưởng thành mà không chú ý đến việc hình thành kỹ xảo học tập ở trẻ nhỏ.",
+        "D": "Đề cao quá mức vai trò của văn hóa lịch sử và giao tiếp ngôn ngữ giữa người lớn với trẻ em mà phủ nhận cơ sở sinh lý thần kinh của các phản xạ."
+      },
+      "correct_answer": "A",
+      "explanation": "Tâm lý học hành vi tiến một bước khi đặt ra sự tương tác cơ thể – môi trường, nhưng lại giải thích máy móc theo nguyên tắc ướm thử phản ứng cũ vào kích thích mới qua cơ chế mày mò 'thử và sai' phụ thuộc hoàn toàn vào điều kiện bên ngoài."
+    },
+    {
+      "id": 19,
+      "difficulty": "easy",
+      "question": "Theo hướng tiếp cận kiến tạo nhấn mạnh sự tương tác giữa cá nhân với môi trường, hai lý thuyết lớn bao trùm nhất giải thích cơ chế hình thành thao tác trí tuệ là gì?",
+      "options": {
+        "A": "Thuyết phát sinh trí tuệ của J. Piaget và thuyết lĩnh hội thao tác trí tuệ của các nhà tâm lý học theo hướng tiếp cận hoạt động tâm lý.",
+        "B": "Thuyết cấu trúc trí tuệ tiên nghiệm của trường phái Würzburg ở Đức và thuyết liên tưởng duy cảm cổ điển của các nhà triết học kinh nghiệm Anh.",
+        "C": "Thuyết ưu sinh học di truyền của F. Galton và thuyết định khu chức năng tâm lý cứng nhắc trên vỏ não của các nhà giải phẫu thần kinh thế kỷ XIX.",
+        "D": "Thuyết phân tâm học vô thức của S. Freud và thuyết nhân văn hiện sinh tập trung vào nhu cầu tự hiện thực hóa bản thân của A. Maslow."
+      },
+      "correct_answer": "A",
+      "explanation": "Cuối Mục 3.1.2, giáo trình khẳng định hai lý thuyết lớn bao trùm giải thích sự hình thành thao tác trí tuệ từ hành động vật chất là: thuyết phát sinh trí tuệ của J. Piaget và thuyết lĩnh hội thao tác trí tuệ của các nhà tâm lý học hoạt động."
+    },
+    {
+      "id": 20,
+      "difficulty": "medium",
+      "question": "Điểm thống nhất quan trọng giữa các nhà tâm lý học chủ trương kiến tạo trí tuệ qua tương tác giữa cá nhân với môi trường là gì?",
+      "options": {
+        "A": "Khẳng định mọi thao tác trí tuệ đều có sẵn trong bộ gen từ lúc thụ thai và hoàn toàn không cần đến bất kỳ hành động vật chất nào với đồ vật bên ngoài.",
+        "B": "Khẳng định các thao tác trí tuệ (kể cả thao tác hình thức cấp cao) đều bắt đầu từ hành động vật chất và là sự kết tinh giữa kinh nghiệm thực tế với sự sản xuất của chủ thể.",
+        "C": "Cho rằng các thao tác trí tuệ cấp cao xuất hiện đột ngột nhờ sự bừng hiểu tức thời trong trường tri giác mà không trải qua lịch sử phát triển theo giai đoạn trong toàn bộ tiến trình phát triển tâm lý cá nhân.",
+        "D": "Quy toàn bộ hoạt động trí tuệ của con người về các phản xạ tiết nước bọt có điều kiện giống hệt như các loài động vật có vú trong phòng thí nghiệm."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo quan điểm kiến tạo tương tác, các thao tác trí tuệ (bao gồm cả thao tác hình thức cấp cao) đều được hình thành bắt đầu từ những hành động vật chất và là sự kết tinh giữa kinh nghiệm thực tế với sự sản xuất riêng của chủ thể."
+    },
+    {
+      "id": 21,
+      "difficulty": "easy",
+      "question": "Ngay trang đầu cuốn 'Tâm lý học trí khôn', J. Piaget đã nêu luận điểm xuất phát thể hiện ảnh hưởng sâu sắc của hai lĩnh vực khoa học nào đối với ông?",
+      "options": {
+        "A": "Mọi giải thích tâm lý học về trí tuệ con người sớm hay muộn cuối cùng cũng phải quy về vật lý học cơ lượng tử hoặc kinh tế học chính trị.",
+        "B": "Mọi hiện tượng trí tuệ của trẻ em đều chỉ có thể giải thích được bằng ngôn ngữ học lịch sử kết hợp với nhân chủng học văn hóa nguyên thủy.",
+        "C": "Mọi giải thích tâm lý học về sự phát sinh và phát triển trí tuệ sớm hay muộn cuối cùng cũng đều phải dựa vào sinh học hoặc dựa vào lôgic học.",
+        "D": "Mọi cấu trúc nhận thức của cá nhân đều bắt nguồn từ thần học siêu hình hoặc từ các quy luật phản xạ có điều kiện của sinh lý học thần kinh."
+      },
+      "correct_answer": "C",
+      "explanation": "J. Piaget vốn là nhà sinh vật học được trang bị sâu về Khoa học luận và lôgic học. Ngay trang đầu cuốn 'Tâm lý học trí khôn', ông viết: 'Mọi giải thích tâm lý học sớm hay muộn cuối cùng cũng dựa vào sinh học hoặc lôgic học.'"
+    },
+    {
+      "id": 22,
+      "difficulty": "medium",
+      "question": "Vì sao J. Piaget lại so sánh công việc nghiên cứu tâm lý học về sự phát sinh trí tuệ trẻ em vừa giống công việc của nhà phôi học vừa giống nhà lôgic học?",
+      "options": {
+        "A": "Giống nhà phôi học vì chỉ nghiên cứu thai nhi khi còn trong bụng mẹ, và giống nhà lôgic học vì từ chối mọi thực nghiệm quan sát trên trẻ em thực tế.",
+        "B": "Giống nhà phôi học ở việc tạo dựng lại các bước hình thành trí tuệ từ đơn giản đến trưởng thành, và giống nhà lôgic học vì phải hình thức hóa các hiện tượng chức năng.",
+        "C": "Giống nhà phôi học vì dùng kính hiển vi quan sát tế bào não, và giống nhà lôgic học vì ép buộc trẻ sơ sinh phải giải các phương trình đại số cao cấp khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "D": "Giống nhà phôi học ở việc can thiệp phẫu thuật di truyền, và giống nhà lôgic học ở chỗ coi mọi cấu trúc nhận thức đều là tiên nghiệm bất biến từ đầu."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo J. Piaget, nghiên cứu trí tuệ giống phôi học vì phải mô tả các bước phát triển từ dạng đơn giản nhất đến trưởng thành; nhưng vì tâm lý mang tính chức năng không 'cầm nắm' vật chất được nên phải dùng lôgic học để tường minh hóa, hình thức hóa."
+    },
+    {
+      "id": 23,
+      "difficulty": "medium",
+      "question": "Khái niệm 'Cấu trúc' (hay 'Sơ đồ') mà J. Piaget sử dụng làm công cụ phân tích trí tuệ có nguồn gốc triết học từ ai và được ông phát triển theo hướng nào?",
+      "options": {
+        "A": "Có nguồn gốc từ khái niệm sơ đồ của nhà triết học Đức I. Kant, nhưng được J. Piaget giải thích theo quan điểm kiến tạo chứ không theo nghĩa tiên nghiệm.",
+        "B": "Có nguồn gốc từ học thuyết hành vi tạo tác của B.F. Skinner, và được J. Piaget phát triển theo hướng phủ nhận hoàn toàn các cấu trúc nhận thức bên trong.",
+        "C": "Có nguồn gốc từ triết học duy cảm Anh của J. Locke, và được J. Piaget giữ nguyên như một tấm bảng trắng thụ động chỉ ghi nhận các mối liên tưởng cảm giác.",
+        "D": "Có nguồn gốc từ trường phái tâm lý học Würzburg, và được J. Piaget khẳng định là những sơ đồ hình thức có sẵn từ trước khi trẻ tiếp xúc với thế giới."
+      },
+      "correct_answer": "A",
+      "explanation": "Khái niệm cấu trúc (sơ đồ) bắt nguồn từ nhà triết học Đức I. Kant (dùng sơ đồ tiên nghiệm tổng hợp tư liệu cảm tính). Điểm độc đáo của Piaget là kết hợp nghiên cứu thực nghiệm tâm lý với sơ đồ lôgic – toán theo quan điểm kiến tạo chứ không phải tiên nghiệm."
+    },
+    {
+      "id": 24,
+      "difficulty": "easy",
+      "question": "Khi phân tích một hành vi ứng xử trí tuệ, J. Piaget tách ra thành hai mặt gắn bó hữu cơ với nhau là mặt cảm xúc và mặt nhận thức với vai trò như thế nào?",
+      "options": {
+        "A": "Mặt cảm xúc tạo ra động lực và năng lượng cho hành vi ứng xử, còn mặt nhận thức là sự cấu trúc hóa giúp cá nhân thiết lập sự cân bằng với môi trường.",
+        "B": "Mặt cảm xúc trực tiếp tạo ra các thao tác lôgic toán học, còn mặt nhận thức chỉ đóng vai trò cung cấp năng lượng sinh lý cơ bắp cho các vận động.",
+        "C": "Mặt cảm xúc và mặt nhận thức luôn đối lập, triệt tiêu lẫn nhau nên muốn phát triển cấu trúc trí tuệ thì đứa trẻ phải loại bỏ hoàn toàn mọi cảm xúc trong toàn bộ tiến trình phát triển tâm lý cá nhân.",
+        "D": "Mặt nhận thức là yếu tố bẩm sinh cố định không bao giờ thay đổi, còn mặt cảm xúc là yếu tố duy nhất được hình thành qua các giai đoạn lứa tuổi."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo J. Piaget, mặt cảm xúc tạo ra động lực, năng lượng cho một hành vi ứng xử; còn mặt nhận thức (hiểu biết) là sự cấu trúc hóa, tạo ra các cấu trúc trí tuệ giúp cá nhân thiết lập sự cân bằng với môi trường."
+    },
+    {
+      "id": 25,
+      "difficulty": "easy",
+      "question": "Theo J. Piaget, hai quá trình cơ bản nằm trong cơ chế thích nghi trí tuệ là 'Đồng hóa' (Assimilation) và 'Điều ứng' (Accommodation) khác nhau như thế nào?",
+      "options": {
+        "A": "Đồng hóa là tái lập đặc điểm khách thể đưa vào sơ đồ cấu trúc đã có (tăng trưởng), còn điều ứng là biến đổi cấu trúc cũ để tạo ra cấu trúc mới phù hợp hoàn cảnh (phát triển).",
+        "B": "Đồng hóa là phá vỡ toàn bộ các cấu trúc nhận thức cũ của chủ thể, còn điều ứng là giữ nguyên cấu trúc cũ và từ chối tiếp nhận mọi thông tin mới từ môi trường.",
+        "C": "Đồng hóa chỉ diễn ra ở hệ tiêu hóa vật chất của động vật bậc thấp, còn điều ứng chỉ diễn ra ở giai đoạn thao tác hình thức của người trưởng thành.",
+        "D": "Đồng hóa là sự bắt chước máy móc lời nói của người lớn, còn điều ứng là sự suy giảm dần các chức năng tâm lý cấp cao khi con người bước vào tuổi già."
+      },
+      "correct_answer": "A",
+      "explanation": "Trong đồng hóa trí tuệ, các kích thích được chế biến để đưa vào cấu trúc (sơ đồ) đã có (đồng hóa là tăng trưởng). Trong điều ứng, chủ thể phải biến đổi cấu trúc đã có để tạo ra cấu trúc mới phù hợp với hoàn cảnh mới (điều ứng là phát triển)."
+    },
+    {
+      "id": 26,
+      "difficulty": "medium",
+      "question": "Trong giai đoạn đầu tiên của cấu trúc giác – động, ngay khi các cử động phản xạ sinh học được luyện tập, đứa trẻ xuất hiện ba dạng đồng hóa khởi đầu nào?",
+      "options": {
+        "A": "Đồng hóa biểu trưng ngôn ngữ, đồng hóa khái niệm khoa học trừu tượng và đồng hóa các mệnh đề suy luận lôgic hình thức có tính chất giả định theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "B": "Đồng hóa tái tạo kiểu chức năng (luyện tập mút), đồng hóa khái quát hóa (mở rộng bú sang vật khác) và đồng hóa xác nhận (phân biệt vú mẹ với vật khác).",
+        "C": "Đồng hóa xã hội hóa tập thể, đồng hóa phân loại cấp bậc các lớp tập hợp và đồng hóa phân hạng bất đẳng thức có tính chất bắc cầu.",
+        "D": "Đồng hóa trừu tượng phản chiếu, đồng hóa trừu tượng giả thực nghiệm và đồng hóa kiểm tra tự động hóa thông qua hệ thống ngôn ngữ bên trong."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nêu rõ 3 dạng đồng hóa khởi đầu khi trẻ luyện tập cử động phản xạ: đồng hóa tái tạo kiểu chức năng (luyện tập cử động mút), đồng hóa khái quát hóa (mở rộng bú sang vật khác) và đồng hóa xác nhận (phân biệt vú mẹ với các vật khác)."
+    },
+    {
+      "id": 27,
+      "difficulty": "hard",
+      "question": "Theo mô tả của J. Piaget về 6 trình độ phát triển cấu trúc giác – động, ở trình độ nào xuất hiện quan hệ 'mục đích – phương tiện' và đánh dấu trí khôn bắt đầu xuất hiện?",
+      "options": {
+        "A": "Ngay ở trình độ thứ nhất (0–1 tháng), khi đứa trẻ mới sinh thực hiện các phản xạ bẩm sinh như mút, bấu, víu do sự kích thích trực tiếp của môi trường.",
+        "B": "Ở trình độ thứ hai (1–4 tháng), khi đứa trẻ bắt đầu kết hợp cử động của cánh tay với miệng để tạo thành thói quen mút ngón tay của chính mình.",
+        "C": "Phải đến sau 7 tuổi khi trẻ bước vào giai đoạn thao tác cụ thể và giải được các bài toán bảo tồn khối lượng thì trí khôn giác – động mới bắt đầu xuất hiện.",
+        "D": "Ở trình độ các phản ứng vòng tròn cấp hai (khoảng 8–12 tháng), khi ý định đạt mục đích xuất hiện trước phương tiện như trẻ gạt vật cản để tìm lấy đồ chơi."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo J. Piaget, khi hình thành các phản ứng vòng tròn cấp hai (các phản ứng mục đích – phương tiện, 8–12 tháng), ý định đạt mục đích xuất hiện trước phương tiện (trẻ gạt vật cản để tìm vật): trí khôn bắt đầu xuất hiện dù còn mang tính tái tạo."
+    },
+    {
+      "id": 28,
+      "difficulty": "medium",
+      "question": "Trong giai đoạn cấu trúc giác – động của J. Piaget, sự xuất hiện của 'phản ứng vòng tròn cấp ba' (12–18 tháng) và trình độ thứ sáu (18–24 tháng) mang lại bước tiến gì?",
+      "options": {
+        "A": "Trẻ hoàn toàn từ bỏ mọi vận động tay chân với đồ vật thực tế để chuyển sang giải các bài toán đại số và hình học không gian bằng mệnh đề trừu tượng.",
+        "B": "Các cấu trúc giác – động bị thoái hóa hoàn toàn và quay trở lại trạng thái các phản xạ bẩm sinh đơn lẻ, liền khối như ở tháng đầu tiên sau khi sinh.",
+        "C": "Xuất hiện các phản ứng sáng tạo do hứng thú tìm tòi (kéo thảm, dùng gậy khều đồ chơi) và tiến tới kết hợp linh hoạt các cấu trúc tạo ra giải pháp như sự bừng hiểu.",
+        "D": "Trẻ đạt tới khả năng bảo tồn thể tích và trọng lượng một cách tuyệt đối cũng như nắm vững toàn bộ hệ thống khái niệm khoa học của chương trình phổ thông theo đúng các quy luật khách quan của hoạt động nhận thức."
+      },
+      "correct_answer": "C",
+      "explanation": "Ở phản ứng vòng tròn cấp 3 (12–18 tháng), trẻ có phản ứng sáng tạo do hứng thú tìm tòi (kéo tấm thảm có đồ chơi lại gần, dùng gậy khều). Đến trình độ cuối (18–24 tháng), các cấu trúc kết hợp linh hoạt tạo ra giải pháp sáng tạo như sự bừng hiểu."
+    },
+    {
+      "id": 29,
+      "difficulty": "medium",
+      "question": "Vì sao J. Piaget lại ví trí khôn giác – động (trước khi có cấu trúc biểu trưng) giống như 'một cuộn phim quay chậm'?",
+      "options": {
+        "A": "Vì hệ thần kinh của trẻ dưới hai tuổi bị tổn thương bệnh lý khiến mọi cử động cơ bắp đều diễn ra chậm chạp hơn bình thường gấp mười lần.",
+        "B": "Vì trẻ ở giai đoạn này chỉ thích ngồi yên quan sát các bộ phim hoạt hình chiếu chậm trên màn ảnh mà không chịu tương tác với đồ vật thật.",
+        "C": "Vì trí khôn giác – động đã có khả năng đảo ngược hoàn toàn dòng thời gian về quá khứ và dự báo chính xác tương lai xa bằng các giả thuyết lôgic.",
+        "D": "Vì các cấu trúc giác – động thực chất chỉ là dãy liên tục các cấu trúc đồng loại nối tiếp nhau (kết hợp dọc) mà chưa có khả năng kết hợp ngang đồng thời."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo J. Piaget, trước khi có cấu trúc biểu trưng, các cấu trúc giác – động chỉ là dãy liên tục các cấu trúc đồng loại có tính kế tiếp nhau (kết hợp dọc) mà chưa có kết hợp ngang, giống như cuộn phim quay chậm với các hình ảnh kế tiếp nhưng không trộn lẫn vào nhau."
+    },
+    {
+      "id": 30,
+      "difficulty": "hard",
+      "question": "Theo J. Piaget, để chuyển từ cấu trúc giác – động lên cấu trúc biểu trưng (hay từ trí khôn giác – động lên trí khôn suy ngẫm) cần hội tụ ba điều kiện nào?",
+      "options": {
+        "A": "Trẻ phải được nhập học chính thức ở trường tiểu học; phải thuộc lòng bảng cửu chương; và phải vượt qua kỳ thi sát hạch năng lực tư duy mệnh đề hình thức.",
+        "B": "Tăng nhanh tốc độ hoạt hóa cấu trúc để kết hợp thành khối hiểu biết đồng thời; tái nhận cấu trúc không cần vật có mặt; và xuất hiện hành động biểu trưng cùng biểu tượng.",
+        "C": "Giảm tối đa tốc độ hoạt hóa các sơ cấu vận động; chỉ nhận biết sự vật khi sự vật đang hiện diện trực tiếp trước mắt; và loại bỏ mọi trò chơi đóng vai giả vờ khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "D": "Hoàn thiện trọng lượng bộ não bằng người trưởng thành; chấm dứt hoàn toàn việc sử dụng ngôn ngữ tự kỷ; và nắm vững phép suy luận tam đoạn luận."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nêu rõ 3 điều kiện để chuyển từ cấu trúc giác – động lên cấu trúc biểu trưng (trí khôn suy ngẫm): (1) tăng nhanh tốc độ hoạt hóa cấu trúc tạo khối hiểu biết đồng thời; (2) tái nhận cấu trúc không cần sự có mặt của sự vật; (3) xuất hiện hành động biểu trưng và biểu tượng."
+    },
+    {
+      "id": 31,
+      "difficulty": "medium",
+      "question": "Trong giai đoạn tiền thao tác của J. Piaget, sự hình thành 'cấu trúc tư duy tiền khái niệm' gắn liền với thành tựu nhận thức nào của trẻ em?",
+      "options": {
+        "A": "Khi trẻ có ngôn ngữ và khả năng biểu trưng thông qua hành động bắt chước, giúp trẻ phân biệt được 'cái biểu đạt' và 'cái được biểu đạt' trong ngôn ngữ và hành động.",
+        "B": "Khi trẻ đã nắm vững khả năng bảo tồn khối lượng của cục đất sét và khả năng đảo ngược hoàn toàn các phép biến đổi toán học phức tạp.",
+        "C": "Khi trẻ chưa hề có ngôn ngữ hay biểu tượng tâm lý mà chỉ dựa thuần túy vào các phản xạ mút và nắm bắt bẩm sinh trong tháng đầu tiên sau sinh trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "D": "Khi trẻ có khả năng xây dựng các bất đẳng thức bắc cầu và thực hiện thành thạo phép thay thế tương ứng giữa các tập hợp số học trừu tượng."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo J. Piaget, khi trẻ có ngôn ngữ và hình thành khả năng biểu trưng ngôn ngữ (thông qua hành động bắt chước), trẻ có khả năng phân biệt 'cái biểu đạt' và 'cái được biểu đạt', từ đó hình thành cấu trúc tư duy tiền khái niệm."
+    },
+    {
+      "id": 32,
+      "difficulty": "medium",
+      "question": "Theo J. Piaget, 'tư duy trực giác' (4 đến 6–7 tuổi) có sự tiến bộ hơn so với tư duy biểu trưng và tiền khái niệm ở điểm nào, nhưng vì sao vẫn chưa phải là tư duy thao tác?",
+      "options": {
+        "A": "Đã hoàn toàn thoát khỏi sự lệ thuộc vào tri giác trực tiếp và đạt tới tính thuận nghịch tuyệt đối, nhưng trẻ cố tình không chịu trả lời câu hỏi của người lớn trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "B": "Đã có khả năng suy luận trên các mệnh đề giả thuyết phi thực tế, nhưng lại bị mất hoàn toàn khả năng sử dụng ngôn ngữ giao tiếp hàng ngày.",
+        "C": "Không có bất kỳ điểm tiến bộ nào so với giai đoạn sơ sinh vì trẻ ở tuổi này vẫn chưa có biểu tượng tâm lý và chưa biết chơi các trò chơi tượng trưng.",
+        "D": "Đã có tính hình thức, dựa vào hình ảnh khách quan và đi theo các biến đổi của vật, nhưng chưa đạt tới khả năng bảo tồn và chưa có khả năng đảo ngược cấu trúc."
+      },
+      "correct_answer": "D",
+      "explanation": "Tư duy trực giác tiến bộ hơn tư duy biểu trưng và tiền khái niệm vì đã dựa vào cấu trúc tri giác phản ánh tổng thể và đi theo các biến đổi của vật, đã có tính hình thức và dựa vào hình ảnh khách quan; nhưng chưa có khả năng bảo tồn và đảo ngược nên chưa phải là tư duy thao tác."
+    },
+    {
+      "id": 33,
+      "difficulty": "easy",
+      "question": "Theo J. Piaget, dấu mốc quyết định đánh dấu sự xuất hiện của 'cấu trúc thao tác cụ thể' (7–8 đến 11–12 tuổi) ở trẻ em là gì?",
+      "options": {
+        "A": "Sự xuất hiện lần đầu tiên của phản xạ mút ngón tay và phản ứng quay đầu tìm nguồn âm thanh trong những tuần lễ đầu tiên sau khi trẻ chào đời.",
+        "B": "Khả năng suy luận thuần túy bằng các mệnh đề lôgic hình thức và các giả thuyết hoàn toàn tách rời khỏi những sự vật cụ thể trong thực tiễn.",
+        "C": "Sự thống trị tuyệt đối của tính duy kỷ trung tâm khiến trẻ không thể chấp nhận bất kỳ quan điểm nào khác với góc nhìn trực giác của bản thân mình.",
+        "D": "Sự xuất hiện khả năng bảo tồn thuộc tính của sự vật nhờ khả năng đảo ngược (tính thuận nghịch) các cấu trúc đã có, nhưng vẫn triển khai trên các vật cụ thể."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo J. Piaget, đến thời điểm xuất hiện khả năng bảo tồn của vật — tức là khả năng đảo ngược các cấu trúc đã có — thì cấu trúc thao tác cụ thể xuất hiện, được triển khai trên vật liệu là các vật cụ thể."
+    },
+    {
+      "id": 34,
+      "difficulty": "medium",
+      "question": "Ví dụ bài toán suy luận 'Nếu một con gà có 3 chân thì 5 con gà sẽ có 15 chân' được giáo trình đưa ra nhằm minh họa sự khác biệt nào giữa thao tác cụ thể và thao tác hình thức?",
+      "options": {
+        "A": "Trẻ ở giai đoạn thao tác cụ thể tính nhẩm phép nhân nhanh hơn nhiều so với trẻ ở giai đoạn thao tác hình thức vì trẻ nhỏ gần gũi với thiên nhiên hơn theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "B": "Cả trẻ thao tác cụ thể lẫn trẻ thao tác hình thức đều không thể giải được bài toán này nếu không được nhìn thấy năm con gà thật ở ngay trước mắt.",
+        "C": "Trẻ ở giai đoạn tiền thao tác giải bài toán này chính xác nhất nhờ trí tưởng tượng bay bổng trong các trò chơi đóng vai biểu trưng hàng ngày.",
+        "D": "Trẻ ở giai đoạn thao tác hình thức có thể suy luận dựa trên các giả định bằng mệnh đề lôgic, còn trẻ thao tác cụ thể không chấp nhận nghịch lý giả định gà có 3 chân."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình nêu ví dụ: trẻ có thao tác hình thức triển khai tư duy bằng các mệnh đề lôgic nên suy luận được trên giả định 'nếu một con gà có 3 chân thì 5 con gà có 15 chân', trong khi trẻ thao tác cụ thể sẽ không chấp nhận nghịch lý gà 3 chân."
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "question": "Trong bốn nhóm thao tác cơ bản tạo nên cấu trúc thao tác theo J. Piaget, thao tác 'Phân loại' (Classification) được định nghĩa như thế nào?",
+      "options": {
+        "A": "Là thao tác sắp xếp các phần tử theo một trật tự không đối xứng từ nhỏ đến lớn để phát hiện ra tính chất bắc cầu của bất đẳng thức D < E < F.",
+        "B": "Là thao tác bắt chước nguyên xi các cử động cơ bắp của người lớn trong giai đoạn giác – động mà không cần hiểu ý nghĩa của các lớp đối tượng.",
+        "C": "Là thao tác nhóm hợp các phần tử hay lồng chúng vào với nhau theo cấp bậc các lớp (phân lớp), biểu diễn qua công thức như A + A' = B.",
+        "D": "Là thao tác xóa bỏ mọi sự khác biệt giữa các tập hợp để quy tất cả các sự vật trong thế giới về một biểu tượng cảm tính duy nhất."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo J. Piaget, Phân loại (Classification) là thao tác nhóm hợp các phần tử hay lồng chúng vào với nhau theo cấp bậc các lớp (phân lớp), chẳng hạn: A + A' = B; (A + A') + B = A + (B + A')."
+    },
+    {
+      "id": 36,
+      "difficulty": "hard",
+      "question": "Theo J. Piaget, thao tác 'Phân hạng' (Sériation) có bản chất là gì và liên quan trực tiếp đến việc hình thành khái niệm nào ở trẻ em?",
+      "options": {
+        "A": "Là thao tác xác lập quan hệ không đối xứng biểu hiện sự khác biệt giữa các phần tử, xây dựng bất đẳng thức D < E < F (tính bắc cầu) và liên quan trực tiếp tới khái niệm số.",
+        "B": "Là thao tác gộp ngẫu nhiên các đồ vật có cùng màu sắc vào một chiếc hộp mà không quan tâm đến kích thước lớn nhỏ hay thứ tự trước sau của chúng trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "C": "Là thao tác đồng nhất hoàn toàn hai sự vật khác nhau dựa trên ấn tượng cảm xúc chủ quan của trẻ ở giai đoạn tư duy tiền khái niệm.",
+        "D": "Là thao tác chỉ xuất hiện ở người trưởng thành trên hai mươi lăm tuổi nhằm phục vụ riêng cho việc nghiên cứu triết học siêu hình."
+      },
+      "correct_answer": "A",
+      "explanation": "Phân hạng (Sériation) là thao tác xác lập quan hệ không đối xứng biểu hiện những khác biệt giữa các phần tử (xác định đồng thời E > D, C, B, A và E < F, G... tạo bất đẳng thức D < E < F có tính bắc cầu), liên quan trực tiếp tới việc hình thành khái niệm số."
+    },
+    {
+      "id": 37,
+      "difficulty": "medium",
+      "question": "Theo J. Piaget, ngoài Phân loại và Phân hạng, cấu trúc thao tác của trẻ còn bao gồm hai nhóm thao tác cơ bản nào giúp hình thành các khái niệm không gian, thời gian, nguyên nhân?",
+      "options": {
+        "A": "Thao tác Phản xạ không điều kiện (tiết nước bọt, co giật cơ) và thao tác Liên tưởng máy móc theo sự gần gũi về mặt không gian.",
+        "B": "Thao tác Bừng hiểu tức thời trong trường tri giác của trường phái Gestalt và thao tác Tự quan sát nội tâm của trường phái Würzburg.",
+        "C": "Thao tác Thay thế (tương ứng, ví dụ nếu A + B = C và A tương ứng D, B tương ứng E thì D + E = C) và các thao tác Quan hệ (bằng nhau, khác nhau, thuộc, bao hàm, hơn).",
+        "D": "Thao tác Nói to theo ngữ pháp và thao tác Cấu âm không thành tiếng trong lý thuyết hình thành hành động trí tuệ của P.Ya. Galperin."
+      },
+      "correct_answer": "C",
+      "explanation": "Bốn nhóm thao tác cơ bản trong cấu trúc thao tác của J. Piaget gồm: (1) Phân loại; (2) Phân hạng; (3) Thay thế (tương ứng); và (4) Các thao tác quan hệ (bằng nhau =, khác nhau ≠, thuộc ∈, trong/bao hàm ⊂, hơn >)."
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "question": "Nhờ sự hình thành và vận hành của bốn nhóm thao tác cơ bản (phân loại, phân hạng, thay thế, quan hệ), trẻ em đạt được những khái niệm khoa học nền tảng nào?",
+      "options": {
+        "A": "Trẻ em hình thành và nắm vững được các khái niệm cơ bản về số, không gian, thời gian, tốc độ cũng như quan hệ nguyên nhân và ngẫu nhiên.",
+        "B": "Trẻ em chỉ hình thành được các phản xạ bản năng phục vụ việc tìm kiếm thức ăn và tự vệ sinh học giống như các loài động vật bậc cao theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "C": "Trẻ em ngay lập tức trở thành các nhà bác học nắm vững toàn bộ tri thức chuyên ngành của mọi lĩnh vực khoa học kỹ thuật hiện đại.",
+        "D": "Trẻ em quay trở lại trạng thái tư duy duy kỷ trung tâm và đánh mất hoàn toàn khả năng giao tiếp hợp tác với những người xung quanh."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình khẳng định: nhờ các cấu trúc thao tác trên (phân loại, phân hạng, thay thế, quan hệ), trẻ em có được một số khái niệm nền tảng: số, không gian, thời gian và tốc độ, nguyên nhân và ngẫu nhiên."
+    },
+    {
+      "id": 39,
+      "difficulty": "easy",
+      "question": "Trong học thuyết của J. Piaget, vì sao sự thích nghi trí tuệ của trẻ em được đánh giá là một quá trình 'thích nghi tích cực'?",
+      "options": {
+        "A": "Vì đứa trẻ chỉ cần ngồi yên chờ đợi các cấu trúc trí tuệ bẩm sinh tự động chín muồi theo thời gian mà không cần thực hiện bất kỳ hành động nào khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "B": "Vì các cấu trúc trí tuệ được trẻ tự kiến tạo bằng chính hành động của mình, không đơn thuần tái tạo thực tại mà là sự sáng tạo liên tục qua đồng hóa và điều ứng.",
+        "C": "Vì môi trường xã hội bên ngoài tự động in dấu toàn bộ tri thức vào bộ não thụ động của đứa trẻ giống như việc chụp ảnh lên tấm phim.",
+        "D": "Vì sự thích nghi trí tuệ của trẻ em diễn ra hoàn toàn giống hệt quá trình trao đổi chất sinh hóa tự động của các loài động vật nhuyễn thể."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo J. Piaget, sự thích nghi trí tuệ của trẻ là sự thích nghi tích cực vì trẻ kiến tạo cấu trúc trí tuệ bằng hành động của chính mình; các cấu trúc đó không đơn thuần tái tạo thực tại mà là sự sáng tạo liên tục qua đồng hóa và điều ứng."
+    },
+    {
+      "id": 40,
+      "difficulty": "hard",
+      "question": "Theo đánh giá ở cuối Mục 3.2, hạn chế cơ bản trong cách giải thích của J. Piaget về sự phát triển cấu trúc trí tuệ trẻ em là gì?",
+      "options": {
+        "A": "Ông coi đó chủ yếu là quá trình trẻ tự phát triển dưới áp lực xã hội bên ngoài và mới mô tả kết quả cấu trúc chứ chưa vạch rõ cụ thể quá trình chuyển hóa hành động vào bên trong.",
+        "B": "Ông đã tuyệt đối hóa vai trò của giáo dục nhà trường và người lớn đến mức phủ nhận hoàn toàn vai trò tự hành động của bản thân đứa trẻ.",
+        "C": "Ông không hề đề cập đến bất kỳ giai đoạn lứa tuổi nào của trẻ em mà chỉ tập trung nghiên cứu sự suy giảm trí nhớ ở người cao tuổi.",
+        "D": "Ông hoàn toàn bác bỏ việc sử dụng các khái niệm của sinh học và lôgic học trong suốt quá trình nghiên cứu thực nghiệm về trí khôn trẻ em theo đúng các quy luật khách quan của hoạt động nhận thức."
+      },
+      "correct_answer": "A",
+      "explanation": "Cuối Mục 3.2, giáo trình chỉ rõ hai hạn chế lớn của Piaget: (1) nhìn nhận phát triển cấu trúc trí tuệ chủ yếu là quá trình trẻ tự phát triển dưới áp lực của môi trường xã hội bên ngoài; (2) mới chủ yếu mô tả kết quả cấu trúc chứ chính quá trình chuyển hóa hành động bên ngoài thành cấu trúc bên trong vẫn chưa được giải quyết cụ thể."
+    },
+    {
+      "id": 41,
+      "difficulty": "medium",
+      "question": "Khi đối sánh tâm lý học phát sinh của J. Piaget với tâm lý học hoạt động ở đầu Mục 3.3, giáo trình đã khái quát sự khác biệt về đóng góp của hai trường phái như thế nào?",
+      "options": {
+        "A": "Tâm lý học phát sinh chỉ ra trong sự phát triển trí tuệ phải có cái gì và sinh ra từ đâu, còn tâm lý học hoạt động chỉ dẫn làm thế nào để hình thành tối ưu trí tuệ đó.",
+        "B": "Tâm lý học phát sinh chỉ nghiên cứu người trưởng thành khỏe mạnh, còn tâm lý học hoạt động chỉ nghiên cứu các ca bệnh lý tổn thương não bộ.",
+        "C": "Tâm lý học phát sinh dựa hoàn toàn vào triết học Mác – Lênin, còn tâm lý học hoạt động dựa hoàn toàn vào sinh học nhuyễn thể và lôgic hình thức.",
+        "D": "Cả hai trường phái đều từ chối việc can thiệp giáo dục và cho rằng con người không thể tác động vào tốc độ phát triển trí tuệ của trẻ em."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình nhận định: nếu tâm lý học phát sinh của Piaget chỉ ra trong quá trình phát triển trí tuệ phải có cái gì và nó được sinh ra từ đâu, thì tâm lý học hoạt động cung cấp nguyên lý và chỉ dẫn làm thế nào để hình thành và phát triển tối ưu trí tuệ trẻ em."
+    },
+    {
+      "id": 42,
+      "difficulty": "medium",
+      "question": "Theo J. Piaget, sự phát triển tuần tự từ các sơ cấu giác – động lên trí khôn suy ngẫm (biểu trưng, tiền khái niệm, trực giác) rồi đến trí tuệ thao tác phản ánh bản chất gì?",
+      "options": {
+        "A": "Phản ánh quá trình suy giảm dần năng lực sáng tạo của con người từ lúc sơ sinh cho đến khi bước vào tuổi thiếu niên và trưởng thành theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "B": "Phản ánh việc các cấu trúc mới chỉ đơn thuần xếp chồng cơ học lên các cấu trúc cũ mà không hề có sự cải tổ hay thống hợp nào.",
+        "C": "Phản ánh sự thay thế hoàn toàn các hoạt động nhận thức bằng các xung động bản năng vô thức không có sự tham gia của tư duy.",
+        "D": "Phản ánh quá trình tạo dựng hay cấu trúc hóa (hình thức hóa) các dạng cấu trúc nhận thức ngày càng cơ động, hoàn chỉnh từ thấp đến cao qua hoạt động của trẻ."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo J. Piaget, sự phát triển từ sơ cấu giác – động đến trí khôn suy ngẫm rồi trí tuệ thao tác thực chất là quá trình tạo dựng hay cấu trúc hóa (hình thức hóa) các dạng cấu trúc khác nhau thành một hệ thống hoàn chỉnh kế tiếp từ thấp đến cao."
+    },
+    {
+      "id": 43,
+      "difficulty": "easy",
+      "question": "Các nhà tâm lý học theo lý thuyết hoạt động đã dựa vào nền tảng triết học nào để phân tích sự hình thành và phát triển hành động trí tuệ ở trẻ em?",
+      "options": {
+        "A": "Dựa vào chủ nghĩa duy tâm chủ quan và học thuyết về các ý niệm bẩm sinh bất biến của triết học cổ đại phương Tây.",
+        "B": "Dựa vào thuyết thực chứng lôgic và chủ nghĩa hành vi cơ học cực đoan của tâm lý học thực nghiệm Mỹ đầu thế kỷ XX.",
+        "C": "Dựa vào học thuyết tiến hóa sinh học thuần túy và quy luật đấu tranh sinh tồn chọn lọc tự nhiên trong giới động vật hoang dã trong toàn bộ tiến trình phát triển tâm lý cá nhân.",
+        "D": "Dựa hẳn vào những luận điểm cơ bản của triết học duy vật biện chứng và duy vật lịch sử (triết học Mác – Lênin) làm cơ sở phương pháp luận."
+      },
+      "correct_answer": "D",
+      "explanation": "Khác với J. Piaget xuất phát từ sinh học và lôgic học, các nhà tâm lý học hoạt động dựa hẳn vào triết học duy vật biện chứng và lịch sử (triết học Mác – Lênin) với 3 luận điểm cơ bản làm cơ sở lý luận."
+    },
+    {
+      "id": 44,
+      "difficulty": "medium",
+      "question": "Ba luận điểm cơ bản của triết học Mác – Lênin đặt cơ sở phương pháp luận cho việc hình thành hành động trí tuệ trong tâm lý học hoạt động là gì?",
+      "options": {
+        "A": "Con người tự sản xuất ra bản thân bằng lao động; bản chất con người là tổng hòa các quan hệ xã hội; và con người với hoàn cảnh xã hội tạo ra nhau một cách biện chứng.",
+        "B": "Con người là một cỗ máy sinh học tự động; bản chất con người là tập hợp các bản năng di truyền; và hoàn cảnh tự nhiên quyết định tuyệt đối số phận cá nhân trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "C": "Ý thức có trước vật chất; tư duy con người là sự hồi tưởng của linh hồn bất tử; và xã hội chỉ là phép cộng cơ học của những cá nhân cô lập.",
+        "D": "Mọi tri thức đều bắt nguồn từ cảm giác chủ quan; không thể nhận thức được bản chất sự vật; và giáo dục không thể làm thay đổi năng lực bẩm sinh."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 3.3.1 nêu rõ 3 luận điểm của triết học Mác – Lênin: (1) Con người sản xuất ra chính bản thân mình bằng lao động; (2) Bản chất con người là tổng hòa các quan hệ xã hội; (3) Con người tạo ra hoàn cảnh đến mức nào thì hoàn cảnh cũng tạo ra con người đến mức ấy."
+    },
+    {
+      "id": 45,
+      "difficulty": "medium",
+      "question": "Trong tác phẩm 'Ý thức như một vấn đề của tâm lý học hành vi', L.S. Vygotsky đã chỉ ra sự khác biệt về chất giữa kinh nghiệm của động vật và con người như thế nào?",
+      "options": {
+        "A": "Động vật và con người đều có ba loại kinh nghiệm giống hệt nhau, chỉ khác nhau ở số lượng các phản xạ có điều kiện được hình thành trong đời sống.",
+        "B": "Động vật có kinh nghiệm lịch sử – xã hội phong phú hơn con người, còn con người chỉ dựa vào kinh nghiệm tự tạo của cá thể trong quá trình sống.",
+        "C": "Động vật chỉ có hai loại kinh nghiệm sinh học (loài và cá thể) để thích ứng thụ động, còn con người có thêm kinh nghiệm lịch sử – xã hội tạo nên sự thích ứng tích cực.",
+        "D": "Con người khi sinh ra đã hoàn toàn thoát ly khỏi mọi kinh nghiệm loài mang tính sinh học và chỉ còn lại duy nhất các khái niệm triết học trừu tượng."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo L.S. Vygotsky, con vật chỉ có 2 loại kinh nghiệm có nguồn gốc bản năng sinh học là kinh nghiệm loài (di truyền) và kinh nghiệm tự tạo cá thể (thích ứng thụ động). Con người có thêm kinh nghiệm lịch sử – xã hội tích lũy trong sản phẩm văn hóa, chi phối và biến đổi cả kinh nghiệm sinh học, tạo nên thích ứng tích cực tâm lý – xã hội."
+    },
+    {
+      "id": 46,
+      "difficulty": "medium",
+      "question": "Theo các nhà tâm lý học hoạt động, quá trình 'Lĩnh hội' kinh nghiệm lịch sử – xã hội ở trẻ em khác với quá trình 'Thích nghi sinh học' ở động vật như thế nào?",
+      "options": {
+        "A": "Thích nghi sinh học là quá trình sáng tạo ra công cụ lao động mới, còn lĩnh hội chỉ là sự biến đổi thụ động màu sắc lông và da để trốn tránh kẻ thù theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "B": "Cả thích nghi sinh học và lĩnh hội đều là những quá trình di truyền tự động qua nhiễm sắc thể mà cá thể không cần thực hiện bất kỳ hoạt động nào.",
+        "C": "Thích nghi sinh học là thay đổi thuộc tính loài và hành vi bẩm sinh theo môi trường, còn lĩnh hội là quá trình tích cực tái tạo cho bản thân những năng lực người đã vật hóa trong văn hóa.",
+        "D": "Lĩnh hội là quá trình xóa bỏ toàn bộ các sản phẩm văn hóa của thế hệ trước để trẻ em quay về sống theo bản năng tự nhiên trong môi trường hoang dã."
+      },
+      "correct_answer": "C",
+      "explanation": "Thích nghi sinh vật là thay đổi thuộc tính loài, hành vi bẩm sinh do đòi hỏi của môi trường. Ngược lại, lĩnh hội là quá trình tích cực tái tạo lại cho bản thân những thuộc tính, năng lực và phương thức hành vi do con người đã hình thành trong lịch sử (được vật hóa trong sản phẩm văn hóa)."
+    },
+    {
+      "id": 47,
+      "difficulty": "hard",
+      "question": "Bản chất mối quan hệ giữa 'hoạt động của người lớn' và 'hoạt động lĩnh hội của trẻ em' đối với các sản phẩm văn hóa được giáo trình giải thích như thế nào?",
+      "options": {
+        "A": "Là hai hoạt động hoàn toàn tách biệt và không liên quan gì đến nhau vì trẻ em có thể tự mình phát minh lại toàn bộ nền văn minh nhân loại mà không cần vật phẩm văn hóa khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "B": "Là hai hoạt động tương ứng nhưng ngược chiều nhau: hoạt động của người lớn được vật hóa vào sản phẩm, còn hoạt động của trẻ là tách hoạt động đó ra khỏi vật phẩm thành của mình.",
+        "C": "Hoạt động của người lớn là phá hủy các vật phẩm văn hóa, còn hoạt động của trẻ em là cất giữ các vật phẩm đó vào kho tàng mà không cần sử dụng chúng.",
+        "D": "Cả người lớn và trẻ em đều chỉ ngắm nhìn bề ngoài của các đồ vật văn hóa chứ không có sự chuyển hóa nào giữa hoạt động tâm lý và đối tượng vật chất."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình chỉ rõ: sự lĩnh hội của trẻ là tái tạo lại hoạt động của người lớn đã được vật hóa trong sản phẩm văn hóa. Đây là hai hoạt động tương ứng nhưng ngược nhau: hoạt động của người lớn chuyển vào vật phẩm, còn hoạt động lĩnh hội của trẻ là 'tách' hoạt động đó ra khỏi vật phẩm để chuyển thành của bản thân."
+    },
+    {
+      "id": 48,
+      "difficulty": "easy",
+      "question": "Theo tâm lý học hoạt động, đứa trẻ có thể tự lực, trực tiếp lĩnh hội thế giới đồ vật văn hóa mà không cần thông qua người lớn hay không? Các mức độ học diễn ra như thế nào?",
+      "options": {
+        "A": "Không thể tự lực trực tiếp mà bắt buộc phải thông qua người lớn và giao tiếp (giáo dục); mức độ học đi từ bắt chước đến học tập có chủ đích ở nhà trường rồi đến tự học.",
+        "B": "Trẻ hoàn toàn có thể tự lực lĩnh hội trực tiếp mọi vật phẩm văn hóa ngay cả khi sống cô lập ngoài đảo hoang mà không cần bất kỳ sự giao tiếp nào với người lớn trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "C": "Trẻ chỉ cần sự giúp đỡ của người lớn trong tháng đầu tiên sau khi sinh, còn từ một tuổi trở đi mọi sự hợp tác giữa người lớn và trẻ em đều chấm dứt.",
+        "D": "Mức độ học của trẻ đi ngược từ hình thức tự học nghiên cứu khoa học ở tuổi sơ sinh rồi mới giảm dần xuống hình thức bắt chước ở tuổi trưởng thành."
+      },
+      "correct_answer": "A",
+      "explanation": "Trẻ không thể tự mình trực tiếp lĩnh hội thế giới đồ vật mà phải thông qua người lớn trong giao tiếp ('Con đường từ đồ vật đến trẻ em và từ trẻ em đến đồ vật đều đi qua người khác'). Mức độ học của trẻ lúc đầu là bắt chước, sau đó là học tập có chủ đích của nhà trường, cuối cùng là tự học, và ở mức nào cũng có sự hợp tác người lớn – trẻ em."
+    },
+    {
+      "id": 49,
+      "difficulty": "medium",
+      "question": "Quy luật phát triển cơ bản và quan trọng nhất của hoạt động ký hiệu (hoạt động tượng trưng) được L.S. Vygotsky phát biểu như thế nào?",
+      "options": {
+        "A": "Các ký hiệu tâm lý xuất hiện đầu tiên như những sáng tạo riêng tư thuần túy trong đầu đứa trẻ rồi sau đó mới được đem ra áp đặt cho xã hội bên ngoài.",
+        "B": "Hoạt động ký hiệu chỉ là sự nối dài trực tiếp của các phản xạ không điều kiện ở động vật mà không hề mang bản chất xã hội hay tính chất hợp tác.",
+        "C": "Khi hoạt động tượng trưng phát triển đến đỉnh cao ở tuổi trưởng thành thì nó sẽ rũ bỏ hoàn toàn phương thức vận hành mang tính chất xã hội ban đầu.",
+        "D": "Lịch sử các chức năng tâm lý cấp cao là lịch sử chuyển các phương tiện hành vi mang tính chất xã hội (hợp tác bên ngoài) thành phương tiện tổ chức tâm lý cá nhân."
+      },
+      "correct_answer": "D",
+      "explanation": "L.S. Vygotsky khẳng định quy luật cơ bản: 'Bất cứ hoạt động tượng trưng nào của trẻ bao giờ cũng là hình thức xã hội của sự hợp tác và trong toàn bộ quá trình phát triển cho đến điểm cao nhất của nó, vẫn bảo toàn phương thức vận hành mang tính chất xã hội. Lịch sử các chức năng tâm lý cấp cao là lịch sử chuyển các phương tiện hành vi mang tính chất xã hội thành phương tiện tổ chức tâm lý cá nhân.'"
+    },
+    {
+      "id": 50,
+      "difficulty": "medium",
+      "question": "Khi nghiên cứu nguồn gốc phát sinh của Tư duy và Ngôn ngữ về phương diện chủng loại cũng như cá thể, L.S. Vygotsky đã rút ra kết luận cốt lõi nào?",
+      "options": {
+        "A": "Tư duy và ngôn ngữ là hai hiện tượng hoàn toàn đồng nhất từ lúc mới sinh và luôn phát triển song song với tỷ lệ không đổi ở cả loài khỉ lẫn loài người theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "B": "Ở khỉ dạng người đã có sự kết hợp hoàn chỉnh giữa tư duy và ngôn ngữ, trong khi ở trẻ em phải đến tuổi dậy thì hai quá trình này mới bắt đầu gặp nhau.",
+        "C": "Tư duy và ngôn ngữ có nguồn gốc phát sinh khác nhau, ban đầu phát triển độc lập, nhưng ở trẻ em đến khoảng 2 tuổi thì giao nhau tạo thành tư duy ngôn ngữ và ngôn ngữ trí tuệ.",
+        "D": "Trong quá trình phát triển cá thể của trẻ em không hề có giai đoạn tiền ngôn ngữ của tư duy và cũng không hề có giai đoạn tiền trí tuệ của ngôn ngữ."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo L.S. Vygotsky, tư duy và ngôn ngữ có nguồn gốc phát sinh khác nhau và ban đầu đi theo hai con đường độc lập (có giai đoạn tiền trí tuệ của ngôn ngữ và tiền ngôn ngữ của tư duy; ở khỉ dạng người không có sự kết hợp này). Ở trẻ em, từ khoảng 2 tuổi, hai con đường kết hợp với nhau: tư duy trở thành tư duy ngôn ngữ và ngôn ngữ trở thành ngôn ngữ trí tuệ."
+    },
+    {
+      "id": 51,
+      "difficulty": "hard",
+      "question": "Theo L.S. Vygotsky, ngay sau khi ngôn ngữ xuất hiện và tham gia vào việc sử dụng công cụ, hành vi trí tuệ thực hành của trẻ được cải tổ căn bản ở hai khía cạnh nào?",
+      "options": {
+        "A": "Hành động thực hành của trẻ trở nên ngẫu nhiên, bột phát hơn trước và hoàn toàn giống với cách sử dụng công cụ của loài khỉ dạng người trong thí nghiệm khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "B": "Trẻ chấm dứt hoàn toàn việc tác động lên các đối tượng vật chất bên ngoài để chỉ ngồi yên đọc thuộc lòng các từ ngữ vô nghĩa không gắn với hành động.",
+        "C": "Ngôn ngữ chỉ đóng vai trò phát tín hiệu cảm xúc sợ hãi hoặc vui mừng chứ không hề tham gia vào việc kiểm soát hay tổ chức hành vi của chính đứa trẻ.",
+        "D": "Hành động tách thành hai phần kế tiếp (lập kế hoạch trên bình diện ngôn ngữ trước rồi mới vận động thực tiễn) và tạo ra 'công cụ kép' vừa hướng vào đối tượng vừa hướng vào làm chủ bản thân."
+      },
+      "correct_answer": "D",
+      "explanation": "L.S. Vygotsky chỉ ra 2 khía cạnh cải tổ nhờ ngôn ngữ: (1) giảm tính ngẫu nhiên, trực tiếp — hoạt động trí tuệ triển khai theo 2 phần kế tiếp: phần đầu trên bình diện ngôn ngữ, phần sau bằng vận động thực tiễn; (2) tạo ra 'công cụ kép' — một hướng vào đối tượng và một hướng vào chủ thể giúp trẻ kiểm soát và làm chủ hành vi của chính mình."
+    },
+    {
+      "id": 52,
+      "difficulty": "hard",
+      "question": "Trong ba quy tắc phát triển các chức năng tâm lý cấp cao của L.S. Vygotsky, quy tắc thứ ba về sự suy thoái bệnh lý khẳng định điều gì?",
+      "options": {
+        "A": "Khi mắc bệnh lý thần kinh, các chức năng tâm lý tự nhiên bẩm sinh bị tiêu diệt trước tiên trong khi các chức năng ký hiệu cấp cao vẫn hoàn toàn nguyên vẹn trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "B": "Các chức năng tâm lý cấp cao chỉ là một tầng riêng xếp chồng cơ học lên các quá trình đơn giản nên khi suy thoái không ảnh hưởng gì đến hệ thống chung.",
+        "C": "Sự suy thoái các chức năng tâm lý cấp cao trong bệnh lý diễn ra ngược lại với quá trình hình thành chúng: trước hết phá hủy mối liên hệ giữa chức năng ký hiệu và chức năng tự nhiên.",
+        "D": "Sự phát triển của từng chức năng tâm lý cấp cao chỉ là sự kế tục trực tiếp và phóng đại tuyến tính của các chức năng sinh lý tự nhiên sẵn có."
+      },
+      "correct_answer": "C",
+      "explanation": "Ba quy tắc của Vygotsky gồm: (1) thay đổi tận gốc hướng phát triển thành cấu thành mới đặc thù; (2) tạo thành hệ thống tâm lý mới kết hợp phức tạp các chức năng đơn giản (chứ không xếp chồng); (3) sự suy thoái trong quá trình bệnh lý diễn ra ngược lại với quá trình hình thành — trước hết phá hủy mối liên hệ giữa chức năng ký hiệu và chức năng tự nhiên."
+    },
+    {
+      "id": 53,
+      "difficulty": "medium",
+      "question": "Theo cấu trúc hoạt động của A.N. Leontiev, một thực thể khách quan khi đặt trong ba mối quan hệ với Hoạt động, với Hành động và với Thao tác sẽ lần lượt mang chức năng gì?",
+      "options": {
+        "A": "Là Phương tiện kỹ thuật của hoạt động, là Nhu cầu vô thức của hành động và là Động cơ tối cao có ý thức của các thao tác máy móc.",
+        "B": "Trong cả ba mối quan hệ đó, thực thể khách quan đều chỉ đóng một vai trò duy nhất là kích thích phản xạ không điều kiện của cơ bắp.",
+        "C": "Là Động cơ (chức năng kích thích hoạt động), là Mục đích (chức năng hướng dẫn hành động) và là Phương tiện công cụ (chức năng cơ cấu kỹ thuật của thao tác).",
+        "D": "Là Mục đích của hoạt động, là Động cơ của thao tác và là Công cụ kỹ thuật vô hồn của toàn bộ nhân cách con người."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo A.N. Leontiev, đối tượng khách quan trong quan hệ với hoạt động là Động cơ (chức năng kích thích); trong quan hệ với hành động là Mục đích (chức năng hướng dẫn); và trong quan hệ với thao tác là Phương tiện/Công cụ (chức năng kỹ thuật)."
+    },
+    {
+      "id": 54,
+      "difficulty": "medium",
+      "question": "Trong cấu trúc hoạt động của A.N. Leontiev, vì sao 'Hành động' được coi là đơn vị tạo nên đời sống của hoạt động và có mối quan hệ chuyển hóa với 'Động cơ'?",
+      "options": {
+        "A": "Vì hành động hoàn toàn tách rời khỏi động cơ và không bao giờ cần phải trả lời câu hỏi đạt tới cái gì hay vì cái gì trong đời sống cá nhân theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "B": "Vì mỗi hoạt động chỉ được phép chứa đựng một thao tác cơ học duy nhất mà không bao giờ được phân ly thành các mục đích bộ phận.",
+        "C": "Vì hành động là một cơ cấu kỹ thuật vô hồn, máy móc, có thể tháo lắp tự do mà không hề có sự tham gia của ý thức chủ thể.",
+        "D": "Vì hoạt động chỉ tồn tại thông qua chuỗi các hành động cụ thể hướng tới các mục đích bộ phận, và khi mục đích trực tiếp thỏa mãn nhu cầu thì mục đích đó thực hiện chức năng của động cơ."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo A.N. Leontiev, hành động là đơn vị tâm lý có tính độc lập và xác định cao tạo nên đời sống của hoạt động. Thường động cơ phân ly thành nhiều mục đích bộ phận ứng với chuỗi hành động; trường hợp hoạt động biểu hiện bởi một hành động thì mục đích hành động thực hiện luôn chức năng của động cơ."
+    },
+    {
+      "id": 55,
+      "difficulty": "medium",
+      "question": "Theo A.N. Leontiev, để thực hiện một hành động (tức là giải quyết một 'nhiệm vụ' — mục đích đặt trong hoàn cảnh nhất định), chủ thể phải thỏa mãn hai điều kiện nào?",
+      "options": {
+        "A": "Phải ý thức được biểu tượng về kết quả cần đạt (đạt tới cái gì?) và phải căn cứ vào hoàn cảnh khách quan cùng lôgic kỹ thuật để có phương thức thực hiện (đạt tới như thế nào? – thao tác).",
+        "B": "Chỉ cần có lòng nhiệt tình cảm xúc cao độ mà không cần biết mục đích cần đạt là gì và cũng không cần quan tâm đến điều kiện vật chất bên ngoài khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "C": "Chỉ cần lặp lại nguyên xi một thao tác duy nhất trong mọi hoàn cảnh khác nhau mà không cần thay đổi phương thức kỹ thuật.",
+        "D": "Phải xóa bỏ hoàn toàn mục đích có ý thức ngay trước khi bắt đầu hành động để hành động diễn ra theo bản năng vô thức."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo A.N. Leontiev, để thực hiện hành động phải thỏa mãn 2 điều kiện: (1) về phía chủ thể phải ý thức được biểu tượng về đối tượng cần hình thành (đạt tới cái gì? – mục đích); (2) về phía khách quan bị chi phối bởi hoàn cảnh bên ngoài và lôgic kỹ thuật (đạt tới như thế nào? – phương thức hành động hay thao tác)."
+    },
+    {
+      "id": 56,
+      "difficulty": "easy",
+      "question": "Ví dụ học sinh học 'nhóm gộp các phần tử' rồi chuyển vào làm 'phép tính cộng, trừ' được giáo trình dùng để minh họa cho quy luật tâm lý nào của A.N. Leontiev?",
+      "options": {
+        "A": "Minh họa cho việc học sinh tiểu học không có khả năng thực hiện các phép tính số học nếu không giữ nguyên mục đích nhóm gộp ban đầu trong ý thức trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "B": "Minh họa cho sự suy thoái của các chức năng tâm lý cấp cao khi học sinh chuyển từ giai đoạn mẫu giáo lên giai đoạn học sinh tiểu học.",
+        "C": "Minh họa cho quá trình chuyển hóa từ một hành động có mục đích riêng, sau khi luyện tập thành thạo và kỹ thuật hóa (tước bỏ mục đích), trở thành thao tác làm phương tiện cho hành động khác.",
+        "D": "Minh họa cho quan điểm của J. Piaget rằng thao tác phân loại xuất hiện hoàn toàn tự phát mà không cần thông qua quá trình dạy học ở nhà trường."
+      },
+      "correct_answer": "C",
+      "explanation": "Lúc đầu 'nhóm gộp' được hình thành như một hành động có mục đích riêng. Sau khi thành thạo, học sinh chuyển hành động nhóm gộp này vào trong hành động thực hiện phép tính (cộng, trừ): mục đích nhóm gộp bị lược bỏ, nó trở thành thao tác (phương tiện) để giải toán."
+    },
+    {
+      "id": 57,
+      "difficulty": "easy",
+      "question": "Về mặt triết học, công trình nghiên cứu các bước hình thành hành động trí tuệ của P.Ya. Galperin xuất phát trực tiếp từ luận đề nổi tiếng nào của C. Mác?",
+      "options": {
+        "A": "Xuất phát từ luận đề của R. Descartes khẳng định rằng: 'Tôi tư duy vậy thì tôi tồn tại' với các ý niệm bẩm sinh tách rời thế giới vật chất.",
+        "B": "Xuất phát từ luận đề của J. Piaget khẳng định rằng: 'Mọi giải thích tâm lý học sớm hay muộn cuối cùng cũng dựa vào sinh học hoặc lôgic học'.",
+        "C": "Xuất phát từ luận đề của C. Mác khẳng định rằng: 'Ý niệm chẳng qua chỉ là vật chất được đem chuyển vào trong đầu óc con người và được cải biên trong đó'.",
+        "D": "Xuất phát từ luận đề của J. Watson khẳng định rằng toàn bộ đời sống tâm lý con người chỉ là các mối liên hệ trực tiếp giữa kích thích và phản ứng."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình nêu rõ: về mặt triết học, P.Ya. Galperin xuất phát từ luận đề của C. Mác: 'Ý niệm chẳng qua chỉ là vật chất được đem chuyển vào trong đầu óc con người và được cải biên trong đó'."
+    },
+    {
+      "id": 58,
+      "difficulty": "medium",
+      "question": "Theo P.Ya. Galperin, cấu trúc của một hành động bao gồm hai phần không ngang nhau là phần nào, phần nào giữ vai trò quyết định và có những chức năng cơ bản gì?",
+      "options": {
+        "A": "Gồm phần định hướng và phần thực hiện, trong đó phần định hướng quyết định phần thực hiện với ba chức năng: nhận thức, lập kế hoạch và kiểm tra – điều chỉnh hành động.",
+        "B": "Gồm phần cảm xúc và phần bản năng, trong đó phần bản năng quyết định hoàn toàn phần cảm xúc mà không cần đến sự kiểm tra hay lập kế hoạch.",
+        "C": "Gồm phần ngôn ngữ bên trong và phần phản xạ tự động, trong đó phần thực hiện cơ học giữ vai trò quyết định tuyệt đối còn phần định hướng chỉ là phụ họa khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "D": "Gồm phần thử nghiệm và phần sai lầm, trong đó cả hai phần đều ngang bằng nhau và diễn ra hoàn toàn ngẫu nhiên không theo trật tự tuyến tính nào."
+      },
+      "correct_answer": "A",
+      "explanation": "P.Ya. Galperin chia một hành động thành hai phần không ngang nhau: phần định hướng và phần thực hiện; phần định hướng quyết định phần thực hiện và có 3 chức năng cơ bản: (1) Nhận thức (hiểu rõ cần làm gì); (2) Lập kế hoạch (làm như thế nào); (3) Kiểm tra để điều chỉnh hành động."
+    },
+    {
+      "id": 59,
+      "difficulty": "medium",
+      "question": "Theo P.Ya. Galperin, một hành động trí tuệ được xác định bởi bốn thông số (parameters) đặc trưng nào để đánh giá mức độ hình thành và chất lượng của nó?",
+      "options": {
+        "A": "Cường độ kích thích vật lý, tốc độ dẫn truyền xung thần kinh, dung lượng bộ nhớ cảm giác và thời gian duy trì chú ý không chủ định khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "B": "Tính thuận nghịch lôgic, tính bảo tồn khối lượng, tính liên kết cấu trúc và tính duy kỷ trung tâm trong ngôn ngữ của trẻ em.",
+        "C": "Hình thức (mức độ) thực hiện hành động, độ khái quát của hành động, độ khai triển (rút gọn) của hành động và độ thành thạo (thuần thục) của hành động.",
+        "D": "Số lượng các mối liên tưởng kinh nghiệm, tần số lặp lại các phép thử sai, mức độ củng cố phần thưởng và tốc độ quên theo thời gian."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo P.Ya. Galperin, một hành động được xác định bởi 4 thông số: (1) Hình thức hay mức độ thực hiện (với vật thật/vật chất hóa, với lời nói to, trong đầu); (2) Độ khái quát; (3) Độ khai triển (rút gọn); (4) Độ thành thạo. Thông số 1 xác định mức độ thực hiện, 3 thông số sau xác định chất lượng hành động."
+    },
+    {
+      "id": 60,
+      "difficulty": "easy",
+      "question": "Trật tự tuyến tính 5 bước hình thành hành động trí tuệ từ bên ngoài vào bên trong do P.Ya. Galperin xác lập diễn ra theo trình tự đúng nào sau đây?",
+      "options": {
+        "A": "Hành động với lời nói bên trong -> Hành động nói thầm -> Hành động nói to -> Hành động với đồ vật thật -> Lập cơ sở định hướng hành động.",
+        "B": "Lập cơ sở định hướng -> Hành động nói thầm trong đầu -> Hành động với đồ vật thật -> Hành động nói to -> Hành động phản xạ bẩm sinh.",
+        "C": "Lập cơ sở định hướng -> Hành động với đồ vật thật hay vật chất hóa -> Hành động nói to không dùng đồ vật -> Hành động nói thầm -> Hành động rút gọn với lời nói bên trong.",
+        "D": "Hành động thử và sai ngẫu nhiên -> Hành động bừng hiểu tức thời -> Hành động đồng hóa -> Hành động điều ứng -> Hành động cân bằng cấu trúc theo đúng các quy luật khách quan của hoạt động nhận thức."
+      },
+      "correct_answer": "C",
+      "explanation": "Năm bước hình thành hành động trí tuệ theo P.Ya. Galperin gồm: Bước 1: Lập cơ sở định hướng của hành động; Bước 2: Hành động với đồ vật hay vật chất hóa; Bước 3: Hành động nói to không dùng đồ vật; Bước 4: Hành động với lời nói thầm; Bước 5: Hành động rút gọn với lời nói bên trong."
+    },
+    {
+      "id": 61,
+      "difficulty": "medium",
+      "question": "Ở Bước 2 (Hành động với đồ vật hay vật chất hóa) trong lý thuyết của P.Ya. Galperin, vì sao chủ thể phải triển khai hành động bằng tay 'tới mức hết cỡ' trước khi rút gọn?",
+      "options": {
+        "A": "Vì triển khai triệt để bằng thao tác vật chất là điều kiện số một để bộc lộ toàn bộ lôgíc khách quan của hành động và nội dung đích thực của khái niệm cần lĩnh hội.",
+        "B": "Vì trẻ em có nhu cầu vận động cơ bắp tay chân liên tục để tiêu hao năng lượng dư thừa chứ không liên quan gì đến việc hiểu nội dung khái niệm.",
+        "C": "Vì nếu rút gọn hành động ở các bước sau thì cơ chế tâm lý của hành động ban đầu sẽ bị biến mất vĩnh viễn không bao giờ khôi phục lại được.",
+        "D": "Vì ở bước này học sinh bị cấm tuyệt đối việc khái quát hóa hay rút ra các thuộc tính bản chất của đối tượng cho đến khi tốt nghiệp phổ thông."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo P.Ya. Galperin, sự triển khai triệt để (hết cỡ) hành động bằng thao tác vật chất (bằng tay) ở Bước 2 là điều kiện số một để chỉ ra lôgíc khách quan của hành động, tức nội dung đích thực của khái niệm; sau khi khái quát và luyện tập thuần thục mới rút gọn có chủ ý."
+    },
+    {
+      "id": 62,
+      "difficulty": "hard",
+      "question": "Trong Bước 3 (Hành động với lời nói to không dùng đồ vật) của P.Ya. Galperin, chức năng của ngôn ngữ đã thay đổi căn bản như thế nào so với Bước 1 và Bước 2?",
+      "options": {
+        "A": "Ở Bước 3 ngôn ngữ mất hết mọi quy tắc ngữ pháp và ngữ âm để biến thành những mảnh ký hiệu vô thức không ai có thể nghe hay giám sát được.",
+        "B": "Ở Bước 1 và 2 ngôn ngữ chỉ là hệ thống chỉ dẫn giúp hiểu hành động vật chất, còn ở Bước 3 ngôn ngữ trở thành đối tượng thực tại chứa đựng và thực hiện toàn bộ hành động.",
+        "C": "Ở Bước 3 ngôn ngữ chỉ đóng vai trò thông báo kết quả cuối cùng sau khi học sinh đã dùng tay thao tác xong trên các đồ vật thật ở trước mặt.",
+        "D": "Chức năng của ngôn ngữ ở Bước 3 hoàn toàn giống hệt Bước 1 và Bước 2 vì học sinh vẫn phải vừa cầm nắm vật thật vừa đọc theo lời của giáo viên trong lịch sử nghiên cứu của các trường phái tâm lý học."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong Bước 1 và 2, ngôn ngữ chỉ là hệ thống chỉ dẫn giúp trẻ hiểu hành động với vật liệu. Sang Bước 3 (lời nói to không dùng đồ vật), ngôn ngữ trở thành đối tượng của hành động — không chỉ thông báo về hành động mà chính là thực hiện hành động trong một dạng mới (dạng ngôn ngữ có quy tắc ngữ pháp)."
+    },
+    {
+      "id": 63,
+      "difficulty": "hard",
+      "question": "Vì sao P.Ya. Galperin khẳng định Bước 4 (Hành động với lời nói thầm / nói bên ngoài không thành tiếng) không đơn giản là 'lấy ngôn ngữ trừ âm thanh'?",
+      "options": {
+        "A": "Vì ở bước này học sinh phải hét thật to các từ ngữ ra bên ngoài để át đi tiếng ồn của môi trường xung quanh trong lớp học.",
+        "B": "Vì ở bước này toàn bộ cấu trúc ngữ âm của ngôn ngữ bên ngoài đã bị phá hủy hoàn toàn và không thể chuyển ngược lại thành lời nói to được nữa trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "C": "Vì bản chất của nó là cấu tạo lại ngôn ngữ, biến hình ảnh âm thanh của từ thành biểu tượng cấu âm không thành tiếng — vừa là điểm tựa vật chất cuối cùng vừa là hành động tinh thần.",
+        "D": "Vì bước này thực chất là quay trở lại thao tác trực tiếp bằng hai bàn tay trên các mô hình và sơ đồ vật chất hóa như ở bước thứ hai."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo P.Ya. Galperin, Bước 4 không phải là 'lấy ngôn ngữ trừ âm thanh' mà là cấu tạo lại ngôn ngữ, biến 'hình ảnh âm thanh của từ' thành biểu tượng thông qua sự cấu âm không thành tiếng. Nó vừa giữ cấu trúc ngữ âm ngôn ngữ ngoài (điểm tựa vật chất cuối cùng) vừa là hành động tinh thần bên trong."
+    },
+    {
+      "id": 64,
+      "difficulty": "medium",
+      "question": "Khi bàn về việc vận dụng 5 bước của P.Ya. Galperin trong dạy học, nhận xét của A.N. Leontiev nhắc nhở giáo viên cần tránh hai khuynh hướng sai lầm cực đoan nào?",
+      "options": {
+        "A": "Tránh việc cho phép học sinh sử dụng các thao tác trí óc đã hình thành trước đây và bắt buộc mọi người lớn đều phải đếm bằng que tính từ đầu trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "B": "Tránh việc sử dụng ngôn ngữ trong nhà trường và chỉ cho phép học sinh học tập thông qua việc quan sát thụ động các bức tranh treo trên tường.",
+        "C": "Tránh việc kiểm tra đánh giá chất lượng hành động học tập và để mặc học sinh tự mò mẫm theo cơ chế thử và sai trong suốt bậc tiểu học.",
+        "D": "Tránh việc vận dụng máy móc cả 5 bước cho mọi trường hợp (khi trẻ đã có thao tác trí óc từ trước) hoặc ngược lại là bỏ qua các bước quan trọng, đặc biệt là bước hành động vật chất."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình dẫn lời A.N. Leontiev để lưu ý giáo viên tránh hai cực đoan: hoặc vận dụng máy móc cả 5 bước khi học sinh đã có sẵn những thao tác trí óc tương ứng từ trước, hoặc bỏ qua các bước quan trọng (đặc biệt là bước hành động vật chất khi hình thành hành động trí tuệ mới trọn vẹn)."
+    },
+    {
+      "id": 65,
+      "difficulty": "hard",
+      "question": "Theo P.Ya. Galperin, trong quá trình hình thành hành động trí tuệ từ ngoài vào trong, 'hành động kiểm tra' phát triển như thế nào và rút gọn thành hiện tượng tâm lý gì?",
+      "options": {
+        "A": "Hành động kiểm tra diễn ra chậm hơn rất nhiều so với hành động thực hiện nên phải đến khi con người về già nó mới bắt đầu được hình thành.",
+        "B": "Hành động kiểm tra chỉ tồn tại ở Bước 1 và Bước 2, còn khi chuyển sang ngôn ngữ bên trong thì bị xóa bỏ hoàn toàn không để lại dấu vết gì.",
+        "C": "Hành động kiểm tra chuyển vào trong và rút gọn nhanh hơn hành động thực hiện, cuối cùng chuyển hóa thành 'sự chú ý' (hành động tự quan sát) tạo nên sự phân đôi Nghĩa và Ý.",
+        "D": "Hành động kiểm tra biến đổi thành các phản xạ vận động cơ bắp không chủ định và tách rời hoàn toàn khỏi ý thức của chủ thể hành động."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo P.Ya. Galperin, hành động kiểm tra có đối tượng là hành động thực hiện, chuyển từ ngoài vào trong nhưng với tốc độ nhanh hơn và rút gọn thuận lợi hơn hành động thực hiện; cuối cùng hành động kiểm tra chuyển thành 'chú ý' (hành động tự quan sát), góp phần hình thành Nghĩa và Ý của hành động trí tuệ."
+    },
+    {
+      "id": 66,
+      "difficulty": "medium",
+      "question": "Trong lý thuyết của P.Ya. Galperin, để phân loại các phương pháp định hướng hành động trí óc, người ta căn cứ vào ba tiêu chuẩn nào và có ba loại điển hình nào trong thực tiễn?",
+      "options": {
+        "A": "Căn cứ vào độ tuổi, giới tính và điểm số học tập của học sinh; thực tiễn chỉ có một loại định hướng duy nhất là học thuộc lòng lời giảng của thầy cô theo đúng các quy luật khách quan của hoạt động nhận thức xét trên bình diện lý luận và thực tiễn giáo dục.",
+        "B": "Căn cứ vào thời gian, kinh phí và trang thiết bị phòng học; trong đó Loại 1 là hiệu quả nhất vì rèn luyện cho học sinh cơ chế thử và sai vô tận.",
+        "C": "Căn cứ vào mức độ đồng hóa, điều ứng và cân bằng sinh học; trong đó Loại 2 giúp học sinh tự chuyển sang vật liệu mới mà không cần chỉ dẫn thêm.",
+        "D": "Căn cứ vào độ khái quát, tính đầy đủ và chủ thể định hướng (tổ hợp lý thuyết có 8 loại); thực tiễn có 3 loại điển hình: Loại 1 (không đủ, tự mò mẫm), Loại 2 (đầy đủ, cho sẵn) và Loại 3 (khái quát, đầy đủ, học sinh tự lập)."
+      },
+      "correct_answer": "D",
+      "explanation": "Dựa trên 3 tiêu chuẩn (1. Độ khái quát; 2. Tính đầy đủ; 3. Chủ thể định hướng), về lý thuyết có 8 loại, trong thực tiễn có 3 loại điển hình: Loại 1 (từng phần, không đủ, học sinh tự làm theo thử - sai); Loại 2 (từng phần, đầy đủ, giáo viên cho sẵn); Loại 3 (khái quát, đầy đủ, học sinh tự xác lập trên cơ sở phương pháp chung)."
+    },
+    {
+      "id": 67,
+      "difficulty": "medium",
+      "question": "Theo J. Piaget (trình bày tại Mục 3.4.1.1), một 'giai đoạn' (Stade) phát triển trí tuệ của trẻ em được xác định dựa trên bốn đặc trưng cốt lõi nào?",
+      "options": {
+        "A": "Là một khoảng thời gian cố định đúng bằng ba năm sinh học; tách biệt tuyệt đối với giai đoạn trước; chỉ xếp chồng các sơ đồ rời rạc; và không có sự chuẩn bị cho giai đoạn sau khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "B": "Là kết quả của các cuộc khủng hoảng tâm lý dữ dội; phụ thuộc hoàn toàn vào sự thay đổi môi trường trường lớp; và xóa bỏ sạch sẽ mọi cấu trúc nhận thức đã hình thành trước đó.",
+        "C": "Là sự bộc lộ tuần tự của các bản năng di truyền; không phụ thuộc vào hoạt động của trẻ; không có tính cấu trúc tổng thể; và kết thúc hoàn toàn khi trẻ tròn sáu tuổi.",
+        "D": "Là sự kế tiếp giai đoạn trước; thống hợp các cấu trúc đã có; là một cấu trúc tổng thể các sơ đồ (không phải xếp chồng); và gồm cấu trúc đã có, đang có cùng yếu tố chuẩn bị cho giai đoạn sau."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo J. Piaget, một giai đoạn (stade) phát triển trí tuệ có 4 đặc trưng: (1) kế tiếp giai đoạn trước; (2) thống hợp các cấu trúc đã có; (3) là một cấu trúc tổng thể các sơ đồ chứ không phải sự xếp chồng; (4) gồm cấu trúc đã có, đang có và yếu tố chuẩn bị cho giai đoạn tiếp sau."
+    },
+    {
+      "id": 68,
+      "difficulty": "easy",
+      "question": "Trong giai đoạn Tiền thao tác (2 đến 6–7 tuổi) của J. Piaget, những đặc trưng nổi bật nào chi phối trí tuệ và ngôn ngữ của trẻ khiến trẻ chưa có thao tác?",
+      "options": {
+        "A": "Tính khách quan khoa học, khả năng suy luận mệnh đề giả thuyết, khả năng phân hạng bắc cầu và khả năng bảo tồn thể tích chất lỏng trong các bình chứa.",
+        "B": "Tính chất thuần túy cảm giác – vận động chưa có biểu tượng tâm lý, chưa biết nói và chưa có khả năng thực hiện các trò chơi tượng trưng đóng vai.",
+        "C": "Tính chất hợp tác xã hội cao độ như một trận đánh cờ cân bằng, trong đó trẻ hoàn toàn thoát khỏi góc nhìn chủ quan để chấp nhận lập luận lôgic của người khác theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "D": "Tính duy kỷ, trực giác, tổng thể và triển khai bằng cách xếp kề các hình ảnh, do trẻ chưa có khả năng tập trung vào sự biến đổi của vật và chưa đảo ngược được cấu trúc."
+      },
+      "correct_answer": "D",
+      "explanation": "Ở giai đoạn tiền thao tác (2 đến 6–7 tuổi), đặc trưng nổi bật trong trí tuệ và ngôn ngữ của trẻ là tính duy kỷ, trực giác, tổng thể và triển khai bằng cách xếp kề các hình ảnh, do chưa tập trung vào sự biến đổi của vật và chưa có khả năng đảo ngược cấu trúc."
+    },
+    {
+      "id": 69,
+      "difficulty": "medium",
+      "question": "Khác với J. Piaget thường tách các cấu trúc nhận thức ra khỏi các yếu tố tâm lý khác, nhà tâm lý học Pháp Henri Wallon (H. Valông) phân chia giai đoạn phát triển theo quan điểm nào?",
+      "options": {
+        "A": "Chỉ căn cứ duy nhất vào sự phát triển chiều cao, cân nặng và sự mọc răng của trẻ em qua từng năm tuổi mà bỏ qua mọi yếu tố cảm xúc và xã hội.",
+        "B": "Phân chia sự phát triển của trẻ dựa thuần túy vào số lượng các bài toán lôgic hình thức mà đứa trẻ tự mình giải được trong phòng thí nghiệm.",
+        "C": "Đặt sự phát triển trí tuệ trong mối quan hệ hữu cơ với tổng thể nhân cách, dành vị trí xứng đáng cho các yếu tố cảm xúc, hành động xã hội và tương tác với người lớn.",
+        "D": "Coi sự phát triển tâm lý trẻ em là quá trình suy giảm dần các mối quan hệ xã hội để quay về trạng thái cô lập cá nhân tuyệt đối ở tuổi trưởng thành."
+      },
+      "correct_answer": "C",
+      "explanation": "H. Wallon (1879–1962) luôn nhìn nhận sự phát triển trí tuệ trong mối quan hệ hữu cơ của tổng thể nhân cách, gắn với toàn bộ quá trình xã hội hóa nhân cách và dành phần xứng đáng cho cảm xúc, hành động xã hội (điểm tương đồng với Vygotsky)."
+    },
+    {
+      "id": 70,
+      "difficulty": "hard",
+      "question": "Theo hệ thống phân kỳ 7 giai đoạn của Henri Wallon, giai đoạn thứ 5 là 'Giai đoạn cá thể hóa' (3–6 tuổi) diễn ra qua ba thời kỳ nhỏ kế tiếp nhau nào?",
+      "options": {
+        "A": "Thời kỳ 3 tuổi là thời kỳ chống đối (tách mình khỏi người khác); 4–5 tuổi là thời kỳ ái kỷ (tập trung vào bản thân, thích khoe khoang); và 5–6 tuổi phát triển tư duy trực giác, tổng thể, xếp kề.",
+        "B": "Thời kỳ 3 tuổi là thời kỳ xung động phản xạ; 4–5 tuổi là thời kỳ phóng chiếu tập đi tập nói; và 5–6 tuổi là thời kỳ suy luận mệnh đề trừu tượng theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "C": "Thời kỳ 3 tuổi là thời kỳ khủng hoảng dậy thì; 4–5 tuổi là thời kỳ định hướng nghề nghiệp; và 5–6 tuổi là thời kỳ lão hóa các tế bào thần kinh.",
+        "D": "Trong suốt giai đoạn từ 3 đến 6 tuổi trẻ hoàn toàn không có ý thức về 'Cái tôi' cá nhân và chỉ thực hiện các phản ứng vòng tròn thứ cấp."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo H. Wallon, giai đoạn thứ 5 (Cá thể hóa, 3–6 tuổi) phát triển mạnh 'cái tôi' qua 3 thời kỳ: 3 tuổi là thời kỳ chống đối (tách mình khỏi người khác); 4–5 tuổi là thời kỳ ái kỷ (tập trung vào bản thân, thích khoe khoang, nhận biết ký hiệu ngôn ngữ); 5–6 tuổi phát triển tư duy trực giác, tổng thể và xếp kề hình ảnh."
+    },
+    {
+      "id": 71,
+      "difficulty": "easy",
+      "question": "Trình tự 7 giai đoạn phát triển tâm lý, nhân cách và trí tuệ trẻ em theo học thuyết của Henri Wallon (H. Valông) được sắp xếp đúng như thế nào?",
+      "options": {
+        "A": "Xung động (0–6 tháng) -> Cảm xúc (6–10 tháng) -> Giác – động (10–14 tháng) -> Phóng chiếu (14 tháng – 2 tuổi) -> Cá thể hóa (3–6 tuổi) -> Đến trường (6–13 tuổi) -> Dậy thì.",
+        "B": "Giác – động (0–2 tuổi) -> Tiền thao tác (2–7 tuổi) -> Thao tác cụ thể (7–12 tuổi) -> Thao tác hình thức (12–15 tuổi) -> Trưởng thành -> Trung niên -> Tuổi già khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "C": "Sơ sinh -> Tuổi ẵm ngửa -> Tuổi ấu thơ -> Trước tuổi học -> Tuổi học sinh nhỏ -> Tuổi học sinh lớn -> Tuổi thanh niên nghề nghiệp.",
+        "D": "Cảm xúc -> Xung động -> Cá thể hóa -> Phóng chiếu -> Giác – động -> Dậy thì -> Đến trường tiểu học."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo H. Wallon, quá trình phát triển tâm lý, nhân cách (trong đó có trí tuệ) của trẻ diễn ra qua 7 giai đoạn: (1) Xung động (0–6 tháng); (2) Cảm xúc (6–10 tháng); (3) Giác – động (10–14 tháng); (4) Phóng chiếu (14 tháng – 2 tuổi); (5) Cá thể hóa (3–6 tuổi); (6) Đến trường (6 đến 12–13 tuổi); (7) Dậy thì (quay chú ý lại bản thân, phát triển suy luận trừu tượng)."
+    },
+    {
+      "id": 72,
+      "difficulty": "medium",
+      "question": "Theo L.S. Vygotsky, để phân chia các giai đoạn phát triển tâm lý và trí tuệ trẻ em một cách khoa học cần phải căn cứ vào hai tiêu chuẩn cốt lõi nào?",
+      "options": {
+        "A": "Căn cứ vào sự mở rộng và phối hợp cơ học các tư chất bẩm sinh đã có sẵn ngay từ đầu mà không hề xuất hiện bất kỳ yếu tố tâm lý nào mới trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "B": "Căn cứ thuần túy vào các mốc chuyển cấp học hành chính do Bộ Giáo dục quy định và kết quả các kỳ thi học kỳ hàng năm của học sinh.",
+        "C": "Căn cứ vào sự biến đổi thể chất sinh học như chiều cao, cân nặng và sự thay đổi hàm lượng nội tiết tố trong máu qua từng giai đoạn.",
+        "D": "Căn cứ vào các 'cấu trúc mới' (cấu tạo mới của nhân cách và hoạt động xuất hiện lần đầu ở độ tuổi đó) và 'động thái phát triển' (sự chuyển tiếp qua các cuộc khủng hoảng lứa tuổi)."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo L.S. Vygotsky, phân chia giai đoạn phát triển trẻ em phải căn cứ vào ít nhất 2 yếu tố: (1) cấu trúc mới đặc trưng cho bản chất mỗi lứa tuổi (những biến đổi tâm lý và xã hội xuất hiện lần đầu); (2) động thái phát triển (sự luân phiên giữa thời kỳ ổn định và các cuộc khủng hoảng lứa tuổi)."
+    },
+    {
+      "id": 73,
+      "difficulty": "medium",
+      "question": "Theo L.S. Vygotsky, các giai đoạn 'Khủng hoảng phát triển' (khủng hoảng lứa tuổi: sơ sinh, 1 tuổi, 3 tuổi, 7 tuổi, 13 tuổi) có ba đặc điểm điển hình nào?",
+      "options": {
+        "A": "Kéo dài suốt nhiều năm liền với nhịp độ êm ả; trẻ trở nên ngoan ngoãn, dễ bảo hơn hẳn thời kỳ ổn định; và thành tích học tập tăng vọt không ngừng.",
+        "B": "Khó xác định thời điểm mở đầu và kết thúc nhưng có điểm cực đại căng thẳng; trẻ rất khó tiếp xúc, khó giáo dục, giảm hứng thú học tập; và có xu thế tạm dừng hoặc thụt lùi biểu kiến.",
+        "C": "Là một căn bệnh tâm thần nguy hiểm cần phải nhập viện điều trị bằng thuốc; chỉ xảy ra ở những trẻ em có khuyết tật bẩm sinh về hệ thần kinh.",
+        "D": "Có ngày bắt đầu và ngày kết thúc cố định chính xác đến từng giờ đồng hồ; không gây ra bất kỳ sự biến đổi nào đối với nhân cách và ý thức của trẻ."
+      },
+      "correct_answer": "B",
+      "explanation": "L.S. Vygotsky chỉ ra 3 đặc điểm của giai đoạn khủng hoảng lứa tuổi: (1) khó xác định thời điểm xuất phát và kết thúc nhưng đều có điểm cực đại căng thẳng tột độ; (2) trẻ rất khó tiếp xúc, khó giáo dục, giảm thành tích học tập, nội tâm dằn vặt; (3) có xu thế thụt lùi, tạm dừng sự phát triển trước khi tạo bước ngoặt cách mạng."
+    },
+    {
+      "id": 74,
+      "difficulty": "medium",
+      "question": "Theo A.N. Leontiev và D.B. Elkonin, dấu hiệu căn bản để xác định sự chuyển tiếp từ giai đoạn phát triển lứa tuổi này sang giai đoạn lứa tuổi khác là gì?",
+      "options": {
+        "A": "Sự thay đổi nơi cư trú địa lý của gia đình đứa trẻ hoặc sự thay đổi giáo viên chủ nhiệm ở trường mầm non và trường tiểu học.",
+        "B": "Sự thay đổi kiểu 'hoạt động chủ đạo', tức là thay đổi mối quan hệ chủ đạo của đứa trẻ với thực tại (luân phiên giữa Lớp A: quan hệ người – người và Lớp B: quan hệ người – đồ vật).",
+        "C": "Sự tích lũy đủ một số lượng cố định các từ vựng tiếng mẹ đẻ mà không phụ thuộc vào việc đứa trẻ tham gia vào hoạt động nào.",
+        "D": "Sự xuất hiện tự phát của các sơ đồ lôgic hình thức trong bộ não mà không liên quan gì đến thế giới đồ vật hay quan hệ xã hội trong lịch sử nghiên cứu của các trường phái tâm lý học."
+      },
+      "correct_answer": "B",
+      "explanation": "A.N. Leontiev chỉ ra dấu hiệu chuyển giai đoạn là sự thay đổi kiểu 'hoạt động chủ đạo'. Tiếp nối hướng này, D.B. Elkonin chia đối tượng hoạt động thành Lớp A (quan hệ người – người) và Lớp B (quan hệ người – vật thể/tri thức) luân phiên nhau qua 6 giai đoạn."
+    },
+    {
+      "id": 75,
+      "difficulty": "hard",
+      "question": "Trong bảng phân kỳ 6 giai đoạn của D.B. Elkonin, những giai đoạn lứa tuổi nào có hoạt động chủ đạo hướng vào đối tượng thuộc 'Lớp A' (quan hệ người – người, chuẩn mực xã hội)?",
+      "options": {
+        "A": "Giai đoạn tuổi thơ (1–3 tuổi: học sử dụng đồ vật), giai đoạn học sinh nhỏ (6–12 tuổi: học tri thức khoa học) và giai đoạn thanh niên trưởng thành (từ 18 tuổi: nghề nghiệp chuyên môn) khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "B": "Giai đoạn sơ sinh (0–1 tuổi: quan hệ với mẹ và người lớn), giai đoạn mẫu giáo (3–7 tuổi: vui chơi theo chuẩn mực xã hội) và giai đoạn học sinh lớn (12–17 tuổi: quan hệ bạn bè thân hữu).",
+        "C": "Chỉ có duy nhất giai đoạn thanh niên trưởng thành từ 18 tuổi trở lên mới hướng vào đối tượng thuộc Lớp A, còn mọi giai đoạn trẻ em đều thuộc Lớp B.",
+        "D": "Tất cả sáu giai đoạn từ lúc mới sinh đến khi trưởng thành trong học thuyết của D.B. Elkonin đều chỉ hướng vào thế giới đồ vật kỹ thuật thuộc Lớp B."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo D.B. Elkonin, các giai đoạn luân phiên Lớp A và Lớp B như sau: Lớp A (quan hệ người – người) gồm: Sơ sinh (0–1 tuổi), Mẫu giáo (3 đến 6–7 tuổi) và Học sinh lớn (12 đến 16–17 tuổi). Còn Lớp B (quan hệ với đồ vật/tri thức khoa học) gồm: Tuổi thơ (1–3 tuổi), Học sinh nhỏ (6–7 đến 11–12 tuổi) và Thanh niên trưởng thành (từ 18 tuổi)."
+    },
+    {
+      "id": 76,
+      "difficulty": "hard",
+      "question": "Trong hệ thống phân kỳ của D.B. Elkonin, những giai đoạn lứa tuổi nào có hoạt động chủ đạo hướng vào đối tượng thuộc 'Lớp B' (thế giới vật thể, công cụ và tri thức khoa học)?",
+      "options": {
+        "A": "Giai đoạn sơ sinh (0–1 tuổi: giao tiếp xúc cảm với mẹ), giai đoạn mẫu giáo (3–6 tuổi: đóng vai xã hội) và giai đoạn học sinh lớn (12–17 tuổi: giao tiếp bạn bè) trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "B": "Giai đoạn tuổi thơ (1–3 tuổi: học dùng đồ vật hàng ngày), giai đoạn học sinh nhỏ (6–12 tuổi: học các tri thức khoa học) và giai đoạn thanh niên, trưởng thành (từ 18 tuổi: nghề nghiệp và khoa học).",
+        "C": "Chỉ có giai đoạn sơ sinh từ 0 đến 1 tuổi và giai đoạn mẫu giáo từ 3 đến 6 tuổi là hướng vào việc nghiên cứu các tri thức khoa học thuộc Lớp B.",
+        "D": "Không có giai đoạn nào hướng vào thế giới đồ vật vì D.B. Elkonin cho rằng trẻ em chỉ phát triển trí tuệ thông qua việc tự quan sát nội tâm."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo D.B. Elkonin, đối tượng thuộc Lớp B (quan hệ với thế giới vật thể và tri thức khoa học) đặc trưng cho hoạt động chủ đạo ở 3 giai đoạn: (1) Tuổi thơ (1–3 tuổi: học dùng cốc, thìa, bát, đũa...); (2) Học sinh nhỏ (6–7 đến 11–12 tuổi: học tri thức khoa học); (3) Thanh niên và trưởng thành (từ 18 tuổi trở lên: nghề nghiệp chuyên môn và khoa học)."
+    },
+    {
+      "id": 77,
+      "difficulty": "easy",
+      "question": "Theo số liệu tổng hợp về nhịp độ phát triển trí tuệ qua các lứa tuổi (Sơ đồ 3.1 dẫn theo Godefroid, 1987), ở các mốc 6 tuổi, 8 tuổi và 12 tuổi, trí tuệ trẻ em đạt tỷ lệ bao nhiêu so với mức trưởng thành?",
+      "options": {
+        "A": "Đến 6 tuổi mới đạt 1/10 sự phát triển, đến 12 tuổi đạt 1/4 sự phát triển và phải đến sau 40 tuổi mới đạt được 3/4 mức trưởng thành trí tuệ.",
+        "B": "Khoảng 1/3 sự phát triển trí tuệ được thực hiện trong 6 năm đầu, đến 8 tuổi đạt 1/2 sự phát triển và đến tuổi 12 đã đạt tới 3/4 mức trưởng thành.",
+        "C": "Ngay từ lúc 2 tuổi đã đạt 3/4 mức trưởng thành, đến 6 tuổi đạt 100% mức trưởng thành và từ 8 tuổi trở đi trí tuệ bắt đầu suy giảm nhanh chóng.",
+        "D": "Nhịp độ phát triển trí tuệ tăng đều đặn mỗi năm đúng 5% từ lúc sơ sinh cho đến năm 20 tuổi mà không có giai đoạn nào tăng nhanh hơn giai đoạn nào."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nêu rõ số liệu (Sơ đồ 3.1): sự phát triển trí tuệ cá nhân tăng rất nhanh trong 6 năm đầu (đạt 1/3 sự phát triển), đến 8 tuổi đạt 1/2 sự phát triển và đạt 3/4 mức trưởng thành ở tuổi 12."
+    },
+    {
+      "id": 78,
+      "difficulty": "medium",
+      "question": "Việc trí tuệ cá nhân đạt tới 3/4 mức trưởng thành ngay trong 12 năm đầu đời mang lại kết luận sư phạm quan trọng nào đối với gia đình và nhà trường?",
+      "options": {
+        "A": "Chứng tỏ giáo dục trung học phổ thông và đại học là hoàn toàn vô ích vì sau 12 tuổi con người không thể tiếp thu thêm bất kỳ tri thức khoa học nào nữa theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "B": "Khẳng định trẻ em dưới 12 tuổi tự phát triển trí tuệ theo chương trình sinh học nên gia đình và nhà trường không cần tổ chức dạy học làm gì.",
+        "C": "Cho thấy cần phải dồn toàn bộ chương trình đại học xuống dạy ngay cho trẻ sơ sinh trong năm đầu tiên để tận dụng tốc độ phát triển của não bộ.",
+        "D": "Khẳng định những năm đầu đời (từ 12 tuổi trở xuống) có tầm quan trọng quyết định đối với tương lai trí tuệ cá nhân, đòi hỏi phát huy vai trò chủ đạo của giáo dục gia đình và nhà trường."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình nhấn mạnh: những năm đầu đời (từ 12 tuổi trở xuống) có tầm quan trọng quyết định đối với tương lai phát triển trí tuệ của cá nhân, điều này khẳng định vai trò chủ đạo của giáo dục nhà trường và gia đình trong giai đoạn đầu và học đường."
+    },
+    {
+      "id": 79,
+      "difficulty": "medium",
+      "question": "Theo các nghiên cứu tâm lý – thần kinh học được nêu trong giáo trình, sự phát triển và lão hóa của bộ não cũng như trí tuệ người trưởng thành diễn ra qua các mốc tuổi nào?",
+      "options": {
+        "A": "Lúc mới sinh não đạt 1/4 trọng lượng người lớn; sau 25 tuổi tế bào thần kinh bắt đầu chết hàng ngày và tăng lên sau 45 tuổi, nhưng không có dấu hiệu suy giảm trí tuệ trước 60 tuổi và lão hóa não phổ biến ở tuổi 70.",
+        "B": "Lúc mới sinh não đã nặng bằng não người lớn; từ 15 tuổi trí tuệ đã bắt đầu suy giảm nghiêm trọng và đến 30 tuổi thì toàn bộ não bộ bị lão hóa.",
+        "C": "Các tế bào thần kinh không bao giờ bị chết đi trong suốt cuộc đời con người và trí tuệ luôn tăng trưởng tuyến tính cho đến năm 100 tuổi.",
+        "D": "Lúc mới sinh não chỉ đạt 1/20 trọng lượng người lớn; ngay sau 25 tuổi khi tế bào thần kinh chết đi thì con người mất ngay khả năng tư duy trừu tượng trong toàn bộ tiến trình phát triển tâm lý cá nhân xét trên bình diện lý luận và thực tiễn giáo dục."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình cung cấp các mốc chính xác: lúc mới sinh não trẻ đạt 1/4 trọng lượng não người trưởng thành; sau 25 tuổi mỗi ngày có hàng vạn tế bào thần kinh chết và tăng lên sau 45 tuổi nhưng không ảnh hưởng hoạt động bình thường; không có dấu hiệu suy giảm trí tuệ trước 60 tuổi; sự lão hóa của não xuất hiện phổ biến ở tuổi 70."
+    },
+    {
+      "id": 80,
+      "difficulty": "medium",
+      "question": "Theo nhà tâm lý học R. Cattell, trong cấu trúc trí tuệ của người cao tuổi, hai thành phần 'Trí tuệ lỏng' (Fluid Intelligence) và 'Trí tuệ tinh luyện' (Crystallized Intelligence) biến đổi như thế nào?",
+      "options": {
+        "A": "Thành phần 'Trí tuệ tinh luyện' gồm vốn từ vựng và kinh nghiệm sống bị mất sạch trước tiên, trong khi 'Trí tuệ lỏng' lại tăng vọt gấp đôi ở tuổi tám mươi trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "B": "Thành phần 'Trí tuệ lỏng' gắn với cơ chế sinh lý thần kinh thường bị suy giảm, còn 'Trí tuệ tinh luyện' gồm những tri thức và kinh nghiệm thu được trong cuộc sống vẫn hoạt động bình thường.",
+        "C": "Cả 'Trí tuệ lỏng' và 'Trí tuệ tinh luyện' đều bị tiêu vong hoàn toàn ngay khi con người bước qua tuổi năm mươi bất kể chế độ lao động trí óc ra sao.",
+        "D": "Thành phần 'Trí tuệ lỏng' là vốn kiến thức văn hóa xã hội tích lũy qua sách vở, còn 'Trí tuệ tinh luyện' là tốc độ dẫn truyền xung thần kinh bẩm sinh."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo R. Cattell, trong cấu trúc trí tuệ của người cao tuổi, thành phần 'Trí tuệ lỏng' (gắn với cơ chế sinh lý thần kinh) thường bị suy giảm, còn 'Trí tuệ tinh luyện' (những tri thức, kinh nghiệm thu được trong cuộc sống) vẫn hoạt động bình thường."
+    },
+    {
+      "id": 81,
+      "difficulty": "medium",
+      "question": "Theo nghiên cứu của tác giả Phạm Khuê (1997) được dẫn trong giáo trình, sự suy giảm trí tuệ ở người già biểu hiện rõ nhất ở đâu và diễn ra không đều như thế nào?",
+      "options": {
+        "A": "Biểu hiện rõ ở sự giảm sút trí nhớ ngắn hạn (nhớ sự kiện hiện thời) và tốc độ phản ứng; khả năng trừu tượng hóa suy giảm nhanh hơn so với các thao tác đã tự động hóa và ngôn ngữ.",
+        "B": "Người già bị mất hoàn toàn khả năng sử dụng ngôn ngữ tiếng mẹ đẻ và các kỹ năng tự động hóa trước tiên, trong khi trí nhớ ngắn hạn lại sắc bén hơn thời trẻ.",
+        "C": "Sự suy giảm trí tuệ ở người già diễn ra đồng đều tuyệt đối ở tất cả mọi chức năng tâm lý và không thể làm chậm lại bằng bất kỳ chế độ luyện tập nào.",
+        "D": "Người già chỉ quên các ký ức thời thơ ấu xa xưa, còn các sự kiện vừa mới diễn ra trong ngày thì luôn nhớ chính xác tuyệt đối mà không cần tổ chức tư liệu."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Phạm Khuê (1997), dấu hiệu dễ nhận thấy ở người già là giảm sút trí nhớ (đặc biệt là trí nhớ ngắn hạn – nhớ sự kiện hiện thời), tốc độ phản ứng trí tuệ và rối loạn nhận thức; sự suy giảm diễn ra không đều: khả năng trừu tượng hóa và thiết lập quan hệ bản chất suy giảm nhanh hơn so với các thao tác đã được tự động hóa và ngôn ngữ."
+    },
+    {
+      "id": 82,
+      "difficulty": "easy",
+      "question": "Trong lĩnh vực tổ chức dạy học và giáo dục, việc nắm vững quy luật 'hoạt động chủ đạo' của từng giai đoạn lứa tuổi (theo Leontiev và Elkonin) giúp nhà sư phạm điều gì?",
+      "options": {
+        "A": "Giúp nhà sư phạm loại bỏ hoàn toàn các hoạt động khác của trẻ em và chỉ cho phép trẻ thực hiện duy nhất một hoạt động suốt hai mươi bốn giờ mỗi ngày theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "B": "Giúp nhà sư phạm biết nắm lấy hoạt động chủ đạo đặc trưng của từng lứa tuổi (như vui chơi ở mẫu giáo, học tập ở tuổi học sinh) để chủ động tổ chức quá trình phát triển trí tuệ cho trẻ.",
+        "C": "Giúp nhà sư phạm ép buộc trẻ mẫu giáo phải ngồi học lý thuyết khoa học trừu tượng như sinh viên đại học để đốt cháy giai đoạn phát triển.",
+        "D": "Giúp nhà sư phạm chứng minh rằng hoạt động nghề nghiệp chuyên môn đã giữ vai trò chủ đạo ngay từ khi đứa trẻ mới được một năm tuổi."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nhấn mạnh: trong hệ thống đa dạng các hoạt động của cá nhân ở mỗi giai đoạn, có một loại hoạt động với lớp đối tượng đặc trưng tạo ra hoạt động chủ đạo (vui chơi ở tuổi trước học đường, học tập và giao tiếp ở tuổi học sinh, nghề nghiệp khi trưởng thành); nhà sư phạm cần nắm lấy hoạt động này để chủ động tổ chức sự phát triển cho trẻ."
+    },
+    {
+      "id": 83,
+      "difficulty": "medium",
+      "question": "Khi phân loại các quan niệm về sự phát triển tâm lý và trí tuệ ở đầu Mục 3.4.1.3, L.S. Vygotsky và các nhà tâm lý học hoạt động đã phê phán nhóm quan niệm thứ nhất và khẳng định bản chất sự phát triển ở nhóm thứ hai như thế nào?",
+      "options": {
+        "A": "Ủng hộ quan niệm cho rằng sự phát triển tâm lý chỉ là sự tăng thêm về mặt số lượng của các phản xạ bẩm sinh đã có đầy đủ ngay từ lúc trẻ mới chào đời.",
+        "B": "Cho rằng sự phát triển trí tuệ chỉ là một vòng tuần hoàn khép kín lặp đi lặp lại các cấu trúc cũ mà không bao giờ sản sinh ra cấu tạo tâm lý mới.",
+        "C": "Khẳng định sự phát triển tâm lý trẻ em là quá trình hoàn toàn ngẫu nhiên, hỗn loạn, không tuân theo bất kỳ quy luật khách quan hay giai đoạn lứa tuổi nào trong toàn bộ tiến trình phát triển tâm lý cá nhân xét trên bình diện lý luận và thực tiễn giáo dục.",
+        "D": "Phê phán quan niệm coi phát triển chỉ là mở rộng, phối hợp các tư chất sẵn có (không có cái mới), và khẳng định phát triển là quá trình tự vận động không ngừng liên tục tạo thành cái mới chưa có ở giai đoạn trước."
+      },
+      "correct_answer": "D",
+      "explanation": "Đầu Mục 3.4.1.3, giáo trình phân biệt 2 nhóm: Nhóm 1 coi phát triển chỉ là thực hiện, biến đổi, phối hợp các tư chất đã có ngay từ đầu (không có cái mới); Nhóm 2 (được Vygotsky và tâm lý học hoạt động khẳng định) coi phát triển là quá trình tự vận động không ngừng mà đặc trưng là liên tục xuất hiện và tạo thành cái mới không có trong giai đoạn trước."
+    },
+    {
+      "id": 84,
+      "difficulty": "easy",
+      "question": "Trong tâm lý học trí tuệ, thực chất của vấn đề 'xã hội hóa các chức năng tâm lý và trí tuệ cá nhân' là giải quyết câu hỏi then chốt nào?",
+      "options": {
+        "A": "Giải quyết vấn đề bằng cách nào và theo cơ chế nào các chức năng tâm lý, trí tuệ cá nhân có được bản chất xã hội (tức chuyển 'trí tuệ xã hội' thành 'trí tuệ cá nhân').",
+        "B": "Giải quyết vấn đề làm thế nào để xóa bỏ hoàn toàn cá tính riêng của mỗi con người nhằm biến mọi cá nhân thành những bản sao cơ học giống hệt nhau trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "C": "Giải quyết vấn đề di truyền học phân tử để tìm ra đoạn gen quy định khả năng giao tiếp ngôn ngữ của các loài linh trưởng trong tự nhiên.",
+        "D": "Giải quyết vấn đề huấn luyện trẻ sơ sinh sống tách biệt hoàn toàn khỏi gia đình và cộng đồng để phát triển trí tuệ tự nhiên thuần khiết."
+      },
+      "correct_answer": "A",
+      "explanation": "Ngay đầu Mục 3.5, giáo trình xác định: xã hội hóa các chức năng tâm lý, trí tuệ là giải quyết vấn đề bằng cách nào để các chức năng tâm lý, trí tuệ cá nhân có được bản chất xã hội — nói cách khác, cơ chế nào chuyển 'trí tuệ xã hội' thành 'trí tuệ cá nhân'."
+    },
+    {
+      "id": 85,
+      "difficulty": "medium",
+      "question": "Khi giải thích cơ chế chuyển hành động bên ngoài thành thao tác bên trong, J. Piaget đã phê phán sơ đồ hai thành phần S – R của thuyết liên tưởng/hành vi và thay bằng sơ đồ nào?",
+      "options": {
+        "A": "Thay bằng sơ đồ một thành phần duy nhất là R (phản ứng bẩm sinh tự phát) và phủ nhận hoàn toàn vai trò của các kích thích S từ môi trường bên ngoài.",
+        "B": "Thay bằng sơ đồ ba thành phần S – Og – R có sự tham gia của chủ thể (Og), khẳng định hiểu biết nằm trong mối tác động qua lại giữa chủ thể và đối tượng thông qua hành động.",
+        "C": "Thay bằng sơ đồ phản xạ có điều kiện cổ điển của I.P. Pavlov và quy mọi thao tác trí tuệ về sự hưng phấn hay ức chế trên vỏ bán cầu đại não.",
+        "D": "Giữ nguyên sơ đồ S – R máy móc nhưng chỉ đổi tên gọi kích thích thành phần thưởng và phản ứng thành kỹ xảo vận động cơ bắp."
+      },
+      "correct_answer": "B",
+      "explanation": "J. Piaget phê phán cơ chế liên tưởng hai thành phần S – R và đưa ra sơ đồ S – Og – R có sự tham gia của chủ thể Og: trí tuệ không có sẵn trong đầu trẻ hay trong đối tượng mà nằm trong mối tác động qua lại giữa chủ thể – đối tượng thông qua hành động."
+    },
+    {
+      "id": 86,
+      "difficulty": "hard",
+      "question": "Trong mức thứ nhất của quá trình nhập tâm theo J. Piaget ('Thu được ý thức qua hành động'), sơ đồ chuyển từ vùng ngoại biên P vào vùng chính tâm C và C' diễn ra như thế nào?",
+      "options": {
+        "A": "Khởi đầu từ vùng ngoại biên P (bề mặt giao tiếp), ý thức triển khai theo hai hướng tương hỗ: vào vùng chính tâm C của vật thể thu nhận 'vật tính', và vào vùng chính tâm C' của động tác thu nhận 'hoạt tính'.",
+        "B": "Ý thức của đứa trẻ xuất phát ngay từ vùng chính tâm C' ở trong đầu rồi mới phóng chiếu một chiều ra vùng ngoại biên P của thế giới vật chất bên ngoài.",
+        "C": "Quá trình nhận thức chỉ đi một chiều duy nhất vào vùng chính tâm C của khách thể mà không bao giờ giúp chủ thể ý thức được cơ chế động tác C' của chính mình khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "D": "Vùng ngoại biên P và vùng chính tâm C là hai khu vực giải phẫu thần kinh nằm ở thùy trán và thùy chẩm của bộ não trẻ sơ sinh."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo J. Piaget, quá trình thu được ý thức qua hành động bắt đầu từ vùng ngoại biên P (Périphérie), từ đó triển khai theo 2 hướng tương hỗ: (1) P -> C (vùng chính tâm của khách thể) giúp hiểu bản chất vật thể – thu nhận 'vật tính'; (2) P -> C' (vùng chính tâm của động tác) giúp khái niệm hóa động tác – thu nhận 'hoạt tính'."
+    },
+    {
+      "id": 87,
+      "difficulty": "hard",
+      "question": "Theo J. Piaget, quá trình 'Trừu tượng phản chiếu' của hoạt động để biến động tác thành thao tác tư duy được thực hiện qua ba mức độ nào?",
+      "options": {
+        "A": "Trừu tượng cảm giác bẩm sinh, trừu tượng liên tưởng hình ảnh máy móc và trừu tượng ngôn ngữ nói thầm không thành tiếng theo quy tắc ngữ pháp khi xem xét mối quan hệ giữa chủ thể với môi trường sống xét trên bình diện lý luận và thực tiễn giáo dục.",
+        "B": "Trừu tượng xung động cảm xúc, trừu tượng phóng chiếu vận động và trừu tượng cá thể hóa chống đối ở trẻ lên ba tuổi.",
+        "C": "Trừu tượng thực nghiệm (dựa trên động tác thực bề ngoài), trừu tượng giả thực nghiệm (dựa vào giả động tác trên vật cụ thể) và trừu tượng phản chiếu (chiếu lên mức cao và cải tổ cấu trúc tạo trừu tượng suy lý).",
+        "D": "Trừu tượng định hướng từng phần, trừu tượng định hướng đầy đủ cho sẵn và trừu tượng định hướng khái quát do học sinh tự xác lập."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo J. Piaget, quá trình trừu tượng phản chiếu thực hiện qua 3 mức: (1) Trừu tượng thực nghiệm (abstraction empirique – dựa trên động tác thực ở bề ngoài); (2) Trừu tượng giả thực nghiệm (pseudo-empirique – dựa vào giả động tác trên vật cụ thể, mạnh nhất ở giai đoạn thao tác cụ thể); (3) Trừu tượng phản chiếu (abstraction réfléchissante – chuyển hóa chiếu lên mức cao và liên kết cải tổ cấu trúc tạo 'trừu tượng suy lý')."
+    },
+    {
+      "id": 88,
+      "difficulty": "medium",
+      "question": "Trong ba mức trừu tượng của J. Piaget, vì sao 'Trừu tượng giả thực nghiệm' (pseudo-empirique) vừa mang tính thực nghiệm lại vừa có tính chất của trừu tượng phản chiếu, và diễn ra mạnh nhất ở giai đoạn nào?",
+      "options": {
+        "A": "Vì nó được thực hiện trong phòng thí nghiệm vật lý hiện đại của người lớn và chỉ xuất hiện sau khi cá nhân đã tốt nghiệp bậc đại học.",
+        "B": "Vì nó chỉ dựa vào việc quan sát thụ động màu sắc bề ngoài của đồ vật và diễn ra mạnh nhất ở trẻ sơ sinh trong tháng đầu tiên sau khi chào đời trong toàn bộ tiến trình phát triển tâm lý cá nhân xét trên bình diện lý luận và thực tiễn giáo dục.",
+        "C": "Vì nó hoàn toàn không cần đến bất kỳ đồ vật cụ thể nào mà chỉ vận hành trên các mệnh đề đại số ở cuối giai đoạn thao tác hình thức.",
+        "D": "Vì một mặt nó vẫn phải dựa vào các vật cụ thể (tính thực nghiệm), mặt khác những tính chất rút ra không có sẵn trong vật mà do hoạt động phối hợp của chủ thể tạo ra; diễn ra mạnh nhất ở giai đoạn thao tác cụ thể."
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình giải thích: Trừu tượng giả thực nghiệm một mặt vẫn phải dựa vào các vật cụ thể (nên mang tính thực nghiệm), mặt khác những tính chất của thao tác không có sẵn trong sự vật mà do hoạt động của chủ thể tạo ra (nên mang tính trừu tượng phản chiếu); loại này diễn ra mạnh nhất trong giai đoạn cấu trúc thao tác cụ thể."
+    },
+    {
+      "id": 89,
+      "difficulty": "medium",
+      "question": "Theo J. Piaget, trong thời kỳ cảm giác – vận động và thời kỳ trí tuệ trực giác (tiền thao tác), sự tác động của môi trường xã hội lên cấu trúc trí tuệ trẻ em có đặc điểm gì?",
+      "options": {
+        "A": "Ngay từ thời kỳ cảm giác – vận động, đứa trẻ sơ sinh đã tham gia tranh luận hợp tác bình đẳng với người lớn bằng hệ thống khái niệm lôgic xã hội.",
+        "B": "Ở thời kỳ trí tuệ trực giác, trẻ đã hoàn toàn xóa bỏ được tính duy kỷ trung tâm và tiếp nhận nguyên vẹn mọi khuôn mẫu thao tác trí tuệ của xã hội.",
+        "C": "Trong cả hai thời kỳ này, đứa trẻ sống hoàn toàn tách biệt với người lớn và không hề sử dụng bất kỳ ký hiệu ngôn ngữ nào để biểu đạt ý tưởng.",
+        "D": "Ở thời kỳ giác – động xã hội chưa khác nhiều với môi trường vật lý; còn ở thời kỳ trực giác, do tính duy kỷ và tập trung nên trẻ làm biến dạng các tác động xã hội theo góc nhìn riêng của mình."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo J. Piaget, ở thời kỳ giác – động, môi trường xã hội chưa khác biệt nhiều so với môi trường vật lý (chưa có trao đổi ý nghĩ). Ở thời kỳ tượng trưng và trực giác, trẻ mới 'mượn' ngôn ngữ xã hội theo cách riêng; do tính duy kỷ và tập trung của trí tuệ trực giác nên trẻ làm biến dạng các tác động, áp lực của trí tuệ bên ngoài."
+    },
+    {
+      "id": 90,
+      "difficulty": "medium",
+      "question": "Theo J. Piaget, ở trình độ cấu trúc thao tác, mối quan hệ hợp tác giữa thao tác cá nhân của đứa trẻ với thao tác trí tuệ xã hội được ông ví với hình ảnh nào?",
+      "options": {
+        "A": "Được ví như một cuộn phim quay chậm rời rạc, trong đó cá nhân và xã hội hoàn toàn cô lập, không có bất kỳ sự trao đổi hay tranh luận nào với nhau theo đúng các quy luật khách quan của hoạt động nhận thức.",
+        "B": "Được ví như một trận đánh cờ mênh mông và bất tận, trong đó hoạt động thao tác bên trong và sự hợp tác bên ngoài là hai mặt bổ sung nhau tạo nên sự cân bằng giữa trí tuệ cá nhân và xã hội.",
+        "C": "Được ví như sự áp đặt độc단 của một người chỉ huy đối với binh lính, làm thui chột và biến dạng hoàn toàn sự tự do sáng tạo của trí tuệ cá nhân.",
+        "D": "Được ví như quá trình tiêu hóa thức ăn sinh học, trong đó cá nhân nuốt chửng mọi quy tắc xã hội mà không cần hiểu ý nghĩa lôgic của chúng."
+      },
+      "correct_answer": "B",
+      "explanation": "Ở trình độ cấu trúc thao tác, J. Piaget ví sự hợp tác giữa thao tác của đứa trẻ với thao tác trí tuệ xã hội như 'một trận đánh cờ mênh mông và bất tận', tạo ra sự cân bằng giữa trí tuệ cá nhân với xã hội, trong đó thao tác bên trong và hợp tác bên ngoài là hai mặt bổ sung cho nhau."
+    },
+    {
+      "id": 91,
+      "difficulty": "easy",
+      "question": "Quy luật cơ bản về sự hình thành các chức năng tâm lý cấp cao (cơ chế nhập tâm chuyển 'cái xã hội' thành 'cái cá nhân') được L.S. Vygotsky phát biểu như thế nào?",
+      "options": {
+        "A": "Bất cứ chức năng tâm lý cấp cao nào cũng chỉ xuất hiện một lần duy nhất ở bên trong bộ não cá nhân từ lúc mới sinh rồi mới bộc lộ ra ngoài xã hội.",
+        "B": "Các chức năng tâm lý cấp cao được hình thành trước hết ở loài động vật linh trưởng rồi sau đó mới chuyển giao nguyên vẹn cho trẻ em qua di truyền.",
+        "C": "Bất cứ chức năng tâm lý cấp cao nào trong quá trình phát triển đều thể hiện hai lần: lần đầu là hoạt động tập thể, xã hội (chức năng bên ngoài), lần thứ hai là hoạt động cá nhân (chức năng bên trong).",
+        "D": "Chức năng tâm lý bên ngoài và chức năng tâm lý bên trong là hai thực thể đối lập vĩnh viễn không bao giờ có thể chuyển hóa cho nhau trong đời sống trong toàn bộ tiến trình phát triển tâm lý cá nhân xét trên bình diện lý luận và thực tiễn giáo dục."
+      },
+      "correct_answer": "C",
+      "explanation": "L.S. Vygotsky (1997) chỉ ra quy luật cơ bản: bất cứ chức năng tâm lý cấp cao nào của trẻ em trong quá trình phát triển đều được thể hiện hai lần: lần đầu là hoạt động tập thể, hoạt động xã hội (chức năng tâm lý bên ngoài), lần thứ hai là hoạt động cá nhân, phương pháp bên trong của tư duy (chức năng tâm lý bên trong)."
+    },
+    {
+      "id": 92,
+      "difficulty": "medium",
+      "question": "Theo kết quả nghiên cứu của L.S. Vygotsky, 'Ngôn ngữ bên trong' của con người có những đặc điểm cấu trúc và ngữ nghĩa nổi bật nào?",
+      "options": {
+        "A": "Luôn giữ nguyên đầy đủ chủ ngữ, vị ngữ và các thành phần phụ theo đúng chuẩn mực ngữ pháp văn viết để người khác có thể nghe và hiểu dễ dàng trong lịch sử nghiên cứu của các trường phái tâm lý học.",
+        "B": "Có xu hướng vị ngữ (tính vị ngữ), giảm bớt tối đa khía cạnh vật lý ngữ âm (tính rút gọn), sự chiếm ưu thế của ý so với nghĩa của từ và sự kết dính các đơn vị ngữ nghĩa.",
+        "C": "Chỉ là sự phát âm nhỏ tiếng của ngôn ngữ bên ngoài mà không hề có sự biến đổi nào về mặt cấu trúc ngữ pháp hay mối quan hệ giữa ý và nghĩa.",
+        "D": "Hoàn toàn không chứa đựng bất kỳ ý nghĩa khách quan hay ý chủ quan nào mà chỉ là những âm thanh vô nghĩa phát ra tự động từ dây thanh quản."
+      },
+      "correct_answer": "B",
+      "explanation": "L.S. Vygotsky chỉ ra các đặc điểm đặc trưng của ngôn ngữ bên trong: xu hướng vị ngữ (tính vị ngữ), giảm bớt khía cạnh vật lý ngữ âm (tính rút gọn), sự chiếm ưu thế của ý đối với nghĩa của từ, sự kết dính các đơn vị ngữ nghĩa (quá trình 'chưng cất' ngôn ngữ thành ý nghĩ)."
+    },
+    {
+      "id": 93,
+      "difficulty": "medium",
+      "question": "Theo L.S. Vygotsky, mối quan hệ đối lập nhưng thống nhất giữa 'Ngôn ngữ bên ngoài' và 'Ngôn ngữ bên trong' trong tư duy ngôn ngữ được diễn tả như thế nào?",
+      "options": {
+        "A": "Chuyển từ ngôn ngữ bên trong ra ngôn ngữ bên ngoài chỉ là việc khuếch đại âm lượng tiếng nói lên cho to hơn mà không cần biến đổi cấu trúc câu.",
+        "B": "Ngôn ngữ bên ngoài là quá trình biến ý nghĩ thành lời nói (vật chất hóa ý nghĩ), còn ngôn ngữ bên trong đi ngược lại từ ngoài vào trong, là quá trình 'chưng cất' ngôn ngữ thành ý nghĩ.",
+        "C": "Ngôn ngữ bên trong là quá trình biến ý nghĩ thành văn bản hành chính, còn ngôn ngữ bên ngoài là quá trình xóa bỏ từ ngữ để giữ lại cảm xúc.",
+        "D": "Hai loại ngôn ngữ này thuộc về hai giai đoạn lứa tuổi tách biệt nhau hoàn toàn nên người trưởng thành không còn sử dụng ngôn ngữ bên ngoài nữa."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo L.S. Vygotsky, nếu ngôn ngữ bên ngoài là quá trình biến ý nghĩ thành lời nói (vật chất hóa và khách quan hóa ý nghĩ), thì ngôn ngữ bên trong diễn ra ngược lại: đi từ ngoài vào trong, là quá trình 'chưng cất' ngôn ngữ thành ý nghĩ (tư duy bằng các nghĩa đơn thuần)."
+    },
+    {
+      "id": 94,
+      "difficulty": "hard",
+      "question": "Khi giải thích nguồn gốc và số phận của 'Ngôn ngữ tự kỷ' (Egocentric speech) ở trẻ em, sơ đồ phát triển của J. Piaget và của L.S. Vygotsky đối lập nhau như thế nào?",
+      "options": {
+        "A": "Theo J. Piaget là: Ngôn ngữ tự thân -> Ngôn ngữ tự kỷ trung tâm -> Ngôn ngữ bên ngoài (xã hội); còn theo L.S. Vygotsky là: Ngôn ngữ bên ngoài (xã hội) -> Ngôn ngữ tự kỷ trung tâm -> Ngôn ngữ bên trong.",
+        "B": "Theo J. Piaget là: Ngôn ngữ xã hội -> Ngôn ngữ tự kỷ -> Ngôn ngữ bên trong; còn theo L.S. Vygotsky là: Ngôn ngữ tự thân -> Ngôn ngữ tự kỷ -> Ngôn ngữ xã hội.",
+        "C": "Cả J. Piaget và L.S. Vygotsky đều thống nhất rằng ngôn ngữ tự kỷ bắt nguồn từ ngôn ngữ bên trong và sẽ biến mất hoàn toàn không để lại dấu vết khi trẻ đi học khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "D": "Theo J. Piaget ngôn ngữ tự kỷ chỉ xuất hiện ở người trưởng thành, còn theo L.S. Vygotsky ngôn ngữ tự kỷ chỉ xuất hiện ở trẻ sơ sinh dưới sáu tháng tuổi."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình đối sánh rõ hai mô hình ngược chiều nhau: Theo J. Piaget: Ngôn ngữ tự thân -> Ngôn ngữ tự kỷ trung tâm -> Ngôn ngữ bên ngoài (xã hội). Theo L.S. Vygotsky: Ngôn ngữ bên ngoài (xã hội) -> Ngôn ngữ tự kỷ trung tâm -> Ngôn ngữ bên trong."
+    },
+    {
+      "id": 95,
+      "difficulty": "hard",
+      "question": "J. Piaget và L.S. Vygotsky đánh giá khác nhau như thế nào về 'chức năng' và 'đường cong phát triển' của ngôn ngữ tự kỷ ở trẻ em?",
+      "options": {
+        "A": "Piaget coi ngôn ngữ tự kỷ là công cụ điều khiển tư duy quan trọng nhất của trẻ, còn Vygotsky coi nó chỉ là triệu chứng bệnh lý cần phải loại bỏ càng sớm càng tốt khi xem xét mối quan hệ giữa chủ thể với môi trường sống xét trên bình diện lý luận và thực tiễn giáo dục.",
+        "B": "Cả hai nhà tâm lý học đều cho rằng ngôn ngữ tự kỷ không có bất kỳ chức năng tâm lý nào và đường cong phát triển của nó luôn đi ngang suốt cuộc đời.",
+        "C": "Piaget cho rằng ngôn ngữ tự kỷ tăng dần khi trẻ lớn lên ở trường tiểu học, còn Vygotsky cho rằng nó giảm dần về điểm 0 ngay khi trẻ tròn hai tuổi.",
+        "D": "Piaget coi ngôn ngữ tự kỷ không có chức năng độc lập (chỉ phụ họa hành vi) và giảm dần theo đường cong đi xuống tới 0; Vygotsky coi nó là 'giai điệu chính' phục vụ tư duy, khắc phục trở ngại và phát triển tiến hóa đi lên thành ngôn ngữ bên trong."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo J. Piaget, ngôn ngữ tự kỷ do xã hội hóa chưa đầy đủ, không có chức năng độc lập (chỉ phụ họa) và phát triển theo đường cong đi xuống tới điểm 0 khi trẻ đi học. Trái lại, L.S. Vygotsky chứng minh ngôn ngữ tự kỷ giữ chức năng của ngôn ngữ bên trong ('giai điệu chính' phục vụ tư duy, lập kế hoạch, khắc phục khó khăn) và phát triển theo hướng tiến hóa đi lên để chuyển thành ngôn ngữ bên trong."
+    },
+    {
+      "id": 96,
+      "difficulty": "medium",
+      "question": "Vì sao L.S. Vygotsky nhận định rằng 'Ngôn ngữ tự kỷ' của trẻ em là một dạng ngôn ngữ hỗn hợp, mang tính chất quá độ đặc biệt?",
+      "options": {
+        "A": "Vì nó là sự pha trộn ngẫu nhiên giữa tiếng mẹ đẻ của đứa trẻ với các ngôn ngữ nước ngoài mà đứa trẻ nghe được qua các phương tiện truyền thông.",
+        "B": "Vì xét về chức năng nó là ngôn ngữ giao tiếp với đám đông người lạ, nhưng xét về cấu trúc nó lại hoàn toàn câm lặng không phát ra bất kỳ âm thanh nào trong toàn bộ tiến trình phát triển tâm lý cá nhân.",
+        "C": "Vì nó chỉ xuất hiện trong trạng thái ngủ mơ của trẻ mẫu giáo và biến mất ngay lập tức khi đứa trẻ thức dậy hoạt động vui chơi với đồ vật.",
+        "D": "Vì xét về phương diện chức năng tâm lý thì nó đã là ngôn ngữ bên trong (cho bản thân), nhưng xét về phương diện cấu trúc biểu hiện thì nó vẫn là ngôn ngữ bên ngoài (phát thành tiếng)."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo L.S. Vygotsky, ngôn ngữ tự kỷ là ngôn ngữ bên trong xét về phương diện chức năng tâm lý (phục vụ tư duy cho mình), và là ngôn ngữ bên ngoài xét về phương diện cấu trúc (chưa tách triệt để khỏi ngôn ngữ xã hội thành tiếng); do đó nó là hình thái hỗn hợp, quá độ từ ngôn ngữ ngoài thành ngôn ngữ trong."
+    },
+    {
+      "id": 97,
+      "difficulty": "medium",
+      "question": "Trong bảng đối sánh 5 tham số về quá trình chuyển hóa ngôn ngữ và xã hội hóa trí tuệ giữa J. Piaget và L.S. Vygotsky, tham số thứ 5 ('Tính chất xã hội hóa') chỉ ra sự đối lập nào?",
+      "options": {
+        "A": "Quan điểm của J. Piaget coi đó là quá trình 'Cá nhân hóa dần dần', còn quan điểm của L.S. Vygotsky coi đó là quá trình 'Xã hội hóa dần dần' từ bản năng sinh học.",
+        "B": "Cả hai quan điểm đều khẳng định đứa trẻ khi sinh ra là một thực thể phi xã hội tuyệt đối và phải bị xã hội cưỡng bức tiêm nhiễm ý thức từ bên ngoài.",
+        "C": "Quan điểm của J. Piaget coi đó là quá trình 'Xã hội hóa dần dần' cái cá nhân vốn phi xã hội, còn quan điểm của L.S. Vygotsky coi đó là quá trình 'Cá nhân hóa (cá thể hóa) dần dần' cái xã hội vốn có ngay từ đầu.",
+        "D": "Cả hai quan điểm đều phủ nhận vai trò của hoạt động hợp tác xã hội và cho rằng ngôn ngữ bên trong có nguồn gốc từ các phản xạ tự vệ bẩm sinh."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Bảng đối sánh 5 tham số ở cuối Chương 3: về 'Tính chất xã hội hóa' (tham số 5), J. Piaget coi đó là quá trình 'Xã hội hóa dần dần' (đưa cái xã hội từ ngoài vào cái tự ngã phi xã hội), còn L.S. Vygotsky coi đó là quá trình 'Cá nhân hóa (cá thể hóa) dần dần' xuất hiện trên cơ sở tính chất xã hội vốn có của trẻ em."
+    },
+    {
+      "id": 98,
+      "difficulty": "hard",
+      "question": "Sự khác biệt về nguyên tắc trong cách hiểu khái niệm 'Nội tâm hóa' (Nhập tâm) giữa J. Piaget và L.S. Vygotsky ở đoạn kết Chương 3 dẫn tới hệ quả lý luận gì?",
+      "options": {
+        "A": "Dẫn tới việc cả hai nhà tâm lý học đều đi đến kết luận rằng dạy học luôn phải đi sau và chờ đợi sự chín muồi sinh học tự phát của các cấu trúc não bộ.",
+        "B": "Dẫn tới việc xóa bỏ hoàn toàn khái niệm ngôn ngữ bên trong và thay thế bằng các bài tập rèn luyện phản xạ có điều kiện trong nhà trường phổ thông.",
+        "C": "Chứng minh rằng giữa học thuyết phát sinh nhận thức của J. Piaget và học thuyết lịch sử – văn hóa của L.S. Vygotsky không hề có bất kỳ điểm khác biệt nào trong lịch sử nghiên cứu của các trường phái tâm lý học xét trên bình diện lý luận và thực tiễn giáo dục xét trên bình diện lý luận và thực tiễn giáo dục.",
+        "D": "Piaget hiểu nội tâm hóa là sự thích ứng xã hội làm thay đổi cái vốn có phi xã hội của cá nhân, còn Vygotsky khẳng định cá nhân hình thành cái xã hội ngay từ đầu mà không tách rời 'cái tự nhiên' và 'cái xã hội' — dẫn tới cách hiểu khác nhau về vai trò của dạy học."
+      },
+      "correct_answer": "D",
+      "explanation": "Đoạn kết Chương 3 khẳng định: với Piaget, nội tâm hóa là sự xâm nhập của ý thức xã hội vào ý thức cá nhân phi xã hội có sẵn; với Vygotsky, trí tuệ cá nhân chỉ được hình thành trong quá trình nhập tâm từ cái xã hội ngay từ đầu, không có sự tách rời đối lập giữa 'cái tự nhiên' và 'cái xã hội'. Sự khác biệt nguyên tắc này dẫn đến cách hiểu khác nhau về sự phát triển tâm lý trẻ em và vai trò của dạy học đối với sự phát triển đó."
+    },
+    {
+      "id": 99,
+      "difficulty": "medium",
+      "question": "Theo nhận định của A.N. Leontiev được trích dẫn trong Chương 3 về việc hình thành hành động trí óc, tại sao chúng ta dễ mắc phải ảo tưởng rằng việc chuyển những hành động bên ngoài vào trong chỉ là trường hợp riêng ở trẻ nhỏ?",
+      "options": {
+        "A": "Vì ở người trưởng thành, các chức năng tâm lý cấp cao được hình thành trực tiếp từ sự phân chia tế bào thần kinh mà không cần bất kỳ hoạt động thực tiễn nào khi xem xét mối quan hệ giữa chủ thể với môi trường sống.",
+        "B": "Vì hệ thống giáo dục đại học hoàn toàn không sử dụng các mô hình ký hiệu hay sơ đồ vật chất hóa trong quá trình truyền thụ tri thức khoa học trừu tượng.",
+        "C": "Vì những thao tác trí óc đã được chủ thể lĩnh hội từ trước có thể được 'mang ra dùng' ngay như những năng lực tư duy vốn có để nắm lấy một hành động mới mà không cần lặp lại toàn bộ các bước vật chất từ đầu.",
+        "D": "Vì các thao tác trí tuệ một khi đã hình thành ở tuổi ấu thơ thì sẽ bị xóa bỏ hoàn toàn và thay thế bằng các phản xạ có điều kiện bậc hai ở tuổi dậy thì."
+      },
+      "correct_answer": "C",
+      "explanation": "A.N. Leontiev lưu ý rằng không phải lúc nào quá trình này cũng buộc phải đi lại mọi bước từ đầu vì những thao tác trí óc đã lĩnh hội trước đây giờ được 'mang ra dùng' như năng lực tư duy vốn có, chính sự kiện đó tạo ra ảo tưởng rằng quá trình chuyển từ ngoài vào trong chỉ diễn ra ở giai đoạn thấp."
+    },
+    {
+      "id": 100,
+      "difficulty": "hard",
+      "question": "Trong bảng đối sánh giữa J. Piaget và L.S. Vygotsky ở cuối Chương 3, tham số về 'Số phận cuối cùng của ngôn ngữ tự kỷ trung tâm' được hai nhà tâm lý học giải thích trái ngược nhau như thế nào?",
+      "options": {
+        "A": "J. Piaget cho rằng ngôn ngữ tự kỷ trung tâm biến thành ngôn ngữ viết học thuật, còn L.S. Vygotsky cho rằng nó bị ức chế hoàn toàn bởi các chuẩn mực kỷ luật học đường.",
+        "B": "J. Piaget cho rằng ngôn ngữ tự kỷ trung tâm suy giảm dần rồi mất hẳn khi trẻ lớn lên để nhường chỗ cho ngôn ngữ xã hội, còn L.S. Vygotsky chứng minh nó không mất đi mà chuyển hóa vào bên trong trở thành ngôn ngữ bên trong điều khiển tư duy.",
+        "C": "Cả hai tác giả đều thống nhất rằng ngôn ngữ tự kỷ trung tâm là biểu hiện bệnh lý của chứng tự kỷ bẩm sinh và cần phải được can thiệp y khoa để xóa bỏ trước tuổi đi học.",
+        "D": "L.S. Vygotsky cho rằng ngôn ngữ tự kỷ trung tâm giảm dần về không khi trẻ lên bảy tuổi, còn J. Piaget cho rằng nó phát triển mạnh mẽ nhất ở giai đoạn thao tác hình thức theo đúng các quy luật khách quan của hoạt động nhận thức xét trên bình diện lý luận và thực tiễn giáo dục."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Bảng đối sánh ở Mục 3.5.2: J. Piaget cho rằng ngôn ngữ tự kỷ trung tâm mất dần đi và nhường chỗ cho ngôn ngữ xã hội; ngược lại, L.S. Vygotsky chứng minh ngôn ngữ tự kỷ trung tâm không chết đi mà lặn vào trong, chuyển hóa thành ngôn ngữ bên trong giữ chức năng lập kế hoạch và điều chỉnh tư duy."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Phân biệt khái niệm 'Hành động trí tuệ' và 'Thao tác trí tuệ' theo quan điểm của J. Piaget và theo quan điểm của A.N. Leontiev.",
+      "expected_answer": "1. **Theo J. Piaget:**\n- *Hành động (Action):* Là các ứng xử thực, vật chất của cá nhân đối với sự tác động của môi trường bên ngoài.\n- *Thao tác (Operation):* Là hành động bên ngoài đã được chuyển vào bên trong (nội hiện) và rút gọn; đối tượng là hình ảnh, biểu tượng, ký hiệu; mang 3 tính chất: thuận nghịch (đảo ngược), bảo tồn và liên kết thành cấu trúc.\n2. **Theo A.N. Leontiev (Tâm lý học hoạt động):**\n- *Hành động trí tuệ:* Là hành động tâm lý trọn vẹn chịu sự chi phối bởi một **mục đích được ý thức**.\n- *Thao tác:* Là phương tiện, **cơ cấu kỹ thuật** để triển khai đến mục đích đó (không có mục đích riêng), hình thành do quá trình luyện tập, rút gọn và kỹ thuật hóa hành động. Tương ứng với 3 hình thức đối tượng có 3 loại hành động/thao tác: vật chất (trên vật thật), tinh thần (bằng ký hiệu ngôn ngữ) và trí óc (bằng ngôn ngữ bên trong).",
+      "explanation": "Nắm vững sự khác biệt giữa hai cách tiếp cận giúp hiểu rõ tiêu chuẩn đánh giá trình độ trí tuệ: Piaget dựa vào cấu trúc thao tác, còn Leontiev dựa vào cả phương tiện và cách triển khai thao tác đến mục đích."
+    },
+    {
+      "id": 2,
+      "question": "Trình bày bản chất của các khái niệm công cụ: 'Đồng hóa', 'Điều ứng' và 'Cân bằng' trong lý thuyết phát sinh trí tuệ của J. Piaget.",
+      "expected_answer": "- **Đồng hóa trí tuệ (Đồng hóa chức năng):** Là quá trình chủ thể tiếp nhận thông tin từ kích thích bên ngoài, tái lập một số đặc điểm của khách thể và đưa vào trong các cấu trúc (sơ đồ) nhận thức đã có (chế biến kích thích cho phù hợp với cấu trúc cũ). Đồng hóa mang tính chất **tăng trưởng**.\n- **Điều ứng:** Là quá trình thích nghi của chủ thể trước đòi hỏi mới của môi trường bằng cách **biến đổi những cấu trúc đã có để tạo ra cấu trúc mới**. Điều ứng mang tính chất **phát triển**.\n- **Cân bằng:** Là sự tự cân bằng của chủ thể giữa hai quá trình đồng hóa và điều ứng, tạo nên sự hình thành, phá vỡ và tái hình thành liên tục các cấu trúc trí tuệ từ thấp đến cao.",
+      "explanation": "Đồng hóa, điều ứng và cân bằng là ba khái niệm có gốc sinh học được J. Piaget vận dụng để giải thích cơ chế thích nghi trí tuệ tích cực của trẻ em."
+    },
+    {
+      "id": 3,
+      "question": "Nêu 3 điều kiện để chuyển từ 'cấu trúc giác – động' lên 'cấu trúc biểu trưng' (trí khôn suy ngẫm) và 4 nhóm thao tác cơ bản trong cấu trúc thao tác theo J. Piaget.",
+      "expected_answer": "1. **Ba điều kiện chuyển từ trí khôn giác – động (như cuộn phim quay chậm) lên trí khôn suy ngẫm:**\n- Tăng nhanh tốc độ hoạt hóa các cấu trúc đã có, cho phép kết hợp chúng thành một khối hiểu biết đồng thời.\n- Xuất hiện phương pháp nhận thức mới bằng cách tái nhận các cấu trúc mà không cần sự có mặt trực tiếp của sự vật.\n- Xuất hiện những hành động biểu trưng và các biểu tượng (phân biệt cái biểu đạt và cái được biểu đạt).\n2. **Bốn nhóm thao tác cơ bản trong cấu trúc thao tác:**\n- *Phân loại (Classification):* Nhóm hợp hoặc lồng các phần tử theo cấp bậc các lớp ($A + A' = B$).\n- *Phân hạng (Sériation):* Xác lập quan hệ không đối xứng biểu hiện sự khác biệt ($D < E < F$, tính chất bắc cầu), liên quan trực tiếp tới khái niệm số.\n- *Thay thế (Tương ứng):* Thay thế các phần tử tương ứng trong cấu trúc ($A + B = C \\Rightarrow D + E = C$).\n- *Các thao tác quan hệ:* Quan hệ thuận – nghịch như bằng nhau ($=$), khác nhau ($\\neq$), thuộc ($\\in$), bao hàm ($\\subset$), hơn ($>$).",
+      "explanation": "Nhờ 3 điều kiện chuyển tiếp và 4 nhóm thao tác cơ bản này, trẻ tiến từ hành động giác – động lên tiền thao tác rồi đạt tới thao tác cụ thể và hình thức (hình thành khái niệm số, không gian, thời gian, nguyên nhân)."
+    },
+    {
+      "id": 4,
+      "question": "Phân biệt cơ chế 'Thích nghi sinh học' ở động vật với cơ chế 'Lĩnh hội kinh nghiệm lịch sử – xã hội' ở trẻ em theo quan điểm của L.S. Vygotsky và tâm lý học hoạt động.",
+      "expected_answer": "- **Ở động vật (Thích nghi sinh học):** Chỉ có 2 loại kinh nghiệm là *kinh nghiệm loài* (di truyền bẩm sinh) và *kinh nghiệm tự tạo cá thể*. Cơ chế là **thích nghi thụ động** thông qua việc thay đổi thuộc tính loài và hành vi bẩm sinh để đáp ứng biến đổi của môi trường.\n- **Ở con người (Lĩnh hội văn hóa – lịch sử):** Ngoài 2 loại kinh nghiệm trên (đã bị cải biến), con người có **kinh nghiệm lịch sử – xã hội** kết tinh (vật hóa) trong các sản phẩm văn hóa vật chất và tinh thần. Cơ chế phát triển của trẻ là **lĩnh hội** — quá trình tích cực 'tách' hoạt động của người lớn ra khỏi vật phẩm văn hóa để tái tạo thành năng lực của bản thân.\n- **Điều kiện tất yếu:** Trẻ không thể tự lực trực tiếp lĩnh hội mà bắt buộc phải **thông qua người lớn và giao tiếp** (đi từ bắt chước $\\rightarrow$ học tập có chủ đích ở nhà trường $\\rightarrow$ tự học).",
+      "explanation": "Luận điểm 'Con đường từ đồ vật đến trẻ em và từ trẻ em đến đồ vật đều đi qua người khác' của L.S. Vygotsky khẳng định bản chất xã hội – lịch sử của sự phát triển trí tuệ."
+    },
+    {
+      "id": 5,
+      "question": "Trình bày quan điểm của L.S. Vygotsky về nguồn gốc phát sinh của Tư duy và Ngôn ngữ và hai khía cạnh ngôn ngữ cải tổ hành vi thực hành của trẻ.",
+      "expected_answer": "1. **Nguồn gốc phát sinh Tư duy và Ngôn ngữ:**\n- Cả trên bình diện chủng loại và cá thể, tư duy và ngôn ngữ có **nguồn gốc phát sinh khác nhau** và ban đầu phát triển theo hai con đường độc lập (có giai đoạn *tiền ngôn ngữ* của tư duy và giai đoạn *tiền trí tuệ* của ngôn ngữ).\n- Ở trẻ em, vào khoảng **2 tuổi**, hai con đường này giao nhau và kết hợp lại: tư duy trở thành **tư duy ngôn ngữ** và ngôn ngữ trở thành **ngôn ngữ trí tuệ**.\n2. **Hai khía cạnh ngôn ngữ cải tổ hành vi trí tuệ thực hành:**\n- *Thứ nhất:* Giảm bớt tính ngẫu nhiên, trực tiếp; hành động trí tuệ cấp cao tách thành 2 phần kế tiếp (phần đầu lập kế hoạch trên bình diện ngôn ngữ, phần sau triển khai bằng vận động thực tiễn).\n- *Thứ hai:* Tạo ra **'công cụ kép'** (tổ hợp hành động) — ký hiệu ngôn ngữ vừa hướng vào đối tượng bên ngoài, vừa hướng vào chính bản thân chủ thể giúp trẻ tự kiểm soát và làm chủ hành vi của mình.",
+      "explanation": "Sự kết hợp giữa tư duy và ngôn ngữ lúc 2 tuổi cùng sự xuất hiện của công cụ ký hiệu kép tạo nên bước ngoặt tách hẳn hành vi trí tuệ của trẻ em khỏi hành vi sử dụng công cụ của động vật."
+    },
+    {
+      "id": 6,
+      "question": "Nêu 4 thông số đặc trưng của hành động và tóm tắt 5 bước hình thành hành động trí tuệ từ bên ngoài vào bên trong theo lý thuyết của P.Ya. Galperin.",
+      "expected_answer": "1. **Bốn thông số (Parameters) của hành động:**\n- (1) Hình thức (mức độ) thực hiện hành động; (2) Độ khái quát; (3) Độ khai triển (mức độ rút gọn); (4) Độ thành thạo (thuần thục).\n2. **Năm bước hình thành hành động trí tuệ:**\n- *Bước 1 – Lập cơ sở định hướng của hành động:* Xác định vật mẫu, chia hành động thành các thao tác vừa sức trên vật liệu mới.\n- *Bước 2 – Hành động với đồ vật thật hay vật chất hóa (mô hình, sơ đồ):* Dùng tay triển khai hết cỡ các thao tác để nắm lôgíc khách quan, khái quát hóa và rút gọn có chủ ý.\n- *Bước 3 – Hành động với lời nói to không dùng đồ vật:* Thực hiện toàn bộ hành động bằng ngôn ngữ nói to đúng ngữ pháp để bản thân và người khác giám sát.\n- *Bước 4 – Hành động với lời nói thầm (nói bên ngoài không thành tiếng):* Cấu tạo lại ngôn ngữ, chuyển hình ảnh âm thanh thành biểu tượng cấu âm không thành tiếng.\n- *Bước 5 – Hành động rút gọn với lời nói bên trong:* Ngôn ngữ rút gọn tối đa về ngữ âm và ngữ pháp, nội dung hành động cô đặc trong nghĩa của từ và vận hành tự động hóa trong đầu.",
+      "explanation": "Cùng với 5 bước này, hành động kiểm tra cũng chuyển vào trong nhanh hơn và rút gọn thành 'sự chú ý' (tự quan sát), làm xuất hiện Nghĩa và Ý của hành động trí tuệ."
+    },
+    {
+      "id": 7,
+      "question": "Trình bày quy luật luân phiên các giai đoạn phát triển theo 'Hoạt động chủ đạo' (Lớp A và Lớp B) của D.B. Elkonin và các mốc nhịp độ phát triển trí tuệ ở tuổi 6, 8, 12 cũng như ở người cao tuổi.",
+      "expected_answer": "1. **Sáu giai đoạn hoạt động chủ đạo luân phiên Lớp A (quan hệ người – người) và Lớp B (quan hệ người – đồ vật/tri thức) theo D.B. Elkonin:**\n- *Sơ sinh (0–1 tuổi) – Lớp A:* Quan hệ giao tiếp xúc cảm với mẹ và người lớn.\n- *Tuổi thơ (1–3 tuổi) – Lớp B:* Hoạt động với đồ vật hàng ngày (kết thúc bằng khủng hoảng 3 tuổi).\n- *Mẫu giáo (3 đến 6–7 tuổi) – Lớp A:* Vui chơi đóng vai theo các quan hệ, chuẩn mực xã hội.\n- *Học sinh nhỏ (6–7 đến 11–12 tuổi) – Lớp B:* Học tập lĩnh hội tri thức khoa học (kết thúc bằng khủng hoảng dậy thì).\n- *Học sinh lớn (12 đến 16–17 tuổi) – Lớp A:* Quan hệ giao tiếp bạn bè, thân hữu.\n- *Thanh niên và trưởng thành (từ 18 tuổi) – Lớp B:* Hoạt động nghề nghiệp chuyên môn và khoa học.\n2. **Nhịp độ phát triển và trí tuệ người già:**\n- Trẻ đạt **1/3** sự phát triển trí tuệ trong **6 năm đầu**, đạt **1/2** lúc **8 tuổi** và đạt **3/4** mức trưởng thành ở tuổi **12**.\n- Trước **60 tuổi** chưa có dấu hiệu suy giảm trí tuệ; lão hóa não phổ biến ở tuổi **70**. Ở người già, *Trí tuệ lỏng* (sinh lý thần kinh), trí nhớ ngắn hạn và khả năng trừu tượng hóa suy giảm nhanh hơn, trong khi *Trí tuệ tinh luyện* (kinh nghiệm sống — theo R. Cattell), ngôn ngữ và các thao tác tự động hóa (theo Phạm Khuê) vẫn được duy trì.",
+      "explanation": "Quy luật luân phiên Lớp A – Lớp B và số liệu nhịp độ phát triển là cơ sở khoa học để tổ chức giáo dục đúng thời điểm vàng trong 12 năm đầu đời và chăm sóc sức khỏe tinh thần người cao tuổi."
+    },
+    {
+      "id": 8,
+      "question": "Lập bảng so sánh 5 tham số cơ bản về bản chất của 'Ngôn ngữ tự kỷ' và quá trình 'Xã hội hóa trí tuệ' giữa J. Piaget và L.S. Vygotsky.",
+      "expected_answer": "| STT | Tham số so sánh | Quan điểm của J. Piaget | Quan điểm của L.S. Vygotsky |\n|---|---|---|---|\n| 1 | **Chuyển chức năng tâm lý** | Đi kèm theo hoạt động tự kỷ (phụ họa, không có chức năng độc lập) | Chuyển chức năng tâm lý bên ngoài (xã hội) thành chức năng tâm lý bên trong (cá nhân) |\n| 2 | **Nguồn gốc** | Từ ngôn ngữ tự thân (phi xã hội của cá nhân) | Từ ngôn ngữ xã hội (giao tiếp hợp tác với người lớn) |\n| 3 | **Hướng phát triển** | Hướng ra ngôn ngữ xã hội (*Tự thân $\\rightarrow$ Tự kỷ $\\rightarrow$ Xã hội*) | Hướng vào ngôn ngữ bên trong (*Xã hội $\\rightarrow$ Tự kỷ $\\rightarrow$ Bên trong*) |\n| 4 | **Mức phát triển** | Giảm dần khi trẻ lớn (đường cong đi xuống tới điểm 0 khi đi học) | Tăng dần về chức năng theo mức độ phát triển ngôn ngữ trẻ em (tiến hóa đi lên) |\n| 5 | **Tính chất xã hội hóa** | **Xã hội hóa dần dần** cái cá nhân vốn phi xã hội | **Cá nhân hóa (cá thể hóa) dần dần** cái xã hội vốn có ngay từ đầu |",
+      "explanation": "Bảng đối sánh 5 tham số ở cuối Chương 3 khái quát trọn vẹn sự đối lập về nguyên tắc giữa thuyết kiến tạo phát sinh của J. Piaget và thuyết lịch sử – văn hóa của L.S. Vygotsky."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phân Tích Học Thuyết Phát Sinh Và Phát Triển Cấu Trúc Trí Tuệ Trẻ Em Của J. Piaget",
+      "problem": "Dựa vào nội dung Chương 3 giáo trình Tâm lý học Trí tuệ, hãy phân tích hệ thống lý luận của J. Piaget về sự phát sinh và phát triển trí tuệ trẻ em:\n1. Làm rõ những luận điểm xuất phát (sinh học và lôgic học) cùng các khái niệm công cụ: Cấu trúc (Sơ đồ), Đồng hóa, Điều ứng và Cân bằng.\n2. Phân tích quá trình hình thành các cấu trúc trí tuệ qua 4 giai đoạn lớn (làm rõ 6 trình độ của giai đoạn Giác – động, 3 điều kiện chuyển lên trí khôn suy ngẫm và 4 nhóm thao tác cơ bản).\n3. Đánh giá những đóng góp lịch sử và chỉ ra những hạn chế phương pháp luận trong học thuyết của J. Piaget.",
+      "solution_steps": [
+        "Bước 1: Phân tích luận điểm xuất phát và các khái niệm công cụ của J. Piaget\n- *Luận điểm xuất phát:* 'Mọi giải thích tâm lý học sớm hay muộn cuối cùng cũng dựa vào sinh học hoặc lôgic học'. Nghiên cứu trí tuệ vừa giống công việc của nhà phôi học (tạo dựng lại các bước phát triển từ sơ sinh đến trưởng thành), vừa giống công việc của nhà lôgic học (dùng khoa học hình thức hóa để tường minh hóa các cấu trúc tâm lý mang tính chức năng).\n- *Cấu trúc (Sơ đồ):* Kế thừa khái niệm sơ đồ của I. Kant nhưng giải thích theo **quan điểm kiến tạo** (trẻ tự xây dựng cấu trúc qua hành động thực nghiệm). Mỗi hành vi trí tuệ gồm 2 mặt: *mặt cảm xúc* (tạo năng lượng, động lực) và *mặt nhận thức* (cấu trúc hóa).\n- *Cơ chế thích nghi trí tuệ (thích nghi chức năng):* Bao gồm **Đồng hóa** (đưa đặc điểm khách thể vào sơ đồ đã có – *tăng trưởng*), **Điều ứng** (biến đổi sơ đồ cũ tạo sơ đồ mới phù hợp hoàn cảnh – *phát triển*) và **Cân bằng** (tự cân bằng giữa đồng hóa và điều ứng).",
+        "Bước 2: Phân tích 4 giai đoạn phát triển cấu trúc trí tuệ từ sơ sinh đến trưởng thành\n- *Giai đoạn 1 – Cấu trúc Giác – động (0 đến 1,5–2 tuổi):* Khởi đầu từ 3 dạng đồng hóa (tái tạo chức năng, khái quát hóa, xác nhận), phát triển qua **6 thời kỳ nhỏ**: (1) Phản xạ bẩm sinh (0–1 tháng); (2) Tri giác và thói quen vận động đầu tiên (1–4 tháng); (3) Phản ứng vòng tròn thứ cấp kết hợp tri giác với vận động (4–8 tháng); (4) Phản ứng vòng tròn cấp hai xuất hiện quan hệ *mục đích – phương tiện* đánh dấu trí khôn bắt đầu xuất hiện (8–12 tháng); (5) Phản ứng vòng tròn cấp ba phát hiện phương tiện mới mang tính sáng tạo như kéo thảm, dùng gậy (12–18 tháng); (6) Kết hợp linh hoạt các cấu trúc tạo giải pháp như sự bừng hiểu và bắt đầu nhập tâm hành vi (18–24 tháng).\n- *Giai đoạn 2 – Cấu trúc Tiền thao tác (2 đến 6–7 tuổi):* Nhờ **3 điều kiện** (tăng tốc độ hoạt hóa cấu trúc tạo khối hiểu biết đồng thời; tái nhận không cần vật có mặt; xuất hiện hành động biểu trưng và biểu tượng), trẻ chuyển từ trí khôn giác – động (như cuộn phim quay chậm) lên **trí khôn suy ngẫm** gồm *tư duy biểu trưng/tiền khái niệm* (1,5–4 tuổi, phân biệt cái biểu đạt và cái được biểu đạt) và *tư duy trực giác* (4–7 tuổi, bị chi phối bởi tính duy kỷ, xếp kề, chưa có bảo tồn và chưa đảo ngược được).\n- *Giai đoạn 3 & 4 – Cấu trúc Thao tác cụ thể (7–12 tuổi) và Thao tác hình thức (sau 12 tuổi):* Khi đạt khả năng bảo tồn và thuận nghịch trên vật thật, trẻ có thao tác cụ thể; khi tách khỏi vật thật để suy luận trên các mệnh đề lôgic và giả thuyết (ví dụ bài toán giả định con gà 3 chân), trẻ đạt thao tác hình thức. Cấu trúc thao tác gồm **4 nhóm thao tác cơ bản**: *Phân loại (Classification), Phân hạng (Sériation – tính bắc cầu, hình thành khái niệm số), Thay thế (Tương ứng)* và *Thao tác quan hệ (=, ≠, ∈, ⊂, >)*.",
+        "Bước 3: Đánh giá ưu điểm và hạn chế trong học thuyết của J. Piaget\n- *Đóng góp:* Cung cấp bức tranh phát sinh cấu trúc trí tuệ vô cùng chi tiết; khẳng định sự thích nghi trí tuệ của trẻ là **thích nghi tích cực** do trẻ tự kiến tạo bằng chính hành động của mình.\n- *Hạn chế:* Nhìn nhận sự phát triển cấu trúc trí tuệ chủ yếu là quá trình trẻ **tự phát triển (nội sinh)** dưới áp lực bên ngoài của môi trường xã hội; mới chủ yếu mô tả **kết quả** của hành động đối với cấu trúc tương ứng chứ chưa vạch rõ cơ chế tâm lý cụ thể biến hành động vật chất bên ngoài thành thao tác bên trong."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cơ Chế Hình Thành Hành Động Trí Tuệ Theo Lý Thuyết Hoạt Động Và Quy Trình 5 Bước Của P.Ya. Galperin",
+      "problem": "Trình bày cơ chế hình thành và phát triển trí tuệ trẻ em theo trường phái Tâm lý học Hoạt động (L.S. Vygotsky, A.N. Leontiev, P.Ya. Galperin):\n1. Phân tích cơ sở triết học Mác – Lênin, cơ chế lĩnh hội kinh nghiệm lịch sử – xã hội và vai trò của công cụ ký hiệu theo L.S. Vygotsky.\n2. Giải thích cấu trúc vĩ mô của hoạt động và cơ chế chuyển hóa từ Hành động thành Thao tác theo A.N. Leontiev.\n3. Phân tích chi tiết lý thuyết hình thành hành động trí tuệ theo 5 bước, 4 thông số và 3 loại cơ sở định hướng của P.Ya. Galperin cùng ý nghĩa sư phạm của lý thuyết này.",
+      "solution_steps": [
+        "Bước 1: Cơ sở triết học Mác – Lênin, cơ chế lĩnh hội và công cụ ký hiệu (L.S. Vygotsky)\n- *Ba luận điểm triết học gốc:* (1) Con người tự sản xuất ra bản thân bằng lao động; (2) Bản chất con người là tổng hòa các quan hệ xã hội; (3) Con người và hoàn cảnh xã hội tạo ra nhau một cách biện chứng.\n- *Cơ chế lĩnh hội:* Khác với động vật chỉ có kinh nghiệm loài và cá thể để thích nghi sinh học thụ động, con người có thêm **kinh nghiệm lịch sử – xã hội** kết tinh trong các sản phẩm văn hóa. Trẻ phát triển bằng cách **lĩnh hội** (tách hoạt động của người lớn ra khỏi vật phẩm văn hóa) thông qua vai trò trung gian tất yếu của **người lớn và giao tiếp** (*bắt chước $\\rightarrow$ học tập ở nhà trường $\\rightarrow$ tự học*).\n- *Vai trò của ngôn ngữ và công cụ ký hiệu:* Tư duy và ngôn ngữ có nguồn gốc khác nhau nhưng giao nhau lúc **2 tuổi** tạo thành tư duy ngôn ngữ và ngôn ngữ trí tuệ. Ngôn ngữ cải tổ hành vi trẻ: giúp lập kế hoạch trước khi hành động thực tiễn và tạo ra **công cụ kép** (vừa hướng vào đối tượng vừa hướng vào kiểm soát chính bản thân).",
+        "Bước 2: Cấu trúc hoạt động và sự chuyển hóa Hành động thành Thao tác (A.N. Leontiev)\n- *Cấu trúc 3 cấp độ (Chủ thể $\\leftrightarrow$ Đối tượng):* **Hoạt động** ứng với **Động cơ** (chức năng kích thích – *Vì cái gì?*); **Hành động** ứng với **Mục đích** có ý thức (chức năng hướng dẫn – *Đạt tới cái gì?*); **Thao tác** ứng với **Phương tiện / Điều kiện** khách quan (cơ cấu kỹ thuật – *Đạt tới như thế nào?*).\n- *Cơ chế chuyển hóa Hành động $\\rightarrow$ Thao tác:* Một kỹ năng mới (như nhóm gộp phần tử) ban đầu phải được hình thành như một **hành động có mục đích riêng**; sau khi được luyện tập thuần thục, rút gọn và **kỹ thuật hóa** (tước bỏ mục đích riêng để đưa vào làm phương tiện cho hành động giải toán cộng, trừ), nó trở thành **thao tác**.",
+        "Bước 3: Quy trình 5 bước, 4 thông số và 3 loại cơ sở định hướng của P.Ya. Galperin\n- *Cấu trúc và 4 thông số:* Hành động gồm **Phần định hướng** (quyết định: nhận thức, lập kế hoạch, kiểm tra) và **Phần thực hiện**. Được đo bằng **4 thông số**: (1) Hình thức thực hiện; (2) Độ khái quát; (3) Độ khai triển (rút gọn); (4) Độ thành thạo.\n- *Năm bước chuyển hành động từ ngoài vào trong:* **Bước 1:** Lập cơ sở định hướng của hành động; **Bước 2:** Hành động với vật thật hoặc vật chất hóa (mô hình, sơ đồ – triển khai hết cỡ bằng tay, khái quát và rút gọn có chủ ý); **Bước 3:** Hành động với lời nói to không dùng đồ vật (ngôn ngữ trở thành đối tượng thực hiện hành động); **Bước 4:** Hành động với lời nói thầm (cấu tạo lại ngôn ngữ thành biểu tượng cấu âm không thành tiếng); **Bước 5:** Hành động rút gọn với ngôn ngữ bên trong (tự động hóa trong đầu, hành động kiểm tra rút gọn thành **sự chú ý**, phân đôi thành **Nghĩa** và **Ý**).\n- *Ba loại cơ sở định hướng và ứng dụng sư phạm:* **Loại 1** (từng phần, không đủ, tự mò mẫm theo thử - sai); **Loại 2** (từng phần, đầy đủ, giáo viên cho sẵn – nhanh nhưng thụ động, khó di chuyển); **Loại 3** (khái quát, đầy đủ, dạy phương pháp phân tích chung để học sinh tự lập điểm tựa – hiệu quả và chủ động cao nhất). Giáo viên cần phối hợp linh hoạt, tránh bỏ qua bước vật chất hóa ở các lớp dưới nhưng cũng không áp dụng máy móc cả 5 bước khi trẻ đã có thao tác trí óc tương ứng."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "So Sánh Các Quan Điểm Phân Chia Giai Đoạn Phát Triển Trí Tuệ Cá Nhân Và Nhịp Độ Phát Triển Qua Các Lứa Tuổi",
+      "problem": "Hãy phân tích và so sánh các quan điểm phân chia giai đoạn phát triển tâm lý, trí tuệ cá nhân của J. Piaget, H. Wallon, L.S. Vygotsky và D.B. Elkonin:\n1. Chỉ rõ tiêu chuẩn phân chia và các giai đoạn cụ thể của từng tác giả (đặc biệt làm rõ giai đoạn cá thể hóa của H. Wallon, lý thuyết khủng hoảng lứa tuổi của L.S. Vygotsky và quy luật luân phiên Lớp A – Lớp B của D.B. Elkonin).\n2. Phân tích nhịp độ phát triển trí tuệ ở trẻ em (các mốc 6, 8, 12 tuổi) và đặc điểm biến đổi trí tuệ ở người trưởng thành, người cao tuổi (theo R. Cattell và Phạm Khuê).\n3. Rút ra ý nghĩa thực tiễn đối với công tác tổ chức giáo dục theo lứa tuổi và rèn luyện trí óc suốt đời.",
+      "solution_steps": [
+        "Bước 1: Đối sánh tiêu chuẩn và hệ thống phân kỳ của J. Piaget, H. Wallon, L.S. Vygotsky và D.B. Elkonin\n- *J. Piaget (dựa vào cấu trúc thao tác trí tuệ):* Nêu 4 đặc trưng của một giai đoạn (kế tiếp, thống hợp, cấu trúc tổng thể, chuẩn bị cho giai đoạn sau) và chia thành **4 giai đoạn**: Giác – động (0–2 tuổi, 6 thời kỳ nhỏ), Tiền thao tác (2–7 tuổi: tượng trưng & trực giác), Thao tác cụ thể (7–12 tuổi) và Thao tác hình thức (12–15 tuổi).\n- *Henri Wallon (dựa vào mối quan hệ hữu cơ với nhân cách, cảm xúc và xã hội):* Chia thành **7 giai đoạn**: (1) Xung động (0–6 tháng); (2) Cảm xúc (6–10 tháng); (3) Giác – động (10–14 tháng); (4) Phóng chiếu (14 tháng – 2 tuổi); (5) Cá thể hóa (3–6 tuổi: *3 tuổi chống đối, 4–5 tuổi ái kỷ, 5–6 tuổi tư duy trực giác*); (6) Đến trường (6–13 tuổi); (7) Dậy thì.\n- *L.S. Vygotsky (dựa vào cấu trúc tâm lý mới và khủng hoảng lứa tuổi):* Coi phát triển là quá trình liên tục tạo ra cái mới, luân phiên giữa thời kỳ ổn định và **khủng hoảng lứa tuổi** (có 3 đặc điểm: có điểm cực đại căng thẳng; trẻ khó tiếp xúc, khó giáo dục; tạm dừng/thụt lùi biểu kiến) qua các mốc: *Khủng hoảng sơ sinh $\\rightarrow$ Tuổi ẵm ngửa (Khủng hoảng 1 tuổi) $\\rightarrow$ Tuổi ấu thơ (Khủng hoảng 3 tuổi) $\\rightarrow$ Trước tuổi học (Khủng hoảng 7 tuổi) $\\rightarrow$ Tuổi học sinh (Khủng hoảng 13 tuổi) $\\rightarrow$ Trưởng thành*.\n- *A.N. Leontiev & D.B. Elkonin (dựa vào Hoạt động chủ đạo luân phiên Lớp A và Lớp B):* Chia thành **6 giai đoạn** luân phiên giữa **Lớp A (quan hệ người – người)** và **Lớp B (quan hệ người – đồ vật/tri thức)**: (1) Sơ sinh (0–1t, Lớp A); (2) Tuổi thơ (1–3t, Lớp B); (3) Mẫu giáo (3–7t, Lớp A – vui chơi); (4) Học sinh nhỏ (6–12t, Lớp B – học tập); (5) Học sinh lớn (12–17t, Lớp A – giao tiếp bạn bè); (6) Thanh niên & trưởng thành (từ 18t, Lớp B – nghề nghiệp).",
+        "Bước 2: Phân tích nhịp độ phát triển trí tuệ ở trẻ em và đặc điểm trí tuệ người cao tuổi\n- *Nhịp độ bùng nổ ở trẻ em (Sơ đồ Godefroid, 1987):* Phát triển không đều mà tăng vọt ở đầu đời: đạt **1/3** trong **6 năm đầu**, đạt **1/2** ở tuổi **8** và đạt **3/4** mức trưởng thành ở tuổi **12**.\n- *Cơ sở thần kinh và tuổi trưởng thành:* Lúc sinh não nặng bằng **1/4** não người lớn; sau **25 tuổi** tế bào thần kinh chết hàng ngày và tăng sau **45 tuổi**, nhưng chưa suy giảm trí tuệ trước **60 tuổi**; lão hóa não phổ biến ở tuổi **70**.\n- *Trí tuệ người già:* Theo **R. Cattell**, *Trí tuệ lỏng* (sinh lý thần kinh) suy giảm nhưng *Trí tuệ tinh luyện* (tri thức, kinh nghiệm sống) vẫn hoạt động bình thường. Theo **Phạm Khuê (1997)**, suy giảm rõ nhất ở **trí nhớ ngắn hạn**, tốc độ phản ứng và khả năng trừu tượng hóa, trong khi các **thao tác đã tự động hóa và ngôn ngữ** ít bị suy giảm hơn.",
+        "Bước 3: Ý nghĩa thực tiễn trong giáo dục và vệ sinh trí óc\n- Gia đình và nhà trường phải đặc biệt coi trọng giai đoạn vàng từ **0 đến 12 tuổi**, tổ chức đúng hoạt động chủ đạo của từng lứa tuổi (tổ chức trò chơi đóng vai ở mẫu giáo, phương pháp học tập khám phá ở tiểu học, tôn trọng nhu cầu giao tiếp bạn bè ở thiếu niên) và có biện pháp sư phạm tinh tế khi trẻ đi qua các mốc khủng hoảng (3 tuổi, 7 tuổi, 13 tuổi).\n- Đối với người trưởng thành và người cao tuổi, cần duy trì chế độ lao động trí óc, luyện tập tổ chức tư liệu ghi nhớ và vệ sinh hệ thần kinh để làm chậm quá trình lão hóa trí nhớ ngắn hạn."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Đối Sánh Quan Điểm Của J. Piaget Và L.S. Vygotsky Về Cơ Chế Nhập Tâm, Ngôn Ngữ Tự Kỷ Và Xã Hội Hóa Trí Tuệ",
+      "problem": "Vấn đề xã hội hóa trí tuệ (chuyển 'cái xã hội' thành 'cái cá nhân') là một trong những cuộc tranh luận lý luận sâu sắc nhất giữa J. Piaget và L.S. Vygotsky. Hãy phân tích:\n1. Cách giải thích của J. Piaget về cơ chế nhập tâm (mức thu được ý thức $P \\rightarrow C, C'$ và 3 mức trừu tượng phản chiếu) cùng quá trình xã hội hóa từ tư duy duy kỷ đến hợp tác.\n2. Cách giải thích của L.S. Vygotsky về quy luật 2 lần xuất hiện của các chức năng tâm lý cấp cao, đặc điểm của ngôn ngữ bên trong và vai trò quá độ của ngôn ngữ tự kỷ.\n3. Đối sánh 5 tham số cơ bản giữa hai học thuyết và làm rõ ý nghĩa của cuộc tranh luận này đối với tâm lý học dạy học.",
+      "solution_steps": [
+        "Bước 1: Quan điểm của J. Piaget về cơ chế nhập tâm và xã hội hóa trí tuệ\n- *Cơ chế chuyển hành động thành thao tác (Sơ đồ $S - Og - R$):* Gồm 2 mức lớn:\n  + **Mức thu được ý thức qua hành động:** Khởi đầu từ vùng ngoại biên $P$ (bề mặt giao tiếp), ý thức hướng vào vùng chính tâm $C$ của khách thể thu nhận **'vật tính'** và hướng vào vùng chính tâm $C'$ của động tác chủ thể thu nhận **'hoạt tính'**.\n  + **Mức trừu tượng phản chiếu (3 cấp độ):** *Trừu tượng thực nghiệm* (dựa trên động tác thực bề ngoài) $\\rightarrow$ *Trừu tượng giả thực nghiệm* (dựa vào giả động tác trên vật cụ thể, mạnh nhất ở giai đoạn thao tác cụ thể) $\\rightarrow$ *Trừu tượng phản chiếu* (chiếu lên bình diện cao hơn và cải tổ cấu trúc tạo ra *trừu tượng suy lý*).\n- *Con đường xã hội hóa theo Piaget:* Đi từ trạng thái cá nhân tự thân, **duy kỷ (Egocentrism)** ở giai đoạn tiền thao tác tiến dần tới sự **hợp tác xã hội** ở giai đoạn thao tác (tương tác giữa thao tác bên trong và hợp tác bên ngoài như một *trận đánh cờ mênh mông*).",
+        "Bước 2: Quan điểm của L.S. Vygotsky về quy luật nhập tâm, ngôn ngữ bên trong và ngôn ngữ tự kỷ\n- *Quy luật hình thành các chức năng tâm lý cấp cao:* Mọi chức năng tâm lý cấp cao đều xuất hiện **2 lần**: lần đầu là hoạt động tập thể, xã hội (**chức năng tâm lý bên ngoài / liên nhân cách**), lần thứ hai là phương pháp tư duy của cá nhân (**chức năng tâm lý bên trong / nội nhân cách**).\n- *Bản chất Ngôn ngữ bên trong:* Là quá trình đi từ ngoài vào trong, 'chưng cất' ngôn ngữ thành ý nghĩ (tư duy bằng các nghĩa đơn thuần), mang 4 đặc trưng: **tính vị ngữ**, **rút gọn tối đa mặt ngữ âm**, **sự chiếm ưu thế của Ý so với Nghĩa**, và **sự kết dính các đơn vị ngữ nghĩa**.\n- *Bản chất Ngôn ngữ tự kỷ:* Không phải là sự phụ họa vô ích do xã hội hóa kém như Piaget nghĩ, mà là **khâu quá độ** từ ngôn ngữ xã hội bên ngoài vào ngôn ngữ bên trong (về *cấu trúc* là ngôn ngữ ngoài phát thành tiếng, nhưng về *chức năng* đã là ngôn ngữ bên trong dùng để lập kế hoạch, khắc phục khó khăn và điều khiển tư duy).",
+        "Bước 3: Đối sánh 5 tham số nguyên tắc giữa J. Piaget và L.S. Vygotsky\n- (1) *Chuyển chức năng tâm lý:* Piaget coi là đi kèm hoạt động tự kỷ $\\leftrightarrow$ Vygotsky coi là chuyển chức năng bên ngoài thành chức năng bên trong.\n- (2) *Nguồn gốc ngôn ngữ tự kỷ:* Piaget cho là từ **ngôn ngữ tự thân** $\\leftrightarrow$ Vygotsky cho là từ **ngôn ngữ xã hội**.\n- (3) *Hướng phát triển:* Piaget: *Ngôn ngữ tự thân $\\rightarrow$ Ngôn ngữ tự kỷ $\\rightarrow$ Ngôn ngữ xã hội* $\\leftrightarrow$ Vygotsky: *Ngôn ngữ xã hội $\\rightarrow$ Ngôn ngữ tự kỷ $\\rightarrow$ Ngôn ngữ bên trong*.\n- (4) *Mức phát triển:* Piaget cho là giảm dần về 0 khi trẻ lớn $\\leftrightarrow$ Vygotsky cho là tăng dần về chức năng (tiến hóa thành ngôn ngữ bên trong).\n- (5) *Tính chất xã hội hóa:* Piaget coi là **xã hội hóa dần dần** cái tự ngã phi xã hội $\\leftrightarrow$ Vygotsky coi là **cá nhân hóa (cá thể hóa) dần dần** cái xã hội vốn có ngay từ đầu.\n- *Ý nghĩa sư phạm:* Quan điểm của Vygotsky vượt qua sự tách rời siêu hình giữa 'cái tự nhiên' và 'cái xã hội', khẳng định dạy học và hoạt động hợp tác với người lớn không cần chờ đợi cấu trúc nội sinh chín muồi mà chính là nguồn gốc trực tiếp dẫn dắt và tạo lập trí tuệ cá nhân."
+      ]
+    }
+  ]
+}
