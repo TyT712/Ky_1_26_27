@@ -15,9 +15,9 @@ Hệ thống giải quyết bài toán cốt lõi của sinh viên/học viên:
 ## 2. NGUỒN DỮ LIỆU CỐT LÕI (CORE DATA SOURCES)
 Hệ thống tổ chức dữ liệu theo kiến trúc hai tầng tri thức (Dual-Layer Knowledge Store):
 
-1. **Lớp Giáo trình Gốc (Primary Academic Source - `data/raw_pdfs/` & `data/parsed_markdown/`):**
-   - Tập hợp giáo trình PDF định dạng chuẩn của từng môn học (được tổ chức theo thư mục môn học, ví dụ `data/raw_pdfs/cs101_cau_truc_du_lieu/`).
-   - Được tiền xử lý bởi `pdf_ingestor` thành Markdown chuẩn, bảo tồn nguyên vẹn cấu trúc mục lục (H1, H2, H3), bảng biểu, block code và công thức toán dạng LaTeX (`$...$` hoặc `$$...$$`).
+1. **Lớp Giáo trình Gốc (Primary Academic Source - `data/parsed_markdown/`):**
+   - Tập hợp giáo trình Markdown chuẩn của từng môn học (do người dùng cung cấp/chuyển đổi sẵn từ giáo trình gốc, được tổ chức theo thư mục môn học).
+   - Bảo tồn nguyên vẹn cấu trúc mục lục (H1, H2, H3), bảng biểu, block code và công thức toán dạng LaTeX (`$...$` hoặc `$$...$$`).
 
 2. **Lớp Tóm tắt & Ghi chú Học tập (Synthesized Knowledge - `data/notebook_exports/`):**
    - Các bản xuất Markdown trực tiếp từ Google NotebookLM.
@@ -39,15 +39,14 @@ Hệ thống tổ chức dữ liệu theo kiến trúc hai tầng tri thức (Du
 - **Hệ thống đề mục:** Tuân thủ phân cấp logic nghiêm ngặt (không nhảy cóc từ H1 xuống H3).
 
 ### 3.3. Quy trình Xử lý Chuỗi Tác vụ (Task Pipeline Flow)
-1. **Ingest:** Tiếp nhận PDF mới -> Bóc tách Markdown giữ nguyên tiêu đề và đoạn văn -> Lưu vào `data/parsed_markdown/`.
+1. **Input:** Tiếp nhận giáo trình Markdown do người dùng cung cấp vào `data/parsed_markdown/`.
 2. **Retrieve:** Khi nhận câu hỏi ôn tập / bài tập -> Tìm kiếm trên cả 2 nguồn (tóm tắt NotebookLM trước để nắm định hướng khái niệm, sau đó truy vấn sâu vào Markdown giáo trình gốc).
 3. **Assist:** Tổng hợp lời giải, tạo flashcard, câu hỏi trắc nghiệm hoặc đề thi thử có đáp án chi tiết và chỉ dẫn học lại phần lý thuyết liên quan.
 
 ---
 
 ## 4. BỘ KỸ NĂNG CỐT LÕI (CORE AGENT SKILLS)
-1. **`pdf_ingestor`:** Bóc tách PDF sang Markdown cấu trúc cao, nhận diện tiêu đề, trích xuất text rõ ràng.
-2. **`knowledge_retriever`:** Truy xuất đa tầng (Hybrid Search: Full-text & Semantic Context) đối chiếu chéo giữa giáo trình và ghi chú NotebookLM.
+1. **`knowledge_retriever`:** Truy xuất đa tầng (Hybrid Search: Full-text & Semantic Context) đối chiếu chéo giữa giáo trình và ghi chú NotebookLM.
 3. **`study_assistant`:** Sinh bài tập tự luyện, flashcards, giải bài tập từng bước (step-by-step) bám sát tài liệu.
 4. **`chapter_study_pack_generator`:** *(đã được thay thế)* Đóng gói chương thành một file Markdown đơn khối cho Docsify.
 5. **`lms_chapter_pack_generator`:** Biến chương giáo trình thành gói dữ liệu tách biệt `{chapter_id}_theory.md` + `{chapter_id}_exercises.json` (30 trắc nghiệm Easy/Medium/Hard, 8 trả lời ngắn, 4 tự luận) cho Static SPA LMS; đặc tả tại `.antigravity/skills/lms_chapter_pack_generator.md`.

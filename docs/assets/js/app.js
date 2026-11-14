@@ -343,7 +343,7 @@
           if (window.hljs && lang && window.hljs.getLanguage(lang)) {
             try {
               return window.hljs.highlight(code, { language: lang }).value;
-            } catch (e) {}
+            } catch (e) { }
           }
           return code;
         }
@@ -542,8 +542,8 @@
                 <span class="badge" style="background: ${theme.primary}18; color: ${theme.primary}; border: 1px solid ${theme.primary}40;">${escapeHtml(course.code)}</span>
               </div>
               ${isActive
-                ? `<span class="badge badge-success"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block mr-1"></span>Sẵn sàng học</span>`
-                : `<span class="badge badge-warning">Đang chuẩn bị</span>`}
+          ? `<span class="badge badge-success"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block mr-1"></span>Sẵn sàng học</span>`
+          : `<span class="badge badge-warning">Đang chuẩn bị</span>`}
             </div>
 
             <h2 class="text-xl font-extrabold mb-2 text-main">${escapeHtml(course.title)}</h2>
@@ -714,8 +714,8 @@
                   Chương ${ch.number}
                 </span>
                 ${isDone
-                  ? `<span class="badge ${rankBadge}">🏆 ${bestScore} (${rankText})</span>`
-                  : `<span class="badge badge-gray">Chưa làm</span>`}
+            ? `<span class="badge ${rankBadge}">🏆 ${bestScore} (${rankText})</span>`
+            : `<span class="badge badge-gray">Chưa làm</span>`}
               </div>
               <h3 class="text-base font-bold mb-2 text-main">${escapeHtml(ch.title)}</h3>
               <p class="text-xs text-muted mb-4 line-clamp-2">${escapeHtml(ch.summary)}</p>

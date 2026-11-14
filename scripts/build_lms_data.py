@@ -160,6 +160,15 @@ def main():
                 ],
                 "topics": topics,
             },
+            {
+                "id": "giai_tich_1",
+                "code": "GT1",
+                "title": "Giải Tích 1",
+                "description": "Giới hạn, đạo hàm và ứng dụng. Học liệu đang được chuẩn bị.",
+                "status": "coming_soon",
+                "books": [],
+                "topics": [],
+            },
         ],
     }
     (OUT / "courses_manifest.json").write_text(

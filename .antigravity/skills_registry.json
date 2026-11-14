@@ -2,42 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "system_name": "Academic Knowledge & Study System",
   "version": "1.1.0",
-  "description": "Registry of core agent skills for PDF ingestion, hybrid academic retrieval, and curriculum-grounded study assistance.",
+  "description": "Registry of core agent skills for hybrid academic retrieval, curriculum-grounded study assistance, and LMS pack generation.",
   "skills": [
-    {
-      "id": "pdf_ingestor",
-      "name": "PDF to Markdown Structure Ingestor",
-      "version": "1.0.0",
-      "entrypoint": "src/skills/pdf_ingestor.py",
-      "description": "Bóc tách giáo trình định dạng PDF thành tài liệu Markdown chuẩn hóa, bảo toàn thứ bậc đề mục (H1-H4), công thức toán học và bảng biểu.",
-      "capabilities": [
-        "parse_pdf_to_markdown",
-        "batch_ingest_directory",
-        "extract_document_outline",
-        "clean_extracted_text"
-      ],
-      "input_paths": {
-        "raw_pdfs_root": "data/raw_pdfs"
-      },
-      "output_paths": {
-        "parsed_markdown_root": "data/parsed_markdown"
-      },
-      "parameters": {
-        "file_path": {
-          "type": "string",
-          "description": "Đường dẫn tuyệt đối hoặc tương đối tới file PDF cần xử lý."
-        },
-        "subject_code": {
-          "type": "string",
-          "description": "Mã môn học hoặc thư mục môn học tương ứng (ví dụ: math101, cs50)."
-        },
-        "preserve_page_markers": {
-          "type": "boolean",
-          "default": true,
-          "description": "Gắn nhãn <!-- PAGE X --> để hỗ trợ trích dẫn số trang chính xác."
-        }
-      }
-    },
     {
       "id": "knowledge_retriever",
       "name": "Academic Knowledge & Context Retriever (RAG)",

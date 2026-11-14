@@ -135,6 +135,12 @@
   --course-gradient: linear-gradient(135deg, #c026d3 0%, #0ea5e9 100%);
   --course-glow: rgba(192, 38, 211, 0.25);
 }
+[data-course-id="giai_tich_1"] {
+  --course-primary: #2563eb;
+  --course-secondary: #6366f1;
+  --course-gradient: linear-gradient(135deg, #2563eb 0%, #6366f1 100%);
+  --course-glow: rgba(37, 99, 235, 0.25);
+}
 
 * {
   box-sizing: border-box;

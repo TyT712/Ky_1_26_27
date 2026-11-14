@@ -1,7 +1,7 @@
 # Academic Knowledge & Study System
 ### Hệ thống Quản lý Học tập & Trợ lý Học thuật Thông minh (Antigravity Agent)
 
-Hệ thống quản lý tri thức và trợ lý học thuật thông minh, lấy dữ liệu cốt lõi từ **tập hợp giáo trình PDF chính quy của các môn học** kết hợp với **các bản ghi chú/tóm tắt học tập xuất từ Google NotebookLM**. 
+Hệ thống quản lý tri thức và trợ lý học thuật thông minh, lấy dữ liệu cốt lõi từ **tập hợp giáo trình Markdown chính quy của các môn học** kết hợp với **các bản ghi chú/tóm tắt học tập xuất từ Google NotebookLM**. 
 
 Hệ thống được thiết kế theo kiến trúc **Dual-Layer RAG** (Retrieval-Augmented Generation hai tầng), đảm bảo nguyên tắc **Strict Grounding** (100% căn cứ giáo trình, không bịa đặt/hallucination) nhằm phục vụ sinh viên ôn tập thi cử, làm bài tập và nắm vững đề cương môn học.
 
@@ -20,9 +20,8 @@ semester-hub/
 ├── .agents/skills/               # Bản đăng ký Agent Skills tương thích Antigravity
 │   └── course-ui-adaptation/SKILL.md
 ├── data/
-│   ├── raw_pdfs/                 # Chứa file PDF giáo trình gốc (phân theo thư mục từng môn)
 │   ├── notebook_exports/         # Chứa các file .md xuất ra từ Google NotebookLM của người dùng
-│   └── parsed_markdown/          # Chứa nội dung giáo trình đã được bóc tách từ PDF sang Markdown
+│   └── parsed_markdown/          # Chứa nội dung giáo trình Markdown đã chuẩn hóa theo môn học
 ├── docs/                         # Static SPA LMS Web Portal (Sẵn sàng cho GitHub Pages)
 │   ├── index.html                # Modern Academic Bento Layout & Responsive Frame
 │   ├── .nojekyll                 # Đảm bảo GitHub Pages phục vụ file tĩnh nguyên bản
@@ -38,7 +37,6 @@ semester-hub/
 ├── src/
 │   ├── skills/                   # Mã nguồn thực thi của các Agent Skills
 │   │   ├── __init__.py
-│   │   ├── pdf_ingestor.py       # Bóc tách PDF sang Markdown giữ nguyên cấu trúc
 │   │   ├── knowledge_retriever.py# Tìm kiếm ngữ nghĩa / từ khóa trong kho giáo trình
 │   │   └── study_assistant.py    # Trợ lý sinh câu hỏi & giải bài tập bám sát tài liệu
 │   └── utils/
@@ -64,6 +62,7 @@ Semester Hub LMS được xây dựng theo phong cách **Modern Academic Bento &
   - ⚙️ **Công Nghệ Phần Mềm:** Violet - Emerald (`#7c3aed` / `#10b981`).
   - 🧠 **Tâm Lý Học 2:** Teal - Coral (`#0d9488` / `#f97316`).
   - 💡 **Tâm Lý Học Trí Tuệ:** Fuchsia - Sky (`#c026d3` / `#0ea5e9`).
+  - 📐 **Giải Tích 1 / Cơ bản:** Blue - Indigo (`#2563eb` / `#6366f1`).
 
 ### 2.2. Cơ Chế Trắc Nghiệm Tuần Tự Từng Câu (Sequential Step-by-Step Quiz Engine)
 - **Tập trung Từng Câu Hỏi (Single-Question Focused Stage):** Tại một thời điểm chỉ hiển thị duy nhất 1 câu hỏi trên sân khấu chính, loại bỏ sự xao nhãng của danh sách tràn dài.
@@ -83,18 +82,12 @@ Semester Hub LMS được xây dựng theo phong cách **Modern Academic Bento &
 
 ## 3. Các Kỹ Năng Cốt Lõi (Core Agent Skills)
 
-### 3.1. `pdf_ingestor`
-Bóc tách các file PDF giáo trình trong `data/raw_pdfs/` sang tài liệu Markdown chuẩn hóa trong `data/parsed_markdown/`:
-- Giữ nguyên cấu trúc cây phân cấp đề mục (`#`, `##`, `###`).
-- Giữ nguyên công thức toán/lý dạng LaTeX (`$...$` và `$$...$$`).
-- Đánh dấu số trang `<!-- PAGE X -->` để phục vụ trích dẫn chính xác.
-
-### 3.2. `knowledge_retriever`
+### 3.1. `knowledge_retriever`
 Truy xuất thông tin đối chiếu 2 tầng (Dual-Layer Retrieval):
 - **Tầng 1:** Đọc hiểu nhanh bản đồ ý niệm từ tóm tắt của NotebookLM (`data/notebook_exports/`).
 - **Tầng 2:** Tra cứu chuyên sâu chi tiết định lý, công thức, số trang trong giáo trình gốc (`data/parsed_markdown/`).
 
-### 3.3. `study_assistant`
+### 3.2. `study_assistant`
 Trợ lý học thuật giúp ôn thi và làm bài tập bám sát 100% đề cương:
 - **Giải bài tập (`solve`):** Giải từng bước chuẩn mực 4 bước, trích dẫn định lý giáo trình.
 - **Tạo câu hỏi trắc nghiệm (`quiz`):** Sinh đề ôn tập có đáp án và giải thích chi tiết.
