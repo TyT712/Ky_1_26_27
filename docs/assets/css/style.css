@@ -135,11 +135,11 @@
   --course-gradient: linear-gradient(135deg, #c026d3 0%, #0ea5e9 100%);
   --course-glow: rgba(192, 38, 211, 0.25);
 }
-[data-course-id="giai_tich_1"] {
-  --course-primary: #2563eb;
-  --course-secondary: #6366f1;
-  --course-gradient: linear-gradient(135deg, #2563eb 0%, #6366f1 100%);
-  --course-glow: rgba(37, 99, 235, 0.25);
+[data-course-id="giao_duc_hoc_1"] {
+  --course-primary: #059669;
+  --course-secondary: #0284c7;
+  --course-gradient: linear-gradient(135deg, #059669 0%, #0284c7 100%);
+  --course-glow: rgba(5, 150, 105, 0.25);
 }
 
 * {
@@ -1006,36 +1006,52 @@ body {
   background: rgba(0, 0, 0, 0.015);
 }
 /* Cornell Note-taking System Styling */
-[data-course-id="tam_ly_hoc_tri_tue"] .prose table {
+[data-course-id="tam_ly_hoc_tri_tue"] .prose table,
+[data-course-id="giao_duc_hoc_1"] .prose table {
   border: 1.5px solid var(--border-strong);
   border-radius: 12px;
   box-shadow: var(--shadow-sm);
 }
 [data-course-id="tam_ly_hoc_tri_tue"] .prose th:first-child,
-[data-course-id="tam_ly_hoc_tri_tue"] .prose td:first-child {
+[data-course-id="tam_ly_hoc_tri_tue"] .prose td:first-child,
+[data-course-id="giao_duc_hoc_1"] .prose th:first-child,
+[data-course-id="giao_duc_hoc_1"] .prose td:first-child {
   width: 30%;
   min-width: 200px;
   background: rgba(192, 38, 211, 0.05);
   border-right: 2.5px solid var(--course-primary);
   vertical-align: top;
 }
-[data-course-id="tam_ly_hoc_tri_tue"] .prose th {
+[data-course-id="giao_duc_hoc_1"] .prose th:first-child,
+[data-course-id="giao_duc_hoc_1"] .prose td:first-child {
+  background: rgba(5, 150, 105, 0.05);
+}
+[data-course-id="tam_ly_hoc_tri_tue"] .prose th,
+[data-course-id="giao_duc_hoc_1"] .prose th {
   background: linear-gradient(135deg, rgba(192, 38, 211, 0.12) 0%, rgba(14, 165, 233, 0.12) 100%);
   color: var(--text-main);
   font-size: 0.95rem;
   letter-spacing: 0.01em;
 }
-[data-course-id="tam_ly_hoc_tri_tue"] .prose td {
+[data-course-id="giao_duc_hoc_1"] .prose th {
+  background: linear-gradient(135deg, rgba(5, 150, 105, 0.12) 0%, rgba(2, 132, 199, 0.12) 100%);
+}
+[data-course-id="tam_ly_hoc_tri_tue"] .prose td,
+[data-course-id="giao_duc_hoc_1"] .prose td {
   vertical-align: top;
   line-height: 1.75;
 }
-[data-course-id="tam_ly_hoc_tri_tue"] .prose blockquote {
+[data-course-id="tam_ly_hoc_tri_tue"] .prose blockquote,
+[data-course-id="giao_duc_hoc_1"] .prose blockquote {
   background: linear-gradient(135deg, rgba(192, 38, 211, 0.07) 0%, rgba(14, 165, 233, 0.07) 100%);
   border-left: 4px solid var(--course-primary);
   border-radius: 0 12px 12px 0;
   padding: 1rem 1.25rem;
   margin: 1.25rem 0 1.75rem;
   box-shadow: var(--shadow-sm);
+}
+[data-course-id="giao_duc_hoc_1"] .prose blockquote {
+  background: linear-gradient(135deg, rgba(5, 150, 105, 0.07) 0%, rgba(2, 132, 199, 0.07) 100%);
 }
 .prose code {
   font-family: var(--font-mono);

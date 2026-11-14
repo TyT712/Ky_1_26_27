@@ -54,7 +54,7 @@ semester-hub/
 Semester Hub LMS được xây dựng theo phong cách **Modern Academic Bento & Glassmorphism**, tối ưu hóa trải nghiệm tự học và thi thử cá nhân hóa cho sinh viên đại học:
 
 ### 2.1. Cổng Thông Tin Bento & Nhận Diện Đa Môn Học
-- **Bento Hero & Thống Kê Học Kỳ:** Hiển thị 3 chỉ số tổng quan (Số chương đã hoàn thành trên toàn bộ 28 chương, Tổng số câu trắc nghiệm đã làm đúng, Điểm trung bình hệ 10).
+- **Bento Hero & Thống Kê Học Kỳ:** Hiển thị 3 chỉ số tổng quan (Số chương đã hoàn thành trên toàn bộ 40 chương, Tổng số câu trắc nghiệm đã làm đúng, Điểm trung bình hệ 10).
 - **Học tiếp gần nhất (1-Click Resume):** Tự động phát hiện và hiển thị lối tắt vào ngay chương bạn đang học dở qua `localStorage`.
 - **Dynamic Course Color Palette:** Mỗi môn học mang một tông màu nhận diện và biểu tượng riêng:
   - 🗄️ **Hệ Quản Trị CSDL:** Indigo - Cyan (`#4f46e5` / `#06b6d4`).
@@ -62,7 +62,7 @@ Semester Hub LMS được xây dựng theo phong cách **Modern Academic Bento &
   - ⚙️ **Công Nghệ Phần Mềm:** Violet - Emerald (`#7c3aed` / `#10b981`).
   - 🧠 **Tâm Lý Học 2:** Teal - Coral (`#0d9488` / `#f97316`).
   - 💡 **Tâm Lý Học Trí Tuệ:** Fuchsia - Sky (`#c026d3` / `#0ea5e9`).
-  - 📐 **Giải Tích 1 / Cơ bản:** Blue - Indigo (`#2563eb` / `#6366f1`).
+  - 🏫 **Giáo Dục Học 1:** Emerald - Sky (`#059669` / `#0284c7`).
 
 ### 2.2. Cơ Chế Trắc Nghiệm Tuần Tự Từng Câu (Sequential Step-by-Step Quiz Engine)
 - **Tập trung Từng Câu Hỏi (Single-Question Focused Stage):** Tại một thời điểm chỉ hiển thị duy nhất 1 câu hỏi trên sân khấu chính, loại bỏ sự xao nhãng của danh sách tràn dài.
@@ -104,7 +104,8 @@ Trợ lý học thuật giúp ôn thi và làm bài tập bám sát 100% đề c
 | 3 | **CNPM** | Công Nghệ Phần Mềm | 5 chương | 150 câu | 40 câu | 20 bài | Tích hợp vào 5 chương | Violet - Emerald ⚙️ |
 | 4 | **TLH2** | Tâm Lý Học 2 (Lứa Tuổi & Sư Phạm) | 5 chương | 150 câu | 40 câu | 20 bài | Tích hợp vào 5 chương | Teal - Coral 🧠 |
 | 5 | **TLHTT** | Tâm Lý Học Trí Tuệ (Phan Trọng Ngọ) | 7 chương | 700 câu | 56 câu | 28 bài | Ghi chép chuẩn Cornell | Fuchsia - Sky 💡 |
-| **Tổng cộng** | | | **35 chương** | **1.541 câu** | **280 câu** | **140 bài** | **Toàn diện 100%** | **Chuẩn hóa Modern Bento** |
+| 6 | **GDH1** | Giáo Dục Học 1 (ĐHSP Huế) | 5 chương | 150 câu | 40 câu | 20 bài | Ghi chép chuẩn Cornell | Emerald - Sky 🏫 |
+| **Tổng cộng** | | | **40 chương** | **1.691 câu** | **320 câu** | **160 bài** | **Toàn diện 100%** | **Chuẩn hóa Modern Bento** |
 
 ---
 

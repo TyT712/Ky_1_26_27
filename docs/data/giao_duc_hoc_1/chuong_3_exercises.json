@@ -1,0 +1,488 @@
+{
+  "chapter_id": "chuong_3",
+  "chapter_title": "Chương 3: Mục đích, nhiệm vụ và các con đường giáo dục",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Theo giáo trình Giáo dục học, khái niệm nào phản ánh trước sản phẩm dự kiến và kết quả mong muốn trong tương lai của quá trình giáo dục?",
+      "options": {
+        "A": "Mục đích giáo dục",
+        "B": "Phương pháp giáo dục",
+        "C": "Phương tiện giáo dục",
+        "D": "Hình thức tổ chức giáo dục"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 3.1.1, mục đích giáo dục là khái niệm cơ bản của giáo dục học, trước hết phản ánh kết quả mong muốn trong tương lai của giáo dục, phản ánh trước sản phẩm dự kiến của quá trình giáo dục (cả kiểu nhân cách người học và kiểu tập thể cần xây dựng)."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Việc xác định mục đích giáo dục có mấy chức năng quan trọng đối với hoạt động giáo dục?",
+      "options": {
+        "A": "2 chức năng",
+        "B": "3 chức năng",
+        "C": "4 chức năng",
+        "D": "5 chức năng"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 3.1.1, việc xác định mục đích giáo dục có tầm quan trọng đặc biệt vì có 3 chức năng: (1) Chức năng định hướng; (2) Chức năng làm cơ sở để tổ chức quá trình giáo dục; (3) Chức năng làm chuẩn để đánh giá chất lượng giáo dục."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Luật Giáo dục Việt Nam năm 2019 được Quốc hội thông qua vào ngày tháng năm nào và có hiệu lực thi hành từ thời điểm nào?",
+      "options": {
+        "A": "Ban hành ngày 14/06/2018, có hiệu lực từ ngày 01/01/2019",
+        "B": "Ban hành ngày 15/05/2019, có hiệu lực từ ngày 01/09/2019",
+        "C": "Ban hành ngày 14/06/2019, có hiệu lực từ ngày 01/07/2020",
+        "D": "Ban hành ngày 20/11/2019, có hiệu lực từ ngày 01/07/2021"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 3.1.2 của giáo trình, Luật Giáo dục Việt Nam được Quốc hội ban hành ngày 14 tháng 6 năm 2019 và có hiệu lực thi hành từ ngày 01 tháng 7 năm 2020."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Theo Điều 23, Chương 2, Luật Giáo dục 2019, mục tiêu của Giáo dục mầm non hướng tới chuẩn bị trực tiếp cho trẻ em vào học lớp nào?",
+      "options": {
+        "A": "Lớp mẫu giáo lớn",
+        "B": "Lớp dự bị tiểu học",
+        "C": "Các lớp năng khiếu nghệ thuật",
+        "D": "Vào học lớp một"
+      },
+      "correct_answer": "D",
+      "explanation": "Điều 23 Luật Giáo dục 2019 quy định: 'Giáo dục mầm non nhằm phát triển toàn diện trẻ em về thể chất, tình cảm, trí tuệ, thẩm mỹ, hình thành yếu tố đầu tiên của nhân cách, chuẩn bị cho trẻ em vào học lớp một'."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Trong nhà trường phổ thông, nhiệm vụ giáo dục toàn diện bao gồm mấy nhiệm vụ cơ bản đan xen với nhau?",
+      "options": {
+        "A": "5 nhiệm vụ (Trí dục, Đức dục, Mỹ dục, Thể dục, Lao động – hướng nghiệp)",
+        "B": "3 nhiệm vụ (Đức dục, Trí dục, Thể dục)",
+        "C": "4 nhiệm vụ (Đức dục, Trí dục, Thể dục, Mỹ dục)",
+        "D": "6 nhiệm vụ (Đức, Trí, Thể, Mỹ, Lao động, Quốc phòng riêng biệt)"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 3.2, nhà trường phổ thông thực hiện 5 nhiệm vụ giáo dục toàn diện: (1) Giáo dục trí tuệ, (2) Giáo dục đạo đức, (3) Giáo dục thẩm mỹ, (4) Giáo dục thể chất, và (5) Giáo dục lao động – hướng nghiệp."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Theo mục 3.2.2, bên cạnh các chuẩn mực đạo đức về lối sống và ứng xử, giáo dục đạo đức trong nhà trường hiện nay tập trung hình thành cho học sinh 5 phẩm chất chủ yếu nào?",
+      "options": {
+        "A": "Cần, kiệm, liêm, chính, chí công vô tư",
+        "B": "Yêu nước, nhân ái, chăm chỉ, trung thực, trách nhiệm",
+        "C": "Khiêm tốn, thật thà, dũng cảm, đoàn kết, kỷ luật",
+        "D": "Tự chủ, tự học, giao tiếp, hợp tác, sáng tạo"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 3.2.2 nêu rõ: 'Ngoài ra cần giáo dục cho HS các phẩm chất chủ yếu: yêu nước, nhân ái, chăm chỉ, trung thực, trách nhiệm' (trong khi Tự chủ, tự học, giao tiếp, hợp tác, sáng tạo là các năng lực)."
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "question": "Nhiệm vụ giáo dục thể chất trong nhà trường phổ thông hướng vào việc phát triển 4 phẩm chất vận động cơ bản nào ở học sinh?",
+      "options": {
+        "A": "Chiều cao, cân nặng, vòng ngực, nhịp tim",
+        "B": "Đi bộ, chạy bộ, nhảy cao, bơi lội",
+        "C": "Sức mạnh, sức nhanh, sức bền, sự khéo léo",
+        "D": "Sự dẻo dai, sự thăng bằng, phản xạ tĩnh, hô hấp sâu"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 3.2.4, một trong những nhiệm vụ cụ thể của giáo dục thể chất là phát triển các phẩm chất vận động, bao gồm 4 phẩm chất: sức mạnh, sức nhanh, sức bền, sự khéo léo."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "Các loại hình hoạt động cơ bản của xã hội khi được chuyển hóa vào nhà trường và tổ chức một cách khoa học phù hợp với quy luật sư phạm được gọi là gì?",
+      "options": {
+        "A": "Các nguyên tắc giáo dục",
+        "B": "Các chuẩn đánh giá giáo dục",
+        "C": "Các cấp học trong hệ thống quốc dân",
+        "D": "Các con đường giáo dục"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 3.3.1.1, các con đường giáo dục thực chất là các loại hình hoạt động cơ bản của xã hội được chuyển hóa vào nhà trường và được tổ chức khoa học hơn phù hợp với các quy luật sư phạm và đặc điểm tâm - sinh lí lứa tuổi."
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "question": "Trong 5 con đường giáo dục cơ bản ở nhà trường, con đường nào có hiệu quả đặc trưng là giúp học sinh chiếm lĩnh tri thức có hệ thống và phát triển các phẩm chất hoạt động trí tuệ?",
+      "options": {
+        "A": "Hoạt động dạy học",
+        "B": "Hoạt động lao động",
+        "C": "Hoạt động xã hội",
+        "D": "Hoạt động vui chơi"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 3.3.2.1, con đường hoạt động dạy học giúp học sinh chiếm lĩnh những tri thức sơ đẳng ngày càng có hệ thống, vừa chiếm lĩnh cách thức và những phẩm chất hoạt động trí tuệ — đây là hiệu quả có tính đặc trưng của con đường dạy học."
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "question": "Hoạt động vui chơi là hoạt động chủ đạo ở lứa tuổi nào, đồng thời vẫn giữ vị trí đáng kể như một con đường giáo dục ở các lứa tuổi học sinh phổ thông?",
+      "options": {
+        "A": "Lứa tuổi sơ sinh (0 - 1 tuổi)",
+        "B": "Lứa tuổi mẫu giáo",
+        "C": "Lứa tuổi trung học cơ sở",
+        "D": "Lứa tuổi thanh niên sinh viên"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 3.3.2.5, vui chơi là hoạt động chủ đạo ở lứa tuổi mẫu giáo, song đối với học sinh các lứa tuổi trên, nó vẫn có một vị trí và ý nghĩa đáng kể trong cuộc sống nên được coi là một con đường giáo dục."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Khi nhà trường căn cứ vào mục đích giáo dục để xác định, xây dựng nội dung, chương trình, phương pháp và các hoạt động giáo dục, mục đích giáo dục đang thể hiện chức năng nào?",
+      "options": {
+        "A": "Chức năng định hướng",
+        "B": "Chức năng dự báo xu thế xã hội",
+        "C": "Chức năng làm cơ sở để tổ chức quá trình giáo dục",
+        "D": "Chức năng làm chuẩn để đánh giá chất lượng giáo dục"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 3.1.1, chức năng làm cơ sở để tổ chức quá trình giáo dục thể hiện ở việc mục đích giáo dục là cơ sở để xác định, xây dựng nội dung, chương trình, phương pháp và các hoạt động giáo dục."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Theo Điều 2, Chương 1, Luật Giáo dục 2019, ba trụ cột chiến lược gắn với phát triển con người và nguồn lực quốc gia trong mục tiêu giáo dục tổng quát là gì?",
+      "options": {
+        "A": "Xóa mù chữ, phổ cập giáo dục tiểu học, phân luồng trung học",
+        "B": "Xã hội hóa giáo dục, tự chủ đại học, chuyển đổi số trường học",
+        "C": "Chuẩn hóa đội ngũ, hiện đại hóa cơ sở vật chất, hội nhập khu vực",
+        "D": "Nâng cao dân trí, phát triển nguồn nhân lực, bồi dưỡng nhân tài"
+      },
+      "correct_answer": "D",
+      "explanation": "Điều 2 Luật Giáo dục 2019 khẳng định mục tiêu giáo dục nhằm phát triển toàn diện con người Việt Nam... phát huy tiềm năng, khả năng sáng tạo của mỗi cá nhân; nâng cao dân trí, phát triển nguồn nhân lực, bồi dưỡng nhân tài, đáp ứng yêu cầu xây dựng, bảo vệ Tổ quốc và hội nhập quốc tế."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Theo Điều 29 Luật Giáo dục 2019, điểm khác biệt cốt lõi giữa mục tiêu của Giáo dục Trung học cơ sở (THCS) và Giáo dục Trung học phổ thông (THPT) là gì?",
+      "options": {
+        "A": "THCS bảo đảm học vấn phổ thông nền tảng và hiểu biết tối thiểu về kỹ thuật, hướng nghiệp; còn THPT trang bị kiến thức công dân, hoàn thiện học vấn phổ thông và hiểu biết thông thường về kỹ thuật, hướng nghiệp",
+        "B": "THCS hình thành cơ sở ban đầu về đạo đức, trí tuệ; còn THPT chỉ tập trung đào tạo nghề trực tiếp cho sản xuất",
+        "C": "THCS trang bị kiến thức công dân và hoàn thiện học vấn phổ thông; còn THPT bảo đảm học vấn phổ thông nền tảng",
+        "D": "THCS chuẩn bị cho học sinh vào đại học; còn THPT chỉ chuẩn bị cho học sinh đi lao động công ích"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Điều 29 Luật Giáo dục 2019 (mục 3.1.2): Giáo dục THCS bảo đảm cho HS có 'học vấn phổ thông nền tảng, hiểu biết cần thiết tối thiểu về kỹ thuật và hướng nghiệp'; còn Giáo dục THPT 'trang bị kiến thức công dân... hoàn thiện học vấn phổ thông và có hiểu biết thông thường về kỹ thuật, hướng nghiệp'."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Theo Điều 36 và Điều 39 của Luật Giáo dục 2019, sự khác biệt rõ nhất về đối tượng nhân lực được đào tạo giữa Giáo dục nghề nghiệp và Giáo dục đại học là gì?",
+      "options": {
+        "A": "Giáo dục nghề nghiệp đào tạo cán bộ quản lý nhà nước; Giáo dục đại học đào tạo công nhân kỹ thuật",
+        "B": "Giáo dục nghề nghiệp đào tạo nhân lực trực tiếp cho sản xuất, kinh doanh và dịch vụ; Giáo dục đại học đào tạo nhân lực trình độ cao, bồi dưỡng nhân tài và nghiên cứu KH&CN tạo tri thức mới",
+        "C": "Giáo dục nghề nghiệp chỉ dành cho người vừa làm vừa học; Giáo dục đại học chỉ dành cho học sinh trường chuyên",
+        "D": "Giáo dục nghề nghiệp không yêu cầu đạo đức và sức khỏe; Giáo dục đại học chỉ yêu cầu khả năng nghiên cứu lý thuyết"
+      },
+      "correct_answer": "B",
+      "explanation": "Điều 36 quy định Giáo dục nghề nghiệp 'đào tạo nhân lực trực tiếp cho sản xuất, kinh doanh và dịch vụ'; trong khi Điều 39 quy định Giáo dục đại học 'đào tạo nhân lực trình độ cao, nâng cao dân trí, bồi dưỡng nhân tài; nghiên cứu khoa học và công nghệ tạo ra tri thức, sản phẩm mới'."
+    },
+    {
+      "id": 15,
+      "difficulty": "medium",
+      "question": "Bậc học/phương thức giáo dục nào trong Luật Giáo dục 2019 đặt mục tiêu: 'tạo điều kiện cho mọi người vừa làm vừa học, học liên tục, học tập suốt đời... góp phần xây dựng xã hội học tập'?",
+      "options": {
+        "A": "Giáo dục phổ thông",
+        "B": "Giáo dục nghề nghiệp",
+        "C": "Giáo dục thường xuyên",
+        "D": "Giáo dục mầm non"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 3.1.2, mục tiêu của Giáo dục thường xuyên là tạo điều kiện cho mọi người vừa làm vừa học, học liên tục, học tập suốt đời nhằm phát huy năng lực cá nhân, hoàn thiện nhân cách, nâng cao trình độ... góp phần xây dựng xã hội học tập."
+    },
+    {
+      "id": 16,
+      "difficulty": "medium",
+      "question": "Theo mục 3.2.1, các thao tác tư duy cơ bản nào được đặc biệt quan tâm trong giáo dục trí tuệ để giúp con người phát hiện và nắm được bản chất, quy luật của sự vật, hiện tượng?",
+      "options": {
+        "A": "Quan sát, ghi nhớ máy móc, sao chép, mô phỏng, lặp lại",
+        "B": "Cảm giác, tri giác, biểu tượng, xúc cảm, tình cảm",
+        "C": "Tự quản, luân phiên phụ trách, tổ chức trò chơi, lao động công ích",
+        "D": "Phân tích, tổng hợp, so sánh, đối chiếu, trừu tượng hóa, khái quát hóa"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 3.2.1 chỉ rõ: 'Trong các thao tác trí tuệ, người ta rất quan tâm đến các thao tác tư duy như phân tích, tổng hợp, so sánh, đối chiếu, trừu tượng hoá, khái quát hoá… Nhờ các thao tác tư duy mà con người mới có thể phát hiện được và nắm được bản chất cũng như các quy luật của sự vật, hiện tượng'."
+    },
+    {
+      "id": 17,
+      "difficulty": "medium",
+      "question": "Trong quá trình giáo dục đạo đức (mục 3.2.2), yếu tố tâm lí nào đóng vai trò tạo động lực trực tiếp giúp học sinh biến những tri thức đạo đức thành hành vi và thói quen đạo đức?",
+      "options": {
+        "A": "Niềm tin đạo đức",
+        "B": "Sự trừng phạt hành chính",
+        "C": "Trí nhớ từ vựng về đạo đức",
+        "D": "Khả năng vận động thể chất"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 3.2.2: 'QTGD đạo đức là quá trình bồi dưỡng cho HS những chuẩn mực hành vi đạo đức (giá trị đạo đức). Giúp HS chuyển hóa những chuẩn mực đó thành niềm tin, niềm tin đạo đức sẽ tạo cho các em có động lực trong việc biến những tri thức đạo đức thành hành vi và thói quen đạo đức'."
+    },
+    {
+      "id": 18,
+      "difficulty": "medium",
+      "question": "Nhận định nào sau đây phản ánh ĐÚNG quan điểm của giáo trình Giáo dục học về nhiệm vụ giáo dục thẩm mỹ trong nhà trường phổ thông?",
+      "options": {
+        "A": "Giáo dục thẩm mỹ là hoạt động đào tạo chuyên sâu chỉ dành riêng cho những học sinh có năng khiếu hội họa hoặc âm nhạc",
+        "B": "Giáo dục thẩm mỹ là giáo dục văn hóa thẩm mỹ chung cho tất cả học sinh, giúp các em biết cảm thụ, thưởng thức, sáng tạo cái đẹp và có thái độ không khoan nhượng với cái xấu, phản thẩm mỹ",
+        "C": "Giáo dục thẩm mỹ chỉ giới hạn trong việc dạy học sinh trang phục thời trang và làm đẹp hình thức bên ngoài",
+        "D": "Giáo dục thẩm mỹ hoàn toàn tách biệt với quan điểm giai cấp và không liên quan đến mỹ học Mác – Lênin"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 3.2.3, không nên hiểu giáo dục thẩm mỹ là giáo dục đặc biệt cho những HS có năng khiếu nghệ thuật, mà là giáo dục văn hóa thẩm mỹ chung cho tất cả HS, dựa trên quan điểm mỹ học Mác - Lênin, đồng thời xây dựng thái độ không khoan nhượng đối với cái thô kệch, xấu xí, phản thẩm mỹ."
+    },
+    {
+      "id": 19,
+      "difficulty": "medium",
+      "question": "Nội dung 'Cung cấp cho học sinh những hiểu biết phổ thông về thể thao quốc phòng, các kỹ năng quân sự thường thức, giáo dục lòng trung thành với Tổ quốc và ý thức sẵn sàng bảo vệ Tổ quốc' thuộc về nhiệm vụ giáo dục nào?",
+      "options": {
+        "A": "Nhiệm vụ giáo dục trí tuệ",
+        "B": "Nhiệm vụ giáo dục thẩm mỹ",
+        "C": "Nhiệm vụ giáo dục thể chất",
+        "D": "Nhiệm vụ giáo dục lao động – hướng nghiệp"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 3.2.4, nhiệm vụ cụ thể thứ 4 của giáo dục thể chất là: 'Cung cấp cho HS những hiểu biết phổ thông về thể thao quốc phòng, các kỹ năng quân sự thường thức, giáo dục lòng trung thành với Tổ quốc xã hội chủ nghĩa, ý thức cảnh giác và sẵn sàng bảo vệ Tổ quốc, tính tổ chức, kỷ luật'."
+    },
+    {
+      "id": 20,
+      "difficulty": "medium",
+      "question": "Trong nhiệm vụ giáo dục lao động – hướng nghiệp (mục 3.2.5), khái niệm 'học vấn kỹ thuật tổng hợp' được hiểu là gì?",
+      "options": {
+        "A": "Nắm được các nguyên lí cơ bản của các quá trình sản xuất chủ yếu, có kỹ năng sử dụng công cụ và máy móc thông dụng, có tri thức về kinh tế, quản lí kinh tế và kinh doanh, phát triển tư duy kỹ thuật và tư duy kinh tế",
+        "B": "Chỉ học thuộc lòng các công thức toán học, vật lý và hóa học nâng cao để thi học sinh giỏi",
+        "C": "Đào tạo học sinh phổ thông trở thành kỹ sư chuyên ngành hẹp ngay từ bậc tiểu học",
+        "D": "Chỉ thực hiện các công việc lao động thủ công quét dọn vệ sinh lớp học hằng ngày"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 3.2.5 định nghĩa: 'Cung cấp cho HS vốn học vấn kỹ thuật tổng hợp nghĩa là làm cho họ nắm được những nguyên lí cơ bản của các quá trình sản xuất chủ yếu, có kỹ năng sử dụng các công cụ và máy móc thông dụng trong lao động sản xuất, cung cấp cho HS những tri thức về kinh tế, về quản lí kinh tế và kinh doanh, phát triển tư duy kỹ thuật hiện đại, hình thành tư duy kinh tế đúng đắn...'."
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "question": "Con đường giáo dục nào mang lại hiệu quả có tính đặc thù nhất là 'chuẩn bị thiết thực cho các em tham gia cuộc sống lao động xã hội'?",
+      "options": {
+        "A": "Hoạt động dạy học",
+        "B": "Hoạt động tập thể",
+        "C": "Hoạt động vui chơi",
+        "D": "Hoạt động lao động"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 3.3.2.2, hoạt động lao động góp phần phát triển toàn diện nhân cách học sinh, trong đó 'hiệu quả có tính đặc thù nhất là chuẩn bị thiết thực cho các em tham gia cuộc sống lao động xã hội'."
+    },
+    {
+      "id": 22,
+      "difficulty": "medium",
+      "question": "Theo mục 3.3.2.5, hoạt động vui chơi nếu được tổ chức tốt có khả năng thực hiện 4 chức năng giáo dục quan trọng nào?",
+      "options": {
+        "A": "Chức năng định hướng, chức năng tổ chức, chức năng kiểm tra và chức năng đánh giá",
+        "B": "Chức năng giáo dục (đạo đức), chức năng nhận thức, chức năng thẩm mỹ (văn hóa) và chức năng giải trí (phục hồi sức lực)",
+        "C": "Chức năng sản xuất vật chất, chức năng phân phối thu nhập, chức năng hướng nghiệp và chức năng quân sự",
+        "D": "Chức năng hành chính, chức năng kỷ luật, chức năng sàng lọc và chức năng phân hóa học sinh"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 3.3.2.5 phân tích 4 chức năng của hoạt động vui chơi: (1) Chức năng giáo dục (phát triển phẩm chất đạo đức, khắc phục tính ích kỷ, chơi trội...); (2) Chức năng nhận thức (hiểu biết thế giới, phát triển trí thông minh, năng khiếu); (3) Chức năng thẩm mỹ hay chức năng văn hóa; (4) Chức năng giải trí (phát triển phẩm chất vận động, phục hồi sức lực)."
+    },
+    {
+      "id": 23,
+      "difficulty": "hard",
+      "question": "Khi bàn về mối quan hệ giữa 5 nhiệm vụ giáo dục toàn diện trong nhà trường phổ thông, luận điểm phương pháp luận nào sau đây là CHÍNH XÁC nhất theo giáo trình?",
+      "options": {
+        "A": "Các nhiệm vụ giáo dục được thực hiện hoàn toàn tách biệt theo từng môn học độc lập: môn Toán chỉ làm trí dục, môn Thể dục chỉ làm thể chất",
+        "B": "Trí dục là nhiệm vụ duy nhất quyết định chất lượng nhân cách, các nhiệm vụ khác chỉ mang tính chất bổ trợ ngoại khóa khi còn thời gian",
+        "C": "Các nhiệm vụ giáo dục được thực hiện đan xen vào nhau, không thể tách rời; mỗi nhiệm vụ vừa là kết quả, vừa là điều kiện, tiền đề để thực hiện các nhiệm vụ khác, đòi hỏi quan điểm tiếp cận tổng hợp và đồng bộ",
+        "D": "Nhà trường phổ thông chỉ cần thực hiện tốt nhiệm vụ Đức dục ở cấp Tiểu học và nhiệm vụ Hướng nghiệp ở cấp THPT"
+      },
+      "correct_answer": "C",
+      "explanation": "Cuối mục 3.2.5 khẳng định: 'Trong thực tiễn giáo dục, các nhiệm vụ trên được thực hiện đan xen vào nhau, không thể tách rời. Mỗi nhiệm vụ vừa là kết quả, vừa là điều kiện, tiền đề để thực hiện các nhiệm vụ khác... Do đó cần có quan điểm tiếp cận tổng hợp và đồng bộ trong việc tổ chức QTGD'."
+    },
+    {
+      "id": 24,
+      "difficulty": "hard",
+      "question": "Tại sao trong 7 đặc điểm của các con đường giáo dục (mục 3.3.1.2), giáo trình lại nhấn mạnh rằng 'những con đường giáo dục cần được thực hiện một cách phối hợp' và nhà giáo dục phải 'thường xuyên đổi mới nội dung, hình thức, phương pháp tổ chức'?",
+      "options": {
+        "A": "Vì hoạt động dạy học đã lỗi thời và cần được thay thế hoàn toàn bằng hoạt động vui chơi giải trí",
+        "B": "Vì mỗi con đường chỉ có thế mạnh riêng ở những khía cạnh khác nhau, không có con đường nào là vạn năng; đồng thời các con đường không phải 'nhất thành bất biến' mà luôn vận động theo sự phát triển của kinh tế - xã hội và KH-CN",
+        "C": "Vì học sinh phổ thông không có khả năng tự giác tham gia vào bất kỳ hoạt động nào nếu không thay đổi trò chơi liên tục",
+        "D": "Vì Luật Giáo dục 2019 bắt buộc mỗi tuần chỉ được sử dụng duy nhất một con đường giáo dục luân phiên nhau"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 3.3.1.2 (đặc điểm 2, 5 và 7): Mỗi con đường có thế mạnh riêng ở những khía cạnh khác nhau nên 'không có con đường nào là vạn năng', đòi hỏi phải phối hợp; hơn nữa các con đường giáo dục không phải 'nhất thành bất biến' mà luôn vận động theo kinh tế - xã hội, KH-CN và yêu cầu nhân cách nên phải thường xuyên đổi mới, tránh rập khuôn."
+    },
+    {
+      "id": 25,
+      "difficulty": "hard",
+      "question": "Theo mục 3.3.2.1, hệ thống các phẩm chất hoạt động trí tuệ được hình thành và phát triển như một hiệu quả đặc trưng của con đường hoạt động dạy học bao gồm những phẩm chất nào?",
+      "options": {
+        "A": "Sức mạnh, sức nhanh, sức bền, sự khéo léo, tính dẻo dai và khả năng chịu đựng",
+        "B": "Tình thân ái, đoàn kết, lòng trung thực, tính tập thể, tinh thần trách nhiệm và óc thẩm mỹ",
+        "C": "Tính tự quản, luân phiên phụ trách, dư luận tập thể lành mạnh và kỷ luật lao động",
+        "D": "Tính định hướng, bề rộng, bề sâu, tính độc lập, tính linh hoạt, tính mềm dẻo, tính phê phán, tính nhất quán, tính khái quát"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 3.3.2.1 nêu rõ hiệu quả đặc trưng của con đường hoạt động dạy học là giúp HS chiếm lĩnh cách thức và những phẩm chất hoạt động trí tuệ: 'tính định hướng, bề rộng, bề sâu, tính độc lập, tính linh hoạt, tính mềm dẻo, phê phán, tính nhất quán, tính khái quát'."
+    },
+    {
+      "id": 26,
+      "difficulty": "hard",
+      "question": "Trong 7 điều kiện để con đường hoạt động dạy học phát huy hiệu quả cao (mục 3.3.2.1), giáo trình giải thích như thế nào về khái niệm 'sáng tạo trong học tập' của học sinh và vai trò của học sinh – giáo viên?",
+      "options": {
+        "A": "Sáng tạo trong học tập là tạo ra được cái mới đối với bản thân khi còn là học sinh; trong QTDH, học sinh vừa là chủ thể vừa là mục đích cuối cùng, còn giáo viên giữ vai trò chủ đạo có tầm quan trọng đặc biệt (không làm lu mờ hoặc đề cao quá mức)",
+        "B": "Sáng tạo trong học tập là học sinh phải phát minh ra các định luật khoa học hoàn toàn mới đối với nhân loại mà không cần sự hướng dẫn của giáo viên",
+        "C": "Trong QTDH, giáo viên là mục đích cuối cùng và quyết định trực tiếp mọi kết quả, còn học sinh chỉ là khách thể tiếp nhận tri thức có sẵn",
+        "D": "Để học sinh sáng tạo, cần xóa bỏ hoàn toàn vai trò chủ đạo của giáo viên và chỉ tổ chức dạy học đồng loạt, không phân hóa cá nhân"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo 7 điều kiện ở mục 3.3.2.1: Điều kiện 1 khẳng định 'Trong QTDH, HS vừa là chủ thể vừa là mục đích cuối cùng'; Điều kiện 2 giải thích 'Sáng tạo trong học tập là tạo ra được cái mới với bản thân khi còn là HS'; Điều kiện 7 nhấn mạnh 'phải đảm bảo được vai trò chủ đạo có tầm quan trọng đặc biệt của GV, không được làm lu mờ hoặc quá đề cao quá mức vai trò của họ'."
+    },
+    {
+      "id": 27,
+      "difficulty": "hard",
+      "question": "Khi tổ chức con đường hoạt động lao động cho học sinh trong nhà trường (mục 3.3.2.2), việc kết hợp các hình thức và hiệu quả lao động cần tuân thủ nguyên tắc điều kiện nào sau đây?",
+      "options": {
+        "A": "Chỉ tổ chức lao động sản xuất tạo thu nhập tài chính cao nhất cho nhà trường, bỏ qua lao động tự phục vụ và lao động giúp đỡ gia đình",
+        "B": "Tách biệt hoàn toàn lao động chân tay với lao động trí óc, và chỉ giao trách nhiệm cho cá nhân mà không gắn với trách nhiệm tập thể",
+        "C": "Đa dạng hóa hình thức (tự phục vụ, sản xuất, công ích, giúp gia đình); thống nhất lợi ích cá nhân – xã hội và trách nhiệm tập thể – cá nhân; kết hợp hài hòa hiệu quả kinh tế, hiệu quả xã hội và hiệu quả giáo dục; kết hợp lao động đơn giản với kỹ thuật, chân tay với trí óc",
+        "D": "Bắt buộc mọi học sinh ở mọi lứa tuổi thực hiện cùng một định mức lao động nặng nhọc như công nhân chuyên nghiệp"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 3.3.2.2 quy định 6 điều kiện của con đường hoạt động lao động: (1) Đa dạng hình thức (tự phục vụ, sản xuất, công ích, giúp gia đình); (2) Thống nhất lợi ích cá nhân và xã hội; (3) Kết hợp hài hòa hiệu quả kinh tế, xã hội và giáo dục; (4) Kích thích sáng tạo; (5) Kết hợp lao động đơn giản với kỹ thuật, chân tay với trí óc; (6) Thống nhất trách nhiệm tập thể và cá nhân."
+    },
+    {
+      "id": 28,
+      "difficulty": "hard",
+      "question": "Vì sao giáo trình khẳng định: thông qua con đường 'Hoạt động tập thể', các thành viên không những là đối tượng của giáo dục mà quan trọng hơn còn trở thành 'chủ thể tự giáo dục', và bản thân tập thể cũng được coi là 'chủ thể của giáo dục'?",
+      "options": {
+        "A": "Vì trong hoạt động tập thể, giáo viên làm thay toàn bộ công việc thiết kế và điều khiển nên học sinh không phải chịu áp lực học tập",
+        "B": "Vì hoạt động tập thể giúp học sinh tự giác chuyển hóa những yêu cầu của nhà trường, xã hội thành yêu cầu của bản thân và tự đề ra yêu cầu riêng để cùng tự giác thực hiện không gò ép, đồng thời rèn kỹ năng tự quản qua luân phiên phụ trách",
+        "C": "Vì tập thể có quyền kỷ luật đuổi học bất kỳ thành viên nào mà không cần thông qua hội đồng nhà trường",
+        "D": "Vì hoạt động tập thể xóa bỏ hoàn toàn mọi chuẩn mực hành vi của nhà trường để mỗi cá nhân tự do hành động theo ý thích riêng"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 3.3.2.4, hoạt động tập thể giúp HS chuyển hóa một cách tự giác những yêu cầu của nhà trường, xã hội thành yêu cầu của bản thân và tự đề ra yêu cầu riêng để cùng nhau tự giác thực hiện mà không có sự gò ép từ bên ngoài, đồng thời bộc lộ kỹ năng tự quản qua luân phiên phụ trách. Do đó, thành viên trở thành chủ thể tự giáo dục và tập thể trở thành chủ thể giáo dục."
+    },
+    {
+      "id": 29,
+      "difficulty": "hard",
+      "question": "Trong các điều kiện để phát huy tác dụng của con đường 'Hoạt động tập thể' (mục 3.3.2.4), yếu tố nào có sức mạnh to lớn trong việc điều chỉnh các mối quan hệ trong tập thể, xây dựng động cơ hoạt động và hoàn thiện hành vi ứng xử của học sinh?",
+      "options": {
+        "A": "Các hình phạt tài chính đối với học sinh vi phạm nội quy",
+        "B": "Sự làm thay toàn diện của giáo viên chủ nhiệm trong mọi khâu tổ chức",
+        "C": "Việc phân biệt đối xử giữa ban cán sự lớp và các thành viên bình thường",
+        "D": "Dư luận tập thể lành mạnh (tán thành, biểu dương cái tốt; phê phán những ý nghĩ, lời nói, hành vi xấu)"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 3.3.2.4 (điều kiện thứ 5): Cần xây dựng dư luận tập thể lành mạnh nhằm tán thành, biểu dương cái tốt và lên án những ý nghĩ, lời nói, hành vi xấu. Dư luận tập thể có sức mạnh to lớn trong việc điều chỉnh các mối quan hệ trong tập thể, xây dựng động cơ hoạt động, hoàn thiện hành vi ứng xử."
+    },
+    {
+      "id": 30,
+      "difficulty": "hard",
+      "question": "Khi tổ chức một chiến dịch 'Ngày Chủ nhật xanh – Bảo vệ môi trường và tuyên truyền phòng chống tệ nạn xã hội tại phường/xã' cho học sinh THPT, nhà trường cần đảm bảo những điều kiện nào theo con đường 'Hoạt động xã hội' (mục 3.3.2.3)?",
+      "options": {
+        "A": "Nội dung đa dạng, hình thức hấp dẫn phù hợp tâm sinh lí HS; gắn với cộng đồng địa phương; phát huy tinh thần tự quản của HS; thu hút sự phối hợp của Đoàn TNCS, Đội TNTP và các tổ chức xã hội; mang lại hiệu quả thiết thực, tránh phô trương hình thức, lãng phí",
+        "B": "Tổ chức hoàn toàn khép kín trong phòng học lý thuyết để tiết kiệm kinh phí và do giáo viên trực tiếp làm hết mọi phần việc",
+        "C": "Ưu tiên phô trương hình thức bề nổi trên truyền thông bất kể tốn kém thời gian, tiền của và không cần phối hợp với đoàn thể địa phương",
+        "D": "Chỉ chọn những học sinh có điều kiện kinh tế khá giả tham gia để đảm bảo tính đồng đều"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 3.3.2.3, 6 điều kiện để con đường hoạt động xã hội đạt hiệu quả cao là: (1) Nội dung phong phú, đa dạng; (2) Hình thức hấp dẫn, phù hợp tâm - sinh lí HS; (3) Gắn với cộng đồng địa phương; (4) Phát huy tinh thần tự quản, không phụ thuộc vào GV; (5) Thu hút sự hỗ trợ, phối hợp của Đoàn TNCS Hồ Chí Minh, Đội TNTP Hồ Chí Minh, các tổ chức xã hội; (6) Mang lại hiệu quả rõ rệt, thiết thực, tránh phô trương hình thức, lãng phí."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Nêu khái niệm mục đích giáo dục và kể tên 3 chức năng quan trọng của mục đích giáo dục đối với hoạt động giáo dục.",
+      "expected_answer": "- Khái niệm: Mục đích giáo dục là mô hình dự kiến về nhân cách người học (và kiểu tập thể cần xây dựng), phản ánh kết quả mong muốn trong tương lai của quá trình giáo dục nhằm đáp ứng hiệu quả yêu cầu phát triển kinh tế - xã hội trong từng giai đoạn lịch sử nhất định.\n- Ba chức năng quan trọng: (1) Chức năng định hướng (giữ cho toàn bộ hoạt động giáo dục không đi lệch hướng); (2) Chức năng làm cơ sở để tổ chức quá trình giáo dục (xác định nội dung, chương trình, phương pháp, hoạt động giáo dục); (3) Chức năng làm chuẩn để đánh giá chất lượng giáo dục (đo lường mức độ đạt được của sản phẩm giáo dục so với mục đích đề ra)."
+    },
+    {
+      "id": 2,
+      "question": "Trình bày nội dung mục tiêu giáo dục tổng quát của Việt Nam được quy định tại Điều 2, Chương 1, Luật Giáo dục năm 2019.",
+      "expected_answer": "Theo Điều 2, Chương 1, Luật Giáo dục 2019 (ban hành ngày 14/06/2019, hiệu lực từ 01/07/2020): Mục tiêu giáo dục nhằm phát triển toàn diện con người Việt Nam có đạo đức, tri thức, văn hóa, sức khỏe, thẩm mỹ và nghề nghiệp; có phẩm chất, năng lực và ý thức công dân; có lòng yêu nước, tinh thần dân tộc, trung thành với lý tưởng độc lập dân tộc và chủ nghĩa xã hội; phát huy tiềm năng, khả năng sáng tạo của mỗi cá nhân; nâng cao dân trí, phát triển nguồn nhân lực, bồi dưỡng nhân tài, đáp ứng yêu cầu của sự nghiệp xây dựng, bảo vệ Tổ quốc và hội nhập quốc tế."
+    },
+    {
+      "id": 3,
+      "question": "Năng lực trí tuệ là gì? Nêu các thao tác tư duy cơ bản và 3 nhiệm vụ cụ thể của giáo dục trí tuệ (Trí dục) trong nhà trường.",
+      "expected_answer": "- Khái niệm: Năng lực trí tuệ là tập hợp những tri thức, kỹ năng, kỹ xảo và những thao tác hoạt động trí tuệ nhằm chiếm lĩnh những tri thức, kỹ năng, kỹ xảo đó mà học sinh đã nắm vững và biến thành hiểu biết của bản thân.\n- Các thao tác tư duy cơ bản: Phân tích, tổng hợp, so sánh, đối chiếu, trừu tượng hóa, khái quát hóa.\n- 3 nhiệm vụ cụ thể của giáo dục trí tuệ: (1) Tổ chức, điều khiển người học nắm vững hệ thống tri thức khoa học, phổ thông, cơ bản, hiện đại, phù hợp thực tiễn về tự nhiên, xã hội, con người; (2) Rèn luyện hệ thống kỹ năng, kỹ xảo tương ứng, phát triển năng lực và phẩm chất trí tuệ, đặc biệt là năng lực tư duy sáng tạo; (3) Bồi dưỡng thế giới quan khoa học và phẩm chất đạo đức tốt đẹp của người công dân."
+    },
+    {
+      "id": 4,
+      "question": "Trình bày cơ chế chuyển hóa từ tri thức đạo đức thành thói quen đạo đức và kể tên 5 phẩm chất đạo đức chủ yếu cần giáo dục cho học sinh phổ thông.",
+      "expected_answer": "- Cơ chế chuyển hóa: Quá trình giáo dục đạo đức bồi dưỡng cho học sinh những chuẩn mực hành vi đạo đức (tri thức/giá trị đạo đức), giúp học sinh chuyển hóa những chuẩn mực đó thành niềm tin đạo đức; chính niềm tin đạo đức sẽ tạo động lực bên trong thúc đẩy học sinh biến tri thức đạo đức thành hành vi và thói quen đạo đức bền vững.\n- 5 phẩm chất chủ yếu cần giáo dục cho học sinh: Yêu nước, nhân ái, chăm chỉ, trung thực, trách nhiệm."
+    },
+    {
+      "id": 5,
+      "question": "Tại sao nói giáo dục thẩm mỹ trong nhà trường phổ thông là giáo dục văn hóa thẩm mỹ chung cho tất cả học sinh? Nêu 4 nhiệm vụ cụ thể của giáo dục thẩm mỹ.",
+      "expected_answer": "- Bản chất: Giáo dục thẩm mỹ ở trường phổ thông không phải là sự đào tạo đặc biệt chỉ dành riêng cho học sinh có năng khiếu nghệ thuật, mà là giáo dục văn hóa thẩm mỹ đại trà cho mọi học sinh để các em biết tiếp xúc, cảm thụ, thưởng thức và sáng tạo cái đẹp trong cuộc sống hằng ngày.\n- 4 nhiệm vụ cụ thể: (1) Phát triển tình cảm thẩm mỹ khi cảm thụ cái đẹp trong nghệ thuật, tự nhiên, xã hội; (2) Cung cấp quan điểm chuẩn mực, niềm tin thẩm mỹ, năng lực phán đoán và đánh giá thẩm mỹ trên quan điểm mỹ học Mác - Lênin; (3) Hình thành năng lực sáng tạo nghệ thuật và khả năng đem cái đẹp vào đời sống, học tập, lao động, ứng xử; (4) Xây dựng thái độ không khoan nhượng đối với cái thô kệch, xấu xí, phi văn hóa, phản thẩm mỹ."
+    },
+    {
+      "id": 6,
+      "question": "Nêu 4 nhiệm vụ cụ thể của giáo dục thể chất và chỉ rõ 4 phẩm chất vận động cơ bản cần phát triển ở học sinh.",
+      "expected_answer": "- 4 phẩm chất vận động cơ bản: Sức mạnh, sức nhanh, sức bền, sự khéo léo.\n- 4 nhiệm vụ cụ thể của giáo dục thể chất: (1) Phát triển đúng đắn về thể chất và củng cố sức khỏe (hoàn thiện cơ thể về mặt hình thái và mặt chức năng, phòng ngừa bệnh tật); (2) Phát triển 4 phẩm chất vận động (mạnh, nhanh, bền, khéo) và khắc phục tâm lý tự ti, sợ hãi, mệt mỏi; (3) Hình thành kỹ năng, kỹ xảo vận động và nhu cầu tập luyện TDTT đều đặn; (4) Cung cấp hiểu biết phổ thông về thể thao quốc phòng, kỹ năng quân sự thường thức, giáo dục lòng trung thành và ý thức sẵn sàng bảo vệ Tổ quốc, tính tổ chức, kỷ luật."
+    },
+    {
+      "id": 7,
+      "question": "Con đường giáo dục là gì? Kể tên 5 con đường giáo dục cơ bản trong nhà trường và tóm tắt 7 đặc điểm chung của chúng.",
+      "expected_answer": "- Khái niệm: Con đường giáo dục là những loại hình hoạt động cơ bản của xã hội được chuyển hóa vào nhà trường và tổ chức một cách khoa học phù hợp với quy luật sư phạm và đặc điểm tâm - sinh lí lứa tuổi, với sự tham gia tích cực, tự giác của học sinh dưới vai trò chủ đạo của nhà giáo dục.\n- 5 con đường giáo dục cơ bản: (1) Hoạt động dạy học; (2) Hoạt động lao động; (3) Hoạt động chính trị - xã hội; (4) Hoạt động tập thể; (5) Hoạt động vui chơi.\n- 7 đặc điểm chung: (1) Có mục đích đa dạng (mục đích riêng của hoạt động và mục đích chung phát triển nhân cách); (2) Mỗi con đường có thế mạnh riêng; (3) Thống nhất giữa mục đích, nội dung, phương pháp, phương tiện; (4) Học sinh là chủ thể tự giác, tích cực dưới sự chủ đạo của nhà giáo dục; (5) Phải phối hợp với nhau vì không có con đường nào là vạn năng; (6) Thực hiện sáng tạo, phù hợp tâm sinh lí lứa tuổi; (7) Không 'nhất thành bất biến' mà luôn vận động, đổi mới theo sự phát triển kinh tế - xã hội và KH-CN."
+    },
+    {
+      "id": 8,
+      "question": "Trình bày 4 chức năng giáo dục và 4 điều kiện thực hiện của con đường 'Hoạt động vui chơi' trong nhà trường.",
+      "expected_answer": "- 4 chức năng của hoạt động vui chơi: (1) Chức năng giáo dục đạo đức (phát triển tình thân ái, đoàn kết, trung thực, trách nhiệm; khắc phục tính ích kỷ, chơi trội, giả dối); (2) Chức năng nhận thức (nâng cao hiểu biết tự nhiên - xã hội, phát triển trí thông minh, sáng tạo, năng khiếu); (3) Chức năng thẩm mỹ / văn hóa (cảm thụ và sáng tạo cái đẹp trong thiên nhiên, nghệ thuật, quan hệ xã hội); (4) Chức năng giải trí (phát triển phẩm chất vận động, thư giãn, phục hồi sức lực sau học tập, lao động).\n- 4 điều kiện thực hiện: (1) Đa dạng, phong phú về hình thức và hấp dẫn về nội dung; (2) Thực hiện đồng bộ ở nhà trường, gia đình và xã hội với sự hỗ trợ của các lực lượng giáo dục; (3) Đảm bảo tính bình đẳng trong vui chơi cho mọi học sinh (không phân biệt nam nữ, giàu nghèo, địa vị xã hội); (4) Đảm bảo điều kiện cơ sở vật chất cần thiết và tổ chức linh hoạt, sáng tạo phù hợp lứa tuổi."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phân tích khái niệm, chức năng của mục đích giáo dục và hệ thống mục tiêu giáo dục Việt Nam theo Luật Giáo dục 2019",
+      "problem": "Phân tích khái niệm và 3 chức năng cơ bản của mục đích giáo dục. Làm rõ cách thức cụ thể hóa mục tiêu giáo dục tổng quát (Điều 2) thành mục tiêu của các cấp học, bậc học trong hệ thống giáo dục quốc dân Việt Nam theo Luật Giáo dục năm 2019 và rút ra ý nghĩa sư phạm đối với người giáo viên.",
+      "solution_steps": [
+        "Bước 1: Phân tích khái niệm mục đích giáo dục — Làm rõ mục đích giáo dục là mô hình dự kiến về nhân cách người học và kiểu tập thể cần xây dựng trong tương lai, phản ánh tập trung những yêu cầu khách quan của sự phát triển kinh tế - xã hội trong từng giai đoạn lịch sử nhất định.",
+        "Bước 2: Phân tích 3 chức năng quan trọng của mục đích giáo dục — (1) Chức năng định hướng (kim chỉ nam giữ cho toàn bộ hoạt động dạy và học không chệch hướng); (2) Chức năng làm cơ sở tổ chức quá trình giáo dục (quy định việc lựa chọn nội dung, chương trình, phương pháp, phương tiện, hình thức tổ chức); (3) Chức năng làm chuẩn đánh giá chất lượng giáo dục (đối chiếu sản phẩm thực tế với mô hình nhân cách dự kiến).",
+        "Bước 3: Phân tích mục tiêu giáo dục tổng quát theo Điều 2, Chương 1, Luật Giáo dục 2019 (hiệu lực từ 01/07/2020) — Nhấn mạnh sự phát triển toàn diện con người Việt Nam (đạo đức, tri thức, văn hóa, sức khỏe, thẩm mỹ, nghề nghiệp; phẩm chất, năng lực, ý thức công dân; lòng yêu nước và lý tưởng XHCN) gắn với 3 mục tiêu chiến lược vĩ mô: nâng cao dân trí, phát triển nguồn nhân lực, bồi dưỡng nhân tài.",
+        "Bước 4: Hệ thống hóa sự phân cấp mục tiêu qua các cấp học, bậc học tại Chương 2 Luật Giáo dục 2019 — Chỉ rõ tính liên thông từ Giáo dục mầm non (Điều 23: hình thành yếu tố đầu tiên của nhân cách, chuẩn bị vào lớp 1) -> Giáo dục phổ thông (Điều 29: Tiểu học hình thành cơ sở ban đầu; THCS bảo đảm học vấn phổ thông nền tảng và hiểu biết tối thiểu về kỹ thuật, hướng nghiệp; THPT trang bị kiến thức công dân, hoàn thiện học vấn phổ thông và phân luồng) -> Giáo dục nghề nghiệp (Điều 36: nhân lực trực tiếp) -> Giáo dục đại học (Điều 39: nhân lực trình độ cao, nhân tài, nghiên cứu KH&CN) -> Giáo dục thường xuyên (học tập suốt đời, xã hội học tập).",
+        "Bước 5: Rút ra ý nghĩa sư phạm đối với giáo viên và người học — Giáo viên phải lấy mục tiêu cấp học, môn học làm kim chỉ nam khi thiết kế kế hoạch bài dạy và hoạt động giáo dục; người học phải biến mục tiêu giáo dục xã hội thành mục tiêu tự phấn đấu, tự rèn luyện và tự đánh giá sự trưởng thành nhân cách của bản thân."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Mối quan hệ biện chứng giữa 5 nhiệm vụ giáo dục toàn diện trong nhà trường phổ thông",
+      "problem": "Trình bày nội dung cốt lõi của 5 nhiệm vụ giáo dục toàn diện trong nhà trường phổ thông (Trí dục, Đức dục, Mỹ dục, Thể dục, Giáo dục lao động – hướng nghiệp). Tại sao trong thực tiễn sư phạm phải thực hiện quan điểm tiếp cận tổng hợp và đồng bộ các nhiệm vụ này?",
+      "solution_steps": [
+        "Bước 1: Phân tích nhiệm vụ Giáo dục trí tuệ (Trí dục) và Giáo dục đạo đức (Đức dục) — Trí dục trang bị hệ thống tri thức khoa học phổ thông, cơ bản, hiện đại, rèn luyện các thao tác tư duy (phân tích, tổng hợp, so sánh, đối chiếu, trừu tượng hóa, khái quát hóa) và thế giới quan khoa học; Đức dục chuyển hóa tri thức đạo đức qua cầu nối 'niềm tin đạo đức' thành hành vi, thói quen đạo đức, bồi dưỡng thế giới quan Mác - Lênin, tư tưởng Hồ Chí Minh và 5 phẩm chất chủ yếu (yêu nước, nhân ái, chăm chỉ, trung thực, trách nhiệm).",
+        "Bước 2: Phân tích nhiệm vụ Giáo dục thẩm mỹ (Mỹ dục) và Giáo dục thể chất (Thể dục) — Mỹ dục trang bị văn hóa thẩm mỹ đại trà cho tất cả học sinh (không chỉ cho HS năng khiếu), bồi dưỡng tình cảm, quan điểm thẩm mỹ, năng lực sáng tạo cái đẹp và thái độ không khoan nhượng với cái xấu, phản thẩm mỹ; Thể dục hoàn thiện hình thái và chức năng cơ thể, phát triển 4 phẩm chất vận động (sức mạnh, sức nhanh, sức bền, sự khéo léo), hình thành thói quen rèn luyện và kỹ năng thể thao quốc phòng, quân sự thường thức.",
+        "Bước 3: Phân tích nhiệm vụ Giáo dục lao động – hướng nghiệp — Hình thành thái độ và phẩm chất của người lao động mới, trang bị vốn 'học vấn kỹ thuật tổng hợp' (nguyên lí sản xuất cơ bản, sử dụng công cụ máy móc, tư duy kỹ thuật và tư duy kinh tế), tổ chức hướng nghiệp có hệ thống để học sinh tự đánh giá đúng năng lực bản thân và tham gia lao động sản xuất gắn với địa phương.",
+        "Bước 4: Chứng minh tính thống nhất biện chứng giữa 5 nhiệm vụ — Trong thực tiễn, 5 nhiệm vụ đan xen chặt chẽ, mỗi nhiệm vụ vừa là kết quả, vừa là điều kiện và tiền đề của các nhiệm vụ khác (ví dụ: có Trí dục mới hiểu đúng chuẩn mực Đức dục và nguyên lí Lao động kỹ thuật; có Thể dục mới đủ sức khỏe để học tập và lao động; có Mỹ dục mới cảm nhận cái đẹp trong hành vi đạo đức và sản phẩm lao động).",
+        "Bước 5: Đề xuất biện pháp thực hiện quan điểm tiếp cận tổng hợp và đồng bộ — Giáo viên bộ môn và giáo viên chủ nhiệm cần tích hợp đa nhiệm vụ trong mỗi tiết dạy và mỗi hoạt động trải nghiệm (dạy chữ đi đôi với dạy người, học đi đôi với hành), tránh khuynh hướng thiên lệch chỉ chạy theo điểm số trí dục mà buông lỏng đức dục, thể dục, mỹ dục và hướng nghiệp."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Vai trò đặc trưng và các điều kiện thực hiện con đường Hoạt động dạy học trong nhà trường",
+      "problem": "Phân tích hiệu quả giáo dục đặc trưng của con đường 'Hoạt động dạy học' đối với sự phát triển nhân cách học sinh. Để con đường hoạt động dạy học phát huy hiệu quả cao nhất trong bối cảnh đổi mới giáo dục hiện nay, người giáo viên và nhà trường cần đảm bảo những điều kiện nào?",
+      "solution_steps": [
+        "Bước 1: Khẳng định vị trí của con đường Hoạt động dạy học — Là con đường giáo dục cơ bản, trọng tâm nhất trong nhà trường, nơi học sinh với tư cách là chủ thể nhận thức thực hiện các nhiệm vụ học tập dưới sự tổ chức, điều khiển chủ đạo của giáo viên nhằm phát triển nhân cách toàn diện.",
+        "Bước 2: Phân tích hiệu quả đặc trưng về phát triển trí tuệ — Dạy học giúp học sinh chiếm lĩnh hệ thống tri thức toàn diện, cân đối (tự nhiên, xã hội, tư duy, kỹ thuật) từ sơ đẳng đến nâng cao, đồng thời hình thành cách thức và các phẩm chất hoạt động trí tuệ đặc trưng: tính định hướng, bề rộng, bề sâu, tính độc lập, tính linh hoạt, tính mềm dẻo, tính phê phán, tính nhất quán và tính khái quát.",
+        "Bước 3: Phân tích hiệu quả chuyển hóa từ nhận thức sang hành động và giáo dục đạo đức (nghĩa hẹp) — Dạy học không dừng ở lý thuyết rời rạc mà chuyển hóa tri thức thành kỹ năng, kỹ xảo ('kết hợp học với hành'), tạo năng lực giải quyết vấn đề thực tiễn; đồng thời giúp học sinh lĩnh hội các chuẩn mực ứng xử xã hội (dạy học mang tính giáo dục).",
+        "Bước 4: Phân tích nhóm điều kiện về vai trò chủ thể của học sinh và đổi mới phương pháp dạy học (Điều kiện 1, 2, 3) — (1) Coi trọng và hướng về học sinh (HS vừa là chủ thể vừa là mục đích cuối cùng); (2) Kích thích học sinh học tập sáng tạo (tạo ra cái mới đối với bản thân HS); (3) Áp dụng các phương pháp dạy học sáng tạo, chú trọng phân hóa, cá nhân hóa, thu hút mọi học sinh tham gia và gắn lý thuyết với thực hành trong các tình huống đa dạng.",
+        "Bước 5: Phân tích nhóm điều kiện về môi trường tri thức, hình thức tổ chức, nền tảng học vấn và vai trò chủ đạo của giáo viên (Điều kiện 4, 5, 6, 7) — (4) Kiến tạo 'môi trường tri thức' để học sinh sử dụng tri thức như một sức mạnh; (5) Phối hợp đa dạng các hình thức tổ chức dạy học, ưu tiên chất lượng thực chất và chống bệnh thành tích; (6) Trang bị nền tảng tri thức - kỹ năng rộng để học tập suốt đời; (7) Đảm bảo đúng mức vai trò chủ đạo đặc biệt của giáo viên (không làm lu mờ nhưng cũng không đề cao quá mức dẫn tới áp đặt)."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Phối hợp các con đường Hoạt động lao động, Hoạt động xã hội, Hoạt động tập thể và Hoạt động vui chơi trong giáo dục nhân cách",
+      "problem": "So sánh hiệu quả đặc thù và các điều kiện sư phạm của 4 con đường giáo dục: Hoạt động lao động, Hoạt động xã hội, Hoạt động tập thể và Hoạt động vui chơi. Hãy thiết kế một kế hoạch hoạt động giáo dục tổng hợp ở trường trung học có sự phối hợp của các con đường này.",
+      "solution_steps": [
+        "Bước 1: Phân tích hiệu quả đặc thù và 6 điều kiện của con đường Hoạt động lao động — Hiệu quả đặc thù là chuẩn bị thiết thực cho học sinh tham gia cuộc sống lao động xã hội, rèn kỹ năng và lòng yêu lao động; 6 điều kiện gồm: đa dạng hóa hình thức (tự phục vụ, sản xuất, công ích, giúp gia đình), thống nhất lợi ích cá nhân - xã hội, kết hợp hài hòa 3 hiệu quả (kinh tế - xã hội - giáo dục), kích thích sáng tạo, kết hợp lao động đơn giản với kỹ thuật / chân tay với trí óc, và thống nhất trách nhiệm tập thể - cá nhân.",
+        "Bước 2: Phân tích hiệu quả đặc thù và 6 điều kiện của con đường Hoạt động xã hội — Giúp học sinh thâm nhập đời sống cộng đồng, vận dụng tri thức vào thực tiễn, mở rộng quan hệ xã hội và bồi dưỡng tình cảm công dân; 6 điều kiện gồm: nội dung phong phú (KH-CN, văn hóa, y tế, môi trường...), hình thức hấp dẫn phù hợp tâm sinh lí, gắn với cộng đồng địa phương, phát huy tính tự quản của HS, phối hợp với Đoàn TNCS/Đội TNTP và các đoàn thể, đảm bảo hiệu quả thiết thực tránh phô trương lãng phí.",
+        "Bước 3: Phân tích hiệu quả đặc thù và 5 điều kiện của con đường Hoạt động tập thể — Giúp học sinh tự giác chuyển hóa yêu cầu của nhà trường thành yêu cầu tự giáo dục (thành viên trở thành chủ thể tự giáo dục, tập thể trở thành chủ thể giáo dục) và rèn kỹ năng tự quản qua luân phiên phụ trách; 5 điều kiện gồm: xây dựng tập thể vững mạnh, nội dung phong phú - hình thức hấp dẫn, kế hoạch và phân công cụ thể, đảm bảo tính tự quản (tránh GV làm thay), và xây dựng dư luận tập thể lành mạnh.",
+        "Bước 4: Phân tích 4 chức năng và 4 điều kiện của con đường Hoạt động vui chơi — Thực hiện 4 chức năng (giáo dục đạo đức, nhận thức, thẩm mỹ/văn hóa, giải trí phục hồi sức lực); 4 điều kiện gồm: đa dạng hình thức - hấp dẫn nội dung, phối hợp đồng bộ Nhà trường - Gia đình - Xã hội, đảm bảo tính bình đẳng cho mọi học sinh (không phân biệt nam nữ, giàu nghèo), và đảm bảo cơ sở vật chất phù hợp lứa tuổi.",
+        "Bước 5: Thiết kế hoạt động giáo dục tổng hợp minh họa (Ví dụ: Dự án 'Hội chợ Xuân Xanh & Ngày hội Thiện nguyện Cộng đồng' cho học sinh THPT) — (a) Tích hợp Hoạt động tập thể: Lớp tự quản thiết kế gian hàng, phân công luân phiên nhóm trưởng; (b) Tích hợp Hoạt động lao động: Học sinh tự chế tạo sản phẩm thủ công tái chế, tính toán chi phí kinh tế - kỹ thuật; (c) Tích hợp Hoạt động vui chơi: Tổ chức các trò chơi dân gian, văn nghệ, giải toán vui bình đẳng cho mọi học sinh; (d) Tích hợp Hoạt động xã hội: Phối hợp Đoàn trường và chính quyền phường/xã dùng quỹ thu được tặng quà gia đình khó khăn và tuyên truyền bảo vệ môi trường tại địa phương."
+      ]
+    }
+  ]
+}

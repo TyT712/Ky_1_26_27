@@ -1,0 +1,484 @@
+{
+  "chapter_id": "chuong_1",
+  "chapter_title": "Chương 1: Giáo dục học là một khoa học",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Theo giáo trình Giáo dục học 1, hình thức hoạt động cơ bản nhất của loài người, có vai trò quyết định đối với sự phát triển xã hội cũng như sự phát triển của chính con người và làm nảy sinh nhu cầu giáo dục là gì?",
+      "options": {
+        "A": "Hoạt động lao động tác động vào thế giới tự nhiên để làm ra của cải vật chất và tích lũy kinh nghiệm xã hội.",
+        "B": "Hoạt động tín ngưỡng tâm linh nhằm giải thích các hiện tượng tự nhiên siêu nhiên trong buổi bình minh lịch sử.",
+        "C": "Hoạt động giải trí nghệ thuật tự phát nhằm giải tỏa căng thẳng thể chất sau quá trình săn bắt và hái lượm.",
+        "D": "Hoạt động quân sự chinh phạt mở rộng lãnh thổ giữa các bộ lạc nguyên thủy để chiếm đoạt nguồn tài nguyên."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 1.1.1 của giáo trình, từ khi xuất hiện trên trái đất, loài người đã bắt tay vào lao động. Lao động là hình thức hoạt động cơ bản nhất, có vai trò quyết định đối với sự phát triển xã hội và con người, qua đó tích lũy kho tàng kinh nghiệm xã hội và nảy sinh nhu cầu truyền thụ cho thế hệ sau (giáo dục)."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Hiểu theo nghĩa rộng nhất của một hiện tượng xã hội đặc biệt, bản chất của sự giáo dục là gì?",
+      "options": {
+        "A": "Sự di truyền nguyên vẹn các phản xạ bản năng sinh học từ cơ thể cha mẹ sang cơ thể con cái thông qua cấu trúc gen.",
+        "B": "Sự truyền thụ và tiếp nhận kinh nghiệm xã hội từ thế hệ trước cho thế hệ sau nhằm chuẩn bị năng lực bước vào cuộc sống, trở thành người lao động.",
+        "C": "Sự áp đặt một chiều các quy tắc lễ giáo phong kiến của tầng lớp cai trị lên đời sống tinh thần của tầng lớp lao động.",
+        "D": "Sự tự thích nghi đơn độc của từng cá thể với môi trường tự nhiên hoang dã mà không có sự can thiệp của cộng đồng."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình (Mục 1.1.1) khẳng định: Giáo dục hiểu theo nghĩa rộng nhất là sự truyền thụ và tiếp nhận kinh nghiệm xã hội từ thế hệ trước cho thế hệ sau nhằm chuẩn bị cho thế hệ sau những năng lực cần thiết để bước vào cuộc sống, trở thành người lao động."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Trong lịch sử phát triển của giáo dục, sự ra đời của giáo dục theo phương thức trường lớp gắn liền với nền kinh tế công nghiệp ở châu Âu vào thế kỷ XVI – XVII nhờ công lao của nhà giáo dục vĩ đại nào?",
+      "options": {
+        "A": "Nhà triết học và tự nhiên học người Anh Francis Bacon (1561–1626).",
+        "B": "Nhà giáo dục dân chủ người Đức F.A.W. Diesterweg (1790–1866).",
+        "C": "Nhà giáo dục vĩ đại người Cộng hòa Séc Jan Amos Komenski (1592–1670).",
+        "D": "Nhà giáo dục người Nga K.D. Ushinski (1824–1870)."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.1.1 nêu rõ: Sự ra đời của giáo dục theo phương thức trường lớp gắn liền với sự ra đời của nền kinh tế công nghiệp ở châu Âu thế kỷ XVI – XVII nhờ công lao của nhà giáo dục vĩ đại người Cộng hòa Séc Jan Amos Komenski (1592–1670)."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Với tư cách là một hiện tượng xã hội thuộc kiến trúc thượng tầng, giáo dục có những tính chất cơ bản nào?",
+      "options": {
+        "A": "Tính bẩm sinh di truyền, tính phi giai cấp và tính bất biến vĩnh cửu.",
+        "B": "Tính tự phát ngẫu nhiên, tính biệt lập quốc gia và tính trung lập chính trị.",
+        "C": "Tính sinh học thuần túy, tính thương mại hóa tuyệt đối và tính đoạn tuyệt lịch sử.",
+        "D": "Tính lịch sử - xã hội, tính giai cấp và tính kế thừa."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 1.1.2, giáo dục tham gia vào cấu trúc xã hội với tư cách là một bộ phận của kiến trúc thượng tầng và có 3 tính chất cơ bản: tính lịch sử - xã hội, tính giai cấp và tính kế thừa."
+    },
+    {
+      "id": 5,
+      "difficulty": "medium",
+      "question": "Minh chứng lịch sử nào được giáo trình đưa ra để chứng minh rằng trong xã hội có giai cấp đối kháng, giáo dục là đặc quyền của giai cấp thống trị và làm sâu sắc thêm sự bất bình đẳng xã hội?",
+      "options": {
+        "A": "Trong thời kỳ Pháp thuộc, hơn 95% người Việt Nam bị mù chữ và thời phong kiến chỉ con em quý tộc, phong kiến mới được đi học để làm quan.",
+        "B": "Trong thời kỳ cổ đại Hy Lạp, tất cả nô lệ đều được bắt buộc học triết học và hùng biện tại các trường công lập của nhà nước.",
+        "C": "Trong thời kỳ Trung cổ châu Âu, nhà thờ cấm toàn bộ tầng lớp quý tộc học đọc, học viết để dành đặc quyền học tập cho nông dân.",
+        "D": "Trong thời kỳ Cách mạng công nghiệp thế kỷ XVII, toàn bộ trường học ở châu Âu đều bị đóng cửa để chuyển thành công xưởng dệt may."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.1.2.2 chỉ rõ: Trong xã hội có giai cấp đối kháng, không có nền giáo dục bình đẳng cho mọi giai cấp; thời phong kiến chỉ con em quý tộc hay giai cấp phong kiến mới được đi học làm quan, và trong thời kỳ Pháp thuộc, hơn 95% người Việt Nam mù chữ."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "Khi vận dụng tính kế thừa trong sự phát triển và đổi mới giáo dục, giáo trình chỉ rõ cần phải phê phán và tránh hai quan điểm cực đoan, sai lầm nào?",
+      "options": {
+        "A": "Quan điểm kết hợp truyền thống với hiện đại và quan điểm chủ động hội nhập quốc tế sâu rộng trong thời kỳ cách mạng công nghệ 4.0.",
+        "B": "Quan điểm phủ nhận sạch trơn thành tựu cũ ('đào tận gốc, trốc tận rễ') và tư tưởng hoài cổ, luyến tiếc quá khứ dẫn tới trì trệ, bảo thủ, ngại đổi mới.",
+        "C": "Quan điểm chuẩn hóa đội ngũ nhà giáo và quan điểm xã hội hóa nguồn lực đầu tư phát triển hệ thống trường lớp.",
+        "D": "Quan điểm dạy học phân hóa theo năng lực cá nhân và quan điểm dạy học tích hợp liên ngành trong nhà trường phổ thông."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 1.1.2.3, trong sự phát triển giáo dục cần tránh 2 quan điểm cực đoan và sai lầm: (1) Phủ nhận sạch trơn thành tựu của nền giáo dục cũ ('đào tận gốc, trốc tận rễ'); (2) Tư tưởng hoài cổ, luyến tiếc quá khứ dẫn tới sự trì trệ, bảo thủ, ngại đổi mới."
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "question": "Ở mọi thời đại, giáo dục thực hiện ba chức năng xã hội cơ bản nào đối với sự tồn tại và phát triển của xã hội?",
+      "options": {
+        "A": "Chức năng sinh học - di truyền, chức năng giải trí - thư giãn và chức năng hành chính - cưỡng chế.",
+        "B": "Chức năng quân sự - quốc phòng, chức năng ngoại giao - lãnh sự và chức năng xét xử - tư pháp.",
+        "C": "Chức năng kinh tế - sản xuất, chức năng chính trị - xã hội và chức năng tư tưởng - văn hóa.",
+        "D": "Chức năng thương mại - tài chính, chức năng khai thác tài nguyên và chức năng kiểm duyệt thông tin."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 1.1.3, ở mọi thời đại, giáo dục thực hiện 3 chức năng xã hội cơ bản: chức năng kinh tế - sản xuất; chức năng chính trị - xã hội; chức năng tư tưởng - văn hóa."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "Trong 5 nguồn lực cơ bản để phát triển kinh tế (nguồn nhân lực, công nghệ hiện đại, nguồn vốn, thị trường, tài nguyên), nguồn lực nào giữ vai trò quyết định?",
+      "options": {
+        "A": "Nguồn tài nguyên thiên nhiên và khoáng sản dự trữ dồi dào.",
+        "B": "Nguồn vốn tài chính vay mượn từ các định chế tiền tệ quốc tế.",
+        "C": "Thị trường tiêu thụ hàng hóa rộng mở và ổn định ở nước ngoài.",
+        "D": "Nguồn nhân lực dồi dào, được đào tạo đồng bộ và có chất lượng cao."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.1.3.1 khẳng định: Trong 5 nguồn lực cơ bản phát triển kinh tế (nguồn nhân lực, công nghệ hiện đại, nguồn vốn, thị trường, tài nguyên), mỗi nguồn lực có vai trò khác nhau, trong đó nguồn nhân lực có vai trò quyết định."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Khi phân tích chức năng tư tưởng - văn hóa của giáo dục, vì sao giáo trình khẳng định giáo dục có khả năng giữ gìn, bảo tồn và phát triển văn hóa một cách bền vững nhất?",
+      "options": {
+        "A": "Bởi vì 'nơi bảo tồn văn hóa tốt nhất là trong mỗi con người', thông qua giáo dục mà các giá trị văn hóa được tái tạo trong nhân cách và mỗi cá nhân trở thành chủ thể sáng tạo văn hóa mới.",
+        "B": "Bởi vì giáo dục chỉ tập trung sao chép các văn bản cổ vào viện bảo tàng mà không cho phép thế hệ trẻ tiếp xúc với các nền văn hóa hiện đại trên thế giới.",
+        "C": "Bởi vì giáo dục thay thế hoàn toàn chức năng của các cơ quan quản lý di sản và loại bỏ toàn bộ các phong tục truyền thống của địa phương.",
+        "D": "Bởi vì văn hóa là một thuộc tính sinh học bẩm sinh được di truyền tự động qua các thế hệ mà không cần đến hoạt động dạy học hay rèn luyện."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 1.1.3.3, thông qua các QTGD và dạy học, hệ thống giá trị văn hóa của nhân loại và dân tộc được truyền bá, tái tạo trong mỗi cá nhân, làm cho văn hóa được giữ gìn, bảo tồn bền vững bởi vì 'nơi bảo tồn văn hóa tốt nhất là trong mỗi con người', đồng thời phát triển năng lực cảm thụ và sáng tạo văn hóa mới."
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "question": "Vào năm 1623, học giả nào khi phân loại các khoa học đã lần đầu tiên tách Giáo dục học ra khỏi triết học (lúc bấy giờ được hiểu giản đơn là 'hướng dẫn đọc sách')?",
+      "options": {
+        "A": "Nhà triết học cổ đại Hy Lạp Aristotle (384–322 TCN).",
+        "B": "Nhà triết học, nhà tự nhiên học người Anh Francis Bacon (1561–1626).",
+        "C": "Nhà tư tưởng Chủ nghĩa xã hội không tưởng T. Campanella (1568–1639).",
+        "D": "Nhà giáo dục người Thụy Sĩ J.G. Pestalozzi (1746–1827)."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.2.1 ghi rõ: Đến đầu thế kỷ XVII, Giáo dục học với tư cách là một khoa học lần đầu tiên mới được tách ra từ triết học bởi F. Bacon (1561–1626) - nhà triết học, tự nhiên học người Anh vào năm 1623 (hồi đó được hiểu giản đơn là 'hướng dẫn đọc sách')."
+    },
+    {
+      "id": 11,
+      "difficulty": "easy",
+      "question": "Tác phẩm nào của J.A. Komenski (1592–1670) được coi là cuốn sách khoa học giáo dục đầu tiên, đưa Giáo dục học thực sự trở thành một khoa học độc lập?",
+      "options": {
+        "A": "Vài suy nghĩ về giáo dục (1693).",
+        "B": "Émile hay là Về giáo dục.",
+        "C": "Phép giảng dạy vĩ đại.",
+        "D": "Luận cương về Feuerbach."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 1.2.1, Giáo dục học thực sự trở thành một khoa học độc lập gắn liền với tên tuổi của J.A. Komenski (1592–1670) và tác phẩm lớn nhất của ông là 'Phép giảng dạy vĩ đại' được coi là cuốn sách khoa học giáo dục đầu tiên."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Trong tác phẩm 'Phép giảng dạy vĩ đại', J.A. Komenski đã gọi nguyên tắc dạy học nào là 'nguyên tắc vàng ngọc' và đề xuất hình thức tổ chức dạy học đặc trưng nào vẫn còn nguyên giá trị cho đến ngày nay?",
+      "options": {
+        "A": "Nguyên tắc vừa sức riêng và hình thức dạy học kèm cặp cá nhân tại gia đình quý tộc.",
+        "B": "Nguyên tắc giáo dục bằng tập thể và hình thức tổ chức trại hè lao động công ích.",
+        "C": "Nguyên tắc thích ứng văn hóa và hình thức tổ chức hội thảo chuyên đề trực tuyến.",
+        "D": "Nguyên tắc trực quan ('nguyên tắc vàng ngọc') và hình thức tổ chức dạy học bài lên lớp (hình thức dạy học theo lớp)."
+      },
+      "correct_answer": "D",
+      "explanation": "Trong 'Phép giảng dạy vĩ đại' (Mục 1.2.1), J.A. Komenski đề xuất cách tiếp cận 'thích ứng với tự nhiên', nguyên tắc trực quan (mà ông gọi là 'nguyên tắc vàng ngọc'), nguyên tắc hệ thống, nguyên tắc phát huy tính tích cực nhận thức của HS và đặc biệt là HTTCDH bài lên lớp (hình thức dạy học theo lớp)."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Trong lịch sử phát triển Giáo dục học thế kỷ XVII – XIX, việc ghép nối tên các nhà giáo dục với đóng góp lý luận đặc trưng của họ ở phương án nào sau đây là ĐÚNG chuẩn giáo trình?",
+      "options": {
+        "A": "J. Locke với 'Vài suy nghĩ về giáo dục' (1693); J.J. Rousseau với 'Émile hay là Về giáo dục'; J.G. Pestalozzi thống nhất dạy học với lao động sản xuất; F.A.W. Diesterweg kết hợp thích ứng tự nhiên với thích ứng văn hóa; K.D. Ushinski đặt nền móng Giáo dục học Nga.",
+        "B": "J. Locke sáng lập Chủ nghĩa xã hội không tưởng; J.J. Rousseau viết 'Phép giảng dạy vĩ đại'; J.G. Pestalozzi tách Giáo dục học khỏi triết học năm 1623; K.D. Ushinski đề xướng giáo dục thần học nhà thờ.",
+        "C": "J. Locke đề xuất nguyên tắc thích ứng văn hóa ở Đức; F.A.W. Diesterweg viết 'Émile hay là Về giáo dục' ở Pháp; J.G. Pestalozzi đặt nền móng cho Giáo dục học Nga.",
+        "D": "J.J. Rousseau viết 'Vài suy nghĩ về giáo dục' (1693); J. Locke chủ trương thống nhất dạy học với lao động sản xuất ở Thụy Sĩ; K.D. Ushinski khởi xướng phương thức trường lớp thế kỷ XVI."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 1.2.1: J. Locke (1632–1704, Anh) viết 'Vài suy nghĩ về giáo dục' (1693); J.J. Rousseau (1712–1778, Pháp) viết 'Émile hay là Về giáo dục'; J.G. Pestalozzi (1746–1827, Thụy Sĩ) thống nhất dạy học với lao động sản xuất; F.A.W. Diesterweg (1790–1866, Đức) kết hợp nguyên tắc thích ứng tự nhiên với nguyên tắc thích ứng văn hóa; K.D. Ushinski (1824–1870) đặt nền móng Giáo dục học Nga."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Sự xuất hiện của học thuyết nào vào giữa thế kỷ XIX đã tạo ra bước ngoặt cơ bản trong lý thuyết giáo dục, giải phóng Giáo dục học khỏi chủ nghĩa siêu hình và tình trạng tách rời cuộc sống?",
+      "options": {
+        "A": "Học thuyết tâm phân học cổ điển về các xung năng vô thức bẩm sinh của con người.",
+        "B": "Học thuyết Mác - Lênin (K. Marx, F. Engels, V.I. Lênin) với cơ sở phương pháp luận duy vật biện chứng và duy vật lịch sử.",
+        "C": "Thuyết hành vi cổ điển S - R nghiên cứu phản xạ trên động vật trong phòng thí nghiệm.",
+        "D": "Trường phái triết học kinh viện Trung cổ dung hòa lý trí với niềm tin tôn giáo nhà thờ."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.2.1 khẳng định: Đến giữa thế kỷ XIX, sự xuất hiện chủ nghĩa Mác (K. Marx, F. Engels và sau này là V.I. Lênin) đã tạo ra bước ngoặt cơ bản trong lý thuyết giáo dục, giải phóng nó khỏi chủ nghĩa siêu hình, khỏi tình trạng tách rời cuộc sống và đặt cơ sở phương pháp luận khoa học vững chắc."
+    },
+    {
+      "id": 15,
+      "difficulty": "easy",
+      "question": "Đối tượng nghiên cứu của Giáo dục học với tư cách là một khoa học về giáo dục con người là gì?",
+      "options": {
+        "A": "Các quy luật di truyền sinh học và sự đột biến nhiễm sắc thể qua các thế hệ loài người.",
+        "B": "Sự vận động của các quy luật kinh tế thị trường và chính sách tiền tệ vĩ mô của quốc gia.",
+        "C": "Quá trình giáo dục tổng thể (hoặc quá trình sư phạm toàn vẹn) và các quá trình sư phạm bộ phận trong hệ thống nhà trường.",
+        "D": "Cấu trúc giải phẫu sinh lý của hệ thần kinh trung ương và các phản xạ không điều kiện ở trẻ sơ sinh."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 1.2.2.1, Giáo dục học với tư cách là khoa học về giáo dục có đối tượng nghiên cứu là quá trình giáo dục tổng thể (hoặc quá trình sư phạm toàn vẹn) và các quá trình sư phạm bộ phận trong hệ thống nhà trường."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "question": "Quá trình giáo dục tổng thể (hệ thống vĩ mô) bao gồm 5 quá trình giáo dục bộ phận (hệ thống vi mô) nào thống nhất biện chứng với nhau?",
+      "options": {
+        "A": "QTGD mầm non, QTGD tiểu học, QTGD trung học cơ sở, QTGD trung học phổ thông và QTGD đại học.",
+        "B": "QTGD gia đình, QTGD dòng họ, QTGD khu dân cư, QTGD truyền thông đại chúng và QTGD tôn giáo.",
+        "C": "QTGD cảm giác, QTGD tri giác, QTGD trí nhớ, QTGD tưởng tượng và QTGD ngôn ngữ bên trong.",
+        "D": "QTGD trí tuệ (trí dục), QTGD đạo đức (đức dục), QTGD thẩm mỹ (mỹ dục), QTGD thể chất (thể dục) và QTGD lao động, hướng nghiệp."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 1.2.2.2, 5 QTGD bộ phận tạo nên QTGD tổng thể là: (1) QTGD trí tuệ (trí dục); (2) QTGD đạo đức (đức dục); (3) QTGD thẩm mỹ (mỹ dục); (4) QTGD thể chất (thể dục); (5) QTGD lao động, hướng nghiệp."
+    },
+    {
+      "id": 17,
+      "difficulty": "medium",
+      "question": "Cấu trúc hệ thống của Quá trình giáo dục tổng thể cũng như mỗi quá trình giáo dục bộ phận đều được tạo thành bởi 6 thành tố cơ bản nào?",
+      "options": {
+        "A": "(1) Mục đích, nhiệm vụ giáo dục; (2) Nội dung giáo dục; (3) Phương pháp và phương tiện giáo dục; (4) Nhà giáo dục; (5) Người được giáo dục; (6) Kết quả giáo dục.",
+        "B": "(1) Ngân sách tài chính; (2) Khuôn viên đất đai; (3) Cơ sở vật chất; (4) Đội ngũ hành chính; (5) Hội phụ huynh; (6) Bằng cấp tốt nghiệp.",
+        "C": "(1) Giả thuyết khoa học; (2) Nhóm thực nghiệm; (3) Nhóm đối chứng; (4) Phiếu hỏi anket; (5) Phần mềm SPSS; (6) Báo cáo tổng kết.",
+        "D": "(1) Di truyền bẩm sinh; (2) Môi trường tự nhiên; (3) Giao tiếp bạn bè; (4) Truyền thông xã hội; (5) Phong tục tập quán; (6) Dư luận tập thể."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 1.2.2.2, cả QTGD tổng thể và mỗi QTGD bộ phận đều được cấu thành bởi 6 thành tố: (1) Mục đích, nhiệm vụ giáo dục; (2) Nội dung giáo dục; (3) Phương pháp và phương tiện giáo dục; (4) Nhà giáo dục (giáo viên); (5) Người được giáo dục (học sinh); (6) Kết quả giáo dục."
+    },
+    {
+      "id": 18,
+      "difficulty": "medium",
+      "question": "Trong cấu trúc của quá trình giáo dục tổng thể, thành tố nào được coi là 'đơn đặt hàng' của xã hội đối với nền giáo dục, giữ vai trò định hướng hàng đầu và là chuẩn để đo lường, đánh giá chất lượng giáo dục?",
+      "options": {
+        "A": "Phương tiện kỹ thuật và trang thiết bị công nghệ thông tin trong phòng học.",
+        "B": "Mục đích và nhiệm vụ giáo dục.",
+        "C": "Sở thích ngẫu nhiên và nhu cầu giải trí nhất thời của cá nhân người học.",
+        "D": "Quy chế chi tiêu nội bộ và định mức giờ giảng của cơ sở giáo dục."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.2.2.2 nêu rõ: Mục đích giáo dục được coi là 'đơn đặt hàng' của xã hội đối với nền giáo dục về mẫu nhân cách con người được giáo dục; mục đích và nhiệm vụ giáo dục là nhân tố hàng đầu định hướng cho toàn bộ QTGD và là chuẩn để đo lường, đánh giá chất lượng, hiệu quả giáo dục."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "question": "Khi phân tích vị trí của 'Người được giáo dục' (học sinh) trong quá trình giáo dục tổng thể, giáo trình xác định mối quan hệ giữa hai tư cách 'đối tượng giáo dục' và 'chủ thể hoạt động' như thế nào?",
+      "options": {
+        "A": "Người được giáo dục hoàn toàn chỉ là đối tượng thụ động tiếp nhận sự nhồi nhét kiến thức một chiều từ nhà giáo dục mà không có vai trò chủ thể.",
+        "B": "Người được giáo dục chỉ là chủ thể tự do tuyệt đối, hoàn toàn không chịu bất kỳ sự định hướng, tổ chức hay điều khiển nào từ phía nhà giáo dục.",
+        "C": "Người được giáo dục vừa là đối tượng giáo dục vừa là chủ thể hoạt động; hai vai trò này thống nhất biện chứng với nhau, trong đó vai trò chủ thể là cơ bản nhất.",
+        "D": "Hai vai trò đối tượng giáo dục và chủ thể hoạt động loại trừ lẫn nhau hoàn toàn, ở bậc phổ thông chỉ là đối tượng còn lên bậc đại học mới trở thành chủ thể."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 1.2.2.2, người được giáo dục một mặt là đối tượng giáo dục (tiếp nhận tác động có định hướng của nhà giáo dục), mặt khác là chủ thể hoạt động (nhận thức, học tập và các hoạt động giáo dục khác). Hai vai trò này thống nhất biện chứng với nhau, trong đó vai trò chủ thể là cơ bản nhất (cơ sở của quan điểm 'dạy học lấy người học làm trung tâm' - Learner centred teaching)."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "question": "Trong mỗi phương pháp giáo dục thuộc quá trình sư phạm, sự thống nhất biện chứng giữa hai mặt hoạt động của thầy và trò được xác định như thế nào?",
+      "options": {
+        "A": "Phương pháp sư phạm của thầy giữ vai trò phụ thuộc, còn phương pháp tự phát của trò giữ vai trò lãnh đạo toàn diện.",
+        "B": "Chỉ tồn tại duy nhất phương pháp giảng giải của thầy, còn người học không có phương pháp tự tổ chức hay tự điều khiển nào.",
+        "C": "Phương pháp giáo dục hoàn toàn tách rời khỏi phương tiện giáo dục và không có sự tương tác giữa nhà giáo dục với người được giáo dục.",
+        "D": "Luôn chứa đựng hai mặt: phương pháp sư phạm của nhà giáo dục (vai trò chủ đạo) và phương pháp tự tổ chức, tự điều khiển của người được giáo dục (vai trò chủ động)."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 1.2.2.2, trong mỗi phương pháp giáo dục bao giờ cũng chứa đựng hai mặt: phương pháp sư phạm của nhà giáo dục và phương pháp tự tổ chức, tự điều khiển của người được giáo dục, trong đó phương pháp sư phạm của thầy có vai trò chủ đạo và phương pháp tự điều khiển của trò có vai trò chủ động."
+    },
+    {
+      "id": 21,
+      "difficulty": "hard",
+      "question": "Khi xem xét phạm trù 'Giáo dục' ở 4 cấp độ nghĩa khác nhau, 'Giáo dục theo nghĩa tương đối hẹp' được giới hạn trong phạm vi nào?",
+      "options": {
+        "A": "Quá trình hình thành nhân cách trong nhà trường chỉ liên quan đến các mặt đức dục, mỹ dục, thể dục, giáo dục lao động – hướng nghiệp (đối tượng của Lý luận giáo dục), không bao hàm hoạt động dạy học hay giáo dục trí tuệ.",
+        "B": "Quá trình hình thành và phát triển nhân cách dưới ảnh hưởng của tất cả các hoạt động có ý thức trong cả nhà trường, gia đình và toàn xã hội.",
+        "C": "Toàn bộ quá trình sư phạm tổng thể trong nhà trường bao gồm cả quá trình dạy học (trí dục) lẫn các hoạt động giáo dục khác.",
+        "D": "Quá trình hình thành và phát triển nhân cách người được giáo dục chỉ liên quan duy nhất đến việc giáo dục đạo đức."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 1.2.3.1, Giáo dục có 4 nghĩa: (1) Nghĩa rộng nhất (nhà trường + gia đình + xã hội); (2) Nghĩa rộng (QTGD toàn vẹn trong nhà trường gồm cả trí dục, đức dục, mỹ dục, thể dục, lao động); (3) Nghĩa tương đối hẹp (chỉ liên quan đến đức dục, mỹ dục, thể dục, giáo dục lao động - hướng nghiệp, đối tượng của Lý luận giáo dục, không bao hàm HĐDH hay giáo dục trí tuệ); (4) Nghĩa hẹp nhất (đồng nghĩa với giáo dục đạo đức)."
+    },
+    {
+      "id": 22,
+      "difficulty": "medium",
+      "question": "Thuật ngữ 'Giáo dưỡng' (được dùng trong các tài liệu Giáo dục học ở Việt Nam từ những năm 60 của thế kỷ XX) được hiểu theo hai nghĩa có liên quan mật thiết nào?",
+      "options": {
+        "A": "Nghĩa thứ nhất là chăm sóc dinh dưỡng thể chất tại gia đình; nghĩa thứ hai là điều trị phục hồi chức năng tại bệnh viện.",
+        "B": "Nghĩa thứ nhất là quá trình nắm vững tri thức, kỹ năng, kỹ xảo có hệ thống (quá trình trau dồi học vấn); nghĩa thứ hai là kết quả của quá trình đó, đồng nghĩa với trình độ học vấn đạt được.",
+        "C": "Nghĩa thứ nhất là giáo dục đạo đức công dân; nghĩa thứ hai là rèn luyện kỷ luật quân đội trong các trường chuyên biệt.",
+        "D": "Nghĩa thứ nhất là hoạt động vui chơi giải trí ngoại khóa; nghĩa thứ hai là hoạt động lao động công ích tại địa phương."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 1.2.3.2, Giáo dưỡng được hiểu theo hai nghĩa: (1) Quá trình nắm vững tri thức, kỹ năng và kỹ xảo có hệ thống của người học bằng con đường học tập (quá trình trau dồi học vấn); (2) Kết quả của quá trình đó, đồng nghĩa với trình độ học vấn (Tiểu học, THCS, THPT, Cao đẳng, Đại học, Thạc sĩ, Tiến sĩ)."
+    },
+    {
+      "id": 23,
+      "difficulty": "easy",
+      "question": "Trong Giáo dục học, phạm trù 'Dạy học' được xem xét là quá trình sư phạm đặc trưng của hệ thống nhà trường với chức năng trội là gì?",
+      "options": {
+        "A": "Tổ chức các hoạt động du lịch nghỉ dưỡng và chăm sóc sức khỏe ban đầu cho học sinh.",
+        "B": "Xây dựng cơ sở hạ tầng trường lớp và huy động nguồn tài trợ tài chính từ các doanh nghiệp.",
+        "C": "Hình thành cho người học hệ thống tri thức khoa học, kỹ năng, kỹ xảo hành động, phát triển trí tuệ và góp phần hoàn thiện nhân cách.",
+        "D": "Thực hiện việc phân loại hộ nghèo và giải quyết các thủ tục hành chính dân sự tại địa phương."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 1.2.3.3, trong Giáo dục học, dạy học được xem xét như là một quá trình sư phạm đặc trưng của hệ thống nhà trường với chức năng trội là hình thành cho người học hệ thống tri thức khoa học, kỹ năng, kỹ xảo hành động, phát triển trí tuệ và góp phần hoàn thiện nhân cách người học."
+    },
+    {
+      "id": 24,
+      "difficulty": "medium",
+      "question": "Trong phương pháp điều tra giáo dục bằng phiếu hỏi (phương pháp Anket), người ta phân biệt 3 loại anket nào dựa trên cấu trúc câu hỏi và phương án trả lời?",
+      "options": {
+        "A": "Anket cá nhân, anket tập thể và anket hội đồng chuyên gia.",
+        "B": "Anket sơ bộ, anket định kỳ và anket tổng kết cuối năm.",
+        "C": "Anket lý thuyết, anket thực nghiệm và anket thống kê toán học.",
+        "D": "Anket đóng (có sẵn phương án trả lời), anket mở (người khảo sát tự ghi câu trả lời) và anket hỗn hợp (kết hợp cả hai loại trên)."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 1.2.4.2 (phần b), người ta phân biệt 3 loại anket: Anket đóng (chỉ có câu hỏi kèm phương án trả lời sẵn để đánh dấu 'x'), Anket mở (chỉ có câu hỏi không kèm phương án sẵn, người khảo sát tự ghi câu trả lời), và Anket hỗn hợp (hỗn hợp cả hai loại câu hỏi trên)."
+    },
+    {
+      "id": 25,
+      "difficulty": "hard",
+      "question": "Để phương pháp thực nghiệm sư phạm đạt hiệu quả khách quan và tách ra được các nhân tố tham gia thực nghiệm, nhà nghiên cứu phải lựa chọn và tác động lên các nhóm khách thể như thế nào?",
+      "options": {
+        "A": "Chọn hai nhóm khách thể (nhóm thực nghiệm và nhóm đối chứng) có số lượng, trình độ và mọi điều kiện tương đương nhau; chỉ tác động tác nhân thực nghiệm vào nhóm thực nghiệm, đo đầu vào và đầu ra khách quan để đối chiếu với giả thuyết.",
+        "B": "Chọn nhóm thực nghiệm gồm toàn học sinh xuất sắc và nhóm đối chứng gồm toàn học sinh yếu kém để đảm bảo điểm số của nhóm thực nghiệm luôn cao hơn nhóm đối chứng.",
+        "C": "Tác động đồng thời các tác nhân thực nghiệm hoàn toàn giống nhau lên cả nhóm thực nghiệm lẫn nhóm đối chứng mà không cần đo lường kết quả đầu vào.",
+        "D": "Không cần xác định giả thuyết khoa học trước mà cứ thay đổi tùy ý điều kiện học tập của học sinh rồi dùng cảm tính cá nhân để nhận xét định tính."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 1.2.4.2 (phần d), để thực nghiệm sư phạm có hiệu quả cần: (1) Xác định giả thuyết khoa học; (2) Chọn hai nhóm khách thể — nhóm thực nghiệm và nhóm đối chứng — có số lượng, trình độ và mọi điều kiện tương đương nhau nhằm khống chế nhân tố không tham gia thực nghiệm; (3) Tác động đến nhóm thực nghiệm bằng tác nhân thực nghiệm, đo đầu vào và đầu ra khách quan; (4) Xử lý kết quả định lượng và định tính, đối chiếu với giả thuyết khoa học."
+    },
+    {
+      "id": 26,
+      "difficulty": "medium",
+      "question": "Khi thu thập thông tin về học sinh, sinh viên, giáo viên thông qua việc phân tích bài kiểm tra, vở ghi chép, sổ điểm, giáo án, báo tường do họ tạo ra, nhà nghiên cứu đang sử dụng phương pháp nghiên cứu thực tiễn nào?",
+      "options": {
+        "A": "Phương pháp lấy ý kiến chuyên gia tại hội thảo khoa học.",
+        "B": "Phương pháp nghiên cứu sản phẩm hoạt động giáo dục.",
+        "C": "Phương pháp điều tra bằng phỏng vấn đường vòng.",
+        "D": "Phương pháp thực nghiệm sư phạm tác động."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 1.2.4.2 (phần g), phương pháp nghiên cứu sản phẩm hoạt động giáo dục là phương pháp khai thác, thu thập thông tin về các đối tượng nghiên cứu (HS, SV, GV, cán bộ quản lý...) thông qua việc phân tích, đánh giá những sản phẩm hoạt động do họ tạo ra (bài làm, vở ghi chép, sổ điểm, giáo án, báo tường, sản phẩm lao động...)."
+    },
+    {
+      "id": 27,
+      "difficulty": "medium",
+      "question": "Theo phân tích ở Mục 1.3 của giáo trình, sự phát triển của nền kinh tế tri thức và cuộc cách mạng công nghiệp lần thứ 4 (CMCN 4.0) đã thúc đẩy xu hướng nổi bật nào trong chương trình giáo dục và hoạt động dạy - học?",
+      "options": {
+        "A": "Tách biệt tuyệt đối các ngành khoa học tự nhiên với các ngành khoa học xã hội và xóa bỏ hoàn toàn việc dạy công nghệ cho sinh viên nhân văn.",
+        "B": "Thu hẹp chương trình đào tạo đại học về một kỹ năng thủ công đơn lẻ, không cần hiểu biết về bối cảnh chính trị hay xã hội.",
+        "C": "Đòi hỏi sự kết hợp đa ngành, đa lĩnh vực để giải quyết vấn đề (dạy và học liên ngành, giáo dục đa ngành: khoa học xã hội và nhân văn kết hợp cùng công nghệ, trí tuệ nhân tạo).",
+        "D": "Quay trở lại phương thức giáo dục truyền khẩu tự phát trong gia đình và bãi bỏ hệ thống giáo dục nhà trường chính quy."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.3 chỉ rõ: CMCN 4.0 đòi hỏi sự kết hợp đa ngành, đa lĩnh vực để giải quyết vấn đề, tức là phải có dạy và học liên ngành (giáo dục đa ngành): sinh viên khoa học cơ bản/ứng dụng cần hiểu bản chất chính trị - xã hội của thế giới, và sinh viên nhân văn/khoa học xã hội cần hiểu nền tảng trí tuệ nhân tạo và cách nó hoạt động."
+    },
+    {
+      "id": 28,
+      "difficulty": "hard",
+      "question": "Chiến lược phát triển Giáo dục 2011–2020 được Thủ tướng Chính phủ phê duyệt theo Quyết định số 711/QĐ-TTg ngày 13/06/2012 đã khẳng định nền giáo dục nước ta được đổi mới căn bản và toàn diện theo 5 hướng nào?",
+      "options": {
+        "A": "Tư nhân hóa, thương mại hóa, tinh giản hóa, địa phương hóa và tự phát hóa.",
+        "B": "Hàn lâm hóa, lý thuyết hóa, đồng phục hóa, tập trung hóa và khép kín hóa.",
+        "C": "Phổ cập hóa, miễn phí hóa, hành chính hóa, công nghiệp hóa và đô thị hóa.",
+        "D": "Chuẩn hóa, hiện đại hóa, xã hội hóa, dân chủ hóa và hội nhập quốc tế."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 1.3, Chiến lược phát triển Giáo dục 2011–2020 (Quyết định 711/QĐ-TTg ngày 13/06/2012) khẳng định: đổi mới căn bản và toàn diện nền giáo dục nước ta theo hướng chuẩn hóa, hiện đại hóa, xã hội hóa, dân chủ hóa và hội nhập quốc tế."
+    },
+    {
+      "id": 29,
+      "difficulty": "hard",
+      "question": "Chương trình giáo dục phổ thông 2018 (ban hành kèm theo Thông tư số 32/2018/TT-BGDĐT ngày 26/12/2018) với định hướng phát triển phẩm chất và năng lực người học có ba yếu tố nổi bật nào?",
+      "options": {
+        "A": "Dạy học phân hóa, dạy học tích hợp và dạy học thông qua hoạt động tích cực của người học.",
+        "B": "Dạy học đọc chép, dạy học đồng loạt và dạy học lấy việc truyền thụ kiến thức hàn lâm của giáo viên làm trung tâm.",
+        "C": "Dạy học tách rời từng môn độc lập, dạy học ghi nhớ máy móc và đánh giá chỉ dựa vào một kỳ thi cuối cấp duy nhất.",
+        "D": "Dạy học hoàn toàn trực tuyến không cần giáo viên, dạy học tự phát và xóa bỏ toàn bộ sách giáo khoa các cấp."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 1.3, Chương trình GDPT 2018 (Thông tư số 32/2018/TT-BGDĐT ngày 26/12/2018) với định hướng phát triển phẩm chất và năng lực người học có 3 yếu tố nổi bật: Dạy học phân hóa, dạy học tích hợp và dạy học thông qua hoạt động tích cực của người học."
+    },
+    {
+      "id": 30,
+      "difficulty": "hard",
+      "question": "Theo Kế hoạch thực hiện mục tiêu phát triển bền vững lĩnh vực giáo dục và đào tạo đến năm 2025 và định hướng đến năm 2030 (Quyết định số 2161/QĐ-BGDĐT ngày 26/06/2017), chỉ tiêu về hoàn thành giáo dục miễn phí, công bằng, có chất lượng đến năm 2030 được xác định cho những cấp học nào?",
+      "options": {
+        "A": "Hoàn thành giáo dục đại học và sau đại học (thạc sĩ, tiến sĩ) miễn phí hoàn toàn cho mọi công dân.",
+        "B": "Đảm bảo tất cả các trẻ em gái và trai hoàn thành giáo dục tiểu học, giáo dục trung học cơ sở miễn phí, công bằng, có chất lượng.",
+        "C": "Chỉ miễn phí cho bậc giáo dục mầm non, còn bậc tiểu học và trung học cơ sở hoàn toàn thu học phí theo cơ chế thị trường.",
+        "D": "Đảm bảo hoàn thành giáo dục trung học phổ thông và cao đẳng nghề miễn phí bắt buộc cho mọi người trưởng thành."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 1.3, mục tiêu cụ thể đầu tiên đến năm 2030 trong Quyết định số 2161/QĐ-BGDĐT ngày 26/06/2017 là: 'Đảm bảo tất cả các trẻ em gái và trai hoàn thành giáo dục tiểu học, giáo dục trung học cơ sở miễn phí, công bằng, có chất lượng'."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Tại sao nói giáo dục là một hiện tượng xã hội đặc biệt và là nhu cầu tất yếu khách quan của xã hội loài người? Phân biệt phương thức giáo dục xã hội và phương thức giáo dục nhà trường.",
+      "expected_answer": "• Nguồn gốc tất yếu khách quan: Trong quá trình lao động và nhận thức thế giới, loài người tích lũy được kho tàng kinh nghiệm xã hội phong phú. Để kinh nghiệm đó không bị mất đi mà được bảo tồn, phát triển, đồng thời chuẩn bị cho thế hệ sau có đủ năng lực bước vào cuộc sống và lao động sản xuất, xã hội tất yếu phải truyền thụ và tiếp nhận kinh nghiệm xã hội từ thế hệ trước cho thế hệ sau. Nhờ đó thế hệ sau luôn phát triển cao hơn thế hệ trước. Giáo dục là hoạt động có ý thức, chỉ có ở xã hội loài người nên là một hiện tượng xã hội đặc biệt.\n• Phân biệt hai phương thức:\n  - Giáo dục xã hội: Thực hiện giản đơn, trực tiếp ngay trong lao động và cuộc sống bởi người lớn ở mọi nơi, mọi lúc.\n  - Giáo dục nhà trường: Chuyển giao kinh nghiệm xã hội gián tiếp theo phương thức nhà trường chuyên biệt bởi đội ngũ nhà giáo, mang tính khoa học và toàn diện (ra đời gắn với nền kinh tế công nghiệp châu Âu thế kỷ XVI–XVII nhờ công lao của J.A. Komenski), ngày càng chuyên biệt hóa và đa dạng hóa."
+    },
+    {
+      "id": 2,
+      "question": "Trình bày 3 tính chất cơ bản của giáo dục và giải thích vì sao trong quá trình đổi mới giáo dục cần tránh cả hai thái cực 'phủ nhận sạch trơn' lẫn 'hoài cổ, bảo thủ'.",
+      "expected_answer": "• Ba tính chất cơ bản của giáo dục (với tư cách là bộ phận của kiến trúc thượng tầng):\n  1. Tính lịch sử - xã hội: Trình độ phát triển của giáo dục phản ánh đặc điểm phát triển kinh tế, chính trị, văn hóa, KH-CN của từng giai đoạn lịch sử (ví dụ giáo dục phong kiến khác giáo dục văn minh công nghiệp). Do đó, cải cách, đổi mới giáo dục là quy luật tất yếu khách quan.\n  2. Tính giai cấp: Giáo dục là công cụ đấu tranh giai cấp, truyền bá hệ tư tưởng và là đặc quyền của giai cấp cầm quyền trong xã hội có giai cấp đối kháng (thời Pháp thuộc hơn 95% người Việt Nam mù chữ). Không có giáo dục trung lập đứng ngoài giai cấp. Giáo dục Việt Nam hiện nay dưới sự lãnh đạo của Đảng Cộng sản Việt Nam hướng tới dân chủ, bình đẳng 'cho tất cả mọi người, bởi tất cả mọi người' (Education for All – All for Education).\n  3. Tính kế thừa: Phát triển giáo dục phải tiếp nhận có chọn lọc, có phê phán yếu tố tích cực của giáo dục cũ kết hợp tinh hoa hiện đại của nhân loại.\n• Lý do tránh 2 thái cực: Phủ nhận sạch trơn ('đào tận gốc, trốc tận rễ') sẽ làm mất tiền đề phát triển và các giá trị truyền thống trường tồn; ngược lại, hoài cổ bảo thủ sẽ làm nền giáo dục trì trệ, kìm hãm sự sáng tạo và đột phá."
+    },
+    {
+      "id": 3,
+      "question": "Phân tích chức năng kinh tế - sản xuất của giáo dục và làm rõ vai trò quyết định của nguồn nhân lực trong 5 nguồn lực phát triển kinh tế.",
+      "expected_answer": "• Năm nguồn lực cơ bản phát triển kinh tế gồm: (1) Nguồn nhân lực dồi dào, đồng bộ, chất lượng cao; (2) Công nghệ hiện đại; (3) Nguồn vốn đủ mạnh; (4) Thị trường rộng mở, ổn định; (5) Tài nguyên phong phú (thiên nhiên và nhân văn). Trong đó, nguồn nhân lực giữ vai trò quyết định.\n• Biểu hiện chức năng kinh tế - sản xuất của giáo dục:\n  1. Trực tiếp đào tạo đội ngũ lao động đủ về số lượng, đồng bộ về cơ cấu, có trình độ cao để thay thế lao động hết tuổi/đã mất và bổ sung, nâng cao nhân lực cho mở rộng sản xuất, CNH - HĐH.\n  2. Làm thay đổi nhu cầu, thị hiếu tiêu dùng, tăng sức mua và nhu cầu đầu tư học tập, hình thành loại hình kinh tế đặc thù là 'kinh tế giáo dục'.\n  3. Đào tạo chủ thể sáng tạo và ứng dụng KH-CN, làm cho khoa học - công nghệ trở thành lực lượng sản xuất trực tiếp.\n  4. Gián tiếp nâng cao hiệu quả sử dụng nguồn vốn, phát triển thị trường và khai thác tài nguyên bền vững."
+    },
+    {
+      "id": 4,
+      "question": "Khái quát các mốc lịch sử chủ yếu trong sự ra đời và phát triển của Giáo dục học từ thời Cổ đại đến giữa thế kỷ XIX.",
+      "expected_answer": "• Thời Cổ đại: Tư tưởng giáo dục nằm trong các hệ thống triết học ở phương Tây (Sokrates, Democritos, Platon, Aristotle) và phương Đông (Khổng Tử, Tuân Tử, Mạnh Tử).\n• Thời Trung cổ & Phục hưng: Trung cổ chịu sự chi phối của thần học nhà thờ. Thời Phục hưng và CNXH không tưởng (T. More, T. Campanella) đòi giải phóng giáo dục khỏi thần học, phát triển toàn diện con người.\n• Thế kỷ XVII – Tách khỏi triết học và trở thành khoa học độc lập: Năm 1623, F. Bacon lần đầu tách Giáo dục học khỏi triết học ('hướng dẫn đọc sách'). J.A. Komenski (1592–1670) với tác phẩm 'Phép giảng dạy vĩ đại' chính thức đưa Giáo dục học thành khoa học độc lập (đề xuất tiếp cận thích ứng tự nhiên, nguyên tắc trực quan là 'nguyên tắc vàng ngọc', hình thức dạy học bài lên lớp).\n• Thế kỷ XVII – XIX: Phát triển bởi J. Locke ('Vài suy nghĩ về giáo dục', 1693), J.J. Rousseau ('Émile hay là Về giáo dục') và D. Diderot, J.G. Pestalozzi (thống nhất dạy học với lao động sản xuất), F.A.W. Diesterweg (kết hợp thích ứng tự nhiên với thích ứng văn hóa), K.D. Ushinski (đặt nền móng Giáo dục học Nga, gắn lý luận với thực tiễn).\n• Giữa thế kỷ XIX: Học thuyết K. Marx, F. Engels và V.I. Lênin đặt cơ sở phương pháp luận duy vật biện chứng và lịch sử vững chắc cho Giáo dục học."
+    },
+    {
+      "id": 5,
+      "question": "Trình bày khái niệm Quá trình giáo dục tổng thể, kể tên 5 quá trình giáo dục bộ phận và 6 thành tố cấu trúc của nó.",
+      "expected_answer": "• Khái niệm: Quá trình giáo dục tổng thể (quá trình sư phạm toàn vẹn) là đối tượng nghiên cứu của Giáo dục học; là quá trình bao gồm nhiều QTGD bộ phận vận động trong sự thống nhất biện chứng, trong đó dưới tác động chủ đạo của nhà giáo dục (giáo viên), người được giáo dục (học sinh) tự giác, tích cực, chủ động thực hiện các hoạt động độc lập nhằm chiếm lĩnh kinh nghiệm xã hội, hình thành và phát triển toàn vẹn nhân cách phù hợp yêu cầu xã hội.\n• 5 QTGD bộ phận: (1) QTGD trí tuệ (trí dục); (2) QTGD đạo đức (đức dục); (3) QTGD thẩm mỹ (mỹ dục); (4) QTGD thể chất (thể dục); (5) QTGD lao động, hướng nghiệp.\n• 6 thành tố cấu trúc: (1) Mục đích, nhiệm vụ giáo dục ('đơn đặt hàng' xã hội, định hướng và làm chuẩn đánh giá); (2) Nội dung giáo dục (chương trình, SGK); (3) Phương pháp và phương tiện giáo dục; (4) Nhà giáo dục (vai trò chủ đạo); (5) Người được giáo dục (vừa là đối tượng vừa là chủ thể, trong đó vai trò chủ thể là cơ bản nhất); (6) Kết quả giáo dục (phẩm chất và năng lực đạt được)."
+    },
+    {
+      "id": 6,
+      "question": "Phân biệt 3 phạm trù cơ bản của Giáo dục học: Giáo dục (4 cấp độ nghĩa), Giáo dưỡng (2 nghĩa) và Dạy học.",
+      "expected_answer": "• Phạm trù Giáo dục (4 cấp độ nghĩa):\n  1. Nghĩa rộng nhất: Quá trình hình thành nhân cách dưới ảnh hưởng có ý thức của cả nhà trường, gia đình và xã hội.\n  2. Nghĩa rộng: Hệ thống tác động có mục đích, khoa học trong nhà trường bởi các nhà sư phạm chuyên trách (gồm trí dục, đức dục, mỹ dục, thể dục, lao động) -> đồng nghĩa với QTGD toàn vẹn.\n  3. Nghĩa tương đối hẹp: Chỉ liên quan đến đức dục, mỹ dục, thể dục, giáo dục lao động – hướng nghiệp (đối tượng của Lý luận giáo dục), không bao hàm dạy học hay trí dục.\n  4. Nghĩa hẹp nhất: Đồng nghĩa với giáo dục đạo đức.\n• Phạm trù Giáo dưỡng (dùng ở Việt Nam từ những năm 1960, có 2 nghĩa): (1) Quá trình nắm vững tri thức, kỹ năng, kỹ xảo có hệ thống bằng con đường học tập (quá trình trau dồi học vấn); (2) Kết quả của quá trình đó, đồng nghĩa với trình độ học vấn (Tiểu học, THCS, THPT, CĐ, ĐH, Thạc sĩ, Tiến sĩ).\n• Phạm trù Dạy học: Quá trình sư phạm đặc trưng của nhà trường, là con đường cơ bản nhất để thực hiện nhiệm vụ giáo dưỡng, phát triển và giáo dục, với chức năng trội là hình thành hệ thống tri thức khoa học, kỹ năng, kỹ xảo và phát triển trí tuệ dưới tác động chủ đạo của GV và hoạt động tự giác, độc lập của HS."
+    },
+    {
+      "id": 7,
+      "question": "Hệ thống hóa các nhóm phương pháp nghiên cứu của Giáo dục học và làm rõ các loại hình trong phương pháp điều tra giáo dục và thực nghiệm sư phạm.",
+      "expected_answer": "• Ba nhóm phương pháp nghiên cứu Giáo dục học:\n  1. Phương pháp nghiên cứu lý luận: Phân tích, tổng hợp, phân loại, hệ thống hóa tài liệu lý luận qua 4 bước (lập danh mục -> đọc và ghi chép -> phân tích, đánh giá -> khái quát hóa thành tổng quan và cơ sở lý luận).\n  2. Các phương pháp nghiên cứu thực tiễn (6 phương pháp): (a) Quan sát sư phạm (5 cặp phân loại, 3 yêu cầu); (b) Điều tra giáo dục; (c) Tổng kết kinh nghiệm giáo dục; (d) Thực nghiệm sư phạm; (e) Lấy ý kiến chuyên gia; (g) Nghiên cứu sản phẩm hoạt động giáo dục.\n  3. Phương pháp thống kê toán học: Ứng dụng toán thống kê và phần mềm chuyên biệt (Excel, SPSS) xử lý số liệu định lượng.\n• Chi tiết Điều tra giáo dục và Thực nghiệm sư phạm:\n  - Điều tra giáo dục tiến hành bằng phiếu hỏi Anket (3 loại: Anket đóng, Anket mở, Anket hỗn hợp) và bằng Phỏng vấn (câu hỏi trực tiếp và câu hỏi gián tiếp/đường vòng).\n  - Thực nghiệm sư phạm gồm 5 loại (thăm dò, tác động, kiểm tra, ứng dụng, triển khai), tiến hành trên 2 nhóm tương đương (nhóm thực nghiệm và nhóm đối chứng) trong điều kiện được khống chế."
+    },
+    {
+      "id": 8,
+      "question": "Nêu tác động của CMCN 4.0 đến xu thế giáo dục hiện đại và tóm tắt nội dung cốt lõi của Chương trình GDPT 2018 (Thông tư 32/2018/TT-BGDĐT) cùng Kế hoạch phát triển bền vững đến năm 2030 (Quyết định 2161/QĐ-BGDĐT).",
+      "expected_answer": "• Tác động của CMCN 4.0: Thúc đẩy giáo dục đa ngành, dạy và học liên ngành (kết hợp khoa học cơ bản, công nghệ, trí tuệ nhân tạo với khoa học xã hội và nhân văn để giải quyết vấn đề).\n• Chương trình GDPT 2018 (Thông tư số 32/2018/TT-BGDĐT ngày 26/12/2018, thực hiện NQ 29-NQ/TW, NQ 88/2014/QH13, QĐ 404/QĐ-TTg, NQ 51/2017/QH14): Định hướng phát triển phẩm chất và năng lực người học với 3 yếu tố nổi bật: (1) Dạy học phân hóa; (2) Dạy học tích hợp; (3) Dạy học thông qua hoạt động tích cực của người học.\n• Kế hoạch phát triển bền vững đến 2025 và định hướng đến 2030 (Quyết định số 2161/QĐ-BGDĐT ngày 26/06/2017): Mục tiêu chung là xây dựng nền giáo dục có chất lượng, công bằng, toàn diện và thúc đẩy cơ hội học tập suốt đời cho mọi người; cụ thể hóa bằng 6 mục tiêu đến năm 2030 (hoàn thành tiểu học và THCS miễn phí; mầm non chất lượng; tiếp cận GD sau phổ thông; xóa bất bình đẳng giới và hỗ trợ nhóm yếu thế; xóa mù chữ và biết tính toán; trang bị kỹ năng phát triển bền vững & công dân toàn cầu) và 7 nhiệm vụ thực hiện."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phân Tích Các Tính Chất Cơ Bản và Chức Năng Xã Hội Của Giáo Dục — Liên Hệ Thực Tiễn Đổi Mới Giáo Dục Việt Nam",
+      "problem": "Với tư cách là một hiện tượng xã hội đặc biệt thuộc kiến trúc thượng tầng, giáo dục chịu sự quy định của xã hội đồng thời tác động mạnh mẽ trở lại sự phát triển xã hội.\nDựa trên Giáo trình Giáo dục học 1, hãy phân tích toàn diện:\n1. Nguồn gốc ra đời của giáo dục từ nhu cầu tất yếu khách quan của xã hội và bước chuyển từ giáo dục xã hội sang giáo dục nhà trường.\n2. Ba tính chất cơ bản của giáo dục (tính lịch sử - xã hội, tính giai cấp, tính kế thừa) và các kết luận phương pháp luận rút ra cho công cuộc đổi mới giáo dục ở Việt Nam.\n3. Ba chức năng xã hội của giáo dục (kinh tế - sản xuất, chính trị - xã hội, tư tưởng - văn hóa) và chứng minh luận điểm chiến lược: 'Đầu tư cho giáo dục là đầu tư cho sự phát triển, giáo dục là quốc sách hàng đầu'.",
+      "solution_steps": [
+        "Bước 1: Luận giải nguồn gốc xã hội và sự tiến hóa phương thức giáo dục\n- Xuất phát từ hoạt động lao động và nhận thức thế giới khách quan, loài người tích lũy kho tàng kinh nghiệm xã hội và nảy sinh nhu cầu tất yếu phải truyền thụ và tiếp nhận kinh nghiệm đó từ thế hệ trước cho thế hệ sau để bảo tồn văn minh và chuẩn bị năng lực cho thế hệ trẻ bước vào cuộc sống, làm cho thế hệ sau luôn phát triển cao hơn thế hệ trước.\n- Giáo dục phát triển từ phương thức giáo dục xã hội (trực tiếp, giản đơn, tự phát trong lao động) sang phương thức giáo dục nhà trường (gián tiếp, chuyên biệt bởi đội ngũ nhà giáo, khoa học và đồng loạt), đánh dấu bằng cuộc cách mạng giáo dục thế kỷ XVI–XVII ở châu Âu gắn với nền kinh tế công nghiệp và nhà giáo dục vĩ đại người Séc Jan Amos Komenski (1592–1670).",
+        "Bước 2: Phân tích 3 tính chất cơ bản của giáo dục và liên hệ Việt Nam\n- *Tính lịch sử - xã hội:* Trình độ giáo dục phản ánh trình độ kinh tế, chính trị, văn hóa, KH-CN của từng thời kỳ (nền giáo dục phong kiến nông nghiệp lạc hậu khác hẳn nền giáo dục văn minh công nghiệp). Hệ quả: Cải cách, đổi mới giáo dục là một quy luật tất yếu khách quan.\n- *Tính giai cấp:* Giáo dục là công cụ đấu tranh giai cấp để truyền bá hệ tư tưởng và bảo vệ địa vị cầm quyền; trong xã hội có giai cấp đối kháng, giáo dục là đặc quyền của giai cấp thống trị (thời Pháp thuộc hơn 95% người Việt Nam mù chữ), không tồn tại nền giáo dục trung lập hay đứng ngoài giai cấp. Nền giáo dục Việt Nam hiện nay đặt dưới sự lãnh đạo toàn diện của Đảng Cộng sản Việt Nam, đề cao tính Đảng, lòng yêu nước, ý thức chủ quyền biên giới, biển đảo và hướng tới nền giáo dục dân chủ, bình đẳng 'cho tất cả mọi người, bởi tất cả mọi người' (Education for All – All for Education).\n- *Tính kế thừa:* Giáo dục phát triển liên tục bằng cách tiếp nhận có chọn lọc, có phê phán yếu tố tích cực của giáo dục cũ kết hợp tinh hoa nhân loại. Phải phê phán hai thái cực sai lầm: phủ nhận sạch trơn ('đào tận gốc, trốc tận rễ') và tư tưởng hoài cổ, bảo thủ trì trệ. Đổi mới CTGDPT 2018 tại Việt Nam vừa kế thừa hơn 75 năm giáo dục cách mạng và hơn 4000 năm văn hiến dân tộc, vừa tiếp thu thành tựu giáo dục và KH-CN hiện đại thế giới.",
+        "Bước 3: Phân tích chức năng kinh tế - sản xuất của giáo dục\n- Trong 5 nguồn lực phát triển kinh tế (nguồn nhân lực, công nghệ hiện đại, nguồn vốn, thị trường, tài nguyên), nguồn nhân lực giữ vai trò quyết định.\n- Giáo dục trực tiếp đào tạo đội ngũ lao động đủ số lượng, đồng bộ cơ cấu, chất lượng cao (thay thế lao động hết tuổi và bổ sung cho mở rộng sản xuất, CNH - HĐH); kích cầu tiêu dùng và hình thành 'kinh tế giáo dục'; đào tạo chủ thể KH-CN làm cho KH-CN trở thành lực lượng sản xuất trực tiếp; và gián tiếp nâng cao hiệu quả sử dụng vốn, thị trường, tài nguyên.",
+        "Bước 4: Phân tích chức năng chính trị - xã hội và chức năng tư tưởng - văn hóa\n- *Chính trị - xã hội:* Tuyên truyền đường lối của Đảng, pháp luật của Nhà nước, củng cố ổn định hệ thống chính trị (không có giáo dục phi chính trị); làm biến đổi cấu trúc và vị thế xã hội theo hướng công bằng, dân chủ; góp phần nâng cao dân trí, xóa đói giảm nghèo, phòng chống tệ nạn xã hội (ma túy, mại dâm, bạo lực học đường/gia đình), bảo vệ môi trường và thực hiện các tiêu chí xây dựng nông thôn mới.\n- *Tư tưởng - văn hóa:* Xây dựng thế giới quan khoa học và bản lĩnh chống lại các luận điệu phản động; bảo tồn và phát triển văn hóa vì 'nơi bảo tồn văn hóa tốt nhất là trong mỗi con người', nâng cao năng lực cảm thụ và sáng tạo văn hóa mới, xóa bỏ hủ tục, xây dựng nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc.\n- *Kết luận chiến lược:* Vì mọi sức mạnh phát triển xã hội đều bắt nguồn từ nguồn lực con người do giáo dục tạo ra, nên 'Đầu tư cho giáo dục là đầu tư cho sự phát triển' và giáo dục phải trở thành quốc sách hàng đầu."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lịch Sử Hình Thành Giáo Dục Học Và Phân Tích Cấu Trúc Hệ Thống Của Quá Trình Giáo Dục Tổng Thể",
+      "problem": "Giáo dục học đã trải qua một chặng đường lịch sử lâu dài để tách khỏi triết học và xác lập đối tượng nghiên cứu riêng là Quá trình giáo dục tổng thể (quá trình sư phạm toàn vẹn).\nHãy trình bày và phân tích:\n1. Tiến trình lịch sử hình thành và phát triển của Giáo dục học với tư cách là một khoa học độc lập.\n2. Khái niệm Quá trình giáo dục tổng thể và mối quan hệ giữa 5 quá trình giáo dục bộ phận.\n3. Phân tích sâu 6 thành tố cấu trúc của Quá trình giáo dục tổng thể cùng mối quan hệ hai mặt giữa quá trình này với môi trường kinh tế - xã hội và khoa học - công nghệ.",
+      "solution_steps": [
+        "Bước 1: Hệ thống hóa lịch sử hình thành và phát triển của Giáo dục học\n- Thời Cổ đại: Các tư tưởng giáo dục nằm trong các hệ thống triết học phương Tây (Sokrates 470–399 TCN, Democritos 460–370 TCN, Platon 427–347 TCN, Aristotle 384–322 TCN) và phương Đông (Khổng Tử 551–479 TCN, Tuân Tử, Mạnh Tử).\n- Thời Trung cổ và Phục hưng: Trung cổ bị chi phối bởi thần học nhà thờ. Thời Phục hưng và CNXH không tưởng (T. More 1478–1535, T. Campanella 1568–1639) đấu tranh giải phóng giáo dục khỏi thần học, đề cao chủ nghĩa nhân văn.\n- Thế kỷ XVII – Khai sinh khoa học độc lập: Năm 1623, F. Bacon (1561–1626) tách Giáo dục học khỏi triết học. Nhà giáo dục vĩ đại người Séc J.A. Komenski (1592–1670) với kiệt tác 'Phép giảng dạy vĩ đại' chính thức đưa Giáo dục học thành khoa học độc lập (học vấn rộng rãi cho mọi trẻ em, tiếp cận thích ứng tự nhiên, nguyên tắc trực quan là 'nguyên tắc vàng ngọc', hệ thống bài học lên lớp).\n- Thế kỷ XVII–XIX và bước ngoặt Mác - Lênin: Kế thừa và phát triển bởi J. Locke ('Vài suy nghĩ về giáo dục', 1693), J.J. Rousseau ('Émile hay là Về giáo dục') và D. Diderot, J.G. Pestalozzi (thống nhất dạy học với lao động sản xuất), F.A.W. Diesterweg (kết hợp nguyên tắc thích ứng tự nhiên với thích ứng văn hóa), K.D. Ushinski (đặt nền móng Giáo dục học Nga, thống nhất lý luận và thực tiễn). Giữa thế kỷ XIX, học thuyết K. Marx, F. Engels, V.I. Lênin đặt cơ sở phương pháp luận duy vật biện chứng và lịch sử vững chắc.",
+        "Bước 2: Làm rõ đối tượng nghiên cứu — Quá trình giáo dục tổng thể và 5 QTGD bộ phận\n- Đối tượng nghiên cứu của Giáo dục học là QTGD tổng thể (quá trình sư phạm toàn vẹn) diễn ra trong hệ thống nhà trường (từ Mầm non đến Đại học).\n- Dưới tác động chủ đạo của nhà giáo dục, người được giáo dục tự giác, tích cực, chủ động thực hiện các hoạt động độc lập nhằm chiếm lĩnh kinh nghiệm xã hội và phát triển toàn vẹn nhân cách.\n- QTGD tổng thể (vĩ mô) bao gồm 5 QTGD bộ phận (vi mô) thống nhất biện chứng và có tính độc lập tương đối: (1) QTGD trí tuệ (trí dục); (2) QTGD đạo đức (đức dục); (3) QTGD thẩm mỹ (mỹ dục); (4) QTGD thể chất (thể dục); (5) QTGD lao động, hướng nghiệp.",
+        "Bước 3: Phân tích 6 thành tố cấu trúc của Quá trình giáo dục tổng thể\n- (1) *Mục đích, nhiệm vụ giáo dục:* Là 'đơn đặt hàng' của xã hội về mẫu nhân cách người lao động; là nhân tố hàng đầu định hướng toàn bộ QTGD và là chuẩn đo lường, đánh giá chất lượng giáo dục.\n- (2) *Nội dung giáo dục:* Hệ thống kinh nghiệm và giá trị xã hội (nhân văn, đạo đức, văn hóa, KH-CN, nghề nghiệp) phản ánh trong chương trình và SGK.\n- (3) *Phương pháp và phương tiện giáo dục:* Phương pháp là cách thức tương tác gồm hai mặt (phương pháp sư phạm chủ đạo của thầy và phương pháp tự điều khiển chủ động của trò); gắn liền biện chứng với hệ thống công cụ lao động sư phạm (phương tiện).\n- (4) *Nhà giáo dục (giáo viên) và tập thể sư phạm:* Chủ thể sư phạm được đào tạo chuyên biệt, giữ vai trò chủ đạo (định hướng, tổ chức, điều khiển, điều chỉnh).\n- (5) *Người được giáo dục (học sinh) và tập thể:* Vừa là đối tượng giáo dục, vừa là chủ thể hoạt động, trong đó vai trò chủ thể là cơ bản nhất (cơ sở của quan điểm 'dạy học lấy người học làm trung tâm' - Learner centred teaching).\n- (6) *Kết quả giáo dục:* Trình độ phát triển nhân cách (hệ thống phẩm chất và năng lực) đạt được sau QTGD, tồn tại dưới dạng tâm lý nên đòi hỏi đánh giá công phu.",
+        "Bước 4: Phân tích mối quan hệ hai mặt với môi trường kinh tế - xã hội và khoa học - công nghệ\n- Chiều thứ nhất (Giáo dục tác động xã hội): QTGD đào tạo công dân và nhân lực thúc đẩy KT-XH phát triển (GD phổ thông nâng cao dân trí, tạo tiền đề nhân lực và nhân tài; GD nghề nghiệp và đại học đào tạo nhân lực chuyên sâu chất lượng cao).\n- Chiều thứ hai (Xã hội quy định giáo dục): Môi trường KT-XH và KH-CN đặt ra yêu cầu mới, điều kiện mới cũng như những thời cơ và thách thức buộc QTGD phải vận động, đổi mới phù hợp với quy luật khách quan."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Phân Biệt Ba Phạm Trù Cơ Bản Của Giáo Dục Học Và Thiết Kế Quy Trình Vận Dụng Các Phương Pháp Nghiên Cứu Giáo Dục Học",
+      "problem": "Để nghiên cứu và tổ chức hiệu quả các hoạt động sư phạm trong nhà trường, nhà giáo dục phải nắm vững hệ thống phạm trù cơ bản cũng như hệ thống phương pháp nghiên cứu của Giáo dục học.\nHãy thực hiện các yêu cầu sau:\n1. Phân tích và phân biệt 3 phạm trù cơ bản của Giáo dục học: Giáo dục (theo 4 cấp độ nghĩa), Giáo dưỡng (theo 2 nghĩa) và Dạy học.\n2. Trình bày hệ thống 3 nhóm phương pháp nghiên cứu của Giáo dục học (Nghiên cứu lý luận, 6 phương pháp nghiên cứu thực tiễn, Thống kê toán học).\n3. Thiết kế một quy trình phối hợp các phương pháp trên (đặc biệt là điều tra bằng Anket và thực nghiệm sư phạm có nhóm đối chứng) để nghiên cứu một đề tài cải tiến phương pháp dạy học ở trường phổ thông.",
+      "solution_steps": [
+        "Bước 1: Phân tích và đối sánh 3 phạm trù cơ bản (Giáo dục, Giáo dưỡng, Dạy học)\n- *Giáo dục (4 cấp độ nghĩa):* (1) Nghĩa rộng nhất: quá trình hình thành nhân cách dưới ảnh hưởng có ý thức của cả nhà trường, gia đình và xã hội; (2) Nghĩa rộng: hệ thống tác động có mục đích, khoa học trong nhà trường bởi các nhà sư phạm chuyên trách (gồm trí dục, đức dục, mỹ dục, thể dục, lao động), đồng nghĩa với QTGD toàn vẹn; (3) Nghĩa tương đối hẹp: công tác giáo dục trong nhà trường chỉ gồm đức dục, mỹ dục, thể dục, lao động – hướng nghiệp (đối tượng của Lý luận giáo dục), không bao hàm dạy học/trí dục; (4) Nghĩa hẹp nhất: giáo dục đạo đức.\n- *Giáo dưỡng (2 nghĩa, dùng ở Việt Nam từ những năm 1960):* (1) Quá trình nắm vững hệ thống tri thức, kỹ năng, kỹ xảo bằng con đường học tập trong nhà trường hoặc tự học, học online (quá trình trau dồi học vấn); (2) Kết quả của quá trình đó, đồng nghĩa với trình độ học vấn (Tiểu học, THCS, THPT, Cao đẳng, Đại học, Thạc sĩ, Tiến sĩ).\n- *Dạy học:* Quá trình sư phạm đặc trưng của nhà trường, là con đường cơ bản nhất để thực hiện mục đích giáo dưỡng, phát triển và giáo dục, với chức năng trội là hình thành hệ thống tri thức khoa học, kỹ năng, kỹ xảo và phát triển trí tuệ (đặc biệt là tư duy sáng tạo).",
+        "Bước 2: Hệ thống hóa Phương pháp nghiên cứu lý luận và Phương pháp thống kê toán học\n- *Phương pháp nghiên cứu lý luận:* Phân tích, tổng hợp, phân loại, hệ thống hóa tài liệu lý luận (sách, luận án, luận văn, bài báo khoa học) qua 4 bước: lập danh mục tài liệu có sàng lọc -> đọc và ghi chép bằng phiếu/sơ đồ/bảng -> phân tích, đánh giá khách quan -> khái quát hóa thành tổng quan lịch sử vấn đề và cơ sở lý luận.\n- *Phương pháp thống kê toán học:* Ứng dụng toán thống kê và các phần mềm chuyên biệt (Excel, SPSS...) để xác lập mẫu điều tra, xử lý và đánh giá định lượng kết quả điều tra hoặc thực nghiệm, đảm bảo độ tin cậy và sức thuyết phục.",
+        "Bước 3: Phân tích 6 phương pháp nghiên cứu thực tiễn\n- (1) *Quan sát sư phạm:* Sử dụng có mục đích, kế hoạch các giác quan và phương tiện kỹ thuật để ghi nhận hiện tượng GD (5 cặp phân loại: khía cạnh – toàn diện, lâu dài – thời gian nhất định, tự nhiên – bố trí, thăm dò – đi sâu, phát hiện – kiểm nghiệm; 3 yêu cầu: tính tự nhiên, hiểu biết lý luận - thực tiễn, tài liệu chính xác - đa dạng).\n- (2) *Điều tra giáo dục:* Bằng phiếu hỏi Anket (Anket đóng, Anket mở, Anket hỗn hợp; câu hỏi phải rõ ràng, hiểu như nhau và kiểm tra lẫn nhau) và bằng Phỏng vấn (câu hỏi trực tiếp và câu hỏi gián tiếp/đường vòng).\n- (3) *Tổng kết kinh nghiệm giáo dục:* Chọn điển hình, khai thác từ nhiều nguồn, sàng lọc khách quan và rút ra bài học lý luận - thực tiễn.\n- (4) *Thực nghiệm sư phạm:* Chủ động tác động trong điều kiện được khống chế (5 loại: thăm dò, tác động, kiểm tra, ứng dụng, triển khai) trên 2 nhóm tương đương (nhóm thực nghiệm và nhóm đối chứng).\n- (5) *Lấy ý kiến chuyên gia:* Khai thác 'chất xám' của các chuyên gia trình độ cao, trung thực khoa học qua hội thảo hoặc bản viết.\n- (6) *Nghiên cứu sản phẩm hoạt động giáo dục:* Phân tích bài làm, vở ghi, sổ điểm, giáo án, báo tường... dưới nhiều góc độ.",
+        "Bước 4: Vận dụng phối hợp các phương pháp vào một đề tài nghiên cứu cụ thể\n- Giai đoạn 1 (Xây dựng cơ sở lý luận): Dùng phương pháp nghiên cứu lý luận để tổng quan lịch sử vấn đề và xác lập khung lý thuyết.\n- Giai đoạn 2 (Khảo sát thực trạng): Phối hợp điều tra bằng Anket hỗn hợp, phỏng vấn, quan sát sư phạm tự nhiên và nghiên cứu sản phẩm hoạt động (giáo án, bài kiểm tra) để đánh giá thực trạng và nguyên nhân.\n- Giai đoạn 3 (Đề xuất giải pháp & Thực nghiệm sư phạm): Xin ý kiến chuyên gia về giải pháp mới; chọn 2 lớp tương đương làm nhóm thực nghiệm và nhóm đối chứng, đo kiểm tra đầu vào, tác động phương pháp mới ở nhóm thực nghiệm, đo kiểm tra đầu ra và dùng phần mềm Excel/SPSS xử lý thống kê toán học để kiểm chứng giả thuyết khoa học."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Tác Động Của Cách Mạng Công Nghiệp 4.0 Và Định Hướng Phát Triển Giáo Dục Việt Nam Đến Năm 2030, Tầm Nhìn 2045",
+      "problem": "Sự bùng nổ của nền kinh tế tri thức và cuộc cách mạng công nghiệp lần thứ 4 (CMCN 4.0) đã đặt giáo dục thế giới và Việt Nam trước những cơ hội và thách thức to lớn.\nDựa trên nội dung Mục 1.3 của giáo trình, hãy phân tích:\n1. Yêu cầu của CMCN 4.0 đối với xu hướng giáo dục đa ngành, dạy và học liên ngành.\n2. Nội dung chiến lược đổi mới giáo dục Việt Nam qua Quyết định số 711/QĐ-TTg (13/06/2012) và những điểm đột phá của Chương trình giáo dục phổ thông 2018 (Thông tư số 32/2018/TT-BGDĐT ngày 26/12/2018).\n3. Hệ thống 6 mục tiêu cụ thể đến năm 2030 và 7 nhiệm vụ trọng tâm thực hiện mục tiêu phát triển bền vững lĩnh vực giáo dục và đào tạo theo Quyết định số 2161/QĐ-BGDĐT (26/06/2017).",
+      "solution_steps": [
+        "Bước 1: Phân tích tác động của kinh tế tri thức và CMCN 4.0 đến giáo dục đa ngành, liên ngành\n- CMCN 4.0 làm thay đổi sâu sắc chương trình giáo dục, hoạt động dạy và hoạt động học, đòi hỏi sự kết hợp đa ngành, đa lĩnh vực để giải quyết các vấn đề phức hợp (dạy và học liên ngành).\n- Sinh viên nghiên cứu khoa học cơ bản và ứng dụng bắt buộc phải hiểu bản chất chính trị và xã hội của thế giới mà họ đang sống; ngược lại, sinh viên nghiên cứu các mối quan hệ nhân văn và khoa học xã hội cần hiểu nền tảng dựa trên trí tuệ nhân tạo (AI) và cách nó vận hành. Khoa học xã hội và nhân văn kết hợp chặt chẽ cùng công nghệ để giải quyết vấn đề.",
+        "Bước 2: Phân tích Chiến lược giáo dục 2011–2020 (QĐ 711/QĐ-TTg) và Chương trình GDPT 2018 (TT 32/2018/TT-BGDĐT)\n- *Quyết định số 711/QĐ-TTg (13/06/2012):* Đổi mới căn bản và toàn diện nền giáo dục theo 5 hướng: chuẩn hóa, hiện đại hóa, xã hội hóa, dân chủ hóa và hội nhập quốc tế; nâng cao toàn diện đạo đức, kỹ năng sống, năng lực sáng tạo, năng lực thực hành, ngoại ngữ và tin học; đảm bảo công bằng xã hội, cơ hội học tập suốt đời và xây dựng xã hội học tập.\n- *Chương trình GDPT 2018 (Thông tư số 32/2018/TT-BGDĐT ngày 26/12/2018):* Cụ thể hóa Nghị quyết 29-NQ/TW, Nghị quyết 88/2014/QH13, Quyết định 404/QĐ-TTg và Nghị quyết 51/2017/QH14 theo định hướng phát triển phẩm chất và năng lực người học. Ba yếu tố nổi bật của chương trình mới là: (1) Dạy học phân hóa; (2) Dạy học tích hợp; (3) Dạy học thông qua hoạt động tích cực của người học. Đồng thời Việt Nam xây dựng khung chiến lược giai đoạn 2021–2030, tầm nhìn 2045 gắn với chiến lược phát triển con người toàn cầu.",
+        "Bước 3: Trình bày 6 mục tiêu phát triển bền vững đến năm 2030 (Quyết định số 2161/QĐ-BGDĐT ngày 26/06/2017)\n- Mục tiêu chung: Xây dựng nền giáo dục có chất lượng, công bằng, toàn diện và thúc đẩy cơ hội học tập suốt đời cho tất cả mọi người.\n- 6 mục tiêu cụ thể đến năm 2030:\n  1. Đảm bảo tất cả trẻ em gái và trai hoàn thành giáo dục tiểu học, giáo dục THCS miễn phí, công bằng, có chất lượng.\n  2. Tất cả trẻ em độ tuổi mầm non được chăm sóc, giáo dục có chất lượng để phát triển toàn diện, sẵn sàng vào tiểu học.\n  3. Đảm bảo mọi người được tiếp cận giáo dục sau phổ thông có chất lượng với chi phí phù hợp mức sống và thu nhập.\n  4. Xóa bỏ bất bình đẳng giới; đảm bảo quyền tiếp cận bình đẳng ở mọi cấp học cho người khuyết tật, người dân tộc thiểu số và trẻ em có hoàn cảnh dễ bị tổn thương.\n  5. Tất cả thanh thiếu niên và hầu hết người trưởng thành, không phân biệt giới tính, đều biết đọc, biết viết và biết tính toán.\n  6. Trang bị kiến thức, kỹ năng thúc đẩy phát triển bền vững (lối sống bền vững, quyền con người, bình đẳng giới, văn hóa hòa bình không bạo lực, giáo dục công dân toàn cầu thích ứng đa dạng văn hóa và giữ gìn bản sắc dân tộc).",
+        "Bước 4: Trình bày 7 nhiệm vụ cụ thể thực hiện mục tiêu phát triển bền vững\n- (1) Tăng tiếp cận giáo dục cho mọi người.\n- (2) Chăm sóc, giáo dục trẻ thơ có chất lượng; phát triển giáo dục có chất lượng.\n- (3) Thực hiện chính sách giáo dục, đào tạo đảm bảo bình đẳng và xóa bỏ chênh lệch đối với các đối tượng dễ bị tổn thương.\n- (4) Xây dựng xã hội học tập.\n- (5) Trang bị kỹ năng, kiến thức cần thiết cho người học, thúc đẩy phát triển bền vững.\n- (6) Xây dựng môi trường học tập an toàn, không bạo lực, toàn diện và hiệu quả cho tất cả mọi người.\n- (7) Giáo dục, nâng cao nhận thức, năng lực ứng phó với biến đổi khí hậu và giảm nhẹ rủi ro thiên tai."
+      ]
+    }
+  ]
+}

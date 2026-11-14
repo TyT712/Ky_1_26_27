@@ -576,6 +576,92 @@
      ]
     }
    ]
+  },
+  {
+   "id": "giao_duc_hoc_1",
+   "code": "GDH1",
+   "title": "Giáo Dục Học 1",
+   "description": "Giáo trình Giáo dục học 1 (Trường ĐHSP, Đại học Huế): Bản chất hiện tượng giáo dục, Giáo dục học là một khoa học, sự phát triển nhân cách, mục đích - nhiệm vụ - con đường giáo dục, Lý luận dạy học (PPDH, 21 KTDH tích cực) và Lý luận giáo dục. Lý thuyết trình bày theo phương pháp Cornell & 150 câu trắc nghiệm.",
+   "status": "active",
+   "ui_profile": "general_education",
+   "books": [
+    {
+     "id": "giao_trinh_giao_duc_hoc_1",
+     "title": "Giáo Trình Giáo Dục Học 1 - Khoa Tâm lý & Giáo dục, Trường ĐHSP, Đại học Huế (Chương 1 - 5)",
+     "chapters": [
+      {
+       "id": "chuong_1",
+       "number": 1,
+       "title": "Giáo dục học là một khoa học",
+       "full_title": "Chương 1: Giáo dục học là một khoa học",
+       "summary": "Ghi chép Cornell: Giáo dục là hiện tượng xã hội đặc biệt, 3 tính chất cơ bản, 3 chức năng xã hội; sự ra đời của Giáo dục học (Komenski), cấu trúc Quá trình giáo dục tổng thể, các phạm trù cơ bản, hệ thống phương pháp nghiên cứu và xu thế phát triển giáo dục Việt Nam (CTGDPT 2018).",
+       "theory": "data/giao_duc_hoc_1/chuong_1_theory.md",
+       "exercises": "data/giao_duc_hoc_1/chuong_1_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_2",
+       "number": 2,
+       "title": "Giáo dục và sự phát triển nhân cách",
+       "full_title": "Chương 2: Giáo dục và sự phát triển nhân cách",
+       "summary": "Ghi chép Cornell: Khái niệm Con người, Nhân cách và Sự phát triển nhân cách (thể chất, tâm lý, xã hội); vai trò của 4 yếu tố: Di truyền - bẩm sinh (tiền đề vật chất), Môi trường (điều kiện), Giáo dục (chủ đạo) và Hoạt động cá nhân (quyết định trực tiếp) kèm kết luận sư phạm.",
+       "theory": "data/giao_duc_hoc_1/chuong_2_theory.md",
+       "exercises": "data/giao_duc_hoc_1/chuong_2_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_3",
+       "number": 3,
+       "title": "Mục đích, nhiệm vụ và các con đường giáo dục",
+       "full_title": "Chương 3: Mục đích, nhiệm vụ và các con đường giáo dục",
+       "summary": "Ghi chép Cornell: Khái niệm và 3 chức năng của mục đích giáo dục; mục tiêu giáo dục Việt Nam theo Luật Giáo dục 2019; 5 nhiệm vụ giáo dục toàn diện (Trí dục, Đức dục, Mỹ dục, Thể dục, Lao động - Hướng nghiệp) và 5 con đường giáo dục cơ bản trong nhà trường.",
+       "theory": "data/giao_duc_hoc_1/chuong_3_theory.md",
+       "exercises": "data/giao_duc_hoc_1/chuong_3_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_4",
+       "number": 4,
+       "title": "Lý luận dạy học",
+       "full_title": "Chương 4: Lý luận dạy học",
+       "summary": "Ghi chép Cornell: Quá trình dạy học (khái niệm, cấu trúc, bản chất nhận thức độc đáo của HS, 3 nhiệm vụ, quy luật, động lực ZPD, logic 5 khâu); 7 nguyên tắc dạy học; nội dung dạy học & CTGDPT 2018; hệ thống PPDH, 21 kỹ thuật dạy học tích cực và 7 hình thức tổ chức dạy học.",
+       "theory": "data/giao_duc_hoc_1/chuong_4_theory.md",
+       "exercises": "data/giao_duc_hoc_1/chuong_4_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      },
+      {
+       "id": "chuong_5",
+       "number": 5,
+       "title": "Lý luận giáo dục",
+       "full_title": "Chương 5: Lý luận giáo dục",
+       "summary": "Ghi chép Cornell: Quá trình giáo dục nghĩa hẹp (khái niệm, cấu trúc, bản chất, 4 đặc điểm, động lực, logic 3 khâu, 6 quy luật); hệ thống 10 nguyên tắc giáo dục; 6 nội dung giáo dục hiện đại (Hoạt động trải nghiệm, hướng nghiệp & Giáo dục địa phương) và 3 nhóm (11 phương pháp) giáo dục.",
+       "theory": "data/giao_duc_hoc_1/chuong_5_theory.md",
+       "exercises": "data/giao_duc_hoc_1/chuong_5_exercises.json",
+       "counts": {
+        "multiple_choice": 30,
+        "short_answers": 8,
+        "essays": 4
+       }
+      }
+     ]
+    }
+   ]
   }
  ]
 }

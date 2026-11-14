@@ -146,6 +146,28 @@
         intro: 'Bài tập yêu cầu so sánh các thuyết, phân tích yếu tố tác động đến sự phát triển trí tuệ và đề xuất biện pháp chẩn đoán, giáo dục phù hợp.'
       }
     },
+    giao_duc_hoc_1: {
+      profile_name: 'general_education',
+      theme: {
+        primary: '#059669',
+        secondary: '#0284c7',
+        accent: '#10b981',
+        icon: '🏫',
+        label: 'Giáo Dục Học Đại Cương & Sư Phạm'
+      },
+      short_answer: {
+        title: 'Luyện tập Trả lời ngắn & Khái niệm Giáo dục học',
+        intro: 'Tự suy ngẫm, trình bày bản chất, quy luật, nguyên tắc, phương pháp dạy học - giáo dục hoặc kết luận sư phạm trước khi bấm "Kiểm tra & Đối chiếu" để so sánh với đáp án chuẩn.',
+        label: 'Nhập câu trả lời / Luận điểm giáo dục học của bạn:',
+        placeholder: 'Gõ định nghĩa, nguyên tắc, phương pháp hoặc kết luận sư phạm của bạn vào đây để tự rèn luyện...',
+        isMono: false
+      },
+      essay: {
+        badge: 'Tự luận & Nghiệp vụ Sư phạm',
+        title: 'Bài Tập Tự Luận & Vận Dụng Thực Tiễn Sư Phạm',
+        intro: 'Bài tập tự luận tổng hợp yêu cầu phân tích lý luận dạy học, lý luận giáo dục, thiết kế phương pháp/kỹ thuật dạy học tích cực và giải quyết tình huống sư phạm thực tế.'
+      }
+    },
     mathematics_natural_science: {
       profile_name: 'mathematics_natural_science',
       theme: {
@@ -198,6 +220,7 @@
   COURSE_PROFILES.software_engineering = COURSE_PROFILES.cnpm;
   COURSE_PROFILES.pedagogical_psychology = COURSE_PROFILES.tam_ly_hoc_2;
   COURSE_PROFILES.cognitive_psychology = COURSE_PROFILES.tam_ly_hoc_tri_tue;
+  COURSE_PROFILES.general_education = COURSE_PROFILES.giao_duc_hoc_1;
   COURSE_PROFILES.general_academic = COURSE_PROFILES.default;
 
   function getCourseUIConfig(course) {

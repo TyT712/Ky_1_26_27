@@ -1,0 +1,487 @@
+{
+  "chapter_id": "chuong_4",
+  "chapter_title": "Chương 4: Lý luận dạy học",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Trong khoa học giáo dục, bộ phận nghiên cứu những vấn đề và quy luật chung nhất của quá trình dạy học trên tất cả các môn học, bậc học được gọi là gì?",
+      "options": {
+        "A": "Lý luận dạy học đại cương (general didactics).",
+        "B": "Lý luận dạy học bộ môn (special didactics).",
+        "C": "Phương pháp giảng dạy chuyên ngành.",
+        "D": "Tâm lý học lứa tuổi và tâm lý học sư phạm."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo giáo trình Giáo dục học (ĐHSP Huế), Lý luận dạy học nghiên cứu những vấn đề chung nhất của quá trình dạy học trên tất cả các môn học, bậc học được gọi là Lý luận dạy học đại cương (general didactics), còn nghiên cứu cho một ngành học hay môn học cụ thể gọi là Lý luận dạy học bộ môn (special didactics)."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Trong cấu trúc hệ thống của quá trình dạy học, thành tố nào giữ vị trí hàng đầu, phản ánh tập trung nhất yêu cầu của xã hội về mô hình nhân cách người học và định hướng cho mọi thành tố khác?",
+      "options": {
+        "A": "Nội dung dạy học.",
+        "B": "Mục đích dạy học.",
+        "C": "Phương pháp và phương tiện dạy học.",
+        "D": "Kiểm tra và đánh giá kết quả dạy học."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục đích dạy học phản ánh tập trung nhất những yêu cầu của xã hội đối với quá trình dạy học, giữ vị trí quan trọng hàng đầu và có chức năng định hướng cho toàn bộ các thành tố khác cũng như quyết định chất lượng của quá trình dạy học."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Trong mối quan hệ thống nhất biện chứng giữa hoạt động Dạy và hoạt động Học, vai trò của giáo viên (GV) và học sinh (HS) được xác định như thế nào?",
+      "options": {
+        "A": "GV giữ vai trò chủ động, HS giữ vai trò thụ động tiếp nhận tri thức.",
+        "B": "GV giữ vai trò phụ trợ, HS giữ vai trò quyết định toàn bộ tiến trình sư phạm.",
+        "C": "GV giữ vai trò chủ đạo (tổ chức, hướng dẫn, điều khiển), HS giữ vai trò chủ động (tự giác, tích cực, tự tổ chức, tự điều khiển).",
+        "D": "GV và HS đều giữ vai trò chủ đạo ngang nhau trong việc ban hành chương trình."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong quá trình dạy học, giáo viên với hoạt động dạy giữ vai trò chủ đạo (tổ chức, hướng dẫn, điều khiển), còn học sinh với hoạt động học giữ vai trò chủ động (tự giác, tích cực, tự lực, sáng tạo; tự tổ chức, tự điều khiển)."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Theo Bảng 4.1 so sánh hoạt động nhận thức của nhà khoa học với hoạt động nhận thức của học sinh, đối tượng nhận thức của học sinh có đặc điểm gì khác biệt?",
+      "options": {
+        "A": "Là cái mới khách quan đối với toàn nhân loại.",
+        "B": "Là những chân lý chưa từng có ai khám phá trong lịch sử.",
+        "C": "Chỉ bao gồm các kỹ năng lao động chân tay đơn giản.",
+        "D": "Là cái mới chủ quan đối với bản thân học sinh (những tri thức nhân loại đã biết nhưng học sinh chưa biết)."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Bảng 4.1, đối tượng hoạt động nhận thức của nhà khoa học là cái mới khách quan đối với toàn nhân loại, trong khi đối tượng nhận thức của học sinh là cái mới chủ quan đối với chính bản thân học sinh."
+    },
+    {
+      "id": 5,
+      "difficulty": "medium",
+      "question": "Khi so sánh logic hoạt động nhận thức của nhà khoa học (gồm 3 khâu: Trực quan -> Tư duy -> Thực tiễn) với logic nhận thức của học sinh trong quá trình dạy học (gồm 6 khâu), hoạt động nhận thức của học sinh có thêm 3 khâu đặc thù nào?",
+      "options": {
+        "A": "Kích thích hứng thú học tập; Ôn tập, củng cố đảm bảo tính vững chắc của tri thức; Kiểm tra, đánh giá.",
+        "B": "Đề xuất giả thuyết khoa học; Thẩm định bằng hội đồng quốc gia; Công bố phát minh.",
+        "C": "Xây dựng chương trình tổng thể; Biên soạn sách giáo khoa; Quản lý hành chính nhà trường.",
+        "D": "Lao động công ích; Hoạt động đoàn thể; Nghiên cứu thực địa dài hạn."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Bảng 4.1 trong giáo trình, ngoài 3 khâu nhận thức chung (Trực quan - Tư duy - Thực tiễn), logic hoạt động nhận thức của học sinh có tới 6 khâu do bổ sung thêm 3 khâu sư phạm: (1) Kích thích hứng thú học tập của HS; (2) Ôn tập, củng cố để đảm bảo tính vững chắc của tri thức; (3) Kiểm tra, đánh giá."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Bản chất của quá trình dạy học được kết luận chính xác là gì?",
+      "options": {
+        "A": "Là quá trình truyền thụ một chiều kho tàng tri thức từ giáo viên sang học sinh.",
+        "B": "Là quá trình nhận thức độc đáo của học sinh được thực hiện dưới sự tổ chức, hướng dẫn, điều khiển của giáo viên nhằm phát triển nhân cách cho học sinh.",
+        "C": "Là quá trình học sinh tự mò mẫm khám phá lại toàn bộ lịch sử khoa học mà không cần sự chỉ dẫn của người lớn.",
+        "D": "Là quá trình rèn luyện các phản xạ có điều kiện thông qua cơ chế thử và sai."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình khẳng định: Bản chất của quá trình dạy học là quá trình nhận thức độc đáo của học sinh được thực hiện dưới sự tổ chức, hướng dẫn, điều khiển (vai trò chủ đạo) của giáo viên nhằm phát triển nhân cách cho học sinh, đáp ứng yêu cầu của xã hội."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Trong nhiệm vụ Giáo dưỡng của quá trình dạy học, 4 mức độ nắm tri thức, kỹ năng được sắp xếp theo trình tự phát triển từ thấp đến cao như thế nào (chưa kể kỹ xảo)?",
+      "options": {
+        "A": "Tái hiện -> Nhận biết -> Sáng tạo -> Kỹ năng.",
+        "B": "Kỹ năng -> Nhận biết -> Tái hiện -> Sáng tạo.",
+        "C": "Nhận biết -> Tái hiện -> Kỹ năng (vận dụng vào tình huống quen thuộc) -> Sáng tạo (vận dụng vào tình huống mới).",
+        "D": "Nhận biết -> Kỹ năng -> Tái hiện -> Sáng tạo."
+      },
+      "correct_answer": "C",
+      "explanation": "Quá trình nắm tri thức, kỹ năng tiến hành qua 4 mức độ từ thấp đến cao: (1) Mức độ nhận biết (đặc điểm cơ bản của đối tượng); (2) Mức độ tái hiện (nhớ lại đầy đủ tri thức, kỹ năng); (3) Mức độ kỹ năng (vận dụng vào tình huống quen thuộc); (4) Mức độ sáng tạo (vận dụng vào tình huống mới), cùng với kỹ xảo là kỹ năng đã được tự động hóa nhờ lặp đi lặp lại."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Xét mối quan hệ biện chứng giữa 3 nhiệm vụ của quá trình dạy học (Giáo dưỡng, Phát triển, Giáo dục), nhận định nào sau đây phản ánh đúng vai trò của từng nhiệm vụ?",
+      "options": {
+        "A": "Giáo dục là cơ sở ban đầu; Giáo dưỡng là mục đích cuối cùng; Phát triển không liên quan đến hai nhiệm vụ kia.",
+        "B": "Phát triển là cơ sở duy nhất; Giáo dưỡng chỉ là hệ quả phụ của quá trình rèn luyện đạo đức.",
+        "C": "Ba nhiệm vụ tách rời nhau hoàn toàn và chỉ thực hiện ở các cấp học khác nhau.",
+        "D": "Giáo dưỡng là cơ sở; Phát triển vừa là kết quả vừa là điều kiện; Giáo dục vừa là kết quả vừa là mục đích và cơ sở tư tưởng (động cơ) của hai nhiệm vụ kia."
+      },
+      "correct_answer": "D",
+      "explanation": "Trong mối quan hệ biện chứng giữa 3 nhiệm vụ dạy học: Giáo dưỡng (trang bị tri thức, kỹ năng, kỹ xảo) là cơ sở; Phát triển trí tuệ vừa là kết quả vừa là điều kiện; còn Giáo dục (thế giới quan, đạo đức) vừa là kết quả vừa là mục đích, cơ sở tư tưởng và động cơ thúc đẩy hai nhiệm vụ còn lại."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Quy luật nào được xác định là quy luật cơ bản của quá trình dạy học, chi phối và ảnh hưởng tích cực tới mọi quy luật khác?",
+      "options": {
+        "A": "Quy luật thống nhất biện chứng giữa hoạt động dạy của giáo viên và hoạt động học của học sinh.",
+        "B": "Quy luật thống nhất giữa dạy học và sự phát triển kinh doanh, dịch vụ ngoài xã hội.",
+        "C": "Quy luật thống nhất giữa cơ sở vật chất nhà trường và ngân sách địa phương.",
+        "D": "Quy luật định khu chức năng tâm lý trên vỏ não."
+      },
+      "correct_answer": "A",
+      "explanation": "Quy luật thống nhất biện chứng giữa hoạt động dạy của giáo viên và hoạt động học của học sinh được coi là quy luật cơ bản của quá trình dạy học vì phản ánh mối quan hệ giữa hai thành tố trung tâm đặc trưng cho tính chất hai mặt của quá trình dạy học."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Mâu thuẫn cơ bản và là động lực chủ yếu thúc đẩy quá trình dạy học vận động, phát triển không ngừng là mâu thuẫn nào?",
+      "options": {
+        "A": "Mâu thuẫn giữa sự bùng nổ thông tin khoa học công nghệ với cơ sở vật chất nghèo nàn của nhà trường.",
+        "B": "Mâu thuẫn giữa yêu cầu cao về nhiệm vụ học tập mới do tiến trình dạy học đề ra với trình độ phát triển nhận thức hiện có của học sinh còn hạn chế.",
+        "C": "Mâu thuẫn giữa trình độ chuyên môn và tay nghề sư phạm của người giáo viên.",
+        "D": "Mâu thuẫn giữa mong muốn của phụ huynh và quy định tuyển sinh của Bộ Giáo dục và Đào tạo."
+      },
+      "correct_answer": "B",
+      "explanation": "Mâu thuẫn cơ bản tồn tại suốt từ đầu đến cuối quá trình dạy học và tạo nên động lực chủ yếu là mâu thuẫn giữa một bên là yêu cầu cao về nhiệm vụ học tập do tiến trình dạy học đề ra với một bên là trình độ phát triển nhận thức (tri thức, kỹ năng, kỹ xảo) hiện có của học sinh còn hạn chế."
+    },
+    {
+      "id": 11,
+      "difficulty": "hard",
+      "question": "Theo L.X. Vưgotxky (1896–1934), để việc giải quyết mâu thuẫn cơ bản thực sự trở thành động lực chủ yếu của quá trình dạy học, nhiệm vụ học tập do giáo viên đặt ra phải thỏa mãn điều kiện vừa sức như thế nào?",
+      "options": {
+        "A": "Phải thấp hơn trình độ nhận thức hiện có của học sinh để mọi học sinh đều giải quyết được ngay lập tức mà không cần suy nghĩ.",
+        "B": "Phải vượt hẳn ra ngoài vùng phát triển trí tuệ gần nhất để rèn luyện tính chịu đựng thất bại.",
+        "C": "Phải tương ứng với giới hạn cao nhất của vùng phát triển trí tuệ gần nhất (ZPD), đòi hỏi sự tìm tòi căng thẳng nhưng học sinh có thể giải quyết được bằng nỗ lực bản thân kết hợp sự hỗ trợ của giáo viên/bạn bè.",
+        "D": "Phải xuất hiện ngẫu nhiên, tách biệt hoàn toàn khỏi logic của nội dung bài học đang giảng dạy."
+      },
+      "correct_answer": "C",
+      "explanation": "Một trong 3 điều kiện để mâu thuẫn trở thành động lực là mâu thuẫn phải vừa sức với HS, nghĩa là yêu cầu, nhiệm vụ dạy học đề ra phải tương ứng với giới hạn cao nhất của vùng phát triển trí tuệ gần nhất (ZPD - Vưgotxky L.X. 1896–1934), đòi hỏi sự tìm tòi căng thẳng nhưng HS có thể vượt qua nhờ nỗ lực bản thân và sự kích thích, giúp đỡ của GV/bạn bè."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Logic của quá trình dạy học (theo B.P. Êxipôp 1977; Hà Thế Ngữ 1998) được xây dựng trên sự kết hợp thống nhất giữa hai yếu tố cốt lõi nào và bao gồm mấy khâu cơ bản?",
+      "options": {
+        "A": "Kết hợp giữa logic hành chính và logic tài chính; gồm 3 khâu.",
+        "B": "Kết hợp giữa logic sinh học và logic di truyền; gồm 4 khâu.",
+        "C": "Kết hợp giữa logic gia đình và logic truyền thông; gồm 7 khâu.",
+        "D": "Kết hợp giữa logic môn học và logic nhận thức của học sinh; gồm 5 khâu cơ bản."
+      },
+      "correct_answer": "D",
+      "explanation": "Logic của QTDH vận động theo logic môn học đồng thời phù hợp với logic nhận thức của HS, bao gồm 5 khâu: (1) Kích thích thái độ học tập tích cực; (2) Tổ chức hình thành tri thức mới; (3) Củng cố, mở rộng và hệ thống hóa tri thức; (4) Rèn luyện kỹ năng, kỹ xảo; (5) Kiểm tra, đánh giá và tự kiểm tra, tự đánh giá."
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "question": "Trong khâu thứ 5 của logic quá trình dạy học (Kiểm tra, đánh giá và tổ chức tự kiểm tra, tự đánh giá), giáo viên cần thực hiện đúng 5 chức năng và 4 nguyên tắc nào?",
+      "options": {
+        "A": "5 chức năng (phát hiện, điều chỉnh, củng cố, phát triển, giáo dục) trên cơ sở 4 nguyên tắc (khách quan, toàn diện, hệ thống, phát triển).",
+        "B": "5 chức năng (xếp hạng, loại trừ, khen thưởng, kỷ luật, lưu trữ) trên cơ sở 4 nguyên tắc (bí mật, đột xuất, khắt khe, đồng loạt).",
+        "C": "5 chức năng (dự báo, thống kê, kế toán, kiểm toán, thanh tra) trên cơ sở 4 nguyên tắc (kinh tế, nhanh chóng, giản đơn, đại khái).",
+        "D": "5 chức năng (nhận biết, tái hiện, kỹ năng, sáng tạo, kỹ xảo) trên cơ sở 4 nguyên tắc (tự do, ngẫu nhiên, cảm tính, linh hoạt)."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 4.1.7 (khâu g), việc kiểm tra, đánh giá phải thực hiện đúng 5 chức năng (phát hiện, điều chỉnh, củng cố, phát triển, giáo dục) trên cơ sở 4 nguyên tắc (khách quan, toàn diện, hệ thống, phát triển)."
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "question": "Nguyên tắc dạy học nào thể hiện sâu sắc tư tưởng 'thông qua dạy chữ mà dạy người', kết hợp chặt chẽ việc trang bị tri thức khoa học chân chính với việc hình thành thế giới quan và phẩm chất đạo đức?",
+      "options": {
+        "A": "Nguyên tắc đảm bảo sự thống nhất giữa cái cụ thể và cái trừu tượng.",
+        "B": "Nguyên tắc đảm bảo sự thống nhất giữa tính khoa học và tính giáo dục trong dạy học.",
+        "C": "Nguyên tắc đảm bảo sự thống nhất giữa tính hệ thống và tính tuần tự.",
+        "D": "Nguyên tắc đảm bảo sự thống nhất giữa tính vừa sức chung với tính vừa sức riêng."
+      },
+      "correct_answer": "B",
+      "explanation": "Nguyên tắc đảm bảo sự thống nhất giữa tính khoa học và tính giáo dục trong dạy học đòi hỏi thông qua việc trang bị hệ thống tri thức khoa học cơ bản, hiện đại ('dạy chữ') để hình thành thế giới quan khoa học, nhân sinh quan và phẩm chất đạo đức ('dạy người')."
+    },
+    {
+      "id": 15,
+      "difficulty": "medium",
+      "question": "Biện pháp 'kết hợp việc trình bày các phương tiện trực quan với lời nói giàu hình ảnh để có sự đan xen hai hệ thống tín hiệu' là phương thức thực hiện trực tiếp của nguyên tắc dạy học nào?",
+      "options": {
+        "A": "Nguyên tắc thống nhất giữa tính hệ thống và tính tuần tự.",
+        "B": "Nguyên tắc thống nhất giữa tính vừa sức chung và tính vừa sức riêng.",
+        "C": "Nguyên tắc đảm bảo sự thống nhất giữa cái cụ thể và cái trừu tượng trong dạy học.",
+        "D": "Nguyên tắc thống nhất giữa vai trò tự giác của học sinh và vai trò chủ đạo của giáo viên."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong nguyên tắc đảm bảo sự thống nhất giữa cái cụ thể và cái trừu tượng (4.2.2.3), một phương thức thực hiện cốt lõi là kết hợp việc trình bày các phương tiện trực quan với lời nói (đan xen hai hệ thống tín hiệu) nhằm giúp HS đi từ trực quan sinh động đến tư duy trừu tượng."
+    },
+    {
+      "id": 16,
+      "difficulty": "easy",
+      "question": "Theo cấu trúc văn hóa nhân loại được xử lý về mặt sư phạm, Nội dung dạy học ở nhà trường phổ thông bao gồm 4 thành phần cơ bản nào?",
+      "options": {
+        "A": "Sách giáo khoa; Sách bài tập; Sách giáo viên; Từ điển tra cứu.",
+        "B": "Mục tiêu cấp học; Kế hoạch năm học; Thời khóa biểu; Sổ đầu bài.",
+        "C": "Đức dục; Trí dục; Thể dục; Mỹ dục.",
+        "D": "Hệ thống tri thức; Hệ thống kỹ năng, kỹ xảo; Hệ thống kinh nghiệm hoạt động sáng tạo; Hệ thống chuẩn mực về thái độ đối với tự nhiên, xã hội, con người."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 4.3.2, cấu trúc Nội dung dạy học ở nhà trường gồm 4 thành phần cơ bản: (1) Hệ thống tri thức về tự nhiên, xã hội, con người, kỹ thuật và cách thức hoạt động; (2) Hệ thống kỹ năng, kỹ xảo; (3) Hệ thống những kinh nghiệm hoạt động sáng tạo; (4) Những chuẩn mực về thái độ đối với tự nhiên, xã hội, con người và cộng đồng."
+    },
+    {
+      "id": 17,
+      "difficulty": "medium",
+      "question": "Chương trình giáo dục phổ thông 2018 (ban hành kèm theo Thông tư số 32/2018/TT-BGDĐT ngày 26/12/2018) được xây dựng theo cách tiếp cận nào và bao gồm những văn bản thành phần nào?",
+      "options": {
+        "A": "Tiếp cận quá trình / phát triển phẩm chất và năng lực người học; bao gồm Chương trình tổng thể và 27 chương trình môn học, hoạt động giáo dục.",
+        "B": "Tiếp cận nội dung kiến thức thuần túy; bao gồm Quyết định 16/2006/QĐ-BGDĐT và 12 bộ sách giáo khoa duy nhất.",
+        "C": "Tiếp cận hành vi cơ giới; chỉ bao gồm danh mục các bài thi trắc nghiệm cuối cấp.",
+        "D": "Tiếp cận tự do không có chương trình khung quốc gia, giao toàn quyền cho từng giáo viên tự quyết định mục tiêu cấp học."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 4.3.3.1, CTGDPT 2018 (ban hành kèm theo Thông tư số 32/2018/TT-BGDĐT ngày 26/12/2018) được xây dựng theo định hướng phát triển phẩm chất, năng lực người học (tiếp cận phát triển), bao gồm Chương trình tổng thể và 27 chương trình môn học, hoạt động giáo dục."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "question": "Khi bàn về quyền tự chủ thực hiện chương trình và cấu trúc môn học trong kế hoạch giáo dục, nhận định nào sau đây là ĐÚNG theo giáo trình Giáo dục học?",
+      "options": {
+        "A": "Sách giáo khoa là văn bản quy phạm pháp luật có tính pháp lệnh cao hơn Chương trình giáo dục phổ thông.",
+        "B": "Chương trình giáo dục là văn bản quy phạm pháp luật (pháp lệnh nhà nước), còn Sách giáo khoa chỉ là phương án cụ thể hóa chương trình; logic cấu trúc môn học là 'hợp kim giữa logic khoa học và logic sư phạm'.",
+        "C": "Cấu trúc môn học chỉ phản ánh thuần túy logic khoa học chuyên ngành mà không cần tính đến đặc điểm tâm sinh lý học sinh.",
+        "D": "Giáo viên có quyền tự tiện cắt xén hoặc thay đổi mục tiêu bắt buộc của Chương trình giáo dục quốc gia."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 4.3.3.1 và 4.3.3.3: Chương trình giáo dục là văn bản quy phạm pháp luật (pháp lệnh nhà nước), còn Sách giáo khoa là phương án cụ thể hóa chương trình môn học chứ không phải là văn bản quy phạm pháp luật. Đồng thời, cấu trúc môn học gồm nội dung khoa học và hình thức thể hiện sư phạm nên logic cấu trúc môn học là 'hợp kim giữa logic khoa học và logic sư phạm'."
+    },
+    {
+      "id": 19,
+      "difficulty": "easy",
+      "question": "Trong mô hình 3 bình diện (cấp độ) của phương pháp dạy học từ vĩ mô đến vi mô, cấp độ nào được hiểu là 'đơn vị nhỏ nhất của phương pháp dạy học', gồm các thao tác, biện pháp hành động trong các tình huống nhỏ?",
+      "options": {
+        "A": "Quan điểm dạy học (như dạy học giải quyết vấn đề, dạy học lấy người học làm trung tâm).",
+        "B": "Phương pháp dạy học cụ thể (như thuyết trình, đàm thoại, luyện tập).",
+        "C": "Kỹ thuật dạy học (như kỹ thuật động não, khăn trải bàn, bể cá, tia chớp).",
+        "D": "Hình thức tổ chức dạy học (như lớp - bài, tham quan, ngoại khóa)."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 4.4.1, 3 bình diện của PPDH gồm: (1) Quan điểm dạy học (định hướng chiến lược, cương lĩnh); (2) Phương pháp dạy học cụ thể (nghĩa hẹp); (3) Kỹ thuật dạy học (KTDH) – là những biện pháp, thao tác trong các tình huống hành động nhỏ, được hiểu là đơn vị nhỏ nhất của PPDH."
+    },
+    {
+      "id": 20,
+      "difficulty": "medium",
+      "question": "Trong nhóm phương pháp dạy học thuyết trình, dạng thuyết trình nào sử dụng các luận cứ, số liệu, suy luận và phán đoán để giải thích, chứng minh làm sáng tỏ một khái niệm, định lý, định luật hay quy tắc mới?",
+      "options": {
+        "A": "Giảng thuật.",
+        "B": "Giảng diễn.",
+        "C": "Đàm thoại tái hiện.",
+        "D": "Giảng giải."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 4.4.4.1: Giảng thuật chứa đựng yếu tố trần thuật và mô tả; Giảng diễn trình bày một vấn đề hoàn chỉnh, phức tạp trong thời gian dài cho người lớn tuổi; còn Giảng giải là phương pháp thuyết trình sử dụng luận cứ, số liệu, suy luận và phán đoán để giải thích, chứng minh làm sáng tỏ một vấn đề, khái niệm, định lý, quy tắc mới."
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "question": "Trong phương pháp dạy học vấn đáp (đàm thoại), loại vấn đáp nào mà giáo viên đưa ra hệ thống câu hỏi mang tính chất nêu vấn đề, đặt học sinh vào trạng thái căng thẳng trí tuệ để trao đổi, tranh luận và chủ động tìm ra chân lý?",
+      "options": {
+        "A": "Vấn đáp tìm tòi – phát hiện.",
+        "B": "Vấn đáp tái hiện.",
+        "C": "Vấn đáp giải thích – minh họa.",
+        "D": "Kiểm tra miệng đầu giờ."
+      },
+      "correct_answer": "A",
+      "explanation": "Vấn đáp tìm tòi – phát hiện là phương pháp trong đó hệ thống câu hỏi của thầy mang tính chất nêu vấn đề, buộc HS ở vào trạng thái có vấn đề, căng thẳng trí tuệ, qua trao đổi và tranh luận mà từng bước tự tìm ra chân lý theo logic chặt chẽ."
+    },
+    {
+      "id": 22,
+      "difficulty": "medium",
+      "question": "Quy trình thực hiện Phương pháp dạy học dự án (Project-based Learning) trong nhà trường phổ thông bao gồm 5 bước theo trình tự chuẩn nào?",
+      "options": {
+        "A": "Chia nhóm -> Giao kịch bản -> Diễn thử -> Thảo luận cảm xúc -> Kết luận.",
+        "B": "Chọn đề tài dự án -> Xây dựng đề cương, kế hoạch thực hiện -> Thực hiện dự án -> Thu thập kết quả và công bố sản phẩm -> Đánh giá dự án.",
+        "C": "Nêu tình huống -> Đặt câu hỏi đóng/mở -> Thảo luận tổ -> Tổng kết bài học.",
+        "D": "Giới thiệu luật chơi -> Chơi thử -> Chơi thật -> Xử lý vi phạm -> Nhận xét."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 4.4.4.5 (mục 3), phương pháp dạy học dự án được tiến hành qua 5 bước: Bước 1: Chọn đề tài dự án -> Bước 2: Xây dựng đề cương, kế hoạch thực hiện -> Bước 3: Thực hiện dự án -> Bước 4: Thu thập kết quả và công bố sản phẩm -> Bước 5: Đánh giá dự án."
+    },
+    {
+      "id": 23,
+      "difficulty": "hard",
+      "question": "Khi sử dụng Phương pháp dạy học đóng vai (Role-playing), yêu cầu sư phạm nào sau đây được giáo trình đặc biệt nhấn mạnh?",
+      "options": {
+        "A": "Giáo viên phải viết sẵn toàn bộ kịch bản và lời thoại chi tiết để học sinh học thuộc lòng trước khi lên diễn.",
+        "B": "Phần biểu diễn kịch tính trên sân khấu là mục tiêu duy nhất, không cần tổ chức thảo luận sau khi diễn.",
+        "C": "Tình huống đóng vai phải để mở (không cho trước kịch bản, lời thoại), có nhiều cách giải quyết; việc 'diễn' không phải là phần chính mà điều quan trọng nhất là sự thảo luận, nhận xét sau phần diễn ấy.",
+        "D": "Chỉ dành riêng cho những học sinh có năng khiếu diễn xuất, tuyệt đối không khích lệ học sinh nhút nhát tham gia."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 4.4.4.5 (mục 4), trong phương pháp đóng vai: 'Việc diễn không phải là phần chính của phương pháp này mà điều quan trọng là sự thảo luận sau phần diễn ấy'; đồng thời tình huống cần để mở để HS tự tìm cách ứng xử, không cho trước kịch bản hay lời thoại."
+    },
+    {
+      "id": 24,
+      "difficulty": "easy",
+      "question": "Kỹ thuật dạy học tích cực nào kết hợp hoạt động cá nhân và hoạt động nhóm thông qua việc mỗi thành viên viết ý kiến độc lập vào ô riêng ở xung quanh tờ giấy A0 trước, sau đó cả nhóm mới thảo luận thống nhất và ghi ý kiến chung vào ô chính giữa?",
+      "options": {
+        "A": "Kỹ thuật Phòng tranh.",
+        "B": "Kỹ thuật Công đoạn.",
+        "C": "Kỹ thuật Ổ bi.",
+        "D": "Kỹ thuật Khăn trải bàn."
+      },
+      "correct_answer": "D",
+      "explanation": "Trong Kỹ thuật 'Khăn trải bàn', tờ giấy A0 được chia thành các ô xung quanh cho từng cá nhân làm việc độc lập trong vài phút, sau đó các thành viên chia sẻ, thảo luận và viết ý kiến thống nhất chung của cả nhóm vào ô giữa tấm khăn trải bàn (giúp chống ỷ lại vào học sinh khá, giỏi)."
+    },
+    {
+      "id": 25,
+      "difficulty": "hard",
+      "question": "Trong Kỹ thuật 'Các mảnh ghép' (Jigsaw), quy trình hợp tác trải qua 2 vòng được tổ chức như thế nào?",
+      "options": {
+        "A": "Vòng 1 (Nhóm chuyên gia): mỗi nhóm nghiên cứu sâu một chủ đề riêng để mọi thành viên trở thành 'chuyên gia'; Vòng 2 (Nhóm các mảnh ghép): ghép các thành viên từ các nhóm chuyên gia khác nhau vào nhóm mới để chia sẻ toàn bộ thông tin vòng 1 và cùng giải quyết một nhiệm vụ phức hợp mới.",
+        "B": "Vòng 1: các nhóm viết kết quả vào giấy A0; Vòng 2: luân chuyển tờ giấy A0 theo chiều kim đồng hồ cho các nhóm khác góp ý.",
+        "C": "Vòng 1: ngồi thành 2 vòng tròn đồng tâm đối diện nhau; Vòng 2: vòng trong di chuyển theo chiều kim đồng hồ để đổi cặp đối thoại.",
+        "D": "Vòng 1: một nhóm ngồi giữa lớp thảo luận; Vòng 2: nhóm ngồi xung quanh nhận xét cách ứng xử của nhóm giữa lớp."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 4.4.4.6 (mục 7), Kỹ thuật 'Các mảnh ghép' gồm 2 vòng: Vòng 1 là 'Nhóm chuyên gia' (mỗi nhóm giải quyết một chủ đề A, B, C... để mọi thành viên đều nắm chắc và thành chuyên gia); Vòng 2 là 'Nhóm các mảnh ghép' (gồm 1-2 người từ nhóm 1, 1-2 người từ nhóm 2, 1-2 người từ nhóm 3... chia sẻ đầy đủ thông tin vòng 1 rồi cùng giải quyết nhiệm vụ mới)."
+    },
+    {
+      "id": 26,
+      "difficulty": "medium",
+      "question": "Sự khác biệt cốt lõi giữa Kỹ thuật 'Ổ bi' và Kỹ thuật 'Bể cá' trong thảo luận nhóm là gì?",
+      "options": {
+        "A": "Ổ bi dùng chữ viết trong im lặng tuyệt đối, còn Bể cá dùng sơ đồ tư duy.",
+        "B": "Ổ bi xếp 2 vòng tròn đồng tâm đối diện nhau để từng cặp trao đổi rồi vòng trong xoay chuyển tạo đối tác mới; còn Bể cá có 1 nhóm ngồi giữa lớp thảo luận và các HS khác ngồi vòng ngoài quan sát, nhận xét cách ứng xử (có thể để trống 1 ghế cho người quan sát vào phát biểu).",
+        "C": "Ổ bi chỉ dành cho 3 người trong 10 phút, còn Bể cá chỉ trình bày trong 1 phút cuối giờ.",
+        "D": "Ổ bi dùng hệ thống từ khóa 5W1H, còn Bể cá dùng để phân tích phim video."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong Kỹ thuật 'Ổ bi', HS ngồi thành 2 vòng tròn đồng tâm đối diện nhau, sau vài phút vòng ngoài ngồi yên còn vòng trong chuyển chỗ theo chiều kim đồng hồ để tạo cặp đối tác mới. Trong Kỹ thuật 'Bể cá', 1 nhóm HS ngồi giữa lớp thảo luận (có thể để trống 1 vị trí cho người quan sát vào đóng góp ý kiến), còn những HS khác ngồi vòng ngoài quan sát như xem cá cảnh rồi nhận xét cách ứng xử, tranh luận."
+    },
+    {
+      "id": 27,
+      "difficulty": "hard",
+      "question": "Trong hệ thống các kỹ thuật dạy học tích cực, ý nghĩa các thông số của Kỹ thuật 'XYZ' và nguyên tắc tối quan trọng ở Bước 2 của Kỹ thuật 'Động não' (Brainstorming) là gì?",
+      "options": {
+        "A": "X là số câu hỏi, Y là số trang giấy, Z là số giờ; trong Động não phải phê bình gay gắt ngay lập tức mọi ý kiến sai.",
+        "B": "X là số nhóm, Y là số giáo viên, Z là điểm số; trong Động não chỉ cho phép nhóm trưởng phát biểu.",
+        "C": "X là số người trong nhóm, Y là số ý kiến mỗi người cần đưa ra, Z là số phút dành cho mỗi người; trong Động não ở bước thu thập ý kiến tuyệt đối không đánh giá, phê phán để huy động tối đa ý tưởng ('cơn lốc' ý tưởng).",
+        "D": "X là Cái gì, Y là Tại sao, Z là Như thế nào; trong Động não bắt buộc phải giữ im lặng tuyệt đối không được nói."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong Kỹ thuật 'XYZ': X là số người trong nhóm, Y là số ý kiến mỗi người cần đưa ra, Z là số phút dành cho mỗi người. Trong Kỹ thuật 'Động não', quy tắc cốt lõi ở Bước 2 (thu thập ý kiến) là tuyệt đối không đánh giá và phê phán trong quá trình thu thập ý tưởng nhằm khuyến khích số lượng tối đa các ý tưởng tiếp nối nhau."
+    },
+    {
+      "id": 28,
+      "difficulty": "easy",
+      "question": "Theo giáo trình, cuộc cách mạng về phương pháp dạy học trong bối cảnh đổi mới giáo dục hiện nay đang diễn ra theo 3 xu hướng chính nào?",
+      "options": {
+        "A": "Hàn lâm hóa, Đồng loạt hóa và Giản lược hóa.",
+        "B": "Tự do hóa, Thương mại hóa và Quốc tế hóa.",
+        "C": "Lý thuyết hóa, Khép kín hóa và Chuẩn mực hóa.",
+        "D": "Tích cực hóa, Cá biệt hóa và Công nghệ hóa."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 4.4.5, cuộc cách mạng về PPDH hiện nay diễn ra theo 3 xu hướng chính: Tích cực hóa, Cá biệt hóa và Công nghệ hóa nhằm phát triển phẩm chất, năng lực người học (quan tâm người học 'làm được gì' sau quá trình đào tạo chứ không thuần túy là 'biết được gì')."
+    },
+    {
+      "id": 29,
+      "difficulty": "hard",
+      "question": "Hình thức dạy học lớp – bài (bài học lên lớp) được xác định bởi 3 dấu hiệu đặc trưng bắt buộc nào (nếu thiếu 1 trong 3 dấu hiệu đó thì không còn là hình thức bài học)?",
+      "options": {
+        "A": "(1) Tiến hành chung cho một lớp HS có số lượng ổn định, cùng lứa tuổi, trình độ tương đối đồng đều; (2) Tiến hành trong khoảng thời gian xác định gọi là tiết học theo thời khóa biểu; (3) GV trực tiếp tổ chức, điều khiển hoạt động nhận thức của cả lớp đồng thời chú ý đến đặc điểm riêng của từng HS.",
+        "B": "(1) Học sinh tự học ở nhà dưới sự điều khiển gián tiếp của GV; (2) Không giới hạn thời gian tiết học; (3) Không cần phòng học hay thời khóa biểu cố định.",
+        "C": "(1) Tổ chức ngoài thiên nhiên hoặc cơ sở sản xuất; (2) Do cán bộ hướng dẫn viên bảo tàng thuyết minh; (3) Học sinh viết báo cáo thu hoạch sau chuyến đi.",
+        "D": "(1) Chia lớp thành các câu lạc bộ theo sở thích tự nguyện; (2) Không bắt buộc mọi học sinh tham gia; (3) Tổ chức vào các dịp lễ hội kỷ niệm."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 4.5.2.1 (phần b), 3 dấu hiệu đặc trưng bắt buộc của hình thức lớp – bài là: (1) Tiến hành chung cho một lớp HS có số lượng nhất định, cùng lứa tuổi, trình độ nhận thức gần như nhau; (2) Tiến hành trong những khoảng thời gian xác định gọi là tiết học, sắp xếp theo thời khóa biểu; (3) GV trực tiếp tổ chức, điều chỉnh hoạt động nhận thức của cả lớp đồng thời chú ý tới đặc điểm riêng của từng HS."
+    },
+    {
+      "id": 30,
+      "difficulty": "hard",
+      "question": "Trong các hình thức tổ chức dạy học bổ trợ cho giờ lên lớp, việc phân loại thành 'chuẩn bị, bổ sung và tổng kết' (theo thời điểm tiến hành trước, trong và sau khi học bài mới) là đặc trưng của hình thức tổ chức dạy học nào?",
+      "options": {
+        "A": "Hình thức dạy học thảo luận / Xêmina.",
+        "B": "Hình thức tham quan.",
+        "C": "Hình thức giúp đỡ riêng (phụ đạo).",
+        "D": "Hình thức hoạt động ngoại khóa."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 4.5.2.3, hình thức tham quan được phân thành 3 loại theo thời điểm tổ chức: (1) Tham quan chuẩn bị (trước khi học bài mới nhằm tích lũy biểu tượng, gây hứng thú); (2) Tham quan bổ sung (trong quá trình học nhằm minh họa, cung cấp vật liệu cho tư duy); (3) Tham quan tổng kết (sau khi học nhằm củng cố, đào sâu tri thức)."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Trong quá trình dạy học, học sinh tồn tại đồng thời với hai tư cách nào?",
+      "expected_answer": "Vừa là khách thể (đối tượng) tiếp nhận một cách tích cực, chủ động sự tác động sư phạm có định hướng của giáo viên; vừa là chủ thể nhận thức tự giác, tích cực, độc lập tự tổ chức, tự điều khiển hoạt động học tập của bản thân (quyết định trực tiếp chất lượng học tập)."
+    },
+    {
+      "id": 2,
+      "question": "Hãy nêu tên 3 nhiệm vụ cơ bản của quá trình dạy học và chỉ rõ nhiệm vụ nào giữ vai trò là cơ sở, tiền đề?",
+      "expected_answer": "Ba nhiệm vụ cơ bản của quá trình dạy học là: (1) Nhiệm vụ Giáo dưỡng; (2) Nhiệm vụ Phát triển; (3) Nhiệm vụ Giáo dục. Trong đó, nhiệm vụ Giáo dưỡng (trang bị hệ thống tri thức khoa học phổ thông, cơ bản, hiện đại và rèn luyện kỹ năng, kỹ xảo tương ứng) giữ vai trò là cơ sở, tiền đề cho hai nhiệm vụ còn lại."
+    },
+    {
+      "id": 3,
+      "question": "Hãy phát biểu chính xác mâu thuẫn cơ bản (động lực chủ yếu) của quá trình dạy học và nêu 3 điều kiện để mâu thuẫn đó trở thành động lực.",
+      "expected_answer": "Mâu thuẫn cơ bản của quá trình dạy học là mâu thuẫn giữa một bên là yêu cầu cao về nhiệm vụ học tập mới do tiến trình dạy học đề ra với một bên là trình độ phát triển nhận thức (tri thức, kỹ năng, kỹ xảo) hiện có của học sinh còn hạn chế. Ba điều kiện để trở thành động lực: (1) Học sinh phải tự ý thức được trình độ hiện có, cảm thấy khó khăn và có nhu cầu vượt cản; (2) Mâu thuẫn phải vừa sức, tương ứng với giới hạn cao nhất của vùng phát triển trí tuệ gần nhất (ZPD - L.X. Vưgotxky); (3) Mâu thuẫn phải xuất hiện tự nhiên theo đúng logic vận động của tiến trình dạy học với độ khó tăng dần."
+    },
+    {
+      "id": 4,
+      "question": "Kể tên 5 khâu trong logic của quá trình dạy học.",
+      "expected_answer": "5 khâu trong logic của quá trình dạy học gồm: (1) Kích thích thái độ học tập tích cực của học sinh; (2) Tổ chức, điều khiển học sinh hình thành tri thức mới; (3) Tổ chức, điều khiển học sinh củng cố, mở rộng và hệ thống hóa tri thức; (4) Tổ chức, điều khiển học sinh rèn luyện kỹ năng, kỹ xảo và sử dụng tri thức; (5) Kiểm tra, đánh giá và tổ chức cho học sinh tự kiểm tra, tự đánh giá."
+    },
+    {
+      "id": 5,
+      "question": "Liệt kê đầy đủ tên của 7 nguyên tắc dạy học trong hệ thống nguyên tắc dạy học ở trường phổ thông.",
+      "expected_answer": "Hệ thống 7 nguyên tắc dạy học gồm: (1) Đảm bảo sự thống nhất giữa tính khoa học và tính giáo dục; (2) Đảm bảo sự thống nhất giữa lý luận và thực tiễn; (3) Đảm bảo sự thống nhất giữa cái cụ thể và cái trừu tượng; (4) Đảm bảo sự thống nhất giữa tính vững chắc của tri thức, kỹ năng, kỹ xảo và tính mềm dẻo của tư duy; (5) Đảm bảo sự thống nhất giữa tính vừa sức chung với tính vừa sức riêng; (6) Đảm bảo sự thống nhất giữa tính hệ thống và tính tuần tự; (7) Đảm bảo sự thống nhất giữa vai trò tự giác, tích cực, độc lập của học sinh và vai trò chủ đạo của giáo viên."
+    },
+    {
+      "id": 6,
+      "question": "Nêu 4 thành phần cấu trúc cơ bản của Nội dung dạy học ở nhà trường phổ thông và cho biết vì sao nói cấu trúc môn học là 'hợp kim giữa logic khoa học và logic sư phạm'?",
+      "expected_answer": "4 thành phần cấu trúc của Nội dung dạy học gồm: (1) Hệ thống tri thức về tự nhiên, xã hội, con người, kỹ thuật và cách thức hoạt động; (2) Hệ thống kỹ năng, kỹ xảo; (3) Hệ thống những kinh nghiệm hoạt động sáng tạo; (4) Những chuẩn mực về thái độ đối với tự nhiên, xã hội, con người và cộng đồng. Cấu trúc môn học được gọi là 'hợp kim giữa logic khoa học và logic sư phạm' vì nó kết hợp biện chứng giữa Nội dung khoa học (sự kiện, quy luật chân thực của ngành khoa học) với Hình thức thể hiện sư phạm (cách tổ chức, biểu đạt phù hợp với trình độ nhận thức và phát triển tiềm năng trí tuệ của học sinh)."
+    },
+    {
+      "id": 7,
+      "question": "Phân biệt 3 bình diện (cấp độ) của phương pháp dạy học và nêu ví dụ minh họa cho từng bình diện.",
+      "expected_answer": "Ba bình diện của phương pháp dạy học từ vĩ mô đến vi mô gồm: (1) Quan điểm dạy học: những định hướng chiến lược, cương lĩnh, mô hình lý thuyết tổng thể (VD: dạy học lấy người học làm trung tâm, dạy học giải quyết vấn đề, dạy học phát triển năng lực); (2) Phương pháp dạy học cụ thể (nghĩa hẹp): mô hình hành động phối hợp của GV và HS nhằm đạt mục tiêu cụ thể (VD: thuyết trình, vấn đáp, trực quan, dự án, đóng vai); (3) Kỹ thuật dạy học (KTDH): đơn vị nhỏ nhất của PPDH, là các thao tác, biện pháp hành động trong tình huống nhỏ (VD: kỹ thuật khăn trải bàn, các mảnh ghép, động não, bể cá, tia chớp)."
+    },
+    {
+      "id": 8,
+      "question": "Kể tên 7 hình thức tổ chức dạy học ở trường phổ thông và liệt kê 5 loại bài học lên lớp theo mục đích dạy học.",
+      "expected_answer": "7 hình thức tổ chức dạy học gồm: (1) Hình thức dạy học lớp – bài (bài học lên lớp – hình thức cơ bản nhất); (2) Hình thức học ở nhà (tự học); (3) Hình thức tham quan; (4) Hình thức dạy học thảo luận (xêmina); (5) Hình thức dạy học theo nhóm; (6) Hình thức giúp đỡ riêng (phụ đạo); (7) Hình thức hoạt động ngoại khóa. 5 loại bài học lên lớp gồm: (a) Bài học lĩnh hội tri thức mới; (b) Bài học luyện tập kỹ năng, kỹ xảo; (c) Bài học khái quát hóa, hệ thống hóa; (d) Bài học kiểm tra tri thức, kỹ năng, kỹ xảo; (e) Bài học hỗn hợp."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phân tích bản chất của quá trình dạy học và rút ra kết luận sư phạm",
+      "problem": "Anh (chị) hãy phân tích cơ sở xác định và làm rõ luận điểm: 'Bản chất của quá trình dạy học là quá trình nhận thức độc đáo của học sinh dưới vai trò chủ đạo của giáo viên'. Từ đó, hãy giải thích vì sao có thể khẳng định: 'Dạy học mà không tác động đến quá trình nhận thức độc đáo của học sinh thì như đi vào ngõ cụt'.",
+      "solution_steps": [
+        "Bước 1: Xác định hai mối quan hệ nền tảng làm cơ sở quy định bản chất của quá trình dạy học (QTDH): (a) Mối quan hệ giữa hoạt động nhận thức của loài người (nhà khoa học) với hoạt động nhận thức của học sinh (HS); và (b) Mối quan hệ biện chứng giữa hoạt động Dạy của giáo viên (GV) với hoạt động Học của HS.",
+        "Bước 2: Phân tích những điểm tương đồng giữa hoạt động nhận thức của HS và hoạt động nhận thức của nhà khoa học: Cùng hướng vào khám phá các sự vật, hiện tượng trong hiện thực khách quan; cùng vận dụng các thao tác trí tuệ và tuân theo quy luật nhận thức biện chứng của V.I. Lênin ('từ trực quan sinh động đến tư duy trừu tượng, từ tư duy trừu tượng đến thực tiễn' theo con đường quy nạp hoặc diễn dịch); cùng nhằm làm giàu vốn hiểu biết về thế giới.",
+        "Bước 3: Đối sánh chi tiết 6 điểm khác biệt làm nên tính 'độc đáo' trong hoạt động nhận thức của HS so với nhà khoa học (theo Bảng 4.1): (1) Về điều kiện: diễn ra trong môi trường sư phạm thuận lợi, đã được đơn giản hóa, sư phạm hóa dưới sự hướng dẫn của GV (không phải mò mẫm độc lập); (2) Về tính chất: luôn luôn mang tính giáo dục; (3) Về thời gian: tương đối ngắn; (4) Về đối tượng: khám phá cái mới chủ quan đối với bản thân HS (không phải cái mới khách quan với nhân loại); (5) Về logic: gồm 6 khâu (ngoài 3 khâu Trực quan - Tư duy - Thực tiễn còn thêm 3 khâu sư phạm: Kích thích hứng thú; Ôn tập, củng cố; Kiểm tra, đánh giá); (6) Về kết quả: làm phong phú vốn tri thức, kỹ năng, kỹ xảo và phát triển nhân cách của HS.",
+        "Bước 4: Khẳng định kết luận bản chất QTDH và giải thích nhận định: Kết quả dạy học phản ánh tập trung ở kết quả nhận thức tài liệu học tập của HS. Do đó, nếu dạy học chỉ truyền thụ áp đặt một chiều mà không tác động vào quá trình nhận thức độc đáo của HS (không khơi dậy hứng thú, không tổ chức cho HS tự thao tác tư duy, củng cố, tự kiểm tra) thì tri thức không thể chuyển hóa thành học vấn của bản thân người học, khiến QTDH rơi vào ngõ cụt.",
+        "Bước 5: Rút ra kết luận sư phạm cho giáo viên: Phải tổ chức học tập tuân theo con đường nhận thức chung nhưng gắn chặt với 6 khâu sư phạm; hướng dẫn HS tích lũy tri thức từ nhiều nguồn, vận dụng các thao tác trí tuệ từ thấp đến cao, thực hành tri thức đã học, tạo môi trường sư phạm thuận lợi và giải quyết tốt mối quan hệ Chủ đạo (GV) – Chủ động (HS)."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Động lực của quá trình dạy học và thiết kế tình huống khởi động chứa đựng mâu thuẫn cơ bản",
+      "problem": "Trình bày lý luận về mâu thuẫn cơ bản, động lực chủ yếu của quá trình dạy học và các điều kiện để mâu thuẫn trở thành động lực. Trên cơ sở đó, hãy thiết kế một tình huống vào bài (khâu kích thích thái độ học tập tích cực) chứa đựng mâu thuẫn nhận thức vừa sức để tạo động cơ học tập cho học sinh.",
+      "solution_steps": [
+        "Bước 1: Phân biệt hai nhóm mâu thuẫn của QTDH theo triết học duy vật biện chứng: Mâu thuẫn bên trong (giữa các thành tố hoặc ngay trong từng thành tố của QTDH – việc giải quyết là nguồn gốc/động lực phát triển) và Mâu thuẫn bên ngoài (giữa các thành tố của QTDH với môi trường kinh tế - xã hội - KHCN – việc giải quyết là điều kiện phát triển).",
+        "Bước 2: Xác định mâu thuẫn cơ bản và động lực chủ yếu của QTDH: Là mâu thuẫn tồn tại xuyên suốt từ đầu đến cuối quá trình giữa một bên là yêu cầu cao về nhiệm vụ học tập mới do tiến trình dạy học đề ra với một bên là trình độ phát triển nhận thức (tri thức, kỹ năng, kỹ xảo, kinh nghiệm) hiện có của HS còn hạn chế. Việc giải quyết liên tục mâu thuẫn này trực tiếp thúc đẩy hoạt động học và nhân cách HS phát triển.",
+        "Bước 3: Phân tích 3 điều kiện để việc giải quyết mâu thuẫn cơ bản trở thành động lực chủ yếu: (1) HS phải tự ý thức được trình độ hiện có, cảm thấy rõ khó khăn (vật cản nhận thức) và xuất hiện nhu cầu vượt cản (chuyển yêu cầu khách quan thành nội động cơ); (2) Mâu thuẫn phải vừa sức, tức là tương ứng với giới hạn cao nhất của Vùng phát triển trí tuệ gần nhất (ZPD – L.X. Vưgotxky, 1896–1934), đòi hỏi sự tìm tòi căng thẳng nhưng HS có thể giải quyết nhờ nỗ lực bản thân và sự hỗ trợ của GV/bạn bè; (3) Mâu thuẫn phải nảy sinh tự nhiên từ chính logic tiến trình dạy học và logic nội dung bài học với độ khó tăng dần.",
+        "Bước 4: Thiết kế tình huống vào bài minh họa (Ví dụ trong môn Giáo dục học / Tâm lý học hoặc Khoa học tự nhiên): Ở đầu tiết học về 'Phương pháp dạy học thuyết trình và các PPDH tích cực', GV nêu tình huống thực tế: 'Một giáo viên chuẩn bị bài giảng vô cùng uyên bác, nói liên tục suốt 45 phút không nghỉ, nhưng cuối giờ kiểm tra thì 70% học sinh không nhớ được ý chính. Với kiến thức thông thường rằng thầy giỏi thì trò phải hiểu, vì sao nghịch lý này lại xảy ra và làm thế nào để khắc phục?'",
+        "Bước 5: Phân tích giá trị sư phạm của tình huống: Tình huống ngắn gọn, gắn với thực tiễn nghề nghiệp, làm bộc lộ ngay mâu thuẫn giữa kinh nghiệm thông thường của người học với yêu cầu giải thích cơ chế tâm lý – giáo dục học của các phương pháp dạy học (quá tải trí nhớ ngắn hạn, thiếu liên hệ ngược), nằm đúng trong vùng ZPD, từ đó kích thích sự chú ý và hứng thú khám phá bài mới xuyên suốt giờ học."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Đổi mới Nội dung dạy học và Chương trình giáo dục phổ thông 2018 theo định hướng phát triển phẩm chất, năng lực",
+      "problem": "Từ việc phân tích cấu trúc 4 thành phần của Nội dung dạy học và 3 cách tiếp cận xây dựng chương trình, hãy làm rõ sự đổi mới căn bản của Chương trình giáo dục phổ thông 2018 (ban hành kèm theo Thông tư số 32/2018/TT-BGDĐT) so với Chương trình 2006 và phân tích quyền tự chủ của nhà trường, giáo viên trong thực hiện chương trình.",
+      "solution_steps": [
+        "Bước 1: Phân tích 4 thành phần cấu trúc của Nội dung dạy học (NDDH) bắt nguồn từ văn hóa nhân loại: (1) Hệ thống tri thức về tự nhiên, xã hội, con người, kỹ thuật và cách thức hoạt động (nền tảng); (2) Hệ thống kỹ năng, kỹ xảo thực hiện các hoạt động đã biết; (3) Hệ thống kinh nghiệm hoạt động sáng tạo (vận dụng vào tình huống mới); (4) Hệ thống chuẩn mực về thái độ đối với tự nhiên, xã hội, con người và cộng đồng. Bốn thành phần này đòi hỏi NDDH không thể chỉ dừng ở truyền thụ tri thức mà phải phát triển toàn diện năng lực hành động và phẩm chất.",
+        "Bước 2: So sánh 3 cách tiếp cận xây dựng chương trình giáo dục: (1) Tiếp cận nội dung kiến thức (chú trọng khối lượng kiến thức cần truyền thụ, đánh giá mức độ ghi nhớ); (2) Tiếp cận mục tiêu (chuẩn hóa quy trình đào tạo theo mục tiêu đầu ra chi tiết); (3) Tiếp cận quá trình / tiếp cận phát triển (chú trọng dạy người học 'cách học', phát triển phẩm chất và năng lực cá nhân; GV làm cố vấn, trọng tài, người hướng dẫn; HS làm chủ thể tìm kiếm và xử lý thông tin).",
+        "Bước 3: Làm rõ bước chuyển lịch sử từ CTGDPT 2006 sang CTGDPT 2018 tại Việt Nam: CTGDPT 2006 (Quyết định 16/2006/QĐ-BGDĐT ngày 05/05/2006) được thiết kế theo định hướng tiếp cận nội dung; trong khi CTGDPT 2018 (Thông tư 32/2018/TT-BGDĐT ngày 26/12/2018, gồm Chương trình tổng thể và 27 chương trình môn học/HĐGD, triển khai cuốn chiếu từ năm học 2020–2021 đến 2024–2025) chuyển hẳn sang mô hình phát triển phẩm chất và năng lực người học (chuyển từ quan tâm HS 'biết được gì' sang 'làm được gì').",
+        "Bước 4: Phân tích vị thế pháp lý của Chương trình, Sách giáo khoa và quyền tự chủ của nhà trường: Trong CTGDPT 2018, Chương trình là văn bản quy phạm pháp luật (pháp lệnh nhà nước) quy định yêu cầu cần đạt về phẩm chất, năng lực cốt lõi toàn quốc; còn Sách giáo khoa chỉ là phương án cụ thể hóa chương trình (không phải là văn bản quy phạm pháp luật). Nhà trường phổ thông, Hiệu trưởng, tổ chuyên môn và GV được trao quyền tự chủ xây dựng kế hoạch giáo dục nhà trường linh hoạt, lựa chọn bổ sung nội dung địa phương và vận dụng sáng tạo gợi ý của SGK sao cho phù hợp với đối tượng HS và điều kiện thực tiễn."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Vận dụng phối hợp các Phương pháp dạy học và Kỹ thuật dạy học tích cực theo 3 bình diện",
+      "problem": "Trình bày mô hình 3 bình diện của phương pháp dạy học và giải thích tại sao trong thực tiễn sư phạm không có phương pháp dạy học nào là vạn năng. Hãy thiết kế một kịch bản tổ chức hoạt động học tập cụ thể có sự phối hợp giữa Phương pháp thuyết trình/vấn đáp với ít nhất 2 Kỹ thuật dạy học tích cực (như Kỹ thuật Khăn trải bàn, Các mảnh ghép hoặc Công não).",
+      "solution_steps": [
+        "Bước 1: Trình bày mô hình 3 bình diện của PPDH: (1) Bình diện vĩ mô – Quan điểm dạy học (định hướng chiến lược, mô hình lý thuyết như dạy học phát triển năng lực, dạy học hợp tác); (2) Bình diện trung gian – Phương pháp dạy học cụ thể (mô hình hành động của GV và HS như thuyết trình, vấn đáp, trực quan, dự án, đóng vai); (3) Bình diện vi mô – Kỹ thuật dạy học (đơn vị nhỏ nhất của PPDH, gồm các thao tác trong tình huống hành động nhỏ như động não, khăn trải bàn, các mảnh ghép, bể cá, tia chớp).",
+        "Bước 2: Lý giải vì sao không có PPDH nào là vạn năng và nêu căn cứ lựa chọn phối hợp: Mỗi PPDH đều có những ưu điểm và hạn chế nhất định (ví dụ: thuyết trình truyền tải nhanh hệ thống thông tin lớn nhưng ít phản hồi, dễ gây thụ động; làm việc nhóm phát huy hợp tác nhưng dễ tốn thời gian nếu tổ chức kém). Do đó, nghệ thuật sư phạm của GV là vận dụng phối hợp đa dạng các PPDH và KTDH dựa trên: mục tiêu, nội dung và đặc trưng môn học; đặc điểm tâm sinh lý, nhận thức của HS; điều kiện cơ sở vật chất, phương tiện dạy học và năng lực sư phạm của GV.",
+        "Bước 3: Thiết kế kịch bản phối hợp (Giai đoạn 1 – Khởi động bằng Kỹ thuật Động não & Vấn đáp tìm tòi): Khi dạy chủ đề mới (ví dụ: 'Các nguyên tắc dạy học' hoặc một chủ đề bộ môn), GV dùng Kỹ thuật Động não (Brainstorming) kết hợp câu hỏi nêu vấn đề trong 3 phút để HS phát biểu nhanh mọi ý tưởng mà không phê phán, qua đó huy động kinh nghiệm cũ và tạo tâm thế tích cực.",
+        "Bước 4: Thiết kế kịch bản phối hợp (Giai đoạn 2 – Hình thành tri thức mới bằng Kỹ thuật Các mảnh ghép 2 vòng kết hợp Khăn trải bàn): Ở Vòng 1 (Nhóm chuyên gia), mỗi nhóm dùng Kỹ thuật Khăn trải bàn trên giấy A0 (cá nhân tự viết vào ô riêng xung quanh trong 3 phút, sau đó nhóm thảo luận ghi ý chung vào ô giữa) để nghiên cứu sâu một nội dung thành phần. Ở Vòng 2 (Nhóm mảnh ghép), đại diện các nhóm chuyên gia ghép lại thành nhóm mới, chia sẻ trọn vẹn kiến thức vòng 1 và cùng giải quyết một bài tập tình huống tổng hợp.",
+        "Bước 5: Thiết kế kịch bản phối hợp (Giai đoạn 3 – Tổng kết bằng Thuyết trình giảng giải & Kỹ thuật Trình bày một phút): GV sử dụng phương pháp Giảng giải ngắn gọn kết hợp Lược đồ tư duy để chuẩn hóa, chốt lại hệ thống khái niệm cốt lõi; cuối tiết học áp dụng Kỹ thuật 'Trình bày một phút' để HS tự đánh giá điều quan trọng nhất đã học được và nêu câu hỏi còn băn khoăn (thu tín hiệu ngược trong và ngược ngoài)."
+      ]
+    }
+  ]
+}

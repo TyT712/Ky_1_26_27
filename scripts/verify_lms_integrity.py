@@ -68,6 +68,14 @@ COURSES_TO_AUDIT = [
         "chapters": [
             "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5", "chuong_6", "chuong_7"
         ]
+    },
+    {
+        "id": "giao_duc_hoc_1",
+        "name": "Giáo Dục Học 1 (Cornell & 30 MCQ/Chương)",
+        "dir": DOCS / "data" / "giao_duc_hoc_1",
+        "chapters": [
+            "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5"
+        ]
     }
 ]
 
@@ -239,6 +247,10 @@ def audit_static_server():
         "data/tam_ly_hoc_tri_tue/chuong_1_theory.md",
         "data/tam_ly_hoc_tri_tue/chuong_7_exercises.json",
         "data/tam_ly_hoc_tri_tue/chuong_7_theory.md",
+        "data/giao_duc_hoc_1/chuong_1_exercises.json",
+        "data/giao_duc_hoc_1/chuong_1_theory.md",
+        "data/giao_duc_hoc_1/chuong_5_exercises.json",
+        "data/giao_duc_hoc_1/chuong_5_theory.md",
         "data/cnxhkh/chuong_7_theory.md",
         ".nojekyll"
     ]

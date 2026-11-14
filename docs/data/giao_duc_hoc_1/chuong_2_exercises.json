@@ -1,0 +1,487 @@
+{
+  "chapter_id": "chuong_2",
+  "chapter_title": "Chương 2: Giáo dục và sự phát triển nhân cách",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng (đại diện là C. Mác và F. Ăngghen), con người được nhìn nhận trong sự thống nhất của hai phương diện cơ bản nào?",
+      "options": {
+        "A": "Con người vừa là một thực thể tự nhiên (khâu tiến hóa cao nhất của tự nhiên có ý thức, tư duy, ngôn ngữ), vừa là một thực thể xã hội mang bản chất xã hội.",
+        "B": "Con người vừa là một thực thể sinh học thuần túy chịu sự chi phối tuyệt đối của bản năng, vừa là một thực thể siêu nhiên do đấng tối cao sáng tạo ra.",
+        "C": "Con người vừa là một cỗ máy cơ học vận hành theo các định luật vật lý cổ điển, vừa là một cá thể biệt lập hoàn toàn khỏi đời sống cộng đồng xã hội.",
+        "D": "Con người vừa là một thực thể tinh thần tiên nghiệm tồn tại trước thế giới vật chất, vừa là một sản phẩm thụ động không có khả năng cải tạo hoàn cảnh."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo giáo trình Giáo dục học 1 (Mục 2.1.1), chủ nghĩa duy vật biện chứng (C. Mác và F. Ăngghen) khẳng định con người vừa là thực thể tự nhiên (sản phẩm tiến hóa cao nhất của tự nhiên, có ý thức, tư duy, ngôn ngữ, vận động theo quy luật tự nhiên - sinh học), vừa là thực thể xã hội (sản phẩm của quá trình xã hội hóa, mang bản chất xã hội)."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Trong 'Luận cương về Phơ Bách' (Feuerbach), C. Mác đã đưa ra luận điểm khoa học nổi tiếng nào để xác định bản chất của con người?",
+      "options": {
+        "A": "Bản chất của con người là một phạm trù trừu tượng, bất biến, vốn có sẵn trong cấu trúc gen di truyền của mỗi cá nhân riêng biệt ngay từ khi mới lọt lòng.",
+        "B": "Bản chất của con người không phải là cái gì trừu tượng, vốn có của mỗi cá nhân riêng biệt, trong tính hiện thực của nó, bản chất con người là tổng hòa các mối quan hệ xã hội.",
+        "C": "Bản chất của con người là sự kết hợp ngẫu nhiên của các xung năng sinh물 học vô thức với những thói quen phản xạ có điều kiện hình thành qua thử và sai.",
+        "D": "Bản chất của con người là tấm gương phản chiếu thụ động các điều kiện địa lý, khí hậu và sinh thái tự nhiên nơi cá nhân đó sinh sống suốt cuộc đời."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong Luận cương về Phơ Bách, C. Mác viết: 'Bản chất của con người không phải là cái gì trừu tượng, vốn có của mỗi cá nhân riêng biệt, trong tính hiện thực của nó, bản chất con người là tổng hòa các mối quan hệ xã hội' (Mục 2.1.1)."
+    },
+    {
+      "id": 3,
+      "difficulty": "medium",
+      "question": "Theo phân tích trong giáo trình (Mục 2.1.1), việc khẳng định con người tồn tại với tư cách là 'chủ thể hoạt động có ý thức' mang ý nghĩa gì trong mối quan hệ với tồn tại khách quan?",
+      "options": {
+        "A": "Con người có thể tùy ý xóa bỏ mọi quy luật tự nhiên - sinh học và quy luật lịch sử - xã hội chỉ bằng ý muốn chủ quan của cá nhân mình.",
+        "B": "Con người chỉ có thể thích nghi thụ động với môi trường tự nhiên giống như các loài động vật bậc cao mà không thể làm thay đổi các thể chế xã hội.",
+        "C": "Con người không chỉ là sản phẩm của xã hội mà còn tác động trở lại làm biến đổi môi trường tự nhiên, môi trường sống, thay đổi các quan hệ xã hội và qua đó tự hoàn thiện bản thân.",
+        "D": "Con người chỉ nhận thức thế giới thông qua việc tự quan sát nội tâm khép kín mà không cần tham gia vào các hoạt động thực tiễn hay giao lưu xã hội."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.1.1 chỉ rõ: Con người không chỉ là sản phẩm của xã hội mà bao giờ cũng tồn tại với tư cách là chủ thể hoạt động có ý thức; con người tác động trở lại tồn tại khách quan, làm biến đổi môi trường tự nhiên, xã hội và thông qua quá trình đó không ngừng hoàn thiện bản thân."
+    },
+    {
+      "id": 4,
+      "difficulty": "medium",
+      "question": "Định nghĩa: 'Nhân cách là tổ hợp các thái độ, các thuộc tính riêng trong quan hệ hành động của từng người với thế giới tự nhiên, thế giới đồ vật do loài người sáng tạo, với xã hội và với cá nhân' là của tác giả nào?",
+      "options": {
+        "A": "Tác giả Đặng Vũ Hoạt trong công trình nghiên cứu giáo dục học xuất bản năm 1987.",
+        "B": "Tác giả Nguyễn Quang Uẩn trong công trình nghiên cứu tâm lý học xuất bản năm 1995.",
+        "C": "Tác giả Phạm Viết Vượng trong giáo trình giáo dục học xuất bản năm 2012.",
+        "D": "Tác giả Phạm Minh Hạc trong công trình nghiên cứu xuất bản năm 1994."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 2.1.2, định nghĩa: 'Nhân cách là tổ hợp các thái độ, các thuộc tính riêng trong quan hệ hành động của từng người với thế giới tự nhiên, thế giới đồ vật do loài người sáng tạo, với xã hội và với cá nhân' là của GS.VS. Phạm Minh Hạc (1994)."
+    },
+    {
+      "id": 5,
+      "difficulty": "medium",
+      "question": "Tác giả nào đã định nghĩa nhân cách là 'sự thống nhất giữa phẩm chất và năng lực, giữa đức và tài; đó là một tổ hợp thống nhất giữa bốn nhóm thuộc tính tâm lý cơ bản của nhân cách: xu hướng; tính cách; khí chất và năng lực'?",
+      "options": {
+        "A": "Tác giả Nguyễn Quang Uẩn (1995).",
+        "B": "Tác giả Đặng Vũ Hoạt (1987).",
+        "C": "Tác giả Phạm Minh Hạc (1994).",
+        "D": "Tác giả Phạm Viết Vượng (2012)."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 2.1.2, định nghĩa nhân cách nhấn mạnh sự thống nhất giữa phẩm chất và năng lực (đức và tài) và tổ hợp 4 nhóm thuộc tính tâm lý cơ bản (xu hướng, tính cách, khí chất, năng lực) là của Nguyễn Quang Uẩn (1995)."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "Quan điểm coi nhân cách là đặc trưng của một con người theo khía cạnh sự gia nhập vào chỉnh thể xã hội và là 'mức độ chiếm lĩnh của mỗi cá nhân những sức mạnh bản chất (tự nhiên và xã hội) của loài người' thuộc về học giả nào?",
+      "options": {
+        "A": "Phạm Minh Hạc (1994).",
+        "B": "Đặng Vũ Hoạt (1987).",
+        "C": "Phạm Viết Vượng (2012).",
+        "D": "Nguyễn Quang Uẩn (1995)."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.1.2 dẫn rõ quan điểm của Đặng Vũ Hoạt (1987): 'Nói đến nhân cách là nói đến đặc trưng của một con người theo khía cạnh sự gia nhập của người đó vào chỉnh thể xã hội... Nhân cách là mức độ chiếm lĩnh của mỗi cá nhân những sức mạnh bản chất (tự nhiên và xã hội) của loài người'."
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "question": "Theo tổng hợp từ các định nghĩa trong giáo trình (Mục 2.1.2), những đặc điểm bản chất cốt lõi của nhân cách bao gồm những điểm nào sau đây?",
+      "options": {
+        "A": "Là những phản xạ bản năng có sẵn từ trong bào thai; hoàn toàn giống hệt nhau ở mọi cá nhân cùng huyết thống và không bao giờ thay đổi suốt đời.",
+        "B": "Là những trạng thái xúc cảm thoáng qua mang tính tình huống ngẫu nhiên; độc lập hoàn toàn với yêu cầu của xã hội và thời đại lịch sử.",
+        "C": "Là hệ thống các thuộc tính ổn định của con người phù hợp với yêu cầu của xã hội và thời đại; mỗi người có nhân cách riêng (nét chung và nét khác biệt); định hình ở một giai đoạn nhất định và ổn định khi trở thành chủ thể xã hội.",
+        "D": "Là tập hợp các đặc điểm giải phẫu sinh lý như màu da, màu mắt, chiều cao, nhóm máu được truyền nguyên vẹn từ cha mẹ sang con cái qua cấu trúc gen."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.1.2 nêu 3 đặc điểm bản chất của nhân cách: (1) Một hệ thống các thuộc tính ổn định đa dạng (năng lực, đạo đức, trí tuệ, thể chất, thẩm mỹ...) phù hợp yêu cầu xã hội và thời đại; (2) Mỗi người có nhân cách riêng (có nét chung và nét khác biệt); (3) Định hình ở một giai đoạn nhất định và ổn định khi đã trở thành một chủ thể xã hội."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "Sự phát triển nhân cách của con người được biểu hiện cụ thể và toàn diện trên ba mặt cơ bản nào?",
+      "options": {
+        "A": "Phát triển về cấu trúc gen di truyền, phát triển về các phản xạ không điều kiện và phát triển về kích thước giải phẫu hộp sọ.",
+        "B": "Phát triển về địa vị kinh tế, phát triển về quyền lực chính trị và phát triển về số lượng tài sản vật chất tích lũy được của cá nhân.",
+        "C": "Phát triển về cảm giác đơn lẻ, phát triển về kỹ xảo vận động cơ bắp tự động và phát triển về bản năng tự vệ sinh tồn.",
+        "D": "Phát triển về thể chất, phát triển về mặt tâm lý - ý thức và sự phát triển về mặt xã hội."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 2.1.3, sự phát triển nhân cách bao gồm 3 mặt cụ thể: (1) Phát triển về thể chất; (2) Phát triển về mặt tâm lý, ý thức; (3) Sự phát triển về mặt xã hội."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Trong ba mặt của sự phát triển nhân cách, 'sự phát triển về mặt xã hội' của cá nhân được biểu hiện đặc trưng ở dấu hiệu nào?",
+      "options": {
+        "A": "Cá nhân tích cực, tự giác tham gia vào các mặt khác nhau của đời sống xã hội, trở thành chủ thể trong các mối quan hệ ở nhà trường, gia đình, xã hội và chịu trách nhiệm về các hành vi của mình.",
+        "B": "Sự tăng trưởng nhanh chóng về chiều cao, cân nặng, cơ bắp cũng như sự hoàn thiện các giác quan và các chức năng sinh lý bên trong cơ thể.",
+        "C": "Sự xuất hiện của các phản xạ tự vệ bẩm sinh giúp cơ thể trẻ sơ sinh thích ứng được với sự thay đổi nhiệt độ và ánh sáng của môi trường tự nhiên.",
+        "D": "Sự gia tăng tốc độ dẫn truyền xung thần kinh trên vỏ bán cầu đại não khi cá nhân tiếp nhận các tác nhân kích thích vật lý đơn lẻ."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.1.3 giải thích rõ: Sự phát triển về mặt xã hội biểu hiện ở chỗ trên cơ sở hình thành các thuộc tính mới của nhân cách và phát triển ý thức, cá nhân tích cực, tự giác tham gia vào các mặt đời sống xã hội, trở thành chủ thể trong các mối quan hệ (nhà trường, gia đình, xã hội) và chịu trách nhiệm về các hành vi của mình."
+    },
+    {
+      "id": 10,
+      "difficulty": "hard",
+      "question": "Theo Mục 2.2.1.1 của giáo trình, khái niệm 'di truyền' và mối quan hệ giữa 'bẩm sinh' với 'di truyền' được xác định như thế nào?",
+      "options": {
+        "A": "Di truyền và bẩm sinh là hai khái niệm hoàn toàn đồng nhất tuyệt đối, mọi đặc điểm bẩm sinh đều bắt nguồn 100% từ cấu trúc gen của cha mẹ.",
+        "B": "Di truyền là sự truyền lại từ cha mẹ đến con những đặc điểm sinh học ghi trong cấu trúc gen; còn bẩm sinh là thuộc tính sinh học khi sinh ra đã có (gồm 3 dạng: bẩm sinh do di truyền, bẩm sinh không do di truyền, và di truyền nhưng không bẩm sinh).",
+        "C": "Di truyền là sự kế thừa các giá trị đạo đức, văn hóa và ngôn ngữ từ cha mẹ; còn bẩm sinh là những kỹ năng nghề nghiệp hình thành sau khi trưởng thành.",
+        "D": "Bẩm sinh chỉ bao gồm các dị tật do tai nạn sau khi sinh, còn di truyền chỉ bao gồm các nét tính cách và xu hướng chính trị của gia đình."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.2.1.1 định nghĩa: Di truyền là sự tái tạo ở trẻ những thuộc tính sinh học giống cha mẹ, truyền lại qua cấu trúc gen (cấu trúc giải phẫu - sinh lý, đặc điểm cơ thể, phẩm chất hệ thần kinh). Bẩm sinh là những thuộc tính sinh học khi sinh ra đã có. Quan hệ giữa chúng gồm 3 dạng: bẩm sinh do di truyền; bẩm sinh không do di truyền; di truyền nhưng không bẩm sinh."
+    },
+    {
+      "id": 11,
+      "difficulty": "easy",
+      "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng, yếu tố di truyền – bẩm sinh giữ vai trò gì đối với sự hình thành và phát triển nhân cách?",
+      "options": {
+        "A": "Giữ vai trò chủ đạo, định hướng toàn bộ mục tiêu, nội dung và phương pháp phát triển nhân cách của cá nhân.",
+        "B": "Giữ vai trò quyết định trực tiếp nhất, quy định sẵn kiểu nhân cách và giới hạn trình độ phát triển tối đa của mỗi người.",
+        "C": "Giữ vai trò là tiền đề vật chất (tiền đề sinh học) cho sự hình thành và phát triển nhân cách, không quyết định trước kiểu nhân cách hay giới hạn trình độ phát triển.",
+        "D": "Hoàn toàn không có bất kỳ vai trò hay ảnh hưởng nào đối với sự hình thành và phát triển nhân cách của con người."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.2.1.2 khẳng định: Di truyền, bẩm sinh có vai trò rất quan trọng nhưng chỉ là yếu tố tiền đề (tiền đề vật chất) cho sự hình thành và phát triển nhân cách, không quyết định trước nhân cách hay quy định xu hướng phát triển, cũng như không giới hạn trình độ phát triển của nhân cách."
+    },
+    {
+      "id": 12,
+      "difficulty": "hard",
+      "question": "Các trường hợp trẻ em từ nhỏ bị lạc và được thú rừng nuôi cũng như các nghiên cứu trên trẻ sinh đôi cùng trứng được giáo trình (Mục 2.2.1.2) đưa ra nhằm chứng minh luận điểm khoa học nào?",
+      "options": {
+        "A": "Chứng minh rằng động vật bậc cao cũng có khả năng hình thành ý thức và nhân cách giống hệt con người nếu được nuôi dưỡng trong rừng tự nhiên.",
+        "B": "Chứng minh rằng cấu trúc gen di truyền quyết định tuyệt đối 100% tính cách, đạo đức và tài năng của con người bất chấp mọi hoàn cảnh sống.",
+        "C": "Chứng minh rằng yếu tố sinh học hoàn toàn vô nghĩa và một đứa trẻ bị tổn thương não bộ nặng nề vẫn tự động phát triển bình thường không cần hỗ trợ.",
+        "D": "Chứng minh rằng di truyền không quyết định trước nhân cách: dù có tư chất người mà không sống trong xã hội loài người thì không có nhân cách, và có cùng đặc điểm di truyền nhưng sống ở điều kiện xã hội và hoạt động khác nhau thì nhân cách cũng khác nhau."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.2.1.2 phân tích: Trẻ em bị lạc do thú rừng nuôi chứng minh dù có tư chất người mà không sống trong xã hội loài người cũng không thể có nhân cách; trẻ sinh đôi cùng trứng chứng minh cùng đặc điểm di truyền nhưng sống trong điều kiện xã hội và hoạt động khác nhau thì nhân cách cũng khác nhau."
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "question": "Giáo trình Giáo dục học 1 (Mục 2.2.1.2) giải thích như thế nào về mối quan hệ giữa 'tư chất' với 'năng lực' và giữa 'kiểu hình thần kinh' với 'khí chất, tính cách'?",
+      "options": {
+        "A": "Tư chất chỉ là điều kiện sinh học tiền đề chứ không quyết định sẵn năng lực (một tư chất có thể tham gia hiệu quả ở nhiều lĩnh vực tùy thuộc hoàn cảnh và rèn luyện); kiểu hình thần kinh là cơ sở sinh lý của khí chất nhưng không định trước tính cách.",
+        "B": "Mỗi tư chất sinh học quy định cứng nhắc một năng lực nghề nghiệp duy nhất không thể thay đổi, và mỗi kiểu hình thần kinh sinh ra một nét tính cách cố định suốt đời.",
+        "C": "Tư chất và năng lực là hai khái niệm đồng nhất hoàn toàn, trong khi khí chất là thuộc tính thuần túy sinh học không hề chịu sự chi phối của xã hội hay giáo dục.",
+        "D": "Kiểu hình thần kinh quyết định trực tiếp phẩm chất đạo đức của cá nhân, còn tư chất chỉ xuất hiện sau khi cá nhân đã hoàn thành bậc giáo dục đại học."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 2.2.1.2: Tư chất là đặc điểm sinh học có sẵn trong cấu tạo não, giác quan, vận động... chỉ là điều kiện để hình thành năng lực chứ không quyết định sẵn năng lực (người có tư chất có thể hoạt động hiệu quả ở nhiều lĩnh vực rộng rãi). Kiểu hình thần kinh là cơ sở sinh lý thần kinh của khí chất (khí chất mang bản chất xã hội, biến đổi do rèn luyện, giáo dục) và không định trước những nét tính cách (cùng một kiểu thần kinh có thể có tính cách khác nhau và ngược lại)."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Vào cuối thế kỷ XIX - đầu thế kỷ XX ở phương Tây, trường phái sai lầm nào đã cho rằng 'nhân cách, đạo đức của con người cũng mang tính di truyền vì thế cha mẹ thuộc tầng lớp nào sẽ quyết định vận mệnh của con cái họ như vậy'?",
+      "options": {
+        "A": "Trường phái Tâm lý học hoạt động Xô viết.",
+        "B": "Phái 'Nhi đồng học' (cùng với 'Thuyết ưu sinh' và thuyết 'Định mệnh do di truyền').",
+        "C": "Thuyết 'Giáo dục là vạn năng'.",
+        "D": "Thuyết 'Định mệnh do hoàn cảnh'."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.2.1.3 chỉ rõ: Phái 'Nhi đồng học' (lan truyền mạnh ở phương Tây cuối thế kỷ XIX, đầu thế kỷ XX) cho rằng nhân cách, đạo đức con người mang tính di truyền nên cha mẹ thuộc tầng lớp nào sẽ quyết định vận mệnh con cái như vậy (con nhà bác học, giàu có sẽ thông thái, giàu có; con người lao động hay kẻ trộm cắp, rượu chè cũng chỉ như cha mẹ chúng)."
+    },
+    {
+      "id": 15,
+      "difficulty": "easy",
+      "question": "Khi phân loại môi trường tác động đến con người (Mục 2.2.2.1), 'môi trường xã hội' được chia thành hai phạm vi nào và mối quan hệ giữa chúng diễn ra ra sao?",
+      "options": {
+        "A": "Chia thành môi trường khí quyển và môi trường sinh quyển; cả hai đều chỉ tác động đến sự tăng trưởng chiều cao của cơ thể trẻ em.",
+        "B": "Chia thành môi trường di truyền và môi trường bẩm sinh; môi trường di truyền tác động trực tiếp còn môi trường bẩm sinh tác động gián tiếp.",
+        "C": "Chia thành môi trường lớn (chế độ chính trị - xã hội, thể chế kinh tế, chính sách, văn hóa quốc gia) và môi trường nhỏ hay hoàn cảnh (gia đình, nhà trường, nhóm bạn, địa phương...); môi trường nhỏ tác động trực tiếp đến trẻ, môi trường lớn ảnh hưởng thông qua môi trường nhỏ.",
+        "D": "Chia thành môi trường ảo và môi trường thực; trong đó môi trường lớn luôn biến đổi nhanh chóng và dễ dàng hơn rất nhiều so với môi trường nhỏ."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.2.2.1 nêu rõ: Môi trường xã hội ở phạm vi rộng (môi trường lớn) là chế độ chính trị - xã hội, thể chế kinh tế, chính sách, nền văn hóa quốc gia; ở phạm vi hẹp (môi trường nhỏ / hoàn cảnh) là quan hệ gia đình, nhà trường, nhóm bạn, địa phương... Môi trường nhỏ tác động trực tiếp đến trẻ, môi trường lớn ảnh hưởng đến trẻ thông qua môi trường nhỏ; song môi trường nhỏ có tính độc lập tương đối và biến đổi dễ dàng, nhanh chóng hơn."
+    },
+    {
+      "id": 16,
+      "difficulty": "medium",
+      "question": "Vì sao trong cùng một môi trường xã hội nhưng ảnh hưởng của môi trường đối với sự hình thành và phát triển nhân cách của các cá nhân khác nhau lại không hoàn toàn giống nhau?",
+      "options": {
+        "A": "Vì môi trường xã hội chỉ tác động đến người trưởng thành mà hoàn toàn không có bất kỳ tác động nào đối với trẻ em ở lứa tuổi học đường.",
+        "B": "Vì các quy luật của môi trường xã hội hoàn toàn phụ thuộc vào nhóm máu và màu mắt bẩm sinh của từng cá nhân trong cộng đồng.",
+        "C": "Vì môi trường xã hội chỉ cung cấp thức ăn và nước uống chứ không bao giờ đặt ra yêu cầu hay mô hình nhân cách cho các thành viên.",
+        "D": "Vì mỗi thành viên có vị trí xã hội, điều kiện sống, học tập, lao động khác nhau và mỗi cá nhân có lập trường, quan điểm, thái độ, năng lực, nhu cầu khác nhau trước các tác động của môi trường."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo luận điểm thứ năm trong Mục 2.2.2.2: Trong cùng một môi trường xã hội nhưng mỗi thành viên có vị trí xã hội, điều kiện sống, học tập, lao động khác nhau; hơn nữa mỗi cá nhân có lập trường, quan điểm, thái độ, năng lực, nhu cầu không giống nhau nên tính chất, mức độ tiếp thu hay phản đối ảnh hưởng của môi trường cũng khác nhau."
+    },
+    {
+      "id": 17,
+      "difficulty": "medium",
+      "question": "Theo phân tích tại Mục 2.2.2.2, môi trường kinh tế thị trường định hướng xã hội chủ nghĩa và chính sách 'mở cửa' ở Việt Nam hiện nay mang lại những yếu tố tích cực nào cho sự phát triển nhân cách?",
+      "options": {
+        "A": "Làm cho con người năng động hơn, linh hoạt hơn, có chí tiến thủ, có khả năng tự lập cao hơn; đồng thời tạo điều kiện hội nhập, thu hút sự hợp tác và tiếp thu có chọn lọc các giá trị tốt đẹp của nhân loại.",
+        "B": "Giúp xóa bỏ hoàn toàn mọi tệ nạn xã hội và mọi nguy cơ suy thoái đạo đức mà không cần đến vai trò định hướng của gia đình hay nhà trường.",
+        "C": "Làm cho mọi công dân đều có trình độ trí tuệ và năng lực nghệ thuật ngang bằng nhau một cách tự động mà không cần trải qua học tập hay rèn luyện.",
+        "D": "Khuyến khích lối sống khép kín, tự cấp tự túc và từ chối mọi giao lưu văn hóa với cộng đồng thế giới để bảo tồn nguyên trạng các tập quán cổ xưa."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.2.2.2 chỉ rõ mặt tích cực của môi trường kinh tế thị trường định hướng XHCN và mở cửa: làm cho con người năng động hơn, linh hoạt hơn, có chí tiến thủ, khả năng tự lập cao hơn; hội nhập thế giới giúp thu hút hợp tác và chọn lọc các giá trị tốt đẹp của nhân loại."
+    },
+    {
+      "id": 18,
+      "difficulty": "medium",
+      "question": "Bên cạnh những mặt tích cực, giáo trình (Mục 2.2.2.2) đã cảnh báo những mặt tiêu cực nào của cơ chế kinh tế thị trường và hội nhập đang đe dọa sự phát triển nhân cách thế hệ trẻ nếu thiếu sự định hướng và tự rèn luyện?",
+      "options": {
+        "A": "Tình trạng học sinh dành quá nhiều thời gian cho việc nghiên cứu khoa học cơ bản và tham gia các kỳ thi Olympic quốc tế.",
+        "B": "Thái độ tôn sùng đồng tiền, coi thường đạo lý, muốn làm giàu nhanh chóng bất chấp pháp luật, tình trạng tham nhũng, hối lộ và sự thâm nhập các ảnh hưởng văn hóa tiêu cực từ bên ngoài.",
+        "C": "Sự gia tăng số lượng các trường chuyên, lớp năng khiếu và các trung tâm phục hồi chức năng giáo dục hòa nhập cộng đồng trên cả nước.",
+        "D": "Sự phối hợp quá chặt chẽ giữa ba lực lượng giáo dục là nhà trường, gia đình và các đoàn thể xã hội tại địa phương nơi cư trú."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.2.2.2 nêu rõ mặt tiêu cực của kinh tế thị trường và mở cửa: thái độ tôn sùng đồng tiền, coi thường đạo lý, muốn làm giàu nhanh chóng bất chấp pháp luật, tham nhũng, hối lộ và sự thâm nhập các ảnh hưởng tiêu cực từ bên ngoài gây nguy cơ tha hóa, suy thoái nhân cách."
+    },
+    {
+      "id": 19,
+      "difficulty": "easy",
+      "question": "Để khẳng định mối quan hệ tác động qua lại biện chứng giữa hoàn cảnh môi trường và tính tích cực cải tạo hoàn cảnh của con người, C. Mác đã nêu luận điểm nổi tiếng nào?",
+      "options": {
+        "A": "Con người là một tấm lụa trắng thụ động mà hoàn cảnh môi trường muốn nhuộm thành màu gì thì sẽ trở thành màu đó.",
+        "B": "Hoàn cảnh tự nhiên là yếu tố duy nhất quyết định sự hưng thịnh hay suy vong của mọi nền văn minh nhân loại trong lịch sử.",
+        "C": "Hoàn cảnh sáng tạo ra con người trong chừng mực con người sáng tạo ra hoàn cảnh.",
+        "D": "Giáo dục nhà trường có thể thay thế hoàn toàn mọi điều kiện của hoàn cảnh xã hội và môi trường tự nhiên."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong Mục 2.2.2.2, giáo trình trích dẫn luận điểm của C. Mác: 'Hoàn cảnh sáng tạo ra con người trong chừng mực con người sáng tạo ra hoàn cảnh' nhằm nhấn mạnh con người bằng tính tích cực của mình phải cải tạo hoàn cảnh."
+    },
+    {
+      "id": 20,
+      "difficulty": "medium",
+      "question": "Quan điểm sai lầm nào đã tuyệt đối hóa vai trò của môi trường khi cho rằng 'mỗi đứa trẻ, mỗi con người như một tấm lụa trắng, đứa trẻ đó sẽ trở thành người như thế nào là hoàn toàn do môi trường tạo nên'?",
+      "options": {
+        "A": "Thuyết 'Định mệnh do di truyền'.",
+        "B": "Thuyết 'Ưu sinh học'.",
+        "C": "Thuyết 'Giáo dục là vạn năng'.",
+        "D": "Thuyết 'Định mệnh do hoàn cảnh'."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.2.2.3 phê phán thuyết 'Định mệnh do hoàn cảnh': tuyệt đối hóa vai trò của môi trường, cho rằng trẻ sinh ra dù có khuyết tật gì nhưng sống trong môi trường tốt sẽ thành người tốt, hoặc coi mỗi đứa trẻ như một 'tấm lụa trắng' hoàn toàn do môi trường tạo nên."
+    },
+    {
+      "id": 21,
+      "difficulty": "easy",
+      "question": "Khi bàn về vai trò của yếu tố giáo dục đối với sự phát triển nhân cách (Mục 2.2.3.1), khoa học giáo dục muốn nhấn mạnh trước hết đến loại hình giáo dục nào?",
+      "options": {
+        "A": "Giáo dục nhà trường – hệ thống những tác động có mục đích, có kế hoạch, có nội dung, phương pháp được thực hiện trong hệ thống nhà trường nhằm hình thành và phát triển nhân cách phù hợp yêu cầu xã hội.",
+        "B": "Những tác động tự phát, ngẫu nhiên, không có kế hoạch của các phương tiện truyền thông đại chúng và mạng xã hội đối với cá nhân.",
+        "C": "Quá trình truyền đạt kinh nghiệm sản xuất nhỏ lẻ theo lối truyền nghề gia truyền tự phát trong phạm vi gia đình phong kiến.",
+        "D": "Sự thích nghi sinh học bản năng của cơ thể trẻ em trước những biến đổi của thời tiết và khí hậu tự nhiên vùng miền."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.2.3.1 xác định: Khi nói đến vai trò của giáo dục đối với sự phát triển nhân cách, người ta muốn nhấn mạnh đến giáo dục nhà trường – hệ thống những tác động có mục đích, kế hoạch, nội dung, phương pháp thực hiện trong hệ thống nhà trường."
+    },
+    {
+      "id": 22,
+      "difficulty": "easy",
+      "question": "Trong hệ thống bốn yếu tố ảnh hưởng đến sự hình thành và phát triển nhân cách, yếu tố giáo dục giữ vai trò gì?",
+      "options": {
+        "A": "Giữ vai trò là tiền đề vật chất ban đầu.",
+        "B": "Giữ vai trò chủ đạo đối với sự hình thành và phát triển nhân cách.",
+        "C": "Giữ vai trò là điều kiện tự nhiên bên ngoài.",
+        "D": "Giữ vai trò vạn năng quyết định tuyệt đối 100% nhân cách."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.2.3.2 và 2.2.3.4 khẳng định: Giáo dục giữ vai trò chủ đạo đối với sự hình thành, phát triển và hoàn thiện nhân cách cho mỗi con người."
+    },
+    {
+      "id": 23,
+      "difficulty": "hard",
+      "question": "Theo Mục 2.2.3.2, vai trò chủ đạo của giáo dục trong việc tác động và điều tiết yếu tố 'di truyền – bẩm sinh' được thể hiện cụ thể như thế nào?",
+      "options": {
+        "A": "Giáo dục có thể làm thay đổi hoàn toàn cấu trúc chuỗi xoắn kép ADN và nhóm máu của học sinh ngay trong một tiết học trên lớp.",
+        "B": "Giáo dục loại bỏ hoàn toàn những học sinh có khiếm khuyết bẩm sinh ra khỏi hệ thống trường học để chỉ tập trung dạy những học sinh có tư chất thiên tài.",
+        "C": "Giáo dục tạo điều kiện để yếu tố di truyền bộc lộ, phát hiện và bồi dưỡng năng khiếu thành tài năng (qua lớp chọn, trường chuyên, thi HS giỏi, Olympic...); đồng thời cải tạo, bù đắp những khiếm khuyết bẩm sinh (qua trung tâm phục hồi chức năng, dạy trẻ khuyết tật và giáo dục hòa nhập cộng đồng).",
+        "D": "Giáo dục giữ thái độ trung lập, chờ đợi cho các tư chất di truyền tự động chín muồi thành năng lực mà không cần bất kỳ sự can thiệp sư phạm nào."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.2.3.2 (luận điểm 4) nêu rõ đối với di truyền - bẩm sinh: (1) Tạo điều kiện cho yếu tố di truyền bộc lộ, phát hiện năng khiếu và bồi dưỡng tài năng qua lớp chọn, trường chuyên, lớp năng khiếu, thi Olympic, thi HS giỏi...; (2) Cải tạo yếu tố không thuận lợi qua trung tâm phục hồi chức năng, trung tâm nuôi dạy trẻ khuyết tật (câm, mù, điếc, chậm phát triển trí tuệ...) và chương trình giáo dục hòa nhập cộng đồng."
+    },
+    {
+      "id": 24,
+      "difficulty": "hard",
+      "question": "Đối với yếu tố 'môi trường', vai trò chủ đạo của giáo dục được thể hiện qua những phương thức tác động cụ thể nào theo Mục 2.2.3.2?",
+      "options": {
+        "A": "Tách biệt hoàn toàn học sinh ra khỏi gia đình và xã hội để nuôi dạy trong một môi trường khép kín tuyệt đối suốt 12 năm phổ thông.",
+        "B": "Chấp nhận toàn bộ các tác động tự phát của môi trường kinh tế thị trường mà không thực hiện bất kỳ sự sàng lọc hay can thiệp sư phạm nào.",
+        "C": "Thay thế hoàn toàn chức năng kinh tế của xã hội và chức năng sinh đẻ, nuôi dưỡng của gia đình bằng các bài giảng lý thuyết trên lớp.",
+        "D": "Phát hiện và sử dụng yếu tố thuận lợi của môi trường; kết hợp Nhà trường - Gia đình - Xã hội tạo sức mạnh tổng hợp; hạn chế, cải tạo yếu tố bất lợi, xây dựng môi trường sư phạm lành mạnh và trang bị 'sức đề kháng' giúp người học chống lại các tệ nạn xã hội."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.2.3.2 chỉ rõ tác động của giáo dục đối với môi trường: phát hiện và dùng yếu tố thuận lợi; kết hợp nhà trường, gia đình và xã hội; hạn chế, khắc phục và cải tạo ở chừng mực nhất định yếu tố không thuận lợi; giúp người học có 'sức đề kháng' tự bảo vệ trước tệ nạn (cờ bạc, rượu chè, ma túy, văn hóa phẩm đồi trụy, bạo lực...) và xây dựng môi trường sư phạm lành mạnh (nền nếp, kỷ cương, tình thương, trách nhiệm)."
+    },
+    {
+      "id": 25,
+      "difficulty": "hard",
+      "question": "Tại sao giáo trình (Mục 2.2.3.2) khẳng định 'giáo dục đóng vai trò chủ đạo nhưng giáo dục không phải là vạn năng', và điều kiện tiên quyết để giáo dục giữ được vai trò chủ đạo là gì?",
+      "options": {
+        "A": "Vì sự phát triển nhân cách là kết quả phối hợp của nhiều nhân tố; giáo dục chỉ giữ vai trò chủ đạo khi được tổ chức khoa học, phối hợp với các yếu tố khác và phải chuyển hóa được tác động giáo dục bên ngoài thành quá trình tự giáo dục của cá nhân.",
+        "B": "Vì giáo dục luôn luôn yếu thế hơn so với định mệnh di truyền và chỉ có thể tác động đến những học sinh có sẵn gen thông minh vượt trội.",
+        "C": "Vì giáo dục chỉ có tác dụng truyền thụ kiến thức khoa học tự nhiên chứ không thể hình thành được phẩm chất đạo đức hay thái độ thẩm mỹ.",
+        "D": "Vì giáo dục hoàn toàn phụ thuộc vào nguồn kinh phí đầu tư cơ sở vật chất chứ không phụ thuộc vào trình độ sư phạm của đội ngũ giáo viên."
+      },
+      "correct_answer": "A",
+      "explanation": "Cuối Mục 2.2.3.2 khẳng định: Giáo dục đóng vai trò chủ đạo nhưng không phải là vạn năng vì sự phát triển nhân cách là kết quả phối hợp của nhiều nhân tố. Giáo dục chỉ phát huy tác dụng khi có sự hỗ trợ của các yếu tố khác, được tổ chức khoa học dựa trên cơ sở khoa học về con người, và phải chuyển được tác động giáo dục bên ngoài thành tự giáo dục."
+    },
+    {
+      "id": 26,
+      "difficulty": "medium",
+      "question": "Những người theo thuyết 'Giáo dục là vạn năng' (Mục 2.2.3.3) đã mắc sai lầm duy tâm nào khi quan niệm về tâm hồn trẻ em và khả năng của nhà giáo dục?",
+      "options": {
+        "A": "Quan niệm tâm hồn trẻ em đã được lập trình sẵn bởi các vì sao chiếu mệnh nên nhà giáo dục không thể thay đổi được gì.",
+        "B": "Quan niệm tâm hồn trẻ em là những 'tờ giấy trắng', 'chiếc bảng sạch', nhà giáo dục có thể đào tạo mọi hình mẫu nhân cách lý tưởng mà mình mong muốn bất chấp tiền đề sinh học và môi trường.",
+        "C": "Quan niệm trẻ em sinh ra đã mang sẵn bản tính ác bẩm sinh nên chỉ có thể dùng hình phạt thể xác khắc nghiệt mới khuất phục được.",
+        "D": "Quan niệm nhà giáo dục chỉ là người quan sát thụ động, để mặc trẻ em tự do phát triển theo bản năng tự nhiên mà không cần định hướng."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.2.3.3 chỉ rõ: Thuyết 'Giáo dục là vạn năng' tuyệt đối hóa vai trò của giáo dục, quan niệm tâm hồn trẻ em là những 'tờ giấy trắng, chiếc bảng sạch', nhà giáo dục có thể đào tạo mọi hình mẫu nhân cách lý tưởng mà mình mong muốn."
+    },
+    {
+      "id": 27,
+      "difficulty": "easy",
+      "question": "Theo Mục 2.2.4.1, 'hoạt động cá nhân' được định nghĩa như thế nào và nó tạo ra sự biến đổi theo những chiều hướng nào?",
+      "options": {
+        "A": "Là những phản xạ không điều kiện diễn ra hoàn toàn tự động bên trong tủy sống mà không tiêu hao bất kỳ năng lượng thần kinh hay cơ bắp nào.",
+        "B": "Là sự suy tưởng thuần túy trong tâm trí tách rời khỏi thế giới vật chất, chỉ làm thay đổi nhận thức chủ quan chứ không tạo ra sản phẩm khách quan.",
+        "C": "Là quá trình tác động vào thế giới khách quan (có tiêu hao năng lượng thần kinh và cơ bắp), làm biến đổi thế giới để tạo ra sản phẩm theo nhu cầu con người, đồng thời làm thay đổi chính bản thân chủ thể về cả thể chất và tinh thần.",
+        "D": "Là quá trình cơ thể tiếp nhận thụ động các tác động của khí hậu tự nhiên mà không có bất kỳ sự phản ứng hay cải tạo nào đối với môi trường."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.2.4.1 định nghĩa: Hoạt động là quá trình tác động vào thế giới khách quan, làm biến đổi thế giới để tạo ra những sản phẩm theo nhu cầu của con người (có tiêu hao năng lượng thần kinh và cơ bắp). Hoạt động không chỉ làm thay đổi thế giới khách quan mà còn làm thay đổi chính bản thân chủ thể về mặt thể chất và tinh thần."
+    },
+    {
+      "id": 28,
+      "difficulty": "medium",
+      "question": "Vì sao hoạt động và giao tiếp của cá nhân được khẳng định là yếu tố đóng vai trò 'quyết định trực tiếp nhất' đối với sự hình thành và phát triển nhân cách (Mục 2.2.4.2)?",
+      "options": {
+        "A": "Vì hoạt động cá nhân có thể tự động tạo ra các gen di truyền mới và thay thế hoàn toàn vai trò chủ đạo của giáo dục nhà trường.",
+        "B": "Vì chỉ cần hoạt động cơ bắp nặng nhọc thì cá nhân sẽ tự động nắm vững mọi tri thức khoa học lý luận mà không cần đến ngôn ngữ hay giao tiếp.",
+        "C": "Vì hoạt động cá nhân diễn ra hoàn toàn độc lập với cấu tạo sinh lý cơ thể, đặc điểm tâm lý, vốn sống cũng như hoàn cảnh sống của cá nhân đó.",
+        "D": "Vì thông qua hoạt động và giao tiếp, cá nhân mới có điều kiện bộc lộ, rèn luyện và phát triển tư chất, phẩm chất, năng lực; được trải nghiệm, lĩnh hội kinh nghiệm văn hóa - xã hội; và được thỏa mãn nhu cầu hoạt động, giao tiếp để tâm lý, nhân cách phát triển bình thường."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.2.4.2 nêu 3 khía cạnh khẳng định vai trò quyết định trực tiếp của hoạt động và giao tiếp: (1) Điều kiện bộc lộ, rèn luyện, phát triển tư chất, phẩm chất, năng lực; (2) Kiểm nghiệm, trải nghiệm giá trị cuộc sống, gia nhập quan hệ xã hội, lĩnh hội kinh nghiệm và văn hóa xã hội; (3) Thỏa mãn nhu cầu hoạt động và giao tiếp để tâm lý, ý thức, nhân cách phát triển bình thường (không được giao tiếp sẽ dẫn tới trầm cảm)."
+    },
+    {
+      "id": 29,
+      "difficulty": "hard",
+      "question": "Theo Mục 2.2.4.4, hoạt động cá nhân tích cực chính là biểu hiện của quá trình nào, và nhà giáo dục cần tuân thủ những yêu cầu sư phạm nào để phát huy vai trò của yếu tố này?",
+      "options": {
+        "A": "Là biểu hiện của việc tự giáo dục; nhà giáo dục cần xác định mục đích, động cơ phù hợp lứa tuổi, tổ chức đa dạng hoạt động và giao lưu theo kế hoạch chi tiết nhằm phát huy tính tự giác, sử dụng phương pháp hợp lý và thường xuyên hướng dẫn, khích lệ, kiểm tra, uốn nắn.",
+        "B": "Là biểu hiện của sự phát triển tự phát; nhà giáo dục cần giao phó toàn bộ việc học tập cho học sinh tự xoay xở mà không cần lập kế hoạch, không cần kiểm tra hay uốn nắn điều chỉnh.",
+        "C": "Là biểu hiện của bản năng sinh tồn; nhà giáo dục chỉ cần áp đặt một khuôn mẫu hoạt động duy nhất cho mọi lứa tuổi mà không cần quan tâm đến nhu cầu, nguyện vọng hay hứng thú của người học.",
+        "D": "Là biểu hiện của sự định mệnh do hoàn cảnh; nhà giáo dục chỉ cần thuyết giảng lý thuyết đạo đức thuần túy trên lớp mà không cần tổ chức các hoạt động tập thể hay giao lưu xã hội."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.2.4.4 khẳng định: Hoạt động cá nhân tích cực chính là biểu hiện của việc tự giáo dục. Từ đó nêu 5 kết luận sư phạm: (1) Xác định mục đích, động cơ, phương thức phù hợp tâm sinh lý, lứa tuổi, nhu cầu, hứng thú; (2) Tổ chức đa dạng hoạt động và giao lưu; (3) Có kế hoạch cụ thể, chi tiết phát huy tính tích cực, tự giác; (4) Phương pháp, phương tiện hợp lý; (5) Hướng dẫn, động viên, khích lệ, kiểm tra, đôn đốc và thường xuyên uốn nắn, điều chỉnh."
+    },
+    {
+      "id": 30,
+      "difficulty": "hard",
+      "question": "Khi tổng kết toàn bộ Chương 2 (Mục 2.2.4.4), mối tương quan biện chứng giữa bốn yếu tố ảnh hưởng đến sự phát triển nhân cách và vị trí của hai chủ thể trong quá trình giáo dục được khái quát chuẩn xác như thế nào?",
+      "options": {
+        "A": "Di truyền là điều kiện, môi trường là chủ đạo, giáo dục là tiền đề vật chất, hoạt động cá nhân là yếu tố phụ trợ; trong đó giáo viên làm thay toàn bộ hoạt động của học sinh.",
+        "B": "Di truyền, bẩm sinh là tiền đề vật chất; môi trường là điều kiện không thể thiếu; giáo dục giữ vai trò chủ đạo; hoạt động và giao tiếp cá nhân quyết định trực tiếp; trong quá trình giáo dục, nhà giáo dục đóng vai trò chủ đạo (tổ chức, điều khiển) còn học sinh là chủ thể tự giáo dục phát huy nội lực để tự hoàn thiện nhân cách.",
+        "C": "Cả bốn yếu tố di truyền, môi trường, giáo dục và hoạt động cá nhân đều có vai trò ngang bằng nhau tuyệt đối và vận hành tách rời nhau; học sinh không cần sự dẫn dắt của nhà giáo dục.",
+        "D": "Môi trường giữ vai trò quyết định trực tiếp, di truyền giữ vai trò chủ đạo, còn giáo dục và hoạt động cá nhân chỉ là điều kiện bên ngoài không làm thay đổi được bản chất nhân cách."
+      },
+      "correct_answer": "B",
+      "explanation": "Đoạn tổng kết cuối Mục 2.2.4.4 đúc kết: Di truyền, bẩm sinh là tiền đề vật chất; môi trường là điều kiện không thể thiếu; giáo dục giữ vai trò chủ đạo; hoạt động và giao tiếp của cá nhân là yếu tố quyết định trực tiếp. Vì vậy trong QTGD, nhà giáo dục đóng vai trò chủ đạo (tổ chức, điều khiển HĐGD), còn học sinh với tư cách là chủ thể tự giáo dục cần phát huy tối đa tư chất, nội lực trong quá trình tự giáo dục và rèn luyện để hoàn thiện nhân cách."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Trình bày quan điểm của chủ nghĩa duy vật biện chứng (C. Mác và F. Ăngghen) về bản chất con người và vai trò chủ thể hoạt động có ý thức của con người.",
+      "expected_answer": "• Con người là sự thống nhất giữa hai mặt tự nhiên và xã hội:\n  - Thực thể tự nhiên: Là sản phẩm tiến hóa cao nhất của tự nhiên, là sinh vật sống có ý thức, tư duy, ngôn ngữ, vận động theo quy luật tự nhiên - sinh học.\n  - Thực thể xã hội: Là sản phẩm của quá trình xã hội hóa khi gia nhập xã hội, mang bản chất xã hội. Trong Luận cương về Phơ Bách, C. Mác khẳng định: 'Bản chất của con người không phải là cái gì trừu tượng, vốn có của mỗi cá nhân riêng biệt, trong tính hiện thực của nó, bản chất con người là tổng hòa các mối quan hệ xã hội'.\n• Vai trò chủ thể: Con người không chỉ là sản phẩm của xã hội mà luôn tồn tại với tư cách là chủ thể hoạt động có ý thức, tác động trở lại cải tạo thế giới tự nhiên, xã hội và thông qua đó không ngừng hoàn thiện bản thân."
+    },
+    {
+      "id": 2,
+      "question": "Nêu định nghĩa nhân cách của Nguyễn Quang Uẩn (1995), định nghĩa tổng hợp về nhân cách và 3 đặc điểm bản chất của nhân cách theo giáo trình Giáo dục học 1.",
+      "expected_answer": "• Định nghĩa của Nguyễn Quang Uẩn (1995): Nhân cách là sự thống nhất giữa phẩm chất và năng lực, giữa đức và tài; là tổ hợp thống nhất giữa 4 nhóm thuộc tính tâm lý cơ bản: xu hướng, tính cách, khí chất và năng lực.\n• Ba đặc điểm bản chất của nhân cách:\n  1. Là một hệ thống các thuộc tính ổn định, đa dạng của con người (năng lực, đạo đức, trí tuệ, thể chất, thẩm mỹ...) phù hợp với yêu cầu của xã hội và thời đại.\n  2. Mỗi người có nhân cách riêng (vừa có nét chung vừa có nét khác biệt).\n  3. Nhân cách định hình ở một giai đoạn nhất định và được coi là ổn định khi cá nhân đã trở thành một chủ thể xã hội.\n• Định nghĩa tổng hợp: Nhân cách là toàn bộ những thuộc tính đặc biệt bao gồm phẩm chất và năng lực tạo nên giá trị và bản sắc của cá nhân, được hình thành và phát triển trong hệ thống các quan hệ xã hội, trên cơ sở tiến hành các hoạt động cá nhân nhằm chiếm lĩnh những giá trị vật chất và tinh thần của xã hội."
+    },
+    {
+      "id": 3,
+      "question": "Sự phát triển nhân cách diễn ra bằng con đường nào và biểu hiện cụ thể trên 3 mặt cơ bản nào?",
+      "expected_answer": "• Con đường hình thành và phát triển: Khi mới sinh ra con người chưa có nhân cách; nhân cách hình thành và phát triển trong quá trình sống bằng cách lĩnh hội, kế thừa các giá trị do thế hệ trước để lại thông qua học tập, lao động, giao lưu, vui chơi...\n• Ba mặt biểu hiện cụ thể:\n  1. Phát triển về thể chất: Sự tăng trưởng và thay đổi về chất của cơ thể (chiều cao, cân nặng, cơ bắp) và sự hoàn thiện các giác quan, chức năng cơ thể.\n  2. Phát triển về mặt tâm lý, ý thức: Sự biến đổi cơ bản về chất trong các quá trình nhận thức, tình cảm, ý chí, nhu cầu, nếp sống... nhất là sự hình thành các thuộc tính mới của nhân cách (đạo đức, thẩm mỹ, trí tuệ, năng lực, xu hướng).\n  3. Sự phát triển về mặt xã hội: Cá nhân tích cực, tự giác tham gia vào các mặt của đời sống xã hội, trở thành chủ thể trong các mối quan hệ ở nhà trường, gia đình, xã hội và chịu trách nhiệm về các hành vi của mình."
+    },
+    {
+      "id": 4,
+      "question": "Phân biệt khái niệm 'di truyền' và 'bẩm sinh' (nêu 3 dạng quan hệ giữa chúng) và giải thích mối quan hệ giữa 'tư chất' với 'năng lực', giữa 'kiểu hình thần kinh' với 'khí chất, tính cách'.",
+      "expected_answer": "• Phân biệt di truyền và bẩm sinh:\n  - Di truyền: Sự tái tạo ở trẻ những thuộc tính sinh học giống cha mẹ, truyền lại qua cấu trúc gen (cấu trúc giải phẫu - sinh lý, đặc điểm cơ thể, phẩm chất hệ thần kinh).\n  - Bẩm sinh: Những thuộc tính sinh học khi sinh ra đã có.\n  - Ba dạng quan hệ: (1) Bẩm sinh do di truyền; (2) Bẩm sinh không do di truyền; (3) Di truyền nhưng không bẩm sinh.\n• Tư chất và năng lực: Tư chất là đặc điểm sinh học có sẵn trong cấu tạo não, giác quan, cơ quan vận động... chỉ là điều kiện tiền đề để hình thành năng lực chứ không quyết định sẵn năng lực; một tư chất có thể phát triển thành năng lực ở nhiều lĩnh vực rộng rãi tùy thuộc hoàn cảnh, học tập và rèn luyện.\n• Kiểu hình thần kinh với khí chất và tính cách: Kiểu hình thần kinh là cơ sở sinh lý thần kinh của khí chất (nhưng khí chất mang bản chất xã hội, biến đổi qua giáo dục) và không định trước tính cách (cùng một kiểu thần kinh có thể hình thành nét tính cách khác nhau và ngược lại)."
+    },
+    {
+      "id": 5,
+      "question": "Nêu các quan điểm sai lầm khi đánh giá vai trò của yếu tố di truyền – bẩm sinh và rút ra các kết luận sư phạm cần thiết cho nhà giáo dục.",
+      "expected_answer": "• Phê phán các quan điểm sai lầm:\n  - Tuyệt đối hóa vai trò di truyền: 'Thuyết ưu sinh', thuyết 'Định mệnh do di truyền' (cho rằng tư chất sinh học quy định sẵn thiên tài hay đần độn) và phái 'Nhi đồng học' (cho rằng đạo đức, nhân cách di truyền theo tầng lớp xuất thân của cha mẹ).\n  - Phủ nhận hoàn toàn vai trò di truyền: Thuyết 'Giáo dục là vạn năng' (cho rằng tốt xấu, tài giỏi hay đần độn hoàn toàn do giáo dục quyết định).\n• Kết luận sư phạm:\n  1. Chú ý đúng mực đến vai trò là tiền đề, điều kiện sinh học của yếu tố di truyền - bẩm sinh.\n  2. Tổ chức đa dạng hoạt động và giao tiếp để tìm hiểu, sớm phát hiện học sinh có năng khiếu đặc biệt, có tư chất cũng như những mặt hạn chế riêng để tác động phù hợp.\n  3. Phát huy tính tích cực cá nhân; quan tâm, động viên, khích lệ học sinh khuyết tật và học sinh có hoàn cảnh khó khăn."
+    },
+    {
+      "id": 6,
+      "question": "Phân biệt 'môi trường lớn' và 'môi trường nhỏ' (hoàn cảnh) trong môi trường xã hội, đồng thời chỉ rõ tác động hai mặt của môi trường kinh tế thị trường định hướng XHCN ở Việt Nam hiện nay.",
+      "expected_answer": "• Phân biệt môi trường xã hội lớn và nhỏ:\n  - Môi trường lớn (phạm vi rộng): Chế độ chính trị - xã hội, thể chế kinh tế, chính sách, nền văn hóa của quốc gia.\n  - Môi trường nhỏ / Hoàn cảnh (phạm vi hẹp): Bộ phận của môi trường lớn tác động trực tiếp đến cá nhân (gia đình, nhà trường, nhóm bạn, địa phương, phong tục tập quán...). Môi trường lớn ảnh hưởng thông qua môi trường nhỏ; môi trường nhỏ có tính độc lập tương đối và biến đổi nhanh hơn.\n• Tác động hai mặt của kinh tế thị trường định hướng XHCN và mở cửa hội nhập:\n  - Mặt tích cực: Giúp con người năng động, linh hoạt, có chí tiến thủ, khả năng tự lập cao; hội nhập quốc tế giúp thu hút hợp tác và tiếp thu có chọn lọc tinh hoa văn hóa nhân loại.\n  - Mặt tiêu cực: Thái độ tôn sùng đồng tiền, coi thường đạo lý, muốn làm giàu nhanh bất chấp pháp luật, tham nhũng, hối lộ và sự thâm nhập văn hóa phẩm đồi trụy, bạo lực từ bên ngoài gây nguy cơ tha hóa thế hệ trẻ."
+    },
+    {
+      "id": 7,
+      "question": "Vai trò chủ đạo của giáo dục được thể hiện như thế nào thông qua việc tác động, điều tiết 3 yếu tố: di truyền – bẩm sinh, môi trường và hoạt động cá nhân?",
+      "expected_answer": "• Đối với di truyền – bẩm sinh:\n  - Tạo điều kiện cho tư chất thuận lợi bộc lộ; phát hiện và bồi dưỡng kịp thời năng khiếu thành tài năng (qua lớp chọn, trường chuyên, lớp năng khiếu, thi Olympic, thi HS giỏi các cấp...).\n  - Cải tạo, bù đắp những khiếm khuyết bẩm sinh qua các trung tâm phục hồi chức năng, trung tâm nuôi dạy trẻ khuyết tật (câm, mù, điếc, chậm phát triển trí tuệ...) và chương trình giáo dục hòa nhập cộng đồng.\n• Đối với môi trường:\n  - Phát hiện và khai thác yếu tố thuận lợi; kết hợp 3 lực lượng Nhà trường – Gia đình – Xã hội tạo sức mạnh tổng hợp.\n  - Hạn chế, cải tạo yếu tố bất lợi; xây dựng môi trường sư phạm lành mạnh (nền nếp, kỷ cương, tình thương, trách nhiệm) và trang bị 'sức đề kháng' giúp học sinh chống lại tệ nạn xã hội (cờ bạc, rượu chè, ma túy, văn hóa phẩm đồi trụy...).\n• Đối với hoạt động cá nhân:\n  - Tổ chức các hoạt động và giao tiếp bổ ích; xây dựng quan hệ tốt đẹp thầy – trò, bạn bè; định hướng học sinh tham gia vào các hoạt động chủ đạo ở từng giai đoạn lứa tuổi."
+    },
+    {
+      "id": 8,
+      "question": "Chứng minh vai trò quyết định trực tiếp của yếu tố hoạt động và giao tiếp cá nhân đối với sự phát triển nhân cách và nêu 5 kết luận sư phạm tương ứng.",
+      "expected_answer": "• Ba luận điểm chứng minh vai trò quyết định trực tiếp:\n  1. Thông qua hoạt động, cá nhân có điều kiện bộc lộ, rèn luyện và phát triển các tư chất, phẩm chất, năng lực.\n  2. Thông qua hoạt động, cá nhân được kiểm nghiệm, trải nghiệm giá trị cuộc sống, gia nhập quan hệ xã hội, lĩnh hội kinh nghiệm và văn hóa xã hội để sàng lọc và hình thành giá trị mới.\n  3. Hoạt động và giao tiếp là nhu cầu bức thiết; nhu cầu này được thỏa mãn mới làm cho tâm lý, ý thức, nhân cách phát triển bình thường (thiếu giao tiếp sẽ dẫn tới trầm cảm).\n• Năm kết luận sư phạm (vì hoạt động tích cực là biểu hiện của tự giáo dục):\n  1. Xác định mục đích, động cơ, phương thức hoạt động phù hợp tâm sinh lý, lứa tuổi, nhu cầu, hứng thú.\n  2. Tổ chức đa dạng các loại hình hoạt động và giao lưu theo chương trình, chủ đề thiết thực.\n  3. Lập kế hoạch cụ thể, chi tiết nhằm phát huy cao độ tính tích cực, tự giác của người học.\n  4. Sử dụng phương pháp, phương tiện tổ chức hoạt động hợp lý, hiệu quả.\n  5. Thường xuyên hướng dẫn, động viên, khích lệ, kiểm tra, đôn đốc và uốn nắn, điều chỉnh."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phân Tích Vai Trò Tiền Đề Vật Chất Của Yếu Tố Di Truyền – Bẩm Sinh Và Các Kết Luận Sư Phạm Trong Quá Trình Giáo Dục",
+      "problem": "Trong lịch sử giáo dục học và tâm lý học, đã từng tồn tại những cuộc tranh luận gay gắt giữa một bên là 'Thuyết ưu sinh', 'Định mệnh do di truyền', phái 'Nhi đồng học' với một bên là thuyết 'Giáo dục là vạn năng' khi đánh giá về vai trò của yếu tố sinh học.\nDựa trên cơ sở lý luận của chủ nghĩa duy vật biện chứng trong Giáo trình Giáo dục học 1, anh (chị) hãy:\n1. Phân biệt rõ khái niệm di truyền, bẩm sinh và chỉ ra các dạng quan hệ giữa chúng.\n2. Phân tích toàn diện vai trò của yếu tố di truyền – bẩm sinh đối với sự hình thành và phát triển nhân cách (làm rõ mối quan hệ giữa tư chất với năng lực, kiểu hình thần kinh với khí chất và tính cách, cùng các minh chứng khoa học).\n3. Phê phán các quan điểm sai lầm nêu trên và rút ra những kết luận sư phạm thiết thực cho nhà giáo dục ở trường phổ thông.",
+      "solution_steps": [
+        "Bước 1: Xác định khái niệm di truyền, bẩm sinh và 3 dạng quan hệ\n- *Di truyền:* Là sự tái tạo ở trẻ những thuộc tính sinh học nhất định giống với cha mẹ; là sự truyền lại từ cha mẹ đến con những đặc điểm đã được ghi lại trong cấu trúc gen (gồm cấu trúc giải phẫu - sinh lý cơ thể, đặc điểm cơ thể người, các phẩm chất của hệ thần kinh).\n- *Bẩm sinh:* Là những thuộc tính sinh học khi mới sinh ra đã có.\n- *Ba dạng quan hệ giữa bẩm sinh và di truyền:* (1) Bẩm sinh do di truyền; (2) Bẩm sinh không do di truyền (do tác động trong bào thai); (3) Di truyền nhưng không bẩm sinh (đặc điểm gen bộc lộ muộn ở giai đoạn trưởng thành sau này).",
+        "Bước 2: Phân tích vai trò là 'tiền đề vật chất' của di truyền – bẩm sinh\n- Khẳng định luận điểm gốc của chủ nghĩa duy vật biện chứng: Di truyền, bẩm sinh giữ vai trò là *tiền đề vật chất* cho sự phát triển nhân cách, không quyết định trước kiểu nhân cách, không quy định xu hướng phát triển và không giới hạn trình độ phát triển nhân cách.\n- Đảm bảo cho loài người tiếp tục tồn tại về mặt sinh học và thích ứng với những biến đổi có giới hạn của điều kiện sống (nhờ các phản xạ bản năng).\n- Nhân cách chỉ hình thành trên một cơ thể người sống với sự lành lặn của não bộ, hệ thần kinh và các giác quan. Não người là dạng vật chất tiến hóa cao nhất có chức năng phản ánh tâm lý cấp cao (động vật có não bộ nhưng không có khả năng phản ánh như não người nên dù sống trong xã hội người cũng không có ý thức, nhân cách). Mọi tổn thương về thần kinh, giác quan đều gây bất lợi cho sự phát triển nhân cách.",
+        "Bước 3: Chứng minh di truyền không quyết định trước nhân cách (Trẻ thú nuôi, sinh đôi, tư chất, kiểu thần kinh, dậy thì)\n- *Minh chứng thực tiễn:* Trẻ em từ nhỏ bị lạc và được thú rừng nuôi tuy có tư chất người nhưng tách khỏi xã hội loài người nên không có nhân cách; các cặp trẻ sinh đôi cùng trứng có cùng đặc điểm di truyền nhưng sống trong điều kiện xã hội và hoạt động khác nhau thì nhân cách cũng khác nhau.\n- *Tư chất và năng lực:* Tư chất (đặc điểm sinh học ở não, giác quan, vận động) chỉ là điều kiện tiền đề để hình thành năng lực chứ không định sẵn năng lực; một tư chất có thể hoạt động hiệu quả ở nhiều lĩnh vực rộng rãi tùy thuộc hoàn cảnh, sự lựa chọn và rèn luyện của cá nhân.\n- *Kiểu hình thần kinh với khí chất và tính cách:* Loại hình thần kinh là cơ sở sinh lý của khí chất (nhưng khí chất mang bản chất xã hội, biến đổi qua giáo dục) và không định trước tính cách (trên cùng một kiểu thần kinh có thể hình thành nét tính cách khác nhau và ngược lại).\n- *Biến đổi sinh lý lứa tuổi:* Sự dậy thì làm nảy sinh tình cảm khác giới, tình yêu nam nữ, nhưng tính chất của tình yêu lại do hoàn cảnh xã hội, hoạt động và giáo dục chi phối.",
+        "Bước 4: Phê phán các quan điểm sai lầm, phản khoa học\n- *Phê phán khuynh hướng tuyệt đối hóa di truyền:* 'Thuyết ưu sinh' và thuyết 'Định mệnh do di truyền' cho rằng tư chất sinh học quy định sẵn mặt 'thiên tài' hay 'đần độn'; phái 'Nhi đồng học' (cuối thế kỷ XIX - đầu thế kỷ XX) cho rằng đạo đức, nhân cách cũng di truyền theo tầng lớp cha mẹ (con nhà bác học, giàu có sẽ thành đạt; con người lao động hay kẻ trộm cắp sẽ giống cha mẹ chúng).\n- *Phê phán khuynh hướng phủ nhận sạch trơn di truyền:* Thuyết 'Giáo dục là vạn năng' coi di truyền không có vai trò gì, mọi sự tốt xấu, tài giỏi hay đần độn hoàn toàn do giáo dục quyết định.",
+        "Bước 5: Rút ra kết luận sư phạm đối với nhà giáo dục\n- Trong quá trình giáo dục, phải đánh giá đúng mực vai trò là tiền đề, điều kiện sinh học của yếu tố di truyền – bẩm sinh.\n- Tổ chức phong phú các hoạt động và giao tiếp để tìm hiểu, sớm phát hiện những học sinh có năng khiếu đặc biệt, có tư chất thuận lợi cũng như những hạn chế riêng để có biện pháp tác động, bồi dưỡng phù hợp.\n- Phát huy tính tích cực cá nhân trong quá trình giáo dục; đặc biệt quan tâm, động viên, khích lệ và hỗ trợ học sinh khuyết tật, học sinh có hoàn cảnh khó khăn."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Phân Tích Vai Trò Điều Kiện Của Yếu Tố Môi Trường Đối Với Sự Phát Triển Nhân Cách Trong Bối Cảnh Kinh Tế Thị Trường Và Hội Nhập Quốc Tế",
+      "problem": "C. Mác từng khẳng định: 'Hoàn cảnh sáng tạo ra con người trong chừng mực con người sáng tạo ra hoàn cảnh'.\nBằng lý luận giáo dục học về yếu tố môi trường, anh (chị) hãy:\n1. Làm rõ khái niệm môi trường, phân biệt môi trường tự nhiên và môi trường xã hội (môi trường lớn và môi trường nhỏ / hoàn cảnh).\n2. Phân tích 6 khía cạnh thể hiện vai trò của môi trường xã hội đối với sự hình thành và phát triển nhân cách, đặc biệt liên hệ sâu sắc với tác động hai mặt của nền kinh tế thị trường định hướng xã hội chủ nghĩa và hội nhập quốc tế ở Việt Nam hiện nay.\n3. Phê phán các quan điểm sai lầm về vai trò của môi trường và đề xuất các biện pháp sư phạm giúp học sinh phát triển nhân cách lành mạnh.",
+      "solution_steps": [
+        "Bước 1: Khái niệm và phân loại các cấp độ môi trường\n- *Khái niệm:* Môi trường là hệ thống những yếu tố, hoàn cảnh bên ngoài, những điều kiện tự nhiên và xã hội tác động đến cuộc sống và hoạt động của con người.\n- *Môi trường tự nhiên:* Điều kiện địa lý, sinh thái... ảnh hưởng lớn đến sự phát triển thể chất, cuộc sống và hoạt động của con người.\n- *Môi trường xã hội:* Chia thành *môi trường lớn* (chế độ chính trị - xã hội, thể chế kinh tế, chính sách, nền văn hóa quốc gia) và *môi trường nhỏ / hoàn cảnh* (các mối quan hệ gia đình, nhà trường, nhóm bạn, địa phương, phong tục tập quán...). Môi trường nhỏ tác động trực tiếp đến trẻ; môi trường lớn ảnh hưởng thông qua môi trường nhỏ, song môi trường nhỏ có tính độc lập tương đối và biến đổi nhanh chóng hơn.",
+        "Bước 2: Phân tích 5 khía cạnh đầu tiên về vai trò 'điều kiện không thể thiếu' của môi trường xã hội\n- *Một là:* Đưa ra những yêu cầu khách quan (mô hình, kiểu mẫu nhân cách) trong từng giai đoạn lịch sử làm mục tiêu phấn đấu cho cả xã hội và mỗi cá nhân.\n- *Hai là:* Tạo ra các phương tiện, điều kiện hoạt động và giao lưu đa dạng để cá nhân chiếm lĩnh kinh nghiệm xã hội và giá trị văn hóa loài người.\n- *Ba là:* Quan tâm, khai thác và sử dụng hợp lý những khả năng hiện có của con người, kích thích nhân cách đang phát triển đóng góp xây dựng môi trường văn minh, hiện đại.\n- *Bốn là:* Ảnh hưởng thông qua các mối quan hệ xã hội đa dạng (quan hệ giai cấp, dân tộc, gia đình, quan hệ sản xuất, tư tưởng...) giúp cá nhân chiếm lĩnh giá trị đạo đức, nhân văn.\n- *Năm là:* Ảnh hưởng theo chiều hướng và mức độ khác nhau tùy thuộc vào vị trí xã hội, điều kiện sống và đặc biệt là tùy thuộc vào lập trường, quan điểm, thái độ, năng lực, nhu cầu của từng cá nhân trước tác động của môi trường.",
+        "Bước 3: Phân tích khía cạnh thứ sáu (tác động 2 mặt ở Việt Nam hiện nay) và luận điểm của C. Mác\n- *Sáu là (Tác động hai mặt tích cực và tiêu cực đan xen):* Trong nền kinh tế thị trường định hướng XHCN và chính sách 'mở cửa' hội nhập ở nước ta hiện nay:\n  + *Mặt tích cực:* Làm cho con người năng động hơn, linh hoạt hơn, có chí tiến thủ, khả năng tự lập cao hơn; thu hút hợp tác quốc tế và chọn lọc các giá trị văn hóa tốt đẹp của nhân loại.\n  + *Mặt tiêu cực:* Thái độ tôn sùng đồng tiền, coi thường đạo lý, muốn làm giàu nhanh chóng bất chấp pháp luật, tham nhũng, hối lộ và sự thâm nhập các luồng văn hóa đồi trụy, bạo lực từ bên ngoài gây nguy cơ suy thoái, tha hóa nhân cách nếu thiếu định hướng.\n- *Tính tích cực cải tạo hoàn cảnh:* Theo C. Mác, 'hoàn cảnh sáng tạo ra con người trong chừng mực con người sáng tạo ra hoàn cảnh' – con người không thụ động mà phải giữ lại cái tốt đẹp, điều chỉnh cái chưa phù hợp và kiên quyết loại bỏ cái lạc hậu, xấu xa.",
+        "Bước 4: Phê phán các quan điểm sai lầm về môi trường\n- *Phê phán thuyết 'Định mệnh do hoàn cảnh':* Tuyệt đối hóa vai trò của môi trường, coi mỗi đứa trẻ như một 'tấm lụa trắng', trở thành người như thế nào hoàn toàn do môi trường tạo nên.\n- *Phê phán thuyết 'Giáo dục là vạn năng':* Phủ nhận hoàn toàn vai trò của môi trường đối với sự phát triển nhân cách.\n- Khẳng định: Môi trường không đóng vai trò quyết định nhưng là điều kiện không thể thiếu vì tách khỏi xã hội loài người và giao lưu đồng loại thì không thể có nhân cách.",
+        "Bước 5: Rút ra 4 kết luận sư phạm thiết thực\n- Gia đình, nhà trường và mỗi cá nhân cần phát huy, khai thác triệt để những yếu tố tích cực của môi trường.\n- Chủ động phòng ngừa, hạn chế tối đa và loại bỏ những yếu tố tiêu cực của môi trường đến sự phát triển nhân cách học sinh.\n- Phối hợp thống nhất giữa Nhà trường – Gia đình – Xã hội để kiến tạo môi trường giáo dục trong sạch, lành mạnh.\n- Thông qua hoạt động tập thể và ngoại khóa, trang bị cho thế hệ trẻ hiểu biết về tác hại của các tệ nạn xã hội và rèn luyện bản lĩnh vững vàng để chống lại những cám dỗ tiêu cực."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Chứng Minh Vai Trò Chủ Đạo Của Giáo Dục Đối Với Sự Phát Triển Nhân Cách Và Khả Năng Điều Tiết Các Yếu Tố Khác",
+      "problem": "Trong các yếu tố tác động đến sự hình thành và phát triển nhân cách, giáo dục (trọng tâm là giáo dục nhà trường) được khẳng định là yếu tố giữ vai trò chủ đạo.\nAnh (chị) hãy:\n1. Trình bày khái niệm giáo dục nhà trường và phân tích 4 luận điểm cốt lõi chứng minh vai trò chủ đạo của giáo dục (đặc biệt làm rõ cách thức giáo dục tác động, điều tiết yếu tố di truyền – bẩm sinh, môi trường và hoạt động cá nhân).\n2. Giải thích vì sao 'giáo dục giữ vai trò chủ đạo nhưng không phải là vạn năng' và phê phán các quan điểm sai lầm.\n3. Với tư cách là một người giáo viên tương lai, anh (chị) cần thực hiện những bài học sư phạm nào để phát huy vai trò chủ đạo của giáo dục?",
+      "solution_steps": [
+        "Bước 1: Xác định khái niệm giáo dục nhà trường\n- Khi nói đến vai trò của giáo dục đối với sự phát triển nhân cách, giáo dục học nhấn mạnh đến *giáo dục nhà trường*.\n- Đó là hệ thống những tác động có mục đích, có kế hoạch, có nội dung, phương pháp được thực hiện trong hệ thống nhà trường nhằm hình thành và phát triển nhân cách con người phù hợp với những yêu cầu của xã hội trong những giai đoạn lịch sử nhất định.",
+        "Bước 2: Phân tích 3 luận điểm đầu tiên về tính định hướng, đội ngũ chuyên biệt và sự dẫn dắt của giáo dục\n- *Một là:* Giáo dục là hoạt động có mục đích, chương trình, kế hoạch, nội dung, phương pháp, phương tiện nhằm định hướng cho sự hình thành và phát triển nhân cách. Mục đích giáo dục phản ánh mô hình nhân cách xã hội yêu cầu, vừa là kim chỉ nam và chuẩn đánh giá cho nhà giáo dục, vừa là đích phấn đấu, tự điều chỉnh và tự đánh giá cho người được giáo dục.\n- *Hai là:* Giáo dục được thực hiện trong các cơ quan chức năng chuyên biệt do đội ngũ giáo viên – những người có trình độ chuyên môn, nghiệp vụ sư phạm, hiểu biết tâm sinh lý lứa tuổi, có khả năng tổ chức hoạt động phụ trách và luôn là tấm gương sáng để học sinh noi theo.\n- *Ba là:* Giáo dục tổ chức, dẫn dắt sự hình thành và phát triển nhân cách theo mô hình đã xác định thông qua các hoạt động xã hội, sinh hoạt tập thể... có sự điều chỉnh của nhà giáo dục và sự tự điều chỉnh, tự đánh giá của người học.",
+        "Bước 3: Phân tích luận điểm thứ tư – Giáo dục tác động, điều tiết các yếu tố di truyền, môi trường và hoạt động cá nhân\n- *Đối với di truyền – bẩm sinh:* (1) Tạo điều kiện thuận lợi để tư chất bộc lộ; phát hiện sớm năng khiếu và bồi dưỡng kịp thời thành tài năng cho đất nước qua hệ thống lớp chọn, trường chuyên, lớp năng khiếu, thi Olympic, thi học sinh giỏi...; (2) Cải tạo, bù đắp những khiếm khuyết bẩm sinh thông qua các trung tâm phục hồi chức năng, trung tâm nuôi dạy trẻ khuyết tật (câm, mù, điếc, chậm phát triển trí tuệ...) và chương trình giáo dục hòa nhập cộng đồng.\n- *Đối với môi trường:* (1) Phát hiện và khai thác yếu tố thuận lợi; kết hợp Nhà trường – Gia đình – Xã hội tạo sức mạnh tổng hợp giáo dục mọi nơi, mọi lúc; (2) Hạn chế, khắc phục và cải tạo ở chừng mực nhất định các yếu tố bất lợi; xây dựng môi trường sư phạm lành mạnh (nền nếp, kỷ cương, tình thương, trách nhiệm) và hình thành 'sức đề kháng' giúp học sinh tự bảo vệ trước các tệ nạn xã hội (cờ bạc, rượu chè, ma túy, văn hóa phẩm đồi trụy, bạo lực...).\n- *Đối với hoạt động cá nhân:* Tổ chức đa dạng loại hình hoạt động và giao tiếp lành mạnh; xây dựng quan hệ tích cực thầy – trò, bạn bè; định hướng trẻ tham gia vào các hoạt động chủ đạo ở từng giai đoạn lứa tuổi.",
+        "Bước 4: Lý giải 'giáo dục không phải là vạn năng' và phê phán các quan điểm sai lầm\n- *Giáo dục không phải là vạn năng vì:* Sự phát triển nhân cách là kết quả phối hợp tổng hòa của nhiều nhân tố. Giáo dục chỉ phát huy tác dụng khi phối hợp với các yếu tố khác, được tổ chức khoa học dựa trên cơ sở khoa học về con người, và phải chuyển hóa được tác động giáo dục bên ngoài thành quá trình *tự giáo dục* bên trong.\n- *Phê phán sai lầm:* Bác bỏ thuyết 'Giáo dục là vạn năng' (coi tâm hồn trẻ như 'tờ giấy trắng, chiếc bảng sạch' muốn nhào nặn thế nào cũng được) và bác bỏ thuyết 'Định mệnh do di truyền', 'Định mệnh do hoàn cảnh' (phủ nhận sạch trơn vai trò của giáo dục).",
+        "Bước 5: Xác định các kết luận sư phạm đối với người giáo viên\n- Nhận thức vững chắc vị trí, vai trò chủ đạo của giáo dục đối với sự phát triển và hoàn thiện nhân cách học sinh.\n- Đưa học sinh vào tập thể để giáo dục, thông qua việc tổ chức các hoạt động phong phú, đa dạng để rèn luyện các em.\n- Phát huy cao độ tính tích cực, tự giác của mỗi cá nhân; đặc biệt đề cao và rèn luyện năng lực tự giáo dục, tự tu dưỡng của học sinh."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Vai Trò Quyết Định Trực Tiếp Của Hoạt Động Cá Nhân Và Mối Quan Hệ Biện Chứng Giữa Bốn Yếu Tố Trong Sự Phát Triển Nhân Cách",
+      "problem": "Mặc dù giáo dục giữ vai trò chủ đạo, nhưng mọi tác động của giáo dục và môi trường đều sẽ trở nên hình thức nếu không thông qua hoạt động và giao tiếp tích cực của chính bản thân người học.\nDựa trên nội dung Chương 2 (Giáo trình Giáo dục học 1), anh (chị) hãy:\n1. Trình bày khái niệm hoạt động cá nhân và phân tích 3 luận điểm khẳng định vai trò quyết định trực tiếp của hoạt động và giao tiếp cá nhân đối với sự phát triển nhân cách.\n2. Khái quát mối quan hệ tổng hòa giữa 4 yếu tố (Di truyền – bẩm sinh, Môi trường, Giáo dục, Hoạt động cá nhân) và vị trí của Nhà giáo dục – Người được giáo dục trong quá trình giáo dục.\n3. Trình bày 5 kết luận sư phạm cần thiết khi tổ chức hoạt động giáo dục cho học sinh ở nhà trường.",
+      "solution_steps": [
+        "Bước 1: Phân tích khái niệm hoạt động cá nhân và cơ chế tác động kép\n- *Khái niệm:* Hoạt động là quá trình con người tác động vào thế giới khách quan, làm biến đổi thế giới để tạo ra những sản phẩm theo nhu cầu của con người, có sự tiêu hao năng lượng thần kinh và cơ bắp.\n- *Tác động kép (hai chiều):* Hoạt động của mỗi cá nhân không chỉ làm thay đổi thế giới khách quan mà đồng thời còn làm thay đổi chính bản thân chủ thể về cả mặt thể chất lẫn tinh thần (tâm lý, ý thức, nhân cách).",
+        "Bước 2: Phân tích 3 luận điểm khẳng định vai trò 'quyết định trực tiếp' của hoạt động và giao tiếp\n- *Một là:* Thông qua hoạt động, mỗi cá nhân mới có điều kiện để bộc lộ, rèn luyện và phát triển các tư chất sinh học thành phẩm chất và năng lực thực sự của nhân cách.\n- *Hai là:* Thông qua hoạt động, cá nhân được kiểm nghiệm, trải nghiệm các giá trị của cuộc sống, gia nhập các mối quan hệ xã hội, lĩnh hội kinh nghiệm xã hội và nền văn hóa nhân loại; qua đó chủ động giữ lại hay loại bỏ những điều đã tiếp thu và hình thành những giá trị mới ở bản thân.\n- *Ba là:* Hoạt động và giao tiếp là nhu cầu bức thiết của con người; chỉ khi nhu cầu này được thỏa mãn mới làm cho tâm lý, ý thức, nhân cách phát triển bình thường (các thí nghiệm về việc con người không được giao tiếp dẫn tới bị trầm cảm đã chứng minh điều này).\n- *Lưu ý:* Kết quả phát triển đạt được ở phạm vi, mức độ nào còn phụ thuộc vào đặc điểm cấu tạo sinh lý, tâm lý, vốn sống và hoàn cảnh sống riêng của từng cá nhân.",
+        "Bước 3: Khái quát mối quan hệ biện chứng giữa 4 yếu tố và vị trí của hai chủ thể giáo dục\n- Quá trình hình thành và phát triển nhân cách bị chi phối bởi sự tác động tổng hòa của cả 4 yếu tố khách quan và chủ quan:\n  + *Di truyền, bẩm sinh:* Là tiền đề vật chất.\n  + *Môi trường:* Là điều kiện không thể thiếu.\n  + *Giáo dục:* Giữ vai trò chủ đạo.\n  + *Hoạt động và giao tiếp cá nhân:* Là yếu tố quyết định trực tiếp.\n- *Mối quan hệ giữa hai chủ thể trong QTGD:* Nhà giáo dục đóng vai trò chủ đạo (là người tổ chức, điều khiển, dẫn dắt hoạt động giáo dục); còn học sinh (người được giáo dục) với tư cách là *chủ thể tự giáo dục* cần phát huy tối đa tư chất và nội lực của mình trong quá trình tự giáo dục, tự rèn luyện để hoàn thiện nhân cách.",
+        "Bước 4: Trình bày 5 kết luận sư phạm khi tổ chức hoạt động cho học sinh\n- *Một là:* Cần xác định mục đích, động cơ và các phương thức hoạt động hướng tới những mục tiêu giáo dục cụ thể, phù hợp với đặc điểm tâm - sinh lý, đặc điểm lứa tuổi, nhu cầu, nguyện vọng và hứng thú của người được giáo dục.\n- *Hai là:* Tổ chức cho người được giáo dục các loại hình hoạt động và giao lưu đa dạng, phong phú về nội dung và hình thức, theo các chương trình, kế hoạch, chủ đề phù hợp và có ý nghĩa giáo dục thiết thực.\n- *Ba là:* Nhà giáo dục cần có kế hoạch cụ thể, chi tiết trong việc tổ chức hoạt động, phát huy cao độ tính tích cực, tự giác của người được giáo dục (vì hoạt động cá nhân tích cực chính là biểu hiện của việc tự giáo dục).\n- *Bốn là:* Quá trình tổ chức hoạt động cần được tiến hành với những phương pháp, phương tiện hợp lý và có hiệu quả.\n- *Năm là:* Thường xuyên hướng dẫn, động viên, khích lệ, kiểm tra, đôn đốc và uốn nắn, điều chỉnh cho người được giáo dục trong các mối quan hệ giao lưu cũng như trong hoạt động."
+      ]
+    }
+  ]
+}

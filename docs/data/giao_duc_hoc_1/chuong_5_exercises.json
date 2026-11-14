@@ -1,0 +1,484 @@
+{
+  "chapter_id": "chuong_5",
+  "chapter_title": "Chương 5: Lý luận giáo dục",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Theo giáo trình Giáo dục học, chức năng trội của quá trình giáo dục (hiểu theo nghĩa hẹp) khác biệt như thế nào so với nhiệm vụ của quá trình dạy học?",
+      "options": {
+        "A": "Quá trình giáo dục có chức năng trội là làm cho người được giáo dục có nhận thức đúng đắn về các yêu cầu, chuẩn mực xã hội và hình thành thái độ, niềm tin cùng hành vi, thói quen hành vi tương ứng.",
+        "B": "Quá trình giáo dục có chức năng trội là truyền thụ hệ thống tri thức khoa học tự nhiên, rèn luyện kỹ năng, kỹ xảo chuyên môn và phát triển năng lực tư duy trừu tượng cho người học.",
+        "C": "Quá trình giáo dục có chức năng trội là trang bị các thao tác kỹ thuật nghề nghiệp bậc cao nhằm giúp học sinh tham gia trực tiếp vào dây chuyền sản xuất công nghiệp ngay tại trường phổ thông.",
+        "D": "Quá trình giáo dục có chức năng trội là kiểm tra, đo lường chỉ số thông minh bẩm sinh và phân loại học sinh vào các lớp chọn theo năng khiếu học thuật riêng biệt."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 5.1.1.1, QTGD (nghĩa hẹp) và QTDH đều hướng vào hình thành nhân cách toàn vẹn cho người học, nhưng QTGD có chức năng trội là làm cho người được giáo dục có nhận thức đúng đắn về các yêu cầu, chuẩn mực xã hội (chính trị, đạo đức, pháp luật, thẩm mỹ, văn hóa) và có thái độ, tình cảm, hành vi, thói quen hành vi tương ứng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Giáo dục được khẳng định là một quá trình thống nhất hữu cơ giữa ba quá trình thành phần nào, và sự biến đổi ưu thế giữa chúng theo lứa tuổi diễn ra ra sao?",
+      "options": {
+        "A": "Thống nhất giữa dạy học, kiểm tra và đánh giá; trong đó tuổi càng nhỏ thì tự đánh giá càng chiếm ưu thế tuyệt đối so với sự kiểm tra của giáo viên.",
+        "B": "Thống nhất giữa giáo dục, tự giáo dục và giáo dục lại; trong đó tuổi càng nhỏ vai trò của giáo dục càng quan trọng, càng phát triển thì tự giáo dục càng chiếm ưu thế, còn giáo dục lại nhằm uốn nắn những sai sót, lệch lạc.",
+        "C": "Thống nhất giữa giáo dưỡng, huấn luyện và truyền thông; trong đó giáo dục lại là quá trình bắt buộc áp dụng đầu tiên cho mọi trẻ em trước khi bước vào trường tiểu học.",
+        "D": "Thống nhất giữa di truyền, môi trường và hoạt động; trong đó càng trưởng thành thì vai trò của tự giáo dục càng giảm dần và nhường chỗ hoàn toàn cho sự áp đặt từ nhà giáo dục."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 5.1.1.1, giáo dục là quá trình thống nhất hữu cơ giữa ba quá trình: giáo dục, tự giáo dục và giáo dục lại. Tuổi càng nhỏ, vai trò của giáo dục càng quan trọng; càng phát triển, vai trò của tự giáo dục càng chiếm ưu thế; giáo dục lại là quá trình nhằm uốn nắn những sai sót, lệch lạc của hai quá trình trên.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Theo cách tiếp cận cấu trúc - hệ thống, quá trình giáo dục tồn tại như một hệ thống toàn vẹn bao gồm 6 thành tố cơ bản nào, và thành tố nào giữ vị trí hàng đầu?",
+      "options": {
+        "A": "Gồm mục tiêu, kế hoạch bài dạy, sách giáo khoa, thiết bị nghe nhìn, hiệu trưởng và phụ huynh; trong đó sách giáo khoa giữ vị trí hàng đầu.",
+        "B": "Gồm môi trường tự nhiên, môi trường xã hội, di truyền sinh học, hoạt động vui chơi, nhà giáo dục và kết quả học tập; trong đó di truyền giữ vị trí hàng đầu.",
+        "C": "Gồm mục đích và nhiệm vụ giáo dục, nội dung giáo dục, phương pháp và phương tiện giáo dục, nhà giáo dục, người được giáo dục, kết quả giáo dục; trong đó mục đích và nhiệm vụ giáo dục giữ vị trí hàng đầu.",
+        "D": "Gồm nhận thức, tình cảm, ý chí, kỹ năng, kỹ xảo và thói quen; trong đó phương tiện kỹ thuật hiện đại giữ vị trí hàng đầu định hướng toàn bộ quá trình."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 5.1.1.2, cấu trúc của QTGD gồm 6 thành tố: (1) Mục đích, nhiệm vụ giáo dục; (2) Nội dung giáo dục; (3) Phương pháp, phương tiện giáo dục; (4) Nhà giáo dục; (5) Người được giáo dục; (6) Kết quả giáo dục. Trong đó, mục đích và nhiệm vụ giáo dục là thành tố có vị trí hàng đầu, đóng vai trò định hướng cho sự vận động, phát triển của các thành tố khác.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Trong ba nhiệm vụ cơ bản của quá trình giáo dục, yếu tố nào được giáo trình ví như 'chất men' đặc biệt thúc đẩy người được giáo dục chuyển hóa ý thức về các chuẩn mực xã hội thành hành vi và thói quen tương ứng?",
+      "options": {
+        "A": "Hệ thống các hình phạt hành chính nghiêm khắc và sự giám sát thường xuyên của ban giám hiệu nhà trường đối với mọi hoạt động của học sinh.",
+        "B": "Khối lượng tri thức lý thuyết thuần túy về các điều khoản pháp luật mà học sinh học thuộc lòng để phục vụ cho các kỳ thi định kỳ.",
+        "C": "Các phần thưởng vật chất có giá trị kinh tế cao được trao tặng ngay lập tức sau mỗi lần học sinh thực hiện theo mệnh lệnh của người lớn.",
+        "D": "Thái độ (xúc cảm, tình cảm) tích cực, đúng đắn của người được giáo dục đối với các chuẩn mực xã hội đã được quy định."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 5.1.1.2 (phần a) và Mục 5.1.5 (phần b), thái độ (xúc cảm, tình cảm) tích cực, đúng đắn đối với các chuẩn mực xã hội có tác dụng như 'chất men' đặc biệt thúc đẩy, thôi thúc người được giáo dục chuyển hóa ý thức (hiểu biết và niềm tin) thành hành vi, thói quen và ý chí tự tu dưỡng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Khi phân tích hai tư cách của người được giáo dục (vừa là đối tượng của quá trình giáo dục, vừa là chủ thể của quá trình tự giáo dục), giáo trình xác định mối tương quan vai trò giữa hai tư cách này như thế nào?",
+      "options": {
+        "A": "Hai tư cách thống nhất và tác động qua lại lẫn nhau, trong đó tư cách đối tượng giáo dục là điều kiện, còn tư cách chủ thể tự giáo dục là cơ bản.",
+        "B": "Hai tư cách hoàn toàn đối lập và loại trừ nhau, trong đó tư cách đối tượng thụ động là cơ bản, còn tư cách chủ thể tự giáo dục chỉ là thứ yếu.",
+        "C": "Tư cách chủ thể tự giáo dục chỉ đóng vai trò là điều kiện ban đầu ở bậc mầm non, sau đó mất hẳn để nhường chỗ hoàn toàn cho tư cách đối tượng giáo dục.",
+        "D": "Chỉ có tập thể học sinh mới mang tư cách chủ thể tự giáo dục, còn mỗi cá nhân học sinh đơn lẻ chỉ tồn tại duy nhất với tư cách đối tượng tiếp nhận tác động."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 5.1.1.2 (phần e), người được giáo dục có hai tư cách thống nhất, tác động qua lại lẫn nhau: là đối tượng của QTGD (tiếp nhận tác động có định hướng từ nhà giáo dục) và là chủ thể của quá trình tự giáo dục (tiếp nhận có ý thức, tự vận động biến tác động bên ngoài thành bên trong). Trong đó, tư cách đối tượng giáo dục là điều kiện, tư cách chủ thể giáo dục là cơ bản.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "question": "Bản chất của quá trình giáo dục (theo nghĩa hẹp) được khái quát chính xác nhất trong luận điểm nào dưới đây?",
+      "options": {
+        "A": "Là quá trình nhà giáo dục truyền đạt một chiều các quy tắc đạo đức có sẵn để người học ghi nhớ máy móc và tái hiện nguyên văn trong các bài kiểm tra lý thuyết.",
+        "B": "Là quá trình chuyển hóa tự giác, tích cực, độc lập những yêu cầu về chuẩn mực hành vi đã được xã hội quy định thành hành vi và thói quen hành vi tương ứng ở người được giáo dục, dưới tác động chủ đạo của nhà giáo dục thông qua việc tổ chức các hoạt động và giao tiếp đa dạng.",
+        "C": "Là quá trình người học tự do bộc lộ mọi bản năng sinh học tự nhiên mà không chịu bất kỳ sự định hướng, điều khiển hay kiểm tra nào từ phía nhà giáo dục và tập thể.",
+        "D": "Là quá trình tách biệt hoàn toàn người được giáo dục khỏi môi trường xã hội bên ngoài để huấn luyện các thao tác hành vi khép kín trong phạm vi lớp học."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 5.1.2, bản chất của QTGD là quá trình chuyển hóa tự giác, tích cực, độc lập những yêu cầu về chuẩn mực hành vi đã được quy định thành hành vi, thói quen hành vi tương ứng ở người được giáo dục, dưới tác động chủ đạo của nhà giáo dục, thông qua việc tổ chức các hoạt động và giao tiếp khác nhau.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Vì sao quá trình giáo dục lại mang đặc điểm 'là một quá trình có tính phức hợp'?",
+      "options": {
+        "A": "Vì quá trình giáo dục chỉ diễn ra trong một vài tiết học ngắn ngủi trên lớp nên giáo viên không đủ thời gian để điểm danh toàn bộ học sinh.",
+        "B": "Vì các chuẩn mực đạo đức xã hội hoàn toàn bất biến qua mọi thời đại lịch sử nhưng học sinh lại không biết đọc sách giáo khoa.",
+        "C": "Vì đối tượng của QTGD là nhân cách rất phong phú, khó quan sát đo lường trực tiếp; người học chịu những tác động đan xen (tích cực/tiêu cực, tự giác/tự phát, trực tiếp/gián tiếp) từ nhà trường, gia đình, xã hội; và kết quả giáo dục không thể nhìn thấy hay định lượng chính xác ngay lập tức.",
+        "D": "Vì quá trình giáo dục đòi hỏi phải sử dụng các thiết bị thí nghiệm vật lý, hóa học đắt tiền mà các trường phổ thông hiện nay chưa trang bị đủ."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 5.1.3.1, tính phức hợp của QTGD thể hiện ở 3 khía cạnh: (1) Đối tượng là nhân cách khó trực tiếp quan sát, đo lường; (2) Người học chịu tác động phức hợp từ nhà trường, gia đình, xã hội (tích cực/tiêu cực, tự phát/tự giác, trực tiếp/gián tiếp đan kết vào nhau; tác động tiêu cực gây 'nhiễu' hoặc triệt tiêu kết quả); (3) Kết quả giáo dục là sự biến đổi tâm hồn nên cần thời gian, hoàn cảnh mới bộc lộ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "question": "Theo đặc điểm 'Quá trình giáo dục có tính lâu dài, liên tục', vì sao việc hình thành hành vi và thói quen tốt ở người được giáo dục lại đòi hỏi một khoảng thời gian dài và không được ngắt quãng?",
+      "options": {
+        "A": "Vì bộ não của học sinh phổ thông chỉ có thể tiếp nhận tối đa một khái niệm đạo đức duy nhất trong suốt mỗi cấp học.",
+        "B": "Vì nhà trường chỉ tổ chức các hoạt động giáo dục đạo đức vào dịp tổng kết cuối năm học chứ không tiến hành trong các tháng học tập bình thường.",
+        "C": "Vì các quy định pháp luật của nhà nước thay đổi hàng ngày khiến học sinh không cần phải rèn luyện bất kỳ thói quen cố định nào.",
+        "D": "Vì người học cần thời gian trải nghiệm thực tiễn và phải tiến hành cuộc đấu tranh bản thân gay gắt giữa động cơ đúng và chưa đúng, giữa thói quen mới tiến bộ với thói quen cũ lạc hậu; nếu gián đoạn hoặc thiếu nghị lực thì kết quả sẽ mất đi và dễ tiêm nhiễm thói hư tật xấu."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 5.1.3.2, để hình thành tình cảm, niềm tin và thói quen bền vững, người học cần thời gian dài trải nghiệm, rèn luyện liên tục và phải tiến hành cuộc đấu tranh bản thân gay gắt giữa động cơ đúng và chưa đúng, giữa quan niệm, niềm tin, thói quen mới - tiến bộ với cái cũ - lạc hậu. Tính lâu dài luôn gắn với tính liên tục; nếu thiếu ý chí ở một giai đoạn nào đó thì hiệu quả sẽ mất đi.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "question": "Mối quan hệ biện chứng giữa quá trình giáo dục (nghĩa hẹp) và quá trình dạy học được thể hiện cô đọng qua phương châm sư phạm nào và được hiểu như thế nào?",
+      "options": {
+        "A": "Thông qua 'dạy chữ' để 'dạy người': dạy học là con đường cơ bản để thực hiện giáo dục (từ tri thức khoa học hình thành thế giới quan, đạo đức, hành vi đúng đắn), và ngược lại kết quả giáo dục ảnh hưởng mạnh mẽ, thúc đẩy quá trình dạy học.",
+        "B": "Tách rời 'dạy chữ' khỏi 'dạy người': giáo viên bộ môn chỉ chịu trách nhiệm truyền thụ kiến thức khoa học, còn việc giáo dục nhân cách thuộc trách nhiệm độc quyền của giáo viên chủ nhiệm.",
+        "C": "Ưu tiên 'dạy chữ' thay thế 'dạy người': chỉ cần học sinh đạt điểm số cao trong các kỳ thi văn hóa thì tự khắc các hành vi đạo đức và thói quen ứng xử xã hội sẽ hoàn thiện mà không cần tổ chức hoạt động giáo dục.",
+        "D": "Hoàn thành 'dạy người' trước khi 'dạy chữ': học sinh phải được rèn luyện xong toàn bộ các phẩm chất đạo đức ở bậc tiểu học rồi mới bắt đầu học các tri thức khoa học ở bậc trung học."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 5.1.3.4, QTGD và QTDH thống nhất biện chứng với nhau: dạy học là con đường cơ bản để thực hiện QTGD, mục đích cuối cùng của dạy học là nhằm giáo dục nhân cách – thông qua 'dạy chữ' để 'dạy người'. Ngược lại, kết quả của QTGD ảnh hưởng mạnh mẽ đến QTDH và giúp củng cố, mở rộng kết quả dạy học nhiều môn học.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Mâu thuẫn cơ bản của quá trình giáo dục (khi được giải quyết hiệu quả sẽ tạo ra động lực chủ yếu thúc đẩy QTGD phát triển) là mâu thuẫn nào?",
+      "options": {
+        "A": "Mâu thuẫn giữa yêu cầu đổi mới toàn diện chương trình giáo dục của Bộ Giáo dục và Đào tạo với cơ sở vật chất, trang thiết bị còn thiếu thốn của các nhà trường vùng sâu vùng xa.",
+        "B": "Mâu thuẫn giữa một bên là yêu cầu về chuẩn mực hành vi được đề ra trong quá trình giáo dục cao với một bên là trình độ được giáo dục của người được giáo dục còn hạn chế.",
+        "C": "Mâu thuẫn giữa mong muốn kỳ vọng quá mức của các bậc phụ huynh trong gia đình với năng lực giảng dạy thực tế của đội ngũ giáo viên trẻ mới ra trường.",
+        "D": "Mâu thuẫn giữa thời lượng tiết học chính khóa quá ngắn ngủi trên lớp với khối lượng bài tập về nhà quá nhiều của các môn khoa học tự nhiên."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 5.1.4, mâu thuẫn cơ bản của QTGD (một mâu thuẫn bên trong tồn tại suốt QTGD) là mâu thuẫn giữa một bên là yêu cầu về chuẩn mực hành vi được đề ra trong QTGD cao với một bên là trình độ được giáo dục của người được giáo dục còn hạn chế. Giải quyết hiệu quả mâu thuẫn cơ bản tạo ra động lực chủ yếu của QTGD.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Để mâu thuẫn cơ bản của quá trình giáo dục thực sự trở thành động lực chủ yếu tạo nên sự phát triển nhân cách, mâu thuẫn đó phải đảm bảo thỏa mãn ba điều kiện nào?",
+      "options": {
+        "A": "Yêu cầu đặt ra phải thấp hơn trình độ hiện có của học sinh; được giữ bí mật hoàn toàn với học sinh; và do giáo viên áp đặt ngẫu nhiên từ bên ngoài vào bất kỳ thời điểm nào.",
+        "B": "Yêu cầu đặt ra phải vượt xa khả năng của học sinh giỏi nhất lớp; đi kèm với hình phạt kỷ luật nặng nề; và chỉ xuất hiện một lần duy nhất vào đầu năm học.",
+        "C": "Yêu cầu đặt ra phải vừa sức (cao hơn trình độ hiện có nhưng phù hợp khả năng nỗ lực cao nhất); được người học ý thức đầy đủ và sẵn sàng thực hiện; và nảy sinh một cách tự nhiên, khách quan trong tiến trình giáo dục.",
+        "D": "Yêu cầu đặt ra phải giống hệt nhau cho mọi lứa tuổi từ lớp 1 đến lớp 12; có phần thưởng tiền mặt đi kèm; và hoàn toàn tách biệt với kết quả giải quyết các mâu thuẫn trước đó."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 5.1.4, để mâu thuẫn cơ bản trở thành động lực chủ yếu phải đảm bảo 3 điều kiện: (1) Yêu cầu đặt ra phải vừa sức (cao hơn trình độ hiện có và thực hiện được với sự nỗ lực cao nhất); (2) Yêu cầu đặt ra phải được người được giáo dục ý thức đầy đủ (biết, hiểu sự cần thiết và mong muốn thực hiện); (3) Mâu thuẫn phải nảy sinh một cách tự nhiên, khách quan trong tiến trình giáo dục (trên cơ sở kết quả giải quyết mâu thuẫn trước).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 12,
+      "question": "Theo logic của quá trình giáo dục (Mục 5.1.5), ở khâu thứ ba (tổ chức thực hiện hành vi và rèn luyện thói quen hành vi tích cực), những hành vi mà người được giáo dục rèn luyện cần thỏa mãn 4 tiêu chí nào?",
+      "options": {
+        "A": "Có tính ngẫu nhiên tức thời; có sự giám sát trực tiếp của giáo viên; mang lại lợi ích vật chất cho cá nhân; và không tốn nhiều thời gian thực hiện.",
+        "B": "Được thực hiện thuần túy trong các tình huống giả định trên lớp; có hình thức biểu diễn đẹp mắt; được quay phim lưu trữ; và có điểm số đánh giá.",
+        "C": "Chỉ xuất hiện khi có mặt người lớn; thay đổi linh hoạt theo ý thích cá nhân; không cần hiểu ý nghĩa chuẩn mực; và nhằm mục đích tránh bị trách phạt.",
+        "D": "Nội dung các chuẩn mực được thể hiện trong hành vi; sự thể hiện hành vi có tính phổ biến; sự thể hiện hành vi có tính bền vững; và hành vi có động cơ đúng đắn."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 5.1.5 (phần c), những hành vi mà người được giáo dục rèn luyện cần thỏa mãn 4 tiêu chí: (1) Nội dung các chuẩn mực được thể hiện trong hành vi; (2) Sự thể hiện hành vi có tính phổ biến; (3) Sự thể hiện hành vi có tính bền vững; (4) Hành vi có động cơ đúng đắn.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 13,
+      "question": "Trong 6 quy luật của quá trình giáo dục, quy luật nào được giáo trình xác định là 'quy luật cơ bản' của quá trình giáo dục?",
+      "options": {
+        "A": "Quy luật về mối quan hệ thống nhất biện chứng giữa những tác động sư phạm của nhà giáo dục với hoạt động chủ động, tích cực của đối tượng giáo dục.",
+        "B": "Quy luật về mối quan hệ thống nhất biện chứng giữa quá trình giáo dục với sự phát triển của môi trường kinh tế - xã hội vĩ mô.",
+        "C": "Quy luật về mối quan hệ thống nhất biện chứng giữa mục đích giáo dục, nội dung giáo dục và phương pháp giáo dục.",
+        "D": "Quy luật về mối quan hệ thống nhất biện chứng giữa quá trình giáo dục (nghĩa hẹp) với quá trình dạy học các môn văn hóa."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 5.1.6, trong 6 quy luật của QTGD, 'quy luật về mối quan hệ thống nhất biện chứng giữa những tác động sư phạm của nhà giáo dục với hoạt động chủ động, tích cực của đối tượng giáo dục' được xem là quy luật cơ bản của QTGD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "Khi bàn về đặc điểm của các nguyên tắc giáo dục, vì sao giáo trình nhấn mạnh nguyên tắc giáo dục 'không phải là đơn thuốc cho từng trường hợp cụ thể'?",
+      "options": {
+        "A": "Vì các nguyên tắc giáo dục chỉ là những gợi ý mang tính tham khảo tùy hứng, nhà giáo dục có thể tuân thủ hoặc bỏ qua mà không ảnh hưởng đến kết quả giáo dục.",
+        "B": "Vì nguyên tắc giáo dục có tính khái quát cao, chung cho mọi trường hợp; do đó khi tổ chức từng hoạt động hay xử lý từng tình huống giáo dục cụ thể, giáo viên phải vận dụng một cách linh hoạt, sáng tạo.",
+        "C": "Vì nguyên tắc giáo dục chỉ áp dụng được cho những học sinh ngoan ngoãn, còn đối với học sinh cá biệt thì không một nguyên tắc sư phạm nào có giá trị.",
+        "D": "Vì mỗi trường học ở Việt Nam đều tự ban hành một bộ nguyên tắc giáo dục riêng biệt hoàn toàn trái ngược nhau tùy theo ý muốn chủ quan của hiệu trưởng."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 5.2, nguyên tắc giáo dục có 3 đặc điểm: (1) Có tính khái quát cao, chung cho mọi trường hợp mà không phải là 'đơn thuốc' cho từng trường hợp cụ thể, đòi hỏi GV vận dụng sáng tạo; (2) Có tính quy luật; (3) Có vai trò định hướng, chỉ đạo toàn bộ QTGD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "Trong 'Nguyên tắc giáo dục trong tập thể và bằng tập thể' (Mục 5.2.3), vai trò của tập thể học sinh với tư cách là 'phương tiện giáo dục' được thể hiện ở điểm nào sau đây?",
+      "options": {
+        "A": "Tập thể là nơi cung cấp phòng học, bàn ghế và các trang thiết bị vật chất phục vụ cho việc học tập hàng ngày của các thành viên trong lớp.",
+        "B": "Tập thể xóa bỏ hoàn toàn mọi lợi ích cá nhân để buộc tất cả học sinh phải suy nghĩ và hành động rập khuôn theo mệnh lệnh hành chính của lớp trưởng.",
+        "C": "Tập thể giúp biến yêu cầu giáo dục khách quan từ nhà trường, giáo viên thành yêu cầu chủ quan của tập thể và mỗi thành viên; đồng thời dùng sức mạnh của dư luận tập thể lành mạnh để kích thích, điều chỉnh, định hướng hành vi và đánh giá kết quả rèn luyện.",
+        "D": "Tập thể thay thế hoàn toàn vai trò chủ đạo của người giáo viên, tự mình biên soạn chương trình môn học và cấp bằng tốt nghiệp cho các thành viên."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 5.2.3, tập thể vừa là môi trường vừa là phương tiện giáo dục. Tập thể là phương tiện giáo dục vì: (1) Giúp biến yêu cầu khách quan từ nhà trường/GV thành yêu cầu chủ quan của tập thể và mỗi thành viên; (2) Kích thích, điều chỉnh, định hướng hành vi bằng sức mạnh của dư luận lành mạnh; (3) Đánh giá và tạo điều kiện cho cá nhân tự đánh giá.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 16,
+      "question": "Theo 'Nguyên tắc thống nhất giữa tôn trọng nhân cách người được giáo dục và yêu cầu cao hợp lý' (Mục 5.2.6), mối quan hệ giữa tôn trọng nhân cách và yêu cầu cao hợp lý được giải thích như thế nào?",
+      "options": {
+        "A": "Tôn trọng nhân cách và yêu cầu cao là hai mặt loại trừ nhau: đã tôn trọng học sinh thì phải chiều theo mọi ý thích của các em và không được đặt ra bất kỳ yêu cầu bắt buộc nào.",
+        "B": "Nhà giáo dục chỉ nên tôn trọng nhân cách đối với những học sinh giỏi, còn đối với học sinh trung bình và yếu thì chỉ áp dụng các yêu cầu khắt khe kèm theo trừng phạt.",
+        "C": "Yêu cầu cao hợp lý có nghĩa là đặt ra những tiêu chuẩn vượt quá sức lực của học sinh rồi để mặc các em tự xoay xở mà không cần quan tâm hay động viên.",
+        "D": "Tôn trọng nhân cách và yêu cầu cao hợp lý là hai mặt của một vấn đề có quan hệ mật thiết với nhau: trong khi yêu cầu ở người được giáo dục thật nhiều (vừa sức, nâng cao dần và kiên quyết thực hiện) thì bản thân sự yêu cầu đó đã chứa đựng sự tôn trọng và tin tưởng của nhà giáo dục."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 5.2.6, tôn trọng nhân cách và yêu cầu cao hợp lý là hai mặt của một vấn đề, quán triệt lòng nhân đạo, thương yêu và tin tưởng vào bản chất tốt đẹp của con người: 'trong khi yêu cầu ở người được giáo dục thật nhiều thì bản thân sự yêu cầu chứa đựng sự tôn trọng của nhà giáo dục'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "Theo 'Nguyên tắc chú ý đến đặc điểm riêng của từng đối tượng giáo dục' (Mục 5.2.8), khi những tác động giáo dục thực sự phù hợp với đặc điểm tâm lý, nhu cầu, động cơ, hoàn cảnh của đối tượng giáo dục thì sẽ tạo ra hiệu ứng tâm lý gì?",
+      "options": {
+        "A": "Gây nên sự cộng hưởng bên trong tâm hồn của đối tượng giáo dục.",
+        "B": "Tạo ra sự ức chế bảo vệ làm dập tắt hoàn toàn các phản xạ có điều kiện của học sinh.",
+        "C": "Làm xuất hiện cơ chế phòng vệ tâm lý chống đối lại các yêu cầu của tập thể lớp.",
+        "D": "Xóa bỏ toàn bộ tính độc lập cá nhân để hòa tan học sinh vào đám đông tự phát."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 5.2.8, những tác động phù hợp với đối tượng giáo dục (cả tập thể lẫn cá nhân với đời sống tinh thần và vật chất cụ thể) sẽ 'gây nên sự cộng hưởng bên trong tâm hồn của đối tượng giáo dục'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Trong 'Nguyên tắc đảm bảo sự thống nhất giữa giáo dục nhà trường, giáo dục gia đình và giáo dục cộng đồng xã hội' (Mục 5.2.10), vị trí và vai trò đặc thù của từng lực lượng giáo dục được xác định như thế nào?",
+      "options": {
+        "A": "Giáo dục xã hội giữ vai trò chủ đạo quyết định; giáo dục nhà trường đặt nền móng đầu tiên; còn giáo dục gia đình chỉ có vai trò hỗ trợ tài chính.",
+        "B": "Giáo dục gia đình đặt nền móng đầu tiên (cha mẹ là người thầy đầu tiên); giáo dục nhà trường giữ vai trò chủ đạo (có mục đích, nội dung, phương pháp khoa học, giúp bổ sung và điều chỉnh tác động tiêu cực từ gia đình và xã hội); giáo dục xã hội có vai trò rất quan trọng.",
+        "C": "Giáo dục gia đình giữ vai trò chủ đạo trong suốt cuộc đời học sinh; giáo dục nhà trường chỉ đóng vai trò phụ trợ cung cấp bằng cấp; còn giáo dục xã hội luôn luôn mang tính tiêu cực cần phải cách ly.",
+        "D": "Ba lực lượng nhà trường, gia đình và xã hội có vai trò hoàn toàn ngang bằng nhau và hoạt động độc lập, không lực lượng nào giữ vai trò chủ đạo khâu nối."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 5.2.10: Giáo dục gia đình đặt nền móng đầu tiên cho sự hình thành và phát triển nhân cách (cha mẹ là người thầy đầu tiên); Giáo dục nhà trường giữ vai trò chủ đạo (có mục đích xác định, nội dung, phương pháp phù hợp tâm sinh lý, giúp bổ sung và điều chỉnh tác động tiêu cực từ gia đình, xã hội); Giáo dục xã hội có vai trò rất quan trọng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Trong 5 nguyên tắc xây dựng nội dung giáo dục (Mục 5.3.2), nguyên tắc 'Đảm bảo tính đồng tâm trong giáo dục' đòi hỏi nội dung giáo dục phải được thiết kế và phát triển theo cấu trúc nào?",
+      "options": {
+        "A": "Thiết kế theo đường thẳng tắp một chiều, mỗi chuẩn mực đạo đức chỉ được nhắc đến duy nhất một lần ở một khối lớp rồi không bao giờ lặp lại ở các lớp trên.",
+        "B": "Thiết kế giống hệt nhau về cả dung lượng lẫn mức độ khái quát cho tất cả các khối lớp từ lớp 1 đến lớp 12 để học sinh học thuộc lòng nguyên văn.",
+        "C": "Xây dựng và phát triển theo hướng mở rộng và khái quát dần từ lớp dưới lên lớp trên, từ bài học trước sang bài học sau như đường xoáy trôn ốc, giúp nâng cao dần ý thức tự giác của người học.",
+        "D": "Xây dựng theo hướng thu hẹp dần phạm vi kiến thức khi lên các lớp trên để học sinh chỉ tập trung ôn thi một vài môn văn hóa phục vụ tuyển sinh đại học."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 5.3.2, nguyên tắc đảm bảo tính đồng tâm đòi hỏi nội dung giáo dục cần được xây dựng và phát triển theo hướng mở rộng và khái quát dần từ lớp dưới lên lớp trên, từ bài học trước sang bài học sau như đường xoáy trôn ốc.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "Theo Mục 5.3.3.2 (Nội dung giáo dục lao động và hướng nghiệp), giáo dục hướng nghiệp gồm 4 giai đoạn nào, và những giai đoạn nào được thực hiện phổ biến khi học sinh đang học ở trường phổ thông?",
+      "options": {
+        "A": "Gồm 4 giai đoạn: tìm việc, ký hợp đồng, hưởng lương và nghỉ hưu; trong đó ký hợp đồng và hưởng lương được thực hiện phổ biến ở trường phổ thông.",
+        "B": "Gồm 4 giai đoạn: học nghề, thi tay nghề, phân công lao động và đào tạo lại; trong đó phân công lao động và đào tạo lại phổ biến ở trường phổ thông.",
+        "C": "Gồm 4 giai đoạn: định hướng sở thích, xóa bỏ năng lực, ép buộc chọn trường và cam kết việc làm; cả 4 giai đoạn đều kết thúc ở bậc tiểu học.",
+        "D": "Gồm 4 giai đoạn: giáo dục nghề, tư vấn nghề, tuyển chọn nghề và thích ứng nghề; trong đó giáo dục nghề và tư vấn nghề là hai giai đoạn được thực hiện phổ biến khi học sinh đang học ở trường phổ thông."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 5.3.3.2, giáo dục hướng nghiệp thường được tiến hành qua 4 giai đoạn: giáo dục nghề, tư vấn nghề, tuyển chọn nghề và thích ứng nghề. Trong đó, giáo dục nghề và tư vấn nghề là hai giai đoạn được thực hiện phổ biến khi học sinh đang học ở trường phổ thông (cùng với việc xây dựng nhận thức cá nhân về sở thích vs khả năng, và nhận thức nghề nghiệp).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Khi bàn về 'Nội dung giáo dục thẩm mỹ' (Mục 5.3.3.4), giáo trình nhấn mạnh quan điểm đúng đắn nào để tránh hiểu sai bản chất của giáo dục thẩm mỹ trong trường phổ thông?",
+      "options": {
+        "A": "Giáo dục thẩm mỹ không nên hiểu là giáo dục năng khiếu cho học sinh về một môn nghệ thuật nào đó, mà là giáo dục văn hóa thẩm mỹ chung cho tất cả học sinh; cái đẹp không chỉ tồn tại trong nghệ thuật mà còn ở cuộc sống hàng ngày qua các hành động tử tế, câu chuyện nhân văn.",
+        "B": "Giáo dục thẩm mỹ thực chất là quá trình tuyển chọn và đào tạo chuyên sâu các ca sĩ, họa sĩ, nhạc công chuyên nghiệp ngay từ cấp tiểu học thông qua hai môn Âm nhạc và Mỹ thuật.",
+        "C": "Giáo dục thẩm mỹ chỉ giới hạn trong việc hướng dẫn học sinh trang điểm ngoại hình, ăn mặc thời trang đắt tiền và thưởng thức các tác phẩm hội họa cổ điển châu Âu.",
+        "D": "Giáo dục thẩm mỹ là nội dung tự chọn chỉ dành riêng cho những học sinh có năng khiếu bẩm sinh về nghệ thuật, còn học sinh bình thường không cần tham gia."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 5.3.3.4, giáo dục thẩm mỹ không nên hiểu là giáo dục năng khiếu cho học sinh về một môn nghệ thuật nào đó, mà là giáo dục văn hóa thẩm mỹ chung cho tất cả học sinh (bồi dưỡng năng lực cảm thụ/tri giác thẩm mỹ, đánh giá cái đẹp và sáng tạo cái đẹp trong tự nhiên, nghệ thuật và cuộc sống hàng ngày).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Theo Chương trình giáo dục phổ thông 2018 (ban hành kèm theo Thông tư 32/2018/TT-BGDĐT ngày 26/12/2018), nội dung 'Hoạt động trải nghiệm và Hoạt động trải nghiệm, hướng nghiệp' được quy định tên gọi theo cấp học và hướng tới hình thành 3 năng lực đặc thù nào?",
+      "options": {
+        "A": "Ở mọi cấp học đều gọi là Hoạt động ngoại khóa tự nguyện; hướng tới 3 năng lực là năng lực tính toán, năng lực ngoại ngữ và năng lực thi đấu thể thao.",
+        "B": "Bắt buộc từ lớp 1 đến lớp 12 (cấp Tiểu học gọi là Hoạt động trải nghiệm; cấp THCS và THPT gọi là Hoạt động trải nghiệm, hướng nghiệp); hướng tới hình thành 3 năng lực: năng lực thích ứng với cuộc sống, năng lực thiết kế và tổ chức hoạt động, năng lực định hướng nghề nghiệp.",
+        "C": "Chỉ bắt buộc ở cấp THPT với tên gọi Giáo dục hướng nghiệp; hướng tới 3 năng lực là năng lực vận hành máy móc, năng lực quản trị doanh nghiệp và năng lực tài chính.",
+        "D": "Ở cấp Tiểu học gọi là Hoạt động hướng nghiệp, ở cấp THCS và THPT gọi là Hoạt động vui chơi giải trí; hướng tới 3 năng lực là năng lực cảm thụ âm nhạc, năng lực hội họa và năng lực biểu diễn."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 5.3.3.5, theo CTGDPT 2018 (Thông tư 32/2018/TT-BGDĐT), đây là hoạt động giáo dục bắt buộc từ lớp 1 đến lớp 12: ở cấp tiểu học gọi là 'Hoạt động trải nghiệm', ở cấp THCS và THPT gọi là 'Hoạt động trải nghiệm, hướng nghiệp'. Mục tiêu chung là hình thành, phát triển ở HS 3 năng lực: năng lực thích ứng với cuộc sống, năng lực thiết kế và tổ chức hoạt động, năng lực định hướng nghề nghiệp.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 23,
+      "question": "Theo Chương trình giáo dục phổ thông 2018 (Mục 5.3.3.6), 'Nội dung giáo dục của địa phương' có vị trí và cách thức tổ chức ở cấp Tiểu học khác với cấp THCS và THPT như thế nào?",
+      "options": {
+        "A": "Ở cấp Tiểu học là một môn học độc lập có tính điểm tổng kết riêng, còn ở cấp THCS và THPT thì được tích hợp hoàn toàn vào môn Lịch sử và Địa lí.",
+        "B": "Ở cả ba cấp Tiểu học, THCS và THPT, nội dung giáo dục địa phương đều chỉ là hoạt động tham quan tự nguyện vào dịp nghỉ hè, không nằm trong chương trình chính khóa.",
+        "C": "Ở cấp Tiểu học, nội dung giáo dục của địa phương được tích hợp với Hoạt động trải nghiệm; còn ở cấp THCS và THPT, nội dung giáo dục của địa phương có vị trí tương đương như các môn học khác.",
+        "D": "Nội dung giáo dục của địa phương chỉ được triển khai duy nhất ở cấp Tiểu học, đến cấp THCS và THPT thì được thay thế hoàn toàn bằng môn Giáo dục kinh tế và pháp luật."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 5.3.3.6, nội dung giáo dục của địa phương được tích hợp với Hoạt động trải nghiệm ở cấp tiểu học. Tuy nhiên, ở cấp trung học cơ sở và trung học phổ thông, nội dung giáo dục của địa phương có vị trí tương đương như các môn học khác.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "question": "Trong hệ thống các phương pháp giáo dục (Mục 5.4.4), nhóm 'Các phương pháp hình thành ý thức và tình cảm cá nhân' (còn gọi là nhóm phương pháp thuyết phục) bao gồm 5 phương pháp cụ thể nào?",
+      "options": {
+        "A": "Phương pháp luyện tập; phương pháp rèn luyện; phương pháp giao việc; phương pháp khen thưởng; và phương pháp trách phạt.",
+        "B": "Phương pháp thuyết trình; phương pháp vấn đáp; phương pháp trực quan; phương pháp thực hành thí nghiệm; và phương pháp kiểm tra viết.",
+        "C": "Phương pháp thi đua; phương pháp mệnh lệnh hành chính; phương pháp kỷ luật thép; phương pháp tự quan sát; và phương pháp trắc nghiệm.",
+        "D": "Phương pháp đàm thoại; phương pháp giảng giải, khuyên răn; phương pháp nêu gương; phương pháp kể chuyện; và phương pháp tranh luận."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 5.4.4.1, nhóm các phương pháp hình thành ý thức và tình cảm cá nhân (các phương pháp thuyết phục) bao gồm 5 phương pháp: (1) Đàm thoại; (2) Giảng giải, khuyên răn; (3) Nêu gương; (4) Kể chuyện; (5) Tranh luận.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "Khi sử dụng 'Phương pháp giảng giải, khuyên răn' (Mục 5.4.4.1), nội dung giảng giải, khuyên răn của nhà giáo dục bắt buộc phải làm rõ 3 vấn đề cốt lõi nào?",
+      "options": {
+        "A": "Chuẩn mực đó là gì? Tại sao phải thực hiện các chuẩn mực đó? Thực hiện các chuẩn mực đó như thế nào?",
+        "B": "Ai là người sáng tác ra chuẩn mực? Chuẩn mực đó xuất hiện từ thế kỷ nào? Có bao nhiêu quốc gia đang áp dụng chuẩn mực đó?",
+        "C": "Học sinh đã vi phạm chuẩn mực bao nhiêu lần? Mức phạt tiền là bao nhiêu? Khi nào sẽ mời phụ huynh đến trường làm việc?",
+        "D": "Khái niệm triết học của chuẩn mực là gì? Cấu trúc ngữ pháp của câu khẩu hiệu ra sao? Điểm số môn Đạo đức được tính như thế nào?"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 5.4.4.1 (phần 2 - Phương pháp giảng giải, khuyên răn), yêu cầu về nội dung giảng giải, khuyên răn cần làm rõ 3 vấn đề: Chuẩn mực đó là gì? Tại sao phải thực hiện các chuẩn mực đó? Thực hiện các chuẩn mực đó như thế nào?",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "question": "Cơ sở tâm lý học và giáo dục học của 'Phương pháp nêu gương' (Mục 5.4.4.1) chỉ ra rằng quá trình bắt chước của học sinh diễn ra theo những quy luật vận động nào?",
+      "options": {
+        "A": "Từ bắt chước các nhân vật lịch sử xa xôi đến bắt chước cha mẹ gần gũi; từ bắt chước sáng tạo đến bắt chước máy móc; từ bắt chước có ý thức đến bắt chước vô thức.",
+        "B": "Từ bắt chước hình mẫu gần gũi (cha mẹ, bạn bè) đến hình mẫu xa (nhân vật truyện, lịch sử, phim ảnh); từ vô ý thức đến chủ động, có ý thức; từ nguyên mẫu máy móc đến có sáng tạo; từ bắt chước trong trò chơi đến bắt chước trong cuộc sống.",
+        "C": "Học sinh chỉ bắt chước duy nhất những hành vi tốt đẹp của người lớn mà hoàn toàn miễn nhiễm, không bao giờ bắt chước các hành vi xấu trên phương tiện truyền thông.",
+        "D": "Đối với học sinh đầu cấp, việc đưa ra những tấm gương càng xa vời thực tế, càng lý tưởng hóa siêu phàm thì càng kích thích mạnh mẽ ý chí phấn đấu của các em."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 5.4.4.1 (phần 3 - Phương pháp nêu gương), quá trình bắt chước của học sinh diễn ra theo quy luật: từ hình mẫu gần gũi đến hình mẫu xa; từ vô ý thức đến chủ động, có ý thức; từ nguyên mẫu máy móc đến có sáng tạo; từ bắt chước trong trò chơi đến bắt chước trong cuộc sống. Đồng thời không nên chọn gương quá xa vời, quá lý tưởng dễ làm nhụt chí học sinh đầu cấp.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "Theo Mục 5.4.4.1, mục đích chủ yếu và yêu cầu sư phạm đúng đắn khi nhà giáo dục tổ chức 'Phương pháp tranh luận' cho học sinh là gì?",
+      "options": {
+        "A": "Nhằm tìm ra kẻ thắng người thua rõ ràng trong lớp học và buộc nhóm thiểu số phải phục tùng tuyệt đối quan điểm của số đông ngay lập tức.",
+        "B": "Giáo viên phải can thiệp sâu vào từng câu nói của học sinh, kịp thời chỉ trích, phê phán gay gắt những ý kiến lệch chuẩn để nhanh chóng áp đặt kết luận chuẩn xác của mình.",
+        "C": "Chủ yếu nhằm tạo cơ hội cho cá nhân học sinh bộc lộ quan điểm, chính kiến trong bầu không khí cởi mở; không áp đặt hay kết luận theo quy luật số đông, cho phép bảo lưu ý kiến khi cần thiết, và giáo viên dùng uy tín định hướng trọng tâm chứ không chỉ trích, dè bỉu.",
+        "D": "Chỉ dừng lại ở mức độ bàn luận chung chung cho vui vẻ, học sinh không cần phải thể hiện chính kiến rõ ràng hay bảo vệ lập luận của bản thân."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 5.4.4.1 (phần 5 - Phương pháp tranh luận), tranh luận trong giáo dục chủ yếu nhằm tạo cơ hội cho cá nhân HS bộc lộ quan điểm chứ không phải đi đến giải pháp cuối cùng dứt khoát; không áp đặt, cho phép bảo lưu ý kiến, không kết luận theo quy luật số đông; GV dùng uy tín định hướng trọng tâm nhưng không can thiệp quá sâu, không chỉ trích, dè bỉu.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "Trong nhóm các phương pháp tổ chức hoạt động nhằm hình thành kinh nghiệm ứng xử xã hội (Mục 5.4.4.2), sự khác biệt cốt lõi về mức độ giữa 'Phương pháp luyện tập' và 'Phương pháp rèn luyện' là gì?",
+      "options": {
+        "A": "Luyện tập chỉ dùng cho giáo dục thể chất trên sân bãi, còn rèn luyện chỉ dùng cho việc giải các bài tập toán học ở trong phòng học.",
+        "B": "Luyện tập là để học sinh tự làm một mình không có kế hoạch, còn rèn luyện là giáo viên làm mẫu hoàn toàn thay cho học sinh.",
+        "C": "Luyện tập đòi hỏi mức độ cao hơn trong các tình huống thực của cuộc sống, còn rèn luyện chỉ là việc lặp lại các cử động đơn giản trong phòng thí nghiệm.",
+        "D": "Nếu như luyện tập cho học sinh ứng xử trong các tình huống giả định do giáo viên và bạn bè đặt ra (theo quy trình từ dễ đến khó, chậm mà đúng rồi mới đẹp và nhanh), thì rèn luyện đòi hỏi ở mức cao hơn khi đưa học sinh đối mặt với tình huống thực trong điều kiện thực của cuộc sống để nâng cao bản lĩnh và đấu tranh động cơ."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 5.4.4.2, luyện tập cho HS thực hiện đều đặn, có kế hoạch trong các tình huống giả định (đi từ dễ đến khó, chậm nhưng đúng, tập cho đẹp rồi tăng tốc độ); còn rèn luyện đòi hỏi ở mức cao hơn: HS phải đối mặt với tình huống thực trong điều kiện thực của cuộc sống và tự nguyện tham gia giải quyết, qua đó nâng cao bản lĩnh cá nhân và đấu tranh động cơ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "Khi phân tích 'Phương pháp khen thưởng' thuộc nhóm kích thích và điều chỉnh hành vi (Mục 5.4.4.3), giáo trình chỉ ra nguyên tắc cốt lõi nào về đối tượng hướng tới của sự khen thưởng và cách khen đối với từng nhóm học sinh?",
+      "options": {
+        "A": "Khen thưởng không chỉ nhằm vào kết quả công việc mà quan trọng hơn là nhằm vào động cơ đạo đức của hành vi; cần khen cụ thể (tránh khen chung chung), chú ý khen những học sinh lần đầu đạt thành tích, ít được khen, rụt rè, tự ti, và chỉ khen học sinh đã được khen nhiều khi thực sự xứng đáng để tránh kiêu ngạo.",
+        "B": "Khen thưởng chỉ cần căn cứ duy nhất vào kết quả vật chất cuối cùng mà không cần xét đến động cơ thúc đẩy; nên tập trung khen thưởng thật nhiều lần cho một vài học sinh xuất sắc nhất lớp.",
+        "C": "Khi khen thưởng nên dùng những lời khen ngợi chung chung như 'Em tốt quá! Em giỏi quá!' và luôn luôn phải đi kèm với phần thưởng tiền mặt giá trị lớn mới có tác dụng giáo dục.",
+        "D": "Học sinh càng nhỏ tuổi càng phải hạn chế khen thưởng để tránh làm hư trẻ, chỉ khi học sinh lên bậc trung học phổ thông mới bắt đầu sử dụng phương pháp khen thưởng."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 5.4.4.3 (phần 1 - Phương pháp khen thưởng): 'Chính khen thưởng nhằm vào động cơ có tác dụng giáo dục to lớn hơn là chỉ nhằm vào kết quả của hoạt động'. Khen thưởng phải khách quan, được tập thể thừa nhận, khen cụ thể (không khen chung chung 'Em tốt quá!'), chú ý khen HS lần đầu đạt thành tích, ít được khen, rụt rè, tự ti; HS càng nhỏ càng nên khuyến khích khen nhiều hơn; HS đã được khen nhiều chỉ khen khi thực sự xứng đáng để tránh chủ quan, kiêu ngạo.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "Theo Mục 5.4.4.3, quan điểm và yêu cầu sư phạm đúng đắn khi sử dụng 'Phương pháp trách phạt' trong nhà trường hiện nay là gì?",
+      "options": {
+        "A": "Trách phạt là phương pháp chủ đạo cần áp dụng thường xuyên, liên tục hàng ngày để duy trì kỷ luật và giúp giáo viên giải tỏa cơn giận dữ khi học sinh mắc lỗi.",
+        "B": "Chỉ dùng trách phạt khi thuyết phục không còn tác dụng (tránh lạm dụng gây trơ lì, chai sạn); nhằm giúp học sinh ăn năn hối lỗi chứ không phải trừng phạt; phải khách quan, tôn trọng nhân cách (không xúc phạm thể chất, tinh thần), hướng dẫn dư luận tập thể giúp đỡ bạn chứ không xa lánh; còn đuổi học chỉ là biện pháp bất đắc dĩ thể hiện sự bất lực của nhà trường.",
+        "C": "Khi một học sinh vi phạm nội quy mà chưa tìm ra thủ phạm, giáo viên cần kiên quyết trách phạt toàn bộ tập thể lớp và cấm học sinh đó tham gia mọi hoạt động chung để tập thể tẩy chay.",
+        "D": "Hình thức đuổi học hoặc khai trừ ra khỏi tổ chức Đoàn, Đội là biện pháp giáo dục ưu việt nhất cần được ưu tiên áp dụng ngay từ lần đầu học sinh vi phạm kỷ luật."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 5.4.4.3 (phần 2 - Phương pháp trách phạt): Đuổi học/khai trừ phải rất hạn chế vì 'đây là biện pháp bất đắc dĩ, thể hiện sự bất lực của nhà trường, của nhà giáo dục'. Chỉ dùng trách phạt khi thuyết phục không còn tác dụng (tránh làm đối tượng trơ lì, chai sạn); mục đích để ăn năn sửa lỗi chứ không phải trừng phạt hay thỏa mãn cơn giận của GV; phải tôn trọng nhân cách, không xúc phạm thể chất/tinh thần; không để tập thể xa lánh, bỏ rơi học sinh bị trách phạt. Bên cạnh đó, phương pháp thi đua khích lệ khuynh hướng tự khẳng định nhưng cần tránh bệnh thành tích, hiếu thắng; và nhà giáo dục phải phối hợp các PPGD dựa trên 6 căn cứ khoa học.",
+      "difficulty": "hard"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Nêu khái niệm quá trình giáo dục (theo nghĩa hẹp), chức năng trội của nó và giải thích sự thống nhất hữu cơ giữa 3 quá trình: giáo dục, tự giáo dục và giáo dục lại.",
+      "expected_answer": "• Khái niệm & Chức năng trội: Quá trình giáo dục (theo nghĩa hẹp) là một bộ phận của QTGD tổng thể, có chức năng trội là làm cho người được giáo dục có nhận thức đúng đắn về các yêu cầu, chuẩn mực xã hội (chính trị, đạo đức, pháp luật, thẩm mỹ, văn hóa), hình thành thái độ, tình cảm, niềm tin và có hành vi, thói quen hành vi tương ứng nhằm phát triển nhân cách theo mục đích của nhà trường và xã hội.\n• Sự thống nhất hữu cơ giữa 3 quá trình:\n  1. Giáo dục: Tác động định hướng, chủ đạo của nhà giáo dục (tuổi càng nhỏ, vai trò của giáo dục càng quan trọng).\n  2. Tự giáo dục: Hoạt động tự giác, tích cực tự hoàn thiện của người học (càng trưởng thành và phát triển, vai trò của tự giáo dục càng chiếm ưu thế).\n  3. Giáo dục lại: Quá trình nhằm uốn nắn, sửa chữa những nhận thức, thái độ, thói quen sai sót, lệch lạc của hai quá trình trên."
+    },
+    {
+      "id": 2,
+      "question": "Liệt kê 6 thành tố cấu trúc của quá trình giáo dục, trình bày 3 nhiệm vụ của quá trình giáo dục và phân tích hai tư cách của người được giáo dục.",
+      "expected_answer": "• Sáu thành tố cấu trúc của QTGD: (1) Mục đích, nhiệm vụ giáo dục (giữ vị trí hàng đầu); (2) Nội dung giáo dục; (3) Phương pháp, phương tiện giáo dục; (4) Nhà giáo dục (giữ vai trò chủ đạo); (5) Người được giáo dục; (6) Kết quả giáo dục (đầu ra thực tế).\n• Ba nhiệm vụ của QTGD:\n  1. Tổ chức hình thành và phát triển ý thức cá nhân (thể thống nhất giữa sự hiểu biết/tri thức và niềm tin) về các chuẩn mực xã hội.\n  2. Tổ chức hình thành và phát triển thái độ (xúc cảm, tình cảm) tích cực đối với các chuẩn mực xã hội – đóng vai trò như 'chất men' đặc biệt thúc đẩy chuyển hóa ý thức thành hành vi.\n  3. Tổ chức hình thành và phát triển hệ thống hành vi và rèn luyện thành thói quen hành vi bền vững.\n• Hai tư cách của người được giáo dục: Vừa là đối tượng của QTGD (tiếp nhận tác động có kế hoạch từ nhà giáo dục – là điều kiện), vừa là chủ thể của quá trình tự giáo dục (tự vận động biến tác động bên ngoài thành bên trong – là cơ bản)."
+    },
+    {
+      "id": 3,
+      "question": "Phát biểu bản chất của quá trình giáo dục và tóm tắt 4 đặc điểm đặc thù của quá trình giáo dục.",
+      "expected_answer": "• Bản chất của QTGD: Là quá trình chuyển hóa tự giác, tích cực, độc lập những yêu cầu về chuẩn mực hành vi đã được xã hội quy định thành hành vi và thói quen hành vi tương ứng ở người được giáo dục, dưới tác động chủ đạo của nhà giáo dục, thông qua việc tổ chức các hoạt động và giao tiếp đa dạng.\n• Bốn đặc điểm của QTGD:\n  1. Tính phức hợp: Nhân cách khó quan sát, đo lường trực tiếp; chịu tác động đan xen (tích cực/tiêu cực, tự giác/tự phát, trực tiếp/gián tiếp) từ nhà trường, gia đình, xã hội; kết quả cần thời gian và hoàn cảnh mới bộc lộ.\n  2. Tính lâu dài, liên tục: Đòi hỏi thời gian trải nghiệm lâu dài, rèn luyện thường xuyên liên tục và cuộc đấu tranh bản thân gay gắt giữa động cơ đúng và chưa đúng, giữa thói quen mới tiến bộ với thói quen cũ lạc hậu.\n  3. Tính cá biệt hóa cao: Tác động và kết quả giáo dục phải phù hợp với đặc điểm tâm sinh lý, hoàn cảnh, kinh nghiệm riêng của từng cá nhân trong từng tình huống cụ thể.\n  4. Thống nhất biện chứng với quá trình dạy học (QTDH): Cùng hướng tới phát triển nhân cách toàn vẹn, thông qua 'dạy chữ' để 'dạy người' và hỗ trợ thúc đẩy lẫn nhau."
+    },
+    {
+      "id": 4,
+      "question": "Mâu thuẫn cơ bản (động lực chủ yếu) của quá trình giáo dục là gì? Nêu 3 điều kiện để mâu thuẫn cơ bản trở thành động lực và phát biểu quy luật cơ bản của quá trình giáo dục.",
+      "expected_answer": "• Mâu thuẫn cơ bản (tạo động lực chủ yếu của QTGD): Là mâu thuẫn bên trong giữa một bên là yêu cầu về chuẩn mực hành vi được đề ra trong QTGD cao với một bên là trình độ được giáo dục (ý thức, thái độ, hành vi) của người được giáo dục còn hạn chế.\n• Ba điều kiện để mâu thuẫn cơ bản trở thành động lực:\n  1. Yêu cầu đặt ra phải vừa sức (cao hơn trình độ hiện có nhưng phù hợp khả năng để người học thực hiện được với sự nỗ lực cao nhất).\n  2. Yêu cầu đặt ra phải được người được giáo dục ý thức đầy đủ (biết rõ yêu cầu, hiểu sự cần thiết và mong muốn, sẵn sàng thực hiện).\n  3. Mâu thuẫn phải nảy sinh một cách tự nhiên, khách quan trong tiến trình giáo dục (trên cơ sở kết quả giải quyết mâu thuẫn trước đó).\n• Quy luật cơ bản của QTGD (trong 6 quy luật): Quy luật về mối quan hệ thống nhất biện chứng giữa những tác động sư phạm của nhà giáo dục với hoạt động chủ động, tích cực của đối tượng giáo dục."
+    },
+    {
+      "id": 5,
+      "question": "Trình bày 3 khâu trong logic của quá trình giáo dục và nêu rõ 4 tiêu chí của hành vi được rèn luyện ở khâu thứ ba.",
+      "expected_answer": "• Logic của QTGD gồm 3 khâu có mối quan hệ mật thiết, thâm nhập vào nhau và mang tính động:\n  - Khâu 1: Tổ chức, điều khiển người được giáo dục hình thành nhận thức đúng đắn, sâu sắc về các chuẩn mực xã hội (nắm vững nội dung chuẩn mực, sự cần thiết/ý nghĩa phải thực hiện và cách thực hiện).\n  - Khâu 2: Tổ chức hình thành ở người được giáo dục niềm tin (thể hiện qua 6 biểu hiện) và tình cảm đúng đắn đối với các chuẩn mực đã quy định ('chất men' thôi thúc hành động và ý chí tự tu dưỡng).\n  - Khâu 3: Tổ chức, điều khiển người được giáo dục thực hiện những hành vi phù hợp với chuẩn mực xã hội ở mọi nơi, mọi lúc và rèn luyện thói quen hành vi tích cực.\n• Bốn tiêu chí của hành vi được rèn luyện: (1) Nội dung các chuẩn mực được thể hiện trong hành vi; (2) Sự thể hiện hành vi có tính phổ biến; (3) Sự thể hiện hành vi có tính bền vững; (4) Hành vi có động cơ đúng đắn."
+    },
+    {
+      "id": 6,
+      "question": "Kể tên đầy đủ hệ thống 10 nguyên tắc giáo dục và giải thích vì sao tập thể học sinh vừa là môi trường giáo dục, vừa là phương tiện giáo dục.",
+      "expected_answer": "• Hệ thống 10 nguyên tắc giáo dục:\n  1. Đảm bảo tính mục đích của QTGD.\n  2. Đảm bảo giáo dục gắn với cuộc sống của người được giáo dục, với thực tiễn đất nước.\n  3. Giáo dục trong tập thể và bằng tập thể.\n  4. Giáo dục trong lao động và bằng lao động.\n  5. Thống nhất giữa ý thức và hành vi.\n  6. Thống nhất giữa tôn trọng nhân cách người được giáo dục và yêu cầu cao hợp lý.\n  7. Đảm bảo sự thống nhất giữa vai trò tổ chức, điều khiển, hướng dẫn của nhà giáo dục và vai trò chủ thể tích cực của người được giáo dục.\n  8. Chú ý đến đặc điểm riêng của từng đối tượng giáo dục (tạo sự cộng hưởng bên trong tâm hồn).\n  9. Đảm bảo tính hệ thống, kế tiếp và liên tục của QTGD (nguyên tắc đồng tâm).\n  10. Đảm bảo sự thống nhất giữa giáo dục nhà trường (chủ đạo), giáo dục gia đình (nền móng đầu tiên) và giáo dục cộng đồng xã hội (rất quan trọng).\n• Giải thích tập thể vừa là môi trường vừa là phương tiện:\n  - Là môi trường vì: Tập thể có tổ chức chặt chẽ, bộ máy tự quản, mục đích và hoạt động chung, nội quy kỷ luật; giúp HS tiếp xúc hàng ngày để học quy tắc 'mình vì mọi người, mọi người vì mình' và tạo phong độ tập thể đoàn kết.\n  - Là phương tiện vì: Giúp biến yêu cầu khách quan của nhà trường/GV thành yêu cầu chủ quan của tập thể và cá nhân; dùng dư luận tập thể lành mạnh để điều chỉnh, định hướng hành vi; đánh giá và giúp cá nhân tự đánh giá."
+    },
+    {
+      "id": 7,
+      "question": "Trình bày 5 nguyên tắc xây dựng nội dung giáo dục và làm rõ những quy định của Chương trình GDPT 2018 (Thông tư 32/2018/TT-BGDĐT) về 'Hoạt động trải nghiệm và Hoạt động trải nghiệm, hướng nghiệp' cùng 'Nội dung giáo dục địa phương'.",
+      "expected_answer": "• Năm nguyên tắc xây dựng nội dung giáo dục: (1) Đảm bảo phù hợp với mục đích, mục tiêu giáo dục; (2) Đảm bảo tính liên tục, hệ thống; (3) Đảm bảo mối liên hệ giữa giá trị truyền thống và hiện đại; (4) Đảm bảo phù hợp với đặc điểm tâm sinh lý và trình độ nhận thức; (5) Đảm bảo tính đồng tâm trong giáo dục (mở rộng và khái quát dần như đường xoáy trôn ốc).\n• Hoạt động trải nghiệm và Hoạt động trải nghiệm, hướng nghiệp (theo Thông tư 32/2018/TT-BGDĐT):\n  - Là hoạt động giáo dục bắt buộc từ lớp 1 đến lớp 12: ở cấp Tiểu học gọi là 'Hoạt động trải nghiệm', ở cấp THCS và THPT gọi là 'Hoạt động trải nghiệm, hướng nghiệp'.\n  - Hướng tới hình thành và phát triển 3 năng lực đặc thù: (1) Năng lực thích ứng với cuộc sống; (2) Năng lực thiết kế và tổ chức hoạt động; (3) Năng lực định hướng nghề nghiệp.\n• Nội dung giáo dục của địa phương:\n  - Trang bị những vấn đề cơ bản/thời sự về văn hóa, lịch sử, địa lí, kinh tế, xã hội, môi trường, hướng nghiệp của địa phương.\n  - Ở cấp Tiểu học được tích hợp với Hoạt động trải nghiệm; ở cấp THCS và THPT có vị trí tương đương như các môn học khác."
+    },
+    {
+      "id": 8,
+      "question": "Hệ thống hóa 3 nhóm với 11 phương pháp giáo dục cụ thể và nêu 6 căn cứ để lựa chọn, phối hợp các phương pháp giáo dục.",
+      "expected_answer": "• Ba nhóm với 11 phương pháp giáo dục cụ thể:\n  1. Nhóm hình thành ý thức và tình cảm cá nhân (Nhóm thuyết phục - 5 phương pháp): Đàm thoại (cá nhân, tập thể, tự nhiên, theo chủ đề); Giảng giải, khuyên răn (làm rõ 3 câu hỏi: Chuẩn mực là gì? Tại sao phải thực hiện? Thực hiện thế nào?); Nêu gương (dựa trên quy luật bắt chước); Kể chuyện; Tranh luận.\n  2. Nhóm tổ chức hoạt động nhằm hình thành kinh nghiệm ứng xử xã hội (3 phương pháp): Luyện tập (tình huống giả định, có kế hoạch); Rèn luyện (đối mặt với tình huống thực trong điều kiện thực của cuộc sống); Giao việc.\n  3. Nhóm kích thích tính tích cực hoạt động và điều chỉnh hành vi ứng xử (3 phương pháp): Khen thưởng (nhằm vào động cơ đạo đức của hành vi có tác dụng giáo dục lớn hơn chỉ nhằm vào kết quả); Trách phạt (tạo sự ăn năn hối lỗi, tôn trọng nhân cách, đuổi học chỉ là biện pháp bất đắc dĩ thể hiện sự bất lực); Thi đua (khích lệ khuynh hướng tự khẳng định, tránh bệnh thành tích).\n• Sáu căn cứ lựa chọn và phối hợp các PPGD: (1) Mục đích giáo dục cụ thể của mỗi cấp/bậc học; (2) Nội dung giáo dục cụ thể; (3) Đặc điểm tâm sinh lý và cá biệt của người học; (4) Môi trường giáo dục và điều kiện thực tế; (5) Trình độ phát triển của tập thể học sinh; (6) Kinh nghiệm, năng lực và mối quan hệ giữa nhà giáo dục và người học."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Phân Tích Cấu Trúc Hệ Thống, Bản Chất và Bốn Đặc Điểm Của Quá Trình Giáo Dục (Theo Nghĩa Hẹp)",
+      "problem": "Quá trình giáo dục (hiểu theo nghĩa hẹp) là một quá trình bộ phận của quá trình giáo dục tổng thể trong nhà trường phổ thông.\nBằng kiến thức lí luận giáo dục, anh (chị) hãy:\n1. Phân tích cấu trúc hệ thống gồm 6 thành tố của quá trình giáo dục, làm rõ 3 nhiệm vụ cốt lõi và mối quan hệ giữa vai trò chủ đạo của nhà giáo dục với hai tư cách của người được giáo dục.\n2. Làm sáng tỏ bản chất của quá trình giáo dục và rút ra quy luật thực tiễn về việc tổ chức hoạt động, giao tiếp.\n3. Phân tích 4 đặc điểm đặc thù của quá trình giáo dục và đề xuất các kết luận sư phạm tương ứng cho người giáo viên trong công tác giáo dục học sinh.",
+      "solution_steps": [
+        "Bước 1: Khái niệm và Cấu trúc hệ thống 6 thành tố của quá trình giáo dục\n- Quá trình giáo dục (nghĩa hẹp) có chức năng trội là hình thành ở người học nhận thức đúng đắn về các chuẩn mực xã hội, thái độ, tình cảm, niềm tin và hành vi, thói quen tương ứng; là sự thống nhất hữu cơ giữa 3 quá trình: giáo dục, tự giáo dục và giáo dục lại.\n- Cấu trúc 6 thành tố tồn tại thống nhất biện chứng: (1) Mục đích, nhiệm vụ giáo dục (giữ vị trí hàng đầu, định hướng toàn bộ hệ thống với 3 nhiệm vụ: hình thành ý thức [hiểu biết + niềm tin], hình thành thái độ/tình cảm như 'chất men' thúc đẩy, và hình thành hành vi, thói quen bền vững); (2) Nội dung giáo dục; (3) Phương pháp, phương tiện giáo dục; (4) Nhà giáo dục; (5) Người được giáo dục; (6) Kết quả giáo dục (đầu ra thực tế đối chiếu với mục đích).",
+        "Bước 2: Vai trò chủ đạo của nhà giáo dục và hai tư cách của người được giáo dục\n- Nhà giáo dục giữ vai trò chủ đạo: tổ chức, điều khiển, lựa chọn nội dung/phương pháp/hình thức, kiểm tra đánh giá; quán triệt và định hướng mục đích giáo dục; phát huy ý thức tự giáo dục ở người học; và phối hợp các lực lượng nhà trường - gia đình - xã hội.\n- Người được giáo dục có hai tư cách thống nhất: vừa là đối tượng của QTGD (tiếp nhận tác động có định hướng từ nhà giáo dục – đóng vai trò là điều kiện), vừa là chủ thể của quá trình tự giáo dục (tiếp nhận có ý thức, tự vận động biến tác động bên ngoài thành bên trong – đóng vai trò là cơ bản).",
+        "Bước 3: Bản chất của quá trình giáo dục\n- Bản chất của QTGD là quá trình chuyển hóa tự giác, tích cực, độc lập những yêu cầu về chuẩn mực hành vi đã được xã hội quy định (vốn tồn tại khách quan bên ngoài) thành hành vi và thói quen hành vi tương ứng ở người được giáo dục, dưới tác động chủ đạo của nhà giáo dục, thông qua việc tổ chức các loại hình hoạt động (học tập, lao động, vui chơi, xã hội) và các mối quan hệ giao tiếp đa dạng.\n- Kết luận thực tiễn: Ở đâu tổ chức tốt hoạt động và giao lưu thì ở đó có tập thể vững mạnh và cá nhân có nhân cách tốt; cá nhân càng tích cực tham gia hoạt động bao nhiêu thì nhân cách càng phát triển toàn diện bấy nhiêu.",
+        "Bước 4: Phân tích 4 đặc điểm của quá trình giáo dục và kết luận sư phạm\n- (1) Tính phức hợp: Nhân cách khó đo lường trực tiếp; chịu tác động đan xen (tích cực/tiêu cực, tự giác/tự phát, trực tiếp/gián tiếp) từ nhà trường, gia đình, xã hội; kết quả ẩn cần thời gian mới bộc lộ -> GV phải phối hợp các lực lượng, khai thác mặt tích cực, loại trừ 'nhiễu' tiêu cực và rèn kỹ năng phòng ngừa cám dỗ cho học sinh.\n- (2) Tính lâu dài, liên tục: Cần thời gian trải nghiệm lâu dài và cuộc đấu tranh bản thân gay gắt giữa động cơ đúng và chưa đúng, thói quen mới và thói quen cũ -> GV phải kiên trì, không nóng vội áp đặt, khơi dậy năng lực tự đấu tranh và 'sức đề kháng' đạo đức, khép kín tác động cả về không gian và thời gian.\n- (3) Tính cá biệt hóa cao: Mỗi học sinh có trình độ được giáo dục, tâm sinh lý, hoàn cảnh riêng -> GV phải yêu thương, hiểu tường tận từng em để cá biệt hóa tác động và đa dạng hóa hoạt động.\n- (4) Thống nhất biện chứng với quá trình dạy học (QTDH): Dạy học là con đường cơ bản để giáo dục theo phương châm thông qua 'dạy chữ' để 'dạy người', và ngược lại kết quả giáo dục thúc đẩy mạnh mẽ động cơ, thái độ học tập."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Động Lực Và Logic Ba Khâu Của Quá Trình Giáo Dục: Cơ Sở Lý Luận Và Vận Dụng Trong Xử Lý Tình Huống Sư Phạm",
+      "problem": "Sự vận động và phát triển của quá trình giáo dục được thúc đẩy bởi động lực bên trong và diễn ra theo một trình tự logic chặt chẽ nhưng linh hoạt.\nAnh (chị) hãy:\n1. Phân biệt mâu thuẫn bên ngoài và mâu thuẫn bên trong của quá trình giáo dục; chỉ rõ mâu thuẫn cơ bản (động lực chủ yếu) và phân tích 3 điều kiện để mâu thuẫn cơ bản trở thành động lực.\n2. Phân tích nội dung và mối quan hệ biện chứng giữa 3 khâu trong logic của quá trình giáo dục.\n3. Giải thích vì sao diễn biến các khâu trong logic của quá trình giáo dục lại mang 'tính động' và lấy ví dụ thực tiễn minh họa việc vận dụng nguyên tắc 'Thống nhất giữa ý thức và hành vi'.",
+      "solution_steps": [
+        "Bước 1: Hệ thống mâu thuẫn và Mâu thuẫn cơ bản của quá trình giáo dục\n- Động lực của QTGD là sự xuất hiện và giải quyết có hiệu quả các mâu thuẫn nảy sinh trong QTGD, bao gồm mâu thuẫn bên ngoài (giữa QTGD với môi trường kinh tế - xã hội, gia đình...) và mâu thuẫn bên trong (giữa các thành tố hoặc yếu tố ngay trong QTGD).\n- Mâu thuẫn cơ bản (tạo động lực chủ yếu cho sự phát triển của QTGD) là mâu thuẫn giữa một bên là yêu cầu về chuẩn mực hành vi được đề ra trong QTGD cao với một bên là trình độ được giáo dục (ý thức, thái độ, hành vi) của người được giáo dục còn hạn chế. Mâu thuẫn này tồn tại suốt QTGD và khi được giải quyết lại xuất hiện ở trình độ cao hơn.",
+        "Bước 2: Ba điều kiện để mâu thuẫn cơ bản trở thành động lực\n- Điều kiện 1 (Tính vừa sức): Yêu cầu đặt ra phải cao hơn trình độ hiện có của người được giáo dục nhưng phù hợp với khả năng của các em, sao cho các em có thể hoàn thành với sự nỗ lực cao nhất (nếu quá dễ sẽ không kích thích cố gắng, nếu quá khó sẽ gây chán nản).\n- Điều kiện 2 (Tính tự giác ý thức): Yêu cầu đặt ra phải được người được giáo dục ý thức đầy đủ – biết rõ yêu cầu đối với bản thân, hiểu sự cần thiết phải thực hiện và có mong muốn, sẵn sàng thực hiện.\n- Điều kiện 3 (Tính tự nhiên, khách quan): Mâu thuẫn phải nảy sinh một cách tự nhiên trong tiến trình giáo dục, kế thừa trực tiếp từ kết quả giải quyết mâu thuẫn trước đó.",
+        "Bước 3: Phân tích 3 khâu trong logic của quá trình giáo dục\n- Khâu 1 – Hình thành nhận thức đúng đắn, sâu sắc về các chuẩn mực xã hội: Giúp học sinh nắm vững nội dung chuẩn mực, sự cần thiết (ý nghĩa và tác hại nếu làm trái) và cách thức thực hiện. Sự kết hợp giữa tri thức và niềm tin tạo thành ý thức tự giác.\n- Khâu 2 – Hình thành niềm tin và tình cảm đúng đắn đối với các chuẩn mực: Niềm tin biểu hiện ở 6 mức độ (từ nắm tri thức, tin tính chân lý, mong muốn làm theo, có hành vi phù hợp, hài lòng với cái đúng, đến không khoan nhượng với hành vi sai trái). Tình cảm đóng vai trò là động cơ, là 'chất men' thôi thúc hành động và ý chí tự rèn luyện.\n- Khâu 3 – Tổ chức thực hiện hành vi và rèn luyện thói quen hành vi tích cực: Hành vi là thước đo bộ mặt đạo đức và phải thỏa mãn 4 tiêu chí: thể hiện nội dung chuẩn mực, có tính phổ biến, có tính bền vững và có động cơ đúng đắn.",
+        "Bước 4: Tính động của các khâu và Vận dụng nguyên tắc thống nhất giữa ý thức và hành vi\n- Ba khâu có mối quan hệ mật thiết, hỗ trợ, thâm nhập vào nhau và mang 'tính động' tùy thuộc vào đối tượng và tình huống cụ thể: với học sinh nhỏ tuổi hoặc trong tình huống cấp bách, giáo viên có thể bắt đầu từ việc tổ chức hành vi, tập thói quen hoặc khơi gợi xúc cảm trước rồi mới phân tích nâng cao nhận thức sâu sắc sau.\n- Vận dụng nguyên tắc thống nhất giữa ý thức và hành vi: Khi giáo dục ý thức bảo vệ môi trường hay an toàn giao thông, nếu chỉ giảng lý thuyết (chỉ có ý thức mà không rèn hành vi) sẽ dẫn tới 'nói hay làm dở'; ngược lại nếu chỉ ép làm theo mệnh lệnh mà không hiểu ý nghĩa (có hành vi mà thiếu ý thức) thì hành vi chỉ mang tính đối phó, thiếu bền vững khi vắng mặt giáo viên."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hệ Thống Nguyên Tắc Giáo Dục Và Đổi Mới Nội Dung Giáo Dục Trong Nhà Trường Phổ Thông Theo Chương Trình GDPT 2018",
+      "problem": "Hệ thống nguyên tắc giáo dục và nội dung giáo dục là những trụ cột định hướng cho mọi hoạt động sư phạm ở trường phổ thông hiện nay.\nAnh (chị) hãy:\n1. Phân tích sâu 3 nguyên tắc giáo dục tiêu biểu: (a) Giáo dục trong tập thể và bằng tập thể; (b) Thống nhất giữa tôn trọng nhân cách người được giáo dục và yêu cầu cao hợp lý; (c) Thống nhất giữa giáo dục nhà trường, gia đình và cộng đồng xã hội.\n2. Trình bày 5 nguyên tắc xây dựng nội dung giáo dục và phân tích nội dung giáo dục lao động - hướng nghiệp (4 giai đoạn hướng nghiệp và 2 mảng nhận thức cốt lõi).\n3. Làm rõ bản chất, tên gọi theo cấp học, vị trí và các năng lực mục tiêu của 'Hoạt động trải nghiệm và Hoạt động trải nghiệm, hướng nghiệp' cùng 'Nội dung giáo dục địa phương' theo Chương trình giáo dục phổ thông 2018 (Thông tư 32/2018/TT-BGDĐT).",
+      "solution_steps": [
+        "Bước 1: Phân tích 3 nguyên tắc giáo dục trọng tâm\n- Giáo dục trong tập thể và bằng tập thể: Tập thể vừa là môi trường (có tổ chức chặt chẽ, tự quản, hoạt động chung, nội quy giúp học sinh học cách sống 'mình vì mọi người, mọi người vì mình'), vừa là phương tiện giáo dục (chuyển yêu cầu khách quan của GV thành yêu cầu chủ quan của tập thể; dùng dư luận tập thể lành mạnh để điều chỉnh hành vi). Đòi hỏi GV phải thống nhất lợi ích cá nhân với lợi ích tập thể, tổ chức hoạt động tự quản và mở rộng giao lưu liên lớp, toàn trường.\n- Thống nhất giữa tôn trọng nhân cách và yêu cầu cao hợp lý: Tôn trọng nhân cách (đánh giá đúng ưu nhược điểm, dân chủ, lắng nghe, lạc quan, bảo vệ danh dự/thân thể, không định kiến nhưng không nuông chiều) gắn liền biện chứng với yêu cầu cao hợp lý (tiêu chuẩn vừa sức, nâng cao dần và kiên quyết thực hiện). Yêu cầu càng cao hợp lý càng thể hiện sự tôn trọng và tin tưởng sâu sắc đối với học sinh.\n- Thống nhất giữa nhà trường, gia đình và xã hội: Gia đình đặt nền móng đầu tiên; Nhà trường giữ vai trò chủ đạo (có mục đích, nội dung, phương pháp khoa học giúp bổ sung và điều chỉnh tác động tiêu cực từ gia đình, xã hội); Xã hội có vai trò rất quan trọng. Nhà trường phải chủ động khâu nối phối hợp.",
+        "Bước 2: Năm nguyên tắc xây dựng nội dung giáo dục và Giáo dục lao động - hướng nghiệp\n- Năm nguyên tắc xây dựng NDGD: (1) Phù hợp mục đích, mục tiêu giáo dục; (2) Tính liên tục, hệ thống; (3) Liên hệ giữa giá trị truyền thống và hiện đại (tránh bảo thủ hoặc phủ định sạch trơn); (4) Phù hợp đặc điểm tâm sinh lý và trình độ nhận thức; (5) Đảm bảo tính đồng tâm (mở rộng, khái quát dần như đường xoáy trôn ốc).\n- Giáo dục lao động và hướng nghiệp: Giúp phân luồng học sinh sau THCS và THPT thông qua 4 giai đoạn: giáo dục nghề, tư vấn nghề, tuyển chọn nghề và thích ứng nghề (trong đó giáo dục nghề và tư vấn nghề phổ biến ở trường phổ thông). Cần xây dựng cho HS 2 mảng nhận thức: Nhận thức cá nhân (phân biệt rõ sở thích và khả năng thực tế của bản thân) và Nhận thức nghề nghiệp (ngành nghề, cơ sở đào tạo, tuyển sinh, thị trường lao động).",
+        "Bước 3: Hoạt động trải nghiệm và Hoạt động trải nghiệm, hướng nghiệp trong CTGDPT 2018\n- Theo Thông tư 32/2018/TT-BGDĐT (ngày 26/12/2018), đây là hoạt động giáo dục bắt buộc từ lớp 1 đến lớp 12 do nhà giáo dục định hướng, thiết kế và hướng dẫn, giúp học sinh tiếp cận thực tế, thể nghiệm cảm xúc tích cực, huy động tổng hợp kiến thức kỹ năng các môn học để giải quyết vấn đề thực tiễn, từ đó chuyển hóa kinh nghiệm đã trải qua thành tri thức mới, kỹ năng mới.\n- Tên gọi phân hóa theo cấp học: Ở cấp Tiểu học gọi là 'Hoạt động trải nghiệm'; ở cấp THCS và THPT gọi là 'Hoạt động trải nghiệm, hướng nghiệp'.\n- Mục tiêu phát triển 3 năng lực đặc thù: (1) Năng lực thích ứng với cuộc sống; (2) Năng lực thiết kế và tổ chức hoạt động; (3) Năng lực định hướng nghề nghiệp.",
+        "Bước 4: Nội dung giáo dục của địa phương trong CTGDPT 2018\n- Nội dung: Những vấn đề cơ bản hoặc thời sự về văn hóa, lịch sử, địa lí, kinh tế, xã hội, môi trường, hướng nghiệp của địa phương bổ sung cho nội dung bắt buộc chung toàn quốc, nhằm bồi dưỡng tình yêu quê hương và ý thức giải quyết vấn đề nơi sinh sống.\n- Vị trí tổ chức: Ở cấp Tiểu học được tích hợp với Hoạt động trải nghiệm; ở cấp THCS và THPT có vị trí tương đương như các môn học khác."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Hệ Thống Phương Pháp Giáo Dục Và Nghệ Thuật Lựa Chọn, Phối Hợp Phương Pháp Trong Thực Tiễn Sư Phạm",
+      "problem": "Phương pháp giáo dục (PPGD) là tổ hợp các cách thức hoạt động phối hợp thống nhất giữa nhà giáo dục (vai trò chủ đạo) và người được giáo dục (vai trò chủ động).\nAnh (chị) hãy:\n1. Trình bày 7 đặc điểm của phương pháp giáo dục.\n2. Phân tích bản chất và các yêu cầu sư phạm cốt lõi của 3 nhóm phương pháp giáo dục (đi sâu làm rõ: Giảng giải - khuyên răn, Nêu gương, Tranh luận ở Nhóm 1; sự khác biệt giữa Luyện tập và Rèn luyện ở Nhóm 2; Khen thưởng, Trách phạt và Thi đua ở Nhóm 3).\n3. Giải thích vì sao trong thực tiễn giáo dục không có phương pháp nào là vạn năng và phân tích 6 căn cứ lựa chọn, phối hợp các phương pháp giáo dục.",
+      "solution_steps": [
+        "Bước 1: Bảy đặc điểm của phương pháp giáo dục\n- Hệ thống PPGD mang 7 đặc điểm: (1) Phụ thuộc vào mục đích giáo dục; (2) Phụ thuộc vào nội dung giáo dục; (3) Tác động vào từng khâu hoặc tất cả các khâu của QTGD; (4) Phụ thuộc vào trình độ, năng lực, uy tín, vị thế và kinh nghiệm của nhà giáo dục; (5) Phụ thuộc vào đối tượng giáo dục (mang tính cá biệt và nghệ thuật cao); (6) Liên quan chặt chẽ với phương tiện, điều kiện, hoàn cảnh cụ thể (vùng miền, phong tục, không gian, thời gian); (7) Liên quan chặt chẽ, hòa quyện và không thể tách rời với hình thức tổ chức giáo dục.",
+        "Bước 2: Phân tích Nhóm 1 (Thuyết phục - 5 PP) và Nhóm 2 (Tổ chức hoạt động - 3 PP)\n- Nhóm 1 – Hình thành ý thức và tình cảm cá nhân (Đàm thoại, Giảng giải - khuyên răn, Nêu gương, Kể chuyện, Tranh luận): Đàm thoại gồm 4 hình thức (cá nhân, tập thể, tự nhiên, theo chủ đề), không bị động 'theo đuôi' lớp; Giảng giải - khuyên răn phải làm rõ 3 câu hỏi (Chuẩn mực là gì? Tại sao phải thực hiện? Thực hiện như thế nào?); Nêu gương dựa trên 4 quy luật bắt chước của trẻ (gần -> xa, vô thức -> có ý thức, máy móc -> sáng tạo, trò chơi -> cuộc sống), chọn gương gần gũi và GV phải gương mẫu; Tranh luận nhằm tạo cơ hội cho HS bộc lộ quan điểm trong không khí cởi mở, không áp đặt theo số đông.\n- Nhóm 2 – Tổ chức hoạt động hình thành kinh nghiệm ứng xử xã hội (Luyện tập, Rèn luyện, Giao việc): Luyện tập diễn ra đều đặn trong các tình huống giả định theo quy trình (dễ -> khó, chậm mà đúng -> đẹp -> nhanh); trong khi Rèn luyện ở mức cao hơn khi đưa học sinh đối mặt với tình huống thực trong điều kiện thực của cuộc sống để tôi luyện bản lĩnh và đấu tranh động cơ; Giao việc thể hiện sự tin tưởng của GV, cần vừa sức và đánh giá công khai.",
+        "Bước 3: Phân tích Nhóm 3 (Kích thích và điều chỉnh hành vi - 3 PP)\n- Khen thưởng (4 hình thức): Không chỉ nhằm vào kết quả mà quan trọng hơn là nhằm vào động cơ đạo đức của hành vi; khen phải khách quan, được dư luận tập thể tán thành, khen cụ thể (không khen chung chung), ưu tiên khích lệ học sinh lần đầu đạt thành tích, rụt rè, tự ti và thận trọng với học sinh đã được khen nhiều để tránh kiêu ngạo.\n- Trách phạt (7 hình thức): Biểu thị thái độ không đồng tình để người mắc lỗi hổ thẹn, cắn rứt lương tâm, ăn năn sửa lỗi (không phải để trừng phạt hay thỏa mãn cơn giận của GV). Chỉ dùng khi thuyết phục không còn tác dụng để tránh làm học sinh trơ lì, chai sạn; phải tôn trọng nhân cách (không xúc phạm thể chất, tinh thần), định hướng tập thể giúp đỡ bạn chứ không xa lánh; đuổi học/khai trừ chỉ là biện pháp bất đắc dĩ thể hiện sự bất lực của nhà trường.\n- Thi đua: Khích lệ khuynh hướng tự khẳng định, tập trung tạo phong trào rèn luyện, tránh bệnh thành tích và hiếu thắng.",
+        "Bước 4: Tính tất yếu và 6 căn cứ lựa chọn, phối hợp các phương pháp giáo dục\n- Không có PPGD nào là vạn năng; mỗi phương pháp có ưu nhược điểm và chức năng riêng đối với từng khâu của QTGD. Sức mạnh của PPGD nằm ở tính hệ thống, đòi hỏi phải phối hợp linh hoạt để thống nhất lời nói với việc làm, vai trò chủ đạo của GV với tính chủ động của HS.\n- Sáu căn cứ lựa chọn và phối hợp: (1) Mục đích giáo dục cụ thể của từng cấp/bậc học; (2) Nội dung giáo dục cụ thể; (3) Đặc điểm tâm sinh lý và đặc điểm cá biệt của người học; (4) Môi trường giáo dục và điều kiện thực tế; (5) Trình độ phát triển của tập thể học sinh; (6) Kinh nghiệm, năng lực và mối quan hệ giữa nhà giáo dục với người được giáo dục."
+      ]
+    }
+  ]
+}
