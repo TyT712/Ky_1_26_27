@@ -33,7 +33,8 @@ COURSES_TO_AUDIT = [
         "name": "Hệ Quản Trị Cơ Sở Dữ Liệu (Cornell, 70 MCQ, 5 Short & 20 Tự luận/Chương)",
         "dir": DOCS / "data" / "he_qtcsdl",
         "chapters": [
-            "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5", "chuong_6"
+            "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5", "chuong_6",
+            "q2_chuong_1", "q2_chuong_2", "q2_chuong_3", "q2_chuong_4", "q2_chuong_5"
         ],
         "min_mcq": 70,
         "min_short": 5,

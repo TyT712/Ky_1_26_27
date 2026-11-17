@@ -97,6 +97,82 @@
        }
       }
      ]
+    },
+    {
+     "id": "giao_trinh_thuc_hanh_csdl_phan_2",
+     "title": "Giáo trình Thực hành Cơ sở dữ liệu (Phần II - Thiết kế) - NXB Đại học Huế (2022)",
+     "chapters": [
+      {
+       "id": "q2_chuong_1",
+       "number": 1,
+       "title": "Ràng buộc toàn vẹn trên cơ sở dữ liệu",
+       "full_title": "Phần II - Chương 1: Ràng buộc toàn vẹn trên cơ sở dữ liệu",
+       "summary": "Ghi chú Cornell: Định nghĩa & 4 yếu tố của RBTV (Điều kiện, Bối cảnh, Tầm ảnh hưởng, Hành động), phân loại RBTV 1 quan hệ & nhiều quan hệ (khóa ngoại, liên bộ - liên quan hệ, chu trình), biểu diễn bằng PTH và cài đặt Trigger SQL Server (Inserted/Deleted).",
+       "theory": "data/he_qtcsdl/q2_chuong_1_theory.md",
+       "exercises": "data/he_qtcsdl/q2_chuong_1_exercises.json",
+       "counts": {
+        "multiple_choice": 70,
+        "short_answers": 5,
+        "essays": 20
+       }
+      },
+      {
+       "id": "q2_chuong_2",
+       "number": 2,
+       "title": "Phụ thuộc hàm và khóa",
+       "full_title": "Phần II - Chương 2: Phụ thuộc hàm và khóa",
+       "summary": "Ghi chú Cornell: Dư thừa & dị thường cập nhật dữ liệu, định nghĩa PTH, suy dẫn logic, hệ tiên đề Armstrong (A1-A6) & định lý đúng/đủ, bao đóng X+ & bài toán thành viên, định lý về khóa, thuật toán tìm 1 khóa, thuật toán tìm mọi khóa (Lucchenssi-Osborn & TN/TG) và phủ tối thiểu.",
+       "theory": "data/he_qtcsdl/q2_chuong_2_theory.md",
+       "exercises": "data/he_qtcsdl/q2_chuong_2_exercises.json",
+       "counts": {
+        "multiple_choice": 70,
+        "short_answers": 5,
+        "essays": 20
+       }
+      },
+      {
+       "id": "q2_chuong_3",
+       "number": 3,
+       "title": "Lý thuyết phân tách",
+       "full_title": "Phần II - Chương 3: Lý thuyết phân tách",
+       "summary": "Ghi chú Cornell: Định nghĩa phép tách lược đồ quan hệ, phép tách bảo toàn thông tin (kết nối không mất thông tin), Định lý Decobel, thuật toán bảng (aj/bij) kiểm tra bảo toàn thông tin, hình chiếu tập PTH và phép tách bảo toàn phụ thuộc hàm.",
+       "theory": "data/he_qtcsdl/q2_chuong_3_theory.md",
+       "exercises": "data/he_qtcsdl/q2_chuong_3_exercises.json",
+       "counts": {
+        "multiple_choice": 70,
+        "short_answers": 5,
+        "essays": 20
+       }
+      },
+      {
+       "id": "q2_chuong_4",
+       "number": 4,
+       "title": "Chuẩn hóa cơ sở dữ liệu",
+       "full_title": "Phần II - Chương 4: Chuẩn hóa cơ sở dữ liệu",
+       "summary": "Ghi chú Cornell: Thuộc tính nguyên tố, phụ thuộc hàm đầy đủ & bắc cầu, các dạng chuẩn 1NF, 2NF, 3NF, Boyce-Codd (BCNF), quy trình 4 bước xác định dạng chuẩn cao nhất, thuật toán tách về 3NF bảo toàn PTH & bảo toàn thông tin, và thuật toán cây nhị phân tách về BCNF.",
+       "theory": "data/he_qtcsdl/q2_chuong_4_theory.md",
+       "exercises": "data/he_qtcsdl/q2_chuong_4_exercises.json",
+       "counts": {
+        "multiple_choice": 70,
+        "short_answers": 5,
+        "essays": 20
+       }
+      },
+      {
+       "id": "q2_chuong_5",
+       "number": 5,
+       "title": "Phụ thuộc đa trị",
+       "full_title": "Phần II - Chương 5: Phụ thuộc đa trị",
+       "summary": "Ghi chú Cornell: Phụ thuộc đa trị (MVD), MVD cơ sở & dị thường, hệ tiên đề A1-A8 và các luật suy diễn bổ sung, cơ sở phụ thuộc M(X), thuật toán bảng mở rộng và định lý tách không mất thông tin với MVD, dạng chuẩn 4 (4NF) và thuật toán phân tách về 4NF.",
+       "theory": "data/he_qtcsdl/q2_chuong_5_theory.md",
+       "exercises": "data/he_qtcsdl/q2_chuong_5_exercises.json",
+       "counts": {
+        "multiple_choice": 70,
+        "short_answers": 5,
+        "essays": 20
+       }
+      }
+     ]
     }
    ],
    "ui_profile": "technical_database"

@@ -1,0 +1,1163 @@
+{
+  "multiple_choice": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Theo Mục Mở đầu Chương 4, việc phân tách các lược đồ quan hệ nhằm hai mục tiêu chính nào?",
+      "options": {
+        "A": "Tránh dư thừa dữ liệu và tránh các dị thường trong việc cập nhật dữ liệu.",
+        "B": "Tăng số lượng bảng vật lý và giảm dung lượng bộ nhớ RAM của máy chủ.",
+        "C": "Loại bỏ hoàn toàn mọi khóa chính và khóa ngoại khỏi cơ sở dữ liệu.",
+        "D": "Chuyển cơ sở dữ liệu quan hệ sang mô hình phân cấp để tăng tốc độ in ấn."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình nêu rõ hai mục tiêu của việc phân tách các lược đồ quan hệ là: (1) Tránh dư thừa dữ liệu; (2) Tránh các dị thường trong việc cập nhật dữ liệu (thêm, xóa, sửa)."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Quá trình biến đổi các lược đồ quan hệ thành các dạng phù hợp với những tiêu chuẩn đặt ra (về giảm dư thừa và tránh dị thường cập nhật) được gọi là gì?",
+      "options": {
+        "A": "Quá trình mã hóa nhị phân.",
+        "B": "Quá trình chuẩn hóa.",
+        "C": "Quá trình lập chỉ mục vật lý.",
+        "D": "Quá trình sao lưu nhật ký."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục Mở đầu Chương 4: 'Quá trình biến đổi các lược đồ quan hệ thành các dạng phù hợp với các tiêu chuẩn đặt ra gọi là quá trình chuẩn hóa'."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Khi phân tách một lược đồ quan hệ thành các lược đồ con, yêu cầu 'khi kết nối lại các lược đồ con ta vẫn có được các thông tin ban đầu' được gọi là gì?",
+      "options": {
+        "A": "Tách bảo toàn phụ thuộc hàm.",
+        "B": "Tách tối thiểu hóa thuộc tính.",
+        "C": "Tách kết nối không mất thông tin (bảo toàn thông tin).",
+        "D": "Tách loại bỏ thuộc tính nguyên tố."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình đặt vấn đề: 'Nên tách làm sao để khi kết nối ta vẫn có được các thông tin ban đầu (tách kết nối không mất thông tin)'."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Trong lý thuyết ban đầu của Boyce-Codd (Mục 4.1), thứ tự chất lượng từ thấp đến cao của các dạng chuẩn là dãy nào sau đây?",
+      "options": {
+        "A": "BCNF -> 3NF -> 2NF -> 1NF",
+        "B": "1NF -> 3NF -> 2NF -> BCNF",
+        "C": "2NF -> 1NF -> 3NF -> BCNF",
+        "D": "1NF -> 2NF -> 3NF -> BCNF"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 4.1 nêu rõ: Dạng chuẩn BCNF tốt hơn 3NF, 3NF tốt hơn 2NF, 2NF tốt hơn 1NF. Do đó thứ tự từ thấp đến cao là 1NF -> 2NF -> 3NF -> BCNF."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Trong Mục 4.2, khi đồng nhất tên lược đồ quan hệ R với tập thuộc tính của nó và xét cùng tập phụ thuộc hàm F, lược đồ quan hệ được ký hiệu như thế nào?",
+      "options": {
+        "A": "<R, F> (hoặc R(U, F))",
+        "B": "[F \\ R]",
+        "C": "R × F",
+        "D": "F+(R)"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.2 quy ước: đồng nhất tên lược đồ quan hệ R với tập thuộc tính của nó, ký hiệu lược đồ quan hệ trên tập R với tập phụ thuộc hàm F là <R, F> (và trong các định nghĩa cũng viết R(U, F))."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Theo Mục 4.2.1, một thuộc tính được gọi là 'thuộc tính nguyên tố' khi nào?",
+      "options": {
+        "A": "Khi thuộc tính đó bắt buộc phải là khóa chính của bảng.",
+        "B": "Khi giá trị của thuộc tính đó không thể chia nhỏ được nữa.",
+        "C": "Khi thuộc tính đó chỉ chứa dữ liệu kiểu số nguyên dương.",
+        "D": "Khi thuộc tính đó không xuất hiện ở vế phải của bất kỳ phụ thuộc hàm nào."
+      },
+      "correct_answer": "B",
+      "explanation": "Định nghĩa tại Mục 4.2.1: 'Một thuộc tính được gọi là nguyên tố nếu giá trị của nó không thể chia nhỏ được nữa' (ví dụ: thuộc tính điểmthi, thuộc tính phái)."
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "question": "Cho lược đồ quan hệ <R, F> và phụ thuộc hàm X -> Y thuộc F+. Phát biểu nào đúng về khái niệm 'Y phụ thuộc hàm đầy đủ vào X' (Mục 4.2.2)?",
+      "options": {
+        "A": "Tồn tại một tập con thực sự X' của X sao cho X' -> Y thuộc F+.",
+        "B": "Tập thuộc tính Y phải có đúng 1 thuộc tính và nằm trong khóa chính.",
+        "C": "Với mọi tập con thực sự X' ⊂ X (X' ≠ X, X' ≠ ∅) thì X' không xác định hàm được Y (X' ↛ Y ∈ F+).",
+        "D": "X phải là tập hợp tất cả các thuộc tính của lược đồ R."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 4.2.2, Y phụ thuộc đầy đủ vào X nếu không thể loại bỏ bất kỳ thuộc tính nào khỏi X mà vẫn suy ra được Y, tức với mọi tập con thực sự X' ⊂ X thì X' ↛ Y ∈ F+."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "Theo Mục 4.2.3, cho R(U, F), X ⊆ U và A ∈ U. Thuộc tính A phụ thuộc bắc cầu vào X nếu tồn tại Y ⊆ U thỏa mãn điều kiện nào?",
+      "options": {
+        "A": "X -> Y, Y -> A, Y -> X và A ∈ XY.",
+        "B": "Y -> X, A -> Y và X ↛ A.",
+        "C": "X -> A trực tiếp và Y = ∅.",
+        "D": "X -> Y, Y -> A, nhưng Y ↛ X với A ∉ XY."
+      },
+      "correct_answer": "D",
+      "explanation": "Định nghĩa 4.2.3: A phụ thuộc bắc cầu vào X nếu tồn tại Y ⊆ U sao cho X -> Y, Y -> A nhưng Y ↛ X với A ∉ XY."
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "question": "Theo chú ý ở Mục 4.2.3, hai nguyên nhân trực tiếp dẫn đến tình trạng dư thừa và dị thường khi cập nhật dữ liệu trong lược đồ quan hệ là gì?",
+      "options": {
+        "A": "Phụ thuộc không đầy đủ vào khóa và phụ thuộc bắc cầu vào khóa.",
+        "B": "Số lượng bản ghi quá ít và tên thuộc tính quá dài.",
+        "C": "Lược đồ có nhiều hơn 2 thuộc tính và mọi thuộc tính đều nguyên tố.",
+        "D": "Khóa chính chỉ có 1 thuộc tính và không có thuộc tính không khóa."
+      },
+      "correct_answer": "A",
+      "explanation": "Chú ý Mục 4.2.3 khẳng định: 'Phụ thuộc không đầy đủ và phụ thuộc bắc cầu vào khóa là nguyên nhân dẫn đến tình trạng dư thừa và dị thường khi cập nhật dữ liệu'."
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "question": "Trong ví dụ NHACC(MNCC, TENNCC, DCHI, MHANG, DGIA) với khóa {MNCC, MHANG} và PTH MNCC -> TENNCC, DCHI, hiện tượng 'khi xóa hết các mặt hàng của một nhà cung cấp thì mất luôn thông tin về nhà cung cấp đó' được gọi là gì?",
+      "options": {
+        "A": "Dị thường thêm (Insertion anomaly).",
+        "B": "Dị thường xóa (Deletion anomaly).",
+        "C": "Dị thường sửa (Update anomaly).",
+        "D": "Dị thường kết nối (Join anomaly)."
+      },
+      "correct_answer": "B",
+      "explanation": "Khi xóa các mặt hàng của một nhà cung cấp làm mất luôn thông tin tên, địa chỉ nhà cung cấp đó chính là dị thường xóa do TENNCC, DCHI phụ thuộc bộ phận vào MNCC."
+    },
+    {
+      "id": 11,
+      "difficulty": "easy",
+      "question": "Theo Mục 4.3.1, lược đồ quan hệ R(U, F) đạt dạng chuẩn 1 (1NF) nếu và chỉ nếu điều kiện nào sau đây được thỏa mãn?",
+      "options": {
+        "A": "Mọi thuộc tính không khóa đều phụ thuộc đầy đủ vào khóa.",
+        "B": "Mọi vế trái của phụ thuộc hàm đều là siêu khóa.",
+        "C": "Mỗi thuộc tính của R chỉ chứa các giá trị nguyên tố (không thể chia nhỏ được).",
+        "D": "Lược đồ chỉ có một khóa duy nhất gồm 1 thuộc tính."
+      },
+      "correct_answer": "C",
+      "explanation": "Định nghĩa 1NF (Mục 4.3.1): R(U, F) ở dạng chuẩn 1 nếu và chỉ nếu mỗi thuộc tính của nó chỉ chứa các giá trị nguyên tố, tức là các giá trị không thể chia nhỏ được."
+    },
+    {
+      "id": 12,
+      "difficulty": "easy",
+      "question": "Trong Bảng 4.1 (MSGV, CacMonday) với bộ giá trị (Gv01, 'Pascal, Excel'), bảng này chưa đạt dạng chuẩn nào?",
+      "options": {
+        "A": "Chưa đạt BCNF nhưng đã đạt 3NF.",
+        "B": "Chưa đạt 2NF nhưng đã đạt 1NF.",
+        "C": "Đã đạt 1NF vì có khóa MSGV.",
+        "D": "Chưa đạt 1NF (dạng chưa chuẩn hóa) vì thuộc tính CacMonday chứa nhiều giá trị."
+      },
+      "correct_answer": "D",
+      "explanation": "Bảng 4.1 có thuộc tính CacMonday chứa đa trị ('Pascal, Excel', 'Hóa, Sinh') nên đây là quan hệ chưa chuẩn hóa (chưa đạt 1NF)."
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "question": "Theo quy ước nêu tại cuối Mục 4.3.1, nếu đề bài không nói rõ một lược đồ quan hệ không là 1NF thì ta mặc nhiên xem lược đồ đó như thế nào?",
+      "options": {
+        "A": "Thuộc dạng chuẩn 1 (1NF).",
+        "B": "Thuộc dạng chuẩn 2 (2NF).",
+        "C": "Thuộc dạng chuẩn 3 (3NF).",
+        "D": "Không thuộc bất kỳ dạng chuẩn nào."
+      },
+      "correct_answer": "A",
+      "explanation": "Quy ước tại Mục 4.3.1: 'Tất cả các lược đồ quan hệ nếu không nói rõ nó không là 1NF thì xem như nó thuộc 1NF'."
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "question": "Theo Mục 4.3.2, lược đồ quan hệ R(U, F) (đã ở 1NF) được gọi là ở dạng chuẩn 2 (2NF) khi nào?",
+      "options": {
+        "A": "Chỉ cần có ít nhất một thuộc tính không khóa phụ thuộc vào một phần của khóa.",
+        "B": "Với mọi thuộc tính không khóa của R đều phụ thuộc hàm đầy đủ vào mọi khóa của R.",
+        "C": "Mọi thuộc tính của R đều có giá trị khác null.",
+        "D": "Tập phụ thuộc hàm F của R phải bằng rỗng."
+      },
+      "correct_answer": "B",
+      "explanation": "Định nghĩa 2NF (Mục 4.3.2a): R(U, F) ở dạng chuẩn 2 nếu là 1NF và với mọi thuộc tính không khóa của R đều phụ thuộc hàm đầy đủ vào mọi khóa của R."
+    },
+    {
+      "id": 15,
+      "difficulty": "easy",
+      "question": "Theo nhận xét ở Mục 4.3.2b, nếu mọi khóa của lược đồ R đều chỉ có đúng 1 thuộc tính thì ta có thể kết luận ngay điều gì?",
+      "options": {
+        "A": "R chắc chắn đạt BCNF.",
+        "B": "R chắc chắn đạt 3NF.",
+        "C": "R ở dạng chuẩn 2 (2NF).",
+        "D": "R không đạt chuẩn 1NF."
+      },
+      "correct_answer": "C",
+      "explanation": "Nhận xét 4.3.2b: Nếu mọi khóa của R đều chỉ có một thuộc tính thì không tồn tại tập con thực sự khác rỗng của khóa, do đó mọi thuộc tính không khóa đều phụ thuộc đầy đủ vào khóa -> R ở dạng chuẩn 2 (2NF)."
+    },
+    {
+      "id": 16,
+      "difficulty": "easy",
+      "question": "Theo nhận xét ở Mục 4.3.2b và 4.3.3b, nếu tập các thuộc tính không khóa của lược đồ R(U, F) bằng rỗng (∅) thì R chắc chắn đạt ít nhất dạng chuẩn nào?",
+      "options": {
+        "A": "Chỉ đạt 1NF.",
+        "B": "Chỉ đạt 2NF và không thể đạt 3NF.",
+        "C": "Chắc chắn đạt BCNF.",
+        "D": "Đạt ít nhất 2NF, thực tế là đạt dạng chuẩn 3 (3NF)."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 4.3.2b nêu tập thuộc tính không khóa = ∅ thì R ít nhất là 2NF; và Mục 4.3.3b khẳng định rõ hơn: nếu tập thuộc tính không khóa = ∅ thì R ở dạng chuẩn 3 (3NF)."
+    },
+    {
+      "id": 17,
+      "difficulty": "easy",
+      "question": "Cho lược đồ R(U, F) với U = {MASO, HT, NSINH, TDO, PHAI} và F = {MASO -> HT, NSINH, TDO, PHAI}. Khẳng định nào đúng về dạng chuẩn của R?",
+      "options": {
+        "A": "Khóa duy nhất là MASO (gồm 1 phần tử) nên R chắc chắn đạt tối thiểu 2NF (thực tế đạt BCNF).",
+        "B": "R không đạt 2NF vì MASO xác định nhiều thuộc tính ở vế phải.",
+        "C": "R chỉ đạt 1NF vì HT và NSINH không phải khóa.",
+        "D": "R chưa đạt 1NF vì có 5 thuộc tính."
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ 2 Mục 4.3.2: MASO là khóa duy nhất chỉ có 1 phần tử nên lược đồ đạt 2NF (và vì MASO là siêu khóa duy nhất ở vế trái nên thực tế còn đạt 3NF và BCNF)."
+    },
+    {
+      "id": 18,
+      "difficulty": "easy",
+      "question": "Theo định nghĩa tại Mục 4.3.3a, lược đồ R(U, F) ở dạng chuẩn 3 (3NF) nếu thỏa mãn hai điều kiện nào?",
+      "options": {
+        "A": "R đạt 1NF và có đúng một khóa duy nhất.",
+        "B": "R đạt 2NF và mọi thuộc tính không khóa không phụ thuộc bắc cầu vào khóa chính của R.",
+        "C": "R đạt BCNF và không có tập phụ thuộc hàm.",
+        "D": "Mọi thuộc tính không khóa phụ thuộc bắc cầu vào khóa chính."
+      },
+      "correct_answer": "B",
+      "explanation": "Định nghĩa 3NF (Mục 4.3.3a): R(U, F) ở dạng chuẩn 3 nếu: (1) R ở dạng chuẩn 2; và (2) Mọi thuộc tính không khóa không phụ thuộc bắc cầu vào khóa chính của R(U, F)."
+    },
+    {
+      "id": 19,
+      "difficulty": "easy",
+      "question": "Theo Mục 4.3.4a, lược đồ R(U, F) được gọi là ở dạng chuẩn Boyce-Codd (BCNF) khi nào?",
+      "options": {
+        "A": "Với mọi X -> A ∈ F+ (A ∉ X) thì A phải là thuộc tính khóa.",
+        "B": "Tập thuộc tính không khóa phải khác rỗng.",
+        "C": "Với mọi X -> A ∈ F+ (A ∉ X) thì X phải là siêu khóa.",
+        "D": "Mọi khóa của R phải có ít nhất 2 thuộc tính."
+      },
+      "correct_answer": "C",
+      "explanation": "Định nghĩa BCNF (Mục 4.3.4a): R(U, F) ở dạng chuẩn BCNF nếu với mọi X -> A ∈ F+ với A ∉ X thì X phải là siêu khóa."
+    },
+    {
+      "id": 20,
+      "difficulty": "easy",
+      "question": "Theo Mệnh đề 2 của BCNF (Mục 4.3.4), hai trường hợp nào sau đây LUÔN đạt dạng chuẩn BCNF?",
+      "options": {
+        "A": "Mọi lược đồ có 3 thuộc tính hoặc có 2 phụ thuộc hàm.",
+        "B": "Mọi lược đồ có khóa chính gồm 2 thuộc tính.",
+        "C": "Mọi lược đồ có tập thuộc tính không khóa khác rỗng.",
+        "D": "Mọi lược đồ quan hệ gồm 2 thuộc tính, hoặc lược đồ <R, F> với F chỉ gồm 1 phụ thuộc hàm."
+      },
+      "correct_answer": "D",
+      "explanation": "Mệnh đề 2 (Mục 4.3.4): (1) Mọi lược đồ quan hệ gồm 2 thuộc tính thì ở dạng BCNF; (2) Lược đồ <R, F> với F chỉ gồm một phụ thuộc hàm thì ở dạng BCNF."
+    },
+    {
+      "id": 21,
+      "difficulty": "easy",
+      "question": "Trong quy trình 4 bước xác định dạng chuẩn cao nhất của lược đồ <R, F> (Mục 4.3.5), bước đầu tiên (Bước 1) ta kiểm tra điều gì?",
+      "options": {
+        "A": "Kiểm tra <R, F> có ở dạng chuẩn Boyce-Codd (BCNF) không.",
+        "B": "Kiểm tra <R, F> có ở dạng chuẩn 1 (1NF) không.",
+        "C": "Phân tách R thành các lược đồ con 2 thuộc tính.",
+        "D": "Kiểm tra xem R có thuộc tính nào trùng tên không."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.3.5 quy định kiểm tra từ cao xuống thấp: Bước 1 kiểm tra BCNF (nếu đúng thì kết thúc ngay); không phải BCNF mới sang Bước 2 tìm tất cả các khóa."
+    },
+    {
+      "id": 22,
+      "difficulty": "easy",
+      "question": "Theo Mục 4.4, một phép tách ρ = (R1, ..., Rm) khi chuẩn hóa về dạng chuẩn 3 (3NF) mong muốn thỏa mãn 3 tính chất nào?",
+      "options": {
+        "A": "Số bảng ít nhất, mọi bảng đều 1 thuộc tính, không có khóa ngoại.",
+        "B": "Kết nối không mất thông tin, bảo toàn tập PTH F, và mọi lược đồ con Ri đều là 3NF.",
+        "C": "Mọi lược đồ con đều là 2NF, bỏ qua bảo toàn thông tin và bỏ qua PTH.",
+        "D": "Mỗi bảng chứa ít nhất 10 thuộc tính và có thể mất thông tin khi kết nối."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 4.4 nêu 3 tính chất mong muốn: (i) Có kết nối không mất thông tin (bảo toàn thông tin); (ii) Bảo toàn tập phụ thuộc hàm F; (iii) Mọi lược đồ con R1,..., Rm đều là 3NF."
+    },
+    {
+      "id": 23,
+      "difficulty": "easy",
+      "question": "Trong Thuật toán 1 phân tách về 3NF (Mục 4.4.1), bước đầu tiên ta cần làm gì đối với tập phụ thuộc hàm F?",
+      "options": {
+        "A": "Tính bao đóng toàn bộ F+.",
+        "B": "Xóa bỏ hoàn toàn các phụ thuộc hàm có vế trái gồm 1 thuộc tính.",
+        "C": "Xác định phủ tối thiểu F' của F.",
+        "D": "Tìm tất cả các siêu khóa của R."
+      },
+      "correct_answer": "C",
+      "explanation": "Bước 1 của cả Thuật toán 1 (Mục 4.4.1) và Thuật toán 2 (Mục 4.4.3) đều là xác định phủ tối thiểu F' = {Xi -> Ai | i = 1..m} của F."
+    },
+    {
+      "id": 24,
+      "difficulty": "easy",
+      "question": "Trong Thuật toán phân tách về BCNF (Mục 4.5.1), khi phát hiện phụ thuộc hàm X -> A (A ∉ X) vi phạm BCNF trên R(U, F), ta tách R thành hai nút con nào?",
+      "options": {
+        "A": "R1(X) và R2(U \\ X).",
+        "B": "R1(A) và R2(U \\ X).",
+        "C": "R1(U \\ A) và R2(U \\ X).",
+        "D": "R1(XA) và R2(U \\ A)."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 4.5.1 (Bước 3): Nút con trái là R1(XA) với F_R1 = {X -> A}, nút con phải là R2(U \\ A) với F_R2 là hình chiếu của F trên R2."
+    },
+    {
+      "id": 25,
+      "difficulty": "easy",
+      "question": "Kết thúc thuật toán cây nhị phân phân tách đệ quy về BCNF (Mục 4.5.1), tập các lược đồ con thu được nằm ở đâu trên cây?",
+      "options": {
+        "A": "Các nút lá của cây nhị phân.",
+        "B": "Chỉ nút gốc và các nút con mức 1.",
+        "C": "Chỉ các nút bên trái của cây.",
+        "D": "Tất cả mọi nút (kể cả nút trung gian) trên cây."
+      },
+      "correct_answer": "A",
+      "explanation": "Kết luận Mục 4.5.1: 'Các nút lá của cây nhị phân trên chính là tập các lược đồ con được tách ra. Các lược đồ con này ở dạng BCNF và phép tách trên là có kết nối không mất thông tin'."
+    },
+    {
+      "id": 26,
+      "difficulty": "medium",
+      "question": "Cho các phụ thuộc hàm AB -> DE và E -> F (Ví dụ 1 - Mục 4.2.3). Phát biểu nào sau đây chính xác?",
+      "options": {
+        "A": "AB phụ thuộc bắc cầu vào F.",
+        "B": "F là phụ thuộc bắc cầu vào AB.",
+        "C": "E phụ thuộc bắc cầu vào F.",
+        "D": "DE phụ thuộc đầy đủ vào F."
+      },
+      "correct_answer": "B",
+      "explanation": "Từ AB -> DE suy ra AB -> E; kết hợp E -> F (mà E ↛ AB và F ∉ ABE) nên F phụ thuộc bắc cầu vào AB."
+    },
+    {
+      "id": 27,
+      "difficulty": "medium",
+      "question": "Xét lược đồ U = {ABCDEH} với F = {A -> E, C -> D, E -> DH} (Ví dụ 1 - Mục 4.3.2). Khóa và dạng chuẩn cao nhất của lược đồ là gì?",
+      "options": {
+        "A": "Khóa ABC, đạt chuẩn 2NF nhưng không đạt 3NF.",
+        "B": "Khóa ABE, đạt chuẩn 3NF.",
+        "C": "Khóa duy nhất ABC, chỉ đạt chuẩn 1NF (không đạt 2NF).",
+        "D": "Khóa AC, đạt chuẩn BCNF."
+      },
+      "correct_answer": "C",
+      "explanation": "Tập vế phải là {E, D, H} nên U \\ R = ABC, mà (ABC)+ = ABCDEH = U => khóa duy nhất ABC. Thuộc tính không khóa là D, E, H; tồn tại A ⊂ ABC mà A -> E (và C -> D) nên không đạt 2NF -> đạt 1NF."
+    },
+    {
+      "id": 28,
+      "difficulty": "medium",
+      "question": "Cho lược đồ U = {ABCD} với F = {AB -> C, D -> B, C -> ABD} (Ví dụ 3 - Mục 4.3.2). Tập thuộc tính không khóa và dạng chuẩn của lược đồ này là gì?",
+      "options": {
+        "A": "Có các khóa AB, AD, C; tập thuộc tính không khóa bằng rỗng nên lược đồ đạt 3NF (nhưng không BCNF vì D -> B).",
+        "B": "Khóa duy nhất là C; thuộc tính không khóa là A, B, D nên chỉ đạt 1NF.",
+        "C": "Khóa duy nhất là AB; không đạt 2NF.",
+        "D": "Mọi vế trái đều là siêu khóa nên đạt BCNF."
+      },
+      "correct_answer": "A",
+      "explanation": "(AB)+ = U, (AD)+ = U, C+ = U nên có 3 khóa AB, AD, C => tập thuộc tính không khóa = ∅ => đạt ít nhất 2NF và theo 4.3.3b đạt 3NF. Tuy nhiên D -> B có D+ = DB ≠ U nên không đạt BCNF."
+    },
+    {
+      "id": 29,
+      "difficulty": "medium",
+      "question": "Cho R(U, F) với U = {ABCDE}, F = {AB -> C, BC -> D, CD -> E} (Ví dụ 4 - Mục 4.3.2). Lược đồ đạt dạng chuẩn cao nhất nào?",
+      "options": {
+        "A": "1NF",
+        "B": "2NF",
+        "C": "3NF",
+        "D": "BCNF"
+      },
+      "correct_answer": "B",
+      "explanation": "Khóa duy nhất là AB. Tập con thực sự A, B có A+ = A, B+ = B không chứa thuộc tính không khóa {C, D, E} nên đạt 2NF. Tuy nhiên BC -> D có BC không phải siêu khóa và D không là thuộc tính khóa nên không đạt 3NF."
+    },
+    {
+      "id": 30,
+      "difficulty": "medium",
+      "question": "Cho R(U, F) với U = {S, I, D, M}, F = {SI -> D; SD -> M} (Ví dụ 1 & 3 - Mục 4.3.3). Vì sao lược đồ này đạt 2NF nhưng không đạt 3NF?",
+      "options": {
+        "A": "Vì SI không phải khóa chính và D là thuộc tính khóa.",
+        "B": "Vì S -> D vi phạm 2NF.",
+        "C": "Vì khóa là SI, S+ = S, I+ = I nên đạt 2NF; nhưng tồn tại SD -> M với SD không phải siêu khóa và M không là thuộc tính khóa (M phụ thuộc bắc cầu vào SI).",
+        "D": "Vì tập thuộc tính không khóa bằng rỗng nhưng SD là siêu khóa."
+      },
+      "correct_answer": "C",
+      "explanation": "Khóa duy nhất là SI, các thuộc tính không khóa là D, M. Không có phụ thuộc bộ phận nên đạt 2NF; nhưng SI -> SD -> M (SD không là siêu khóa, M không phải thuộc tính khóa) nên vi phạm 3NF."
+    },
+    {
+      "id": 31,
+      "difficulty": "medium",
+      "question": "Cho R(U, F) với U = {CSZ} và F = {CS -> Z, Z -> C} (Ví dụ 2 - Mục 4.3.3 & 4.3.4). Dạng chuẩn cao nhất của R là gì?",
+      "options": {
+        "A": "1NF",
+        "B": "2NF",
+        "C": "BCNF",
+        "D": "3NF (chưa đạt BCNF)"
+      },
+      "correct_answer": "D",
+      "explanation": "Lược đồ có 2 khóa là CS và SZ => tập thuộc tính không khóa = ∅ => R ∈ 3NF. Tuy nhiên PTH Z -> C có Z+ = ZC ≠ CSZ (Z không phải siêu khóa) nên R không đạt BCNF."
+    },
+    {
+      "id": 32,
+      "difficulty": "medium",
+      "question": "Trong Ví dụ 4 (Mục 4.3.3) về NHATKYBH(STT, NGAY, MH, TH, ĐG, SL) với F = {STT -> U, MH -> TH, MH -> ĐG}, phép tách nào đưa NHATKYBH về 3NF hết dư thừa dữ liệu?",
+      "options": {
+        "A": "HANG(MH, TH, ĐG) và NK(STT, NGAY, MH, SL).",
+        "B": "HANG(STT, MH, TH) và NK(NGAY, ĐG, SL).",
+        "C": "HANG(TH, ĐG) và NK(STT, NGAY, MH, SL).",
+        "D": "HANG(STT, NGAY, TH, ĐG) và NK(MH, SL)."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình tách NHATKYBH thành HANG(MH, TH, ĐG) với khóa duy nhất MH và NK(STT, NGAY, MH, SL) với khóa duy nhất STT; cả hai lược đồ con đều đạt 3NF (thực chất đạt BCNF) và không bị lặp lại MH, TH, ĐG."
+    },
+    {
+      "id": 33,
+      "difficulty": "medium",
+      "question": "Cho R(U, F) với U = {A, B, C} và F = {A -> B, B -> C} (Ví dụ 5 - Mục 4.3.3). Khẳng định nào sau đây đúng?",
+      "options": {
+        "A": "Khóa là A; lược đồ đạt 3NF.",
+        "B": "Khóa là A; lược đồ đạt 2NF nhưng không đạt 3NF vì B -> C vi phạm.",
+        "C": "Khóa là AB; lược đồ chỉ đạt 1NF.",
+        "D": "Khóa là A; lược đồ đạt BCNF."
+      },
+      "correct_answer": "B",
+      "explanation": "Khóa duy nhất là A (1 thuộc tính nên tự động đạt 2NF). Tồn tại B -> C ∈ F+ với B không là siêu khóa (B+ = BC ≠ ABC) và C không là thuộc tính khóa nên không đạt 3NF."
+    },
+    {
+      "id": 34,
+      "difficulty": "medium",
+      "question": "Cho lược đồ R(U, F) với U = {ABCD} và F = {AB -> C, C -> ABD} (Ví dụ 1 - Mục 4.3.4). Dạng chuẩn cao nhất của R là gì?",
+      "options": {
+        "A": "1NF",
+        "B": "2NF",
+        "C": "BCNF",
+        "D": "3NF nhưng không BCNF"
+      },
+      "correct_answer": "C",
+      "explanation": "Ta có (AB)+ = ABCD = U và C+ = ABCD = U. Mọi vế trái của các PTH trong F đều là siêu khóa nên theo định nghĩa R đạt BCNF."
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "question": "Cho lược đồ R(U, F) với U = {ABCDE} và F = {AB -> C, BC -> D, CD -> E, DE -> A} (Ví dụ 3 - Mục 4.3.4 / Bài 4 & 8). Lược đồ này có tập các khóa nào và đạt dạng chuẩn cao nhất nào?",
+      "options": {
+        "A": "Khóa duy nhất AB; đạt 2NF.",
+        "B": "Các khóa AB, BC; đạt BCNF.",
+        "C": "Khóa duy nhất BDE; đạt 1NF.",
+        "D": "Các khóa AB, BC, BDE; đạt 3NF nhưng không đạt BCNF."
+      },
+      "correct_answer": "D",
+      "explanation": "R có 3 khóa là AB, BC, BDE nên mọi thuộc tính A, B, C, D, E đều là thuộc tính khóa (tập không khóa = ∅) => đạt 3NF. Nhưng CD -> E có (CD)+ = CDEA ≠ U nên CD không là siêu khóa => không đạt BCNF."
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "question": "Áp dụng quy trình 4 bước cho U = {ABCDEGH} và F = {A -> BC, D -> E, H -> G} (Ví dụ 5 - Mục 4.3.5), khóa và dạng chuẩn cao nhất của lược đồ là gì?",
+      "options": {
+        "A": "Khóa duy nhất ADH; đạt dạng chuẩn 1NF.",
+        "B": "Khóa duy nhất ADH; đạt dạng chuẩn 2NF.",
+        "C": "Các khóa AD, DH; đạt dạng chuẩn 3NF.",
+        "D": "Khóa duy nhất ABC; đạt BCNF."
+      },
+      "correct_answer": "A",
+      "explanation": "U \\ R_HS = ADH và (ADH)+ = U => khóa duy nhất ADH. Vì D ⊂ ADH mà D -> E (E không là thuộc tính khóa) nên không đạt 2NF => dạng chuẩn cao nhất là 1NF."
+    },
+    {
+      "id": 37,
+      "difficulty": "medium",
+      "question": "Áp dụng Thuật toán 1 (Mục 4.4.1) phân tách U = {CTHRSG} với F = {C -> T, HR -> C, HT -> R, CS -> G, HS -> R} về 3NF bảo toàn PTH, ta thu được các lược đồ con nào?",
+      "options": {
+        "A": "R1(CTH), R2(RSG).",
+        "B": "R1(CT), R2(HRC), R3(HTR), R4(CSG), R5(HSR).",
+        "C": "R1(CSG), R2(CT), R3(CHR), R4(HRS).",
+        "D": "R1(HS), R2(CT), R3(CSG)."
+      },
+      "correct_answer": "B",
+      "explanation": "F đã là phủ tối thiểu. Theo Thuật toán 1, mỗi PTH Xi -> Ai tạo một lược đồ con XiAi: R1(CT), R2(HRC), R3(HTR), R4(CSG), R5(HSR)."
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "question": "Theo Định lý tại Mục 4.4.2, nếu ρ = (R1, ..., Rm) là phép tách về 3NF bảo toàn PTH từ Thuật toán 1 và K là một khóa của R(U, F), khi nào phép tách τ = (R1, ..., Rm, K) rút gọn thành τ = ρ (không cần thêm K)?",
+      "options": {
+        "A": "Khi K chỉ có đúng 1 thuộc tính.",
+        "B": "Khi tất cả các Ri đều có đúng 2 thuộc tính.",
+        "C": "Khi tồn tại một lược đồ con Ri sao cho K ⊆ Ri.",
+        "D": "Khi K giao với mọi Ri đều bằng rỗng."
+      },
+      "correct_answer": "C",
+      "explanation": "Lưu ý của Định lý Mục 4.4.2: Nếu tồn tại Ri sao cho K ⊆ Ri (một khóa K đã nằm trọn trong một lược đồ con Ri nào đó) thì τ = ρ, không cần bổ sung thêm lược đồ con K."
+    },
+    {
+      "id": 39,
+      "difficulty": "medium",
+      "question": "Tại sao kết quả của Thuật toán 2 (phân tách về 3NF bảo toàn thông tin và bảo toàn PTH - Mục 4.4.3) lại KHÔNG duy nhất?",
+      "options": {
+        "A": "Vì thứ tự các thuộc tính trong bảng có thể đổi tùy ý.",
+        "B": "Vì hệ QTCSDL tự động sinh thêm các khóa ngoại ngẫu nhiên.",
+        "C": "Vì không phải lược đồ nào cũng tồn tại phủ tối thiểu.",
+        "D": "Vì cách chọn một khóa K ban đầu có thể khác nhau và cách xác định phủ tối thiểu của F là không duy nhất."
+      },
+      "correct_answer": "D",
+      "explanation": "Lưu ý tại Mục 4.4.3 chỉ rõ 2 nguyên nhân khiến thuật toán không cho kết quả duy nhất: (1) Do cách tìm một khóa ban đầu có thể khác nhau; (2) Do cách xác định phủ tối thiểu là không duy nhất."
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "question": "Áp dụng Thuật toán 2 cho U = ABCD, F = {A -> B, B -> C, CD -> A, AC -> D} (Ví dụ 1 - Mục 4.4.3), kết quả phép tách 3NF bảo toàn thông tin và PTH là gì?",
+      "options": {
+        "A": "ρ = (AB, BC, ACD).",
+        "B": "ρ = (A, AB, BC, ACD, AD).",
+        "C": "ρ = (AB, CD).",
+        "D": "ρ = (ABC, BCD)."
+      },
+      "correct_answer": "A",
+      "explanation": "Thay AC -> D bằng A -> D (do A+ = ABCD chứa D), phủ tối thiểu là {A -> B, B -> C, CD -> A, A -> D}; khóa K = A. Lập R0(A), R1(AB), R2(BC), R3(ACD), R4(AD); loại R0 ⊂ R1 và R4 ⊂ R3 còn ρ = (AB, BC, ACD)."
+    },
+    {
+      "id": 41,
+      "difficulty": "medium",
+      "question": "Áp dụng Thuật toán 2 cho U = {ABCDEGH}, F = {AB -> D, EH -> G, G -> C, D -> C} (Ví dụ 2 - Mục 4.4.3), phép tách thu được gồm những lược đồ con nào?",
+      "options": {
+        "A": "R1(ABD), R2(EHG), R3(GC), R4(DC).",
+        "B": "R0(ABEH), R1(ABD), R2(EHG), R3(GC), R4(DC).",
+        "C": "R0(ABEH), R1(ABDC), R2(EHGC).",
+        "D": "R1(ABEHGC), R2(ABD)."
+      },
+      "correct_answer": "B",
+      "explanation": "F đã là phủ tối thiểu; khóa duy nhất K = ABEH (không nằm trong vế trái+vế phải của PTH nào). Do đó giữ nguyên R0(ABEH) cùng R1(ABD), R2(EHG), R3(GC), R4(DC)."
+    },
+    {
+      "id": 42,
+      "difficulty": "medium",
+      "question": "Xét lược đồ R(MSSV, TEN, MONTHI, DIEMTHI) với F = {MSSV -> TEN; MSSV, MONTHI -> DIEMTHI} (Bài 3). Lược đồ đạt dạng chuẩn cao nhất nào?",
+      "options": {
+        "A": "BCNF",
+        "B": "3NF",
+        "C": "1NF",
+        "D": "2NF"
+      },
+      "correct_answer": "C",
+      "explanation": "Khóa duy nhất là K = {MSSV, MONTHI}. Thuộc tính không khóa TEN phụ thuộc vào MSSV ⊂ K nên vi phạm 2NF -> lược đồ chỉ đạt 1NF."
+    },
+    {
+      "id": 43,
+      "difficulty": "medium",
+      "question": "Xét lược đồ R(S, A, I, P) với F = {S -> A, SI -> P} (Bài 5). Dạng chuẩn cao nhất của R là gì?",
+      "options": {
+        "A": "3NF",
+        "B": "2NF",
+        "C": "BCNF",
+        "D": "1NF"
+      },
+      "correct_answer": "D",
+      "explanation": "Khóa duy nhất là SI. Tồn tại S ⊂ SI mà S -> A (A là thuộc tính không khóa) nên A không phụ thuộc đầy đủ vào khóa -> R không đạt 2NF -> đạt 1NF."
+    },
+    {
+      "id": 44,
+      "difficulty": "medium",
+      "question": "Cho lược đồ SVIEN(TENSV, MONHOC, TENGV) với ràng buộc: (1) Mỗi môn học đối với một sinh viên có một thầy hướng dẫn; (2) Mỗi thầy chỉ hướng dẫn một môn học (Bài 6). Dạng chuẩn cao nhất của SVIEN là gì?",
+      "options": {
+        "A": "3NF (nhưng không đạt BCNF).",
+        "B": "BCNF.",
+        "C": "2NF (nhưng không đạt 3NF).",
+        "D": "1NF."
+      },
+      "correct_answer": "A",
+      "explanation": "F = {TENSV, MONHOC -> TENGV; TENGV -> MONHOC}. Có 2 khóa là {TENSV, MONHOC} và {TENSV, TENGV} nên tập thuộc tính không khóa = ∅ => đạt 3NF. Tuy nhiên TENGV -> MONHOC có TENGV không là siêu khóa => không đạt BCNF."
+    },
+    {
+      "id": 45,
+      "difficulty": "medium",
+      "question": "Cho U = {ABCDE} và F = {AB -> C, BC -> D, CD -> E} (Bài 7). Khóa và dạng chuẩn cao nhất của lược đồ là gì?",
+      "options": {
+        "A": "Khóa AB; đạt 1NF.",
+        "B": "Khóa duy nhất AB; đạt 2NF.",
+        "C": "Các khóa AB, BC; đạt 3NF.",
+        "D": "Khóa duy nhất AB; đạt 3NF."
+      },
+      "correct_answer": "B",
+      "explanation": "(AB)+ = ABCDE = U, A+ = A, B+ = B => AB là khóa duy nhất. Tập con A, B không xác định được C, D, E => đạt 2NF. Nhưng BC -> D có BC không phải siêu khóa và D không là thuộc tính khóa => không đạt 3NF."
+    },
+    {
+      "id": 46,
+      "difficulty": "medium",
+      "question": "Cho U = {ABC} và F = {AB -> C, BC -> A} (Bài 9). Khẳng định nào sau đây đúng?",
+      "options": {
+        "A": "Chỉ có một khóa là AB; đạt 3NF nhưng không BCNF.",
+        "B": "Có 2 khóa AB, BC; chỉ đạt 2NF.",
+        "C": "Có 2 khóa AB, BC; mọi vế trái của PTH trong F đều là siêu khóa nên đạt BCNF.",
+        "D": "Có 3 khóa A, B, C; đạt BCNF."
+      },
+      "correct_answer": "C",
+      "explanation": "(AB)+ = ABC = U (A+ = A, B+ = B) và (BC)+ = BCA = U (B+ = B, C+ = C) nên AB, BC đều là khóa. Vì mọi PTH trong F có vế trái là AB hoặc BC đều là siêu khóa nên U đạt BCNF."
+    },
+    {
+      "id": 47,
+      "difficulty": "medium",
+      "question": "Cho bảng quan hệ r(A, B, C, D) gồm 4 bộ: (A1, A4, A, B1), (A2, A1, A2, A1), (A3, B1, B1, B1), (B1, A3, A5, A3) (Bài 26). Phụ thuộc hàm nào sau đây KHÔNG thỏa mãn bảng r?",
+      "options": {
+        "A": "A -> B",
+        "B": "C -> D",
+        "C": "B -> A",
+        "D": "D -> A"
+      },
+      "correct_answer": "D",
+      "explanation": "Ở dòng 1 và dòng 3 của bảng r, giá trị D đều bằng B1 nhưng giá trị A lại khác nhau (A1 ≠ A3). Do đó D -> A bị vi phạm. Các cột A, B, C đều có 4 giá trị phân biệt nên A -> B, A -> C, C -> D, B -> A đều thỏa mãn."
+    },
+    {
+      "id": 48,
+      "difficulty": "medium",
+      "question": "Xét lược đồ R(A, B, C, D) có khóa chính là AB (Bài 20). Tập phụ thuộc hàm nào sau đây làm R đạt 1NF nhưng KHÔNG đạt 2NF?",
+      "options": {
+        "A": "F = {AB -> CD, B -> C}",
+        "B": "F = {AB -> CD, C -> D}",
+        "C": "F = {AB -> CD}",
+        "D": "F = {A -> B, B -> C, C -> D, D -> A}"
+      },
+      "correct_answer": "A",
+      "explanation": "Với F = {AB -> CD, B -> C}, khóa chính duy nhất là AB, thuộc tính không khóa là C, D. Vì B ⊂ AB mà B -> C (C không khóa) nên R vi phạm 2NF -> chỉ đạt 1NF. (Còn F = {AB -> CD, C -> D} đạt 2NF nhưng không đạt 3NF)."
+    },
+    {
+      "id": 49,
+      "difficulty": "medium",
+      "question": "Xét lược đồ R(A, B, C, D) có khóa chính là AB (Bài 21). Tập phụ thuộc hàm nào sau đây làm R đạt 2NF nhưng KHÔNG đạt 3NF?",
+      "options": {
+        "A": "F = {AB -> CD, A -> D}",
+        "B": "F = {AB -> CD, C -> D}",
+        "C": "F = {AB -> C, AB -> D}",
+        "D": "F = {AB -> C, C -> A, C -> D}"
+      },
+      "correct_answer": "B",
+      "explanation": "Với F = {AB -> CD, C -> D}, khóa duy nhất là AB; A+ = A, B+ = B nên đạt 2NF. Tuy nhiên C -> D có C không là siêu khóa và D không là thuộc tính khóa nên vi phạm 3NF."
+    },
+    {
+      "id": 50,
+      "difficulty": "medium",
+      "question": "Giả sử R(A, B, C) biểu diễn mối quan hệ giữa hai tập thực thể có khóa lần lượt là A và B, và trên R có hai phụ thuộc hàm A -> B và B -> A (Bài 23). Cặp phụ thuộc này biểu thị điều gì?",
+      "options": {
+        "A": "Mối quan hệ nhiều - nhiều (N-N) giữa A và B.",
+        "B": "Mối quan hệ 1 - nhiều (1-N) từ A đến B.",
+        "C": "Mối quan hệ 1 - 1 (một - một) giữa hai thực thể có khóa A và B.",
+        "D": "Lược đồ R không có bất kỳ khóa ứng viên nào."
+      },
+      "correct_answer": "C",
+      "explanation": "A -> B và B -> A có nghĩa mỗi thực thể A tương ứng với nhiều nhất một thực thể B và ngược lại mỗi thực thể B tương ứng với nhiều nhất một thực thể A -> quan hệ 1-1."
+    },
+    {
+      "id": 51,
+      "difficulty": "hard",
+      "question": "Trong phép chứng minh chiều thuận (=>) của Mệnh đề 3NF (Mục 4.3.3c): 'Nếu R ∈ 3NF thì với mọi X -> A ∈ F+ (A ∉ X), X là siêu khóa hoặc A là thuộc tính khóa', bước phản chứng dẫn đến mâu thuẫn gì?",
+      "options": {
+        "A": "A trở thành thuộc tính không nguyên tố nên vi phạm 1NF.",
+        "B": "Tồn tại khóa K sao cho K -> X -> A với X ↛ K và A ∉ KX, suy ra A phụ thuộc bắc cầu vào khóa K (mâu thuẫn R ∈ 3NF).",
+        "C": "X buộc phải chứa toàn bộ tập thuộc tính U nên X không thể là tập con của R.",
+        "D": "Bao đóng của K sẽ không bằng U."
+      },
+      "correct_answer": "B",
+      "explanation": "Nếu X không là siêu khóa và A không là thuộc tính khóa, thì với một khóa K của R ta có K -> X -> A, trong đó X ↛ K (vì X không là siêu khóa) và A ∉ KX (vì A ∉ X và A không thuộc K). Suy ra A phụ thuộc bắc cầu vào K, trái giả thiết R ∈ 3NF."
+    },
+    {
+      "id": 52,
+      "difficulty": "hard",
+      "question": "Trong phép chứng minh chiều đảo (<=) của Mệnh đề 1 BCNF (Mục 4.3.4b): giả sử (Li)+ = U với mọi Li -> Ri ∈ F nhưng R ∉ BCNF (tồn tại X -> A ∈ F+, A ∉ X mà X+ ≠ U). Điều mâu thuẫn nào xảy ra khi tính bao đóng X+?",
+      "options": {
+        "A": "Vì A ∈ X+ \\ X nên phải có ít nhất một Li -> Ri ∈ F được kích hoạt (Li ⊆ X+), kéo theo (Li)+ ⊆ X+ => U ⊆ X+ => X+ = U (mâu thuẫn X+ ≠ U).",
+        "B": "Không thể tìm được khóa nào của R có kích thước nhỏ hơn |U|.",
+        "C": "Tất cả thuộc tính trong X đều trở thành thuộc tính không khóa.",
+        "D": "Phải tồn tại ít nhất hai phụ thuộc hàm có vế trái rỗng."
+      },
+      "correct_answer": "A",
+      "explanation": "Vì A ∉ X mà A ∈ X+, quá trình tính X+ bắt buộc phải dùng ít nhất một PTH Li -> Ri ∈ F tại bước mà Li ⊆ X+ hiện hành. Nhưng theo giả thiết (Li)+ = U nên từ Li ⊆ X+ suy ra U = (Li)+ ⊆ X+, tức X+ = U, mâu thuẫn X+ ≠ U."
+    },
+    {
+      "id": 53,
+      "difficulty": "hard",
+      "question": "Khi phân tách BCNF bằng cây nhị phân cho R(BOSQID) với F = {S -> D, I -> B, IS -> Q, B -> O} (Mục 4.5.2 - Ví dụ 1), sau khi tách R1(SD) và R3(IB), vì sao trên nút R4(OSQI) lại xuất hiện phụ thuộc hàm I -> O vi phạm BCNF?",
+      "options": {
+        "A": "Vì IS -> Q suy ra trực tiếp I -> O.",
+        "B": "Vì S -> D và B -> O kết hợp tạo thành I -> O.",
+        "C": "Vì trong F có I -> B và B -> O nên theo tính bắc cầu I -> O ∈ F+, khi chiếu F xuống tập thuộc tính OSQI thì I -> O vẫn được bảo toàn dù B đã bị loại khỏi R4.",
+        "D": "Vì I là khóa của R4(OSQI) nên I xác định O."
+      },
+      "correct_answer": "C",
+      "explanation": "Rất quan trọng khi chiếu F xuống R2(BOSQI) và R4(OSQI): từ I -> B và B -> O trong F suy ra I -> O ∈ F+. Khi bỏ B để sang R4(OSQI), I -> B và B -> O không còn nằm trọn trong OSQI nhưng hệ quả I -> O vẫn nằm trong hình chiếu F4 = {IS -> Q, I -> O}, nên phải tách tiếp R4 thành R5(IO) và R6(SQI)."
+    },
+    {
+      "id": 54,
+      "difficulty": "hard",
+      "question": "Trong Ví dụ 2 (Mục 4.5.2), khi phân tách R(CTHRSG) với F = {C -> T, HR -> C, HT -> R, CS -> G, HS -> R} về BCNF bằng cây nhị phân (bắt đầu tách theo CS -> G, rồi C -> T, rồi HR -> C), 4 lược đồ con ở nút lá thu được là gì?",
+      "options": {
+        "A": "R1(CSG), R3(CT), R5(HTR), R6(HRS)",
+        "B": "R1(CSG), R3(CT), R5(HRC), R6(HSR)",
+        "C": "R1(CS), R3(CT), R5(CHR), R6(HTR)",
+        "D": "R1(CSG), R3(CT), R5(CHR), R6(HRS)"
+      },
+      "correct_answer": "D",
+      "explanation": "Cây nhị phân Mục 4.5.2 VD2: R(CTHRSG) tách theo CS->G -> lá R1(CSG) và R2(CTHRS); R2 tách theo C->T -> lá R3(CT) và R4(CHRS); R4 tách theo HR->C -> lá R5(CHR) và lá R6(HRS). (Lưu ý PTH HT->R không được bảo toàn trong tập lá BCNF này)."
+    },
+    {
+      "id": 55,
+      "difficulty": "hard",
+      "question": "Cho R(U, F) với U = {CDEFGH} và F = {F -> G, FH -> C, C -> H, GH -> C, DGH -> E} (Bài 10). Phủ tối thiểu G, dạng chuẩn cao nhất và phép tách 3NF bảo toàn thông tin & PTH của R là gì?",
+      "options": {
+        "A": "G = {F -> G, C -> H, GH -> C, DGH -> E}; R đạt 1NF; tách 3NF: (DFC, GHC, DGHE, FG).",
+        "B": "G = {F -> G, FH -> C, C -> H, DGH -> E}; R đạt 2NF; tách 3NF: (DFH, FHC, CH, DGHE).",
+        "C": "G = F; R đạt 3NF; không cần tách.",
+        "D": "G = {F -> G, C -> H, GH -> C}; R đạt 1NF; tách 3NF: (DFC, CH, FG)."
+      },
+      "correct_answer": "A",
+      "explanation": "Khóa của R là DFC, DFH. Trong F, FH -> C dư thừa vì (FH)+ không cần FH->C vẫn là FHGC (qua F->G và GH->C). Vậy G = {F->G, C->H, GH->C, DGH->E}. Vì F ⊂ DFC mà F -> G (G không khóa) nên R chỉ đạt 1NF. Thuật toán 2 với khóa DFC tạo R0(DFC), R1(FG), R2(CH), R3(GHC), R4(DGHE), loại R2 ⊂ R3 còn (DFC, GHC, DGHE, FG)."
+    },
+    {
+      "id": 56,
+      "difficulty": "hard",
+      "question": "Cho R(U, F) với U = {A, B, C, D, E} và F = {DE -> A, BCD -> A, BC -> D, AB -> C, CD -> E} (Bài 11 & 12). Nếu muốn thêm ĐÚNG MỘT phụ thuộc hàm vào F để R có duy nhất một khóa thì có thể thêm PTH nào?",
+      "options": {
+        "A": "A -> B",
+        "B": "B -> A (hoặc B -> C, hoặc B -> DE)",
+        "C": "E -> D",
+        "D": "C -> E"
+      },
+      "correct_answer": "B",
+      "explanation": "Tập vế phải là {A, D, C, E} nên U \\ R = {B}. Để B trở thành khóa duy nhất thì B+ phải bằng U. Hiện tại AB, BC, BDE là các khóa, nên chỉ cần thêm B -> A, B -> C hoặc B -> DE thì B+ = U và mọi khóa đều chứa B => B là khóa duy nhất."
+    },
+    {
+      "id": 57,
+      "difficulty": "hard",
+      "question": "Cũng với R(U, F) ở Bài 11 (U = {A,B,C,D,E}, F = {DE -> A, BCD -> A, BC -> D, AB -> C, CD -> E}), phủ tối thiểu G và kết quả kiểm tra phép tách (ABC, ABDE, CDE) bằng thuật toán bảng chase là gì?",
+      "options": {
+        "A": "G = F; phép tách làm mất thông tin vì không có hàng toàn ký hiệu a.",
+        "B": "G = {AB -> C, BC -> D, DE -> A}; phép tách không bảo toàn thông tin.",
+        "C": "G = {AB -> C, BC -> D, DE -> A, CD -> E} (loại BCD -> A); phép tách bảo toàn thông tin (hàng ABDE thành toàn ký hiệu a).",
+        "D": "G = {AB -> C, CD -> E}; phép tách đạt BCNF và bảo toàn mọi PTH."
+      },
+      "correct_answer": "C",
+      "explanation": "BCD -> A dư thừa vì (BCD)+ trong F \\ {BCD -> A} là BCDEA ∋ A. Trong bảng chase cho (ABDE, ABC, CDE): AB -> C đổi b13 thành a3 trên hàng ABDE, tạo nên hàng 1 toàn a (a1, a2, a3, a4, a5) -> bảo toàn thông tin."
+    },
+    {
+      "id": 58,
+      "difficulty": "hard",
+      "question": "Cho lược đồ R(U, F) với U = {MLTGSDP} và F = {M -> T, GT -> P, GS -> P, GP -> M, MS -> D} (Bài 13). Khóa duy nhất, dạng chuẩn cao nhất và phép tách 3NF bảo toàn thông tin & PTH là gì?",
+      "options": {
+        "A": "Khóa LGS; đạt 2NF; tách thành (LGS, MT, GTP, GSP, GPM, MSD).",
+        "B": "Khóa GP; đạt 3NF; không cần tách.",
+        "C": "Khóa LGS; đạt 1NF; tách thành (MT, GTP, GSP, GPM, MSD) và bỏ LGS.",
+        "D": "Khóa duy nhất LGS; đạt 1NF; tách thành (LGS, MT, GTP, GSP, GPM, MSD)."
+      },
+      "correct_answer": "D",
+      "explanation": "U \\ R_HS = LGS và (LGS)+ = LGSPMTD = U => khóa duy nhất LGS. Do GS ⊂ LGS mà GS -> P (P không khóa) nên vi phạm 2NF => 1NF. Phủ tối thiểu chính là F; không lược đồ nào chứa LGS nên phép tách 3NF gồm R0(LGS), R1(MT), R2(GTP), R3(GSP), R4(GPM), R5(MSD)."
+    },
+    {
+      "id": 59,
+      "difficulty": "hard",
+      "question": "Cho U = {ABCDEF} và F = {AB -> C, BF -> C, C -> B, ABD -> E, F -> A} (Bài 14). Phủ tối thiểu G và phép tách 3NF bảo toàn PTH của R là gì?",
+      "options": {
+        "A": "G = {AB -> C, C -> B, ABD -> E, F -> A}; tách 3NF bảo toàn PTH: R1(ABC), R3(ABDE), R4(FA) (loại R2(BC) ⊂ R1).",
+        "B": "G = {BF -> C, C -> B, ABD -> E, F -> A}; tách thành R1(BFC), R2(BC), R3(ABDE), R4(FA).",
+        "C": "G = F; giữ nguyên cả 5 lược đồ con.",
+        "D": "G = {AB -> C, C -> B, F -> A}; bỏ ABD -> E."
+      },
+      "correct_answer": "A",
+      "explanation": "BF -> C dư thừa vì F -> A và AB -> C suy ra BF -> ABF -> C. Vậy G = {AB -> C, C -> B, ABD -> E, F -> A}. Áp dụng Thuật toán 1 thu được ABC, BC, ABDE, FA; vì BC ⊂ ABC nên bỏ R2(BC), còn R1(ABC), R3(ABDE), R4(FA). (Nếu thêm khóa BDF hoặc CDF sẽ bảo toàn thêm thông tin)."
+    },
+    {
+      "id": 60,
+      "difficulty": "hard",
+      "question": "Xét quan hệ con R1(A, C, B, D, E) với các phụ thuộc hàm A -> B, C -> D (Bài 15.1). Dạng chuẩn cao nhất và phân rã BCNF của R1 là gì?",
+      "options": {
+        "A": "Đạt 2NF; phân rã BCNF: AB, CD, ABCDE.",
+        "B": "Đạt 1NF; phân rã BCNF: AB, CD, ACE.",
+        "C": "Đạt 3NF; không cần phân rã.",
+        "D": "Đạt 1NF; phân rã BCNF: ABD, CDE."
+      },
+      "correct_answer": "B",
+      "explanation": "Khóa duy nhất của R1(ACBDE) là ACE. Vì A ⊂ ACE mà A -> B (B không khóa) nên R1 chỉ đạt 1NF. Tách đệ quy theo A -> B được AB và ACDE; tách ACDE theo C -> D được CD và ACE -> kết quả {AB, CD, ACE}."
+    },
+    {
+      "id": 61,
+      "difficulty": "hard",
+      "question": "Xét quan hệ R(A, B, C, D) với tập PTH {B -> C, D -> A} (Bài 16.2). Khóa ứng viên, dạng chuẩn cao nhất và phân rã BCNF không mất thông tin là gì?",
+      "options": {
+        "A": "Khóa B, D; đạt 3NF; phân rã BCNF: BC, DA.",
+        "B": "Khóa BD; đạt 2NF; phân rã BCNF: BC, AD.",
+        "C": "Khóa BD; đạt 1NF; phân rã BCNF: AD, BC, BD.",
+        "D": "Khóa AC; đạt 1NF; phân rã BCNF: AB, CD."
+      },
+      "correct_answer": "C",
+      "explanation": "U \\ R_HS = BD và (BD)+ = BDCA = U => khóa duy nhất BD. Vì B ⊂ BD mà B -> C (không khóa) nên R chỉ đạt 1NF. Tách ABCD theo D -> A được AD và BCD; tách BCD theo B -> C được BC và BD -> kết quả BCNF bảo toàn thông tin là {AD, BC, BD}."
+    },
+    {
+      "id": 62,
+      "difficulty": "hard",
+      "question": "Xét quan hệ R(A, B, C, D) với tập PTH {ABC -> D, D -> A} (Bài 16.3). Khẳng định nào sau đây chính xác?",
+      "options": {
+        "A": "R chỉ có khóa ABC, đạt 2NF, tách thành AD và BCD vẫn bảo toàn tất cả PTH.",
+        "B": "R đạt BCNF vì ABC là siêu khóa.",
+        "C": "R chỉ đạt 1NF vì D -> A.",
+        "D": "R có 2 khóa ABC và BCD, đạt 3NF nhưng không đạt BCNF; mọi phân rã BCNF (như AD, BCD) đều không bảo toàn được PTH ABC -> D."
+      },
+      "correct_answer": "D",
+      "explanation": "Các khóa ứng viên là ABC, BCD (không có thuộc tính không khóa) => R ∈ 3NF. D -> A vi phạm BCNF. Nếu tách R thành AD và BCD để đạt BCNF thì PTH ABC -> D không nằm trong cả AD lẫn BCD nên không tồn tại phân rã BCNF bảo toàn phụ thuộc hàm."
+    },
+    {
+      "id": 63,
+      "difficulty": "hard",
+      "question": "Xét R(A, B, C, D) với tập PTH {AB -> C, AB -> D, C -> A, D -> B} (Bài 16.5 / Bài 17.5). Các khóa ứng viên và dạng chuẩn cao nhất của R là gì?",
+      "options": {
+        "A": "Các khóa ứng viên: AB, BC, CD, AD; R đạt 3NF nhưng không đạt BCNF (và không có phân rã BCNF bảo toàn phụ thuộc).",
+        "B": "Khóa duy nhất AB; R đạt BCNF.",
+        "C": "Các khóa C, D; R đạt 2NF.",
+        "D": "Khóa duy nhất ABCD; R đạt 1NF."
+      },
+      "correct_answer": "A",
+      "explanation": "(AB)+ = U, (BC)+ = BCAD = U, (CD)+ = CDAB = U, (AD)+ = ADBC = U => 4 khóa ứng viên AB, BC, CD, AD. Không có thuộc tính không khóa => R ∈ 3NF. C -> A và D -> B vi phạm BCNF; tách ra AC, BD, CD làm mất AB -> C và AB -> D."
+    },
+    {
+      "id": 64,
+      "difficulty": "hard",
+      "question": "Cho R = ABCDEGH và F = {AB -> C, AC -> B, AD -> E, B -> D, BC -> A, E -> G}. Xét tập con R2 = ABCD với các PTH hình chiếu {AB -> C, AC -> B, B -> D, BC -> A} (Bài 18.1b). Dạng chuẩn cao nhất và phân rã BCNF của R2 là gì?",
+      "options": {
+        "A": "Khóa AB, AC, BC; đạt 3NF; phân rã BCNF: ABC, ACD.",
+        "B": "Khóa AB, AC, BC; đạt 1NF (vì B -> D vi phạm 2NF); phân rã BCNF: ABC, BD.",
+        "C": "Khóa ABCD; đạt BCNF; không cần tách.",
+        "D": "Khóa B; đạt 2NF; phân rã BCNF: AB, CD."
+      },
+      "correct_answer": "B",
+      "explanation": "Trên R2(ABCD), các khóa là AB, AC, BC. Thuộc tính D không phải thuộc tính khóa mà B ⊂ AB, B ⊂ BC có B -> D nên R2 vi phạm 2NF (chỉ đạt 1NF). Tách R2 theo B -> D thu được BD và ABC (cả hai đều đạt BCNF)."
+    },
+    {
+      "id": 65,
+      "difficulty": "hard",
+      "question": "Với R = ABCDEG và F = {AB -> C, AC -> B, AD -> E, B -> D, BC -> A, E -> G} (Bài 18.2), đánh giá hai phép phân rã P1 = {AB, BC, ABDE, EG} và P2 = {ABC, ACDE, ADG} là như thế nào?",
+      "options": {
+        "A": "Cả P1 và P2 đều bảo toàn thông tin và bảo toàn phụ thuộc hàm.",
+        "B": "P1 bảo toàn phụ thuộc hàm; P2 làm mất thông tin.",
+        "C": "P1 làm mất thông tin (và mất AB -> C, AC -> B); P2 bảo toàn thông tin nhưng không bảo toàn phụ thuộc hàm (mất E -> G và B -> D).",
+        "D": "Cả P1 và P2 đều làm mất thông tin."
+      },
+      "correct_answer": "C",
+      "explanation": "Với P1, nối AB và BC trên B sinh ra bộ giả (do B không là khóa của AB hay BC) => mất thông tin, đồng thời mất PTH AB->C, AC->B. Với P2, ABC ∩ ACDE = AC (khóa của ABCDEG) và (ABCDE) ∩ ADG = AD (chưa đủ? Chú ý trong lời giải sách: AD là không mất trên ADG vì AD->EG nên AD->ADG!), nên P2 bảo toàn thông tin nhưng hình chiếu không chứa E -> G và B -> D."
+    },
+    {
+      "id": 66,
+      "difficulty": "hard",
+      "question": "Xét quan hệ R(A, B, C, D) với tập PTH {A -> B, B -> C, C -> D} (Bài 19.4 & 19.5). So sánh phép phân rã P4 = {AB, ACD} và P5 = {AB, AD, CD} (không xét P5 có BC hay không, theo đúng đề Bài 19.5)?",
+      "options": {
+        "A": "P4 đạt BCNF; P5 làm mất thông tin.",
+        "B": "Cả P4 và P5 đều bảo toàn mọi phụ thuộc hàm.",
+        "C": "P4 làm mất thông tin vì A không là khóa; P5 chỉ đạt 2NF.",
+        "D": "P4 bảo toàn thông tin nhưng ACD chưa đạt 3NF (do C -> D) và mất B -> C; còn theo hướng BCNF nếu tách tiếp thành các bảng 2 thuộc tính (như AB, BC, CD hoặc theo sách AB, AD, CD với lưu ý mất B -> C)."
+      },
+      "correct_answer": "D",
+      "explanation": "Khóa của R là A. Trong P4 = {AB, ACD}, AB ∩ ACD = A là khóa nên bảo toàn thông tin, nhưng trên ACD có C -> D (C không phải siêu khóa, D không khóa) nên ACD thậm chí chưa đạt 3NF, và B -> C bị mất. Ở P5, sách chỉ ra không bảo toàn phụ thuộc B -> C."
+    },
+    {
+      "id": 67,
+      "difficulty": "hard",
+      "question": "Cho R(ABCDE) với F = {A -> B, BC -> E, ED -> A} (Bài 24). Tập các khóa ứng viên và dạng chuẩn cao nhất của R là gì?",
+      "options": {
+        "A": "Các khóa: ACD, BCD, CDE; R đạt 3NF nhưng không đạt BCNF.",
+        "B": "Khóa duy nhất CDE; R đạt 1NF.",
+        "C": "Các khóa: A, BC, ED; R đạt BCNF.",
+        "D": "Các khóa: ACD, BCD; R đạt 2NF nhưng không đạt 3NF."
+      },
+      "correct_answer": "A",
+      "explanation": "C, D không xuất hiện ở vế phải nên mọi khóa đều chứa CD. Kiểm tra (ACD)+ = U, (BCD)+ = U, (CDE)+ = U => 3 khóa là ACD, BCD, CDE. Các vế phải B, E, A đều nằm trong khóa => R ∈ 3NF. Nhưng vế trái A, BC, ED đều không là siêu khóa => R ∉ BCNF."
+    },
+    {
+      "id": 68,
+      "difficulty": "hard",
+      "question": "Cho lược đồ DATHANG(MAKH, TENKH, MADATHANG, TENMH, ĐVT, SOLUONG, DIACHI, NGAYDATHANG) với F = {MAKH -> TENKH, DIACHI; (MAKH, MADATHANG) -> TENMH, ĐVT, SOLUONG, NGAYDATHANG; TENMH -> ĐVT} (Bài 25). Phép chuẩn hóa về dạng cao nhất (BCNF) và bảo toàn thông tin là phép tách nào?",
+      "options": {
+        "A": "R1(MAKH, TENKH, DIACHI) và R2(MAKH, MADATHANG, TENMH, ĐVT, SOLUONG, NGAYDATHANG).",
+        "B": "R1(MAKH, TENKH, DIACHI), R2(MAKH, MADATHANG, TENMH, SOLUONG, NGAYDATHANG), R3(TENMH, ĐVT).",
+        "C": "R1(MAKH, MADATHANG, TENKH), R2(TENMH, ĐVT, SOLUONG).",
+        "D": "R1(MADATHANG, NGAYDATHANG), R2(MAKH, TENMH, ĐVT)."
+      },
+      "correct_answer": "B",
+      "explanation": "Khóa của DATHANG là {MAKH, MADATHANG}. DATHANG chỉ đạt 1NF (do MAKH -> TENKH, DIACHI vi phạm 2NF và TENMH -> ĐVT vi phạm 3NF). Tách thành 3 quan hệ: KHACHHANG(MAKH, TENKH, DIACHI), CHITIET_DH(MAKH, MADATHANG, TENMH, SOLUONG, NGAYDATHANG) và MATHANG(TENMH, ĐVT): cả 3 đều đạt BCNF, bảo toàn PTH và kết nối không mất thông tin (giao lần lượt là MAKH và TENMH)."
+    },
+    {
+      "id": 69,
+      "difficulty": "hard",
+      "question": "Cho R = (ABCDE) và F = {A -> BC, B -> D, C -> D, AB -> E, E -> BC, ACD -> E} (Bài 27). Phủ cực tiểu của F là tập nào sau đây?",
+      "options": {
+        "A": "{A -> B, A -> C, B -> D, C -> D, A -> E}",
+        "B": "{A -> BC, B -> D, C -> D, AB -> E}",
+        "C": "{A -> B, B -> D, C -> D, E -> BC, ACD -> E}",
+        "D": "{A -> E, E -> B, E -> C, B -> D, C -> D}"
+      },
+      "correct_answer": "D",
+      "explanation": "Tách vế phải: A->B, A->C, B->D, C->D, AB->E, E->B, E->C, ACD->E. Loại thuộc tính dư vế trái: vì A->B nên AB->E rút thành A->E; vì A->E nên ACD->E rút thành A->E (trùng). Loại PTH dư: từ A->E và E->B, E->C suy ra được A->B và A->C nên A->B, A->C dư thừa! Còn lại phủ cực tiểu 5 PTH: {A -> E, E -> B, E -> C, B -> D, C -> D}."
+    },
+    {
+      "id": 70,
+      "difficulty": "hard",
+      "question": "Với R = (ABCDE) và F = {A -> BC, B -> D, C -> D, AB -> E, E -> BC, ACD -> E} (Bài 27), khóa và dạng chuẩn cao nhất của R là gì?",
+      "options": {
+        "A": "Khóa duy nhất A; R đạt dạng chuẩn 1NF.",
+        "B": "Các khóa A, E; R đạt dạng chuẩn 3NF.",
+        "C": "Khóa duy nhất AB; R đạt dạng chuẩn 3NF.",
+        "D": "Khóa duy nhất A; R đạt dạng chuẩn 2NF."
+      },
+      "correct_answer": "D",
+      "explanation": "A không xuất hiện ở vế phải và A+ = ABCDE = U nên A là khóa duy nhất (1 thuộc tính) => R tự động đạt 2NF. Tuy nhiên E -> B có E không là siêu khóa và B không phải thuộc tính khóa => R không đạt 3NF. Vậy dạng chuẩn cao nhất là 2NF."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Thế nào là thuộc tính nguyên tố, phụ thuộc hàm đầy đủ và phụ thuộc bắc cầu trong chuẩn hóa cơ sở dữ liệu?",
+      "expected_answer": "- Thuộc tính nguyên tố: giá trị không thể chia nhỏ được nữa (ví dụ: điểmthi, phái).\n- Phụ thuộc hàm đầy đủ: X -> Y ∈ F+ đầy đủ nếu ∀X' ⊂ X (X' ≠ X, X' ≠ ∅) thì X' ↛ Y ∈ F+.\n- Phụ thuộc bắc cầu: A phụ thuộc bắc cầu vào X nếu ∃Y ⊆ U sao cho X -> Y, Y -> A nhưng Y ↛ X với A ∉ XY.\n- Phụ thuộc không đầy đủ và bắc cầu vào khóa gây dư thừa và dị thường cập nhật (thêm, xóa, sửa)."
+    },
+    {
+      "id": 2,
+      "question": "Phân biệt điều kiện đạt 1NF, 2NF, 3NF và BCNF của một lược đồ quan hệ R(U, F).",
+      "expected_answer": "- 1NF: mọi thuộc tính chỉ chứa giá trị nguyên tố.\n- 2NF: là 1NF và mọi thuộc tính không khóa đều phụ thuộc hàm đầy đủ vào mọi khóa.\n- 3NF: là 2NF và không có phụ thuộc bắc cầu vào khóa (∀X -> A ∈ F+, A ∉ X: X là siêu khóa hoặc A là thuộc tính khóa).\n- BCNF: ∀X -> A ∈ F+ (A ∉ X) thì X bắt buộc phải là siêu khóa (tức (Li)+ = U với mọi Li -> Ri ∈ F)."
+    },
+    {
+      "id": 3,
+      "question": "Trình bày quy trình 4 bước xác định dạng chuẩn cao nhất của lược đồ quan hệ <R, F>.",
+      "expected_answer": "- Bước 1: Kiểm tra <R, F> có đạt BCNF không (mọi vế trái là siêu khóa); nếu đúng -> BCNF, dừng.\n- Bước 2: Tìm tất cả các khóa của R (xác định thuộc tính khóa và không khóa).\n- Bước 3: Kiểm tra <R, F> có đạt 3NF không; nếu đúng -> 3NF, dừng.\n- Bước 4: Kiểm tra <R, F> có đạt 2NF không; nếu đúng -> 2NF, ngược lại kết luận 1NF."
+    },
+    {
+      "id": 4,
+      "question": "Nêu các bước của Thuật toán 2 phân tách lược đồ về dạng chuẩn 3NF vừa bảo toàn thông tin vừa bảo toàn phụ thuộc hàm.",
+      "expected_answer": "- Bước 1: Xác định phủ tối thiểu F' = {Xi -> Ai | i = 1..m} của F.\n- Bước 2: Tìm một khóa K bất kỳ của R.\n- Bước 3: Lập R0(K) và các Ri(XiAi) ứng với từng PTH trong F' (có thể gộp cùng vế trái).\n- Bước 4: Nếu tồn tại Ui ⊆ Uj (i ≠ j) thì loại bỏ Ri cho đến khi không loại được nữa."
+    },
+    {
+      "id": 5,
+      "question": "Trình bày nguyên lý và 4 bước của thuật toán cây nhị phân phân tách đệ quy về BCNF bảo toàn thông tin.",
+      "expected_answer": "- Cơ sở (Định lý Decobel): Với X -> A vi phạm BCNF, tách R thành XA và U\\A luôn bảo toàn thông tin vì (XA)∩(U\\A)=X -> A.\n- Bước 1-2: Tìm khóa, dựng cây gốc R(U, F); tìm PTH X -> A (A ∉ X) vi phạm BCNF.\n- Bước 3: Tách thành nút con trái R1(XA) và nút con phải R2(U \\ A) kèm hình chiếu F_R2.\n- Bước 4: Lặp đệ quy trên R2 (và nút chưa đạt BCNF) đến khi mọi nút lá đạt BCNF."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Bài 1 (Giáo trình): Kiểm tra Dạng chuẩn 3NF trên Lược đồ U = {ABCDEG}",
+      "problem": "Cho lược đồ R(U, F) với U = {ABCDEG} và tập phụ thuộc hàm F = {AB -> C, D -> EG, C -> A, BE -> C, BC -> D, CG -> BD, ACD -> B, CE -> AG}. Xét lược đồ R có ở dạng chuẩn 3 (3NF) không?",
+      "solution_steps": [
+        "Bước 1: Xác định các khóa ứng viên của R(U, F)\n- Tính bao đóng của các cặp thuộc tính ta có: (AB)+ = ABCDEG = U (vì AB -> C -> A, BC -> D -> EG), (BE)+ = U, (BC)+ = U, (CG)+ = U, (CD)+ = U, (CE)+ = U (và (BD)+ = U qua D->EG, BE->C, C->A).\n- Kiểm tra các thuộc tính đơn lẻ: A+ = A, B+ = B, C+ = CA, D+ = DEG, E+ = E, G+ = G đều khác U.\n- Vậy R có các khóa là AB, BE, BC, CG, CD, CE (cùng BD).",
+        "Bước 2: Xác định tập thuộc tính khóa và tập thuộc tính không khóa\n- Hợp tất cả các khóa thu được: {A, B, C, D, E, G} = U.\n- Do đó mọi thuộc tính trong U đều là thuộc tính khóa; tập thuộc tính không khóa = ∅.",
+        "Bước 3: Áp dụng nhận xét và mệnh đề kiểm tra 3NF\n- Theo Mục 4.3.3b, một lược đồ có tập thuộc tính không khóa bằng rỗng thì luôn đạt dạng chuẩn 3 (với mọi X -> A ∈ F+, A ∈ U chắc chắn là thuộc tính khóa).",
+        "Bước 4: Kết luận\n- Lược đồ R(U, F) ở dạng chuẩn 3 (3NF)."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài 2 & Bài 3 (Giáo trình): Xác định Dạng chuẩn và Chuẩn hóa 2NF cho NHACC và Lược đồ Điểm thi",
+      "problem": "(a) Cho NHACC(MNCC, TENNCC, DCHI, MHANG, DGIA) với F = {MNCC -> TENNCC, DCHI; MNCC, MHANG -> DGIA}. Xác định dạng chuẩn của NHACC và kiểm tra các lược đồ con nếu tách thành R1(MNCC, TENNCC, DCHI) và R2(MNCC, MHANG, DGIA).\n(b) Xét lược đồ R(MSSV, TEN, MONTHI, DIEMTHI) với F = {MSSV -> TEN; MSSV, MONTHI -> DIEMTHI}. Xác định dạng chuẩn cao nhất của R.",
+      "solution_steps": [
+        "Bước 1: Phân tích lược đồ NHACC\n- Tập vế phải là {TENNCC, DCHI, DGIA} => U \\ R_HS = {MNCC, MHANG}. Ta có ({MNCC, MHANG})+ = U => khóa duy nhất K = {MNCC, MHANG}.\n- Thuộc tính không khóa: {TENNCC, DCHI, DGIA}. Tồn tại MNCC ⊂ K mà MNCC -> TENNCC, DCHI => TENNCC, DCHI không phụ thuộc đầy đủ vào khóa.\n- Vậy NHACC không đạt 2NF -> dạng chuẩn cao nhất là 1NF.",
+        "Bước 2: Kiểm tra hai lược đồ con R1 và R2 của NHACC\n- R1(MNCC, TENNCC, DCHI) với F1 = {MNCC -> TENNCC, DCHI}: khóa duy nhất là MNCC (1 thuộc tính), các thuộc tính không khóa TENNCC, DCHI phụ thuộc đầy đủ vào khóa => R1 đạt 2NF (và đạt BCNF).\n- R2(MNCC, MHANG, DGIA) với F2 = {MNCC, MHANG -> DGIA}: khóa duy nhất {MNCC, MHANG}, thuộc tính không khóa DGIA phụ thuộc đầy đủ vào khóa => R2 đạt 2NF (và đạt BCNF).",
+        "Bước 3: Phân tích lược đồ R(MSSV, TEN, MONTHI, DIEMTHI)\n- Tương tự, {MSSV, MONTHI} không nằm ở vế phải và ({MSSV, MONTHI})+ = U => khóa duy nhất K = {MSSV, MONTHI}.\n- Tập thuộc tính không khóa là {TEN, DIEMTHI}.",
+        "Bước 4: Kết luận dạng chuẩn của R(MSSV, TEN, MONTHI, DIEMTHI)\n- Tồn tại MSSV ⊂ K mà MSSV -> TEN => thuộc tính không khóa TEN không phụ thuộc đầy đủ vào khóa K.\n- Do đó R không ở dạng chuẩn 2 -> dạng chuẩn cao nhất là 1NF."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bài 4 & Bài 8 (Giáo trình): Chứng minh U = {ABCDE} đạt 3NF nhưng Không đạt BCNF",
+      "problem": "Cho lược đồ quan hệ R(U, F) với U = {ABCDE} và tập phụ thuộc hàm F = {AB -> C, BC -> D, CD -> E, DE -> A}.\n(a) Tính (AB)+ và chỉ ra các khóa của lược đồ.\n(b) Chứng minh R(U, F) không phải là BCNF mà ở dạng chuẩn 3 (3NF).",
+      "solution_steps": [
+        "Bước 1: Tính (AB)+ và chứng minh AB là khóa\n- Xuất phát từ AB: dùng AB -> C được ABC; dùng BC -> D được ABCD; dùng CD -> E được ABCDE = U. Vậy (AB)+ = U => AB là siêu khóa.\n- Kiểm tra tập con: A+ = A ≠ U, B+ = B ≠ U. Vậy AB là một khóa của R.",
+        "Bước 2: Tìm các khóa còn lại của lược đồ\n- Xét BC: (BC)+ = BCDEA = U; B+ = B ≠ U, C+ = C ≠ U => BC là khóa.\n- Xét BDE: (BDE)+ = BDEAC = U; kiểm tra các tập con BD+ = BD, BE+ = BE, DE+ = DEA đều khác U => BDE là khóa.\n- Vậy R có 3 khóa là AB, BC, BDE (vì B không nằm ở vế phải nên mọi khóa phải chứa B).",
+        "Bước 3: Chứng minh R không đạt BCNF\n- Xét PTH CD -> E ∈ F: ta có (CD)+ = CDEA ≠ U (thiếu B). Do CD không phải là siêu khóa nên theo định nghĩa R không phải là BCNF.",
+        "Bước 4: Chứng minh R đạt 3NF\n- Hợp của 3 khóa {AB, BC, BDE} là {A, B, C, D, E} = U, suy ra tập thuộc tính không khóa = ∅.\n- Theo nhận xét 4.3.3b (mọi thuộc tính đều là thuộc tính khóa), R đạt dạng chuẩn 3 (3NF)."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bài 5 (Giáo trình): Xác định Dạng chuẩn của Lược đồ U = {S, A, I, P}",
+      "problem": "Xác định dạng chuẩn cao nhất của lược đồ quan hệ R(U, F) với U = {S, A, I, P} và tập phụ thuộc hàm F = {S -> A, SI -> P}.",
+      "solution_steps": [
+        "Bước 1: Kiểm tra BCNF\n- Xét S -> A ∈ F: ta có S+ = SA ≠ U (S không phải siêu khóa) => R không ở dạng BCNF.",
+        "Bước 2: Tìm tất cả các khóa của R\n- Tập vế phải R_HS = {A, P} => U \\ R_HS = {S, I}.\n- Tính (SI)+ = SIAP = U => R có khóa duy nhất K = SI. Tập thuộc tính không khóa là {A, P}.",
+        "Bước 3: Kiểm tra 3NF và 2NF\n- Kiểm tra 3NF: Tồn tại S -> A ∈ F+ mà S không là siêu khóa và A không phải thuộc tính khóa => R không đạt 3NF.\n- Kiểm tra 2NF: Tồn tại S ⊂ K (với K = SI) mà S -> A (A là thuộc tính không khóa) => A không phụ thuộc đầy đủ vào khóa chính SI => R không đạt 2NF.",
+        "Bước 4: Kết luận\n- Theo quy ước mặc định mọi lược đồ đạt 1NF, dạng chuẩn cao nhất của R là 1NF."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bài 6 (Giáo trình): Lập Tập Phụ thuộc hàm và Xác định Dạng chuẩn SVIEN",
+      "problem": "Cho lược đồ SVIEN(TENSV, MONHOC, TENGV) với các ràng buộc:\n- Mỗi môn học đối với một sinh viên có một thầy hướng dẫn.\n- Mỗi thầy chỉ hướng dẫn một môn học.\nHãy xác định tập phụ thuộc hàm và dạng chuẩn cao nhất của lược đồ SVIEN.",
+      "solution_steps": [
+        "Bước 1: Biểu diễn các ràng buộc thành tập phụ thuộc hàm F\n- 'Mỗi môn học đối với một sinh viên có một thầy hướng dẫn': TENSV, MONHOC -> TENGV.\n- 'Mỗi thầy chỉ hướng dẫn một môn học': TENGV -> MONHOC.\n- Vậy F = {TENSV, MONHOC -> TENGV; TENGV -> MONHOC}.",
+        "Bước 2: Kiểm tra BCNF\n- Xét TENGV -> MONHOC ∈ F: ta có (TENGV)+ = {TENGV, MONHOC} ≠ U (thiếu TENSV). Vì TENGV không là siêu khóa nên lược đồ không đạt BCNF.",
+        "Bước 3: Tìm tất cả các khóa của SVIEN\n- Thuộc tính TENSV không nằm ở vế phải nên mọi khóa phải chứa TENSV.\n- ({TENSV, MONHOC})+ = U và ({TENSV, TENGV})+ = U (còn TENSV+ = TENSV) => SVIEN có 2 khóa là {TENSV, MONHOC} và {TENSV, TENGV}.",
+        "Bước 4: Kiểm tra 3NF và kết luận\n- Mọi thuộc tính {TENSV, MONHOC, TENGV} đều thuộc khóa => tập thuộc tính không khóa = ∅.\n- Do đó SVIEN đạt dạng chuẩn 3 (3NF) nhưng không đạt BCNF."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bài 7 (Giáo trình): Tính Bao đóng, Tìm Khóa và Dạng chuẩn trên U = {ABCDE}",
+      "problem": "Cho lược đồ quan hệ U = {ABCDE} và tập phụ thuộc hàm F = {AB -> C, BC -> D, CD -> E}.\n(a) Tính (AB)+.\n(b) Xác định tất cả các khóa cho lược đồ.\n(c) Xác định dạng chuẩn cao nhất của lược đồ.",
+      "solution_steps": [
+        "Bước 1: Tính (AB)+\n- Từ AB: áp dụng AB -> C được ABC; áp dụng BC -> D được ABCD; áp dụng CD -> E được ABCDE = U.\n- Vậy (AB)+ = ABCDE = U.",
+        "Bước 2: Xác định tất cả các khóa\n- Tập vế phải R_HS = {C, D, E} => U \\ R_HS = {A, B}. Vì (AB)+ = U và mọi tập con A+ = A ≠ U, B+ = B ≠ U nên AB là khóa duy nhất của R.",
+        "Bước 3: Kiểm tra BCNF và 3NF\n- Tồn tại BC -> D ∈ F mà (BC)+ = BCDE ≠ U (không phải siêu khóa) và D không là thuộc tính khóa (khóa duy nhất là AB) => lược đồ không đạt BCNF và không đạt 3NF.",
+        "Bước 4: Kiểm tra 2NF và kết luận\n- Tập thuộc tính không khóa là {C, D, E}. Các tập con thực sự của khóa AB là A và B.\n- Ta có A+ = A, B+ = B (không chứa C, D, E) => mọi thuộc tính không khóa đều phụ thuộc đầy đủ vào khóa AB.\n- Vậy lược đồ đạt dạng chuẩn 2 (2NF)."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bài 9 (Giáo trình): Chứng minh Lược đồ U = {ABC} Đạt BCNF",
+      "problem": "Cho lược đồ quan hệ U = {ABC} và tập phụ thuộc hàm F = {AB -> C, BC -> A}.\n(a) Tính (AB)+.\n(b) Chứng minh rằng AB, BC đều là khóa của U.\n(c) Chứng minh rằng lược đồ U với tập phụ thuộc hàm F đạt BCNF.",
+      "solution_steps": [
+        "Bước 1: Tính (AB)+\n- Áp dụng AB -> C, ta thu được (AB)+ = ABC = U.",
+        "Bước 2: Chứng minh AB là khóa của U\n- Vì (AB)+ = U nên AB là siêu khóa. Kiểm tra tập con: A+ = A ≠ U, B+ = B ≠ U.\n- Do không có tập con thực sự nào của AB là siêu khóa, AB là một khóa của U.",
+        "Bước 3: Chứng minh BC là khóa của U\n- Áp dụng BC -> A ta có (BC)+ = BCA = U => BC là siêu khóa.\n- Kiểm tra tập con: B+ = B ≠ U, C+ = C ≠ U => BC cũng là một khóa của U.",
+        "Bước 4: Chứng minh U đạt chuẩn BCNF\n- Áp dụng Mệnh đề 1 BCNF: mọi phụ thuộc hàm không tầm thường trong F đều có vế trái là AB hoặc BC.\n- Vì (AB)+ = U và (BC)+ = U (tức mọi vế trái đều là siêu khóa) nên lược đồ U đạt dạng chuẩn Boyce-Codd (BCNF)."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bài 10 (Giáo trình): Tìm Khóa, Phủ tối thiểu, Dạng chuẩn và Tách 3NF trên U = {CDEFGH}",
+      "problem": "Cho R(U, F) với U = {CDEFGH} và F = {F -> G, FH -> C, C -> H, GH -> C, DGH -> E}.\n(a) Tìm tất cả các khóa của R.\n(b) Tìm tập phụ thuộc hàm tối thiểu G của F.\n(c) Xác định dạng chuẩn cao nhất của R(U, G).\n(d) Nếu R(U, G) chưa đạt 3NF, tách R thành các lược đồ con 3NF vừa bảo toàn thông tin vừa bảo toàn G.",
+      "solution_steps": [
+        "Bước 1: Tìm tất cả các khóa của R\n- Tập vế phải R_HS = {C, E, G, H} => TN = U \\ R_HS = {D, F}; TG = L ∩ R = {C, G, H}.\n- Tính bao đóng TN ∪ Xi: (DF)+ = DFG ≠ U; (DFC)+ = DFCGHE = U => DFC là khóa; (DFG)+ = DFG; (DFH)+ = DFHGCE = U => DFH là khóa. Các tập siêu lớn hơn (DFCG, DFCH, DFGH, DFCGH) đều chứa DFC hoặc DFH.\n- Vậy R có 2 khóa: DFC và DFH.",
+        "Bước 2: Tìm phủ tối thiểu G của F\n- Mọi PTH trong F đều có vế phải 1 thuộc tính và không có thuộc tính dư ở vế trái (FH -> C, GH -> C, DGH -> E đều đầy đủ).\n- Kiểm tra PTH dư thừa: xét FH -> C, đặt F' = F \\ {FH -> C}, ta có (FH)+_F' = FHGC ∋ C => FH -> C dư thừa (loại). Các PTH còn lại F -> G, C -> H, GH -> C, DGH -> E đều không suy ra được khi bỏ khỏi tập.\n- Vậy G = {F -> G, C -> H, GH -> C, DGH -> E}.",
+        "Bước 3: Xác định dạng chuẩn cao nhất của R(U, G)\n- Khóa: DFC, DFH => tập thuộc tính không khóa: {E, G}.\n- Tồn tại F -> G mà F không là siêu khóa và G không là thuộc tính khóa => không đạt BCNF và không đạt 3NF.\n- Hơn nữa F ⊂ DFC (tập con của khóa) mà F -> G => G không phụ thuộc đầy đủ vào khóa => không đạt 2NF. Vậy R đạt 1NF.",
+        "Bước 4: Tách R về 3NF bảo toàn thông tin và bảo toàn G (Thuật toán 2)\n- Chọn khóa K = DFC lập R0(DFC); lập các lược đồ từ G: R1(FG), R2(CH), R3(GHC), R4(DGHE).\n- Vì R2(CH) ⊂ R3(GHC) nên loại bỏ R2.\n- Kết quả phép tách 3NF: ρ = (DFC, GHC, DGHE, FG)."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bài 11 & Bài 12 (Giáo trình): Tìm Khóa, Phủ tối thiểu, Kiểm tra Chase và Thêm PTH trên U = {ABCDE}",
+      "problem": "Cho R(U, F) với U = {A, B, C, D, E} và F = {DE -> A, BCD -> A, BC -> D, AB -> C, CD -> E}.\n1. Tìm tất cả các khóa của R(U, F) và giải thích cách thêm 1 PTH vào F để R có khóa duy nhất.\n2. Tìm tập phụ thuộc hàm tối thiểu G của F.\n3. Kiểm tra phép tách (ABC, ABDE, CDE) có bảo toàn thông tin không.\n4. Xác định dạng chuẩn cao nhất của R(U, G).",
+      "solution_steps": [
+        "Bước 1: Tìm tất cả các khóa và tìm hiểu thêm PTH để có khóa duy nhất\n- Tập nguồn TN = U \\ R_HS = {B}, tập trung gian TG = {A, C, D, E}.\n- Thử từng tập con Xi của TG hợp với B: B+ = B; (BA)+ = ABCDE = U => AB là khóa; (BC)+ = BCDEA = U => BC là khóa; (BD)+ = BD; (BE)+ = BE; (BDE)+ = BDEAC = U => BDE là khóa.\n- Vậy R có 3 khóa: AB, BC, BDE.\n- Để R có duy nhất 1 khóa, ta cần B+ = U; do (AB)+ = (BC)+ = (BDE)+ = U nên chỉ cần thêm 1 trong các PTH: B -> A, B -> C, hoặc B -> DE vào F thì B trở thành khóa duy nhất.",
+        "Bước 2: Tìm phủ tối thiểu G của F\n- Vế phải đã có 1 thuộc tính và mọi PTH đều đầy đủ.\n- Xét BCD -> A với G' = F \\ {BCD -> A}: (BCD)+_G' = BCDEA ∋ A => BCD -> A dư thừa (loại).\n- Các PTH còn lại DE -> A, BC -> D, AB -> C, CD -> E đều không dư thừa. Vậy G = {AB -> C, BC -> D, DE -> A, CD -> E}.",
+        "Bước 3: Kiểm tra tính bảo toàn thông tin của phép tách (ABC, ABDE, CDE) bằng bảng Chase\n- Hàng 1 (ABDE): (a1, a2, b13, a4, a5); Hàng 2 (ABC): (a1, a2, a3, b24, b25); Hàng 3 (CDE): (b31, b32, a3, a4, a5).\n- Xét AB -> C: hàng 1 và hàng 2 trùng nhau trên AB (a1, a2) nên thay b13 = a3 -> Hàng 1 trở thành (a1, a2, a3, a4, a5) chứa toàn ký hiệu a.\n- Kết luận: Phép tách (ABC, ABDE, CDE) bảo toàn thông tin.",
+        "Bước 4: Xác định dạng chuẩn cao nhất của R(U, G)\n- Hợp 3 khóa AB, BC, BDE là {A, B, C, D, E} = U => tập thuộc tính không khóa = ∅ => R đạt 3NF (nhưng không đạt BCNF vì AB -> C có AB là khóa, còn BC -> D cũng là khóa, nhưng DE -> A và CD -> E có (DE)+ = DEA ≠ U, (CD)+ = CDEA ≠ U)."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bài 13 (Giáo trình): Chứng minh Khóa duy nhất và Tách 3NF trên U = {MLTGSDP}",
+      "problem": "Cho lược đồ quan hệ R(U, F) với U = {MLTGSDP} (M: môn, L: lớp, T: thầy, G: giờ, S: sinh viên, D: số ĐK, P: phòng) và F = {M -> T, GT -> P, GS -> P, GP -> M, MS -> D}.\n(a) Chứng tỏ lược đồ có khóa duy nhất và chỉ ra khóa đó.\n(b) Xác định dạng chuẩn cao nhất của lược đồ.\n(c) Tách R thành các lược đồ con 3NF bảo toàn thông tin và bảo toàn F.",
+      "solution_steps": [
+        "Bước 1: Chứng minh khóa duy nhất\n- Tập vế phải R_HS = {T, P, M, D} => U \\ R_HS = {L, G, S}.\n- Tính (LGS)+: GS -> P (LGSP); GP -> M (LGSPM); M -> T (LGSPMT); MS -> D (LGSPMTD = U).\n- Vì LGS phải có mặt trong mọi khóa mà (LGS)+ = U nên K = LGS là khóa duy nhất của R.",
+        "Bước 2: Xác định dạng chuẩn cao nhất\n- Tập thuộc tính không khóa là {M, T, P, D}.\n- Xét M -> T ∈ F: M không phải siêu khóa và T không là thuộc tính khóa => R không đạt BCNF và không đạt 3NF.\n- Xét GS ⊂ LGS (tập con của khóa) mà GS -> P (P không khóa) => P không phụ thuộc đầy đủ vào khóa LGS => R không đạt 2NF. Vậy R đạt 1NF.",
+        "Bước 3: Xác định phủ tối thiểu của F\n- Kiểm tra từng PTH trong F đều không thể bỏ thuộc tính ở vế trái và không có PTH nào suy diễn được từ các PTH còn lại => phủ tối thiểu chính là F.",
+        "Bước 4: Tách R về 3NF bảo toàn thông tin và bảo toàn F (Thuật toán 2)\n- Lập R0 = {LGS} (ứng với khóa K, F0 = ∅) và các lược đồ con từ F: R1(MT), R2(GTP), R3(GSP), R4(GPM), R5(MSD).\n- Không có lược đồ nào chứa trong lược đồ khác nên kết quả phép tách là (LGS, MT, GTP, GSP, GPM, MSD)."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bài 14 (Giáo trình): Chuẩn hóa 3NF cho Lược đồ U = {ABCDEF} và Ý nghĩa Phép tách",
+      "problem": "Cho R(U, F) với U = {ABCDEF} và F = {AB -> C, BF -> C, C -> B, ABD -> E, F -> A}.\n(a) Tìm tất cả các khóa của R.\n(b) Tìm PTH dư thừa và phủ tối thiểu G của F.\n(c) Xác định dạng chuẩn cao nhất của R(U, G).\n(d) Tách R(U, G) về 3NF bảo toàn G và nêu ý nghĩa của việc chuẩn hóa.",
+      "solution_steps": [
+        "Bước 1: Tìm tất cả các khóa\n- Tập nguồn TN = U \\ R_HS = {D, F}; tập trung gian TG = {A, B, C}.\n- Tính bao đóng: (DF)+ = DFA ≠ U; (ADF)+ = ADF; (BDF)+ = BDFCAE = U => BDF là khóa; (CDF)+ = CDFBAE = U => CDF là khóa.\n- Vậy R có 2 khóa là BDF và CDF.",
+        "Bước 2: Tìm PTH dư thừa và phủ tối thiểu G\n- Kiểm tra BF -> C: trong G' = F \\ {BF -> C}, (BF)+_G' = BFAC ∋ C (do F -> A và AB -> C) => BF -> C dư thừa.\n- Các PTH AB -> C, C -> B, ABD -> E, F -> A đều không dư thừa và đều đầy đủ vế trái. Vậy G = {AB -> C, C -> B, ABD -> E, F -> A}.",
+        "Bước 3: Xác định dạng chuẩn cao nhất của R(U, G)\n- Tập thuộc tính không khóa là {A, E}.\n- Tồn tại ABD -> E mà ABD không là siêu khóa và E không khóa => không đạt BCNF và 3NF.\n- Tồn tại F ⊂ BDF (tập con của khóa) mà F -> A (A không khóa) => không đạt 2NF. Vậy R đạt 1NF.",
+        "Bước 4: Tách R về 3NF bảo toàn G và nêu ý nghĩa\n- Thuật toán 1 từ G tạo: R1(ABC), R2(BC), R3(ABDE), R4(FA); loại R2 ⊂ R1 còn R1(ABC), R3(ABDE), R4(FA) (bổ sung R0(BDF) hoặc R0(CDF) nếu yêu cầu bảo toàn thêm thông tin).\n- Ý nghĩa: Phép tách và chuẩn hóa giúp loại bỏ dữ liệu lặp lại dư thừa, ngăn ngừa dị thường thêm/xóa/sửa và vẫn đảm bảo khôi phục nguyên vẹn dữ liệu khi kết nối."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Bài 15 (Giáo trình): Đánh giá Dạng chuẩn và Phân rã BCNF cho 5 Lược đồ con từ ABCDEFGHI",
+      "problem": "Xét 5 lược đồ con được tách từ tập thuộc tính ABCDEFGHI với các PTH tương ứng trên từng quan hệ (chú ý các PTH nằm ngoài tập thuộc tính của quan hệ con không áp dụng trực tiếp trên quan hệ đó):\n1. R1(A, C, B, D, E): A -> B, C -> D\n2. R2(A, B, F): AC -> E, B -> F\n3. R3(A, D): D -> G, G -> H\n4. R4(D, C, H, G): A -> I, I -> A\n5. R5(A, I, C, E): (không có PTH)\n(a) Nêu dạng chuẩn cao nhất của mỗi quan hệ.\n(b) Nếu chưa đạt BCNF, hãy phân tách về BCNF.",
+      "solution_steps": [
+        "Bước 1: Phân tích R1(A, C, B, D, E) với A -> B, C -> D\n- Khóa duy nhất là ACE; vì A ⊂ ACE mà A -> B (B không khóa) nên R1 chỉ đạt 1NF.\n- Phân rã BCNF theo A -> B và C -> D thu được: AB, CD, ACE.",
+        "Bước 2: Phân tích R2(A, B, F) với AC -> E, B -> F\n- Trên tập thuộc tính ABF chỉ có PTH B -> F có hiệu lực (AC -> E chứa C, E ngoài R2).\n- Khóa của R2 là AB; vì B ⊂ AB mà B -> F nên R2 đạt 1NF. Tách BCNF theo B -> F thu được: AB, BF.",
+        "Bước 3: Phân tích R3(A, D) với D -> G, G -> H\n- Không có PTH nào hoàn toàn nằm trong AD (và mọi lược đồ 2 thuộc tính luôn đạt BCNF theo Mệnh đề 2) => R3 đạt BCNF.",
+        "Bước 4: Phân tích R4(D, C, H, G) và R5(A, I, C, E)\n- R4(D, C, H, G): các PTH A -> I, I -> A nằm ngoài DCHG nên trên R4 không có PTH không tầm thường nào (khóa chính là DCHG) => R4 đạt BCNF.\n- R5(A, I, C, E): không có PTH nào (khóa là AICE) => R5 đạt BCNF."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Bài 16 & Bài 17 (Giáo trình): Phân tích Khóa, Dạng chuẩn và BCNF cho 5 Tập PTH trên R(A, B, C, D)",
+      "problem": "Xét quan hệ R(A, B, C, D). Đối với mỗi tập phụ thuộc hàm dưới đây:\n1. {C -> D, C -> A, B -> C}\n2. {B -> C, D -> A}\n3. {ABC -> D, D -> A}\n4. {A -> B, BC -> D, A -> C}\n5. {AB -> C, AB -> D, C -> A, D -> B}\nHãy xác định (a) các khóa ứng viên, (b) dạng chuẩn cao nhất và (c) phân rã BCNF (nếu có thể bảo toàn phụ thuộc hàm hoặc chỉ ra trường hợp không bảo toàn).",
+      "solution_steps": [
+        "Bước 1: Trường hợp 1 {C -> D, C -> A, B -> C} và Trường hợp 2 {B -> C, D -> A}\n- TH1: Khóa ứng viên duy nhất là B (1 thuộc tính nên đạt 2NF); C -> D, C -> A vi phạm 3NF => R đạt 2NF. Phân rã BCNF bảo toàn PTH: AC, BC, CD (hoặc ACD, BC).\n- TH2: Khóa ứng viên duy nhất là BD; B -> C và D -> A vi phạm 2NF => R đạt 1NF. Phân rã BCNF không mất thông tin: AD, BC, BD (tách AD và BCD, rồi BC và BD).",
+        "Bước 2: Trường hợp 3 {ABC -> D, D -> A}\n- Khóa ứng viên: ABC, BCD => tập thuộc tính không khóa = ∅ => R đạt 3NF (không đạt BCNF vì D -> A).\n- Nếu tách R thành AD và BCD để đạt BCNF thì mất PTH ABC -> D => không có phân rã BCNF bảo toàn phụ thuộc hàm.",
+        "Bước 3: Trường hợp 4 {A -> B, BC -> D, A -> C}\n- Khóa ứng viên duy nhất là A (1 thuộc tính nên đạt 2NF); BC -> D vi phạm 3NF (BC không siêu khóa, D không khóa) => R đạt 2NF.\n- Phân rã R theo BC -> D thu được {BCD, ABC} (cả hai đều đạt BCNF và bảo toàn mọi PTH).",
+        "Bước 4: Trường hợp 5 {AB -> C, AB -> D, C -> A, D -> B}\n- Các khóa ứng viên: AB, BC, CD, AD => tập thuộc tính không khóa = ∅ => R đạt 3NF (không đạt BCNF do C -> A, D -> B).\n- Khi tách theo C -> A và D -> B thành AC, BD, CD thì không bảo toàn được AB -> C, AB -> D => không tồn tại phân rã BCNF bảo toàn phụ thuộc hàm."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bài 18 (Giáo trình): Phân tích Tập con, Phủ cực tiểu, BCNF và Bảo toàn Thông tin trên R = ABCDEGH",
+      "problem": "Cho R = ABCDEGH và F = {AB -> C, AC -> B, AD -> E, B -> D, BC -> A, E -> G}.\n1. Tìm phủ cực tiểu, dạng chuẩn cao nhất và phân rã BCNF (nếu chưa BCNF) cho các quan hệ con: (a) ABC, (b) ABCD, (c) ABCEG, (d) DCEGH, (e) ACEH.\n2. Xét trên R' = ABCDEG với tập F trên, đánh giá tính bảo toàn thông tin và bảo toàn PTH của hai phép phân rã: {AB, BC, ABDE, EG} và {ABC, ACDE, ADG}.",
+      "solution_steps": [
+        "Bước 1: Xét (a) ABC và (b) ABCD\n- (a) ABC: PTH chiếu {AB -> C, AC -> B, BC -> A} (đã tối thiểu). Các khóa là AB, AC, BC; mọi vế trái đều là siêu khóa => đạt BCNF.\n- (b) ABCD: PTH chiếu {AB -> C, AC -> B, B -> D, BC -> A} (tối thiểu). Khóa: AB, AC, BC; vi phạm 2NF do B -> D => đạt 1NF. Tách BCNF: {ABC, BD}.",
+        "Bước 2: Xét (c) ABCEG\n- PTH chiếu: {AB -> C, AC -> B, BC -> A, E -> G} (tối thiểu).\n- Các khóa là ABE, ACE, BCE; vì E -> G (E là tập con của khóa, G không khóa) nên đạt 1NF. Phân rã BCNF: {ABE, ABC, EG}.",
+        "Bước 3: Xét (d) DCEGH và (e) ACEH\n- (d) DCEGH: PTH chiếu {E -> G} (tối thiểu); khóa duy nhất DCEH; vì E -> G vi phạm 2NF => đạt 1NF. Phân rã BCNF: {DCEH, EG}.\n- (e) ACEH: không có PTH nào tồn tại; khóa là ACEH => đạt BCNF.",
+        "Bước 4: Đánh giá hai phép phân rã trên R' = ABCDEG\n- Phép tách {AB, BC, ABDE, EG}: Xét hai bộ (a1,b,c1,d1,e1,g1) và (a2,b,c2,d2,e2,g2), khi chiếu xuống AB, BC rồi nối trên B sẽ sinh 4 bộ (xuất hiện bộ giả) => mất thông tin, đồng thời mất PTH AB -> C và AC -> B.\n- Phép tách {ABC, ACDE, ADG}: (ABC ∩ ACDE = AC là khóa của ABCDE; và AD xác định EG trên ADG) nên nối không mất thông tin; tuy nhiên hình chiếu lên từng quan hệ chỉ giữ AB -> C, AC -> B, BC -> A, AD -> E, AD -> G, thiếu E -> G và B -> D nên không bảo toàn phụ thuộc hàm."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bài 19 (Giáo trình): Đánh giá Chất lượng Phép phân rã trên R(A, B, C, D)",
+      "problem": "Xét quan hệ R(A, B, C, D). Với mỗi tập PTH và phép phân rã dưới đây, hãy tìm khóa ứng viên và đánh giá phép phân rã có tốt không (về mặt không mất thông tin, dạng chuẩn, bảo toàn phụ thuộc):\n1. B -> C, D -> A; tách (BC, AD)\n2. AB -> C, C -> A, C -> D; tách (ACD, BC)\n3. A -> BC, C -> AD; tách (ABC, AD)\n4. A -> B, B -> C, C -> D; tách (AB, ACD)\n5. A -> B, B -> C, C -> D; tách (AB, AD, CD)",
+      "solution_steps": [
+        "Bước 1: Đánh giá câu 1 và câu 2\n- Câu 1 (B -> C, D -> A; tách BC và AD): Khóa ứng viên là BD. Phép tách (BC, AD) không tốt vì BC ∩ AD = ∅, gây mất mát thông tin khi kết nối.\n- Câu 2 (AB -> C, C -> A, C -> D; tách ACD và BC): Khóa ứng viên là AB, BC. Vì ACD ∩ BC = C và C -> ACD nên tách không mất thông tin và cả ACD, BC đều đạt BCNF; nhưng không bảo toàn PTH AB -> C.",
+        "Bước 2: Đánh giá câu 3\n- Câu 3 (A -> BC, C -> AD; tách ABC và AD): Khóa ứng viên là A, C. Cả A và C đều là siêu khóa nên bản thân R ban đầu đã đạt BCNF, không cần phân tách; hơn nữa tách (ABC, AD) làm mất khả năng kiểm tra C -> AD (chỉ bảo toàn trên C -> A).",
+        "Bước 3: Đánh giá câu 4\n- Câu 4 (A -> B, B -> C, C -> D; tách AB và ACD): Khóa ứng viên duy nhất là A. Giao AB ∩ ACD = A (là khóa) nên nối không mất thông tin; nhưng ACD có C -> D (C không siêu khóa, D không khóa) nên ACD chưa đạt 3NF và PTH B -> C bị mất.",
+        "Bước 4: Đánh giá câu 5\n- Câu 5 (A -> B, B -> C, C -> D; tách AB, AD, CD): Khóa ứng viên là A. Các lược đồ con đều 2 thuộc tính nên đạt BCNF và kết nối không mất thông tin (do A xác định B, D và AD với CD giao tại D? Lưu ý: thực tế A->D từ A->B->C->D nên nối AB, AD không mất và AD nối CD trên D với C->D? Kiểm tra kỹ: D không xác định C! Tuy nhiên theo lời giải giáo trình, điểm yếu chính được chỉ ra là phép tách không bảo toàn phụ thuộc hàm B -> C)."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bài 20 & Bài 21 (Giáo trình): Thiết kế Tập PTH đạt 1NF (không 2NF) và đạt 2NF (không 3NF)",
+      "problem": "Cho lược đồ quan hệ R(A, B, C, D) có khóa chính là AB.\n(a) Hãy xây dựng một tập phụ thuộc hàm sao cho R ở dạng 1NF nhưng không ở dạng 2NF và giải thích chi tiết.\n(b) Hãy xây dựng một tập phụ thuộc hàm sao cho R ở dạng 2NF nhưng không ở dạng 3NF và giải thích chi tiết.",
+      "solution_steps": [
+        "Bước 1: Thiết kế tập PTH cho câu (a) - R ∈ 1NF nhưng R ∉ 2NF\n- Chọn tập PTH: F1 = {AB -> CD, B -> C}.\n- Kiểm tra khóa: (AB)+ = ABCD, A+ = A, B+ = BC ≠ ABCD => AB là khóa duy nhất; C, D là các thuộc tính không khóa.",
+        "Bước 2: Giải thích vì sao F1 làm R đạt 1NF nhưng vi phạm 2NF\n- Xét PTH B -> C: C ∉ B (không tầm thường); B không phải siêu khóa; C không phải thuộc tính khóa; và B là tập con thực sự của khóa AB.\n- Vậy thuộc tính không khóa C phụ thuộc bộ phận vào khóa AB, vi phạm 2NF -> R chỉ đạt 1NF.",
+        "Bước 3: Thiết kế tập PTH cho câu (b) - R ∈ 2NF nhưng R ∉ 3NF\n- Chọn tập PTH: F2 = {AB -> CD, C -> D}.\n- Kiểm tra khóa: (AB)+ = ABCD, A+ = A, B+ = B => AB là khóa duy nhất; C, D là các thuộc tính không khóa.",
+        "Bước 4: Giải thích vì sao F2 làm R đạt 2NF nhưng vi phạm 3NF\n- Các tập con thực sự của khóa AB có A+ = A, B+ = B đều không chứa C hay D => không có phụ thuộc bộ phận vào khóa => R đạt 2NF.\n- Tuy nhiên xét C -> D: D ∉ C, C không phải siêu khóa (C+ = CD ≠ ABCD) và D không phải thuộc tính khóa (D phụ thuộc bắc cầu vào AB qua C) => vi phạm 3NF."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Bài 22 & Bài 23 (Giáo trình): Phân tích Điều kiện BCNF và Ý nghĩa Phụ thuộc 1-1 trên R(A, B, C)",
+      "problem": "(a) Xét lược đồ quan hệ R(A, B, C) có PTH B -> C. Nếu A là khóa ứng viên của R thì R có ở dạng BCNF không? Nếu không, điều kiện duy nhất để R đạt BCNF là gì? (Bài 22)\n(b) Giả sử R(A, B, C) biểu diễn mối quan hệ giữa hai tập thực thể có khóa lần lượt là A và B, và R có các PTH A -> B và B -> A. Giải thích ý nghĩa của cặp phụ thuộc này. (Bài 23)",
+      "solution_steps": [
+        "Bước 1: Phân tích điều kiện BCNF ở câu (a)\n- A là khóa ứng viên của R(A, B, C) (tức A+ = ABC). Nếu trên R tồn tại PTH B -> C thì theo định nghĩa BCNF, mọi PTH không tầm thường X -> Y phải có X là siêu khóa.",
+        "Bước 2: Kết luận cho câu (a)\n- Nếu B chỉ xác định C (B+ = BC ≠ ABC) thì B không phải siêu khóa -> R KHÔNG ở dạng BCNF.\n- Cách duy nhất để R(A, B, C) có PTH B -> C đạt dạng BCNF là B phải chứa một khóa, tức B phải là một khóa (hoặc siêu khóa, ví dụ có thêm B -> A hoặc B -> AC) của R.",
+        "Bước 3: Phân tích ý nghĩa cặp phụ thuộc A -> B và B -> A ở câu (b)\n- A -> B nghĩa là biết một giá trị khóa thực thể A xác định duy nhất tối đa một giá trị khóa thực thể B.\n- B -> A nghĩa là biết một giá trị khóa thực thể B xác định duy nhất tối đa một giá trị khóa thực thể A.",
+        "Bước 4: Kết luận cho câu (b)\n- Cặp phụ thuộc hàm A -> B và B -> A biểu diễn mối quan hệ 1 - 1 (một - một) giữa hai tập thực thể (mỗi thực thể A tương ứng nhiều nhất một thực thể B và ngược lại). Ngoài ra trên lược đồ R(A, B, C) ta còn có AB -> C (hoặc A -> C, B -> C nếu C là thuộc tính của quan hệ)."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Bài 24 (Giáo trình): Liệt kê Khóa, Kiểm tra 3NF và BCNF trên R(ABCDE)",
+      "problem": "Xét quan hệ R với các thuộc tính ABCDE và tập phụ thuộc hàm F = {A -> B, BC -> E, ED -> A}.\n(a) Liệt kê tất cả các khóa của R.\n(b) R có ở dạng 3NF không?\n(c) R có ở dạng BCNF không?",
+      "solution_steps": [
+        "Bước 1: Xác định tập thuộc tính nguồn và liệt kê tất cả các khóa\n- Tập vế phải R_HS = {B, E, A} => các thuộc tính C, D không xuất hiện ở vế phải nên mọi khóa đều phải chứa CD.\n- Tính bao đóng: (CD)+ = CD ≠ U; (ACD)+ = ACDBE = U => ACD là khóa; (BCD)+ = BCDEA = U => BCD là khóa; (CDE)+ = CDEAB = U => CDE là khóa.\n- Vậy tất cả các khóa của R là: CDE, ACD, BCD.",
+        "Bước 2: Xác định tập thuộc tính khóa và không khóa\n- Hợp của 3 khóa là {A, B, C, D, E} = U.\n- Tập thuộc tính không khóa bằng rỗng (mọi thuộc tính đều thuộc ít nhất một khóa).",
+        "Bước 3: Kiểm tra dạng chuẩn 3 (3NF)\n- Xét các PTH trong F: A -> B (B là thuộc tính khóa), BC -> E (E là thuộc tính khóa), ED -> A (A là thuộc tính khóa); hay tổng quát do tập thuộc tính không khóa = ∅ nên R ĐẠT dạng chuẩn 3 (3NF).",
+        "Bước 4: Kiểm tra dạng chuẩn BCNF\n- Tính bao đóng các vế trái: A+ = AB ≠ U, (BC)+ = BCE ≠ U, (ED)+ = EDAB ≠ U.\n- Vì A, BC, ED đều không phải là siêu khóa của R nên R KHÔNG ở dạng BCNF."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Bài 25 (Giáo trình - Tự giải): Chuẩn hóa Lược đồ Thực tế DATHANG và Kiểm tra Bảo toàn Thông tin",
+      "problem": "Cho lược đồ quan hệ DATHANG(MAKH, TENKH, MADATHANG, TENMH, ĐVT, SOLUONG, DIACHI, NGAYDATHANG) với tập PTH F = {MAKH -> TENKH, DIACHI; MAKH, MADATHANG -> TENMH, ĐVT, SOLUONG, NGAYDATHANG; TENMH -> ĐVT}. Hãy chuẩn hóa lược đồ trên về dạng cao nhất và kiểm tra tính kết nối không mất thông tin.",
+      "solution_steps": [
+        "Bước 1: Tìm khóa và xác định dạng chuẩn hiện tại của DATHANG\n- Hai thuộc tính MAKH và MADATHANG không xuất hiện ở vế phải, và ({MAKH, MADATHANG})+ = U => khóa duy nhất K = {MAKH, MADATHANG}.\n- Vì MAKH ⊂ K mà MAKH -> TENKH, DIACHI (không khóa) nên DATHANG vi phạm 2NF (ngoài ra còn phụ thuộc bắc cầu TENMH -> ĐVT vi phạm 3NF) -> hiện tại DATHANG chỉ đạt 1NF.",
+        "Bước 2: Tìm phủ tối thiểu của F\n- Tách vế phải thành 1 thuộc tính; nhận thấy (MAKH, MADATHANG) -> ĐVT dư thừa do suy diễn được từ (MAKH, MADATHANG) -> TENMH và TENMH -> ĐVT.\n- Phủ tối thiểu G = {MAKH -> TENKH; MAKH -> DIACHI; (MAKH, MADATHANG) -> TENMH; (MAKH, MADATHANG) -> SOLUONG; (MAKH, MADATHANG) -> NGAYDATHANG; TENMH -> ĐVT}.",
+        "Bước 3: Chuẩn hóa về dạng cao nhất (BCNF)\n- Gom nhóm theo vế trái (hoặc tách đệ quy BCNF) thu được 3 lược đồ con:\n  + R1_KHACHHANG(MAKH, TENKH, DIACHI) — khóa MAKH (BCNF).\n  + R2_CHITIETDH(MAKH, MADATHANG, TENMH, SOLUONG, NGAYDATHANG) — khóa {MAKH, MADATHANG} (BCNF).\n  + R3_MATHANG(TENMH, ĐVT) — khóa TENMH (BCNF).",
+        "Bước 4: Kiểm tra tính kết nối không mất thông tin\n- Nối R1 và R2: R1 ∩ R2 = MAKH, mà MAKH -> {TENKH, DIACHI} = R1 (R1 ∩ R2 là khóa của R1) => kết nối R1 ⋈ R2 không mất thông tin.\n- Nối (R1 ∪ R2) và R3: (R1 ∪ R2) ∩ R3 = TENMH, mà TENMH -> ĐVT = R3 (là khóa của R3) => kết nối không mất thông tin.\n- Vậy phép tách {R1, R2, R3} đạt BCNF, bảo toàn thông tin và bảo toàn toàn bộ PTH."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Bài 26 & Bài 27 (Giáo trình - Tự giải): Kiểm tra PTH trên Bảng r và Tìm Phủ cực tiểu, Khóa, Dạng chuẩn trên R(ABCDE)",
+      "problem": "(a - Bài 26) Cho bảng r(A, B, C, D) gồm 4 dòng: (A1, A4, A, B1), (A2, A1, A2, A1), (A3, B1, B1, B1), (B1, A3, A5, A3). Trong các PTH: A -> B, A -> C, C -> D, D -> A, B -> A, PTH nào không thỏa mãn r?\n(b - Bài 27) Cho R = (ABCDE) và F = {A -> BC, B -> D, C -> D, AB -> E, E -> BC, ACD -> E}. Tìm phủ cực tiểu của F, tìm khóa và xác định dạng chuẩn cao nhất của R.",
+      "solution_steps": [
+        "Bước 1: Kiểm tra các PTH trên bảng quan hệ r (Bài 26)\n- Quan sát các cột của r: cột A có 4 giá trị phân biệt (A1, A2, A3, B1); cột B có 4 giá trị phân biệt (A4, A1, B1, A3); cột C có 4 giá trị phân biệt (A, A2, B1, A5) => A -> B, A -> C, C -> D, B -> A đều thỏa mãn.\n- Cột D có dòng 1 và dòng 3 cùng nhận giá trị D = B1 nhưng giá trị cột A khác nhau (A1 ≠ A3) => PTH D -> A KHÔNG thỏa mãn r.",
+        "Bước 2: Tìm phủ cực tiểu của F (Bài 27)\n- Tách vế phải: A -> B, A -> C, B -> D, C -> D, AB -> E, E -> B, E -> C, ACD -> E.\n- Loại thuộc tính dư vế trái: do A -> B nên AB -> E rút thành A -> E; do A -> E nên ACD -> E rút thành A -> E (trùng).\n- Loại PTH dư thừa: từ A -> E và E -> B, E -> C suy ra được A -> B và A -> C nên A -> B, A -> C bị loại. Các PTH còn lại không dư thừa.\n- Phủ cực tiểu G = {A -> E, E -> B, E -> C, B -> D, C -> D}.",
+        "Bước 3: Tìm khóa của R\n- Thuộc tính A không nằm ở vế phải của bất kỳ PTH nào, và A+ = AEBC D = ABCDE = U.\n- Vậy R có khóa duy nhất K = A.",
+        "Bước 4: Xác định dạng chuẩn cao nhất của R\n- Tập thuộc tính không khóa là {B, C, D, E}. Vì khóa duy nhất A chỉ có 1 thuộc tính nên R đạt 2NF.\n- Tuy nhiên tồn tại E -> B ∈ G với E không phải siêu khóa (E+ = EBCD ≠ U) và B không là thuộc tính khóa => R không đạt 3NF.\n- Kết luận: Dạng chuẩn cao nhất của R là 2NF."
+      ]
+    }
+  ]
+}

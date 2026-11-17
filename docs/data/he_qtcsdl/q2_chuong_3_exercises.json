@@ -1,0 +1,1166 @@
+{
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Theo Phần mở đầu Chương 3, một trong những vấn đề được quan tâm hàng đầu khi thiết kế cơ sở dữ liệu là gì?",
+      "options": {
+        "A": "Hạn chế dư thừa và dị thường dữ liệu",
+        "B": "Tăng tối đa số lượng thuộc tính trong một bảng duy nhất",
+        "C": "Loại bỏ hoàn toàn mọi phụ thuộc hàm trên lược đồ",
+        "D": "Lưu trữ mọi bảng dưới dạng văn bản thuần không có khóa"
+      },
+      "correct_answer": "A",
+      "explanation": "Phần Mở đầu Chương 3 nêu rõ: một trong những vấn đề được quan tâm hàng đầu khi thiết kế CSDL là hạn chế dư thừa và dị thường dữ liệu trên lược đồ quan hệ R.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Trong Mục 3.1, lược đồ quan hệ mẫu `SINHVIEN` được sử dụng để minh họa các vấn đề lưu trữ gồm những thuộc tính nào?",
+      "options": {
+        "A": "MASV, HOTEN, DIACHI, MONHOC, DIEM",
+        "B": "HOTEN, NGAYSINH, LOP, MONHOC, DIEM",
+        "C": "MASV, NGAYSINH, KHOA, MONHOC, TINCHI",
+        "D": "HOTEN, GIOITINH, LOP, HOCKY, DIEM"
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình Mục 3.1 xét lược đồ quan hệ `SINHVIEN(HOTEN, NGAYSINH, LOP, MONHOC, DIEM)` để biểu diễn thông tin về các sinh viên và điểm thi các môn học.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Trên lược đồ `SINHVIEN(HOTEN, NGAYSINH, LOP, MONHOC, DIEM)`, hiện tượng phải lưu lặp đi lặp lại `HOTEN`, `NGAYSINH`, `LOP` của một sinh viên khi sinh viên đó thi nhiều môn học gọi là vấn đề gì?",
+      "options": {
+        "A": "Dị thường khi xóa dữ liệu",
+        "B": "Mâu thuẫn khi bổ sung dữ liệu",
+        "C": "Dư thừa về dữ liệu",
+        "D": "Mất thông tin khi kết nối"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 3.1, việc thông tin họ tên, ngày sinh và lớp của mỗi sinh viên phải lưu trữ lặp đi lặp lại nhiều lần ứng với nhiều môn học là vấn đề dư thừa về dữ liệu.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Trên lược đồ `SINHVIEN(HOTEN, NGAYSINH, LOP, MONHOC, DIEM)`, việc không thể lưu thông tin của một sinh viên mới nhập học khi sinh viên đó chưa có điểm thi ít nhất một môn học thuộc loại lỗi nào?",
+      "options": {
+        "A": "Dư thừa dữ liệu",
+        "B": "Dị thường khi xóa dữ liệu",
+        "C": "Mâu thuẫn khi cập nhật lớp",
+        "D": "Dị thường khi bổ sung dữ liệu"
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình Mục 3.1 gọi hiện tượng không thể bổ sung bộ dữ liệu lưu thông tin một sinh viên nếu sinh viên đó chưa có điểm thi ít nhất một môn học là dị thường khi bổ sung dữ liệu.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Trên lược đồ `SINHVIEN(HOTEN, NGAYSINH, LOP, MONHOC, DIEM)`, khi xóa bộ điểm thi duy nhất của một sinh viên thì toàn bộ thông tin về ngày sinh và lớp của sinh viên đó cũng bị xóa theo. Hiện tượng này gọi là gì?",
+      "options": {
+        "A": "Dị thường khi xóa dữ liệu",
+        "B": "Dị thường khi bổ sung dữ liệu",
+        "C": "Dư thừa dữ liệu",
+        "D": "Mất phụ thuộc hàm"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 3.1, mỗi khi xóa một bộ điểm thi của một sinh viên dẫn đến xóa luôn cả thông tin cá nhân của sinh viên đó khỏi CSDL được gọi là dị thường khi xóa dữ liệu.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Trong Mục 3.1, để tránh các dư thừa và dị thường trên `SINHVIEN(HOTEN, NGAYSINH, LOP, MONHOC, DIEM)`, giáo trình đã tách thành hai lược đồ con nào?",
+      "options": {
+        "A": "`SVIEN(HOTEN, LOP)` và `DIEMTHI(NGAYSINH, MONHOC, DIEM)`",
+        "B": "`SVIEN(HOTEN, NGAYSINH, LOP)` và `DIEMTHI(HOTEN, MONHOC, DIEM)`",
+        "C": "`SVIEN(NGAYSINH, LOP)` và `DIEMTHI(MONHOC, DIEM)`",
+        "D": "`SVIEN(HOTEN, MONHOC)` và `DIEMTHI(NGAYSINH, LOP, DIEM)`"
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình Mục 3.1 tách lược đồ `SINHVIEN` thành hai lược đồ con là `SVIEN(HOTEN, NGAYSINH, LOP)` và `DIEMTHI(HOTEN, MONHOC, DIEM)`.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Sau khi tách `SINHVIEN` thành `SVIEN(HOTEN, NGAYSINH, LOP)` và `DIEMTHI(HOTEN, MONHOC, DIEM)`, để biết đồng thời thông tin cá nhân và điểm thi của sinh viên ta phải thực hiện phép toán nào?",
+      "options": {
+        "A": "Phép hợp (Union)",
+        "B": "Phép hiệu (Difference)",
+        "C": "Phép nối tự nhiên (Natural Join)",
+        "D": "Phép chia (Division)"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 3.1 nêu rõ: sau khi tách thành `SVIEN` và `DIEMTHI`, nếu muốn biết thông tin về điểm thi các môn học cùng thông tin sinh viên thì phải thực hiện phép nối tự nhiên đối với hai lược đồ quan hệ trên.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Cho lược đồ quan hệ $R(U, F)$ và các lược đồ con $R_1(U_1, F_1), \\dots, R_n(U_n, F_n)$. Điều kiện để $\\rho = (R_1, R_2, \\dots, R_n)$ được gọi là một phép tách của $R$ theo Mục 3.2 là gì?",
+      "options": {
+        "A": "$\\bigcap_{i=1}^n U_i = \\emptyset$",
+        "B": "$\\bigcup_{i=1}^n U_i \\subsetneq U$",
+        "C": "$\\bigcup_{i=1}^n F_i = \\emptyset$",
+        "D": "$\\bigcup_{i=1}^n U_i = U$"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Định nghĩa Mục 3.2, $\\rho$ được gọi là một phép tách $R$ thành các lược đồ con $R_1, R_2, \\dots, R_n$ nếu $\\bigcup_{i=1}^n U_i = U$ (không được làm mất thuộc tính nào của $U$).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Cho lược đồ $R(A, B, C)$. Tập hợp nào sau đây KHÔNG phải là một phép tách của $R$?",
+      "options": {
+        "A": "$\\rho = (A, AC)$",
+        "B": "$\\rho = (AB, BC)$",
+        "C": "$\\rho = (AB, AC)$",
+        "D": "$\\rho = (A, B, C)$"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Ví dụ 2 Mục 3.2, $\\rho_2 = (A, AC)$ có $A \\cup AC = AC \\neq ABC$ (thiếu thuộc tính $B$), nên không phải là phép tách của $R(A, B, C)$.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Cho lược đồ $R(A, B, C, D)$. Tập hợp nào sau đây LÀ một phép tách hợp lệ của $R$?",
+      "options": {
+        "A": "$\\rho = (AB, BC, CD)$ chỉ thiếu $A$",
+        "B": "$\\rho = (AB, BC, ACD)$",
+        "C": "$\\rho = (AB, BD, AD)$",
+        "D": "$\\rho = (AC, CD, AD)$"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Ví dụ 1 Mục 3.2, $\\rho = (AB, BC, ACD)$ có $AB \\cup BC \\cup ACD = ABCD = U$ nên là một phép tách của $R(A,B,C,D)$. Các phương án C và D thiếu $C$ hoặc $B$.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Theo Mục 3.2, mục đích chính của việc sử dụng phép tách trong thiết kế CSDL quan hệ là gì?",
+      "options": {
+        "A": "Làm tăng số lượng bản ghi trùng lặp để dự phòng",
+        "B": "Hợp nhất nhiều bảng độc lập thành một bảng lớn",
+        "C": "Loại bỏ dư thừa và những dị thường xuất hiện trong CSDL",
+        "D": "Thay thế các phụ thuộc hàm bằng dữ liệu ngẫu nhiên"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 3.2 khẳng định: mục đích của việc sử dụng phép tách trong thiết kế CSDL quan hệ là nhằm loại bỏ dư thừa và những dị thường xuất hiện trong CSDL.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "Theo Định nghĩa 3.3.1, phép tách $\\rho = (R_1, R_2, \\dots, R_m)$ trên $R(U, F)$ được gọi là phép tách bảo toàn thông tin nếu với mọi quan hệ $r$ trên $R(U, F)$ thì điều nào sau đây đúng?",
+      "options": {
+        "A": "$r = \\Pi_{R_1}(r) \\cup \\Pi_{R_2}(r) \\cup \\dots \\cup \\Pi_{R_m}(r)$",
+        "B": "$r \\subsetneq \\Pi_{R_1}(r) * \\Pi_{R_2}(r) * \\dots * \\Pi_{R_m}(r)$",
+        "C": "$r = \\Pi_{R_1}(r) \\cap \\Pi_{R_2}(r) \\cap \\dots \\cap \\Pi_{R_m}(r)$",
+        "D": "$r = \\Pi_{R_1}(r) * \\Pi_{R_2}(r) * \\dots * \\Pi_{R_m}(r)$"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 3.3.1, $\\rho$ gọi là phép tách bảo toàn thông tin nếu với mọi quan hệ $r$ trên $R(U, F)$ thì $r = \\Pi_{R_1}(r) * \\Pi_{R_2}(r) * \\dots * \\Pi_{R_m}(r)$ (tách ra và kết nối tự nhiên lại thu được đúng quan hệ ban đầu).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "Theo Định lý Decobel (Delobel) ở Mục 3.3.2, phép tách đôi $\\rho = (R_1, R_2)$ của $R(U, F)$ là bảo toàn thông tin khi và chỉ khi nào?",
+      "options": {
+        "A": "$(R_1 \\cap R_2) \\to (R_1 \\setminus R_2) \\in F^+$ hoặc $(R_1 \\cap R_2) \\to (R_2 \\setminus R_1) \\in F^+$",
+        "B": "$(R_1 \\setminus R_2) \\to (R_2 \\setminus R_1) \\in F^+$",
+        "C": "$R_1 \\cap R_2 = \\emptyset$",
+        "D": "$R_1 \\cup R_2 \\subsetneq U$"
+      },
+      "correct_answer": "A",
+      "explanation": "Định lý Decobel (Mục 3.3.2) phát biểu: phép tách đôi $\\rho = (R_1, R_2)$ bảo toàn thông tin khi và chỉ khi $(R_1 \\cap R_2) \\to (R_1 \\setminus R_2)$ hoặc $(R_1 \\cap R_2) \\to (R_2 \\setminus R_1)$ (thuộc $F^+$).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Cho cách phát biểu khác của Định lý Decobel với $U = (X, Y, Z)$ và phép tách thành hai lược đồ $(XY, XZ)$. Phép tách này bảo toàn thông tin khi và chỉ khi nào?",
+      "options": {
+        "A": "$Y \\to Z \\in F^+$ và $Z \\to Y \\in F^+$",
+        "B": "$X \\to Y \\in F^+$ hoặc $X \\to Z \\in F^+$",
+        "C": "$X = \\emptyset$",
+        "D": "$Y \\to X \\in F^+$"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 3.3.2, khi $U = (X, Y, Z)$, phép tách thành $(XY, XZ)$ bảo toàn thông tin khi và chỉ khi $X \\to Y$ hoặc $X \\to Z$ (thuộc $F^+$).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Trong Bước 1 của Thuật toán bảng (Mục 3.4) cho lược đồ $R$ có $n$ thuộc tính $A_1, \\dots, A_n$ và phép tách $\\rho = (R_1, \\dots, R_m)$ gồm $m$ lược đồ con, kích thước của bảng là bao nhiêu?",
+      "options": {
+        "A": "$n$ hàng và $m$ cột",
+        "B": "$m$ hàng và $m$ cột",
+        "C": "$m$ hàng và $n$ cột",
+        "D": "$n$ hàng và $n$ cột"
+      },
+      "correct_answer": "C",
+      "explanation": "Bước 1 của Thuật toán Mục 3.4 thiết lập bảng có $n$ cột (ứng với $n$ thuộc tính $A_1, \\dots, A_n$) và $m$ hàng (ứng với $m$ lược đồ con $R_1, \\dots, R_m$).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "Trong Bước 1 của Thuật toán kiểm tra bảo toàn thông tin (Mục 3.4), phần tử tại hàng $i$, cột $j$ của bảng được gán giá trị nào?",
+      "options": {
+        "A": "Luôn gán $a_j$ cho mọi ô trên hàng $i$",
+        "B": "Gán $b_{ij}$ nếu $A_j \\in R_i$, và $a_j$ nếu $A_j \\notin R_i$",
+        "C": "Gán $a_i$ nếu $A_j \\in R_i$, và $0$ nếu $A_j \\notin R_i$",
+        "D": "Gán $a_j$ nếu thuộc tính $A_j \\in R_i$, và $b_{ij}$ nếu ngược lại"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Bước 1 Mục 3.4: $(i, j) = a_j$ nếu thuộc tính $A_j \\in R_i$, và $(i, j) = b_{ij}$ nếu ngược lại ($A_j \\notin R_i$).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "question": "Trong Bước 2 của Thuật toán bảng (Mục 3.4), khi phát hiện 2 hàng giống nhau trên $X$ và khác nhau trên $Y$ khi xét PTH $X \\to Y$, quy tắc ưu tiên làm bằng trên $Y$ là gì?",
+      "options": {
+        "A": "Nếu một trong hai giá trị là $a_j$ thì ưu tiên làm bằng là $a_j$, ngược lại làm bằng một trong các ký hiệu $b$",
+        "B": "Luôn ưu tiên làm bằng thành $b_{ij}$ có chỉ số lớn nhất",
+        "C": "Xóa bỏ một trong hai hàng khỏi bảng",
+        "D": "Đổi giá trị trên cả cột thuộc $X$ thành $a_j$"
+      },
+      "correct_answer": "A",
+      "explanation": "Bước 2 Mục 3.4 quy định: khi làm bằng giá trị trên $Y$, nếu một trong hai giá trị là $a_j$ thì ưu tiên làm bằng là $a_j$, ngược lại làm bằng một trong các ký hiệu $b$.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Ở Bước 3 của Thuật toán bảng (Mục 3.4), điều kiện để kết luận phép tách $\\rho$ bảo toàn thông tin là gì?",
+      "options": {
+        "A": "Tất cả các hàng trong bảng cuối cùng đều phải giống hệt nhau",
+        "B": "Trong bảng cuối cùng có chứa ít nhất một hàng gồm toàn các ký hiệu $a$ $(a_1, a_2, \\dots, a_n)$",
+        "C": "Mọi cột trong bảng cuối cùng đều chỉ chứa các ký hiệu $b_{ij}$",
+        "D": "Số lần biến đổi bảng ở Bước 2 phải lớn hơn số lược đồ con $m$"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Bước 3 Mục 3.4, nếu trong bảng cuối cùng có chứa hàng gồm toàn các ký hiệu $a$ $(a_1, a_2, \\dots, a_n)$ thì kết luận $\\rho$ bảo toàn thông tin; ngược lại là mất thông tin.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Theo Định nghĩa 1 Mục 3.5, hình chiếu của tập phụ thuộc hàm $F$ trên tập thuộc tính $U_i \\subseteq U$, ký hiệu $\\Pi_{U_i}(F)$, được xác định như thế nào?",
+      "options": {
+        "A": "$\\{X \\to A \\in F \\mid X \\subseteq U_i\\}$",
+        "B": "$\\{X \\to A \\in F^+ \\mid X \\cap U_i \\neq \\emptyset\\}$",
+        "C": "$\\{X \\to A \\in F^+ \\mid X, A \\subseteq U_i \\text{ và } A \\notin X\\}$",
+        "D": "$\\{X \\to A \\in F \\mid A \\notin U_i\\}$"
+      },
+      "correct_answer": "C",
+      "explanation": "Định nghĩa 1 Mục 3.5 nêu: $\\Pi_{U_i}(F) = \\{X \\to A \\in F^+ \\mid X, A \\subseteq U_i \\text{ và } A \\notin X\\}$.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Theo Định nghĩa 2 Mục 3.5, phép tách $\\rho = (R_1, R_2, \\dots, R_k)$ với $R_i = \\langle U_i, F_i \\rangle$ ($F_i = \\Pi_{U_i}(F)$) được gọi là phép tách bảo toàn phụ thuộc hàm khi nào?",
+      "options": {
+        "A": "$\\bigcap_{i=1}^k F_i = F$",
+        "B": "$F_1 = F_2 = \\dots = F_k$",
+        "C": "$\\bigcup_{i=1}^k F_i = \\emptyset$",
+        "D": "$\\left(\\bigcup_{i=1}^k F_i\\right)^+ = F^+$"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Định nghĩa 2 Mục 3.5, $\\rho$ là phép tách bảo toàn phụ thuộc hàm nếu $\\bigcup_{i=1}^k F_i$ tương đương với $F$, tức là $\\left(\\bigcup_{i=1}^k F_i\\right)^+ = F^+$.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "Xét Ví dụ Mục 3.5: Cho $U = \\{A, B, C\\}$, $F = \\{A \\to B, AB \\to C\\}$. Hình chiếu $\\Pi_{AC}(F)$ là tập nào sau đây?",
+      "options": {
+        "A": "$\\{A \\to C\\}$",
+        "B": "$\\emptyset$",
+        "C": "$\\{C \\to A\\}$",
+        "D": "$\\{A \\to B, AB \\to C\\}$"
+      },
+      "correct_answer": "A",
+      "explanation": "Trong Ví dụ Mục 3.5, từ $A \\to B$ suy ra $A \\to AB$ (tăng trưởng), kết hợp $AB \\to C$ suy ra $A \\to C \\in F^+$. Do $A, C \\subseteq \\{A, C\\}$ và $C \\notin A$ nên $\\Pi_{AC}(F) = \\{A \\to C\\}$.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Trong Ví dụ 2 Mục 3.5, cho $U = \\{A, B, C, D\\}$, $F = \\{A \\to B, C \\to D\\}$ và phép tách $\\rho = (AB, CD)$. Kết luận nào đúng về $\\rho$?",
+      "options": {
+        "A": "Vừa bảo toàn thông tin vừa bảo toàn phụ thuộc hàm",
+        "B": "Bảo toàn phụ thuộc hàm nhưng mất thông tin",
+        "C": "Bảo toàn thông tin nhưng mất phụ thuộc hàm",
+        "D": "Vừa mất thông tin vừa mất phụ thuộc hàm"
+      },
+      "correct_answer": "B",
+      "explanation": "Vì $\\Pi_{AB}(F) = \\{A \\to B\\}$ và $\\Pi_{CD}(F) = \\{C \\to D\\}$ nên hợp lại bằng $F$ (bảo toàn PTH). Tuy nhiên bảng Chase 2 hàng `(a1, a2, b13, b14)` và `(b21, b22, a3, a4)` không biến đổi được nên mất thông tin.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "Phát biểu nào sau đây đúng về mối quan hệ giữa tính bảo toàn thông tin và tính bảo toàn phụ thuộc hàm của một phép tách?",
+      "options": {
+        "A": "Mọi phép tách bảo toàn phụ thuộc hàm đều tự động bảo toàn thông tin",
+        "B": "Mọi phép tách bảo toàn thông tin đều tự động bảo toàn phụ thuộc hàm",
+        "C": "Hai tính chất này độc lập: một phép tách có thể bảo toàn phụ thuộc hàm nhưng vẫn mất thông tin (hoặc ngược lại)",
+        "D": "Không tồn tại phép tách nào thỏa mãn đồng thời cả hai tính chất"
+      },
+      "correct_answer": "C",
+      "explanation": "Ví dụ $\\rho = (AB, CD)$ với $F = \\{A \\to B, C \\to D\\}$ bảo toàn PTH nhưng mất thông tin, còn phép tách BCNF như $\\rho = (AC, BC)$ với $F = \\{AB \\to C, C \\to B\\}$ bảo toàn thông tin nhưng mất PTH. Vậy hai tính chất độc lập nhau.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "question": "Trong Mục 3.1, hiện tượng khi nhập thêm điểm một môn học mới cho một sinh viên nhưng ghi lớp khác với lớp đã lưu trước đó của sinh viên đó gây mất nhất quán dữ liệu được gọi là gì?",
+      "options": {
+        "A": "Dị thường khi xóa dữ liệu",
+        "B": "Dị thường khi tách bảng",
+        "C": "Mất phụ thuộc đa trị",
+        "D": "Mâu thuẫn khi bổ sung dữ liệu"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 3.1 liệt kê vấn đề thứ hai là 'Mâu thuẫn khi bổ sung dữ liệu': một sinh viên bị ghi thuộc hai lớp khác nhau dẫn đến thiếu nhất quán dữ liệu.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "Khi kiểm tra một phép tách $\\rho = (R_1, R_2)$ gồm đúng 2 lược đồ con trên $R(U, F)$ xem có bảo toàn thông tin hay không, ta có thể dùng trực tiếp định lý nào nhanh nhất?",
+      "options": {
+        "A": "Định lý Decobel (Delobel)",
+        "B": "Định lý phân rã đa trị 4NF",
+        "C": "Thuật toán tối ưu hóa cây đại số",
+        "D": "Tiên đề tách và hợp Armstrong"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 3.3.2 trình bày Định lý Decobel (Delobel) là điều kiện cần và đủ chuyên dùng để kiểm tra nhanh phép tách đôi $\\rho = (R_1, R_2)$ có bảo toàn thông tin hay không.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "Cho $R(A, B, C, D)$ và $F = \\{A \\to B, B \\to C, C \\to D\\}$. Theo Định lý Decobel, phép tách đôi $\\rho = (AB, BCD)$ có bảo toàn thông tin không?",
+      "options": {
+        "A": "Có, vì giao của hai lược đồ là $B$ và $B^+_F = BCD$, suy ra $B \\to CD$ ($R_1 \\cap R_2 \\to R_2 \\setminus R_1$)",
+        "B": "Không, vì $B$ không xác định được $A$",
+        "C": "Không, vì $AB \\cap BCD = B$ không phải khóa của $R$",
+        "D": "Có, vì $A \\to B$ nằm trong $AB$"
+      },
+      "correct_answer": "A",
+      "explanation": "Ta có $R_1 = AB, R_2 = BCD$, giao $R_1 \\cap R_2 = B$. Vì $B^+_F = BCD \\supseteq R_2$, nên $B \\to CD = R_2 \\setminus R_1 \\in F^+$. Theo Định lý Decobel, phép tách bảo toàn thông tin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "Cho $R(A, B, C, D)$ và $F = \\{A \\to B, C \\to D\\}$. Áp dụng Định lý Decobel cho phép tách $\\rho = (ABC, ABD)$, kết luận nào đúng?",
+      "options": {
+        "A": "Bảo toàn thông tin vì $ABC \\cup ABD = ABCD$",
+        "B": "Mất thông tin vì $(AB)^+_F = AB$ không chứa $C$ và cũng không chứa $D$",
+        "C": "Bảo toàn thông tin vì $A \\to B \\in F$",
+        "D": "Mất thông tin vì $ABC \\cap ABD = \\emptyset$"
+      },
+      "correct_answer": "B",
+      "explanation": "Giao $R_1 \\cap R_2 = AB$; $R_1 \\setminus R_2 = C$; $R_2 \\setminus R_1 = D$. Ta có $(AB)^+_F = AB$, không chứa $C$ và không chứa $D$, nên $AB \\not\\to C$ và $AB \\not\\to D$. Theo Định lý Decobel, phép tách mất thông tin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Cho $R(A, B, C, D, E)$ và $F = \\{AB \\to C, C \\to DE\\}$. Xét hai phép tách $\\rho_1 = (ABC, CDE)$ và $\\rho_2 = (AB, BCDE)$. Kết luận nào chính xác?",
+      "options": {
+        "A": "Cả $\\rho_1$ và $\\rho_2$ đều mất thông tin",
+        "B": "$\\rho_1$ mất thông tin, $\\rho_2$ bảo toàn thông tin",
+        "C": "$\\rho_1$ bảo toàn thông tin, $\\rho_2$ mất thông tin",
+        "D": "Cả $\\rho_1$ và $\\rho_2$ đều bảo toàn thông tin"
+      },
+      "correct_answer": "C",
+      "explanation": "Với $\\rho_1 = (ABC, CDE)$: giao là $C$, $C^+ = CDE = R_2 \\implies C \\to DE$ (bảo toàn thông tin). Với $\\rho_2 = (AB, BCDE)$: giao là $B$, $B^+ = B$ không chứa $A$ và cũng không chứa $CDE$ (mất thông tin).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "Cho $R(A, B, C, D)$ và $F = \\{A \\to C, C \\to D\\}$. Nếu thực hiện Thuật toán bảng (Chase) cho $\\rho = (AB, BC, CD)$, các hàng khởi tạo ở Bước 1 lần lượt là gì?",
+      "options": {
+        "A": "$(a_1, a_2, b_{13}, b_{14})$, $(b_{21}, a_2, a_3, b_{24})$, $(b_{31}, b_{32}, a_3, a_4)$",
+        "B": "$(a_1, b_{12}, a_3, b_{14})$, $(b_{21}, a_2, a_3, b_{24})$, $(b_{31}, b_{32}, a_3, a_4)$",
+        "C": "$(a_1, a_2, a_3, b_{14})$, $(b_{21}, a_2, a_3, a_4)$, $(b_{31}, b_{32}, a_3, a_4)$",
+        "D": "$(a_1, a_2, b_{13}, b_{14})$, $(a_1, a_2, a_3, b_{24})$, $(b_{31}, a_2, a_3, a_4)$"
+      },
+      "correct_answer": "A",
+      "explanation": "Hàng 1 (`AB`) có $a_1, a_2$ và $b_{13}, b_{14}$; Hàng 2 (`BC`) có $b_{21}, a_2, a_3, b_{24}$; Hàng 3 (`CD`) có $b_{31}, b_{32}, a_3, a_4$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "Cho $R(A, B, C, D)$ với $F = \\{A \\to C, C \\to D\\}$ và $\\rho = (AB, BC, CD)$ như câu trên. Kết luận của Thuật toán bảng đối với $\\rho$ là gì?",
+      "options": {
+        "A": "Bảo toàn thông tin vì hàng `AB` trở thành $(a_1, a_2, a_3, a_4)$",
+        "B": "Bảo toàn thông tin vì hàng `BC` trở thành $(a_1, a_2, a_3, a_4)$",
+        "C": "Mất thông tin vì $A \\to C$ chỉ áp dụng một lần không tạo được hàng toàn $a$",
+        "D": "Bảo toàn thông tin vì $C \\to D$ đổi $b_{24}$ thành $a_4$ và $A$ không cần thiết"
+      },
+      "correct_answer": "C",
+      "explanation": "Áp dụng $C \\to D$ trên hàng 2 (`BC`) và hàng 3 (`CD`) đổi $b_{24}$ thành $a_4$. Cột $A$ chỉ có duy nhất một $a_1$ ở hàng 1 và không có PTH nào có $A$ ở vế phải hay ghép hàng 1 với hàng 2/3, nên không hàng nào toàn $a$. Vậy $\\rho$ mất thông tin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "Trong Bài tập 1 giáo trình: Cho $R(B, O, I, S, Q, D)$ và $F = \\{S \\to D, I \\to B, IS \\to Q, B \\to Q\\}$. Bao đóng $(IS)^+$ bằng bao nhiêu và khóa duy nhất của $R$ là gì?",
+      "options": {
+        "A": "$(IS)^+ = ISQD$ và khóa duy nhất là $IS$",
+        "B": "$(IS)^+ = ISQDB$ và khóa duy nhất là $BO$",
+        "C": "$(IS)^+ = BOISQD$ và khóa duy nhất là $IS$",
+        "D": "$(IS)^+ = ISQDB$ và khóa duy nhất là $ISO$"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo lời giải Bài 1b: $IS \\to Q$, $I \\to B$, $S \\to D$ nên $(IS)^+ = ISQDB$ (còn thiếu $O$). Vì $O$ không xuất hiện ở vế phải bất kỳ PTH nào và $(ISO)^+ = U$, nên $ISO$ là khóa duy nhất của $R$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "question": "Trong Bài tập 1c giáo trình: Cho $R(B, O, I, S, Q, D)$, $F = \\{S \\to D, I \\to B, IS \\to Q, B \\to Q\\}$ và $\\rho = (SD, IB, ISQ, BO)$. Khi chạy Thuật toán bảng, hàng `ISQ` cuối cùng thu được các giá trị nào và kết luận ra sao?",
+      "options": {
+        "A": "$(a_1, b_{32}, a_3, a_4, a_5, a_6)$ — không bảo toàn thông tin",
+        "B": "$(a_1, a_2, a_3, a_4, a_5, a_6)$ — bảo toàn thông tin",
+        "C": "$(b_{31}, b_{32}, a_3, a_4, a_5, b_{36})$ — không bảo toàn thông tin",
+        "D": "$(a_1, a_2, b_{33}, a_4, a_5, a_6)$ — bảo toàn thông tin"
+      },
+      "correct_answer": "A",
+      "explanation": "Áp dụng $S \\to D$ thay $b_{36} = a_6$; $I \\to B$ thay $b_{31} = a_1$; $B \\to Q$ thay $b_{25} = b_{45} = a_5$. Hàng `ISQ` đạt $(a_1, b_{32}, a_3, a_4, a_5, a_6)$ vẫn thiếu $a_2$ (thuộc tính $O$), không có hàng nào toàn $a$, nên phép tách không bảo toàn thông tin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Trong Bài tập 2a giáo trình: Với $G = \\{B \\to D, B \\to A, D \\to C\\}$, vì sao $G$ KHÔNG tương đương với $F_2 = \\{B \\to D, D \\to C\\}$?",
+      "options": {
+        "A": "Vì $D \\to C \\in G$ nhưng $(D)^+_{F_2}$ không chứa $C$",
+        "B": "Vì $B \\to A \\in G$ nhưng $(B)^+_{F_2} = BDC$ không chứa $A$",
+        "C": "Vì $B \\to D \\in G$ nhưng $(B)^+_{F_2}$ không chứa $D$",
+        "D": "Vì $F_2$ có phụ thuộc hàm dư thừa không có trong $G$"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo lời giải Bài 2a, lấy $B \\to A \\in G$, tính bao đóng $(B)^+_{F_2} = BDC$ không chứa $A$, nên $B \\to A \\notin F_2^+$. Do đó $G$ không tương đương $F_2$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "question": "Trong Bài tập 2c giáo trình: Với $R(A,B,C,D)$, $G = \\{B \\to D, B \\to A, D \\to C\\}$ và $\\rho = (AB, CD, CB)$. Sau khi chạy Thuật toán bảng, bảng cuối cùng có tính chất gì?",
+      "options": {
+        "A": "Hàng `CB` trở thành $(a_1, a_2, a_3, a_4)$ nên bảo toàn thông tin",
+        "B": "Hàng `AB` trở thành $(a_1, a_2, a_3, a_4)$ nên bảo toàn thông tin",
+        "C": "Hàng `AB` và `CB` đều thành $(a_1, a_2, a_3, b_{14})$, không có hàng nào toàn $a$ nên mất thông tin",
+        "D": "Không biến đổi được ô nào trong bảng nên mất thông tin"
+      },
+      "correct_answer": "C",
+      "explanation": "Áp dụng $B \\to A$ thay $b_{31}=a_1$; $B \\to D$ thay $b_{34}=b_{14}$; $D \\to C$ thay $b_{13}=a_3$. Cả hàng `AB` và `CB` đều thành $(a_1, a_2, a_3, b_{14})$, còn hàng `CD` là $(b_{21}, b_{22}, a_3, a_4)$. Không có hàng toàn $a$ nên phép tách mất thông tin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "Trong Bài tập 3b giáo trình: Cho $R(A, B, C, D)$ và $F = \\{A \\to C, AC \\to AB\\}$. Tập phụ thuộc hàm tối thiểu (phủ cực tiểu) $G$ của $F$ là tập nào?",
+      "options": {
+        "A": "$G = \\{A \\to C, AC \\to B\\}$",
+        "B": "$G = \\{A \\to C, C \\to B\\}$",
+        "C": "$G = \\{AC \\to B\\}$",
+        "D": "$G = \\{A \\to C, A \\to B\\}$"
+      },
+      "correct_answer": "D",
+      "explanation": "Tách vế phải $AC \\to AB$ thành $AC \\to A$ (tầm thường, bỏ) và $AC \\to B$. Xét $AC \\to B$, ta có $(AC \\setminus C)^+_F = A^+_F = ABC \\ni B$ nên $C$ dư thừa, thay bằng $A \\to B$. Vậy $G = \\{A \\to C, A \\to B\\}$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "question": "Trong Bài tập 6 giáo trình: Cho $R(B, O, I, S, Q, D)$, $F = \\{S \\to D, I \\to B, IS \\to Q, B \\to Q\\}$ và $\\rho = (BQ, BO, IS, IB, SD)$. Khi áp dụng Thuật toán bảng, vì sao phép tách này vẫn mất thông tin?",
+      "options": {
+        "A": "Vì không có PTH nào có thể biến đổi cột $O$ để làm xuất hiện $a_2$ ở hàng `IS` hoặc biến đổi hết $I, S, D$ ở hàng `BO`",
+        "B": "Vì cả $S \\to D$ và $I \\to B$ đều không áp dụng được trên bảng",
+        "C": "Vì $\\rho$ có 5 lược đồ con lớn hơn số PTH trong $F$",
+        "D": "Vì tập hợp các thuộc tính của $\\rho$ không bằng $BOISQD$"
+      },
+      "correct_answer": "A",
+      "explanation": "Sau khi áp dụng $S \\to D$ ($b_{36}=a_6$), $I \\to B$ ($b_{31}=a_1$) và $B \\to Q$ ($b_{25}=b_{35}=b_{45}=a_5$), hàng `IS` là $(a_1, b_{32}, a_3, a_4, a_5, a_6)$ (thiếu $O$) còn hàng `BO` là $(a_1, a_2, b_{23}, b_{24}, a_5, b_{26})$. Không có hàng nào toàn $a$, nên mất thông tin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Cho $R(A, B, C, D)$ với $F = \\{A \\to B, B \\to C, C \\to D\\}$. Tính hình chiếu $\\Pi_{AD}(F)$.",
+      "options": {
+        "A": "$\\Pi_{AD}(F) = \\emptyset$",
+        "B": "$\\Pi_{AD}(F) = \\{A \\to D\\}$",
+        "C": "$\\Pi_{AD}(F) = \\{D \\to A\\}$",
+        "D": "$\\Pi_{AD}(F) = \\{A \\to D, D \\to A\\}$"
+      },
+      "correct_answer": "B",
+      "explanation": "Từ $A \\to B, B \\to C, C \\to D$, theo luật bắc cầu có $A^+_F = ABCD \\ni D$, suy ra $A \\to D \\in F^+$. Trong khi $D^+_F = D$. Vậy $\\Pi_{AD}(F) = \\{A \\to D\\}$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Cho $R(A, B, C, D)$ với $F = \\{A \\to B, B \\to C, C \\to D\\}$ và phép tách $\\rho = (AB, BC, CD)$. Phép tách $\\rho$ có tính chất gì?",
+      "options": {
+        "A": "Bảo toàn phụ thuộc hàm nhưng mất thông tin",
+        "B": "Bảo toàn thông tin nhưng mất phụ thuộc hàm",
+        "C": "Vừa bảo toàn thông tin vừa bảo toàn phụ thuộc hàm",
+        "D": "Mất cả thông tin và phụ thuộc hàm"
+      },
+      "correct_answer": "C",
+      "explanation": "Mỗi PTH trong $F$ đều nằm trọn trong một lược đồ con ($AB$, $BC$, $CD$) nên bảo toàn PTH. Chạy Chase: $A \\to B$ không cần, $B \\to C$ làm hàng `AB` có $a_3$, $C \\to D$ làm hàng `AB` có $a_4$ $\\Rightarrow$ hàng `AB` toàn $(a_1, a_2, a_3, a_4)$, bảo toàn thông tin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "Cho $R(A, B, C)$ và $F = \\{A \\to B, B \\to C, C \\to A\\}$. Xét phép tách $\\rho = (AB, BC)$. Tính $\\Pi_{AB}(F)$ và $\\Pi_{BC}(F)$.",
+      "options": {
+        "A": "$\\Pi_{AB}(F) = \\{A \\to B\\}$ và $\\Pi_{BC}(F) = \\{B \\to C\\}$",
+        "B": "$\\Pi_{AB}(F) = \\{A \\to B, B \\to A\\}$ và $\\Pi_{BC}(F) = \\{B \\to C\\}$",
+        "C": "$\\Pi_{AB}(F) = \\{A \\to B\\}$ và $\\Pi_{BC}(F) = \\{B \\to C, C \\to B\\}$",
+        "D": "$\\Pi_{AB}(F) = \\{A \\to B, B \\to A\\}$ và $\\Pi_{BC}(F) = \\{B \\to C, C \\to B\\}$"
+      },
+      "correct_answer": "D",
+      "explanation": "Vì $A^+_F = B^+_F = C^+_F = ABC$, nên trên `AB` có cả $A \\to B$ và $B \\to A$; trên `BC` có cả $B \\to C$ và $C \\to B$. Do đó hợp lại suy ra được $C \\to B \\to A$, tức $C \\to A$, nên $\\rho$ bảo toàn PTH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 40,
+      "question": "Cho $R(A, B, C, D)$ với $F = \\{A \\to B, B \\to C\\}$ (không có $C \\to A$). Xét $\\rho = (AB, BC, AD)$. Nhận xét nào sau đây đúng?",
+      "options": {
+        "A": "$\\rho$ vừa bảo toàn thông tin vừa bảo toàn phụ thuộc hàm",
+        "B": "$\\rho$ bảo toàn phụ thuộc hàm nhưng mất thông tin",
+        "C": "$\\rho$ bảo toàn thông tin nhưng mất phụ thuộc hàm",
+        "D": "$\\rho$ không phải phép tách hợp lệ của $R$"
+      },
+      "correct_answer": "A",
+      "explanation": "Hợp thuộc tính là $ABCD$. $A \\to B \\in \\Pi_{AB}(F)$, $B \\to C \\in \\Pi_{BC}(F)$ nên bảo toàn PTH. Trên bảng Chase: $A \\to B$ đồng nhất $B$ cho hàng `AD` ($b_{32} = a_2$), rồi $B \\to C$ đồng nhất $C$ cho hàng `AD` ($b_{33} = a_3$) $\\Rightarrow$ hàng `AD` toàn $(a_1, a_2, a_3, a_4)$, bảo toàn thông tin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "Khi chạy Thuật toán bảng (Mục 3.4), tại sao nếu ở bước trước hai ô $b_{13}$ và $b_{23}$ được làm bằng với nhau (cùng mang giá trị $b_{13}$), rồi ở bước sau một trong hai ô đó gặp giá trị $a_3$ khi áp dụng một PTH khác thì cả hai ô đều đổi thành $a_3$?",
+      "options": {
+        "A": "Do quy định chỉ áp dụng cho cột đầu tiên",
+        "B": "Vì mọi ô trên cùng một cột luôn phải nhận cùng một giá trị $a_j$",
+        "C": "Do thuật toán yêu cầu xóa mọi ký hiệu $b$ sau 2 lần lặp",
+        "D": "Vì ký hiệu $b_{13}$ đại diện cho cùng một giá trị miền không xác định đã được chứng minh bằng nhau trên cả hai bộ"
+      },
+      "correct_answer": "D",
+      "explanation": "Mỗi ký hiệu $b_{ij}$ biểu diễn một giá trị trừu tượng trong quan hệ mẫu; khi 2 ô đã được làm bằng nhau (cùng mang ký hiệu $b_{13}$), chúng biểu diễn cùng một giá trị. Khi giá trị đó được đồng nhất với $a_3$, mọi ô mang $b_{13}$ đều trở thành $a_3$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "Trong Ví dụ Mục 3.4 trên $R(A,B,C,D,E,F)$ với $F = \\{AB \\to C, C \\to B, ABD \\to E, F \\to A\\}$ và $\\rho = \\{BC, AC, ABDE, ABDF\\}$, PTH nào được áp dụng hai lần trong quá trình biến đổi bảng?",
+      "options": {
+        "A": "$F \\to A$",
+        "B": "$C \\to B$",
+        "C": "$AB \\to C$",
+        "D": "$ABD \\to E$"
+      },
+      "correct_answer": "C",
+      "explanation": "Trong Ví dụ Mục 3.4: lần 1 áp dụng $AB \\to C$ thay $b_{43}$ bằng $b_{33}$; sau khi $C \\to B$ thay $b_{22}$ thành $a_2$, hàng `AC` có $AB = (a_1, a_2)$ nên áp dụng lại $AB \\to C$ lần 2 để thay cả hai giá trị $b_{33}$ thành $a_3$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "Cho lược đồ $R(A, B, C, D)$ và $F = \\{AB \\to C, C \\to D, D \\to A\\}$. Phép tách $\\rho = (ABC, BCD)$ có bảo toàn thông tin không? Vì sao?",
+      "options": {
+        "A": "Không bảo toàn thông tin vì $BC$ không là siêu khóa của $ABC$ hay $BCD$",
+        "B": "Có bảo toàn thông tin vì $C^+_F = CDA$ không chứa $B$ nhưng có $A$",
+        "C": "Không bảo toàn thông tin vì $ABC \\cap BCD = BC$ không có PTH nào vế trái là $BC$",
+        "D": "Có bảo toàn thông tin vì $R_1 \\cap R_2 = BC$ và $(BC)^+_F = BCDA \\supseteq ABC$ (và $BCD$)"
+      },
+      "correct_answer": "D",
+      "explanation": "Giao $R_1 \\cap R_2 = BC$. Tính bao đóng $(BC)^+_F$: có $C \\to D$, $D \\to A$, nên $(BC)^+_F = ABCD$, tức $BC \\to A = R_1 \\setminus R_2 \\in F^+$. Theo Định lý Decobel, phép tách bảo toàn thông tin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "Khi thiết kế một phép tách bảo toàn phụ thuộc hàm, tại sao ta phải xét $\\Pi_{U_i}(F)$ trên bao đóng $F^+$ thay vì chỉ lọc các phụ thuộc hàm viết sẵn trong $F$?",
+      "options": {
+        "A": "Vì một số phụ thuộc hàm suy diễn (như bắc cầu) chỉ chứa thuộc tính trong $U_i$ có thể nằm trong $F^+$ dù không viết trực tiếp trong $F$",
+        "B": "Vì $F^+$ có ít phần tử hơn $F$ nên tính toán nhanh hơn",
+        "C": "Vì $\\Pi_{U_i}(F)$ chỉ cho phép giữ lại các phụ thuộc hàm tầm thường $A \\to A$",
+        "D": "Vì tập $F$ ban đầu luôn không hợp lệ nếu chưa lấy bao đóng"
+      },
+      "correct_answer": "A",
+      "explanation": "Như Ví dụ Mục 3.5 ($F = \\{A \\to B, AB \\to C\\}$), $A \\to C$ không viết sẵn trong $F$ nhưng suy ra được trong $F^+$ và nằm trọn trong $AC$, nên $\\Pi_{AC}(F) = \\{A \\to C\\}$. Nếu chỉ lọc $F$ sẽ bỏ sót.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "Cho $R(A, B, C, D)$ với $F = \\{A \\to B, B \\to C, C \\to A\\}$ (thuộc tính $D$ không xuất hiện trong $F$). Phép tách $\\rho = (ABC, D)$ có tính chất nào?",
+      "options": {
+        "A": "Bảo toàn thông tin nhưng mất phụ thuộc hàm",
+        "B": "Bảo toàn phụ thuộc hàm nhưng mất thông tin",
+        "C": "Vừa bảo toàn thông tin vừa bảo toàn phụ thuộc hàm",
+        "D": "Không phải là phép tách của $R$"
+      },
+      "correct_answer": "B",
+      "explanation": "Vì $ABC \\cap D = \\emptyset$, theo Định lý Decobel $\\rho$ mất thông tin (chính là tích Đề-các của $ABC$ và $D$). Tuy nhiên toàn bộ $F$ nằm trong $ABC$ nên $\\Pi_{ABC}(F) \\cup \\Pi_D(F) = F^+$, tức bảo toàn PTH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "question": "Cho $R(A, B, C)$ và $F = \\{A \\to B\\}$. Quan hệ mẫu $r = \\{(1, 2, 3), (4, 2, 5)\\}$ trên $R$ thỏa mãn $F$. Khi tách thành $\\rho = (AB, BC)$ rồi nối tự nhiên $\\Pi_{AB}(r) * \\Pi_{BC}(r)$, tập kết quả thu được có bao nhiêu bộ?",
+      "options": {
+        "A": "2 bộ",
+        "B": "3 bộ",
+        "C": "4 bộ",
+        "D": "1 bộ"
+      },
+      "correct_answer": "C",
+      "explanation": "$\\Pi_{AB}(r) = \\{(1, 2), (4, 2)\\}$, $\\Pi_{BC}(r) = \\{(2, 3), (2, 5)\\}$. Khi nối tự nhiên theo $B = 2$ thu được 4 bộ: $(1,2,3), (1,2,5), (4,2,3), (4,2,5)$, sinh ra 2 bộ giả là $(1,2,5)$ và $(4,2,3)$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Với lược đồ `SINHVIEN` trong Mục 3.1 tách thành `SVIEN(HOTEN, NGAYSINH, LOP)` và `DIEMTHI(HOTEN, MONHOC, DIEM)`, trên 5 bộ mẫu của giáo trình (có 2 sinh viên cùng tên `Nam` khác ngày sinh/lớp và 2 sinh viên cùng tên `Hoa` khác ngày sinh), phép nối tự nhiên `SVIEN * DIEMTHI` theo `HOTEN` sẽ gây ra hiện tượng gì?",
+      "options": {
+        "A": "Mất toàn bộ dữ liệu của sinh viên Hùng",
+        "B": "Phát sinh các bộ giả ghép nhầm điểm thi của hai sinh viên trùng tên `Nam` và trùng tên `Hoa`",
+        "C": "Không thể thực hiện được phép nối tự nhiên vì thiếu thuộc tính chung",
+        "D": "Tự động chuẩn hóa lược đồ về dạng chuẩn BCNF"
+      },
+      "correct_answer": "B",
+      "explanation": "Trong 5 bộ mẫu có 2 `Nam` (25/05/2004 Tin K20A và 23/05/2003 Tin K21A) và 2 `Hoa` (15/07/2003 và 17/07/2004). Do `HOTEN` không xác định hàm `NGAYSINH`, `LOP` hay `MONHOC, DIEM`, phép nối theo `HOTEN` sẽ sinh ra các bộ giả ghép chéo điểm thi giữa hai người trùng tên.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Cho $R(A, B, C, D)$ với $F = \\{A \\to B, A \\to C, C \\to D\\}$. Xét phép tách $\\rho = (AB, AC, CD)$. Hỏi cần bao nhiêu bước đồng nhất trong Thuật toán bảng để chứng minh $\\rho$ bảo toàn thông tin?",
+      "options": {
+        "A": "Chỉ 1 bước từ $C \\to D$ là đủ làm hàng `AC` toàn $a$",
+        "B": "Không thể làm hàng nào toàn $a$, phép tách mất thông tin",
+        "C": "Cần cả $A \\to B$ (làm hàng `AC` có $a_2$) và $C \\to D$ (làm hàng `AC` có $a_4$)",
+        "D": "Chỉ cần $A \\to C$ là hàng `AB` toàn $a$"
+      },
+      "correct_answer": "C",
+      "explanation": "Hàng `AC` ban đầu là $(a_1, b_{22}, a_3, b_{24})$. Áp dụng $A \\to B$ với hàng `AB` $(a_1, a_2, b_{13}, b_{14})$ thay $b_{22} = a_2$. Áp dụng $C \\to D$ với hàng `CD` $(b_{31}, b_{32}, a_3, a_4)$ thay $b_{24} = a_4$. Khi đó hàng `AC` thành $(a_1, a_2, a_3, a_4)$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 49,
+      "question": "Cho $R(A, B, C, D, E)$ và phép tách $\\rho = (R_1, R_2, R_3)$ sao cho $R_1$ chứa một khóa của $R$. Khi chạy Thuật toán bảng, điều kiện nào dưới đây đảm bảo $\\rho$ bảo toàn thông tin?",
+      "options": {
+        "A": "Không cần điều kiện gì thêm, mọi hàng chứa khóa đều tự động toàn $a$ ngay ở Bước 1",
+        "B": "Chỉ cần ở Bước 2 các PTH lần lượt suy ra được tất cả các thuộc tính còn lại vào hàng $R_1$ (vốn luôn xảy ra nếu mọi PTH đều tham gia đồng nhất được với các hàng khác)",
+        "C": "Luôn luôn mất thông tin nếu $R_2 \\cap R_3 = \\emptyset$",
+        "D": "Chỉ bảo toàn thông tin nếu $R_1$ trùng toàn bộ với $U$"
+      },
+      "correct_answer": "B",
+      "explanation": "Lưu ý tinh tế: bản thân $R_1$ chứa khóa của $R$ chưa tự động bảo đảm toàn $a$ ở Bước 1 (vì một số thuộc tính chỉ nằm ở $R_2, R_3$); hàng $R_1$ chỉ trở thành toàn $a$ khi các PTH trong $F$ kết nối được giá trị ở $R_1$ sang các hàng $R_2, R_3$ trên bảng Chase.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "question": "Xét Định lý Decobel: Cho $R(U, F)$ và phép tách $\\rho = (R_1, R_2)$ có $R_1 \\cap R_2 = K$. Biểu thức nào sau đây TƯƠNG ĐƯƠNG với điều kiện $\\rho$ bảo toàn thông tin?",
+      "options": {
+        "A": "$K^+_F \\supseteq R_1$ hoặc $K^+_F \\supseteq R_2$",
+        "B": "$K^+_F \\cap R_1 = \\emptyset$",
+        "C": "$R_1^+ = R_2^+$",
+        "D": "$(R_1 \\setminus R_2)^+ \\supseteq K$"
+      },
+      "correct_answer": "A",
+      "explanation": "Vì $K = R_1 \\cap R_2 \\subseteq R_1$ và $K \\subseteq R_2$, điều kiện $K \\to (R_1 \\setminus R_2) \\in F^+$ tương đương $K^+_F \\supseteq R_1$, và $K \\to (R_2 \\setminus R_1) \\in F^+$ tương đương $K^+_F \\supseteq R_2$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "question": "Trong Bài tập 4 giáo trình: Cho $R(A,B,C,D,E)$, $F = \\{A \\to C, B \\to C, C \\to D, DE \\to C, DE \\to A\\}$ và $\\rho = (AD, AB, BE, CDE, AE)$. Sau khi chạy Thuật toán bảng, hàng nào trở thành toàn ký hiệu $a$ $(a_1, a_2, a_3, a_4, a_5)$?",
+      "options": {
+        "A": "Chỉ hàng `AD`",
+        "B": "Hàng `BE` (dòng 3)",
+        "C": "Chỉ hàng `CDE`",
+        "D": "Không có hàng nào toàn $a$"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo lời giải Bài 4: lần lượt áp dụng $A \\to C$, $B \\to C$ (đưa cột $C$ ở hàng 1, 2, 3, 5 về $b_{13}$), $C \\to D$ (đưa $b_{24}, b_{34}, b_{54}$ thành $a_4$), $DE \\to C$ (đưa $b_{13}$ ở các hàng có $DE = (a_4, a_5)$ thành $a_3$), và $DE \\to A$ (đưa $b_{31}, b_{41}$ thành $a_1$). Hàng 3 (`BE`) trở thành $(a_1, a_2, a_3, a_4, a_5)$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 52,
+      "question": "Trong Bài tập 4 giáo trình ($R(A,B,C,D,E)$, $F = \\{A \\to C, B \\to C, C \\to D, DE \\to C, DE \\to A\\}$, $\\rho = (AD, AB, BE, CDE, AE)$), vì sao bước áp dụng $DE \\to C$ làm đổi giá trị cột $C$ ở hàng `BE` và `AE` từ $b_{13}$ thành $a_3$?",
+      "options": {
+        "A": "Vì hàng `BE` chứa sẵn thuộc tính $C$ và $D$ từ Bước 1",
+        "B": "Vì hàng `AD` có $C = a_3$ ngay từ Bước 1",
+        "C": "Vì $DE \\to C$ làm bằng trực tiếp hàng `AD` và hàng `AB`",
+        "D": "Vì trước đó $A \\to C$ và $B \\to C$ đã đồng nhất ô cột $C$ của `AD`, `AB`, `BE`, `AE` thành cùng $b_{13}$, sau đó `C -> D` tạo $DE=(a_4, a_5)$ ở `BE` và `AE` khớp với hàng `CDE` (có $C=a_3$)"
+      },
+      "correct_answer": "D",
+      "explanation": "Đây là điểm mấu chốt của Thuật toán bảng: `AD`, `AB`, `BE`, `AE` được đồng nhất cột $C$ về $b_{13}$ qua $A \\to C$ và $B \\to C$; sau khi `C -> D` làm `BE` và `AE` có $D = a_4$, chúng khớp với `CDE` trên $DE = (a_4, a_5)$ nên `DE -> C` đẩy toàn bộ $b_{13}$ về $a_3$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 53,
+      "question": "Trong Bài tập 5 giáo trình ($U=ABCDEF$, $F=\\{AB\\to C, C\\to B, ABD\\to E, F\\to A\\}$, $\\rho=\\{BC, AC, ABDE, ABDF\\}$), nếu ta KHÔNG áp dụng $C \\to B$ trước mà chỉ áp dụng $AB \\to C$ và $ABD \\to E$ thì điều gì xảy ra?",
+      "options": {
+        "A": "Hàng `ABDF` vẫn trở thành toàn $a$ ngay lập tức",
+        "B": "Hàng `ABDE` trở thành toàn $a$ nhờ $F \\to A$",
+        "C": "Cột $C$ của `ABDE` và `ABDF` chỉ dừng ở $b_{33}$ chứ chưa biến thành $a_3$, vì cần $C \\to B$ đổi $b_{22}$ ở `AC` thành $a_2$ để nối $AB = (a_1, a_2)$ sang `ABDE`/`ABDF`",
+        "D": "Bảng sẽ biến đổi hàng `BC` thành toàn $a$"
+      },
+      "correct_answer": "C",
+      "explanation": "Phải nhờ $C \\to B$ (trên hàng `BC` và `AC`) biến đổi $b_{22}$ thành $a_2$, lúc đó hàng `AC` mới có $AB = (a_1, a_2)$ khớp với `ABDE` và `ABDF`, giúp lần áp dụng $AB \\to C$ thứ hai đổi $b_{33}$ thành $a_3$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "question": "Trong Bài tập 7 giáo trình: Xét $R(A, B, C, D, E)$ với $F = \\{AB \\to C, CD \\to E, DE \\to B\\}$. Tập tất cả các khóa của lược đồ $R$ là tập nào?",
+      "options": {
+        "A": "$\\{AD\\}$",
+        "B": "$\\{ABD, ACD, ADE\\}$",
+        "C": "$\\{AB, CD, DE\\}$",
+        "D": "$\\{ABC, CDE, DEB\\}$"
+      },
+      "correct_answer": "B",
+      "explanation": "Vì $A$ và $D$ không xuất hiện ở vế phải bất kỳ PTH nào nên $AD$ phải nằm trong mọi khóa. $(AD)^+ = AD \\neq U$. Thử thêm 1 thuộc tính: $(ABD)^+ = ABCDE$, $(ACD)^+ = ABCDE$, $(ADE)^+ = ABCDE$. Vậy có 3 khóa là $ABD, ACD, ADE$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 55,
+      "question": "Trong Bài tập 7c giáo trình ($R(A, B, C, D, E)$, $F = \\{AB \\to C, CD \\to E, DE \\to B\\}$), dạng chuẩn cao nhất của lược đồ $R$ là gì?",
+      "options": {
+        "A": "1NF (vì có phụ thuộc bộ phận)",
+        "B": "2NF (vì có phụ thuộc bắc cầu)",
+        "C": "BCNF (vì mọi vế trái đều là khóa)",
+        "D": "3NF (vì mọi thuộc tính đều là thuộc tính khóa, nhưng các vế trái $AB, CD, DE$ không phải siêu khóa)"
+      },
+      "correct_answer": "D",
+      "explanation": "Các khóa của $R$ là $ABD, ACD, ADE$, nên cả 5 thuộc tính $A, B, C, D, E$ đều là thuộc tính khóa (không có thuộc tính không khóa nào). Do đó $R$ đạt 3NF. Tuy nhiên $AB, CD, DE$ không phải siêu khóa nên $R$ chưa đạt BCNF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 56,
+      "question": "Trong Bài tập 7e giáo trình ($R(A,B,C,D,E)$, $F=\\{AB\\to C, CD\\to E, DE\\to B\\}$): Nếu chỉ phân tách thành $\\rho_1 = (ABC, CDE, DEB)$ (bảo toàn 3 PTH của $F$ nhưng chưa bổ sung khóa $ABD$), kết quả kiểm tra bằng Thuật toán bảng cho $\\rho_1$ là gì?",
+      "options": {
+        "A": "Mất thông tin, vì không hàng nào trong bảng Chase nhận được đủ cả $A$ và $D$ (vốn không bao giờ xuất hiện ở vế phải PTH)",
+        "B": "Bảo toàn thông tin, vì cả 3 PTH đều được giữ nguyên",
+        "C": "Bảo toàn thông tin nhờ $DE \\to B$",
+        "D": "Không hợp lệ vì thiếu thuộc tính $A$"
+      },
+      "correct_answer": "A",
+      "explanation": "Trong $\\rho_1 = (ABC, CDE, DEB)$, hàng `ABC` thiếu $D, E$; `CDE` và `DEB` thiếu $A$. Vì $A$ và $D$ không nằm ở vế phải bất kỳ PTH nào nên Thuật toán bảng không bao giờ điền thêm $a_1$ hay $a_4$, do đó mất thông tin. Phải bổ sung khóa (như `ABD`) thì mới vừa 3NF, bảo toàn PTH và bảo toàn thông tin.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 57,
+      "question": "Trong Bài tập 7f và 7h giáo trình ($R(A,B,C,D,E)$, $F=\\{AB\\to C, CD\\to E, DE\\to B\\}$): Nếu tách $R$ về BCNF bảo toàn thông tin theo $AB \\to C$ thành $(ABC, ABDE)$ rồi tách tiếp $ABDE$ theo $DE \\to B$ thành $\\rho = (ABC, DEB, ADE)$, kết luận nào đúng?",
+      "options": {
+        "A": "Phép tách $\\rho$ đạt BCNF, bảo toàn thông tin và bảo toàn cả 3 PTH",
+        "B": "Phép tách $\\rho$ đạt BCNF, bảo toàn thông tin nhưng làm mất phụ thuộc hàm $CD \\to E$",
+        "C": "Phép tách $\\rho$ đạt BCNF nhưng làm mất thông tin",
+        "D": "Phép tách $\\rho$ vẫn chưa đạt BCNF tại lược đồ $ABC$"
+      },
+      "correct_answer": "B",
+      "explanation": "Các lược đồ $ABC$ (khóa $AB$), $DEB$ (khóa $DE$) và $ADE$ (không có PTH phi tầm thường) đều đạt BCNF và kết nối không mất thông tin (theo Định lý Decobel ở mỗi bước tách). Tuy nhiên, $\\Pi_{ABC}(F) = \\{AB\\to C\\}$, $\\Pi_{DEB}(F) = \\{DE\\to B\\}$, $\\Pi_{ADE}(F) = \\emptyset$; khi hợp lại $(CD)^+ = CD \\not\\ni E$, nên PTH $CD \\to E$ bị mất.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 58,
+      "question": "Trong Bài tập 8a giáo trình: Cho $R(A,B,C,D,E,G,L,M,N)$ và $F = \\{C \\to EGL, GL \\to ABC, AC \\to DN, EC \\to AB\\}$. Tất cả các khóa của $R$ là gì?",
+      "options": {
+        "A": "$\\{C, GL\\}$",
+        "B": "$\\{CM, AC, EC\\}$",
+        "C": "$\\{CM, GLM\\}$",
+        "D": "$\\{CGLM\\}$"
+      },
+      "correct_answer": "C",
+      "explanation": "$M$ không xuất hiện ở vế phải PTH nào nên $M$ phải nằm trong mọi khóa. Ta có $C^+ = CEGLABDN$ và $(GL)^+ = GLABCE DN$. Do đó $(CM)^+ = U$ và $(GLM)^+ = U$. Không tập con thực sự nào của $CM$ hay $GLM$ là siêu khóa, nên hai khóa là $CM$ và $GLM$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 59,
+      "question": "Trong Bài tập 8b giáo trình ($R(A,B,C,D,E,G,L,M,N)$, $F = \\{C \\to EGL, GL \\to ABC, AC \\to DN, EC \\to AB\\}$), lược đồ $R$ đã đạt 2NF chưa? Vì sao?",
+      "options": {
+        "A": "Đã đạt 2NF vì mọi khóa đều có 2 hoặc 3 thuộc tính",
+        "B": "Đã đạt 3NF vì các vế trái $C, GL$ đều không phải thuộc tính không khóa",
+        "C": "Chưa đạt 2NF, chỉ vì $M$ phụ thuộc hàm vào $C$",
+        "D": "Chưa đạt 2NF, vì tồn tại phụ thuộc bộ phận của thuộc tính không khóa vào khóa, chẳng hạn $C \\to E$ (với $C \\subset CM$ và $E$ không khóa) hoặc $GL \\to A$ (với $GL \\subset GLM$)"
+      },
+      "correct_answer": "D",
+      "explanation": "Các thuộc tính khóa là $C, G, L, M$; các thuộc tính không khóa là $A, B, D, E, N$. Vì $C \\subset CM$ mà $C \\to E, G, L, A, B, D, N$ (và $GL \\subset GLM$ mà $GL \\to A, B$), các thuộc tính không khóa phụ thuộc bộ phận vào một phần của khóa, nên $R$ chưa đạt 2NF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 60,
+      "question": "Trong Bài tập 8c và 8d giáo trình: Phủ cực tiểu của $F = \\{C \\to EGL, GL \\to ABC, AC \\to DN, EC \\to AB\\}$ dẫn đến phép tách nào vừa bảo toàn thông tin, vừa bảo toàn PTH và đạt cả 3NF lẫn BCNF?",
+      "options": {
+        "A": "$\\rho = (ABCDEGLN, CM)$",
+        "B": "$\\rho = (CEGL, GLABC, ACDN, ECAB)$",
+        "C": "$\\rho = (CEGL, CM, GLM)$",
+        "D": "$\\rho = (ABC, DEGLN, CM)$"
+      },
+      "correct_answer": "A",
+      "explanation": "Phủ cực tiểu của $F$ (sau khi bỏ $A$ ở $AC \\to DN$, bỏ $E$ ở $EC \\to AB$, và bỏ $GL \\to A, B$ vì suy được từ $GL \\to C \\to AB$) là $G = \\{C \\to ABDEGLN, GL \\to C\\}$. Tổng hợp 3NF kèm khóa cho $\\rho = (ABCDEGLN, CM)$. Trong $ABCDEGLN$, các khóa là $C, GL$ nên mọi PTH đều có vế trái là siêu khóa (đạt BCNF), còn $CM$ đạt BCNF và giao là $C$ suy ra $ABCDEGLN$ (bảo toàn thông tin).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "question": "Xét Ví dụ 1 Mục 3.5 trong giáo trình: $U = ABCD$, $F = \\{A \\to D, D \\to B, A \\to C\\}$, $\\rho = (ABC, AD)$. Khi kiểm tra chặt chẽ theo định nghĩa $\\left(\\bigcup F_i\\right)^+ = F^+$, phụ thuộc hàm nào thực chất bị mất trong $\\Pi_{ABC}(F) \\cup \\Pi_{AD}(F)$?",
+      "options": {
+        "A": "$A \\to C$",
+        "B": "$D \\to B$",
+        "C": "$A \\to D$",
+        "D": "$A \\to B$"
+      },
+      "correct_answer": "B",
+      "explanation": "$\\Pi_{ABC}(F) = \\{A \\to C, A \\to B\\}$ và $\\Pi_{AD}(F) = \\{A \\to D\\}$. Trong hợp $G = \\{A \\to C, A \\to B, A \\to D\\}$, ta có $D^+_G = \\{D\\}$ không chứa $B$, nên $D \\to B$ không thể suy ra được (do $D$ và $B$ không nằm chung trong lược đồ con nào).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 62,
+      "question": "Cho $R(A, B, C)$ và $F = \\{AB \\to C, C \\to B\\}$. Xét phép tách $\\rho = (AC, BC)$. Khẳng định nào sau đây đúng nhất?",
+      "options": {
+        "A": "$\\rho$ bảo toàn PTH nhưng mất thông tin",
+        "B": "$\\rho$ vừa mất thông tin vừa mất PTH",
+        "C": "$\\rho$ bảo toàn thông tin nhưng mất PTH $AB \\to C$",
+        "D": "$\\rho$ vừa bảo toàn thông tin vừa bảo toàn PTH"
+      },
+      "correct_answer": "C",
+      "explanation": "$AC \\cap BC = C$ và $C \\to B = BC \\setminus AC \\in F$ nên theo Định lý Decobel $\\rho$ bảo toàn thông tin. Tuy nhiên $\\Pi_{AC}(F) = \\emptyset$, $\\Pi_{BC}(F) = \\{C \\to B\\}$; với tập $G = \\{C \\to B\\}$ thì $(AB)^+_G = AB \\not\\ni C$, nên $AB \\to C$ bị mất.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 63,
+      "question": "Cho $R(A, B, C, D, E)$ với $F = \\{A \\to C, B \\to C, C \\to D, D \\to E, E \\to B\\}$ và phép tách $\\rho = (AB, AD, BE, CDE)$. Khi chạy Thuật toán bảng, bước nào giúp cột $C$ của hàng `AB` và hàng `AD` (vốn chỉ mang $b_{13}$) cuối cùng biến thành $a_3$?",
+      "options": {
+        "A": "Không đổi được thành $a_3$, phép tách mất thông tin",
+        "B": "Vì `AB` chứa sẵn $C$ ở Bước 1",
+        "C": "Vì $D \\to E$ đổi trực tiếp cột $C$ thành $a_3$",
+        "D": "Nhờ $A \\to C$ và $B \\to C$ gom cột $C$ của `AB`, `AD`, `BE` về cùng ký hiệu $b_{13}$, rồi khi hàng `BE` có đủ $C, D$ nhờ $C \\to D, D \\to E, E \\to B$ trùng với `CDE`, giá trị $b_{13}$ bị $B \\to C$ đẩy về $a_3$"
+      },
+      "correct_answer": "D",
+      "explanation": "Cụ thể: `A->C` đổi `b23=b13`, `B->C` đổi `b33=b13`. Rồi `C->D` đổi `b14=a4, b34=a4`. `D->E` đổi `b25=b15=a5`. `E->B` đổi `b22=b42=a2`. Lúc này hàng `BE` và `CDE` đều có $B=a_2$, mà hàng `CDE` có $C=a_3$, nên `B->C` đổi toàn bộ $b_{13}$ (ở `AB`, `AD`, `BE`) thành $a_3$! Cả hàng `AB` và `AD` đều thành toàn $a$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 64,
+      "question": "Cho $R(A, B, C, D)$ và $F = \\{A \\to B, B \\to C, C \\to D, D \\to A\\}$. Phép tách $\\rho = (AB, BC, CD)$ có bảo toàn thông tin không và có bảo toàn phụ thuộc hàm không?",
+      "options": {
+        "A": "Bảo toàn thông tin, mất phụ thuộc hàm $D \\to A$",
+        "B": "Mất thông tin, bảo toàn phụ thuộc hàm",
+        "C": "Mất cả thông tin và phụ thuộc hàm",
+        "D": "Vừa bảo toàn thông tin vừa bảo toàn phụ thuộc hàm"
+      },
+      "correct_answer": "D",
+      "explanation": "Từ $A \\to B \\to C \\to D \\to A$, bốn thuộc tính tương đương nhau: trên `AB` có $A \\leftrightarrow B$, trên `BC` có $B \\leftrightarrow C$, trên `CD` có $C \\leftrightarrow D$. Hợp lại suy ra $D \\to C \\to B \\to A$ ($D \\to A$), nên bảo toàn PTH! Trên bảng Chase, hàng `AB` dễ dàng nhận $a_3, a_4$ từ $B \\to C$ và $C \\to D$ nên cũng bảo toàn thông tin.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 65,
+      "question": "Cho $R(A, B, C, D, E, F)$ với $F = \\{A \\to BC, C \\to D, BD \\to E, E \\to F\\}$. Xét hai phép tách $\\rho_1 = (AB, CD, BDE, EF)$ và $\\rho_2 = (ABC, CD, BDE, EF)$. Khẳng định nào đúng?",
+      "options": {
+        "A": "Cả $\\rho_1$ và $\\rho_2$ đều bảo toàn thông tin",
+        "B": "$\\rho_1$ mất thông tin và mất PTH $A \\to C$; $\\rho_2$ vừa bảo toàn thông tin vừa bảo toàn PTH",
+        "C": "$\\rho_1$ bảo toàn PTH nhưng mất thông tin; $\\rho_2$ bảo toàn thông tin nhưng mất PTH",
+        "D": "Cả $\\rho_1$ và $\\rho_2$ đều mất thông tin"
+      },
+      "correct_answer": "B",
+      "explanation": "Với $\\rho_1 = (AB, CD, BDE, EF)$: mất $A \\to C$ và bảng Chase chỉ đổi được $b_{36}=a_6$ nhờ $E \\to F$, không có hàng toàn $a$ (mất thông tin). Với $\\rho_2 = (ABC, CD, BDE, EF)$: giữ đủ tất cả PTH của $F$, và trên Chase hàng `ABC` nhận $a_4$ (nhờ $C \\to D$), $a_5$ (nhờ $BD \\to E$), $a_6$ (nhờ $E \\to F$) nên toàn $a$ (bảo toàn thông tin).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "question": "Cho lược đồ $R(A, B, C, D)$ với $F = \\{A \\to C, B \\to D\\}$ và phép tách $\\rho = (AC, BD)$. Nếu xây dựng quan hệ $r = \\{(1, 10, 100, 1000), (2, 20, 200, 2000)\\}$ thỏa $F$, phép nối tự nhiên $\\Pi_{AC}(r) * \\Pi_{BD}(r)$ trả về bao nhiêu bộ?",
+      "options": {
+        "A": "2 bộ",
+        "B": "3 bộ",
+        "C": "4 bộ (sinh thêm 2 bộ giả)",
+        "D": "0 bộ"
+      },
+      "correct_answer": "C",
+      "explanation": "Vì $AC \\cap BD = \\emptyset$, phép nối tự nhiên giữa $\\Pi_{AC}(r)$ (2 bộ) và $\\Pi_{BD}(r)$ (2 bộ) chính là tích Đề-các $2 \\times 2 = 4$ bộ, xuất hiện 2 bộ giả là $(1, 20, 100, 2000)$ và $(2, 10, 200, 1000)$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 67,
+      "question": "Cho $R(A, B, C, D, E)$ với $F = \\{AB \\to C, C \\to D, D \\to E\\}$. Xét phép tách $\\rho = (ABC, CDE)$. Dựa vào Định lý Decobel, phép tách này bảo toàn thông tin vì sao?",
+      "options": {
+        "A": "Vì $ABC \\cap CDE = C$ và $C^+_F = CDE = R_2$, tức $(R_1 \\cap R_2) \\to (R_2 \\setminus R_1) \\in F^+$",
+        "B": "Vì $ABC \\cap CDE = C$ và $C^+_F = ABC = R_1$",
+        "C": "Vì $AB \\to C$ nằm trong $ABC$ và $D \\to E$ nằm trong $CDE$",
+        "D": "Phép tách này thực chất mất thông tin"
+      },
+      "correct_answer": "A",
+      "explanation": "Giao $R_1 \\cap R_2 = C$. Vì $C \\to D$ và $D \\to E$, ta có $C^+_F = CDE$, suy ra $C \\to DE = R_2 \\setminus R_1 \\in F^+$. Theo Định lý Decobel, $\\rho$ bảo toàn thông tin.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 68,
+      "question": "Phân tích trường hợp tổng quát khi phép tách $\\rho = (R_1, R_2, \\dots, R_m)$ của $R(U, F)$ có chứa một lược đồ $R_i$ rời hoàn toàn với tất cả các lược đồ còn lại (tức $R_i \\cap \\left(\\bigcup_{j \\neq i} R_j\\right) = \\emptyset$) và $R_i$ không bị xác định hàm bởi tập rỗng $\\emptyset$. Kết luận nào luôn đúng?",
+      "options": {
+        "A": "$\\rho$ luôn bảo toàn thông tin nếu giữ đủ PTH",
+        "B": "$\\rho$ luôn mất thông tin vì trong bảng Chase hàng $R_i$ chỉ có $a$ ở các cột của $R_i$ và không bao giờ khớp được với các hàng khác trên vế trái PTH phi tầm thường nào",
+        "C": "$\\rho$ bảo toàn thông tin nếu $R_i$ chỉ gồm 1 thuộc tính",
+        "D": "$\\rho$ không phải là phép tách của $R$"
+      },
+      "correct_answer": "B",
+      "explanation": "Nếu $R_i$ rời hoàn toàn với phần còn lại ($U \\setminus R_i$) và không có PTH $\\emptyset \\to A$, khi nối tự nhiên $\\Pi_{R_i}(r)$ với phần còn lại sẽ thành tích Đề-các, sinh ra bộ giả ngay khi $r$ có ít nhất 2 giá trị khác nhau trên $R_i$ và 2 giá trị khác nhau trên $U \\setminus R_i$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 69,
+      "question": "Cho $R(X, Y, Z, W, T)$ với $F = \\{X \\to Y, YZ \\to W, W \\to T, T \\to X\\}$. Xét phép tách $\\rho = (XY, YZW, WT, TX)$. Phép tách này có bảo toàn thông tin và bảo toàn PTH không?",
+      "options": {
+        "A": "Mất thông tin nhưng bảo toàn PTH",
+        "B": "Bảo toàn thông tin nhưng mất PTH $YZ \\to W$",
+        "C": "Mất cả thông tin lẫn PTH",
+        "D": "Vừa bảo toàn thông tin (hàng `YZW` trở thành toàn $a$) vừa bảo toàn PTH"
+      },
+      "correct_answer": "D",
+      "explanation": "Mỗi PTH trong $F$ nằm gọn trong một lược đồ con nên bảo toàn PTH. Chạy Chase: `W->T` đưa $a_5$ vào `YZW`; `T->X` đồng nhất cột $X$ giữa `WT`, `TX`, `YZW` thành $a_1$; `X->Y` giữ $a_2$. Lúc này hàng `YZW` trở thành $(a_1, a_2, a_3, a_4, a_5)$ nên bảo toàn thông tin.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 70,
+      "question": "Trong Thuật toán bảng (Mục 3.4), nhận xét nào sau đây đúng về thứ tự áp dụng các phụ thuộc hàm ở Bước 2?",
+      "options": {
+        "A": "Thứ tự áp dụng có thể làm thay đổi ký hiệu $b$ trung gian khi hai ô $b$ đồng nhất với nhau, nhưng bảng kết quả cuối cùng về việc có tồn tại hàng toàn $a$ hay không (tính bảo toàn thông tin) là duy nhất và không phụ thuộc thứ tự áp dụng",
+        "B": "Nếu đổi thứ tự áp dụng các PTH trong $F$, một phép tách bảo toàn thông tin có thể biến thành mất thông tin",
+        "C": "Mỗi PTH trong $F$ chỉ được phép áp dụng tối đa đúng 1 lần duy nhất",
+        "D": "Phải luôn áp dụng các PTH có vế phải 1 thuộc tính trước rồi mới áp dụng vế trái 1 thuộc tính"
+      },
+      "correct_answer": "A",
+      "explanation": "Thuật toán bảng (Chase) có tính hội tụ (Church-Rosser): việc lặp áp dụng các PTH cho đến khi bất biến luôn cho cùng một kết luận cuối cùng về sự tồn tại của hàng toàn $(a_1, a_2, \\dots, a_n)$, không phụ thuộc vào thứ tự chọn PTH (như Ví dụ Mục 3.4 áp dụng $AB \\to C$ tới 2 lần).",
+      "difficulty": "hard"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Liệt kê 4 vấn đề dữ liệu phát sinh trên lược đồ `SINHVIEN(HOTEN, NGAYSINH, LOP, MONHOC, DIEM)` trước khi phân tách (Mục 3.1).",
+      "expected_answer": "1. Dư thừa dữ liệu: HOTEN, NGAYSINH, LOP của một sinh viên bị lặp lại theo mỗi môn thi.\n2. Mâu thuẫn khi bổ sung: nhập điểm môn mới nhưng ghi khác lớp gây thiếu nhất quán.\n3. Dị thường khi bổ sung: không thêm được thông tin sinh viên nếu chưa có điểm ít nhất một môn.\n4. Dị thường khi xóa: xóa bộ điểm thi duy nhất làm mất luôn thông tin cá nhân của sinh viên."
+    },
+    {
+      "id": 2,
+      "question": "Phát biểu điều kiện của một phép tách hợp lệ $\\rho = (R_1, R_2, \\dots, R_n)$ trên $R(U, F)$ và định nghĩa phép tách bảo toàn thông tin.",
+      "expected_answer": "- Phép tách hợp lệ: hợp tập thuộc tính các lược đồ con phải bằng $U$, tức $\\bigcup_{i=1}^n U_i = U$.\n- Phép tách bảo toàn thông tin: với mọi quan hệ $r$ trên $R(U, F)$ thì $r = \\Pi_{R_1}(r) * \\Pi_{R_2}(r) * \\dots * \\Pi_{R_m}(r)$ (tách ra rồi nối tự nhiên lại thu được đúng $r$ ban đầu, không sinh bộ giả)."
+    },
+    {
+      "id": 3,
+      "question": "Phát biểu Định lý Decobel (Delobel) cho phép tách đôi $\\rho = (R_1, R_2)$ của lược đồ $R(U, F)$.",
+      "expected_answer": "Phép tách đôi $\\rho = (R_1, R_2)$ là bảo toàn thông tin khi và chỉ khi:\n$(R_1 \\cap R_2) \\to (R_1 \\setminus R_2) \\in F^+$ hoặc $(R_1 \\cap R_2) \\to (R_2 \\setminus R_1) \\in F^+$.\n(Tức phần giao $R_1 \\cap R_2$ là siêu khóa của ít nhất một trong hai lược đồ con $R_1$ hoặc $R_2$)."
+    },
+    {
+      "id": 4,
+      "question": "Nêu quy tắc gán giá trị Bước 1, quy tắc ưu tiên Bước 2 và điều kiện kết luận Bước 3 trong Thuật toán Bảng (Chase) kiểm tra phép tách bảo toàn thông tin.",
+      "expected_answer": "- Bước 1: Lập bảng $m$ hàng $\\times$ $n$ cột; ô $(i, j) = a_j$ nếu $A_j \\in R_i$, ngược lại gán $b_{ij}$.\n- Bước 2: Lần lượt xét $(X \\to Y) \\in F$; nếu 2 hàng bằng nhau trên $X$ thì làm bằng trên $Y$, ưu tiên đổi thành $a_j$ (nếu có), ngược lại chọn một ký hiệu $b$ chung; lặp đến khi dừng.\n- Bước 3: Bảng cuối có ít nhất 1 hàng toàn $a_1, a_2, \\dots, a_n$ $\\Rightarrow$ bảo toàn thông tin; ngược lại $\\Rightarrow$ mất thông tin."
+    },
+    {
+      "id": 5,
+      "question": "Viết công thức xác định hình chiếu $\\Pi_{U_i}(F)$ và điều kiện để phép tách $\\rho = (R_1, \\dots, R_k)$ bảo toàn phụ thuộc hàm.",
+      "expected_answer": "- Hình chiếu của $F$ trên $U_i \\subseteq U$: $\\Pi_{U_i}(F) = \\{X \\to A \\in F^+ \\mid X, A \\subseteq U_i \\text{ và } A \\notin X\\}$.\n- Phép tách $\\rho = (R_1, \\dots, R_k)$ với $F_i = \\Pi_{U_i}(F)$ bảo toàn phụ thuộc hàm khi và chỉ khi $\\left(\\bigcup_{i=1}^k F_i\\right)^+ = F^+$."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Bài 1 (Giáo trình): Chứng minh suy diễn, Tìm khóa và Kiểm tra bảo toàn thông tin trên R(B, O, I, S, Q, D)",
+      "problem": "Cho lược đồ quan hệ $R(B, O, I, S, Q, D)$ và tập phụ thuộc hàm $F = \\{S \\to D, I \\to B, IS \\to Q, B \\to Q\\}$.\na. Chứng minh rằng nếu quan hệ $r$ xác định trên $R$ thỏa mãn $F$ thì $r$ cũng thỏa mãn phụ thuộc hàm $I \\to BQ$.\nb. Tính $(IS)^+$, từ đó suy ra tất cả các khóa của lược đồ.\nc. Kiểm tra phép tách $\\rho = (SD, IB, ISQ, BO)$ có bảo toàn thông tin hay không bằng Thuật toán bảng.",
+      "solution_steps": [
+        "Bước 1 (Câu a - Chứng minh $I \\to BQ$):\n- Cần chứng minh với mọi hai bộ $t_1, t_2 \\in r$, nếu $t_1[I] = t_2[I]$ thì $t_1[BQ] = t_2[BQ]$.\n- Vì $r$ thỏa $I \\to B$: từ $t_1[I] = t_2[I] \\implies t_1[B] = t_2[B]$ (1).\n- Vì $r$ thỏa $B \\to Q$: từ $t_1[B] = t_2[B] \\implies t_1[Q] = t_2[Q]$ (2).\n- Kết hợp (1) và (2), nếu $t_1[I] = t_2[I]$ thì $t_1[BQ] = t_2[BQ]$, tức $r$ thỏa mãn $I \\to BQ$.",
+        "Bước 2 (Câu b - Tính $(IS)^+$ và tìm tất cả các khóa):\n- Tính bao đóng: $(IS)^+_F = ISQDB$ (do $IS \\to Q$, $I \\to B$, $S \\to D$).\n- Nhận xét thuộc tính $O$ không xuất hiện ở vế phải của bất kỳ PTH nào trong $F$, nên $O$ phải có mặt trong mọi khóa của $R$.\n- Thử tập $ISO$: $(ISO)^+ = BOISQD = U$. Không có tập con thực sự nào của $ISO$ là siêu khóa vì $(IS)^+ \\neq U$, $(IO)^+ = IOBQ \\neq U$, $(SO)^+ = SOD \\neq U$. Vậy $ISO$ là khóa duy nhất của $R$.",
+        "Bước 3 (Câu c - Thiết lập bảng Chase cho $\\rho = (SD, IB, ISQ, BO)$ trên thứ tự cột $B, O, I, S, Q, D$):\n- Hàng 1 (`SD`): $(b_{11}, b_{12}, b_{13}, a_4, b_{15}, a_6)$\n- Hàng 2 (`IB`): $(a_1, b_{22}, a_3, b_{24}, b_{25}, b_{26})$\n- Hàng 3 (`ISQ`): $(b_{31}, b_{32}, a_3, a_4, a_5, b_{36})$\n- Hàng 4 (`BO`): $(a_1, a_2, b_{43}, b_{44}, b_{45}, b_{46})$",
+        "Bước 4 (Câu c - Biến đổi bảng theo từng PTH của $F$):\n- Xét $S \\to D$ (hàng 1 và 3 giống trên $S = a_4$): thay $b_{36} = a_6$.\n- Xét $I \\to B$ (hàng 2 và 3 giống trên $I = a_3$): thay $b_{31} = a_1$.\n- Xét $B \\to Q$ (hàng 2, 3, 4 giống trên $B = a_1$): thay $b_{25} = a_5$ và $b_{45} = a_5$.\n- Bảng cuối cùng:\n  + `SD`: $(b_{11}, b_{12}, b_{13}, a_4, b_{15}, a_6)$\n  + `IB`: $(a_1, b_{22}, a_3, b_{24}, a_5, b_{26})$\n  + `ISQ`: $(a_1, b_{32}, a_3, a_4, a_5, a_6)$\n  + `BO`: $(a_1, a_2, b_{43}, b_{44}, a_5, b_{46})$",
+        "Bước 5 (Kết luận câu c):\n- Không có hàng nào trong bảng cuối cùng chứa toàn các ký hiệu $(a_1, a_2, a_3, a_4, a_5, a_6)$ (vì cột $O$ chỉ có $a_2$ ở hàng `BO` và không có PTH nào suy ra $O$).\n- Kết luận: Phép tách $\\rho = (SD, IB, ISQ, BO)$ là **không bảo toàn thông tin** (mất thông tin)."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài 2 (Giáo trình): Kiểm tra tương đương tập PTH, Chứng minh phủ cực tiểu và Kiểm tra bảo toàn thông tin",
+      "problem": "Cho lược đồ quan hệ $R(U, F)$ với $U = ABCD$ và các tập phụ thuộc hàm: $F_1 = \\{B \\to A, B \\to D\\}$, $F_2 = \\{B \\to D, D \\to C\\}$, $F_3 = \\{B \\to A, D \\to C\\}$.\na. Cho $G = \\{B \\to D, B \\to A, D \\to C\\}$. Xét xem $G$ có tương đương với $F_i$ ($i = 1..3$) nào không?\nb. Cho $F = \\{AB \\to C, B \\to DA, D \\to C\\}$. Chứng minh rằng $G$ là phủ cực tiểu của $F$.\nc. Xét lược đồ quan hệ $U$, tập phụ thuộc hàm $G$ và phép tách $\\rho = (AB, CD, CB)$. Phép tách này có mất thông tin không?",
+      "solution_steps": [
+        "Bước 1 (Câu a - Kiểm tra tính tương đương giữa $G$ và $F_1, F_2, F_3$):\n- Xét $F_1$: Lấy $D \\to C \\in G$. Vì $(D)^+_{F_1} = D$ không chứa $C$ nên $D \\to C \\notin F_1^+$. Vậy $G$ không tương đương $F_1$.\n- Xét $F_2$: Lấy $B \\to A \\in G$. Vì $(B)^+_{F_2} = BDC$ không chứa $A$ nên $B \\to A \\notin F_2^+$. Vậy $G$ không tương đương $F_2$.\n- Xét $F_3$: Lấy $B \\to D \\in G$. Vì $(B)^+_{F_3} = BA$ không chứa $D$ nên $B \\to D \\notin F_3^+$. Vậy $G$ không tương đương $F_3$.",
+        "Bước 2 (Câu b - Tách vế phải thành 1 thuộc tính và loại thuộc tính dư thừa vế trái):\n- Bước 1 phủ cực tiểu: Tách vế phải của $F$ để vế phải chỉ có 1 thuộc tính: $F' = \\{AB \\to C, B \\to D, B \\to A, D \\to C\\}$.\n- Bước 2 phủ cực tiểu (kiểm tra vế trái $AB \\to C$): $(AB \\setminus B)^+_{F'} = A^+ = A$ không chứa $C$ (nên $B$ không dư thừa); $(AB \\setminus A)^+_{F'} = B^+ = BDAC$ chứa $C$ (nên $A$ dư thừa). Thay $AB \\to C$ bởi $B \\to C$, được $F'' = \\{B \\to C, B \\to D, B \\to A, D \\to C\\}$.",
+        "Bước 3 (Câu b - Loại bỏ PTH dư thừa để kết luận $G$ là phủ cực tiểu):\n- Xét $B \\to C \\in F''$: Đặt $H = F'' \\setminus \\{B \\to C\\} = G$. Vì $(B)^+_H = BDAC \\ni C$ nên $B \\to C$ suy diễn được từ $H$ (dư thừa), loại khỏi $F''$ còn lại $G = \\{B \\to D, B \\to A, D \\to C\\}$.\n- Xét 3 PTH còn lại trong $G$: loại $B \\to D$ được $F_3$ (theo câu a, $B^+_{F_3} = BA \\not\\ni D$); loại $B \\to A$ được $F_2$ ($B^+_{F_2} = BDC \\not\\ni A$); loại $D \\to C$ được $F_1$ ($D^+_{F_1} = D \\not\\ni C$). Vậy không PTH nào dư thừa, $G$ là phủ cực tiểu của $F$.",
+        "Bước 4 (Câu c - Thiết lập và biến đổi bảng Chase cho $\\rho = (AB, CD, CB)$ với $G$):\n- Bảng khởi tạo trên 4 cột $(A, B, C, D)$:\n  + `AB`: $(a_1, a_2, b_{13}, b_{14})$\n  + `CD`: $(b_{21}, b_{22}, a_3, a_4)$\n  + `CB`: $(b_{31}, a_2, a_3, b_{34})$\n- Biến đổi bảng:\n  + Xét $B \\to A$ (hàng `AB` và `CB` giống trên $B = a_2$): thay $b_{31} = a_1$.\n  + Xét $B \\to D$ (hàng `AB` và `CB` giống trên $B = a_2$): thay $b_{34} = b_{14}$.\n  + Xét $D \\to C$ (hàng `AB` và `CB` không có $a_4$, nhưng... khoan: hàng `CD` có $D = a_4$, còn `AB` và `CB` đều có $D = b_{14}$, vậy chỉ khi so với `CD`? Không! Hàng `AB` có $C = b_{13}$, hàng `CB` có $C = a_3$, và cả `AB` lẫn `CB` đều có $D = b_{14}$! Do cùng $D = b_{14}$ nên `D -> C` làm bằng cột $C$ giữa `AB` và `CB`: thay $b_{13} = a_3$!).",
+        "Bước 5 (Kết luận câu c):\n- Bảng cuối cùng thu được:\n  + `AB`: $(a_1, a_2, a_3, b_{14})$\n  + `CD`: $(b_{21}, b_{22}, a_3, a_4)$\n  + `CB`: $(a_1, a_2, a_3, b_{14})$\n- Không có hàng nào chứa toàn $(a_1, a_2, a_3, a_4)$ (dù áp dụng hết $G$ không biến đổi được nữa). Vậy phép tách $\\rho = (AB, CD, CB)$ là **mất thông tin**."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bài 3 (Giáo trình): Chứng minh suy diễn, Tìm phủ tối thiểu và Kiểm tra phép tách trên R(A, B, C, D)",
+      "problem": "Cho lược đồ quan hệ $R(A, B, C, D)$ và tập phụ thuộc hàm $F = \\{A \\to C, AC \\to AB\\}$.\na. Chứng minh $A \\to B$ thuộc $F^+$.\nb. Tìm tập phụ thuộc hàm tối thiểu $G$ của $F$.\nc. Cho phép tách $\\rho = (AB, AC)$ có phải là phép tách không mất thông tin không? Tại sao?\nd. Tìm một phép tách của $R$ bảo toàn tập các phụ thuộc hàm $G$.",
+      "solution_steps": [
+        "Bước 1 (Câu a - Chứng minh $A \\to B \\in F^+$ bằng hệ tiên đề Armstrong):\n- Từ $A \\to C \\in F$, áp dụng tiên đề tăng trưởng (thêm $A$ vào hai vế) ta có $A \\to AC$.\n- Kết hợp với $AC \\to AB \\in F$, áp dụng tiên đề bắc cầu suy ra $A \\to AB$.\n- Áp dụng luật tách, từ $A \\to AB$ suy ra $A \\to B \\in F^+$.",
+        "Bước 2 (Câu b - Tìm tập phụ thuộc hàm tối thiểu $G$ của $F$):\n- Bước 1 (Vế phải 1 thuộc tính): Tách $AC \\to AB$ thành $AC \\to A$ và $AC \\to B$. Loại bỏ PTH tầm thường $AC \\to A$, còn $F_1 = \\{A \\to C, AC \\to B\\}$.\n- Bước 2 (Loại thuộc tính dư ở vế trái): Xét $AC \\to B$, ta có $(AC \\setminus C)^+_F = A^+_F = ABC \\ni B$ nên $C$ dư thừa. Thay $AC \\to B$ bằng $A \\to B$, được $F_2 = \\{A \\to C, A \\to B\\}$.\n- Bước 3 (Kiểm tra PTH dư thừa): $A \\to C$ không suy được từ $\\{A \\to B\\}$, và $A \\to B$ không suy được từ $\\{A \\to C\\}$. Vậy $G = \\{A \\to C, A \\to B\\}$.",
+        "Bước 3 (Câu c - Kiểm tra $\\rho = (AB, AC)$ bằng Thuật toán bảng và nhận xét về $D$):\n- Lập bảng 2 hàng $\\times$ 4 cột $(A, B, C, D)$:\n  + `AB`: $(a_1, a_2, b_{13}, b_{14})$\n  + `AC`: $(a_1, b_{22}, a_3, b_{24})$\n- Áp dụng $A \\to B$ (hai hàng bằng nhau trên $A = a_1$): thay $b_{22} = a_2$.\n- Áp dụng $A \\to C$ (hai hàng bằng nhau trên $A = a_1$): thay $b_{13} = a_3$.\n- Bảng cuối cùng: `AB`: $(a_1, a_2, a_3, b_{14})$, `AC`: $(a_1, a_2, a_3, b_{24})$.",
+        "Bước 4 (Kết luận câu c & câu d):\n- Câu c: Trong bảng cuối cùng không có hàng nào toàn $(a_1, a_2, a_3, a_4)$ (do thuộc tính $D$ không có mặt ở cả `AB` lẫn `AC`, nên $\\rho = (AB, AC)$ thậm chí chưa phủ hết $U = ABCD$ và hoàn toàn mất thông tin về $D$).\n- Câu d: Theo lời giải giáo trình, $\\rho = (AC, AB)$ bảo toàn các PTH của $G = \\{A \\to C, A \\to B\\}$ (vì $\\Pi_{AC}(G) = \\{A \\to C\\}$, $\\Pi_{AB}(G) = \\{A \\to B\\}$). Tuy nhiên để là phép tách hợp lệ đủ 4 thuộc tính của $R(A,B,C,D)$ theo Mục 3.2, ta bổ sung thêm $D$, chẳng hạn $\\rho' = (AC, AB, D)$ hoặc $\\rho'' = (ABC, AD)$ (khi đó $\\rho'' = (ABC, AD)$ vừa đủ $ABCD$, vừa bảo toàn $G$, vừa bảo toàn thông tin!)."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bài 4 (Giáo trình): Kiểm tra phép tách bảo toàn thông tin cho R(A, B, C, D, E) với 5 lược đồ con",
+      "problem": "Cho lược đồ $R(U, F)$ với $U = ABCDE$, $F = \\{A \\to C, B \\to C, C \\to D, DE \\to C, DE \\to A\\}$ và phép tách $\\rho = (AD, AB, BE, CDE, AE)$. Kiểm tra phép tách $\\rho$ có bảo toàn thông tin không?",
+      "solution_steps": [
+        "Bước 1 (Thiết lập bảng $5 \\times 5$ trên các cột $A, B, C, D, E$):\n- `AD`: $(a_1, b_{12}, b_{13}, a_4, b_{15})$\n- `AB`: $(a_1, a_2, b_{23}, b_{24}, b_{25})$\n- `BE`: $(b_{31}, a_2, b_{33}, b_{34}, a_5)$\n- `CDE`: $(b_{41}, b_{42}, a_3, a_4, a_5)$\n- `AE`: $(a_1, b_{52}, b_{53}, b_{54}, a_5)$",
+        "Bước 2 (Áp dụng $A \\to C$ và $B \\to C$):\n- Xét $A \\to C$ (các hàng `AD`, `AB`, `AE` đều có $A = a_1$): thay $b_{23}$ và $b_{53}$ cùng bằng $b_{13}$.\n- Xét $B \\to C$ (các hàng `AB` và `BE` đều có $B = a_2$): thay $b_{33}$ bằng $b_{13}$.\n- Lúc này cột $C$ của 4 hàng `AD`, `AB`, `BE`, `AE` đều là $b_{13}$; hàng `CDE` vẫn là $a_3$.",
+        "Bước 3 (Áp dụng $C \\to D$ và $DE \\to C$):\n- Xét $C \\to D$ (4 hàng `AD`, `AB`, `BE`, `AE` giống nhau trên $C = b_{13}$, mà hàng `AD` có $D = a_4$): ưu tiên $a_4$, thay $b_{24}, b_{34}, b_{54}$ cùng bằng $a_4$.\n- Xét $DE \\to C$ (các hàng `BE`, `CDE`, `AE` lúc này đều có $DE = (a_4, a_5)$, trong đó hàng `CDE` có $C = a_3$): ưu tiên $a_3$, nên $b_{13}$ ở `BE`, `AE` (và theo đó ở cả `AD`, `AB` đang mang cùng giá trị $b_{13}$) đồng loạt đổi thành $a_3$.",
+        "Bước 4 (Áp dụng $DE \\to A$ và thu bảng cuối cùng):\n- Xét $DE \\to A$ (các hàng `BE`, `CDE`, `AE` đều có $DE = (a_4, a_5)$, trong đó `AE` có $A = a_1$): ưu tiên $a_1$, thay $b_{31}$ và $b_{41}$ cùng bằng $a_1$.\n- Bảng cuối cùng:\n  + `AD`: $(a_1, b_{12}, a_3, a_4, b_{15})$\n  + `AB`: $(a_1, a_2, a_3, a_4, b_{25})$\n  + `BE`: $(a_1, a_2, a_3, a_4, a_5)$\n  + `CDE`: $(a_1, b_{42}, a_3, a_4, a_5)$\n  + `AE`: $(a_1, b_{52}, a_3, a_4, a_5)$",
+        "Bước 5 (Kết luận):\n- Từ bảng cuối cùng, dòng 3 (`BE`) chứa trọn bộ $(a_1, a_2, a_3, a_4, a_5)$.\n- Kết luận: Phép tách $\\rho = (AD, AB, BE, CDE, AE)$ là **bảo toàn thông tin**."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bài 5 (Giáo trình - Mục 3.4): Kiểm tra phép tách bảo toàn thông tin trên R(A, B, C, D, E, F)",
+      "problem": "Cho lược đồ $R(U, F)$ với $U = ABCDEF$, $F = \\{AB \\to C, C \\to B, ABD \\to E, F \\to A\\}$ và phép tách $\\rho = \\{BC, AC, ABDE, ABDF\\}$. Kiểm tra $\\rho$ có bảo toàn thông tin không?",
+      "solution_steps": [
+        "Bước 1 (Thiết lập bảng $4 \\times 6$ trên các cột $A, B, C, D, E, F$):\n- `BC`: $(b_{11}, a_2, a_3, b_{14}, b_{15}, b_{16})$\n- `AC`: $(a_1, b_{22}, a_3, b_{24}, b_{25}, b_{26})$\n- `ABDE`: $(a_1, a_2, b_{33}, a_4, a_5, b_{36})$\n- `ABDF`: $(a_1, a_2, b_{43}, a_4, b_{45}, a_6)$",
+        "Bước 2 (Áp dụng $AB \\to C$ lần 1 và $C \\to B$):\n- Áp dụng $AB \\to C$: hàng 3 (`ABDE`) và hàng 4 (`ABDF`) giống nhau trên $AB = (a_1, a_2)$, thay $b_{43}$ bằng $b_{33}$.\n- Áp dụng $C \\to B$: hàng 1 (`BC`) và hàng 2 (`AC`) giống nhau trên $C = a_3$, ưu tiên $a_2$, thay $b_{22}$ bằng $a_2$.",
+        "Bước 3 (Áp dụng $ABD \\to E$ và áp dụng lại $AB \\to C$):\n- Áp dụng $ABD \\to E$: hàng 3 (`ABDE`) và hàng 4 (`ABDF`) giống nhau trên $ABD = (a_1, a_2, a_4)$, ưu tiên $a_5$, thay $b_{45}$ bằng $a_5$.\n- Áp dụng lại $AB \\to C$: lúc này hàng 2 (`AC`), hàng 3 (`ABDE`) và hàng 4 (`ABDF`) đều có $AB = (a_1, a_2)$, ưu tiên $a_3$ ở hàng `AC`, thay cả hai giá trị $b_{33}$ ở hàng 3 và hàng 4 bằng $a_3$.",
+        "Bước 4 (Bảng cuối cùng & Kết luận):\n- Bảng cuối cùng:\n  + `BC`: $(b_{11}, a_2, a_3, b_{14}, b_{15}, b_{16})$\n  + `AC`: $(a_1, a_2, a_3, b_{24}, b_{25}, b_{26})$\n  + `ABDE`: $(a_1, a_2, a_3, a_4, a_5, b_{36})$\n  + `ABDF`: $(a_1, a_2, a_3, a_4, a_5, a_6)$\n- Vì dòng 4 (`ABDF`) chứa toàn $(a_1, a_2, a_3, a_4, a_5, a_6)$, phép tách $\\rho$ là **bảo toàn thông tin**."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bài 6 (Giáo trình): Kiểm tra phép tách mất thông tin trên R(B, O, I, S, Q, D)",
+      "problem": "Cho lược đồ $R(U, F)$ với $U = \\{B, O, I, S, Q, D\\}$, $F = \\{S \\to D, I \\to B, IS \\to Q, B \\to Q\\}$ và phép tách $\\rho = (BQ, BO, IS, IB, SD)$. Kiểm tra phép tách trên có bảo toàn thông tin không?",
+      "solution_steps": [
+        "Bước 1 (Thiết lập bảng $5 \\times 6$ trên các cột $B, O, I, S, Q, D$):\n- `BQ`: $(a_1, b_{12}, b_{13}, b_{14}, a_5, b_{16})$\n- `BO`: $(a_1, a_2, b_{23}, b_{24}, b_{25}, b_{26})$\n- `IS`: $(b_{31}, b_{32}, a_3, a_4, b_{35}, b_{36})$\n- `IB`: $(a_1, b_{42}, a_3, b_{44}, b_{45}, b_{46})$\n- `SD`: $(b_{51}, b_{52}, b_{53}, a_4, b_{55}, a_6)$",
+        "Bước 2 (Biến đổi bảng theo từng PTH của $F$):\n- Áp dụng $S \\to D$ (hàng `IS` và `SD` giống trên $S = a_4$): thay $b_{36}$ bằng $a_6$.\n- Áp dụng $I \\to B$ (hàng `IS` và `IB` giống trên $I = a_3$): thay $b_{31}$ bằng $a_1$.\n- Áp dụng $B \\to Q$ (các hàng `BQ`, `BO`, `IS`, `IB` đều có $B = a_1$, trong đó `BQ` có $Q = a_5$): thay $b_{25}, b_{35}, b_{45}$ cùng bằng $a_5$.\n- Áp dụng $IS \\to Q$: hàng `IS` đã có $Q = a_5$, không có hàng nào khác có $IS = (a_3, a_4)$ nên không biến đổi thêm được.",
+        "Bước 3 (Bảng cuối cùng):\n- `BQ`: $(a_1, b_{12}, b_{13}, b_{14}, a_5, b_{16})$\n- `BO`: $(a_1, a_2, b_{23}, b_{24}, a_5, b_{26})$\n- `IS`: $(a_1, b_{32}, a_3, a_4, a_5, a_6)$\n- `IB`: $(a_1, b_{42}, a_3, b_{44}, a_5, b_{46})$\n- `SD`: $(b_{51}, b_{52}, b_{53}, a_4, b_{55}, a_6)$",
+        "Bước 4 (Kết luận):\n- Không có hàng nào trong bảng cuối cùng chứa toàn các ký hiệu $(a_1, a_2, a_3, a_4, a_5, a_6)$ (thuộc tính $O$ chỉ có $a_2$ ở hàng `BO`, không thể lan truyền sang `IS`).\n- Vậy phép tách $\\rho = (BQ, BO, IS, IB, SD)$ là **mất thông tin**."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bài 7 (Giáo trình - Tự giải): Phân tích toàn diện khóa, dạng chuẩn, phân rã 3NF & BCNF trên R(A, B, C, D, E)",
+      "problem": "Xét quan hệ $R(A, B, C, D, E)$ và tập phụ thuộc hàm $F = \\{AB \\to C, CD \\to E, DE \\to B\\}$.\na. Tìm một khóa của lược đồ quan hệ trên.\nb. Tìm tất cả các khóa của lược đồ quan hệ.\nc. Xác định dạng chuẩn cao nhất của lược đồ quan hệ.\nd. Phân rã lược đồ quan hệ về 3NF bảo toàn PTH.\ne. Kiểm tra kết quả phân rã ở câu d có phải là phân rã bảo toàn thông tin không?\nf. Phân rã lược đồ quan hệ ban đầu về BCNF bảo toàn thông tin.\nh. Kiểm tra kết quả phân rã ở câu f có phải là phân rã bảo toàn phụ thuộc hàm không?",
+      "solution_steps": [
+        "Bước 1 (Câu a & b - Tìm một khóa và tất cả các khóa của $R$):\n- Hai thuộc tính $A$ và $D$ không xuất hiện ở vế phải bất kỳ PTH nào trong $F$, nên mọi khóa đều phải chứa $AD$.\n- $(AD)^+ = AD \\neq ABCDE$. Thử bổ sung từng thuộc tính còn lại:\n  + $(ABD)^+ = ABCDE$ (vì $AB \\to C, CD \\to E$).\n  + $(ACD)^+ = ABCDE$ (vì $CD \\to E, DE \\to B$).\n  + $(ADE)^+ = ABCDE$ (vì $DE \\to B, AB \\to C$).\n- Vì không có tập con thực sự nào của $ABD, ACD, ADE$ là siêu khóa, tập tất cả các khóa của $R$ là: $K_1 = ABD, K_2 = ACD, K_3 = ADE$.",
+        "Bước 2 (Câu c - Dạng chuẩn cao nhất):\n- Tập các thuộc tính khóa là $ABD \\cup ACD \\cup ADE = \\{A, B, C, D, E\\}$ (tức **tất cả các thuộc tính đều là thuộc tính khóa**, không có thuộc tính không khóa nào).\n- Do đó $R$ đã thỏa 1NF, 2NF và **3NF**.\n- Tuy nhiên, cả 3 PTH $AB \\to C$, $CD \\to E$, $DE \\to B$ đều có vế trái không phải là siêu khóa của $R$, nên $R$ chưa đạt BCNF. Vậy dạng chuẩn cao nhất của $R$ là **3NF**.",
+        "Bước 3 (Câu d & e - Phân rã 3NF bảo toàn PTH và kiểm tra bảo toàn thông tin):\n- Vì $R$ bản thân đã đạt **3NF**, có thể giữ nguyên $R(A,B,C,D,E)$ (hiển nhiên bảo toàn cả PTH và thông tin); hoặc nếu áp dụng thuật toán tổng hợp 3NF cho phủ cực tiểu $F = \\{AB \\to C, CD \\to E, DE \\to B\\}$ có bổ sung khóa $ABD$: thu được $\\rho_{3NF} = (ABC, CDE, DEB, ABD)$.\n- Kiểm tra $\\rho_{3NF}$ bằng Thuật toán bảng (câu e): hàng `ABD` ban đầu là $(a_1, a_2, b_{43}, a_4, b_{45})$; áp dụng $AB \\to C$ (với `ABC`) đổi $b_{43}=a_3$, rồi $CD \\to E$ (với `CDE`) đổi $b_{45}=a_5$, giúp hàng `ABD` thành $(a_1, a_2, a_3, a_4, a_5)$ $\\implies$ **bảo toàn thông tin** *(lưu ý nếu quên bổ sung `ABD` thì `(ABC, CDE, DEB)` sẽ mất thông tin)*.",
+        "Bước 4 (Câu f & h - Phân rã BCNF bảo toàn thông tin và kiểm tra bảo toàn PTH):\n- Chọn $AB \\to C$ vi phạm BCNF để tách $R(ABCDE)$ thành $R_1(ABC)$ (khóa $AB$, đạt BCNF) và $R_2(ABDE)$ (các PTH chiếu lên $ABDE$ gồm $DE \\to B$; khóa của $R_2$ là $ABD, ADE$).\n- Trên $R_2(ABDE)$, $DE \\to B$ vi phạm BCNF nên tách tiếp thành $R_{21}(DEB)$ (khóa $DE$, đạt BCNF) và $R_{22}(ADE)$ (không có PTH phi tầm thường, đạt BCNF).\n- Kết quả BCNF bảo toàn thông tin (mỗi bước tách thỏa Định lý Decobel): $\\rho_{BCNF} = (ABC, DEB, ADE)$.\n- Kiểm tra câu h (Bảo toàn PTH): $\\Pi_{ABC}(F) = \\{AB \\to C\\}$, $\\Pi_{DEB}(F) = \\{DE \\to B\\}$, $\\Pi_{ADE}(F) = \\emptyset$. Trong hợp $G = \\{AB \\to C, DE \\to B\\}$, ta có $(CD)^+_G = CD \\not\\ni E$, nên **PTH $CD \\to E$ bị mất** (phép tách BCNF này không bảo toàn PTH)."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bài 8 (Giáo trình - Tự giải): Tìm khóa, kiểm tra 2NF và phân tách 3NF/BCNF trên R(A,B,C,D,E,G,L,M,N)",
+      "problem": "Cho lược đồ quan hệ $R(U, F)$ với $U = ABCDEGLMN$ và $F = \\{C \\to EGL, GL \\to ABC, AC \\to DN, EC \\to AB\\}$.\na. Tìm tất cả các khóa của lược đồ quan hệ trên.\nb. Lược đồ quan hệ trên đã thỏa 2NF chưa? Tại sao?\nc. Dùng phép tách bảo tồn phụ thuộc hàm để tách $R$ thành các lược đồ con thỏa dạng chuẩn 3NF.\nd. Dùng phép tách có nối kết không mất thông tin để tách $R$ thành các lược đồ con thỏa BCNF.",
+      "solution_steps": [
+        "Bước 1 (Câu a - Tìm tất cả các khóa của $R$):\n- Thuộc tính $M$ không xuất hiện ở vế phải của bất kỳ PTH nào trong $F$, nên $M$ phải nằm trong mọi khóa.\n- Xét $C$: $C^+ = CEGLABDN$ (vì $C \\to EGL$, $GL \\to ABC$, $AC \\to DN$). Do đó $(CM)^+ = ABCDEGLMN = U$.\n- Xét $GL$: $(GL)^+ = GLABCE DN$ (vì $GL \\to ABC$, $C \\to EGL$, $AC \\to DN$). Do đó $(GLM)^+ = U$.\n- Vì $M^+ = M \\neq U$, $C^+ \\neq U$, $(GL)^+ \\neq U$, $(GM)^+ = GM$, $(LM)^+ = LM$, không có tập con thực sự nào của $CM$ hoặc $GLM$ là siêu khóa. Vậy $R$ có 2 khóa là $CM$ và $GLM$.",
+        "Bước 2 (Câu b - Kiểm tra dạng chuẩn 2NF):\n- Các thuộc tính khóa: $\\{C, G, L, M\\}$. Các thuộc tính không khóa: $\\{A, B, D, E, N\\}$.\n- Xét phụ thuộc $C \\to E$ (rút từ $C \\to EGL$): $E$ là thuộc tính không khóa phụ thuộc hàm vào $C$, mà $C$ là tập con thực sự của khóa $CM$ (tương tự $GL \\to A$ với $GL \\subset GLM$).\n- Kết luận: $R$ **chưa đạt 2NF** vì tồn tại phụ thuộc bộ phận của thuộc tính không khóa vào một phần của khóa.",
+        "Bước 3 (Câu c - Tìm phủ cực tiểu và phân tách về 3NF bảo toàn PTH):\n- Tách vế phải: $C \\to E, G, L$; $GL \\to A, B, C$; $AC \\to D, N$; $EC \\to A, B$.\n- Loại thuộc tính dư vế trái: vì $C^+ = ABCDEGLN$, nên ở $AC \\to D, N$ bỏ được $A$ (còn $C \\to D, N$), ở $EC \\to A, B$ bỏ được $E$ (còn $C \\to A, B$).\n- Loại PTH dư: từ $GL \\to C$ và $C \\to A, B$ suy ra $GL \\to A, B$, nên $GL \\to A$ và $GL \\to B$ dư thừa. Phủ cực tiểu là $G = \\{C \\to A, B, D, E, G, L, N; \\; GL \\to C\\}$.\n- Tổng hợp 3NF: nhóm các PTH theo vế trái thu được $R_1(ABCDEGLN)$ (chứa luôn cả $GL \\to C$) và bổ sung khóa $R_2(CM)$. Vậy $\\rho_{3NF} = (ABCDEGLN, CM)$ bảo toàn PTH.",
+        "Bước 4 (Câu d - Phân tách về BCNF bảo toàn thông tin):\n- Trên $R(ABCDEGLMN)$, $C \\to ABDEGLN$ vi phạm BCNF vì $C$ không phải siêu khóa của $R$.\n- Tách $R$ theo $C \\to ABDEGLN$ thành $R_1(C^+ = ABCDEGLN)$ và $R_2(U \\setminus (C^+ \\setminus C) = CM)$.\n- Kiểm tra $R_1(ABCDEGLN)$: các khóa của $R_1$ là $C$ và $GL$; mọi PTH chiếu lên $R_1$ ($C \\to ABDEGLN$ và $GL \\to C$) đều có vế trái là siêu khóa của $R_1$, nên $R_1$ đạt **BCNF**.\n- Kiểm tra $R_2(CM)$: chỉ có 2 thuộc tính, không có PTH phi tầm thường, nên $R_2$ đạt **BCNF**.\n- Giao $R_1 \\cap R_2 = C \\to R_1 \\setminus R_2$, nên theo Định lý Decobel phép tách $\\rho_{BCNF} = (ABCDEGLN, CM)$ **bảo toàn thông tin** (và trường hợp đặc biệt này bảo toàn cả PTH)."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bài 9 (Mở rộng): Phân tích 4 dị thường trên SINHVIEN và minh họa bộ giả khi nối tự nhiên",
+      "problem": "Xét bảng thể hiện mẫu 5 bộ của lược đồ `SINHVIEN(HOTEN, NGAYSINH, LOP, MONHOC, DIEM)` trong Mục 3.1: `(Nam, 25/05/2004, Tin K20A, Cơ sở dữ liệu, 7)`, `(Hùng, 11/06/2004, Tin K20B, Cơ sở dữ liệu, 9)`, `(Hoa, 15/07/2003, Tin K20A, Đại số, 10)`, `(Nam, 23/05/2003, Tin K21A, Đại số, 9)`, `(Hoa, 17/07/2004, Tin K20A, Cơ sở dữ liệu, 8)`.\na. Giải thích 4 vấn đề phát sinh nếu giữ nguyên lược đồ `SINHVIEN`.\nb. Nếu tách thành `SVIEN(HOTEN, NGAYSINH, LOP)` và `DIEMTHI(HOTEN, MONHOC, DIEM)`, hãy tính kết quả phép nối tự nhiên `SVIEN * DIEMTHI` trên 5 bộ mẫu và chỉ ra các bộ giả xuất hiện.\nc. Đề xuất khóa/thuộc tính định danh để phép tách vừa hết dị thường vừa bảo toàn thông tin.",
+      "solution_steps": [
+        "Bước 1 (Câu a - 4 vấn đề trên `SINHVIEN`):\n- Dư thừa dữ liệu: `HOTEN, NGAYSINH, LOP` phải lưu lặp lại cho từng môn học sinh viên dự thi.\n- Mâu thuẫn khi bổ sung: nhập điểm môn mới cho một sinh viên nhưng ghi lớp khác sẽ tạo ra hai lớp mâu thuẫn nhau.\n- Dị thường khi bổ sung: không lưu được sinh viên mới nếu chưa có điểm thi tối thiểu một môn.\n- Dị thường khi xóa: xóa điểm thi duy nhất của một sinh viên làm mất sạch thông tin `HOTEN, NGAYSINH, LOP`.",
+        "Bước 2 (Câu b - Tính hình chiếu `SVIEN` và `DIEMTHI` trên 5 bộ mẫu):\n- $\\Pi_{\\text{SVIEN}}(r)$ gồm 5 bộ: `(Nam, 25/05/2004, Tin K20A)`, `(Hùng, 11/06/2004, Tin K20B)`, `(Hoa, 15/07/2003, Tin K20A)`, `(Nam, 23/05/2003, Tin K21A)`, `(Hoa, 17/07/2004, Tin K20A)`.\n- $\\Pi_{\\text{DIEMTHI}}(r)$ gồm 5 bộ: `(Nam, Cơ sở dữ liệu, 7)`, `(Hùng, Cơ sở dữ liệu, 9)`, `(Hoa, Đại số, 10)`, `(Nam, Đại số, 9)`, `(Hoa, Cơ sở dữ liệu, 8)`.",
+        "Bước 3 (Câu b - Thực hiện nối tự nhiên `SVIEN * DIEMTHI` theo `HOTEN`):\n- Với `Hùng` (1 bộ × 1 bộ) thu 1 bộ đúng.\n- Với `Nam` (2 bộ `SVIEN` × 2 bộ `DIEMTHI`) thu 4 bộ, trong đó xuất hiện **2 bộ giả**: `(Nam, 25/05/2004, Tin K20A, Đại số, 9)` và `(Nam, 23/05/2003, Tin K21A, Cơ sở dữ liệu, 7)`.\n- Với `Hoa` (2 bộ `SVIEN` × 2 bộ `DIEMTHI`) thu 4 bộ, trong đó xuất hiện **2 bộ giả**: `(Hoa, 15/07/2003, Tin K20A, Cơ sở dữ liệu, 8)` và `(Hoa, 17/07/2004, Tin K20A, Đại số, 10)`.\n- Tổng cộng có 9 bộ thay vì 5 bộ gốc (dư 4 bộ giả), vì `HOTEN` không phải khóa xác định hàm `NGAYSINH, LOP`.",
+        "Bước 4 (Câu c - Giải pháp bảo toàn thông tin):\n- Bổ sung mã sinh viên `MASV` (duy nhất cho từng sinh viên) sao cho `MASV -> HOTEN, NGAYSINH, LOP`.\n- Tách thành `SVIEN(MASV, HOTEN, NGAYSINH, LOP)` và `DIEMTHI(MASV, MONHOC, DIEM)`. Khi đó giao là `MASV -> HOTEN, NGAYSINH, LOP`, thỏa mãn Định lý Decobel nên phép tách vừa loại bỏ dị thường vừa **bảo toàn thông tin**."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bài 10 (Mở rộng): Áp dụng Định lý Decobel (Delobel) kiểm tra nhanh các phép tách đôi",
+      "problem": "Áp dụng Định lý Decobel để kiểm tra tính bảo toàn thông tin của 4 phép tách đôi sau:\na. $R(A,B,C,D)$, $F = \\{A \\to B, B \\to C, C \\to D\\}$, $\\rho_1 = (AB, BCD)$.\nb. $R(A,B,C,D)$, $F = \\{A \\to B, C \\to D\\}$, $\\rho_2 = (ABC, ABD)$.\nc. $R(A,B,C,D,E)$, $F = \\{AB \\to C, C \\to DE, E \\to A\\}$, $\\rho_3 = (ABC, CDE)$.\nd. $R(A,B,C,D,E)$, $F = \\{A \\to B, BC \\to D, D \\to E\\}$, $\\rho_4 = (ABCD, DE)$.",
+      "solution_steps": [
+        "Bước 1 (Câu a - Xét $\\rho_1 = (AB, BCD)$):\n- Giao $R_1 \\cap R_2 = B$; phần hiệu $R_1 \\setminus R_2 = A$, $R_2 \\setminus R_1 = CD$.\n- Tính $B^+_F = BCD \\supseteq CD$, tức $B \\to CD \\in F^+$.\n- Theo Định lý Decobel, $\\rho_1$ **bảo toàn thông tin**.",
+        "Bước 2 (Câu b - Xét $\\rho_2 = (ABC, ABD)$):\n- Giao $R_1 \\cap R_2 = AB$; $R_1 \\setminus R_2 = C$, $R_2 \\setminus R_1 = D$.\n- Tính $(AB)^+_F = AB$, không chứa $C$ và không chứa $D$, nên $AB \\not\\to C$ và $AB \\not\\to D$.\n- Theo Định lý Decobel, $\\rho_2$ **mất thông tin**.",
+        "Bước 3 (Câu c - Xét $\\rho_3 = (ABC, CDE)$):\n- Giao $R_1 \\cap R_2 = C$; $R_1 \\setminus R_2 = AB$, $R_2 \\setminus R_1 = DE$.\n- Tính $C^+_F$: có $C \\to DE$ (và $E \\to A$), nên $C^+_F = CDEA \\supseteq DE$, tức $C \\to DE \\in F^+$.\n- Theo Định lý Decobel, $\\rho_3$ **bảo toàn thông tin**.",
+        "Bước 4 (Câu d - Xét $\\rho_4 = (ABCD, DE)$):\n- Giao $R_1 \\cap R_2 = D$; $R_1 \\setminus R_2 = ABC$, $R_2 \\setminus R_1 = E$.\n- Tính $D^+_F = DE \\supseteq E$, tức $D \\to E \\in F^+$.\n- Theo Định lý Decobel, $\\rho_4$ **bảo toàn thông tin**."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bài 11 (Mở rộng): Dựng quan hệ mẫu chứng minh sự xuất hiện bộ giả (spurious tuples)",
+      "problem": "Cho lược đồ $R(A, B, C)$ và tập phụ thuộc hàm $F = \\{A \\to C\\}$. Xét phép tách $\\rho = (AB, BC)$.\na. Kiểm tra tính bảo toàn thông tin của $\\rho$ bằng Định lý Decobel và Thuật toán bảng.\nb. Dựng một quan hệ mẫu $r$ trên $R$ gồm đúng 2 bộ thỏa mãn $F$ sao cho $r \\subsetneq \\Pi_{AB}(r) * \\Pi_{BC}(r)$, và chỉ rõ các bộ giả phát sinh.",
+      "solution_steps": [
+        "Bước 1 (Câu a - Kiểm tra bằng Định lý Decobel):\n- Ta có $R_1 = AB, R_2 = BC$, giao $R_1 \\cap R_2 = B$, $R_1 \\setminus R_2 = A$, $R_2 \\setminus R_1 = C$.\n- Tính $B^+_F = B$ không chứa $A$ và không chứa $C$. Vậy $\\rho$ là phép tách **mất thông tin**.",
+        "Bước 2 (Câu a - Kiểm tra lại bằng Thuật toán bảng):\n- Bảng khởi tạo trên 3 cột $(A, B, C)$:\n  + `AB`: $(a_1, a_2, b_{13})$\n  + `BC`: $(b_{21}, a_2, a_3)$\n- Chỉ có PTH $A \\to C$, nhưng cột $A$ trên 2 hàng là $a_1 \\neq b_{21}$, nên không biến đổi được bảng. Không có hàng nào toàn $a \\implies$ **mất thông tin**.",
+        "Bước 3 (Câu b - Dựng quan hệ mẫu $r$ thỏa $F$):\n- Chọn $r = \\{(1, 5, 10), (2, 5, 20)\\}$ (hai bộ có $A$ khác nhau là $1$ và $2$, $C$ khác nhau là $10$ và $20$, nhưng chung $B = 5$).\n- Kiểm tra $r$ thỏa $F = \\{A \\to C\\}$: hai bộ có giá trị $A$ khác nhau ($1 \\neq 2$) nên không vi phạm $A \\to C$.",
+        "Bước 4 (Câu b - Tính phép nối tự nhiên và chỉ ra bộ giả):\n- $\\Pi_{AB}(r) = \\{(1, 5), (2, 5)\\}$ và $\\Pi_{BC}(r) = \\{(5, 10), (5, 20)\\}$.\n- Phép nối tự nhiên $\\Pi_{AB}(r) * \\Pi_{BC}(r) = \\{(1, 5, 10), (1, 5, 20), (2, 5, 10), (2, 5, 20)\\}$.\n- Xuất hiện **2 bộ giả** không hề có trong $r$ ban đầu là $(1, 5, 20)$ và $(2, 5, 10)$, chứng tỏ $r \\subsetneq \\Pi_{AB}(r) * \\Pi_{BC}(r)$."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Bài 12 (Mở rộng): Tính hình chiếu tập PTH (kể cả PTH bắc cầu) và kiểm tra bảo toàn PTH",
+      "problem": "Cho lược đồ $R(A, B, C, D)$ với tập phụ thuộc hàm $F = \\{A \\to B, B \\to C, C \\to D, D \\to A\\}$.\na. Tính hình chiếu $\\Pi_{AC}(F)$ và $\\Pi_{BD}(F)$.\nb. Kiểm tra phép tách $\\rho_1 = (AB, BC, CD)$ có bảo toàn phụ thuộc hàm và bảo toàn thông tin hay không?\nc. Kiểm tra phép tách $\\rho_2 = (AC, BD, AD)$ có bảo toàn phụ thuộc hàm không?",
+      "solution_steps": [
+        "Bước 1 (Câu a - Tính hình chiếu $\\Pi_{AC}(F)$ và $\\Pi_{BD}(F)$):\n- Vì $A \\to B \\to C \\to D \\to A$, nên $A^+_F = B^+_F = C^+_F = D^+_F = ABCD$.\n- Trên $AC$: $A^+ \\cap AC = AC \\implies A \\to C$; $C^+ \\cap AC = AC \\implies C \\to A$. Vậy $\\Pi_{AC}(F) = \\{A \\to C, C \\to A\\}$.\n- Trên $BD$: $B^+ \\cap BD = BD \\implies B \\to D$; $D^+ \\cap BD = BD \\implies D \\to B$. Vậy $\\Pi_{BD}(F) = \\{B \\to D, D \\to B\\}$.",
+        "Bước 2 (Câu b - Kiểm tra bảo toàn PTH cho $\\rho_1 = (AB, BC, CD)$):\n- $\\Pi_{AB}(F) = \\{A \\to B, B \\to A\\}$; $\\Pi_{BC}(F) = \\{B \\to C, C \\to B\\}$; $\\Pi_{CD}(F) = \\{C \\to D, D \\to C\\}$.\n- Hợp $G_1 = \\Pi_{AB}(F) \\cup \\Pi_{BC}(F) \\cup \\Pi_{CD}(F)$: trong $G_1$, từ $D \\to C$, $C \\to B$, $B \\to A$ suy ra được $D \\to A$. Vậy $G_1^+ = F^+ \\implies \\rho_1$ **bảo toàn phụ thuộc hàm**.",
+        "Bước 3 (Câu b - Kiểm tra bảo toàn thông tin cho $\\rho_1 = (AB, BC, CD)$ bằng bảng Chase):\n- Bảng khởi tạo: `AB` $(a_1, a_2, b_{13}, b_{14})$, `BC` $(b_{21}, a_2, a_3, b_{24})$, `CD` $(b_{31}, b_{32}, a_3, a_4)$.\n- Áp dụng $B \\to C$ (hàng `AB` và `BC` cùng $B=a_2$): thay $b_{13} = a_3$.\n- Áp dụng $C \\to D$ (hàng `AB` và `CD` cùng $C=a_3$): thay $b_{14} = a_4$.\n- Hàng `AB` trở thành $(a_1, a_2, a_3, a_4) \\implies \\rho_1$ **bảo toàn thông tin**.",
+        "Bước 4 (Câu c - Kiểm tra bảo toàn PTH cho $\\rho_2 = (AC, BD, AD)$):\n- $\\Pi_{AC}(F) = \\{A \\to C, C \\to A\\}$; $\\Pi_{BD}(F) = \\{B \\to D, D \\to B\\}$; $\\Pi_{AD}(F) = \\{A \\to D, D \\to A\\}$.\n- Hợp $G_2 = \\{A \\leftrightarrow C, B \\leftrightarrow D, A \\leftrightarrow D\\}$: từ $C \\to A \\to D \\to B$ suy ra $C \\to B$ và các PTH còn lại ($A \\to B, B \\to C, C \\to D, D \\to A$). Do đó $G_2^+ = F^+$, vậy $\\rho_2$ cũng **bảo toàn phụ thuộc hàm**."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Bài 13 (Mở rộng): Phân tích thực tế lược đồ NHACC (Nhà cung cấp - Mặt hàng)",
+      "problem": "Cho lược đồ quản lý cung ứng `NHACC(MANCC, TENNCC, DIACHI, MAHANG, TENHANG, DONGIA)` với tập phụ thuộc hàm $F = \\{MANCC \\to TENNCC, DIACHI; \\; MAHANG \\to TENHANG; \\; MANCC, MAHANG \\to DONGIA\\}$ (ký hiệu viết gọn $U = ABCDEF$ với $A=MANCC, B=TENNCC, C=DIACHI, D=MAHANG, E=TENHANG, F'=DONGIA$).\na. Nêu các dị thường dữ liệu nếu giữ nguyên lược đồ `NHACC`.\nb. Đề xuất phép tách $\\rho = (ABC, DE, ADF')$ (tức `NCC(MANCC, TENNCC, DIACHI)`, `MATHANG(MAHANG, TENHANG)`, `CUNGUNG(MANCC, MAHANG, DONGIA)`). Kiểm tra tính bảo toàn thông tin bằng Thuật toán bảng.\nc. Kiểm tra $\\rho$ có bảo toàn phụ thuộc hàm không?",
+      "solution_steps": [
+        "Bước 1 (Câu a - Các dị thường trên `NHACC`):\n- Dư thừa dữ liệu: `TENNCC, DIACHI` lặp lại theo từng mặt hàng nhà cung cấp bán; `TENHANG` lặp lại theo từng nhà cung cấp.\n- Mâu thuẫn khi cập nhật: sửa địa chỉ một dòng mà quên các dòng khác cùng `MANCC` gây không nhất quán.\n- Dị thường bổ sung/xóa: không thêm được nhà cung cấp mới nếu chưa cung ứng mặt hàng nào; xóa mặt hàng cuối cùng làm mất luôn thông tin nhà cung cấp.",
+        "Bước 2 (Câu b - Thiết lập bảng Chase cho $\\rho = (ABC, DE, ADF')$ với $F = \\{A \\to BC, D \\to E, AD \\to F'\\}$):\n- Hàng 1 (`ABC`): $(a_1, a_2, a_3, b_{14}, b_{15}, b_{16})$\n- Hàng 2 (`DE`): $(b_{21}, b_{22}, b_{23}, a_4, a_5, b_{26})$\n- Hàng 3 (`ADF'`): $(a_1, b_{32}, b_{33}, a_4, b_{35}, a_6)$",
+        "Bước 3 (Câu b - Biến đổi bảng và kết luận):\n- Áp dụng $A \\to BC$ (hàng 1 và hàng 3 giống trên $A = a_1$): thay $b_{32} = a_2$ và $b_{33} = a_3$.\n- Áp dụng $D \\to E$ (hàng 2 và hàng 3 giống trên $D = a_4$): thay $b_{35} = a_5$.\n- Lúc này hàng 3 (`ADF'`) trở thành $(a_1, a_2, a_3, a_4, a_5, a_6)$ (toàn $a$).\n- Kết luận: Phép tách $\\rho$ **bảo toàn thông tin**.",
+        "Bước 4 (Câu c - Kiểm tra bảo toàn phụ thuộc hàm):\n- $\\Pi_{ABC}(F) = \\{A \\to B, A \\to C\\}$ (`MANCC -> TENNCC, DIACHI`).\n- $\\Pi_{DE}(F) = \\{D \\to E\\}$ (`MAHANG -> TENHANG`).\n- $\\Pi_{ADF'}(F) = \\{AD \\to F'\\}$ (`MANCC, MAHANG -> DONGIA`).\n- Hợp của 3 hình chiếu trùng với $F$, nên $\\left(\\bigcup F_i\\right)^+ = F^+$. Vậy $\\rho$ **bảo toàn phụ thuộc hàm**."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bài 14 (Mở rộng): Thiết kế phép tách kép (Bảo toàn thông tin & Bảo toàn PTH) cho lược đồ HOADON",
+      "problem": "Xét lược đồ bán hàng `HOADON(SOHD, NGAYLAP, MAKH, TENKH, DIACHI, MASP, TENSP, SOLUONG, DONGIA)` với tập PTH (quy ước viết gọn $A=SOHD, B=NGAYLAP, C=MAKH, D=TENKH, E=DIACHI, G=MASP, H=TENSP, I=SOLUONG, K=DONGIA$): $F = \\{A \\to BC, C \\to DE, G \\to HK, AG \\to I\\}$.\na. Tìm khóa duy nhất của lược đồ `HOADON`.\nb. Đề xuất phép tách về dạng chuẩn 3NF/BCNF sao cho vừa bảo toàn thông tin vừa bảo toàn phụ thuộc hàm.\nc. Chứng minh phép tách đề xuất bảo toàn thông tin bằng Thuật toán bảng.",
+      "solution_steps": [
+        "Bước 1 (Câu a - Tìm khóa của `HOADON`):\n- Hai thuộc tính $A$ (`SOHD`) và $G$ (`MASP`) không nằm ở vế phải bất kỳ PTH nào, nên mọi khóa đều chứa $AG$.\n- Tính $(AG)^+_F$: $A \\to BC$, $C \\to DE$, $G \\to HK$, $AG \\to I$, suy ra $(AG)^+ = ABCDEGHIK = U$.\n- Vậy khóa duy nhất của `HOADON` là $AG$ (`{SOHD, MASP}`).",
+        "Bước 2 (Câu b - Đề xuất phép tách 4 lược đồ con):\n- Tách theo từng nhóm PTH trong $F$ (và giữ khóa $AG$ ở bảng chi tiết):\n  + $R_1(ABC)$: `HD(SOHD, NGAYLAP, MAKH)` giữ $A \\to BC$.\n  + $R_2(CDE)$: `KHACHHANG(MAKH, TENKH, DIACHI)` giữ $C \\to DE$.\n  + $R_3(GHK)$: `SANPHAM(MASP, TENSP, DONGIA)` giữ $G \\to HK$.\n  + $R_4(AGI)$: `CHITIET_HD(SOHD, MASP, SOLUONG)` giữ $AG \\to I$.\n- Phép tách $\\rho = (ABC, CDE, GHK, AGI)$ bảo toàn toàn bộ $F$ và đạt cả BCNF.",
+        "Bước 3 (Câu c - Thiết lập bảng Chase $4 \\times 9$ theo thứ tự $A, B, C, D, E, G, H, K, I$):\n- `ABC`: $(a_1, a_2, a_3, b_{14}, b_{15}, b_{16}, b_{17}, b_{18}, b_{19})$\n- `CDE`: $(b_{21}, b_{22}, a_3, a_4, a_5, b_{26}, b_{27}, b_{28}, b_{29})$\n- `GHK`: $(b_{31}, b_{32}, b_{33}, b_{34}, b_{35}, a_6, a_7, a_8, b_{39})$\n- `AGI`: $(a_1, b_{42}, b_{43}, b_{44}, b_{45}, a_6, b_{47}, b_{48}, a_9)$",
+        "Bước 4 (Câu c - Biến đổi bảng và kết luận):\n- Áp dụng $A \\to BC$ (hàng `ABC` và `AGI` cùng $A=a_1$): thay $b_{42}=a_2, b_{43}=a_3$.\n- Áp dụng $C \\to DE$ (hàng `CDE` và `AGI` cùng $C=a_3$): thay $b_{44}=a_4, b_{45}=a_5$.\n- Áp dụng $G \\to HK$ (hàng `GHK` và `AGI` cùng $G=a_6$): thay $b_{47}=a_7, b_{48}=a_8$.\n- Lúc này hàng 4 (`AGI`) trở thành $(a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9)$ (toàn $a$). Vậy $\\rho$ **bảo toàn thông tin**."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bài 15 (Mở rộng): Kiểm tra phép tách lược đồ GIANGDAY bằng bảng Chase và Hình chiếu PTH",
+      "problem": "Xét lược đồ `GIANGDAY(MAGV, TENGV, KHOA, MAMH, TENMH, SOTC, LOP, HOCKY)` (viết gọn $A=MAGV, B=TENGV, C=KHOA, D=MAMH, E=TENMH, F'=SOTC, G=LOP, H=HOCKY$) với $F = \\{A \\to BC, D \\to EF', ADG \\to H\\}$.\na. Kiểm tra phép tách $\\rho_1 = (ABC, DEF', ADGH)$ có bảo toàn thông tin và bảo toàn PTH không?\nb. Nếu tách nhầm thành $\\rho_2 = (ABC, DEF', AGH)$ (quên $D$ ở bảng thứ ba) thì có còn là phép tách hợp lệ hay bảo toàn thông tin không?",
+      "solution_steps": [
+        "Bước 1 (Câu a - Thiết lập bảng Chase cho $\\rho_1 = (ABC, DEF', ADGH)$):\n- Bảng $3 \\times 8$ trên cột $(A, B, C, D, E, F', G, H)$:\n  + `ABC`: $(a_1, a_2, a_3, b_{14}, b_{15}, b_{16}, b_{17}, b_{18})$\n  + `DEF'`: $(b_{21}, b_{22}, b_{23}, a_4, a_5, a_6, b_{27}, b_{28})$\n  + `ADGH`: $(a_1, b_{32}, b_{33}, a_4, b_{35}, b_{36}, a_7, a_8)$",
+        "Bước 2 (Câu a - Biến đổi bảng):\n- Áp dụng $A \\to BC$ (hàng 1 và hàng 3 cùng $A=a_1$): thay $b_{32}=a_2$ và $b_{33}=a_3$.\n- Áp dụng $D \\to EF'$ (hàng 2 và hàng 3 cùng $D=a_4$): thay $b_{35}=a_5$ và $b_{36}=a_6$.\n- Hàng 3 (`ADGH`) trở thành $(a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8)$ $\\implies \\rho_1$ **bảo toàn thông tin**.",
+        "Bước 3 (Câu a - Kiểm tra bảo toàn PTH):\n- $\\Pi_{ABC}(F) = \\{A \\to BC\\}$; $\\Pi_{DEF'}(F) = \\{D \\to EF'\\}$; $\\Pi_{ADGH}(F) = \\{ADG \\to H\\}$.\n- Hợp lại bằng chính $F$, nên $\\rho_1$ **bảo toàn phụ thuộc hàm**.",
+        "Bước 4 (Câu b - Phân tích lỗi của $\\rho_2 = (ABC, DEF', AGH)$):\n- Về mặt định nghĩa phép tách (Mục 3.2): hợp thuộc tính vẫn đủ 8 thuộc tính $ABCDEF'GH$ nên $\\rho_2$ vẫn là một phép tách.\n- Tuy nhiên, $\\rho_2$ làm **mất PTH $ADG \\to H$** (không bảng nào chứa đồng thời $A, D, G, H$). Đồng thời trên bảng Chase, `DEF'` rời hoàn toàn với `ABC` và `AGH` (không chung thuộc tính nào), nên bảng không thể biến đổi thêm và $\\rho_2$ **mất thông tin**."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bài 16 (Mở rộng): Chứng minh tính độc lập giữa Bảo toàn Thông tin và Bảo toàn Phụ thuộc Hàm",
+      "problem": "Bằng hai ví dụ cụ thể, hãy chứng minh rằng hai tính chất \"Bảo toàn thông tin\" và \"Bảo toàn phụ thuộc hàm\" là độc lập nhau:\na. Bảo toàn phụ thuộc hàm nhưng mất thông tin: $R(A, B, C, D, E)$, $F = \\{A \\to B, B \\to C, D \\to E\\}$, $\\rho_1 = (ABC, DE)$.\nb. Bảo toàn thông tin nhưng mất phụ thuộc hàm: $R(A, B, C)$, $F = \\{AB \\to C, C \\to B\\}$, $\\rho_2 = (AC, BC)$.",
+      "solution_steps": [
+        "Bước 1 (Câu a - Kiểm tra Bảo toàn PTH của $\\rho_1 = (ABC, DE)$):\n- $\\Pi_{ABC}(F) = \\{A \\to B, B \\to C\\}$ và $\\Pi_{DE}(F) = \\{D \\to E\\}$.\n- Hợp $G_1 = \\{A \\to B, B \\to C, D \\to E\\} = F$, nên $\\rho_1$ **bảo toàn phụ thuộc hàm**.",
+        "Bước 2 (Câu a - Kiểm tra Bảo toàn thông tin của $\\rho_1 = (ABC, DE)$):\n- Giao $ABC \\cap DE = \\emptyset$. Theo Định lý Decobel (hoặc bảng Chase 2 hàng $(a_1, a_2, a_3, b_{14}, b_{15})$ và $(b_{21}, b_{22}, b_{23}, a_4, a_5)$ không thể biến đổi), $\\rho_1$ **mất thông tin** (khi nối tự nhiên sẽ thành tích Đề-các).",
+        "Bước 3 (Câu b - Kiểm tra Bảo toàn thông tin của $\\rho_2 = (AC, BC)$):\n- Giao $AC \\cap BC = C$. Ta có $C \\to B = BC \\setminus AC \\in F$, nên theo Định lý Decobel $\\rho_2$ **bảo toàn thông tin**.\n- (Kiểm tra bằng bảng Chase: `AC` $(a_1, b_{12}, a_3)$ và `BC` $(b_{21}, a_2, a_3)$; áp dụng $C \\to B$ đổi $b_{12} = a_2$, hàng `AC` thành $(a_1, a_2, a_3)$).",
+        "Bước 4 (Câu b - Kiểm tra Bảo toàn PTH của $\\rho_2 = (AC, BC)$):\n- Tính hình chiếu trên `AC`: $A^+_F = A, C^+_F = CB \\implies \\Pi_{AC}(F) = \\emptyset$.\n- Tính hình chiếu trên `BC`: $B^+_F = B, C^+_F = CB \\implies \\Pi_{BC}(F) = \\{C \\to B\\}$.\n- Hợp $G_2 = \\{C \\to B\\}$ có $(AB)^+_{G_2} = AB \\not\\ni C$, nên $AB \\to C \\notin G_2^+$. Vậy $\\rho_2$ **mất phụ thuộc hàm**."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Bài 17 (Mở rộng): Thuật toán bảng Chase với bước đồng nhất hai ký hiệu b trước khi chuyển thành a",
+      "problem": "Cho lược đồ $R(A, B, C, D, E)$ với tập phụ thuộc hàm $F = \\{A \\to C, B \\to C, C \\to D, D \\to E, E \\to B\\}$ và phép tách $\\rho = (AB, AD, BE, CDE)$. Hãy sử dụng Thuật toán bảng (Chase) trình bày từng bước biến đổi để kiểm tra phép tách $\\rho$ có bảo toàn thông tin không.",
+      "solution_steps": [
+        "Bước 1 (Thiết lập bảng $4 \\times 5$ trên các cột $A, B, C, D, E$):\n- Hàng 1 (`AB`): $(a_1, a_2, b_{13}, b_{14}, b_{15})$\n- Hàng 2 (`AD`): $(a_1, b_{22}, b_{23}, a_4, b_{25})$\n- Hàng 3 (`BE`): $(b_{31}, a_2, b_{33}, b_{34}, a_5)$\n- Hàng 4 (`CDE`): $(b_{41}, b_{42}, a_3, a_4, a_5)$",
+        "Bước 2 (Đồng nhất các ký hiệu $b$ qua $A \\to C, B \\to C$ và đẩy $a_4, a_5$):\n- Áp dụng $A \\to C$ (hàng 1 và 2 cùng $A=a_1$): thay $b_{23} = b_{13}$.\n- Áp dụng $B \\to C$ (hàng 1 và 3 cùng $B=a_2$): thay $b_{33} = b_{13}$.\n- Áp dụng $C \\to D$ (hàng 1, 2, 3 cùng $C=b_{13}$, hàng 2 có $D=a_4$): ưu tiên $a_4$, thay $b_{14} = a_4$ và $b_{34} = a_4$.\n- Áp dụng $D \\to E$ (cả 4 hàng cùng $D=a_4$, hàng 3, 4 có $E=a_5$): thay $b_{15} = a_5$ và $b_{25} = a_5$.",
+        "Bước 3 (Lan truyền $E \\to B$ và quay lại $B \\to C$ để chuyển toàn bộ $b_{13}$ thành $a_3$):\n- Áp dụng $E \\to B$ (cả 4 hàng cùng $E=a_5$, hàng 1, 3 có $B=a_2$): thay $b_{22} = a_2$ và $b_{42} = a_2$.\n- Áp dụng lại $B \\to C$ (lúc này cả 4 hàng đều có $B=a_2$, trong đó hàng 4 có $C=a_3$): ưu tiên $a_3$, nên toàn bộ $b_{13}$ ở hàng 1, 2, 3 đồng loạt đổi thành $a_3$.",
+        "Bước 4 (Bảng cuối cùng và Kết luận):\n- Bảng cuối cùng:\n  + `AB`: $(a_1, a_2, a_3, a_4, a_5)$\n  + `AD`: $(a_1, a_2, a_3, a_4, a_5)$\n  + `BE`: $(b_{31}, a_2, a_3, a_4, a_5)$\n  + `CDE`: $(b_{41}, a_2, a_3, a_4, a_5)$\n- Vì có tới 2 hàng (`AB` và `AD`) toàn các ký hiệu $(a_1, a_2, a_3, a_4, a_5)$, phép tách $\\rho$ là **bảo toàn thông tin**."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Bài 18 (Mở rộng): Tìm khóa và kiểm tra kép trên lược đồ 6 thuộc tính R(A, B, C, D, E, G)",
+      "problem": "Cho lược đồ $R(A, B, C, D, E, G)$ và tập phụ thuộc hàm $F = \\{AB \\to C, C \\to D, D \\to EG, E \\to A, G \\to B\\}$.\na. Tìm tất cả các khóa của $R$.\nb. Xét phép tách $\\rho = (ABC, CD, DEG, EA, GB)$. Kiểm tra $\\rho$ có bảo toàn phụ thuộc hàm không?\nc. Kiểm tra $\\rho$ có bảo toàn thông tin không bằng Thuật toán bảng.",
+      "solution_steps": [
+        "Bước 1 (Câu a - Tìm tất cả các khóa của $R$):\n- Kiểm tra các thuộc tính đơn: $C^+ = CDEGAB = U$; $D^+ = DEGABC = U$. Không có thuộc tính đơn nào khác là khóa vì $A^+ = A, B^+ = B, E^+ = EA, G^+ = GB$.\n- Xét các cặp 2 thuộc tính không chứa $C, D$: $(AB)^+ = ABCDEG = U$; $(AG)^+ = AGBCDE = U$; $(EB)^+ = EBACDG = U$; $(EG)^+ = EGABCD = U$.\n- Vậy các khóa của $R$ là: $C, D, AB, AG, BE, EG$.",
+        "Bước 2 (Câu b - Kiểm tra bảo toàn phụ thuộc hàm):\n- Tính hình chiếu trên 5 lược đồ con: $\\Pi_{ABC}(F) \\supseteq \\{AB \\to C\\}$, $\\Pi_{CD}(F) \\supseteq \\{C \\to D\\}$, $\\Pi_{DEG}(F) \\supseteq \\{D \\to EG\\}$, $\\Pi_{EA}(F) \\supseteq \\{E \\to A\\}$, $\\Pi_{GB}(F) \\supseteq \\{G \\to B\\}$.\n- Mọi PTH trong $F$ đều có mặt nguyên vẹn trong hợp các hình chiếu, nên $\\left(\\bigcup F_i\\right)^+ = F^+$. Vậy $\\rho$ **bảo toàn phụ thuộc hàm**.",
+        "Bước 3 (Câu c - Thiết lập và biến đổi bảng Chase $5 \\times 6$ trên $A, B, C, D, E, G$):\n- Hàng 1 (`ABC`): $(a_1, a_2, a_3, b_{14}, b_{15}, b_{16})$\n- Hàng 2 (`CD`): $(b_{21}, b_{22}, a_3, a_4, b_{25}, b_{26})$\n- Hàng 3 (`DEG`): $(b_{31}, b_{32}, b_{33}, a_4, a_5, a_6)$\n- Hàng 4 (`EA`): $(a_1, b_{42}, b_{43}, b_{44}, a_5, b_{46})$\n- Hàng 5 (`GB`): $(b_{51}, a_2, b_{53}, b_{54}, b_{55}, a_6)$\n- Biến đổi:\n  + $C \\to D$ (hàng 1, 2): thay $b_{14} = a_4$.\n  + $D \\to EG$ (hàng 1, 2, 3 cùng $D=a_4$): thay $b_{15}=b_{25}=a_5$ và $b_{16}=b_{26}=a_6$.\n  + $E \\to A$ (hàng 1, 2, 3, 4 cùng $E=a_5$): thay $b_{21}=b_{31}=a_1$.\n  + $G \\to B$ (hàng 1, 2, 3, 5 cùng $G=a_6$): thay $b_{22}=b_{32}=a_2$.\n  + $AB \\to C$ (hàng 1, 2, 3 cùng $AB=(a_1,a_2)$): thay $b_{33}=a_3$.",
+        "Bước 4 (Kết luận câu c):\n- Cả 3 hàng đầu (`ABC`, `CD`, `DEG`) đều trở thành $(a_1, a_2, a_3, a_4, a_5, a_6)$.\n- Kết luận: Phép tách $\\rho$ **bảo toàn thông tin**."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Bài 19 (Mở rộng): Vai trò của việc bổ sung khóa khi phân rã 3NF đối với tính bảo toàn thông tin",
+      "problem": "Cho lược đồ $R(X, Y, Z, W, T)$ và tập phụ thuộc hàm $F = \\{X \\to Y, YZ \\to W, W \\to T, T \\to X\\}$.\na. Tìm tất cả các khóa của $R$.\nb. Xét phép tách thu được từ các PTH của $F$: $\\rho_1 = (XY, YZW, WT, TX)$ và phiên bản bổ sung khóa $\\rho_2 = (XY, YZW, WT, TX, XZ)$. Kiểm tra cả $\\rho_1$ và $\\rho_2$ về tính bảo toàn thông tin bằng bảng Chase.\nc. Nếu thay $F$ bởi $F' = \\{X \\to Y, Y \\to W\\}$ trên $R'(X, Y, W, Z)$ với $\\rho' = (XY, YW, Z)$ thì có bảo toàn thông tin không? Vì sao?",
+      "solution_steps": [
+        "Bước 1 (Câu a - Tìm tất cả các khóa của $R$):\n- Thuộc tính $Z$ không xuất hiện ở vế phải PTH nào trong $F$, nên $Z$ nằm trong mọi khóa.\n- $(XZ)^+ = XZYWT = U$; $(TZ)^+ = TZXWY = U$; $(WZ)^+ = WTZXY = U$. (Còn $(YZ)^+ = YZW TX = U$).\n- Vậy $R$ có 4 khóa là: $XZ, YZ, WZ, TZ$.",
+        "Bước 2 (Câu b - Kiểm tra Chase cho $\\rho_1 = (XY, YZW, WT, TX)$):\n- Bảng khởi tạo trên $(X, Y, Z, W, T)$:\n  + `XY`: $(a_1, a_2, b_{13}, b_{14}, b_{15})$\n  + `YZW`: $(b_{21}, a_2, a_3, a_4, b_{25})$\n  + `WT`: $(b_{31}, b_{32}, b_{33}, a_4, a_5)$\n  + `TX`: $(a_1, b_{42}, b_{43}, b_{44}, a_5)$\n- Biến đổi: `X->Y` đổi $b_{42}=a_2$; `W->T` đổi $b_{25}=a_5$; `T->X` (cùng $T=a_5$ ở hàng 2, 3, 4) đổi $b_{21}=a_1$ và $b_{31}=a_1$; `X->Y` đổi $b_{32}=a_2$.\n- Hàng `YZW` trở thành $(a_1, a_2, a_3, a_4, a_5)$ vì `YZW` tình cờ chứa sẵn khóa `YZ`! Do đó cả $\\rho_1$ và $\\rho_2$ (thêm `XZ`) đều **bảo toàn thông tin** và **bảo toàn PTH**.",
+        "Bước 3 (Câu c - Kiểm tra $R'(X, Y, W, Z)$ với $F' = \\{X \\to Y, Y \\to W\\}$ và $\\rho' = (XY, YW, Z)$):\n- Vì $Z$ là thuộc tính độc lập (khóa duy nhất của $R'$ là $XZ$) nhưng $\\rho'$ tách riêng $Z$ ra thành một bảng không giao với $XY$ hay $YW$ ($Z \\cap (XY \\cup YW) = \\emptyset$).\n- Trên bảng Chase, hàng `Z` là $(b_{31}, b_{32}, b_{33}, a_4)$, không thể khớp trên $X$ hay $Y$ với hai hàng đầu.\n- Kết luận: $\\rho' = (XY, YW, Z)$ **mất thông tin** (chính là trường hợp mất khóa chung $XZ$).",
+        "Bước 4 (Bài học tổng kết):\n- Khi phân tách theo phủ cực tiểu để bảo toàn PTH, phép tách chỉ đảm bảo bảo toàn thông tin nếu ít nhất một lược đồ con chứa một siêu khóa của $R$ (như `YZW` chứa `YZ` ở câu b); ngược lại nếu không chứa khóa nào (như câu c), bắt buộc phải bổ sung một lược đồ chứa khóa (ví dụ thêm `XZ`) mới bảo toàn thông tin."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Bài 20 (Mở rộng): Tổng hợp đánh giá ứng viên phép tách trên R(A, B, C, D, E, F)",
+      "problem": "Cho lược đồ $R(A, B, C, D, E, F)$ và tập phụ thuộc hàm $F = \\{A \\to BC, C \\to D, BD \\to E, E \\to F\\}$. Xét 3 ứng viên:\n- $\\rho_1 = (AB, CD, BDE)$\n- $\\rho_2 = (AB, CD, BDE, EF)$\n- $\\rho_3 = (ABC, CD, BDE, EF)$\nHãy kiểm tra từng ứng viên về 3 tiêu chuẩn: (1) Hợp lệ theo định nghĩa phép tách; (2) Bảo toàn phụ thuộc hàm; (3) Bảo toàn thông tin (bằng bảng Chase).",
+      "solution_steps": [
+        "Bước 1 (Đánh giá ứng viên $\\rho_1 = (AB, CD, BDE)$):\n- Hợp các tập thuộc tính là $AB \\cup CD \\cup BDE = ABCDE \\neq ABCDEF$ (bị thiếu thuộc tính $F$).\n- Theo Mục 3.2, $\\rho_1$ **không phải là một phép tách** hợp lệ của $R$.",
+        "Bước 2 (Đánh giá ứng viên $\\rho_2 = (AB, CD, BDE, EF)$):\n- Hợp thuộc tính bằng $ABCDEF$ $\\implies$ là phép tách hợp lệ.\n- Bảo toàn PTH: Không bảo toàn, vì mất $A \\to C$ (không có lược đồ con nào chứa cả $A$ và $C$, và $(A)^+$ trên các hình chiếu chỉ là $AB \\not\\ni C$).\n- Bảng Chase: Hàng `BDE` $(b_{31}, a_2, b_{33}, a_4, a_5, b_{36})$ chỉ đổi được $b_{36} = a_6$ qua $E \\to F$; các hàng khác không nối được cột $A, C$. Không có hàng toàn $a$ $\\implies$ $\\rho_2$ **mất thông tin**.",
+        "Bước 3 (Đánh giá ứng viên $\\rho_3 = (ABC, CD, BDE, EF)$ - Thiết lập & Biến đổi bảng Chase):\n- Bảng khởi tạo trên $(A, B, C, D, E, F)$:\n  + `ABC`: $(a_1, a_2, a_3, b_{14}, b_{15}, b_{16})$\n  + `CD`: $(b_{21}, b_{22}, a_3, a_4, b_{25}, b_{26})$\n  + `BDE`: $(b_{31}, a_2, b_{33}, a_4, a_5, b_{36})$\n  + `EF`: $(b_{41}, b_{42}, b_{43}, b_{44}, a_5, a_6)$\n- Biến đổi:\n  + Áp dụng $C \\to D$ (hàng `ABC` và `CD` cùng $C=a_3$): thay $b_{14} = a_4$.\n  + Áp dụng $BD \\to E$ (hàng `ABC` và `BDE` cùng $BD=(a_2, a_4)$): thay $b_{15} = a_5$.\n  + Áp dụng $E \\to F$ (hàng `ABC` và `EF` cùng $E=a_5$): thay $b_{16} = a_6$.",
+        "Bước 4 (Kết luận về $\\rho_3$):\n- Hàng 1 (`ABC`) trở thành $(a_1, a_2, a_3, a_4, a_5, a_6)$ $\\implies \\rho_3$ **bảo toàn thông tin**.\n- Đồng thời, $\\Pi_{ABC}(F) \\supseteq \\{A \\to BC\\}$, $\\Pi_{CD}(F) \\supseteq \\{C \\to D\\}$, $\\Pi_{BDE}(F) \\supseteq \\{BD \\to E\\}$, $\\Pi_{EF}(F) \\supseteq \\{E \\to F\\}$ $\\implies \\rho_3$ **bảo toàn phụ thuộc hàm**.\n- Vậy $\\rho_3$ là phép tách tối ưu thỏa cả 3 tiêu chuẩn."
+      ]
+    }
+  ]
+}

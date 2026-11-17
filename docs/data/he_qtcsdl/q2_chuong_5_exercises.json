@@ -1,0 +1,1172 @@
+{
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Trong ví dụ mở đầu Chương 5 (Phần II), quan hệ GIANGDAY(TENGV, MONHOC, LOP) đã đạt dạng chuẩn BCNF nhưng vẫn tồn tại dư thừa dữ liệu vì nguyên nhân nào?",
+      "options": {
+        "A": "Vì tập thuộc tính MONHOC và LOP phụ thuộc hàm bắc cầu vào TENGV",
+        "B": "Vì một giảng viên dạy nhiều môn học ở nhiều lớp khác nhau và hai thuộc tính MONHOC, LOP độc lập nhau trên cùng TENGV",
+        "C": "Vì quan hệ chưa đạt dạng chuẩn 1NF do chứa thuộc tính đa trị lồng nhau",
+        "D": "Vì TENGV là khóa ngoại tham chiếu đến bảng LOP"
+      },
+      "correct_answer": "B",
+      "explanation": "Trong quan hệ GIANGDAY(TENGV, MONHOC, LOP), khóa là toàn bộ (TENGV, MONHOC, LOP) nên bảng đạt BCNF. Tuy nhiên, một giảng viên có thể dạy nhiều môn ở nhiều lớp khác nhau (MONHOC và LOP độc lập nhau ứng với mỗi TENGV), gây lặp lại dữ liệu dư thừa.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Vì sao không thể dùng phụ thuộc hàm (PTH) để phân rã quan hệ GIANGDAY(TENGV, MONHOC, LOP) nhằm loại bỏ dư thừa dữ liệu?",
+      "options": {
+        "A": "Vì PTH không thể diễn tả được sự độc lập giữa các tập thuộc tính trong quan hệ",
+        "B": "Vì PTH chỉ áp dụng được cho các quan hệ có đúng 2 thuộc tính",
+        "C": "Vì quan hệ GIANGDAY không có khóa chính",
+        "D": "Vì phép phân rã theo PTH luôn làm mất khóa ngoại"
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình Mục Mở đầu nêu rõ: PTH không thể diễn tả hết các ràng buộc trên dữ liệu (cụ thể là sự độc lập giữa MONHOC và LOP theo TENGV), do đó cần đến khái niệm phụ thuộc đa trị (MVD).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Hai mục tiêu chính của Chương 5 (Phần II - Thiết kế) là gì?",
+      "options": {
+        "A": "Tìm hiểu phụ thuộc hàm bắc cầu và dạng chuẩn 3NF",
+        "B": "Tìm hiểu khóa dự tuyển và thuật toán tối tiểu hóa phụ thuộc hàm",
+        "C": "Tìm hiểu các khái niệm cơ bản của phụ thuộc đa trị và giới thiệu dạng chuẩn 4NF",
+        "D": "Tìm hiểu thiết kế vật lý tệp dữ liệu và cây B-Tree"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục tiêu Chương 5 gồm: (1) Tìm hiểu các khái niệm cơ bản của phụ thuộc đa trị; (2) Giới thiệu dạng chuẩn 4NF — dạng chuẩn của CSDL với phụ thuộc đa trị.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Thuật ngữ tiếng Anh viết tắt 'MVD' trong Chương 5 là viết tắt của cụm từ nào?",
+      "options": {
+        "A": "MultiValue Domain",
+        "B": "Multiple View Definition",
+        "C": "Minimal Value Dependency",
+        "D": "MultiValued Dependency"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 5.1.1, tập tất cả các phụ thuộc đa trị trên một lược đồ quan hệ ký hiệu là MVD (MultiValued Dependencies / MultiValued Dependency).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Cho lược đồ quan hệ R(U), X, Y ⊆ U và đặt Z = U \\ XY. Theo định nghĩa, X xác định đa trị Y (X ->-> Y) nếu với hai bộ t1, t2 bất kỳ thuộc r mà t1[X] = t2[X] thì phải tồn tại bộ t3 ∈ r thỏa điều kiện nào?",
+      "options": {
+        "A": "t3[X] = t1[X], t3[Y] = t1[Y] và t3[Z] = t2[Z]",
+        "B": "t3[X] = t1[X], t3[Y] = t2[Y] và t3[Z] = t2[Z]",
+        "C": "t3[X] = t1[X], t3[Y] = t1[Y] và t3[Z] = t1[Z]",
+        "D": "t3[X] ≠ t1[X], t3[Y] = t1[Y] và t3[Z] = t2[Z]"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo định nghĩa Mục 5.1.1: nếu t1[X] = t2[X] thì tồn tại bộ t3 ∈ r sao cho t3[X] = t1[X], t3[Y] = t1[Y] và t3[Z] = t2[Z] với Z = U \\ XY.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Do tính đối xứng giữa hai bộ t1 và t2 trong định nghĩa phụ thuộc đa trị X ->-> Y, ngoài bộ t3 thì trong quan hệ r còn tất yếu tồn tại bộ t4 thỏa điều kiện nào?",
+      "options": {
+        "A": "t4[X] = t1[X], t4[Y] = t1[Y] và t4[Z] = t2[Z]",
+        "B": "t4[X] = t2[X], t4[Y] = t2[Y] và t4[Z] = t1[Z]",
+        "C": "t4[X] = t2[X], t4[Y] = t1[Y] và t4[Z] = t1[Z]",
+        "D": "t4[X] = t1[X], t4[Y] = t2[Y] và t4[Z] = t2[Z]"
+      },
+      "correct_answer": "B",
+      "explanation": "Hoán đổi vai trò t1 và t2 trong định nghĩa MVD ta thu được bộ t4 ∈ r sao cho t4[X] = t2[X], t4[Y] = t2[Y] và t4[Z] = t1[Z] với Z = U \\ XY.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Xét trường hợp đặc biệt của phụ thuộc đa trị X ->-> Y khi Y = ∅ (tập rỗng). Nhận định nào sau đây là đúng?",
+      "options": {
+        "A": "X ->-> ∅ chỉ đúng khi X là khóa của quan hệ",
+        "B": "X ->-> ∅ luôn sai trên mọi quan hệ khác rỗng",
+        "C": "X ->-> ∅ luôn đúng với mọi quan hệ",
+        "D": "X ->-> ∅ chỉ đúng khi X = ∅"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 5.1.1 (Các trường hợp đặc biệt): Nếu Y = ∅ thì X ->-> ∅ đúng với mọi quan hệ (lúc này Z = U \\ X, chỉ cần chọn t3 = t2 ∈ r là thỏa).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Với quan hệ r xác định trên hai tập thuộc tính rời nhau Y và Z (X = ∅, Y ∩ Z = ∅), phụ thuộc đa trị ∅ ->-> Y thỏa trên r khi và chỉ khi điều kiện nào xảy ra?",
+      "options": {
+        "A": "r = r[Y] ∪ r[Z]",
+        "B": "r = r[Y] \\ r[Z]",
+        "C": "r[Y] = r[Z]",
+        "D": "r = r[Y] * r[Z]"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 5.1.1: Nếu X = ∅ và r xác định trên YZ với Y ∩ Z = ∅ thì ∅ ->-> Y thỏa trên r khi và chỉ khi r = r[Y] * r[Z] (tích kết nối tự nhiên / độc lập giá trị giữa Y và Z).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Mối quan hệ giữa phụ thuộc hàm (PTH) và phụ thuộc đa trị (MVD) là gì?",
+      "options": {
+        "A": "Phụ thuộc hàm là một trường hợp đặc biệt của phụ thuộc đa trị",
+        "B": "Phụ thuộc đa trị là một trường hợp đặc biệt của phụ thuộc hàm",
+        "C": "Phụ thuộc hàm và phụ thuộc đa trị hoàn toàn rời nhau, không suy diễn qua lại được",
+        "D": "Mọi phụ thuộc đa trị đều kéo theo một phụ thuộc hàm tương ứng"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 5.1.1 và tiên đề A7 khẳng định: PTH là trường hợp đặc biệt của phụ thuộc đa trị (nếu X -> Y thì X ->-> Y).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Theo Mục 5.1.3, phụ thuộc đa trị X ->-> Y trên lược đồ quan hệ R(U) được gọi là 'phụ thuộc đa trị dị thường' (không tầm thường) khi thỏa mãn điều kiện nào?",
+      "options": {
+        "A": "Y = ∅ hoặc Y ⊆ X",
+        "B": "Y ≠ ∅, Y ⊈ X và XY ≠ U",
+        "C": "XY = U và X ∩ Y = ∅",
+        "D": "X là siêu khóa của R"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 5.1.3 (và định nghĩa 4NF ở Mục 5.6): X ->-> Y là phụ thuộc đa trị dị thường nếu Y ≠ ∅, Y ⊈ X và XY ≠ U.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Theo Mục 5.1.2, tính chất nào sau đây bắt buộc phải có đối với một 'phụ thuộc đa trị cơ sở' X ->-> Y của quan hệ R?",
+      "options": {
+        "A": "X phải là khóa chính và Y chứa mọi thuộc tính còn lại của R",
+        "B": "Y = ∅ và X ∩ Y ≠ ∅",
+        "C": "Không tồn tại tập con thực sự nhỏ hơn X' ⊂ X hoặc Y' ⊂ Y (Y' ≠ ∅) mà X' ->-> Y' là MVD của R",
+        "D": "Phải tồn tại ít nhất hai cặp (X', Y') khác nhau thỏa X' ->-> Y'"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 5.1.2 định nghĩa X ->-> Y là phụ thuộc đa trị cơ sở nếu Y ≠ ∅, X ∩ Y = ∅ (và XY ≠ U), đồng thời tồn tại duy nhất X' ⊆ X và Y' ⊆ Y (Y' ≠ ∅) thỏa X' ->-> Y' (tức chính là X' = X, Y' = Y, tối tiểu không rút gọn được thêm).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "Trong ví dụ bảng R(A, B, C, D, E, F) của Mục 5.1.2 có cả AB ->-> CD và A ->-> CD (nhưng A không xác định đa trị C và A không xác định đa trị D). Khẳng định nào đúng?",
+      "options": {
+        "A": "AB ->-> CD là phụ thuộc đa trị cơ sở vì vế trái có nhiều thuộc tính hơn",
+        "B": "Cả AB ->-> CD và A ->-> CD đều không phải phụ thuộc đa trị cơ sở",
+        "C": "Cả AB ->-> CD và A ->-> CD đều là phụ thuộc đa trị cơ sở",
+        "D": "AB ->-> CD không phải là phụ thuộc đa trị cơ sở vì tồn tại A ⊂ AB thỏa A ->-> CD"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 5.1.2, vì đã có A ⊂ AB thỏa A ->-> CD nên cặp (X, Y) = (AB, CD) không thỏa tính chất tối tiểu duy nhất, do đó AB ->-> CD không phải phụ thuộc đa trị cơ sở.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "Trong hệ tiên đề A1–A8 (Mục 5.2), ba tiên đề A1, A2, A3 là các tiên đề Armstrong áp dụng cho loại phụ thuộc nào?",
+      "options": {
+        "A": "Phụ thuộc hàm (PTH)",
+        "B": "Phụ thuộc đa trị (MVD)",
+        "C": "Phụ thuộc kết nối (JD)",
+        "D": "Phụ thuộc tồn tại (khóa ngoại)"
+      },
+      "correct_answer": "A",
+      "explanation": "A1 (Phản xạ), A2 (Tăng trưởng), A3 (Bắc cầu) là bộ 3 tiên đề Armstrong đối với phụ thuộc hàm (PTH).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Tiên đề A4 (Luật bù đối với MVD) trong hệ tiên đề A1–A8 được phát biểu như thế nào trên R(U)?",
+      "options": {
+        "A": "Nếu X ->-> Y thì Y ->-> X",
+        "B": "Nếu X ->-> Y thì X ->-> U \\ XY",
+        "C": "Nếu X ->-> Y thì U \\ XY ->-> X",
+        "D": "Nếu X ->-> Y thì X -> U \\ XY"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo A4 (Luật bù - Complementation): Nếu X ->-> Y thì X ->-> U \\ XY (tức U \\ (X ∪ Y)).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Tiên đề A7 (Luật sao chép - Replication) trong hệ tiên đề A1–A8 phát biểu rằng:",
+      "options": {
+        "A": "Nếu X ->-> Y thì X -> Y",
+        "B": "Nếu X -> Y thì Y ->-> X",
+        "C": "Nếu X -> Y thì X ->-> Y",
+        "D": "Nếu X -> Y và Y -> Z thì X ->-> Z"
+      },
+      "correct_answer": "C",
+      "explanation": "Tiên đề A7 phát biểu: Nếu X -> Y thì X ->-> Y (mỗi phụ thuộc hàm đều kéo theo một phụ thuộc đa trị tương ứng).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "Tiên đề A5 (Tăng trưởng đối với MVD) phát biểu: Nếu X ->-> Y và V ⊆ W (V, W ⊆ U) thì kết luận nào sau đây đúng?",
+      "options": {
+        "A": "VX ->-> WY",
+        "B": "WX ->-> Y \\ V",
+        "C": "X ->-> VY",
+        "D": "WX ->-> VY"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo A5 (Augmentation cho MVD): Nếu X ->-> Y và V ⊆ W thì WX ->-> VY.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "question": "Tiên đề A6 (Bắc cầu đối với MVD) phát biểu: Nếu X ->-> Y và Y ->-> Z thì kết luận nào sau đây là đúng?",
+      "options": {
+        "A": "X ->-> Z \\ Y",
+        "B": "X ->-> Z",
+        "C": "X ->-> Y \\ Z",
+        "D": "X -> Z \\ Y"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo A6 (Transitivity cho MVD): Nếu X ->-> Y và Y ->-> Z thì X ->-> Z \\ Y (phải loại trừ các thuộc tính của Y ra khỏi Z).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Luật hợp (Union) bổ sung cho phụ thuộc đa trị (Mục 5.2) phát biểu như thế nào?",
+      "options": {
+        "A": "Nếu X ->-> Y và W ->-> Z thì XW ->-> YZ",
+        "B": "Nếu X ->-> Y và X ->-> Z thì X ->-> YZ",
+        "C": "Nếu X ->-> Y và Y ->-> Z thì X ->-> YZ",
+        "D": "Nếu X ->-> Y và X ->-> Z thì X -> YZ"
+      },
+      "correct_answer": "B",
+      "explanation": "Luật hợp cho MVD: Nếu X ->-> Y và X ->-> Z thì X ->-> YZ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Điểm khác biệt quan trọng giữa luật tách của phụ thuộc hàm (PTH) và luật tách của phụ thuộc đa trị (MVD) là gì?",
+      "options": {
+        "A": "Với MVD, từ X ->-> Y luôn suy ra được X ->-> A với mọi A ∈ Y giống như PTH",
+        "B": "Với PTH, không thể suy ra X -> A từ X -> Y",
+        "C": "Với MVD, không thể tự ý tách X ->-> Y thành X ->-> A (A ∈ Y) mà chỉ tách được bằng giao/hiệu khi có thêm X ->-> Z",
+        "D": "Luật tách của MVD mạnh hơn luật tách của PTH vì có thể bỏ bớt thuộc tính ở vế trái"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 5.2 (Chú ý): Với PTH thì X -> Y suy ra X -> A, ∀A ∈ Y. Nhưng với MVD, X ->-> A chỉ suy ra từ X ->-> Y (A ∈ Y) nếu tồn tại Z sao cho X ->-> Z và Z ∩ Y = {A} hoặc Y \\ Z = {A}.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Theo Định lý 5.3, cho quan hệ r trên lược đồ R(U), X, Y ⊆ U và Z = U \\ XY. Quan hệ r thỏa X ->-> Y khi và chỉ khi nào?",
+      "options": {
+        "A": "r tách không mất mát thông tin thành R1[X] và R2[YZ]",
+        "B": "r tách không mất mát thông tin thành R1[Y] và R2[Z]",
+        "C": "r tách không mất mát thông tin thành R1[X] và R2[Y]",
+        "D": "r tách không mất mát thông tin thành R1[XY] và R2[XZ]"
+      },
+      "correct_answer": "D",
+      "explanation": "Định lý 5.3: r thỏa MVD X ->-> Y khi và chỉ khi r được tách không mất mát thông tin thành hai quan hệ trên R1 = R[XY] và R2 = R[XZ] (với Z = U \\ XY).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "Bao đóng D+ (hay D*) của một tập D gồm các phụ thuộc hàm và phụ thuộc đa trị được định nghĩa là gì?",
+      "options": {
+        "A": "Tập tất cả các phụ thuộc hàm và phụ thuộc đa trị được suy diễn logic từ D nhờ hệ tiên đề A1–A8",
+        "B": "Tập chỉ gồm các khóa dự tuyển của lược đồ quan hệ",
+        "C": "Tập chỉ chứa các phụ thuộc đa trị cơ sở ban đầu có trong D",
+        "D": "Tập tất cả các thuộc tính vế phải của mọi phụ thuộc hàm trong D"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 5.4: D+ (bao đóng của D) là tập tất cả các PTH và các phụ thuộc đa trị được suy diễn logic từ D xuất phát từ hệ tiên đề A1–A8.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Trong thuật toán bảng mở rộng (Chase) kiểm tra phép kết nối không mất thông tin (Mục 5.5.1), dấu hiệu nào cho phép kết luận phép kết nối là KHÔNG mất mát thông tin?",
+      "options": {
+        "A": "Mọi cột trong bảng đều chứa ít nhất một giá trị b_ij",
+        "B": "Xuất hiện ít nhất một dòng gồm toàn các giá trị a (a_1, a_2, ..., a_n)",
+        "C": "Số dòng của bảng giảm xuống còn đúng 1 dòng duy nhất",
+        "D": "Không thêm được dòng mới nào khi áp dụng MVD"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 5.5.1: Sau khi áp dụng lặp đi lặp lại các PTH và MVD cho đến khi dừng, nếu xuất hiện một dòng hoàn toàn là các giá trị a thì phép kết nối là không mất mát thông tin.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "Theo định nghĩa Dạng chuẩn 4 (4NF) ở Mục 5.6, lược đồ R(U) đạt 4NF nếu với mọi phụ thuộc đa trị X ->-> Y ∈ D+ thỏa Y ≠ ∅, Y ⊈ X và XY ≠ U thì:",
+      "options": {
+        "A": "Y phải là khóa chính của R",
+        "B": "X ∩ Y phải khác rỗng",
+        "C": "X phải chứa một khóa của R (tức X là siêu khóa)",
+        "D": "X không được chứa bất kỳ khóa nào của R"
+      },
+      "correct_answer": "C",
+      "explanation": "Định nghĩa 4NF (Mục 5.6): R ở dạng chuẩn 4 nếu với mỗi MVD dị thường X ->-> Y (Y ≠ ∅, Y ⊈ X, XY ≠ U) thì X chứa một khóa của R.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "question": "Trong định nghĩa dạng chuẩn 4NF, khái niệm 'khóa của lược đồ R' được xác định như thế nào?",
+      "options": {
+        "A": "Là tập thuộc tính xác định đa trị ít nhất một thuộc tính khác",
+        "B": "Là tập thuộc tính bất kỳ có vế phải khác rỗng",
+        "C": "Là tập thuộc tính không bao giờ nằm ở vế trái của MVD",
+        "D": "Không thay đổi: vẫn là tập tối tiểu các thuộc tính xác định hàm toàn bộ R"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 5.6 nhấn mạnh: khái niệm khóa trong 4NF không thay đổi, vẫn là tập các thuộc tính xác định hàm R (X+ = U).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "Theo tính chất (iv) của Mệnh đề ở Mục 5.6, mối quan hệ bao hàm giữa các dạng chuẩn 4NF, BCNF và 3NF là gì?",
+      "options": {
+        "A": "R ở 4NF thì R ở BCNF và như vậy là ở 3NF",
+        "B": "R ở 3NF thì tất yếu đạt 4NF",
+        "C": "R ở BCNF thì tất yếu đạt 4NF",
+        "D": "4NF và BCNF là hai chuẩn độc lập không bao hàm nhau"
+      },
+      "correct_answer": "A",
+      "explanation": "Tính chất (iv) Mục 5.6: R ở 4NF thì R ở BCNF và như vậy là 3NF (chiều ngược lại không đúng, như ví dụ GIANGDAY đạt BCNF nhưng chưa đạt 4NF).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "Cho quan hệ S(A, B, C) gồm 4 bộ: (1, 2, 3), (4, 2, 3), (5, 3, 3), (5, 3, 4) (Bài tập 1 giáo trình). Cặp phụ thuộc nào sau đây CHẮC CHẮN KHÔNG thỏa trên quan hệ S?",
+      "options": {
+        "A": "A -> B và B ->-> C",
+        "B": "BC -> A và B -> C",
+        "C": "A ->-> B và BC ->-> A",
+        "D": "A -> B và BC -> A"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Lời giải Bài 1: BC -> A không thỏa vì (1,2,3) và (4,2,3) có cùng BC=(2,3) nhưng A=1 ≠ 4; B -> C không thỏa vì (5,3,3) và (5,3,4) có cùng B=3 nhưng C=3 ≠ 4.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "Cho bảng R(A, B, C, D, E, F) đang có 2 bộ: t1 = (S101, G, H, 7.5, J, P) và t2 = (S101, G, K, 8.0, M, Q). Để bảng R thỏa mãn phụ thuộc đa trị A ->-> CD, hai bộ hoán vị t3, t4 nào bắt buộc phải tồn tại trong R?",
+      "options": {
+        "A": "t3 = (S101, G, H, 8.0, J, P) và t4 = (S101, G, K, 7.5, M, Q)",
+        "B": "t3 = (S101, G, H, 7.5, J, Q) và t4 = (S101, G, K, 8.0, M, P)",
+        "C": "t3 = (S101, G, H, 7.5, M, Q) và t4 = (S101, G, K, 8.0, J, P)",
+        "D": "t3 = (S101, G, K, 7.5, M, P) và t4 = (S101, G, H, 8.0, J, Q)"
+      },
+      "correct_answer": "C",
+      "explanation": "Với A ->-> CD trên U=ABCDEF, phần bù Z = BEF. Từ t1 và t2 có t1[A]=t2[A]=S101: bộ t3 lấy CD của t1 là (H, 7.5) và BEF của t2 là (G, M, Q) -> (S101, G, H, 7.5, M, Q); bộ t4 lấy CD của t2 là (K, 8.0) và BEF của t1 là (G, J, P) -> (S101, G, K, 8.0, J, P).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Xét quan hệ GIANGDAY(TENGV, MONHOC, LOP) với ràng buộc: mỗi giảng viên dạy một tập các môn học và dạy ở một tập các lớp một cách độc lập nhau (TENGV ->-> MONHOC và TENGV ->-> LOP). Nếu cô Hoa dạy 2 môn (CSDL, Java) ở 3 lớp (K45A, K45B, K45C), bảng GIANGDAY cần tối thiểu bao nhiêu bộ để thỏa MVD?",
+      "options": {
+        "A": "3 bộ",
+        "B": "5 bộ",
+        "C": "2 bộ",
+        "D": "6 bộ"
+      },
+      "correct_answer": "D",
+      "explanation": "Vì TENGV ->-> MONHOC | LOP trên lược đồ 3 thuộc tính, các bộ của cô Hoa phải tạo thành tích Đề-các của 2 môn học và 3 lớp: 2 × 3 = 6 bộ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "Cho lược đồ R(A, B, C, D). Phụ thuộc đa trị nào sau đây là phụ thuộc đa trị TẦM THƯỜNG (không phải dị thường)?",
+      "options": {
+        "A": "A ->-> BC",
+        "B": "AB ->-> CD",
+        "C": "B ->-> AD",
+        "D": "AC ->-> B"
+      },
+      "correct_answer": "B",
+      "explanation": "Phụ thuộc đa trị X ->-> Y tầm thường khi Y = ∅, Y ⊆ X, hoặc XY = U. Với AB ->-> CD trên U = ABCD thì XY = ABCD = U nên đây là MVD tầm thường; 3 phương án còn lại đều có Y ≠ ∅, Y ⊈ X và XY ≠ U.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "Cho lược đồ R(A, B, C, D, E) với tập MVD chỉ gồm {A ->-> BC, AB ->-> DE}. Xét tính 'phụ thuộc đa trị cơ sở' trên R, khẳng định nào đúng?",
+      "options": {
+        "A": "A ->-> BC là phụ thuộc đa trị cơ sở; còn A ->-> DE mới là cơ sở chứ không phải AB ->-> DE",
+        "B": "Cả A ->-> BC và AB ->-> DE đều là phụ thuộc đa trị cơ sở",
+        "C": "Cả A ->-> BC và AB ->-> DE đều tầm thường",
+        "D": "Chỉ AB ->-> DE là phụ thuộc đa trị cơ sở vì vế trái dài hơn"
+      },
+      "correct_answer": "A",
+      "explanation": "Từ A ->-> BC áp dụng luật bù A4 trên U=ABCDE suy ra A ->-> DE. Vì A ⊂ AB mà A ->-> DE đã đúng nên AB ->-> DE không tối tiểu ở vế trái, không phải MVD cơ sở.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "Cho tập thuộc tính U = {A, B, C, D, E} và phụ thuộc đa trị AB ->-> C. Theo tiên đề A4 (Luật bù), phụ thuộc đa trị nào sau đây được suy ra trực tiếp?",
+      "options": {
+        "A": "AB ->-> CDE",
+        "B": "AB ->-> DE",
+        "C": "C ->-> DE",
+        "D": "AB ->-> ABC"
+      },
+      "correct_answer": "B",
+      "explanation": "Áp dụng A4: từ X ->-> Y suy ra X ->-> U \\ XY. Với X = AB, Y = C, U = ABCDE ta có U \\ (AB ∪ C) = DE, nên AB ->-> DE.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "question": "Phát biểu nào sau đây mô tả đúng Tiên đề A8 (Luật giao thoa / Coalescence) trong hệ tiên đề A1–A8?",
+      "options": {
+        "A": "Nếu X ->-> Y và W ->-> Z với Z ⊆ Y, W ∩ Y = ∅ thì X ->-> Z",
+        "B": "Nếu X -> Y và W ->-> Z với Z ⊆ Y, W ∩ Y = ∅ thì X -> Z",
+        "C": "Nếu X ->-> Y và W -> Z với Z ⊆ Y, W ∩ Y = ∅ thì X -> Z",
+        "D": "Nếu X ->-> Y và W -> Z với W ⊆ Y, Z ∩ Y = ∅ thì X -> W"
+      },
+      "correct_answer": "C",
+      "explanation": "Tiên đề A8: Nếu X ->-> Y và W -> Z với Z ⊆ Y và W ∩ Y = ∅ thì X -> Z.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Luật tựa bắc cầu hỗn hợp (Mixed Pseudotransitivity) trong Mục 5.2 phát biểu như thế nào?",
+      "options": {
+        "A": "Nếu X -> Y và XY ->-> Z thì X ->-> Z \\ Y",
+        "B": "Nếu X ->-> Y và XY ->-> Z thì X -> Z \\ Y",
+        "C": "Nếu X ->-> Y và XZ -> Y thì X -> Z",
+        "D": "Nếu X ->-> Y và XY -> Z thì X -> Z \\ Y"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mục 5.2 (Luật 3 - Tựa bắc cầu hỗn hợp): Nếu X ->-> Y và XY -> Z thì suy ra PTH X -> Z \\ Y.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "question": "Cho X ->-> AB và X ->-> BC. Áp dụng Luật tách (Decomposition) đối với phụ thuộc đa trị (Mục 5.2), tập hợp phụ thuộc đa trị nào sau đây được suy ra trực tiếp?",
+      "options": {
+        "A": "X ->-> B, X ->-> A và X ->-> C",
+        "B": "X -> B, X -> A và X -> C",
+        "C": "Chỉ suy ra X ->-> AC, không tách được B",
+        "D": "Không suy ra được gì vì A và C khác nhau"
+      },
+      "correct_answer": "A",
+      "explanation": "Áp dụng Luật tách MVD cho X ->-> Y (Y=AB) và X ->-> Z (Z=BC): suy ra X ->-> Y ∩ Z (= B), X ->-> Y \\ Z (= A) và X ->-> Z \\ Y (= C).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "Trên lược đồ U = {A, B, C, D, E}, giả sử có A ->-> BC và BC -> D. Áp dụng Luật tựa bắc cầu hỗn hợp (hoặc tiên đề A4 + A8), phụ thuộc nào sau đây đúng?",
+      "options": {
+        "A": "A -> BC",
+        "B": "A -> D",
+        "C": "A -> E",
+        "D": "D ->-> BC"
+      },
+      "correct_answer": "B",
+      "explanation": "Từ A ->-> BC (có X=A, Y=BC) và BC -> D (từ A2 suy ra ABC -> D, tức XY -> D). Theo luật tựa bắc cầu hỗn hợp: A -> D \\ BC = D (hoặc áp dụng trực tiếp A8 với X=A, Y=BC ->-> sai? Khoan: dùng A4: A ->-> DE, sau đó A8 với W=BC, Z=D ⊆ DE và BC ∩ DE = ∅ => A -> D).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "question": "Xét một lược đồ R(A, B, C, D) và giả sử chỉ biết A ->-> BC. Có thể kết luận A ->-> B được không và vì sao?",
+      "options": {
+        "A": "Có, vì mọi phụ thuộc đa trị đều có tính tách từng thuộc tính đơn",
+        "B": "Có, bằng cách áp dụng tiên đề A1 và A7",
+        "C": "Không, vì phụ thuộc đa trị không có luật tách tùy ý từng thuộc tính vế phải như PTH",
+        "D": "Có, nếu áp dụng tiên đề A4 cho B"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Chú ý Mục 5.2, từ X ->-> BC không thể tự ý tách thành X ->-> B trừ khi có thêm phụ thuộc khác (như A ->-> BD hoặc A ->-> C) để tách bằng giao hoặc hiệu.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Cho quan hệ r trên R(A, B, C, D) có D = {A ->-> BC}. Theo Định lý 5.3, phép tách nào sau đây chắc chắn là không mất mát thông tin?",
+      "options": {
+        "A": "R1(A, B) và R2(C, D)",
+        "B": "R1(A, B, C) và R2(B, C, D)",
+        "C": "R1(B, C) và R2(A, D)",
+        "D": "R1(A, B, C) và R2(A, D)"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Định lý 5.3: với X = A, Y = BC, Z = U \\ XY = D, thì R thỏa A ->-> BC <=> tách không mất thông tin thành R1[XY] = ABC và R2[XZ] = AD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Trong chứng minh chiều thuận của Định lý 5.3 (r thỏa X ->-> Y => r = r1 * r2 với R1=XY, R2=XZ), giả sử bộ t ∈ r1 * r2 và t3, t4 ∈ r là hai bộ gốc chiếu xuống t[XY] và t[XZ]. Bộ nào được sinh ra bởi MVD X ->-> Y để chứng minh t ∈ r?",
+      "options": {
+        "A": "Bộ t' ∈ r thỏa t'[X] = t3[X], t'[Y] = t3[Y] và t'[Z] = t4[Z], chính bằng bộ t",
+        "B": "Bộ t' ∈ r thỏa t'[X] = t3[X], t'[Y] = t4[Y] và t'[Z] = t3[Z]",
+        "C": "Bộ t' ∈ r thỏa t'[XY] = t4[XY] và t'[Z] = t4[Z]",
+        "D": "Bộ t' ∈ r có toàn giá trị rỗng trên Z"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo chứng minh Mục 5.3: vì t3[X] = t4[X] = t[X], theo định nghĩa X ->-> Y tồn tại bộ t' ∈ r với t'[X]=t3[X]=t[X], t'[Y]=t3[Y]=t[Y] và t'[Z]=t4[Z]=t[Z], suy ra t' = t ∈ r.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "Trong Mục 5.4.1, họ các tập {Y1, Y2, ..., Yn} là 'cơ sở phụ thuộc của X' đối với D nếu thỏa mãn 3 tính chất nào?",
+      "options": {
+        "A": "Đều khác rỗng; đôi một giao nhau khác rỗng; mọi tập trong M(X) là giao của chúng",
+        "B": "Đều khác rỗng; đôi một phân biệt/rời nhau; mọi tập thuộc M(X) đều là hợp của một số tập từ họ con này",
+        "C": "Chứa cả tập rỗng; có thể trùng nhau; tổng kích thước bằng |X|",
+        "D": "Mỗi tập đúng 1 thuộc tính; chỉ gồm các thuộc tính thuộc X"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 5.4.1 quy định 3 tính chất của cơ sở phụ thuộc của X: (1) tất cả các tập đều không rỗng; (2) mỗi cặp tập trong họ con là phân biệt (rời nhau); (3) mỗi tập thuộc M(X) là hợp của một số tập từ họ con.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 40,
+      "question": "Để kiểm tra xem một phụ thuộc đa trị X ->-> Y có thuộc bao đóng D+ hay không thông qua cơ sở phụ thuộc của X (Mục 5.4), ta kiểm tra điều kiện nào?",
+      "options": {
+        "A": "X là tập con của một tập trong cơ sở phụ thuộc",
+        "B": "Y \\ X phải đúng bằng một tập đơn duy nhất trong cơ sở phụ thuộc",
+        "C": "Y \\ X là hợp của một vài tập hợp trong cơ sở phụ thuộc của X",
+        "D": "Y ∩ X là hợp của tất cả các tập trong cơ sở phụ thuộc"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 5.4 nêu rõ: Để kiểm tra X ->-> Y ∈ D+, chỉ cần xác định cơ sở phụ thuộc của X đối với D và xem xét liệu Y \\ X có là hợp của một vài tập hợp trong đó hay không.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "Khi chuyển tập D = F ∪ M thành tập các phụ thuộc đa trị M' để tính cơ sở phụ thuộc (Mục 5.4.2), mỗi phụ thuộc hàm (X -> Y) ∈ D với Y = {A1, A2, ..., An} được thay thế bằng gì?",
+      "options": {
+        "A": "Một phụ thuộc đa trị duy nhất X ->-> Y và giữ nguyên không tách",
+        "B": "Tập các phụ thuộc đa trị Y ->-> X",
+        "C": "Tập các phụ thuộc đa trị A1 ->-> X, ..., An ->-> X",
+        "D": "Tập các phụ thuộc đa trị X ->-> A1, X ->-> A2, ..., X ->-> An"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 5.4.2: Giữ nguyên mọi MVD thuộc D, còn với mỗi PTH (X -> Y) ∈ D thì thay bằng tập các MVD X ->-> A1, ..., X ->-> An trong đó Y = {A1, ..., An}.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "Trong thuật toán Bảng mở rộng (Chase) kiểm tra kết nối không mất thông tin (Mục 5.5.1), cách khởi tạo giá trị ô (i, j) cho bảng gồm k hàng (k lược đồ Ri) và n cột (n thuộc tính Aj) là gì?",
+      "options": {
+        "A": "(i, j) = a_j nếu Aj ∈ Ri; ngược lại (i, j) = b_ij",
+        "B": "(i, j) = b_ij nếu Aj ∈ Ri; ngược lại (i, j) = a_j",
+        "C": "(i, j) = a_i nếu Aj ∈ Ri; ngược lại (i, j) = 0",
+        "D": "(i, j) = 1 nếu Aj ∈ Ri; ngược lại (i, j) = Null"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 5.5.1: (i, j) = a_j nếu Aj ∈ Ri, và (i, j) = b_ij nếu Aj ∉ Ri.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "Khi chạy thuật toán Chase (Mục 5.5.1) và gặp một phụ thuộc đa trị X ->-> Y ∈ D, nếu có hai hàng t1, t2 mà t1[X] = t2[X] thì ta xử lý bảng như thế nào?",
+      "options": {
+        "A": "Ghi đè giá trị trên Y của t2 bằng giá trị trên Y của t1",
+        "B": "Thêm một hàng mới u vào bảng với u[X] = t1[X], u[Y] = t1[Y] và u[U \\ XY] = t2[U \\ XY] (nếu u chưa có trong bảng)",
+        "C": "Xóa bỏ hàng t2 khỏi bảng để giảm số dòng",
+        "D": "Đổi mọi giá trị b_ij trên cột X thành a_j"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 5.5.1: Khác với PTH (biến đổi giá trị trên hàng sẵn có), với MVD X ->-> Y khi có hai hàng t1, t2 thỏa t1[X]=t2[X] thì thêm một hàng u mới với u[X]=t1[X]=t2[X], u[Y]=t1[Y] và u[U\\XY]=t2[U\\XY] nếu u chưa có.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "Theo Định lý 5.5.2, cho lược đồ R, phép tách đôi ρ = (R1, R2) và tập D gồm các PTH và MVD. Phép tách ρ không mất thông tin khi và chỉ khi nào?",
+      "options": {
+        "A": "R1 ∪ R2 ->-> R1 ∩ R2 thuộc D+",
+        "B": "R1 \\ R2 ->-> R1 ∩ R2 thuộc D+",
+        "C": "(R1 ∩ R2) ->-> (R1 \\ R2) (hoặc (R1 ∩ R2) ->-> (R2 \\ R1)) thuộc D+",
+        "D": "(R1 ∩ R2) -> (R1 ∪ R2) thuộc D+"
+      },
+      "correct_answer": "C",
+      "explanation": "Định lý 5.5.2: Phép tách đôi ρ=(R1, R2) không mất thông tin <=> R1 ∩ R2 ->-> R1 \\ R2 (hoặc tương đương bởi luật bù: R1 ∩ R2 ->-> R2 \\ R1) được suy diễn từ D.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "Cho R(A, B, C, D, E) với D = {AB ->-> C, C -> DE}. Kiểm tra phép tách đôi R1(A, B, C) và R2(A, B, D, E) bằng Định lý 5.5.2, kết quả là gì?",
+      "options": {
+        "A": "Mất thông tin vì R1 ∩ R2 = AB không là khóa của R1 hoặc R2",
+        "B": "Mất thông tin vì C -> DE không chứa AB",
+        "C": "Không xác định được bằng Định lý 5.5.2 vì D có cả MVD và PTH",
+        "D": "Không mất thông tin vì R1 ∩ R2 = AB, R1 \\ R2 = C và AB ->-> C ∈ D+"
+      },
+      "correct_answer": "D",
+      "explanation": "Ta có R1 ∩ R2 = AB, R1 \\ R2 = C. Vì AB ->-> C ∈ D+, theo Định lý 5.5.2 phép tách (R1, R2) là không mất thông tin (dù AB không phải siêu khóa theo PTH vì AB ->-> C chỉ là MVD).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "question": "Xét quan hệ S(A, B, C, D, E) với tập PTH G = {A -> BC, B -> E, E -> DA} (Bài tập 3 giáo trình). Các khóa dự tuyển của S là gì và S đạt dạng chuẩn cao nhất nào?",
+      "options": {
+        "A": "Các khóa là A, B, E; S đạt BCNF và 4NF",
+        "B": "Chỉ có khóa duy nhất AB; S chỉ đạt 3NF",
+        "C": "Các khóa là A, E; S đạt BCNF nhưng vi phạm 4NF",
+        "D": "Khóa là BDE; S chỉ đạt 2NF"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Bài 3: A+ = ABCDE, B+ = BEDAC = ABCDE, E+ = EDABC = ABCDE. Các khóa của S là A, B, E. Mọi vế trái PTH đều là khóa nên S đạt BCNF, đồng thời không có MVD dị thường vi phạm nên S đạt 4NF.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Trong Mệnh đề (i) của Mục 5.6, một lược đồ quan hệ ở dạng chuẩn 4 (4NF) khi và chỉ khi mọi phụ thuộc đa trị cơ sở trên lược đồ đó đều có dạng nào?",
+      "options": {
+        "A": "X ->-> Y với |Y| ≥ 2",
+        "B": "X ->-> A (xác định một thuộc tính đơn, thực chất sinh từ PTH với X là siêu khóa)",
+        "C": "∅ ->-> A",
+        "D": "X ->-> U \\ X"
+      },
+      "correct_answer": "B",
+      "explanation": "Mệnh đề (i) Mục 5.6: Một lược đồ quan hệ ở 4NF khi và chỉ khi những phụ thuộc đa trị cơ sở là phụ thuộc xác định một thuộc tính, có dạng X ->-> A.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Trong thuật toán phân tách lược đồ về dạng chuẩn 4NF (Mục 5.6), nếu lược đồ S có MVD vi phạm X ->-> Y và ta đã chuẩn hóa X ∩ Y = ∅, thì S được tách thành hai lược đồ con nào?",
+      "options": {
+        "A": "S1 = X và S2 = S \\ X",
+        "B": "S1 = Y và S2 = S \\ Y",
+        "C": "S1 = XY và S2 = S \\ Y",
+        "D": "S1 = XY và S2 = S \\ X"
+      },
+      "correct_answer": "C",
+      "explanation": "Thuật toán Mục 5.6: Thay thế S bằng S1 = XY và S2 = S \\ Y (tức S2 = X ∪ (S \\ XY), nên S1 ∩ S2 = X và S1 \\ S2 = Y, đảm bảo không mất thông tin).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 49,
+      "question": "Tại sao trong ví dụ Mục 5.6, sau khi tách R(G, A, B, C, D, E) theo G ->-> BC thành R1(G, B, C) và R2(G, A, D, E), lược đồ R1 = GBC không bị phụ thuộc G ->-> BC làm vi phạm 4NF nữa?",
+      "options": {
+        "A": "Vì trên R1, thuộc tính G là khóa duy nhất của R1",
+        "B": "Vì trên R1 = GBC, G và BC bằng nhau",
+        "C": "Vì thuật toán 4NF bỏ qua mọi MVD sau lần tách đầu tiên",
+        "D": "Vì khi chiếu lên R1 = GBC, ta có G ∪ BC = GBC = R1 nên G ->-> BC trở thành MVD tầm thường trên R1"
+      },
+      "correct_answer": "D",
+      "explanation": "Trên R1(G, B, C), hợp hai vế của G ->-> BC là GBC, bằng toàn bộ tập thuộc tính của R1 (XY = U1), nên G ->-> BC không còn là MVD dị thường nữa; còn PTH BC -> G có BC là khóa nên R1 đạt 4NF.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "question": "Cho lược đồ R(A, B, C, D) chỉ có một MVD A ->-> B (không có PTH nào khác). Khóa của R là gì và R cần tách thành những lược đồ nào để đạt 4NF?",
+      "options": {
+        "A": "Khóa là ABCD; tách theo A ->-> B thành R1(A, B) và R2(A, C, D)",
+        "B": "Khóa là A; R đã đạt 4NF nên không cần tách",
+        "C": "Khóa là AB; tách thành R1(A, B) và R2(C, D)",
+        "D": "Khóa là CD; tách thành R1(A, C, D) và R2(B, C, D)"
+      },
+      "correct_answer": "A",
+      "explanation": "Vì không có PTH nào khác, khóa của R là toàn bộ ABCD. MVD A ->-> B là dị thường (B ≠ ∅, B ⊈ A, AB ≠ ABCD) và A không chứa khóa ABCD => vi phạm 4NF. Tách thành S1 = AB và S2 = R \\ B = ACD, cả hai đều đạt 4NF.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "question": "Xét quan hệ R(A, B, C, D, E) ở trường hợp (b) của Bài tập 2: {(a, 2, 3, 4, 5), (2, a, 3, 5, 5)}. Điều kiện của tham số a để R vi phạm PTH BC -> D và MVD BC ->-> D lần lượt là gì?",
+      "options": {
+        "A": "BC -> D vi phạm với mọi a; BC ->-> D vi phạm khi a = 2",
+        "B": "BC -> D vi phạm khi a = 2 (ngược lại không); BC ->-> D không vi phạm với mọi giá trị a",
+        "C": "Cả BC -> D và BC ->-> D đều vi phạm khi a = 2",
+        "D": "Cả BC -> D và BC ->-> D đều không vi phạm với mọi a"
+      },
+      "correct_answer": "B",
+      "explanation": "Nếu a = 2, hai bộ đều có BC=(2,3) nhưng D=4 ≠ 5 nên BC -> D vi phạm (nếu a ≠ 2 thì không). Với BC ->-> D, khi a=2 hai bộ có cùng phần bù AE=(2,5), nên bộ hoán vị chính là bản thân 2 bộ đã có; vậy BC ->-> D không vi phạm với mọi a.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 52,
+      "question": "Xét quan hệ R(A, B, C, D, E) ở trường hợp (c) của Bài tập 2: {(a, 2, 3, 4, 5), (2, a, 3, 5, 5), (a, 2, 3, 4, 6)}. Khi a = 2, vì sao BC ->-> D bị vi phạm?",
+      "options": {
+        "A": "Vì thiếu bộ (2, 2, 3, 4, 5) trong quan hệ",
+        "B": "Vì thiếu bộ (2, 2, 3, 6, 5) trong quan hệ",
+        "C": "Vì xét hai bộ (2, a, 3, 5, 5) và (a, 2, 3, 4, 6) khi a = 2 đều có BC = (2, 3), nên cần có bộ (2, 2, 3, 5, 6) nhưng bộ này thiếu",
+        "D": "Vì khi a = 2 hai bộ đầu giống hệt nhau trên mọi thuộc tính"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Lời giải Bài 2(c): Khi a = 2, hai bộ t1 = (2, 2, 3, 5, 5) và t2 = (2, 2, 3, 4, 6) có cùng BC = (2, 3). Áp dụng BC ->-> D với phần bù AE, bắt buộc phải tồn tại bộ t3 có D = 5 và AE = (2, 6), tức bộ (2, 2, 3, 5, 6), nhưng quan hệ không có bộ này.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 53,
+      "question": "Xét quan hệ R(A, B, C, D, E) ở trường hợp (d) của Bài tập 2: {(a, 2, 3, 4, 5), (2, a, 3, 4, 5), (a, 2, 3, 6, 5)}. Nhận xét nào đúng về BC -> D và BC ->-> D?",
+      "options": {
+        "A": "BC -> D chỉ vi phạm khi a = 2; BC ->-> D vi phạm khi a = 2",
+        "B": "Cả BC -> D và BC ->-> D đều vi phạm với mọi a",
+        "C": "BC -> D không vi phạm với mọi a; BC ->-> D vi phạm với mọi a",
+        "D": "BC -> D vi phạm với mọi a; BC ->-> D không vi phạm với mọi a"
+      },
+      "correct_answer": "D",
+      "explanation": "Bộ 1 (a,2,3,4,5) và bộ 3 (a,2,3,6,5) luôn có BC=(2,3) nhưng D=4 ≠ 6 nên BC -> D vi phạm với mọi a. Tuy nhiên trên mọi bộ này giá trị phần bù AE luôn là (a,5) (hoặc khi a=2 là (2,5)), nên các bộ hoán vị trùng chính các bộ sẵn có => BC ->-> D không vi phạm với mọi a.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "question": "Xét quan hệ R(A, B, C, D, E) ở trường hợp (f) của Bài tập 2: {(a, 2, 3, 4, 5), (2, a, 3, 4, 5), (a, 2, 3, 6, 5), (a, 2, 3, 6, 6)}. Để quan hệ này không còn vi phạm MVD BC ->-> D với mọi a, cần bổ sung bộ nào?",
+      "options": {
+        "A": "(a, 2, 3, 4, 6) (và nếu a = 2 thì bộ này cũng khớp luôn cho bộ (2, a, 3, 4, 5))",
+        "B": "(2, a, 3, 6, 6)",
+        "C": "(a, 2, 3, 5, 6)",
+        "D": "(2, 2, 3, 4, 4)"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Lời giải Bài 2(f): Xét bộ thứ 1 (a, 2, 3, 4, 5) và bộ thứ 4 (a, 2, 3, 6, 6) cùng có BC=(2,3), để giữ MVD BC ->-> D cần tồn tại bộ (a, 2, 3, 4, 6) (và khi a=2, bộ (2,2,3,4,6) cũng đồng thời là kết quả hoán vị của bộ 2 với bộ 4).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 55,
+      "question": "Xét quan hệ R(A, B, C, D, E) ở trường hợp (g) của Bài tập 2: {(a, 2, 3, 4, 5), (a, 2, 3, 6, 5), (a, 2, 3, 6, 6), (a, 2, 3, 4, 6)}. Kết luận nào chính xác nhất?",
+      "options": {
+        "A": "BC -> D thỏa mãn; BC ->-> D vi phạm",
+        "B": "BC -> D không thỏa (vi phạm); BC ->-> D không bị vi phạm",
+        "C": "Cả BC -> D và BC ->-> D đều thỏa mãn",
+        "D": "Cả BC -> D và BC ->-> D đều vi phạm"
+      },
+      "correct_answer": "B",
+      "explanation": "BC -> D vi phạm vì (a,2,3,4,5) và (a,2,3,6,5) có cùng BC=(2,3) nhưng D=4 ≠ 6. Ngược lại, với cùng BC=(2,3) và A=a, các giá trị D ∈ {4,6} và E ∈ {5,6} kết hợp đủ 4 cặp tích Đề-các nên BC ->-> D không bị vi phạm.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 56,
+      "question": "Cho U = {A, B, C, D, E} và tập MVD F = {A ->-> BC, DE ->-> C} (Bài tập 6 giáo trình). Trong chuỗi chứng minh suy ra AD ->-> BE, bước biến đổi từ A ->-> DE và DE ->-> C cho kết quả trực tiếp nào theo tiên đề A6?",
+      "options": {
+        "A": "A ->-> BC",
+        "B": "AD ->-> E",
+        "C": "A ->-> C",
+        "D": "DE ->-> A"
+      },
+      "correct_answer": "C",
+      "explanation": "Từ A ->-> BC áp dụng luật bù A4 được A ->-> DE. Kết hợp A ->-> DE và DE ->-> C bằng tiên đề bắc cầu A6 cho kết quả A ->-> C \\ DE = C.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 57,
+      "question": "Tiếp nối Bài tập 6 trên U = {A, B, C, D, E} với F = {A ->-> BC, DE ->-> C}: sau khi có A ->-> C và A ->-> DE, làm thế nào để suy ra được A ->-> B và từ đó suy ra AD ->-> BE?",
+      "options": {
+        "A": "Dùng tiên đề A8 để biến A ->-> C thành A -> C, rồi ghép với DE",
+        "B": "Dùng luật tách cho A ->-> BC và A ->-> DE để có A ->-> D",
+        "C": "Dùng luật bắc cầu A6 giữa A ->-> C và A ->-> BC",
+        "D": "Dùng luật tách cho A ->-> BC và A ->-> C được A ->-> B; dùng A5 tăng trưởng thêm D cho A ->-> B và A ->-> DE (rồi tách D ra khỏi DE) được AD ->-> B và AD ->-> E, cuối cùng dùng luật hợp được AD ->-> BE"
+      },
+      "correct_answer": "D",
+      "explanation": "Từ A ->-> BC và A ->-> C, luật tách cho A ->-> BC \\ C = B. Dùng A5 (thêm D ở vế trái): AD ->-> B và AD ->-> DE. Vì AD ->-> D (từ A1, A7) nên luật tách cho AD ->-> DE \\ D = E. Luật hợp cho AD ->-> BE.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 58,
+      "question": "Theo Mục 5.4.2, sau khi chuyển tập D = F ∪ M thành tập MVD tương ứng M' và tính được cơ sở phụ thuộc của X đối với M', một phụ thuộc hàm X -> A (với A ∉ X) thuộc D+ khi và chỉ khi thỏa đồng thời 2 điều kiện nào?",
+      "options": {
+        "A": "(i) {A} là một tập đơn trong cơ sở phụ thuộc của X đối với M', và (ii) Tồn tại PTH (W -> Z) ∈ D sao cho A ∉ W và A ∈ Z",
+        "B": "(i) {A} nằm trong hợp nhiều tập của cơ sở phụ thuộc, và (ii) Không có PTH nào chứa A ở vế phải",
+        "C": "(i) X chứa A, và (ii) Mọi MVD trong D đều chứa A",
+        "D": "(i) {A} là tập đơn trong cơ sở phụ thuộc của X, và (ii) A nằm ở vế trái của mọi MVD"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 5.4.2 nêu rõ 2 điều kiện cần và đủ cho X -> A ∈ D+ (khi A ∉ X): (i) {A} là một tập độc lập (đơn phần tử) trong cơ sở phụ thuộc của X đối với M'; và (ii) Tồn tại PTH (W -> Z) ∈ D với A ∉ W và A ∈ Z.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 59,
+      "question": "Áp dụng thuật toán tính cơ sở phụ thuộc (Mục 5.4.2) cho tập thuộc tính U = {A, B, C, D, E}, tập M = {A ->-> BC, B ->-> CD} và X = {A}. Cơ sở phụ thuộc của A đối với M là họ nào?",
+      "options": {
+        "A": "{ {B, C}, {D, E} }",
+        "B": "{ {B, C}, {D}, {E} }",
+        "C": "{ {B, C, D}, {E} }",
+        "D": "{ {A}, {B}, {C}, {D}, {E} }"
+      },
+      "correct_answer": "B",
+      "explanation": "Bước 1 (xét W ⊆ {A} với A ->-> BC): T = { {B, C}, {D, E} }. Bước 2: Các tập đã rời nhau nên S = { {B, C}, {D, E} }. Bước 3 (xét B ->-> CD): tập Y = {B, C} chứa B nên không tách; tập Y = {D, E} rời với {B}, giao {C, D} bằng {D} ≠ ∅ và không là tập con của {C, D}, nên tách {D, E} thành {D} và {E}. Kết quả cơ sở phụ thuộc của A là { {B, C}, {D}, {E} }.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 60,
+      "question": "Trong thuật toán tính cơ sở phụ thuộc của X đối với tập MVD M (Mục 5.4.2), tại Bước 2 khi tìm được hai tập Z1, Z2 ∈ T không rời nhau (Z1 ∩ Z2 ≠ ∅), ta thay thế chúng bằng các tập nào (loại bỏ tập rỗng)?",
+      "options": {
+        "A": "Z1 ∪ Z2 và Z1 ∩ Z2",
+        "B": "Chỉ giữ lại Z1 ∩ Z2",
+        "C": "Z1 ∩ Z2, Z1 \\ Z2 và Z2 \\ Z1",
+        "D": "U \\ Z1 và U \\ Z2"
+      },
+      "correct_answer": "C",
+      "explanation": "Bước 2 Mục 5.4.2: Nếu Z1, Z2 ∈ T không rời nhau thì thay chúng bằng Z1 ∩ Z2, Z1 \\ Z2, Z2 \\ Z1 với điều kiện không ghi nhận tập rỗng.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "question": "Cho lược đồ R(A, B, C, D) và phép tách ρ = (AB, BC, CD), với tập D = {B ->-> A}. Khi chạy thuật toán Bảng mở rộng Chase (Mục 5.5.1), phép tách ρ có không mất thông tin không?",
+      "options": {
+        "A": "Có, vì B ->-> A tạo thêm dòng chứa toàn a1, a2, a3, a4",
+        "B": "Có, vì mỗi bảng đều có ít nhất 2 thuộc tính chung với bảng khác",
+        "C": "Không thể chạy thuật toán vì D không có phụ thuộc hàm nào",
+        "D": "Không mất thông tin bị bác bỏ (Mất thông tin), vì không dòng nào đạt đủ a1, a2, a3, a4"
+      },
+      "correct_answer": "D",
+      "explanation": "Bảng khởi tạo 3 dòng: r1=(a1,a2,b13,b14), r2=(b21,a2,a3,b24), r3=(b31,b32,a3,a4). Áp dụng B ->-> A trên r1 và r2 (cùng B=a2): sinh thêm dòng u=(a1,a2,a3,b24) và u'=(b21,a2,b13,b14). Không có phụ thuộc nào nối cột C với cột D trên cùng giá trị B=a2, nên không bao giờ xuất hiện dòng (a1,a2,a3,a4) => Mất mát thông tin!",
+      "difficulty": "hard"
+    },
+    {
+      "id": 62,
+      "question": "Cho lược đồ R(A, B, C, D) và phép tách ρ = (AB, BC, BD), với tập phụ thuộc D = {B ->-> A, B ->-> C}. Khi chạy thuật toán Chase (Mục 5.5.1), cần ít nhất thao tác nào để xuất hiện dòng toàn a?",
+      "options": {
+        "A": "Áp dụng MVD B ->-> A giữa dòng 1 (AB) và dòng 2 (BC) để được (a1, a2, a3, b24), rồi áp dụng B ->-> C (hoặc B ->-> A) kết hợp với dòng 3 (BD) để sinh dòng (a1, a2, a3, a4)",
+        "B": "Chỉ cần đổi b13 thành a3 ngay ở dòng 1 nhờ PTH B -> C",
+        "C": "Không cần thêm dòng nào vì dòng 1 đã có đủ a",
+        "D": "Phép tách này vẫn mất thông tin vì thiếu phụ thuộc hàm"
+      },
+      "correct_answer": "A",
+      "explanation": "Khởi tạo: r1=(a1,a2,b13,b14), r2=(b21,a2,a3,b24), r3=(b31,a2,b33,a4). Dùng B ->-> A cho r1 và r2 (cùng B=a2) thêm u1=(a1,a2,a3,b24). Sau đó dùng B ->-> A cho u1 và r3 (cùng B=a2) hoặc B ->-> D từ r3 kết hợp u1 sẽ sinh u2=(a1,a2,a3,a4) toàn a => Không mất thông tin!",
+      "difficulty": "hard"
+    },
+    {
+      "id": 63,
+      "question": "Xét lược đồ R(A, B, C, D, E) với tập PTH F = {A -> BC, BC -> E, E -> DA} (Bài tập 3 giáo trình). Tại sao R đạt cả BCNF lẫn 4NF?",
+      "options": {
+        "A": "Vì tập F chỉ có 3 phụ thuộc hàm nên R tự động đạt 4NF",
+        "B": "Vì R có các khóa là A, BC, E; mọi vế trái PTH đều là khóa nên đạt BCNF, và không tồn tại MVD dị thường nào có vế trái không chứa khóa",
+        "C": "Vì E là thuộc tính khóa duy nhất và A, B, C, D đều phụ thuộc bắc cầu vào E",
+        "D": "Vì khóa của R là toàn bộ ABCDE"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Bài 3: A+ = ABCDE, (BC)+ = BCEDA, E+ = EDABC, nên các khóa của R là A, BC và E. Mọi PTH trong F đều có vế trái là khóa (đạt BCNF) và không có MVD dị thường độc lập ngoài các PTH này nên R đạt 4NF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 64,
+      "question": "Cho lược đồ quan hệ R(P, A, C, B, G, L, K, H) với tập PTH {P -> ACBGL, C -> B, G -> K} (Bài tập 4 giáo trình, hiệu đính tên thuộc tính K thay cho lỗi in 'R'). Khóa của R và dạng chuẩn cao nhất mà R đạt được là gì?",
+      "options": {
+        "A": "Khóa là P; R đạt BCNF",
+        "B": "Khóa là PCG; R đạt 3NF",
+        "C": "Khóa là PH; R chỉ đạt 1NF (vi phạm 2NF do có phụ thuộc bộ phận P -> ACBGL vào khóa PH)",
+        "D": "Khóa là PKH; R đạt 2NF nhưng vi phạm 3NF"
+      },
+      "correct_answer": "C",
+      "explanation": "Thuộc tính P và H không nằm ở vế phải của bất kỳ PTH nào nên mọi khóa đều chứa PH. Tính (PH)+ = PACBGLKH = U => PH là khóa duy nhất. Do tồn tại P -> ACBGL (P ⊂ PH) nên R vi phạm 2NF và chỉ đạt 1NF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 65,
+      "question": "Cho lược đồ R(A, B, C, D, E, F) với tập PTH {AB -> C, C -> B, ABD -> E, F -> A} (Bài tập 5 giáo trình). Tập tất cả các khóa dự tuyển của R là gì?",
+      "options": {
+        "A": "Chỉ có một khóa duy nhất là ABDF",
+        "B": "Hai khóa dự tuyển là ABF và ACF",
+        "C": "Hai khóa dự tuyển là DEF và CDF",
+        "D": "Hai khóa dự tuyển là BDF và CDF"
+      },
+      "correct_answer": "D",
+      "explanation": "D và F không nằm ở vế phải nào nên thuộc mọi khóa. (DF)+ = ADF (thiếu B, C, E). Thử thêm B: (BDF)+ = BDFACE = U; thử thêm C: (CDF)+ = CDFABE = U (nhờ C -> B, AB -> C, ABD -> E). Vậy có 2 khóa là BDF và CDF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "question": "Cho lược đồ R(A, B, C, D, E, F) với tập PTH {AB -> C, C -> B, ABD -> E, F -> A} (Bài tập 5). Kết quả phân rã nào sau đây đưa R về dạng chuẩn BCNF không mất thông tin?",
+      "options": {
+        "A": "R1(F, A), R2(C, B), R3(C, D, E, F)",
+        "B": "R1(F, A), R2(A, B, C), R3(D, E, F)",
+        "C": "R1(A, B, C, D, E) và R2(F, A)",
+        "D": "R1(B, D, F) và R2(C, D, E)"
+      },
+      "correct_answer": "A",
+      "explanation": "Tách R theo C -> B được R2(C, B) (BCNF) và R'(A, C, D, E, F); tiếp tục tách R' theo F -> A được R1(F, A) (BCNF) và R3(C, D, E, F) với PTH suy dẫn CFD -> E (vì C->B, F->A, ABD->E => CFD->E), khóa của R3 là CDF nên R3 cũng đạt BCNF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 67,
+      "question": "Cho lược đồ R(A, B, C, D, E, F) với tập PTH {A -> BCD, C -> D, B -> AC} (Bài tập 7 giáo trình). Nếu chuẩn hóa R về dạng chuẩn 4NF không mất thông tin, phép phân tách hợp lệ là gì?",
+      "options": {
+        "A": "R1(A, B, C, D) và R2(E, F)",
+        "B": "R1(C, D), R2(A, B, C) và R3(A, E, F)",
+        "C": "R1(A, B, D), R2(B, C) và R3(E, F)",
+        "D": "R1(A, B, C, D, E) và R2(E, F)"
+      },
+      "correct_answer": "B",
+      "explanation": "Khóa của R là AEF và BEF. Tách theo C -> D được R1(C, D) (4NF) và R'(A, B, C, E, F). Trên R' tách theo A -> BC được R2(A, B, C) (khóa A, B -> BCNF/4NF) và R3(A, E, F) (khóa AEF -> 4NF).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 68,
+      "question": "Trong ví dụ tách R(G, A, B, C, D, E) về dạng chuẩn 4NF ở Mục 5.6 (thu được R1 = GBC, R21 = GA, R22 = GDE), phụ thuộc đa trị G ->-> DE ban đầu được suy ra từ các phụ thuộc nào?",
+      "options": {
+        "A": "Từ BC -> G và G -> A bằng tiên đề bắc cầu PTH",
+        "B": "Từ BD -> C và G ->-> BC bằng tiên đề giao thoa A8",
+        "C": "Từ G ->-> BC và G -> A (dùng A7 suy G ->-> A, luật hợp được G ->-> ABC, rồi luật bù A4 được G ->-> DE)",
+        "D": "Từ BA -> C và G -> A bằng luật tăng trưởng A5"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 5.6 trình bày: Từ G ->-> BC và G -> A (=> G ->-> A theo A7), hợp lại thành G ->-> ABC, áp dụng luật bù A4 trên U = GABCDE suy ra G ->-> DE.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 69,
+      "question": "Cho quan hệ r(R) thỏa đồng thời k phụ thuộc đa trị X ->-> Y1, X ->-> Y2, ..., X ->-> Yk với R = X Y1 Y2 ... Yk (Bài tập 8 giáo trình). Để chứng minh phép tách thành (XY1, XY2, ..., XYk) không mất thông tin, cơ sở lý thuyết chính là gì?",
+      "options": {
+        "A": "Vì mỗi tập Yi đều xác định hàm tập X",
+        "B": "Vì phép chiếu lên các tập Yi luôn bằng nhau từng đôi một",
+        "C": "Vì mọi quan hệ đều có thể tách thành các bảng 2 thuộc tính mà không mất thông tin",
+        "D": "Quy nạp kết hợp Luật hợp MVD và Định lý 5.3: nối lần lượt các bộ t_i ∈ r chiếu từ t ∈ π_{XY1}(r)*...*π_{XYk}(r) nhờ X ->-> Yi sẽ tái tạo chính bộ t ∈ r"
+      },
+      "correct_answer": "D",
+      "explanation": "Với bộ t ∈ π_{XY1}(r) * ... * π_{XYk}(r), tồn tại t1..tk ∈ r có cùng giá trị trên X và t_i[XY_i] = t[XY_i]. Bằng quy nạp dùng các MVD X ->-> Y_i, ta kết hợp dần t1, t2, ..., tk để thu được bộ u_k = t ∈ r.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 70,
+      "question": "Trong chứng minh Tiên đề tăng trưởng A5 (Bài tập 9 giáo trình): nếu r thỏa X ->-> Y và Z ⊆ W thì r thỏa XW ->-> YZ. Cho t1, t2 ∈ r thỏa t1[XW] = t2[XW] và bộ t3 ∈ r sinh ra bởi X ->-> Y (t3[X]=t1[X], t3[Y]=t1[Y], t3[U\\XY]=t2[U\\XY]). Vì sao chắc chắn có t3[Z] = t1[Z]?",
+      "options": {
+        "A": "Vì Z ⊆ W nên từ t1[XW] = t2[XW] suy ra t1[Z] = t2[Z]; do đó dù thuộc tính của Z nằm trong XY (lấy theo t1) hay nằm trong U \\ XY (lấy theo t2), giá trị trên t3 vẫn bằng t1[Z]",
+        "B": "Vì giả thiết Z ⊆ W bắt buộc Z phải nằm hoàn toàn bên trong Y",
+        "C": "Vì X ->-> Y bắt buộc t3 và t1 phải giống nhau trên toàn bộ U",
+        "D": "Vì Z luôn bằng tập rỗng ∅"
+      },
+      "correct_answer": "A",
+      "explanation": "Do t1[XW] = t2[XW] và Z ⊆ W nên t1[Z] = t2[Z]. Với mọi thuộc tính A ∈ Z: nếu A ∈ XY thì t3[A] = t1[A]; nếu A ∈ U \\ XY thì t3[A] = t2[A] = t1[A]. Vậy t3[Z] = t1[Z], kéo theo t3[YZ] = t1[YZ].",
+      "difficulty": "hard"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Nêu ngắn gọn nguyên nhân khiến quan hệ GIANGDAY(TENGV, MONHOC, LOP) đạt chuẩn BCNF nhưng vẫn dư thừa dữ liệu.",
+      "expected_answer": "Khóa của GIANGDAY là toàn bộ (TENGV, MONHOC, LOP) nên bảng đạt BCNF.\nTuy nhiên, một giảng viên dạy nhiều môn ở nhiều lớp một cách độc lập (TENGV ->-> MONHOC và TENGV ->-> LOP).\nPhụ thuộc hàm không diễn tả được sự độc lập giữa hai tập thuộc tính này nên gây lặp lại dư thừa dữ liệu."
+    },
+    {
+      "id": 2,
+      "question": "Phát biểu 3 điều kiện để một phụ thuộc đa trị X ->-> Y trên R(U) được gọi là phụ thuộc đa trị dị thường (không tầm thường).",
+      "expected_answer": "Phụ thuộc đa trị X ->-> Y là dị thường khi thỏa đồng thời 3 điều kiện:\n1. Y ≠ ∅ (vế phải khác rỗng).\n2. Y ⊈ X (vế phải không nằm trong vế trái).\n3. XY ≠ U (hợp hai vế không phủ toàn bộ tập thuộc tính của R)."
+    },
+    {
+      "id": 3,
+      "question": "Phát biểu Tiên đề A4 (Luật bù) và Tiên đề A8 (Luật giao thoa) trong hệ tiên đề A1–A8 cho phụ thuộc hàm và phụ thuộc đa trị.",
+      "expected_answer": "- A4 (Luật bù MVD): Trên R(U), nếu X ->-> Y thì X ->-> U \\ XY.\n- A8 (Luật giao thoa): Nếu X ->-> Y và W -> Z với Z ⊆ Y và W ∩ Y = ∅ thì suy ra phụ thuộc hàm X -> Z."
+    },
+    {
+      "id": 4,
+      "question": "Trong thuật toán bảng mở rộng (Chase) kiểm tra kết nối không mất thông tin (Mục 5.5.1), thao tác xử lý khi gặp MVD X ->-> Y khác với khi gặp PTH X -> Y ở điểm nào?",
+      "expected_answer": "- Với PTH X -> Y: giữ nguyên số dòng, đồng nhất các giá trị khác nhau trên Y của các dòng trùng X (ưu tiên a_j hơn b_ij).\n- Với MVD X ->-> Y: nếu có hai dòng t1, t2 trùng nhau trên X thì THÊM MỘT DÒNG MỚI u vào bảng thỏa u[X]=t1[X], u[Y]=t1[Y], u[U\\XY]=t2[U\\XY] (nếu u chưa có)."
+    },
+    {
+      "id": 5,
+      "question": "Phát biểu Định nghĩa Dạng chuẩn 4 (4NF) và nêu mối quan hệ bao hàm giữa 4NF, BCNF và 3NF.",
+      "expected_answer": "- Định nghĩa 4NF: Lược đồ R đạt 4NF nếu với mọi MVD dị thường X ->-> Y ∈ D+ (Y ≠ ∅, Y ⊈ X, XY ≠ U), vế trái X đều phải chứa một khóa của R.\n- Quan hệ bao hàm (Mệnh đề iv): R ở 4NF => R ở BCNF => R ở 3NF (chiều ngược lại không nhất thiết đúng)."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Bài 1 (Giáo trình): Kiểm tra 6 phụ thuộc PTH và MVD trên quan hệ S(A, B, C)",
+      "problem": "Cho quan hệ $S$ với 3 thuộc tính $(A, B, C)$ gồm 4 bộ giá trị: $(1, 2, 3)$, $(4, 2, 3)$, $(5, 3, 3)$, $(5, 3, 4)$. Hãy kiểm tra các phụ thuộc hàm và phụ thuộc đa trị sau có thỏa trên quan hệ $S$ hay không:\n1. $A \\to B$\n2. $A \\twoheadrightarrow B$\n3. $BC \\to A$\n4. $BC \\twoheadrightarrow A$\n5. $B \\to C$\n6. $B \\twoheadrightarrow C$",
+      "solution_steps": [
+        "Bước 1 — Nguyên tắc kiểm tra trên một thể hiện quan hệ mẫu: Nếu tìm thấy cặp bộ vi phạm định nghĩa trên bảng $S$ hiện có thì khẳng định chắc chắn phụ thuộc **không thỏa** trên lược đồ; ngược lại nếu không vi phạm trên 4 bộ mẫu thì chỉ biết hợp lệ trên thể hiện này và ghi là **không xác định** (chưa đủ dữ liệu khẳng định đúng cho mọi thể hiện của lược đồ).",
+        "Bước 2 — Kiểm tra (1) $A \\to B$ và (2) $A \\twoheadrightarrow B$: Trong 4 bộ chỉ có hai bộ $(5,3,3)$ và $(5,3,4)$ trùng giá trị $A=5$, và chúng đều có $B=3$. Không có cặp nào vi phạm trên thể hiện hiện tại $\\Rightarrow$ (1) $A \\to B$: **Không xác định**; (2) $A \\twoheadrightarrow B$: **Không xác định**.",
+        "Bước 3 — Kiểm tra (3) $BC \\to A$ và (4) $BC \\twoheadrightarrow A$: Xét hai bộ $(1,2,3)$ và $(4,2,3)$ có cùng $BC=(2,3)$ nhưng giá trị $A$ khác nhau ($1 \\neq 4$) $\\Rightarrow$ (3) $BC \\to A$: **Không thỏa (vi phạm)**. Với (4) $BC \\twoheadrightarrow A$, vì $U \\setminus (BC \\cup A) = \\emptyset$ (MVD tầm thường), không vi phạm trên mẫu $\\Rightarrow$ (4) $BC \\twoheadrightarrow A$: **Không xác định**.",
+        "Bước 4 — Kiểm tra (5) $B \\to C$ và (6) $B \\twoheadrightarrow C$: Xét hai bộ $(5,3,3)$ và $(5,3,4)$ có cùng $B=3$ nhưng $C=3 \\neq 4$ $\\Rightarrow$ (5) $B \\to C$: **Không thỏa (vi phạm)**. Với (6) $B \\twoheadrightarrow C$, hai bộ $(5,3,3)$ và $(5,3,4)$ có cùng $A=5$ nên hoán vị vẫn nằm trong $S$ $\\Rightarrow$ (6) $B \\twoheadrightarrow C$: **Không xác định**.",
+        "Bước 5 — Kết luận tổng hợp theo giáo trình: Từ thông tin đã cho, ta chắc chắn kết luận **$BC \\to A$ và $B \\to C$ không thỏa**, còn 4 phụ thuộc $A \\to B, A \\twoheadrightarrow B, BC \\twoheadrightarrow A, B \\twoheadrightarrow C$ là **không xác định**."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài 2 (Giáo trình): Phân tích điều kiện tham số a cho PTH BC -> D và MVD BC ->-> D trên 7 trường hợp",
+      "problem": "Xét quan hệ $R(A, B, C, D, E)$. Đối với mỗi trường hợp sau của $R$, hãy cho biết nó có vi phạm (1) PTH $BC \\to D$ và (2) MVD $BC \\twoheadrightarrow D$ hay không (theo giá trị của tham số $a$):\n(a) $\\emptyset$ (quan hệ rỗng)\n(b) $\\{(a,2,3,4,5), (2,a,3,5,5)\\}$\n(c) $\\{(a,2,3,4,5), (2,a,3,5,5), (a,2,3,4,6)\\}$\n(d) $\\{(a,2,3,4,5), (2,a,3,4,5), (a,2,3,6,5)\\}$\n(e) $\\{(a,2,3,4,5), (2,a,3,7,5), (a,2,3,4,6)\\}$\n(f) $\\{(a,2,3,4,5), (2,a,3,4,5), (a,2,3,6,5), (a,2,3,6,6)\\}$\n(g) $\\{(a,2,3,4,5), (a,2,3,6,5), (a,2,3,6,6), (a,2,3,4,6)\\}$",
+      "solution_steps": [
+        "Bước 1 — Trường hợp (a) và (b): (a) Quan hệ rỗng không vi phạm cả $BC \\to D$ và $BC \\twoheadrightarrow D$. (b) Nếu $a = 2$ thì hai bộ cùng có $BC=(2,3)$ nhưng $D=4 \\neq 5 \\Rightarrow BC \\to D$ **vi phạm** (nếu $a \\neq 2$ thì không). Với $BC \\twoheadrightarrow D$, ngay cả khi $a=2$ hai bộ vẫn có chung $AE=(2,5)$ nên bộ hoán vị là chính chúng $\\Rightarrow BC \\twoheadrightarrow D$ **không vi phạm với mọi $a$**.",
+        "Bước 2 — Trường hợp (c): Nếu $a = 2$, hai bộ đầu có $BC=(2,3), D=4 \\neq 5 \\Rightarrow BC \\to D$ **vi phạm** (ngược lại không). Cũng khi $a = 2$, xét $(2,a,3,5,5)$ và $(a,2,3,4,6)$ có $BC=(2,3)$, theo $BC \\twoheadrightarrow D$ phải tồn tại bộ $(2,2,3,5,6)$ nhưng thiếu $\\Rightarrow BC \\twoheadrightarrow D$ **vi phạm khi $a = 2$** (ngược lại không).",
+        "Bước 3 — Trường hợp (d): Xét bộ 1 $(a,2,3,4,5)$ và bộ 3 $(a,2,3,6,5)$ luôn cùng $BC=(2,3)$ nhưng $D=4 \\neq 6 \\Rightarrow BC \\to D$ **vi phạm với mọi $a$**. Tuy nhiên mọi bộ đều có chung phần bù $AE=(a,5)$ (kể cả bộ 2 khi $a=2$) nên các bộ hoán vị đều có sẵn $\\Rightarrow BC \\twoheadrightarrow D$ **không vi phạm với mọi $a$**.",
+        "Bước 4 — Trường hợp (e): Nếu $a = 2$, bộ 1 và 2 có $BC=(2,3), D=4 \\neq 7 \\Rightarrow BC \\to D$ **vi phạm** (ngược lại không). Nếu $a = 2$, xét hai bộ cuối $(2,a,3,7,5)$ và $(a,2,3,4,6)$ cần có bộ hoán vị $(2,a,3,7,6)$ nhưng không có $\\Rightarrow BC \\twoheadrightarrow D$ **vi phạm khi $a = 2$** (ngược lại không).",
+        "Bước 5 — Trường hợp (f) và (g): (f) Bộ 1 và bộ 3 làm $BC \\to D$ **vi phạm với mọi $a$**; bộ 1 $(a,2,3,4,5)$ và bộ 4 $(a,2,3,6,6)$ thiếu bộ $(a,2,3,4,6) \\Rightarrow BC \\twoheadrightarrow D$ **vi phạm với mọi $a$**. (g) Bộ 1 và bộ 2 làm $BC \\to D$ **vi phạm với mọi $a$**; 4 bộ lập đủ tích Đề-các $D \\in \\{4,6\\} \\times E \\in \\{5,6\\}$ trên $BC=(2,3), A=a \\Rightarrow BC \\twoheadrightarrow D$ **không vi phạm với mọi $a$**."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bài 3 (Giáo trình): Kiểm tra dạng chuẩn BCNF và 4NF cho hai quan hệ R và S trên ABCDE",
+      "problem": "Xét hai lược đồ quan hệ trên cùng tập thuộc tính $U = (A, B, C, D, E)$:\n- Quan hệ $R$ với tập PTH $F = \\{A \\to BC, BC \\to E, E \\to DA\\}$.\n- Quan hệ $S$ với tập PTH $G = \\{A \\to BC, B \\to E, E \\to DA\\}$.\nHãy xác định: (1) $R$ có ở BCNF? (2) $R$ có ở 4NF? (3) $S$ có ở BCNF? (4) $S$ có ở 4NF?",
+      "solution_steps": [
+        "Bước 1 — Tìm tất cả các khóa dự tuyển của $R$: Từ $F = \\{A \\to BC, BC \\to E, E \\to DA\\}$, ta tính bao đóng: $A^+ = ABCDE$; $(BC)^+ = BCEDA = ABCDE$; $E^+ = EDABC = ABCDE$. Vậy các khóa của $R$ là **$A, BC, E$**.",
+        "Bước 2 — Kiểm tra BCNF và 4NF cho $R$: Mọi phụ thuộc hàm trong $F$ đều có vế trái là $A$, $BC$, hoặc $E$ — đều là khóa của $R$ $\\Rightarrow$ **$R$ đạt chuẩn BCNF**. Mặt khác, vì không có phụ thuộc đa trị độc lập nào ngoài $F$ (và các khóa đơn $A, E$ cùng $BC$ khiến mọi MVD suy diễn không tầm thường đều có vế trái chứa khóa), nên **$R$ cũng đạt chuẩn 4NF**.",
+        "Bước 3 — Tìm tất cả các khóa dự tuyển của $S$: Từ $G = \\{A \\to BC, B \\to E, E \\to DA\\}$, ta tính: $A^+ = ABCDE$; $B^+ = BEDAC = ABCDE$; $E^+ = EDABC = ABCDE$. Vậy các khóa của $S$ là **$A, B, E$**.",
+        "Bước 4 — Kiểm tra BCNF và 4NF cho $S$: Mọi PTH trong $G$ có vế trái là $A, B, E$ đều là các khóa đơn thuộc tính của $S$ $\\Rightarrow$ **$S$ đạt chuẩn BCNF**, và tương tự không tồn tại MVD dị thường nào có vế trái không chứa khóa $\\Rightarrow$ **$S$ cũng đạt chuẩn 4NF**."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bài 4 (Giáo trình): Tìm khóa và xác định dạng chuẩn cao nhất của R(P, A, C, B, G, L, K, H)",
+      "problem": "Cho lược đồ quan hệ $R(P, A, C, B, G, L, K, H)$ và tập phụ thuộc hàm $F = \\{P \\to ACBGL, C \\to B, G \\to K\\}$ *(lưu ý bản in giáo trình đánh nhầm $G \\to R$ từ $G \\to K$)*. Hãy tìm khóa, xác định dạng chuẩn cao nhất của $R$ và đề xuất hướng chuẩn hóa.",
+      "solution_steps": [
+        "Bước 1 — Tìm tập thuộc tính nguồn và khóa của $R$: Quan sát vế phải của $F$, hai thuộc tính $P$ và $H$ không xuất hiện ở bất kỳ vế phải nào nên chắc chắn thuộc mọi khóa. Tính bao đóng $(PH)^+ = P, H, A, C, B, G, L, K = U$. Vậy **$PH$ là khóa dự tuyển duy nhất** của $R$.",
+        "Bước 2 — Kiểm tra dạng chuẩn 2NF: Xét phụ thuộc $P \\to ACBGL$, vế trái $P$ là tập con thực sự của khóa $PH$ và vế phải gồm các thuộc tính không khóa ($A, C, B, G, L$). Điều này **vi phạm điều kiện 2NF** (tồn tại phụ thuộc bộ phận vào khóa).",
+        "Bước 3 — Kết luận dạng chuẩn cao nhất của $R$: Vì miền giá trị nguyên tố (giả định chuẩn quan hệ) nhưng vi phạm 2NF, nên lược đồ $R$ hiện chỉ đạt **dạng chuẩn 1 (1NF)**.",
+        "Bước 4 — Hướng chuẩn hóa lên BCNF/4NF: Nếu tách theo các phụ thuộc vi phạm ($C \\to B$, $G \\to K$, $P \\to ACGL$) ta thu được các lược đồ $R_1(C, B)$, $R_2(G, K)$, $R_3(P, A, C, G, L)$ và $R_4(P, H)$, mọi lược đồ con đều đạt BCNF và 4NF không mất thông tin."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bài 5 (Giáo trình): Tìm dạng chuẩn và phân rã BCNF cho R(A, B, C, D, E, F)",
+      "problem": "Cho lược đồ quan hệ $R(A, B, C, D, E, F)$ với tập phụ thuộc hàm $F = \\{AB \\to C, C \\to B, ABD \\to E, F \\to A\\}$. Hãy tìm khóa, xác định dạng chuẩn hiện tại và thực hiện phân rã lược đồ về dạng chuẩn **BCNF** không mất thông tin.",
+      "solution_steps": [
+        "Bước 1 — Tìm khóa dự tuyển của $R$: Hai thuộc tính $D$ và $F$ không xuất hiện ở vế phải nào nên phải có mặt trong mọi khóa. Tính $(DF)^+ = DFA$. Thử thêm $B$: $(BDF)^+ = BDFACE = U$ (nhờ $F \\to A, AB \\to C, ABD \\to E$). Thử thêm $C$: $(CDF)^+ = CDFABE = U$ (nhờ $C \\to B, F \\to A, AB \\to C, ABD \\to E$). Vậy $R$ có 2 khóa dự tuyển: **$BDF$** và **$CDF$**.",
+        "Bước 2 — Xác định dạng chuẩn hiện tại: Vì $F \\to A$ có vế trái $F$ là tập con thực sự của khóa $BDF$ và $A$ là thuộc tính không khóa, $R$ vi phạm 2NF $\\Rightarrow R$ hiện chỉ đạt **1NF**.",
+        "Bước 3 — Phân rã bước 1 theo $C \\to B$ (vi phạm BCNF vì $C$ không là siêu khóa): Tách $R$ thành $R_1(C, B)$ (có khóa $C$, đạt BCNF) và $R'(A, C, D, E, F)$. Trên $R'$ có các PTH chiếu $F' = \\{F \\to A, ACD \\to E\\}$ (và $CFD \\to E$ suy ra từ $C \\to B, F \\to A, ABD \\to E$).",
+        "Bước 4 — Phân rã bước 2 trên $R'(A, C, D, E, F)$: Khóa của $R'$ là $CDF$ (vì $F \\to A$ và $CFD \\to E$ hay $ACD \\to E$). Chọn PTH vi phạm $F \\to A$ ($F$ không chứa khóa $CDF$), tách $R'$ thành **$R_2(F, A)$** (khóa $F$, đạt BCNF) và **$R_3(C, D, E, F)$** (khóa $CDF$, PTH duy nhất $CDF \\to E$ có vế trái là khóa $\\Rightarrow$ đạt BCNF).",
+        "Bước 5 — Kết luận: Phép phân rã BCNF không mất thông tin của $R$ là $\\rho = \\{R_1(C, B),\\; R_2(F, A),\\; R_3(C, D, E, F)\\}$."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bài 6 (Giáo trình): Chứng minh suy diễn AD ->-> BE từ F = {A ->-> BC, DE ->-> C}",
+      "problem": "Cho lược đồ quan hệ $R$ trên tập thuộc tính $U = \\{A, B, C, D, E\\}$. Chứng minh rằng nếu quan hệ $r$ xác định trên $U$ thỏa các phụ thuộc đa trị $F = \\{A \\twoheadrightarrow BC,\\; DE \\twoheadrightarrow C\\}$ thì $R$ cũng thỏa $AD \\twoheadrightarrow BE$.",
+      "solution_steps": [
+        "Bước 1 — Áp dụng Luật bù (A4) cho $A \\twoheadrightarrow BC$: Trên tập thuộc tính $U = \\{A, B, C, D, E\\}$, ta có $U \\setminus (A \\cup BC) = DE$, suy ra **$A \\twoheadrightarrow DE$**.",
+        "Bước 2 — Áp dụng Luật bắc cầu MVD (A6): Kết hợp $A \\twoheadrightarrow DE$ và giả thiết $DE \\twoheadrightarrow C$, suy ra $A \\twoheadrightarrow C \\setminus DE$, tức **$A \\twoheadrightarrow C$**.",
+        "Bước 3 — Áp dụng Luật tách MVD cho $A \\twoheadrightarrow BC$ và $A \\twoheadrightarrow C$: Suy ra $A \\twoheadrightarrow BC \\setminus C$, tức **$A \\twoheadrightarrow B$**.",
+        "Bước 4 — Áp dụng Luật tăng trưởng MVD (A5) với $V = \\emptyset \\subseteq W = D$: Từ $A \\twoheadrightarrow B$ suy ra **$AD \\twoheadrightarrow B$**; và từ $A \\twoheadrightarrow DE$ suy ra **$AD \\twoheadrightarrow DE$**. Mặt khác, theo A1 và A7 ta luôn có $AD \\to D \\implies AD \\twoheadrightarrow D$. Dùng luật tách cho $AD \\twoheadrightarrow DE$ và $AD \\twoheadrightarrow D$ suy ra **$AD \\twoheadrightarrow E$**.",
+        "Bước 5 — Áp dụng Luật hợp MVD: Từ $AD \\twoheadrightarrow B$ và $AD \\twoheadrightarrow E$, hợp lại thu được **$AD \\twoheadrightarrow BE$** (Điều phải chứng minh)."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bài 7 (Giáo trình): Tìm dạng chuẩn 4 (4NF) cho lược đồ R(A, B, C, D, E, F)",
+      "problem": "Cho lược đồ quan hệ $R$ trên tập thuộc tính $U = \\{A, B, C, D, E, F\\}$ và tập phụ thuộc hàm $F = \\{A \\to BCD,\\; C \\to D,\\; B \\to AC\\}$. Hãy xác định dạng chuẩn hiện tại của $R$ và chuẩn hóa lược đồ về dạng chuẩn **4NF** không mất thông tin.",
+      "solution_steps": [
+        "Bước 1 — Tìm khóa dự tuyển của $R$: Hai thuộc tính $E, F$ không nằm ở vế phải nào nên thuộc mọi khóa. Ta có $A^+ = ABCD$ và $B^+ = BACD$. Do đó $(AEF)^+ = U$ và $(BEF)^+ = U$. Vậy $R$ có 2 khóa dự tuyển là **$AEF$** và **$BEF$**.",
+        "Bước 2 — Kiểm tra dạng chuẩn hiện tại: Các PTH $A \\to BCD, B \\to AC, C \\to D$ đều có vế trái không chứa khóa ($AEF$ hoặc $BEF$), thậm chí $A \\to BCD$ phụ thuộc bộ phận vào khóa $AEF$ $\\Rightarrow R$ hiện chỉ đạt **1NF** (chưa đạt 2NF, 3NF, BCNF và 4NF).",
+        "Bước 3 — Phân tách bước 1 (dùng PTH $C \\to D$, tức MVD $C \\twoheadrightarrow D$ theo A7): Vì $C$ không chứa khóa, tách $R$ thành **$R_1(C, D)$** (khóa $C$, mọi PTH/MVD đều xuất phát từ khóa $C$ $\\Rightarrow$ đạt **4NF**) và $R'(A, B, C, E, F)$ với $F' = \\{A \\to BC, B \\to AC\\}$.",
+        "Bước 4 — Phân tách bước 2 trên $R'(A, B, C, E, F)$: Khóa của $R'$ vẫn là $AEF$ và $BEF$. Chọn $A \\to BC$ (suy ra $A \\twoheadrightarrow BC$), tách $R'$ thành **$R_2(A, B, C)$** và **$R_3(A, E, F)$**.",
+        "Bước 5 — Kiểm tra điều kiện 4NF của các bảng con: $R_1(C, D)$ có khóa $C$ $\\Rightarrow$ 4NF; $R_2(A, B, C)$ có $F_2 = \\{A \\to BC, B \\to AC\\}$, các khóa là $A$ và $B$, mọi vế trái là khóa và không có MVD dị thường độc lập $\\Rightarrow$ 4NF; $R_3(A, E, F)$ có khóa $AEF$ $\\Rightarrow$ 4NF. Vậy kết quả phân tách 4NF là **$(R_1(C, D),\\; R_2(A, B, C),\\; R_3(A, E, F))$**."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bài 8 (Giáo trình): Chứng minh phép tách nhiều lược đồ XY1, XY2, ..., XYk không mất thông tin",
+      "problem": "Chứng minh rằng nếu quan hệ $r(R)$ thỏa các phụ thuộc đa trị $X \\twoheadrightarrow Y_1,\\; X \\twoheadrightarrow Y_2,\\; \\dots,\\; X \\twoheadrightarrow Y_k$ trong đó $R = X Y_1 Y_2 \\dots Y_k$, thì $r$ có thể tách thành các lược đồ $XY_1, XY_2, \\dots, XY_k$ không mất mát thông tin (tức $r = \\pi_{XY_1}(r) * \\pi_{XY_2}(r) * \\dots * \\pi_{XY_k}(r)$).",
+      "solution_steps": [
+        "Bước 1 — Thiết lập bài toán chứng minh bằng tính chất phép kết nối: Luôn có $r \\subseteq \\pi_{XY_1}(r) * \\dots * \\pi_{XY_k}(r)$. Ta cần chứng minh chiều ngược lại: với mọi bộ $t \\in \\pi_{XY_1}(r) * \\dots * \\pi_{XY_k}(r)$ thì $t \\in r$.",
+        "Bước 2 — Biểu diễn các bộ gốc trong $r$: Theo định nghĩa kết nối tự nhiên và phép chiếu, với mỗi $i \\in \\{1, \\dots, k\\}$, tồn tại bộ $t_i \\in r$ sao cho $t_i[XY_i] = t[XY_i]$. Suy ra tất cả các bộ $t_1, t_2, \\dots, t_k \\in r$ đều có cùng giá trị trên $X$: $t_1[X] = t_2[X] = \\dots = t_k[X] = t[X]$.",
+        "Bước 3 — Chứng minh quy nạp tồn tại bộ $u_m \\in r$ khớp với $t$ trên $XY_1 \\dots Y_m$ ($1 \\le m \\le k$): Với $m = 1$, chọn $u_1 = t_1 \\in r$, hiển nhiên $u_1[XY_1] = t[XY_1]$.",
+        "Bước 4 — Bước quy nạp từ $m$ lên $m+1$ ($m < k$): Giả sử đã có $u_m \\in r$ thỏa $u_m[XY_1\\dots Y_m] = t[XY_1\\dots Y_m]$. Xét hai bộ $t_{m+1}, u_m \\in r$ có $t_{m+1}[X] = u_m[X]$. Áp dụng MVD $X \\twoheadrightarrow Y_{m+1}$ cho $t_{m+1}$ và $u_m$, tồn tại bộ $u_{m+1} \\in r$ sao cho $u_{m+1}[XY_{m+1}] = t_{m+1}[XY_{m+1}] = t[XY_{m+1}]$ và $u_{m+1}[R \\setminus XY_{m+1}] = u_m[R \\setminus XY_{m+1}] = t[(R \\setminus XY_{m+1}) \\cap XY_1\\dots Y_m]$. Vì vậy $u_{m+1}[XY_1\\dots Y_{m+1}] = t[XY_1\\dots Y_{m+1}]$.",
+        "Bước 5 — Kết thúc quy nạp tại $m = k$: Ta thu được $u_k \\in r$ thỏa $u_k[XY_1\\dots Y_k] = u_k[R] = t[R]$, tức $t = u_k \\in r$. Vậy $r = \\pi_{XY_1}(r) * \\dots * \\pi_{XY_k}(r)$ (không mất mát thông tin)."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bài 9 (Giáo trình): Chứng minh Tiên đề tăng trưởng đối với MVD (X ->-> Y, Z ⊆ W => XW ->-> YZ)",
+      "problem": "Cho $X, Y, Z, W \\subseteq U$. Chứng minh rằng bằng định nghĩa phụ thuộc đa trị, nếu quan hệ $r$ trên $R(U)$ thỏa $X \\twoheadrightarrow Y$ và $Z \\subseteq W$ thì $r$ cũng thỏa $XW \\twoheadrightarrow YZ$.",
+      "solution_steps": [
+        "Bước 1 — Thiết lập giả thiết chứng minh định nghĩa: Giả sử tồn tại hai bộ bất kỳ $t_1, t_2 \\in r$ sao cho $t_1[XW] = t_2[XW]$. Suy ra $t_1[X] = t_2[X]$ và $t_1[W] = t_2[W]$. Vì $Z \\subseteq W$ nên cũng có $t_1[Z] = t_2[Z]$.",
+        "Bước 2 — Áp dụng giả thiết $X \\twoheadrightarrow Y$: Do $t_1[X] = t_2[X]$ và $r$ thỏa $X \\twoheadrightarrow Y$, theo định nghĩa MVD tồn tại bộ $t_3 \\in r$ sao cho: $t_3[X] = t_1[X]$, $t_3[Y] = t_1[Y]$ và $t_3[U \\setminus XY] = t_2[U \\setminus XY]$.",
+        "Bước 3 — Kiểm tra giá trị của $t_3$ trên $XW$: Với mọi thuộc tính $A \\in XW$: nếu $A \\in XY$ thì $t_3[A] = t_1[A]$; nếu $A \\in W \\setminus XY \\subseteq U \\setminus XY$ thì $t_3[A] = t_2[A] = t_1[A]$ (vì $t_1[W] = t_2[W]$). Vậy $t_3[XW] = t_1[XW]$.",
+        "Bước 4 — Kiểm tra giá trị của $t_3$ trên $YZ$ và phần bù $V' = U \\setminus (XW \\cup YZ)$: Tương tự, với mọi $B \\in YZ$: nếu $B \\in Y$ thì $t_3[B] = t_1[B]$; nếu $B \\in Z \\setminus Y$, vì $Z \\subseteq W$ nên $t_1[B] = t_2[B]$, dẫn tới cả khi $B \\in X$ hay $B \\in U \\setminus XY$ ta đều có $t_3[B] = t_1[B]$. Do đó $t_3[YZ] = t_1[YZ]$. Còn với phần bù $V' = U \\setminus (XW \\cup YZ) \\subseteq U \\setminus XY$, ta có ngay $t_3[V'] = t_2[V']$.",
+        "Bước 5 — Kết luận: Bộ $t_3 \\in r$ thỏa mãn đầy đủ điều kiện của định nghĩa MVD cho cặp $t_1, t_2$ đối với $XW \\twoheadrightarrow YZ$. Vậy $r$ thỏa $XW \\twoheadrightarrow YZ$."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Phân tích dư thừa dữ liệu và chuẩn hóa về 4NF cho quan hệ GIANGDAY(TENGV, MONHOC, LOP)",
+      "problem": "Xét quan hệ `GIANGDAY(TENGV, MONHOC, LOP)` trong phần Mở đầu giáo trình với ý nghĩa: mỗi giảng viên có thể dạy nhiều môn học ở nhiều lớp khác nhau một cách độc lập ($TENGV \\twoheadrightarrow MONHOC$ và $TENGV \\twoheadrightarrow LOP$). Giả sử thầy Lê Đông Giang dạy 2 môn (`CSDL nâng cao`, `Nhập môn CSDL`) ở 2 lớp (`Tin4A`, `Tin4B`).\na) Lập bảng các bộ dữ liệu hợp lệ của thầy Lê Đông Giang và chỉ ra các bất thường khi thêm/xóa.\nb) Giải thích vì sao bảng đạt `BCNF` nhưng vi phạm `4NF`, rồi phân rã về `4NF` không mất thông tin.",
+      "solution_steps": [
+        "Bước 1 — Lập bảng 4 bộ dữ liệu bắt buộc theo MVD `TENGV ->-> MONHOC | LOP`: (Lê Đông Giang, CSDL nâng cao, Tin4A), (Lê Đông Giang, CSDL nâng cao, Tin4B), (Lê Đông Giang, Nhập môn CSDL, Tin4A), (Lê Đông Giang, Nhập môn CSDL, Tin4B).",
+        "Bước 2 — Chỉ ra bất thường cập nhật: Khi thêm lớp mới `Tin4C` mà thầy Giang giảng dạy, phải chèn thêm 2 bộ (ứng với cả 2 môn); nếu xóa lớp `Tin4A` nhưng sơ suất xóa thiếu 1 bộ, dữ liệu sẽ vi phạm tính độc lập của MVD (mất nhất quán).",
+        "Bước 3 — Kiểm tra BCNF vs 4NF: Quan hệ không có PTH không tầm thường nào (khóa duy nhất là toàn bộ `(TENGV, MONHOC, LOP)`) nên **đạt BCNF**. Tuy nhiên tồn tại MVD dị thường `TENGV ->-> MONHOC` ($MONHOC \\neq \\emptyset$, $MONHOC \\not\\subseteq TENGV$, $TENGV \\cup MONHOC \\neq U$) mà `TENGV` không chứa khóa $\\Rightarrow$ **vi phạm 4NF**.",
+        "Bước 4 — Phân rã về 4NF theo thuật toán Mục 5.6: Tách `GIANGDAY` theo `TENGV ->-> MONHOC` thành $R_1(\\text{TENGV}, \\text{MONHOC})$ và $R_2(\\text{TENGV}, \\text{LOP})$. Cả hai lược đồ đều có 2 thuộc tính, không còn MVD dị thường nào nên đạt **4NF** và kết nối lại không mất thông tin theo Định lý 5.3."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Tìm các bộ t3, t4 còn thiếu trên bảng R(A, B, C, D, E, F) để thỏa mãn A ->-> CD",
+      "problem": "Cho quan hệ $r$ trên lược đồ $R(A, B, C, D, E, F)$ đang chứa 3 bộ: $t_1 = (\\text{S101}, G, H, 7.5, J, P)$, $t_2 = (\\text{S101}, G, K, 8.0, M, Q)$, và $t_5 = (\\text{S102}, L, H, 9.0, N, R)$.\na) Kiểm tra quan hệ $r$ đã thỏa phụ thuộc đa trị $A \\twoheadrightarrow CD$ hay chưa?\nb) Nếu chưa, hãy xác định tập tối thiểu các bộ cần bổ sung vào $r$ để thỏa $A \\twoheadrightarrow CD$.",
+      "solution_steps": [
+        "Bước 1 — Xác định tập thuộc tính $X, Y, Z$: Với $A \\twoheadrightarrow CD$ trên $U = ABCDEF$, ta có $X = A$, $Y = CD$, phần bù $Z = U \\setminus XY = BEF$.",
+        "Bước 2 — Kiểm tra từng cặp bộ trùng giá trị $X = A$: Bộ $t_5$ có $t_5[A] = \\text{S102}$ đứng một mình (không trùng $A$ với $t_1, t_2$) nên tự động thỏa mãn điều kiện MVD với chính nó. Hai bộ $t_1$ và $t_2$ có $t_1[A] = t_2[A] = \\text{S101}$.",
+        "Bước 3 — Tìm các bộ hoán vị $t_3, t_4$ còn thiếu: Áp dụng định nghĩa MVD cho $(t_1, t_2)$: bộ $t_3$ cần có $t_3[A] = \\text{S101}$, $t_3[CD] = t_1[CD] = (H, 7.5)$, $t_3[BEF] = t_2[BEF] = (G, M, Q) \\implies t_3 = (\\text{S101}, G, H, 7.5, M, Q)$. Bộ $t_4$ đối xứng cần có $t_4[A] = \\text{S101}$, $t_4[CD] = t_2[CD] = (K, 8.0)$, $t_4[BEF] = t_1[BEF] = (G, J, P) \\implies t_4 = (\\text{S101}, G, K, 8.0, J, P)$.",
+        "Bước 4 — Kết luận: Hiện tại $r$ **chưa thỏa** $A \\twoheadrightarrow CD$. Cần bổ sung tối thiểu 2 bộ $t_3 = (\\text{S101}, G, H, 7.5, M, Q)$ và $t_4 = (\\text{S101}, G, K, 8.0, J, P)$ vào $r$ (lúc này mọi cặp trong nhóm `S101` đều khép kín theo tích Đề-các)."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Phân biệt Phụ thuộc đa trị cơ sở và Phụ thuộc đa trị dị thường trên bảng mẫu R(A,B,C,D,E,F)",
+      "problem": "Xét quan hệ $r$ trên lược đồ $R(A, B, C, D, E, F)$ gồm 4 bộ như ví dụ Mục 5.1.2: $(a, b, c_1, d_1, e_1, f_1)$, $(a, b, c_2, d_2, e_2, f_2)$, $(a, b, c_1, d_1, e_2, f_2)$, $(a, b, c_2, d_2, e_1, f_1)$.\na) Kiểm tra trong 4 phụ thuộc sau, phụ thuộc nào thỏa trên $r$: $AB \\twoheadrightarrow CD$, $A \\twoheadrightarrow CD$, $A \\twoheadrightarrow C$, $A \\twoheadrightarrow D$.\nb) Trong các phụ thuộc thỏa mãn trên, hãy phân loại đâu là phụ thuộc đa trị **dị thường** và đâu là phụ thuộc đa trị **cơ sở**.",
+      "solution_steps": [
+        "Bước 1 — Kiểm tra $A \\twoheadrightarrow CD$ và $AB \\twoheadrightarrow CD$: Cả 4 bộ đều có $A = a$ và $AB = ab$; tập giá trị $CD = \\{(c_1, d_1), (c_2, d_2)\\}$ kết hợp đủ với tập $EF = \\{(e_1, f_1), (e_2, f_2)\\}$ (và $BEF$). Do đó cả $A \\twoheadrightarrow CD$ và $AB \\twoheadrightarrow CD$ đều **thỏa** trên $r$.",
+        "Bước 2 — Kiểm tra $A \\twoheadrightarrow C$ và $A \\twoheadrightarrow D$: Xét bộ 1 $(a,b,c_1,d_1,e_1,f_1)$ và bộ 2 $(a,b,c_2,d_2,e_2,f_2)$ có $A=a$: nếu thỏa $A \\twoheadrightarrow C$ thì phải có bộ $(a,b,c_1,d_2,e_2,f_2)$ (sai vì trong bảng $c_1$ luôn đi với $d_1$). Tương tự $A \\twoheadrightarrow D$ cũng đòi hỏi bộ $(a,b,c_2,d_1,e_2,f_2)$ không có trong bảng. Vậy $A \\not\\twoheadrightarrow C$ và $A \\not\\twoheadrightarrow D$.",
+        "Bước 3 — Phân loại MVD dị thường: Cả $A \\twoheadrightarrow CD$ và $AB \\twoheadrightarrow CD$ đều có vế phải $CD \\neq \\emptyset$, $CD \\not\\subseteq A$ (và $CD \\not\\subseteq AB$), hợp hai vế ($ACD$ và $ABCD$) đều khác $ABCDEF$, nên cả hai đều là **phụ thuộc đa trị dị thường**.",
+        "Bước 4 — Phân loại MVD cơ sở: Vì $A \\subset AB$ mà $A \\twoheadrightarrow CD$ đã thỏa mãn nên $AB \\twoheadrightarrow CD$ **không phải là phụ thuộc đa trị cơ sở**. Ngược lại, đối với $A \\twoheadrightarrow CD$, không có tập con thực sự nào của $A$ (nếu $X'=\\emptyset$ trong ví dụ tổng quát nhiều giá trị $A$) hay của $CD$ ($A \\not\\twoheadrightarrow C, A \\not\\twoheadrightarrow D$) thỏa mãn, nên $A \\twoheadrightarrow CD$ (xét là phụ thuộc tối tiểu của lược đồ) là **phụ thuộc đa trị cơ sở**."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Chứng minh Luật hợp và Luật tách của MVD từ Hệ tiên đề A1–A8",
+      "problem": "Sử dụng Hệ tiên đề A1–A8 (Mục 5.2), hãy chứng minh hai luật suy diễn bổ sung sau:\na) **Luật hợp (Union):** Nếu $X \\twoheadrightarrow Y$ và $X \\twoheadrightarrow Z$ thì $X \\twoheadrightarrow YZ$.\nb) **Luật tách (Decomposition):** Nếu $X \\twoheadrightarrow Y$ và $X \\twoheadrightarrow Z$ thì $X \\twoheadrightarrow Y \\cap Z$, $X \\twoheadrightarrow Y \\setminus Z$ và $X \\twoheadrightarrow Z \\setminus Y$.",
+      "solution_steps": [
+        "Bước 1 — Chứng minh Luật hợp ($X \\twoheadrightarrow YZ$): Từ $X \\twoheadrightarrow Y$ áp dụng Luật bù A4 thu được $X \\twoheadrightarrow U \\setminus XY$. Tương tự từ $X \\twoheadrightarrow Z$ áp dụng A4 thu được $X \\twoheadrightarrow U \\setminus XZ$.",
+        "Bước 2 — Hoàn tất Luật hợp bằng Tăng trưởng A5 và Bắc cầu A6: Từ $X \\twoheadrightarrow Y$, đặt $V = \\emptyset \\subseteq W = X$, hay chính xác hơn áp dụng A4 trực tiếp: để nối $X \\twoheadrightarrow (U \\setminus XY)$ với $Z$, nhận thấy từ $X \\twoheadrightarrow Z$ theo A5 ($V = \\emptyset \\subseteq W = U \\setminus XY$? Khoan: cần $(U \\setminus XY)$ ở vế trái!): áp dụng A5 cho $X \\twoheadrightarrow Z$ với $W = U \\setminus XY$ và $V = \\emptyset$ được $(U \\setminus XY)X \\twoheadrightarrow Z$, tức $(U \\setminus Y) \\twoheadrightarrow Z$ (vì $(U\\setminus XY) \\cup X = U \\setminus (Y \\setminus X)$). Tiếp theo áp dụng A6 cho $X \\twoheadrightarrow U \\setminus XY$ và $(U \\setminus XY)X \\twoheadrightarrow Z$ (tức $X \\twoheadrightarrow (U \\setminus XY)$ kết hợp $X \\cup (U\\setminus XY)$: dùng A5 thêm $X$ vào vế phải $X \\twoheadrightarrow X \\cup (U \\setminus XY)$) suy ra $X \\twoheadrightarrow Z \\setminus (X \\cup (U\\setminus XY)) = Z \\cap Y \\setminus X$? Cách chuẩn gọn hơn: từ $X \\twoheadrightarrow U \\setminus XY$ (A4) và $X \\twoheadrightarrow Z$: áp dụng A5 cho $X \\twoheadrightarrow U \\setminus XY$ với $V = Y \\setminus Z \\subseteq W = Y$... Cách chuẩn 3 dòng: (1) $X \\twoheadrightarrow Y \\xrightarrow{A5} XZ \\twoheadrightarrow YZ$? Không, cần $X$ ở vế trái! Dùng A5 với $V = \\emptyset, W = Z \\setminus Y$: thực ra xét $X \\twoheadrightarrow Y$ (A4) $\\implies X \\twoheadrightarrow U \\setminus XY$. Áp dụng A5 cho $X \\twoheadrightarrow Z$ với $V = U \\setminus XYZ, W = U \\setminus XY$: được $X(U \\setminus XY) \\twoheadrightarrow Z(U \\setminus XYZ) = U \\setminus (XY \\setminus Z)$. Dùng A6 cho $X \\twoheadrightarrow U \\setminus XY$ và $X(U\\setminus XY) \\twoheadrightarrow U \\setminus (XY \\setminus Z)$ (bổ sung $X$ theo A1+A7 nếu cần, cụ thể viết $X \\twoheadrightarrow X \\cup (U \\setminus XY)$ nhờ định nghĩa A5 $W=X, V=X$ cho $X \\twoheadrightarrow U \\setminus XY$ được $X \\twoheadrightarrow X(U\\setminus XY)$!). Khi đó A6 cho $X \\twoheadrightarrow (U \\setminus (XY \\setminus Z)) \\setminus X(U \\setminus XY) = Y \\setminus (XZ) \\dots$ Cách trực tiếp nhất (Ullman): từ $X \\twoheadrightarrow Z$, dùng A5 với $W = Y, V = Y$: $XY \\twoheadrightarrow YZ$. Từ $X \\twoheadrightarrow Y$, dùng A5 với $W = X, V = X$: $X \\twoheadrightarrow XY$. Dùng A6 cho $X \\twoheadrightarrow XY$ và $XY \\twoheadrightarrow YZ$: suy ra $X \\twoheadrightarrow YZ \\setminus XY = Z \\setminus XY$. (Cực kỳ ngắn gọn!) Cuối cùng viết $YZ = Y \\cup (Z \\setminus XY) \\cup (Z \\cap X)$: từ $X \\twoheadrightarrow Y$ dùng A5 với $W=X, V = Z \\setminus XY$... Khoan: $Z \\setminus XY$ KHÔNG nằm trong $X$! Để gộp $Y$ và $Z \\setminus XY$ thành $YZ$, dùng: $X \\twoheadrightarrow U \\setminus XY$ (A4 từ $X \\twoheadrightarrow Y$) và $X \\twoheadrightarrow U \\setminus XZ$ (A4 từ $X \\twoheadrightarrow Z$). Trên $X \\twoheadrightarrow U \\setminus XY$, kết hợp $X \\twoheadrightarrow Z \\setminus XY$ vừa chứng minh: thực ra từ $X \\twoheadrightarrow U \\setminus XZ$, ta chứng minh được $X \\twoheadrightarrow (U \\setminus XY) \\cap (U \\setminus XZ)$! Cách chuẩn Ullman dùng A4 + A5 + A6: (i) $X \\twoheadrightarrow Y \\xrightarrow{A5} X \\twoheadrightarrow XY$; (ii) $X \\twoheadrightarrow Z \\xrightarrow{A5} XY \\twoheadrightarrow YZ$; (iii) A6 cho $X \\twoheadrightarrow YZ \\setminus XY$; (iv) Từ $X \\twoheadrightarrow Y$, dùng A4: $X \\twoheadrightarrow U \\setminus XY$, sau đó dùng A5 ($W=\\emptyset, V=\\emptyset$ trên...): đặt $T = Z \\setminus XY$, chứng minh $X \\twoheadrightarrow U \\setminus (XY \\cup Z)$ bằng cách: từ $X \\twoheadrightarrow Z$ (A4) có $X \\twoheadrightarrow U \\setminus XZ$; từ $X \\twoheadrightarrow Y$ (A5 với $W=Z, V=Z$) có $XZ \\twoheadrightarrow YZ$, và (A4) có $X \\twoheadrightarrow X \\cup (U \\setminus XZ)$? Không: $(U \\setminus XZ) \\cup X = U \\setminus (Z \\setminus X)$. Thực ra với A5 ($V \\subseteq W$): lấy $W = Z \\setminus X$ và $V = \\emptyset$ không giúp đưa $X$ vào. Muốn đưa $X$ về lại vế trái chỉ có A6! Xem: $X \\twoheadrightarrow U \\setminus XY$ (đặt $A = U \\setminus XY$), và từ $X \\twoheadrightarrow Z$ lấy A4: $X \\twoheadrightarrow U \\setminus XZ$ (đặt $B = U \\setminus XZ$). Từ $X \\twoheadrightarrow A$, A5 với $W=X, V=X$ cho $X \\twoheadrightarrow XA$. Từ $X \\twoheadrightarrow B$, A5 với $W=A, V=\\emptyset$ cho $XA \\twoheadrightarrow B$. Áp dụng A6 cho $X \\twoheadrightarrow XA$ và $XA \\twoheadrightarrow B$: thu được $X \\twoheadrightarrow B \\setminus XA = (U \\setminus XZ) \\setminus (X \\cup (U \\setminus XY)) = (U \\setminus XZ) \\cap (Y \\setminus X) = Y \\setminus XZ$!! Quá tuyệt! Rồi đối xứng từ $X \\twoheadrightarrow Z$ và $X \\twoheadrightarrow U \\setminus XY$... Khoan: từ $X \\twoheadrightarrow U \\setminus XZ$ (A4), thay $Y$ bằng $U \\setminus XZ$ và $Z$ bằng $U \\setminus XY$ ta thu được $X \\twoheadrightarrow (U \\setminus XY) \\setminus (X \\cup (U \\setminus XZ)) = Z \\setminus XY$ — và nếu áp dụng cho $U \\setminus XY$ và $Z$: đổi vai trò $B$ thành $Z$ (không cần A4 cho $Z$): từ $X \\twoheadrightarrow A = U \\setminus XY$ (nên $X \\twoheadrightarrow XA$) và $X \\twoheadrightarrow Z$ (A5 với $W=A, V=\\emptyset$ cho $XA \\twoheadrightarrow Z$), A6 cho $X \\twoheadrightarrow Z \\setminus XA = Z \\cap Y \\setminus X$! Và bây giờ cho $B' = U \\setminus XZ$ và $A = U \\setminus XY$: đổi $B'$ ở bước trên là $X \\twoheadrightarrow B' \\setminus XA = Y \\setminus XZ$; giờ A4 của $X \\twoheadrightarrow A$ là $Y \\setminus X$, kết hợp $X \\twoheadrightarrow Z$ (A4 là $U \\setminus XZ$): đặt $C = Y \\setminus X$, ta có $X \\twoheadrightarrow XC$, và từ $X \\twoheadrightarrow B'$ dùng A5 ($W=C, V=\\emptyset$) được $XC \\twoheadrightarrow B'$, A6 cho $X \\twoheadrightarrow B' \\setminus XC = (U \\setminus XZ) \\setminus (X \\cup Y) = U \\setminus (XYZ)$!! Rồi áp dụng A4 cho $X \\twoheadrightarrow U \\setminus (XYZ)$ thu được ngay **$X \\twoheadrightarrow XYZ$**, và dùng A5/A6 hoặc A1 cho $X \\twoheadrightarrow X$, chờ đã: $X \\twoheadrightarrow U \\setminus (XYZ)$ có hợp $X \\cup (U \\setminus XYZ) = X \\cup (U \\setminus XYZ)$, nên bổ của nó là $U \\setminus (X \\cup (U \\setminus XYZ)) = XYZ \\setminus X$. Mà muốn thành $YZ$ (có thể chứa một phần $X$): dùng A5 trên $X \\twoheadrightarrow XYZ \\setminus X$ với $W = X, V = X \\cap YZ$: thu được $X \\twoheadrightarrow (XYZ \\setminus X) \\cup (X \\cap YZ) = YZ$!! Chứng minh hoàn hảo tuyệt đối!",
+        "Bước 3 — Tóm tắt gọn bước 1–2 cho Luật hợp: (1) Dùng A4 cho $X \\twoheadrightarrow Y$ và $X \\twoheadrightarrow Z$ được $X \\twoheadrightarrow U\\setminus XY$ và $X \\twoheadrightarrow U\\setminus XZ$; (2) Dùng A5 với $V=X\\subseteq W=X$ suy ra $X \\twoheadrightarrow X \\cup (Y \\setminus X)$ không cần, cụ thể từ $X \\twoheadrightarrow Y$ (A5, $W=X, V=X$) có $X \\twoheadrightarrow XY$, còn từ $X \\twoheadrightarrow U \\setminus XZ$ (A5, $W=Y, V=\\emptyset$) có $XY \\twoheadrightarrow U \\setminus XZ$; (3) Dùng A6 suy ra $X \\twoheadrightarrow (U \\setminus XZ) \\setminus XY = U \\setminus XYZ$; (4) Dùng A4 suy ra $X \\twoheadrightarrow XYZ \\setminus X$, và dùng A5 ($W=X, V=X \\cap YZ$) suy ra **$X \\twoheadrightarrow YZ$**.",
+        "Bước 4 — Chứng minh Luật tách ($X \\twoheadrightarrow Y \\cap Z$, $X \\twoheadrightarrow Y \\setminus Z$, $X \\twoheadrightarrow Z \\setminus Y$): Từ $X \\twoheadrightarrow Y$, dùng A4 được $X \\twoheadrightarrow U \\setminus XY$, dùng A5 ($W=X, V=X$) được $X \\twoheadrightarrow X(U \\setminus XY) = U \\setminus (Y \\setminus X)$. Từ $X \\twoheadrightarrow Z$, dùng A5 ($W = U \\setminus XY, V=\\emptyset$) được $X(U \\setminus XY) \\twoheadrightarrow Z$. Áp dụng A6 suy ra $X \\twoheadrightarrow Z \\setminus (X \\cup (U \\setminus XY)) = (Z \\cap Y) \\setminus X$. Thêm $X \\cap Y \\cap Z$ nhờ A5 ($W=X, V=X \\cap Y \\cap Z$) được **$X \\twoheadrightarrow Y \\cap Z$**.",
+        "Bước 5 — Chứng minh hai hiệu $Y \\setminus Z$ và $Z \\setminus Y$: Áp dụng kết quả vừa chứng minh cho $X \\twoheadrightarrow Y$ và $X \\twoheadrightarrow U \\setminus XZ$ (từ A4 của $X \\twoheadrightarrow Z$): giao của chúng cho $X \\twoheadrightarrow Y \\cap (U \\setminus XZ) = Y \\setminus XZ$, sau đó dùng A5 ($W=X, V=X \\cap (Y \\setminus Z)$) thu được **$X \\twoheadrightarrow Y \\setminus Z$**. Hoàn toàn đối xứng đổi vai trò $Y$ và $Z$ thu được **$X \\twoheadrightarrow Z \\setminus Y$**."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Chứng minh Luật tựa bắc cầu và Luật tựa bắc cầu hỗn hợp của MVD từ A1–A8",
+      "problem": "Sử dụng Hệ tiên đề A1–A8 (Mục 5.2), hãy chứng minh:\na) **Luật tựa bắc cầu (Pseudotransitivity):** Nếu $X \\twoheadrightarrow Y$ và $WY \\twoheadrightarrow Z$ thì $WX \\twoheadrightarrow Z \\setminus WY$.\nb) **Luật tựa bắc cầu hỗn hợp (Mixed pseudotransitivity):** Nếu $X \\twoheadrightarrow Y$ và $XY \\to Z$ thì $X \\to Z \\setminus Y$.",
+      "solution_steps": [
+        "Bước 1 — Chứng minh Luật tựa bắc cầu (phần a): Từ giả thiết $X \\twoheadrightarrow Y$, áp dụng Tiên đề tăng trưởng A5 với tập $V = W \\subseteq W$ ta thu được $WX \\twoheadrightarrow WY$.",
+        "Bước 2 — Hoàn tất phần a bằng Tiên đề bắc cầu MVD (A6): Kết hợp $WX \\twoheadrightarrow WY$ vừa có với giả thiết $WY \\twoheadrightarrow Z$, áp dụng A6 thu được ngay **$WX \\twoheadrightarrow Z \\setminus WY$** (chú ý các thuộc tính thuộc $W$ nếu bị loại thêm đều nằm trong vế trái $WX$ nên $WX \\twoheadrightarrow Z \\setminus XY$ cũng tương đương đúng).",
+        "Bước 3 — Chuẩn bị chứng minh Luật tựa bắc cầu hỗn hợp (phần b): Cho $X \\twoheadrightarrow Y$ và $XY \\to Z$. Đặt $Z_1 = Z \\cap X$, $Z_2 = Z \\setminus XY$. Khi đó $Z \\setminus Y = Z_1 \\cup Z_2$. Trước hết, vì $Z_1 \\subseteq X$, theo tiên đề phản xạ A1 ta có ngay $X \\to Z_1$.",
+        "Bước 4 — Áp dụng Luật bù A4 và Tiên đề giao thoa A8 cho $Z_2$: Từ $X \\twoheadrightarrow Y$, theo A4 ta có $X \\twoheadrightarrow U \\setminus XY$. Mặt khác, vì $Z_2 \\subseteq Z$ và $XY \\to Z$, theo A1 và A3 suy ra $XY \\to Z_2$. Nhận thấy $Z_2 = Z \\setminus XY \\subseteq U \\setminus XY$ và $XY \\cap (U \\setminus XY) = \\emptyset$. Áp dụng A8 cho $X \\twoheadrightarrow U \\setminus XY$ và $XY \\to Z_2$ thu được **$X \\to Z_2$**.",
+        "Bước 5 — Kết luận phần b: Hợp hai phụ thuộc hàm $X \\to Z_1$ và $X \\to Z_2$ (từ A2 và A3 của PTH Armstrong) thu được $X \\to Z_1 \\cup Z_2$, tức **$X \\to Z \\setminus Y$** (ĐPCM)."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Tính cơ sở phụ thuộc của tập thuộc tính X và kiểm tra thành viên trong D+",
+      "problem": "Cho tập thuộc tính $U = \\{A, B, C, D, E, G\\}$ và tập phụ thuộc $D = F \\cup M$ gồm: $F = \\{A \\to G\\}$ và $M = \\{A \\twoheadrightarrow BC,\\; B \\twoheadrightarrow DE,\\; C \\twoheadrightarrow DG\\}$.\na) Chuyển $D$ về tập MVD $M'$ và áp dụng thuật toán Mục 5.4.2 để tìm **cơ sở phụ thuộc của $X = \\{A\\}$**.\nb) Từ kết quả câu (a), kiểm tra xem các phụ thuộc sau có thuộc $D^+$ không: $A \\twoheadrightarrow BC$, $A \\twoheadrightarrow D$, $A \\to G$, $A \\to D$.",
+      "solution_steps": [
+        "Bước 1 — Chuyển $D$ về tập MVD $M'$: Giữ nguyên các MVD trong $M$ và đổi PTH $A \\to G$ thành $A \\twoheadrightarrow G$. Ta được $M' = \\{A \\twoheadrightarrow G,\\; A \\twoheadrightarrow BC,\\; B \\twoheadrightarrow DE,\\; C \\twoheadrightarrow DG\\}$.",
+        "Bước 2 — Bước 1 & Bước 2 của thuật toán tính cơ sở phụ thuộc cho $X = \\{A\\}$: Xét các MVD trong $M'$ có vế trái $\\subseteq \\{A\\}$: $A \\twoheadrightarrow G$ cho $G$ và $BCDE$; $A \\twoheadrightarrow BC$ cho $BC$ và $DEG$. Khởi tạo $T = \\{\\{G\\}, \\{B, C, D, E\\}, \\{B, C\\}, \\{D, E, G\\}\\}$. Làm rời nhau $T$ bằng giao và hiệu thu được họ rời nhau $S = \\{\\{G\\}, \\{B, C\\}, \\{D, E\\}\\}$.",
+        "Bước 3 — Bước 3 (tinh chỉnh $S$ với các MVD còn lại trong $M'$): Xét $B \\twoheadrightarrow DE$: tập $\\{B, C\\}$ chứa $B$ nên không tách; tập $\\{D, E\\}$ rời với $\\{B\\}$ nhưng $\\{D, E\\} \\subseteq DE$ nên không bị chia nhỏ thêm. Xét $C \\twoheadrightarrow DG$: tập $\\{B, C\\}$ chứa $C$ nên không tách; tập $\\{D, E\\}$ rời với $\\{C\\}$, giao với $DG$ là $\\{D\\} \\neq \\emptyset$ và $\\{D, E\\} \\not\\subseteq DG$, nên tách $\\{D, E\\}$ thành $\\{D\\}$ và $\\{E\\}$. Kết quả cuối cùng cơ sở phụ thuộc của $A$ là **$S = \\{\\{G\\},\\; \\{B, C\\},\\; \\{D\\},\\; \\{E\\}\\}$**.",
+        "Bước 4 — Kiểm tra thành viên các MVD và PTH trong $D^+$: $A \\twoheadrightarrow BC \\in D^+$ (vì $\\{B, C\\} \\in S$); $A \\twoheadrightarrow D \\in D^+$ (vì $\\{D\\} \\in S$); $A \\to G \\in D^+$ (vì $\\{G\\}$ là tập đơn trong $S$ và có PTH $A \\to G \\in D$ với $G \\notin A$); còn $A \\to D \\notin D^+$ (tuy $\\{D\\}$ là tập đơn trong $S$, nhưng không tồn tại PTH $W \\to Z \\in D$ nào có $D \\in Z$)."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Kiểm tra kết nối không mất thông tin có cả PTH và MVD bằng Thuật toán bảng mở rộng (Chase)",
+      "problem": "Cho lược đồ $R(A, B, C, D, E)$, tập phụ thuộc $D = \\{A \\twoheadrightarrow BC,\\; B \\to D,\\; C \\to E\\}$ và phép tách $\\rho = (R_1(A, B, C),\\; R_2(A, B, D),\\; R_3(A, C, E))$. Hãy áp dụng **thuật toán bảng mở rộng (Mục 5.5.1)** để kiểm tra phép tách $\\rho$ có không mất mát thông tin hay không.",
+      "solution_steps": [
+        "Bước 1 — Khởi tạo ma trận 3 hàng × 5 cột ($A, B, C, D, E$):\n- Hàng 1 ($R_1 = ABC$): $(a_1,\\; a_2,\\; a_3,\\; b_{14},\\; b_{15})$\n- Hàng 2 ($R_2 = ABD$): $(a_1,\\; a_2,\\; b_{23},\\; a_4,\\; b_{25})$\n- Hàng 3 ($R_3 = ACE$): $(a_1,\\; b_{32},\\; a_3,\\; b_{34},\\; a_5)$",
+        "Bước 2 — Áp dụng các PTH ($B \\to D$ và $C \\to E$): Với $B \\to D$, hàng 1 và hàng 2 cùng có $B = a_2$ nên đồng nhất cột $D$ theo $a_4 \\implies$ Hàng 1 trở thành $(a_1,\\; a_2,\\; a_3,\\; a_4,\\; b_{15})$. Với $C \\to E$, hàng 1 và hàng 3 cùng có $C = a_3$ nên đồng nhất cột $E$ theo $a_5 \\implies$ Hàng 1 trở thành **$(a_1,\\; a_2,\\; a_3,\\; a_4,\\; a_5)$**.",
+        "Bước 3 — Kiểm tra trường hợp nếu chưa có $C \\to E$ (chỉ dùng $A \\twoheadrightarrow BC$ và $B \\to D$ để minh họa thao tác MVD): Nếu áp dụng $A \\twoheadrightarrow BC$ trên hàng 1 $(a_1, a_2, a_3, a_4, b_{15})$ và hàng 3 $(a_1, b_{32}, a_3, b_{34}, a_5)$ (cùng $A = a_1$), thuật toán **thêm dòng mới** $u$ có $u[A] = a_1$, $u[BC] = (a_2, a_3)$, và $u[DE] = (b_{34}, a_5)$, tức $u = (a_1, a_2, a_3, b_{34}, a_5)$; tiếp tục áp dụng $B \\to D$ với hàng 2 đổi $b_{34}$ thành $a_4$, ta cũng thu được $(a_1, a_2, a_3, a_4, a_5)$.",
+        "Bước 4 — Kết luận: Vì trong bảng đã xuất hiện một hàng gồm toàn các giá trị $a$ là $(a_1, a_2, a_3, a_4, a_5)$, nên phép kết nối $\\rho$ là **không mất mát thông tin**."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Áp dụng Định lý 5.5.2 kiểm tra phép tách đôi với MVD và PTH",
+      "problem": "Cho lược đồ quan hệ $R(A, B, C, D, E)$ và tập phụ thuộc $D = \\{AB \\to C,\\; A \\twoheadrightarrow D\\}$. Áp dụng **Định lý 5.5.2**, hãy kiểm tra từng phép tách đôi sau có không mất mát thông tin hay không:\na) $\\rho_1 = (R_1(A, B, C),\\; R_2(A, D, E))$\nb) $\\rho_2 = (R_1(A, D),\\; R_2(A, B, C, E))$\nc) $\\rho_3 = (R_1(A, B, C, D),\\; R_2(C, D, E))$",
+      "solution_steps": [
+        "Bước 1 — Nhắc lại tiêu chuẩn Định lý 5.5.2: Phép tách đôi $(R_1, R_2)$ không mất thông tin $\\iff (R_1 \\cap R_2) \\twoheadrightarrow (R_1 \\setminus R_2) \\in D^+$ (hoặc tương đương $(R_1 \\cap R_2) \\twoheadrightarrow (R_2 \\setminus R_1) \\in D^+$).",
+        "Bước 2 — Kiểm tra $\\rho_1 = (ABC, ADE)$: Giao $R_1 \\cap R_2 = A$, hiệu $R_1 \\setminus R_2 = BC$, $R_2 \\setminus R_1 = DE$. Ta cần kiểm tra $A \\twoheadrightarrow BC \\in D^+$ (hay $A \\twoheadrightarrow DE \\in D^+$). Từ $D = \\{AB \\to C, A \\twoheadrightarrow D\\}$, cơ sở phụ thuộc của $A$ chỉ tách được $\\{D\\}$ và $\\{B, C, E\\}$; thuộc tính $E$ gắn với $BC$ nên $A \\not\\twoheadrightarrow BC$ và $A \\not\\twoheadrightarrow DE$. Vậy $\\rho_1$ **mất thông tin**.",
+        "Bước 3 — Kiểm tra $\\rho_2 = (AD, ABCE)$: Giao $R_1 \\cap R_2 = A$, hiệu $R_1 \\setminus R_2 = D$. Vì $A \\twoheadrightarrow D \\in D \\subseteq D^+$, điều kiện $(R_1 \\cap R_2) \\twoheadrightarrow (R_1 \\setminus R_2)$ được thỏa mãn $\\Rightarrow \\rho_2$ **không mất thông tin**.",
+        "Bước 4 — Kiểm tra $\\rho_3 = (ABCD, CDE)$: Giao $R_1 \\cap R_2 = CD$, hiệu $R_2 \\setminus R_1 = E$. Từ $D$, không có phụ thuộc nào có vế trái nằm trong $CD$ xác định $E$ (hoặc $AB$), nên $CD \\not\\twoheadrightarrow E$ và $CD \\not\\twoheadrightarrow AB \\Rightarrow \\rho_3$ **mất thông tin**."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Thực hành thuật toán tách lược đồ về dạng chuẩn 4NF cho R(G, A, B, C, D, E)",
+      "problem": "Thực hiện lại từng bước theo thuật toán Mục 5.6 cho lược đồ ví dụ trong giáo trình: $R(G, A, B, C, D, E)$ với tập phụ thuộc $D = \\{G \\to A,\\; BC \\to G,\\; G \\twoheadrightarrow BC,\\; G \\twoheadrightarrow DE,\\; BD \\to C,\\; BA \\to C\\}$ để phân tách về dạng chuẩn **4NF** không mất thông tin thành $(GBC, GA, GDE)$.",
+      "solution_steps": [
+        "Bước 1 — Suy diễn phụ thuộc từ $D$ và tìm khóa của $R$: Từ $G \\twoheadrightarrow BC$ và $G \\to A$ ($\\implies G \\twoheadrightarrow A$), luật hợp cho $G \\twoheadrightarrow ABC$, luật bù cho $G \\twoheadrightarrow DE$. Tương tự $BC \\to G$ và $G \\to A$ cho $BC \\to GA$, suy ra $BC \\twoheadrightarrow GA$ và $BC \\twoheadrightarrow DE$. Khóa của $R$ chứa $BD$ và $E$ (do $E$ không nằm ở vế phải PTH nào), nên $R$ chưa đạt 4NF.",
+        "Bước 2 — Tách lần 1 trên $R = GABCDE$: Chọn MVD dị thường vi phạm 4NF là $G \\twoheadrightarrow BC$ ($G$ không chứa khóa của $R$, $G \\cap BC = \\emptyset$). Theo thuật toán, thay $R$ bằng $R_1 = GBC$ và $R_2 = R \\setminus BC = GADE$ *(chú ý bản in giáo trình ghi nhầm $R_2 = GCDE$ ở dòng này nhưng bước sau lại tách $R_2$ thành $GA$ và $GDE$)*. Phép tách bảo toàn kết nối không mất thông tin vì $R_1 \\cap R_2 = G \\twoheadrightarrow BC = R_1 \\setminus R_2$.",
+        "Bước 3 — Kiểm tra $R_1(G, B, C)$: Hình chiếu của $D$ lên $R_1$ có $BC \\to G$ (khóa là $BC$). Còn MVD $G \\twoheadrightarrow BC$ lúc này có $G \\cup BC = GBC = R_1$ nên là MVD tầm thường trên $R_1$. Không còn PTH hay MVD dị thường nào vi phạm $\\Rightarrow R_1 = GBC$ **đạt 4NF**.",
+        "Bước 4 — Tách lần 2 trên $R_2(G, A, D, E)$: Trên $R_2$, $E$ và $D$ không bị xác định hàm nên khóa là $GDE$ (hoặc $GD$ nếu xét phụ thuộc khác), còn $G \\to A$ (tức $G \\twoheadrightarrow A$) có vế trái $G$ không chứa khóa nên vi phạm 4NF. Tách $R_2$ theo $G \\twoheadrightarrow A$ thành **$R_{21} = GA$** (khóa $G$, đạt 4NF) và **$R_{22} = R_2 \\setminus A = GDE$** (khóa $GDE$, không còn phụ thuộc vi phạm $\\Rightarrow$ đạt 4NF). Kết quả cuối cùng là **$(GBC,\\; GA,\\; GDE)$**."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Chuẩn hóa hai lược đồ thực tế có MVD về dạng chuẩn 4NF",
+      "problem": "Xét hai lược đồ quan hệ thực tế sau:\na) `HOCVIEN_KYNANG(MAHV, KYNANG, NGOAINGU)` với quy ước một học viên có thể thành thạo nhiều kỹ năng và biết nhiều ngoại ngữ một cách độc lập ($MAHV \\twoheadrightarrow KYNANG$, $MAHV \\twoheadrightarrow NGOAINGU$).\nb) `DAOTAO(MAKHOA, TENKHOA, MONHOC, GIANGVIEN)` với các phụ thuộc: $MAKHOA \\to TENKHOA$ và $MAKHOA \\twoheadrightarrow MONHOC$.\nHãy kiểm tra dạng chuẩn hiện tại và thực hiện thuật toán phân tách từng lược đồ về **4NF** không mất thông tin.",
+      "solution_steps": [
+        "Bước 1 — Phân tích lược đồ (a) `HOCVIEN_KYNANG`: Không có PTH không tầm thường nào nên khóa duy nhất là toàn bộ `(MAHV, KYNANG, NGOAINGU)` $\\Rightarrow$ bảng đạt **BCNF**. Tuy nhiên tồn tại MVD dị thường $MAHV \\twoheadrightarrow KYNANG$ với `MAHV` không chứa khóa $\\Rightarrow$ vi phạm **4NF**.",
+        "Bước 2 — Tách lược đồ (a) về 4NF: Áp dụng thuật toán Mục 5.6 theo $MAHV \\twoheadrightarrow KYNANG$, tách thành $R_1(\\text{MAHV}, \\text{KYNANG})$ và $R_2(\\text{MAHV}, \\text{NGOAINGU})$. Cả hai bảng chỉ có 2 thuộc tính nên đạt **4NF** và kết nối không mất thông tin.",
+        "Bước 3 — Phân tích lược đồ (b) `DAOTAO`: Khóa của `DAOTAO` là `(MAKHOA, MONHOC, GIANGVIEN)` vì $MAKHOA \\to TENKHOA$ xác định `TENKHOA` nhưng không xác định `MONHOC` và `GIANGVIEN`. Do $MAKHOA \\to TENKHOA$ phụ thuộc bộ phận vào khóa nên bảng chỉ đạt **1NF** (đồng thời vi phạm 2NF, 3NF, BCNF, 4NF).",
+        "Bước 4 — Tách lược đồ (b) về 4NF: Tách lần 1 theo $MAKHOA \\twoheadrightarrow TENKHOA$ (từ $MAKHOA \\to TENKHOA$) thành $S_1(\\text{MAKHOA}, \\text{TENKHOA})$ (khóa `MAKHOA`, đạt 4NF) và $S_2(\\text{MAKHOA}, \\text{MONHOC}, \\text{GIANGVIEN})$. Trên $S_2$, tách lần 2 theo MVD dị thường $MAKHOA \\twoheadrightarrow MONHOC$ thành $S_{21}(\\text{MAKHOA}, \\text{MONHOC})$ và $S_{22}(\\text{MAKHOA}, \\text{GIANGVIEN})$. Cả ba bảng $(S_1, S_{21}, S_{22})$ đều đạt **4NF** và không mất thông tin."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Thiết kế tổng hợp lược đồ hỗn hợp PTH + MVD và kiểm chứng không mất thông tin",
+      "problem": "Cho lược đồ quan hệ $R(MADA, MAPB, MANV, CHUCVU, DIADIEM)$ quản lý phân công dự án, với tập phụ thuộc $D$ gồm: $MADA \\to MAPB$, $MAPB \\to DIADIEM$, và $MADA \\twoheadrightarrow MANV$.\na) Tìm khóa dự tuyển của $R$ và cho biết $R$ có đạt BCNF hoặc 4NF không.\nb) Thực hiện thuật toán phân tách $R$ về dạng chuẩn **4NF**.\nc) Chứng minh các bước tách đôi ở câu (b) đều không mất thông tin bằng **Định lý 5.5.2**.",
+      "solution_steps": [
+        "Bước 1 — Tìm khóa và xác định dạng chuẩn của $R$: Các thuộc tính `MADA`, `MANV`, `CHUCVU` không nằm ở vế phải PTH nào, nên phải thuộc mọi khóa. Tính $(MADA, MANV, CHUCVU)^+ = \\{MADA, MANV, CHUCVU, MAPB, DIADIEM\\} = U$. Vậy khóa duy nhất là `(MADA, MANV, CHUCVU)`. Do tồn tại phụ thuộc bộ phận $MADA \\to MAPB$ (và bắc cầu $MAPB \\to DIADIEM$), $R$ chỉ đạt **1NF** (không đạt BCNF và không đạt 4NF).",
+        "Bước 2 — Tách bước 1 & 2 theo các PTH vi phạm (hoặc MVD tương ứng): Chọn $MAPB \\to DIADIEM$ ($\\implies MAPB \\twoheadrightarrow DIADIEM$): tách $R$ thành $R_1(\\text{MAPB}, \\text{DIADIEM})$ (khóa `MAPB`, đạt 4NF) và $R'(\\text{MADA}, \\text{MAPB}, \\text{MANV}, \\text{CHUCVU})$. Tiếp theo trên $R'$, chọn $MADA \\to MAPB$ ($\\implies MADA \\twoheadrightarrow MAPB$): tách $R'$ thành $R_2(\\text{MADA}, \\text{MAPB})$ (khóa `MADA`, đạt 4NF) và $R''(\\text{MADA}, \\text{MANV}, \\text{CHUCVU})$.",
+        "Bước 3 — Tách bước 3 theo MVD $MADA \\twoheadrightarrow MANV$ trên $R''$: Trên $R''(\\text{MADA}, \\text{MANV}, \\text{CHUCVU})$, khóa là toàn bộ `(MADA, MANV, CHUCVU)` nên $R''$ đã đạt BCNF, nhưng vì còn MVD dị thường $MADA \\twoheadrightarrow MANV$ (`MADA` không là khóa) nên $R''$ vi phạm 4NF. Tách $R''$ thành $R_3(\\text{MADA}, \\text{MANV})$ và $R_4(\\text{MADA}, \\text{CHUCVU})$ — cả hai đều đạt **4NF**.",
+        "Bước 4 — Kiểm chứng không mất thông tin theo Định lý 5.5.2: Lần tách 1: $R_1 \\cap R' = MAPB \\twoheadrightarrow DIADIEM = R_1 \\setminus R'$ (từ $MAPB \\to DIADIEM$); Lần tách 2: $R_2 \\cap R'' = MADA \\twoheadrightarrow MAPB = R_2 \\setminus R''$ (từ $MADA \\to MAPB$); Lần tách 3: $R_3 \\cap R_4 = MADA \\twoheadrightarrow MANV = R_3 \\setminus R_4$. Do mọi bước tách đôi đều thỏa Định lý 5.5.2, toàn bộ phép phân rã $(R_1, R_2, R_3, R_4)$ là **không mất mát thông tin**."
+      ]
+    }
+  ]
+}

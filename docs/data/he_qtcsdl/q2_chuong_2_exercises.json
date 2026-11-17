@@ -1,0 +1,1163 @@
+{
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Trong ví dụ lược đồ quan hệ NHACC(TENNCC, DCNCC, TENMH, DONGIA) ở Mục 2.1, khi địa chỉ nhà cung cấp Trần Bình An bị lặp lại ở 3 dòng ứng với Tivi, Tủ Lạnh, Máy Tính, đó là vấn đề gì?",
+      "options": {
+        "A": "Sự dư thừa dữ liệu",
+        "B": "Sự bất thường khi loại bỏ",
+        "C": "Sự bất thường khi bổ sung",
+        "D": "Lỗi vi phạm khóa ngoại"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.1 chỉ rõ việc địa chỉ của một nhà cung cấp (như ông Trần Bình An) phải lặp lại mỗi khi cung cấp thêm một mặt hàng mới chính là vấn đề sự dư thừa dữ liệu.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Khi ông Lê Văn Hiến chuyển nơi ở và cung cấp thêm mặt hàng Bếp từ với địa chỉ mới, nhưng dòng cũ Lò vi sóng vẫn giữ địa chỉ cũ trong bảng NHACC, hiện tượng gì xảy ra?",
+      "options": {
+        "A": "Sự bất thường khi loại bỏ",
+        "B": "Sự mâu thuẫn khi bổ sung (một người có hai địa chỉ)",
+        "C": "Mất toàn bộ thông tin nhà cung cấp",
+        "D": "Không thể lưu mặt hàng mới"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 2.1 (Bảng 2.2), khi nhà cung cấp có mặt hàng mới kèm địa chỉ mới mà địa chỉ cũ chưa đổi thì xuất hiện sự mâu thuẫn khi bổ sung (cùng một người có hai địa chỉ).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Nếu xóa mặt hàng Quạt máy duy nhất do bà Lê Thị Hoàn cung cấp trong bảng NHACC thì thông tin về bà Lê Thị Hoàn cũng biến mất khỏi CSDL. Đây là vấn đề gì?",
+      "options": {
+        "A": "Sự dư thừa dữ liệu",
+        "B": "Sự mâu thuẫn khi bổ sung",
+        "C": "Sự bất thường khi loại bỏ",
+        "D": "Phụ thuộc hàm bắc cầu"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.1 nêu rõ đây là sự bất thường khi loại bỏ: xóa mặt hàng do một nhà cung cấp bán dẫn đến xóa mất luôn thông tin về nhà cung cấp đó.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Trong lược đồ NHACC(TENNCC, DCNCC, TENMH, DONGIA), việc không thể lưu thông tin về một nhà cung cấp mới nếu họ chưa cung cấp mặt hàng nào thuộc loại vấn đề nào?",
+      "options": {
+        "A": "Sự dư thừa dữ liệu",
+        "B": "Sự bất thường khi loại bỏ",
+        "C": "Sự mâu thuẫn khi sửa đổi",
+        "D": "Sự bất thường khi bổ sung"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 2.1, không thể bổ sung một bộ dữ liệu lưu trữ thông tin về một nhà cung cấp nếu nhà cung cấp đó chưa cung cấp mặt hàng nào là sự bất thường khi bổ sung.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Để khắc phục 4 vấn đề trên lược đồ NHACC(TENNCC, DCNCC, TENMH, DONGIA), giáo trình tách NHACC thành hai quan hệ nào?",
+      "options": {
+        "A": "NCC(TENNCC, DCNCC) và CCAP(TENNCC, TENMH, GIA)",
+        "B": "NCC(TENNCC, TENMH) và MATHANG(TENMH, DONGIA)",
+        "C": "NGUOINCC(DCNCC, TENMH) và GIACA(TENNCC, DONGIA)",
+        "D": "NCC(TENNCC) và CCAP(DCNCC, TENMH, DONGIA)"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.1 tách NHACC thành NCC(TENNCC, DCNCC) (Bảng 2.3 NGUOINCC) và CCAP(TENNCC, TENMH, GIA) (Bảng 2.4 CungCap) để bảo toàn thông tin và loại bỏ các dị thường.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Theo Mục 2.1, có mấy phương pháp chính để thiết kế một cơ sở dữ liệu quan hệ?",
+      "options": {
+        "A": "2 phương pháp: từ mô hình thực thể quan hệ (E-R) và bằng phương pháp chuẩn hóa",
+        "B": "3 phương pháp: từ E-R, từ UML và từ sơ đồ khối vật lý",
+        "C": "4 phương pháp: tuần tự, phân cấp, chuẩn hóa và phi chuẩn hóa",
+        "D": "1 phương pháp duy nhất là thiết kế từ mô hình E-R"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.1 trình bày 2 phương pháp thiết kế CSDL quan hệ: Phương pháp 1 (xuất phát từ mô hình E-R) và Phương pháp 2 (bằng phương pháp chuẩn hóa).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Cho lược đồ quan hệ R(U) và X, Y ⊆ U. Phát biểu nào định nghĩa đúng phụ thuộc hàm X -> Y?",
+      "options": {
+        "A": "Tồn tại ít nhất một bộ t ∈ r thỏa mãn t[X] = t[Y]",
+        "B": "Với mọi quan hệ r trên R(U) và mọi t1, t2 ∈ r, nếu t1[X] = t2[X] thì t1[Y] = t2[Y]",
+        "C": "Với mọi quan hệ r trên R(U) và mọi t1, t2 ∈ r, nếu t1[Y] = t2[Y] thì t1[X] = t2[X]",
+        "D": "Tập thuộc tính X luôn là tập con thực sự của tập thuộc tính Y"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.3 định nghĩa: X -> Y trên R(U) nếu với mọi quan hệ r trên R(U) và mọi cặp bộ t1, t2 ∈ r mà t1[X] = t2[X] thì t1[Y] = t2[Y].",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Trong ví dụ quan hệ XEMAY(SOXE, LOAIXE, CHUXE) ở Mục 2.2 - 2.3, phụ thuộc hàm nào biểu diễn đúng ràng buộc mỗi biển số xe xác định duy nhất loại xe và chủ xe?",
+      "options": {
+        "A": "LOAIXE -> SOXE, CHUXE",
+        "B": "CHUXE -> SOXE, LOAIXE",
+        "C": "SOXE -> LOAIXE, CHUXE",
+        "D": "LOAIXE, CHUXE -> SOXE"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.3 Ví dụ 1 nêu rõ: mỗi giá trị số xe xác định duy nhất một giá trị chủ xe và loại xe, nên ta có SOXE -> LOAIXE, CHUXE.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Trong lược đồ NHANVIEN(MSNV, HOTEN, DIACHI, CVIEC, MAPH), phụ thuộc hàm nào được rút ra ở Ví dụ 2 Mục 2.3?",
+      "options": {
+        "A": "HOTEN -> MSNV, DIACHI, CVIEC, MAPH",
+        "B": "MAPH -> MSNV, HOTEN, DIACHI, CVIEC",
+        "C": "DIACHI -> HOTEN, CVIEC",
+        "D": "MSNV -> HOTEN, DIACHI, CVIEC, MAPH"
+      },
+      "correct_answer": "D",
+      "explanation": "Ví dụ 2 Mục 2.3 khẳng định mỗi giá trị MSNV xác định duy nhất 1 giá trị HOTEN, DIACHI, CVIEC, MAPH nên có MSNV -> HOTEN, DIACHI, CVIEC, MAPH.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Các phụ thuộc hàm (Functional Dependence) diễn tả loại ràng buộc nào trong CSDL quan hệ?",
+      "options": {
+        "A": "Ràng buộc liên bộ, liên thuộc tính",
+        "B": "Ràng buộc miền giá trị kiểu số nguyên",
+        "C": "Ràng buộc bảo mật người dùng",
+        "D": "Ràng buộc kích thước lưu trữ đĩa"
+      },
+      "correct_answer": "A",
+      "explanation": "Phần Nhận xét ở Mục 2.3 ghi rõ: Các phụ thuộc hàm diễn tả mối ràng buộc liên bộ, liên thuộc tính.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Ký hiệu F |= X -> Y và tập F* = {f | F |= f} trong Mục 2.4 dùng để chỉ điều gì?",
+      "options": {
+        "A": "Tập các phụ thuộc hàm tầm thường",
+        "B": "Phụ thuộc hàm X -> Y được suy dẫn logic từ F và tập mọi PTH suy dẫn logic từ F",
+        "C": "Tập các siêu khóa của lược đồ quan hệ R(U, F)",
+        "D": "Phủ tối thiểu của tập phụ thuộc hàm F"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.4 định nghĩa F |= X -> Y là X -> Y được suy dẫn logic từ F (mọi r thỏa F đều thỏa X -> Y), và F* là tập mọi PTH suy dẫn logic từ F.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "Hệ tiên đề Armstrong (gồm 3 luật suy dẫn cơ bản) được đưa ra vào năm nào?",
+      "options": {
+        "A": "Năm 1970",
+        "B": "Năm 1972",
+        "C": "Năm 1974",
+        "D": "Năm 1976"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.5 nêu: Năm 1974, Armstrong đã đưa ra hệ tiên đề (còn gọi là hệ luật suy dẫn Armstrong).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "Phát biểu nào sau đây là Tiên đề phản xạ (A1) trong hệ tiên đề Armstrong?",
+      "options": {
+        "A": "Nếu X -> Y và Y -> Z thì X -> Z",
+        "B": "Nếu X -> Y và Z ⊆ U thì XZ -> YZ",
+        "C": "Nếu X -> Y và X -> Z thì X -> YZ",
+        "D": "Nếu Y ⊆ X thì X -> Y"
+      },
+      "correct_answer": "D",
+      "explanation": "Tiên đề phản xạ (A1): Nếu Y ⊆ X thì X -> Y. Đây là các phụ thuộc hàm tầm thường.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Các phụ thuộc hàm có vế trái chứa vế phải (Y ⊆ X) như trong tiên đề (A1) được gọi là gì?",
+      "options": {
+        "A": "Phụ thuộc hàm bắc cầu",
+        "B": "Phụ thuộc hàm đầy đủ",
+        "C": "Phụ thuộc hàm tối thiểu",
+        "D": "Phụ thuộc hàm tầm thường"
+      },
+      "correct_answer": "D",
+      "explanation": "Chú ý ở Mục 2.5: Các phụ thuộc hàm có vế trái chứa vế phải như (A1) gọi là phụ thuộc hàm tầm thường.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Tiên đề tăng trưởng (A2) trong hệ tiên đề Armstrong được phát biểu như thế nào?",
+      "options": {
+        "A": "Nếu Y ⊆ X thì X -> Y",
+        "B": "Nếu X -> Y và Z ⊆ U thì XZ -> YZ",
+        "C": "Nếu X -> Y và Y -> Z thì X -> Z",
+        "D": "Nếu X -> Y và Z ⊆ Y thì X -> Z"
+      },
+      "correct_answer": "B",
+      "explanation": "Tiên đề tăng trưởng (A2): Nếu X -> Y và Z ⊆ U thì XZ -> YZ (trong đó XZ ký hiệu cho X ∪ Z).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "Trong hệ tiên đề Armstrong mở rộng (Mục 2.6), luật 'Nếu X -> Y và X -> Z thì X -> YZ' là tiên đề nào?",
+      "options": {
+        "A": "Tiên đề tựa bắc cầu (A5)",
+        "B": "Tiên đề tách (A6)",
+        "C": "Tiên đề hợp (A4)",
+        "D": "Tiên đề phản xạ (A1)"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.6 gọi (A4) là Tiên đề hợp: Nếu X -> Y và X -> Z thì X -> YZ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "question": "Tiên đề tựa bắc cầu (A5) trong hệ tiên đề Armstrong mở rộng phát biểu điều gì?",
+      "options": {
+        "A": "Nếu X -> Y và Y -> Z thì X -> Z",
+        "B": "Nếu X -> Y và Z ⊆ Y thì X -> Z",
+        "C": "Nếu X -> Y và X -> Z thì X -> YZ",
+        "D": "Nếu X -> Y và YZ -> W thì XZ -> W"
+      },
+      "correct_answer": "D",
+      "explanation": "(A5) Tiên đề tựa bắc cầu: Nếu X -> Y và YZ -> W thì XZ -> W.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Tiên đề tách (A6) trong hệ tiên đề Armstrong mở rộng phát biểu như thế nào?",
+      "options": {
+        "A": "Nếu X -> Y và Z ⊆ Y thì X -> Z",
+        "B": "Nếu X -> Y và Z ⊆ X thì X -> Z",
+        "C": "Nếu X -> Y và YZ -> W thì XZ -> W",
+        "D": "Nếu X -> YZ thì Y -> Z"
+      },
+      "correct_answer": "A",
+      "explanation": "(A6) Tiên đề tách: Nếu X -> Y và Z ⊆ Y thì X -> Z.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Cho lược đồ quan hệ R(U, F) và X ⊆ U. Bao đóng của X (ký hiệu X+) được định nghĩa là tập nào?",
+      "options": {
+        "A": "X+ = {A ∈ U | A -> X ∈ F+}",
+        "B": "X+ = {A ∈ U | X -> A ∈ F+}",
+        "C": "X+ = U \\ X",
+        "D": "X+ = {A ∈ X | A -> U ∈ F+}"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.8.1 định nghĩa: X+ = {A ∈ U | X -> A ∈ F+}, tức tập tất cả các thuộc tính A thuộc U mà X -> A được suy dẫn Armstrong từ F.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Tính chất nào sau đây KHÔNG phải là tính chất đúng của phép lấy bao đóng X+ (Mục 2.8.2)?",
+      "options": {
+        "A": "X ⊆ X+ (tính phản xạ)",
+        "B": "Nếu X ⊆ Y thì X+ ⊆ Y+ (tính đơn điệu)",
+        "C": "(X+)+ = X (bảo toàn tập gốc)",
+        "D": "(X+)+ = X+ (tính lũy đẳng)"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 2.8.2, phép lấy bao đóng có tính lũy đẳng (X+)+ = X+, chứ nói chung (X+)+ không bằng X (trừ khi X+ = X).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "Bài toán thành viên (Mục 2.9) yêu cầu giải quyết câu hỏi nào sau đây?",
+      "options": {
+        "A": "Tìm tất cả các khóa của R(U, F)",
+        "B": "Tìm một phủ tối thiểu của tập F",
+        "C": "Kiểm tra xem một phụ thuộc hàm X -> Y có thuộc F+ hay không",
+        "D": "Kiểm tra xem R(U, F) có bao nhiêu thuộc tính khóa"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.9 định nghĩa Bài toán thành viên: Cho R(U, F) và một phụ thuộc hàm X -> Y bất kỳ trên U, xét xem X -> Y ∈ F+ hay không.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Theo Mục 2.10.1, tập K ⊆ U được gọi là siêu khóa của R(U, F) khi thỏa mãn điều kiện nào?",
+      "options": {
+        "A": "Chỉ cần có một tập con K' ⊂ K thỏa K' -> U",
+        "B": "K chứa tất cả thuộc tính nằm ở vế phải của F",
+        "C": "K là tập con của mọi phụ thuộc hàm trong F",
+        "D": "K -> U ∈ F+ (tức K+ = U)"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.10.1 và 2.10.2 nêu rõ: K là siêu khóa của R nếu thỏa điều kiện (i) K -> U ∈ F+, tương đương K+ = U (không yêu cầu tính tối thiểu).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "Trong định nghĩa Khóa của R(U, F) ở Mục 2.10.1, ngoài điều kiện K -> U ∈ F+, điều kiện (ii) quy định điều gì?",
+      "options": {
+        "A": "Với mọi K' ⊂ K (tập con thực sự) thì K' -> U ∉ F+ (K tối thiểu)",
+        "B": "Mọi thuộc tính của K đều phải nằm trên vế phải của F",
+        "C": "K phải là khóa duy nhất của R",
+        "D": "K không được chứa quá 2 thuộc tính"
+      },
+      "correct_answer": "A",
+      "explanation": "Điều kiện (ii) bảo đảm tính tối thiểu của khóa: với mọi tập con thực sự K' ⊂ K thì K' -/-> U.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "question": "Trong Thuật toán 2 tìm tất cả các khóa (Mục 2.12.2.2), Tập nguồn (TN) và Tập trung gian (TG) được xác định như thế nào?",
+      "options": {
+        "A": "TN = L ∩ R và TG = U \\ R",
+        "B": "TN = U \\ R và TG = L ∩ R",
+        "C": "TN = U \\ L và TG = R \\ L",
+        "D": "TN = L ∪ R và TG = U \\ L"
+      },
+      "correct_answer": "B",
+      "explanation": "Bước 1 của Thuật toán 2 quy định: Tập nguồn TN = U \\ R (thuộc tính không xuất hiện ở vế phải) và Tập trung gian TG = L ∩ R.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "Điều kiện nào sau đây KHÔNG nằm trong 3 điều kiện của Phủ tối thiểu (Phủ cực tiểu) của F (Mục 2.13.1)?",
+      "options": {
+        "A": "Vế phải mỗi PTH trong F chỉ có đúng 1 thuộc tính",
+        "B": "Mọi PTH trong F đều đầy đủ (không có thuộc tính dư thừa ở vế trái)",
+        "C": "Số lượng PTH trong F phải đúng bằng số lượng thuộc tính trong U",
+        "D": "Trong F không có PTH nào dư thừa (suy dẫn được từ các PTH còn lại)"
+      },
+      "correct_answer": "C",
+      "explanation": "3 điều kiện của phủ tối thiểu là: (1) vế phải chỉ có 1 thuộc tính; (2) mọi PTH đầy đủ (vế trái không dư); (3) không có PTH dư thừa. Không có ràng buộc số PTH bằng |U|.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "Cho F = {A -> B, C -> AB} và quan hệ r gồm 2 bộ (A, B, C): t1 = (1, 0, 1) và t2 = (1, 0, 0) (Ví dụ 2 Mục 2.4). Kết luận nào đúng?",
+      "options": {
+        "A": "r thỏa F nhưng không thỏa B -> C, nên B -> C không được suy dẫn logic từ F",
+        "B": "r không thỏa F vì vi phạm C -> AB",
+        "C": "B -> C được suy dẫn logic từ F vì B luôn bằng 0",
+        "D": "r thỏa cả F lẫn B -> C"
+      },
+      "correct_answer": "A",
+      "explanation": "t1, t2 thỏa A -> B (cùng A=1, B=0) và thỏa C -> AB (vì t1[C] ≠ t2[C]), nên r thỏa F. Nhưng t1[B] = t2[B] = 0 mà t1[C] ≠ t2[C], nên B -> C không đúng trên r => B -> C ∉ F*.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "Cho F = {A -> B} và quan hệ r(A, B) gồm 2 bộ (a1, b1) và (a2, b1) với a1 ≠ a2 (Ví dụ 3 Mục 2.4). Quan hệ r chứng minh được điều gì?",
+      "options": {
+        "A": "A -> B là phụ thuộc hàm tầm thường",
+        "B": "B -> A không được suy dẫn logic từ F",
+        "C": "B -> A được suy dẫn logic từ F",
+        "D": "B là khóa của quan hệ r"
+      },
+      "correct_answer": "B",
+      "explanation": "Trên r, hai bộ khác nhau ở A nên r thỏa A -> B (thỏa F). Tuy nhiên hai bộ cùng giá trị B = b1 nhưng khác nhau ở A (a1 ≠ a2), nên r không thỏa B -> A => B -> A ∉ F*.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Từ F = {AB -> C, C -> A}, để chứng tỏ BC -> ABC ∈ F+ như Ví dụ ở Mục 2.5, bước đầu tiên áp dụng tiên đề tăng trưởng (A2) cho C -> A (tăng thêm B) thu được gì?",
+      "options": {
+        "A": "BC -> ABC",
+        "B": "C -> AB",
+        "C": "BC -> AB",
+        "D": "AC -> AB"
+      },
+      "correct_answer": "C",
+      "explanation": "Ví dụ Mục 2.5: Từ C -> A, áp dụng (A2) tăng B ta được BC -> AB (1); từ AB -> C áp dụng (A2) tăng AB được AB -> ABC (2); theo (A3) suy ra BC -> ABC.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "Cho F = {A -> B, A -> C, A -> D} (Ví dụ 1 Mục 2.6). Cần áp dụng những tiên đề nào để suy ra A -> ABCD ∈ F+?",
+      "options": {
+        "A": "Tiên đề phản xạ (A1) và Tiên đề hợp (A4)",
+        "B": "Chỉ cần Tiên đề tách (A6)",
+        "C": "Tiên đề tựa bắc cầu (A5) và Tiên đề tách (A6)",
+        "D": "Chỉ cần Tiên đề bắc cầu (A3)"
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ 1 Mục 2.6: Áp dụng (A4) cho A -> B, A -> C, A -> D thu được A -> BCD (1); áp dụng (A1) có A -> A (2); hợp (1) và (2) theo (A4) được A -> ABCD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "Cho F = {AB -> C, B -> D, CD -> E, EC -> GH, G -> A}. Phép suy dẫn đúng để chứng minh AB -> E ∈ F+ là gì?",
+      "options": {
+        "A": "AB -> C (F), C -> D (A6) => AB -> CD => AB -> E",
+        "B": "B -> D (F) => AB -> D (A2/A3); hợp với AB -> C được AB -> CD (A4); bắc cầu CD -> E (A3) được AB -> E",
+        "C": "G -> A (F), AB -> G (A1) => AB -> E",
+        "D": "CD -> E (F) và B -> D (F) => B -> E (A3) => AB -> E"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Ví dụ 2 Mục 2.6 và Bài 7: AB -> B (A1), B -> D (F) => AB -> D (A3). Kết hợp AB -> C (F) theo luật hợp (A4) được AB -> CD. Bắc cầu (A3) với CD -> E suy ra AB -> E.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "Cho U = {ABCDEG} và F = {AB -> C, D -> EG, ACD -> B, C -> A, BC -> D, BE -> C, CG -> BD, CE -> AG}. Giá trị bao đóng (BD)+ là gì?",
+      "options": {
+        "A": "{BD}",
+        "B": "{BDEG}",
+        "C": "{ABDEGC}",
+        "D": "{BDEGC}"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Ví dụ 1 Mục 2.8.3: X0 = BD; X1 = BDEG (do D -> EG); X2 = BDEGC (do BE -> C); X3 = ABDEGC (do C -> A). Vậy (BD)+ = {ABDEGC}.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "question": "Cho U = {ABCDEGH} và F = {B -> A, DA -> CE, D -> H, GH -> C, AC -> D}. Kết quả của (BD)+ (Ví dụ 2 Mục 2.8.3) là tập nào?",
+      "options": {
+        "A": "{ABDH}",
+        "B": "{ABCDEGH}",
+        "C": "{BDEH}",
+        "D": "{ABCDEH}"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Ví dụ 2 Mục 2.8.3: X0 = BD -> X1 = ABD (B -> A) -> X2 = ABDH (D -> H) -> X3 = ABCDEH (DA -> CE). Không áp dụng thêm được GH -> C (thiếu G), nên (BD)+ = {ABCDEH}.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Nếu F = {A -> B1, A -> B2, ..., A -> Bn}, số lượng các phụ thuộc hàm dạng A -> Y (với Y ⊆ {B1, ..., Bn}) nằm trong F+ có thể lên tới bao nhiêu?",
+      "options": {
+        "A": "2^n",
+        "B": "n^2",
+        "C": "2n",
+        "D": "n!"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.9 giải thích: Có tới 2^n tập con Y của {B1, B2, ..., Bn}, nên số phần tử của F+ có thể rất lớn (hàm mũ), khiến việc liệt kê toàn bộ F+ để kiểm tra thành viên không hiệu quả.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "question": "Trong thực tiễn quản trị CSDL, nếu một ràng buộc PTH mới f phát sinh và ta kiểm tra thấy f ∈ F+ bằng thuật toán bao đóng, ta xử lý thế nào?",
+      "options": {
+        "A": "Phải xóa toàn bộ tập F cũ và thay bằng {f}",
+        "B": "Không cần bổ sung f vào F vì f đã được suy dẫn từ F",
+        "C": "Bắt buộc tách lược đồ quan hệ thành 2 bảng mới",
+        "D": "Bổ sung f vào F để tăng số lượng siêu khóa"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.9 nêu rõ: Nếu ràng buộc mới được suy dẫn từ F thì không cần bổ sung vào F; chỉ khi nó không suy dẫn từ F nhưng đúng thực tế mới bổ sung vào F thành F'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "Cho R(U, F) với U = {A, B, C, D, E} và F = {A -> BC, B -> D, ED -> A}. Bao đóng (AB)+ bằng bao nhiêu?",
+      "options": {
+        "A": "ABD",
+        "B": "ABC",
+        "C": "ABCDE",
+        "D": "ABCD"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Bài 9: từ AB, dùng A -> BC được ABC, dùng B -> D được ABCD. Không có E nên không kích hoạt ED -> A. Vậy (AB)+ = ABCD.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "question": "Cho R(U, F) với U = {A, B, C, D, E, F, H} và F = {ABC -> E, CD -> F, CB -> A}. Xác định tập L ∩ R và U \\ R (Ví dụ 1 Mục 2.10.3)?",
+      "options": {
+        "A": "L ∩ R = {A} và U \\ R = {BCDH}",
+        "B": "L ∩ R = {BC} và U \\ R = {EFH}",
+        "C": "L ∩ R = {AEF} và U \\ R = {DH}",
+        "D": "L ∩ R = ∅ và U \\ R = {ABCD}"
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ 1 Mục 2.10.3: L = {A, B, C, D}, R = {E, F, A}, suy ra L ∩ R = {A} và U \\ R = {B, C, D, H}. Theo Hệ quả 1, {BCDHA} là một siêu khóa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Cho U = {ABCDEFGH} và F = {AB -> C, D -> GH, E -> F} (Ví dụ 2 Mục 2.10.3). Lược đồ R(U, F) có khóa là gì?",
+      "options": {
+        "A": "Khóa duy nhất là CGHF",
+        "B": "Khóa duy nhất là ABDE",
+        "C": "Có 2 khóa là AB và DE",
+        "D": "Khóa duy nhất là toàn bộ U"
+      },
+      "correct_answer": "B",
+      "explanation": "Ta có L = {A, B, D, E}, R = {C, G, H, F}. Vì L ∩ R = ∅, theo Hệ quả 3 thì K = U \\ R = {ABDE} là khóa duy nhất.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Cho U = {C, D, E, F, G, H} và F = {CG -> E, D -> F, C -> F, EF -> D, GE -> CH}. Khẳng định nào đúng về tập DG và CGH (Ví dụ Mục 2.11)?",
+      "options": {
+        "A": "Cả DG và CGH đều là khóa của R",
+        "B": "DG là khóa, còn CGH chỉ là siêu khóa",
+        "C": "DG không phải khóa (cũng không là siêu khóa); CGH là siêu khóa nhưng không phải khóa",
+        "D": "Cả DG và CGH đều không phải siêu khóa"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Ví dụ Mục 2.11: (DG)+ = DGF ≠ U nên DG không phải khóa; (CGH)+ = CGHEFD = U nên CGH là siêu khóa, nhưng (CGH \\ {H})+ = (CG)+ = U nên CGH không tối thiểu, không phải khóa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "Với lược đồ U = {C, D, E, F, G, H} và F = {CG -> E, D -> F, C -> F, EF -> D, GE -> CH}, cần thêm phụ thuộc hàm nào sau đây vào F để lược đồ có đúng 1 khóa duy nhất?",
+      "options": {
+        "A": "F -> D",
+        "B": "H -> C",
+        "C": "C -> D",
+        "D": "G -> C (hoặc G -> E)"
+      },
+      "correct_answer": "D",
+      "explanation": "Vì U \\ R = {G}, theo Định lý 3 lược đồ có khóa duy nhất khi và chỉ khi (U \\ R)+ = G+ = U. Trong 2 khóa EG và CG, nếu thêm G -> C hoặc G -> E thì G+ = U.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 40,
+      "question": "Nhận xét nào đúng về Thuật toán KEY(U, F, K) tìm khóa từ một siêu khóa K (Mục 2.11)?",
+      "options": {
+        "A": "Thuật toán luôn trả về tất cả các khóa của R trong một lần chạy",
+        "B": "Kết quả phụ thuộc thứ tự xét các thuộc tính trong K và chỉ tìm được một khóa",
+        "C": "Nếu K là siêu khóa nhỏ nhất thì KEY trả về tập rỗng",
+        "D": "Thuật toán KEY chỉ hoạt động khi L ∩ R = ∅"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.11 nhấn mạnh 2 nhận xét: thay đổi thứ tự xét các thuộc tính A trong K có thể cho ra các khóa khác nhau, và thuật toán KEY chỉ xác định được một khóa chứ không phải mọi khóa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "Xét hai tập PTH F = {A -> DE, B -> C, C -> D} và G = {A -> B, B -> C, C -> D, D -> E} (Ví dụ Mục 2.13.1). Kết luận nào đúng?",
+      "options": {
+        "A": "F tương đương với G",
+        "B": "F phủ G nhưng G không phủ F",
+        "C": "G phủ F nhưng F không phủ G",
+        "D": "F và G không có tập nào phủ tập nào"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Ví dụ Mục 2.13.1: (A)+_G = ABCDE ⊇ DE nên F ⊆ G+ (G phủ F). Ngược lại (A)+_F = ADE không chứa B nên A -> B ∉ F+ (F không phủ G).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "Trên lược đồ DIEMTHI(MASV, HT, MAMH, DIEM), phát biểu nào đúng về phụ thuộc hàm (1) MASV, HT, MAMH -> DIEM và (2) MASV, MAMH -> DIEM?",
+      "options": {
+        "A": "Cả (1) và (2) đều là phụ thuộc hàm đầy đủ",
+        "B": "(1) là phụ thuộc hàm đầy đủ, (2) không đầy đủ",
+        "C": "(1) và (2) đều không đầy đủ",
+        "D": "(1) là phụ thuộc hàm không đầy đủ, (2) là phụ thuộc hàm đầy đủ"
+      },
+      "correct_answer": "D",
+      "explanation": "Ví dụ 1 Mục 2.13.1: ở (1) tồn tại tập con thực sự {MASV, MAMH} xác định được DIEM (dư HT) nên không đầy đủ; ở (2) mọi tập con thực sự không xác định được DIEM nên là đầy đủ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "Cho U = {ABCDEG} và F = {D -> E, CE -> G, C -> A, ACD -> B} (Ví dụ 2 Mục 2.13.1). Phụ thuộc hàm nào KHÔNG phải là phụ thuộc hàm đầy đủ?",
+      "options": {
+        "A": "ACD -> B",
+        "B": "CE -> G",
+        "C": "D -> E",
+        "D": "C -> A"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Ví dụ 2 Mục 2.13.1: với ACD -> B, xét tập con X' = CD có (CD)+ = CDEGAB chứa B => CD -> B ∈ F+, nên A dư thừa và ACD -> B không đầy đủ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "Cho F = {AI -> M, AB -> M, B -> M} (Ví dụ 1 Mục 2.13.2). Phủ tối thiểu của F là tập nào?",
+      "options": {
+        "A": "{AI -> M, AB -> M}",
+        "B": "{AI -> M, B -> M}",
+        "C": "{A -> M, B -> M}",
+        "D": "{AI -> M, AB -> M, B -> M}"
+      },
+      "correct_answer": "B",
+      "explanation": "Ở Bước 2 xét AB -> M: (AB \\ A)+ = B+ = BM ⊇ M nên A dư thừa, thay AB -> M bằng B -> M (trùng với B -> M sẵn có). Kết quả G = {AI -> M, B -> M}.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "Trong phần Nhận xét của Mục 2.13.2, 'phủ phụ thuộc hàm tối ưu' của F được định nghĩa là gì?",
+      "options": {
+        "A": "Phủ tối thiểu đầu tiên tìm được theo thứ tự bảng chữ cái",
+        "B": "Phủ tối thiểu mà mọi vế trái chỉ gồm 1 thuộc tính",
+        "C": "Phủ tối thiểu có lực lượng (số lượng PTH) nhỏ nhất trong tất cả các phủ tối thiểu của F",
+        "D": "Tập F+ chứa tất cả các phụ thuộc hàm suy dẫn được"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.13.2 nêu: Vì thứ tự xét có thể khác nhau nên có nhiều phủ tối thiểu G khác nhau; trong các tập G đó, tập có lực lượng nhỏ nhất gọi là phủ phụ thuộc hàm tối ưu.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "question": "Cho K ⊆ U và A ∈ K. Theo Tính chất c của Khóa (Mục 2.10.2), nếu K \\ {A} -> A thì kết luận nào chắc chắn đúng?",
+      "options": {
+        "A": "K là khóa duy nhất của R",
+        "B": "A là thuộc tính nguồn của R",
+        "C": "K \\ {A} không thể là siêu khóa",
+        "D": "K không thể là khóa của R"
+      },
+      "correct_answer": "D",
+      "explanation": "Tính chất c (Mục 2.10.2): Nếu K là khóa thì K -> U; nếu K \\ {A} -> A thì K' = K \\ {A} ⊂ K suy ra K' -> K -> U, mâu thuẫn tính tối thiểu của khóa, nên K không thể là khóa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Giả sử một lược đồ quan hệ R(U, F) có 2 khóa là K1 = {AB} và K2 = {AC}. Tập U \\ R (các thuộc tính không nằm ở vế phải của F) chắc chắn là tập nào?",
+      "options": {
+        "A": "{A} (nếu không còn khóa nào khác)",
+        "B": "{BC}",
+        "C": "{ABC}",
+        "D": "∅"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Định lý 2 (Mục 2.10.3), giao của tất cả các khóa K của R(U, F) đúng bằng U \\ R. Nếu chỉ có K1 = AB và K2 = AC thì K1 ∩ K2 = {A} = U \\ R.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Cho quan hệ r(A, B, C) gồm 3 bộ (a, b, c), (a, c, c), (a, b, a) (Bài 2a). Khóa của quan hệ r là gì?",
+      "options": {
+        "A": "AB",
+        "B": "BC",
+        "C": "AC",
+        "D": "A"
+      },
+      "correct_answer": "B",
+      "explanation": "Trong r: (a, b, c) và (a, b, a) trùng AB; (a, b, c) và (a, c, c) trùng AC; chỉ có cặp BC nhận 3 giá trị phân biệt (b, c), (c, c), (b, a) nên BC là khóa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 49,
+      "question": "Cho R(U, F) với U = {A, B, C}, F = {A -> BC, AB -> C} (Bài 12). Phủ tối thiểu của F là tập nào?",
+      "options": {
+        "A": "{A -> B, A -> C}",
+        "B": "{A -> B, AB -> C}",
+        "C": "{A -> BC}",
+        "D": "{A -> C, B -> C}"
+      },
+      "correct_answer": "A",
+      "explanation": "Bước 1 tách thành {A -> B, A -> C, AB -> C}. Bước 2 xét AB -> C: (AB \\ B)+ = A+ = ABC ⊇ C => B dư thừa, thay AB -> C bằng A -> C (trùng). Kết quả G = {A -> B, A -> C}.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "question": "Cho R(U, F) với U = {A, B, C, D} và F = {A -> B, B -> D, AB -> CD} (Bài 13). Khóa của lược đồ R là gì?",
+      "options": {
+        "A": "AB",
+        "B": "B",
+        "C": "A",
+        "D": "AD"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Bài 13b: (AB)+ = ABCD = U nhưng A+ = ABCD = U (vì A -> B -> D và AB -> C), còn B+ = BD ≠ U. Hoặc U \\ R = {A} và A+ = U nên A là khóa duy nhất.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "question": "Trong chứng minh Tính đầy đủ của hệ tiên đề Armstrong (Mục 2.7), để chứng tỏ X -> Y ∉ F+ kéo theo X -> Y ∉ F*, người ta xây dựng quan hệ mẫu r gồm 2 bộ t1, t2 như thế nào?",
+      "options": {
+        "A": "Hai bộ giống nhau hoàn toàn trên X+ (bằng 1) và khác nhau trên U \\ X+ (t1 bằng 0, t2 bằng 1)",
+        "B": "Hai bộ giống nhau trên X và khác nhau trên toàn bộ U \\ X",
+        "C": "Hai bộ giống nhau trên U \\ X+ và khác nhau trên X+",
+        "D": "Hai bộ có tất cả thuộc tính đều bằng 1 ở t1 và đều bằng 0 ở t2"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.7 chia U thành X+ và U \\ X+: t1 = (1...1 | 0...0) và t2 = (1...1 | 1...1). Nhờ đó mọi V -> W ∈ F đều đúng trên r (vì nếu V ⊆ X+ thì W ⊆ X+), còn X -> Y sai trên r vì X ⊆ X+ nhưng Y ⊄ X+.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 52,
+      "question": "Trong chứng minh Tính đúng của thuật toán tính bao đóng X+ (chiều X+ ⊆ X_i ở Mục 2.8.4), tại sao mọi PTH Y -> Z ∈ F đều phải đúng trên quan hệ 2 bộ r bằng nhau ở X_i và khác nhau ở U \\ X_i?",
+      "options": {
+        "A": "Vì thuật toán bao đóng chỉ xét các PTH tầm thường",
+        "B": "Vì nếu tồn tại Y -> Z ∈ F sai trên r thì Y ⊆ X_i và Z ⊄ X_i, suy ra X_{i+1} ≠ X_i (trái với điều kiện dừng)",
+        "C": "Vì X_i luôn bằng toàn bộ tập thuộc tính U tại bước dừng",
+        "D": "Vì mọi Z trong F đều là tập con của X"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.8.4 lập luận: Nếu Y -> Z ∈ F không đúng trên r thì 2 bộ phải bằng nhau trên Y (tức Y ⊆ X_i) và khác nhau trên Z (tức Z ⊄ X_i), khi đó thuật toán còn kết nạp thêm Z vào X_i nên X_{i+1} ≠ X_i, mâu thuẫn bước dừng.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 53,
+      "question": "Theo Tính chất 5 của bao đóng (Mục 2.8.2), mối quan hệ chính xác giữa X+, Y+ và (XY)+ là gì?",
+      "options": {
+        "A": "(XY)+ ⊆ X+ ∪ Y+ với mọi X, Y",
+        "B": "X+ ∪ Y+ = (XY)+ với mọi X, Y",
+        "C": "X+ ∪ Y+ ⊆ (XY)+ (và có thể là tập con thực sự)",
+        "D": "X+ ∩ Y+ = (XY)+"
+      },
+      "correct_answer": "C",
+      "explanation": "Tính chất 5 (Mục 2.8.2): X+ ∪ Y+ ⊆ (XY)+. Dấu '=' không luôn đúng (VD: F = {AB -> C}, A+ ∪ B+ = {A, B} nhưng (AB)+ = {A, B, C}).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "question": "Bổ đề ở Mục 2.10.3 phát biểu: Với A ∉ L (tập các thuộc tính xuất hiện ở vế trái của F), nếu X -> Y ∈ F+ thì điều gì đúng?",
+      "options": {
+        "A": "X \\ {A} -> Y ∈ F+",
+        "B": "X -> Y \\ {A} ∈ F+",
+        "C": "A là khóa của R(U, F)",
+        "D": "X \\ {A} -> Y \\ {A} ∈ F+"
+      },
+      "correct_answer": "D",
+      "explanation": "Bổ đề (Mục 2.10.3): Với A ∉ L, nếu X -> Y ∈ F+ thì X \\ {A} -> Y \\ {A} ∈ F+. Bổ đề này được dùng để chứng minh K ∩ (R \\ L) = ∅ trong Định lý 1.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 55,
+      "question": "Trong chứng minh Định lý 1 (K ⊆ (U \\ R) ∪ (L ∩ R)), bằng cách giả sử phản chứng tồn tại A ∈ K ∩ (R \\ L), ta dẫn đến mâu thuẫn nào?",
+      "options": {
+        "A": "A ∈ U \\ R, vô lý vì A ∈ R",
+        "B": "K+ ≠ U, trái với định nghĩa siêu khóa",
+        "C": "L ∩ R = ∅, trái với giả thiết",
+        "D": "K \\ {A} -> A, trái với Tính chất (c) của khóa K"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.10.3: Nếu A ∈ K, A ∈ R và A ∉ L thì từ K -> L theo Bổ đề có K \\ {A} -> L; kết hợp L -> R và A ∈ R suy ra K \\ {A} -> A, mâu thuẫn Tính chất (c) của khóa K.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 56,
+      "question": "Theo Hệ quả 2 của Định lý 1 (Mục 2.10.3), điều kiện R \\ L ≠ ∅ cho phép suy ra kết luận nào sau đây?",
+      "options": {
+        "A": "Lược đồ quan hệ có duy nhất một khóa K = U \\ R",
+        "B": "Tồn tại một khóa K ≠ U",
+        "C": "Mọi siêu khóa đều chứa R \\ L",
+        "D": "Lược đồ không có khóa nào"
+      },
+      "correct_answer": "B",
+      "explanation": "Hệ quả 2: Nếu R \\ L ≠ ∅ thì tồn tại một khóa K ≠ U (vì nếu có khóa K = U thì K ∩ (R \\ L) = U ∩ (R \\ L) = R \\ L ≠ ∅, mâu thuẫn K ∩ (R \\ L) = ∅).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 57,
+      "question": "Theo Định lý 5 (Lucchenssi - Osborn) ở Mục 2.12.1, cho H ≠ ∅ là tập các khóa đã biết của R(U, F). Điều kiện cần và đủ để có thể bổ sung thêm 1 khóa mới vào H là gì?",
+      "options": {
+        "A": "Tồn tại K ∈ H và Li -> Ri ∈ F sao cho T = Li ∪ (K \\ Ri) chứa ít nhất một khóa trong H",
+        "B": "Tồn tại K ∈ H và Li -> Ri ∈ F sao cho T = Ri ∪ (K \\ Li) không chứa khóa nào trong H",
+        "C": "Tồn tại K ∈ H và Li -> Ri ∈ F sao cho T = Li ∪ (K \\ Ri) không chứa bất kỳ phần tử nào của H",
+        "D": "Tồn tại A ∈ L ∩ R sao cho A+ = U"
+      },
+      "correct_answer": "C",
+      "explanation": "Định lý 5 (Lucchenssi - Osborn): Điều kiện cần và đủ để bổ sung được khóa mới vào H là tồn tại K ∈ H và Li -> Ri ∈ F sao cho T = Li ∪ (K \\ Ri) không chứa phần tử nào của H (khi đó T là một siêu khóa mới).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 58,
+      "question": "Áp dụng Thuật toán Lucchenssi - Osborn cho U = {ABCDEG}, F = {A -> BC, B -> D, AD -> E, CD -> A} với khóa đầu K1 = {AG} (Ví dụ Mục 2.12.2.1). Khi xét K1 = {AG} với CD -> A, tập T = Li ∪ (K \\ Ri) thu được là gì và sinh ra khóa K2 nào?",
+      "options": {
+        "A": "T = ADG -> K2 = ADG",
+        "B": "T = BCG -> K2 = BCG",
+        "C": "T = ABCG -> K2 = ABC",
+        "D": "T = CDG -> K2 = CDG"
+      },
+      "correct_answer": "D",
+      "explanation": "Với K1 = AG và PTH CD -> A: T = CD ∪ (AG \\ A) = CDG. Tập T không chứa AG; chạy KEY(U, F, CDG) kiểm tra (DG)+ ≠ U, (CG)+ ≠ U, (CD)+ ≠ U nên K2 = CDG.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 59,
+      "question": "Cho R(U, F) với U = {ABCDEI} và F = {ACD -> EBI, CE -> AD} (Ví dụ 1 Mục 2.12.2.2). Sử dụng Thuật toán 2 (TN, TG), tập tất cả các khóa của R là gì?",
+      "options": {
+        "A": "{EC, ADC}",
+        "B": "{C, ADE}",
+        "C": "{EC, AEC, DEC}",
+        "D": "{ACD, CE}"
+      },
+      "correct_answer": "A",
+      "explanation": "L = ACDE, R = EBIAD => TN = U \\ R = {C}, TG = L ∩ R = {ADE}. Trong 8 tập con Xi của {ADE}, các tập TN ∪ Xi có bao đóng bằng U là EC, ADC, AEC, DEC, ADEC. Loại các siêu khóa chứa EC hoặc ADC thu được 2 khóa: EC và ADC.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 60,
+      "question": "Cho R(U, F) với U = {ABCDEG} và F = {AB -> C, C -> B, ABD -> E, G -> A} (Ví dụ 2 Mục 2.12.2.2). Tất cả các khóa của R là tập nào?",
+      "options": {
+        "A": "{ADG, BDG}",
+        "B": "{BDG, CDG}",
+        "C": "{BDG, ABDG, CDG}",
+        "D": "{DG}"
+      },
+      "correct_answer": "B",
+      "explanation": "L = ABCDG, R = ABCE => TN = DG, TG = ABC. Tính bao đóng: (DG)+ = ADG ≠ U, (ADG)+ = ADG ≠ U, (BDG)+ = U, (CDG)+ = U. Các tập còn lại đều chứa BDG hoặc CDG. Vậy có 2 khóa: BDG và CDG.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "question": "Cho U = {A, B, C, D} và F = {A -> B, B -> C, CD -> A, AC -> D} (Bài 16). Phủ tối thiểu của F là tập nào?",
+      "options": {
+        "A": "{A -> B, B -> C, CD -> A, AC -> D}",
+        "B": "{A -> B, B -> C, D -> A, A -> D}",
+        "C": "{A -> B, B -> C, CD -> A, A -> D}",
+        "D": "{A -> B, B -> C, C -> A, A -> D}"
+      },
+      "correct_answer": "C",
+      "explanation": "Ở Bước 2, xét AC -> D: (AC \\ C)+ = A+ = ABCD ⊇ D nên C dư thừa, thay AC -> D bởi A -> D. Ở Bước 3 không có PTH nào dư thừa. Kết quả: {A -> B, B -> C, CD -> A, A -> D}.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 62,
+      "question": "Cho U = {A, B, C, I} và F = {B -> C, AI -> C, AB -> C} (Bài 17). Tập phụ thuộc hàm tối thiểu của F là gì?",
+      "options": {
+        "A": "{B -> C, AI -> C, A -> C}",
+        "B": "{AI -> C, AB -> C}",
+        "C": "{B -> C, I -> C}",
+        "D": "{B -> C, AI -> C}"
+      },
+      "correct_answer": "D",
+      "explanation": "Ở Bước 2: AI -> C là PTH đầy đủ; với AB -> C có (AB \\ A)+ = B+ = BC ⊇ C nên A dư thừa, thay AB -> C bằng B -> C (trùng với B -> C). Bước 3 không PTH nào dư thừa => G = {B -> C, AI -> C}.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 63,
+      "question": "Cho F = {A -> BCDE, CD -> E, C -> B} (Ví dụ 2 Mục 2.13.2). Sau khi thực hiện đủ 3 bước tìm phủ tối thiểu, kết quả thu được là tập nào?",
+      "options": {
+        "A": "{A -> C, A -> D, CD -> E, C -> B}",
+        "B": "{A -> B, A -> C, A -> D, CD -> E}",
+        "C": "{A -> C, A -> D, A -> E, C -> B}",
+        "D": "{A -> B, A -> D, CD -> E, C -> B}"
+      },
+      "correct_answer": "A",
+      "explanation": "Tách A -> BCDE thành A -> B, A -> C, A -> D, A -> E. Khi kiểm tra dư thừa ở Bước 3: A -> B suy được từ A -> C và C -> B; A -> E suy được từ A -> C, A -> D và CD -> E. Còn lại {A -> C, A -> D, CD -> E, C -> B}.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 64,
+      "question": "Cho lược đồ P3(ABCD) và F3 = {A -> B, B -> CD, D -> A} (Bài 20c). Tất cả các khóa của P3 là gì?",
+      "options": {
+        "A": "Chỉ có 1 khóa duy nhất là A",
+        "B": "Có 3 khóa là A, B và D",
+        "C": "Có 4 khóa là A, B, C và D",
+        "D": "Có 2 khóa là AB và BD"
+      },
+      "correct_answer": "B",
+      "explanation": "Ta có A+ = ABCD = U (vì A -> B -> CD), B+ = BCDA = U (vì B -> CD và D -> A), D+ = DABC = U (vì D -> A -> B -> CD), còn C+ = C ≠ U. Vậy P3 có 3 khóa là A, B, D.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 65,
+      "question": "Cho lược đồ P4(ABCDE) và F4 = {AB -> C, DE -> A, C -> DE, BE -> C} (Bài 20d). Tất cả các khóa của P4 là tập nào?",
+      "options": {
+        "A": "{AB, BC}",
+        "B": "{B, C, E}",
+        "C": "{AB, BC, BE}",
+        "D": "{AB, BE, DE}"
+      },
+      "correct_answer": "C",
+      "explanation": "Ta có L = ABCDE, R = ACDE => TN = U \\ R = {B}, TG = {ACDE}. Với TN = B: B+ = B ≠ U. Thêm 1 thuộc tính từ TG: (AB)+ = U, (BC)+ = U, (BD)+ = BD ≠ U, (BE)+ = U. Các tập lớn hơn đều chứa AB, BC hoặc BE. Vậy có 3 khóa: AB, BC, BE.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "question": "Cho P1(ABCDEFLK) và F1 = {A -> K, A -> BC, B -> CD, L -> B} (Bài 20a). Khóa và một phủ tối thiểu của F1 là gì?",
+      "options": {
+        "A": "Khóa: {AEFL}; Phủ tối thiểu: {A -> K, A -> B, A -> C, B -> C, B -> D, L -> B}",
+        "B": "Khóa: {ABFL}; Phủ tối thiểu: {A -> K, A -> B, B -> C, B -> D, L -> B}",
+        "C": "Khóa: {AL}; Phủ tối thiểu: {A -> K, A -> B, B -> D, L -> B}",
+        "D": "Khóa duy nhất: {AEFL}; Phủ tối thiểu: {A -> K, A -> B, B -> C, B -> D, L -> B}"
+      },
+      "correct_answer": "D",
+      "explanation": "U \\ R = {AEFL} và (AEFL)+ = ABCDEFLK = U => khóa duy nhất là AEFL. Tách F1 được {A -> K, A -> B, A -> C, B -> C, B -> D, L -> B}; ở Bước 3, A -> C dư vì suy ra từ A -> B và B -> C => phủ tối thiểu {A -> K, A -> B, B -> C, B -> D, L -> B}.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 67,
+      "question": "Theo Bài 4b và Bài 21, một lược đồ quan hệ có 5 thuộc tính có thể có tối đa bao nhiêu khóa?",
+      "options": {
+        "A": "10 khóa (ví dụ C(5,2) = 10 khóa, mỗi khóa gồm 2 thuộc tính)",
+        "B": "5 khóa (mỗi khóa gồm 1 thuộc tính)",
+        "C": "15 khóa",
+        "D": "32 khóa"
+      },
+      "correct_answer": "A",
+      "explanation": "Một tập các khóa không thể có khóa này là tập con thực sự của khóa kia (Sperner). Với tập 5 thuộc tính, số tập con đôi một không bao hàm nhau tối đa là C(5, ⌊5/2⌋) = C(5, 2) = 10 khóa (như Bài 4b đã dựng 10 khóa 2 thuộc tính).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 68,
+      "question": "Cho R(U, F) với U = {A, B, C, D, E, G} và F = {AB -> C, D -> EG, C -> A, BE -> C, BC -> D, CG -> BD, ACD -> B, CE -> AG} (Bài 11). Phát biểu nào đúng về BD?",
+      "options": {
+        "A": "(BD)+ = BDEG ≠ U nên BD không phải khóa",
+        "B": "(BD)+ = ABCDEG = U, nhưng B+ = B ≠ U và D+ = DEG ≠ U nên BD là khóa của R",
+        "C": "BD chỉ là siêu khóa vì D+ = U",
+        "D": "BD không phải siêu khóa vì thiếu thuộc tính C"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Bài 11: X(0) = BD -> X(1) = BDEG (D -> EG) -> X(2) = BDEGC (BE -> C) -> X(3) = BDEGCA (C -> A, CE -> AG) = U. Ngoài ra B+ = B ≠ U và D+ = DEG ≠ U nên BD tối thiểu => BD là khóa.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 69,
+      "question": "Cho hai tập PTH F và G trên cùng tập thuộc tính U. Phép chứng minh F ⊆ G => F+ ⊆ G+ (Bài 10) dựa trực tiếp vào kết quả nào?",
+      "options": {
+        "A": "Mệnh đề 2 (X -> Y ∈ F+ <=> Y ⊆ (X)+_F) và tính chất đơn điệu theo tập PTH: F ⊆ G => (X)+_F ⊆ (X)+_G",
+        "B": "Định lý 3 về khóa duy nhất (U \\ R)+ = U",
+        "C": "Định lý 5 Lucchenssi - Osborn",
+        "D": "Công thức tập nguồn TN = U \\ R"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo lời giải Bài 10: Xét X -> Y ∈ F+, theo Mệnh đề 2 có Y ⊆ (X)+_F. Vì F ⊆ G nên mọi bước nạp thuộc tính khi tính (X)+_F đều thực hiện được dưới G, tức (X)+_F ⊆ (X)+_G => Y ⊆ (X)+_G => X -> Y ∈ G+.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 70,
+      "question": "Cho quan hệ r(X, Y, Z) gồm 4 bộ: (x1, y1, z1), (x1, y1, z2), (x2, y1, z1), (x2, y1, z3) (Bài 18a). Tập các phụ thuộc hàm không tầm thường thỏa mãn trên r là gì?",
+      "options": {
+        "A": "Chỉ có X -> Y và Z -> X",
+        "B": "X -> Z, Z -> Y và XY -> Z",
+        "C": "Y -> X, Y -> Z và Z -> Y",
+        "D": "Z -> Y, X -> Y và XZ -> Y"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo lời giải Bài 18a: Vì thuộc tính Y có giá trị hằng là y1 trên cả 4 bộ nên X -> Y, Z -> Y, XZ -> Y đều đúng; ngược lại x1 ứng với z1, z2 (nên X -/-> Z) và z1 ứng với x1, x2 (nên Z -/-> X), y1 ứng với nhiều X, Z (nên Y -/-> X, Y -/-> Z).",
+      "difficulty": "hard"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Liệt kê 4 vấn đề phát sinh trên lược đồ chưa chuẩn NHACC(TENNCC, DCNCC, TENMH, DONGIA) (Mục 2.1) và nêu cách khắc phục.",
+      "expected_answer": "1. Sự dư thừa dữ liệu (địa chỉ nhà cung cấp lặp lại theo mỗi mặt hàng).\n2. Sự mâu thuẫn khi bổ sung (một nhà cung cấp có 2 địa chỉ khác nhau khi sửa chưa đồng bộ).\n3. Sự bất thường khi loại bỏ (xóa mặt hàng cuối cùng làm mất luôn thông tin nhà cung cấp).\n4. Sự bất thường khi bổ sung (không thêm được nhà cung cấp mới nếu chưa bán mặt hàng nào).\nKhắc phục: Tách thành 2 quan hệ NCC(TENNCC, DCNCC) và CCAP(TENNCC, TENMH, GIA)."
+    },
+    {
+      "id": 2,
+      "question": "Phát biểu 3 tiên đề gốc (A1, A2, A3) của hệ tiên đề Armstrong và 3 tiên đề mở rộng (A4, A5, A6).",
+      "expected_answer": "- Hệ gốc: (A1) Phản xạ: Y ⊆ X => X -> Y; (A2) Tăng trưởng: X -> Y, Z ⊆ U => XZ -> YZ; (A3) Bắc cầu: X -> Y, Y -> Z => X -> Z.\n- Hệ mở rộng: (A4) Hợp: X -> Y, X -> Z => X -> YZ; (A5) Tựa bắc cầu: X -> Y, YZ -> W => XZ -> W; (A6) Tách: X -> Y, Z ⊆ Y => X -> Z."
+    },
+    {
+      "id": 3,
+      "question": "Phát biểu Mệnh đề 2 (Mục 2.7) về liên hệ giữa F+ và bao đóng X+, đồng thời nêu ứng dụng của nó vào bài toán thành viên (Mục 2.9).",
+      "expected_answer": "- Mệnh đề 2: Cho X, Y ⊆ U, phụ thuộc hàm X -> Y ∈ F+ khi và chỉ khi Y ⊆ X+ (với X+ = {A ∈ U | X -> A ∈ F+}).\n- Ứng dụng Bài toán thành viên: Để kiểm tra X -> Y ∈ F+ hay không, không cần liệt kê toàn bộ F+ mà chỉ cần tính bao đóng X+ bằng thuật toán lặp rồi kiểm tra xem Y có là tập con của X+ hay không."
+    },
+    {
+      "id": 4,
+      "question": "Phát biểu Định lý 1, Định lý 2 và Định lý 3 (Mục 2.10.3) về điều kiện biên của khóa K và điều kiện lược đồ R(U, F) có khóa duy nhất.",
+      "expected_answer": "- Định lý 1: Mọi khóa K của R(U, F) đều thỏa (U \\ R) ⊆ K ⊆ (U \\ R) ∪ (L ∩ R).\n- Định lý 2: Giao của tất cả các khóa K của R(U, F) đúng bằng U \\ R (∩K = U \\ R).\n- Định lý 3: R(U, F) có khóa duy nhất khi và chỉ khi (U \\ R)+ = U; khi đó K = U \\ R là khóa duy nhất."
+    },
+    {
+      "id": 5,
+      "question": "Nêu 3 điều kiện định nghĩa Phủ tối thiểu (Phủ cực tiểu) của tập phụ thuộc hàm F (Mục 2.13.1) và tóm tắt 3 bước tìm phủ tối thiểu.",
+      "expected_answer": "- 3 điều kiện: (1) Vế phải mỗi PTH chỉ có 1 thuộc tính; (2) Mọi PTH đều đầy đủ (không dư thuộc tính ở vế trái); (3) Không có PTH nào dư thừa (suy ra được từ các PTH còn lại).\n- 3 bước tìm: B1 tách vế phải về 1 thuộc tính -> B2 loại thuộc tính dư ở vế trái nếu A ∈ (X \\ {B})+_F -> B3 loại PTH X -> A nếu A ∈ X+_(F \\ {X -> A})."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Bài 1 (Giáo trình): Chứng minh suy dẫn bằng định nghĩa phụ thuộc hàm và dựng quan hệ thỏa mãn F",
+      "problem": "Bằng định nghĩa phụ thuộc hàm: (a) Chứng minh nếu XZ -> YZ và YZ -> WY đúng thì XZ -> WY đúng; (b) Chứng minh nếu X -> Y, W -> Z đúng và W ⊆ Y thì X -> Z đúng; (c) Với F = {X -> Y, W -> Z}, hãy cho một quan hệ trên U = XYZW thỏa mãn F.",
+      "solution_steps": [
+        "Bước 1 (Câu a): Giả sử r là quan hệ bất kỳ thỏa XZ -> YZ và YZ -> WY. Lấy hai bộ tùy ý t1, t2 ∈ r sao cho t1[XZ] = t2[XZ].",
+        "Bước 2 (Câu a - kết luận): Do r thỏa XZ -> YZ nên từ t1[XZ] = t2[XZ] suy ra t1[YZ] = t2[YZ]; tiếp tục do r thỏa YZ -> WY nên suy ra t1[WY] = t2[WY]. Vậy r thỏa XZ -> WY.",
+        "Bước 3 (Câu b): Lấy hai bộ tùy ý t1, t2 ∈ r sao cho t1[X] = t2[X]. Do X -> Y đúng nên t1[Y] = t2[Y]. Vì W ⊆ Y nên suy ra t1[W] = t2[W]; kết hợp W -> Z đúng suy ra t1[Z] = t2[Z]. Vậy r thỏa X -> Z.",
+        "Bước 4 (Câu c): Xây dựng quan hệ r trên (X, Y, Z, W) gồm 3 bộ: t1 = (x1, y1, z1, w1), t2 = (x1, y1, z2, w2), t3 = (x2, y2, z1, w1). Kiểm tra: cùng X = x1 thì cùng Y = y1 (thỏa X -> Y); cùng W = w1 thì cùng Z = z1 (thỏa W -> Z)."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài 2 (Giáo trình): Xác định khóa của từng quan hệ r, q, s và tính biểu thức kết nối tự nhiên r * q * s",
+      "problem": "Cho 3 quan hệ: r(A, B, C) = {(a,b,c), (a,c,c), (a,b,a)}; q(A, C, D) = {(a,b,b), (b,a,b), (a,c,b)}; s(D, E, F) = {(b,a,a), (b,c,c), (b,a,b)}. (a) Xác định khóa cho từng quan hệ; (b) Tính r * q * s.",
+      "solution_steps": [
+        "Bước 1 – Xác định khóa của r(A, B, C): A bị trùng (a), B bị trùng (b), C bị trùng (c), AB bị trùng (a, b), AC bị trùng (a, c). Chỉ có cặp BC nhận 3 giá trị phân biệt (b, c), (c, c), (b, a) => Khóa của r là BC.",
+        "Bước 2 – Xác định khóa của q(A, C, D) và s(D, E, F): Trong q, cột C có 3 giá trị phân biệt b, a, c => Khóa của q là C. Trong s, cột F có 3 giá trị phân biệt a, c, b => Khóa của s là F.",
+        "Bước 3 – Tính kết nối tự nhiên r * q trên các thuộc tính chung {A, C}: Các bộ của r có (A, C) là (a, c) (2 bộ: (a,b,c) và (a,c,c)) và (a, a) (1 bộ). Trong q chỉ có bộ (a, c, b) khớp (A, C) = (a, c). Vậy r * q trên (A, B, C, D) gồm 2 bộ: (a, b, c, b) và (a, c, c, b).",
+        "Bước 4 – Tính (r * q) * s trên thuộc tính chung {D}: Cả 2 bộ của r * q đều có D = b, khớp với cả 3 bộ của s (cùng có D = b). Kết quả r * q * s trên (A, B, C, D, E, F) gồm 6 bộ: (a,b,c,b,a,a), (a,b,c,b,c,c), (a,b,c,b,a,b), (a,c,c,b,a,a), (a,c,c,b,c,c), (a,c,c,b,a,b)."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bài 3 (Giáo trình): Phản ví dụ chứng minh phép chiếu không phân phối qua phép hiệu Π_AB(r - s) ≠ Π_AB(r) - Π_AB(s)",
+      "problem": "Cho lược đồ quan hệ R(A, B, C). Tìm một ví dụ về hai quan hệ r và s trên R sao cho Π_AB(r - s) ≠ Π_AB(r) - Π_AB(s).",
+      "solution_steps": [
+        "Bước 1 – Dựng quan hệ r(A, B, C) và s(A, B, C): Chọn r = {(a1, b1, c1), (a2, b2, c2), (a3, b3, c1)} và s = {(a1, b1, c1), (a3, b3, c3)} (chú ý bộ (a3, b3, c1) ở r và (a3, b3, c3) ở s giống nhau trên AB nhưng khác nhau trên C).",
+        "Bước 2 – Tính vế trái Π_AB(r - s): Hiệu r - s = {(a2, b2, c2), (a3, b3, c1)}, do đó Π_AB(r - s) = {(a2, b2), (a3, b3)}.",
+        "Bước 3 – Tính vế phải Π_AB(r) - Π_AB(s): Ta có Π_AB(r) = {(a1, b1), (a2, b2), (a3, b3)} và Π_AB(s) = {(a1, b1), (a3, b3)}, nên Π_AB(r) - Π_AB(s) = {(a2, b2)}.",
+        "Bước 4 – So sánh và kết luận: {(a2, b2), (a3, b3)} ≠ {(a2, b2)}, vậy Π_AB(r - s) ≠ Π_AB(r) - Π_AB(s)."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bài 4 (Giáo trình): Xây dựng lược đồ quan hệ 5 thuộc tính có 1 khóa duy nhất và có 10 khóa gồm 2 thuộc tính",
+      "problem": "Xây dựng một lược đồ quan hệ R(U, F) có 5 thuộc tính U = {A, B, C, D, E} sao cho: (a) Có một khóa duy nhất; (b) Có đúng 10 khóa, mỗi khóa gồm 2 thuộc tính.",
+      "solution_steps": [
+        "Bước 1 (Câu a) – Thiết kế lược đồ có 1 khóa duy nhất: Chọn F = {A -> BCDE}. Khi đó L = {A}, R = {B, C, D, E}, L ∩ R = ∅.",
+        "Bước 2 (Câu a) – Kiểm chứng: Theo Hệ quả 3 (hoặc Định lý 3 vì (U \\ R)+ = A+ = ABCDE = U), lược đồ có khóa duy nhất là K = A.",
+        "Bước 3 (Câu b) – Thiết kế lược đồ có 10 khóa 2 thuộc tính: Vì C(5, 2) = 10, chọn mọi cặp 2 thuộc tính trong {A, B, C, D, E} làm vế trái xác định 3 thuộc tính còn lại: F = {AB -> CDE, AC -> BDE, AD -> BCE, AE -> BCD, BC -> ADE, BD -> ACE, BE -> ACD, CD -> ABE, CE -> ABD, DE -> ABC}.",
+        "Bước 4 (Câu b) – Kiểm chứng: Với mọi cặp 2 thuộc tính X, ta có X+ = U (là siêu khóa). Mọi thuộc tính đơn lẻ Y không nằm ở vế trái bất kỳ PTH nào nên Y+ = Y ≠ U (không thể là khóa). Do đó tất cả 10 cặp 2 thuộc tính đều tối thiểu và là toàn bộ 10 khóa của R."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bài 5 (Giáo trình): Tìm tất cả các khóa của quan hệ r(A, B, C) và tính kết nối tự nhiên r * s",
+      "problem": "Cho quan hệ r trên R(A, B, C) gồm các bộ {(a,b,a), (b,b,a), (b,c,b)} và quan hệ s trên S(B, C, D) gồm các bộ {(a,b,c), (b,a,b), (b,a,a)}. (a) Chỉ ra tất cả các khóa của r; (b) Tính r * s.",
+      "solution_steps": [
+        "Bước 1 (Câu a) – Kiểm tra các tập 1 thuộc tính trên r: A lặp giá trị b, B lặp giá trị b, C lặp giá trị a nên không có khóa 1 thuộc tính.",
+        "Bước 2 (Câu a) – Kiểm tra các tập 2 thuộc tính trên r: AB nhận 3 cặp phân biệt (a,b), (b,b), (b,c) => AB là khóa; AC nhận 3 cặp phân biệt (a,a), (b,a), (b,b) => AC là khóa; BC lặp cặp (b,a) 2 lần => BC không là khóa. Vậy các khóa của r là AB và AC.",
+        "Bước 3 (Câu b) – Xác định thuộc tính chung khi tính r * s: Tập thuộc tính chung giữa R(A, B, C) và S(B, C, D) là {B, C}.",
+        "Bước 4 (Câu b) – Ghép các bộ khớp trên (B, C): Trong r có 2 bộ (a, b, a) và (b, b, a) có (B, C) = (b, a), khớp với 2 bộ (b, a, b) và (b, a, a) của s. Kết quả r * s trên (A, B, C, D) gồm 4 bộ: (a,b,a,b), (a,b,a,a), (b,b,a,b), (b,b,a,a)."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bài 6 (Giáo trình): Chứng minh A -> B ∈ F+ bằng hệ tiên đề Armstrong",
+      "problem": "Cho tập phụ thuộc hàm F = {A -> C, AC -> AB}. Bằng hệ tiên đề Armstrong và hệ mở rộng, chứng minh rằng A -> B ∈ F+.",
+      "solution_steps": [
+        "Bước 1: Xuất phát từ A -> C ∈ F, áp dụng tiên đề tăng trưởng (A2) tăng thêm thuộc tính A ở hai vế, ta thu được A -> AC ∈ F+.",
+        "Bước 2: Kết hợp A -> AC ∈ F+ với AC -> AB ∈ F, áp dụng tiên đề bắc cầu (A3) suy ra A -> AB ∈ F+.",
+        "Bước 3: Do B ⊆ AB, áp dụng tiên đề tách (A6) (hoặc phản xạ AB -> B rồi bắc cầu) từ A -> AB suy ra A -> B ∈ F+.",
+        "Bước 4: Kết luận phụ thuộc hàm A -> B được suy dẫn Armstrong từ F."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bài 7 (Giáo trình): Chứng minh AB -> E ∈ F+ bằng nhiều cách theo hệ tiên đề Armstrong",
+      "problem": "Cho lược đồ quan hệ R(U, F) với U = {A, B, C, D, E} và F = {AB -> C, B -> D, CD -> E}. Chứng minh AB -> E ∈ F+ bằng hệ tiên đề Armstrong.",
+      "solution_steps": [
+        "Bước 1 (Cách 1 - dùng A2 và A3): Từ AB -> C ∈ F, áp dụng tiên đề tăng trưởng (A2) tăng B ta được AB -> BC.",
+        "Bước 2 (Cách 1 - tiếp): Từ B -> D ∈ F, áp dụng (A2) tăng C ta được BC -> CD. Theo tiên đề bắc cầu (A3) từ AB -> BC và BC -> CD suy ra AB -> CD.",
+        "Bước 3 (Cách 1 - kết luận): Kết hợp AB -> CD với CD -> E ∈ F theo tiên đề bắc cầu (A3) suy ra AB -> E ∈ F+.",
+        "Bước 4 (Cách 2 - dùng A4 và A3 để đối chiếu): Từ AB -> B (A1) và B -> D suy ra AB -> D; hợp với AB -> C theo tiên đề hợp (A4) được AB -> CD; bắc cầu với CD -> E suy ra AB -> E ∈ F+."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bài 8 (Giáo trình): Chứng minh tính đơn điệu của phép lấy bao đóng (X ⊆ Y => X+ ⊆ Y+)",
+      "problem": "Cho lược đồ quan hệ trên tập thuộc tính U và tập phụ thuộc hàm F; X, Y là các tập con của U. Chứng minh rằng nếu X ⊆ Y thì X+ ⊆ Y+.",
+      "solution_steps": [
+        "Bước 1: Lấy một thuộc tính A bất kỳ thuộc X+ (A ∈ X+). Theo định nghĩa bao đóng X+, ta có X -> A ∈ F+.",
+        "Bước 2: Vì giả thiết cho X ⊆ Y, áp dụng tiên đề phản xạ (A1) của hệ tiên đề Armstrong, ta có Y -> X ∈ F+.",
+        "Bước 3: Từ Y -> X ∈ F+ và X -> A ∈ F+, áp dụng tiên đề bắc cầu (A3) suy ra Y -> A ∈ F+.",
+        "Bước 4: Theo định nghĩa bao đóng Y+, điều đó có nghĩa là A ∈ Y+. Vì A lấy tùy ý trong X+, suy ra X+ ⊆ Y+ (điều phải chứng minh)."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bài 9 (Giáo trình): Tính bao đóng (AB)+ và xác định một khóa bằng thuật toán KEY",
+      "problem": "Cho lược đồ quan hệ R(A, B, C, D, E) và tập phụ thuộc hàm F = {A -> BC, B -> D, ED -> A}. Hãy tính (AB)+ và từ đó xác định một khóa cho lược đồ quan hệ trên.",
+      "solution_steps": [
+        "Bước 1 – Tính (AB)+: Khởi tạo X0 = AB; X1 = AB ∪ BC = ABC (do A -> BC); X2 = ABC ∪ D = ABCD (do B -> D); không thể áp dụng ED -> A vì thiếu E => (AB)+ = ABCD.",
+        "Bước 2 – Tạo siêu khóa ban đầu: Vì (AB)+ = ABCD thiếu mỗi E, bổ sung E vào AB ta có (ABE)+ = ABCDE = U, suy ra K = ABE là một siêu khóa của R(U, F).",
+        "Bước 3 – Áp dụng thuật toán KEY(U, F, ABE) với M := ABE: Thử loại B: (M \\ {B})+ = (AE)+ = AE ≠ U (giữ B); Thử loại E: (M \\ {E})+ = (AB)+ = ABCD ≠ U (giữ E); Thử loại A: (M \\ {A})+ = (BE)+ = BED ≠ U (giữ A).",
+        "Bước 4 – Kết luận: Không thể loại bỏ thêm thuộc tính nào khỏi ABE, vậy khóa tìm được của lược đồ là ABE."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bài 10 (Giáo trình): Chứng minh tính bảo toàn bao hàm F ⊆ G => F+ ⊆ G+",
+      "problem": "Cho hai tập phụ thuộc hàm F và G trên cùng tập thuộc tính U. Chứng minh rằng nếu F ⊆ G thì F+ ⊆ G+.",
+      "solution_steps": [
+        "Bước 1: Xét một phụ thuộc hàm bất kỳ X -> Y ∈ F+. Theo Mệnh đề 2 (liên hệ suy dẫn và bao đóng), ta có Y ⊆ (X)+_F.",
+        "Bước 2: Vì F ⊆ G nên mọi phụ thuộc hàm L -> R ∈ F đều nằm trong G; do đó mọi bước kết nạp thuộc tính vào bao đóng theo F đều thực hiện được khi tính theo G, tức là (X)+_F ⊆ (X)+_G.",
+        "Bước 3: Kết hợp hai quan hệ bao hàm trên, ta suy ra Y ⊆ (X)+_F ⊆ (X)+_G, hay Y ⊆ (X)+_G.",
+        "Bước 4: Áp dụng lại Mệnh đề 2 cho tập G, từ Y ⊆ (X)+_G suy ra X -> Y ∈ G+. Vì X -> Y lấy tùy ý trong F+, kết luận F+ ⊆ G+."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bài 11 (Giáo trình): Tính (BD)+ và chứng minh BD là khóa của lược đồ R(ABCDEG)",
+      "problem": "Cho R(U, F) với U = {A, B, C, D, E, G} và F = {AB -> C, C -> A, BC -> D, D -> EG, BE -> C, CG -> BD, CE -> AG}. (a) Tính (BD)+; (b) Chứng minh BD là khóa của R.",
+      "solution_steps": [
+        "Bước 1 (Câu a) – Khởi tạo và các bước lặp tính (BD)+: X(0) = BD; X(1) = BD ∪ {EG} = BDEG (áp dụng D -> EG).",
+        "Bước 2 (Câu a) – Tiếp tục lặp: X(2) = BDEG ∪ {C} = BDEGC (áp dụng BE -> C); X(3) = BDEGC ∪ {A, AG} = BDEGCA (áp dụng C -> A và CE -> AG); X(4) = X(3) => Dừng và kết luận (BD)+ = ABCDEG = U.",
+        "Bước 3 (Câu b) – Kiểm tra các tập con thực sự của BD: Theo câu a, (BD)+ = U nên BD là siêu khóa. Tính bao đóng hai tập con thực sự: B+ = B ≠ U (do không có PTH nào vế trái là B) => B -> U ∉ F+; và D+ = DEG ≠ U (chỉ có D -> EG) => D -> U ∉ F+.",
+        "Bước 4 (Câu b) – Kết luận: BD thỏa mãn cả hai điều kiện (BD -> U ∈ F+ và mọi tập con thực sự không xác định được U), vậy BD là một khóa của R."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Bài 12 (Giáo trình): Tìm tập phụ thuộc hàm tối thiểu của F = {A -> BC, AB -> C}",
+      "problem": "Cho lược đồ quan hệ R(U, F) với U = {A, B, C} và F = {A -> BC, AB -> C}. Hãy tìm tập phụ thuộc hàm tối thiểu của F.",
+      "solution_steps": [
+        "Bước 1 – Tách vế phải về 1 thuộc tính: Tách A -> BC thành A -> B và A -> C. Ta thu được F = {A -> B, A -> C, AB -> C}.",
+        "Bước 2 – Loại thuộc tính dư thừa ở vế trái: Xét AB -> C ∈ F: (AB \\ {B})+ = A+ = ABC ⊇ C => B là dư thừa; (AB \\ {A})+ = B+ = B ⊉ C => A không dư thừa. Thay AB -> C bằng A -> C (trùng với A -> C có sẵn) nên F = {A -> B, A -> C}.",
+        "Bước 3 – Kiểm tra phụ thuộc hàm dư thừa: Với A -> B, đặt G1 = {A -> C} có (A)+_G1 = AC ⊉ B (không dư); với A -> C, đặt G2 = {A -> B} có (A)+_G2 = AB ⊉ C (không dư).",
+        "Bước 4 – Kết luận: Tập phụ thuộc hàm tối thiểu của F là G = {A -> B, A -> C}."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Bài 13 (Giáo trình): Chứng minh AB -> D dư thừa, tìm phủ tối thiểu và xác định khóa của R(A,B,C,D)",
+      "problem": "Cho lược đồ R(A, B, C, D) và tập phụ thuộc hàm F = {A -> B, B -> D, AB -> CD}. (a) Chứng minh AB -> D là PTH dư thừa, từ đó tìm phủ tối thiểu của F; (b) Xác định khóa của R.",
+      "solution_steps": [
+        "Bước 1 (Câu a) – Tách vế phải: Tách AB -> CD thành AB -> C và AB -> D, thu được F1 = {A -> B, B -> D, AB -> C, AB -> D}.",
+        "Bước 2 (Câu a) – Chứng minh AB -> D dư thừa: Đặt G = F1 \\ {AB -> D} = {A -> B, B -> D, AB -> C}. Tính (AB)+_G = ABDC ⊇ D, suy ra AB -> D ∈ G+ (suy dẫn được từ A -> B và B -> D) nên AB -> D là dư thừa và bị loại bỏ.",
+        "Bước 3 (Câu a) – Kiểm tra thuộc tính dư & PTH dư còn lại: Trong AB -> C, (AB \\ {B})+ = A+ = ABCD ⊇ C => B dư thừa, thay AB -> C thành A -> C. Kiểm tra 3 PTH {A -> B, B -> D, A -> C} không cái nào dư. Vậy một phủ tối thiểu là {A -> B, B -> D, A -> C} (hoặc {A -> B, B -> D, AB -> C} nếu giữ nguyên AB -> C trước bước 2 như lời giải vắn tắt trong sách).",
+        "Bước 4 (Câu b) – Xác định khóa: Ta có (AB)+ = ABCD = U nên AB là siêu khóa. Dùng KEY: (AB \\ {A})+ = B+ = BD ≠ U; (AB \\ {B})+ = A+ = ABCD = U. Ngoài ra U \\ R = {A} và A+ = U, nên khóa duy nhất của R là K = A."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bài 14 (Giáo trình): Xây dựng tập F trên 5 thuộc tính sao cho mỗi thuộc tính là một khóa",
+      "problem": "Cho lược đồ quan hệ R(U, F) với U gồm 5 thuộc tính A, B, C, D, E. Hãy xây dựng tập phụ thuộc hàm F sao cho mỗi thuộc tính đơn lẻ đều là một khóa của R.",
+      "solution_steps": [
+        "Bước 1 – Phân tích yêu cầu: Để mỗi thuộc tính X ∈ {A, B, C, D, E} là một khóa, điều kiện cần và đủ là X+ = U (vì tập chỉ có 1 thuộc tính nên hiển nhiên tối thiểu).",
+        "Bước 2 – Thiết lập vòng phụ thuộc hàm khép kín: Chọn F = {A -> B, B -> C, C -> D, D -> E, E -> A}.",
+        "Bước 3 – Kiểm tra bao đóng của từng thuộc tính: A+ = ABCDE = U (theo vòng A -> B -> C -> D -> E); tương tự B+ = U, C+ = U, D+ = U và E+ = U.",
+        "Bước 4 – Kết luận: Với F = {A -> B, B -> C, C -> D, D -> E, E -> A}, mỗi thuộc tính A, B, C, D, E đều là một khóa (có 5 khóa đơn thuộc tính)."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bài 15 & Bài 19 (Giáo trình): Giải bài toán thành viên và chứng minh suy dẫn logic cho AB -> E, AB -> G",
+      "problem": "Cho tập phụ thuộc hàm F = {AB -> C, B -> D, CD -> E, EC -> GH, G -> A} trên U = ABCDEGH. (a) Tính (AB)+; (b) Xét xem AB -> E và AB -> G có thuộc F+ không và chứng minh rằng mọi quan hệ r thỏa F cũng thỏa AB -> E và AB -> G.",
+      "solution_steps": [
+        "Bước 1 (Câu a) – Tính (AB)+: X0 = AB; X1 = ABC (AB -> C); X2 = ABCD (B -> D); X3 = ABCDE (CD -> E); X4 = ABCDEGH (EC -> GH). Vậy (AB)+ = ABCDEGH = U.",
+        "Bước 2 (Câu b - Cách 1 bằng bao đóng & tính đúng Armstrong): Theo Mệnh đề 2, AB -> E ∈ F+ <=> E ∈ (AB)+ và AB -> G ∈ F+ <=> G ∈ (AB)+. Vì (AB)+ = ABCDEGH chứa cả E và G nên AB -> E ∈ F+ và AB -> G ∈ F+.",
+        "Bước 3 (Câu b - Cách 2 suy dẫn trực tiếp bằng Armstrong): Từ B -> D => AB -> D, hợp với AB -> C được AB -> CD, bắc cầu với CD -> E suy ra AB -> E ∈ F+. Tiếp tục hợp AB -> E với AB -> C được AB -> EC, bắc cầu với EC -> GH được AB -> GH, tách ra AB -> G ∈ F+.",
+        "Bước 4 (Bài 19 - Suy dẫn logic): Theo Định lý tính đúng của hệ tiên đề Armstrong (F+ ⊆ F*), mọi PTH suy dẫn Armstrong từ F đều đúng trên mọi quan hệ r thỏa F. Do đó mọi r thỏa F đều thỏa AB -> E và AB -> G."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bài 16 (Giáo trình): Tìm phủ tối thiểu của F = {A -> B, B -> C, CD -> A, AC -> D}",
+      "problem": "Cho lược đồ quan hệ R = <U, F> với U = {A, B, C, D} và F = {A -> B, B -> C, CD -> A, AC -> D}. Tìm phủ tối thiểu của F.",
+      "solution_steps": [
+        "Bước 1 – Kiểm tra Điều kiện 1: Tất cả các PTH trong F đều có vế phải gồm đúng 1 thuộc tính nên F đã thỏa Điều kiện 1.",
+        "Bước 2 – Làm F thỏa Điều kiện 2 (loại thuộc tính dư ở vế trái): A -> B, B -> C có 1 thuộc tính vế trái nên đầy đủ. Xét CD -> A: C+ = C ⊉ A và D+ = D ⊉ A nên CD -> A đầy đủ. Xét AC -> D: (AC \\ {C})+ = A+ = ABCD ⊇ D => C dư thừa, còn (AC \\ {A})+ = C+ = C ⊉ D => thay AC -> D bởi A -> D. Ta được F = {A -> B, B -> C, CD -> A, A -> D}.",
+        "Bước 3 – Làm F thỏa Điều kiện 3 (loại PTH dư thừa): Xét A -> B với G1 = F \\ {A -> B} = {B -> C, CD -> A, A -> D}, có (A)+_G1 = AD ⊉ B (không dư). Tương tự kiểm tra B -> C ((B)+ = B ⊉ C), CD -> A ((CD)+ = CD ⊉ A), A -> D ((A)+ = ABC ⊉ D) đều không dư thừa.",
+        "Bước 4 – Kết luận: Phủ tối thiểu của F là G = {A -> B, B -> C, CD -> A, A -> D}."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Bài 17 (Giáo trình): Tìm phủ tối thiểu của F = {B -> C, AI -> C, AB -> C}",
+      "problem": "Cho lược đồ quan hệ R(U, F) với U = {A, B, C, I} và tập phụ thuộc hàm F = {B -> C, AI -> C, AB -> C}. Hãy tìm phủ tối thiểu của F.",
+      "solution_steps": [
+        "Bước 1 – Kiểm tra Điều kiện 1: Các PTH trong F đều có vế phải chỉ gồm 1 thuộc tính (C) nên thỏa Điều kiện 1.",
+        "Bước 2 – Làm F thỏa Điều kiện 2: Xét AI -> C có A+ = A ⊉ C và I+ = I ⊉ C nên AI -> C là PTH đầy đủ. Xét AB -> C có (AB \\ {B})+ = A+ = A ⊉ C (B không dư), nhưng (AB \\ {A})+ = B+ = BC ⊇ C (A dư thừa). Thay AB -> C bởi B -> C (trùng với B -> C đã có), thu được F = {B -> C, AI -> C}.",
+        "Bước 3 – Làm F thỏa Điều kiện 3: Xét B -> C, đặt G1 = {AI -> C} có (B)+_G1 = B ⊉ C (không dư). Xét AI -> C, đặt G2 = {B -> C} có (AI)+_G2 = AI ⊉ C (không dư).",
+        "Bước 4 – Kết luận: Phủ tối thiểu của F là G = {B -> C, AI -> C}."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Bài 18 (Giáo trình): Liệt kê các phụ thuộc hàm thỏa mãn trên bảng dữ liệu r(X, Y, Z)",
+      "problem": "Cho quan hệ r(X, Y, Z) gồm 4 bộ: (x1, y1, z1), (x1, y1, z2), (x2, y1, z1), (x2, y1, z3). (a) Liệt kê các PTH không tầm thường có thể có của quan hệ trên; (b) Nếu đổi giá trị Z của bộ cuối từ z3 thành z2 thì các PTH thay đổi thế nào?",
+      "solution_steps": [
+        "Bước 1 (Câu a) – Phân tích các PTH vế trái 1 thuộc tính: Cột Y có cùng giá trị y1 ở cả 4 bộ nên X -> Y và Z -> Y luôn thỏa mãn. Ngược lại, X = x1 ứng với hai giá trị z1, z2 (X -/-> Z); Z = z1 ứng với hai giá trị x1, x2 (Z -/-> X); Y = y1 ứng với nhiều X và nhiều Z (Y -/-> X, Y -/-> Z).",
+        "Bước 2 (Câu a) – Phân tích các PTH vế trái 2 thuộc tính: Vì Y là hằng số nên XZ -> Y thỏa mãn; các PTH khác như XY -> Z không thỏa (vì (x1, y1) có z1, z2) và YZ -> X không thỏa (vì (y1, z1) có x1, x2). Vậy các PTH thỏa mãn trên r là: Z -> Y, X -> Y và XZ -> Y (cùng các PTH tầm thường).",
+        "Bước 3 (Câu b) – Đánh giá khi đổi z3 thành z2 ở bộ 4 thành (x2, y1, z2): Lúc này z2 xuất hiện ở cả x1 và x2 nên Z -/-> X vẫn đúng; x1 và x2 vẫn ứng với nhiều giá trị Z nên X -/-> Z và XY -/-> Z vẫn đúng; Y vẫn là hằng y1.",
+        "Bước 4 (Câu b) – Kết luận: Tập các phụ thuộc hàm thỏa mãn trên quan hệ r không thay đổi (vẫn là Z -> Y, X -> Y và XZ -> Y)."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Bài 20 (Giáo trình): Tìm tất cả các khóa và phủ tối thiểu cho các lược đồ P1, P2, P3, P4",
+      "problem": "Xác định tất cả các khóa và một phủ tối thiểu cho mỗi lược đồ sau: (a) P1(ABCDEFLK), F1 = {A -> K, A -> BC, B -> CD, L -> B}; (b) P2(ABCKLMN), F2 = {K -> A, AL -> B, K -> B, BM -> C, CN -> K} (chuẩn hóa từ lỗi in CN -> X sang K ∈ P2); (c) P3(ABCD), F3 = {A -> B, B -> CD, D -> A}; (d) P4(ABCDE), F4 = {AB -> C, DE -> A, C -> DE, BE -> C}.",
+      "solution_steps": [
+        "Bước 1 (Lược đồ P1) – Khóa & Phủ tối thiểu: TN = U \\ R1 = {A, E, F, L} và (AEFL)+ = ABCDEFLK = U => P1 có khóa duy nhất {AEFL}. Tách F1 thành {A -> K, A -> B, A -> C, B -> C, B -> D, L -> B}; loại A -> C (suy từ A -> B -> C) => Phủ tối thiểu G1 = {A -> K, A -> B, B -> C, B -> D, L -> B}.",
+        "Bước 2 (Lược đồ P2) – Khóa & Phủ tối thiểu: TN = U \\ R2 = {L, M, N}, TG = {A, B, C, K}. Thử các tập con của TG hợp LMN: (LMN)+ = LMN ≠ U; (ALMN)+ = U, (BLMN)+ = U, (CLMN)+ = U, (KLMN)+ = U => 4 khóa: ALMN, BLMN, CLMN, KLMN. Trong F2, K -> B dư vì K -> A và AL -> B? Lưu ý K -> B không suy được từ {K -> A, AL -> B} do thiếu L, nên G2 = {K -> A, AL -> B, K -> B, BM -> C, CN -> K}.",
+        "Bước 3 (Lược đồ P3) – Khóa & Phủ tối thiểu: TN = ∅, TG = {A, B, D}. Tính bao đóng: A+ = ABCD = U, B+ = BCDA = U, D+ = DABC = U, còn C+ = C ≠ U => P3 có 3 khóa: A, B, D. Tách B -> CD => G3 = {A -> B, B -> C, B -> D, D -> A} (không có thuộc tính/PTH dư).",
+        "Bước 4 (Lược đồ P4) – Khóa & Phủ tối thiểu: TN = {B}, TG = {A, C, D, E}. B+ = B ≠ U; thêm 1 phần tử từ TG: (AB)+ = U, (BC)+ = U, (BD)+ = BD ≠ U, (BE)+ = U; các tập lớn hơn đều chứa AB, BC hoặc BE => P4 có 3 khóa: AB, BC, BE. Tách C -> DE => G4 = {AB -> C, DE -> A, C -> D, C -> E, BE -> C}."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Bài 21 (Giáo trình): Số lượng khóa tối đa của lược đồ quan hệ 5 thuộc tính và ví dụ CSDL thực tế",
+      "problem": "Xét một lược đồ quan hệ có 5 thuộc tính. Hãy cho biết lược đồ có tối đa bao nhiêu khóa và giải thích cơ sở toán học, đồng thời nêu một ví dụ minh họa trên CSDL thực tế.",
+      "solution_steps": [
+        "Bước 1 – Cơ sở toán học (Tính không bao hàm nhau của các khóa): Do định nghĩa khóa yêu cầu tính tối thiểu, không thể có hai khóa phân biệt K1, K2 mà K1 ⊂ K2. Họ các khóa của tập 5 thuộc tính là một họ tập con đôi một không so sánh được (antichain).",
+        "Bước 2 – Tính số lượng khóa tối đa theo Định lý Sperner: Với tập U có n = 5 phần tử, kích thước lớn nhất của một họ tập con đôi một không chứa nhau là C(n, ⌊n/2⌋) = C(5, 2) = C(5, 3) = 10 khóa.",
+        "Bước 3 – Dạng lược đồ đạt cực đại 10 khóa: Tất cả 10 tập con gồm 2 thuộc tính (hoặc 10 tập con gồm 3 thuộc tính) đều là khóa khi mỗi tập con 2 thuộc tính xác định hàm 3 thuộc tính còn lại (như Bài 4b), và không có thuộc tính đơn lẻ nào tự xác định được U.",
+        "Bước 4 – Ví dụ thực tế trên 5 thuộc tính: Xét lược đồ NGUOIDUNG(MaND, Email, SoCCCD, SoDienThoai, HoTen) trong đó MaND, Email, SoCCCD, SoDienThoai đều là khóa ứng viên đơn lẻ (tối đa 4 khóa đơn); hoặc lược đồ LICH_GIANG(Phong, Thu, Tiet, Lop, GiaoVien) nơi có nhiều cặp/bộ 2–3 thuộc tính cùng đóng vai trò định danh duy nhất buổi học (tối đa tới C(5,2) = 10 khóa nếu toàn bộ các cặp 2 thuộc tính đều là khóa)."
+      ]
+    }
+  ]
+}

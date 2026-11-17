@@ -1,0 +1,1165 @@
+{
+  "chapter_id": "q2_chuong_1",
+  "chapter_title": "Phần II - Chương 1: Ràng buộc toàn vẹn trên cơ sở dữ liệu",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Theo Mục 1.1 của giáo trình, Ràng buộc toàn vẹn (RBTV) trong cơ sở dữ liệu được định nghĩa là gì?",
+      "options": {
+        "A": "Một điều kiện bất biến không được vi phạm trong một cơ sở dữ liệu mà mọi bộ của các quan hệ liên quan phải thỏa mãn ở bất kỳ thời điểm nào.",
+        "B": "Một chỉ mục vật lý dùng để tăng tốc độ tìm kiếm tuần tự trên đĩa từ.",
+        "C": "Một câu lệnh sao lưu định kỳ toàn bộ dữ liệu sang thiết bị lưu trữ dự phòng.",
+        "D": "Một quyền truy cập chỉ cấp cho người sử dụng cuối để đọc báo cáo thống kê."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.1 định nghĩa: các mối liên hệ ràng buộc giữa các thuộc tính, giữa các bộ là những điều kiện bất biến mà tất cả các bộ của những quan hệ có liên quan trong CSDL đều phải thỏa mãn ở bất kỳ thời điểm nào; ràng buộc toàn vẹn là một điều kiện bất biến không được vi phạm trong một CSDL."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Trong thực tế phân tích thiết kế CSDL, ràng buộc toàn vẹn thường bắt nguồn từ đâu và đóng vai trò như công cụ gì?",
+      "options": {
+        "A": "Bắt nguồn từ dung lượng bộ nhớ RAM và đóng vai trò nén dữ liệu.",
+        "B": "Thường là các quy tắc quản lý áp đặt lên đối tượng thế giới thực và được xem như công cụ diễn đạt ngữ nghĩa của CSDL.",
+        "C": "Bắt nguồn từ tên tệp vật lý và đóng vai trò mã hóa mật khẩu người dùng.",
+        "D": "Chỉ dùng để sắp xếp các dòng trong bảng theo thứ tự bảng chữ cái."
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình (Mục 1.1) nêu rõ: trong thực tế, RBTV thường là các quy tắc quản lý được áp đặt lên các đối tượng của thế giới thực và được xem như một công cụ để diễn đạt ngữ nghĩa của CSDL đó."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Trong ví dụ CSDL Quản lý sinh viên (`KHOA`, `LOPHOC`, `SINHVIEN`, `KETQUA`) ở Mục 1.1, ràng buộc `R4` quy định nội dung nào sau đây?",
+      "options": {
+        "A": "Mỗi lớp học phải thuộc một khoa nhất định trong `KHOA`.",
+        "B": "Mỗi sinh viên có một mã số riêng biệt không trùng với bất cứ sinh viên nào.",
+        "C": "Mỗi sinh viên chỉ được thi tối đa 2 lần cho mỗi môn học.",
+        "D": "Số lượng sinh viên của một lớp học phải bằng số bộ sinh viên có cùng mã lớp."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 1.1, trong CSDL Quản lý sinh viên: R1 là lớp thuộc khoa, R2 là sinh viên thuộc lớp, R3 là mã sinh viên duy nhất, R4 là mỗi sinh viên chỉ được thi tối đa 2 lần cho mỗi môn học, và R5 là sĩ số lớp bằng số sinh viên cùng mã lớp."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Việc kiểm tra ràng buộc toàn vẹn trong một hệ quản trị CSDL có thể được tiến hành vào những thời điểm nào?",
+      "options": {
+        "A": "Chỉ khi khởi động lại máy chủ cơ sở dữ liệu.",
+        "B": "Chỉ một lần duy nhất ngay sau khi cài đặt phần mềm DBMS.",
+        "C": "Chỉ khi người dùng thực hiện truy vấn SELECT lấy dữ liệu ra màn hình.",
+        "D": "Ngay khi thực hiện thao tác cập nhật (thêm, sửa, xóa) hoặc kiểm tra định kỳ hay đột xuất."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.1 chỉ rõ 2 thời điểm kiểm tra RBTV: (1) Kiểm tra ngay khi thực hiện thao tác cập nhật CSDL (thêm, sửa, xóa) — nếu vi phạm sẽ bị hủy bỏ; (2) Kiểm tra định kỳ hay đột xuất."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Trong trường hợp hệ thống kiểm tra RBTV ngay tại thời điểm thực hiện thao tác cập nhật (thêm, sửa, xóa), điều gì xảy ra nếu thao tác đó vi phạm RBTV?",
+      "options": {
+        "A": "Thao tác cập nhật bị coi là không hợp lệ và sẽ bị hệ thống hủy bỏ.",
+        "B": "Hệ thống tự động xóa toàn bộ bảng dữ liệu đang thao tác.",
+        "C": "Thao tác vẫn được chấp nhận và chỉ ghi nhận vào tệp văn bản bên ngoài.",
+        "D": "Hệ thống tự động tắt chức năng kiểm tra khóa chính của bảng."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 1.1: thao tác cập nhật chỉ được xem là hợp lệ nếu không vi phạm bất cứ RBTV nào; nếu vi phạm RBTV, thao tác cập nhật bị coi là không hợp lệ và sẽ bị hệ thống hủy bỏ."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "Khi kiểm tra RBTV theo hình thức định kỳ hay đột xuất và phát hiện trường hợp vi phạm, hệ thống xử lý như thế nào theo Mục 1.1?",
+      "options": {
+        "A": "Khóa vĩnh viễn mọi tài khoản truy cập vào cơ sở dữ liệu.",
+        "B": "Có những xử lý ngầm định hoặc yêu cầu người sử dụng xử lý những sai sót một cách tường minh.",
+        "C": "Tự động chuyển đổi toàn bộ dữ liệu sang dạng chỉ đọc mãi mãi.",
+        "D": "Bỏ qua sai sót vì kiểm tra định kỳ không liên quan đến tính toàn vẹn."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.1 nêu: đối với kiểm tra định kỳ hay đột xuất, với những trường hợp vi phạm RBTV, hệ thống sẽ có những xử lý ngầm định hoặc yêu cầu người sử dụng xử lý những sai sót một cách tường minh."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Trong CSDL Quản lý hóa đơn bán hàng gồm `HOADON(Sohoadon, Sochungloaimathang, Tongtrigia)`, `DMHANG(Mahang, Tenhang)` và `CHITIETHD(Sohoadon, Mahang, Soluong, Dongia, Thanhtien)`, ràng buộc `R2` quy định điều gì?",
+      "options": {
+        "A": "Mỗi bộ thuộc `CHITIETHD` phải có một mã hàng thuộc về `DMHANG`.",
+        "B": "Số lượng bán mỗi mặt hàng luôn phải nhỏ hơn 100.",
+        "C": "Với mọi hóa đơn trong `HOADON`, `Tongtrigia` phải bằng tổng `Thanhtien` các mặt hàng trong `CHITIETHD` có cùng số hóa đơn.",
+        "D": "`Sochungloaimathang` trong `HOADON` phải bằng tổng số lượng (`Soluong`) các mặt hàng trong `CHITIETHD`."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Ví dụ 2 (Mục 1.2.1): R1 là `CHITIETHD[Mahang] <= DMHANG[Mahang]`; R2 là `hd.Tongtrigia = SUM(cthd.Thanhtien : cthd.Sohoadon = hd.Sohoadon)`; R3 là `hd.Sochungloaimathang = COUNT(cthd : cthd.Sohoadon = hd.Sohoadon)`."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "Trong mô tả các hệ quản trị CSDL hiện nay ở Phần Tóm tắt Chương 1, các RBTV trong SQL Server thường được cài đặt thông qua những kỹ thuật nào?",
+      "options": {
+        "A": "Chỉ bằng cách viết chú thích bằng ngôn ngữ tự nhiên trong tài liệu Word.",
+        "B": "Chỉ bằng thiết lập kích thước màn hình hiển thị của trình ứng dụng.",
+        "C": "Chỉ bằng câu lệnh `SELECT ... ORDER BY`.",
+        "D": "Khóa chính (`Primary Key`), khóa ngoại (`Foreign Key`), `Check constraint`, `Assertion`, `Trigger` và `Transaction`."
+      },
+      "correct_answer": "D",
+      "explanation": "Tóm tắt Chương 1 nêu rõ: trong SQL Server, RBTV được cài đặt bởi các ràng buộc khóa chính Primary Key, khóa ngoại Foreign Key, Check constraint và các thủ tục Assertion, Trigger và Transaction."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Trong CSDL Quản lý hóa đơn bán hàng ở Mục 1.2.1, biểu thức điều kiện nào mô tả chính xác ràng buộc `R3` về thuộc tính `Sochungloaimathang`?",
+      "options": {
+        "A": "`∀ hd ∈ HOADON : hd.Sochungloaimathang = COUNT(cthd ∈ CHITIETHD : cthd.Sohoadon = hd.Sohoadon)`",
+        "B": "`∀ hd ∈ HOADON : hd.Sochungloaimathang = SUM(cthd.Soluong : cthd.Sohoadon = hd.Sohoadon)`",
+        "C": "`∀ cthd ∈ CHITIETHD : cthd.Sochungloaimathang = COUNT(hd ∈ HOADON)`",
+        "D": "`HOADON[Sochungloaimathang] ⊆ CHITIETHD[Mahang]`"
+      },
+      "correct_answer": "A",
+      "explanation": "R3 quy định số chủng loại mặt hàng của một hóa đơn bằng số bộ của `CHITIETHD` có cùng số hóa đơn đó, biểu diễn bằng hàm `COUNT(cthd ∈ CHITIETHD : cthd.Sohoadon = hd.Sohoadon)`."
+    },
+    {
+      "id": 10,
+      "difficulty": "hard",
+      "question": "Nếu không quan tâm đúng mức đến phát hiện và kiểm tra RBTV trong giai đoạn phân tích, thiết kế CSDL (đặc biệt với CSDL lớn), hậu quả chính được giáo trình cảnh báo là gì?",
+      "options": {
+        "A": "Hệ điều hành sẽ không thể cài đặt được phần mềm SQL Server.",
+        "B": "Dẫn đến những hậu quả nghiêm trọng về tính an toàn và toàn vẹn dữ liệu trong quá trình lưu trữ và xử lý.",
+        "C": "Làm giảm tốc độ xung nhịp của CPU máy chủ.",
+        "D": "Không thể tạo được bất kỳ khóa chính nào cho các bảng dữ liệu."
+      },
+      "correct_answer": "B",
+      "explanation": "Mở đầu Chương 1 cảnh báo rõ: nếu không quan tâm đúng mức đến RBTV và kiểm tra vi phạm RBTV thì có thể dẫn đến những hậu quả rất nghiêm trọng về tính an toàn và toàn vẹn dữ liệu, đặc biệt trong những CSDL tương đối lớn."
+    },
+    {
+      "id": 11,
+      "difficulty": "easy",
+      "question": "Theo Mục 1.2, khi xác định đầy đủ một ràng buộc toàn vẹn cần chỉ rõ bốn yếu tố nào?",
+      "options": {
+        "A": "Tên bảng, kiểu dữ liệu, kích thước đĩa cứng và người lập trình.",
+        "B": "Ngôn ngữ chủ, bộ xử lý truy vấn, bộ quản lý tệp và từ điển dữ liệu.",
+        "C": "Điều kiện của RBTV, bối cảnh xảy ra RBTV, tầm ảnh hưởng của RBTV và hành động khi RBTV bị vi phạm.",
+        "D": "Khóa chính, chỉ mục, khung nhìn và mật khẩu kết nối."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.2 liệt kê đúng 4 yếu tố của một RBTV: (1) Điều kiện của RBTV, (2) Bối cảnh xảy ra RBTV, (3) Tầm ảnh hưởng của RBTV, (4) Hành động khi RBTV bị vi phạm."
+    },
+    {
+      "id": 12,
+      "difficulty": "easy",
+      "question": "Theo Mục 1.2.1, điều kiện của một ràng buộc toàn vẹn có thể được biểu diễn bằng những phương tiện nào?",
+      "options": {
+        "A": "Chỉ duy nhất bằng mã máy nhị phân.",
+        "B": "Chỉ bằng sơ đồ khối phần cứng.",
+        "C": "Chỉ bằng ngôn ngữ tự nhiên, không dùng ký hiệu toán học.",
+        "D": "Ngôn ngữ tự nhiên, thuật giải (ngôn ngữ tựa Pascal), đại số quan hệ hoặc các phụ thuộc hàm."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.2.1 nêu rõ: Điều kiện của RBTV có thể biểu diễn bằng ngôn ngữ tự nhiên, thuật giải (ngôn ngữ tựa Pascal), đại số quan hệ hoặc bằng các phụ thuộc hàm."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Biểu diễn đại số quan hệ nào sau đây tương đương với điều kiện `R2: Mỗi sinh viên đều phải thuộc một lớp nhất định trong LOPHOC`?",
+      "options": {
+        "A": "`SINHVIEN[malop] ⊆ LOPHOC[malop]`",
+        "B": "`LOPHOC[malop] ⊆ SINHVIEN[malop]`",
+        "C": "`SINHVIEN[masv] ⊆ LOPHOC[malop]`",
+        "D": "`LOPHOC[makhoa] = SINHVIEN[malop]`"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 1.2.1, mọi `sv ∈ SINHVIEN` đều phải tồn tại `lh ∈ LOPHOC` sao cho `sv.malop = lh.malop`, tức phép chiếu `SINHVIEN[malop]` là tập con của `LOPHOC[malop]` (`SINHVIEN[malop] ⊆ LOPHOC[malop]`)."
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "question": "Theo Mục 1.2.2, 'Bối cảnh của ràng buộc toàn vẹn' được hiểu là gì?",
+      "options": {
+        "A": "Thời gian chạy Trigger tính bằng mili-giây.",
+        "B": "Những quan hệ mà RBTV có hiệu lực (những quan hệ cần sử dụng để kiểm tra RBTV).",
+        "C": "Tên của người quản trị cơ sở dữ liệu tạo ra bảng.",
+        "D": "Danh sách các câu lệnh SQL Server dùng để xóa bảng."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.2.2 định nghĩa: Bối cảnh của RBTV là những quan hệ mà RBTV có hiệu lực, hay nói cách khác đó là những quan hệ cần sử dụng để kiểm tra RBTV (có thể là một hay nhiều quan hệ)."
+    },
+    {
+      "id": 15,
+      "difficulty": "medium",
+      "question": "Trong CSDL Quản lý sinh viên (`KHOA`, `LOPHOC`, `SINHVIEN`, `KETQUA`), bối cảnh của ràng buộc `R5` (số lượng sinh viên của lớp bằng số bộ sinh viên có cùng mã lớp) gồm những quan hệ nào?",
+      "options": {
+        "A": "Chỉ một quan hệ `LOPHOC`.",
+        "B": "Chỉ một quan hệ `SINHVIEN`.",
+        "C": "Hai quan hệ `LOPHOC` và `SINHVIEN`.",
+        "D": "Cả bốn quan hệ `KHOA`, `LOPHOC`, `SINHVIEN`, `KETQUA`."
+      },
+      "correct_answer": "C",
+      "explanation": "Để kiểm tra `lh.sosinhvien = COUNT(sv ∈ SINHVIEN : sv.malop = lh.malop)` cần sử dụng dữ liệu trên cả `LOPHOC` và `SINHVIEN`, nên bối cảnh của `R5` gồm 2 quan hệ `LOPHOC` và `SINHVIEN`."
+    },
+    {
+      "id": 16,
+      "difficulty": "easy",
+      "question": "Trong bảng tầm ảnh hưởng của một RBTV (Mục 1.2.3), ký hiệu `-(*)` ở cột `Sửa` mang ý nghĩa gì?",
+      "options": {
+        "A": "Thao tác sửa chắc chắn gây vi phạm và làm treo máy chủ.",
+        "B": "Thao tác sửa bắt buộc phải xóa toàn bộ bản ghi trước khi cập nhật.",
+        "C": "Thao tác sửa bị vi phạm ở mọi thuộc tính không khóa.",
+        "D": "Không bị vi phạm vì quy ước không được phép sửa đổi giá trị thuộc tính khóa."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.2.3 quy ước: `+` là có nguy cơ vi phạm; `-` là không có nguy cơ vi phạm; `-(*)` là không bị vi phạm vì quy ước không được phép sửa đổi giá trị thuộc tính khóa."
+    },
+    {
+      "id": 17,
+      "difficulty": "medium",
+      "question": "Đối với ràng buộc `R1: LOPHOC[makhoa] ⊆ KHOA[makhoa]`, bảng tầm ảnh hưởng của `R1` trên hai quan hệ `LOPHOC` và `KHOA` là phương án nào?",
+      "options": {
+        "A": "`LOPHOC`: Thêm `+`, Sửa `+(makhoa)`, Xóa `-`; `KHOA`: Thêm `-`, Sửa `-(*)`, Xóa `+`.",
+        "B": "`LOPHOC`: Thêm `-`, Sửa `-(*)`, Xóa `+`; `KHOA`: Thêm `+`, Sửa `+(makhoa)`, Xóa `-`.",
+        "C": "`LOPHOC`: Thêm `+`, Sửa `+(makhoa)`, Xóa `+`; `KHOA`: Thêm `+`, Sửa `-(*)`, Xóa `-`.",
+        "D": "`LOPHOC`: Thêm `-`, Sửa `-`, Xóa `-`; `KHOA`: Thêm `+`, Sửa `+`, Xóa `+`."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 1.2.3 (Ví dụ 1): thêm `LOPHOC` hoặc sửa `makhoa` trên `LOPHOC` có thể trỏ tới `makhoa` chưa tồn tại (`+`, `+(makhoa)`); xóa `KHOA` có thể làm `LOPHOC` mất khoa tham chiếu (`+`). Sửa `KHOA.makhoa` là `-(*)` theo quy ước không sửa khóa."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "question": "Xét ràng buộc `R5: lh.sosinhvien = COUNT(sv ∈ SINHVIEN : sv.malop = lh.malop)` trên `LOPHOC` và `SINHVIEN`. Thao tác nào trên `SINHVIEN` đều có nguy cơ dẫn đến vi phạm `R5`?",
+      "options": {
+        "A": "Chỉ thao tác Thêm bộ mới vào `SINHVIEN`.",
+        "B": "Cả 3 thao tác: Thêm, Sửa (`malop`) và Xóa bộ trên `SINHVIEN`.",
+        "C": "Chỉ thao tác Xóa bộ trên `SINHVIEN`.",
+        "D": "Không thao tác nào trên `SINHVIEN` ảnh hưởng đến `R5`."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo bảng tầm ảnh hưởng của `R5` (Mục 1.2.3): trên `SINHVIEN`, Thêm (`+`), Sửa (`+(malop)`) và Xóa (`+`) đều làm thay đổi số lượng sinh viên thuộc một mã lớp nên đều có nguy cơ làm sai lệch `LOPHOC.sosinhvien`."
+    },
+    {
+      "id": 19,
+      "difficulty": "medium",
+      "question": "Trong bảng tầm ảnh hưởng của `R5` trên quan hệ `LOPHOC(malop, tenlop, sosinhvien, makhoa)`, thao tác nào trên `LOPHOC` có nguy cơ vi phạm `R5`?",
+      "options": {
+        "A": "Sửa `tenlop` và Xóa bộ trên `LOPHOC`.",
+        "B": "Chỉ thao tác Xóa bộ trên `LOPHOC`.",
+        "C": "Thao tác Thêm bộ mới (`+`) và Sửa thuộc tính `sosinhvien` (`+(sosinhvien)`).",
+        "D": "Chỉ thao tác Sửa thuộc tính `makhoa`."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo bảng tầm ảnh hưởng `R5` trong giáo trình: khi Thêm một lớp mới (nhập `sosinhvien` ban đầu khác 0) hoặc Sửa `sosinhvien` không khớp số sinh viên thực tế trong `SINHVIEN` sẽ vi phạm `R5`. Xóa lớp không vi phạm `R5` (chỉ có nguy cơ vi phạm `R2`)."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "question": "Dựa vào Bảng tầm ảnh hưởng tổng hợp của CSDL Quản lý sinh viên (Ví dụ 2, Mục 1.2.3), khi thực hiện thao tác **Xóa** một bộ trên bảng `LOPHOC`, hệ thống cần kiểm tra ràng buộc toàn vẹn nào?",
+      "options": {
+        "A": "Chỉ kiểm tra `R1`.",
+        "B": "Kiểm tra `R1` và `R5`.",
+        "C": "Kiểm tra `R3` và `R4`.",
+        "D": "Kiểm tra `R2` (`SINHVIEN[malop] ⊆ LOPHOC[malop]`)."
+      },
+      "correct_answer": "D",
+      "explanation": "Tra cột `LOPHOC -> X (Xóa)` trong Bảng tầm ảnh hưởng tổng hợp (Mục 1.2.3): chỉ có ô ứng với `R2` mang dấu `+` (vì xóa một lớp có thể khiến các sinh viên của lớp đó mất lớp tham chiếu)."
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "question": "Dựa vào Bảng tầm ảnh hưởng tổng hợp của CSDL Quản lý sinh viên, khi thực hiện thao tác **Thêm** một bộ mới vào bảng `SINHVIEN`, những ràng buộc nào cần phải kiểm tra?",
+      "options": {
+        "A": "`R2`, `R3` và `R5`.",
+        "B": "Chỉ `R1` và `R4`.",
+        "C": "Chỉ `R3`.",
+        "D": "Cả 5 ràng buộc `R1, R2, R3, R4, R5`."
+      },
+      "correct_answer": "A",
+      "explanation": "Tra cột `SINHVIEN -> T (Thêm)` trong bảng tổng hợp (Mục 1.2.3): các ô có dấu `+` nằm ở `R2` (kiểm tra `malop` tồn tại trong `LOPHOC`), `R3` (kiểm tra `masv` không trùng) và `R5` (cập nhật/kiểm tra sĩ số lớp)."
+    },
+    {
+      "id": 22,
+      "difficulty": "hard",
+      "question": "Ý nghĩa chính của việc lập Bảng tầm ảnh hưởng tổng hợp sau khi đã có bảng tầm ảnh hưởng cho từng RBTV là gì?",
+      "options": {
+        "A": "Để loại bỏ toàn bộ khóa ngoại ra khỏi lược đồ CSDL.",
+        "B": "Để xác định khi tiến hành một thao tác (Thêm, Sửa, Xóa) trên một quan hệ cụ thể thì những RBTV nào cần phải kiểm tra.",
+        "C": "Để tự động sinh ra giao diện nhập liệu HTML cho người sử dụng cuối.",
+        "D": "Để giảm số lượng thuộc tính trong mỗi bảng xuống còn đúng 2 thuộc tính."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.2.3 khẳng định: bảng tầm ảnh hưởng tổng hợp nhằm xác định các ràng buộc cần kiểm tra trên từng quan hệ; ý nghĩa của nó là cho biết khi tiến hành một thao tác trên CSDL thì những ràng buộc nào cần kiểm tra xem có bị vi phạm không."
+    },
+    {
+      "id": 23,
+      "difficulty": "hard",
+      "question": "Trong bảng tầm ảnh hưởng của `R3: Mỗi sinh viên có một mã số riêng biệt không trùng với bất cứ sinh viên nào`, vì sao cột `Xóa` trên `SINHVIEN` không có dấu `+`?",
+      "options": {
+        "A": "Vì SQL Server không cho phép xóa dữ liệu trên bảng có khóa chính.",
+        "B": "Vì xóa một sinh viên tự động chuyển mã số đó sang bảng `KHOA`.",
+        "C": "Vì việc xóa bớt một bộ khỏi `SINHVIEN` không thể làm hai bộ còn lại bị trùng `masv`.",
+        "D": "Vì quy ước không được phép xóa sinh viên khỏi hệ thống."
+      },
+      "correct_answer": "C",
+      "explanation": "Tính duy nhất của khóa `masv` (`sv1 != sv2 => sv1.masv != sv2.masv`) chỉ có nguy cơ bị vi phạm khi Thêm bộ mới (`+`). Việc Xóa một bộ chỉ làm giảm số bộ nên không thể gây trùng lặp khóa (ký hiệu `-`)."
+    },
+    {
+      "id": 24,
+      "difficulty": "medium",
+      "question": "Theo Mục 1.2.4, khi một ràng buộc toàn vẹn bị vi phạm, hai giải pháp xử lý thông thường là gì?",
+      "options": {
+        "A": "Bỏ qua lặng lẽ hoặc tự động xóa bảng dữ liệu.",
+        "B": "Sao lưu toàn bộ ổ đĩa hoặc nâng cấp phiên bản SQL Server.",
+        "C": "Chuyển đổi khóa chính thành khóa ngoại hoặc vô hiệu hóa Trigger.",
+        "D": "Đưa ra thông báo yêu cầu sửa chữa dữ liệu cho phù hợp, hoặc từ chối thao tác cập nhật kèm thông báo đầy đủ, rõ ràng lý do và dữ liệu cần sửa."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.2.4 nêu 2 giải pháp khi RBTV bị vi phạm: (1) Đưa ra thông báo và yêu cầu sửa chữa dữ liệu của các thuộc tính cho phù hợp; (2) Từ chối thao tác cập nhật, kèm thông báo đầy đủ, rõ ràng vì sao bị từ chối và cần sửa lại dữ liệu nào."
+    },
+    {
+      "id": 25,
+      "difficulty": "easy",
+      "question": "Theo Mục 1.3, ràng buộc toàn vẹn được phân thành hai loại chính dựa theo tiêu chí nào?",
+      "options": {
+        "A": "Theo bối cảnh: RBTV có bối cảnh là một quan hệ và RBTV có bối cảnh gồm nhiều quan hệ.",
+        "B": "Theo ngôn ngữ lập trình: RBTV viết bằng C++ và RBTV viết bằng Java.",
+        "C": "Theo kích thước ổ đĩa: RBTV dưới 1 GB và RBTV trên 1 GB.",
+        "D": "Theo số lượng người dùng cuối: RBTV đơn người dùng và RBTV đa người dùng."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.3 phân chia RBTV thành 2 loại chính: (1) RBTV có bối cảnh là một quan hệ (Mục 1.3.1) và (2) RBTV có bối cảnh gồm nhiều quan hệ (Mục 1.3.2)."
+    },
+    {
+      "id": 26,
+      "difficulty": "easy",
+      "question": "Ràng buộc `∀ kq ∈ KETQUA : 0 <= kq.diemthi <= 10` thuộc loại ràng buộc toàn vẹn nào?",
+      "options": {
+        "A": "RBTV liên bộ - liên quan hệ.",
+        "B": "RBTV về miền giá trị của thuộc tính.",
+        "C": "RBTV phụ thuộc tồn tại (khóa ngoại).",
+        "D": "RBTV do sự hiện diện của chu trình."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.3.1.1 lấy đúng ví dụ `0 <= kq.lanthi <= 2` và `0 <= kq.diemthi <= 10` trên `KETQUA` để minh họa cho RBTV về miền giá trị của thuộc tính."
+    },
+    {
+      "id": 27,
+      "difficulty": "medium",
+      "question": "Đối với RBTV về miền giá trị của thuộc tính (Mục 1.3.1.1), cần kiểm tra ràng buộc khi thực hiện những thao tác cập nhật nào?",
+      "options": {
+        "A": "Chỉ khi Xóa bộ giá trị.",
+        "B": "Chỉ khi Sửa bộ giá trị.",
+        "C": "Khi thực hiện các thao tác Thêm hoặc Sửa bộ giá trị cho quan hệ.",
+        "D": "Cả Thêm, Sửa và Xóa bộ giá trị."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.3.1.1 nêu rõ: do thuộc tính bị giới hạn bởi miền giá trị trong kiểu dữ liệu, nên khi thực hiện các thao tác cập nhật Thêm/Sửa bộ giá trị cho quan hệ đều phải kiểm tra ràng buộc này."
+    },
+    {
+      "id": 28,
+      "difficulty": "easy",
+      "question": "Trong ví dụ quan hệ `HSCB(macb, hoten, phai, ngsinh)` ở Mục 1.3.1.2, quy định độ tuổi làm cán bộ nhà nước đối với nam và nữ lần lượt là bao nhiêu?",
+      "options": {
+        "A": "Nam từ 20 đến 65 tuổi; nữ từ 20 đến 60 tuổi.",
+        "B": "Nam từ 18 đến 60 tuổi; nữ từ 18 đến 55 tuổi.",
+        "C": "Nam và nữ đều từ 22 đến 62 tuổi.",
+        "D": "Nam từ 18 đến 62 tuổi; nữ từ 18 đến 60 tuổi."
+      },
+      "correct_answer": "D",
+      "explanation": "Ví dụ 1 Mục 1.3.1.2 quy định: Nếu `cb.phai = nam` thì `18 <= year(date()) - year(nsinh) <= 62`; nếu `cb.phai = nu` thì `18 <= year(date()) - year(nsinh) <= 60`."
+    },
+    {
+      "id": 29,
+      "difficulty": "medium",
+      "question": "Ràng buộc `∀ nv ∈ NHANVIEN : nv.tamung <= nv.luong` trên quan hệ `NHANVIEN(manv, tennv, luong, tamung, conlai)` thuộc loại RBTV nào?",
+      "options": {
+        "A": "RBTV liên thuộc tính (bối cảnh một quan hệ).",
+        "B": "RBTV phụ thuộc tồn tại (khóa ngoại).",
+        "C": "RBTV liên bộ giữa các bộ khác nhau.",
+        "D": "RBTV do chu trình trên đồ thị."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.3.1.2 trình bày `NHANVIEN` là Ví dụ 2 của RBTV liên thuộc tính vì ràng buộc so sánh giá trị giữa hai thuộc tính `tamung` và `luong` trong cùng một bộ của một quan hệ."
+    },
+    {
+      "id": 30,
+      "difficulty": "medium",
+      "question": "Trong Mục 1.3.1.2, khi xét thuộc tính tính toán `Thanhtien` với công thức `cthd.Thanhtien = cthd.Soluong * cthd.Dongia` trong `CHITIETHD`, giáo trình nhận xét thế nào về việc giữ hay bỏ thuộc tính `Thanhtien` khi thiết kế lược đồ?",
+      "options": {
+        "A": "Bắt buộc phải giữ lại `Thanhtien` trong mọi lược đồ chuẩn hóa, nếu bỏ sẽ sai ngữ nghĩa.",
+        "B": "Giữ `Thanhtien` sẽ làm tăng chi phí lưu trữ và chi phí kiểm tra RBTV, vì thế có thể loại bỏ thuộc tính này khỏi lược đồ quan hệ.",
+        "C": "Thuộc tính `Thanhtien` làm giảm kích thước tệp vật lý nên luôn được khuyến nghị nhân bản sang mọi bảng.",
+        "D": "Phải đổi `Thanhtien` thành khóa chính của bảng `CHITIETHD`."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.3.1.2 nêu rõ: nếu thiết kế lược đồ giữ thuộc tính tính toán `Thanhtien` thì sẽ làm tăng chi phí lưu trữ và chi phí kiểm tra RBTV, vì thế trong quá trình thiết kế CSDL có thể loại bỏ thuộc tính trên."
+    },
+    {
+      "id": 31,
+      "difficulty": "hard",
+      "question": "Theo Mục 1.3.2.2, trong trường hợp người thiết kế vẫn cố ý lưu thuộc tính `Thanhtien` trong `CHITIETHD` dù biết có sự dư thừa thông tin, mục đích kỹ thuật của việc nhập 'thừa' này là gì?",
+      "options": {
+        "A": "Để thay thế hoàn toàn khóa ngoại `Mahang` và `Sohoadon`.",
+        "B": "Để tránh phải sử dụng câu lệnh `SUM` trong SQL.",
+        "C": "Để đối chiếu dữ liệu nhập vào với công thức tính toán nhằm kiểm tra tính đúng đắn của dữ liệu.",
+        "D": "Để giảm số lượng bộ của quan hệ `HOADON`."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.3.2.2 giải thích: việc nhập 'thừa' dữ liệu `Thanhtien` rồi so sánh với công thức tính toán (`Soluong * Dongia`) chính là một phương pháp để kiểm tra tính đúng đắn của dữ liệu."
+    },
+    {
+      "id": 32,
+      "difficulty": "medium",
+      "question": "Ràng buộc toàn vẹn liên bộ (Mục 1.3.1.3) thường được sử dụng để quy định tính chất nào trong một quan hệ?",
+      "options": {
+        "A": "Miền giá trị số học của cột điểm thi.",
+        "B": "Mối quan hệ khóa ngoại sang bảng cha.",
+        "C": "Công thức tính tổng thành tiền trên bảng khác.",
+        "D": "Tính duy nhất của khóa (ví dụ `sv1 != sv2 => sv1.masv != sv2.masv`)."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.3.1.3 định nghĩa: RBTV liên bộ là loại ràng buộc giữa các bộ trong một quan hệ, thường là ràng buộc để quy định về tính duy nhất của khóa."
+    },
+    {
+      "id": 33,
+      "difficulty": "hard",
+      "question": "Trong quan hệ `HSCB(macb, hoten, phai, ngsinh)`, một ràng buộc liên thuộc tính kiểm tra tuổi theo giới tính sẽ có bảng tầm ảnh hưởng trên `HSCB` như thế nào?",
+      "options": {
+        "A": "Thêm `+`, Sửa `+(phai, ngsinh)`, Xóa `-`.",
+        "B": "Thêm `-`, Sửa `-(*)`, Xóa `+`.",
+        "C": "Thêm `+`, Sửa `+(macb)`, Xóa `+`.",
+        "D": "Thêm `-`, Sửa `+(hoten)`, Xóa `-`."
+      },
+      "correct_answer": "A",
+      "explanation": "Ràng buộc liên thuộc tính trên `HSCB` liên quan hai thuộc tính `phai` và `nsinh`/`ngsinh` trong cùng một bộ: Thêm bộ mới (`+`) hoặc Sửa `phai` hay `ngsinh` (`+(phai, ngsinh)`) có nguy cơ vi phạm; Xóa bộ (`-`) không vi phạm."
+    },
+    {
+      "id": 34,
+      "difficulty": "hard",
+      "question": "So sánh bối cảnh của RBTV liên thuộc tính và RBTV liên bộ trong Mục 1.3.1, phát biểu nào sau đây đúng?",
+      "options": {
+        "A": "RBTV liên thuộc tính có bối cảnh nhiều quan hệ, còn RBTV liên bộ có bối cảnh một quan hệ.",
+        "B": "Cả hai đều có bối cảnh là một quan hệ; liên thuộc tính xét quan hệ giữa các cột trong cùng một bộ, còn liên bộ xét quan hệ giữa nhiều bộ khác nhau trong cùng một bảng.",
+        "C": "Cả hai đều bắt buộc phải dùng hàm tổng hợp `COUNT` và `SUM`.",
+        "D": "Cả hai đều thuộc nhóm RBTV do sự hiện diện của chu trình."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.3.1 xếp cả miền giá trị (1.3.1.1), liên thuộc tính (1.3.1.2) và liên bộ (1.3.1.3) vào nhóm RBTV có bối cảnh là một quan hệ; liên thuộc tính ràng buộc giữa các thuộc tính trong cùng một bộ, còn liên bộ ràng buộc giữa các bộ trong một quan hệ."
+    },
+    {
+      "id": 35,
+      "difficulty": "easy",
+      "question": "Ràng buộc về phụ thuộc tồn tại (Mục 1.3.2.1) còn được gọi với tên phổ biến nào?",
+      "options": {
+        "A": "Ràng buộc miền giá trị.",
+        "B": "Ràng buộc liên thuộc tính.",
+        "C": "Ràng buộc về khóa ngoại.",
+        "D": "Ràng buộc chu trình đồ thị."
+      },
+      "correct_answer": "C",
+      "explanation": "Tiêu đề và nội dung Mục 1.3.2.1 ghi rõ: 'Ràng buộc về phụ thuộc tồn tại (còn gọi là ràng buộc về khóa ngoại)'."
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "question": "Trong phát biểu tổng quát $S[W] \\subseteq R[W]$ của RBTV phụ thuộc tồn tại (Mục 1.3.2.1), vai trò của hai phép chiếu $S[W]$ và $R[W]$ là gì?",
+      "options": {
+        "A": "Vế trái $S[W]$ là khóa nội của $S$; vế phải $R[W]$ là thuộc tính tổng hợp của $R$.",
+        "B": "Cả $S[W]$ và $R[W]$ đều là thuộc tính không khóa của hai bảng.",
+        "C": "Vế phải $R[W]$ là khóa ngoại; vế trái $S[W]$ là khóa nội.",
+        "D": "Vế phải $R[W]$ là phép chiếu trên thuộc tính khóa nội của $R$; vế trái $S[W]$ là phép chiếu trên thuộc tính khóa ngoại của $S$ đối với $R$."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.3.2.1 nêu rõ: vế phải của phép toán tập con (`⊆`) là phép chiếu trên thuộc tính khóa nội của quan hệ `R`, còn vế trái là phép chiếu trên thuộc tính khóa ngoại `W` của quan hệ `S` đối với `R`."
+    },
+    {
+      "id": 37,
+      "difficulty": "easy",
+      "question": "Với RBTV phụ thuộc tồn tại tổng quát $S[W] \\subseteq R[W]$ ($W$ là khóa ngoại của $S$ tham chiếu tới khóa nội của $R$), thao tác nào trên quan hệ `R` có nguy cơ vi phạm RBTV?",
+      "options": {
+        "A": "Thao tác Xóa (`+`) một bộ giá trị của `R`.",
+        "B": "Thao tác Thêm (`+`) một bộ giá trị vào `R`.",
+        "C": "Cả Thêm và Xóa trên `R` đều vi phạm.",
+        "D": "Không thao tác nào trên `R` ảnh hưởng đến $S[W] \\subseteq R[W]$."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo bảng tầm ảnh hưởng tổng quát ở Mục 1.3.2.1: trên `R`, Thêm là `-`, Sửa là `-(*)`, chỉ có Xóa là `+` (vì xóa bộ ở `R` có thể làm các bộ ở `S` đang tham chiếu trở nên mồ côi)."
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "question": "Với RBTV phụ thuộc tồn tại tổng quát $S[W] \\subseteq R[W]$, các thao tác nào trên quan hệ `S` (quan hệ chứa khóa ngoại $W$) cần phải kiểm tra RBTV?",
+      "options": {
+        "A": "Chỉ thao tác Xóa bộ trên `S`.",
+        "B": "Thao tác Thêm bộ mới vào `S` (`+`) và Sửa trên thuộc tính khóa ngoại `W` của `S` (`+(W)`).",
+        "C": "Thêm, Sửa và Xóa trên `S` đều không cần kiểm tra.",
+        "D": "Chỉ thao tác Sửa các thuộc tính không phải `W` trên `S`."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.3.2.1 nêu rõ: thao tác Xóa một bộ giá trị của `S` không gây vi phạm (`-`), còn thao tác Thêm (`+`) và Sửa bộ giá trị của `S` trên thuộc tính khóa ngoại `W` (`+(W)`) cần phải được kiểm tra RBTV."
+    },
+    {
+      "id": 39,
+      "difficulty": "hard",
+      "question": "Trong CSDL Quản lý hóa đơn (`HOADON`, `DMHANG`, `CHITIETHD`), khi loại bỏ thuộc tính tính toán `Thanhtien` khỏi `CHITIETHD`, ràng buộc `R2` về `Tongtrigia` của hóa đơn được viết lại như thế nào?",
+      "options": {
+        "A": "`hd.Tongtrigia = COUNT(cthd ∈ CHITIETHD : cthd.Sohoadon = hd.Sohoadon)`",
+        "B": "`hd.Tongtrigia = SUM(cthd.Soluong + cthd.Dongia : cthd.Sohoadon = hd.Sohoadon)`",
+        "C": "`hd.Tongtrigia = SUM(cthd.Soluong * cthd.Dongia : cthd.Sohoadon = hd.Sohoadon)`",
+        "D": "`CHITIETHD[Tongtrigia] ⊆ HOADON[Sohoadon]`"
+      },
+      "correct_answer": "C",
+      "explanation": "Cuối Mục 1.3.2.2 nêu rõ: khi loại bỏ thuộc tính `Thanhtien` khỏi `CHITIETHD`, ràng buộc `R2` được viết lại là `∀ hd ∈ HOADON : hd.Tongtrigia = SUM(cthd.Soluong * cthd.Dongia : cthd.Sohoadon = hd.Sohoadon)`."
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "question": "Khi có sự hiện diện của một thuộc tính mang tính chất tổng hợp (tính toán từ các thuộc tính khác trên một hay nhiều bộ của các quan hệ trong CSDL), ta có loại ràng buộc nào?",
+      "options": {
+        "A": "RBTV miền giá trị thuộc tính.",
+        "B": "RBTV liên bộ trong một quan hệ.",
+        "C": "RBTV do sự hiện diện của chu trình.",
+        "D": "RBTV liên bộ - liên quan hệ."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.3.2.2 định nghĩa: khi có sự hiện diện của một thuộc tính mang tính chất tổng hợp (tính toán từ giá trị các thuộc tính khác trên một hay nhiều bộ của các quan hệ trong CSDL) thì ta có RBTV liên bộ - liên quan hệ."
+    },
+    {
+      "id": 41,
+      "difficulty": "hard",
+      "question": "Khi biểu diễn cấu trúc CSDL dưới dạng đồ thị để phát hiện RBTV do chu trình (Mục 1.3.2.3), các nút và cung của đồ thị biểu diễn đối tượng nào?",
+      "options": {
+        "A": "Mỗi nút biểu diễn một quan hệ hoặc một thuộc tính; mỗi cung vô hướng nối nút thuộc tính với nút quan hệ chứa nó.",
+        "B": "Mỗi nút chỉ biểu diễn một bộ dữ liệu; mỗi cung có hướng biểu diễn khóa chính.",
+        "C": "Mỗi nút biểu diễn một Trigger; mỗi cung nối Trigger với máy chủ.",
+        "D": "Mỗi nút biểu diễn một người dùng cuối; mỗi cung biểu diễn câu lệnh SQL."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.3.2.3 mô tả: mỗi nút của đồ thị biểu diễn một quan hệ hoặc một thuộc tính; thuộc tính thuộc một quan hệ được biểu diễn bởi một cung vô hướng nối giữa nút thuộc tính với một nút quan hệ."
+    },
+    {
+      "id": 42,
+      "difficulty": "hard",
+      "question": "Xét CSDL có chu trình gồm `Q1(manv, maphong)`, `Q2(maphong, madean)`, `Q3(madean, manv)`. Nếu quy định: *'Mỗi nhân viên được tham gia vào TẤT CẢ các đề án do phòng đó phụ trách'*, biểu thức RBTV nào là đúng?",
+      "options": {
+        "A": "`Q3[manv, madean] ⊆ (Q1 kết nối Q2)[manv, madean]`",
+        "B": "`Q3[manv, madean] = (Q1 kết nối Q2)[manv, madean]`",
+        "C": "`(Q1 kết nối Q2)[maphong] ⊂ Q3[manv]`",
+        "D": "`Q1[manv] = Q2[madean]`"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.3.2.3 chỉ rõ: nếu quy định mỗi nhân viên tham gia vào TẤT CẢ các đề án do phòng đó phụ trách thì hai cách xác định đề án (qua `Q3` và qua `Q1 kết nối Q2`) phải cho tập kết quả bằng nhau: `Q3[manv, madean] = (Q1 kết nối Q2)[manv, madean]`."
+    },
+    {
+      "id": 43,
+      "difficulty": "medium",
+      "question": "Vẫn xét chu trình `Q1(manv, maphong)`, `Q2(maphong, madean)`, `Q3(madean, manv)`. Nếu quy định: *'Mỗi nhân viên được tham gia vào MỘT SỐ đề án do phòng đó phụ trách'*, phép toán nào phải dùng thay cho dấu `=`?",
+      "options": {
+        "A": "Dấu `>`.",
+        "B": "Dấu `!=`.",
+        "C": "Dấu `⊆` (`Q3[manv, madean] ⊆ (Q1 kết nối Q2)[manv, madean]`).",
+        "D": "Dấu `∪`."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.3.2.3 nêu rõ: nếu mỗi nhân viên chỉ tham gia vào một số đề án do phòng đó phụ trách thì các cặp `(manv, madean)` trong `Q3` phải là tập con của các cặp `(manv, madean)` sinh ra từ phép kết nối `Q1` và `Q2`, tức `Q3[manv, madean] ⊆ (Q1 kết nối Q2)[manv, madean]`."
+    },
+    {
+      "id": 44,
+      "difficulty": "hard",
+      "question": "Trên cơ sở dữ liệu Quản lý hóa đơn (`HOADON`, `DMHANG`, `CHITIETHD`), khi xóa một mặt hàng trong `DMHANG`, RBTV `R1: CHITIETHD[Mahang] ⊆ DMHANG[Mahang]` có thể bị vi phạm. Còn nếu xóa một hóa đơn trong `HOADON`, những RBTV nào liên quan trực tiếp đến sự tồn tại và tổng hợp trên `CHITIETHD`?",
+      "options": {
+        "A": "Chỉ ảnh hưởng đến `DMHANG[Tenhang]`.",
+        "B": "Không ảnh hưởng bất kỳ ràng buộc nào trong CSDL.",
+        "C": "Chỉ ảnh hưởng đến miền giá trị của `Dongia`.",
+        "D": "Ảnh hưởng đến phụ thuộc tồn tại `CHITIETHD[Sohoadon] ⊆ HOADON[Sohoadon]` (và bối cảnh của `R2`, `R3` gắn với hóa đơn đó)."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 1.3.2.1, `CHITIETHD[Sohoadon] ⊆ HOADON[Sohoadon]` là phụ thuộc tồn tại nên thao tác Xóa trên `HOADON` có nguy cơ làm các chi tiết hóa đơn bị mồ côi (vi phạm khóa ngoại)."
+    },
+    {
+      "id": 45,
+      "difficulty": "easy",
+      "question": "Ràng buộc `KETQUA[masv] ⊆ SINHVIEN[masv]` trong CSDL Quản lý sinh viên thuộc loại RBTV nào?",
+      "options": {
+        "A": "RBTV phụ thuộc tồn tại (khóa ngoại) — bối cảnh nhiều quan hệ.",
+        "B": "RBTV miền giá trị thuộc tính — bối cảnh một quan hệ.",
+        "C": "RBTV liên thuộc tính — bối cảnh một quan hệ.",
+        "D": "RBTV liên bộ — bối cảnh một quan hệ."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.3.2.1 (Ví dụ 2) liệt kê `KETQUA[masv] ⊆ SINHVIEN[masv]` cùng với `LOPHOC[makhoa] ⊆ KHOA[makhoa]` và `SINHVIEN[malop] ⊆ LOPHOC[malop]` là các RBTV về phụ thuộc tồn tại (khóa ngoại)."
+    },
+    {
+      "id": 46,
+      "difficulty": "medium",
+      "question": "Trong CSDL `HOADON` - `CHITIETHD`, nếu sửa cột `Soluong` hoặc `Dongia` trên bảng `CHITIETHD`, ràng buộc nào trong `HOADON` có nguy cơ bị vi phạm?",
+      "options": {
+        "A": "`R1: CHITIETHD[Mahang] ⊆ DMHANG[Mahang]`.",
+        "B": "`R2: hd.Tongtrigia = SUM(cthd.Thanhtien : cthd.Sohoadon = hd.Sohoadon)` (hoặc `SUM(Soluong * Dongia)`).",
+        "C": "`R3: hd.Sochungloaimathang = COUNT(...)`.",
+        "D": "Ràng buộc duy nhất khóa chính `Sohoadon`."
+      },
+      "correct_answer": "B",
+      "explanation": "Sửa `Soluong` hoặc `Dongia` làm thay đổi `Thanhtien`, dẫn tới tổng trị giá của hóa đơn tương ứng trong `HOADON` có nguy cơ không còn khớp (`R2`), trong khi số lượng dòng chi tiết (số chủng loại mặt hàng `R3`) và mã hàng (`R1`) không đổi."
+    },
+    {
+      "id": 47,
+      "difficulty": "hard",
+      "question": "Xét chu trình `Q1(manv, maphong)`, `Q2(maphong, madean)`, `Q3(madean, manv)` với quy định `Q3[manv, madean] ⊆ (Q1 kết nối Q2)[manv, madean]`. Thao tác nào sau đây có nguy cơ trực tiếp làm vi phạm ràng buộc này?",
+      "options": {
+        "A": "Chỉ thao tác Xóa một bộ trong `Q3`.",
+        "B": "Chỉ thao tác Thêm một phòng ban mới vào `Q1`.",
+        "C": "Thêm một bộ vào `Q3` (phân công đề án mà phòng của nhân viên chưa phụ trách) hoặc Xóa/Sửa bộ trong `Q1`, `Q2` làm mất cặp `(manv, madean)` tương ứng.",
+        "D": "Không có thao tác cập nhật nào làm vi phạm RBTV chu trình."
+      },
+      "correct_answer": "C",
+      "explanation": "Vì `Q3[manv, madean]` phải là tập con của `(Q1 kết nối Q2)[manv, madean]`, nên việc Thêm/Sửa bộ ở `Q3` đưa vào cặp chưa có trong `Q1 ⋈ Q2`, hoặc Xóa/Sửa liên kết ở `Q1`, `Q2` làm mất cặp đang tồn tại ở `Q3`, đều có nguy cơ vi phạm."
+    },
+    {
+      "id": 48,
+      "difficulty": "hard",
+      "question": "Trong bảng tầm ảnh hưởng tổng hợp, vì sao thao tác `Xóa` trên bảng con $S$ của ràng buộc khóa ngoại $S[W] \\subseteq R[W]$ lại không vi phạm ràng buộc khóa ngoại đó, nhưng vẫn có thể cần kiểm tra một RBTV khác?",
+      "options": {
+        "A": "Vì lệnh `DELETE` trên bảng con luôn bị SQL Server cấm mặc định.",
+        "B": "Vì xóa trên bảng con làm thay đổi khóa chính của bảng cha $R$.",
+        "C": "Vì xóa trên bảng con vi phạm RBTV miền giá trị.",
+        "D": "Vì xóa trên $S$ không làm $S[W]$ mất tham chiếu tới $R[W]$, nhưng có thể làm thay đổi thuộc tính tổng hợp (`COUNT`, `SUM`) ở bảng cha trong RBTV liên bộ - liên quan hệ (như `R5` trên `SINHVIEN` và `LOPHOC`)."
+      },
+      "correct_answer": "D",
+      "explanation": "Ví dụ rõ trong giáo trình: xóa bộ trên `SINHVIEN` không vi phạm `R2` (khóa ngoại `SINHVIEN[malop] ⊆ LOPHOC[malop]`), nhưng lại có dấu `+` ở `R5` (sĩ số `sosinhvien` trong `LOPHOC`)."
+    },
+    {
+      "id": 49,
+      "difficulty": "easy",
+      "question": "Theo định nghĩa phụ thuộc hàm (Mục 1.4.1), cho lược đồ quan hệ $R(U)$ và $X, Y \\subset U$. Ta nói $X \\to Y$ khi nào?",
+      "options": {
+        "A": "Với mọi quan hệ $r$ trên $R(U)$ và mọi bộ $t_1, t_2 \\in r$, nếu $t_1[X] = t_2[X]$ thì $t_1[Y] = t_2[Y]$.",
+        "B": "Với mọi bộ $t_1, t_2 \\in r$, nếu $t_1[X] \\neq t_2[X]$ thì $t_1[Y] = t_2[Y]$.",
+        "C": "Tập thuộc tính $X$ phải chứa nhiều phần tử hơn tập thuộc tính $Y$.",
+        "D": "Mọi thuộc tính trong $Y$ đều phải là khóa ngoại của bảng khác."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.4.1 định nghĩa chính xác: $X \\to Y$ nếu với mọi quan hệ $r$ xây dựng trên $R(U)$, với mọi $t_1, t_2 \\in r$ mà $t_1[X] = t_2[X]$ thì $t_1[Y] = t_2[Y]$."
+    },
+    {
+      "id": 50,
+      "difficulty": "medium",
+      "question": "Trong định nghĩa phụ thuộc hàm $X \\to Y$, ký hiệu $t[X]$ được hiểu là gì?",
+      "options": {
+        "A": "Số lượng bộ có trong quan hệ $r$.",
+        "B": "Bộ $t$ thu hẹp trên tập thuộc tính $X$ (giá trị các thuộc tính thuộc $X$ của bộ $t$).",
+        "C": "Phép hợp giữa hai quan hệ $R$ và $S$.",
+        "D": "Lệnh xóa các thuộc tính thuộc $X$ khỏi bảng."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.4.1 giải thích rõ: 'Ở đây $t[X]$ được hiểu là bộ $t$ thu hẹp trên tập thuộc tính $X$'."
+    },
+    {
+      "id": 51,
+      "difficulty": "easy",
+      "question": "Phụ thuộc hàm thường được sử dụng chủ yếu để biểu diễn loại ràng buộc toàn vẹn nào sau đây?",
+      "options": {
+        "A": "Ràng buộc miền giá trị kiểu số nguyên.",
+        "B": "Ràng buộc tổng hợp dùng hàm `SUM` và `COUNT`.",
+        "C": "Ràng buộc về tính duy nhất của khóa.",
+        "D": "Ràng buộc không cho phép xóa dữ liệu bằng `ROLLBACK TRANSACTION`."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.4.1 nêu: 'Ta thường dùng phụ thuộc hàm để biểu diễn các ràng buộc về tính duy nhất của khóa.' (Ví dụ `masv -> tensv, ngsinh, malop`)."
+    },
+    {
+      "id": 52,
+      "difficulty": "medium",
+      "question": "Trong Ví dụ 2 Mục 1.4.2, trên quan hệ `CHITIETHD(Sohoadon, Mahang, Soluong, Dongia, Thanhtien)`, giáo trình biểu diễn những phụ thuộc hàm nào?",
+      "options": {
+        "A": "Chỉ có `Sohoadon -> Mahang`.",
+        "B": "Chỉ có `Dongia -> Soluong`.",
+        "C": "`Mahang -> Sohoadon, Soluong` và `Thanhtien -> Dongia`.",
+        "D": "`f1: Sohoadon, Mahang -> Soluong, Dongia, Thanhtien` và `f2: Soluong, Dongia -> Thanhtien`."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.4.2 ghi rõ trên `CHITIETHD` có 2 phụ thuộc hàm: `f1: Sohoadon, Mahang -> Soluong, Dongia, Thanhtien` và `f2: Soluong, Dongia -> Thanhtien`."
+    },
+    {
+      "id": 53,
+      "difficulty": "hard",
+      "question": "Chú ý quan trọng ở cuối Mục 1.4.2 về mối quan hệ giữa Ràng buộc toàn vẹn và Phụ thuộc hàm là gì?",
+      "options": {
+        "A": "Không phải mọi ràng buộc toàn vẹn đều biểu diễn được bằng phụ thuộc hàm.",
+        "B": "Mọi ràng buộc toàn vẹn (kể cả miền giá trị và khóa ngoại) đều biểu diễn được bằng phụ thuộc hàm.",
+        "C": "Phụ thuộc hàm chỉ dùng cho CSDL có đúng 1 thuộc tính.",
+        "D": "Phụ thuộc hàm thay thế hoàn toàn nhu cầu sử dụng Trigger và Check constraint."
+      },
+      "correct_answer": "A",
+      "explanation": "Cuối Mục 1.4.2 nhấn mạnh: 'Chú ý: Không phải mọi ràng buộc đều biểu diễn được bằng phụ thuộc hàm.' Ví dụ miền giá trị, so sánh `tamung <= luong`, `COUNT/SUM`, hay khóa ngoại không viết được dưới dạng PTH."
+    },
+    {
+      "id": 54,
+      "difficulty": "hard",
+      "question": "Cho quan hệ `SINHVIEN(masv, tensv, ngsinh, malop)`. Ràng buộc `∀ sv1, sv2 ∈ SINHVIEN, sv1.masv = sv2.masv => sv1 = sv2` được biểu diễn bằng phụ thuộc hàm `f1: masv -> tensv, ngsinh, malop` dựa trên cơ sở nào?",
+      "options": {
+        "A": "Vì `tensv` có thể trùng nhau giữa hai lớp khác nhau.",
+        "B": "Vì `masv` là khóa của quan hệ nên ứng với một giá trị `masv` sẽ xác định duy nhất giá trị của tất cả các thuộc tính còn lại của sinh viên đó.",
+        "C": "Vì `masv` là khóa ngoại tham chiếu đến `KHOA`.",
+        "D": "Vì `ngsinh` luôn phụ thuộc hàm vào `malop`."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.4.2 (Ví dụ 1) giải thích: vì `masv` là khóa của quan hệ, nên nếu biết `masv` ta có thể xác định tất cả các thông tin còn lại (`tensv, ngsinh, malop`) liên quan đến sinh viên đó."
+    },
+    {
+      "id": 55,
+      "difficulty": "easy",
+      "question": "Theo Mục 1.5, Trigger trong SQL Server là đối tượng như thế nào?",
+      "options": {
+        "A": "Một bảng vật lý lưu trữ danh sách mật khẩu người dùng.",
+        "B": "Một câu lệnh `SELECT` chạy định kỳ mỗi cuối tháng theo lịch Windows.",
+        "C": "Một đối tượng chứa tập các câu lệnh SQL được tự động thực hiện khi xảy ra thao tác làm thay đổi dữ liệu (`INSERT`, `UPDATE`, `DELETE`) trên bảng gắn với nó.",
+        "D": "Một giao diện đồ họa dùng để vẽ sơ đồ thực thể - quan hệ E-R."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.5 định nghĩa: Trigger là một đối tượng chứa một tập các câu lệnh SQL, các lệnh này được tự động thực hiện khi xảy ra những thao tác làm thay đổi dữ liệu (`Insert`, `Update`, `Delete`) trong bảng gắn với nó."
+    },
+    {
+      "id": 56,
+      "difficulty": "easy",
+      "question": "Trong SQL Server, khi một lệnh `INSERT` được thực thi trên bảng có gắn Trigger, dữ liệu trong hai bảng tạm `Inserted` và `Deleted` thay đổi ra sao?",
+      "options": {
+        "A": "Cả hai bảng `Inserted` và `Deleted` đều chứa các dòng dữ liệu mới.",
+        "B": "Bảng `Deleted` chứa các dòng dữ liệu mới, bảng `Inserted` không có dữ liệu.",
+        "C": "Cả hai bảng `Inserted` và `Deleted` đều không có dữ liệu.",
+        "D": "Các dòng dữ liệu mới được sao chép vào bảng `Inserted`, còn bảng `Deleted` không có dữ liệu."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.5.1 nêu rõ: Khi lệnh `Insert` được thực thi, các dòng dữ liệu mới sẽ được sao chép vào bảng `Inserted`, bảng `Deleted` khi đó không có dữ liệu."
+    },
+    {
+      "id": 57,
+      "difficulty": "easy",
+      "question": "Khi một lệnh `DELETE` được thực thi trên bảng có gắn Trigger trong SQL Server, nội dung của hai bảng tạm `Inserted` và `Deleted` là gì?",
+      "options": {
+        "A": "Các dòng dữ liệu bị xóa được sao chép vào bảng `Deleted`, bảng `Inserted` không có dữ liệu.",
+        "B": "Các dòng dữ liệu bị xóa được sao chép vào bảng `Inserted`, bảng `Deleted` không có dữ liệu.",
+        "C": "Cả hai bảng cùng lưu bản sao dữ liệu trước khi xóa.",
+        "D": "Bảng `Deleted` chỉ lưu tên cột bị xóa chứ không lưu giá trị dòng."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.5.1 quy định: Khi lệnh `Delete` được thực thi trên bảng, các dòng dữ liệu bị xóa sẽ được sao chép vào bảng `Deleted`, bảng `Inserted` khi đó không có dữ liệu."
+    },
+    {
+      "id": 58,
+      "difficulty": "easy",
+      "question": "Khi một lệnh `UPDATE` được thực thi trên bảng có gắn Trigger, hai bảng tạm `Deleted` và `Inserted` lưu giữ dữ liệu gì?",
+      "options": {
+        "A": "Cả `Deleted` và `Inserted` đều chỉ lưu các dòng mới sau khi cập nhật.",
+        "B": "Bảng `Deleted` chứa các dòng dữ liệu cũ chịu tác động của câu lệnh, còn bảng `Inserted` chứa các dòng sau khi đã được cập nhật.",
+        "C": "Bảng `Inserted` chứa dòng dữ liệu cũ, còn bảng `Deleted` chứa dòng sau khi cập nhật.",
+        "D": "Chỉ bảng `Inserted` được tạo ra, bảng `Deleted` bị hủy khỏi bộ nhớ."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.5.1 nêu rõ: Khi lệnh `Update` được thực thi, bảng `Deleted` sẽ chứa các dòng dữ liệu cũ chịu tác động của câu lệnh, còn bảng `Inserted` sẽ chứa các dòng sau khi đã được cập nhật."
+    },
+    {
+      "id": 59,
+      "difficulty": "medium",
+      "question": "Phạm vi tồn tại và truy xuất của hai bảng tạm `Inserted` và `Deleted` trong SQL Server như thế nào?",
+      "options": {
+        "A": "Được lưu vĩnh viễn trên đĩa cứng như các bảng thông thường của CSDL.",
+        "B": "Có thể truy vấn trực tiếp từ bất kỳ cửa sổ New Query nào sau khi Trigger chạy xong.",
+        "C": "Chỉ có thể được truy xuất ở bên trong Trigger; ngay khi Trigger hoàn tất thì hai bảng này không thể truy xuất được nữa.",
+        "D": "Chỉ tồn tại khi sử dụng lệnh `SP_HELPTEXT`."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.5.1 lưu ý: SQL Server tạo 2 bảng tạm `Inserted` và `Deleted` trong bộ nhớ để sử dụng trong Trigger; dữ liệu trong hai bảng này chỉ có thể được truy xuất trong Trigger và ngay khi Trigger hoàn tất thì không thể truy xuất được nữa."
+    },
+    {
+      "id": 60,
+      "difficulty": "easy",
+      "question": "Câu lệnh nào trong SQL Server dùng để xem danh sách những Trigger nào đang tồn tại trên một bảng?",
+      "options": {
+        "A": "`SP_HELPTEXT <TÊN TRIGGER>`",
+        "B": "`DROP TRIGGER <TÊN TRIGGER>`",
+        "C": "`ALTER TABLE <TÊN BẢNG> ENABLE TRIGGER <TÊN TRIGGER>`",
+        "D": "`SP_HELPTRIGGER <TÊN BẢNG>`"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.5.3 liệt kê: `SP_HELPTRIGGER <TÊN BẢNG>` dùng để xem những Trigger nào đang tồn tại trên bảng; còn `SP_HELPTEXT` dùng để xem mã nguồn Trigger."
+    },
+    {
+      "id": 61,
+      "difficulty": "medium",
+      "question": "Để vô hiệu hóa tạm thời một Trigger mà không xóa nó khỏi bảng trong SQL Server, ta sử dụng cú pháp nào?",
+      "options": {
+        "A": "`ALTER TABLE <TÊN BẢNG> DISABLE TRIGGER <TÊN TRIGGER>`",
+        "B": "`DROP TRIGGER <TÊN TRIGGER>`",
+        "C": "`DELETE TRIGGER <TÊN TRIGGER> FROM <TÊN BẢNG>`",
+        "D": "`ROLLBACK TRANSACTION <TÊN TRIGGER>`"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.5.3 chỉ rõ cú pháp vô hiệu hóa (không xóa Trigger): `ALTER TABLE <TÊN BẢNG> DISABLE TRIGGER <TÊN TRIGGER>`, và bật lại bằng `ENABLE TRIGGER`."
+    },
+    {
+      "id": 62,
+      "difficulty": "easy",
+      "question": "Trong Mục 1.5.3, để xem mã lệnh (nội dung định nghĩa) của một Trigger đã tạo, ta dùng câu lệnh nào?",
+      "options": {
+        "A": "`SP_HELPTRIGGER <TÊN TRIGGER>`",
+        "B": "`SP_HELPTEXT <TÊN TRIGGER>`",
+        "C": "`SELECT * FROM <TÊN TRIGGER>`",
+        "D": "`SHOW TRIGGER <TÊN TRIGGER>`"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.5.3 ghi rõ: Xem mã Trigger bằng lệnh `SP_HELPTEXT <TÊN TRIGGER>`."
+    },
+    {
+      "id": 63,
+      "difficulty": "medium",
+      "question": "Về mệnh đề `IF UPDATE (<TÊN CỘT>)` trong Trigger (Mục 1.5.3), khẳng định nào sau đây là chính xác?",
+      "options": {
+        "A": "Mệnh đề `IF UPDATE` chỉ dùng được cho lệnh `DELETE`, không dùng cho `INSERT` và `UPDATE`.",
+        "B": "Mệnh đề `IF UPDATE` tự động xóa cột được chỉ định khỏi bảng.",
+        "C": "Mệnh đề `IF UPDATE` dùng để chỉ định Trigger xử lý khi thay đổi liên quan đến cột cụ thể nào đó và KHÔNG sử dụng được với câu lệnh `DELETE`.",
+        "D": "Mệnh đề `IF UPDATE` thay thế hoàn toàn từ khóa `AFTER INSERT, UPDATE`."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.5.3 nêu rõ: ta dùng `IF UPDATE` khi muốn chỉ định Trigger xử lý khi thay đổi dữ liệu liên quan đến một số cột nhất định, và 'IF UPDATE không sử dụng được với câu lệnh Delete'."
+    },
+    {
+      "id": 64,
+      "difficulty": "easy",
+      "question": "Để hủy bỏ hoàn toàn tác dụng của câu lệnh làm kích hoạt Trigger khi phát hiện vi phạm RBTV (Mục 1.5.5), ta sử dụng câu lệnh nào bên trong Trigger?",
+      "options": {
+        "A": "`DROP TRIGGER`",
+        "B": "`DISABLE TRIGGER`",
+        "C": "`EXIT PROCEDURE`",
+        "D": "`ROLLBACK TRANSACTION`"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.5.5 nêu rõ: trong một Trigger, để hủy bỏ tác dụng của câu lệnh làm kích hoạt Trigger, ta sử dụng lệnh `ROLLBACK TRANSACTION`."
+    },
+    {
+      "id": 65,
+      "difficulty": "medium",
+      "question": "Xét Trigger `NKBH_UPDATE` ở Mục 1.5.4 có `IF UPDATE(SLBAN)` trên `NHATKYBANHANG`. Nếu người dùng chạy lệnh `UPDATE NHATKYBANHANG SET NGAY = '11/11/20' WHERE STT = 1`, điều gì xảy ra?",
+      "options": {
+        "A": "Khối lệnh bên trong `IF UPDATE(SLBAN)` không được thực thi vì cột `SLBAN` không bị cập nhật.",
+        "B": "Trigger tự động trừ đi 1 đơn vị `SLHIENCO` trong `MATHANG`.",
+        "C": "Trigger gọi `ROLLBACK TRANSACTION` để cấm sửa ngày bán.",
+        "D": "SQL Server báo lỗi cú pháp vì không cập nhật cột `SLBAN`."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.5.4 giải thích trực tiếp: câu lệnh `UPDATE NHATKYBANHANG SET NGAY = '11/11/20' WHERE STT = 1` sẽ không kích hoạt phần cập nhật `MATHANG` trong Trigger `NKBH_UPDATE` vì nó không làm thay đổi cột `SLBAN`."
+    },
+    {
+      "id": 66,
+      "difficulty": "medium",
+      "question": "Trong Trigger `NKBH_UPDATE` ở Mục 1.5.4, vì sao công thức cập nhật tồn kho lại viết `MATHANG.SLHIENCO = MATHANG.SLHIENCO + DELETED.SLBAN - INSERTED.SLBAN`?",
+      "options": {
+        "A": "Vì `DELETED.SLBAN` là số lượng mới còn `INSERTED.SLBAN` là số lượng cũ.",
+        "B": "Vì cần hoàn lại số lượng bán cũ (`+ DELETED.SLBAN`) rồi trừ đi số lượng bán mới (`- INSERTED.SLBAN`) để phản ánh đúng phần chênh lệch.",
+        "C": "Vì bảng `DELETED` và `INSERTED` đều trống khi chạy lệnh `UPDATE`.",
+        "D": "Vì công thức này chỉ dùng để tính doanh thu theo giá bán."
+      },
+      "correct_answer": "B",
+      "explanation": "Khi `UPDATE` số lượng bán từ cũ (`DELETED.SLBAN`, VD 4) lên mới (`INSERTED.SLBAN`, VD 9), ta cộng trả lại 4 vào `SLHIENCO` rồi trừ đi 9 (tức giảm 5), tương ứng `SLHIENCO + DELETED.SLBAN - INSERTED.SLBAN`."
+    },
+    {
+      "id": 67,
+      "difficulty": "hard",
+      "question": "Trong phần Bài tập tự giải (Bài 9.1), phát biểu nào đúng nhất về mục đích sử dụng ràng buộc toàn vẹn dữ liệu?",
+      "options": {
+        "A": "Kiểm soát người dùng được phép truy cập vào dữ liệu.",
+        "B": "Đảm bảo rằng các bản ghi trùng lặp không được nhập vào bảng.",
+        "C": "Cải thiện chất lượng dữ liệu được nhập cho một thuộc tính cụ thể.",
+        "D": "Ngăn người dùng thay đổi các giá trị được lưu trữ trong bảng."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong Bài 9 câu 1 (Bài tập tự giải), đáp án đúng là C: RBTV dữ liệu được sử dụng để cải thiện chất lượng dữ liệu (tính hợp lệ, chính xác, nhất quán) được nhập cho một thuộc tính/bảng cụ thể. A thuộc bảo mật/phân quyền, B chỉ mô tả một phần nhỏ của khóa chính, D sai vì vẫn cho phép sửa hợp lệ."
+    },
+    {
+      "id": 68,
+      "difficulty": "hard",
+      "question": "Trong phần Bài tập tự giải (Bài 9.2), tình huống nào sau đây có thể được giải quyết bằng cách thực thi ràng buộc **toàn vẹn tham chiếu** (Referential Integrity)?",
+      "options": {
+        "A": "Tất cả các số điện thoại phải bao gồm mã vùng.",
+        "B": "Một số trường nhất định là bắt buộc (như email hoặc số điện thoại) trước khi hồ sơ được chấp nhận.",
+        "C": "Khi nhập số lượng đặt hàng, người dùng phải nhập một số chứ không phải văn bản (tức 12 chứ không phải 'một tá').",
+        "D": "Thông tin về khách hàng phải được biết (tồn tại trong bảng khách hàng) trước khi có thể bán bất cứ thứ gì cho khách hàng đó."
+      },
+      "correct_answer": "D",
+      "explanation": "Trong Bài 9 câu 2, toàn vẹn tham chiếu (ràng buộc khóa ngoại) đảm bảo mã khách hàng trên hóa đơn bán phải tham chiếu tới một khách hàng đã tồn tại trước trong bảng khách hàng (phương án D). A là định dạng/miền giá trị, B là `NOT NULL`, C là kiểu dữ liệu."
+    },
+    {
+      "id": 69,
+      "difficulty": "hard",
+      "question": "Trong Bài tập 3 (Trigger `CHITIETHD_UPDATE` khi sửa cột `MAH` từ mã hàng cũ sang mã hàng mới với số lượng `@SLBAN`), hành động cập nhật bảng `MATHANG(MAH, TENH, SL)` nào là đúng?",
+      "options": {
+        "A": "Cộng trả lại `@SLBAN` cho mặt hàng cũ (`WHERE MAH = @MAHCU`) và trừ đi `@SLBAN` ở mặt hàng mới (`WHERE MAH = @MAHMOI`).",
+        "B": "Trừ `@SLBAN` ở mặt hàng cũ và cộng `@SLBAN` ở mặt hàng mới.",
+        "C": "Chỉ trừ `@SLBAN` ở mặt hàng mới, không thay đổi mặt hàng cũ.",
+        "D": "Xóa mặt hàng cũ khỏi bảng `MATHANG`."
+      },
+      "correct_answer": "A",
+      "explanation": "Theo lời giải Bài 3 trong giáo trình: lấy `@MAHCU = MAH, @SLBAN = SL FROM DELETED` và `@MAHMOI = MAH FROM INSERTED`; sau đó `UPDATE MATHANG SET SL = SL + @SLBAN WHERE MAH = @MAHCU` (hoàn kho mặt hàng cũ) và `UPDATE MATHANG SET SL = SL - @SLBAN WHERE MAH = @MAHMOI` (xuất kho mặt hàng mới)."
+    },
+    {
+      "id": 70,
+      "difficulty": "hard",
+      "question": "Trong Bài tập 6 (`SV_INSERT` trên bảng `SV` gắn với `LOP(MALOP, TENLOP, SOSV)`), điều kiện để cho phép thêm sinh viên mới và tăng `SOSV` là gì?",
+      "options": {
+        "A": "`@SOSV > 50` thì tăng `SOSV = SOSV + 1`, ngược lại `ROLLBACK TRANSACTION`.",
+        "B": "`@SOSV < 50` thì cập nhật `SOSV = SOSV + 1` cho lớp đó, ngược lại gọi `ROLLBACK TRANSACTION`.",
+        "C": "`@SOSV = 50` thì tăng `SOSV` lên `51`.",
+        "D": "Luôn gọi `ROLLBACK TRANSACTION` bất kể giá trị `SOSV`."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo lời giải Bài 6 trong giáo trình: lấy `@MALOP = MALOP FROM INSERTED`, lấy `@SOSV = SOSV FROM LOP WHERE MALOP = @MALOP`; nếu `@SOSV < 50` thì `UPDATE LOP SET SOSV = SOSV + 1 WHERE MALOP = @MALOP`, ngược lại (`ELSE`) thực hiện `ROLLBACK TRANSACTION`."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Nêu định nghĩa Ràng buộc toàn vẹn (RBTV) và 2 thời điểm kiểm tra RBTV trong hệ quản trị CSDL.",
+      "expected_answer": "- Định nghĩa: RBTV là điều kiện bất biến không được vi phạm trong CSDL mà tất cả các bộ của các quan hệ liên quan phải thỏa mãn ở mọi thời điểm (thường là quy tắc quản lý diễn đạt ngữ nghĩa CSDL).\n- Thời điểm 1: Kiểm tra ngay khi thực hiện thao tác cập nhật (thêm, sửa, xóa); nếu vi phạm thì thao tác bị hủy bỏ.\n- Thời điểm 2: Kiểm tra định kỳ hay đột xuất; nếu vi phạm thì xử lý ngầm định hoặc yêu cầu người dùng xử lý tường minh."
+    },
+    {
+      "id": 2,
+      "question": "Liệt kê 4 yếu tố của một RBTV và giải thích ý nghĩa 3 ký hiệu `+`, `-`, `-(*)` trong bảng tầm ảnh hưởng.",
+      "expected_answer": "- 4 yếu tố: (1) Điều kiện của RBTV; (2) Bối cảnh (1 hay nhiều quan hệ); (3) Tầm ảnh hưởng; (4) Hành động khi RBTV bị vi phạm.\n- Ký hiệu `+`: Thao tác có nguy cơ gây vi phạm RBTV (cần kiểm tra; khi Sửa ghi rõ tên thuộc tính).\n- Ký hiệu `-`: Thao tác không có nguy cơ gây vi phạm RBTV.\n- Ký hiệu `-(*)`: Không bị vi phạm do quy ước không được phép sửa đổi giá trị thuộc tính khóa."
+    },
+    {
+      "id": 3,
+      "question": "Phân biệt RBTV có bối cảnh 1 quan hệ và RBTV có bối cảnh nhiều quan hệ (kể tên các tiểu loại của mỗi nhóm).",
+      "expected_answer": "- Bối cảnh 1 quan hệ (Mục 1.3.1): chỉ cần 1 quan hệ để kiểm tra, gồm 3 loại: miền giá trị của thuộc tính, liên thuộc tính (trong cùng 1 bộ) và liên bộ (tính duy nhất của khóa).\n- Bối cảnh nhiều quan hệ (Mục 1.3.2): cần từ 2 quan hệ trở lên để kiểm tra, gồm 3 loại: phụ thuộc tồn tại/khóa ngoại (S[W] ⊆ R[W]), liên bộ - liên quan hệ (thuộc tính tổng hợp COUNT/SUM) và RBTV do sự hiện diện của chu trình trên đồ thị."
+    },
+    {
+      "id": 4,
+      "question": "Phát biểu định nghĩa Phụ thuộc hàm X -> Y và nêu chú ý giới hạn của phụ thuộc hàm khi biểu diễn RBTV.",
+      "expected_answer": "- Định nghĩa: Cho R(U) và X, Y ⊂ U. Ta nói X -> Y nếu với mọi quan hệ r trên R(U) và mọi t1, t2 ∈ r, hễ t1[X] = t2[X] thì t1[Y] = t2[Y] (một giá trị của X xác định duy nhất một giá trị của Y).\n- Ứng dụng chính: Thường dùng để biểu diễn ràng buộc về tính duy nhất của khóa.\n- Giới hạn: Không phải mọi RBTV đều biểu diễn được bằng phụ thuộc hàm (ví dụ: miền giá trị, khóa ngoại, tổng hợp SUM/COUNT)."
+    },
+    {
+      "id": 5,
+      "question": "So sánh nội dung hai bảng tạm `Inserted` và `Deleted` trong Trigger SQL Server khi thực thi `INSERT`, `DELETE` và `UPDATE`.",
+      "expected_answer": "- Lệnh INSERT: Bảng `Inserted` chứa các dòng dữ liệu mới vừa thêm; bảng `Deleted` rỗng.\n- Lệnh DELETE: Bảng `Deleted` chứa các dòng dữ liệu bị xóa; bảng `Inserted` rỗng.\n- Lệnh UPDATE: Bảng `Deleted` chứa các dòng dữ liệu cũ trước sửa; bảng `Inserted` chứa các dòng mới sau khi cập nhật.\n- Phạm vi: Hai bảng tạm nằm trong bộ nhớ, chỉ truy xuất được bên trong Trigger."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Bài 1 (Giáo trình): Phát hiện RBTV cho CSDL Quản lý Bán sách Hiệu sách",
+      "problem": "Cho CSDL quản lý việc bán sách trong một hiệu sách gồm 5 quan hệ: `SACH(MASACH, TENSACH, NXB, SOLUONG)`, `HOADON(MSHD, MSNV, MSKH, TONGTIEN, NGAYHD)`, `CHITIETHD(MSHD, MASACH, SOLUONG, DONGIA)`, `NHANVIEN(MSNV, TENNV, DIACHI, DIENTHOAI)`, `KHACHHANG(MSKH, TENKH, DIACHI, DIENTHOAI, LOAIKH)` (trong đó `LOAIKH` chỉ nhận 'Vãng lai' hoặc 'Thường xuyên'). Hãy phát hiện tối thiểu 8 ràng buộc toàn vẹn có thể có trên CSDL trên (không kể các ràng buộc về khóa chính).",
+      "solution_steps": [
+        "Bước 1: Xác định 4 RBTV phụ thuộc tồn tại (khóa ngoại - bối cảnh nhiều quan hệ)\n- `R1`: Mỗi `MASACH` trong `CHITIETHD` phải tham chiếu tới một `MASACH` trong `SACH`: `∀ cthd ∈ CHITIETHD, ∃ s ∈ SACH : cthd.MASACH = s.MASACH` hay `CHITIETHD[MASACH] ⊆ SACH[MASACH]`.\n- `R2`: Mỗi `MSHD` trong `CHITIETHD` phải tham chiếu tới một `MSHD` trong `HOADON`: `CHITIETHD[MSHD] ⊆ HOADON[MSHD]`.\n- `R3`: Mỗi `MSNV` trong `HOADON` phải tham chiếu tới một `MSNV` trong `NHANVIEN`: `HOADON[MSNV] ⊆ NHANVIEN[MSNV]`.\n- `R4`: Mỗi `MSKH` trong `HOADON` phải tham chiếu tới một `MSKH` trong `KHACHHANG`: `HOADON[MSKH] ⊆ KHACHHANG[MSKH]`.",
+        "Bước 2: Xác định các RBTV về miền giá trị thuộc tính (bối cảnh một quan hệ)\n- `R5`: Thuộc tính `LOAIKH` của mỗi khách hàng trong `KHACHHANG` chỉ nhận 1 trong 2 giá trị: `'Thường xuyên'` hoặc `'Vãng lai'`.\n- `R6`: Ngày lập hóa đơn `NGAYHD` trong `HOADON` phải thỏa mãn `NGAYHD <= Ngày hiện hành`.\n- `R8`: Đơn giá bán `DONGIA` trong `CHITIETHD` phải dương (`DONGIA > 0`). (Tương tự `SACH.SOLUONG >= 0` và `CHITIETHD.SOLUONG > 0`).",
+        "Bước 3: Xác định RBTV liên quan số lượng tồn kho giữa `CHITIETHD` và `SACH`\n- `R7`: Số lượng sách bán trong một chi tiết hóa đơn không vượt quá số lượng sách hiện có trong kho: `SOLUONG` trong `CHITIETHD` `<= SOLUONG` trong `SACH` (tương ứng cùng `MASACH`).",
+        "Bước 4: Xác định RBTV liên bộ - liên quan hệ giữa `HOADON` và `CHITIETHD`\n- `R9`: `TONGTIEN` của mỗi hóa đơn trong bảng `HOADON` phải bằng tổng `SOLUONG * DONGIA` của các mặt hàng trong bảng `CHITIETHD` có cùng `MSHD`:\n  `∀ hd ∈ HOADON : hd.TONGTIEN = SUM(cthd.SOLUONG * cthd.DONGIA : cthd ∈ CHITIETHD, cthd.MSHD = hd.MSHD)`."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài 2 (Giáo trình): Phát hiện RBTV và Vẽ Bảng Tầm Ảnh Hưởng cho CSDL Bán hàng Siêu thị",
+      "problem": "Cho CSDL quản lý việc bán hàng trong siêu thị: `GIANHANG(MAGH, TENGH)`, `MATHANG(MAHANG, TENHANG, GIABAN, MAGH)`, `HOADON(SOHD, MANV, NGAYHD)`, `CHITIETHOADON(SOHD, MAHANG, SOLUONG)`, `NHANVIEN(MANV, TENNV, MAGH, LUONG, DIENTHOAI)`. (a) Phát hiện tối thiểu 8 RBTV (không kể khóa chính); (b) Vẽ bảng tầm ảnh hưởng của các ràng buộc đó.",
+      "solution_steps": [
+        "Bước 1: Phát hiện các RBTV phụ thuộc tồn tại (khóa ngoại) `R1..R4` (và bổ sung `NHANVIEN[MAGH]`)\n- `R1`: `∀ mh ∈ MATHANG, ∃ gh ∈ GIANHANG : mh.MAGH = gh.MAGH` hay `MATHANG[MAGH] ⊆ GIANHANG[MAGH]`.\n- `R2`: `∀ cthd ∈ CHITIETHOADON, ∃ mh ∈ MATHANG : cthd.MAHANG = mh.MAHANG` hay `CHITIETHOADON[MAHANG] ⊆ MATHANG[MAHANG]`.\n- `R3`: `∀ cthd ∈ CHITIETHOADON, ∃ hd ∈ HOADON : cthd.SOHD = hd.SOHD` hay `CHITIETHOADON[SOHD] ⊆ HOADON[SOHD]`.\n- `R4`: `∀ hd ∈ HOADON, ∃ nv ∈ NHANVIEN : hd.MANV = nv.MANV` hay `HOADON[MANV] ⊆ NHANVIEN[MANV]`.\n- (Mở rộng thêm khóa ngoại: `NHANVIEN[MAGH] ⊆ GIANHANG[MAGH]`).",
+        "Bước 2: Phát hiện các RBTV về miền giá trị thuộc tính `R5..R8`\n- `R5`: `GIABAN` trong bảng `MATHANG` phải `> 0`.\n- `R6`: `SOLUONG` trong bảng `CHITIETHOADON` phải `> 0`.\n- `R7`: `NGAYHD` trong bảng `HOADON` phải `<= Ngày hiện hành` (lưu ý: trong giáo trình in là `>=`, nhưng theo ngữ nghĩa hóa đơn bán hàng thường là `<= Ngày hiện hành` hoặc giữ đúng miền ngày hợp lệ tùy quy ước đề bài).\n- `R8`: `LUONG` trong bảng `NHANVIEN` phải `>= 2.000.000`.",
+        "Bước 3: Vẽ bảng tầm ảnh hưởng cho các RBTV khóa ngoại (`R1..R4`)\n- `R1` (`MATHANG[MAGH] ⊆ GIANHANG[MAGH]`): `MATHANG` (Thêm `+`, Sửa `+(MAGH)`, Xóa `-`); `GIANHANG` (Thêm `-`, Sửa `-(*)`, Xóa `+`).\n- `R2` (`CHITIETHOADON[MAHANG] ⊆ MATHANG[MAHANG]`): `CHITIETHOADON` (Thêm `+`, Sửa `+(MAHANG)`, Xóa `-`); `MATHANG` (Thêm `-`, Sửa `-(*)`, Xóa `+`).\n- `R3` (`CHITIETHOADON[SOHD] ⊆ HOADON[SOHD]`): `CHITIETHOADON` (Thêm `+`, Sửa `+(SOHD)`, Xóa `-`); `HOADON` (Thêm `-`, Sửa `-(*)`, Xóa `+`).\n- `R4` (`HOADON[MANV] ⊆ NHANVIEN[MANV]`): `HOADON` (Thêm `+`, Sửa `+(MANV)`, Xóa `-`); `NHANVIEN` (Thêm `-`, Sửa `-(*)`, Xóa `+`).\n*(Lưu ý: Lời giải giáo trình in nhầm nhãn cột `+(makhoa)` ở bảng `R1`/`R2`, thực chất đúng tên thuộc tính là `+(MAGH)` và `+(MAHANG)`).*",
+        "Bước 4: Vẽ bảng tầm ảnh hưởng cho các RBTV miền giá trị (`R5..R8`)\n- `R5`: `MATHANG` (Thêm `+`, Sửa `+(GIABAN)`, Xóa `-`).\n- `R6`: `CHITIETHOADON` (Thêm `+`, Sửa `+(SOLUONG)`, Xóa `-`).\n- `R7`: `HOADON` (Thêm `+`, Sửa `+(NGAYHD)`, Xóa `-`).\n- `R8`: `NHANVIEN` (Thêm `+`, Sửa `+(LUONG)`, Xóa `-`)."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bài 3 (Giáo trình): Viết Trigger `CHITIETHD_UPDATE` khi Sửa Cột `MAH`",
+      "problem": "Cho CSDL gồm `MATHANG(MAH, TENH, SL)` và `CHITIETHD(SHD, MAH, SL)`. Hãy viết Trigger cho bảng `CHITIETHD` sao cho khi chỉnh sửa trên cột `MAH` cho 1 bản ghi của bảng này thì Trigger sẽ thực hiện việc thay đổi số lượng hàng hiện có trong bảng `MATHANG` cho phù hợp.",
+      "solution_steps": [
+        "Bước 1: Xác định bảng gắn Trigger, sự kiện và điều kiện cột\n- Bảng gắn Trigger: `CHITIETHD`.\n- Sự kiện kích hoạt: `AFTER UPDATE`.\n- Chỉ xử lý khi cột `MAH` bị thay đổi nên dùng mệnh đề `IF UPDATE(MAH)`.",
+        "Bước 2: Phân tích nội dung 2 bảng tạm `DELETED` và `INSERTED`\n- Khi sửa `MAH` của một dòng trong `CHITIETHD` (ví dụ đổi từ `'A1'` sang `'A2'` với `SL = 4`), bảng `DELETED` lưu thông tin dòng cũ (`MAH = 'A1'`, `SL = 4`) và bảng `INSERTED` lưu thông tin dòng mới (`MAH = 'A2'`, `SL = 4`).\n- Do đó cần hoàn trả `@SLBAN` cho mã hàng cũ `@MAHCU` và trừ đi `@SLBAN` ở mã hàng mới `@MAHMOI`.",
+        "Bước 3: Khai báo biến và lấy giá trị từ `DELETED`, `INSERTED`\n- Khai báo `@MAHCU CHAR(2)`, `@MAHMOI CHAR(2)`, `@SLBAN INT`.\n- Đọc `@MAHCU = MAH, @SLBAN = SL FROM DELETED` và `@MAHMOI = MAH FROM INSERTED`.",
+        "Bước 4: Cài đặt hoàn chỉnh Trigger `CHITIETHD_UPDATE`\n```sql\nCREATE TRIGGER CHITIETHD_UPDATE\nON CHITIETHD\nAFTER UPDATE\nAS\nIF UPDATE(MAH)\nBEGIN\n    DECLARE @MAHCU CHAR(2)\n    DECLARE @MAHMOI CHAR(2)\n    DECLARE @SLBAN INT\n    SELECT @MAHCU = MAH, @SLBAN = SL FROM DELETED\n    SELECT @MAHMOI = MAH FROM INSERTED\n    UPDATE MATHANG SET SL = SL + @SLBAN WHERE MAH = @MAHCU\n    UPDATE MATHANG SET SL = SL - @SLBAN WHERE MAH = @MAHMOI\nEND\n```"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bài 4 (Giáo trình): Viết Trigger `NKBH_UPDATE` khi Sửa Cột `SLBAN`",
+      "problem": "Cho CSDL `MATHANG(MAH, TENH, SLHIENCO)` và `NHATKYBANHANG(STT, NGAY, MAH, SLBAN, GIA)`. Tạo Trigger thực hiện việc cập nhật lại số lượng hàng hiện có (`SLHIENCO`) trong bảng `MATHANG` mỗi khi tiến hành cập nhật cột số lượng bán (`SLBAN`) cho một bản ghi của bảng `NHATKYBANHANG`.",
+      "solution_steps": [
+        "Bước 1: Xác định bảng gắn Trigger và sự kiện\n- Bảng chịu tác động: `NHATKYBANHANG`.\n- Sự kiện kích hoạt: `AFTER UPDATE` kết hợp `IF UPDATE(SLBAN)` để Trigger chỉ cập nhật kho khi cột `SLBAN` thay đổi.",
+        "Bước 2: Thiết lập công thức cập nhật số lượng tồn kho\n- Khi cập nhật `SLBAN` trên một bản ghi có mã `STT`: `DELETED.SLBAN` là số lượng bán trước khi sửa, `INSERTED.SLBAN` là số lượng bán sau khi sửa.\n- Số lượng hàng hiện có mới phải bằng: `SLHIENCO + DELETED.SLBAN - INSERTED.SLBAN` (tức `SLHIENCO - (INSERTED.SLBAN - DELETED.SLBAN)`).",
+        "Bước 3: Xác định điều kiện kết nối các bảng\n- Kết nối `MATHANG`, `DELETED`, `INSERTED` qua `(DELETED.STT = INSERTED.STT) AND (MATHANG.MAH = DELETED.MAH)` để cập nhật chính xác mặt hàng tương ứng (hoạt động đúng cả khi cập nhật một hay nhiều bản ghi).",
+        "Bước 4: Mã lệnh SQL hoàn chỉnh cho Trigger `NKBH_UPDATE`\n```sql\nCREATE TRIGGER NKBH_UPDATE\nON NHATKYBANHANG\nAFTER UPDATE\nAS\nIF UPDATE(SLBAN)\n    UPDATE MATHANG\n    SET MATHANG.SLHIENCO = MATHANG.SLHIENCO - (INSERTED.SLBAN - DELETED.SLBAN)\n    FROM DELETED, INSERTED, MATHANG\n    WHERE (DELETED.STT = INSERTED.STT) AND (MATHANG.MAH = DELETED.MAH)\n```"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bài 5 (Giáo trình): Viết Trigger `NKBH_INSERT` Kiểm tra `SLBAN <= SL` và `ROLLBACK`",
+      "problem": "Cho CSDL `MATHANG(MAH, TENH, SLHIENCO)` (hoặc `SL`) và `NHATKYBANHANG(STT, NGAY, MAH, SLBAN, GIA)`. Tạo Trigger được kích hoạt khi bán một mặt hàng (bổ sung một bản ghi mới vào `NHATKYBANHANG`). Trigger kiểm tra `SLBAN <= SLHIENCO`; nếu đúng thì cập nhật giảm tồn kho, nếu sai thì hủy bỏ thao tác bổ sung dữ liệu.",
+      "solution_steps": [
+        "Bước 1: Xác định bảng gắn Trigger và sự kiện\n- Gắn Trigger lên bảng `NHATKYBANHANG` với sự kiện `AFTER INSERT`.",
+        "Bước 2: Lấy thông tin mặt hàng cần bán và tồn kho hiện tại\n- Đọc `@MAHANG = MAH`, `@SLBAN = SLBAN` từ bảng tạm `INSERTED`.\n- Truy vấn số lượng tồn `@SLCO = SLHIENCO` (hoặc `SL` theo biến thể lược đồ) từ bảng `MATHANG WHERE MAH = @MAHANG`.",
+        "Bước 3: Kiểm tra điều kiện RBTV và rẽ nhánh xử lý\n- Nếu `@SLBAN <= @SLCO`: hợp lệ, thực hiện `UPDATE MATHANG SET SLHIENCO = SLHIENCO - @SLBAN WHERE MAH = @MAHANG`.\n- Ngược lại (`ELSE`): vi phạm RBTV, gọi `ROLLBACK TRANSACTION` để hủy bỏ thao tác `INSERT` trên `NHATKYBANHANG`.",
+        "Bước 4: Mã lệnh SQL hoàn chỉnh\n```sql\nCREATE TRIGGER NKBH_INSERT\nON NHATKYBANHANG\nAFTER INSERT\nAS\nBEGIN\n    DECLARE @SLCO INT\n    DECLARE @SLBAN INT\n    DECLARE @MAHANG CHAR(2)\n    SELECT @MAHANG = MAH, @SLBAN = SLBAN FROM INSERTED\n    SELECT @SLCO = SLHIENCO FROM MATHANG WHERE MAH = @MAHANG\n    IF @SLBAN <= @SLCO\n        UPDATE MATHANG SET SLHIENCO = SLHIENCO - @SLBAN WHERE MAH = @MAHANG\n    ELSE\n        ROLLBACK TRANSACTION\nEND\n```"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bài 6 (Giáo trình): Viết Trigger `SV_INSERT` Kiểm tra Sĩ số Lớp `SOSV < 50`",
+      "problem": "Cho CSDL `SV(MASV, HT, NSINH, MALOP)` và `LOP(MALOP, TENLOP, SOSV)`. Hãy viết Trigger cho bảng `SV` sao cho khi bổ sung một bản ghi mới vào bảng `SV` thì Trigger sẽ thực hiện việc tăng `SOSV` của lớp tương ứng ở bảng `LOP` nếu `SOSV` hiện có của lớp đó `< 50`. Ngược lại thì hủy bỏ thao tác bổ sung dữ liệu.",
+      "solution_steps": [
+        "Bước 1: Xác định bảng gắn Trigger và sự kiện\n- Gắn Trigger `SV_INSERT` lên bảng `SV` với sự kiện `AFTER INSERT`.",
+        "Bước 2: Truy xuất mã lớp của sinh viên mới và sĩ số hiện tại\n- Lấy `@MALOP = MALOP FROM INSERTED`.\n- Lấy `@SOSV = SOSV FROM LOP WHERE MALOP = @MALOP`.",
+        "Bước 3: Kiểm tra ràng buộc sĩ số tối đa (< 50)\n- Nếu `@SOSV < 50`: tăng `SOSV = SOSV + 1` cho lớp `@MALOP`.\n- Ngược lại (`@SOSV >= 50`): gọi `ROLLBACK TRANSACTION` để từ chối thêm sinh viên vào lớp đã đủ sĩ số.",
+        "Bước 4: Mã lệnh SQL hoàn chỉnh cho Trigger `SV_INSERT`\n```sql\nCREATE TRIGGER SV_INSERT\nON SV\nAFTER INSERT\nAS\nBEGIN\n    DECLARE @MALOP CHAR(2)\n    DECLARE @SOSV INT\n    SELECT @MALOP = MALOP FROM INSERTED\n    SELECT @SOSV = SOSV FROM LOP WHERE MALOP = @MALOP\n    IF @SOSV < 50\n        UPDATE LOP SET SOSV = SOSV + 1 WHERE MALOP = @MALOP\n    ELSE\n        ROLLBACK TRANSACTION\nEND\n```"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bài 7 (Giáo trình): Viết Trigger `NKBH_DELETE` Hoàn trả Tồn kho khi Xóa Bán hàng",
+      "problem": "Cho 2 bảng `MATHANG(MAH, TENH, SLHIENCO)` và `NHATKYBANHANG(STT, NGAY, MAH, SLBAN, GIA)`. Tạo Trigger có chức năng tự động tăng `SLHIENCO` trong bảng `MATHANG` khi hủy bỏ việc bán một mặt hàng nào đó (tức là khi lệnh `DELETE` được thực thi trên bảng `NHATKYBANHANG`).",
+      "solution_steps": [
+        "Bước 1: Xác định bảng gắn Trigger và sự kiện\n- Bảng chịu tác động lệnh xóa: `NHATKYBANHANG`.\n- Sự kiện kích hoạt: `AFTER DELETE`.",
+        "Bước 2: Phân tích dữ liệu hai bảng tạm `DELETED` và `INSERTED`\n- Khi thực thi `DELETE` trên `NHATKYBANHANG`, toàn bộ các bản ghi bị xóa nằm trong bảng tạm `DELETED`, còn bảng `INSERTED` trống.\n- Số lượng cần hoàn trả lại vào kho chính là `DELETED.SLBAN` ứng với `DELETED.MAH`.",
+        "Bước 3: Xây dựng câu lệnh cập nhật `MATHANG`\n- Cộng `DELETED.SLBAN` vào `MATHANG.SLHIENCO` với điều kiện ghép `MATHANG.MAH = DELETED.MAH`.",
+        "Bước 4: Mã lệnh SQL hoàn chỉnh cho Trigger `NKBH_DELETE`\n```sql\nCREATE TRIGGER NKBH_DELETE\nON NHATKYBANHANG\nAFTER DELETE\nAS\nUPDATE MATHANG\nSET MATHANG.SLHIENCO = MATHANG.SLHIENCO + DELETED.SLBAN\nFROM MATHANG, DELETED\nWHERE MATHANG.MAH = DELETED.MAH\n```"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bài 8 (Giáo trình): Trigger `NKBH_INSERT2` Kiểm tra `SLBAN <= SLHIENCO` và Xử lý Giao dịch",
+      "problem": "Tạo Trigger được kích hoạt khi bán một mặt hàng (khi `INSERT` một bản ghi mới vào bảng `NHATKYBANHANG(STT, NGAY, MAH, SLBAN, GIA)`). Trigger này sẽ kiểm tra số lượng hàng bán ra (`SLBAN`) có nhỏ hơn hoặc bằng số lượng hàng hiện có (`SLHIENCO`) trong `MATHANG(MAH, TENH, SLHIENCO)` không. Nếu đúng thì cập nhật lại `SLHIENCO`, nếu sai thì hủy bỏ thao tác bổ sung dữ liệu.",
+      "solution_steps": [
+        "Bước 1: Xác định cấu trúc Trigger `NKBH_INSERT2` theo lời giải giáo trình\n- Gắn trên bảng `NHATKYBANHANG` với `AFTER INSERT`.\n- Khai báo các biến `@SLCO INT`, `@SLBAN INT`, `@MAHANG CHAR(2)`.",
+        "Bước 2: Truy xuất dữ liệu từ bảng tạm `INSERTED` và bảng `MATHANG`\n- `SELECT @MAHANG = MAH, @SLBAN = SLBAN FROM INSERTED`.\n- `SELECT @SLCO = SLHIENCO FROM MATHANG WHERE MAH = @MAHANG`.",
+        "Bước 3: Đối chiếu điều kiện `SLBAN <= SLHIENCO` và quyết định `UPDATE` hay `ROLLBACK`\n- Nếu `@SLBAN <= @SLCO` thì thực hiện `UPDATE MATHANG SET SLHIENCO = SLHIENCO - @SLBAN WHERE MAH = @MAHANG`.\n- Ngược lại (`ELSE`), gọi `ROLLBACK TRANSACTION` (và có thể kèm `RAISERROR` thông báo lỗi theo yếu tố 4 của RBTV).",
+        "Bước 4: Mã lệnh SQL hoàn chỉnh (kèm lưu ý trường hợp `INSERT` nhiều dòng)\n```sql\nCREATE TRIGGER NKBH_INSERT2\nON NHATKYBANHANG\nAFTER INSERT\nAS\nBEGIN\n    DECLARE @SLCO INT\n    DECLARE @SLBAN INT\n    DECLARE @MAHANG CHAR(2)\n    SELECT @MAHANG = MAH, @SLBAN = SLBAN FROM INSERTED\n    SELECT @SLCO = SLHIENCO FROM MATHANG WHERE MAH = @MAHANG\n    IF @SLBAN <= @SLCO\n        UPDATE MATHANG\n        SET SLHIENCO = SLHIENCO - @SLBAN\n        WHERE MAH = @MAHANG\n    ELSE\n        ROLLBACK TRANSACTION\nEND\n```\n*(Ghi chú mở rộng: nếu lệnh `INSERT` chèn nhiều dòng cùng lúc, nên kiểm tra `IF EXISTS (SELECT 1 FROM INSERTED i JOIN MATHANG m ON i.MAH = m.MAH WHERE i.SLBAN > m.SLHIENCO)` trước khi cập nhật hàng loạt).* "
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bài 9 (Giáo trình): Phân tích Mục đích RBTV Dữ liệu và Toàn vẹn Tham chiếu",
+      "problem": "Phân tích và giải thích đáp án đúng cho 2 câu hỏi trong Bài 9 (Bài tập tự giải):\n1. Ràng buộc toàn vẹn dữ liệu được sử dụng để làm gì? (A. Kiểm soát người dùng truy cập; B. Đảm bảo bản ghi trùng lặp không được nhập; C. Cải thiện chất lượng dữ liệu được nhập cho một thuộc tính cụ thể; D. Ngăn người dùng thay đổi giá trị lưu trong bảng).\n2. Tình huống nào được giải quyết bằng thực thi ràng buộc toàn vẹn tham chiếu? (A. Số điện thoại phải gồm mã vùng; B. Một số trường bắt buộc nhập; C. Thông tin về khách hàng phải được biết trước khi bán bất cứ thứ gì cho khách hàng đó; D. Số lượng đặt hàng phải là số chứ không phải văn bản).",
+      "solution_steps": [
+        "Bước 1: Phân tích câu hỏi 1 — Mục đích tổng quát của RBTV dữ liệu\n- Đáp án đúng là **C**: *Cải thiện chất lượng dữ liệu được nhập cho một thuộc tính cụ thể* (tính chính xác, hợp lệ và nhất quán theo quy tắc quản lý).\n- Loại trừ các phương án còn lại: A mô tả cơ chế bảo mật/phân quyền truy cập (do DBA quản lý); B chỉ nói về một khía cạnh hẹp là duy nhất khóa chính (`Primary Key`), không bao quát toàn bộ RBTV; D sai hoàn toàn vì người dùng hợp lệ vẫn có thể cập nhật dữ liệu nếu thỏa mãn RBTV.",
+        "Bước 2: Phân tích câu hỏi 2 — Bản chất của Toàn vẹn tham chiếu (Referential Integrity)\n- Toàn vẹn tham chiếu chính là ràng buộc về phụ thuộc tồn tại / khóa ngoại ($S[W] \\subseteq R[W]$): mỗi giá trị khóa ngoại ở bảng con phải tham chiếu tới một giá trị khóa nội đã tồn tại ở bảng cha.",
+        "Bước 3: Đối chiếu 4 phương án của câu hỏi 2\n- Đáp án đúng là **C**: *Thông tin về khách hàng phải được biết trước khi có thể bán bất cứ thứ gì cho khách hàng đó* — tương ứng với ràng buộc `HOADON[MSKH] ⊆ KHACHHANG[MSKH]` (muốn lập hóa đơn cho một khách hàng thì mã khách hàng đó phải tồn tại trước trong bảng `KHACHHANG`).",
+        "Bước 4: Giải thích vì sao A, B, D ở câu 2 không phải toàn vẹn tham chiếu\n- Phương án A (số điện thoại phải gồm mã vùng): là ràng buộc định dạng / miền giá trị (`Check constraint`).\n- Phương án B (bắt buộc nhập email hoặc số điện thoại): là ràng buộc giá trị không rỗng (`NOT NULL`).\n- Phương án D (nhập `12` thay vì `'một tá'`): là ràng buộc về kiểu dữ liệu (`Data Type`, ví dụ `INT`)."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bài 10 (Giáo trình): Phát hiện RBTV và Vẽ Bảng Tầm Ảnh Hưởng CSDL Quản lý Bộ phim",
+      "problem": "Cho CSDL quản lý các bộ phim: `BOPHIM(MABP, TIEUDE, NAMSX, TENDAODIEN)`, `NGUOIDANHGIA(MA_NGDANHGIA, TEN_NGDANHGIA)`, `XEPHANG(ID_RATING, MABP, MA_NGDANHGIA, SOSAO, NGAY_DANHGIA)` (mức sao 1–5). (a) Trình bày tối thiểu 8 loại ràng buộc có thể có trên CSDL trên (không kể khóa chính); (b) Vẽ bảng tầm ảnh hưởng của các ràng buộc đó.",
+      "solution_steps": [
+        "Bước 1: Xác định các RBTV phụ thuộc tồn tại (khóa ngoại) `R1..R2`\n- `R1`: Mỗi đánh giá trong `XEPHANG` phải ứng với một bộ phim có trong `BOPHIM`: `XEPHANG[MABP] ⊆ BOPHIM[MABP]`.\n- `R2`: Mỗi đánh giá trong `XEPHANG` phải do một người đánh giá có trong `NGUOIDANHGIA` thực hiện: `XEPHANG[MA_NGDANHGIA] ⊆ NGUOIDANHGIA[MA_NGDANHGIA]`.",
+        "Bước 2: Xác định các RBTV miền giá trị, liên thuộc tính và liên bộ (`R3..R8`)\n- `R3`: Số sao đánh giá `SOSAO` trong `XEPHANG` nằm trong miền `1..5`: `∀ xh ∈ XEPHANG : 1 <= xh.SOSAO <= 5`.\n- `R4`: Năm sản xuất `NAMSX` của bộ phim hợp lệ (ví dụ `1895 <= bp.NAMSX <= year(getdate())`).\n- `R5`: Ngày đánh giá `NGAY_DANHGIA` trong `XEPHANG` phải `<= Ngày hiện hành`.\n- `R6` (Liên bộ - liên quan hệ / liên thuộc tính): Năm của `NGAY_DANHGIA` của bộ phim phải lớn hơn hoặc bằng năm sản xuất `NAMSX` của bộ phim đó (`year(xh.NGAY_DANHGIA) >= bp.NAMSX` với `xh.MABP = bp.MABP`).\n- `R7` (Miền giá trị không rỗng): `TIEUDE`, `TENDAODIEN` của `BOPHIM` và `TEN_NGDANHGIA` của `NGUOIDANHGIA` không được để rỗng (`NOT NULL`).\n- `R8` (Liên bộ): Mỗi người đánh giá chỉ được xếp hạng tối đa 1 lần cho một bộ phim trong cùng một ngày (`(MABP, MA_NGDANHGIA, NGAY_DANHGIA)` duy nhất trên `XEPHANG`).",
+        "Bước 3: Vẽ bảng tầm ảnh hưởng cho `R1`, `R2` (Khóa ngoại)\n- `R1`: `XEPHANG` (Thêm `+`, Sửa `+(MABP)`, Xóa `-`); `BOPHIM` (Thêm `-`, Sửa `-(*)`, Xóa `+`).\n- `R2`: `XEPHANG` (Thêm `+`, Sửa `+(MA_NGDANHGIA)`, Xóa `-`); `NGUOIDANHGIA` (Thêm `-`, Sửa `-(*)`, Xóa `+`).",
+        "Bước 4: Vẽ bảng tầm ảnh hưởng cho `R3..R8`\n- `R3`: `XEPHANG` (Thêm `+`, Sửa `+(SOSAO)`, Xóa `-`).\n- `R4`: `BOPHIM` (Thêm `+`, Sửa `+(NAMSX)`, Xóa `-`).\n- `R5`: `XEPHANG` (Thêm `+`, Sửa `+(NGAY_DANHGIA)`, Xóa `-`).\n- `R6`: `XEPHANG` (Thêm `+`, Sửa `+(MABP, NGAY_DANHGIA)`, Xóa `-`); `BOPHIM` (Thêm `-`, Sửa `+(NAMSX)`, Xóa `-`).\n- `R7`: `BOPHIM` (Thêm `+`, Sửa `+(TIEUDE, TENDAODIEN)`, Xóa `-`); `NGUOIDANHGIA` (Thêm `+`, Sửa `+(TEN_NGDANHGIA)`, Xóa `-`).\n- `R8`: `XEPHANG` (Thêm `+`, Sửa `+(MABP, MA_NGDANHGIA, NGAY_DANHGIA)`, Xóa `-`)."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bài 11 (Giáo trình): Phát hiện RBTV, Bảng Tầm Ảnh Hưởng Đơn & Tổng Hợp CSDL Bán xe",
+      "problem": "Cho CSDL quản lý bán xe: `XE(MSXE, SOKHUNG, SOMAY, HIEUXE)`, `HOADONBAN(MSHD, MSNV, TONGTIEN, NGAYHD, MSXE, MSKH)`, `CHITIETTT(MSHD, LAN, NGAYTRA, SOTIEN, MSNV)`, `NHANVIEN(MSNV, TENNV, DIACHI, SODT)`, `KHACHHANG(MSKH, TENKH, DIACHI, SODT)`. Trong đó `CHITIETTT` là chi tiết thanh toán tiền mua xe và số lần thanh toán tối đa là 3 lần cho mỗi hóa đơn bán xe. (a) Phát hiện tối thiểu 8 RBTV; (b) Vẽ bảng tầm ảnh hưởng từng RBTV; (c) Vẽ bảng tầm ảnh hưởng tổng hợp.",
+      "solution_steps": [
+        "Bước 1: Phát hiện 9 RBTV tiêu biểu (không kể khóa chính)\n- `R1`: `HOADONBAN[MSXE] ⊆ XE[MSXE]`.\n- `R2`: `HOADONBAN[MSNV] ⊆ NHANVIEN[MSNV]`.\n- `R3`: `HOADONBAN[MSKH] ⊆ KHACHHANG[MSKH]`.\n- `R4`: `CHITIETTT[MSHD] ⊆ HOADONBAN[MSHD]`.\n- `R5`: `CHITIETTT[MSNV] ⊆ NHANVIEN[MSNV]`.\n- `R6` (Miền giá trị): Số lần thanh toán `1 <= LAN <= 3` và `SOTIEN > 0` trong `CHITIETTT`; `TONGTIEN > 0` trong `HOADONBAN`.\n- `R7` (Liên bộ trên `XE`): `SOKHUNG` và `SOMAY` của mỗi chiếc xe phải duy nhất (`xe1 != xe2 => xe1.SOKHUNG != xe2.SOKHUNG` và `xe1.SOMAY != xe2.SOMAY`).\n- `R8` (Liên bộ - liên quan hệ giữa `CHITIETTT` và `HOADONBAN`): Ngày thanh toán `NGAYTRA >= NGAYHD` của hóa đơn tương ứng; đồng thời tổng tiền trả các lần không vượt quá tổng tiền hóa đơn: `SUM(ct.SOTIEN : ct.MSHD = hd.MSHD) <= hd.TONGTIEN`.\n- `R9` (Liên bộ trên `HOADONBAN`): Mỗi chiếc xe (`MSXE`) chỉ bán trên một hóa đơn (`hd1 != hd2 => hd1.MSXE != hd2.MSXE`).",
+        "Bước 2: Bảng tầm ảnh hưởng cho các khóa ngoại (`R1..R5`)\n- `R1`: `HOADONBAN` (`+`, `+(MSXE)`, `-`); `XE` (`-`, `-(*)`, `+`).\n- `R2`: `HOADONBAN` (`+`, `+(MSNV)`, `-`); `NHANVIEN` (`-`, `-(*)`, `+`).\n- `R3`: `HOADONBAN` (`+`, `+(MSKH)`, `-`); `KHACHHANG` (`-`, `-(*)`, `+`).\n- `R4`: `CHITIETTT` (`+`, `+(MSHD)`, `-`); `HOADONBAN` (`-`, `-(*)`, `+`).\n- `R5`: `CHITIETTT` (`+`, `+(MSNV)`, `-`); `NHANVIEN` (`-`, `-(*)`, `+`).",
+        "Bước 3: Bảng tầm ảnh hưởng cho `R6..R9`\n- `R6`: `CHITIETTT` (`+`, `+(LAN, SOTIEN)`, `-`); `HOADONBAN` (`+`, `+(TONGTIEN)`, `-`).\n- `R7`: `XE` (`+`, `+(SOKHUNG, SOMAY)`, `-`).\n- `R8`: `CHITIETTT` (`+`, `+(MSHD, NGAYTRA, SOTIEN)`, `-`); `HOADONBAN` (`+`, `+(TONGTIEN, NGAYHD)`, `-`).\n- `R9`: `HOADONBAN` (`+`, `+(MSXE)`, `-`).",
+        "Bước 4: Xây dựng Bảng tầm ảnh hưởng tổng hợp theo 5 quan hệ (T / S / X)\n- `XE`: T(`R7`), S(`R1:-(*), R7:+(SOKHUNG, SOMAY)`), X(`R1`).\n- `HOADONBAN`: T(`R1, R2, R3, R6, R8, R9`), S(`R1:+(MSXE), R2:+(MSNV), R3:+(MSKH), R4:-(*), R6:+(TONGTIEN), R8:+(TONGTIEN, NGAYHD), R9:+(MSXE)`), X(`R4`).\n- `CHITIETTT`: T(`R4, R5, R6, R8`), S(`R4:+(MSHD), R5:+(MSNV), R6:+(LAN, SOTIEN), R8:+(MSHD, NGAYTRA, SOTIEN)`), X(`-`).\n- `NHANVIEN`: T(`-`), S(`R2:-(*), R5:-(*)`), X(`R2, R5`).\n- `KHACHHANG`: T(`-`), S(`R3:-(*)`), X(`R3`)."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Bài 12 (Giáo trình): Viết Trigger `SV_DELETE` Kiểm tra `SOSV > 50` khi Xóa Sinh viên",
+      "problem": "Cho CSDL `SV(MASV, HT, NSINH, MALOP)` và `LOP(MALOP, TENLOP, SOSV)`. Hãy viết Trigger cho bảng `SV` theo yêu cầu: Khi xóa một bản ghi khỏi bảng `SV` thì Trigger sẽ thực hiện việc giảm `SOSV` của lớp tương ứng ở bảng `LOP` nếu `SOSV` hiện có của lớp đó `> 50`. Ngược lại thì hủy bỏ thao tác xóa dữ liệu.",
+      "solution_steps": [
+        "Bước 1: Xác định bảng gắn Trigger và sự kiện\n- Bảng chịu tác động: `SV`.\n- Sự kiện kích hoạt: `AFTER DELETE`.",
+        "Bước 2: Lấy mã lớp của sinh viên bị xóa từ bảng tạm `DELETED`\n- Vì lệnh là `DELETE`, dòng bị xóa được lưu trong bảng `DELETED` (bảng `INSERTED` rỗng).\n- Đọc `@MALOP = MALOP FROM DELETED` và truy vấn sĩ số hiện tại `@SOSV = SOSV FROM LOP WHERE MALOP = @MALOP`.",
+        "Bước 3: Kiểm tra điều kiện `@SOSV > 50`\n- Nếu `@SOSV > 50`: giảm sĩ số lớp đó đi 1 (`SET SOSV = SOSV - 1`).\n- Ngược lại (`@SOSV <= 50`): gọi `ROLLBACK TRANSACTION` để hủy thao tác xóa sinh viên.",
+        "Bước 4: Mã lệnh SQL hoàn chỉnh cho Trigger `SV_DELETE`\n```sql\nCREATE TRIGGER SV_DELETE\nON SV\nAFTER DELETE\nAS\nBEGIN\n    DECLARE @MALOP CHAR(2)\n    DECLARE @SOSV INT\n    SELECT @MALOP = MALOP FROM DELETED\n    SELECT @SOSV = SOSV FROM LOP WHERE MALOP = @MALOP\n    IF @SOSV > 50\n        UPDATE LOP SET SOSV = SOSV - 1 WHERE MALOP = @MALOP\n    ELSE\n        ROLLBACK TRANSACTION\nEND\n```"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Bài 13 (Giáo trình): Phát hiện RBTV và Viết Trigger trên `PHONGBAN - NHANVIEN - CONGVIEC`",
+      "problem": "Cho CSDL công ty: `PHONGBAN(MAP, TENP, TENTP, SODT, KINHPHI, DOANHTHU, SONV)`, `NHANVIEN(MANV, TENNV, MACV, MAP, NSINH, PHAI, LUONG)`, `CONGVIEC(MACV, TENCV, LUONGTOITHIEU, LUONGTDA)`. (a) Trình bày tối thiểu 5 RBTV (không kể khóa chính); (b) Viết Trigger cho bảng `CONGVIEC` (kiểm tra tính hợp lệ lương tối thiểu/tối đa và đồng bộ mức lương nhân viên); (c) Khi thêm một nhân viên vào bảng `NHANVIEN` thì Trigger tăng `SONV` của phòng tương ứng ở bảng `PHONGBAN`.",
+      "solution_steps": [
+        "Bước 1: Trình bày tối thiểu 5 RBTV trên CSDL (câu a)\n- `R1` (Khóa ngoại): `NHANVIEN[MAP] ⊆ PHONGBAN[MAP]`.\n- `R2` (Khóa ngoại): `NHANVIEN[MACV] ⊆ CONGVIEC[MACV]`.\n- `R3` (Liên thuộc tính trên `CONGVIEC`): `∀ cv ∈ CONGVIEC : 0 < cv.LUONGTOITHIEU <= cv.LUONGTDA`.\n- `R4` (Liên quan hệ giữa `NHANVIEN` và `CONGVIEC`): Lương của mỗi nhân viên phải nằm trong khung lương công việc đảm nhận: `cv.LUONGTOITHIEU <= nv.LUONG <= cv.LUONGTDA` (với `nv.MACV = cv.MACV`).\n- `R5` (Liên bộ - liên quan hệ giữa `PHONGBAN` và `NHANVIEN`): `pb.SONV = COUNT(nv ∈ NHANVIEN : nv.MAP = pb.MAP)` (cùng miền giá trị `PHAI ∈ {'Nam', 'Nữ'}`, tuổi lao động 18–62/60).",
+        "Bước 2: Viết Trigger cho bảng `CONGVIEC` kiểm tra khung lương (`R3`, `R4`) (câu b)\n- Khi thêm hoặc sửa `CONGVIEC`, đảm bảo `LUONGTOITHIEU <= LUONGTDA` và không có nhân viên nào đang giữ `MACV` đó có `LUONG` nằm ngoài khung mới:\n```sql\nCREATE TRIGGER CV_INS_UPD\nON CONGVIEC\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    IF EXISTS (SELECT 1 FROM INSERTED WHERE LUONGTOITHIEU <= 0 OR LUONGTOITHIEU > LUONGTDA)\n        ROLLBACK TRANSACTION\n    ELSE IF EXISTS (\n        SELECT 1 FROM NHANVIEN nv JOIN INSERTED i ON nv.MACV = i.MACV\n        WHERE nv.LUONG < i.LUONGTOITHIEU OR nv.LUONG > i.LUONGTDA\n    )\n        ROLLBACK TRANSACTION\nEND\n```",
+        "Bước 3: Phân tích Trigger tăng `SONV` khi thêm nhân viên vào `NHANVIEN` (câu c)\n- Gắn Trigger lên bảng `NHANVIEN` với sự kiện `AFTER INSERT`.\n- Đọc mã phòng `MAP` từ bảng tạm `INSERTED` và cập nhật tăng `SONV` trên `PHONGBAN` (dùng phép kết hoặc `GROUP BY` để xử lý đúng cả khi chèn 1 hoặc nhiều nhân viên cùng lúc).",
+        "Bước 4: Mã lệnh SQL hoàn chỉnh cho Trigger trên `NHANVIEN` (câu c)\n```sql\nCREATE TRIGGER NV_INSERT_SONV\nON NHANVIEN\nAFTER INSERT\nAS\nBEGIN\n    UPDATE PHONGBAN\n    SET PHONGBAN.SONV = PHONGBAN.SONV + T.SL\n    FROM PHONGBAN\n    JOIN (SELECT MAP, COUNT(*) AS SL FROM INSERTED GROUP BY MAP) T\n        ON PHONGBAN.MAP = T.MAP\nEND\n```"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bài 14 (Mở rộng): Lập Bảng Tầm Ảnh Hưởng Tổng Hợp cho CSDL Quản lý Sinh viên",
+      "problem": "Dựa vào Mục 1.2 trong giáo trình, cho CSDL Quản lý sinh viên gồm `KHOA(makhoa, tenkhoa)`, `LOPHOC(malop, tenlop, sosinhvien, makhoa)`, `SINHVIEN(masv, tensv, nsinh, malop)`, `KETQUA(masv, mamon, lanthi, diemthi)` với 5 ràng buộc `R1..R5`. Hãy trình bày đầy đủ 4 yếu tố của từng RBTV, lập bảng tầm ảnh hưởng tổng hợp và chỉ ra các RBTV cần kiểm tra cho 3 thao tác: (a) Thêm `SINHVIEN`; (b) Sửa `LOPHOC.sosinhvien`; (c) Xóa `KHOA`.",
+      "solution_steps": [
+        "Bước 1: Đặc tả điều kiện và bối cảnh cho `R1..R5`\n- `R1`: `LOPHOC[makhoa] ⊆ KHOA[makhoa]` (Bối cảnh: `LOPHOC`, `KHOA`).\n- `R2`: `SINHVIEN[malop] ⊆ LOPHOC[malop]` (Bối cảnh: `SINHVIEN`, `LOPHOC`).\n- `R3`: `∀ sv1, sv2 ∈ SINHVIEN, sv1 != sv2 => sv1.masv != sv2.masv` (Bối cảnh: `SINHVIEN`).\n- `R4`: `∀ kq ∈ KETQUA : 0 <= kq.lanthi <= 2` (Bối cảnh: `KETQUA`).\n- `R5`: `∀ lh ∈ LOPHOC : lh.sosinhvien = COUNT(sv ∈ SINHVIEN : sv.malop = lh.malop)` (Bối cảnh: `LOPHOC`, `SINHVIEN`).",
+        "Bước 2: Lập Bảng tầm ảnh hưởng tổng hợp cho `KHOA`, `LOPHOC`, `SINHVIEN`, `KETQUA`\n- `KHOA`: T(`-`), S(`R1:-(*)`), X(`R1:+`).\n- `LOPHOC`: T(`R1:+, R5:+`), S(`R1:+(makhoa), R2:-(*), R5:+(sosinhvien)`), X(`R2:+`).\n- `SINHVIEN`: T(`R2:+, R3:+, R5:+`), S(`R2:+(malop), R3:-(*), R5:+(malop)`), X(`R5:+`).\n- `KETQUA`: T(`R4:+`), S(`R4:+(lanthi)`), X(`-`).",
+        "Bước 3: Xác định hành động khi vi phạm (yếu tố 4)\n- Khi bất kỳ thao tác nào làm vi phạm một trong `R1..R5`, hệ thống đưa ra thông báo lỗi rõ ràng dữ liệu nào không hợp lệ và từ chối thao tác cập nhật (`ROLLBACK TRANSACTION`), hoặc tự động cập nhật đồng bộ (với `R5`).",
+        "Bước 4: Tra cứu 3 thao tác cụ thể từ bảng tổng hợp\n- (a) Thêm `SINHVIEN`: kiểm tra `R2` (`malop` tồn tại ở `LOPHOC`), `R3` (`masv` không trùng) và `R5` (cập nhật sĩ số `LOPHOC`).\n- (b) Sửa `LOPHOC.sosinhvien`: chỉ kiểm tra `R5`.\n- (c) Xóa `KHOA`: kiểm tra `R1` (không còn lớp nào thuộc khoa bị xóa)."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bài 15 (Mở rộng): Phân tích RBTV Chu trình Đồ thị `Q1 - Q2 - Q3`",
+      "problem": "Xét CSDL phân công đề án gồm 3 quan hệ: `Q1(manv, maphong)`, `Q2(maphong, madean)`, `Q3(madean, manv)`. Hãy trình bày cách biểu diễn CSDL bằng đồ thị để nhận diện chu trình, phân tích 2 cách xác định đề án của nhân viên, phân biệt điều kiện ràng buộc dùng dấu `=` và dấu `⊆`, và nêu các thao tác có nguy cơ vi phạm.",
+      "solution_steps": [
+        "Bước 1: Biểu diễn cấu trúc CSDL bằng đồ thị vô hướng\n- Tạo 3 nút quan hệ (`Q1`, `Q2`, `Q3`) và 3 nút thuộc tính (`manv`, `maphong`, `madean`).\n- Nối các cung vô hướng từ thuộc tính tới quan hệ chứa nó: `manv — Q1 — maphong — Q2 — madean — Q3 — manv`.\n- Đường nối khép kín tạo thành một **chu trình** trên đồ thị, làm phát sinh RBTV đảm bảo tính nhất quán.",
+        "Bước 2: Phân tích 2 cách xác định đề án mà nhân viên tham gia\n- Cách 1 (trực tiếp): Từ một `manv`, tra trực tiếp trong `Q3(madean, manv)` để biết tập `madean` của nhân viên đó.\n- Cách 2 (gián tiếp qua kết nối): Kết nối `Q1(manv, maphong)` với `Q2(maphong, madean)` qua thuộc tính chung `maphong` để suy ra các đề án thuộc phòng của nhân viên.",
+        "Bước 3: Phân biệt hai trường hợp điều kiện ràng buộc (`=` và `⊆`)\n- Trường hợp 1 — Quy định *'Mỗi nhân viên được tham gia vào **tất cả** các đề án do phòng đó phụ trách'*: bắt buộc 2 tập hợp bằng nhau hoàn toàn:\n  `Q3[manv, madean] = (Q1 kết nối Q2)[manv, madean]`.\n- Trường hợp 2 — Quy định *'Mỗi nhân viên được tham gia vào **một số** đề án do phòng đó phụ trách'*: tập phân công thực tế trong `Q3` là tập con:\n  `Q3[manv, madean] ⊆ (Q1 kết nối Q2)[manv, madean]`.",
+        "Bước 4: Phân tích tầm ảnh hưởng của RBTV chu trình\n- Với dấu `⊆`: Thêm/Sửa bộ trong `Q3` có nguy cơ đưa vào cặp `(manv, madean)` không nằm trong `Q1 ⋈ Q2`; Xóa/Sửa `maphong` trong `Q1` hoặc `Q2` có nguy cơ làm mất cặp đang có ở `Q3`.\n- Với dấu `=`: Mọi thao tác Thêm, Sửa, Xóa trên cả 3 quan hệ `Q1`, `Q2`, `Q3` đều có nguy cơ làm hai vế không còn bằng nhau nên đều cần kiểm tra hoặc đồng bộ tự động."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bài 16 (Mở rộng): Biểu diễn RBTV bằng Phụ thuộc Hàm và ĐSQH cho `HOADON - DMHANG - CHITIETHD`",
+      "problem": "Cho CSDL Quản lý hóa đơn bán hàng: `HOADON(Sohoadon, Sochungloaimathang, Tongtrigia)`, `DMHANG(Mahang, Tenhang)`, `CHITIETHD(Sohoadon, Mahang, Soluong, Dongia, Thanhtien)`. Hãy: (a) Biểu diễn `R1..R3` bằng đại số quan hệ / vị từ; (b) Biểu diễn các phụ thuộc hàm trên `HOADON` và `CHITIETHD`; (c) Giải thích vì sao một số RBTV không biểu diễn được bằng phụ thuộc hàm và phân tích việc giữ hay bỏ thuộc tính `Thanhtien`.",
+      "solution_steps": [
+        "Bước 1: Biểu diễn `R1..R3` bằng đại số quan hệ và hàm tổng hợp\n- `R1` (Phụ thuộc tồn tại): `CHITIETHD[Mahang] ⊆ DMHANG[Mahang]` (và `CHITIETHD[Sohoadon] ⊆ HOADON[Sohoadon]`).\n- `R2` (Liên bộ - liên quan hệ): `∀ hd ∈ HOADON : hd.Tongtrigia = SUM(cthd.Thanhtien : cthd ∈ CHITIETHD, cthd.Sohoadon = hd.Sohoadon)`.\n- `R3` (Liên bộ - liên quan hệ): `∀ hd ∈ HOADON : hd.Sochungloaimathang = COUNT(cthd ∈ CHITIETHD : cthd.Sohoadon = hd.Sohoadon)`.",
+        "Bước 2: Biểu diễn các Phụ thuộc hàm (Mục 1.4.2)\n- Trên `HOADON`: `f1: Sohoadon -> Sochungloaimathang, Tongtrigia` (vì `Sohoadon` là khóa, xác định mọi thông tin còn lại của hóa đơn).\n- Trên `CHITIETHD`: `f1: Sohoadon, Mahang -> Soluong, Dongia, Thanhtien` và `f2: Soluong, Dongia -> Thanhtien`.\n- Trên `DMHANG`: `Mahang -> Tenhang`.",
+        "Bước 3: Giải thích giới hạn của phụ thuộc hàm\n- Phụ thuộc hàm `X -> Y` chỉ biểu diễn được sự xác định duy nhất (tính đơn trị của ánh xạ, điển hình là tính duy nhất của khóa hay sự phụ thuộc hàm từ `Soluong, Dongia` sang `Thanhtien`).\n- Các RBTV như phụ thuộc tồn tại (`R1`), công thức cộng dồn/đếm (`R2`, `R3`), hoặc miền giá trị (`Soluong > 0`) không biểu diễn được bằng phụ thuộc hàm.",
+        "Bước 4: Phân tích thiết kế đối với thuộc tính tính toán `Thanhtien`\n- `Thanhtien = Soluong * Dongia` tạo ra sự dư thừa có chủ ý: giữ lại giúp đối chiếu dữ liệu nhập vào với công thức để phát hiện sai sót; tuy nhiên để tránh dư thừa và giảm chi phí lưu trữ/kiểm tra RBTV, có thể loại bỏ `Thanhtien` và viết lại `R2` dùng `SUM(cthd.Soluong * cthd.Dongia)`."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Bài 17 (Mở rộng): Viết Trigger Kiểm tra Tuổi Nghỉ hưu Nam/Nữ trên `HSCB`",
+      "problem": "Dựa vào Ví dụ 1 Mục 1.3.1.2 về quan hệ `HSCB(macb, hoten, phai, ngsinh)` với quy định: cán bộ nam từ `18` đến `62` tuổi, cán bộ nữ từ `18` đến `60` tuổi mới được làm cán bộ nhà nước. Hãy viết Trigger trong SQL Server trên bảng `HSCB` khi thêm hoặc sửa dữ liệu (`INSERT, UPDATE`) để đảm bảo RBTV liên thuộc tính này không bị vi phạm.",
+      "solution_steps": [
+        "Bước 1: Xác định bối cảnh, sự kiện và công thức tính tuổi\n- Bối cảnh: Một quan hệ `HSCB`.\n- Sự kiện kích hoạt: `AFTER INSERT, UPDATE` (vì thêm mới hoặc sửa `phai`, `ngsinh` đều có nguy cơ vi phạm).\n- Tuổi cán bộ theo công thức giáo trình: `YEAR(GETDATE()) - YEAR(ngsinh)`.",
+        "Bước 2: Xác định điều kiện vi phạm trên bảng tạm `INSERTED`\n- Bản ghi trong `INSERTED` vi phạm nếu:\n  + `phai = N'Nam'` nhưng tuổi `< 18` hoặc `> 62`; HOẶC\n  + `phai = N'Nữ'` nhưng tuổi `< 18` hoặc `> 60`; HOẶC `phai` không hợp lệ.",
+        "Bước 3: Xử lý bằng `ROLLBACK TRANSACTION` khi phát hiện vi phạm\n- Dùng `IF EXISTS (SELECT 1 FROM INSERTED WHERE ...)` để kiểm tra đồng thời cho cả trường hợp thêm/sửa 1 dòng lẫn nhiều dòng; nếu tồn tại bản ghi vi phạm thì thông báo và gọi `ROLLBACK TRANSACTION`.",
+        "Bước 4: Mã lệnh SQL hoàn chỉnh cho Trigger `HSCB_KIEMTRA_TUOI`\n```sql\nCREATE TRIGGER HSCB_KIEMTRA_TUOI\nON HSCB\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    IF EXISTS (\n        SELECT 1 FROM INSERTED\n        WHERE (phai = N'Nam' AND (YEAR(GETDATE()) - YEAR(ngsinh) < 18 OR YEAR(GETDATE()) - YEAR(ngsinh) > 62))\n           OR (phai = N'Nữ' AND (YEAR(GETDATE()) - YEAR(ngsinh) < 18 OR YEAR(GETDATE()) - YEAR(ngsinh) > 60))\n           OR (phai NOT IN (N'Nam', N'Nữ'))\n    )\n    BEGIN\n        RAISERROR(N'Vi phạm độ tuổi cán bộ (Nam: 18-62, Nữ: 18-60).', 16, 1)\n        ROLLBACK TRANSACTION\n    END\nEND\n```"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Bài 18 (Mở rộng): Viết Trigger Kiểm tra `tamung <= luong` trên `NHANVIEN`",
+      "problem": "Dựa vào Ví dụ 2 Mục 1.3.1.2 về quan hệ `NHANVIEN(manv, tennv, luong, tamung, conlai)`. Hãy viết Trigger trong SQL Server khi thêm hoặc cập nhật trên bảng `NHANVIEN` để kiểm tra ràng buộc `tamung <= luong` (với `luong >= 0, tamung >= 0`); nếu vi phạm thì hủy bỏ thao tác, nếu hợp lệ thì tự động tính `conlai = luong - tamung`.",
+      "solution_steps": [
+        "Bước 1: Xác định bảng gắn Trigger và sự kiện\n- Bảng gắn Trigger: `NHANVIEN`.\n- Sự kiện kích hoạt: `AFTER INSERT, UPDATE` (kiểm tra khi thêm mới hoặc khi sửa `luong`, `tamung`).",
+        "Bước 2: Kiểm tra điều kiện vi phạm trên `INSERTED`\n- Nếu tồn tại dòng trong `INSERTED` có `tamung > luong` hoặc `luong < 0` hoặc `tamung < 0` thì coi là vi phạm RBTV.",
+        "Bước 3: Xử lý khi vi phạm và khi hợp lệ\n- Vi phạm: báo lỗi qua `RAISERROR` và gọi `ROLLBACK TRANSACTION`.\n- Hợp lệ: cập nhật `NHANVIEN.conlai = NHANVIEN.luong - NHANVIEN.tamung` cho các nhân viên vừa được thêm/sửa thông qua phép kết `JOIN INSERTED` theo khóa `manv`.",
+        "Bước 4: Mã lệnh SQL hoàn chỉnh cho Trigger `NV_KIEMTRA_TAMUNG`\n```sql\nCREATE TRIGGER NV_KIEMTRA_TAMUNG\nON NHANVIEN\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    IF EXISTS (SELECT 1 FROM INSERTED WHERE tamung > luong OR luong < 0 OR tamung < 0)\n    BEGIN\n        RAISERROR(N'Số tiền tạm ứng không được vượt quá lương.', 16, 1)\n        ROLLBACK TRANSACTION\n    END\n    ELSE\n        UPDATE nv\n        SET nv.conlai = nv.luong - nv.tamung\n        FROM NHANVIEN nv\n        JOIN INSERTED i ON nv.manv = i.manv\nEND\n```"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Bài 19 (Mở rộng): Viết Trigger Đồng bộ `Tongtrigia` trên `HOADON` khi Thêm/Sửa/Xóa `CHITIETHD`",
+      "problem": "Cho CSDL Quản lý hóa đơn bán hàng (Mục 1.1 & 1.3.2.2): `HOADON(Sohoadon, Sochungloaimathang, Tongtrigia)` và `CHITIETHD(Sohoadon, Mahang, Soluong, Dongia, Thanhtien)`. Hãy viết Trigger trên bảng `CHITIETHD` (cho cả `INSERT, UPDATE, DELETE`) để tự động tính `Thanhtien = Soluong * Dongia` và cập nhật lại đúng `Tongtrigia` trên bảng `HOADON`.",
+      "solution_steps": [
+        "Bước 1: Xác định bối cảnh và tầm ảnh hưởng của `R2` trên `CHITIETHD`\n- Cả 3 thao tác `INSERT`, `UPDATE`, `DELETE` trên `CHITIETHD` đều làm thay đổi tổng thành tiền của hóa đơn liên quan.\n- Do đó tạo Trigger `AFTER INSERT, UPDATE, DELETE` gắn với `CHITIETHD`.",
+        "Bước 2: Đồng bộ thuộc tính tính toán `Thanhtien` khi `INSERT` hoặc `UPDATE`\n- Với các dòng mới/vừa sửa trong `INSERTED`, cập nhật `CHITIETHD.Thanhtien = CHITIETHD.Soluong * CHITIETHD.Dongia` (nếu `EXISTS (SELECT 1 FROM INSERTED)`).",
+        "Bước 3: Gom danh sách các `Sohoadon` bị ảnh hưởng từ `INSERTED` và `DELETED`\n- Dùng `SELECT Sohoadon FROM INSERTED UNION SELECT Sohoadon FROM DELETED` để xử lý chính xác cả trường hợp `INSERT`, `DELETE`, hay `UPDATE` đổi sang số hóa đơn khác.",
+        "Bước 4: Cập nhật `Tongtrigia` trên `HOADON` bằng hàm `SUM` (dùng `ISNULL(..., 0)` khi xóa hết chi tiết)\n```sql\nCREATE TRIGGER CTHD_CAPNHAT_TONGTRIGIA\nON CHITIETHD\nAFTER INSERT, UPDATE, DELETE\nAS\nBEGIN\n    IF EXISTS (SELECT 1 FROM INSERTED)\n        UPDATE ct\n        SET ct.Thanhtien = ct.Soluong * ct.Dongia\n        FROM CHITIETHD ct\n        JOIN INSERTED i ON ct.Sohoadon = i.Sohoadon AND ct.Mahang = i.Mahang\n\n    UPDATE hd\n    SET hd.Tongtrigia = ISNULL((\n        SELECT SUM(ct.Thanhtien)\n        FROM CHITIETHD ct\n        WHERE ct.Sohoadon = hd.Sohoadon\n    ), 0)\n    FROM HOADON hd\n    WHERE hd.Sohoadon IN (\n        SELECT Sohoadon FROM INSERTED\n        UNION\n        SELECT Sohoadon FROM DELETED\n    )\nEND\n```"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Bài 20 (Mở rộng): Viết Trigger Đồng bộ `Sochungloaimathang` trên `HOADON` khi Thêm/Sửa/Xóa `CHITIETHD`",
+      "problem": "Tiếp tục với CSDL Quản lý hóa đơn bán hàng: `HOADON(Sohoadon, Sochungloaimathang, Tongtrigia)` và `CHITIETHD(Sohoadon, Mahang, Soluong, Dongia, Thanhtien)`. Hãy phân tích tầm ảnh hưởng của ràng buộc `R3: hd.Sochungloaimathang = COUNT(cthd ∈ CHITIETHD : cthd.Sohoadon = hd.Sohoadon)` và viết Trigger trên `CHITIETHD` tự động cập nhật `Sochungloaimathang` khi thêm, sửa hoặc xóa chi tiết hóa đơn.",
+      "solution_steps": [
+        "Bước 1: Phân tích bảng tầm ảnh hưởng của `R3`\n- Trên `HOADON`: Thêm (`+`, giá trị khởi tạo phải bằng 0), Sửa (`+(Sochungloaimathang)`), Xóa (`-`).\n- Trên `CHITIETHD`: Thêm (`+`), Sửa (`+(Sohoadon, Mahang)`), Xóa (`+`).",
+        "Bước 2: Xác định tập các `Sohoadon` cần tính lại số chủng loại mặt hàng\n- Hợp nhất (`UNION`) các `Sohoadon` xuất hiện trong `INSERTED` và `DELETED` để bao phủ cả trường hợp thêm dòng, xóa dòng hoặc chuyển dòng chi tiết từ hóa đơn cũ sang hóa đơn mới.",
+        "Bước 3: Áp dụng hàm `COUNT` trên `CHITIETHD` để cập nhật `HOADON.Sochungloaimathang`\n- Với mỗi `Sohoadon` bị ảnh hưởng, đếm lại số bộ hiện còn trong `CHITIETHD` (`SELECT COUNT(*) FROM CHITIETHD ct WHERE ct.Sohoadon = hd.Sohoadon`). Nếu hóa đơn không còn dòng chi tiết nào, `COUNT(*)` trả về `0`.",
+        "Bước 4: Mã lệnh SQL hoàn chỉnh cho Trigger `CTHD_CAPNHAT_SOCHUNGLOAI`\n```sql\nCREATE TRIGGER CTHD_CAPNHAT_SOCHUNGLOAI\nON CHITIETHD\nAFTER INSERT, UPDATE, DELETE\nAS\nBEGIN\n    UPDATE hd\n    SET hd.Sochungloaimathang = (\n        SELECT COUNT(*)\n        FROM CHITIETHD ct\n        WHERE ct.Sohoadon = hd.Sohoadon\n    )\n    FROM HOADON hd\n    WHERE hd.Sohoadon IN (\n        SELECT Sohoadon FROM INSERTED\n        UNION\n        SELECT Sohoadon FROM DELETED\n    )\nEND\n```"
+      ]
+    }
+  ]
+}
