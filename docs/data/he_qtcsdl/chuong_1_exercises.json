@@ -1,0 +1,1165 @@
+{
+  "chapter_id": "chuong_1",
+  "chapter_title": "Chương 1: Tổng quan về cơ sở dữ liệu",
+  "multiple_choice": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Trong các ứng dụng cơ sở dữ liệu truyền thống (như giao dịch ngân hàng, thanh toán tại siêu thị), hầu hết thông tin được lưu trữ và truy cập ở dạng nào?",
+      "options": {
+        "A": "Dạng văn bản hoặc số.",
+        "B": "Dạng video kỹ thuật số và âm thanh vòm.",
+        "C": "Dạng bản đồ vệ tinh và ảnh viễn thám GIS.",
+        "D": "Dạng mô hình đồ họa 3D thời gian thực."
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình nêu rõ: trong các ứng dụng CSDL truyền thống (ngân hàng, siêu thị), hầu hết thông tin được lưu trữ và truy cập ở dạng văn bản hoặc số. Các dạng hình ảnh, âm thanh, video thuộc CSDL đa phương tiện (B); bản đồ vệ tinh thuộc GIS (C); còn đồ họa 3D (D) không phải dạng lưu trữ của ứng dụng truyền thống."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Hệ thống thông tin địa lý (Geographic Information Systems - GIS) là ứng dụng cơ sở dữ liệu hiện đại chuyên lưu trữ và phân tích loại dữ liệu nào?",
+      "options": {
+        "A": "Hóa đơn thanh toán và tồn kho hàng hóa tại siêu thị.",
+        "B": "Bản đồ, dữ liệu thời tiết và hình ảnh vệ tinh.",
+        "C": "Danh mục thẻ thư viện và lịch sử mượn trả sách.",
+        "D": "Hồ sơ điểm thi và điều kiện tiên quyết môn học."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo giáo trình, Hệ thống thông tin địa lý (GIS) có thể lưu trữ và phân tích bản đồ, dữ liệu thời tiết và hình ảnh vệ tinh. Các phương án A, C, D là dữ liệu quản lý nghiệp vụ dạng văn bản/số thông thường."
+    },
+    {
+      "id": 3,
+      "difficulty": "medium",
+      "question": "Trong các hệ thống thông tin doanh nghiệp hiện đại, kho dữ liệu và hệ thống xử lý phân tích trực tuyến (OLAP) được sử dụng nhằm mục đích chính nào?",
+      "options": {
+        "A": "Thay thế hoàn toàn thiết bị nhớ thứ cấp bằng bộ nhớ tạm thời.",
+        "B": "Chỉ lưu trữ tệp âm thanh và video kỹ thuật số dung lượng lớn.",
+        "C": "Trích xuất và phân tích thông tin kinh doanh hữu ích từ CSDL rất lớn để hỗ trợ ra quyết định.",
+        "D": "Ngăn chặn toàn bộ người dùng cuối truy vấn trực tiếp vào hệ thống."
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình chỉ rõ: Kho dữ liệu và hệ thống xử lý phân tích trực tuyến (On-Line Analytical Processing - OLAP) được dùng để trích xuất và phân tích thông tin kinh doanh hữu ích từ CSDL rất lớn phục vụ hỗ trợ ra quyết định. A, B, D đều sai bản chất của OLAP."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Theo định nghĩa đầy đủ trong giáo trình, một cơ sở dữ liệu (CSDL) được lưu trữ ở đâu để đáp ứng nhu cầu khai thác thông tin của nhiều người sử dụng?",
+      "options": {
+        "A": "Chỉ trong bộ nhớ đệm CPU của từng máy trạm.",
+        "B": "Trong bộ nhớ RAM dễ bay hơi và tự xóa khi tắt máy.",
+        "C": "Trên các thiết bị nhớ thứ cấp như băng từ, đĩa từ.",
+        "D": "Chỉ trên các trang web công cộng của World Wide Web."
+      },
+      "correct_answer": "C",
+      "explanation": "Định nghĩa đầy đủ trong mục 1.1: CSDL là tập hợp các dữ liệu có liên quan với nhau chứa thông tin về một tổ chức, được lưu trữ trên các thiết bị nhớ thứ cấp (băng từ, đĩa từ...) để đáp ứng nhu cầu khai thác của nhiều người với nhiều mục đích khác nhau. A, B là bộ nhớ tạm; D quá hẹp và sai."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Khi thiết kế và xây dựng các hệ thống thông tin quản lý, dữ liệu thường được tổ chức thành các bản ghi có cùng cấu trúc xác định; mỗi bản ghi lại được phân chia thành thành phần nào?",
+      "options": {
+        "A": "Các giao tác.",
+        "B": "Các chỉ mục vật lý.",
+        "C": "Các chương trình chủ.",
+        "D": "Các thuộc tính."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.1 nêu rõ: dữ liệu là các bản ghi có cùng một cấu trúc xác định, đồng thời mỗi bản ghi được phân chia thành các thuộc tính. Giao tác (A), chỉ mục (B), chương trình chủ (C) là những khái niệm khác trong hệ CSDL."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "Đặc điểm nào sau đây KHÔNG đúng khi nói về bản chất của một cơ sở dữ liệu (CSDL)?",
+      "options": {
+        "A": "CSDL đại diện cho một số khía cạnh của thế giới thực.",
+        "B": "CSDL là một tập hợp dữ liệu ngẫu nhiên, không cần có ý nghĩa logic nhất định.",
+        "C": "CSDL được thiết kế, xây dựng và cung cấp dữ liệu cho một mục đích cụ thể.",
+        "D": "CSDL có thể có kích thước và độ phức tạp bất kỳ, tạo thủ công hoặc tự động hóa."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.1.1 khẳng định: CSDL là một tập hợp dữ liệu mạch lạc về mặt logic với ý nghĩa nhất định; một loại dữ liệu ngẫu nhiên không thể được gọi chính xác là CSDL. Do đó B là phát biểu sai, còn A, C, D đều đúng."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Trong ví dụ quy mô CSDL của Tổng cục Thuế Việt Nam, nếu có 100 triệu người nộp thuế, mỗi người nộp trung bình 5 biểu mẫu × 400 ký tự và lưu giữ 3 lần khai thuế thì dung lượng CSDL là bao nhiêu?",
+      "options": {
+        "A": "600 terabyte (600 TB).",
+        "B": "200 megabyte (200 MB).",
+        "C": "2 terabyte (2 TB).",
+        "D": "600 gigabyte (600 GB)."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo tính toán trong mục 1.1.1: 100 × 10^6 × 5 × 400 = 2 × 10^11 byte cho một kỳ; lưu 3 lần khai thuế sẽ thành 3 × 2 × 10^11 byte = 600 gigabyte. Các mức A, B, C đều sai bậc lũy thừa."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Ví dụ về CSDL của trang web bán hàng điện tử Amazon.com trong giáo trình cho thấy đặc trưng thực tế nào?",
+      "options": {
+        "A": "CSDL chỉ cho phép tối đa một khách hàng truy cập mỗi ngày để tránh xung đột.",
+        "B": "CSDL được duy trì hoàn toàn thủ công bằng hệ thống thẻ giấy truyền thống.",
+        "C": "CSDL chỉ chứa tối đa vài trăm bản ghi văn bản đơn giản trên một máy tính cá nhân.",
+        "D": "CSDL chiếm hơn 2 terabyte trên 200 máy chủ và được cập nhật liên tục khi có giao dịch mua hàng."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.1.1 nêu: CSDL của Amazon.com chứa dữ liệu cho hơn 20 triệu mặt hàng, chiếm hơn 2 terabyte (lưu trên 200 máy chủ), phục vụ khoảng 15 triệu khách truy cập/ngày và cập nhật liên tục hàng tồn kho khi giao dịch diễn ra. A, B, C trái hoàn toàn với số liệu giáo trình."
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "question": "Ưu điểm nào của CSDL giúp đảm bảo tính nhất quán và toàn vẹn dữ liệu?",
+      "options": {
+        "A": "Cho phép sao chép tùy ý cùng một dữ liệu ở nhiều tệp rời rạc khác nhau.",
+        "B": "Giới hạn toàn bộ CSDL chỉ phục vụ duy nhất một ứng dụng cố định.",
+        "C": "Buộc mọi người dùng phải tự viết lại chương trình khi đổi cấu trúc đĩa.",
+        "D": "Giảm sự trùng lặp thông tin xuống mức thấp nhất."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.1.2 chỉ rõ ưu điểm đầu tiên của CSDL: giảm sự trùng lặp thông tin xuống mức thấp nhất và do đó đảm bảo được tính nhất quán và toàn vẹn dữ liệu. A gây mâu thuẫn dữ liệu; B trái với tính đa người dùng; C trái với độc lập dữ liệu."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Trong ví dụ nhiều đại lý đặt vé máy bay cùng lúc cho một chuyến bay (ứng dụng OLTP), CSDL đa người dùng phải đảm bảo yêu cầu nào?",
+      "options": {
+        "A": "Mọi đại lý đều có thể bán cùng một số ghế cho nhiều hành khách khác nhau.",
+        "B": "Chỉ cho phép nhân viên xem vé mà không được cập nhật bản ghi trong giờ làm việc.",
+        "C": "Mỗi chỗ ngồi chỉ có thể được truy cập bởi một nhân viên tại một thời điểm để chỉ định cho một hành khách.",
+        "D": "Phải sao chép toàn bộ CSDL sang máy từng đại lý rồi mới tổng hợp cuối năm."
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 1.1.2, trong ứng dụng OLTP (xử lý giao dịch trực tuyến), CSDL phải đảm bảo mỗi chỗ ngồi chỉ có thể được truy cập bởi một nhân viên tại một thời điểm để chỉ định cho một hành khách, tránh bán trùng ghế. A gây xung đột; B và D làm tê liệt hoạt động đặt vé trực tuyến."
+    },
+    {
+      "id": 11,
+      "difficulty": "hard",
+      "question": "Theo mục 1.1.2, một 'giao dịch' (transaction) trong hệ thống xử lý giao dịch trực tuyến được hiểu chính xác là gì?",
+      "options": {
+        "A": "Chỉ là thao tác sao lưu ảnh đĩa cứng định kỳ của hệ điều hành mạng.",
+        "B": "Một tệp văn bản chứa danh sách mật khẩu của người quản trị hệ thống.",
+        "C": "Một bảng tĩnh dùng để khai báo kiểu dữ liệu của các thuộc tính trong hệ thống.",
+        "D": "Một chương trình hoặc một bước của chương trình đang thực thi bao gồm một hoặc nhiều truy cập CSDL như đọc hoặc cập nhật bản ghi."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.1.2 định nghĩa nguyên văn: một giao dịch là một chương trình hoặc một bước của chương trình đang thực thi bao gồm một hoặc nhiều CSDL truy cập, chẳng hạn như đọc hoặc cập nhật các bản ghi CSDL. A, B, C đều không phải định nghĩa giao dịch."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Vì sao tính chia sẻ của CSDL tập trung lại đặt ra vấn đề về 'tính chủ quyền của dữ liệu' và 'tính bảo mật'?",
+      "options": {
+        "A": "Vì dữ liệu dùng chung dễ bị xâm phạm chủ quyền và có nhiều người cùng khai thác nên cần cơ chế phân quyền hạn.",
+        "B": "Vì hệ QTCSDL không thể lưu trữ dữ liệu trên thiết bị nhớ thứ cấp.",
+        "C": "Vì CSDL tập trung không cho phép tạo nhiều khung nhìn khác nhau.",
+        "D": "Vì mọi CSDL bắt buộc phải công khai toàn bộ bảng dữ liệu lên Internet."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.1.3 nêu rõ: do tính chia sẻ của CSDL nên chủ quyền dễ bị xâm phạm, và do nhiều người được phép khai thác nên cần có cơ chế bảo mật và phân quyền hạn khai thác CSDL. B, C, D đều sai thực tế kỹ thuật."
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "question": "Khi bàn về vấn đề đảm bảo dữ liệu khi có sự cố (mất điện đột xuất, hỏng đĩa), giáo trình đề cập tới cơ chế RAID của một số hệ điều hành mạng với vai trò nào?",
+      "options": {
+        "A": "Thay thế hoàn toàn ngôn ngữ truy vấn SQL trong việc tìm kiếm bản ghi.",
+        "B": "Biên dịch chương trình ngôn ngữ chủ viết bằng vòng lặp FOR và IF.",
+        "C": "Tự động phân quyền ưu tiên cho người dùng cuối khi tranh chấp dữ liệu.",
+        "D": "Cung cấp dịch vụ sao lưu ảnh đĩa cứng dự phòng, nhưng bên cạnh đó CSDL vẫn nhất thiết phải có cơ chế khôi phục dữ liệu riêng."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.1.3 giải thích: RAID (Redundant Arrays of Independent Disks) là cơ chế đĩa cứng dự phòng giúp sao lưu ảnh đĩa, tự động kiểm tra và khắc phục lỗi; tuy nhiên bên cạnh dịch vụ của hệ điều hành, CSDL nhất thiết phải có cơ chế khôi phục riêng khi sự cố xảy ra. A, B, C không phải vai trò của RAID."
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "question": "Hệ quản trị cơ sở dữ liệu (DBMS - Database Management System) được định nghĩa là gì?",
+      "options": {
+        "A": "Tập hợp các ổ đĩa từ và băng từ dùng để chứa dữ liệu vật lý.",
+        "B": "Đội ngũ nhân sự chịu trách nhiệm phỏng vấn người dùng cuối.",
+        "C": "Một hệ thống chương trình cho phép tạo lập cơ sở dữ liệu và điều khiển mọi truy nhập, khai thác trên cơ sở dữ liệu đó.",
+        "D": "Tập hợp các bản ghi có cùng cấu trúc về một tổ chức như trường học hay ngân hàng."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.1.4 định nghĩa: Hệ QTCSDL là một hệ thống chương trình cho phép tạo lập CSDL và điều khiển mọi truy nhập, khai thác trên CSDL đó. A là trang thiết bị, B là con người, D là bản thân CSDL."
+    },
+    {
+      "id": 15,
+      "difficulty": "easy",
+      "question": "Hai đặc trưng cơ bản dùng để phân biệt một Hệ quản trị CSDL (DBMS) với các phần mềm khác là gì?",
+      "options": {
+        "A": "Chạy hoàn toàn không cần hệ điều hành và chỉ hỗ trợ dữ liệu hình ảnh.",
+        "B": "Không cần kiểm soát truy cập trái phép và không cần sao lưu dữ liệu.",
+        "C": "Chỉ làm việc trên bộ nhớ RAM và tự xóa dữ liệu khi tắt ứng dụng.",
+        "D": "Quản lý dữ liệu bền (khai thác lâu dài) và truy cập một khối lượng lớn dữ liệu một cách hiệu quả."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.1.4 nêu rõ hai đặc trưng cơ bản phân biệt hệ QTCSDL với phần mềm khác là: (1) Quản lý dữ liệu bền (lưu trữ phục vụ khai thác lâu dài) và (2) Truy cập một khối lượng lớn dữ liệu một cách hiệu quả. A, B, C hoàn toàn trái ngược."
+    },
+    {
+      "id": 16,
+      "difficulty": "easy",
+      "question": "Phần mềm nào dưới đây được giáo trình liệt kê là ví dụ về Hệ quản trị CSDL thường dùng?",
+      "options": {
+        "A": "ORACLE, MICROSOFT ACCESS, VISUAL FOXPRO, SQL SERVER.",
+        "B": "Adobe Photoshop, CorelDRAW, AutoCAD.",
+        "C": "WinRAR, 7-Zip, VLC Media Player.",
+        "D": "Google Chrome, Mozilla Firefox, Microsoft Edge."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.1.4 liệt kê các hệ QTCSDL thường dùng gồm: ORACLE, MICROSOFT ACCESS, VISUAL FOXPRO, SQL SERVER... Nhóm B là phần mềm đồ họa, C là nén/đa phương tiện, D là trình duyệt web."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "question": "Trong ví dụ CSDL Trường Đại học (mục 1.1.5), bảng nào dùng để lưu trữ các học phần mở theo từng học kỳ, năm học cùng người hướng dẫn?",
+      "options": {
+        "A": "SINHVIÊN.",
+        "B": "KHÓAHỌC.",
+        "C": "THONGTIN_KHÓAHOC.",
+        "D": "ĐIỀUKIỆN_TIÊNQUYẾT."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong mục 1.1.5, CSDL Trường Đại học gồm 5 tệp/bảng: SINHVIÊN (thông tin SV), KHÓAHỌC (Ten Khoahoc, Maso Khoahoc, Sotinchi, Khoa), THONGTIN_KHÓAHOC (ID_KHOAHOC, Maso Khoahoc, Hocky, Namhoc, Nguoihuongdan), ĐIỂM và ĐIỀUKIỆN_TIÊNQUYẾT. Vậy C là đáp án đúng."
+    },
+    {
+      "id": 18,
+      "difficulty": "medium",
+      "question": "Trong Bảng 1.1 (SINH VIÊN) của ví dụ CSDL Trường Đại học, giá trị '1', '2', '3', '4', '5' ở thuộc tính Lớp minh họa cho kỹ thuật gì?",
+      "options": {
+        "A": "Phân quyền ưu tiên khi xảy ra tranh chấp dữ liệu.",
+        "B": "Đánh số thứ tự bản ghi vật lý trên sector đĩa từ.",
+        "C": "Xếp hạng điểm thi chữ của sinh viên từ F đến A.",
+        "D": "Sử dụng lược đồ mã hóa để biểu diễn các giá trị của một mục dữ liệu (năm nhất đến tốt nghiệp)."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.1.5 giải thích: có thể dùng lược đồ mã hóa để biểu diễn giá trị dữ liệu; cụ thể trong Bảng 1.1, Lớp của SINHVIÊN dùng 1 cho năm nhất, 2 cho năm hai, 3 cho cơ sở, 4 cho cuối cấp và 5 cho sinh viên tốt nghiệp. A, B, C không đúng với ý nghĩa cột Lớp."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "question": "Dựa vào Bảng 1.5 (ĐIỀU KIỆN TIÊN QUYẾT) trong ví dụ CSDL Trường Đại học, mỗi bản ghi của tệp này liên kết tới những bản ghi nào?",
+      "options": {
+        "A": "Liên kết một bản ghi của SINHVIÊN với một bản ghi của ĐIỂM.",
+        "B": "Liên kết một bản ghi của THONGTIN_KHÓAHOC với một bản ghi người hướng dẫn ngoài CSDL.",
+        "C": "Liên kết hai bản ghi trong tệp KHÓAHỌC: một bản ghi đại diện cho khóa học và bản ghi còn lại đại diện cho điều kiện tiên quyết.",
+        "D": "Không liên kết với tệp nào vì đây là dữ liệu ngẫu nhiên độc lập."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.1.5 nêu chính xác: mỗi bản ghi trong ĐIỀUKIỆN_TIÊNQUYẾT liên quan đến hai bản ghi trong tệp KHÓAHỌC: một bản ghi đại diện cho khóa học và bản ghi còn lại đại diện cho điều kiện tiên quyết (ví dụ CL1413 có tiên quyết CC1512 và CT1310)."
+    },
+    {
+      "id": 20,
+      "difficulty": "easy",
+      "question": "Theo mục 1.1.6, một 'Hệ cơ sở dữ liệu' (Hệ CSDL) đầy đủ là sự kết hợp của những thành phần nào?",
+      "options": {
+        "A": "Chỉ gồm phần cứng máy chủ và hệ điều hành mạng.",
+        "B": "Chỉ gồm các tệp dữ liệu và câu lệnh SQL.",
+        "C": "Cơ sở dữ liệu, hệ quản trị CSDL (DBMS), con người và trang thiết bị để lưu trữ CSDL.",
+        "D": "Chỉ gồm người quản trị CSDL và người sử dụng cuối."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.1.6 định nghĩa: Hệ CSDL là sự kết hợp của 4 thành phần: CSDL, hệ QTCSDL để truy cập CSDL đó, con người và trang thiết bị để lưu trữ CSDL. A, B, D đều thiếu thành phần cốt lõi."
+    },
+    {
+      "id": 21,
+      "difficulty": "medium",
+      "question": "Khả năng nào sau đây KHÔNG thuộc nhóm khả năng của một Hệ quản trị CSDL được trình bày ở mục 1.2?",
+      "options": {
+        "A": "Quản lý CSDL lâu dài, số lượng lớn dữ liệu và truy cập xử lý nhanh.",
+        "B": "Cung cấp ít nhất một mô hình dữ liệu và một ngôn ngữ bậc cao để định nghĩa, xử lý dữ liệu.",
+        "C": "Giải quyết tranh chấp dữ liệu đồng thời, sao lưu - phục hồi và ngăn ngừa truy cập trái phép.",
+        "D": "Tự động sáng tạo ra phần cứng đĩa từ mới mà không cần trang thiết bị vật lý."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.2 liệt kê 6 khả năng của DBMS gồm các nội dung ở A, B, C. Phương án D là vô lý vì DBMS là phần mềm chạy trên trang thiết bị lưu trữ."
+    },
+    {
+      "id": 22,
+      "difficulty": "medium",
+      "question": "Trong Ví dụ 2 (mục 1.2) về hai file `NV(HọTênNV, Tuoi, phai, HSL, MP)` và `PHONG(MP, TênPhòng, NguoiQL)`, câu lệnh SQL `SELECT NV.HotenNV, NV.Phai, PHONG.TenPhong, PHONG.NguoiQL FROM NV, PHONG WHERE (NV.MP=PHONG.MP) and (NV.Tuoi>30)` minh họa khả năng nào của DBMS?",
+      "options": {
+        "A": "Cung cấp một ngôn ngữ bậc cao để người dùng định nghĩa và xử lý dữ liệu.",
+        "B": "Sao lưu ảnh đĩa cứng RAID ở mức vật lý.",
+        "C": "Cài đặt hệ điều hành mạng cho máy chủ.",
+        "D": "Lưu trữ âm thanh và hình ảnh vệ tinh GIS."
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ 2 trong mục 1.2 minh họa trực tiếp cho khả năng: Hệ QTCSDL cung cấp một ngôn ngữ bậc cao (SQL), qua đó người dùng có thể định nghĩa dữ liệu và xử lý dữ liệu. B, C, D không liên quan đến ví dụ SQL này."
+    },
+    {
+      "id": 23,
+      "difficulty": "medium",
+      "question": "Để giải quyết vấn đề tranh chấp dữ liệu khi nhiều người cùng truy cập đồng thời, mục 1.2 nêu ra hai biện pháp thường dùng nào?",
+      "options": {
+        "A": "Xóa bớt tài khoản người dùng và tắt kết nối mạng.",
+        "B": "Đổi tên các bảng dữ liệu thành tên ẩn danh mỗi giờ.",
+        "C": "Chuyển toàn bộ CSDL sang lưu trữ thủ công bằng thẻ giấy.",
+        "D": "Cấp quyền ưu tiên cho từng người sử dụng (do DBA thực hiện) và đánh dấu yêu cầu truy xuất, phân chia thời gian (ai yêu cầu trước được quyền trước)."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.2 nêu rõ 2 biện pháp giải quyết tranh chấp dữ liệu: (1) Cấp quyền ưu tiên cho từng người sử dụng (do người quản trị CSDL thực hiện); (2) Đánh dấu yêu cầu truy xuất, phân chia thời gian, người nào yêu cầu trước thì có quyền truy xuất trước. A, B, C không phải giải pháp kỹ thuật của DBMS."
+    },
+    {
+      "id": 24,
+      "difficulty": "hard",
+      "question": "So với cách định kỳ kiểm tra tạo bản sao CSDL, cách 'tạo nhật ký thao tác CSDL' để sao lưu và phục hồi dữ liệu hoạt động như thế nào?",
+      "options": {
+        "A": "Chỉ sao lưu CSDL một lần duy nhất lúc mới cài đặt phần mềm.",
+        "B": "Cắt bỏ toàn bộ dữ liệu cũ sau mỗi 5 phút để tiết kiệm dung lượng.",
+        "C": "Hệ thống ghi lại mỗi thao tác trên CSDL; khi có sự cố sẽ tự động lần ngược lại nhật ký để phục hồi CSDL.",
+        "D": "Yêu cầu người sử dụng cuối tự ghi chép thao tác ra sổ tay cá nhân."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.2 nêu 2 cách backup/restore: (1) Định kỳ tạo bản sao (khá tốn kém với CSDL lớn); (2) Tạo nhật ký thao tác CSDL — mỗi thao tác đều được ghi lại, khi có sự cố hệ thống tự động lần ngược lại để phục hồi. A, B, D đều sai."
+    },
+    {
+      "id": 25,
+      "difficulty": "medium",
+      "question": "Nhược điểm chính của phương pháp định kỳ kiểm tra CSDL để tự động tạo một bản sao hoàn chỉnh sau một khoảng thời gian nhất định là gì?",
+      "options": {
+        "A": "Không thể đọc được dữ liệu bằng ngôn ngữ SQL.",
+        "B": "Chỉ áp dụng được cho mô hình hướng đối tượng.",
+        "C": "Làm mất hoàn toàn lược đồ khái niệm của CSDL.",
+        "D": "Hơi tốn kém (chi phí thời gian và dung lượng lưu trữ), nhất là đối với các CSDL lớn."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.2 nhận xét trực tiếp: việc định kỳ kiểm tra và tự tạo một bản sao CSDL 'hơi tốn kém, nhất là đối với các CSDL lớn'. A, B, C không được nêu và không đúng."
+    },
+    {
+      "id": 26,
+      "difficulty": "easy",
+      "question": "Theo mục 1.3, một mô hình dữ liệu gồm hai phần cơ bản nào?",
+      "options": {
+        "A": "Phần cứng đĩa từ và phần mềm trình duyệt web.",
+        "B": "Người quản trị CSDL và người sử dụng cuối.",
+        "C": "Lược đồ vật lý và bản sao lưu định kỳ.",
+        "D": "Hệ thống các ký hiệu dùng để mô tả các dữ liệu và một tập các phép toán thao tác trên dữ liệu đó."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.3 khẳng định mô hình dữ liệu gồm 2 phần: (1) Một hệ thống các ký hiệu dùng để mô tả các dữ liệu; (2) Một tập các phép toán thao tác trên dữ liệu đó. A, B, C không phải cấu thành của mô hình dữ liệu."
+    },
+    {
+      "id": 27,
+      "difficulty": "easy",
+      "question": "Giáo trình liệt kê những loại mô hình CSDL nào trong mục 1.3?",
+      "options": {
+        "A": "Mô hình E-R, mô hình mạng, mô hình phân cấp, mô hình quan hệ và mô hình hướng đối tượng.",
+        "B": "Chỉ có mô hình bảng tính Excel và mô hình tệp văn bản thuần.",
+        "C": "Mô hình vật lý, mô hình khung nhìn và mô hình giao dịch.",
+        "D": "Mô hình DDL, mô hình DML và mô hình ngôn ngữ chủ."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.3 liệt kê đúng 5 loại mô hình CSDL: E-R (Entity-Relationship), mạng, phân cấp, quan hệ và hướng đối tượng. C là 3 mức biểu diễn; D là các loại ngôn ngữ CSDL."
+    },
+    {
+      "id": 28,
+      "difficulty": "easy",
+      "question": "Mục đích chính của việc xây dựng mô hình dữ liệu trong quá trình thiết kế và xây dựng CSDL là gì?",
+      "options": {
+        "A": "Giúp người dùng thấy được bản chất của dữ liệu và mối quan hệ giữa các dữ liệu.",
+        "B": "Ép buộc người dùng phải ghi nhớ chính xác số hiệu track và sector trên đĩa từ.",
+        "C": "Thay thế toàn bộ phần mềm hệ quản trị CSDL bằng ngôn ngữ máy.",
+        "D": "Loại bỏ hoàn toàn nhu cầu phân quyền bảo mật."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.3 nêu rõ: người ta xây dựng mô hình dữ liệu để thông qua mô hình đó người dùng có thể thấy được bản chất của dữ liệu và mối quan hệ giữa các dữ liệu. B thuộc chi tiết mức vật lý mà mô hình cần che giấu; C, D sai."
+    },
+    {
+      "id": 29,
+      "difficulty": "hard",
+      "question": "Trong mục 1.3, nhận định nào sau đây đúng về mối liên hệ giữa mô hình dữ liệu và Hệ quản trị CSDL (DBMS)?",
+      "options": {
+        "A": "Mỗi hệ QTCSDL cung cấp một mô hình cho CSDL, và mỗi loại mô hình đặc trưng cho một phương pháp tiếp cận dữ liệu của người phân tích thiết kế.",
+        "B": "Một hệ QTCSDL bất kỳ không cần cung cấp bất kỳ mô hình dữ liệu nào cho người dùng.",
+        "C": "Mọi người phân tích thiết kế đều bắt buộc dùng chung một mô hình duy nhất là mô hình phân cấp.",
+        "D": "Mô hình E-R là một ngôn ngữ lập trình chủ dùng thay cho C hoặc Java."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.3 ghi rõ: 'Mỗi hệ quản trị cơ sở dữ liệu cung cấp một mô hình cho CSDL' và 'Mỗi loại mô hình đặc trưng cho một phương pháp tiếp cận dữ liệu của người phân tích thiết kế dữ liệu'. B, C, D trái với nội dung giáo trình."
+    },
+    {
+      "id": 30,
+      "difficulty": "easy",
+      "question": "Chữ viết tắt E-R trong tên gọi 'Mô hình E-R' ở mục 1.3 là viết tắt của cụm từ tiếng Anh nào?",
+      "options": {
+        "A": "External - Relational.",
+        "B": "Error - Recovery.",
+        "C": "Entity - Relationship.",
+        "D": "Execution - Runtime."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.3 ghi rõ: Mô hình E-R (Entity - Relationship), tức mô hình Thực thể - Quan hệ (Thực thể - Liên kết). A, B, D là cụm từ sai."
+    },
+    {
+      "id": 31,
+      "difficulty": "medium",
+      "question": "Trong Hình 1.2 minh họa mô hình CSDL quản lý xe máy trong tỉnh Thừa Thiên Huế, các thông tin như `TENDL`, `DAILY`, `DIACHI` được tổ chức theo cấu trúc cột bảng nhằm giúp người dùng đạt được điều gì?",
+      "options": {
+        "A": "Quan sát được dữ liệu ở dạng dễ hiểu và trực quan hơn.",
+        "B": "Biết chính xác địa chỉ ô nhớ vật lý của từng ký tự trong RAM.",
+        "C": "Viết trình biên dịch ngôn ngữ khai báo dữ liệu DDL.",
+        "D": "Thay thế bộ quản trị giao dịch trong DBMS."
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ 1 (Hình 1.2) trong mục 1.2 minh họa trực tiếp khả năng của DBMS: cung cấp ít nhất một mô hình dữ liệu, qua đó người dùng có thể quan sát được dữ liệu ở dạng dễ hiểu và trực quan hơn. B, C, D sai."
+    },
+    {
+      "id": 32,
+      "difficulty": "hard",
+      "question": "Khi nhiều người dùng đồng thời yêu cầu truy xuất vào CSDL và hệ thống áp dụng biện pháp 'đánh dấu yêu cầu truy xuất, phân chia thời gian', nguyên tắc giải quyết xung đột là gì?",
+      "options": {
+        "A": "Người có yêu cầu sau cùng luôn được ghi đè lên yêu cầu trước.",
+        "B": "Chỉ cho phép người dùng gián tiếp thực hiện truy vấn.",
+        "C": "Tất cả yêu cầu đều bị hủy để bảo vệ đĩa từ.",
+        "D": "Người nào có yêu cầu trước thì có quyền truy xuất dữ liệu trước."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.2 nêu rõ nguyên tắc của biện pháp thứ hai: đánh dấu yêu cầu truy xuất, phân chia thời gian, người nào có yêu cầu trước thì có quyền truy xuất dữ liệu trước. A, B, C đều sai."
+    },
+    {
+      "id": 33,
+      "difficulty": "easy",
+      "question": "Mục đích cốt lõi của việc phân chia kiến trúc mô hình CSDL thành ba mức (theo chuẩn ANSI-SPARC) là gì?",
+      "options": {
+        "A": "Tăng độ phức tạp để người dùng cuối phải tự lập trình truy cập đĩa cứng.",
+        "B": "Tách biệt các ứng dụng của người sử dụng với CSDL vật lý, che giấu sự phức tạp lưu trữ của CSDL.",
+        "C": "Loại bỏ hoàn toàn vai trò của người quản trị CSDL (DBA).",
+        "D": "Tạo ra nhiều CSDL vật lý trùng lặp cho mỗi phòng ban."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.4 nêu: mục đích của kiến trúc ba mức là tách biệt các ứng dụng của người sử dụng với CSDL vật lý, che giấu không cho người dùng không thuộc giới tin học phải biết sự phức tạp của CSDL. A, C, D hoàn toàn sai."
+    },
+    {
+      "id": 34,
+      "difficulty": "easy",
+      "question": "Ba mức biểu diễn của một cơ sở dữ liệu trong kiến trúc ANSI-SPARC gồm những mức nào?",
+      "options": {
+        "A": "Mức phần cứng, mức mạng và mức giao diện đồ họa.",
+        "B": "Mức vật lý (mức trong), mức khái niệm và mức khung nhìn (mức ngoài).",
+        "C": "Mức DDL, mức DML và mức SQL.",
+        "D": "Mức tệp chỉ dẫn, mức tuần tự và mức ngẫu nhiên."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.4 trình bày đúng 3 mức: (1) Mức vật lý (mức trong); (2) Mức khái niệm; (3) Mức khung nhìn (mức ngoài). A, C, D là các khái niệm khác."
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "question": "Câu hỏi nào sau đây thuộc phạm vi giải quyết của MỨC VẬT LÝ (mức trong) trong kiến trúc 3 mức?",
+      "options": {
+        "A": "Phòng kế toán chỉ cần xem mức lương mà không thấy lý lịch nhân viên.",
+        "B": "CSDL cần lưu giữ bao nhiêu loại dữ liệu và mối quan hệ giữa chúng là gì?",
+        "C": "Dữ liệu được lưu trữ ở đâu (đĩa từ, track, sector nào), cần chỉ mục gì, truy xuất tuần tự hay ngẫu nhiên?",
+        "D": "Lãnh đạo công ty cần xem báo cáo tổng số nhân viên và tổng quỹ lương."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.4.1 nêu rõ các vấn đề mức vật lý cần giải quyết: dữ liệu lưu trữ như thế nào, ở đâu (đĩa từ, băng từ, track, sector nào), cần chỉ mục gì, truy xuất tuần tự hay ngẫu nhiên. A và D thuộc mức khung nhìn; B thuộc mức khái niệm."
+    },
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "question": "Đối tượng nào thường quan tâm trực tiếp nhất đến việc trả lời các câu hỏi ở MỨC KHÁI NIỆM (cần lưu bao nhiêu loại dữ liệu, đó là dữ liệu gì, mối quan hệ ra sao)?",
+      "options": {
+        "A": "Người phân tích hoặc người thiết kế CSDL.",
+        "B": "Khách hàng vãng lai mua hàng tại siêu thị.",
+        "C": "Kỹ thuật viên bảo trì ổ cắm điện và mạng LAN.",
+        "D": "Nhân viên thu ngân chỉ quét mã vạch sản phẩm."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.4.2 khẳng định: tại mức khái niệm giải quyết câu hỏi cần lưu bao nhiêu loại dữ liệu, là dữ liệu gì, quan hệ ra sao; 'Người phân tích hoặc người thiết kế CSDL thường quan tâm đến những vấn đề này'. B, C, D không phải đối tượng thiết kế mức khái niệm."
+    },
+    {
+      "id": 37,
+      "difficulty": "easy",
+      "question": "Trong một hệ cơ sở dữ liệu theo kiến trúc 3 mức, số lượng biểu diễn ở mỗi mức có đặc điểm gì?",
+      "options": {
+        "A": "Có rất nhiều mức vật lý, rất nhiều mức khái niệm nhưng chỉ có một khung nhìn duy nhất.",
+        "B": "CSDL mức vật lý và mức khái niệm chỉ có một, nhưng mức khung nhìn có thể có rất nhiều khung nhìn khác nhau.",
+        "C": "Mỗi mức đều bắt buộc chỉ có đúng một biểu diễn duy nhất.",
+        "D": "Mức khái niệm có nhiều bản khác nhau cho từng người dùng cuối, còn mức khung nhìn chỉ có một."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.4.3 kết luận rõ: 'CSDL mức vật lý và mức khái niệm thì chỉ có một nhưng tại mức khung nhìn thì có thể có rất nhiều khung nhìn khác nhau tùy vào góc độ quan tâm của từng người sử dụng'. A, C, D đều sai."
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "question": "Trong ví dụ CSDL Quản lý nhân viên công ty (`PHÒNGBAN`, `NHÂNVIÊN`, `CÔNGVIỆC`) ở mục 1.4.3, góc nhìn của Phòng Kế toán thể hiện mức khung nhìn như thế nào?",
+      "options": {
+        "A": "Xem đầy đủ, chi tiết lý lịch cá nhân của toàn bộ nhân viên trong công ty.",
+        "B": "Chỉ nhìn thấy số lượng nhân viên, tổng số lương phải trả và tên trưởng phòng.",
+        "C": "Chỉ nhìn thấy danh sách nhân viên trong từng phòng ban với các mức lương thỏa thuận mà không thấy lý lịch.",
+        "D": "Xem trực tiếp vị trí track và sector lưu ba tệp PHONGBAN, NHANVIEN, CONGVIEC."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.4.3 nêu cụ thể 3 khung nhìn: Phòng Kế toán thấy danh sách nhân viên từng phòng ban và mức lương thỏa thuận (không thấy lý lịch); Lãnh đạo thấy số lượng NV, tổng lương, trưởng phòng (B); Phòng Tổ chức nhân sự xem đầy đủ lý lịch (A). D là mức vật lý."
+    },
+    {
+      "id": 39,
+      "difficulty": "hard",
+      "question": "Trong ví dụ về mảng hai chiều `int A[n][m];` ở mục 1.4.3, phép tính tổng các giá trị trong hàng i là $f(i) = \\sum_j A[i][j]$ tương ứng với mức biểu diễn nào?",
+      "options": {
+        "A": "Mức vật lý (mức trong).",
+        "B": "Mức khái niệm (mức logic).",
+        "C": "Mức khung nhìn (mức ngoài).",
+        "D": "Mức thiết bị nhớ ngoài."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.4.3 giải thích: `int A[n][m];` hình dung như bảng n hàng m cột là mức khái niệm (B); cách mảng lưu trong thiết bị nhớ là mức vật lý (A); còn biểu thức tổng hợp `f(i) = tổng các giá trị hàng i` là một ví dụ của mức khung nhìn (C)."
+    },
+    {
+      "id": 40,
+      "difficulty": "hard",
+      "question": "Theo mục 1.4.3, hệ quả nào sau đây KHÔNG phải là lợi ích từ sự tách biệt của kiến trúc ba mức ANSI-SPARC?",
+      "options": {
+        "A": "Mỗi người dùng có thể thay đổi khung nhìn riêng mà không ảnh hưởng đến khung nhìn của người dùng khác.",
+        "B": "Tương tác của người dùng với CSDL không phụ thuộc vào những chi tiết trong lưu trữ dữ liệu.",
+        "C": "Người quản trị CSDL có thể thay đổi cấu trúc khái niệm mà không làm ảnh hưởng đến tất cả người dùng.",
+        "D": "Người dùng cuối có quyền tự ý xóa toàn bộ tệp vật lý của người khác trên đĩa từ."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.4.3 liệt kê đúng 3 hệ quả ở A, B, C. Phương án D hoàn toàn trái với mục tiêu tách biệt và bảo mật của kiến trúc 3 mức."
+    },
+    {
+      "id": 41,
+      "difficulty": "easy",
+      "question": "Theo mục 1.5, 'Độc lập dữ liệu' (Data Independence) được định nghĩa như thế nào?",
+      "options": {
+        "A": "Khả năng thay đổi lược đồ ở một mức nào đó của hệ thống CSDL mà không cần phải thay đổi lược đồ ở mức cao hơn.",
+        "B": "Khả năng xóa sạch dữ liệu ở mức vật lý mà vẫn truy xuất được bản ghi ở mức khung nhìn.",
+        "C": "Khả năng mỗi người dùng tự tạo một hệ quản trị CSDL riêng không cần kết nối dữ liệu.",
+        "D": "Khả năng chạy CSDL mà không cần bất kỳ lược đồ nào."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.5 định nghĩa chính xác: Độc lập dữ liệu là khả năng thay đổi lược đồ ở một mức nào đó của hệ thống CSDL mà không cần phải thay đổi lược đồ ở mức cao hơn. B, C, D sai về mặt kỹ thuật."
+    },
+    {
+      "id": 42,
+      "difficulty": "medium",
+      "question": "'Độc lập dữ liệu logic' (Logical data independence) đảm bảo điều gì khi có sự thay đổi trong hệ thống CSDL?",
+      "options": {
+        "A": "Cho phép thay đổi lược đồ mức trong mà không cần thay đổi lược đồ khái niệm.",
+        "B": "Cho phép người dùng cuối tự sửa mã nguồn của phần mềm DBMS.",
+        "C": "Cho phép thay đổi ổ đĩa cứng mà không cần sao lưu dữ liệu.",
+        "D": "Cho phép thay đổi lược đồ khái niệm (mở rộng hoặc thu nhỏ CSDL) mà không cần thay đổi lược đồ mức ngoài hoặc các chương trình ứng dụng."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.5 nêu rõ: Độc lập dữ liệu logic cho phép thay đổi lược đồ khái niệm (thêm/xóa trường dữ liệu, bản ghi) mà không cần thay đổi lược đồ mức ngoài hoặc các chương trình ứng dụng. Phương án A là định nghĩa của độc lập dữ liệu vật lý."
+    },
+    {
+      "id": 43,
+      "difficulty": "medium",
+      "question": "Khi kỹ sư hệ thống tổ chức lại các file vật lý (như đổi cấu trúc lưu trữ hoặc tạo chỉ mục mới) để tăng hiệu quả thực hiện mà kiểu dữ liệu không đổi, tính chất nào giúp lược đồ khái niệm không bị thay đổi theo?",
+      "options": {
+        "A": "Độc lập dữ liệu vật lý (Physical data independence).",
+        "B": "Độc lập dữ liệu logic (Logical data independence).",
+        "C": "Tính chủ quyền của dữ liệu.",
+        "D": "Cơ chế đánh dấu tranh chấp dữ liệu."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.5 giải thích: Độc lập dữ liệu vật lý cho phép thay đổi lược đồ mức trong (tổ chức lại file vật lý để tăng hiệu quả) mà không cần thay đổi lược đồ khái niệm nếu kiểu dữ liệu không đổi. B là tầng giữa khái niệm và ngoài; C, D là khái niệm khác."
+    },
+    {
+      "id": 44,
+      "difficulty": "hard",
+      "question": "So với độc lập dữ liệu vật lý, trong thực tế mức độ đạt được của độc lập dữ liệu logic thường liên quan trực tiếp đến ánh xạ giữa hai mức nào?",
+      "options": {
+        "A": "Giữa đĩa từ và bộ nhớ RAM.",
+        "B": "Giữa trình biên dịch C++ và hệ điều hành.",
+        "C": "Giữa mức trong (vật lý) và bộ quản lý tệp.",
+        "D": "Giữa mức khái niệm và mức khung nhìn (mức ngoài)."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo sơ đồ kiến trúc 3 mức (Hình 1.3) và mục 1.5: Độc lập dữ liệu logic nằm ở ánh xạ giữa mức khái niệm và mức ngoài (mức khung nhìn), cho phép sửa lược đồ khái niệm mà không ảnh hưởng mức ngoài/ứng dụng. A, B, C không phải ranh giới của độc lập logic."
+    },
+    {
+      "id": 45,
+      "difficulty": "easy",
+      "question": "Khái niệm nào chỉ 'thiết kế tổng thể của CSDL', đóng vai trò là bộ khung hay cấu trúc của CSDL bao gồm các loại dữ liệu và thuộc tính của nó?",
+      "options": {
+        "A": "Thể hiện của CSDL (Instance).",
+        "B": "Lược đồ CSDL (Schema).",
+        "C": "Nhật ký giao dịch (Log).",
+        "D": "Bản ghi vật lý."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.6 định nghĩa: Một thiết kế tổng thể của CSDL được gọi là lược đồ CSDL — có thể xem là bộ khung hay cấu trúc của CSDL gồm các loại dữ liệu và thuộc tính của nó. Thể hiện (A) là dữ liệu tại một thời điểm."
+    },
+    {
+      "id": 46,
+      "difficulty": "easy",
+      "question": "Tập hợp các dữ liệu thực tế đang được lưu trữ trong CSDL tại một thời điểm cụ thể (ví dụ 3 dòng học sinh trong Bảng 1.6 `HOC SINH`) được gọi là gì?",
+      "options": {
+        "A": "Lược đồ vật lý.",
+        "B": "Lược đồ khái niệm.",
+        "C": "Thể hiện của CSDL.",
+        "D": "Ngôn ngữ định nghĩa dữ liệu."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.6 nêu: Thể hiện của CSDL là tập hợp các dữ liệu được lưu trữ trong CSDL tại một thời điểm nào đó (như Bảng 1.6 gồm 3 học sinh Lê Thiên Định, Trần Văn Hà, Nguyễn Thanh Bình). A, B là khung cấu trúc; D là ngôn ngữ."
+    },
+    {
+      "id": 47,
+      "difficulty": "medium",
+      "question": "Nhận định nào sau đây mô tả đúng mối quan hệ giữa 'Lược đồ CSDL' và 'Thể hiện của CSDL'?",
+      "options": {
+        "A": "Mỗi lược đồ chỉ có duy nhất một thể hiện bất biến trong suốt vòng đời CSDL.",
+        "B": "Mỗi lược đồ có nhiều thể hiện ứng với các trạng thái khác nhau của CSDL tại các thời điểm khác nhau.",
+        "C": "Thể hiện là bộ khung cố định còn lược đồ thay đổi liên tục sau mỗi câu lệnh INSERT.",
+        "D": "Lược đồ và thể hiện là hai tên gọi đồng nghĩa cho cùng một bản ghi."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.6 khẳng định: 'Mỗi lược đồ có nhiều thể hiện ứng với các trạng thái khác nhau của CSDL tại các thời điểm khác nhau' — giống như danh sách thì lược đồ là cấu trúc danh sách, còn thể hiện là các dữ liệu hiện có trong danh sách. A, C, D đều sai."
+    },
+    {
+      "id": 48,
+      "difficulty": "medium",
+      "question": "Tương ứng với 3 mức biểu diễn của dữ liệu (vật lý, khái niệm, khung nhìn), tên gọi 3 loại lược đồ tương ứng được nêu trong mục 1.6 là gì?",
+      "options": {
+        "A": "Lược đồ vật lý, lược đồ logic (khái niệm) và lược đồ con.",
+        "B": "Lược đồ tuần tự, lược đồ ngẫu nhiên và lược đồ B-cây.",
+        "C": "Lược đồ DDL, lược đồ DML và lược đồ SQL.",
+        "D": "Lược đồ bản sao, lược đồ nhật ký và lược đồ ưu tiên."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.6 nêu rõ: tương ứng với các mức thể hiện của dữ liệu ta có lược đồ vật lý, lược đồ logic (lược đồ khái niệm) và lược đồ con (là lược đồ của dữ liệu ứng với một khung nhìn). B, C, D không phải tên 3 loại lược đồ theo 3 mức."
+    },
+    {
+      "id": 49,
+      "difficulty": "hard",
+      "question": "Trong Ví dụ 2 của mục 1.6 về CSDL Quản lý học sinh, đoạn khai báo `Struct MONHOC { Char MaMH[10]; Char Tenmon[30]; Int SoDVHT; }` minh họa cho biểu diễn ở mức nào?",
+      "options": {
+        "A": "Mức khung nhìn dành cho học sinh xem điểm.",
+        "B": "Mức khái niệm tổng quát chưa gán kiểu lưu trữ.",
+        "C": "Mức vật lý (cấu trúc lưu trữ cài đặt của tệp dữ liệu).",
+        "D": "Ngôn ngữ truy vấn dữ liệu SQL."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.6 ghi rõ: khi mô tả thành các cấu trúc lưu trữ và cài đặt chúng tức là biểu diễn ở mức vật lý, và đưa ra chính xác đoạn `Struct MONHOC` dưới tiêu đề 'Mức vật lý'. A, B, D không đúng với mục 1.6."
+    },
+    {
+      "id": 50,
+      "difficulty": "hard",
+      "question": "Trong Ví dụ 1 của mục 1.6 về lược đồ CSDL quản lý mua bán xe máy, hệ thống sử dụng 3 loại dữ liệu tương ứng với 3 tệp nào?",
+      "options": {
+        "A": "Sinh viên, Khóa học, Điểm.",
+        "B": "Người, Xe Máy, Đại Lý.",
+        "C": "Hóa đơn, Chi tiết hóa đơn, Mặt hàng.",
+        "D": "Phòng ban, Nhân viên, Công việc."
+      },
+      "correct_answer": "B",
+      "explanation": "Ví dụ 1 mục 1.6 mô tả lược đồ CSDL quản lý mua bán xe máy gồm 3 loại dữ liệu: Người (Họ tên, Giới tính, Địa chỉ, Số CCCD), Xe Máy (Số khung, Số xe, Loại xe), Đại Lý (Tên Đại Lý, Địa chỉ). A thuộc ĐH, C thuộc bán hàng, D thuộc công ty."
+    },
+    {
+      "id": 51,
+      "difficulty": "easy",
+      "question": "Ngôn ngữ định nghĩa dữ liệu (DDL - Data Definition Language) có chức năng chính nào sau đây?",
+      "options": {
+        "A": "Khai báo cấu trúc của CSDL, mối liên hệ giữa các loại dữ liệu và các quy tắc quản lý áp đặt trên dữ liệu.",
+        "B": "Chỉ dùng để tính tổng doanh thu bán hàng theo từng ngày.",
+        "C": "Viết các vòng lặp FOR và câu lệnh rẽ nhánh IF trong phần mềm giao diện.",
+        "D": "Tự động sao lưu ổ đĩa cứng sang băng từ."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.7 định nghĩa DDL chứa tập lệnh cho phép khai báo cấu trúc CSDL, mối liên hệ giữa các loại dữ liệu và quy tắc quản lý áp đặt trên dữ liệu (như CREATE TABLE, CREATE VIEW, CREATE INDEX). B thuộc truy vấn; C thuộc ngôn ngữ chủ; D thuộc backup."
+    },
+    {
+      "id": 52,
+      "difficulty": "easy",
+      "question": "Trong SQL Server, các câu lệnh nào sau đây được giáo trình nêu làm ví dụ cho Ngôn ngữ định nghĩa dữ liệu (DDL)?",
+      "options": {
+        "A": "IF, ELSE, FOR, WHILE.",
+        "B": "CREATE TABLE, CREATE VIEW, CREATE QUERY, CREATE INDEX.",
+        "C": "BACKUP DISK, RESTORE LOG.",
+        "D": "PRINT, SCAN, RETURN."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.7 nêu nguyên văn ví dụ trong SQL Server cho DDL là: CREATE TABLE, CREATE VIEW, CREATE QUERY, CREATE INDEX... A là cấu trúc điều khiển của ngôn ngữ chủ; C, D không phải ví dụ DDL trong mục 1.7."
+    },
+    {
+      "id": 53,
+      "difficulty": "easy",
+      "question": "Các yêu cầu thao tác như thêm thông tin mới vào CSDL, xóa thông tin, tìm kiếm thông tin và thay đổi thông tin được lưu trữ thuộc về loại ngôn ngữ nào?",
+      "options": {
+        "A": "Ngôn ngữ định nghĩa dữ liệu (DDL).",
+        "B": "Ngôn ngữ thao tác dữ liệu (DML).",
+        "C": "Ngôn ngữ khai báo phần cứng.",
+        "D": "Ngôn ngữ đánh dấu siêu văn bản HTML."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.7 nêu rõ: Ngôn ngữ thao tác dữ liệu (DML - Data Manipulation Language) cho phép người dùng truy nhập hay thao tác trên CSDL, bao gồm thêm thông tin mới, xóa, tìm kiếm và thay đổi thông tin được lưu trữ. A dùng để khai báo cấu trúc; C, D không liên quan."
+    },
+    {
+      "id": 54,
+      "difficulty": "medium",
+      "question": "Vai trò của 'Ngôn ngữ chủ' (Host Language) trong một Hệ quản trị CSDL là gì?",
+      "options": {
+        "A": "Chỉ dùng để lưu trữ metadata trong từ điển dữ liệu.",
+        "B": "Thay thế hoàn toàn thiết bị nhớ thứ cấp bằng bộ nhớ ngoài.",
+        "C": "Cung cấp khả năng lập trình (cấu trúc điều khiển IF, FOR..., hàm, thủ tục) bổ trợ vào hệ QTCSDL để quản lý, khai thác, xử lý dữ liệu tốt hơn.",
+        "D": "Chỉ dùng để vẽ sơ đồ kiến trúc 3 mức ANSI-SPARC."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.7 giải thích: Ngôn ngữ chủ cung cấp các khả năng viết chương trình như cấu trúc điều khiển (IF, FOR...), hàm, thủ tục — là khả năng bổ trợ của một ngôn ngữ lập trình vào DBMS để tăng khả năng quản lý, khai thác, xử lý dữ liệu tốt hơn. A, B, D sai."
+    },
+    {
+      "id": 55,
+      "difficulty": "hard",
+      "question": "Theo Bài tập 7 (Chương 1), hai thao tác: (1) 'Tạo một bảng dữ liệu để lưu thông tin đăng ký môn học' và (2) 'Thay đổi cấu trúc để lưu địa chỉ sinh viên dài đến 200 ký tự' lần lượt sử dụng loại ngôn ngữ nào?",
+      "options": {
+        "A": "Cả hai đều sử dụng Ngôn ngữ thao tác dữ liệu (DML).",
+        "B": "Thao tác (1) dùng DDL, thao tác (2) dùng ngôn ngữ truy vấn SQL.",
+        "C": "Cả hai đều sử dụng Ngôn ngữ định nghĩa dữ liệu (DDL).",
+        "D": "Thao tác (1) dùng ngôn ngữ chủ, thao tác (2) dùng DML."
+      },
+      "correct_answer": "C",
+      "explanation": "Cả tạo bảng mới và thay đổi độ dài/cấu trúc thuộc tính địa chỉ trong bảng đều làm thay đổi cấu trúc (lược đồ) của CSDL, do đó đều thuộc Ngôn ngữ định nghĩa dữ liệu (DDL). Ngược lại, lấy tên/ngày sinh dùng ngôn ngữ truy vấn; sửa địa chỉ của một SV cụ thể dùng DML."
+    },
+    {
+      "id": 56,
+      "difficulty": "hard",
+      "question": "Theo Bài tập 7 (Chương 1), hai thao tác: (1) 'Lấy tên, ngày sinh một sinh viên từ CSDL' và (2) 'Thay đổi địa chỉ một sinh viên cụ thể trong CSDL' tương ứng với ngôn ngữ nào?",
+      "options": {
+        "A": "Thao tác (1) thuộc ngôn ngữ truy vấn dữ liệu (SQL/DML truy xuất); thao tác (2) thuộc ngôn ngữ thao tác dữ liệu (DML).",
+        "B": "Cả hai đều thuộc ngôn ngữ định nghĩa dữ liệu (DDL).",
+        "C": "Thao tác (1) thuộc DDL; thao tác (2) thuộc ngôn ngữ chủ.",
+        "D": "Cả hai đều là thao tác thay đổi lược đồ mức trong của DBA."
+      },
+      "correct_answer": "A",
+      "explanation": "Lấy tên, ngày sinh sinh viên là yêu cầu hỏi đáp/truy xuất thông tin (thuộc ngôn ngữ truy vấn dữ liệu SQL, cũng nằm trong nhóm thao tác tìm kiếm của DML). Thay đổi giá trị địa chỉ của một sinh viên cụ thể là cập nhật dữ liệu (DML). Không thao tác nào sửa cấu trúc bảng nên B, C, D sai."
+    },
+    {
+      "id": 57,
+      "difficulty": "medium",
+      "question": "Tại đỉnh kiến trúc của một Hệ quản trị CSDL (mục 1.8), ba kiểu thao tác chính tác động vào hệ thống gồm những kiểu nào?",
+      "options": {
+        "A": "Cài đặt hệ điều hành, định dạng ổ cứng, phân vùng mạng.",
+        "B": "Các truy vấn, các thay đổi dữ liệu và các thay đổi lược đồ.",
+        "C": "Thiết kế E-R, vẽ giao diện web và kiểm thử hộp đen.",
+        "D": "Mã hóa đĩa RAID, nén tệp và in báo cáo giấy."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.8 chỉ rõ: tại đỉnh kiến trúc có ba kiểu thao tác đối với hệ QTCSDL gồm: (1) Các truy vấn (hỏi đáp dữ liệu), (2) Các thay đổi dữ liệu (thêm, sửa, xóa) và (3) Các thay đổi lược đồ (thường do DBA phát ra). A, C, D sai."
+    },
+    {
+      "id": 58,
+      "difficulty": "hard",
+      "question": "Trong kiến trúc DBMS (mục 1.8), kiểu thao tác nào tại đỉnh kiến trúc chỉ thường được phát ra bởi những người quản trị CSDL (DBA)?",
+      "options": {
+        "A": "Các truy vấn đọc bảng điểm sinh viên.",
+        "B": "Các thay đổi lược đồ (sửa cấu trúc lược đồ CSDL hoặc tạo lập CSDL mới).",
+        "C": "Các giao dịch mua hàng của khách hàng vãng lai.",
+        "D": "Thao tác xem báo cáo thống kê của người dùng cuối."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.8 nhấn mạnh: 'Các thay đổi lược đồ: các lệnh này thường được phát ra bởi những người quản trị CSDL. Những người đó mới được phép thay đổi lược đồ CSDL hay tạo lập một CSDL mới'. A, C, D là truy vấn hoặc cập nhật dữ liệu của người dùng cuối."
+    },
+    {
+      "id": 59,
+      "difficulty": "medium",
+      "question": "Thành phần nào trong kiến trúc DBMS có nhiệm vụ tìm ra cách tốt nhất để thực hiện câu hỏi hoặc yêu cầu thay đổi dữ liệu/siêu dữ liệu, rồi phát lệnh xuống bộ quản lý lưu trữ?",
+      "options": {
+        "A": "Bộ xử lý truy vấn (Query Processor).",
+        "B": "Bộ quản lý tệp (File Manager).",
+        "C": "Thiết bị nhớ ngoài.",
+        "D": "Người sử dụng gián tiếp."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.8 mô tả: Bộ xử lý truy vấn điều khiển việc xử lý các câu hỏi và các yêu cầu thay đổi dữ liệu hay siêu dữ liệu; tìm ra cách tốt nhất để thực hiện thao tác được yêu cầu và phát ra các lệnh đối với bộ quản lý lưu trữ để thực thi. B quản lý không gian đĩa; C là phần cứng; D là con người."
+    },
+    {
+      "id": 60,
+      "difficulty": "medium",
+      "question": "Thành phần nào trong kiến trúc DBMS chịu trách nhiệm đảm bảo tính toàn vẹn hệ thống, khiến các thao tác thực hiện đồng thời không cản trở nhau và hệ thống không mất dữ liệu khi lỗi xảy ra?",
+      "options": {
+        "A": "Chương trình dịch ngôn ngữ khai báo dữ liệu.",
+        "B": "Bộ quản trị giao dịch (Transaction Manager).",
+        "C": "Bộ tiền xử lý ngôn ngữ thao tác dữ liệu.",
+        "D": "Nhà phát triển hệ công cụ (Tool developers)."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.8 nêu rõ: Bộ quản trị giao dịch có trách nhiệm đảm bảo tính toàn vẹn hệ thống, đảm bảo các thao tác thực hiện đồng thời không cản trở nhau và không mất dữ liệu khi lỗi hệ thống xảy ra; tương tác với bộ xử lý câu hỏi và bộ quản lý lưu trữ. A, C, D có vai trò khác."
+    },
+    {
+      "id": 61,
+      "difficulty": "hard",
+      "question": "Phân biệt nhiệm vụ giữa 'Bộ quản lý lưu trữ' và 'Bộ quản lý tệp' trong kiến trúc DBMS ở mục 1.8:",
+      "options": {
+        "A": "Bộ quản lý lưu trữ biên dịch SQL; Bộ quản lý tệp phỏng vấn người dùng cuối.",
+        "B": "Bộ quản lý lưu trữ lấy ra và thay đổi thông tin từ thiết bị lưu trữ khi được yêu cầu; Bộ quản lý tệp quản trị cấp phát không gian lưu trữ trên đĩa và cấu trúc dữ liệu biểu diễn thông tin trên đĩa.",
+        "C": "Bộ quản lý lưu trữ chỉ quản lý siêu dữ liệu; Bộ quản lý tệp chỉ quản lý giao dịch đồng thời.",
+        "D": "Hai bộ phận này hoàn toàn giống nhau và không tương tác với đĩa từ."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 1.8: Bộ quản lý lưu trữ có nhiệm vụ lấy ra các thông tin được yêu cầu từ thiết bị lưu trữ và thay đổi thông tin khi được yêu cầu; Bộ quản lý tệp có nhiệm vụ quản trị cấp phát không gian lưu trữ trên đĩa và các cấu trúc dữ liệu biểu diễn thông tin trên đĩa. A, C, D đều mô tả sai."
+    },
+    {
+      "id": 62,
+      "difficulty": "easy",
+      "question": "Trong kiến trúc DBMS, thông tin lưu trữ trong từ điển dữ liệu (mô tả tên bảng, tên thuộc tính, kiểu dữ liệu, thuộc tính chỉ dẫn, ràng buộc cấu trúc CSDL) được gọi là gì?",
+      "options": {
+        "A": "Dữ liệu đa phương tiện (Multimedia).",
+        "B": "Siêu dữ liệu (Metadata).",
+        "C": "Ngôn ngữ chủ (Host language).",
+        "D": "Thể hiện tạm thời."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.8 nêu rõ: các thông tin được lưu trữ trong từ điển hệ thống được gọi là siêu dữ liệu (metadata) và chúng mô tả cấu trúc của dữ liệu nguyên thủy (tên bảng, thuộc tính, kiểu dữ liệu, chỉ dẫn, ràng buộc). A, C, D không phải metadata."
+    },
+    {
+      "id": 63,
+      "difficulty": "hard",
+      "question": "Vai trò của 'Bộ tiền xử lý ngôn ngữ thao tác dữ liệu' (DML preprocessor) trong kiến trúc DBMS (mục 1.8) là gì?",
+      "options": {
+        "A": "Phỏng vấn khách hàng để thiết kế lược đồ khái niệm.",
+        "B": "Cấp phát các sector trống trên đĩa từ cho người dùng cuối.",
+        "C": "Khôi phục dữ liệu từ băng từ sau sự cố mất điện.",
+        "D": "Biến các lệnh thao tác dữ liệu thành lời gọi thủ tục chuẩn trong ngôn ngữ chủ và trao đổi với trình biên dịch DML để sinh mã thích hợp."
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 1.8 định nghĩa nguyên văn: Bộ tiền xử lý ngôn ngữ thao tác dữ liệu biến các lệnh thao tác dữ liệu thành lời gọi thủ tục chuẩn trong ngôn ngữ chủ, đồng thời trao đổi với trình biên dịch ngôn ngữ thao tác dữ liệu để sinh mã thích hợp. A của người thiết kế; B của quản lý tệp; C của khôi phục."
+    },
+    {
+      "id": 64,
+      "difficulty": "hard",
+      "question": "Tại sao hầu hết các thành phần của Hệ QTCSDL đều phải truy cập đến 'hệ thống từ điển dữ liệu'?",
+      "options": {
+        "A": "Vì từ điển dữ liệu lưu mật khẩu ngân hàng của toàn bộ khách hàng.",
+        "B": "Vì từ điển dữ liệu lưu định nghĩa/mô tả cấu trúc CSDL và các ràng buộc (metadata), giúp phần mềm DBMS và người dùng lấy thông tin về cấu trúc CSDL.",
+        "C": "Vì từ điển dữ liệu thay thế cho thiết bị nhớ ngoài trong việc chứa toàn bộ bản ghi đa phương tiện.",
+        "D": "Vì từ điển dữ liệu trực tiếp thực hiện vòng lặp FOR của ngôn ngữ chủ."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.8 giải thích: hầu hết các thành phần của DBMS đều truy cập đến từ điển dữ liệu vì nó chứa metadata mô tả đầy đủ cấu trúc CSDL và các ràng buộc (cấu trúc tệp, kiểu, dạng lưu trữ). Phần mềm DBMS và người dùng dùng từ điển để lấy thông tin cấu trúc CSDL. A, C, D sai."
+    },
+    {
+      "id": 65,
+      "difficulty": "easy",
+      "question": "Nhóm đối tượng nào dưới đây thuộc nhóm 'Đối tượng sử dụng trực tiếp' CSDL theo mục 1.9.1?",
+      "options": {
+        "A": "Nhà phát triển hệ công cụ (Tool developers) của hãng sản xuất DBMS.",
+        "B": "Người phân tích tạo ra phần mềm lõi của hệ quản trị CSDL.",
+        "C": "Người quản trị CSDL (DBA), người thiết kế CSDL, người sử dụng cuối, người phân tích hệ thống và lập trình ứng dụng.",
+        "D": "Người kiểm thử và bảo trì phần mềm của hệ QTCSDL nói chung."
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 1.9.1 liệt kê 4 nhóm đối tượng trực tiếp tham gia vào một CSDL cụ thể: Người quản trị CSDL (DBA), Người thiết kế CSDL, Người sử dụng cuối, và Người phân tích hệ thống & lập trình ứng dụng. A, B, D đều thuộc nhóm đối tượng gián tiếp (mục 1.9.2)."
+    },
+    {
+      "id": 66,
+      "difficulty": "medium",
+      "question": "Nhiệm vụ nào sau đây thuộc trách nhiệm của Người quản trị cơ sở dữ liệu (DBA)?",
+      "options": {
+        "A": "Tổ chức nội dung CSDL, cài đặt mức vật lý, tạo và phân quyền người dùng, đề xuất phần cứng/phần mềm, bảo vệ an toàn và sao lưu dữ liệu.",
+        "B": "Chỉ viết tài liệu hướng dẫn sử dụng cho một màn hình ứng dụng đơn lẻ.",
+        "C": "Chỉ nhập điểm cho sinh viên vào cuối mỗi học kỳ.",
+        "D": "Phát triển phần mềm nhân của hệ QTCSDL Oracle để bán thương mại."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.9.1 và Bài tập 4 nêu rõ nhiệm vụ DBA: tổ chức nội dung CSDL, thiết kế/cài đặt CSDL mức vật lý, tạo và phân quyền người dùng, yêu cầu phần cứng/phần mềm khi cần, bảo vệ an toàn, sao lưu và duy trì hoạt động hệ thống. B của lập trình ứng dụng; C của người dùng cuối; D của đối tượng gián tiếp."
+    },
+    {
+      "id": 67,
+      "difficulty": "medium",
+      "question": "Công việc 'phỏng vấn tất cả những người sử dụng CSDL sau này để hiểu yêu cầu, xác định dữ liệu cần lưu và chọn cấu trúc biểu diễn phù hợp' thuộc về đối tượng nào?",
+      "options": {
+        "A": "Người sử dụng cuối.",
+        "B": "Người thiết kế cơ sở dữ liệu.",
+        "C": "Người kiểm thử hệ thống DBMS (Tester).",
+        "D": "Nhà phát triển hệ công cụ (Tool developers)."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.9.1 liệt kê 4 trách nhiệm của Người thiết kế CSDL: xác định dữ liệu cần lưu, lựa chọn cấu trúc biểu diễn/lưu trữ thích hợp, phỏng vấn tất cả người dùng sau này để hiểu yêu cầu, và phân tích thiết kế hệ thống sau khi thống nhất yêu cầu. A, C, D không làm công việc này."
+    },
+    {
+      "id": 68,
+      "difficulty": "hard",
+      "question": "Trong nhóm 'Người phân tích hệ thống và lập trình ứng dụng' (mục 1.9.1), nhiệm vụ nào là của NGƯỜI PHÂN TÍCH HỆ THỐNG (khác với người lập trình ứng dụng)?",
+      "options": {
+        "A": "Chạy thử (test), chữa lỗi/gỡ rối (debug) và viết tài liệu hướng dẫn sử dụng.",
+        "B": "Xác định rõ yêu cầu của người sử dụng cuối, thống nhất đưa ra khung nhìn cho từng đối tượng người dùng và quản lý các giao tác (transactions).",
+        "C": "Thiết kế phần cứng đĩa từ dự phòng RAID.",
+        "D": "Xây dựng các công cụ phát triển phần mềm lõi của DBMS."
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 1.9.1 phân tách rõ: Người phân tích hệ thống xác định yêu cầu người dùng cuối, thống nhất đưa ra khung nhìn cho từng đối tượng và quản lý các giao tác; còn Người lập trình ứng dụng thực hiện yêu cầu qua lập trình, test, debug, viết tài liệu, bảo trì (A). C thuộc hạ tầng; D thuộc đối tượng gián tiếp."
+    },
+    {
+      "id": 69,
+      "difficulty": "easy",
+      "question": "Người sử dụng cuối (End-user) thường truy cập CSDL nhằm thực hiện các công việc nào?",
+      "options": {
+        "A": "Truy vấn CSDL, cập nhật dữ liệu và thống kê, báo cáo.",
+        "B": "Phân bổ không gian track và sector vật lý trên đĩa từ.",
+        "C": "Biên dịch mã nguồn của phần mềm hệ quản trị CSDL.",
+        "D": "Cấp quyền quản trị tối cao cho tất cả người dùng khác."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.9.1 nêu đúng 3 hoạt động của Người sử dụng cuối: (1) Truy vấn CSDL, (2) Cập nhật dữ liệu, (3) Thống kê, báo cáo. B của quản lý tệp/vật lý; C của đối tượng gián tiếp; D thuộc DBA."
+    },
+    {
+      "id": 70,
+      "difficulty": "hard",
+      "question": "Đặc điểm nào phân biệt 'Đối tượng gián tiếp' (mục 1.9.2) với các 'Đối tượng trực tiếp' của một hệ CSDL?",
+      "options": {
+        "A": "Họ tạo ra môi trường hệ thống và phần mềm của hệ QTCSDL (như phát triển hệ thống DBMS, công cụ, kiểm thử bảo trì hệ thống) nhưng không trực tiếp thao tác trên một CSDL cụ thể nào.",
+        "B": "Họ là những người chỉ dùng CSDL để thống kê, báo cáo hàng tháng cho ban giám đốc.",
+        "C": "Họ chịu trách nhiệm trực tiếp nhập liệu hàng ngày vào bảng điểm hoặc hóa đơn bán hàng.",
+        "D": "Họ chính là người quản trị CSDL (DBA) tại từng doanh nghiệp cụ thể."
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 1.9.2 nêu rõ: Đối tượng gián tiếp tạo ra môi trường hệ thống và phần mềm DBMS (gồm người phân tích/tạo hệ thống DBMS, nhà phát triển hệ công cụ Tool developers, người kiểm thử và bảo trì hệ thống Tester/system maintainer) và họ 'không trực tiếp thao tác trên một hệ quản trị CSDL nào cụ thể'. B, C, D đều là đối tượng trực tiếp."
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Phân biệt khái niệm Cơ sở dữ liệu (CSDL), Hệ quản trị CSDL (DBMS) và Hệ cơ sở dữ liệu (Hệ CSDL).",
+      "expected_answer": "- CSDL: tập hợp dữ liệu liên quan chứa thông tin về một tổ chức, lưu trên thiết bị nhớ thứ cấp để phục vụ nhiều người dùng với nhiều mục đích.\n- Hệ QTCSDL (DBMS): hệ thống chương trình cho phép tạo lập CSDL và điều khiển mọi truy nhập, khai thác trên CSDL đó.\n- Hệ CSDL: sự kết hợp của 4 thành phần gồm CSDL, Hệ QTCSDL, con người và trang thiết bị lưu trữ."
+    },
+    {
+      "id": 2,
+      "question": "Nêu tên 3 mức biểu diễn của CSDL theo kiến trúc ANSI-SPARC và ý nghĩa của mỗi mức.",
+      "expected_answer": "1. Mức vật lý (mức trong): thấp nhất (chỉ có 1), mô tả dữ liệu thực sự lưu trữ thế nào, ở đâu trên đĩa, chỉ mục và cách truy xuất.\n2. Mức khái niệm (logic): ở giữa (chỉ có 1), mô tả các loại dữ liệu cần lưu trữ và mối quan hệ giữa chúng.\n3. Mức khung nhìn (mức ngoài): cao nhất (có thể có nhiều), thể hiện góc nhìn riêng hoặc dữ liệu tổng hợp cho từng nhóm người dùng."
+    },
+    {
+      "id": 3,
+      "question": "Phân biệt Độc lập dữ liệu vật lý và Độc lập dữ liệu logic.",
+      "expected_answer": "- Độc lập dữ liệu vật lý: khả năng thay đổi lược đồ mức trong (tổ chức lại tệp vật lý để tăng hiệu năng) mà không cần thay đổi lược đồ khái niệm (khi kiểu dữ liệu không đổi).\n- Độc lập dữ liệu logic: khả năng thay đổi lược đồ khái niệm (thêm hoặc xóa trường, bản ghi) mà không cần thay đổi lược đồ mức ngoài hoặc các chương trình ứng dụng."
+    },
+    {
+      "id": 4,
+      "question": "Phân biệt Lược đồ CSDL và Thể hiện của CSDL; nêu mối quan hệ giữa chúng.",
+      "expected_answer": "- Lược đồ CSDL: thiết kế tổng thể (bộ khung/cấu trúc) của CSDL gồm các loại dữ liệu và các thuộc tính (có lược đồ vật lý, logic và lược đồ con).\n- Thể hiện của CSDL: tập hợp các dữ liệu thực tế được lưu trữ trong CSDL tại một thời điểm cụ thể.\n- Quan hệ: một lược đồ ít thay đổi nhưng có thể có nhiều thể hiện ứng với các trạng thái dữ liệu ở các thời điểm khác nhau."
+    },
+    {
+      "id": 5,
+      "question": "Liệt kê các thành phần chính của một Hệ quản trị CSDL (DBMS) và hai biện pháp khôi phục dữ liệu khi có sự cố.",
+      "expected_answer": "- Thành phần chính của DBMS: thiết bị nhớ ngoài (đĩa từ), bộ quản lý tệp, bộ quản lý lưu trữ, bộ quản lý từ điển (lưu metadata), bộ xử lý truy vấn, bộ quản trị giao dịch, trình dịch DDL và bộ tiền xử lý DML.\n- Hai cách sao lưu/khôi phục: (1) Định kỳ kiểm tra tạo bản sao CSDL; (2) Ghi nhật ký thao tác CSDL (log) để lần ngược lại khi có sự cố."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Bài 1 (Giáo trình): Định nghĩa CSDL, Hệ QTCSDL, Hệ CSDL và Ví dụ Thực tế",
+      "problem": "Định nghĩa các khái niệm: Cơ sở dữ liệu (CSDL), Hệ quản trị CSDL (DBMS), Hệ cơ sở dữ liệu (Hệ CSDL). Phân tích hai đặc trưng phân biệt DBMS với phần mềm khác và cho ví dụ minh họa về một CSDL trong thực tế.",
+      "solution_steps": [
+        "Bước 1: Định nghĩa Cơ sở dữ liệu (CSDL)\n- CSDL là một tập hợp các dữ liệu có liên quan với nhau chứa thông tin về một tổ chức nào đó (trường đại học, ngân hàng, nhà máy...) được lưu trữ trên các thiết bị nhớ thứ cấp (băng từ, đĩa từ...) để đáp ứng nhu cầu khai thác thông tin của nhiều người sử dụng với nhiều mục đích khác nhau.\n- CSDL phải phản ánh trung thực một khía cạnh của thế giới thực, có tính mạch lạc về mặt logic và có kích thước, độ phức tạp bất kỳ.",
+        "Bước 2: Định nghĩa Hệ quản trị CSDL (DBMS) và 2 đặc trưng phân biệt\n- Hệ QTCSDL là một hệ thống chương trình cho phép tạo lập CSDL và điều khiển mọi truy nhập, khai thác trên CSDL đó (ví dụ: Oracle, Microsoft Access, Visual FoxPro, SQL Server...).\n- Hai đặc trưng phân biệt DBMS với phần mềm khác: (1) Quản lý dữ liệu bền vững phục vụ khai thác lâu dài; (2) Truy cập một khối lượng lớn dữ liệu một cách nhanh chóng, hiệu quả.",
+        "Bước 3: Định nghĩa Hệ cơ sở dữ liệu (Hệ CSDL)\n- Hệ CSDL là sự kết hợp đồng bộ của 4 thành phần: Cơ sở dữ liệu, Hệ quản trị CSDL để truy cập CSDL đó, Con người (DBA, người thiết kế, lập trình viên, người dùng cuối) và Trang thiết bị (máy chủ, thiết bị nhớ thứ cấp) để lưu trữ CSDL.",
+        "Bước 4: Ví dụ thực tế minh họa\n- Ví dụ CSDL Trường Đại học (5 bảng: SINHVIÊN, KHÓAHỌC, THONGTIN_KHÓAHOC, ĐIỂM, ĐIỀUKIỆN_TIÊNQUYẾT) hoặc các hệ thống thực tế như phần mềm quản lý bán hàng, CSDL quản lý đất đai, CSDL Tổng cục Thuế (~600 GB) hay Amazon.com (>2 TB trên 200 máy chủ)."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài 2 (Giáo trình): Kiến trúc Ba Mức, Lược đồ - Thể hiện và Biểu diễn CSDL Quản lý Lương Cán bộ",
+      "problem": "Nêu kiến trúc ba mức của một hệ CSDL (mức vật lý, mức khái niệm, mức khung nhìn). Phân biệt lược đồ CSDL và thể hiện của dữ liệu. Dựa trên CSDL quản lý lương cán bộ, hãy trình bày cách biểu diễn CSDL ở từng mức.",
+      "solution_steps": [
+        "Bước 1: Trình bày kiến trúc ba mức ANSI-SPARC\n- Mức vật lý (mức trong - duy nhất): mô tả dữ liệu thực sự lưu trữ thế nào, ở đâu trên thiết bị nhớ (track, sector, tệp, chỉ mục, truy xuất tuần tự/ngẫu nhiên) để tối ưu lưu trữ và tìm kiếm.\n- Mức khái niệm (mức logic - duy nhất): mô tả những loại dữ liệu nào cần lưu trữ trong CSDL và mối quan hệ giữa chúng.\n- Mức khung nhìn (mức ngoài - nhiều khung nhìn): thể hiện góc độ quan tâm riêng của từng nhóm người dùng trên một phần dữ liệu hoặc dữ liệu tổng hợp.",
+        "Bước 2: Phân biệt Lược đồ CSDL và Thể hiện của dữ liệu\n- Lược đồ CSDL là thiết kế tổng thể (bộ khung cấu trúc) gồm các loại dữ liệu và thuộc tính (ứng với 3 mức có lược đồ vật lý, lược đồ logic, lược đồ con).\n- Thể hiện của dữ liệu là tập hợp các giá trị dữ liệu thực tế lưu trong CSDL tại một thời điểm cụ thể; một lược đồ có nhiều thể hiện qua thời gian.",
+        "Bước 3: Biểu diễn CSDL Quản lý lương cán bộ ở mức khái niệm và mức vật lý\n- Mức khái niệm: xác định các loại dữ liệu và quan hệ như `DONVI(MaDV, TenDV, TruongDV)`, `CANBO(MaCB, HoTen, NgaySinh, MaDV, MaNgach, HeSoLuong)`, `BANGLUONG(MaCB, Thang, Nam, PhuCap, ThucLinh)` (trong đó CANBO gắn với DONVI qua MaDV, BANGLUONG gắn với CANBO qua MaCB).\n- Mức vật lý: mô tả các bảng trên dưới dạng các tệp vật lý `DONVI`, `CANBO`, `BANGLUONG` cùng cấu trúc bản ghi (kiểu chuỗi, số thực, số nguyên), chỉ mục trên `MaCB`, `MaDV` và vị trí lưu trữ trên đĩa cứng.",
+        "Bước 4: Biểu diễn ở mức khung nhìn (mức ngoài)\n- Khung nhìn Kế toán tiền lương: thấy danh sách cán bộ, hệ số lương, phụ cấp và số tiền thực lĩnh từng tháng để chi trả lương.\n- Khung nhìn Cán bộ cá nhân: chỉ xem được phiếu lương hàng tháng của chính mình.\n- Khung nhìn Lãnh đạo đơn vị: xem bảng tổng hợp quỹ lương theo từng đơn vị mà không cần chi tiết từng phiếu lương cá nhân."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bài 3 (Giáo trình): Biểu diễn Ba Mức cho CSDL Quản lý Bán hàng",
+      "problem": "Dựa trên CSDL Quản lý bán hàng gồm các thực thể Hóa đơn, Chi tiết hóa đơn, Khách hàng, Mặt hàng, hãy trình bày cách biểu diễn CSDL ở mức khái niệm, mức vật lý, mối liên kết dữ liệu và mức khung nhìn.",
+      "solution_steps": [
+        "Bước 1: Biểu diễn ở mức khái niệm (Lược đồ khái niệm)\n- Xác định 4 loại dữ liệu chính và các thuộc tính của chúng:\n  + `HOADON(HOADONID, NGAYBAN, KHACHID, HINHTHUC)`\n  + `CHITIETHD(HOADONID, HANGID, SOLUONG)`\n  + `KHACHHANG(KHACHID, TENKHACH, DIACHI, EMAIL)`\n  + `MATHANG(HANGID, TENHANG, DONGIA, DONVI)`",
+        "Bước 2: Xác định mối liên kết giữa các loại dữ liệu\n- `CHITIETHD` liên kết với `HOADON` thông qua trường `HOADONID` (một hóa đơn gồm nhiều dòng chi tiết mặt hàng).\n- `HOADON` liên kết với `KHACHHANG` thông qua trường `KHACHID` (mỗi hóa đơn gắn với một khách hàng).\n- `CHITIETHD` liên kết với `MATHANG` thông qua trường `HANGID` (mỗi dòng chi tiết chỉ rõ một mặt hàng được bán).",
+        "Bước 3: Biểu diễn ở mức vật lý (mức trong)\n- Mô tả CSDL Quản lý bán hàng thành 4 tệp dữ liệu vật lý tương ứng: `HOADON`, `CHITIETHD`, `KHACHHANG`, `MATHANG`.\n- Chỉ rõ kiểu dữ liệu, kích thước từng trường, vị trí lưu trữ các tệp trên đĩa cứng, các chỉ mục tìm kiếm (theo `HOADONID`, `KHACHID`, `HANGID`) và phương thức truy xuất.",
+        "Bước 4: Biểu diễn ở mức khung nhìn (mức ngoài)\n- Góc độ Người bán hàng: nhìn thấy thông tin khách hàng đã mua hàng của mình, các hóa đơn đã thanh toán và danh sách các mặt hàng đang bán.\n- Góc độ Chủ cửa hàng: chỉ cần quan tâm dữ liệu tổng hợp như tổng số lượng hàng bán được và tổng thành tiền doanh thu."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bài 4 (Giáo trình): Vai trò Con người trong Hệ CSDL và Chức năng, Kỹ năng của DBA",
+      "problem": "Trình bày vai trò của con người trong hệ CSDL (phân biệt đối tượng trực tiếp và gián tiếp). Phân tích các chức năng của Người quản trị CSDL (DBA) cùng những kỹ năng và kiến thức cần thiết của DBA.",
+      "solution_steps": [
+        "Bước 1: Vai trò các đối tượng sử dụng trực tiếp CSDL\n- Người quản trị CSDL (DBA): đứng đầu quản lý nguồn dữ liệu dùng chung của tổ chức.\n- Người thiết kế CSDL: phỏng vấn người dùng, xác định dữ liệu cần lưu, chọn cấu trúc biểu diễn và phân tích thiết kế hệ thống.\n- Người phân tích hệ thống & lập trình ứng dụng: xác định yêu cầu, thống nhất khung nhìn, quản lý giao tác; lập trình, chạy thử (test), gỡ rối (debug), viết tài liệu và bảo trì.\n- Người sử dụng cuối: truy vấn, cập nhật dữ liệu và thống kê, báo cáo.",
+        "Bước 2: Vai trò các đối tượng sử dụng gián tiếp CSDL\n- Là đội ngũ tạo ra môi trường hệ thống và phần mềm của hệ QTCSDL, không thao tác trực tiếp trên một CSDL cụ thể nào, gồm: người phân tích và thực hiện tạo ra hệ thống DBMS, nhà phát triển hệ công cụ (Tool developers), người kiểm thử và bảo trì hệ thống (Tester và System Maintainer).",
+        "Bước 3: Các chức năng trọng tâm của Người quản trị CSDL (DBA)\n- Quản lý toàn bộ tài nguyên của hệ CSDL (CSDL, DBMS và phần mềm liên quan); tổ chức nội dung CSDL.\n- Thiết kế và cài đặt CSDL về mặt vật lý; đề xuất yêu cầu về phần cứng và phần mềm khi cần.\n- Tạo tài khoản, cấp phát và phân quyền truy cập CSDL; bảo vệ an toàn, sao lưu - phục hồi khi có sự cố và duy trì hoạt động ổn định của hệ thống.",
+        "Bước 4: Kỹ năng và kiến thức cần thiết của DBA\n- Có hiểu biết sâu và kỹ năng vững về mặt kỹ thuật trong lĩnh vực CSDL, các hệ QTCSDL và môi trường hệ thống (hệ điều hành, lưu trữ, bảo mật, mạng).\n- Có kinh nghiệm thực tiễn trong quản lý, vận hành, tối ưu hóa và xử lý sự cố CSDL quy mô lớn."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bài 5 (Giáo trình): So sánh Độc lập Dữ liệu Vật lý và Độc lập Dữ liệu Logic",
+      "problem": "So sánh giữa độc lập dữ liệu vật lý và độc lập dữ liệu logic trong kiến trúc ba mức của hệ QTCSDL. Cho ví dụ minh họa rõ ràng cho từng loại.",
+      "solution_steps": [
+        "Bước 1: Khái niệm chung về Độc lập dữ liệu\n- Độc lập dữ liệu là khả năng thay đổi lược đồ ở một mức nào đó của hệ thống CSDL mà không cần phải thay đổi lược đồ ở mức cao hơn (nhờ các cơ chế ánh xạ giữa 3 mức).",
+        "Bước 2: Đặc điểm của Độc lập dữ liệu vật lý (Physical Data Independence)\n- Vị trí ánh xạ: giữa mức trong (vật lý) và mức khái niệm.\n- Nội dung: cho phép thay đổi lược đồ mức trong (tổ chức lại tệp vật lý, thêm/đổi chỉ mục, chuyển vị trí lưu trữ đĩa để tăng hiệu quả thực hiện) mà không cần thay đổi lược đồ khái niệm (miễn kiểu dữ liệu không đổi).",
+        "Bước 3: Đặc điểm của Độc lập dữ liệu logic (Logical Data Independence)\n- Vị trí ánh xạ: giữa mức khái niệm và mức ngoài (khung nhìn).\n- Nội dung: cho phép thay đổi lược đồ khái niệm để mở rộng (thêm trường dữ liệu, thêm bản ghi/bảng) hoặc thu nhỏ CSDL (xóa trường, xóa bản ghi) mà không cần thay đổi lược đồ mức ngoài hoặc các chương trình ứng dụng hiện hành.",
+        "Bước 4: So sánh điểm khác nhau và Ví dụ minh họa\n- Khác biệt: Độc lập vật lý bảo vệ mức khái niệm trước thay đổi lưu trữ tầng dưới (dễ đạt được hơn); Độc lập logic bảo vệ các khung nhìn/ứng dụng tầng trên trước thay đổi cấu trúc logic ở tầng giữa.\n- Ví dụ vật lý: Tạo thêm chỉ mục trên cột `Maso_SV` của tệp `SINHVIÊN` hoặc chuyển tệp sang ổ đĩa khác để truy vấn nhanh hơn mà lược đồ khái niệm `SINHVIÊN(Hoten_SV, Maso_SV, Lớp, Chuyên ngành)` vẫn giữ nguyên.\n- Ví dụ logic: Bổ sung thêm thuộc tính `Email` vào lược đồ khái niệm `SINHVIÊN`, nhưng khung nhìn và ứng dụng tra cứu điểm thi của giảng viên vẫn hoạt động bình thường không cần sửa đổi."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bài 6 (Giáo trình): Biểu diễn Ba Mức cho CSDL Quản lý Bán Cà phê",
+      "problem": "Giả sử cần quản lý bán cà phê với các thông tin: Thức uống (tên, loại, giá cả); Bàn (ký hiệu bàn, vị trí, trạng thái trống/bận); Hóa đơn (thời gian đến, thời gian đi, bàn khách ngồi, trạng thái đã/chưa thanh toán, danh sách các loại thức uống); Tài khoản quản trị phần mềm quản lý (tên tài khoản, họ và tên, loại tài khoản). Hãy trình bày cách biểu diễn CSDL này ở từng mức.",
+      "solution_steps": [
+        "Bước 1: Biểu diễn ở mức khái niệm (Lược đồ khái niệm)\n- Xác định 5 loại dữ liệu và các thuộc tính kèm khóa liên kết:\n  + `THUCUONG(MaTU, TenTU, LoaiTU, Gia)`\n  + `BAN(MaBan, KyHieuBan, ViTri, TrangThai)`\n  + `HOADON(MaHD, MaBan, ThoiGianDen, ThoiGianDi, TrangThaiTT, TenTK)`\n  + `CHITIET_HOADON(MaHD, MaTU, SoLuong, DonGiaBan)`\n  + `TAIKHOAN(TenTK, HoTen, LoaiTK)`",
+        "Bước 2: Xác định các mối quan hệ ở mức khái niệm\n- Mỗi `HOADON` gắn với một `BAN` qua `MaBan` và một `TAIKHOAN` lập hóa đơn qua `TenTK`.\n- `CHITIET_HOADON` liên kết nhiều-nhiều giữa `HOADON` (`MaHD`) và `THUCUONG` (`MaTU`) để lưu danh sách thức uống trong từng hóa đơn.",
+        "Bước 3: Biểu diễn ở mức vật lý (mức trong)\n- Tổ chức thành 5 tệp vật lý tương ứng (`THUCUONG`, `BAN`, `HOADON`, `CHITIET_HOADON`, `TAIKHOAN`) lưu trên đĩa cứng của máy tính quản lý quán.\n- Quy định kiểu dữ liệu, độ dài bản ghi (ví dụ `TenTU` chuỗi 50 ký tự, `Gia` kiểu số nguyên/thực, `ThoiGianDen/Di` kiểu ngày-giờ), chỉ mục trên `MaHD`, `MaBan`, `TenTK` và phương pháp truy xuất.",
+        "Bước 4: Biểu diễn ở mức khung nhìn (mức ngoài)\n- Khung nhìn Nhân viên phục vụ/Order: xem sơ đồ bàn (ký hiệu, vị trí, trạng thái trống/bận) và danh mục thức uống (tên, loại, giá) để lập hóa đơn.\n- Khung nhìn Thu ngân: xem các hóa đơn chưa thanh toán, danh sách thức uống gọi thêm và tính tổng tiền thanh toán.\n- Khung nhìn Chủ quán / Quản trị: xem doanh thu tổng hợp theo ngày/tháng, món bán chạy và quản lý danh sách tài khoản (`TenTK`, `HoTen`, `LoaiTK`)."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bài 7 (Giáo trình): Phân biệt DDL, DML, SQL và Phân loại 4 Thao tác Cụ thể",
+      "problem": "Phân biệt ngôn ngữ định nghĩa dữ liệu (DDL), ngôn ngữ thao tác dữ liệu (DML) và ngôn ngữ truy vấn dữ liệu (SQL). Cho biết 4 thao tác sau sử dụng loại ngôn ngữ nào: (a) Lấy tên, ngày sinh một sinh viên từ CSDL; (b) Tạo một bảng dữ liệu để lưu thông tin đăng ký môn học; (c) Thay đổi địa chỉ một sinh viên trong CSDL; (d) Thay đổi để có thể lưu trữ địa chỉ của sinh viên dài đến 200 ký tự.",
+      "solution_steps": [
+        "Bước 1: Phân biệt DDL, DML và SQL\n- Ngôn ngữ định nghĩa dữ liệu (DDL - Data Definition Language): tập lệnh khai báo cấu trúc CSDL, mối liên hệ giữa các loại dữ liệu và quy tắc quản lý (ví dụ: `CREATE TABLE`, `CREATE VIEW`, `CREATE INDEX`...).\n- Ngôn ngữ thao tác dữ liệu (DML - Data Manipulation Language): cho phép truy nhập và thao tác dữ liệu gồm thêm, xóa, tìm kiếm và thay đổi dữ liệu lưu trong CSDL.\n- Ngôn ngữ truy vấn dữ liệu (SQL - Structured Query Language): ngôn ngữ hỏi đáp có cấu trúc cho phép truy vấn các thông tin cần thiết (và trong thực tế SQL tích hợp cả lệnh DDL lẫn DML).",
+        "Bước 2: Phân loại thao tác (a) 'Lấy tên, ngày sinh một sinh viên từ CSDL'\n- Đây là thao tác hỏi đáp, tìm kiếm thông tin đã lưu mà không làm thay đổi cấu trúc hay dữ liệu bảng -> sử dụng **Ngôn ngữ truy vấn dữ liệu (SQL)** (thuộc nhóm tìm kiếm của DML).",
+        "Bước 3: Phân loại thao tác (b) 'Tạo một bảng dữ liệu trong CSDL để lưu thông tin đăng ký môn học'\n- Thao tác này tạo mới một cấu trúc bảng (thực thể dữ liệu) trong lược đồ CSDL -> sử dụng **Ngôn ngữ định nghĩa dữ liệu (DDL)**.",
+        "Bước 4: Phân loại thao tác (c) và (d)\n- Thao tác (c) 'Thay đổi địa chỉ một sinh viên trong CSDL': cập nhật giá trị dữ liệu của một bản ghi sinh viên cụ thể -> sử dụng **Ngôn ngữ thao tác dữ liệu (DML)**.\n- Thao tác (d) 'Thay đổi để có thể lưu trữ địa chỉ của sinh viên dài đến 200 ký tự': sửa đổi kiểu/kích thước thuộc tính trong cấu trúc bảng -> sử dụng **Ngôn ngữ định nghĩa dữ liệu (DDL)**."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bài 8 (Giáo trình): Phân tích Điều kiện Khôi phục CSDL về Thời điểm Quá khứ",
+      "problem": "Hãy phân tích các điều kiện kỹ thuật và vận hành để một Hệ quản trị CSDL có thể khôi phục (Restore) CSDL về lại đúng một thời điểm cụ thể trong quá khứ khi xảy ra sự cố.",
+      "solution_steps": [
+        "Bước 1: Tồn tại bản sao lưu dự phòng định kỳ (Backup / Checkpoint)\n- Trước thời điểm cần khôi phục, hệ thống phải đã thực hiện định kỳ kiểm tra CSDL và tạo được ít nhất một bản sao hoàn chỉnh (full backup) lưu trữ an toàn ở thiết bị độc lập (hoặc dùng kết hợp hệ thống đĩa cứng dự phòng RAID của hệ điều hành mạng để hạn chế hỏng phần cứng).",
+        "Bước 2: Bật và lưu giữ đầy đủ Nhật ký thao tác CSDL (Transaction Log)\n- Hệ QTCSDL phải có cơ chế ghi nhận mọi thao tác (thêm, xóa, sửa, thời điểm thực hiện, giá trị trước và sau thay đổi) vào nhật ký thao tác CSDL liên tục từ thời điểm tạo bản sao gần nhất đến thời điểm sự cố.",
+        "Bước 3: Toàn vẹn và đồng nhất của các tệp sao lưu và nhật ký\n- Bản sao CSDL và chuỗi nhật ký thao tác không được bị hỏng, thất lạc hoặc bị gián đoạn mắt xích thời gian; người quản trị CSDL (DBA) phải lưu trữ tách biệt bản sao và log khỏi ổ đĩa chính để không bị mất đồng thời khi hỏng đĩa.",
+        "Bước 4: Quy trình thực hiện khôi phục về thời điểm quá khứ $T_0$\n- Nạp lại bản sao CSDL gần nhất trước thời điểm $T_0$, sau đó hệ QTCSDL hoặc DBA tiến hành lần theo nhật ký thao tác: áp dụng lại (redo) các giao dịch đã hoàn tất đến mốc $T_0$ và lần ngược/hoàn tác (undo) các thao tác dở dang hoặc phát sinh sau mốc $T_0$."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bài 9 (Mở rộng): Thiết kế 3 Mức và Lược đồ - Thể hiện cho CSDL Trường Đại học 5 Bảng",
+      "problem": "Dựa vào ví dụ CSDL Trường Đại học gồm 5 bảng (`SINHVIÊN`, `KHÓAHỌC`, `THONGTIN_KHÓAHỌC`, `ĐIỂM`, `ĐIỀUKIỆN_TIÊNQUYẾT`) trong Mục 1.1.5, hãy trình bày lược đồ khái niệm, thể hiện minh họa, biểu diễn 3 mức và phân loại các thao tác truy vấn/cập nhật.",
+      "solution_steps": [
+        "Bước 1: Lược đồ khái niệm của 5 bảng và lược đồ mã hóa\n- `SINHVIÊN(Hoten_SV, Maso_SV, Lớp, Chuyên ngành)` với quy ước mã hóa `Lớp`: 1 (năm nhất), 2 (năm hai), 3 (cơ sở), 4 (cuối cấp), 5 (tốt nghiệp).\n- `KHÓAHỌC(Ten Khoahoc, Maso Khoahoc, Sotinchi, Khoa)`; `THONGTIN_KHÓAHOC(ID_KHOAHOC, Maso Khoahoc, Hocky, Namhoc, Nguoihuongdan)`.\n- `ĐIỂM(Maso_SV, ID Khoahoc, Diem)` với `Diem` thuộc `{'A','B','C','D','F'}`; `ĐIỀUKIỆN_TIÊNQUYẾT(Maso Khoahoc, Maso Tienquyet)`.",
+        "Bước 2: Thể hiện dữ liệu tại một thời điểm cụ thể\n- Ví dụ thể hiện hiện tại: Sinh viên `Nguyễn An (19001, Lớp 1, CS)` có 2 bản ghi trong `ĐIỂM`: học phần `85` (Toán cao cấp 1 `CC1512`, HK I/2020) đạt `A` và học phần `102` (Cơ sở dữ liệu `CL1413`, HK I/2020) đạt `C`; sinh viên `Lê Nam (19002, Lớp 2, CS)` đạt `B` ở học phần `92` (`CT1310`).\n- Bảng `ĐIỀUKIỆN_TIÊNQUYẾT` thể hiện khóa `CL1413` liên kết tiên quyết tới cả `CC1512` và `CT1310`.",
+        "Bước 3: Biểu diễn mức vật lý và mức khung nhìn\n- Mức vật lý: lưu 5 tệp tương ứng trên đĩa từ của máy chủ đào tạo, định nghĩa kiểu dữ liệu (chuỗi ký tự cho `Hoten_SV`, ký tự đơn thuộc tập hợp `{'A'..'F'}` cho `Diem`), tổ chức chỉ mục trên `Maso_SV`, `Maso Khoahoc`, `ID_KHOAHOC`.\n- Mức khung nhìn: Khung nhìn Sinh viên chỉ xem bảng điểm và điều kiện tiên quyết của môn học; Khung nhìn Giảng viên xem danh sách lớp học phần mình hướng dẫn và nhập điểm; Khung nhìn Phòng Đào tạo quản lý toàn bộ mở lớp và xét tốt nghiệp.",
+        "Bước 4: Phân loại các thao tác truy vấn và cập nhật trên hệ thống\n- Truy vấn (SQL/đọc): Lấy bảng điểm của 'Nguyễn An'; liệt kê sinh viên học 'Cơ sở dữ liệu' HK I/2020 và điểm; liệt kê điều kiện tiên quyết của 'Cơ sở dữ liệu'.\n- Cập nhật (DML): Đổi lớp 'Nguyễn An' thành năm hai (mã `2`); tạo học phần mới cho khóa 'Cơ sở dữ liệu' học kỳ này; nhập điểm `'A'` cho sinh viên trong học phần kỳ trước."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bài 10 (Mở rộng): Thiết kế 3 Mức và Lược đồ - Thể hiện cho CSDL Quản lý Xe máy Thừa Thiên Huế",
+      "problem": "Từ mô hình CSDL Quản lý xe máy tỉnh Thừa Thiên Huế (Mục 1.2 - Hình 1.2 và Mục 1.6 - Ví dụ 1), hãy xây dựng lược đồ khái niệm đầy đủ cho 3 loại dữ liệu (`Người`, `Xe Máy`, `Đại Lý`), cho ví dụ một thể hiện cụ thể và trình bày 3 mức biểu diễn.",
+      "solution_steps": [
+        "Bước 1: Xây dựng lược đồ khái niệm (Mức khái niệm)\n- Ba thực thể và thuộc tính cốt lõi theo giáo trình:\n  + `NGƯỜI(SoCCCD, HoTen, GioiTinh, DiaChi)`\n  + `XEMAY(SoKhung, SoXe, LoaiXe, SoCCCD_ChuXe, MaDaiLy)`\n  + `DAILY(MaDaiLy, TenDaiLy, DiaChi)`\n- Mối liên hệ: Mỗi `XEMAY` được bán qua một `DAILY` và đăng ký thuộc quyền sở hữu của một `NGƯỜI` (qua `SoCCCD`).",
+        "Bước 2: Minh họa một thể hiện của CSDL\n- Bảng `DAILY`: `(DL01, Đại lý Hùng Vương, 45 Hùng Vương - TP Huế)`.\n- Bảng `NGƯỜI`: `(046099001234, Trần Minh Tuấn, Nam, Phú Vang - Thừa Thiên Huế)`.\n- Bảng `XEMAY`: `(RLHJA3910..., 75F1-123.45, Honda Vision, 046099001234, DL01)`.",
+        "Bước 3: Biểu diễn mức vật lý (Mức trong)\n- Ba tệp dữ liệu `NGUOI`, `XEMAY`, `DAILY` được lưu trên ổ đĩa hệ thống của cơ quan quản lý phương tiện; quy định cấu trúc trường cố định (ví dụ `SoCCCD[12]`, `SoKhung[20]`, `SoXe[15]`) và lập chỉ mục tìm kiếm nhanh theo `SoXe` và `SoCCCD`.",
+        "Bước 4: Biểu diễn mức khung nhìn (Mức ngoài)\n- Khung nhìn Cảnh sát giao thông: tra cứu nhanh biển số `SoXe`, `LoaiXe`, họ tên và địa chỉ chủ xe.\n- Khung nhìn Đại lý bán xe: theo dõi danh sách xe đã xuất bán từ đại lý của mình (`TenDaiLy`, `SoKhung`, `LoaiXe`).\n- Khung nhìn Thống kê Sở GTVT: tổng hợp số lượng xe đăng ký theo từng loại xe và địa bàn mà không cần thông tin cá nhân chi tiết."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bài 11 (Mở rộng): Phân quyền Khung nhìn cho CSDL Quản lý Nhân viên - Phòng ban - Công việc",
+      "problem": "Xét CSDL Quản lý nhân viên công ty (Mục 1.4.2 & 1.4.3) gồm `PHÒNGBAN(MAP, TENP, TENTP, SODT, KINHPHI, DOANHTHU)`, `NHÂNVIÊN(MANV, TENNV, MACV, MAP, NSINH, PHAI, LUONG)` và `CÔNGVIỆC(MACV, TENCV, LUONGTOITHIEU, LUONGTĐA)`. Hãy trình bày biểu diễn 3 mức và thiết kế khung nhìn phân quyền cho Phòng Kế toán, Lãnh đạo công ty và Phòng Tổ chức nhân sự.",
+      "solution_steps": [
+        "Bước 1: Biểu diễn mức khái niệm (Lược đồ logic)\n- Xác định 3 loại dữ liệu `PHÒNGBAN`, `NHÂNVIÊN`, `CÔNGVIỆC` cùng mối quan hệ: mỗi phòng ban có từ 1 đến nhiều nhân viên (liên kết qua `MAP`); mỗi nhân viên đảm nhận một công việc (liên kết qua `MACV`) với mức lương nằm trong khoảng `[LUONGTOITHIEU, LUONGTĐA]`.",
+        "Bước 2: Biểu diễn mức vật lý (Mức trong)\n- Dữ liệu được cài đặt thành 3 tệp `PHONGBAN`, `NHANVIEN`, `CONGVIEC` lưu trên đĩa cứng máy chủ công ty, đánh chỉ mục theo `MANV`, `MAP`, `MACV` để phục vụ tra cứu và kết nối nhanh khi lập báo cáo lương hoặc nhân sự.",
+        "Bước 3: Thiết kế 3 khung nhìn (Mức khung nhìn) theo góc độ nghiệp vụ\n- Khung nhìn Phòng Kế toán: chỉ thấy danh sách nhân viên (`MANV`, `TENNV`), tên phòng ban (`TENP`) và mức lương thỏa thuận (`LUONG`) để tính chi trả lương; ẩn hoàn toàn các thông tin lý lịch cá nhân (`NSINH`, địa chỉ, hồ sơ nhân thân).\n- Khung nhìn Lãnh đạo công ty: thấy dữ liệu tổng hợp gồm số lượng nhân viên từng phòng, tổng số lương phải trả, kinh phí/doanh thu phòng ban và tên trưởng phòng (`TENTP`).\n- Khung nhìn Phòng Tổ chức nhân sự: được xem đầy đủ, chi tiết lý lịch cá nhân, ngày sinh, phái, công việc và quá trình công tác của tất cả nhân viên.",
+        "Bước 4: Ý nghĩa bảo mật và độc lập dữ liệu của thiết kế khung nhìn\n- Khi tách thành nhiều khung nhìn trên cùng một lược đồ khái niệm, mỗi bộ phận chỉ thấy đúng phạm vi dữ liệu được phép (đảm bảo tính bảo mật và chủ quyền dữ liệu), đồng thời thay đổi khung nhìn của Kế toán không làm ảnh hưởng đến khung nhìn của Lãnh đạo hay Nhân sự."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Bài 12 (Mở rộng): Biểu diễn 3 Mức và Cài đặt Mức Vật lý cho CSDL Quản lý Học sinh",
+      "problem": "Dựa trên Ví dụ 2 Mục 1.6 về Hệ thống CSDL Quản lý học sinh (`HOCSINH`, `LOPHOC`, `MONHOC`, `DIEM`), hãy trình bày lược đồ khái niệm, minh họa thể hiện bảng `HOCSINH` (Bảng 1.6), mô tả cài đặt mức vật lý dạng `Struct` và đề xuất các khung nhìn cho nhà trường.",
+      "solution_steps": [
+        "Bước 1: Biểu diễn mức khái niệm (Lược đồ khái niệm)\n- Gồm 4 loại dữ liệu chính:\n  + `HOCSINH(Mã HS, Họ tên, Ngày sinh, Phái, Mã lớp)`\n  + `LOPHOC(Mã lớp, Tên lớp, Niên khóa, Số HS)`\n  + `MONHOC(MMH, Tên môn, Số ĐVHT)`\n  + `DIEM(Mã HS, MMH, Điểm Thi)`\n- Ràng buộc liên kết: học sinh thuộc lớp học qua `Mã lớp`; điểm thi nối học sinh (`Mã HS`) với môn học (`MMH`).",
+        "Bước 2: Minh họa Thể hiện của bảng `HOCSINH` (Bảng 1.6)\n- Tại một thời điểm, thể hiện gồm các bản ghi cụ thể:\n  + `(Lê Thiên Định, 11/3/2006, Nữ, TH01, HS001)`\n  + `(Trần Văn Hà, 12/5/2007, Nam, TH02, HS002)`\n  + `(Nguyễn Thanh Bình, 24/7/2006, Nữ, TH01, HS003)`",
+        "Bước 3: Biểu diễn mức vật lý (Lược đồ vật lý)\n- Mô tả cấu trúc lưu trữ cụ thể của các tệp dữ liệu, ví dụ trong ngôn ngữ C cho tệp `MONHOC`:\n  `Struct MONHOC { Char MaMH[10]; Char Tenmon[30]; Int SoDVHT; };`\n- Tương tự quy định kích thước trường, bản ghi cố định và vị trí lưu trữ trên đĩa từ cho `HOCSINH`, `LOPHOC`, `DIEM`.",
+        "Bước 4: Biểu diễn mức khung nhìn (Lược đồ con)\n- Lược đồ con Quản lý kết quả học tập: chỉ hiển thị `Mã HS`, `Họ tên`, `Tên môn`, `Số ĐVHT`, `Điểm Thi` phục vụ phụ huynh và học sinh tra cứu.\n- Lược đồ con Giáo viên chủ nhiệm: xem danh sách học sinh thuộc lớp phụ trách (`Mã lớp`), sĩ số lớp và bảng điểm tổng hợp của lớp đó."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Bài 13 (Mở rộng): Thiết kế 3 Mức cho CSDL Quản lý Thư viện Lớn",
+      "problem": "Trong Mục 1.1.1, giáo trình nhắc tới danh mục lưu trữ trong hệ thống máy tính của một thư viện lớn chứa nửa triệu mục sắp xếp theo họ tác giả chính, chủ đề và tên sách. Hãy thiết kế CSDL Quản lý thư viện (sách, độc giả, phiếu mượn) theo kiến trúc 3 mức ANSI-SPARC.",
+      "solution_steps": [
+        "Bước 1: Biểu diễn mức khái niệm (Lược đồ khái niệm)\n- `SACH(MaSach, TenSach, TacGiaChinh, ChuDe, NamXB, SoLuongCon)`\n- `DOCGIA(MaDG, HoTen, NgaySinh, DiaChi, SoDT)`\n- `MUONTRA(MaPhieu, MaDG, MaSach, NgayMuon, HanTra, NgayTraThucTe)`",
+        "Bước 2: Biểu diễn mức vật lý (Mức trong)\n- Lưu 3 tệp `SACH`, `DOCGIA`, `MUONTRA` trên đĩa từ; để tìm kiếm nhanh nửa triệu đầu sách, tạo nhiều tệp chỉ mục (index) sắp xếp theo thứ tự bảng chữ cái trên 3 thuộc tính: `TacGiaChinh`, `ChuDe` và `TenSach`, cùng chỉ mục theo `MaSach`, `MaDG`.",
+        "Bước 3: Biểu diễn mức khung nhìn (Mức ngoài)\n- Khung nhìn Độc giả tra cứu: chỉ thấy tên sách, tác giả chính, chủ đề, năm xuất bản và tình trạng còn/hết sách (ẩn thông tin độc giả khác).\n- Khung nhìn Thủ thư: xem thông tin độc giả, lập phiếu mượn/trả và theo dõi danh sách sách quá hạn.\n- Khung nhìn Ban giám đốc thư viện: xem thống kê số lượt mượn theo chủ đề và nhu cầu bổ sung đầu sách mới.",
+        "Bước 4: Minh họa tính độc lập dữ liệu vật lý\n- Nếu thư viện nâng cấp từ lưu trữ tuần tự sang B-cây hoặc thêm chỉ mục theo `NamXB` ở mức vật lý để tăng tốc tra cứu, lược đồ khái niệm và giao diện tra cứu của độc giả vẫn giữ nguyên không cần viết lại."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bài 14 (Mở rộng): Xử lý Giao dịch Trực tuyến (OLTP) và Giải quyết Tranh chấp Đặt vé Hàng không",
+      "problem": "Dựa vào ví dụ ứng dụng đa người dùng OLTP của hãng hàng không (Mục 1.1 & 1.1.2) và cơ chế giải quyết tranh chấp dữ liệu (Mục 1.2), hãy phân tích bài toán nhiều đại lý cùng đặt một chỗ ngồi trên một chuyến bay và cách hệ QTCSDL xử lý.",
+      "solution_steps": [
+        "Bước 1: Mô tả bài toán và đặc điểm dữ liệu chuyến bay\n- CSDL quản lý chuyến bay chứa thông tin số hiệu chuyến bay, nơi xuất phát, nơi đến, số chỗ ngồi và ngày bay của tất cả chuyến bay trong năm.\n- Hệ thống phục vụ đa người dùng (multi-user) qua các đại lý đặt vé đồng thời, đòi hỏi xử lý giao dịch trực tuyến (OLTP - On-Line Transaction Processing).",
+        "Bước 2: Nguy cơ xung đột khi truy cập đồng thời\n- Một giao dịch đặt vé gồm các thao tác đọc trạng thái ghế còn trống và cập nhật trạng thái ghế thành đã đặt cho hành khách.\n- Nếu hai đại lý cùng đọc thấy ghế `12A` còn trống tại cùng một thời điểm và đều xác nhận bán cho hai hành khách khác nhau, dữ liệu sẽ mất tính nhất quán (bán trùng ghế).",
+        "Bước 3: Cơ chế giải quyết tranh chấp của Bộ quản trị giao dịch và DBMS\n- CSDL phải đảm bảo mỗi chỗ ngồi chỉ được truy cập/khóa xử lý bởi một nhân viên tại một thời điểm để chỉ định cho một hành khách.\n- Áp dụng 2 biện pháp trong giáo trình: (1) Đánh dấu yêu cầu truy xuất và phân chia thời gian — đại lý nào gửi yêu cầu đặt ghế `12A` trước được quyền xử lý cập nhật trước; đại lý đến sau phải chờ và sau khi giao dịch trước hoàn tất sẽ nhận kết quả ghế đã hết; (2) Cấp quyền ưu tiên cho từng nhóm người dùng khi cần thiết.",
+        "Bước 4: Đảm bảo an toàn nếu xảy ra sự cố giữa giao dịch\n- Bộ quản trị giao dịch ghi nhật ký thao tác (log); nếu giao dịch đặt ghế bị lỗi mạng hoặc mất điện trước khi hoàn tất thanh toán, hệ thống tự động khôi phục trạng thái ghế về 'trống' để không bị treo chỗ ảo."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bài 15 (Mở rộng): Luồng Thực thi Các Thành phần Kiến trúc DBMS khi Xử lý Lệnh SQL",
+      "problem": "Dựa vào Sơ đồ kiến trúc các thành phần chính của một DBMS (Mục 1.8 - Hình 1.5), hãy phân tích vai trò và luồng phối hợp giữa các thành phần khi: (a) Người dùng chạy một chương trình ứng dụng có nhúng lệnh truy vấn/cập nhật DML; (b) DBA thực hiện lệnh DDL thay đổi lược đồ bảng.",
+      "solution_steps": [
+        "Bước 1: Xác định các lớp từ đỉnh đến đáy kiến trúc DBMS\n- Đỉnh kiến trúc gồm 3 luồng thao tác: Truy vấn, Thay đổi dữ liệu và Thay đổi lược đồ.\n- Đáy kiến trúc là thiết bị nhớ ngoài (đĩa từ) lưu trữ cả dữ liệu nguyên thủy lẫn siêu dữ liệu (metadata).",
+        "Bước 2: Luồng (a) - Chương trình ứng dụng nhúng lệnh thao tác dữ liệu (DML)\n- Lệnh DML trong trình ứng dụng đi qua **Bộ tiền xử lý DML** để chuyển thành lời gọi thủ tục chuẩn trong ngôn ngữ chủ, phối hợp trình biên dịch DML sinh mã.\n- Yêu cầu được chuyển sang **Bộ xử lý truy vấn**, tại đây nó tham khảo **Bộ quản lý từ điển (metadata)** để kiểm tra tên bảng, thuộc tính, kiểu dữ liệu, chỉ mục và tìm phương án thực thi tối ưu nhất.",
+        "Bước 3: Thực thi giao dịch và truy xuất đĩa cho Luồng (a)\n- Bộ xử lý truy vấn tương tác với **Bộ quản trị giao dịch** để đảm bảo tính toàn vẹn, không xung đột với giao dịch đồng thời và ghi nhận an toàn.\n- Sau đó phát lệnh tới **Bộ quản lý lưu trữ** và **Bộ quản lý tệp** (cấp phát/đọc cấu trúc tệp trên đĩa) để đọc hoặc ghi dữ liệu trên **Thiết bị nhớ ngoài** rồi trả kết quả về ứng dụng.",
+        "Bước 4: Luồng (b) - Người quản trị CSDL (DBA) thay đổi lược đồ (DDL)\n- DBA phát câu lệnh DDL (ví dụ `CREATE TABLE` hoặc thêm cột).\n- Lệnh đi qua **Chương trình dịch ngôn ngữ khai báo dữ liệu (DDL)** để kiểm tra cú pháp và cập nhật định nghĩa cấu trúc mới (siêu dữ liệu) vào **Bộ quản lý từ điển dữ liệu**, đồng thời lưu cấu trúc cập nhật xuống thiết bị nhớ ngoài."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bài 16 (Mở rộng): Phân tích Bài toán CSDL Quy mô Lớn (Tổng cục Thuế 600 GB & Amazon > 2 TB)",
+      "problem": "Dựa vào hai ví dụ quy mô lớn trong Mục 1.1.1 (CSDL Tổng cục Thuế Việt Nam 600 GB và Amazon.com > 2 TB), hãy phân tích vì sao các phần mềm tệp đơn giản không thể đáp ứng và Hệ QTCSDL giải quyết bài toán này dựa trên những đặc trưng, khả năng nào?",
+      "solution_steps": [
+        "Bước 1: Phân tích quy mô dữ liệu và tải truy cập của hai hệ thống\n- Tổng cục Thuế: 100 triệu người nộp thuế × 5 biểu mẫu × 400 ký tự = $2 \\times 10^{11}$ byte/lần; lưu 3 lần khai thuế = 600 GB.\n- Amazon.com: hơn 20 triệu mặt hàng, dung lượng > 2 TB phân tán trên 200 máy chủ, phục vụ ~15 triệu lượt khách/ngày và cập nhật tồn kho liên tục.",
+        "Bước 2: Hạn chế của lưu trữ thủ công hoặc tệp rời rạc thông thường\n- Dễ trùng lặp và mất nhất quán dữ liệu (ví dụ tồn kho không trừ kịp giữa các máy chủ), tìm kiếm tuyến tính trên 600 GB hay 2 TB sẽ cực kỳ chậm, không kiểm soát được hàng triệu truy cập đồng thời và rất dễ mất dữ liệu khi hỏng đĩa.",
+        "Bước 3: Hai đặc trưng cốt lõi của DBMS đáp ứng bài toán\n- Quản lý dữ liệu bền vững (lưu trữ lâu dài nhiều năm cho hồ sơ thuế hoặc lịch sử giao dịch).\n- Truy cập khối lượng lớn dữ liệu hiệu quả nhờ tổ chức tệp, chỉ mục và tối ưu truy vấn ở bộ xử lý câu hỏi.",
+        "Bước 4: Các khả năng bảo đảm vận hành an toàn, liên tục\n- Cung cấp cơ chế giải quyết tranh chấp đồng thời cho 15 triệu lượt truy cập/ngày; phân quyền bảo mật chặt chẽ cho dữ liệu thuế nhạy cảm; sao lưu định kỳ kết hợp nhật ký thao tác (log) và đĩa dự phòng RAID để phục hồi tức thời khi sự cố phần cứng xảy ra."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Bài 17 (Mở rộng): Cấu thành Mô hình Dữ liệu và Tổng quan 5 Mô hình CSDL",
+      "problem": "Phân tích khái niệm mô hình dữ liệu, hai thành phần cấu tạo bắt buộc của một mô hình dữ liệu và kể tên 5 loại mô hình CSDL được giới thiệu trong Mục 1.3. Giải thích vai trò của mô hình dữ liệu đối với tính trừu tượng hóa CSDL.",
+      "solution_steps": [
+        "Bước 1: Khái niệm và mục đích của mô hình dữ liệu\n- Mô hình dữ liệu được xây dựng trong quá trình thiết kế và xây dựng CSDL nhằm giúp người dùng thấy được bản chất của dữ liệu và mối quan hệ giữa các dữ liệu một cách trực quan, dễ hiểu.",
+        "Bước 2: Hai thành phần cấu tạo của một mô hình dữ liệu\n- Phần 1: Một hệ thống các ký hiệu dùng để mô tả các dữ liệu (cấu trúc thực thể, bảng, thuộc tính, liên kết, ràng buộc).\n- Phần 2: Một tập các phép toán thao tác trên dữ liệu đó (tìm kiếm, thêm, xóa, sửa, kết nối dữ liệu).",
+        "Bước 3: Năm loại mô hình CSDL trong giáo trình\n- (1) Mô hình Thực thể - Quan hệ (E-R - Entity - Relationship); (2) Mô hình mạng; (3) Mô hình phân cấp; (4) Mô hình quan hệ; (5) Mô hình hướng đối tượng.\n- Mỗi hệ QTCSDL cung cấp một mô hình cho CSDL, phản ánh phương pháp tiếp cận dữ liệu riêng của người phân tích thiết kế.",
+        "Bước 4: Vai trò trong trừu tượng hóa dữ liệu\n- Theo Mục 1.1.2, mô hình dữ liệu được dùng để làm ẩn đi chi tiết lưu trữ vật lý phức tạp trên đĩa từ/băng từ, chỉ biểu diễn cho người dùng ở mức khái niệm trực quan (như mô hình CSDL quản lý xe máy tỉnh Thừa Thiên Huế)."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Bài 18 (Mở rộng): Phân tích Cơ chế Bảo mật, Chủ quyền Dữ liệu và Đa Khung nhìn trong Doanh nghiệp",
+      "problem": "Một doanh nghiệp thương mại điện tử triển khai CSDL dùng chung cho 4 bộ phận: Kế toán, Nhân sự, Bán hàng và Ban Giám đốc. Hãy phân tích các rủi ro về chủ quyền, bảo mật, tranh chấp dữ liệu (Mục 1.1.3) và đề xuất giải pháp thông qua phân quyền DBA kết hợp cơ chế đa khung nhìn (Multi-view).",
+      "solution_steps": [
+        "Bước 1: Nhận diện 4 vấn đề cần giải quyết trong CSDL dùng chung\n- Tính chủ quyền dữ liệu dễ bị xâm phạm do dữ liệu dùng chung.\n- Nguy cơ rò rỉ bảo mật nếu người không có thẩm quyền xem được lương hoặc lý lịch.\n- Tranh chấp dữ liệu khi nhân viên bán hàng và kế toán cùng sửa/đọc một hóa đơn.\n- Nguy cơ mất dữ liệu khi hỏng đĩa cứng hoặc mất điện đột ngột.",
+        "Bước 2: Thiết kế đa khung nhìn (Multi-view) ở mức ngoài\n- Khung nhìn Bán hàng: chỉ thấy danh mục mặt hàng, tồn kho và hóa đơn khách hàng mình phụ trách.\n- Khung nhìn Kế toán: chỉ thấy hóa đơn thanh toán, doanh thu và mức lương thỏa thuận để trả lương, ẩn lý lịch nhân viên.\n- Khung nhìn Nhân sự: quản lý hồ sơ lý lịch nhân viên, ẩn chi tiết doanh số từng đơn hàng.\n- Khung nhìn Ban Giám đốc: xem báo cáo tổng hợp toàn công ty.",
+        "Bước 3: Phân quyền truy cập và giải quyết tranh chấp của DBA\n- DBA tạo tài khoản riêng cho từng nhân viên/bộ phận, gán quyền đọc/thêm/sửa/xóa tối thiểu đúng theo khung nhìn.\n- Thiết lập cơ chế ưu tiên truy cập và đánh dấu yêu cầu theo thời gian để xử lý xung đột khi nhiều nhân viên cùng cập nhật tồn kho hoặc hóa đơn.",
+        "Bước 4: Kết hợp bảo vệ an toàn dữ liệu khi có sự cố\n- Ngoài cơ chế phân quyền và khung nhìn, DBA cấu hình sao lưu ảnh đĩa (RAID) kết hợp định kỳ sao lưu CSDL và ghi nhật ký thao tác (log) để sẵn sàng khôi phục nếu xảy ra sự cố phần cứng hoặc truy cập trái phép."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Bài 19 (Mở rộng): Phối hợp Giữa Đối tượng Trực tiếp và Đối tượng Gián tiếp trong Vòng đời Hệ CSDL",
+      "problem": "Phân tích sự phân công và phối hợp giữa các nhóm con người (trực tiếp và gián tiếp theo Mục 1.9) từ lúc xây dựng phần mềm Hệ QTCSDL, thiết kế hệ thống CSDL ngân hàng, lập trình ứng dụng cho đến khi đưa vào vận hành phục vụ giao dịch hàng ngày.",
+      "solution_steps": [
+        "Bước 1: Giai đoạn tạo nền tảng phần mềm DBMS (Đối tượng gián tiếp)\n- Trước khi ngân hàng xây dựng CSDL riêng, đội ngũ đối tượng gián tiếp (người phân tích và tạo hệ thống DBMS, nhà phát triển hệ công cụ Tool developers, người kiểm thử và bảo trì hệ thống Tester/System Maintainer) xây dựng sẵn phần mềm hệ QTCSDL hoàn chỉnh; họ không trực tiếp thao tác trên CSDL cụ thể của ngân hàng.",
+        "Bước 2: Giai đoạn phân tích thiết kế CSDL ngân hàng (Người thiết kế & Phân tích hệ thống)\n- Người thiết kế CSDL phỏng vấn các giao dịch viên, kế toán, lãnh đạo ngân hàng để nắm yêu cầu; xác định các loại dữ liệu (Khách hàng, Tài khoản, Giao dịch) và chọn cấu trúc biểu diễn phù hợp.\n- Người phân tích hệ thống thống nhất các khung nhìn cho từng bộ phận và thiết kế cơ chế quản lý các giao tác (gửi/rút/chuyển tiền).",
+        "Bước 3: Giai đoạn lập trình, kiểm thử và cài đặt (Lập trình viên ứng dụng & DBA)\n- Người lập trình ứng dụng viết phần mềm giao dịch bằng ngôn ngữ phù hợp + ngôn ngữ chủ, chạy thử (test), sửa lỗi (debug), viết tài liệu hướng dẫn và bảo trì.\n- DBA tổ chức nội dung CSDL, cài đặt mức vật lý, đề xuất phần cứng máy chủ/đĩa lưu trữ, tạo tài khoản và phân quyền chặt chẽ.",
+        "Bước 4: Giai đoạn vận hành khai thác hàng ngày (Người dùng cuối & DBA)\n- Người sử dụng cuối (giao dịch viên, khách hàng) thực hiện truy vấn số dư, cập nhật giao dịch gửi/rút tiền và xuất thống kê báo cáo.\n- DBA liên tục giám sát an toàn, xử lý tranh chấp, sao lưu và duy trì hệ thống phát triển khi yêu cầu nghiệp vụ thay đổi qua nhiều năm."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Bài 20 (Mở rộng): So sánh Ứng dụng CSDL Truyền thống và Hiện đại - Đáp ứng Yêu cầu Tổ chức Khoa học",
+      "problem": "Dựa vào phần Mở đầu chương và Mục 1.1, hãy so sánh các ứng dụng CSDL truyền thống với các ứng dụng CSDL hiện đại (đa phương tiện, GIS, kho dữ liệu & OLAP, thời gian thực, World Wide Web), đồng thời phân tích 4 yêu cầu khoa học mà hệ thống CSDL cần đạt được.",
+      "solution_steps": [
+        "Bước 1: Đặc điểm của ứng dụng CSDL truyền thống\n- Hầu hết thông tin được lưu trữ và truy cập ở dạng văn bản hoặc số (ví dụ: nhân viên ngân hàng tra cứu giao dịch gửi/rút tiền của khách hàng; thu ngân siêu thị truy cập mã mặt hàng để thanh toán).",
+        "Bước 2: Sự mở rộng của 5 nhóm ứng dụng CSDL hiện đại\n- CSDL đa phương tiện: lưu trữ hình ảnh, âm thanh và video kỹ thuật số.\n- Hệ thống thông tin địa lý (GIS): lưu trữ, phân tích bản đồ, dữ liệu thời tiết và ảnh vệ tinh.\n- Kho dữ liệu & OLAP (xử lý phân tích trực tuyến): trích xuất và phân tích thông tin kinh doanh từ CSDL rất lớn để hỗ trợ ra quyết định.\n- CSDL thời gian thực: kiểm soát quá trình sản xuất nông nghiệp và công nghiệp.\n- World Wide Web: áp dụng kỹ thuật tìm kiếm CSDL để nâng cao hiệu quả tra cứu thông tin trên Internet.",
+        "Bước 3: Bốn yêu cầu khoa học khi tổ chức xử lý dữ liệu\n- (1) Đảm bảo tính nhất quán của dữ liệu; (2) Không trùng lặp thông tin; (3) Tiết kiệm thời gian và không gian lưu trữ; (4) Đáp ứng nhu cầu khai thác đồng thời của nhiều người dùng với nhiều mục đích khác nhau.",
+        "Bước 4: Kết nối giữa lý thuyết CSDL và Hệ QTCSDL\n- Nghiên cứu lý thuyết CSDL (mô hình dữ liệu, kiến trúc 3 mức, ngôn ngữ DDL/DML/SQL và kiến trúc DBMS) là nền tảng để thiết kế, tổ chức lưu trữ và khai thác dữ liệu đáp ứng trọn vẹn 4 yêu cầu trên cho cả hệ thống truyền thống lẫn hiện đại."
+      ]
+    }
+  ]
+}

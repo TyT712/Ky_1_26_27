@@ -30,12 +30,14 @@ DOCS = ROOT / "docs"
 COURSES_TO_AUDIT = [
     {
         "id": "he_qtcsdl",
-        "name": "Hệ Quản Trị Cơ Sở Dữ Liệu",
+        "name": "Hệ Quản Trị Cơ Sở Dữ Liệu (Cornell, 70 MCQ, 5 Short & 20 Tự luận/Chương)",
         "dir": DOCS / "data" / "he_qtcsdl",
         "chapters": [
-            "q1_chuong_1", "q1_chuong_2", "q1_chuong_3", "q1_chuong_4", "q1_chuong_5", "q1_chuong_6",
-            "q2_chuong_1", "q2_chuong_2", "q2_chuong_3", "q2_chuong_4", "q2_chuong_5"
-        ]
+            "chuong_1", "chuong_2", "chuong_3", "chuong_4", "chuong_5", "chuong_6"
+        ],
+        "min_mcq": 70,
+        "min_short": 5,
+        "min_essay": 20
     },
     {
         "id": "cnxhkh",
@@ -131,12 +133,13 @@ def audit_course_questions(course_info):
         # Count checks
         min_mcq = course_info.get("min_mcq", 30)
         min_short = course_info.get("min_short", 8)
+        min_essay = course_info.get("min_essay", 4)
         if len(mcq) < min_mcq:
             raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(mcq)}/{min_mcq} câu trắc nghiệm!")
         if len(short) < min_short:
             raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(short)}/{min_short} câu trả lời ngắn!")
-        if len(essay) < 4:
-            raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(essay)}/4 bài tự luận!")
+        if len(essay) < min_essay:
+            raise AssertionError(f"[{cid_course} - {ch}] chỉ có {len(essay)}/{min_essay} bài tự luận!")
 
         # Quality checks: no duplicates, valid 4 options, valid correct answer, non-empty explanation
         seen_questions = set()
@@ -178,10 +181,10 @@ def audit_course_questions(course_info):
             exp_ans = s.get("expected_answer", "").strip()
             if not exp_ans:
                 raise AssertionError(f"[{cid_course} - {ch}] câu trả lời ngắn {sid} thiếu expected_answer")
-            if cid_course == "cnxhkh" and len(exp_ans.splitlines()) > 5:
+            if cid_course in {"cnxhkh", "he_qtcsdl"} and len(exp_ans.splitlines()) > 5:
                 raise AssertionError(f"[{cid_course} - {ch}] câu trả lời ngắn {sid} vượt quá 5 dòng ({len(exp_ans.splitlines())} dòng)")
 
-        if cid_course in {"tam_ly_hoc_tri_tue", "giao_duc_hoc_1", "cnxhkh"}:
+        if cid_course in {"tam_ly_hoc_tri_tue", "giao_duc_hoc_1", "cnxhkh", "he_qtcsdl"}:
             t_text = theory_file.read_text(encoding="utf-8")
             if "Cornell" not in t_text or "|" not in t_text:
                 raise AssertionError(f"[{cid_course} - {ch}] lý thuyết thiếu cấu trúc bảng ghi nhớ Cornell!")
@@ -242,15 +245,15 @@ def audit_static_server():
         "assets/css/style.css",
         "assets/js/app.js",
         "data/courses_manifest.json",
-        "data/he_qtcsdl/q1_chuong_1_exercises.json",
-        "data/he_qtcsdl/q1_chuong_1_theory.md",
+        "data/he_qtcsdl/chuong_1_exercises.json",
+        "data/he_qtcsdl/chuong_1_theory.md",
         "data/cnxhkh/chuong_1_exercises.json",
         "data/cnxhkh/chuong_1_theory.md",
         "data/cnpm/chuong_1_exercises.json",
         "data/cnpm/chuong_1_theory.md",
         "data/cnpm/chuong_5_exercises.json",
         "data/cnpm/chuong_5_theory.md",
-        "data/he_qtcsdl/q2_chuong_5_theory.md",
+        "data/he_qtcsdl/chuong_6_theory.md",
         "data/tam_ly_hoc_2/chuong_1_exercises.json",
         "data/tam_ly_hoc_2/chuong_1_theory.md",
         "data/tam_ly_hoc_2/chuong_5_exercises.json",

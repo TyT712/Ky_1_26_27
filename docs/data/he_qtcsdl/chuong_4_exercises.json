@@ -1,0 +1,1163 @@
+{
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Ngôn ngữ SQL được IBM sử dụng lần đầu tiên vào giữa thập niên 1970 trong hệ quản trị cơ sở dữ liệu nào?",
+      "options": {
+        "A": "System R",
+        "B": "DB2",
+        "C": "SQL/DS",
+        "D": "ORACLE"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo giáo trình Mục Mở đầu Chương 4, SQL được IBM sử dụng đầu tiên trong hệ quản trị CSDL System R vào giữa những năm 70 của thế kỷ 20.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Hệ ngôn ngữ SQL đầu tiên mang tên SEQUEL2 được công bố vào thời điểm nào và thương phẩm SQL đầu tiên do hãng nào giới thiệu năm 1979?",
+      "options": {
+        "A": "Tháng 11/1976 bởi ORACLE; thương phẩm đầu tiên của IBM",
+        "B": "Tháng 11/1976 bởi IBM; thương phẩm đầu tiên của ORACLE",
+        "C": "Tháng 10/1979 bởi ANSI; thương phẩm đầu tiên của Microsoft",
+        "D": "Tháng 11/1986 bởi ISO; thương phẩm đầu tiên của IBM"
+      },
+      "correct_answer": "B",
+      "explanation": "IBM công bố SEQUEL2 vào tháng 11/1976; đến năm 1979, tập đoàn ORACLE giới thiệu thương phẩm đầu tiên của SQL.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Phiên bản chuẩn SQL-86 (còn gọi là SQL1) được ANSI và ISO lần lượt chấp nhận vào những năm nào?",
+      "options": {
+        "A": "ANSI năm 1976 và ISO năm 1979",
+        "B": "ANSI năm 1979 và ISO năm 1986",
+        "C": "ANSI năm 1986 và ISO năm 1987",
+        "D": "ANSI năm 1987 và ISO năm 1992"
+      },
+      "correct_answer": "C",
+      "explanation": "Năm 1986 chuẩn SQL-86 (SQL1) được ANSI chấp nhận và năm 1987 được ISO chấp nhận.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Vì sao SQL được xếp vào nhóm ngôn ngữ có tính khai báo (phi thủ tục)?",
+      "options": {
+        "A": "Vì SQL bắt buộc người dùng phải tự viết vòng lặp duyệt từng bản ghi",
+        "B": "Vì SQL là một hệ quản trị cơ sở dữ liệu chạy độc lập hoàn toàn",
+        "C": "Vì SQL có thể thay thế hoàn toàn C, C++ và Java trong lập trình hệ thống",
+        "D": "Vì người dùng chỉ cần mô tả yêu cầu cần thực hiện trên CSDL mà không cần chỉ ra cách thức thực hiện chi tiết"
+      },
+      "correct_answer": "D",
+      "explanation": "Với ngôn ngữ phi thủ tục có tính khai báo như SQL, người dùng chỉ cần mô tả yêu cầu cần thực hiện trên CSDL mà không phải chỉ ra cách thức thực hiện như thế nào.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "SQL chuẩn bao gồm khoảng bao nhiêu câu lệnh và được chia thành 4 nhóm chính nào?",
+      "options": {
+        "A": "Khoảng 40 câu lệnh; gồm DQL, DDL, DML và DCL",
+        "B": "Khoảng 20 câu lệnh; gồm DQL, DDL, HTML và DCL",
+        "C": "Khoảng 100 câu lệnh; gồm DDL, DML, TCL và XML",
+        "D": "Khoảng 10 câu lệnh; gồm SELECT, INSERT, UPDATE và DELETE"
+      },
+      "correct_answer": "A",
+      "explanation": "SQL chuẩn bao gồm khoảng 40 câu lệnh thuộc 4 nhóm: Truy vấn dữ liệu (DQL), Định nghĩa dữ liệu (DDL), Thao tác dữ liệu (DML) và Điều khiển dữ liệu (DCL).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Nhóm lệnh truy vấn dữ liệu (DQL - Data Query Language) gồm lệnh tiêu biểu nào và có làm thay đổi dữ liệu trong bảng không?",
+      "options": {
+        "A": "Lệnh UPDATE; làm thay đổi trực tiếp dữ liệu trong bảng",
+        "B": "Lệnh SELECT; lấy thông tin nhưng không làm thay đổi dữ liệu trong bảng",
+        "C": "Lệnh CREATE; tạo mới bảng nhưng không thêm bản ghi",
+        "D": "Lệnh GRANT; chỉ thay đổi quyền truy cập của người dùng"
+      },
+      "correct_answer": "B",
+      "explanation": "Nhóm DQL gồm các lệnh truy vấn lựa chọn (SELECT) để lấy thông tin và không làm thay đổi dữ liệu lưu trong các bảng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Tập hợp các lệnh nào sau đây thuộc nhóm Định nghĩa dữ liệu (DDL - Data Definition Language)?",
+      "options": {
+        "A": "INSERT, UPDATE, DELETE",
+        "B": "GRANT, REVOKE",
+        "C": "CREATE, ALTER, DROP",
+        "D": "COMMIT, ROLLBACK, SAVE TRANSACTION"
+      },
+      "correct_answer": "C",
+      "explanation": "Nhóm DDL gồm các lệnh tạo, sửa đổi và hủy bỏ cấu trúc đối tượng dữ liệu như CREATE, ALTER, DROP.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Tập hợp các lệnh nào sau đây thuộc nhóm Thao tác dữ liệu (DML - Data Manipulation Language) làm thay đổi dữ liệu trong bảng?",
+      "options": {
+        "A": "CREATE TABLE, ALTER TABLE, DROP TABLE",
+        "B": "GRANT, REVOKE",
+        "C": "DECLARE, OPEN, CLOSE",
+        "D": "INSERT, UPDATE, DELETE"
+      },
+      "correct_answer": "D",
+      "explanation": "Nhóm DML gồm các lệnh làm thay đổi dữ liệu lưu trong các bảng như INSERT, DELETE, UPDATE.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Nhóm lệnh Điều khiển dữ liệu (DCL - Data Control Language) bao gồm những lệnh chủ yếu nào?",
+      "options": {
+        "A": "GRANT, REVOKE",
+        "B": "SELECT, INTO",
+        "C": "COMMIT, ROLLBACK",
+        "D": "CREATE VIEW, DROP VIEW"
+      },
+      "correct_answer": "A",
+      "explanation": "Nhóm DCL quản lý quyền truy nhập vào dữ liệu và các bảng thông qua hai lệnh chính là GRANT (cấp quyền) và REVOKE (thu hồi quyền).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Các lệnh COMMIT, ROLLBACK, SAVE TRANSACTION thuộc nhóm chức năng nào trong bảng các lệnh SQL phổ biến?",
+      "options": {
+        "A": "Định nghĩa dữ liệu",
+        "B": "Quản lý giao tác",
+        "C": "Điều khiển truy cập",
+        "D": "Lập trình con trỏ"
+      },
+      "correct_answer": "B",
+      "explanation": "COMMIT (ủy thác giao tác), ROLLBACK (quay lui giao tác) và SAVE TRANSACTION (đánh dấu một điểm trong giao tác) thuộc nhóm Quản lý giao tác.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Trong Bảng 4.1, kiểu dữ liệu nào lưu chuỗi ký tự có độ dài biến đổi (chính xác) và hỗ trợ bảng mã UNICODE?",
+      "options": {
+        "A": "CHAR(n)",
+        "B": "VARCHAR(n)",
+        "C": "NVARCHAR(n)",
+        "D": "NCHAR(n)"
+      },
+      "correct_answer": "C",
+      "explanation": "NVARCHAR(n) là kiểu chuỗi với độ dài chính xác (biến đổi theo độ dài thực tế) và có hỗ trợ UNICODE; trong khi NCHAR(n) có độ dài cố định.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "Sự khác nhau cơ bản giữa kiểu dữ liệu CHAR(n) và NCHAR(n) trong SQL là gì?",
+      "options": {
+        "A": "CHAR(n) có độ dài biến đổi còn NCHAR(n) có độ dài cố định",
+        "B": "CHAR(n) dùng cho số nguyên còn NCHAR(n) dùng cho ký tự",
+        "C": "CHAR(n) lưu được tối đa 2 tỷ ký tự còn NCHAR(n) tối đa 255 ký tự",
+        "D": "Cả hai đều có độ dài cố định, nhưng NCHAR(n) hỗ trợ UNICODE còn CHAR(n) thì không"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Bảng 4.1, CHAR(n) là chuỗi độ dài cố định, còn NCHAR(n) là chuỗi độ dài cố định có hỗ trợ UNICODE.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "Kiểu dữ liệu số nguyên nào trong Bảng 4.1 chỉ nhận giá trị từ 0 đến 255?",
+      "options": {
+        "A": "TINYINT",
+        "B": "SMALLINT",
+        "C": "INT",
+        "D": "BIGINT"
+      },
+      "correct_answer": "A",
+      "explanation": "TINYINT (trong giáo trình in nhầm thành TINYTINT) lưu số nguyên không dấu có giá trị từ 0 đến 255.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Trong SQL, kiểu dữ liệu BIT nhận tập giá trị nào sau đây?",
+      "options": {
+        "A": "Từ -128 đến 127",
+        "B": "Chỉ nhận giá trị 0 hoặc 1",
+        "C": "Từ 0 đến 255",
+        "D": "Bất kỳ số thực nào từ 0 đến 1"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Bảng 4.1, BIT là kiểu bit chỉ nhận giá trị 0 hoặc 1.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Theo Bảng 4.1, điểm khác biệt giữa kiểu DATETIME và SMALLDATETIME là gì?",
+      "options": {
+        "A": "DATETIME chỉ lưu ngày, SMALLDATETIME chỉ lưu giờ",
+        "B": "DATETIME chính xác đến phút, SMALLDATETIME chính xác đến giây",
+        "C": "DATETIME chính xác đến phần trăm của giây, SMALLDATETIME chính xác đến phút",
+        "D": "Hai kiểu hoàn toàn giống nhau về độ chính xác"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Bảng 4.1, DATETIME lưu ngày giờ chính xác đến phần trăm của giây, còn SMALLDATETIME chính xác đến phút.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "Kiểu dữ liệu NTEXT dùng để lưu chuỗi có độ dài lớn hỗ trợ UNICODE với tối đa bao nhiêu ký tự?",
+      "options": {
+        "A": "8,000 ký tự",
+        "B": "65,535 ký tự",
+        "C": "2,147,483,647 ký tự",
+        "D": "1,073,741,823 ký tự"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Bảng 4.1, TEXT lưu tối đa 2,147,483,647 ký tự không Unicode, còn NTEXT lưu tối đa 1,073,741,823 ký tự Unicode.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "question": "Phát biểu nào sau đây đúng về giá trị NULL trong CSDL quan hệ?",
+      "options": {
+        "A": "NULL biểu diễn giá trị không xác định, hoàn toàn khác với chuỗi rỗng và giá trị 0",
+        "B": "NULL đồng nghĩa với giá trị 0 đối với cột kiểu số",
+        "C": "NULL đồng nghĩa với chuỗi rỗng '' đối với cột kiểu chuỗi",
+        "D": "NULL chỉ xuất hiện khi chia một số cho 0, không thể do thiếu dữ liệu"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.1.4 nhấn mạnh NULL biểu diễn giá trị không xác định và không được nhầm lẫn với chuỗi rỗng ('') hay giá trị 0.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Khi nào trong câu lệnh SQL bắt buộc phải viết tên cột dưới dạng `tên_bảng.tên_cột`?",
+      "options": {
+        "A": "Mọi lúc, ngay cả khi truy vấn chỉ lấy dữ liệu từ một bảng duy nhất",
+        "B": "Khi câu lệnh liên quan đến từ hai cột trở lên có cùng tên nằm trong các bảng khác nhau",
+        "C": "Chỉ khi sử dụng mệnh đề ORDER BY",
+        "D": "Chỉ khi cột đó có giá trị NULL"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 4.1.2 quy định: bình thường chỉ cần ghi tên cột; nếu câu lệnh liên quan từ 2 cột trở lên trùng tên ở các bảng khác nhau thì bắt buộc ghi `tên_bảng.tên_cột`.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Mỗi bảng dữ liệu trong SQL có thể có tối đa bao nhiêu ràng buộc PRIMARY KEY (khóa chính)?",
+      "options": {
+        "A": "Không giới hạn số khóa chính",
+        "B": "Tối đa 2 khóa chính",
+        "C": "Duy nhất 1 khóa chính",
+        "D": "Không bắt buộc có duy nhất vì có thể trùng với UNIQUE"
+      },
+      "correct_answer": "C",
+      "explanation": "Mỗi bảng chỉ có duy nhất một khóa chính (có thể gồm một hoặc nhiều cột) để xác định duy nhất một bản ghi.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Khi sử dụng lệnh `INSERT INTO <Tên_bảng> VALUES (DS_trị)` mà không ghi danh sách tên cột, hệ thống gán giá trị như thế nào?",
+      "options": {
+        "A": "Tự động gán theo thứ tự bảng chữ cái của tên cột",
+        "B": "Báo lỗi cú pháp vì danh sách tên cột là bắt buộc",
+        "C": "Chỉ gán cho các cột khóa chính, các cột còn lại nhận NULL",
+        "D": "Gán lần lượt các giá trị cho các cột đúng theo thứ tự khai báo trong lệnh CREATE TABLE"
+      },
+      "correct_answer": "D",
+      "explanation": "Khi bỏ qua danh sách tên cột trong INSERT INTO ... VALUES, các giá trị lần lượt được gán theo thứ tự khai báo cột lúc CREATE TABLE.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "Từ khóa nào đặt ngay sau SELECT để loại bỏ các dòng dữ liệu trùng nhau trong kết quả truy vấn?",
+      "options": {
+        "A": "DISTINCT",
+        "B": "ALL",
+        "C": "UNIQUE",
+        "D": "SINGLE"
+      },
+      "correct_answer": "A",
+      "explanation": "DISTINCT loại bỏ các dòng dữ liệu trùng nhau trong kết quả truy vấn (trong khi ALL là mặc định giữ nguyên tất cả).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Thành phần `TOP N` trong câu lệnh `SELECT TOP N ...` có công dụng gì?",
+      "options": {
+        "A": "Lấy N cột đầu tiên của bảng",
+        "B": "Hạn chế số lượng bản ghi xuất hiện trong kết quả truy vấn chỉ còn N dòng đầu tiên",
+        "C": "Sắp xếp kết quả giảm dần theo N cột",
+        "D": "Xóa N dòng đầu tiên sau khi truy vấn"
+      },
+      "correct_answer": "B",
+      "explanation": "Khi cần hạn chế số lượng dòng xuất hiện trong kết quả truy vấn, ta dùng TOP N.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "Hàm gộp nào trong SQL trả về giá trị trung bình của các giá trị trên một cột hoặc biểu thức số?",
+      "options": {
+        "A": "SUM()",
+        "B": "COUNT()",
+        "C": "AVG()",
+        "D": "MAX()"
+      },
+      "correct_answer": "C",
+      "explanation": "AVG([DISTINCT] Tên_cột/BT) cho giá trị trung bình; SUM cho tổng; MAX cho giá trị lớn nhất; COUNT dùng để đếm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "question": "Trong mệnh đề `ORDER BY`, nếu không chỉ định rõ `ASC` hay `DESC` thì dữ liệu được sắp xếp theo thứ tự mặc định nào?",
+      "options": {
+        "A": "Giảm dần (DESC)",
+        "B": "Ngẫu nhiên theo bộ nhớ đệm",
+        "C": "Theo thứ tự nhập liệu ban đầu",
+        "D": "Tăng dần (ASC)"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 4.4.1 nêu rõ: ORDER BY sắp xếp tăng (ASC) hoặc giảm (DESC), và mặc định là sắp xếp tăng dần (ASC).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "Trong SQL Server, thủ tục hệ thống nào dùng để xóa bỏ một tài khoản đăng nhập khỏi hệ thống?",
+      "options": {
+        "A": "sp_droplogin",
+        "B": "sp_addlogin",
+        "C": "sp_removelogin",
+        "D": "sp_deletelogin"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.5.2 trình bày: dùng `EXEC sp_droplogin 'tên_tài_khoản'` để xóa bỏ một tài khoản người dùng khỏi hệ thống.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "Trong CSDL có nhiều người dùng, khi user A muốn truy xuất một bảng `NHANVIEN` thuộc sở hữu của user B (và đã được cấp phép), câu lệnh phải chỉ định tên bảng như thế nào?",
+      "options": {
+        "A": "NHANVIEN@B",
+        "B": "B.NHANVIEN",
+        "C": "NHANVIEN.B",
+        "D": "USER(B).NHANVIEN"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 4.1.2, tên bảng do người dùng khác sở hữu phải viết sau tên người sở hữu và phân cách bằng dấu chấm: `tên_người_sở_hữu.tên_bảng`.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "Theo Bảng 4.1, hai kiểu dữ liệu nhị phân `BINARY` và `VARBINARY` có kích thước tối đa là bao nhiêu bytes?",
+      "options": {
+        "A": "255 bytes",
+        "B": "4,000 bytes",
+        "C": "8,000 bytes",
+        "D": "2,147,483,647 bytes"
+      },
+      "correct_answer": "C",
+      "explanation": "Bảng 4.1 ghi rõ BINARY và VARBINARY lưu dữ liệu nhị phân tối đa 8000 bytes; còn IMAGE mới lưu tối đa 2,147,483,647 bytes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Theo Bảng 4.1, miền giá trị của kiểu số thực `REAL` là bao nhiêu?",
+      "options": {
+        "A": "Từ -1.79E+308 đến 1.79E+308",
+        "B": "Từ -2^31 đến 2^31 - 1",
+        "C": "Từ -2^63 đến 2^63 - 1",
+        "D": "Từ -3.40E+38 đến 3.40E+38"
+      },
+      "correct_answer": "D",
+      "explanation": "Kiểu REAL có miền giá trị từ -3.40E+38 đến 3.40E+38, trong khi FLOAT là từ -1.79E+308 đến 1.79E+308.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "Khi viết lệnh `CREATE TABLE`, trong trường hợp nào ta thường khai báo ràng buộc ở mức bảng thay vì mức cột?",
+      "options": {
+        "A": "Khi số lượng cột tham gia vào ràng buộc là từ hai cột trở lên",
+        "B": "Khi cột cần gắn ràng buộc có kiểu dữ liệu số nguyên",
+        "C": "Khi cột cho phép nhận giá trị NULL",
+        "D": "Khi bảng chỉ có đúng 1 cột duy nhất"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.2.1 nêu rõ: ta thường sử dụng ràng buộc mức bảng khi số lượng các cột tham gia vào ràng buộc là từ hai trở lên (ví dụ khóa chính ghép 2 cột).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "Điều gì đúng về tính chất `NULL / NOT NULL` của một cột được khai báo trong `PRIMARY KEY`?",
+      "options": {
+        "A": "Khóa chính cho phép tối đa một bản ghi chứa giá trị NULL",
+        "B": "Cột làm khóa chính mặc nhiên là NOT NULL và không chấp nhận giá trị NULL",
+        "C": "Chỉ khóa chính 1 cột mới cấm NULL, khóa chính ghép nhiều cột vẫn nhận NULL",
+        "D": "Phải thêm từ khóa UNIQUE thì khóa chính mới cấm NULL"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 4.2.1 khẳng định: nếu cột dùng làm khóa thì mặc nhiên là NOT NULL; bản thân khóa chính không chấp nhận giá trị NULL để đảm bảo toàn vẹn thực thể.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "Ràng buộc `UNIQUE` trong `CREATE TABLE` khác với `PRIMARY KEY` ở điểm nào?",
+      "options": {
+        "A": "UNIQUE cho phép giá trị trùng nhau nhưng cấm NULL",
+        "B": "UNIQUE dùng để liên kết hai bảng như khóa ngoại",
+        "C": "UNIQUE định nghĩa khóa phụ (khóa dự tuyển) đảm bảo không trùng giá trị nhưng không phải khóa chính",
+        "D": "Mỗi bảng chỉ được phép có duy nhất một ràng buộc UNIQUE"
+      },
+      "correct_answer": "C",
+      "explanation": "UNIQUE quy định dữ liệu trong các cột chỉ ra không được trùng nhau, tạo nên khóa phụ (khóa dự tuyển) — có tính chất như khóa chính nhưng không được chọn làm khóa chính.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "question": "Trong khai báo `FOREIGN KEY ... REFERENCES ...`, nếu người dùng không ghi tùy chọn `ON DELETE` hay `ON UPDATE`, tùy chọn mặc định được áp dụng là gì?",
+      "options": {
+        "A": "CASCADE",
+        "B": "SET NULL",
+        "C": "SET DEFAULT",
+        "D": "NO ACTION"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 4.2.1 mục 4, NO ACTION là tùy chọn mặc định: không cho phép xóa hoặc cập nhật bản ghi ở cột được tham chiếu nếu đang có khóa ngoại trỏ tới.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Điều kiện bắt buộc để tùy chọn `ON DELETE SET NULL` của khóa ngoại hoạt động hợp lệ là gì?",
+      "options": {
+        "A": "Cột khóa ngoại ở bảng con phải cho phép nhận giá trị NULL",
+        "B": "Cột khóa ngoại ở bảng con phải là khóa chính đơn",
+        "C": "Cột khóa ngoại ở bảng con phải có từ khóa DEFAULT",
+        "D": "Bảng tham chiếu không được có dữ liệu"
+      },
+      "correct_answer": "A",
+      "explanation": "Tùy chọn SET NULL cập nhật khóa ngoài của bản ghi thành giá trị NULL khi bản ghi tham chiếu bị xóa/sửa, do đó cột khóa ngoại bắt buộc phải cho phép nhận giá trị NULL.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "question": "Tùy chọn `ON UPDATE SET DEFAULT` trong định nghĩa `FOREIGN KEY` thực hiện điều gì khi khóa chính ở bảng cha bị cập nhật?",
+      "options": {
+        "A": "Tự động xóa các bản ghi liên quan ở bảng con",
+        "B": "Cập nhật khóa ngoại của các bản ghi liên quan ở bảng con về giá trị mặc định đã khai báo cho cột đó",
+        "C": "Ngăn không cho cập nhật bảng cha và báo lỗi",
+        "D": "Tự động sao chép giá trị mới sang khóa ngoại ở bảng con"
+      },
+      "correct_answer": "B",
+      "explanation": "SET DEFAULT cập nhật lại khóa ngoại của bản ghi về giá trị mặc định (nếu cột có quy định giá trị DEFAULT).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "Câu lệnh nào đúng cú pháp để thay đổi kiểu dữ liệu cột `DIACHI` của bảng `NHANVIEN` thành `NVARCHAR(100)` và cho phép nhận `NULL`?",
+      "options": {
+        "A": "MODIFY TABLE NHANVIEN COLUMN DIACHI NVARCHAR(100) NULL",
+        "B": "ALTER TABLE NHANVIEN CHANGE DIACHI NVARCHAR(100) NULL",
+        "C": "ALTER TABLE NHANVIEN ALTER COLUMN DIACHI NVARCHAR(100) NULL",
+        "D": "UPDATE TABLE NHANVIEN SET DIACHI NVARCHAR(100) NULL"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 4.2.2 Ví dụ 2, để thay đổi định nghĩa một cột ta dùng: `ALTER TABLE <tên_bảng> ALTER COLUMN <tên_cột> <kiểu> [NULL/NOT NULL]`.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "question": "Khi muốn dùng `ALTER TABLE ... DROP COLUMN <Tên_cột>` đối với một cột đang có ràng buộc hoặc đang được tham chiếu bởi khóa ngoại, ta phải làm gì?",
+      "options": {
+        "A": "Dùng thêm từ khóa FORCE sau DROP COLUMN",
+        "B": "Dùng TRUNCATE TABLE trước khi xóa cột",
+        "C": "Hệ thống tự động xóa ràng buộc nên không cần làm gì thêm",
+        "D": "Phải xóa bỏ ràng buộc hoặc khóa ngoại liên quan trước bằng DROP CONSTRAINT rồi mới xóa cột"
+      },
+      "correct_answer": "D",
+      "explanation": "Chú ý ở Mục 4.2.2 nêu rõ: muốn xóa một cột đang được ràng buộc hoặc đang được tham chiếu bởi một khóa ngoài, ta phải xóa ràng buộc hoặc khóa ngoài trước.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Khi một bảng bị xóa thành công bằng lệnh `DROP TABLE <Tablename>`, điều gì xảy ra với các ràng buộc, chỉ mục và Trigger của bảng đó?",
+      "options": {
+        "A": "Tất cả các ràng buộc, chỉ mục và Trigger liên quan đến bảng cũng đồng thời bị xóa theo",
+        "B": "Chỉ mục và Trigger vẫn được giữ lại để tái sử dụng cho bảng mới",
+        "C": "Chỉ dữ liệu bị xóa, cấu trúc chỉ mục vẫn còn",
+        "D": "Trigger bị vô hiệu hóa tạm thời nhưng không bị xóa"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.2.3 nêu rõ: khi bảng bị xóa bằng DROP TABLE, tất cả các ràng buộc, chỉ mục, Trigger liên quan đến bảng cũng đồng thời bị xóa theo.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Theo Mục 4.2.4, việc sử dụng khung nhìn (`VIEW`) mang lại 3 lợi ích chính nào?",
+      "options": {
+        "A": "Tăng dung lượng đĩa, tự động sao lưu, nén ảnh nhị phân",
+        "B": "Bảo mật dữ liệu, đơn giản hóa thao tác truy vấn và độc lập dữ liệu",
+        "C": "Thay thế khóa chính, loại bỏ khóa ngoại và tăng tốc ghi dữ liệu",
+        "D": "Tự động chuyển đổi kiểu dữ liệu và biên dịch mã C++"
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình Mục 4.2.4 liệt kê 3 lợi ích của View: Bảo mật dữ liệu, Đơn giản hóa các thao tác truy vấn dữ liệu, và Độc lập dữ liệu.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "Khi tạo khung nhìn bằng `CREATE VIEW <Tên_View> [(DS_cột)] AS <SELECT>`, trong trường hợp nào BẮT BUỘC phải chỉ ra danh sách tên cột sau `<Tên_View>`?",
+      "options": {
+        "A": "Khi câu lệnh SELECT có mệnh đề WHERE",
+        "B": "Khi câu lệnh SELECT chỉ lấy dữ liệu từ một bảng duy nhất",
+        "C": "Khi kết quả SELECT có cột là biểu thức chưa đặt tiêu đề hoặc có 2 cột cùng tiêu đề",
+        "D": "Khi câu lệnh SELECT sử dụng từ khóa DISTINCT"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 4.2.4 quy định 2 trường hợp bắt buộc chỉ ra DS tên cột của View: có ít nhất 1 cột sinh ra bởi biểu thức không được đặt tiêu đề, hoặc tồn tại 2 cột có cùng tiêu đề trong kết quả SELECT.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 40,
+      "question": "Khi dùng `INSERT INTO <Bảng_đích> [(DS_cột)] <Câu_lệnh_SELECT>`, điều kiện bắt buộc nào phải thỏa mãn?",
+      "options": {
+        "A": "Bảng đích phải rỗng hoàn toàn trước khi chèn",
+        "B": "Câu lệnh SELECT bắt buộc phải có mệnh đề GROUP BY",
+        "C": "Tên các cột trong bảng nguồn và bảng đích phải giống hệt nhau",
+        "D": "Kết quả SELECT phải có số cột bằng số cột chỉ định ở bảng đích và tương thích về kiểu dữ liệu"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 4.3.1b lưu ý: kết quả của câu lệnh SELECT phải có số cột bằng với số cột được chỉ định trong danh sách cột và phải tương thích về kiểu dữ liệu.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "Điều gì xảy ra nếu thực thi câu lệnh `UPDATE CANBO SET HSL = HSL * 1.1` mà không có mệnh đề `WHERE`?",
+      "options": {
+        "A": "Hệ số lương của tất cả các bản ghi trong bảng CANBO đều bị nhân lên 1.1",
+        "B": "Hệ thống báo lỗi thiếu điều kiện WHERE và từ chối thực thi",
+        "C": "Chỉ bản ghi đầu tiên trong bảng được cập nhật",
+        "D": "Chỉ các bản ghi có HSL khác NULL mới bị lỗi"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.3.2 lưu ý: nếu câu lệnh UPDATE không có mệnh đề WHERE thì sẽ cập nhật cho mọi bản ghi có trong bảng.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "Điểm khác biệt quan trọng giữa `TRUNCATE TABLE DIEMTHI` và `DELETE FROM DIEMTHI` (không có WHERE) theo giáo trình là gì?",
+      "options": {
+        "A": "TRUNCATE TABLE xóa luôn cấu trúc bảng DIEMTHI còn DELETE FROM giữ lại bảng",
+        "B": "TRUNCATE TABLE xóa hết bản ghi đồng thời thu hồi vùng nhớ cho các bản ghi khác sử dụng",
+        "C": "TRUNCATE TABLE chỉ xóa được tối đa 1000 dòng mỗi lần",
+        "D": "DELETE FROM không thể xóa nếu bảng không có khóa chính"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 4.3.3 giải thích: `TRUNCATE TABLE` xóa tất cả các bản ghi nhưng vẫn giữ lại bảng, đồng thời vùng nhớ dành cho các bản ghi này được thu hồi cho các bản ghi khác sử dụng (khác với `DELETE FROM`).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "Phát biểu nào phân biệt chính xác giữa `COUNT(*)` và `COUNT(DIEM)` trong câu lệnh `SELECT`?",
+      "options": {
+        "A": "COUNT(*) chỉ đếm giá trị duy nhất, COUNT(DIEM) đếm cả trùng lặp",
+        "B": "COUNT(*) tính tổng cột, COUNT(DIEM) đếm số dòng",
+        "C": "COUNT(*) đếm tất cả các bản ghi được chọn (kể cả NULL), còn COUNT(DIEM) chỉ đếm những bản ghi có giá trị DIEM khác NULL",
+        "D": "Hai biểu thức luôn trả về cùng một kết quả trong mọi trường hợp"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 4.4.1 mục 3 định nghĩa: `COUNT(*)` đếm tất cả các bản ghi được chọn, còn `COUNT([DISTINCT] <tên_cột/BT>)` chỉ đếm những bản ghi mà giá trị trên cột/BT đó khác NULL.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "Điều kiện `WHERE HODEM LIKE 'LE%' AND TEN LIKE '[AB]%'` trong bảng `SV(HODEM, TEN)` chọn ra những sinh viên nào?",
+      "options": {
+        "A": "Có họ kết thúc bằng LE và tên đúng 2 ký tự A hoặc B",
+        "B": "Có họ chứa đúng 2 ký tự LE và tên chứa chuỗi AB ở cuối",
+        "C": "Có họ là LE và tên đúng bằng 'AB'",
+        "D": "Có họ đệm bắt đầu bằng 'LE' và tên bắt đầu bằng ký tự 'A' hoặc 'B'"
+      },
+      "correct_answer": "D",
+      "explanation": "Trong LIKE, `%` thay thế cho 0 hoặc nhiều ký tự bất kỳ và `[AB]` đại diện cho 1 ký tự bất kỳ thuộc tập {A, B}. Vậy `'LE%'` là bắt đầu bằng LE, `'[AB]%'` là bắt đầu bằng A hoặc B.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "Trong mẫu tìm kiếm của toán tử `LIKE`, ký tự gạch dưới `_` đại diện cho thành phần nào?",
+      "options": {
+        "A": "Đúng 1 ký tự bất kỳ",
+        "B": "Từ 0 đến nhiều ký tự bất kỳ",
+        "C": "Một chữ số từ 0 đến 9",
+        "D": "Ký tự khoảng trắng bắt buộc"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.4.1 mục 6d quy định: `%` thay thế cho nhiều ký tự bất kỳ; `_` thay thế cho 1 ký tự bất kỳ; `[]` đại diện cho 1 ký tự trong giới hạn chỉ định.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "question": "Trong mệnh đề `ORDER BY`, số lượng cột tối đa có thể chỉ định để sắp xếp và thứ tự ưu tiên sắp xếp là gì?",
+      "options": {
+        "A": "Tối đa 8 cột, ưu tiên từ phải qua trái",
+        "B": "Tối đa 16 cột, ưu tiên theo thứ tự từ trái qua phải",
+        "C": "Tối đa 32 cột, ưu tiên cột kiểu số trước cột kiểu chuỗi",
+        "D": "Chỉ sắp xếp được trên 1 cột duy nhất"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 4.4.1 mục 7 quy định: ORDER BY sắp xếp theo một hoặc nhiều cột (tối đa 16 cột), ưu tiên từ trái qua phải, và có thể dùng số thứ tự cột.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Khi câu lệnh `SELECT` có dùng hàm gộp đồng thời chọn thêm các cột/biểu thức không phải hàm gộp, mệnh đề `GROUP BY` phải tuân theo quy tắc nào?",
+      "options": {
+        "A": "Chỉ cần đưa cột khóa chính vào GROUP BY",
+        "B": "Không được đưa bất kỳ cột nào trong SELECT vào GROUP BY",
+        "C": "Mọi cột/biểu thức không phải hàm gộp trong danh sách chọn phải có mặt đầy đủ trong GROUP BY",
+        "D": "Phải đặt tất cả các hàm gộp vào trong GROUP BY"
+      },
+      "correct_answer": "C",
+      "explanation": "Chú ý ở Mục 4.4.1 mục 8: nếu danh sách chọn có các hàm gộp và những biểu thức không phải hàm gộp thì những biểu thức này phải có mặt đầy đủ trong GROUP BY.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Vì sao điều kiện lọc nhóm như `AVG(HSL) > 2` phải đặt trong mệnh đề `HAVING` mà không được đặt trong `WHERE`?",
+      "options": {
+        "A": "Vì mệnh đề WHERE chỉ chạy được trên 1 bảng duy nhất",
+        "B": "Vì HAVING chạy nhanh hơn WHERE khi dữ liệu lớn",
+        "C": "Vì WHERE không hỗ trợ phép so sánh lớn hơn (>)",
+        "D": "Vì các hàm gộp không được phép xuất hiện trong mệnh đề WHERE mà chỉ dùng trong SELECT hoặc HAVING"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 4.4.1 nhấn mạnh: các hàm gộp có thể xuất hiện trong mệnh đề HAVING (lọc sau khi phân nhóm) nhưng không được phép xuất hiện trong mệnh đề WHERE.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 49,
+      "question": "Khi viết một truy vấn con (`Subquery`) lồng bên trong một câu lệnh `SELECT` khác, hai mệnh đề nào KHÔNG được phép xuất hiện trong truy vấn con?",
+      "options": {
+        "A": "COMPUTE và ORDER BY",
+        "B": "WHERE và FROM",
+        "C": "GROUP BY và HAVING",
+        "D": "DISTINCT và IN"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.4.2 nêu rõ: câu lệnh SELECT con không được chứa mệnh đề COMPUTE và ORDER BY, và phải đặt trong cặp dấu ngoặc ().",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "question": "Trong cấu trúc lập trình T-SQL, cặp lệnh nào dùng để khai báo biến `@SL` kiểu số nguyên và gán giá trị `10` cho biến đó?",
+      "options": {
+        "A": "DIM @SL INT; LET @SL = 10",
+        "B": "DECLARE @SL INT; SET @SL = 10",
+        "C": "VAR @SL INT; ASSIGN @SL = 10",
+        "D": "CREATE @SL INT; PUT @SL = 10"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 4.4.3c quy định cú pháp: `DECLARE @<Tên_biến> <Kiểu_DL>` và `SET @<Tên_biến> = Giá_trị`.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "question": "Khi hai bảng A và B có mối quan hệ tham chiếu vòng lẫn nhau (A tham chiếu B và B tham chiếu A), cách tạo bảng đúng trong SQL là gì?",
+      "options": {
+        "A": "Không thể tạo được hai bảng như vậy trong SQL",
+        "B": "Khai báo cả hai FOREIGN KEY ngay bên trong hai lệnh CREATE TABLE ban đầu",
+        "C": "Tạo bảng A và B chưa kèm khóa ngoại vòng trước, sau đó bổ sung ràng buộc FOREIGN KEY qua lệnh ALTER TABLE ... ADD CONSTRAINT",
+        "D": "Dùng lệnh CREATE VIEW thay cho CREATE TABLE"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 4.2.1 mục 4 chỉ rõ: bảng tham chiếu phải được định nghĩa trước; nếu các bảng có mối quan hệ vòng, không định nghĩa FOREIGN KEY ngay trong CREATE TABLE mà bổ sung thông qua ALTER TABLE.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 52,
+      "question": "Giả sử cột `MADV` trong bảng `DONVI` đang bị khóa ngoại `FKMADV` của bảng `NHANVIEN` tham chiếu tới. Trình tự lệnh đúng để xóa bảng `DONVI` là gì?",
+      "options": {
+        "A": "DROP TABLE DONVI; ALTER TABLE NHANVIEN DROP CONSTRAINT FKMADV;",
+        "B": "TRUNCATE TABLE NHANVIEN; DROP TABLE DONVI;",
+        "C": "ALTER TABLE DONVI DROP CONSTRAINT FKMADV; DROP TABLE DONVI;",
+        "D": "ALTER TABLE NHANVIEN DROP CONSTRAINT FKMADV; DROP TABLE DONVI;"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 4.2.3, không thể DROP TABLE nếu bảng đang bị tham chiếu bởi FOREIGN KEY; phải xóa ràng buộc `FKMADV` khỏi bảng `NHANVIEN` trước rồi mới `DROP TABLE DONVI`.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 53,
+      "question": "Cho hai bảng `MATHANG(MAHANG, GIA)` và `NHATKYBANHANG(NGAYBAN, MAHANG, SOLUONG, THANHTIEN)`. Lệnh SQL chuẩn theo giáo trình để cập nhật `THANHTIEN = SOLUONG * GIA` là gì?",
+      "options": {
+        "A": "UPDATE NHATKYBANHANG SET THANHTIEN = SOLUONG * GIA FROM MATHANG WHERE NHATKYBANHANG.MAHANG = MATHANG.MAHANG",
+        "B": "UPDATE NHATKYBANHANG SET THANHTIEN = SOLUONG * MATHANG.GIA WHERE MAHANG = MATHANG.MAHANG",
+        "C": "ALTER TABLE NHATKYBANHANG SET THANHTIEN = SOLUONG * GIA FROM MATHANG",
+        "D": "UPDATE MATHANG SET THANHTIEN = SOLUONG * GIA FROM NHATKYBANHANG"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.3.2 Ví dụ 3 dùng mệnh đề `FROM MATHANG` trong lệnh `UPDATE NHATKYBANHANG` kèm điều kiện nối ở `WHERE` để lấy giá từ bảng `MATHANG`.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "question": "Cho `SINHVIEN(MASV, HOTEN, MALOP)` và `LOP(MALOP, TENLOP, SOSV)`. Câu lệnh nào theo cú pháp Mục 4.3.3 xóa những sinh viên học lớp có `TENLOP = 'TINK2'`?",
+      "options": {
+        "A": "DELETE FROM SINHVIEN WHERE TENLOP = 'TINK2'",
+        "B": "DELETE FROM SINHVIEN FROM LOP WHERE TENLOP = 'TINK2' AND LOP.MALOP = SINHVIEN.MALOP",
+        "C": "DELETE FROM SINHVIEN, LOP WHERE LOP.MALOP = SINHVIEN.MALOP",
+        "D": "TRUNCATE TABLE SINHVIEN WHERE MALOP IN (SELECT MALOP FROM LOP)"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 4.3.3 Ví dụ 3 trình bày: khi điều kiện xóa liên quan đến bảng khác, bổ sung mệnh đề `FROM LOP` và điều kiện nối `LOP.MALOP = SINHVIEN.MALOP` trong `WHERE` (hoặc dùng subquery).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 55,
+      "question": "Mệnh đề `[INTO <Tên_bảng_mới>]` trong cú pháp tổng quát của `SELECT` dùng để làm gì?",
+      "options": {
+        "A": "Chèn thêm dòng vào một bảng đã tồn tại trước đó tương tự INSERT INTO",
+        "B": "Xuất kết quả trực tiếp ra tệp văn bản .txt",
+        "C": "Đưa kết quả truy vấn lưu vào một bảng mới được tạo ra có tên chỉ ra",
+        "D": "Đổi tên bảng nguồn đang nằm trong mệnh đề FROM"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 4.4.1 mục 4 giải thích: `INTO <Tên_bảng_mới>` dùng để đưa kết quả truy vấn lưu vào bảng mới có tên chỉ ra, thay vì mặc định chỉ hiển thị ra cửa sổ Query.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 56,
+      "question": "Phát biểu nào sau đây là SAI về quy tắc sử dụng mệnh đề `COMPUTE <DS_Hàm_gộp> BY <DS_Cột>`?",
+      "options": {
+        "A": "Câu lệnh có COMPUTE ... BY bắt buộc phải kết hợp với ORDER BY",
+        "B": "Các cột nằm trong hàm gộp của COMPUTE phải xuất hiện trong <DS_chọn> của SELECT",
+        "C": "Danh sách cột sau BY của COMPUTE phải giống hệt hoặc là tập con của danh sách cột sau ORDER BY",
+        "D": "Cột liệt kê sau BY của COMPUTE không được phép xuất hiện trong mệnh đề ORDER BY"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 4.4.1 mục 10, các cột liệt kê sau BY của COMPUTE phải giống hệt hoặc là một tập con của những cột được liệt kê sau ORDER BY; do đó phát biểu D là sai.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 57,
+      "question": "Điều gì xảy ra khi sử dụng mệnh đề `COMPUTE COUNT(MALOP)` mà KHÔNG có từ khóa `BY` đi kèm?",
+      "options": {
+        "A": "Không cần sử dụng ORDER BY, và phạm vi tính toán của hàm gộp áp dụng trên toàn bộ dữ liệu kết quả",
+        "B": "Hệ thống báo lỗi thiếu từ khóa BY",
+        "C": "Bắt buộc vẫn phải có GROUP BY để phân nhóm",
+        "D": "Hàm COUNT(MALOP) chỉ đếm duy nhất dòng đầu tiên"
+      },
+      "correct_answer": "A",
+      "explanation": "Chú ý ở Mục 4.4.1 mục 10: trường hợp sử dụng COMPUTE mà không có BY thì không cần sử dụng ORDER BY, khi đó phạm vi tính toán của hàm gộp là trên toàn bộ dữ liệu.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 58,
+      "question": "Cho bảng `SP(S#, P#, QTY)`. Câu lệnh `SELECT S# FROM SP WHERE QTY >= ALL (SELECT QTY FROM SP)` tương đương với câu lệnh nào sau đây?",
+      "options": {
+        "A": "SELECT S# FROM SP WHERE QTY >= ANY (SELECT QTY FROM SP)",
+        "B": "SELECT S# FROM SP WHERE QTY = (SELECT MAX(QTY) FROM SP)",
+        "C": "SELECT S# FROM SP WHERE QTY = (SELECT MIN(QTY) FROM SP)",
+        "D": "SELECT S# FROM SP WHERE QTY > (SELECT AVG(QTY) FROM SP)"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 4.4.2a Ví dụ 3 chỉ ra: `WHERE QTY >= ALL (SELECT QTY FROM SP)` tìm các dòng có `QTY` lớn hơn hoặc bằng mọi giá trị `QTY`, tức tương đương `WHERE QTY = (SELECT MAX(QTY) FROM SP)`.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 59,
+      "question": "Điểm khác biệt về cấu trúc cột kết quả của truy vấn con đi sau `EXISTS` so với truy vấn con đi sau `IN` hoặc phép so sánh `ANY/ALL` là gì?",
+      "options": {
+        "A": "Truy vấn con sau EXISTS bắt buộc phải có mệnh đề ORDER BY",
+        "B": "Truy vấn con sau EXISTS không được dùng phép nối với bảng cha",
+        "C": "Danh sách chọn của truy vấn con sau EXISTS có thể chứa nhiều cột (như SELECT *), còn hai cách kia thường chỉ trả về 1 cột",
+        "D": "Truy vấn con sau EXISTS chỉ trả về tối đa 1 dòng"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 4.4.2c nêu rõ: điều khác biệt của việc sử dụng EXISTS với 2 cách trên (so sánh ANY/ALL và IN) là trong danh sách chọn của truy vấn con có thể có nhiều cột (ví dụ `SELECT *`).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 60,
+      "question": "Cho `S(S#, SNAME)` và `SP(S#, P#, QTY)`. Câu lệnh nào tìm những nhà cung cấp chưa cung cấp mặt hàng nào?",
+      "options": {
+        "A": "SELECT * FROM S WHERE EXISTS (SELECT * FROM SP WHERE S.S# = SP.S#)",
+        "B": "SELECT * FROM S WHERE S# IN (SELECT S# FROM SP)",
+        "C": "SELECT * FROM S, SP WHERE S.S# <> SP.S#",
+        "D": "SELECT * FROM S WHERE NOT EXISTS (SELECT * FROM SP WHERE S.S# = SP.S#)"
+      },
+      "correct_answer": "D",
+      "explanation": "`WHERE NOT EXISTS (SELECT * FROM SP WHERE S.S# = SP.S#)` kiểm tra những dòng trong S không có bản ghi khớp nào trong SP, tương đương `WHERE S# NOT IN (SELECT S# FROM SP)`.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "question": "Trong câu lệnh `SELECT`, cú pháp `CASE` nào sau đây hợp lệ để xếp loại `XEPLOAI` dựa trên cột `DTB`?",
+      "options": {
+        "A": "SELECT MASV, XEPLOAI = CASE WHEN DTB >= 8 THEN 'GIOI' WHEN DTB >= 5 THEN 'TB' ELSE 'YEU' END FROM DIEMTHI",
+        "B": "SELECT MASV, CASE DTB IF >= 8 THEN 'GIOI' ELSE 'YEU' FROM DIEMTHI",
+        "C": "SELECT MASV, SWITCH (DTB >= 8, 'GIOI', 'YEU') END FROM DIEMTHI",
+        "D": "SELECT MASV, CASE WHEN DTB >= 8 THEN 'GIOI' ELSE 'YEU' FROM DIEMTHI"
+      },
+      "correct_answer": "A",
+      "explanation": "Cú pháp chuẩn của CASE (Mục 4.4.3b) là `CASE [Biểu thức] WHEN <ĐK/GT> THEN <KQ> ... [ELSE <KQ>] END` (bắt buộc có từ khóa `END` đóng khối).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 62,
+      "question": "Trong vòng lặp `WHILE <Điều_kiện> BEGIN ... END`, lệnh `CONTINUE` có tác dụng gì?",
+      "options": {
+        "A": "Thoát khỏi vòng lặp WHILE ngay lập tức cho dù điều kiện còn đúng",
+        "B": "Quay trở về đầu vòng lặp để kiểm tra lại điều kiện, bỏ qua các lệnh còn lại phía sau nó trong thân vòng lặp",
+        "C": "Tạm dừng vòng lặp 1 giây rồi chạy tiếp câu lệnh kế tiếp",
+        "D": "Kết thúc toàn bộ lô lệnh SQL (batch)"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 4.4.3c giải thích: `BREAK` dùng để thoát khỏi vòng lặp WHILE ngay cả khi điều kiện còn đúng; `CONTINUE` quay trở về đầu vòng lặp, bỏ qua các lệnh còn lại trong thân vòng lặp.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 63,
+      "question": "Trong cấu trúc điều khiển `IF ... ELSE` hoặc `WHILE`, khi phần thân có từ 2 câu lệnh SQL trở lên thì cần xử lý thế nào?",
+      "options": {
+        "A": "Ngăn cách các câu lệnh bằng dấu phẩy (,)",
+        "B": "Đặt các câu lệnh trong cặp dấu ngoặc nhọn { }",
+        "C": "Đặt khối câu lệnh vào giữa cặp từ khóa BEGIN và END",
+        "D": "Chỉ được phép viết 1 lệnh, muốn nhiều lệnh phải dùng VIEW"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 4.4.3a và 4.4.3c quy định: sau IF, ELSE hoặc trong WHILE nếu có 2 lệnh trở lên phải đặt giữa `BEGIN` và `END`.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 64,
+      "question": "Theo Mục 4.5.4, khi cấp phát quyền trên từng CỘT cụ thể của một bảng hoặc khung nhìn, hai quyền nào được hỗ trợ?",
+      "options": {
+        "A": "INSERT và DELETE",
+        "B": "SELECT, INSERT, UPDATE và DELETE",
+        "C": "EXECUTE và REFERENCES",
+        "D": "SELECT và UPDATE"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 4.5.4 nêu rõ: các quyền có thể cấp phát trên bảng/khung nhìn gồm SELECT, INSERT, DELETE, UPDATE, REFERENCES; nhưng trên các cột của bảng/khung nhìn chỉ gồm `SELECT` và `UPDATE`.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 65,
+      "question": "Quyền `REFERENCES` khi được cấp phát trên một bảng cho phép người dùng thực hiện thao tác nào?",
+      "options": {
+        "A": "Tạo khóa ngoại tham chiếu đến bảng được cấp phát",
+        "B": "Thực thi thủ tục lưu trữ bên trong bảng",
+        "C": "Xóa toàn bộ dữ liệu của bảng bằng TRUNCATE",
+        "D": "Chuyển tiếp quyền SELECT cho các người dùng khác"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 4.5.4 giải thích quyền `REFERENCES` là quyền tạo khóa ngoại tham chiếu đến bảng cấp phát.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "question": "Khi cấp quyền cho người dùng trên đối tượng là thủ tục lưu trữ (`PROCEDURE`) hoặc hàm (`FUNCTION`), quyền nào được sử dụng trong lệnh `GRANT`?",
+      "options": {
+        "A": "SELECT",
+        "B": "EXECUTE",
+        "C": "REFERENCES",
+        "D": "ALTER"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 4.5.4 nêu rõ: quyền có thể cấp phát với thủ tục lưu trữ và hàm là `EXECUTE`.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 67,
+      "question": "Sau khi chạy lệnh `GRANT CREATE TABLE, CREATE VIEW TO User1`, vì sao `User1` không thể cấp lại quyền tạo bảng cho `User2`?",
+      "options": {
+        "A": "Vì lệnh CREATE TABLE không tồn tại trong hệ thống phân quyền",
+        "B": "Vì User1 chưa tạo bảng nào trước đó",
+        "C": "Vì cú pháp cấp quyền thực thi câu lệnh không có tùy chọn WITH GRANT OPTION",
+        "D": "Vì chỉ có tối đa 1 người dùng được phép tạo bảng trong CSDL"
+      },
+      "correct_answer": "C",
+      "explanation": "Chú ý ở Mục 4.5.5 nêu rõ: lệnh GRANT cấp quyền thực thi câu lệnh không có tùy chọn `WITH GRANT OPTION`, nghĩa là người dùng không thể chuyển tiếp các quyền thực thi các câu lệnh đã cấp phát cho người dùng khác.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 68,
+      "question": "Chủ sở hữu đã chạy `GRANT SELECT ON SINHVIEN TO User1 WITH GRANT OPTION`, sau đó `User1` cấp tiếp quyền `SELECT` cho `User2`. Muốn thu hồi quyền `SELECT` của `User1` và đồng thời thu hồi luôn quyền mà `User1` đã chuyển cho `User2`, cần viết lệnh nào?",
+      "options": {
+        "A": "REVOKE SELECT ON SINHVIEN FROM User1",
+        "B": "DELETE GRANT SELECT ON SINHVIEN FROM User1, User2",
+        "C": "REVOKE SELECT ON SINHVIEN FROM User1 WITH GRANT OPTION",
+        "D": "REVOKE SELECT ON SINHVIEN FROM User1 CASCADE"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 4.5.6 quy định: nếu đã cấp quyền kèm `WITH GRANT OPTION` thì khi thu hồi phải chỉ định `CASCADE` để các quyền được chuyển tiếp cho người dùng khác cũng đồng thời được thu hồi.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 69,
+      "question": "Câu lệnh `SELECT S#, COUNT(DISTINCT P#) AS SOMATHANG FROM SP GROUP BY S# HAVING COUNT(DISTINCT P#) > 2` trả về thông tin gì?",
+      "options": {
+        "A": "Mã số và số lượng mặt hàng khác nhau của những nhà cung cấp đã cung cấp trên 2 mặt hàng",
+        "B": "Mã số của những mặt hàng được bán với số lượng mỗi lần trên 2 đơn vị",
+        "C": "Tất cả các nhà cung cấp chỉ cung cấp đúng 2 mặt hàng",
+        "D": "Tổng số lần giao hàng của tất cả nhà cung cấp có mã lớn hơn 2"
+      },
+      "correct_answer": "A",
+      "explanation": "`GROUP BY S#` nhóm theo từng nhà cung cấp; `COUNT(DISTINCT P#)` đếm số mặt hàng khác nhau của mỗi nhà cung cấp; `HAVING COUNT(DISTINCT P#) > 2` chỉ giữ lại các nhà cung cấp cung ứng trên 2 mặt hàng khác nhau.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 70,
+      "question": "Trong CSDL `QUANLYPHIM` gồm `PHIM(ma_phim, tieude)` và `DANHGIA(ma_phim, ma_ndg, sodiem)`, để liệt kê các phim mà TẤT CẢ các đánh giá của phim đó đều có `sodiem > 7.5` (và phim phải có ít nhất 1 đánh giá), điều kiện `WHERE` nào là chuẩn xác nhất?",
+      "options": {
+        "A": "WHERE ma_phim IN (SELECT ma_phim FROM DANHGIA WHERE sodiem > 7.5)",
+        "B": "WHERE ma_phim IN (SELECT ma_phim FROM DANHGIA) AND ma_phim NOT IN (SELECT ma_phim FROM DANHGIA WHERE sodiem <= 7.5)",
+        "C": "WHERE ma_phim NOT IN (SELECT ma_phim FROM DANHGIA WHERE sodiem > 7.5)",
+        "D": "WHERE 7.5 > ANY (SELECT sodiem FROM DANHGIA WHERE DANHGIA.ma_phim = PHIM.ma_phim)"
+      },
+      "correct_answer": "B",
+      "explanation": "Nếu chỉ dùng `sodiem > 7.5` thì phim có 1 điểm 8.0 và 1 điểm 5.0 vẫn lọt vào. Do đó phải loại bỏ mọi phim có bất kỳ điểm <= 7.5 (`NOT IN`) đồng thời đảm bảo phim đã có đánh giá (`IN`).",
+      "difficulty": "hard"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Nêu tên đầy đủ và chức năng của 4 nhóm lệnh chính trong SQL chuẩn (kèm ví dụ 1-2 lệnh mỗi nhóm).",
+      "expected_answer": "1. DQL (Data Query Language): Truy vấn lấy thông tin, không làm đổi dữ liệu (SELECT).\n2. DDL (Data Definition Language): Tạo và sửa đổi cấu trúc đối tượng CSDL (CREATE, ALTER, DROP).\n3. DML (Data Manipulation Language): Thao tác làm thay đổi dữ liệu trong bảng (INSERT, UPDATE, DELETE).\n4. DCL (Data Control Language): Quản lý quyền truy cập và bảo mật (GRANT, REVOKE)."
+    },
+    {
+      "id": 2,
+      "question": "Trình bày 4 tùy chọn xử lý toàn vẹn tham chiếu của ràng buộc FOREIGN KEY khi bản ghi ở bảng được tham chiếu bị xóa (ON DELETE) hoặc cập nhật (ON UPDATE).",
+      "expected_answer": "1. CASCADE: Tự động xóa hoặc cập nhật theo ở bảng con khi bản ghi tham chiếu ở bảng cha bị xóa/cập nhật.\n2. NO ACTION (mặc định): Không cho phép xóa hoặc cập nhật bản ghi ở bảng cha khi đang được tham chiếu.\n3. SET NULL: Đặt giá trị khóa ngoại ở bảng con thành NULL (nếu cột cho phép NULL).\n4. SET DEFAULT: Đặt giá trị khóa ngoại ở bảng con về giá trị mặc định (nếu cột có khai báo DEFAULT)."
+    },
+    {
+      "id": 3,
+      "question": "Nêu sự khác biệt chính giữa mệnh đề WHERE và mệnh đề HAVING trong câu lệnh SELECT.",
+      "expected_answer": "- WHERE lọc từng bản ghi đơn lẻ trước khi phân nhóm (GROUP BY).\n- HAVING đi kèm GROUP BY để lọc các nhóm dữ liệu thỏa điều kiện sau khi phân nhóm.\n- HAVING được phép sử dụng các hàm gộp (SUM, AVG, COUNT, MAX, MIN), còn WHERE thì KHÔNG được phép dùng hàm gộp."
+    },
+    {
+      "id": 4,
+      "question": "So sánh sự khác nhau giữa lệnh `DELETE FROM <Tên_bảng>` và lệnh `TRUNCATE TABLE <Tên_bảng>`.",
+      "expected_answer": "- Cả hai đều có thể xóa toàn bộ bản ghi mà vẫn giữ nguyên cấu trúc bảng.\n- `DELETE FROM` có thể kèm mệnh đề `WHERE` để xóa có điều kiện và không thu hồi ngay vùng nhớ cấp phát.\n- `TRUNCATE TABLE` xóa toàn bộ bản ghi trong bảng (không dùng WHERE) và thu hồi vùng nhớ của các bản ghi đã xóa để cấp phát cho bản ghi khác."
+    },
+    {
+      "id": 5,
+      "question": "Giải thích ý nghĩa của tùy chọn `WITH GRANT OPTION` trong lệnh `GRANT` và từ khóa `CASCADE` trong lệnh `REVOKE`.",
+      "expected_answer": "- `WITH GRANT OPTION`: Cho phép người dùng được cấp quyền có thể chuyển tiếp quyền đối tượng đó cho người dùng khác (không áp dụng cho lệnh GRANT quyền thực thi câu lệnh).\n- `CASCADE`: Bắt buộc chỉ định trong `REVOKE` khi trước đó đã cấp quyền kèm `WITH GRANT OPTION`, nhằm thu hồi đồng thời cả các quyền đã được chuyển tiếp dây chuyền cho người khác."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Bài 1: Thiết kế DDL cho CSDL Quản lý bán hàng (QLBH-BAI1)",
+      "problem": "Tạo CSDL QLBH-BAI1 dùng để quản lý công tác bán hàng trong một công ty gồm 4 bảng: NHANVIEN(MANV, HOTEN, DIACHI, LUONG), MATHANG(MAH, TENHANG, GIAGOC), HOADON(SOHD, MANV, NGAYHD), CHITIETHD(SOHD, MAH, SOLUONG, GIABAN). Hãy viết các câu lệnh SQL tạo cấu trúc các bảng trên với đầy đủ khóa chính và khóa ngoại.",
+      "solution_steps": [
+        "Bước 1: Tạo bảng `NHANVIEN` với khóa chính `MANV`:\n```sql\nCREATE TABLE NHANVIEN (\n    MANV NCHAR(10) NOT NULL,\n    HOTEN NVARCHAR(50) NULL,\n    DIACHI NVARCHAR(50) NULL,\n    LUONG INT NULL,\n    CONSTRAINT PK_NHANVIEN PRIMARY KEY (MANV)\n);\n```",
+        "Bước 2: Tạo bảng `MATHANG` với khóa chính `MAH`:\n```sql\nCREATE TABLE MATHANG (\n    MAH NCHAR(10) NOT NULL,\n    TENHANG NVARCHAR(50) NULL,\n    GIAGOC INT NULL,\n    CONSTRAINT PK_MATHANG PRIMARY KEY (MAH)\n);\n```",
+        "Bước 3: Tạo bảng `HOADON` với khóa chính `SOHD` và khóa ngoại `MANV` tham chiếu `NHANVIEN(MANV)`:\n```sql\nCREATE TABLE HOADON (\n    SOHD NCHAR(10) NOT NULL,\n    MANV NCHAR(10) NULL,\n    NGAYHD DATE NULL,\n    CONSTRAINT PK_HOADON PRIMARY KEY (SOHD),\n    CONSTRAINT FK_HOADON_NHANVIEN FOREIGN KEY (MANV) REFERENCES NHANVIEN(MANV)\n);\n```",
+        "Bước 4: Tạo bảng `CHITIETHD` với khóa chính kép `(SOHD, MAH)` và hai khóa ngoại tham chiếu `HOADON` và `MATHANG`:\n```sql\nCREATE TABLE CHITIETHD (\n    SOHD NCHAR(10) NOT NULL,\n    MAH NCHAR(10) NOT NULL,\n    SOLUONG INT NULL,\n    GIABAN INT NULL,\n    CONSTRAINT PK_CHITIETHD PRIMARY KEY (SOHD, MAH),\n    CONSTRAINT FK_CTHD_HOADON FOREIGN KEY (SOHD) REFERENCES HOADON(SOHD),\n    CONSTRAINT FK_CTHD_MATHANG FOREIGN KEY (MAH) REFERENCES MATHANG(MAH)\n);\n```"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài 2: Thiết kế DDL cho CSDL Quản lý cửa hàng (QLBH-BAI2)",
+      "problem": "Tạo CSDL QLBH-BAI2 quản lý bán hàng trong một cửa hàng gồm 4 bảng: MATHANG(MAH, TENHANG, NAMSX, DONGIA), NHANVIEN(MANV, TENNV, DIACHI, LUONG), HOADON(SOHD, NGAYHD, MANV), CTHOADON(SOHD, MAH, SOLUONG). Viết lệnh SQL tạo các bảng kèm khóa chính và khóa ngoại.",
+      "solution_steps": [
+        "Bước 1: Tạo bảng `MATHANG` với khóa chính `MAH`:\n```sql\nCREATE TABLE MATHANG (\n    MAH NCHAR(10) NOT NULL,\n    TENHANG NVARCHAR(50) NULL,\n    NAMSX INT NULL,\n    DONGIA INT NULL,\n    CONSTRAINT PK_MATHANG PRIMARY KEY (MAH)\n);\n```",
+        "Bước 2: Tạo bảng `NHANVIEN` với khóa chính `MANV`:\n```sql\nCREATE TABLE NHANVIEN (\n    MANV NCHAR(10) NOT NULL,\n    TENNV NVARCHAR(40) NULL,\n    DIACHI NVARCHAR(50) NULL,\n    LUONG INT NULL,\n    CONSTRAINT PK_NHANVIEN PRIMARY KEY (MANV)\n);\n```",
+        "Bước 3: Tạo bảng `HOADON` với khóa chính `SOHD` và khóa ngoại `MANV`:\n```sql\nCREATE TABLE HOADON (\n    SOHD NCHAR(10) NOT NULL,\n    NGAYHD DATE NULL,\n    MANV NCHAR(10) NULL,\n    CONSTRAINT PK_HOADON PRIMARY KEY (SOHD),\n    CONSTRAINT FK_HOADON_NV FOREIGN KEY (MANV) REFERENCES NHANVIEN(MANV)\n);\n```",
+        "Bước 4: Tạo bảng `CTHOADON` với khóa chính kép `(SOHD, MAH)` và các khóa ngoại tương ứng:\n```sql\nCREATE TABLE CTHOADON (\n    SOHD NCHAR(10) NOT NULL,\n    MAH NCHAR(10) NOT NULL,\n    SOLUONG INT NULL,\n    CONSTRAINT PK_CTHOADON PRIMARY KEY (SOHD, MAH),\n    CONSTRAINT FK_CTHD_HD FOREIGN KEY (SOHD) REFERENCES HOADON(SOHD),\n    CONSTRAINT FK_CTHD_MH FOREIGN KEY (MAH) REFERENCES MATHANG(MAH)\n);\n```"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bài 3: Thiết kế DDL cho CSDL Quản lý bán thuốc (QLBTHUOC)",
+      "problem": "Tạo CSDL QLBTHUOC quản lý bán thuốc trong một nhà thuốc gồm 5 bảng: NHASX(MANSX, TENNSX, DIACHI, DIENTHOAI), THUOC(MAT, TENTHUOC, MANSX, DONGIA), NHANVIEN(MANV, TENNV, DIACHI, LUONG), HOADON(SOHD, NGAYHD, MANV), CTHD(SOHD, MAT, SOLUONG). Viết lệnh SQL tạo các bảng trên với đầy đủ khóa chính và khóa ngoại.",
+      "solution_steps": [
+        "Bước 1: Tạo hai bảng danh mục gốc `NHASX` và `NHANVIEN`:\n```sql\nCREATE TABLE NHASX (\n    MANSX NCHAR(10) NOT NULL,\n    TENNSX NVARCHAR(50) NULL,\n    DIACHI NVARCHAR(50) NULL,\n    DIENTHOAI VARCHAR(15) NULL,\n    CONSTRAINT PK_NHASX PRIMARY KEY (MANSX)\n);\nCREATE TABLE NHANVIEN (\n    MANV NCHAR(10) NOT NULL,\n    TENNV NVARCHAR(40) NULL,\n    DIACHI NVARCHAR(50) NULL,\n    LUONG INT NULL,\n    CONSTRAINT PK_NHANVIEN PRIMARY KEY (MANV)\n);\n```",
+        "Bước 2: Tạo bảng `THUOC` với khóa chính `MAT` và khóa ngoại `MANSX` tham chiếu `NHASX`:\n```sql\nCREATE TABLE THUOC (\n    MAT NCHAR(10) NOT NULL,\n    TENTHUOC NVARCHAR(50) NULL,\n    MANSX NCHAR(10) NULL,\n    DONGIA INT NULL,\n    CONSTRAINT PK_THUOC PRIMARY KEY (MAT),\n    CONSTRAINT FK_THUOC_NHASX FOREIGN KEY (MANSX) REFERENCES NHASX(MANSX)\n);\n```",
+        "Bước 3: Tạo bảng `HOADON` với khóa chính `SOHD` và khóa ngoại `MANV` tham chiếu `NHANVIEN`:\n```sql\nCREATE TABLE HOADON (\n    SOHD NCHAR(10) NOT NULL,\n    NGAYHD DATE NULL,\n    MANV NCHAR(10) NULL,\n    CONSTRAINT PK_HOADON PRIMARY KEY (SOHD),\n    CONSTRAINT FK_HOADON_NV FOREIGN KEY (MANV) REFERENCES NHANVIEN(MANV)\n);\n```",
+        "Bước 4: Tạo bảng chi tiết `CTHD` với khóa chính `(SOHD, MAT)` và hai khóa ngoại:\n```sql\nCREATE TABLE CTHD (\n    SOHD NCHAR(10) NOT NULL,\n    MAT NCHAR(10) NOT NULL,\n    SOLUONG INT NULL,\n    CONSTRAINT PK_CTHD PRIMARY KEY (SOHD, MAT),\n    CONSTRAINT FK_CTHD_HOADON FOREIGN KEY (SOHD) REFERENCES HOADON(SOHD),\n    CONSTRAINT FK_CTHD_THUOC FOREIGN KEY (MAT) REFERENCES THUOC(MAT)\n);\n```"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bài 4: Thiết kế DDL cho CSDL Quản lý cửa hàng băng đĩa phim (QLDIAPHIM)",
+      "problem": "Tạo CSDL QLDIAPHIM quản lý bán băng đĩa phim gồm 5 bảng: NHASX(MANSX, TENNSX, DIACHI), DIAPHIM(MAP, MANSX, TENPHIM, NGAYSX, DONGIA), NHANVIEN(MANV, TENNV, DIACHI, LUONG), HOADON(SOHD, NGAYHD, MANV), CTHOADON(SOHD, MAP, SOLUONG). Viết lệnh SQL tạo các bảng trên.",
+      "solution_steps": [
+        "Bước 1: Tạo hai bảng độc lập `NHASX` và `NHANVIEN`:\n```sql\nCREATE TABLE NHASX (\n    MANSX NCHAR(10) NOT NULL,\n    TENNSX NVARCHAR(50) NULL,\n    DIACHI NVARCHAR(50) NULL,\n    CONSTRAINT PK_NHASX PRIMARY KEY (MANSX)\n);\nCREATE TABLE NHANVIEN (\n    MANV NCHAR(10) NOT NULL,\n    TENNV NVARCHAR(50) NULL,\n    DIACHI NVARCHAR(50) NULL,\n    LUONG INT NULL,\n    CONSTRAINT PK_NHANVIEN PRIMARY KEY (MANV)\n);\n```",
+        "Bước 2: Tạo bảng `DIAPHIM` có khóa chính `MAP` và khóa ngoại `MANSX` tham chiếu `NHASX`:\n```sql\nCREATE TABLE DIAPHIM (\n    MAP NCHAR(10) NOT NULL,\n    MANSX NCHAR(10) NULL,\n    TENPHIM NVARCHAR(50) NULL,\n    NGAYSX DATE NULL,\n    DONGIA INT NULL,\n    CONSTRAINT PK_DIAPHIM PRIMARY KEY (MAP),\n    CONSTRAINT FK_DIAPHIM_NHASX FOREIGN KEY (MANSX) REFERENCES NHASX(MANSX)\n);\n```",
+        "Bước 3: Tạo bảng `HOADON` với khóa chính `SOHD` và khóa ngoại `MANV` tham chiếu `NHANVIEN`:\n```sql\nCREATE TABLE HOADON (\n    SOHD NCHAR(10) NOT NULL,\n    NGAYHD DATE NULL,\n    MANV NCHAR(10) NULL,\n    CONSTRAINT PK_HOADON PRIMARY KEY (SOHD),\n    CONSTRAINT FK_HOADON_NV FOREIGN KEY (MANV) REFERENCES NHANVIEN(MANV)\n);\n```",
+        "Bước 4: Tạo bảng `CTHOADON` với khóa chính `(SOHD, MAP)` và hai khóa ngoại:\n```sql\nCREATE TABLE CTHOADON (\n    SOHD NCHAR(10) NOT NULL,\n    MAP NCHAR(10) NOT NULL,\n    SOLUONG INT NULL,\n    CONSTRAINT PK_CTHOADON PRIMARY KEY (SOHD, MAP),\n    CONSTRAINT FK_CTHD_HOADON FOREIGN KEY (SOHD) REFERENCES HOADON(SOHD),\n    CONSTRAINT FK_CTHD_DIAPHIM FOREIGN KEY (MAP) REFERENCES DIAPHIM(MAP)\n);\n```"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bài 5: Truy vấn và cập nhật dữ liệu trên CSDL QLBH-BAI1",
+      "problem": "Cho CSDL QLBH-BAI1: NHANVIEN(MANV, HOTEN, DIACHI, DIENTHOAI, LUONG), HOADON(SOHD, MANV, NGAYHD), CHITIETHD(SOHD, MAH, SOLUONG, GIABAN), MATHANG(MAH, TENHANG, GIAGOC). Viết lệnh SQL cho 4 yêu cầu:\n1. Những nhân viên nào của công ty có mức lương cao nhất.\n2. Trong năm 2021, những mặt hàng nào chỉ được mua đúng một lần.\n3. Hãy cho biết tổng số tiền lời mà công ty thu được từ mỗi mặt hàng trong năm 2021.\n4. Cập nhật lại lương của những nhân viên không lập được bất kỳ hóa đơn nào bằng cách giảm đi 25% lương.",
+      "solution_steps": [
+        "Bước 1 (Yêu cầu 1 - Nhân viên lương cao nhất): Dùng truy vấn con tìm `MAX(LUONG)` để đảm bảo lấy đủ mọi nhân viên đồng mức cao nhất:\n```sql\nSELECT MANV, HOTEN, LUONG\nFROM NHANVIEN\nWHERE LUONG = (SELECT MAX(LUONG) FROM NHANVIEN);\n```",
+        "Bước 2 (Yêu cầu 2 - Mặt hàng chỉ được mua đúng 1 lần năm 2021): Kết hợp 3 bảng `MATHANG`, `CHITIETHD`, `HOADON`, nhóm theo mặt hàng và dùng `HAVING COUNT(CHITIETHD.MAH) = 1`:\n```sql\nSELECT MATHANG.MAH, TENHANG\nFROM MATHANG, CHITIETHD, HOADON\nWHERE MATHANG.MAH = CHITIETHD.MAH\n  AND CHITIETHD.SOHD = HOADON.SOHD\n  AND YEAR(NGAYHD) = 2021\nGROUP BY MATHANG.MAH, TENHANG\nHAVING COUNT(CHITIETHD.MAH) = 1;\n```",
+        "Bước 3 (Yêu cầu 3 - Tổng tiền lời mỗi mặt hàng năm 2021): Tiền lời từng dòng chi tiết là `SOLUONG * (GIABAN - GIAGOC)`, tính tổng theo từng mặt hàng:\n```sql\nSELECT MATHANG.MAH, TENHANG, SUM(SOLUONG * (GIABAN - GIAGOC)) AS TONG_LOI\nFROM MATHANG, HOADON, CHITIETHD\nWHERE MATHANG.MAH = CHITIETHD.MAH\n  AND CHITIETHD.SOHD = HOADON.SOHD\n  AND YEAR(NGAYHD) = 2021\nGROUP BY MATHANG.MAH, TENHANG;\n```",
+        "Bước 4 (Yêu cầu 4 - Giảm 25% lương nhân viên chưa lập hóa đơn nào): Giữ lại 75% lương hiện tại với `WHERE MANV NOT IN (SELECT DISTINCT MANV FROM HOADON WHERE MANV IS NOT NULL)`:\n```sql\nUPDATE NHANVIEN\nSET LUONG = LUONG * 0.75\nWHERE MANV NOT IN (SELECT DISTINCT MANV FROM HOADON WHERE MANV IS NOT NULL);\n```"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bài 6: Truy vấn và cập nhật dữ liệu trên CSDL QLBH-BAI2",
+      "problem": "Cho CSDL QLBH-BAI2: MATHANG(MAH, TENHANG, NAMSX, DONGIA), HOADON(SOHD, NGAYHD, MANV), CTHOADON(SOHD, MAH, SOLUONG), NHANVIEN(MANV, TENNV, DIACHI, LUONG). Viết lệnh SQL:\n1. Cho danh sách các mặt hàng có trong bảng MATHANG nhưng chưa có ai mua.\n2. Cho biết tổng tiền mà cửa hàng thu được từ mỗi mặt hàng trong năm 2016.\n3. Cho danh sách các nhân viên bán được tổng số lượng hàng trong tháng 11 năm 2016 là trên 50.\n4. Cập nhật lại lương cho các nhân viên chưa lập được bất kỳ một hóa đơn bán hàng nào bằng cách giảm 50% lương.",
+      "solution_steps": [
+        "Bước 1 (Yêu cầu 1 - Mặt hàng chưa ai mua): Dùng `NOT IN` trên bảng `MATHANG` (tránh tích Đề-các dư thừa với `CTHOADON`):\n```sql\nSELECT MAH, TENHANG\nFROM MATHANG\nWHERE MAH NOT IN (SELECT DISTINCT MAH FROM CTHOADON);\n```",
+        "Bước 2 (Yêu cầu 2 - Tổng tiền thu từ mỗi mặt hàng năm 2016): Kết nối 3 bảng, lọc `YEAR(NGAYHD) = 2016` và tính `SUM(SOLUONG * DONGIA)`:\n```sql\nSELECT MATHANG.MAH, TENHANG, SUM(SOLUONG * DONGIA) AS TONGTIEN\nFROM MATHANG, HOADON, CTHOADON\nWHERE MATHANG.MAH = CTHOADON.MAH\n  AND CTHOADON.SOHD = HOADON.SOHD\n  AND YEAR(NGAYHD) = 2016\nGROUP BY MATHANG.MAH, TENHANG;\n```",
+        "Bước 3 (Yêu cầu 3 - Nhân viên bán tổng SL > 50 trong tháng 11/2016): Lọc năm 2016 và tháng 11, nhóm theo nhân viên và dùng `HAVING SUM(SOLUONG) > 50`:\n```sql\nSELECT NHANVIEN.MANV, TENNV, SUM(SOLUONG) AS TONGSL\nFROM NHANVIEN, HOADON, CTHOADON\nWHERE NHANVIEN.MANV = HOADON.MANV\n  AND HOADON.SOHD = CTHOADON.SOHD\n  AND YEAR(NGAYHD) = 2016 AND MONTH(NGAYHD) = 11\nGROUP BY NHANVIEN.MANV, TENNV\nHAVING SUM(SOLUONG) > 50;\n```",
+        "Bước 4 (Yêu cầu 4 - Giảm 50% lương nhân viên chưa lập hóa đơn):\n```sql\nUPDATE NHANVIEN\nSET LUONG = LUONG * 0.5\nWHERE MANV NOT IN (SELECT DISTINCT MANV FROM HOADON WHERE MANV IS NOT NULL);\n```"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bài 7: Truy vấn và cập nhật dữ liệu trên CSDL Quản lý bán thuốc (QLBT)",
+      "problem": "Cho CSDL QLBT: THUOC(MAT, TENTHUOC, MANSX, DONGIA), HOADON(SOHD, NGAYHD, MANV), CTHD(SOHD, MAT, SOLUONG), NHANVIEN(MANV, TENNV, DIACHI, LUONG), NHASX(MANSX, TENNSX, DIACHI, DIENTHOAI). Viết lệnh SQL:\n1. Cho danh sách các loại thuốc có trong bảng THUOC nhưng chưa có ai mua.\n2. Cho biết tổng tiền mà nhà thuốc thu được từ mỗi loại thuốc trong năm 2017.\n3. Cho danh sách các nhân viên bán được tổng số lượng thuốc trong tháng 11/2017 là trên 500 viên.\n4. Cập nhật lại lương cho các nhân viên chưa lập được bất kỳ một hóa đơn bán thuốc nào bằng cách giảm 50% lương.",
+      "solution_steps": [
+        "Bước 1 (Yêu cầu 1 - Thuốc chưa ai mua):\n```sql\nSELECT MAT, TENTHUOC\nFROM THUOC\nWHERE MAT NOT IN (SELECT DISTINCT MAT FROM CTHD);\n```",
+        "Bước 2 (Yêu cầu 2 - Tổng tiền mỗi loại thuốc năm 2017):\n```sql\nSELECT THUOC.MAT, TENTHUOC, SUM(SOLUONG * DONGIA) AS TONGTIEN\nFROM THUOC, HOADON, CTHD\nWHERE THUOC.MAT = CTHD.MAT\n  AND CTHD.SOHD = HOADON.SOHD\n  AND YEAR(NGAYHD) = 2017\nGROUP BY THUOC.MAT, TENTHUOC;\n```",
+        "Bước 3 (Yêu cầu 3 - Nhân viên bán > 500 viên trong tháng 11/2017):\n```sql\nSELECT NHANVIEN.MANV, TENNV, SUM(SOLUONG) AS TONGSL\nFROM NHANVIEN, HOADON, CTHD\nWHERE NHANVIEN.MANV = HOADON.MANV\n  AND HOADON.SOHD = CTHD.SOHD\n  AND YEAR(NGAYHD) = 2017 AND MONTH(NGAYHD) = 11\nGROUP BY NHANVIEN.MANV, TENNV\nHAVING SUM(SOLUONG) > 500;\n```",
+        "Bước 4 (Yêu cầu 4 - Giảm 50% lương nhân viên chưa lập hóa đơn):\n```sql\nUPDATE NHANVIEN\nSET LUONG = LUONG * 0.5\nWHERE MANV NOT IN (SELECT DISTINCT MANV FROM HOADON WHERE MANV IS NOT NULL);\n```"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bài 8: Truy vấn SQL trên CSDL Quản lý băng đĩa phim (QLDIAPHIM)",
+      "problem": "Cho CSDL QLDIAPHIM: DIAPHIM(MAP, MANSX, TENPHIM, NGAYSX, DONGIA), HOADON(SOHD, NGAYHD, MANV), CTHOADON(SOHD, MAP, SOLUONG), NHANVIEN(MANV, TENNV, DIACHI, LUONG), NHASX(MANSX, TENNSX, DIACHI). Viết lệnh SQL:\n1. Cho tên nhà sản xuất và tên phim được sản xuất ra trong năm 2018 và được mua ngay khi vừa sản xuất ra.\n2. Cho danh sách các tên phim sản xuất trong năm 2017 có giá bán thấp nhất.\n3. Cho biết thông tin về các hóa đơn và chi tiết của từng hóa đơn do nhân viên có mã 'A01' lập ra.",
+      "solution_steps": [
+        "Bước 1 (Phân tích yêu cầu 1): \"Được mua ngay khi vừa sản xuất ra\" tức ngày lập hóa đơn trùng với ngày sản xuất (`NGAYHD = NGAYSX`), kèm điều kiện `YEAR(NGAYSX) = 2018` và nối 4 bảng `NHASX`, `DIAPHIM`, `CTHOADON`, `HOADON`:\n```sql\nSELECT DISTINCT TENNSX, TENPHIM\nFROM NHASX, DIAPHIM, CTHOADON, HOADON\nWHERE NHASX.MANSX = DIAPHIM.MANSX\n  AND DIAPHIM.MAP = CTHOADON.MAP\n  AND CTHOADON.SOHD = HOADON.SOHD\n  AND YEAR(NGAYSX) = 2018\n  AND NGAYHD = NGAYSX;\n```",
+        "Bước 2 (Yêu cầu 2 - Phim năm 2017 có giá thấp nhất): Dùng subquery tìm `MIN(DONGIA)` trong năm 2017 và lọc lại cả `YEAR(NGAYSX) = 2017` ở truy vấn ngoài để tránh lấy nhầm phim năm khác trùng giá:\n```sql\nSELECT MAP, TENPHIM\nFROM DIAPHIM\nWHERE YEAR(NGAYSX) = 2017\n  AND DONGIA = (SELECT MIN(DONGIA) FROM DIAPHIM WHERE YEAR(NGAYSX) = 2017);\n```",
+        "Bước 3 (Yêu cầu 3 - Hóa đơn và chi tiết do nhân viên 'A01' lập): Kết nối `HOADON` và `CTHOADON` với điều kiện `MANV = 'A01'`:\n```sql\nSELECT HOADON.SOHD, NGAYHD, MAP, SOLUONG, MANV\nFROM HOADON, CTHOADON\nWHERE HOADON.SOHD = CTHOADON.SOHD\n  AND MANV = 'A01';\n```",
+        "Bước 4 (Kiểm tra lại điều kiện biên): Đảm bảo không bỏ sót phim đồng giá thấp nhất ở câu 2 (nhờ dùng `=` thay vì `TOP 1`) và dùng `DISTINCT` ở câu 1 nếu phim được bán nhiều hóa đơn trong cùng ngày sản xuất."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bài 9: Truy vấn nâng cao trên CSDL Cung cấp hàng hóa (CC - MH)",
+      "problem": "Cho CSDL cung cấp hàng hóa gồm 2 quan hệ: CC(MSNCC, TENNCC, DCNCC) và MH(MSMH, MSNCC, SL). Viết các lệnh SQL:\n1. Các mặt hàng có mã số A1 và A3 xuất phát từ địa chỉ nào?\n2. Danh sách tên, địa chỉ những người đã cung cấp hàng hóa?\n3. Danh sách tên những người chưa cung cấp mặt hàng nào?\n4. Tên những người đã cung cấp hàng hóa với tổng số lượng lớn nhất?\n5. Danh sách tên những người đã cung ứng đúng 1 mặt hàng?",
+      "solution_steps": [
+        "Bước 1 (Yêu cầu 1 - Địa chỉ cung cấp A1 hoặc A3):\n```sql\nSELECT DISTINCT DCNCC\nFROM CC, MH\nWHERE (MH.MSMH = 'A1' OR MH.MSMH = 'A3') AND CC.MSNCC = MH.MSNCC;\n```",
+        "Bước 2 (Yêu cầu 2 & 3 - Đã cung cấp vs Chưa cung cấp hàng hóa):\n```sql\n-- 2. Người đã cung cấp hàng hóa\nSELECT TENNCC, DCNCC FROM CC WHERE MSNCC IN (SELECT MSNCC FROM MH);\n-- 3. Người chưa cung cấp mặt hàng nào\nSELECT TENNCC FROM CC WHERE MSNCC NOT IN (SELECT MSNCC FROM MH);\n```",
+        "Bước 3 (Yêu cầu 4 - Người cung cấp tổng số lượng lớn nhất): Tạo bảng tạm `TG` bằng `SELECT ... INTO TG` (hoặc dùng `HAVING SUM(SL) >= ALL`) rồi chọn ra `TENNCC`:\n```sql\nSELECT MSNCC, SUM(SL) AS TSL INTO TG FROM MH GROUP BY MSNCC;\nSELECT TENNCC\nFROM CC, TG\nWHERE TG.MSNCC = CC.MSNCC AND TSL = (SELECT MAX(TSL) FROM TG);\n```",
+        "Bước 4 (Yêu cầu 5 - Người cung ứng đúng 1 mặt hàng): Đếm số mặt hàng khác nhau `COUNT(DISTINCT MSMH)` theo từng `MSNCC` với `HAVING = 1`:\n```sql\nSELECT TENNCC\nFROM CC\nWHERE MSNCC IN (\n    SELECT MSNCC FROM MH GROUP BY MSNCC HAVING COUNT(DISTINCT MSMH) = 1\n);\n```"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bài 10: Biểu diễn ĐSQH và SQL trên CSDL DAIHOC - KHOA - SINHVIEN",
+      "problem": "Cho CSDL gồm 3 quan hệ: DAIHOC(Tentruong, Hieutruong, Diachi), KHOA(MSKhoa, Tenkhoa, Tentruong), SINHVIEN(MSSV, MSKhoa, TenSV, DCSV). Dùng Đại số quan hệ (ĐSQH) và SQL thực hiện:\n1. Trường nào có Khoa Tin học?\n2. Sinh viên có mã số A1 ở khoa có mã số P1 có Hiệu trưởng tên gì?\n3. Tổng số sinh viên học theo từng trường?\n4. Khoa nào có đông sinh viên nhất?",
+      "solution_steps": [
+        "Bước 1 (Câu 1 - Trường có Khoa Tin học):\n- ĐSQH: $\\pi_{Tentruong}(\\sigma_{Tenkhoa='TIN\\ HOC'}(KHOA))$\n- SQL:\n```sql\nSELECT Tentruong FROM KHOA WHERE Tenkhoa = N'Tin học';\n```",
+        "Bước 2 (Câu 2 - Hiệu trưởng của SV mã A1 khoa mã P1):\n- ĐSQH: $\\pi_{Hieutruong}(\\sigma_{MSSV='A1' \\land SINHVIEN.MSKhoa='P1'}(DAIHOC \\bowtie KHOA \\bowtie SINHVIEN))$\n- SQL:\n```sql\nSELECT Hieutruong\nFROM DAIHOC, KHOA, SINHVIEN\nWHERE SINHVIEN.MSSV = 'A1'\n  AND SINHVIEN.MSKhoa = 'P1'\n  AND KHOA.MSKhoa = SINHVIEN.MSKhoa\n  AND DAIHOC.Tentruong = KHOA.Tentruong;\n```",
+        "Bước 3 (Câu 3 - Tổng số sinh viên theo từng trường — lưu ý đặt `WHERE` trước `GROUP BY`):\n- ĐSQH: $_{Tentruong}\\mathcal{F}_{COUNT(MSSV)}(KHOA \\bowtie SINHVIEN)$\n- SQL:\n```sql\nSELECT Tentruong, COUNT(MSSV) AS TONG_SV\nFROM SINHVIEN, KHOA\nWHERE SINHVIEN.MSKhoa = KHOA.MSKhoa\nGROUP BY Tentruong;\n```",
+        "Bước 4 (Câu 4 - Khoa có đông sinh viên nhất):\n- ĐSQH: Đếm SV theo `MSKhoa` rồi chọn khoa có số SV bằng `MAX`.\n- SQL:\n```sql\nSELECT MSKhoa, COUNT(MSSV) AS SOSV INTO TG FROM SINHVIEN GROUP BY MSKhoa;\nSELECT Tenkhoa\nFROM KHOA, TG\nWHERE TG.MSKhoa = KHOA.MSKhoa AND SOSV = (SELECT MAX(SOSV) FROM TG);\n```"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bài 11 & Bài 12: Phân quyền (GRANT) và Thu hồi quyền (REVOKE) trên SINHVIEN",
+      "problem": "Sử dụng CSDL quản lý sinh viên gồm bảng SINHVIEN(MSSV, MSKhoa, TenSV, DCSV):\n1. (Bài 11) Thực hiện lệnh cấp phát quyền xem và cập nhật dữ liệu trên các cột MSKhoa, TenSV, DCSV của bảng SINHVIEN đối với tài khoản người dùng User1, User2.\n2. (Bài 12) Thu hồi quyền xem và xóa dữ liệu trên bảng SINHVIEN đối với người dùng User1.\n3. Giải thích trường hợp mở rộng nếu có cấp quyền chuyển tiếp (WITH GRANT OPTION) và thu hồi dây chuyền (CASCADE).",
+      "solution_steps": [
+        "Bước 1 (Bài 11 - Cấp quyền xem và cập nhật trên 3 cột cụ thể): Theo Mục 4.5.4, hai quyền cấp được trên từng cột là `SELECT` và `UPDATE`:\n```sql\nGRANT SELECT, UPDATE\nON SINHVIEN (MSKhoa, TenSV, DCSV)\nTO User1, User2;\n```",
+        "Bước 2 (Bài 12 - Thu hồi quyền xem và xóa trên bảng SINHVIEN của User1):\n```sql\nREVOKE SELECT, DELETE\nON SINHVIEN\nFROM User1;\n```",
+        "Bước 3 (Mở rộng với WITH GRANT OPTION): Nếu muốn `User1` có quyền chuyển tiếp quyền `SELECT, UPDATE` cho người dùng khác (như `User3`), thêm `WITH GRANT OPTION` ở cuối lệnh `GRANT`:\n```sql\nGRANT SELECT, UPDATE ON SINHVIEN (MSKhoa, TenSV, DCSV) TO User1 WITH GRANT OPTION;\n```",
+        "Bước 4 (Thu hồi dây chuyền với CASCADE): Khi đã cấp kèm `WITH GRANT OPTION`, lúc thu hồi phải dùng `CASCADE` để hủy luôn quyền mà `User1` đã cấp lại cho `User3`:\n```sql\nREVOKE SELECT, UPDATE ON SINHVIEN FROM User1 CASCADE;\n```"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Bài 13: Thiết kế & Truy vấn CSDL Quản lý Khách sạn (KHACHSAN - PHONG - DATPHONG - KHACH)",
+      "problem": "Cho CSDL quản lý khách sạn: KHACHSAN(MAKS, TENKS, DIACHI), PHONG(SOP, MAKS, LOAIP, GIA), DATPHONG(MAKS, MAKHACH, NGAYNHAN, NGAYTRA, SOP), KHACH(MAKHACH, HOTEN, DIACHI). Dùng ĐSQH và SQL thực hiện:\n1. Viết các câu lệnh tạo các bảng trên.\n2. Đưa ra danh sách Gia và LoaiP của tất cả các phòng tại khách sạn Sheraton.\n3. Liệt kê tất cả các khách ở tại khách sạn Sheraton trả phòng trước ngày 10/11/2021.\n4. Tăng giá của tất cả các phòng lên 10%.",
+      "solution_steps": [
+        "Bước 1 (Yêu cầu 1 - Tạo 4 bảng với PK và FK):\n```sql\nCREATE TABLE KHACHSAN (MAKS CHAR(10) PRIMARY KEY, TENKS NVARCHAR(50), DIACHI NVARCHAR(100));\nCREATE TABLE KHACH (MAKHACH CHAR(10) PRIMARY KEY, HOTEN NVARCHAR(50), DIACHI NVARCHAR(100));\nCREATE TABLE PHONG (SOP CHAR(10), MAKS CHAR(10), LOAIP NVARCHAR(20), GIA INT,\n    PRIMARY KEY (SOP, MAKS), FOREIGN KEY (MAKS) REFERENCES KHACHSAN(MAKS));\nCREATE TABLE DATPHONG (MAKS CHAR(10), MAKHACH CHAR(10), NGAYNHAN DATE, NGAYTRA DATE, SOP CHAR(10),\n    PRIMARY KEY (MAKS, MAKHACH, NGAYNHAN),\n    FOREIGN KEY (SOP, MAKS) REFERENCES PHONG(SOP, MAKS),\n    FOREIGN KEY (MAKHACH) REFERENCES KHACH(MAKHACH));\n```",
+        "Bước 2 (Yêu cầu 2 - Giá và Loại phòng tại khách sạn Sheraton):\n- ĐSQH: $\\pi_{GIA, LOAIP}(\\sigma_{TENKS='Sheraton'}(KHACHSAN \\bowtie PHONG))$\n- SQL:\n```sql\nSELECT GIA, LOAIP\nFROM PHONG, KHACHSAN\nWHERE PHONG.MAKS = KHACHSAN.MAKS AND KHACHSAN.TENKS = 'Sheraton';\n```",
+        "Bước 3 (Yêu cầu 3 - Khách ở Sheraton trả phòng trước 10/11/2021):\n- ĐSQH: $\\pi_{KHACH.MAKHACH, HOTEN, KHACH.DIACHI}(\\sigma_{TENKS='Sheraton' \\land NGAYTRA<'2021-11-10'}(KHACH \\bowtie DATPHONG \\bowtie KHACHSAN))$\n- SQL:\n```sql\nSELECT DISTINCT KHACH.MAKHACH, HOTEN, KHACH.DIACHI\nFROM KHACH, DATPHONG, KHACHSAN\nWHERE KHACH.MAKHACH = DATPHONG.MAKHACH\n  AND DATPHONG.MAKS = KHACHSAN.MAKS\n  AND KHACHSAN.TENKS = 'Sheraton'\n  AND DATPHONG.NGAYTRA < '2021-11-10';\n```",
+        "Bước 4 (Yêu cầu 4 - Tăng giá tất cả các phòng lên 10% — lưu ý nhân `1.1`, không nhân `10%`):\n```sql\nUPDATE PHONG SET GIA = GIA * 1.1;\n```"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Bài 14: DDL, ĐSQH và SQL trên CSDL Quản lý Nhà cho thuê",
+      "problem": "Cho CSDL: KHACHHANG(MAKH, HOTEN, SODIENTHOAI, COQUAN), NHACHOTHUE(MAN, DIACHI, GIATHUE, TENCHUNHA), HOPDONG(MAN, MAKH, NGAYBATDAU, NGAYKETTHUC).\na. Viết câu lệnh SQL tạo các bảng trên.\nb. Dùng ĐSQH và SQL thực hiện 4 truy vấn: (1) Địa chỉ, Tên chủ nhà của nhà giá thuê ít hơn 5 triệu; (2) MAKH, HOTEN, COQUAN của người từng thuê nhà của chủ nhà 'Nguyễn Lê Giang'; (3) Các ngôi nhà chưa từng được ai thuê; (4) Giá thuê cao nhất trong các nhà từng ít nhất 1 lần được thuê.",
+      "solution_steps": [
+        "Bước 1 (Câu a - Tạo 3 bảng với PK và FK):\n```sql\nCREATE TABLE KHACHHANG (MAKH CHAR(8) PRIMARY KEY NOT NULL, HOTEN NVARCHAR(30) NOT NULL, SODIENTHOAI CHAR(11), COQUAN NVARCHAR(30));\nCREATE TABLE NHACHOTHUE (MAN CHAR(6) PRIMARY KEY NOT NULL, DIACHI NVARCHAR(70), GIATHUE INT, TENCHUNHA NVARCHAR(30));\nCREATE TABLE HOPDONG (MAN CHAR(6), MAKH CHAR(8), NGAYBATDAU DATE, NGAYKETTHUC DATE,\n    PRIMARY KEY (MAN, MAKH),\n    FOREIGN KEY (MAN) REFERENCES NHACHOTHUE(MAN),\n    FOREIGN KEY (MAKH) REFERENCES KHACHHANG(MAKH));\n```",
+        "Bước 2 (Câu b.1 & b.2):\n```sql\n-- b.1 ĐSQH: π_{DIACHI, TENCHUNHA}(σ_{GIATHUE < 5000000}(NHACHOTHUE))\nSELECT DIACHI, TENCHUNHA FROM NHACHOTHUE WHERE GIATHUE < 5000000;\n\n-- b.2 ĐSQH: π_{KHACHHANG.MAKH, HOTEN, COQUAN}(σ_{TENCHUNHA='Nguyễn Lê Giang'}(KHACHHANG ⋈ HOPDONG ⋈ NHACHOTHUE))\nSELECT DISTINCT KHACHHANG.MAKH, HOTEN, COQUAN\nFROM KHACHHANG, NHACHOTHUE, HOPDONG\nWHERE KHACHHANG.MAKH = HOPDONG.MAKH AND HOPDONG.MAN = NHACHOTHUE.MAN\n  AND TENCHUNHA = N'Nguyễn Lê Giang';\n```",
+        "Bước 3 (Câu b.3 - Nhà chưa từng được ai thuê):\n- ĐSQH: $NHACHOTHUE \\bowtie (\\pi_{MAN}(NHACHOTHUE) - \\pi_{MAN}(HOPDONG))$\n- SQL:\n```sql\nSELECT * FROM NHACHOTHUE WHERE MAN NOT IN (SELECT MAN FROM HOPDONG);\n```",
+        "Bước 4 (Câu b.4 - Giá thuê cao nhất trong các nhà từng được thuê):\n- SQL:\n```sql\nSELECT MAX(GIATHUE) AS GIA_THUE_CAO_NHAT\nFROM NHACHOTHUE\nWHERE MAN IN (SELECT MAN FROM HOPDONG);\n```"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bài 15: Thiết kế DDL kèm CHECK và sửa cấu trúc bảng CSDL QUANLYDETAI",
+      "problem": "Cho mô tả CSDL QUANLYDETAI gồm 6 bảng: KHOA(MAKHOA, TENKHOA, SDT), GIANGVIEN(MAGV, HOTENGV, MAKHOA), SINHVIEN(MASV, HOTENSV, MAKHOA [10 ký tự], NAMSINH [1930-10000]), DETAI(MADT, TENDT, NAM, KINHPHI [0-100 tỷ], KETQUA [0-10]), SVTHUCHIEN(MADT, MASV, CHUNHIEM), HUONGDAN(MADT, MAGV, HDCHINH, DIEM [0-10]).\na. Chỉ ra khóa chính, khóa ngoại.\nb. Viết lệnh SQL tạo CSDL trên.\nc. Sửa lại trường MAKHOA có độ dài 6 ký tự đối với bảng SINHVIEN.",
+      "solution_steps": [
+        "Bước 1 (Câu a - Xác định khóa chính và khóa ngoại):\n- `KHOA`: PK(`MAKHOA`).\n- `GIANGVIEN`: PK(`MAGV`), FK(`MAKHOA`) -> `KHOA(MAKHOA)`.\n- `SINHVIEN`: PK(`MASV`), FK(`MAKHOA`) -> `KHOA(MAKHOA)` (chỉ tạo FK này sau khi sửa độ dài khớp `KHOA.MAKHOA` = 6).\n- `DETAI`: PK(`MADT`).\n- `SVTHUCHIEN`: PK(`MADT, MASV`), FK(`MADT`) -> `DETAI`, FK(`MASV`) -> `SINHVIEN`.\n- `HUONGDAN`: PK(`MADT, MAGV`), FK(`MADT`) -> `DETAI`, FK(`MAGV`) -> `GIANGVIEN`.",
+        "Bước 2 (Câu b - Tạo `KHOA`, `GIANGVIEN`, `SINHVIEN`, `DETAI` kèm `CHECK`):\n```sql\nCREATE TABLE KHOA (MAKHOA CHAR(6) PRIMARY KEY, TENKHOA NVARCHAR(100) NOT NULL, SDT VARCHAR(11));\nCREATE TABLE GIANGVIEN (MAGV CHAR(10) PRIMARY KEY, HOTENGV NVARCHAR(50) NOT NULL,\n    MAKHOA CHAR(6) REFERENCES KHOA(MAKHOA));\nCREATE TABLE SINHVIEN (MASV CHAR(10) PRIMARY KEY, HOTENSV NVARCHAR(50) NOT NULL,\n    MAKHOA CHAR(10), NAMSINH INT CHECK (NAMSINH BETWEEN 1930 AND 10000));\nCREATE TABLE DETAI (MADT CHAR(10) PRIMARY KEY, TENDT NVARCHAR(1000) NOT NULL, NAM INT,\n    KINHPHI BIGINT CHECK (KINHPHI BETWEEN 0 AND 100000000000),\n    KETQUA DECIMAL(3,1) CHECK (KETQUA BETWEEN 0 AND 10));\n```",
+        "Bước 3 (Câu b tiếp - Tạo 2 bảng trung gian `SVTHUCHIEN` và `HUONGDAN`):\n```sql\nCREATE TABLE SVTHUCHIEN (MADT CHAR(10), MASV CHAR(10), CHUNHIEM BIT,\n    PRIMARY KEY (MADT, MASV),\n    FOREIGN KEY (MADT) REFERENCES DETAI(MADT),\n    FOREIGN KEY (MASV) REFERENCES SINHVIEN(MASV));\nCREATE TABLE HUONGDAN (MADT CHAR(10), MAGV CHAR(10), HDCHINH BIT,\n    DIEM DECIMAL(3,1) CHECK (DIEM BETWEEN 0 AND 10),\n    PRIMARY KEY (MADT, MAGV),\n    FOREIGN KEY (MADT) REFERENCES DETAI(MADT),\n    FOREIGN KEY (MAGV) REFERENCES GIANGVIEN(MAGV));\n```",
+        "Bước 4 (Câu c - Sửa độ dài `MAKHOA` trong `SINHVIEN` thành 6 ký tự và bổ sung FK):\n```sql\nALTER TABLE SINHVIEN ALTER COLUMN MAKHOA CHAR(6);\nALTER TABLE SINHVIEN ADD CONSTRAINT FK_SV_KHOA FOREIGN KEY (MAKHOA) REFERENCES KHOA(MAKHOA);\n```"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bài 16: Nhập dữ liệu (INSERT INTO) vào CSDL QUANLYDETAI",
+      "problem": "Sử dụng CSDL QUANLYDETAI ở Bài 15, viết các câu lệnh SQL (INSERT INTO) nhập đầy đủ thông tin khoa Tin học (mã khoa DHSPTI) cùng 3 đề tài nghiên cứu khoa học năm 2019, 2020, 2021 (mã 2019TI0001, 2019TI0002, 2019TI0003), các sinh viên thực hiện (người đầu tiên là chủ nhiệm) và các giảng viên hướng dẫn (người đầu tiên là hướng dẫn chính, kèm điểm đánh giá).",
+      "solution_steps": [
+        "Bước 1 (Nhập bảng cha `KHOA` trước để thỏa toàn vẹn tham chiếu):\n```sql\nINSERT INTO KHOA (MAKHOA, TENKHOA) VALUES ('DHSPTI', N'Tin học');\n```",
+        "Bước 2 (Nhập bảng `GIANGVIEN` và `SINHVIEN`):\n```sql\nINSERT INTO GIANGVIEN (MAGV, HOTENGV, MAKHOA) VALUES\n('GV01020001', N'Lê Bê', 'DHSPTI'), ('GV01020002', N'Trần A', 'DHSPTI'),\n('GV01020007', N'Ngô Xê', 'DHSPTI'), ('GV01020009', N'Phạm La', 'DHSPTI'),\n('GV01020010', N'Cáp Treo', 'DHSPTI'), ('GV01020011', N'Lê Long', 'DHSPTI'),\n('GV01020013', N'Tôn Tạo', 'DHSPTI');\n\nINSERT INTO SINHVIEN (MASV, HOTENSV, MAKHOA) VALUES\n('SPTI180001', N'Trần Bình', 'DHSPTI'), ('SPTI190002', N'Lê Nam', 'DHSPTI'),\n('SPTI190011', N'Nguyễn Có', 'DHSPTI'), ('SPTI190021', N'Lê Thị Tiên', 'DHSPTI'),\n('SPTI200001', N'Phạm Tuân', 'DHSPTI');\n```",
+        "Bước 3 (Nhập bảng `DETAI` — lưu ý 2021 chưa có điểm kết quả chung):\n```sql\nINSERT INTO DETAI (MADT, TENDT, NAM) VALUES\n('2019TI0001', N'Xây dựng CSDL quản lý khách', 2019),\n('2019TI0002', N'Xây dựng CSDL phân tán cho hệ thống thi trắc nghiệm', 2020),\n('2019TI0003', N'Ứng dụng hệ thống định vị toàn cầu GPS để chỉnh lý CSDL đất nông nghiệp', 2021);\n```",
+        "Bước 4 (Nhập `SVTHUCHIEN` và `HUONGDAN` với cờ `CHUNHIEM` / `HDCHINH` = 1 cho người đầu tiên, 0 cho người tiếp theo):\n```sql\nINSERT INTO SVTHUCHIEN (MADT, MASV, CHUNHIEM) VALUES\n('2019TI0001', 'SPTI180001', 1),\n('2019TI0002', 'SPTI190002', 1), ('2019TI0002', 'SPTI190011', 0),\n('2019TI0003', 'SPTI190021', 1), ('2019TI0003', 'SPTI200001', 0);\n\nINSERT INTO HUONGDAN (MADT, MAGV, HDCHINH, DIEM) VALUES\n('2019TI0001', 'GV01020001', 1, 8.5), ('2019TI0001', 'GV01020002', 0, 8.0),\n('2019TI0002', 'GV01020007', 1, 9.0), ('2019TI0002', 'GV01020009', 0, 8.0),\n('2019TI0003', 'GV01020010', 1, NULL), ('2019TI0003', 'GV01020011', 0, NULL), ('2019TI0003', 'GV01020013', 0, NULL);\n```"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bài 17: Truy vấn và cập nhật dữ liệu trên CSDL QUANLYDETAI",
+      "problem": "Sử dụng CSDL QUANLYDETAI, viết các câu lệnh SQL thực hiện:\na. Lấy danh sách các giảng viên khoa Tin học (mã khoa: DHSPTI).\nb. Lấy thông tin tên đề tài, tên sinh viên thực hiện của các đề tài năm 2021.\nc. Xóa các đề tài của các năm 1998 trở về trước.\nd. Lấy tên các đề tài có điểm cao nhất.\ne. Lấy tên các đề tài có nhiều hơn 2 sinh viên tham gia.\nf. Lấy tổng số đề tài năm 2020 mà GV có mã số GV01020010 làm hướng dẫn chính.\ng. Cập nhật lại điểm các đề tài năm 2021 bằng điểm trung bình của các GV hướng dẫn.",
+      "solution_steps": [
+        "Bước 1 (Câu a & b - Danh sách GV DHSPTI và đề tài năm 2021):\n```sql\n-- a\nSELECT MAGV, HOTENGV FROM GIANGVIEN WHERE MAKHOA = 'DHSPTI';\n-- b\nSELECT TENDT, HOTENSV\nFROM DETAI, SVTHUCHIEN, SINHVIEN\nWHERE DETAI.MADT = SVTHUCHIEN.MADT AND SVTHUCHIEN.MASV = SINHVIEN.MASV AND NAM = 2021;\n```",
+        "Bước 2 (Câu c - Xóa đề tài năm <= 1998 — phải xóa ở 2 bảng con `SVTHUCHIEN` và `HUONGDAN` trước do ràng buộc FK):\n```sql\nDELETE FROM SVTHUCHIEN WHERE MADT IN (SELECT MADT FROM DETAI WHERE NAM <= 1998);\nDELETE FROM HUONGDAN WHERE MADT IN (SELECT MADT FROM DETAI WHERE NAM <= 1998);\nDELETE FROM DETAI WHERE NAM <= 1998;\n```",
+        "Bước 3 (Câu d & e - Đề tài điểm cao nhất và đề tài > 2 SV tham gia):\n```sql\n-- d\nSELECT TENDT FROM DETAI WHERE KETQUA = (SELECT MAX(KETQUA) FROM DETAI);\n-- e\nSELECT DETAI.MADT, TENDT\nFROM DETAI, SVTHUCHIEN\nWHERE DETAI.MADT = SVTHUCHIEN.MADT\nGROUP BY DETAI.MADT, TENDT\nHAVING COUNT(MASV) > 2;\n```",
+        "Bước 4 (Câu f & g - Đếm đề tài năm 2020 của GV01020010 và cập nhật điểm đề tài năm 2021):\n```sql\n-- f\nSELECT COUNT(DETAI.MADT) AS TONG_DETAI\nFROM DETAI, HUONGDAN\nWHERE DETAI.MADT = HUONGDAN.MADT AND NAM = 2020\n  AND MAGV = 'GV01020010' AND HDCHINH = 1;\n-- g\nUPDATE DETAI\nSET KETQUA = (SELECT AVG(DIEM) FROM HUONGDAN WHERE HUONGDAN.MADT = DETAI.MADT)\nWHERE NAM = 2021;\n```"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Bài 18: Thiết kế DDL cho CSDL Quản lý Phim (QUANLYPHIM)",
+      "problem": "Tạo CSDL QUANLYPHIM với mô hình quan hệ gồm các bảng: DIENVIEN(ma_dienvien, hoten, namsinh, gioitinh), PHIM(ma_phim, tieude, nam, thoiluongphim, ngonngu, ngayphathanh, nuoc), VAIDIEN(ma_dienvien, ma_phim, vai), DAODIEN(ma_daodien, hoten), DAODIENPHIM(ma_daodien, ma_phim), THELOAI(ma_theloai, tentheloai), THELOAIPHIM(ma_phim, ma_theloai), NGUOIDANHGIA(ma_ndg, ten_ndg), DANHGIA(ma_phim, ma_ndg, sodiem). Viết lệnh SQL tạo đầy đủ các bảng.",
+      "solution_steps": [
+        "Bước 1 (Tạo các bảng thực thể độc lập `DIENVIEN`, `DAODIEN`, `THELOAI`, `NGUOIDANHGIA`):\n```sql\nCREATE TABLE DIENVIEN (ma_dienvien INT PRIMARY KEY, hoten NVARCHAR(50), namsinh INT, gioitinh CHAR(1));\nCREATE TABLE DAODIEN (ma_daodien INT PRIMARY KEY, hoten NVARCHAR(50));\nCREATE TABLE THELOAI (ma_theloai INT PRIMARY KEY, tentheloai NVARCHAR(30));\nCREATE TABLE NGUOIDANHGIA (ma_ndg INT PRIMARY KEY, ten_ndg NVARCHAR(50));\n```",
+        "Bước 2 (Tạo bảng trung tâm `PHIM`):\n```sql\nCREATE TABLE PHIM (\n    ma_phim INT PRIMARY KEY,\n    tieude NVARCHAR(100) NOT NULL,\n    nam INT,\n    thoiluongphim INT,\n    ngonngu NVARCHAR(30),\n    ngayphathanh DATE,\n    nuoc NVARCHAR(20)\n);\n```",
+        "Bước 3 (Tạo các bảng liên kết `VAIDIEN`, `DAODIENPHIM`, `THELOAIPHIM`):\n```sql\nCREATE TABLE VAIDIEN (ma_dienvien INT, ma_phim INT, vai NVARCHAR(50),\n    PRIMARY KEY (ma_dienvien, ma_phim),\n    FOREIGN KEY (ma_dienvien) REFERENCES DIENVIEN(ma_dienvien),\n    FOREIGN KEY (ma_phim) REFERENCES PHIM(ma_phim));\nCREATE TABLE DAODIENPHIM (ma_daodien INT, ma_phim INT,\n    PRIMARY KEY (ma_daodien, ma_phim),\n    FOREIGN KEY (ma_daodien) REFERENCES DAODIEN(ma_daodien),\n    FOREIGN KEY (ma_phim) REFERENCES PHIM(ma_phim));\nCREATE TABLE THELOAIPHIM (ma_phim INT, ma_theloai INT,\n    PRIMARY KEY (ma_phim, ma_theloai),\n    FOREIGN KEY (ma_phim) REFERENCES PHIM(ma_phim),\n    FOREIGN KEY (ma_theloai) REFERENCES THELOAI(ma_theloai));\n```",
+        "Bước 4 (Tạo bảng `DANHGIA` kèm khóa chính ghép và khóa ngoại):\n```sql\nCREATE TABLE DANHGIA (\n    ma_phim INT, ma_ndg INT, sodiem DECIMAL(4,2),\n    PRIMARY KEY (ma_phim, ma_ndg),\n    FOREIGN KEY (ma_phim) REFERENCES PHIM(ma_phim),\n    FOREIGN KEY (ma_ndg) REFERENCES NGUOIDANHGIA(ma_ndg)\n);\n```"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Bài 19 & Bài 20: Nhập liệu và Truy vấn dữ liệu trên CSDL QUANLYPHIM",
+      "problem": "Trên CSDL QUANLYPHIM:\n1. (Bài 19) Viết lệnh INSERT nhập dữ liệu mẫu vào các bảng PHIM, NGUOIDANHGIA, DANHGIA (bao gồm cả các phim có và chưa có đánh giá).\n2. (Bài 20) Viết lệnh SQL cho 5 truy vấn:\na. Lấy danh sách tiêu đề và năm của các phim.\nb. Tìm những bộ phim phát hành năm 1997.\nc. Liệt kê tên tất cả người đánh giá đã đánh giá các phim trên 6.5.\nd. Liệt kê tất cả phim mà có TẤT CẢ các đánh giá trên 7.5.\ne. Liệt kê tất cả các phim chưa có đánh giá.",
+      "solution_steps": [
+        "Bước 1 (Bài 19 - Minh họa `INSERT` vào `PHIM`, `NGUOIDANHGIA`, `DANHGIA`):\n```sql\nINSERT INTO PHIM VALUES (901, 'Vertigo', 1958, 128, 'English', '1958-08-24', 'UK'),\n    (910, 'Boogie Nights', 1997, 155, 'English', '1998-02-16', 'UK'),\n    (912, 'Princess Mononoke', 1997, 134, 'Japanese', '2001-10-19', 'UK');\nINSERT INTO NGUOIDANHGIA VALUES (9001, 'Righty Sock'), (9008, 'Neal Wruck');\nINSERT INTO DANHGIA VALUES (901, 9001, 8.40), (910, 9008, 6.50);\n```",
+        "Bước 2 (Bài 20 a, b, c):\n```sql\n-- a\nSELECT tieude, nam FROM PHIM;\n-- b\nSELECT * FROM PHIM WHERE nam = 1997;\n-- c\nSELECT DISTINCT ten_ndg FROM NGUOIDANHGIA, DANHGIA\nWHERE NGUOIDANHGIA.ma_ndg = DANHGIA.ma_ndg AND sodiem > 6.5;\n```",
+        "Bước 3 (Bài 20 d - Phim có TẤT CẢ các đánh giá > 7.5): Phải đảm bảo phim có ít nhất 1 đánh giá (`IN`) và không tồn tại bất kỳ đánh giá nào `<= 7.5` (`NOT IN`):\n```sql\nSELECT ma_phim, tieude\nFROM PHIM\nWHERE ma_phim IN (SELECT ma_phim FROM DANHGIA)\n  AND ma_phim NOT IN (SELECT ma_phim FROM DANHGIA WHERE sodiem <= 7.5);\n```",
+        "Bước 4 (Bài 20 e - Phim chưa có đánh giá):\n```sql\nSELECT ma_phim, tieude FROM PHIM WHERE ma_phim NOT IN (SELECT ma_phim FROM DANHGIA);\n```"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Bài 21, 22 & 23: Thiết kế, Nhập liệu và Truy vấn trên CSDL QUANLYDOIBONG",
+      "problem": "Cho CSDL QUANLYDOIBONG gồm: DOI(ma_doi, tendoi, tp, hlv, doitruong), VITRICAUTHU(ma_vitri, ten_vitri), CAUTHU(ma_cauthu, hoten, doi, vitri), TRANDAU(ma_trandau, ngay, doi1, doi2, tiso), HOSOCHANTHUONG(ma_trandau, ma_cauthu, chanthuong).\n1. Viết lệnh tạo bảng và nhập dữ liệu mẫu (Bài 21, 22).\n2. Viết lệnh SQL cho Bài 23:\na. Lấy danh sách các cầu thủ của đội Bình Dương.\nb. Tìm tên huấn luyện viên đội Sài Gòn.\nc. Liệt kê tên tất cả các hậu vệ của đội Hà Nội.\nd. Đếm số trận đấu giữa Hà Nội và Sài Gòn.\ne. Tìm tên cầu thủ có số lần chấn thương nhiều nhất.",
+      "solution_steps": [
+        "Bước 1 (Tạo các bảng và nhập dữ liệu mẫu — lưu ý khóa đội Bình Dương là `'BD'` đồng bộ giữa `DOI` và `CAUTHU`):\n```sql\nCREATE TABLE DOI (ma_doi CHAR(5) PRIMARY KEY, tendoi NVARCHAR(50), tp NVARCHAR(50), hlv NVARCHAR(50), doitruong NVARCHAR(50));\nCREATE TABLE VITRICAUTHU (ma_vitri CHAR(5) PRIMARY KEY, ten_vitri NVARCHAR(30));\nCREATE TABLE CAUTHU (ma_cauthu CHAR(5) PRIMARY KEY, hoten NVARCHAR(50), doi CHAR(5) REFERENCES DOI(ma_doi), vitri CHAR(5) REFERENCES VITRICAUTHU(ma_vitri));\nCREATE TABLE TRANDAU (ma_trandau CHAR(5) PRIMARY KEY, ngay DATE, doi1 CHAR(5) REFERENCES DOI(ma_doi), doi2 CHAR(5) REFERENCES DOI(ma_doi), tiso VARCHAR(10));\nCREATE TABLE HOSOCHANTHUONG (ma_trandau CHAR(5) REFERENCES TRANDAU(ma_trandau), ma_cauthu CHAR(5) REFERENCES CAUTHU(ma_cauthu), chanthuong NVARCHAR(100), PRIMARY KEY (ma_trandau, ma_cauthu));\n```",
+        "Bước 2 (Bài 23 a, b, c):\n```sql\n-- a. Cầu thủ đội Bình Dương\nSELECT CAUTHU.ma_cauthu, hoten FROM CAUTHU, DOI\nWHERE CAUTHU.doi = DOI.ma_doi AND tendoi = N'Bình Dương';\n-- b. HLV đội Sài Gòn\nSELECT hlv FROM DOI WHERE tendoi = N'Sài Gòn';\n-- c. Hậu vệ đội Hà Nội\nSELECT hoten FROM CAUTHU, DOI, VITRICAUTHU\nWHERE CAUTHU.doi = DOI.ma_doi AND CAUTHU.vitri = VITRICAUTHU.ma_vitri\n  AND tendoi = N'Hà Nội' AND ten_vitri = N'Hậu vệ';\n```",
+        "Bước 3 (Bài 23 d - Đếm số trận đấu giữa Hà Nội và Sài Gòn theo cả 2 chiều `doi1`-`doi2`):\n```sql\nSELECT COUNT(*) AS SO_TRAN\nFROM TRANDAU\nWHERE (doi1 = 'HN' AND doi2 = 'SG') OR (doi1 = 'SG' AND doi2 = 'HN');\n```",
+        "Bước 4 (Bài 23 e - Tên cầu thủ chấn thương nhiều nhất): Nhóm theo cầu thủ và so sánh `COUNT(*)` lớn hơn hoặc bằng `ALL`:\n```sql\nSELECT CAUTHU.ma_cauthu, hoten, COUNT(*) AS SO_LAN_CT\nFROM CAUTHU, HOSOCHANTHUONG\nWHERE CAUTHU.ma_cauthu = HOSOCHANTHUONG.ma_cauthu\nGROUP BY CAUTHU.ma_cauthu, hoten\nHAVING COUNT(*) >= ALL (SELECT COUNT(*) FROM HOSOCHANTHUONG GROUP BY ma_cauthu);\n```"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Bài 24: Truy vấn SQL trên CSDL Quản lý Viện dưỡng lão (VIENDUONGLAO)",
+      "problem": "Xét CSDL quản lý Viện dưỡng lão (từ Bài tập 17 chương 2), viết các câu lệnh SQL thực hiện các yêu cầu:\na. Cho danh sách các người già hiện đang có trong Viện Dưỡng lão có tuổi > 75.\nb. Cho biết tổng tiền mà Viện dưỡng lão thu được trong năm 2021.\nc. Cho danh sách các phật tử làm việc trong Viện Dưỡng lão có thời gian công tác > 10 năm.",
+      "solution_steps": [
+        "Bước 1 (Chuẩn hóa lược đồ quan hệ tương ứng cho CSDL `VIENDUONGLAO` để viết truy vấn chuẩn xác):\n- `NGUOIGIA(MANG, HOTEN, NGAYSINH, NGAYVAO, NGAYRA, ...)` (người đang ở viện có `NGAYRA IS NULL`).\n- `PHATTU(MAPT, HOTEN, NGAYVAOLAM, ...)`.\n- `PHIEUTHU(MAPT_THU, MANG, NGAYTHU, SOTIEN, ...)`.",
+        "Bước 2 (Câu a - Danh sách người già hiện đang ở viện có tuổi > 75): Tính tuổi bằng `YEAR(GETDATE()) - YEAR(NGAYSINH)` và lọc `NGAYRA IS NULL`:\n```sql\nSELECT MANG, HOTEN, NGAYSINH, (YEAR(GETDATE()) - YEAR(NGAYSINH)) AS TUOI\nFROM NGUOIGIA\nWHERE NGAYRA IS NULL\n  AND (YEAR(GETDATE()) - YEAR(NGAYSINH)) > 75;\n```",
+        "Bước 3 (Câu b - Tổng tiền Viện dưỡng lão thu được trong năm 2021):\n```sql\nSELECT SUM(SOTIEN) AS TONG_TIEN_2021\nFROM PHIEUTHU\nWHERE YEAR(NGAYTHU) = 2021;\n```",
+        "Bước 4 (Câu c - Danh sách các phật tử làm việc trong viện có thời gian > 10 năm):\n```sql\nSELECT MAPT, HOTEN, NGAYVAOLAM, (YEAR(GETDATE()) - YEAR(NGAYVAOLAM)) AS SO_NAM_LV\nFROM PHATTU\nWHERE (YEAR(GETDATE()) - YEAR(NGAYVAOLAM)) > 10;\n```"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1164 @@
+{
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Mô hình dữ liệu quan hệ (Relational Data Model) do ai đề xuất và vào năm nào?",
+      "options": {
+        "A": "E.F. Codd, năm 1970",
+        "B": "P. Chen, năm 1976",
+        "C": "R. Boyce, năm 1974",
+        "D": "C.J. Date, năm 1980"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mở đầu Chương 3 giáo trình, mô hình dữ liệu quan hệ do E.F. Codd đề xuất năm 1970.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Nền tảng toán học cơ bản của mô hình dữ liệu quan hệ dựa trên khái niệm nào?",
+      "options": {
+        "A": "Lý thuyết đồ thị có hướng",
+        "B": "Lý thuyết tập hợp trên các quan hệ",
+        "C": "Đại số tuyến tính và ma trận",
+        "D": "Logic vị từ bậc hai"
+      },
+      "correct_answer": "B",
+      "explanation": "Nền tảng cơ bản của mô hình dữ liệu quan hệ dựa trên khái niệm lý thuyết tập hợp trên các quan hệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Những hệ quản trị CSDL nào sau đây được xây dựng dựa trên cơ sở mô hình dữ liệu quan hệ?",
+      "options": {
+        "A": "MongoDB, Redis",
+        "B": "Neo4j, Cassandra",
+        "C": "Oracle, SQL Server",
+        "D": "Memcached, ElasticSearch"
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình nêu rõ mô hình dữ liệu quan hệ là cơ sở của các hệ QTCSDL như Oracle, SQL Server,...",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Trong mô hình CSDL quan hệ, dữ liệu được biểu diễn dưới dạng bảng gồm các hàng và các cột; mỗi hàng trong bảng biểu thị điều gì?",
+      "options": {
+        "A": "Một kiểu dữ liệu cơ sở",
+        "B": "Một miền giá trị của thuộc tính",
+        "C": "Một ràng buộc khóa ngoại",
+        "D": "Một sự kiện tương ứng với một thực thể hay một mối quan hệ trong thế giới thực"
+      },
+      "correct_answer": "D",
+      "explanation": "Mỗi hàng trong bảng là một tập các giá trị liên quan đến nhau, biểu thị một sự kiện tương ứng với một thực thể hay một mối quan hệ trong thế giới thực.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Tập hợp các giá trị mà một thuộc tính A có thể nhận được gọi là gì và ký hiệu ra sao?",
+      "options": {
+        "A": "Miền giá trị của thuộc tính A, ký hiệu Dom(A)",
+        "B": "Lược đồ thuộc tính A, ký hiệu Sch(A)",
+        "C": "Kiểu dữ liệu của A, ký hiệu Type(A)",
+        "D": "Tập khóa của A, ký hiệu Key(A)"
+      },
+      "correct_answer": "A",
+      "explanation": "Tập hợp các giá trị mà một thuộc tính A có thể nhận gọi là miền giá trị của thuộc tính A, ký hiệu là Dom(A).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Mỗi thuộc tính trong mô hình dữ liệu quan hệ được đặc trưng bởi những yếu tố nào?",
+      "options": {
+        "A": "Tên bảng, khóa chính và khóa ngoại",
+        "B": "Tên thuộc tính, kiểu dữ liệu và miền giá trị",
+        "C": "Số lượng bộ, tên quan hệ và phép chiếu",
+        "D": "Kiểu chuẩn, khóa phụ và siêu khóa"
+      },
+      "correct_answer": "B",
+      "explanation": "Các thuộc tính được đặc trưng bởi: tên thuộc tính, kiểu dữ liệu (chuẩn hoặc có cấu trúc) và miền giá trị của chúng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Một lược đồ quan hệ R(U) được đặc trưng bởi hai thành phần nào?",
+      "options": {
+        "A": "Một tên khóa chính và một khóa ngoại",
+        "B": "Một tập các bộ giá trị và một điều kiện chọn",
+        "C": "Một tên phân biệt R và một tập hữu hạn các thuộc tính U",
+        "D": "Một danh sách các bảng và một sơ đồ E-R"
+      },
+      "correct_answer": "C",
+      "explanation": "Cho tập thuộc tính U = {A1, ..., An}, một lược đồ quan hệ được đặc trưng bởi tên phân biệt R và tập hữu hạn các thuộc tính U, ký hiệu R(A1,...,An) hay R(U).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Trong mô hình quan hệ, thuật ngữ 'bộ giá trị' (Tuple) còn được gọi là gì?",
+      "options": {
+        "A": "Thuộc tính hoặc miền trị",
+        "B": "Lược đồ hoặc bảng",
+        "C": "Khóa chính hoặc siêu khóa",
+        "D": "Mẫu tin hay bản ghi"
+      },
+      "correct_answer": "D",
+      "explanation": "Bộ giá trị (Tuple) còn được gọi là mẫu tin hay bản ghi, là các thông tin của một đối tượng thuộc một lược đồ quan hệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Để lấy giá trị tại thuộc tính Ai của một bộ t, ta viết ký hiệu nào và gọi là phép gì?",
+      "options": {
+        "A": "t.Ai hay t[Ai] — phép chiếu một bộ t lên thuộc tính Ai",
+        "B": "Ai(t) — phép chọn bộ t theo thuộc tính Ai",
+        "C": "Dom(t, Ai) — phép lấy miền giá trị",
+        "D": "t × Ai — phép tích Descartes"
+      },
+      "correct_answer": "A",
+      "explanation": "Để lấy giá trị thuộc tính Ai của bộ t, ta viết t.Ai hay t[Ai] và gọi đây là phép chiếu một bộ t lên thuộc tính Ai.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Phát biểu nào sau đây đúng về các bộ giá trị trong cùng một quan hệ r(R)?",
+      "options": {
+        "A": "Thứ tự các dòng quyết định ý nghĩa của quan hệ",
+        "B": "Trên cùng một quan hệ không có hai bộ trùng nhau",
+        "C": "Mỗi quan hệ chỉ được phép có tối đa một bộ giá trị",
+        "D": "Một bộ giá trị có thể xuất hiện nhiều lần liên tiếp"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo chú ý ở mục 3.2.4, trên cùng một quan hệ không có hai bộ trùng nhau (một quan hệ là bảng không có dòng nào giống nhau).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Sự khác biệt cơ bản giữa 'Lược đồ quan hệ' và 'Quan hệ' là gì?",
+      "options": {
+        "A": "Lược đồ quan hệ có các dòng dữ liệu, còn quan hệ không có dữ liệu",
+        "B": "Hai khái niệm này hoàn toàn đồng nhất với nhau",
+        "C": "Lược đồ quan hệ là cấu trúc của bảng, còn quan hệ là một thể hiện (bảng dữ liệu cụ thể) tại một thời điểm",
+        "D": "Lược đồ quan hệ chỉ dùng trong mô hình E-R"
+      },
+      "correct_answer": "C",
+      "explanation": "Lược đồ quan hệ R(U) là cấu trúc của bảng, còn quan hệ r(R) là một thể hiện của lược đồ R tại một thời điểm nào đó.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "Tập hợp các quan hệ (hiện hành) của các lược đồ quan hệ trong một mô hình quan hệ được gọi là gì?",
+      "options": {
+        "A": "Mô hình thực thể - mối quan hệ",
+        "B": "Siêu khóa của hệ thống",
+        "C": "Đại số quan hệ",
+        "D": "Cơ sở dữ liệu quan hệ"
+      },
+      "correct_answer": "D",
+      "explanation": "Tập hợp các lược đồ quan hệ gọi là mô hình cơ sở dữ liệu quan hệ; tập hợp các quan hệ hiện hành của các lược đồ đó gọi là cơ sở dữ liệu quan hệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "Khi biểu diễn một lược đồ quan hệ bằng văn bản, các thuộc tính tham gia vào khóa được đánh dấu bằng cách nào?",
+      "options": {
+        "A": "Gạch dưới các thuộc tính khóa",
+        "B": "Đặt trong dấu ngoặc nhọn {}",
+        "C": "Viết bằng chữ thường",
+        "D": "Đặt dấu sao (*) phía sau"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 3.2.5 quy ước: trong một lược đồ quan hệ, các thuộc tính tham gia vào khóa (thuộc tính khóa) sẽ được gạch dưới.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Quy ước nào sau đây bắt buộc đối với khóa và các thuộc tính khóa của một quan hệ?",
+      "options": {
+        "A": "Thuộc tính khóa bắt buộc phải là kiểu số nguyên",
+        "B": "Khóa và các thuộc tính khóa không được chứa giá trị rỗng (NULL)",
+        "C": "Mỗi lược đồ chỉ được có đúng một thuộc tính khóa",
+        "D": "Giá trị khóa có thể lặp lại giữa các bộ khác nhau"
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nhấn mạnh: Khóa không được có giá trị rỗng và các thuộc tính khóa không chứa giá trị rỗng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Khi cài đặt trên HQTCSDL (như Oracle, Access,...), một lược đồ quan hệ có thể có nhiều khóa, khóa được người thiết kế chọn để xử lý dữ liệu và kiểm tra tính duy nhất gọi là gì?",
+      "options": {
+        "A": "Siêu khóa",
+        "B": "Khóa ngoại",
+        "C": "Khóa chính (Primary Key)",
+        "D": "Thuộc tính không khóa"
+      },
+      "correct_answer": "C",
+      "explanation": "Khóa được chọn để xử lý dữ liệu khi cài đặt trên HQTCSDL gọi là khóa chính (Primary Key), hệ thống tự động kiểm tra tính duy nhất trên khóa này.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "Khi chuyển đổi từ mô hình E-R sang mô hình dữ liệu quan hệ, một tập thực thể thông thường sẽ được chuyển thành gì?",
+      "options": {
+        "A": "Một thuộc tính đơn trong bảng chung",
+        "B": "Một phép chiếu đại số quan hệ",
+        "C": "Một khóa ngoại tham chiếu",
+        "D": "Một lược đồ quan hệ có tên là tên tập thực thể và chứa tất cả thuộc tính của nó"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 3.3.1: Một tập thực thể trong E-R được chuyển thành một lược đồ quan hệ có tên là tên của tập thực thể và chứa tất cả các thuộc tính của tập thực thể.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "question": "Khi chuyển sơ đồ E-R sang mô hình dữ liệu quan hệ, mối quan hệ ISA (kế thừa) được xử lý như thế nào?",
+      "options": {
+        "A": "Có thể lược bỏ mối quan hệ ISA, không chuyển thành lược đồ quan hệ",
+        "B": "Bắt buộc chuyển thành bảng riêng với 2 khóa ngoại",
+        "C": "Gộp mọi tập thực thể trong toàn sơ đồ thành 1 bảng",
+        "D": "Chuyển thành phép bù của quan hệ cha"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 3.3.2 chú ý: Mối quan hệ ISA có thể lược bỏ, không chuyển thành lược đồ quan hệ (lược đồ con chỉ nhận khóa của thực thể cha).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Phép toán đại số quan hệ tác động lên các quan hệ và cho kết quả là đối tượng nào?",
+      "options": {
+        "A": "Một thuộc tính đơn",
+        "B": "Cũng là một quan hệ",
+        "C": "Một sơ đồ E-R mới",
+        "D": "Một giá trị logic Đúng/Sai"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 3.4: Đại số quan hệ cung cấp các phép toán tác động trên các quan hệ và cho kết quả cũng là một quan hệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Phép toán tập hợp nào sau đây yêu cầu hai quan hệ r và s phải được xây dựng trên cùng một lược đồ quan hệ R(U)?",
+      "options": {
+        "A": "Phép tích Descartes (r × s)",
+        "B": "Phép chia (r ÷ s)",
+        "C": "Các phép hợp (r ∪ s), giao (r ∩ s) và hiệu (r - s)",
+        "D": "Phép kết nối tự nhiên (r * s)"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo mục 3.4.1, phép hợp, phép giao và phép hiệu đều yêu cầu r và s là hai quan hệ xây dựng trên cùng một lược đồ quan hệ R(U).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Nếu quan hệ r có n bộ và quan hệ s có m bộ, thì tích Descartes r × s có bao nhiêu bộ?",
+      "options": {
+        "A": "n + m bộ",
+        "B": "max(n, m) bộ",
+        "C": "n - m bộ",
+        "D": "n × m bộ"
+      },
+      "correct_answer": "D",
+      "explanation": "Nhận xét mục 3.4.1.d: Nếu r có n bộ, s có m bộ thì r × s có n * m bộ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "Phép toán nào trong đại số quan hệ được định nghĩa là phép trích rút dữ liệu theo cột?",
+      "options": {
+        "A": "Phép chiếu (Π)",
+        "B": "Phép chọn (σ)",
+        "C": "Phép hiệu (-)",
+        "D": "Phép chia (÷)"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 3.4.2.a: Phép chiếu Π_X(r) giữ lại các thuộc tính trên tập X (loại bỏ bộ trùng), chính là phép trích rút dữ liệu theo cột.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Phép toán nào trong đại số quan hệ được định nghĩa là phép trích rút dữ liệu theo dòng?",
+      "options": {
+        "A": "Phép chiếu (Π)",
+        "B": "Phép chọn (σ)",
+        "C": "Phép hợp (∪)",
+        "D": "Phép bù (r')"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 3.4.2.b: Phép chọn σ_F(r) lọc ra các bộ thỏa điều kiện F, chính là phép trích rút dữ liệu theo dòng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "Khi phép so sánh θ trong phép kết nối r ⋈_(A θ B) s là phép bằng ('='), phép toán này được gọi là gì?",
+      "options": {
+        "A": "Phép nửa nối",
+        "B": "Phép kết nối ngoài",
+        "C": "Phép kết nối bằng",
+        "D": "Phép chia quan hệ"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 3.4.2.c chú ý: Trường hợp phép so sánh θ là '=' thì gọi là phép kết nối bằng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "question": "Tại sao phép bù của một quan hệ (r') rất ít được các hệ quản trị CSDL cài đặt trong thực tế?",
+      "options": {
+        "A": "Vì không có định nghĩa toán học rõ ràng",
+        "B": "Vì kết quả phép bù không phải là một quan hệ",
+        "C": "Vì chỉ áp dụng được cho thuộc tính kiểu số",
+        "D": "Vì số bộ giá trị của quan hệ bù thường rất lớn"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 3.4.1.f: Phép bù của một quan hệ có số bộ giá trị rất lớn, vì vậy trong thực tế rất ít hệ quản trị CSDL cài đặt phép toán này.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "Trong CSDL cung ứng hàng hóa gồm 3 lược đồ S(S#, Sname, Status, City), P(P#, Pname, Color, Weight) và SP(S#, P#, QTY), lược đồ SP lưu thông tin gì?",
+      "options": {
+        "A": "Các mặt hàng đã cung ứng bởi các hãng với số lượng QTY",
+        "B": "Danh mục các hãng vận chuyển quốc tế",
+        "C": "Lịch sử thanh toán hóa đơn của khách hàng",
+        "D": "Số lượng hàng tồn kho tối thiểu tại đại lý"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 3.3.3 và 3.5, SP(S#, P#, QTY) biểu diễn các mặt hàng đã cung ứng với số lượng là QTY (quantity).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "Cho thuộc tính A có kiểu bản ghi DATE gồm (day: 1..31, month: 1..12, year: 0..2500). Vì sao Dom(A) ⊆ [1..31] × [1..12] × [0..2500] chứ không bằng toàn bộ tích Descartes?",
+      "options": {
+        "A": "Vì ngôn ngữ Pascal không hỗ trợ tích Descartes",
+        "B": "Vì có những bộ giá trị ngày không hợp lệ mà A không chấp nhận (ví dụ 30/2/99)",
+        "C": "Vì thuộc tính kiểu ngày chỉ lưu được 100 năm",
+        "D": "Vì năm phải nhỏ hơn tháng trong thực tế"
+      },
+      "correct_answer": "B",
+      "explanation": "Ví dụ 2 mục 3.2.1 giải thích: có thể có những bộ giá trị ngày mà thuộc tính A không chấp nhận như 30/2/99, nên Dom(A) chỉ là tập con của tích Descartes trên.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "Theo định nghĩa toán học trong mục 3.2.5, tập thuộc tính K ⊆ {A1, ..., An} là khóa của lược đồ quan hệ R khi thỏa mãn hai tính chất nào?",
+      "options": {
+        "A": "K phải có ít nhất 2 thuộc tính và chứa giá trị rỗng",
+        "B": "K phải là khóa ngoại và là tập lớn nhất",
+        "C": "Với mọi t1 ≠ t2 thì t1[K] ≠ t2[K], và không tồn tại tập con thực sự K' ⊂ K nào có tính chất đó (tối tiểu)",
+        "D": "Mọi bộ trong r đều có cùng giá trị trên K"
+      },
+      "correct_answer": "C",
+      "explanation": "Khóa K phải thỏa 2 tính chất: (a) phân biệt duy nhất mọi cặp bộ khác nhau t1 ≠ t2 ⇒ t1[K] ≠ t2[K]; (b) tối tiểu: mọi tập con thực sự K' ⊂ K không thỏa tính chất (a).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Siêu khóa (Super Key) K' của một lược đồ quan hệ R có quan hệ như thế nào với khóa K?",
+      "options": {
+        "A": "K' là tập con thực sự của K",
+        "B": "K' rời nhau hoàn toàn với K",
+        "C": "K' chỉ gồm các thuộc tính không khóa",
+        "D": "K' ⊇ K, tức K' chứa khóa K và thỏa tính chất phân biệt duy nhất nhưng chưa tối tiểu"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 3.2.5: Nếu K là khóa của R và K' ⊇ K thì K' gọi là siêu khóa. Siêu khóa là khóa chưa tối tiểu (có thể bớt đi một số thuộc tính trong nó).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "Cho lược đồ LOPHOC(MaLop, TenLop, NienKhoa, SoHV, MaKhoa) có khóa là {MaLop}. Tập nào sau đây là một siêu khóa của LOPHOC?",
+      "options": {
+        "A": "{MaLop, TenLop, SoHV}",
+        "B": "{TenLop, NienKhoa}",
+        "C": "{MaKhoa, SoHV}",
+        "D": "{TenLop, MaKhoa}"
+      },
+      "correct_answer": "A",
+      "explanation": "Mọi tập thuộc tính chứa khóa {MaLop} đều là siêu khóa; trong các phương án trên chỉ có {MaLop, TenLop, SoHV} chứa MaLop.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "Cho R1(U1) có khóa chính PK ⊆ U1 và R2(U2). Tập thuộc tính FK ⊆ U2 là khóa ngoại của R2 tham chiếu đến PK của R1 khi thỏa mãn 2 điều kiện nào?",
+      "options": {
+        "A": "FK phải là khóa chính của R2 và không được chứa giá trị NULL",
+        "B": "Miền trị của FK trùng miền trị của PK; giá trị của FK hoặc là NULL hoặc phải bằng một giá trị hiện có nào đó của PK",
+        "C": "Tên thuộc tính của FK bắt buộc phải giống hệt tên PK",
+        "D": "Số lượng bộ trong R2 phải nhỏ hơn hoặc bằng số bộ trong R1"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo mục 3.2.5, FK tham chiếu PK của R1 cần thỏa: (i) Miền trị của FK trùng với miền trị của PK; (ii) Giá trị của FK hoặc là NULL hoặc bằng một giá trị hiện có của PK.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "Cho hai lược đồ KHOA(MaKhoa, TenKhoa) và LOPHOC(MaLop, TenLop, NienKhoa, SoHV, MaKhoa). Thuộc tính MaKhoa trong lược đồ LOPHOC đóng vai trò gì?",
+      "options": {
+        "A": "Khóa chính của LOPHOC",
+        "B": "Siêu khóa tối tiểu của KHOA",
+        "C": "Khóa ngoại của LOPHOC tham chiếu đến khóa chính MaKhoa của KHOA",
+        "D": "Thuộc tính đa trị của LOPHOC"
+      },
+      "correct_answer": "C",
+      "explanation": "Ví dụ 6 mục 3.2.5 nêu rõ: MaKhoa là khóa ngoại của lược đồ LOPHOC tham chiếu đến khóa chính MaKhoa của lược đồ KHOA.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "question": "Khi chuyển đổi mô hình E-R sang mô hình quan hệ, nếu tập thực thể A có mối quan hệ ISA với tập thực thể B thì lược đồ quan hệ A phải chứa thêm gì?",
+      "options": {
+        "A": "Toàn bộ các thuộc tính không khóa của B",
+        "B": "Một thuộc tính đếm số lượng tự tăng",
+        "C": "Tên của tất cả các mối quan hệ khác nối với B",
+        "D": "Các thuộc tính có trong khóa của B"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 3.3.1: Nếu tập thực thể A có mối quan hệ ISA với tập thực thể B thì lược đồ quan hệ A sẽ chứa các thuộc tính có trong khóa của B (VD: NGUOIQL chứa TENNV của NHANVIEN).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Theo quy tắc thành lập khóa (mục 3.3.3), nếu một lược đồ quan hệ được xây dựng từ một mối quan hệ nhiều - nhiều (n-n) thì khóa của nó thường là gì?",
+      "options": {
+        "A": "Tập tất cả các thuộc tính khóa nhận từ các tập thực thể tham gia",
+        "B": "Chỉ lấy khóa của tập thực thể đầu tiên",
+        "C": "Chỉ lấy thuộc tính riêng của mối quan hệ",
+        "D": "Không có khóa nào cả"
+      },
+      "correct_answer": "A",
+      "explanation": "Quy tắc 2 mục 3.3.3: Nếu lược đồ xây dựng từ mối quan hệ nhiều - nhiều thì khóa của lược đồ quan hệ thường là tập tất cả các thuộc tính (khóa của các thực thể tham gia).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "question": "Theo quy tắc thành lập khóa, một lược đồ quan hệ được xây dựng từ mối quan hệ một - một (1-1) giữa hai tập thực thể A và B có khóa là gì?",
+      "options": {
+        "A": "Bắt buộc phải hợp cả khóa của A và khóa của B thành một khóa ghép",
+        "B": "Khóa của A hay khóa của B đều là khóa cho lược đồ quan hệ (có thể có nhiều hơn một khóa)",
+        "C": "Chỉ có thuộc tính riêng của mối quan hệ làm khóa",
+        "D": "Không thể xác định khóa nếu không có thuộc tính riêng"
+      },
+      "correct_answer": "B",
+      "explanation": "Quy tắc 3 mục 3.3.3: Với mối quan hệ 1-1 giữa A và B thì khóa của A hay khóa của B đều là khóa cho lược đồ quan hệ (ví dụ QUANLY(TENNQL, MAGH) có 2 khóa).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "Nếu một lược đồ quan hệ được xây dựng từ một mối quan hệ nhiều - một (n-1) từ E1,...,Ek-1 đến Ek thì khóa của lược đồ quan hệ sẽ là gì?",
+      "options": {
+        "A": "Khóa của tập thực thể Ek (phía một)",
+        "B": "Hợp các thuộc tính khóa của cả E1,...,Ek",
+        "C": "Hợp các thuộc tính khóa của phía nhiều (E1,...,Ek-1)",
+        "D": "Giao các thuộc tính khóa của E1 và Ek"
+      },
+      "correct_answer": "C",
+      "explanation": "Quy tắc 4 mục 3.3.3: Nếu lược đồ xây dựng từ mối quan hệ nhiều - một từ E1,...,Ek-1 đến Ek thì khóa của lược đồ là hợp các thuộc tính khóa của phía nhiều E1,...,Ek-1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "question": "Trong ví dụ chuyển đổi E-R CSDL Siêu thị, mối quan hệ 1-1 QUANLY(TENNQL, MAGH) giữa NGUOIQL và GIANH có đặc điểm khóa như thế nào?",
+      "options": {
+        "A": "Chỉ có một khóa duy nhất là TENNQL",
+        "B": "Chỉ có một khóa duy nhất là MAGH",
+        "C": "Không thuộc tính nào làm khóa",
+        "D": "Cả TENNQL và MAGH đều là khóa (lược đồ có 2 khóa khác nhau)"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 3.3.3 Ví dụ 2 ghi chú rõ cho QUANLY(TENNQL, MAGH): cả 2 thuộc tính đều là khóa → có 2 khóa khác nhau.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Việc gộp các lược đồ quan hệ có khóa chung mang lại hai ưu điểm chính nào?",
+      "options": {
+        "A": "Tiết kiệm không gian lưu trữ (không lặp giá trị khóa) và trả lời nhanh hơn các truy vấn liên quan đến thuộc tính hai quan hệ",
+        "B": "Tăng số lượng bảng để dễ phân quyền và loại bỏ hoàn toàn khóa ngoại",
+        "C": "Cho phép các bộ trùng nhau xuất hiện và tự động tạo khóa giả",
+        "D": "Chuyển đổi tự động mô hình quan hệ ngược lại sơ đồ E-R"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 3.3.4 nêu hai ưu điểm: (1) tiết kiệm không gian lưu trữ thay vì lặp giá trị khóa ở 2 quan hệ; (2) các truy vấn liên quan thuộc tính hai quan hệ được trả lời nhanh chóng hơn.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Trong ví dụ CSDL Siêu thị (mục 3.3.4), sau khi gộp các lược đồ có khóa chung, 13 lược đồ quan hệ ban đầu được cải thiện thành bao nhiêu lược đồ?",
+      "options": {
+        "A": "6 lược đồ",
+        "B": "8 lược đồ",
+        "C": "10 lược đồ",
+        "D": "12 lược đồ"
+      },
+      "correct_answer": "B",
+      "explanation": "CSDL Siêu thị từ 13 lược đồ ban đầu sau khi gộp (GIAN_H, NHANVIEN, MAT_HANG, DON_DH) rút gọn thành 8 lược đồ tối ưu.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "Trong ví dụ hệ thống quản lý Xuất nhập kho (mục 3.3.4), từ 6 tập thực thể và 5 mối quan hệ (11 lược đồ), sau khi gộp các lược đồ có khóa chung ta thu được bao nhiêu lược đồ?",
+      "options": {
+        "A": "5 lược đồ",
+        "B": "7 lược đồ",
+        "C": "8 lược đồ",
+        "D": "9 lược đồ"
+      },
+      "correct_answer": "C",
+      "explanation": "Gộp PHIEUNHAP với NHAPTU, MATHANG với CHUA, PHIEUXUAT với XUATCHO, ta thu được 8 lược đồ quan hệ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 40,
+      "question": "Trong ví dụ Xuất nhập kho (mỗi mặt hàng chỉ để ở một kho và mỗi kho chỉ chứa một mặt hàng), sau khi gộp MATHANG và CHUA, lược đồ MATHANG có thêm thuộc tính khóa ngoại nào?",
+      "options": {
+        "A": "MANCC",
+        "B": "MAKH",
+        "C": "SOPN",
+        "D": "MAKHO"
+      },
+      "correct_answer": "D",
+      "explanation": "Gộp MATHANG(MAHANG, TENHANG, DONGIA) với CHUA(MAKHO, MAHANG) theo khóa chung MAHANG cho lược đồ MATHANG(MAHANG, TENHANG, DONGIA, MAKHO).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "Cho hai quan hệ cùng lược đồ DONVIA (4 bộ) và DONVIB (4 bộ), trong đó có đúng 1 bộ giống hệt nhau (mã số 101 - Hoàng Thị Xuân). Quan hệ hợp DONVIA ∪ DONVIB có bao nhiêu bộ?",
+      "options": {
+        "A": "7 bộ",
+        "B": "8 bộ",
+        "C": "6 bộ",
+        "D": "1 bộ"
+      },
+      "correct_answer": "A",
+      "explanation": "Phép hợp loại bỏ bộ trùng lặp (4 + 4 - 1 = 7 bộ), như kết quả bảng NVCTY gồm 7 bộ trong mục 3.4.1.a.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "Với DONVIA (4 bộ: 100, 101, 103, 105) và DONVIB (4 bộ: 210, 101, 221, 233), phép hiệu DONVIA - DONVIB cho kết quả gồm bao nhiêu bộ?",
+      "options": {
+        "A": "1 bộ (101)",
+        "B": "3 bộ (100, 103, 105)",
+        "C": "4 bộ (100, 101, 103, 105)",
+        "D": "6 bộ"
+      },
+      "correct_answer": "B",
+      "explanation": "DONVIA - DONVIB giữ lại các bộ thuộc DONVIA nhưng không thuộc DONVIB, tức loại bỏ bộ 101, còn lại 3 bộ (100, 103, 105).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "Khi thực hiện phép chiếu Π_X(r) của một quan hệ r lên tập thuộc tính X, thao tác này gồm hai bước nào?",
+      "options": {
+        "A": "Sắp xếp các dòng giảm dần và xóa dòng đầu tiên",
+        "B": "Tính tích Descartes và lọc theo điều kiện F",
+        "C": "Giữ lại các thuộc tính trên tập X và chọn bộ đại diện trong các bộ giống nhau (khử trùng)",
+        "D": "Ghép hai quan hệ và giữ lại thuộc tính cùng tên"
+      },
+      "correct_answer": "C",
+      "explanation": "Nhận xét mục 3.4.2.a: Phép chiếu gồm hai thao tác: (1) Giữ lại các thuộc tính trên tập X; (2) Chọn các bộ đại diện trong các bộ giống nhau.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "Phép kết nối θ giữa hai quan hệ r và s với điều kiện F = (A θ B) tương đương với biểu thức nào sau đây?",
+      "options": {
+        "A": "Π_F(r ∪ s)",
+        "B": "σ_F(r) ∪ σ_F(s)",
+        "C": "Π_A,B(r ÷ s)",
+        "D": "σ_F(r × s)"
+      },
+      "correct_answer": "D",
+      "explanation": "Nhận xét mục 3.4.2.c: Phép kết nối r ⋈_F s được thực hiện qua 2 bước (tính tích Descartes rồi chọn theo F), nên r ⋈_F s = σ_F(r × s).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "So với phép kết nối bằng thông thường trên các thuộc tính cùng tên, phép kết nối tự nhiên r * s có thêm bước xử lý nào ở kết quả?",
+      "options": {
+        "A": "Loại bỏ một trong hai thuộc tính cùng tên ở kết quả",
+        "B": "Loại bỏ toàn bộ các thuộc tính khác tên",
+        "C": "Đổi tên tất cả thuộc tính thành chữ thường",
+        "D": "Giữ lại cả hai cột trùng tên và thêm cột tổng"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 3.4.2.d: Kết nối tự nhiên là kết nối bằng trên các thuộc tính cùng tên của hai quan hệ và loại bỏ một trong hai thuộc tính đó ở kết quả.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "question": "Cho r(U1) và s(U2) với U1 = {A, B, C} và U2 = {B, C, D}. Kết quả của phép nửa nối r ⋉ s được xác định trên tập thuộc tính nào?",
+      "options": {
+        "A": "{A, B, C, D}",
+        "B": "{A, B, C} (tập thuộc tính U1)",
+        "C": "{B, C, D} (tập thuộc tính U2)",
+        "D": "{B, C} (giao U1 ∩ U2)"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 3.4.2.e: Phép nửa nối r ⋉ s gồm các bộ của r * s nhưng chỉ giữ lại các thuộc tính thuộc U1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Tính chất nào sau đây đúng với phép nửa nối trái r ⋉ s (với r trên U1, s trên U2)?",
+      "options": {
+        "A": "r ⋉ s = r ∪ s",
+        "B": "r ⋉ s ⊇ r",
+        "C": "r ⋉ s = Π_U1(r * s) và r ⋉ s ⊆ r",
+        "D": "r ⋉ s = s ⋉ r với mọi r, s"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo 3 tính chất mục 3.4.2.e: (1) r ⋉ s = Π_U1(r * s); (2) r ⋉ s ⊆ r; (3) r ⋉ s = r * Π_(U1∩U2)(s).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Trên CSDL cung ứng hàng hóa S, P, SP (mục 3.5), biểu thức Π_S#(σ_(P#='P2')(SP)) cho biết thông tin gì?",
+      "options": {
+        "A": "Tên các mặt hàng có mã P2",
+        "B": "Thành phố của tất cả các hãng cung ứng",
+        "C": "Số lượng tồn kho của mặt hàng P2",
+        "D": "Mã số của những hãng đã cung ứng mặt hàng có mã P2"
+      },
+      "correct_answer": "D",
+      "explanation": "Ví dụ mục 3.5: σ_(P#='P2')(SP) lọc các dòng cung ứng mã P2, sau đó Π_S# lấy mã số của những hãng đã cung ứng mặt hàng P2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 49,
+      "question": "Trên CSDL S, P, SP, biểu thức đại số quan hệ nào tìm tên các mặt hàng do hãng có tên 'Honda' cung ứng?",
+      "options": {
+        "A": "Π_Pname(σ_(Sname='Honda')(S) * SP * P)",
+        "B": "Π_Sname(σ_(Pname='Honda')(P) * S)",
+        "C": "σ_(Sname='Honda')(S) ÷ P",
+        "D": "Π_P#(S) - Π_P#(SP)"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo mục 3.5: Chọn hãng Honda trên S, kết nối tự nhiên với SP và P rồi chiếu lên Pname: Π_Pname(σ_(Sname='Honda')(S) * SP * P).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "question": "Cho bảng KHANANG(Sốhiệuphicông, Sốhiệumáybay) và bảng MAYBAY(Sốhiệumáybay) chứa các giá trị {100, 101, 103}. Kết quả phép chia KHANANG ÷ MAYBAY trả về gì?",
+      "options": {
+        "A": "Các phi công chỉ lái được đúng 1 loại máy bay",
+        "B": "Số hiệu các phi công có khả năng lái được cả ba loại máy bay 100, 101 và 103",
+        "C": "Danh sách các máy bay chưa có phi công nào lái",
+        "D": "Tổng số chuyến bay của mỗi phi công"
+      },
+      "correct_answer": "B",
+      "explanation": "Ví dụ 2 mục 3.4.1.e: Thương của phép chia KHANANG ÷ MAYBAY là số hiệu các phi công lái được tất cả các loại máy bay trong MAYBAY (100, 101, 103).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "question": "Cho hai quan hệ r trên R(U1) và s trên S(U2) với U2 ⊆ U1. Phép chia r ÷ s cho kết quả là một quan hệ trên tập thuộc tính nào và gồm những bộ t nào?",
+      "options": {
+        "A": "Trên tập U1 ∪ U2, gồm các bộ t ∈ r mà t ∈ s",
+        "B": "Trên tập U2, gồm các bộ u sao cho tồn tại t ∈ r",
+        "C": "Trên tập U1 - U2, gồm các bộ t sao cho với mọi u ∈ s thì bộ ghép (t, u) ∈ r",
+        "D": "Trên tập U1 ∩ U2, gồm các bộ không thuộc s"
+      },
+      "correct_answer": "C",
+      "explanation": "Định nghĩa mục 3.4.1.e: r ÷ s xác định trên U1 - U2 và r ÷ s = {t | ∀ u ∈ s thì (t, u) ∈ r}.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 52,
+      "question": "Cho quan hệ CUNGCAP(MaNCC, HangHoa) gồm 5 bộ giá trị, với Dom(MaNCC) = {S1, S2, S3} và Dom(HangHoa) = {Đinh, Ốc, Vít}. Quan hệ bù CUNGCAP' có bao nhiêu bộ?",
+      "options": {
+        "A": "3 bộ",
+        "B": "5 bộ",
+        "C": "9 bộ",
+        "D": "4 bộ"
+      },
+      "correct_answer": "D",
+      "explanation": "Tích Descartes Dom(MaNCC) × Dom(HangHoa) có 3 × 3 = 9 bộ. Vì CUNGCAP đã có 5 bộ nên quan hệ bù CUNGCAP' chứa 9 - 5 = 4 bộ còn lại.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 53,
+      "question": "Cho quan hệ r(A, B, C, D) gồm 4 bộ: (a1,b1,c1,d1), (a1,b1,c1,d2), (a2,b2,c2,d2), (a2,b2,c3,d3). Số lượng bộ của hai phép chiếu Π_{A,B}(r) và Π_{A,C}(r) lần lượt là bao nhiêu?",
+      "options": {
+        "A": "2 bộ và 3 bộ",
+        "B": "4 bộ và 4 bộ",
+        "C": "2 bộ và 4 bộ",
+        "D": "3 bộ và 2 bộ"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo ví dụ 1 mục 3.4.2.a: Π_{A,B}(r) khử trùng còn {(a1,b1), (a2,b2)} (2 bộ); Π_{A,C}(r) khử trùng còn {(a1,c1), (a2,c2), (a2,c3)} (3 bộ).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "question": "Cho r(A, B, C) gồm 3 bộ (1,2,3), (4,5,6), (7,8,9) và s(D, E) gồm 2 bộ (3,1), (6,2). Kết quả phép kết nối r ⋈_{B < D} s có bao nhiêu bộ?",
+      "options": {
+        "A": "2 bộ",
+        "B": "3 bộ",
+        "C": "4 bộ",
+        "D": "6 bộ"
+      },
+      "correct_answer": "B",
+      "explanation": "Ví dụ 1 mục 3.4.2.c: Các cặp (t, u) thỏa B < D gồm (1,2,3,3,1) [2<3], (1,2,3,6,2) [2<6] và (4,5,6,6,2) [5<6], tổng cộng 3 bộ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 55,
+      "question": "Cho r(A, B, C) = {(a1,b1,1), (a2,b1,2), (a3,b2,3)} và s(B, D, C) = {(b1,d1,1), (b2,d2,2), (b2,d3,3)}. Kết quả phép kết nối tự nhiên r * s là gì?",
+      "options": {
+        "A": "{(a1,b1,1,d1), (a2,b1,2,d2)}",
+        "B": "{(a2,b1,2,d2), (a3,b2,3,d3)}",
+        "C": "{(a1,b1,1,d1), (a3,b2,3,d3)}",
+        "D": "{(a1,b1,1,d1)}"
+      },
+      "correct_answer": "C",
+      "explanation": "Ví dụ 2 mục 3.4.2.d: Thuộc tính cùng tên là B và C. Chỉ có (a1,b1,1) khớp (b1,d1,1) và (a3,b2,3) khớp (b2,d3,3), nên kết quả có 2 bộ trên (A, B, C, D).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 56,
+      "question": "Cho r(U1) và s(U2). Đẳng thức nào sau đây biểu diễn đúng tính chất thứ ba của phép nửa nối r ⋉ s?",
+      "options": {
+        "A": "r ⋉ s = Π_U2(r) * s",
+        "B": "r ⋉ s = (r × s) - Π_U1(r)",
+        "C": "r ⋉ s = r ÷ Π_U1(s)",
+        "D": "r ⋉ s = r * Π_(U1 ∩ U2)(s)"
+      },
+      "correct_answer": "D",
+      "explanation": "Tính chất 3 mục 3.4.2.e khẳng định: r ⋉ s = r * Π_(U1 ∩ U2)(s) (chiếu s lên tập thuộc tính chung U1 ∩ U2 rồi kết nối tự nhiên với r).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 57,
+      "question": "Trên CSDL S(S#, Sname, Status, City), P(P#, Pname, Color, Weight), SP(S#, P#, QTY), biểu thức nào tìm tên những hãng CHƯA cung ứng bất kỳ mặt hàng nào?",
+      "options": {
+        "A": "Π_Sname((Π_S#(S) - Π_S#(SP)) * S)",
+        "B": "Π_Sname(σ_(QTY=0)(SP) * S)",
+        "C": "Π_Sname(S) - Π_Sname(SP)",
+        "D": "Π_Sname(Π_S#(SP) ÷ Π_S#(S))"
+      },
+      "correct_answer": "A",
+      "explanation": "Lời giải Bài 11d: Lấy tập mã hãng chưa cung ứng là Π_S#(S) - Π_S#(SP), sau đó kết nối tự nhiên với S và chiếu lên Sname.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 58,
+      "question": "Trên CSDL S, P, SP, biểu thức nào tìm tên các mặt hàng CHƯA được cung ứng lần nào?",
+      "options": {
+        "A": "Π_Pname(σ_(Color=NULL)(P))",
+        "B": "Π_Pname((Π_P#(P) - Π_P#(SP)) * P)",
+        "C": "Π_Pname(P ÷ SP)",
+        "D": "Π_Pname(P * SP)"
+      },
+      "correct_answer": "B",
+      "explanation": "Lời giải Bài 11i/k: Lấy mã mặt hàng chưa cung ứng là Π_P#(P) - Π_P#(SP), kết nối với P để lấy thông tin mặt hàng rồi chiếu lên Pname.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 59,
+      "question": "Trên CSDL S, P, SP, biểu thức đại số quan hệ nào tìm tên những hãng cung cấp TẤT CẢ mọi loại mặt hàng?",
+      "options": {
+        "A": "Π_Sname(S * SP * P)",
+        "B": "Π_Sname(Π_S#(S) - Π_S#(SP))",
+        "C": "Π_Sname((Π_{S#, P#}(SP) ÷ Π_P#(P)) * S)",
+        "D": "Π_Sname(Π_{S#, P#}(SP) ⋉ P)"
+      },
+      "correct_answer": "C",
+      "explanation": "Lời giải Bài 11g: Dùng phép chia Π_{S#, P#}(SP) ÷ Π_P#(P) để tìm S# cung cấp mọi P#, sau đó kết nối với S và chiếu lên Sname.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 60,
+      "question": "Cho MONHOC(MAMH, TENMH) = {(A1, JAVA), (A2, CSDL), (A3, MANG)} và KETQUA(MASV, MAMH, DIEM) = {(B1,A1,9), (B2,A1,10), (B1,A2,7), (B2,A2,6), (B1,A3,8)}. Biểu thức Π_{MASV, MAMH}(KETQUA) ÷ Π_MAMH(MONHOC) cho kết quả nào?",
+      "options": {
+        "A": "Rỗng",
+        "B": "{B1, B2}",
+        "C": "{B2}",
+        "D": "{B1}"
+      },
+      "correct_answer": "D",
+      "explanation": "Bài 9: MONHOC có 3 môn A1, A2, A3. Sinh viên B1 dự thi đủ cả A1, A2, A3 trong khi B2 chỉ thi A1, A2. Kết quả phép chia là {B1}.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "question": "Cho CSDL SINHVIEN, DIEMTHI(MASV, MAMH, DIEMLAN1, DIEMLAN2), MONHOC (Bài 6). Biểu thức nào cho biết họ tên sinh viên phải học lại (cả điểm lần 1 và lần 2 đều nhỏ hơn 5) cùng tên môn học đó?",
+      "options": {
+        "A": "Π_{HOTEN, TENMH}(σ_{DIEMLAN1 < 5 and DIEMLAN2 < 5}(DIEMTHI) * SINHVIEN * MONHOC)",
+        "B": "Π_{HOTEN, TENMH}(σ_{DIEMLAN1 < 5 or DIEMLAN2 < 5}(DIEMTHI) * SINHVIEN * MONHOC)",
+        "C": "Π_{HOTEN, TENMH}(σ_{DIEMLAN1 < 5}(DIEMTHI) * SINHVIEN)",
+        "D": "Π_{HOTEN, TENMH}(DIEMTHI ÷ MONHOC)"
+      },
+      "correct_answer": "A",
+      "explanation": "Lời giải Bài 6b: Sinh viên phải học lại khi cả DIEMLAN1 < 5 và (and) DIEMLAN2 < 5, kết nối với SINHVIEN và MONHOC rồi chiếu lên HOTEN, TENMH.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 62,
+      "question": "Cho MATHANG(MAHANG, TENHANG, DONVI, DONGIA), HOADON(SOHD, NGAYLAP, NGUOILAP, TENKHACH), CHITIETHOADON(SOHD, MAHANG, SOLUONG) (Bài 7). Biểu thức nào tìm tên các mặt hàng khách hàng 'LE AN' đã mua?",
+      "options": {
+        "A": "Π_TENHANG(σ_{TENKHACH='LE AN'}(HOADON) * MATHANG)",
+        "B": "Π_TENHANG(σ_{TENKHACH='LE AN'}(HOADON) * CHITIETHOADON * MATHANG)",
+        "C": "Π_TENHANG(HOADON * MATHANG) - σ_{TENKHACH='LE AN'}(HOADON)",
+        "D": "Π_TENHANG(CHITIETHOADON ÷ HOADON)"
+      },
+      "correct_answer": "B",
+      "explanation": "Lời giải Bài 7c: Phải đi qua cầu nối CHITIETHOADON (chứa SOHD và MAHANG) để kết nối HOADON đã lọc TENKHACH='LE AN' với MATHANG.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 63,
+      "question": "Đẳng thức đại số quan hệ nào sau đây luôn đúng với mọi quan hệ r, q, s (Bài 12)?",
+      "options": {
+        "A": "r - s = s - r",
+        "B": "r ÷ s = s ÷ r",
+        "C": "r * (q ∪ s) = (r * q) ∪ (r * s)",
+        "D": "r × s = s * r"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Bài 12b: Phép kết nối tự nhiên phân phối đối với phép hợp: r * (q ∪ s) = (r * q) ∪ (r * s).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 64,
+      "question": "Với mọi quan hệ r, s xây dựng trên cùng lược đồ R(U) và X ⊆ U, đẳng thức nào đúng khi chiếu phép hợp lên X (Bài 12c)?",
+      "options": {
+        "A": "(r ∪ s)[X] = r[X] ∩ s[X]",
+        "B": "(r ∪ s)[X] = r[X] - s[X]",
+        "C": "(r ∪ s)[X] = r[X] × s[X]",
+        "D": "(r ∪ s)[X] = r[X] ∪ s[X]"
+      },
+      "correct_answer": "D",
+      "explanation": "Bài 12c: (r ∪ s)[X] = {t[X] | t ∈ r hay t ∈ s} = {t[X] | t ∈ r} ∪ {t[X] | t ∈ s} = r[X] ∪ s[X].",
+      "difficulty": "hard"
+    },
+    {
+      "id": 65,
+      "question": "Cho r(A, B, C, D, E) chứa bộ (b, a, f, h, g) và là bộ duy nhất có (D, E) trùng với một bộ trong s(D, E, F, G) = {(b,b,c,f), (g,h,a,c), (h,g,g,f)}. Kết quả phép nửa nối Π_{C,D,E}(r) ⋉ Π_{D,E}(s) là gì?",
+      "options": {
+        "A": "{(f, h, g)}",
+        "B": "{(h, g, g, f)}",
+        "C": "{(b, a, f, h, g)}",
+        "D": "Tập rỗng"
+      },
+      "correct_answer": "A",
+      "explanation": "Dữ liệu Bài 18: Cặp (D,E) = (h, g) xuất hiện ở cả r và s. Giữ lại các thuộc tính (C,D,E) của vế trái cho kết quả duy nhất là bộ (f, h, g).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "question": "Trong bài toán Quản lý xe máy (Bài 8) gồm XEMAY(SOKHUNG, SOXE, LOAIXE), SOHUU(SOCCD, SOXE) và BAN(TENDL, SOXE), khi gộp 3 lược đồ có khóa chung SOXE ta thu được lược đồ nào?",
+      "options": {
+        "A": "XEMAY(SOKHUNG, LOAIXE, DIACHI)",
+        "B": "BAN(SOXE, SOCCD, LOAIXE, SOKHUNG, TENDL)",
+        "C": "NGUOI(SOCCD, SOXE, TENDL)",
+        "D": "DAILY(TENDL, SOKHUNG, SOCCD)"
+      },
+      "correct_answer": "B",
+      "explanation": "Lời giải Bài 9 (tương ứng đề Bài 8): Gộp XEMAY, SOHUU, BAN theo khóa chung SOXE thu được lược đồ BAN(SOXE, SOCCD, LOAIXE, SOKHUNG, TENDL).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 67,
+      "question": "Cho HOADONCT(MAHD, MATU, SOLUONG) có 6 bộ và BAN(MABAN, TENBAN, TRANGTHAI) có 3 bộ (Bài 19). Thực hiện phép kết nối tự nhiên HOADONCT * BAN sẽ thu được quan hệ có bao nhiêu bộ?",
+      "options": {
+        "A": "0 bộ",
+        "B": "6 bộ",
+        "C": "18 bộ",
+        "D": "9 bộ"
+      },
+      "correct_answer": "C",
+      "explanation": "HOADONCT và BAN không có thuộc tính nào cùng tên, nên phép kết nối tự nhiên trở thành tích Descartes với 6 × 3 = 18 bộ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 68,
+      "question": "Trên CSDL bán cà phê THUCUONG(MATU, TENTU, LOAI, GIA) và HOADONCT(MAHD, MATU, SOLUONG) (Bài 20), biểu thức nào tìm mã hóa đơn của những lần bán hơn 2 ly cà phê 'Expresso'?",
+      "options": {
+        "A": "Π_MAHD(σ_{TENTU='Expresso'}(THUCUONG) ÷ σ_{SOLUONG > 2}(HOADONCT))",
+        "B": "Π_MAHD(σ_{GIA > 2}(THUCUONG) * HOADONCT)",
+        "C": "Π_MATU(σ_{TENTU='Expresso' and SOLUONG >= 2}(THUCUONG * HOADONCT))",
+        "D": "Π_MAHD(σ_{TENTU='Expresso'}(THUCUONG) * σ_{SOLUONG > 2}(HOADONCT))"
+      },
+      "correct_answer": "D",
+      "explanation": "Lọc TENTU='Expresso' trên THUCUONG, lọc SOLUONG > 2 trên HOADONCT, kết nối tự nhiên theo MATU và chiếu lên MAHD (kết quả gồm HD02 và HD04).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 69,
+      "question": "Trong thiết kế CSDL Trung tâm Tin học (Bài 2), khi gộp DANGKY(MAHV, MALOP, NGAYDK, MUCGIAMHP) và NOPHOCPHI(MAHV, MALOP, SOPHIEU) thành RDANGKY, khóa chung dùng để gộp là gì?",
+      "options": {
+        "A": "{MAHV, MALOP}",
+        "B": "{SOPHIEU}",
+        "C": "{NGAYDK}",
+        "D": "{MUCGIAMHP, SOPHIEU}"
+      },
+      "correct_answer": "A",
+      "explanation": "Lời giải Bài 2: Hai lược đồ DANGKY và NOPHOCPHI đều có khóa chung là {MAHV, MALOP} nên gộp thành RDANGKY(MAHV, MALOP, SOPHIEU, NGAYDK, MUCGIAMHP).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 70,
+      "question": "Trong bài toán Quản lý đăng ký học chuyên đề (Bài 22), vì sao lược đồ DANGKY của sinh viên cần có khóa chính gồm (MASV, MACD, NAMHOC, HOCKY) thay vì chỉ (MASV, MACD)?",
+      "options": {
+        "A": "Vì một chuyên đề không có mã duy nhất",
+        "B": "Vì cần ghi nhận việc đăng ký chuyên đề của sinh viên gắn với từng năm học và học kỳ cụ thể (và kiểm soát giới hạn tối đa 3 chuyên đề/học kỳ)",
+        "C": "Vì bảng SINHVIEN không có khóa chính",
+        "D": "Vì khóa chính bắt buộc phải có ít nhất 4 thuộc tính"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo đặc tả Bài 22, phòng giáo vụ mở chuyên đề theo từng học kỳ của mỗi năm học và cần ghi nhận việc đăng ký học một chuyên đề của sinh viên vào một năm, một học kỳ cụ thể.",
+      "difficulty": "hard"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Nêu hai tính chất toán học để một tập thuộc tính K là khóa của lược đồ quan hệ R(A1,...,An).",
+      "expected_answer": "1. Tính phân biệt duy nhất: Với mọi bộ t1, t2 ∈ r, nếu t1 ≠ t2 thì t1[K] ≠ t2[K].\n2. Tính tối tiểu: Không tồn tại tập con thực sự K' ⊂ K nào thỏa mãn tính chất phân biệt duy nhất trên.\n(Lưu ý: Khóa không được chứa giá trị rỗng NULL)."
+    },
+    {
+      "id": 2,
+      "question": "Phát biểu hai điều kiện để tập thuộc tính FK ⊆ U2 là khóa ngoại của lược đồ quan hệ R2(U2) tham chiếu đến khóa chính PK của R1(U1).",
+      "expected_answer": "1. Miền giá trị của khóa ngoại FK phải trùng với miền giá trị của khóa chính PK.\n2. Giá trị của FK hoặc là rỗng (NULL), hoặc phải bằng một giá trị hiện có nào đó của PK trong R1."
+    },
+    {
+      "id": 3,
+      "question": "Nêu hai ưu điểm chính của việc gộp các lược đồ quan hệ có khóa chung khi chuyển đổi từ mô hình E-R.",
+      "expected_answer": "1. Tiết kiệm không gian lưu trữ vì không phải lặp lại các giá trị khóa ở nhiều quan hệ tách rời.\n2. Các truy vấn liên quan đến thuộc tính của các quan hệ đó được trả lời nhanh chóng hơn do giảm bớt phép kết nối."
+    },
+    {
+      "id": 4,
+      "question": "Viết định nghĩa và 3 tính chất của phép nửa nối trái r ⋉ s (với r xây dựng trên U1 và s trên U2).",
+      "expected_answer": "Định nghĩa: r ⋉ s = {t | t ∈ (r * s)[U1]} (lấy các bộ của r * s nhưng chỉ giữ lại thuộc tính thuộc U1).\n3 tính chất:\n1. r ⋉ s = Π_U1(r * s)\n2. r ⋉ s ⊆ r\n3. r ⋉ s = r * Π_(U1 ∩ U2)(s)"
+    },
+    {
+      "id": 5,
+      "question": "Cho CSDL S(S#, Sname, Status, City), P(P#, Pname, Color, Weight), SP(S#, P#, QTY). Viết biểu thức ĐSQH tìm mã số các hãng cung ứng ít nhất một mặt hàng màu đỏ.",
+      "expected_answer": "Π_S#(σ_(Color='Red')(P) * SP)\nhoặc viết tương đương:\nΠ_S#(σ_(Color='Red')(P * SP))"
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Bài 1: Chuyển đổi E-R Quỹ tín dụng sang mô hình quan hệ & Gộp khóa chung",
+      "problem": "CSDL quản lý hoạt động cho khách hàng vay vốn ở một quỹ tín dụng gồm các tập thực thể KHACHHANG(MAKH, TENKH, DIACHI), HOSOVAYVON/HSVV(MAHOSO, SOTV, NGAYBDV), HTVAYVON(MAHTVV, HTVV, TGVV, LAISUAT), PHIEUTT(SOPHIEU, NGAYTT, TIENVON, TIENLAI) cùng các mối quan hệ THANHTOAN (giữa PHIEUTT và HSVV, n-1), THUOC (giữa HSVV và HTVAYVON, n-1), DANGKY (giữa HSVV và KHACHHANG, n-1). Hãy chuyển sơ đồ E-R sang mô hình quan hệ và gộp các lược đồ có khóa chung.",
+      "solution_steps": [
+        "Bước 1 — Biến đổi các tập thực thể thành lược đồ quan hệ: KHACHHANG(MAKH, TENKH, DIACHI); HSVV(MAHOSO, SOTV, NGAYBDV); HTVAYVON(MAHTVV, HTVV, TGVV, LAISUAT); PHIEUTT(SOPHIEU, NGAYTT, TIENVON, TIENLAI).",
+        "Bước 2 — Biến đổi các mối quan hệ và xác định khóa (theo quy tắc n-1 lấy khóa phía nhiều): THANHTOAN(SOPHIEU, MAHOSO) có khóa SOPHIEU; THUOC(MAHOSO, MAHTVV) có khóa MAHOSO; DANGKY(MAHOSO, MAKH) có khóa MAHOSO.",
+        "Bước 3 — Gộp các lược đồ có khóa chung: Gộp PHIEUTT với THANHTOAN theo khóa chung SOPHIEU; gộp HSVV, THUOC và DANGKY theo khóa chung MAHOSO.",
+        "Bước 4 — Hệ lược đồ quan hệ tối ưu cuối cùng (4 lược đồ): KHACHHANG(MAKH, TENKH, DIACHI); HTVAYVON(MAHTVV, HTVV, TGVV, LAISUAT); HOSOVV(MAHOSO, SOTV, NGAYBDV, MAHTVV, MAKH) với MAHTVV, MAKH là khóa ngoại; PHIEUTT(SOPHIEU, NGAYTT, TIENVON, TIENLAI, MAHOSO) với MAHOSO là khóa ngoại."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài 2: Chuyển đổi E-R Trung tâm Tin học sang mô hình quan hệ",
+      "problem": "CSDL quản lý việc ghi danh và nộp học phí của học viên ở Trung tâm Tin học gồm các tập thực thể HOCVIEN(MAHV, HOTEN, NGAYSINH, DIACHI), LOPHOC(MALOP, TENLOP, HOCPHI, LOAICC, NGAYKG), PHIEUTHUHP(SOPHIEU, NGAYNOPHP, SOTIEN), mối quan hệ nhiều-nhiều DANGKY(MAHV, MALOP, NGAYDK, MUCGIAMHP) và mối quan hệ NOPHOCPHI(MAHV, MALOP, SOPHIEU). Hãy chuyển sang mô hình quan hệ và gộp các lược đồ có khóa chung.",
+      "solution_steps": [
+        "Bước 1 — Biến đổi 3 tập thực thể thành 3 lược đồ: HOCVIEN(MAHV, HOTEN, NGAYSINH, DIACHI); LOPHOC(MALOP, TENLOP, HOCPHI, LOAICC, NGAYKG); PHIEUTHUHP(SOPHIEU, NGAYNOPHP, SOTIEN).",
+        "Bước 2 — Biến đổi 2 mối quan hệ: DANGKY(MAHV, MALOP, NGAYDK, MUCGIAMHP) có khóa ghép (MAHV, MALOP); NOPHOCPHI(MAHV, MALOP, SOPHIEU) có khóa (MAHV, MALOP).",
+        "Bước 3 — Gộp các lược đồ có khóa chung: Nhận thấy DANGKY và NOPHOCPHI có chung khóa (MAHV, MALOP) nên gộp lại thành lược đồ RDANGKY(MAHV, MALOP, SOPHIEU, NGAYDK, MUCGIAMHP).",
+        "Bước 4 — Xác định khóa chính và khóa ngoại của mô hình cuối (4 lược đồ): HOCVIEN(PK: MAHV); LOPHOC(PK: MALOP); PHIEUTHUHP(PK: SOPHIEU); RDANGKY(PK: MAHV, MALOP; FK: MAHV -> HOCVIEN, MALOP -> LOPHOC, SOPHIEU -> PHIEUTHUHP)."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bài 3: Chuyển đổi E-R Nhà sách sang mô hình quan hệ & Gộp khóa chung",
+      "problem": "Để quản lý việc bán sách trong một nhà sách gồm các tập thực thể: SÁCH(MASACH, TENSACH, DONGIA), KHÁCH HÀNG(MAKH, TENKH, DIACHI), TÁC GIẢ(MATG, TENTG, DIACHI, DIENTHOAI), HÓA ĐƠN(SOHD, NGAYHD). Các mối quan hệ: VIẾT giữa SÁCH và TÁC GIẢ (n-1 từ SÁCH đến TÁC GIẢ), CTHD giữa SÁCH và HÓA ĐƠN (n-n có thuộc tính SOLUONG), THUỘC giữa HÓA ĐƠN và KHÁCH HÀNG (n-1 từ HÓA ĐƠN đến KHÁCH HÀNG). Hãy chuyển sang lược đồ quan hệ, xác định khóa và gộp các lược đồ có khóa chung.",
+      "solution_steps": [
+        "Bước 1 — Chuyển 4 tập thực thể thành lược đồ quan hệ: TACGIA(MATG, TENTG, DIACHI, DIENTHOAI); SACH(MASACH, TENSACH, DONGIA); HOADON(SOHD, NGAYHD); KHACHHANG(MAKH, TENKH, DIACHI).",
+        "Bước 2 — Chuyển 3 mối quan hệ và xác định khóa: VIET(MASACH, MATG) với khóa MASACH; CTHD(SOHD, MASACH, SOLUONG) với khóa (SOHD, MASACH); THUOC(SOHD, MAKH) với khóa SOHD.",
+        "Bước 3 — Gộp các lược đồ có khóa chung: Gộp SACH với VIET theo khóa chung MASACH; gộp HOADON với THUOC theo khóa chung SOHD.",
+        "Bước 4 — Kết quả 5 lược đồ hoàn chỉnh: TACGIA(MATG, TENTG, DIACHI, DIENTHOAI); SACH(MASACH, TENSACH, DONGIA, MATG) [FK: MATG]; HOADON(SOHD, NGAYHD, MAKH) [FK: MAKH]; KHACHHANG(MAKH, TENKH, DIACHI); CTHD(SOHD, MASACH, SOLUONG) [PK: (SOHD, MASACH), FK: SOHD, MASACH]."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bài 4: Chuyển đổi E-R Nhà thuốc sang mô hình quan hệ & Gộp khóa chung",
+      "problem": "Để quản lý việc bán thuốc trong một nhà thuốc gồm các tập thực thể: THUỐC(MAT, TENTHUOC, DONGIA), NHÂN VIÊN(MANV, TENNV, DIACHI, LUONG), HÓA ĐƠN(SOHD, NGAYHD), NHÀ SẢN XUẤT(MANSX, TENNSX, DIACHI, DIENTHOAI). Các mối quan hệ: SX giữa THUỐC và NHÀ SX (n-1), CTHĐ giữa THUỐC và HÓA ĐƠN (n-n có thuộc tính SOLUONG), LẬP giữa HÓA ĐƠN và NHÂN VIÊN (n-1). Chuyển sang mô hình quan hệ, xác định khóa và gộp lược đồ có khóa chung.",
+      "solution_steps": [
+        "Bước 1 — Chuyển các tập thực thể thành 4 lược đồ: THUOC(MAT, TENTHUOC, DONGIA); HOADON(SOHD, NGAYHD); NHASX(MANSX, TENNSX, DIACHI, DIENTHOAI); NHANVIEN(MANV, TENNV, DIACHI, LUONG).",
+        "Bước 2 — Chuyển các mối quan hệ thành 3 lược đồ: CTHD(MAT, SOHD, SOLUONG) khóa (MAT, SOHD); SX(MAT, MANSX) khóa MAT; LAP(SOHD, MANV) khóa SOHD.",
+        "Bước 3 — Gộp các lược đồ có khóa chung: Gộp THUOC với SX theo khóa chung MAT; gộp HOADON với LAP theo khóa chung SOHD.",
+        "Bước 4 — Kết quả 5 lược đồ tối ưu: THUOC(MAT, TENTHUOC, DONGIA, MANSX) [PK: MAT, FK: MANSX]; HOADON(SOHD, NGAYHD, MANV) [PK: SOHD, FK: MANV]; NHASX(MANSX, TENNSX, DIACHI, DIENTHOAI) [PK: MANSX]; NHANVIEN(MANV, TENNV, DIACHI, LUONG) [PK: MANV]; CTHD(MAT, SOHD, SOLUONG) [PK: (MAT, SOHD), FK: MAT, SOHD]."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bài 5: Mô hình E-R & Lược đồ quan hệ phân phối hàng từ kho đến đại lý",
+      "problem": "Công ty quản lý việc phân phối hàng từ kho đến đại lý: MATHANG(MAHANG, TENHANG), KHOHANG(MASO, DIACHI), DAILY(MADAILY, TENDAILY, DIACHI, SDT), PHIEUXUAT(SOPHIEU, NGAYXUAT). Mỗi mặt hàng chỉ cất giữ ở đúng một kho hàng (mối quan hệ THUỘC, n-1); một kho có nhiều mặt hàng. Khi xuất hàng cho đại lý lập phiếu xuất (mối quan hệ XUẤT giữa PHIEUXUAT và DAILY, n-1), một phiếu xuất nhiều mặt hàng kèm số lượng (mối quan hệ XUẤTHÀNG, n-n). Hãy thiết kế mô hình E-R, chuyển sang quan hệ và gộp khóa chung.",
+      "solution_steps": [
+        "Bước 1 — Thiết kế mô hình E-R: Gồm 4 tập thực thể (MATHANG, KHOHANG, DAILY, PHIEUXUAT) và 3 mối quan hệ: THUOC (MATHANG (1,1) — KHOHANG (1,n)), XUAT (PHIEUXUAT (1,1) — DAILY (1,n)), XUATHANG (PHIEUXUAT (1,n) — MATHANG (0,n), thuộc tính riêng SOLUONG).",
+        "Bước 2 — Chuyển đổi thành 7 lược đồ ban đầu: MATHANG(MAHANG, TENHANG); KHOHANG(MASO, DIACHI); DAILY(MADAILY, TENDAILY, DIACHI, SDT); PHIEUXUAT(SOPHIEU, NGAYXUAT); THUOC(MAHANG, MASO); XUAT(SOPHIEU, MADAILY); XUATHANG(SOPHIEU, MAHANG, SOLUONG).",
+        "Bước 3 — Gộp các lược đồ có khóa chung: Gộp MATHANG và THUOC theo khóa chung MAHANG; gộp PHIEUXUAT và XUAT theo khóa chung SOPHIEU.",
+        "Bước 4 — Kết quả 5 lược đồ quan hệ hoàn chỉnh: MATHANG(MAHANG, TENHANG, MASO); KHOHANG(MASO, DIACHI); DAILY(MADAILY, TENDAILY, DIACHI, SDT); PHIEUXUAT(SOPHIEU, NGAYXUAT, MADAILY); XUATHANG(SOPHIEU, MAHANG, SOLUONG)."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bài 6: Viết biểu thức ĐSQH và tính kết quả trên SINHVIEN, DIEMTHI, MONHOC",
+      "problem": "Cho SINHVIEN(MASV, HOTEN, GIOITINH, DIACHI, MALOP) gồm (CQK21001, Lê Hoài Nam, 1, Huế, TIK21C), (CQK22001, Nguyễn Nam Thắng, 1, Đà Nẵng, T22A), (TCK8007, Hoàng Thị Thảo, 0, Quảng Trị, TIK8), (CQK23005, Lê Thị Mai, 0, Huế, TIK23); DIEMTHI(MASV, MAMH, DIEMLAN1, DIEMLAN2) gồm (CQK21001, TI01, 4, 7), (CQK21001, TI02, 8, NULL), (TCK8007, TI03, 4, 3), (TCK8007, TI05, 8, NULL), (CQK23005, TI01, 2, 3); MONHOC(MAMH, TENMH, SODVHT) gồm (TI01, Pascal, 4), (TI02, Ngôn ngữ C, 4), (TI03, Đồ hoạ, 4), (TI05, Cơ sở dữ liệu, 5). Viết biểu thức ĐSQH và tính kết quả cho 5 câu hỏi (a–e).",
+      "solution_steps": [
+        "Bước 1 (Câu a — Điểm thi môn Pascal của Lê Thị Mai): Π_{DIEMLAN1, DIEMLAN2}(σ_{HOTEN='Lê Thị Mai'}(SINHVIEN) * DIEMTHI * σ_{TENMH='Pascal'}(MONHOC)) → Kết quả: (2, 3).",
+        "Bước 2 (Câu b — Sinh viên phải học lại [cả 2 lần < 5] và tên môn học): Π_{HOTEN, TENMH}(σ_{DIEMLAN1 < 5 and DIEMLAN2 < 5}(DIEMTHI) * SINHVIEN * MONHOC) → Kết quả: (Hoàng Thị Thảo, Đồ hoạ) và (Lê Thị Mai, Pascal).",
+        "Bước 3 (Câu c — Điểm thi các môn của tất cả sinh viên): Π_{HOTEN, TENMH, DIEMLAN1, DIEMLAN2}((SINHVIEN * DIEMTHI) * MONHOC) → Kết quả gồm 5 bộ tương ứng 5 dòng điểm của Lê Hoài Nam (Pascal: 4, 7; Ngôn ngữ C: 8, NULL), Hoàng Thị Thảo (Đồ hoạ: 4, 3; Cơ sở dữ liệu: 8, NULL), Lê Thị Mai (Pascal: 2, 3).",
+        "Bước 4 (Câu d — Điểm thi các môn của Hoàng Thị Thảo): Π_{MAMH, TENMH, DIEMLAN1, DIEMLAN2}(σ_{HOTEN='Hoàng Thị Thảo'}(SINHVIEN) * DIEMTHI * MONHOC) → Kết quả: (TI03, Đồ hoạ, 4, 3) và (TI05, Cơ sở dữ liệu, 8, NULL).",
+        "Bước 5 (Câu e — Danh sách sinh viên phải thi lại, điểm lần 1 < 5): Π_{HOTEN, MAMH, DIEMLAN1}(σ_{DIEMLAN1 < 5}(DIEMTHI) * SINHVIEN) → Kết quả: (Lê Hoài Nam, TI01, 4), (Hoàng Thị Thảo, TI03, 4), (Lê Thị Mai, TI01, 2)."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bài 7: Biểu thức ĐSQH trên CSDL bán hàng MATHANG, HOADON, CHITIETHOADON",
+      "problem": "Cho CSDL cửa hàng bán hàng gồm: MATHANG(MAHANG, TENHANG, DONVI, DONGIA), HOADON(SOHD, NGAYLAP, NGUOILAP, TENKHACH), CHITIETHOADON(SOHD, MAHANG, SOLUONG). Hãy viết các biểu thức ĐSQH biểu diễn các yêu cầu: (a) Tên mặt hàng giá bán > 5000; (b) Khách hàng mua hàng ngày 23/5/2012; (c) Khách hàng 'LE AN' đã mua mặt hàng nào; (d) Hóa đơn 2311 gồm mặt hàng nào và giá mỗi mặt hàng.",
+      "solution_steps": [
+        "Bước 1 (Câu a — Tên mặt hàng có đơn giá > 5000): Lọc trực tiếp trên MATHANG rồi chiếu tên hàng: Π_TENHANG(σ_{DONGIA > 5000}(MATHANG)).",
+        "Bước 2 (Câu b — Tên khách hàng mua ngày 23/5/2012): Lọc trên HOADON theo NGAYLAP và chiếu TENKHACH: Π_TENKHACH(σ_{NGAYLAP='23/5/2012'}(HOADON)).",
+        "Bước 3 (Câu c — Mặt hàng khách hàng 'LE AN' đã mua): Lọc khách hàng 'LE AN' trên HOADON, kết nối tự nhiên qua CHITIETHOADON và MATHANG rồi chiếu TENHANG: Π_TENHANG(σ_{TENKHACH='LE AN'}(HOADON) * CHITIETHOADON * MATHANG).",
+        "Bước 4 (Câu d — Mặt hàng và giá của hóa đơn 2311): Lọc SOHD=2311 trên CHITIETHOADON, kết nối với MATHANG rồi chiếu TENHANG, DONGIA: Π_{TENHANG, DONGIA}(σ_{SOHD=2311}(CHITIETHOADON) * MATHANG)."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bài 8: Chuyển đổi E-R & Viết biểu thức ĐSQH quản lý xe máy Thừa Thiên Huế",
+      "problem": "Cho hệ thống quản lý xe máy tỉnh Thừa Thiên Huế với các tập thực thể XEMAY(SOKHUNG, SOXE, LOAIXE), NGUOI(SOCCD, HOTEN, DIACHI), DAILY(TENDL, DIACHIDL) và các mối quan hệ SOHUU(SOCCD, SOXE) (n-1), BAN(TENDL, SOXE) (n-1). Chuyển sang mô hình quan hệ (rút gọn bằng gộp khóa chung) và viết 5 biểu thức ĐSQH: (a) Thông tin người sở hữu xe DREAM II; (b) Ông 'LE AN' mua xe tại đại lý nào; (c) Số khung, loại xe đại lý 'HUNG VUONG' đã bán; (d) Người có số CCCD '012 398 678911' mua xe ở đại lý nào; (e) Ai sở hữu xe biển số '75 - FE1275'.",
+      "solution_steps": [
+        "Bước 1 — Chuyển sang mô hình quan hệ và gộp khóa chung: Xuất phát từ XEMAY, NGUOI, DAILY, SOHUU, BAN; gộp XEMAY, SOHUU, BAN theo khóa chung SOXE thu được 3 lược đồ: NGUOI(SOCCD, HOTEN, DIACHI), DAILY(TENDL, DIACHIDL) và BAN(SOXE, SOCCD, LOAIXE, SOKHUNG, TENDL).",
+        "Bước 2 (Câu a & b): (a) Thông tin người sở hữu xe DREAM II: Π_{SOCCD, HOTEN, DIACHI}(NGUOI * σ_{LOAIXE='DREAM II'}(BAN)). (b) Ông LE AN mua xe tại đại lý nào: Π_{TENDL, DIACHIDL}(σ_{HOTEN='LE AN'}(NGUOI) * BAN * DAILY).",
+        "Bước 3 (Câu c & d): (c) Số khung và loại xe đại lý HUNG VUONG bán: Π_{SOKHUNG, LOAIXE}(σ_{TENDL='HUNG VUONG'}(BAN)). (d) Người có CCCD '012 398 678911' mua xe ở đại lý nào: Π_{TENDL, DIACHIDL}(σ_{SOCCD='012 398 678911'}(BAN) * DAILY).",
+        "Bước 4 (Câu e): Ai sở hữu xe có biển số '75 - FE1275': Π_{HOTEN}(NGUOI * σ_{SOXE='75 - FE1275'}(BAN))."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bài 9: Phép chia ĐSQH tìm sinh viên dự thi đủ tất cả các môn học",
+      "problem": "Cho CSDL gồm 2 quan hệ: MONHOC(MAMH, TENMH) = {(A1, JAVA), (A2, CSDL), (A3, MANG)} và KETQUA(MASV, MAMH, DIEM) = {(B1, A1, 9), (B2, A1, 10), (B1, A2, 7), (B2, A2, 6), (B1, A3, 8)}. Dùng các phép toán đại số quan hệ để tìm sinh viên dự thi đủ các môn học và nêu rõ kết quả.",
+      "solution_steps": [
+        "Bước 1 — Xác định tập các cặp (MASV, MAMH) sinh viên đã dự thi bằng phép chiếu trên KETQUA: R1 = Π_{MASV, MAMH}(KETQUA) = {(B1,A1), (B2,A1), (B1,A2), (B2,A2), (B1,A3)}.",
+        "Bước 2 — Xác định tập tất cả các mã môn học hiện có bằng phép chiếu trên MONHOC: R2 = Π_{MAMH}(MONHOC) = {A1, A2, A3}.",
+        "Bước 3 — Áp dụng phép chia đại số quan hệ R1 ÷ R2 = Π_{MASV, MAMH}(KETQUA) ÷ Π_{MAMH}(MONHOC) để tìm các MASV có đủ mọi MAMH trong R2.",
+        "Bước 4 — Tính kết quả: Sinh viên B1 có đủ 3 cặp (B1,A1), (B1,A2), (B1,A3) nên thỏa mãn; sinh viên B2 thiếu (B2,A3) nên bị loại. Kết quả trả về quan hệ có 1 bộ: MASV = B1."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bài 10–11: Giải thích & Viết biểu thức ĐSQH từ cơ bản đến phép hiệu/chia trên S, P, SP",
+      "problem": "Cho CSDL S(S#, Sname, Status, City), P(P#, Pname, Color, Weight), SP(S#, P#, QTY). (1) Giải thích ý nghĩa các biểu thức: (i) Π_S#(σ_{Color='Do'}(P) * SP); (ii) Π_Sname(σ_{Color='Vang'}(P) * SP * S); (iii) Π_Sname(S * SP). (2) Viết biểu thức ĐSQH cho: (a) Tên hãng cung ứng P2; (b) Tên hãng cung ứng 'Exciter' màu xanh; (c) Màu sắc, trọng lượng của P1, P3; (d) Tên hãng chưa cung ứng hàng hóa; (e) Thành phố xuất phát và trọng lượng của P1; (f) Thành phố xuất phát của hàng màu đỏ; (g) Tên hãng cung cấp mọi mặt hàng; (h) Số hiệu, tình trạng hãng chưa cung ứng; (k) Tên mặt hàng chưa từng được cung ứng.",
+      "solution_steps": [
+        "Bước 1 — Giải thích 3 biểu thức (Bài 10): (i) Mã số các hãng cung ứng ít nhất một mặt hàng màu đỏ; (ii) Tên các hãng cung ứng ít nhất một mặt hàng màu vàng; (iii) Tên các hãng đã có tham gia cung ứng hàng hóa.",
+        "Bước 2 — Các truy vấn lọc và kết nối (11a, b, c, e, f): (a) Π_Sname(σ_{P#='P2'}(SP) * S); (b) Π_Sname(σ_{Pname='Exciter' and Color='Xanh'}(P) * SP * S); (c) Π_{Color, Weight}(σ_{P#='P1' or P#='P3'}(P)); (e) Π_{City, Weight}(σ_{P#='P1'}(SP) * S * P); (f) Π_City(σ_{Color='Do'}(P) * SP * S).",
+        "Bước 3 — Các truy vấn phủ định dùng phép hiệu (11d, h, k): (d) Π_Sname((Π_S#(S) - Π_S#(SP)) * S); (h) Π_{S#, Status}((Π_S#(S) - Π_S#(SP)) * S); (k) Π_Pname((Π_P#(P) - Π_P#(SP)) * P).",
+        "Bước 4 — Truy vấn định lượng toàn phần dùng phép chia (11g): Tên các hãng cung cấp mọi loại mặt hàng là Π_Sname((Π_{S#, P#}(SP) ÷ Π_P#(P)) * S)."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bài 12: Chứng minh các đẳng thức Đại số Quan hệ",
+      "problem": "Chứng minh rằng với mọi quan hệ r, q, s (tương thích lược đồ theo từng phép toán), ta luôn có: (a) r * s = s * r và r ∪ s = s ∪ r (tính giao hoán); (b) r * (q ∪ s) = (r * q) ∪ (r * s) (tính phân phối của kết nối tự nhiên đối với phép hợp); (c) (r ∪ s)[X] = r[X] ∪ s[X].",
+      "solution_steps": [
+        "Bước 1 — Chứng minh câu (a): Giả sử r xây dựng trên U1, s trên U2. Theo định nghĩa kết nối tự nhiên, r * s = {t | t[U1] ∈ r và t[U2] ∈ s} = {t | t[U2] ∈ s và t[U1] ∈ r} = s * r. Tương tự, với phép hợp (r, s cùng trên U): r ∪ s = {t | t ∈ r hoặc t ∈ s} = {t | t ∈ s hoặc t ∈ r} = s ∪ r.",
+        "Bước 2 — Chứng minh câu (b): Giả sử r trên U1, q và s cùng trên U2. Ta có r * (q ∪ s) = {t | t[U1] ∈ r và (t[U2] ∈ q hoặc t[U2] ∈ s)}.",
+        "Bước 3 — Phân phối phép logic 'và' qua 'hoặc': Tập trên bằng {t | (t[U1] ∈ r và t[U2] ∈ q) hoặc (t[U1] ∈ r và t[U2] ∈ s)} = {t | t[U1] ∈ r, t[U2] ∈ q} ∪ {t | t[U1] ∈ r, t[U2] ∈ s} = (r * q) ∪ (r * s).",
+        "Bước 4 — Chứng minh câu (c): Theo định nghĩa phép chiếu và phép hợp, (r ∪ s)[X] = {t[X] | t ∈ r ∪ s} = {t[X] | t ∈ r hoặc t ∈ s} = {t[X] | t ∈ r} ∪ {t[X] | t ∈ s} = r[X] ∪ s[X]."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Bài 13: Thiết kế mức quan niệm & Mô hình quan hệ Cửa hàng sửa chữa ô tô",
+      "problem": "Thiết kế CSDL cửa hàng sửa chữa ô tô: Khi khách hàng mang xe đến, nhân viên tư vấn viết một phiếu yêu cầu sửa chữa (xác định khách hàng, biển số xe, ngày sửa, nhân viên tư vấn, tổng chi phí). Một xe có thể cần nhiều loại dịch vụ trong một lần (thay dầu, bôi trơn, xoay lốp...); mỗi loại dịch vụ có số giờ định mức cố định và chi phí cố định theo giờ; mỗi chi tiết dịch vụ trên phiếu có ghi thợ sửa. Hãy: (a) Xây dựng mô hình mức quan niệm; (b) Chuyển sang mô hình quan hệ và xác định khóa chính, khóa ngoại.",
+      "solution_steps": [
+        "Bước 1 — Xác định các thực thể ở mức quan niệm: KHACHHANG(makh, hoten, sodt, mabuudien), PHIEUSUACHUA(ma_phieu, biensoxe, ngaysua, nvtuvan, tongchiphi), KIEUDICHVU(ma_dv, tendv, mota, sogio, chiphi).",
+        "Bước 2 — Xác định các mối liên kết và bản số: KHACHHANG (1..1) — có — PHIEUSUACHUA (0..*); PHIEUSUACHUA (0..*) — bao gồm — KIEUDICHVU (1..*) tạo thành thực thể liên kết CHITIETSUACHUA với thuộc tính riêng thosua.",
+        "Bước 3 — Chuyển sang mô hình quan hệ và gộp khóa chung cho quan hệ 1-n (đưa makh vào PHIEUSUACHUA): KHACHHANG(makh, hoten, sodt, mabuudien); PHIEUSUACHUA(ma_phieu, biensoxe, makh, ngaysua, nvtuvan, tongchiphi); KIEUDICHVU(ma_dv, tendv, mota, sogio, chiphi); CHITIETSUACHUA(ma_phieu, ma_dv, thosua).",
+        "Bước 4 — Chỉ rõ Khóa chính (PK) và Khóa ngoại (FK): KHACHHANG(PK: makh); KIEUDICHVU(PK: ma_dv); PHIEUSUACHUA(PK: ma_phieu; FK: makh -> KHACHHANG); CHITIETSUACHUA(PK: ma_phieu, ma_dv; FK: ma_phieu -> PHIEUSUACHUA, ma_dv -> KIEUDICHVU)."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Bài 14: Thiết kế mức quan niệm & Mô hình quan hệ Quản lý sách chuyên ngành thư viện",
+      "problem": "Quản lý sách chuyên ngành ở thư viện: Sách gồm ISBN (duy nhất), tiêu đề, năm xuất bản, thuộc một nhà xuất bản (mã NXB, tên, địa chỉ, SĐT) và thuộc một chuyên ngành (mã chuyên ngành, tên chuyên ngành, số kệ). Một cuốn sách có thể được viết bởi một hoặc nhiều tác giả; thông tin tác giả gồm mã tác giả, họ tên, email, địa chỉ làm việc. Hãy thiết kế mô hình mức quan niệm và chuyển sang mô hình quan hệ (chỉ rõ PK, FK).",
+      "solution_steps": [
+        "Bước 1 — Thiết kế mức quan niệm: Xác định 4 tập thực thể chính SACH(isbn, tieude, namxb), NHAXUATBAN(ma_nxb, hoten, diachi, sodt), CHUYENNGANH(ma_cn, ten_cn, soke), TACGIA(ma_tacgia, hoten, email, diachi).",
+        "Bước 2 — Xác định các mối quan hệ: NHAXUATBAN (1..1) — xuất bản — SACH (1..*); CHUYENNGANH (1..1) — thuộc — SACH (1..*); SACH (1..*) — viết bởi — TACGIA (1..*) tạo bảng liên kết n-n QUYENTACGIA.",
+        "Bước 3 — Chuyển sang mô hình quan hệ (đưa khóa phía 1 vào phía nhiều SACH): NHAXUATBAN(ma_nxb, hoten, diachi, sodt); CHUYENNGANH(ma_cn, ten_cn, soke); TACGIA(ma_tacgia, hoten, email, diachi); SACH(isbn, tieude, ma_nxb, ma_cn, namxb); QUYENTACGIA(isbn, ma_tacgia).",
+        "Bước 4 — Xác định PK và FK: NHAXUATBAN(PK: ma_nxb); CHUYENNGANH(PK: ma_cn); TACGIA(PK: ma_tacgia); SACH(PK: isbn; FK: ma_nxb -> NHAXUATBAN, ma_cn -> CHUYENNGANH); QUYENTACGIA(PK: isbn, ma_tacgia; FK: isbn -> SACH, ma_tacgia -> TACGIA)."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bài 15: Thiết kế mức quan niệm & Mô hình quan hệ Quản lý bài tập về nhà sinh viên",
+      "problem": "Trường Cao đẳng Kỹ thuật nghiên cứu lượng thời gian (số giờ) sinh viên dành cho bài tập về nhà mỗi tuần cho từng sinh viên và từng khóa học/lớp học mà sinh viên theo học. Thông tin gồm Sinh viên (masv, hoten, ngaysinh), Khóa học (makhoahoc, tenkhoahoc, hocky, ngaybatdau, ngayketthuc) và ghi nhận bài tập về nhà theo từng tuần. Hãy xây dựng mô hình mức quan niệm và chuyển sang mô hình quan hệ (xác định PK, FK).",
+      "solution_steps": [
+        "Bước 1 — Thiết kế mức quan niệm: Xác định 2 tập thực thể chính SINHVIEN(masv, hoten, ngaysinh) và KHOAHOC(makhoahoc, tenkhoahoc, hocky, ngaybatdau, ngayketthuc).",
+        "Bước 2 — Mô hình hóa mối quan hệ nhiều-nhiều theo thời gian: Giữa SINHVIEN (1..1/0..*) và KHOAHOC (1..1/0..*) có quan hệ ghi nhận thời gian làm bài tập mỗi tuần tạo thành thực thể liên kết BAITAPVENHA có thuộc tính tuan và sogio.",
+        "Bước 3 — Chuyển sang mô hình quan hệ gồm 3 lược đồ: SINHVIEN(masv, hoten, ngaysinh); KHOAHOC(makhoahoc, tenkhoahoc, hocky, ngaybatdau, ngayketthuc); BAITAPVENHA(masv, makhoahoc, tuan, sogio).",
+        "Bước 4 — Xác định PK và FK: SINHVIEN(PK: masv); KHOAHOC(PK: makhoahoc); BAITAPVENHA(PK: masv, makhoahoc, tuan; FK: masv -> SINHVIEN, makhoahoc -> KHOAHOC). Đưa tuan vào khóa chính để phân biệt số giờ của cùng một sinh viên trên cùng khóa học qua các tuần khác nhau."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bài 16: Thiết kế mức quan niệm & Mô hình quan hệ Công ty sản xuất phần mềm & chấm công",
+      "problem": "Công ty phần mềm phụ trách nhiều dự án (ma_du_an, ten_du_an, ngaybatdau, hanketthuc). Mỗi dự án có nhóm lập trình viên tham gia; mỗi nhân viên gồm manv, hoten, ngaysinh, email, sodt và thuộc một vị trí công việc (ma_vtcv, ten_cv, mota). Nhân viên tham gia dự án tại một thời điểm và được chấm công theo số giờ làm việc hàng tuần. Hãy vẽ mô hình mức quan niệm và chuyển sang mô hình quan hệ (PK, FK).",
+      "solution_steps": [
+        "Bước 1 — Xác định các tập thực thể mức quan niệm: DUAN(ma_du_an, ten_du_an, ngaybatdau, hanketthuc), NHANVIEN(manv, hoten, ngaysinh, email, sodt), VITRICONGVIEC(ma_vtcv, ten_cv, mota).",
+        "Bước 2 — Xác định các mối quan hệ: VITRICONGVIEC (1..1) — thuộc — NHANVIEN (1..*); NHANVIEN và DUAN tham gia quan hệ chấm công hàng tuần tạo bảng CHAMCONG với các thuộc tính tuan, sogio.",
+        "Bước 3 — Chuyển sang mô hình quan hệ: VITRICONGVIEC(ma_vtcv, ten_cv, mota); NHANVIEN(manv, hoten, ngaysinh, email, sodt, ma_vtcv); DUAN(ma_du_an, ten_du_an, ngaybatdau, hanketthuc); CHAMCONG(manv, ma_du_an, tuan, sogio).",
+        "Bước 4 — Xác định PK và FK: VITRICONGVIEC(PK: ma_vtcv); DUAN(PK: ma_du_an); NHANVIEN(PK: manv; FK: ma_vtcv -> VITRICONGVIEC); CHAMCONG(PK: manv, ma_du_an, tuan; FK: manv -> NHANVIEN, ma_du_an -> DUAN)."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bài 17: Chuyển đổi E-R Quản lý dự án công ty sang mô hình quan hệ",
+      "problem": "CSDL quản lý dự án của một công ty gồm các tập thực thể chính: NHANVIEN(MANV, HODEM, TEN, NGAYSINH, DIACHI, PHAI, LUONG), PHONGBAN(MAPB, TENPB, DIADIEM, NGAYNHANCHUC), DUAN(MADA, TENDA, DIADIEM) và THANNHAN(MANV, TENTN, PHAI, NGAYSINH, QUANHE). Quan hệ gồm: NHANVIEN thuộc PHONGBAN (n-1), NHANVIEN quản lý PHONGBAN (1-1), PHONGBAN chủ trì DUAN (1-n), NHANVIEN làm việc trên DUAN (n-n có thuộc tính SOGIO) và NHANVIEN có THANNHAN (1-n, thực thể yếu). Hãy chuyển sơ đồ E-R sang mô hình quan hệ và gộp khóa chung.",
+      "solution_steps": [
+        "Bước 1 — Biến đổi các tập thực thể: NHANVIEN(MANV, HODEM, TEN, NGAYSINH, DIACHI, PHAI, LUONG); PHONGBAN(MAPB, TENPB, DIADIEM); DUAN(MADA, TENDA, DIADIEM); THANNHAN(MANV, TENTN, PHAI, NGAYSINH, QUANHE) với khóa yếu là (MANV, TENTN).",
+        "Bước 2 — Biến đổi các mối quan hệ: THUOC(MANV, MAPB) khóa MANV; QUANLY(MANV_QL, MAPB, NGAYNHANCHUC) khóa MAPB hoặc MANV_QL; CHUTRI(MADA, MAPB) khóa MADA; PHANCONG(MANV, MADA, SOGIO) khóa (MANV, MADA).",
+        "Bước 3 — Gộp các lược đồ có khóa chung: Gộp NHANVIEN với THUOC theo khóa chung MANV; gộp PHONGBAN với QUANLY theo khóa chung MAPB; gộp DUAN với CHUTRI theo khóa chung MADA.",
+        "Bước 4 — Kết quả 5 lược đồ quan hệ hoàn chỉnh: NHANVIEN(MANV, HODEM, TEN, NGAYSINH, DIACHI, PHAI, LUONG, MAPB); PHONGBAN(MAPB, TENPB, DIADIEM, MANV_QL, NGAYNHANCHUC); DUAN(MADA, TENDA, DIADIEM, MAPB); PHANCONG(MANV, MADA, SOGIO); THANNHAN(MANV, TENTN, PHAI, NGAYSINH, QUANHE)."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Bài 18: Tính các biểu thức ĐSQH kết hợp chiếu, chọn, trừ, chia, nửa nối trên r và s",
+      "problem": "Cho hai quan hệ r(A, B, C, D, E) gồm 6 bộ: (a,c,c,e,a), (b,c,a,a,g), (b,a,c,h,a), (a,c,f,e,g), (b,b,c,e,a), (b,a,f,h,g) và s(D, E, F, G) gồm 3 bộ: (b,b,c,f), (g,h,a,c), (h,g,g,f). Hãy tính kết quả các biểu thức ĐSQH kết hợp: (a) Π_{D,E}(r) - Π_{D,E}(σ_{G='f'}(s)); (b) Π_{C,D,E}(r) ⋉ Π_{D,E}(s); (c) Π_{A,B,D,E}(r) ÷ Π_{D,E}(σ_{D='h'}(s)); (d) Π_{A,D,E}(r) * s.",
+      "solution_steps": [
+        "Bước 1 (Câu a — Phép chiếu, chọn, trừ): Π_{D,E}(r) = {(e,a), (a,g), (h,a), (e,g), (h,g)} (khử trùng bộ (e,a)). σ_{G='f'}(s) gồm 2 bộ có (D,E) là {(b,b), (h,g)}. Khi trừ đi, loại bỏ (h,g) khỏi Π_{D,E}(r) → Kết quả: {(e,a), (a,g), (h,a), (e,g)}.",
+        "Bước 2 (Câu b — Phép nửa nối): Π_{C,D,E}(r) = {(c,e,a), (a,a,g), (c,h,a), (f,e,g), (f,h,g)} và Π_{D,E}(s) = {(b,b), (g,h), (h,g)}. Bộ duy nhất trong r khớp (D,E) của s là (f,h,g) → Kết quả: Π_{C,D,E}(r) ⋉ Π_{D,E}(s) = {(f, h, g)}.",
+        "Bước 3 (Câu c — Phép chia): Π_{A,B,D,E}(r) = {(a,c,e,a), (b,c,a,g), (b,a,h,a), (a,c,e,g), (b,b,e,a), (b,a,h,g)} và Π_{D,E}(σ_{D='h'}(s)) = {(h,g)}. Tìm các cặp (A,B) ghép với (h,g) thuộc Π_{A,B,D,E}(r) → Kết quả: {(b, a)}.",
+        "Bước 4 (Câu d — Phép kết nối tự nhiên): Π_{A,D,E}(r) = {(a,e,a), (b,a,g), (b,h,a), (a,e,g), (b,e,a), (b,h,g)}. Kết nối tự nhiên trên thuộc tính chung (D,E) với s chỉ khớp tại (D,E) = (h,g) ghép với bộ (h,g,g,f) → Kết quả trên (A,D,E,F,G): {(b, h, g, g, f)}."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Bài 19–20: Tính kết quả và viết biểu thức ĐSQH cho CSDL bán cà phê",
+      "problem": "Cho CSDL bán cà phê: THUCUONG(MATU, TENTU, LOAI, GIA) [(TU01,Expresso,Cà phê,15.000), (TU02,Capuchino,Cà phê,25.000), (TU03,Nước chanh,Nước trái cây,15.000), (TU04,Sâm dứa,Nước trái cây,20.000)]; BAN(MABAN, TENBAN, TRANGTHAI) [(BA01,Bàn số 1,0), (BA02,Bàn số 2,1), (BA03,Bàn số 3,NULL)]; HOADON(MAHD, MABAN, THOIGIAN, TRANGTHAI) [(HD01,BA01,7/9/2021 09:30:00,0), (HD02,BA02,7/9/2021 10:30:00,1), (HD03,BA03,6/9/2021 09:20:00,1), (HD04,BA02,7/9/2021 15:30:00,0)]; HOADONCT(MAHD, MATU, SOLUONG) [(HD01,TU01,2), (HD01,TU02,1), (HD02,TU01,5), (HD03,TU01,1), (HD03,TU03,2), (HD04,TU01,3)]. Thực hiện: (1) Tính kết quả Bài 19: Π_{MABAN,THOIGIAN}(HOADON), HOADONCT * BAN, Π_{MATU,TENTU}(HOADONCT * THUCUONG), Π_{TENBAN}((σ_{MATU='TU01'}(HOADONCT) * HOADON) * Π_{MABAN,TENBAN}(BAN)); (2) Viết biểu thức ĐSQH Bài 20: (a) Tên thức uống giá > 20.000; (b) Tên bàn đang trống (TRANGTHAI=0); (c) Loại thức uống bán sáng 7/9/2021; (d) Mã hóa đơn bán hơn 2 ly Expresso.",
+      "solution_steps": [
+        "Bước 1 — Kết quả Bài 19 (chiếu và kết nối): Π_{MABAN,THOIGIAN}(HOADON) trả về 4 bộ {(BA01,7/9/2021 09:30:00), (BA02,7/9/2021 10:30:00), (BA03,6/9/2021 09:20:00), (BA02,7/9/2021 15:30:00)}. HOADONCT * BAN do không có thuộc tính chung nên thành tích Descartes gồm 6 × 3 = 18 bộ.",
+        "Bước 2 — Kết quả Bài 19 (tiếp): Π_{MATU,TENTU}(HOADONCT * THUCUONG) = {(TU01, Expresso), (TU02, Capuchino), (TU03, Nước chanh)}. Với những bàn đã gọi TU01: Π_{TENBAN}((σ_{MATU='TU01'}(HOADONCT) * HOADON) * Π_{MABAN,TENBAN}(BAN)) = {Bàn số 1, Bàn số 2, Bàn số 3}.",
+        "Bước 3 — Viết ĐSQH Bài 20 (a & b): (a) Π_TENTU(σ_{GIA > 20000}(THUCUONG)) → {Capuchino}. (b) Π_TENBAN(σ_{TRANGTHAI = 0}(BAN)) → {Bàn số 1}.",
+        "Bước 4 — Viết ĐSQH Bài 20 (c & d): (c) Π_LOAI(σ_{THOIGIAN >= '7/9/2021 00:00:00' and THOIGIAN < '7/9/2021 12:00:00'}(HOADON) * HOADONCT * THUCUONG) → {Cà phê}. (d) Π_MAHD(σ_{TENTU='Expresso'}(THUCUONG) * σ_{SOLUONG > 2}(HOADONCT)) → {HD02, HD04}."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Bài 21: Thiết kế mức quan niệm & Mô hình quan hệ Đại lý tạp hóa bán sỉ & lẻ",
+      "problem": "Một đại lý tạp hóa quản lý: Nhà cung cấp (MANCC, TENNCC, DIACHI, SDT), Loại hàng (MALOAI, TENLOAI), Mặt hàng (MAHANG, TENHANG, DONVITINH, QUYCACH, SLTON) thuộc 1 loại hàng; cần lưu NCC nào cung ứng được mặt hàng nào. Cửa hàng lập Đơn đặt hàng (SODH, NGAYDH, TONGSOMH) gửi 1 NCC, ghi số lượng đặt từng mặt hàng (chỉ đặt hàng NCC có cung ứng). Khi giao, NCC giao Phiếu giao hàng (SOPG, NGAYGIAO) ứng với 1 đơn đặt hàng (tối đa 3 lần, trễ không quá 7 ngày), ghi số lượng giao và đơn giá. Khách hàng (MAKH, TENKH, DIACHI, SDT) mua hàng qua Hóa đơn bán hàng (SOHD, NGAYLAP) kèm chi tiết mặt hàng, số lượng, đơn giá mua. Hãy vẽ mô hình mức quan niệm và chuyển sang mô hình quan hệ (xác định PK, FK).",
+      "solution_steps": [
+        "Bước 1 — Xác định các tập thực thể mức quan niệm: NHACUNGCAP, LOAIHANG, MATHANG, DONDATHANG, PHIEUGIAOHANG, KHACHHANG, HOADONBAN.",
+        "Bước 2 — Xác định các mối quan hệ: LOAIHANG (1-n) MATHANG; NHACUNGCAP (n-n) MATHANG qua CUNGUNG; NHACUNGCAP (1-n) DONDATHANG; DONDATHANG (n-n) MATHANG qua CHITIETDATHANG(SLDAT); DONDATHANG (1-n) PHIEUGIAOHANG; PHIEUGIAOHANG (n-n) MATHANG qua CHITIETGIAOHANG(SLGIAO, DONGIA); KHACHHANG (1-n) HOADONBAN; HOADONBAN (n-n) MATHANG qua CHITIETHOADON(SLMUA, DONGIAMUA).",
+        "Bước 3 — Chuyển sang mô hình quan hệ (gộp khóa chung phía nhiều cho các quan hệ 1-n): LOAIHANG(MALOAI, TENLOAI); NHACUNGCAP(MANCC, TENNCC, DIACHI, SDT); MATHANG(MAHANG, TENHANG, DONVITINH, QUYCACH, SLTON, MALOAI); CUNGUNG(MANCC, MAHANG); DONDATHANG(SODH, NGAYDH, TONGSOMH, MANCC); CHITIETDATHANG(SODH, MAHANG, SLDAT); PHIEUGIAOHANG(SOPG, NGAYGIAO, SODH); CHITIETGIAOHANG(SOPG, MAHANG, SLGIAO, DONGIA); KHACHHANG(MAKH, TENKH, DIACHI, SDT); HOADONBAN(SOHD, NGAYLAP, MAKH); CHITIETHOADON(SOHD, MAHANG, SLMUA, DONGIAMUA).",
+        "Bước 4 — Xác định PK và FK tiêu biểu: Các bảng thực thể giữ PK gốc (MALOAI, MANCC, MAHANG, SODH, SOPG, MAKH, SOHD) kèm FK từ phía 1 (MATHANG.MALOAI, DONDATHANG.MANCC, PHIEUGIAOHANG.SODH, HOADONBAN.MAKH); 4 bảng liên kết n-n lấy cặp mã làm khóa chính ghép và khóa ngoại tương ứng."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Bài 22: Thiết kế mức quan niệm & Mô hình quan hệ Quản lý đăng ký chuyên đề đại học",
+      "problem": "Phòng giáo vụ quản lý đăng ký học chuyên đề: Mỗi Sinh viên (MASV, HOTEN, PHAI, NGAYSINH, DIACHI) theo học một Ngành duy nhất. Mỗi Ngành (MANGANH, TENNGANH, TONGSV, SOCHUYENDE <= 5) có quy định trước danh sách các Chuyên đề bắt buộc của ngành. Mỗi Chuyên đề (MACD, TENCD) có tên và mã duy nhất. Đầu mỗi học kỳ (HOCKY ∈ {1,2}) của mỗi năm học (NAMHOC), phòng giáo vụ mở các chuyên đề kèm số sinh viên tối đa có thể nhận (SOSVTOIDA). Sinh viên chỉ được đăng ký các chuyên đề được mở và tối đa 3 chuyên đề mỗi học kỳ. Hãy thiết kế mô hình mức quan niệm và chuyển sang mô hình quan hệ (PK, FK).",
+      "solution_steps": [
+        "Bước 1 — Xác định các tập thực thể mức quan niệm: SINHVIEN(MASV, HOTEN, PHAI, NGAYSINH, DIACHI), NGANH(MANGANH, TENNGANH, TONGSV, SOCHUYENDE), CHUYENDE(MACD, TENCD).",
+        "Bước 2 — Xác định các mối quan hệ và thực thể liên kết: NGANH (1-n) SINHVIEN; NGANH (n-n) CHUYENDE qua QUYDINHCHUYENDE; mở lớp chuyên đề theo năm học/học kỳ qua MOCHUYENDE(NAMHOC, HOCKY, MACD, SOSVTOIDA); sinh viên đăng ký chuyên đề được mở qua DANGKY(MASV, MACD, NAMHOC, HOCKY).",
+        "Bước 3 — Chuyển sang mô hình quan hệ (gộp khóa chung đưa MANGANH vào SINHVIEN): NGANH(MANGANH, TENNGANH, TONGSV, SOCHUYENDE); SINHVIEN(MASV, HOTEN, PHAI, NGAYSINH, DIACHI, MANGANH); CHUYENDE(MACD, TENCD); QUYDINHCD(MANGANH, MACD); MOCHUYENDE(NAMHOC, HOCKY, MACD, SOSVTOIDA); DANGKY(MASV, NAMHOC, HOCKY, MACD).",
+        "Bước 4 — Xác định PK, FK và ràng buộc toàn vẹn: NGANH(PK: MANGANH); SINHVIEN(PK: MASV; FK: MANGANH -> NGANH); CHUYENDE(PK: MACD); QUYDINHCD(PK: MANGANH, MACD; FK: MANGANH, MACD); MOCHUYENDE(PK: NAMHOC, HOCKY, MACD; FK: MACD -> CHUYENDE); DANGKY(PK: MASV, NAMHOC, HOCKY, MACD; FK: MASV -> SINHVIEN, (NAMHOC, HOCKY, MACD) -> MOCHUYENDE) để đảm bảo sinh viên chỉ đăng ký chuyên đề có mở trong học kỳ đó."
+      ]
+    }
+  ]
+}

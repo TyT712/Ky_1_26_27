@@ -1,0 +1,1163 @@
+{
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Mục đích chính của tối ưu hóa câu hỏi trong hệ quản trị CSDL quan hệ là gì?",
+      "options": {
+        "A": "Tìm ra một phương án thực thi trong số tất cả các phương án tương đương có chi phí nhỏ nhất",
+        "B": "Viết lại câu truy vấn SQL cho ngắn gọn hơn về mặt cú pháp",
+        "C": "Xóa bớt các bộ dữ liệu dư thừa trong các bảng của CSDL",
+        "D": "Chuyển đổi toàn bộ CSDL sang mô hình phân cấp để đọc nhanh hơn"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 6.1, mục đích của tối ưu hóa câu hỏi là tìm ra một phương án thực thi trong số tất cả các phương án tương đương có thể có (luôn cho cùng kết quả) với chi phí nhỏ nhất.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Khi nhận được một câu hỏi của người dùng, bộ xử lý câu hỏi thực hiện kiểm tra gì đầu tiên?",
+      "options": {
+        "A": "Kiểm tra dung lượng đĩa cứng còn trống",
+        "B": "Kiểm tra cú pháp câu hỏi và sự tồn tại của các quan hệ, thuộc tính trong CSDL",
+        "C": "Thực hiện ngay phép kết nối tất cả các bảng liên quan",
+        "D": "Tính toán chi phí CPU của câu hỏi"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 6.1, bộ xử lý câu hỏi trước hết kiểm tra xem câu hỏi có đúng cú pháp hay không, các quan hệ và thuộc tính trong câu hỏi có trong CSDL hay không.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Một phương án thực thi câu hỏi (execution plan) xác định điều gì?",
+      "options": {
+        "A": "Danh sách người dùng được phép truy cập bảng dữ liệu",
+        "B": "Cấu trúc vật lý của ổ đĩa cứng lưu trữ CSDL",
+        "C": "Một dãy các bước định giá câu hỏi, mỗi bước ứng với một phép toán ĐSQH kèm phương pháp thực hiện",
+        "D": "Số lượng bảng tối đa có thể lưu trữ trong bộ nhớ chính"
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình Mục 6.1 định nghĩa phương án thực thi câu hỏi xác định một dãy các bước cho việc định giá câu hỏi, mỗi bước ứng với một phép toán đại số quan hệ cùng chú giải phương pháp định giá phép toán đó.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Trong sơ đồ xử lý câu truy vấn trên một hệ QTCSDL, bước nào diễn ra ngay sau bước Phân tích ngữ nghĩa (Parse Query)?",
+      "options": {
+        "A": "Thực thi (Execute plan)",
+        "B": "Xây dựng kế hoạch truy vấn vật lý",
+        "C": "Loại bỏ các chỉ mục không cần thiết",
+        "D": "Tạo cây biểu thức rồi xây dựng kế hoạch truy vấn logic"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo sơ đồ Mục 6.1: Câu hỏi (SQL Query) -> Phân tích ngữ nghĩa (Parse Query) -> Cây biểu thức -> Xây dựng kế hoạch truy vấn logic -> Câu truy vấn logic -> Xây dựng kế hoạch truy vấn vật lý -> Thực thi.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Giai đoạn lên phương án thực thi câu truy vấn trải qua hai bước nào?",
+      "options": {
+        "A": "Tối ưu logic câu truy vấn và tối ưu vật lý câu truy vấn",
+        "B": "Phân tích từ vựng và phân tích cú pháp",
+        "C": "Sao lưu dữ liệu và phục hồi dữ liệu",
+        "D": "Thiết kế lược đồ khái niệm và thiết kế giao diện"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.1 nêu rõ giai đoạn lên phương án trải qua hai bước: tối ưu logic câu truy vấn và tối ưu vật lý câu truy vấn.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Trong phần lớn các thao tác CSDL, thành phần chi phí nào có tính chi phối (vượt trội)?",
+      "options": {
+        "A": "Chi phí hiển thị kết quả lên màn hình",
+        "B": "Chi phí vào ra (I/O) giữa bộ nhớ chính và bộ nhớ thứ cấp",
+        "C": "Chi phí biên dịch câu lệnh SQL",
+        "D": "Chi phí truyền tải qua mạng LAN nội bộ"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.1 khẳng định với phần lớn các thao tác CSDL, chi phí vào ra (I/O) là chi phí chi phối do dữ liệu quá lớn không chứa hết trong bộ nhớ chính nên phải truyền giữa RAM và đĩa từ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Để định giá chi phí xử lý trên CPU của một phương án thực thi câu hỏi, người ta thường dùng đại lượng nào?",
+      "options": {
+        "A": "Dung lượng bộ nhớ đệm L1 của CPU",
+        "B": "Số lượng bảng có trong lược đồ CSDL",
+        "C": "Số các phép so sánh để lấy ra số các bộ cần tìm",
+        "D": "Số lượng ký tự có trong câu truy vấn SQL"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 6.1, để định giá chi phí CPU, ta dùng số các phép so sánh để lấy ra số các bộ cần tìm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Tổng chi phí định giá một phương án thực thi câu hỏi được tính bằng công thức nào?",
+      "options": {
+        "A": "Chi phí I/O nhân với chi phí CPU",
+        "B": "Chi phí lưu trữ trừ chi phí mạng",
+        "C": "Chi phí I/O chia cho tốc độ đọc đĩa",
+        "D": "Tổng của chi phí I/O và chi phí xử lý trên CPU"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 6.1 và Tóm tắt Chương 6 nêu rõ: Chi phí định giá một phương án thực thi câu hỏi là tổng của chi phí I/O và chi phí xử lý trên CPU.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Khi thỏa hiệp trong tối ưu hóa câu hỏi, người ta thường ưu tiên yếu tố nào hơn?",
+      "options": {
+        "A": "Ưu tiên tối ưu về thời gian xử lý hơn là tối ưu về lưu trữ dữ liệu",
+        "B": "Ưu tiên tiết kiệm từng byte đĩa cứng bất chấp thời gian chờ",
+        "C": "Ưu tiên giữ nguyên thứ tự viết câu SQL của người dùng",
+        "D": "Ưu tiên giảm số lượng cột hiển thị bất kể yêu cầu bài toán"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.1 nêu rõ thường người ta ưu tiên việc tối ưu về thời gian hơn là tối ưu về lưu trữ dữ liệu vì dung lượng đĩa cứng hiện nay rất lớn nhưng thời gian chờ lâu thì khó chấp nhận.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Nếu quan hệ r có n1 bộ và quan hệ s có n2 bộ thì tích Descartes r × s cho kết quả gồm bao nhiêu bộ?",
+      "options": {
+        "A": "n1 + n2 bộ",
+        "B": "n1 * n2 bộ",
+        "C": "max(n1, n2) bộ",
+        "D": "min(n1, n2) bộ"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 6.1, nếu r có n1 bộ giá trị và s có n2 bộ giá trị thì tích Descartes r × s cho kết quả là một bảng mới với n1 * n2 bộ giá trị.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Nếu r có n thuộc tính và s có m thuộc tính thì tích Descartes r × s tạo ra bảng mới có bao nhiêu thuộc tính?",
+      "options": {
+        "A": "n * m thuộc tính",
+        "B": "|n - m| thuộc tính",
+        "C": "n + m thuộc tính",
+        "D": "max(n, m) thuộc tính"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 6.1, tích Descartes của r (n thuộc tính) và s (m thuộc tính) tạo ra bảng mới gồm n + m thuộc tính.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "Tập tất cả các phương án thực thi tương đương đối với một câu hỏi được gọi là gì?",
+      "options": {
+        "A": "Lược đồ quan hệ chuẩn tắc",
+        "B": "Bộ nhớ thứ cấp",
+        "C": "Bảng chỉ mục (Index)",
+        "D": "Không gian tìm kiếm cho tối ưu hóa câu hỏi"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 6.1 định nghĩa: Tập tất cả các phương án thực thi tương đương là không gian tìm kiếm cho tối ưu hóa câu hỏi.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "Nhận định nào sau đây đúng về giai đoạn tối ưu logic câu truy vấn?",
+      "options": {
+        "A": "Giai đoạn này không tính chi phí thực hiện",
+        "B": "Giai đoạn này luôn tính chính xác số thao tác I/O trên đĩa từ",
+        "C": "Giai đoạn này diễn ra sau khi câu truy vấn đã thực thi xong",
+        "D": "Giai đoạn này bỏ qua việc kiểm tra biểu thức đại số quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 6.1, quá trình tối ưu logic thực hiện phân tích câu hỏi, đưa về chuẩn tắc, tối ưu biểu thức ĐSQH, thực hiện nửa nối và không tính chi phí thực hiện.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Giáo trình trình bày bao nhiêu phương pháp tổng quát cơ bản để tối ưu hóa câu hỏi trên CSDL quan hệ?",
+      "options": {
+        "A": "2 phương pháp",
+        "B": "4 phương pháp",
+        "C": "6 phương pháp",
+        "D": "8 phương pháp"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.3 đưa ra 4 phương pháp tối ưu cơ bản: biến đổi ĐSQH, phân rã câu hỏi, phép nửa nối và ước lượng chi phí.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Chiến lược thứ nhất trong 6 chiến lược tối ưu hóa câu hỏi của J.D. Ullman là gì?",
+      "options": {
+        "A": "Thực hiện tích Descartes trước rồi mới chiếu",
+        "B": "Xóa bỏ mọi phép chiếu trong câu hỏi",
+        "C": "Thực hiện phép chọn càng sớm càng tốt",
+        "D": "Luôn thực hiện phép kết nối trước phép chọn"
+      },
+      "correct_answer": "C",
+      "explanation": "Chiến lược 1 của J.D. Ullman (Mục 6.3) là 'Thực hiện phép chọn càng sớm càng tốt' để giảm số bộ tham gia và thu nhỏ kết quả trung gian.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "Trong chiến lược 5 của J.D. Ullman (Xử lý các quan hệ trước), hai công việc quan trọng cần làm trước khi truy vấn là gì?",
+      "options": {
+        "A": "Nén tệp dữ liệu và phân mảnh ngang bảng",
+        "B": "Tạo View cho mọi bảng và xóa khóa ngoại",
+        "C": "Chuyển dữ liệu sang dạng văn bản và sao chép sang RAM",
+        "D": "Sắp xếp trước các bộ giá trị và thiết lập các bảng chỉ mục (Index)"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 6.3, chiến lược 5 nêu rõ 2 vấn đề quan trọng cần làm trước là sắp xếp trước các bộ giá trị và thiết lập bảng chỉ mục (Index) cho các bảng dữ liệu.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "question": "Hai quan hệ được gọi là tương đương khi và chỉ khi nào?",
+      "options": {
+        "A": "Chúng có cùng một tập các bộ",
+        "B": "Chúng có cùng tên bảng trong CSDL",
+        "C": "Chúng chỉ có cùng số lượng thuộc tính nhưng khác giá trị bộ",
+        "D": "Chúng được lưu trữ trên cùng một phân vùng đĩa"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.4.1 nêu: Hai quan hệ là tương đương khi và chỉ khi chúng có cùng một tập các bộ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Hai biểu thức đại số quan hệ E1 và E2 được gọi là tương đương (E1 ≡ E2) khi nào?",
+      "options": {
+        "A": "Khi chúng có số lượng phép toán bằng nhau",
+        "B": "Khi thay thế cùng các quan hệ vào các biến lược đồ tương ứng ở E1 và E2 thì chúng cho ra cùng một kết quả",
+        "C": "Khi chúng đều sử dụng phép tích Descartes",
+        "D": "Khi thời gian thực thi của E1 và E2 trên máy tính bằng nhau"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 6.4.1, E1 và E2 tương đương nếu thay thế cùng các quan hệ vào tên các lược đồ tương ứng ở 2 biểu thức thì chúng luôn cho ra cùng một kết quả.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Quy tắc 1 trong các quy tắc biến đổi đại số quan hệ (Mục 6.4.2) phát biểu điều gì?",
+      "options": {
+        "A": "Thay phép chọn và tích Descartes bằng phép kết nối",
+        "B": "Tính kết hợp của phép kết nối tự nhiên",
+        "C": "Phép chọn có điều kiện hội F1 AND F2 có thể tách thành chuỗi các phép chọn và giao hoán thứ tự",
+        "D": "Giao hoán phép chiếu với phép hợp"
+      },
+      "correct_answer": "C",
+      "explanation": "Quy tắc 1 (Mục 6.4.2): σ_{F1 AND F2}(r) = σ_{F1}(σ_{F2}(r)) = σ_{F2}(σ_{F1}(r)), cho phép tách một phép chọn thành dãy các phép chọn trên cùng quan hệ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Quy tắc 4 trong các quy tắc biến đổi đại số quan hệ (Mục 6.4.2) đề cập đến tính chất nào?",
+      "options": {
+        "A": "Tính phân phối của phép chiếu đối với phép hiệu",
+        "B": "Tính đối xứng của phép chia",
+        "C": "Tính phản xạ của phép chọn",
+        "D": "Tính kết hợp của phép kết nối và phép tích Descartes"
+      },
+      "correct_answer": "D",
+      "explanation": "Quy tắc 4 (Mục 6.4.2) là tính kết hợp của phép kết nối và phép tích Descartes: (E1 * E2) * E3 = E1 * (E2 * E3) và (E1 × E2) × E3 = E1 × (E2 × E3).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "Theo Quy tắc 5 (Mục 6.4.2), biểu thức σ_F(r1 × r2) với điều kiện F có dạng r1.A op r2.B có thể thay thế tương đương bằng phép toán nào?",
+      "options": {
+        "A": "Phép kết nối r1 ⋈_F r2",
+        "B": "Phép hợp r1 ∪ r2",
+        "C": "Phép hiệu r1 - r2",
+        "D": "Phép chiếu Π_F(r1)"
+      },
+      "correct_answer": "A",
+      "explanation": "Quy tắc 5 (Mục 6.4.2) cho phép thay phép chọn theo sau phép tích Descartes σ_F(r1 × r2) bằng phép kết nối r1 ⋈_F r2.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Trong cây đại số biểu diễn câu hỏi (Mục 6.4.5), các nút lá biểu diễn thành phần nào?",
+      "options": {
+        "A": "Các phép toán chọn và chiếu",
+        "B": "Các quan hệ ban đầu trong câu hỏi",
+        "C": "Kết quả cuối cùng trả về cho người dùng",
+        "D": "Các chỉ mục phụ của hệ thống"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 6.4.5, trong cây đại số, các nút lá biểu diễn các quan hệ, nút trung gian biểu diễn các phép toán ĐSQH và nút gốc biểu diễn kết quả câu hỏi.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "Trong cây đại số biểu diễn câu hỏi, nút gốc (root) biểu diễn thành phần nào?",
+      "options": {
+        "A": "Các quan hệ gốc chưa lọc",
+        "B": "Các điều kiện chọn đơn",
+        "C": "Kết quả của câu hỏi",
+        "D": "Bảng mô tả thuộc tính"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 6.4.5 nêu rõ: nút gốc của cây đại số biểu diễn kết quả của câu hỏi.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "question": "Từ cây đại số, phương án thực thi câu hỏi được tạo ra bằng cách đi dọc theo cây theo chiều nào?",
+      "options": {
+        "A": "Từ gốc xuống lá",
+        "B": "Từ nút trung gian bất kỳ sang ngang",
+        "C": "Ngẫu nhiên qua các nút lá",
+        "D": "Từ lá tới gốc"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 6.4.5, từ cây đại số có thể tạo ra một phương án thực thi bằng cách đi dọc theo cây từ lá tới gốc.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "Mục đích chính của việc sử dụng phép nửa nối (Semijoin) trong tối ưu hóa câu hỏi là gì?",
+      "options": {
+        "A": "Giảm kích thước của quan hệ trước khi tham gia phép kết nối tiếp theo",
+        "B": "Tăng số lượng thuộc tính của quan hệ kết quả",
+        "C": "Thay thế hoàn toàn phép chọn một ngôi",
+        "D": "Tạo tích Descartes đầy đủ giữa hai bảng"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.3 và 6.6 nêu rõ: dùng phép nửa nối để giảm kích thước của quan hệ trước khi tham gia kết nối, nhằm giảm thao tác vào/ra và tăng tốc độ thực hiện.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "Quá trình tối ưu logic câu truy vấn (sau phân tích ngữ nghĩa) thực hiện công việc nào sau đây?",
+      "options": {
+        "A": "Đo chính xác thời gian quay của đầu đọc đĩa cứng",
+        "B": "Loại bỏ câu vô nghĩa/tương đương, đưa sơ đồ về dạng chuẩn tắc, tối ưu biểu thức ĐSQH và thực hiện nửa nối",
+        "C": "Chọn thuật toán sắp xếp ngoài phù hợp dung lượng bộ nhớ đệm",
+        "D": "Cấp phát bộ nhớ RAM cho kết quả cuối cùng"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.1 liệt kê 3 việc của tối ưu logic: phân tích loại bỏ câu vô nghĩa/tương đương/chung chung; đưa sơ đồ về dạng chuẩn tắc; tối ưu biểu thức ĐSQH và thực hiện nửa nối (và không tính chi phí thực hiện).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "Trong ví dụ về bảng nhân khẩu (Mục 6.1), nếu máy xử lý được 1.000 bản ghi trong 1 giây thì để xử lý 4.000.000 bản ghi máy tốn bao nhiêu thời gian?",
+      "options": {
+        "A": "40 giây",
+        "B": "400 giây",
+        "C": "4.000 giây",
+        "D": "40.000 giây"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 6.1: 4.000.000 / 1.000 = 4.000 giây, một thời gian chờ khó chấp nhận đối với người dùng truy vấn.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Cho 2 quan hệ r và s, mỗi quan hệ có 10 thuộc tính, chứa 1.000 bộ và mỗi trường rộng 5 byte. Bảng trung gian tạo bởi tích Descartes r × s chiếm dung lượng khoảng bao nhiêu?",
+      "options": {
+        "A": "1 MB",
+        "B": "10 MB",
+        "C": "50 MB",
+        "D": "100 MB (tức 1/10 GB)"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo ví dụ Mục 6.1: r × s có 20 thuộc tính và 1.000 × 1.000 = 1.000.000 bộ. Mỗi bộ rộng 20 × 5 = 100 byte, tổng cộng 100.000.000 byte ≈ 1/10 GB.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "Nếu một câu hỏi có m phép toán và mỗi phép toán có k phương pháp cài đặt khác nhau, số lượng các phương án thực thi tương đương có thể lên tới bao nhiêu?",
+      "options": {
+        "A": "(m!) · k^m",
+        "B": "m · k",
+        "C": "m^k",
+        "D": "k! · m"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.1 nêu số các phương án thực thi tương đương có thể lên tới (m!) · k^m.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "Vì sao tối ưu hóa câu hỏi trong thực tế thường được hiểu là tìm một phương án tương đối hiệu quả, gần với tối ưu thay vì tối ưu tuyệt đối?",
+      "options": {
+        "A": "Vì ngôn ngữ SQL không hỗ trợ các phép toán tối ưu",
+        "B": "Vì tìm phương án tốt nhất rất tốn thời gian và đòi hỏi thông tin chi tiết về cài đặt/nội dung tệp thường không có sẵn trong thư mục DBMS",
+        "C": "Vì các phương án tương đương luôn cho thời gian thực thi bằng nhau",
+        "D": "Vì CPU hiện đại không cần tối ưu truy vấn"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.1 giải thích bài toán tìm phương án tối ưu tuyệt đối rất khó, tốn nhiều thời gian và cần thông tin chi tiết về tệp thường không có sẵn trong thư mục của hệ QTCSDL.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "Trong ví dụ Mục 6.2 (NCC 100 bộ, NCCMH 10.000 bộ, có 50 bộ SHMH='P2'), biểu thức chưa tối ưu Π_HT(σ_{SHMH='P2'}(NCCMH * NCC)) phải thực hiện bao nhiêu thao tác I/O cho bộ?",
+      "options": {
+        "A": "10.100 thao tác",
+        "B": "20.100 thao tác",
+        "C": "30.100 thao tác",
+        "D": "40.100 thao tác"
+      },
+      "correct_answer": "C",
+      "explanation": "Bước 1: đọc 10.000 bộ NCCMH + đọc 100 bộ NCC + ghi 10.000 bộ kết quả ra đĩa = 20.100 I/O. Bước 2: đọc lại 10.000 bộ để chọn ra 50 bộ giữ trong RAM = 10.000 I/O. Tổng = 30.100 thao tác I/O.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "question": "Trong ví dụ Mục 6.2 (NCC 100 bộ, NCCMH 10.000 bộ, 50 bộ SHMH='P2'), biểu thức đã tối ưu Π_HT(σ_{SHMH='P2'}(NCCMH) * NCC) tốn bao nhiêu thao tác I/O cho bộ?",
+      "options": {
+        "A": "5.100 thao tác",
+        "B": "10.050 thao tác",
+        "C": "20.100 thao tác",
+        "D": "10.100 thao tác"
+      },
+      "correct_answer": "D",
+      "explanation": "Bước 1: đọc 10.000 bộ NCCMH để lọc 50 bộ giữ trong RAM. Bước 2: đọc 100 bộ NCC để kết nối trong RAM. Bước 3: chiếu trong RAM. Tổng = 10.000 + 100 = 10.100 thao tác I/O.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Nguyên nhân chủ yếu giúp biểu thức tối ưu trong Mục 6.2 tiết kiệm được 20.000 thao tác I/O so với biểu thức chưa tối ưu là gì?",
+      "options": {
+        "A": "Không phải ghi 10.000 bộ kết quả kết nối trung gian ra đĩa rồi đọc lại 10.000 bộ đó",
+        "B": "Bỏ qua hoàn toàn việc đọc bảng NCCMH",
+        "C": "Không cần thực hiện phép chiếu lên thuộc tính HT",
+        "D": "Thay đổi kết quả truy vấn từ 50 bộ xuống còn 1 bộ"
+      },
+      "correct_answer": "A",
+      "explanation": "Nhờ đẩy phép chọn SHMH='P2' xuống trước phép kết nối, kết quả trung gian chỉ còn 50 bộ đủ nhỏ để giữ trong bộ nhớ chính, tránh được 10.000 lần ghi và 10.000 lần đọc lại trên đĩa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "question": "Trong Bài tập 1 Chương 6 (MH có 1.000 bộ, NCCMH có 10.000 bộ với 500 bộ có SHNCC='N1'), tổng chi phí I/O của phương án chưa tối ưu và phương án tối ưu lần lượt là bao nhiêu?",
+      "options": {
+        "A": "30.100 và 10.100",
+        "B": "31.000 và 11.000",
+        "C": "21.000 và 1.500",
+        "D": "11.000 và 1.000"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Lời giải Bài 1: BT(1) đọc 10.000 + đọc 1.000 + ghi 10.000 + đọc 10.000 = 31.000 I/O; BT(2) đọc 10.000 + đọc 1.000 = 11.000 I/O.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "Theo Chiến lược 2 của J.D. Ullman, khi nào nên tổ hợp phép chọn và tích Descartes thành phép kết nối?",
+      "options": {
+        "A": "Khi bảng kết quả cần trả về mọi thuộc tính của cả hai bảng mà không có điều kiện lọc",
+        "B": "Khi hai bảng không có thuộc tính chung nào",
+        "C": "Khi kết quả của tích Descartes r × s là đối số của phép chọn liên quan tới phép so sánh giữa các thuộc tính của r và s",
+        "D": "Khi phép chọn chỉ chứa hằng số trên một bảng duy nhất"
+      },
+      "correct_answer": "C",
+      "explanation": "Chiến lược 2 (Mục 6.3) nêu: nếu kết quả của tích Descartes r × s là đối số của phép chọn liên quan tới các phép so sánh giữa các thuộc tính của r và s thì nên tổ hợp lại thành phép kết nối (đặc biệt là kết nối bằng).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "question": "Chiến lược 3 của J.D. Ullman khuyến nghị điều gì đối với dãy các phép toán quan hệ một ngôi (như phép chọn, phép chiếu)?",
+      "options": {
+        "A": "Tách mỗi phép chọn thành nhiều bảng riêng trên đĩa",
+        "B": "Chuyển tất cả phép chiếu thành phép kết nối tự nhiên",
+        "C": "Thực hiện phép chiếu trước khi phân tích cú pháp",
+        "D": "Nhóm một dãy các phép toán một ngôi liên tiếp lại nhằm làm giảm số phép toán"
+      },
+      "correct_answer": "D",
+      "explanation": "Chiến lược 3 (Mục 6.3): Một dãy các phép một ngôi như phép chọn hoặc phép chiếu có thể nhóm lại nhằm làm giảm đi số phép toán.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Theo Chiến lược 4 của J.D. Ullman, khi phát hiện một biểu thức con chung (xuất hiện nhiều lần) cho kết quả không lớn, ta nên xử lý thế nào?",
+      "options": {
+        "A": "Tính toán biểu thức đó trước và thường đưa kết quả thành một View",
+        "B": "Tính lại biểu thức đó mỗi lần nó xuất hiện để tiết kiệm RAM",
+        "C": "Loại bỏ hoàn toàn biểu thức con chung khỏi câu truy vấn",
+        "D": "Thay thế biểu thức con chung bằng tích Descartes"
+      },
+      "correct_answer": "A",
+      "explanation": "Chiến lược 4 (Mục 6.3): Nếu kết quả của biểu thức con chung không lớn và đọc từ bộ nhớ thứ cấp tốn ít thời gian, nên tính trước và đưa thành View để phân rã câu hỏi thành các câu hỏi con đơn giản hơn.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Chiến lược 6 của J.D. Ullman (Đánh giá trước khi thực hiện tính toán) yêu cầu làm gì khi chọn trình tự phép toán hoặc thứ tự đối số của phép toán hai ngôi?",
+      "options": {
+        "A": "Luôn chọn bảng viết bên trái trong câu SQL làm bảng đầu tiên",
+        "B": "Tính toán chi phí thực hiện (số phép toán, thời gian, bộ nhớ) để xác định chi phí tổng thể cho các cách khác nhau",
+        "C": "Luôn thực hiện phép kết nối trên bảng có nhiều dòng nhất trước",
+        "D": "Bỏ qua bước ước lượng kích thước trung gian"
+      },
+      "correct_answer": "B",
+      "explanation": "Chiến lược 6 (Mục 6.3) yêu cầu tính toán chi phí thực hiện các phép toán (theo số phép toán, thời gian, dung lượng bộ nhớ cần thiết) để xác định chi phí tổng thể cho các phương án khác nhau.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "Theo Quy tắc 2a (Mục 6.4.2), nếu điều kiện chọn F chỉ liên quan đến các thuộc tính của r1 thì σ_F(r1 * r2) tương đương với biểu thức nào?",
+      "options": {
+        "A": "r1 * σ_F(r2)",
+        "B": "σ_F(r1) * σ_F(r2)",
+        "C": "σ_F(r1) * r2",
+        "D": "r1 * r2"
+      },
+      "correct_answer": "C",
+      "explanation": "Quy tắc 2a: Nếu điều kiện F chỉ liên quan đến r1 thì σ_F(r1 * r2) = σ_F(r1) * r2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 40,
+      "question": "Theo Quy tắc 2b (Mục 6.4.2), nếu F1 chỉ liên quan đến r1 và F2 chỉ liên quan đến r2 thì σ_{F1 AND F2}(r1 * r2) bằng gì?",
+      "options": {
+        "A": "σ_{F1}(r1 * r2)",
+        "B": "σ_{F2}(r1) * r2",
+        "C": "σ_{F1}(r2) * σ_{F2}(r1)",
+        "D": "σ_{F1}(r1) * σ_{F2}(r2)"
+      },
+      "correct_answer": "D",
+      "explanation": "Quy tắc 2b (Mục 6.4.2): Nếu F1 chỉ liên quan r1 và F2 chỉ liên quan r2 thì σ_{F1 AND F2}(r1 * r2) = σ_{F1}(r1) * σ_{F2}(r2).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "Theo Quy tắc 2c (Mục 6.4.2), nếu F1 chỉ liên quan đến r1 còn F2 liên quan đến cả r1 và r2 thì σ_{F1 AND F2}(r1 * r2) biến đổi thành biểu thức nào?",
+      "options": {
+        "A": "σ_{F2}(σ_{F1}(r1) * r2)",
+        "B": "σ_{F1}(σ_{F2}(r1) * r2)",
+        "C": "σ_{F1}(r1) * σ_{F2}(r2)",
+        "D": "σ_{F1}(r1) × σ_{F2}(r2)"
+      },
+      "correct_answer": "A",
+      "explanation": "Quy tắc 2c (Mục 6.4.2): Khi F1 chỉ liên quan đến r1 và F2 liên quan cả r1, r2, ta đẩy F1 xuống r1 còn giữ F2 ở ngoài phép kết nối: σ_{F2}(σ_{F1}(r1) * r2).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "Theo nguyên tắc tối ưu hóa thứ 3 trên cơ sở đại số (Mục 6.4.3), nếu câu hỏi có nhiều phép kết nối thì ta nên ưu tiên thực hiện phép kết nối nào trước?",
+      "options": {
+        "A": "Phép kết nối tạo ra nhiều bộ nhất để tận dụng RAM",
+        "B": "Phép kết nối 'thu hẹp' nhất (cho kết quả nhỏ hơn so với các phép kết nối khác)",
+        "C": "Phép kết nối giữa hai bảng có tên đứng đầu bảng chữ cái",
+        "D": "Phép kết nối không có thuộc tính khóa"
+      },
+      "correct_answer": "B",
+      "explanation": "Nguyên tắc 3 (Mục 6.4.3): Thực hiện trước các phép kết nối 'thu hẹp' nhất (cho kết quả nhỏ hơn), dựa trên hệ số chọn, thống kê và tính kết hợp (Quy tắc 4).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "Theo nguyên tắc tối ưu hóa thứ 4 trên cơ sở đại số (Mục 6.4.3), việc thực hiện phép chiếu sớm mang lại lợi ích gì?",
+      "options": {
+        "A": "Tăng số lượng bộ của quan hệ đầu vào",
+        "B": "Thay thế được mọi phép chọn trong cây đại số",
+        "C": "Loại bỏ các thuộc tính không cần thiết để các phép toán sau dùng quan hệ đầu vào nhỏ hơn",
+        "D": "Biến phép kết nối tự nhiên thành tích Descartes"
+      },
+      "correct_answer": "C",
+      "explanation": "Nguyên tắc 4 (Mục 6.4.3): Chiếu sớm (nhờ Quy tắc 3) giúp loại bỏ các thuộc tính không cần thiết sao cho các phép toán phía trên dùng các quan hệ đầu vào nhỏ hơn.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "Trong giải thuật tối ưu hóa biểu thức ĐSQH gồm 5 bước (Mục 6.4.4), Bước 1 và Bước 2 thực hiện lần lượt công việc nào?",
+      "options": {
+        "A": "Đẩy phép chiếu xuống thấp rồi xóa phép chọn",
+        "B": "Đổi tích Descartes thành kết nối rồi mới tách phép chọn",
+        "C": "Tổ hợp các phép chiếu trước rồi mới tách phép chọn",
+        "D": "Tách một phép chọn thành chuỗi các phép chọn, sau đó di chuyển mỗi phép chọn xuống càng thấp càng tốt"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 6.4.4: Bước 1 tách phép chọn thành chuỗi các phép chọn; Bước 2 di chuyển mỗi phép chọn xuống càng thấp càng tốt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "Trong giải thuật tối ưu hóa 5 bước (Mục 6.4.4), Bước 5 thực hiện công việc gì?",
+      "options": {
+        "A": "Tập trung các phép chọn với tích Descartes thành phép kết nối (nếu được) và bỏ các phép chiếu không cần thiết",
+        "B": "Tách các phép kết nối thành tích Descartes",
+        "C": "Chuyển biểu thức đại số sang câu lệnh INSERT INTO",
+        "D": "Đẩy tất cả các phép chọn lên nút gốc"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.4.4 Bước 5: Tập trung các phép chọn với tích Descartes, nếu được, để chuyển thành phép kết nối và bỏ đi các phép chiếu không cần thiết.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "question": "Ý tưởng cơ bản của phương pháp tối ưu hóa nhờ tách câu hỏi (Mục 6.5) là gì?",
+      "options": {
+        "A": "Gộp nhiều câu truy vấn của nhiều người dùng thành một câu duy nhất",
+        "B": "'Bẻ' một câu hỏi chứa nhiều biến quan hệ thành một dãy các câu hỏi con ít phức tạp hơn cho đến khi không tách được nữa",
+        "C": "Loại bỏ toàn bộ điều kiện WHERE khỏi câu truy vấn SQL",
+        "D": "Chỉ dùng một câu truy vấn lồng nhau nhiều cấp nhất có thể"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.5: Tách câu hỏi là 'bẻ' một câu hỏi chứa nhiều biến quan hệ thành dãy các câu hỏi con ít phức tạp hơn (mỗi câu hỏi con chứa 1 hoặc 2 biến chung với phần còn lại) cho tới khi không tách hơn được nữa.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Trong các ví dụ tách câu hỏi ở Mục 6.5, các câu hỏi con 1 biến và câu hỏi con 2 biến tương ứng với cấu trúc đại số nào?",
+      "options": {
+        "A": "1 biến là tích Descartes, 2 biến là phép hiệu",
+        "B": "1 biến là phép hợp, 2 biến là phép chia",
+        "C": "1 biến là chiếu của một phép chọn, 2 biến là chiếu của một phép kết nối",
+        "D": "Cả 1 biến và 2 biến đều là phép đổi tên"
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình Mục 6.5 chỉ rõ ở cả Ví dụ 1 và Ví dụ 2: mỗi câu hỏi con 1 biến là chiếu của một phép chọn, còn câu hỏi con 2 biến là chiếu của một phép kết nối.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Khi sử dụng phương pháp tách câu hỏi hoặc phép nửa nối, để tiết kiệm thời gian đọc/ghi kết quả trung gian lên đĩa, người ta thường làm gì nếu bộ nhớ trong cho phép?",
+      "options": {
+        "A": "Ghi mọi bảng tạm ra băng từ dự phòng",
+        "B": "Tắt cơ chế kiểm tra khóa ngoại",
+        "C": "Chạy lại câu truy vấn nhiều lần để hệ điều hành tự cache",
+        "D": "Chuyển câu hỏi đầu tiên thành các View"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 6.5 và Mục 6.6 đều nhấn mạnh: Để tiết kiệm thời gian truy cập đĩa, ta chuyển câu hỏi đầu tiên thành các View, nếu bộ nhớ trong cho phép.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 49,
+      "question": "Cho r trên lược đồ R(U1) và s trên lược đồ S(U2). Phép nửa nối r ⋉ s được định nghĩa như thế nào?",
+      "options": {
+        "A": "Là quan hệ trên lược đồ R gồm các bộ của r * s chiếu lên tập thuộc tính U1",
+        "B": "Là quan hệ trên lược đồ S gồm các bộ của r * s chiếu lên tập thuộc tính U2",
+        "C": "Là quan hệ trên U1 ∪ U2 chứa mọi bộ của r × s",
+        "D": "Là quan hệ trên U1 ∩ U2 chỉ chứa các giá trị khóa"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.6 định nghĩa: Phép nửa nối r ⋉ s là một quan hệ trên lược đồ R gồm các bộ của r * s chiếu lên U1: r ⋉ s = {t : t ∈ (r * s)[U1]}.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "question": "Trong phương pháp tối ưu hóa trên cơ sở ước lượng chi phí (Mục 6.7), ta cần tìm hiểu kỹ thuật ước lượng kích thước kết quả của 3 phép toán nào thường dùng nhất?",
+      "options": {
+        "A": "Phép hợp, phép giao và phép hiệu",
+        "B": "Phép chọn, phép chiếu và phép kết nối",
+        "C": "Phép chia, phép đổi tên và phép gom nhóm",
+        "D": "Phép chèn, phép sửa và phép xóa"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.7 kết luận: Trong đại số quan hệ, 3 phép toán chọn, chiếu và kết nối thường được dùng nhất nên cần tìm hiểu kỹ thuật ước lượng kích thước kết quả của 3 phép toán đó.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "question": "Giả sử U = {A1..An, B1..Bm} với Ai thuộc r1 và Bi thuộc r2. Điều kiện để áp dụng Quy tắc 3a: Π_U(r1 ⋈_F r2) = Π_{A1..An}(r1) ⋈_F Π_{B1..Bm}(r2) là gì?",
+      "options": {
+        "A": "Điều kiện kết nối F không chứa thuộc tính nào của r1",
+        "B": "r1 và r2 không có thuộc tính chung",
+        "C": "Điều kiện kết nối F chỉ chứa các thuộc tính thuộc tập U",
+        "D": "Tập U phải chứa tất cả mọi thuộc tính của cả r1 và r2"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Quy tắc 3a (Mục 6.4.2), nếu điều kiện kết nối F chỉ chứa các thuộc tính thuộc U thì có thể đẩy phép chiếu trực tiếp xuống r1 và r2 mà không cần giữ thêm thuộc tính phụ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 52,
+      "question": "Theo Quy tắc 3b (Mục 6.4.2), khi ngoài tập U = {A1..An, B1..Bm}, điều kiện kết nối F còn chứa thêm các thuộc tính A1'..Au' của r1 và B1'..Bv' của r2 thì phép chiếu đẩy xuống r1 phải giữ tập thuộc tính nào?",
+      "options": {
+        "A": "Chỉ giữ {A1..An}",
+        "B": "Chỉ giữ {A1'..Au'}",
+        "C": "Giữ tất cả thuộc tính của cả r1 và r2",
+        "D": "Giữ {A1..An, A1'..Au'} rồi mới chiếu lại lên U ở bên ngoài phép kết nối"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Quy tắc 3b, phép chiếu đẩy xuống r1 phải giữ cả các thuộc tính cần cho đầu ra (A1..An) lẫn các thuộc tính tham gia điều kiện kết nối F (A1'..Au'), tương tự với r2, rồi mới dùng Π_U ở ngoài.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 53,
+      "question": "Áp dụng Quy tắc 3b cho biểu thức Π_HT(NCC * NCCMH) (với NCC(SHNCC, HT, TPHO) và NCCMH(SHNCC, SHMH, SOLUONG)), kết quả biến đổi nào là đúng?",
+      "options": {
+        "A": "Π_HT(Π_{HT, SHNCC}(NCC) * Π_{SHNCC}(NCCMH))",
+        "B": "Π_{HT}(NCC) * Π_{SHMH}(NCCMH)",
+        "C": "Π_HT(Π_{HT}(NCC) * Π_{SOLUONG}(NCCMH))",
+        "D": "Π_{SHNCC}(NCC) * Π_{HT}(NCCMH)"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Ví dụ 1 Quy tắc 3b (Mục 6.4.2): thuộc tính kết nối tự nhiên là SHNCC, thuộc tính đầu ra là HT thuộc NCC, nên biểu thức trở thành Π_HT(Π_{HT, SHNCC}(NCC) * Π_{SHNCC}(NCCMH)).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "question": "Áp dụng Quy tắc 3b hai lần cho biểu thức Π_HT((NCC * NCCMH) * MH), biểu thức tương đương cuối cùng trong giáo trình là biểu thức nào?",
+      "options": {
+        "A": "Π_HT(Π_HT(NCC) * Π_SHMH(NCCMH) * Π_TENH(MH))",
+        "B": "Π_HT(Π_{HT, SHMH}(Π_{HT, SHNCC}(NCC) * Π_{SHNCC, SHMH}(NCCMH)) * Π_{SHMH}(MH))",
+        "C": "Π_HT(Π_{SHNCC}(NCC) * Π_{SOLUONG}(NCCMH) * Π_{MAU}(MH))",
+        "D": "Π_{HT, SHNCC, SHMH}(NCC * NCCMH * MH)"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Ví dụ 2 Quy tắc 3b (Mục 6.4.2): bước 1 đẩy xuống (NCC*NCCMH) giữ HT, SHMH và xuống MH giữ SHMH; bước 2 đẩy xuống NCC giữ HT, SHNCC và xuống NCCMH giữ SHNCC, SHMH.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 55,
+      "question": "Trong Ví dụ 1 Mục 6.4.6 (tìm HT nhà cung cấp ở Hà Nội cung cấp mặt hàng màu đỏ, TRONGLUONG < 20, SOLUONG > 150), biểu thức tối ưu cuối cùng đẩy các phép chiếu nào xuống ngay trên 3 quan hệ đã lọc?",
+      "options": {
+        "A": "Π_{HT}(NCC), Π_{SOLUONG}(NCCMH), Π_{MAU}(MH)",
+        "B": "Π_{TPHO}(NCC), Π_{SHNCC}(NCCMH), Π_{TENH}(MH)",
+        "C": "Π_{HT, SHNCC}(NCC), Π_{SHMH, SHNCC}(NCCMH), Π_{SHMH}(MH)",
+        "D": "Π_{SHNCC, TPHO}(NCC), Π_{SHMH, SOLUONG}(NCCMH), Π_{SHMH, MAU}(MH)"
+      },
+      "correct_answer": "C",
+      "explanation": "Trong Ví dụ 1 Mục 6.4.6, sau khi lọc σ trên mỗi bảng, phép chiếu chỉ giữ lại thuộc tính kết quả và khóa kết nối: Π_{HT, SHNCC} trên NCC, Π_{SHMH, SHNCC} trên NCCMH và Π_{SHMH} trên MH.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 56,
+      "question": "Trong Ví dụ 2 Mục 6.4.6 (SACH, DOCGIA, MUONSACH — danh sách TenSach và TenDG mượn trước 11/06/16), phép chiếu sát trên lá DOCGIA và lá SACH sau bước tối ưu cuối cùng là gì?",
+      "options": {
+        "A": "Π_{TenDG}(DOCGIA) và Π_{TenSach}(SACH)",
+        "B": "Π_{SoThe, DiaChiDG}(DOCGIA) và Π_{MaSach, TacGia}(SACH)",
+        "C": "Π_{SoThe}(DOCGIA) và Π_{MaSach}(SACH)",
+        "D": "Π_{SoThe, TenDG}(DOCGIA) và Π_{MaSach, TenSach}(SACH)"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Ví dụ 2 Mục 6.4.6: DOCGIA cần giữ SoThe (để nối với MUONSACH) và TenDG (kết quả); SACH cần giữ MaSach (để nối với MUONSACH) và TenSach (kết quả).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 57,
+      "question": "Trong Ví dụ 1 Mục 6.5 (TÀU, ĐƯỜNG, HĐỘNG — các toa khởi hành từ Ga Huế ngày 01/05/2021), câu hỏi con D1 trên HĐỘNG phải SELECT những thuộc tính nào?",
+      "options": {
+        "A": "TTựTàu và TTựĐG (vì móc với TÀU qua TTựTàu và với ĐƯỜNG qua TTựĐG)",
+        "B": "Chỉ cần SELECT Ngày",
+        "C": "Chỉ cần SELECT TTựTàu",
+        "D": "Chỉ cần SELECT TTựĐG"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.5 giải thích: HĐỘNG được móc với phần còn lại của câu hỏi thông qua cả TTựTàu và TTựĐG nên D1 phải SELECT cả hai thuộc tính đó.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 58,
+      "question": "Tiếp tục Ví dụ 1 Mục 6.5 (TÀU, ĐƯỜNG, HĐỘNG), câu hỏi con 2 biến D3 kết hợp T1 và T2 dựa trên điều kiện nào và SELECT thuộc tính gì vào T3?",
+      "options": {
+        "A": "WHERE T1.TTựTàu = T2.TTựĐG, SELECT TTựĐG",
+        "B": "WHERE T1.TTựĐG = T2.TTựĐG, SELECT TTựTàu",
+        "C": "WHERE T1.GA = T2.GA, SELECT TTựToa",
+        "D": "WHERE T1.Ngày = T2.GA, SELECT TTựĐG"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 6.5: D3 kết nối T1 và T2 theo T1.TTựĐG = T2.TTựĐG và chỉ SELECT TTựTàu INTO T3 để móc tiếp với bảng TÀU trong Q2.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 59,
+      "question": "Trong Ví dụ 2 Mục 6.5 (tách câu hỏi trên NCC, MH, NCCMH), vì sao ở bước D4 tác giả chọn tách điều kiện kết nối NCCMH1.SHMH = MH1.SHMH thay vì điều kiện NCC1.SHNCC = NCCMH1.SHNCC?",
+      "options": {
+        "A": "Vì NCC1 không có khóa chính",
+        "B": "Vì SQL không cho phép kết nối theo thuộc tính SHNCC",
+        "C": "Vì nếu tách theo điều kiện đầu thì trong D4 phải chứa cả SHMH lẫn HOTEN nên phức tạp hơn",
+        "D": "Vì bảng MH1 luôn có nhiều dòng hơn bảng NCCMH1"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 6.5 ghi chú rõ: Nếu lấy ĐK đầu (NCC1 với NCCMH1) để tách thì trong D4 phải chứa SHMH và chứa cả HOTEN sẽ phức tạp, vì vậy lấy ĐK sau (MH1 với NCCMH1) chỉ cần giữ SHNCC.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 60,
+      "question": "Cho r(U1) và s(U2). Đẳng thức nào sau đây biểu diễn đúng mối liên hệ giữa phép nửa nối và phép kết nối tự nhiên?",
+      "options": {
+        "A": "r ⋉ s = (r × s)[U2]",
+        "B": "r ⋉ s = r[U1 ∩ U2] * s",
+        "C": "r ⋉ s = r * s",
+        "D": "r ⋉ s = r * (s[U1 ∩ U2])"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 6.6 nêu rõ công thức: r ⋉ s = r * (s[U1 ∩ U2]), giúp giảm kích thước quan hệ s (chỉ chiếu lên giao các thuộc tính) khi thực hiện kết nối.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "question": "Trong trường hợp nào thì việc liên kết hai quan hệ r(U1) và s(U2) chỉ cần dùng phép nửa nối r ⋉ s mà không cần dùng đến phép kết nối r * s?",
+      "options": {
+        "A": "Khi quan hệ kết quả chỉ cần giữ lại các thuộc tính của r",
+        "B": "Khi kết quả cần giữ tất cả các thuộc tính của cả r và s",
+        "C": "Khi r và s không có thuộc tính chung nào",
+        "D": "Khi cần tính tích Descartes của r và s"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.6 nêu: nếu muốn liên kết 2 quan hệ r, s nhưng quan hệ kết quả chỉ cần giữ lại các thuộc tính của r, ta chỉ cần sử dụng phép nửa nối giữa r và s, không cần đến phép kết nối.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 62,
+      "question": "Trong ví dụ Mục 6.6 (UỐNG, RƯỢU, NHÀSX, HÀNG), sau khi lọc RƯỢU1 và NHÀSX1, phép nửa nối ở D3 và D4 thu gọn bảng nào theo đúng trình tự?",
+      "options": {
+        "A": "D3 thu gọn UỐNG theo RƯỢU1; D4 thu gọn NHÀSX1 theo HÀNG",
+        "B": "D3 thu gọn HÀNG theo RƯỢU1 tạo HÀNG1; D4 thu gọn HÀNG1 theo NHÀSX1 tạo HÀNG2",
+        "C": "D3 thu gọn RƯỢU1 theo UỐNG; D4 thu gọn NHÀSX1 theo RƯỢU1",
+        "D": "D3 kết nối trực tiếp UỐNG với NHÀSX1; D4 kết nối với RƯỢU1"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 6.6: D3 dùng nửa nối HÀNG ⋉ RƯỢU1 tạo HÀNG1(Sốhiệurượu, MãNSX); D4 dùng nửa nối HÀNG1 ⋉ NHÀSX1 tạo HÀNG2(Sốhiệurượu); cuối cùng Q3 nối UỐNG với HÀNG2.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 63,
+      "question": "Trong Bài tập 9 (tối ưu truy vấn trên khung nhìn XLOANS = Π_S(σ_F(LOANS × BORROWERS × BOOKS))), vì sao phép chọn BOOKS.LC_NO = LOANS.LC_NO KHÔNG thể di chuyển xuống bên dưới tích Descartes (LOANS × BORROWERS)?",
+      "options": {
+        "A": "Vì DATE là thuộc tính duy nhất có thể đẩy xuống",
+        "B": "Vì BORROWERS không có thuộc tính CARD_NO",
+        "C": "Vì điều kiện này chứa một thuộc tính của BOOKS (không có trong tích LOANS × BORROWERS)",
+        "D": "Vì Quy tắc 2 cấm đẩy phép chọn qua phép chiếu"
+      },
+      "correct_answer": "C",
+      "explanation": "Lời giải Bài 9 nêu rõ: Phép chọn theo điều kiện BOOKS.LC_NO = LOANS.LC_NO không thể di chuyển xuống bên dưới tích Descartes (LOANS × BORROWERS) vì nó chứa thuộc tính của BOOKS.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 64,
+      "question": "Ở bước cuối của Bài tập 9 (XLOANS), vì sao phép chiếu Π_{LOANS.LC_NO, LOANS.CARD_NO, DATE}(LOANS) có thể được loại bỏ khỏi cây đại số?",
+      "options": {
+        "A": "Vì bảng LOANS chỉ có 1 dòng dữ liệu",
+        "B": "Vì DATE không có trong bảng LOANS",
+        "C": "Vì phép chiếu ở nút gốc đã làm thay đổi giá trị khóa",
+        "D": "Vì tất cả các thuộc tính của quan hệ LOANS đều đã được sử dụng nên phép chiếu này không cần thiết"
+      },
+      "correct_answer": "D",
+      "explanation": "Lời giải Bài 9 giải thích: Phép chiếu Π_{LOANS.LC_NO, LOANS.CARD_NO, DATE} trên LOANS không cần thiết vì tất cả các thuộc tính của LOANS đều được sử dụng, do đó ta loại bỏ phép chiếu này.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 65,
+      "question": "Theo Mục 6.7, phương pháp tối ưu hóa trên cơ sở ước lượng chi phí gặp phải hai khó khăn lớn nào?",
+      "options": {
+        "A": "Quá nhiều phương án phải liệt kê và khó ước lượng chính xác kích thước kết quả trung gian làm đầu vào cho phép toán tiếp theo",
+        "B": "Không có phép toán kết nối nào định nghĩa được chi phí và không thể cài đặt chỉ mục",
+        "C": "Không thể chuyển SQL sang cây đại số và không đếm được số bộ của bảng gốc",
+        "D": "Chi phí CPU luôn lớn hơn chi phí I/O và bộ nhớ RAM luôn bị đầy khi chọn một bảng"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 6.7 nêu 2 khó khăn: (1) Có thể có quá nhiều phương án phải liệt kê ra; (2) Khó ước lượng chi phí mỗi phương án khi kết quả một phép toán làm đầu vào cho phép toán khác (cần ước lượng kích thước kết quả trung gian).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "question": "Theo ví dụ trong Mục 6.7, để ước lượng tổng chi phí của biểu thức (r * s) * t, ta phải tiến hành theo trình tự nào?",
+      "options": {
+        "A": "Chỉ ước lượng chi phí của t vì t nằm ngoài cùng",
+        "B": "Ước lượng chi phí và kích thước kết quả w = (r * s) trước, sau đó mới ước lượng chi phí của (w * t) rồi cộng lại",
+        "C": "Ước lượng trực tiếp r * t rồi bỏ qua s",
+        "D": "Nhân kích thước ba bảng r, s, t với nhau mà không cần bước trung gian"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 6.7 minh họa: Để ước lượng chi phí (r * s) * t, trước tiên ước lượng chi phí của (r * s) cho kết quả w (và kích thước của w), rồi ước lượng chi phí (w * t), tổng chi phí là tổng các chi phí đó.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 67,
+      "question": "Trong ví dụ Mục 6.2 (NCCMH 10.000 bộ, NCC 100 bộ), ở Bước 1 của biểu thức chưa tối ưu Π_HT(σ_{SHMH='P2'}(NCCMH * NCC)), vì sao phải tốn 10.000 thao tác ghi đĩa?",
+      "options": {
+        "A": "Vì bảng NCC có 10.000 bộ cần cập nhật khóa chính",
+        "B": "Vì phép chiếu lên HT làm tăng số bộ từ 100 lên 10.000",
+        "C": "Vì kết quả kết nối trung gian gồm 10.000 bộ quá lớn đối với phần minh họa I/O nên phải ghi ra đĩa trước khi sang Bước 2",
+        "D": "Vì hệ thống bắt buộc ghi mọi câu lệnh SQL xuống nhật ký 10.000 lần"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 6.2, kết nối NCCMH (10.000 bộ) với NCC (100 bộ) tạo kết quả trung gian gồm 10.000 bộ được ghi ra đĩa, sau đó Bước 2 lại đọc 10.000 bộ đó từ đĩa để lọc 50 bộ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 68,
+      "question": "Áp dụng Quy tắc 2b và 2c cho biểu thức σ_{(Tpho='HN') AND (SL>150) AND (NCC.SHNCC=NCCMH.SHNCC)}(NCC × NCCMH), kết quả tương đương nào đúng?",
+      "options": {
+        "A": "σ_{Tpho='HN'}(NCC) × σ_{SL>150}(NCCMH)",
+        "B": "σ_{SL>150}(σ_{Tpho='HN'}(NCC) × NCCMH)",
+        "C": "NCC × σ_{NCC.SHNCC=NCCMH.SHNCC}(NCCMH)",
+        "D": "σ_{NCC.SHNCC=NCCMH.SHNCC}(σ_{Tpho='HN'}(NCC) × σ_{SL>150}(NCCMH))"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Ví dụ 2 Quy tắc 2 (Mục 6.4.2): Điều kiện một bảng (Tpho='HN' và SL>150) được đẩy xuống từng bảng tương ứng, còn điều kiện liên quan hai bảng (NCC.SHNCC=NCCMH.SHNCC) giữ ở ngoài tích Descartes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 69,
+      "question": "Trong Giải thuật tối ưu hóa 5 bước (Mục 6.4.4), vì sao Bước 5 tổ hợp phép chọn với tích Descartes thành phép kết nối ở bước cuối cùng?",
+      "options": {
+        "A": "Vì sau khi đã đẩy các phép chọn đơn và phép chiếu xuống thấp nhất, điều kiện chọn còn lại trên tích Descartes chính là điều kiện nối hai nhánh đã thu gọn",
+        "B": "Vì phép kết nối không cho phép thực hiện phép chiếu sau nó",
+        "C": "Vì tích Descartes luôn nhanh hơn phép kết nối nên cần giữ đến cuối",
+        "D": "Vì Bước 1 chưa tách các phép chọn đơn"
+      },
+      "correct_answer": "A",
+      "explanation": "Sau Bước 1–4, các phép chọn một bảng và phép chiếu đã đẩy sát xuống lá; các điều kiện chọn liên quan đến hai quan hệ vẫn nằm ngay trên × sẽ được gom với × thành phép kết nối hiệu quả hơn.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 70,
+      "question": "Trong Bài tập 8 câu 1 (MATHANG, HOADON, CHITIETHOADON — khách hàng 'LE AN' đã mua những mặt hàng nào), khi tách câu hỏi, câu hỏi con D1 trên HOADON cần giữ thuộc tính nào và D2 kết nối hai bảng nào?",
+      "options": {
+        "A": "D1 giữ TENKHACH vào HD1; D2 kết nối HOADON và MATHANG",
+        "B": "D1 giữ HOADON.SOHD vào HD1; D2 kết nối MATHANG và CHITIETHOADON trên MAHANG",
+        "C": "D1 giữ NGAYLAP vào HD1; D2 kết nối HD1 và MATHANG",
+        "D": "D1 giữ DONGIA vào HD1; D2 kết nối HOADON và HD1"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Lời giải Bài 8 câu 1b: D1 lọc TENKHACH='Le An' trên HOADON, SELECT SOHD INTO HD1; D2 kết nối MATHANG và CHITIETHOADON theo MAHANG lấy TENHANG, SOHD INTO CHITIETHOADON1; cuối cùng Q2 nối HD1 và CHITIETHOADON1 theo SOHD.",
+      "difficulty": "hard"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Trình bày sơ đồ xử lý câu truy vấn trên một hệ QTCSDL và hai bước của giai đoạn lên phương án.",
+      "expected_answer": "Sơ đồ xử lý: Câu hỏi (SQL Query) -> Phân tích ngữ nghĩa (Parse Query) -> Cây biểu thức -> Xây dựng kế hoạch truy vấn logic -> Câu truy vấn logic -> Xây dựng kế hoạch truy vấn vật lý -> Câu truy vấn vật lý -> Thực thi.\nGiai đoạn lên phương án gồm 2 bước: (1) Tối ưu logic câu truy vấn (không tính chi phí thực hiện) và (2) Tối ưu vật lý câu truy vấn (ước lượng chi phí để chọn phương án nhỏ nhất)."
+    },
+    {
+      "id": 2,
+      "question": "Nêu công thức tính chi phí một phương án thực thi câu hỏi và giải thích vì sao chi phí I/O lại chiếm ưu thế.",
+      "expected_answer": "Chi phí thực thi = Chi phí I/O (Input/Output) + Chi phí xử lý trên CPU (đo bằng số phép so sánh).\nChi phí I/O chi phối vì dữ liệu CSDL thực tế quá lớn, không thể chứa hết trong bộ nhớ chính (RAM), nên hệ thống phải truyền dữ liệu liên tục giữa bộ nhớ chính và bộ nhớ thứ cấp (đĩa từ)."
+    },
+    {
+      "id": 3,
+      "question": "Liệt kê 4 phương pháp tổng quát tối ưu hóa câu hỏi được trình bày trong Chương 6.",
+      "expected_answer": "1. Dùng các quy tắc biến đổi đại số quan hệ để chuyển câu hỏi thành biểu thức tương đương tối ưu hơn.\n2. Phân rã (tách) câu hỏi thành dãy các câu hỏi con đơn giản hơn (1 biến và 2 biến).\n3. Dùng phép nửa nối (Semijoin) để giảm kích thước quan hệ trước khi tham gia kết nối.\n4. Tối ưu hóa trên cơ sở ước lượng chi phí các phương án thực thi."
+    },
+    {
+      "id": 4,
+      "question": "Phát biểu định nghĩa phép nửa nối r ⋉ s (với r trên R(U1), s trên S(U2)) và ý nghĩa của nó trong tối ưu hóa.",
+      "expected_answer": "Phép nửa nối r ⋉ s là một quan hệ trên lược đồ R gồm các bộ của r * s chiếu lên tập thuộc tính U1: r ⋉ s = {t : t ∈ (r * s)[U1]} = r * (s[U1 ∩ U2]).\nÝ nghĩa: Khi liên kết r và s mà kết quả chỉ cần giữ thuộc tính của r, dùng nửa nối giúp thu nhỏ kích thước quan hệ và giảm thao tác I/O trước các phép kết nối sau."
+    },
+    {
+      "id": 5,
+      "question": "Nêu 2 khó khăn chính của phương pháp tối ưu hóa trên cơ sở ước lượng chi phí (Mục 6.7).",
+      "expected_answer": "1. Số lượng phương án thực thi tương đương có thể quá lớn để liệt kê hết (không gian tìm kiếm tới (m!)·k^m).\n2. Khó ước lượng chính xác chi phí khi đầu ra của phép toán này làm đầu vào cho phép toán khác, đòi hỏi phải ước lượng chính xác kích thước kết quả trung gian của các phép chọn, chiếu và kết nối."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Bài 1: Định giá chi phí I/O hai phương án thực thi trên CSDL NCC - MH - NCCMH",
+      "problem": "Cho CSDL quản lý hoạt động cung cấp hàng hóa gồm NCC(SHNCC, HT, TPHO), MH(SHMH, TENH, MAU, TRONGLUONG) có 1.000 bộ, NCCMH(SHNCC, SHMH, SOLUONG) có 10.000 bộ (trong đó có 500 bộ có SHNCC = 'N1'). Hãy đưa ra một câu truy vấn, biểu diễn bằng hai biểu thức đại số quan hệ tương đương và định giá chi phí I/O cho cả hai biểu thức.",
+      "solution_steps": [
+        "Bước 1 (Đặt câu truy vấn và hai biểu thức ĐSQH): Câu truy vấn 'Tìm tên hàng (TENH) được cung cấp bởi nhà cung cấp có SHNCC là N1'. Biểu thức chưa tối ưu BT(1): Π_TENH(σ_{SHNCC='N1'}(NCCMH * MH)). Biểu thức tối ưu BT(2): Π_TENH(σ_{SHNCC='N1'}(NCCMH) * MH).",
+        "Bước 2 (Định giá I/O cho BT(1)): B1 kết nối NCCMH * MH: đọc 10.000 bộ NCCMH + đọc 1.000 bộ MH + ghi 10.000 bộ trung gian ra đĩa = 21.000 I/O. B2 chọn SHNCC='N1' trên kết quả B1: đọc lại 10.000 bộ từ đĩa, thu được 500 bộ giữ trong bộ nhớ chính = 10.000 I/O. B3 chiếu lên TENH trong bộ nhớ chính = 0 I/O. Tổng BT(1) = 31.000 thao tác I/O.",
+        "Bước 3 (Định giá I/O cho BT(2)): B1 chọn SHNCC='N1' trên NCCMH: đọc 10.000 bộ NCCMH, thu được 500 bộ giữ trong bộ nhớ chính = 10.000 I/O. B2 kết nối 500 bộ này với MH: đọc 1.000 bộ MH, thu được 500 bộ giữ trong bộ nhớ chính = 1.000 I/O. B3 chiếu lên TENH trong bộ nhớ chính = 0 I/O. Tổng BT(2) = 11.000 thao tác I/O.",
+        "Bước 4 (Kết luận): Phương án BT(2) tốn 11.000 thao tác I/O, giảm 20.000 thao tác I/O so với BT(1) (31.000 I/O) nhờ thực hiện phép chọn sớm để không phải ghi/đọc 10.000 bộ trung gian trên đĩa."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài 2: Biểu diễn cây đại số và tối ưu truy vấn trên NhanVien và DonVi",
+      "problem": "Cho hai quan hệ NhanVien(MaNV, MasoDV, HoTen, NgaySinh, GioiTinh, Luong) và DonVi(MaDV, TenDV). Hãy biểu diễn và tối ưu hóa dưới dạng cây đại số câu truy vấn: 'Đưa ra họ tên của các nhân viên nữ ở đơn vị có tên là PhongDaoTao'.",
+      "solution_steps": [
+        "Bước 1 (Biểu thức ban đầu): Π_HoTen(σ_{(GioiTinh='Nu') AND (TenDV='PhongDaoTao')}(NhanVien ⋈_{MasoDV=MaDV} DonVi)). Cây đại số ban đầu có 2 lá NhanVien, DonVi nối tại ⋈_{MasoDV=MaDV}, phía trên là σ_{(GioiTinh='Nu') AND (TenDV='PhongDaoTao')} và gốc là Π_HoTen.",
+        "Bước 2 (Đẩy phép chọn xuống các lá theo Quy tắc 1 & 2b): Tách điều kiện hội và đẩy σ_{GioiTinh='Nu'} xuống trực tiếp trên NhanVien, đẩy σ_{TenDV='PhongDaoTao'} xuống trực tiếp trên DonVi.",
+        "Bước 3 (Đẩy phép chiếu xuống các lá theo Quy tắc 3b): Giữ thuộc tính đầu ra HoTen và thuộc tính nối MasoDV trên nhánh NhanVien bằng Π_{HoTen, MasoDV}; giữ thuộc tính nối MaDV trên nhánh DonVi bằng Π_{MaDV}.",
+        "Bước 4 (Biểu thức và cây đại số tối ưu): Π_HoTen(Π_{HoTen, MasoDV}(σ_{GioiTinh='Nu'}(NhanVien)) ⋈_{MasoDV=MaDV} Π_{MaDV}(σ_{TenDV='PhongDaoTao'}(DonVi))). Trên cây tối ưu, các nút gần lá thực hiện lọc và chiếu gọn trước khi kết nối."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bài 3: Viết biểu thức ĐSQH và vẽ cây đại số cho 3 câu truy vấn trên NCC - MH - NCCMH",
+      "problem": "Trên CSDL NCC(SHNCC, HT, TPHO), MH(SHMH, TENH, MAU, TRONGLUONG), NCCMH(SHNCC, SHMH, SOLUONG), viết biểu thức ĐSQH và trình bày cây đại số tối ưu cho 3 câu hỏi: (1) Cho SHNCC đã cung cấp mặt hàng SHMH='P2'; (2) Cho SHNCC đã cung cấp ít nhất một mặt hàng màu đỏ; (3) Nhà cung cấp HT='Honda' đã cung cấp các mặt hàng TENH gì?",
+      "solution_steps": [
+        "Bước 1 (Câu 1): Biểu thức ĐSQH: Π_SHNCC(σ_{SHMH='P2'}(NCCMH)). Cây đại số 1 nhánh từ lá NCCMH -> nút trung gian σ_{SHMH='P2'} -> nút gốc Π_SHNCC.",
+        "Bước 2 (Câu 2): Biểu thức ban đầu: Π_SHNCC(σ_{MAU='DO'}(NCCMH * MH)). Tối ưu (đẩy chọn & chiếu): Π_SHNCC(Π_{SHMH, SHNCC}(NCCMH) * Π_{SHMH}(σ_{MAU='DO'}(MH))). Cây đại số có nhánh trái NCCMH -> Π_{SHMH, SHNCC}, nhánh phải MH -> σ_{MAU='DO'} -> Π_{SHMH}, gặp nhau tại * rồi lên gốc Π_SHNCC.",
+        "Bước 3 (Câu 3 - biểu thức): Biểu thức ban đầu: Π_TENH(σ_{HT='Honda'}(NCC * NCCMH * MH)). Sau tối ưu: Π_TENH(Π_{SHMH}(Π_{SHNCC}(σ_{HT='Honda'}(NCC)) * Π_{SHNCC, SHMH}(NCCMH)) * Π_{SHMH, TENH}(MH)).",
+        "Bước 4 (Câu 3 - cấu trúc cây): Nhánh trái NCC -> σ_{HT='Honda'} -> Π_{SHNCC} nối với NCCMH -> Π_{SHNCC, SHMH}, chiếu kết quả lên Π_{SHMH}, sau đó nối với nhánh phải MH -> Π_{SHMH, TENH} và chiếu cuối cùng tại gốc Π_TENH."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bài 4: Tối ưu bằng biến đổi ĐSQH (NCC ở Sài Gòn, mặt hàng màu xanh, >30kg, <100)",
+      "problem": "Cho CSDL NCC, MH, NCCMH và biểu thức Π_HT(σ_F(NCC × NCCMH × MH)) với F = (NCC.TPHO='SAIGON') AND (MH.TRONGLUONG>30) AND (MH.MAU='XANH') AND (NCCMH.SOLUONG<100) AND (NCC.SHNCC=NCCMH.SHNCC) AND (MH.SHMH=NCCMH.SHMH). Hãy tối ưu bằng biến đổi ĐSQH và mô tả cây đại số qua từng bước.",
+      "solution_steps": [
+        "Bước 1 (Cây ban đầu): Gốc Π_HT trên σ_F, dưới σ_F là các tích Descartes NCC × NCCMH × MH.",
+        "Bước 2 (Nguyên tắc tối ưu 1 — Quy tắc 1, 2): Tách F thành các chọn đơn và đẩy xuống sát các lá: σ_{TPHO='SAIGON'}(NCC), σ_{SOLUONG<100}(NCCMH), σ_{TRONGLUONG>30}(σ_{MAU='XANH'}(MH)); hai điều kiện nối giữ phía trên các nhánh tích Descartes tương ứng.",
+        "Bước 3 (Nguyên tắc tối ưu 2 — Quy tắc 5): Tổ hợp các điều kiện nối NCC.SHNCC=NCCMH.SHNCC và NCCMH.SHMH=MH.SHMH với tích Descartes thành các phép kết nối.",
+        "Bước 4 (Nguyên tắc tối ưu 4 — Quy tắc 3): Đẩy phép chiếu xuống từng nhánh: nhánh NCC chiếu Π_{SHNCC, HT}; nhánh NCCMH chiếu Π_{SHNCC, SHMH}; kết quả nối NCC và NCCMH chiếu Π_{HT, SHMH}; nhánh MH chiếu Π_{SHMH}; gốc cuối cùng là Π_HT."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bài 5: Tối ưu bằng biến đổi ĐSQH trên SACH - DOCGIA - MUONSACH (Quý 1/2020)",
+      "problem": "Cho CSDL thư viện SACH(TenSach, TacGia, NhaXB, MaSach), DOCGIA(TenDG, DChiDG, SoThe), MUONSACH(SoThe, MaSach, NgayMuon). Tối ưu biểu thức Π_{TenSach, TacGia, TenDG}(σ_F(MUONSACH × DOCGIA × SACH)) với F = (NgayMuon >= 01/01/2020) AND (NgayMuon <= 31/03/2020) AND (MUONSACH.MaSach = SACH.MaSach) AND (MUONSACH.SoThe = DOCGIA.SoThe) và mô tả cây qua từng bước.",
+      "solution_steps": [
+        "Bước 1 (Cây ban đầu): Nút gốc Π_{TenSach, TacGia, TenDG}, dưới là σ_F trên tích Descartes (MUONSACH × DOCGIA) × SACH.",
+        "Bước 2 (Áp dụng Nguyên tắc tối ưu 1): Tách F và đẩy điều kiện chọn ngày mượn σ_{(NgayMuon >= 01/01/2020) AND (NgayMuon <= 31/03/2020)} xuống ngay trên lá MUONSACH; giữ hai điều kiện nối trên hai phép tích Descartes tương ứng.",
+        "Bước 3 (Áp dụng Nguyên tắc tối ưu 2): Gộp các điều kiện nối MUONSACH.SoThe = DOCGIA.SoThe và SACH.MaSach = MUONSACH.MaSach với tích Descartes thành phép kết nối (⋈ / *).",
+        "Bước 4 (Áp dụng Nguyên tắc tối ưu 4 — Quy tắc 3): Trên nhánh MUONSACH giữ Π_{MaSach, SoThe}; trên nhánh DOCGIA giữ Π_{SoThe, TenDG}; trên kết quả nối hai nhánh này giữ Π_{MaSach, TenDG}; trên nhánh SACH giữ Π_{MaSach, TenSach, TacGia}; gốc trên cùng chiếu Π_{TenSach, TacGia, TenDG}."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bài 6: Tối ưu bằng phương pháp tách câu hỏi trên NCC - MH - NCCMH",
+      "problem": "Với câu hỏi 'Tìm họ tên những nhà cung cấp ở Sài Gòn đã cung cấp mặt hàng màu Xanh có trọng lượng > 30kg và số lượng < 100' trên NCC, MH, NCCMH, hãy tối ưu bằng phương pháp tách câu hỏi (D1..D4, Q1..Q2) và mô tả cây phân tách.",
+      "solution_steps": [
+        "Bước 1 (Viết SQL gốc Q0 và tách các câu hỏi con 1 biến): Q0 chọn NCC.HOTEN từ NCC, MH, NCCMH. Tách D1 trên MH: SELECT MH.SHMH FROM MH WHERE (MH.MAU='XANH') AND (MH.TRLUONG>30) INTO MH1. Tách D2 trên NCCMH: SELECT NCCMH.SHNCC, NCCMH.SHMH FROM NCCMH WHERE (NCCMH.SOLUONG<100) INTO NCCMH1. Tách D3 trên NCC: SELECT NCC.SHNCC, NCC.HOTEN FROM NCC WHERE (NCC.TPHO='SAIGON') INTO NCC1.",
+        "Bước 2 (Câu hỏi trung gian Q1): Thay thế 3 bảng gốc bằng 3 bảng kết quả tạm: Q1: SELECT NCC1.HOTEN FROM NCC1, MH1, NCCMH1 WHERE (NCC1.SHNCC = NCCMH1.SHNCC) AND (NCCMH1.SHMH = MH1.SHMH).",
+        "Bước 3 (Tách câu hỏi con 2 biến D4 và câu hỏi cuối Q2): Chọn kết nối MH1 và NCCMH1 trước: D4: SELECT NCCMH1.SHNCC FROM MH1, NCCMH1 WHERE (NCCMH1.SHMH = MH1.SHMH) INTO NCCMH2. Câu hỏi cuối Q2: SELECT NCC1.HOTEN FROM NCC1, NCCMH2 WHERE (NCC1.SHNCC = NCCMH2.SHNCC).",
+        "Bước 4 (Cây phân tách): Các lá NCC, MH, NCCMH qua D3, D1, D2 tạo thành NCC1, MH1, NCCMH1; nhánh MH1 và NCCMH1 qua D4 tạo NCCMH2; cuối cùng NCC1 và NCCMH2 kết nối tại Q2 cho kết quả cuối cùng."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bài 7: Tách câu hỏi kết hợp phép nửa nối trên UONG - RUOU - NHASX - HANG (Câu hỏi 1: SAIGON, 2020, <50 độ)",
+      "problem": "Cho CSDL UONG(TenNU, Sohieuruou, Soluong), RUOU(Sohieuruou, Tenruou, NamSX, Do), NHASX(MaNSX, TenNSX, VungSX), HANG(Sohieuruou, MaNSX). Tối ưu bằng tách câu hỏi kết hợp nửa nối câu truy vấn: 'Tìm tên người uống rượu sản xuất tại SAIGON vào năm 2020, độ rượu nhỏ hơn 50 độ'.",
+      "solution_steps": [
+        "Bước 1 (Viết Q0 và tách 2 câu hỏi con 1 biến D1, D2): D1: SELECT Sohieuruou FROM RUOU WHERE (Do < 50) AND (NamSX = 2020) INTO RUOU1. D2: SELECT MaNSX FROM NHASX WHERE (VungSX = 'SAIGON') INTO NHASX1. Khi đó Q1 còn lại trên UONG, RUOU1, NHASX1, HANG.",
+        "Bước 2 (Áp dụng phép nửa nối lần 1 — D3): Từ điều kiện HANG.Sohieuruou = RUOU1.Sohieuruou, dùng nửa nối HÀNG ⋉ RUOU1 để lọc HANG: D3: SELECT HANG.Sohieuruou, HANG.MaNSX FROM HANG WHERE HANG.Sohieuruou = RUOU1.Sohieuruou INTO HANG1. Q2 còn lại trên UONG, NHASX1, HANG1.",
+        "Bước 3 (Áp dụng phép nửa nối lần 2 — D4): Từ điều kiện HANG1.MaNSX = NHASX1.MaNSX, dùng nửa nối HÀNG1 ⋉ NHASX1 để lọc HANG1: D4: SELECT Sohieuruou FROM HANG1 WHERE HANG1.MaNSX = NHASX1.MaNSX INTO HANG2.",
+        "Bước 4 (Câu hỏi kết quả cuối cùng Q3): Q3: SELECT UONG.TenNU FROM UONG, HANG2 WHERE (UONG.Sohieuruou = HANG2.Sohieuruou). Có thể dùng View cho các bước trung gian nếu bộ nhớ trong cho phép."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bài 8: Tách câu hỏi kết hợp phép nửa nối trên UONG - RUOU - NHASX - HANG (Câu hỏi 2: Rượu HUDA, TTHUE, 2020, <50 độ)",
+      "problem": "Trên CSDL UONG, RUOU, NHASX, HANG, hãy tối ưu bằng phương pháp tách câu hỏi kết hợp phép nửa nối câu truy vấn: 'Tìm tên người uống loại rượu có tên HUDA sản xuất tại TT Huế vào năm 2020, độ rượu nhỏ hơn 50 độ'.",
+      "solution_steps": [
+        "Bước 1 (Tách 2 câu hỏi con 1 biến D1, D2): D1: SELECT Sohieuruou FROM RUOU WHERE (Tenruou = 'HUDA') AND (Do < 50) AND (NamSX = 2020) INTO RUOU1. D2: SELECT MaNSX FROM NHASX WHERE (VungSX = 'TTHUE') INTO NHASX1. Q1 thao tác trên UONG, RUOU1, NHASX1, HANG.",
+        "Bước 2 (Phép nửa nối D3 trên HANG và RUOU1): D3: SELECT HANG.Sohieuruou, HANG.MaNSX FROM HANG WHERE (HANG.Sohieuruou = RUOU1.Sohieuruou) INTO HANG1. Q2 còn lại trên UONG, NHASX1, HANG1.",
+        "Bước 3 (Phép nửa nối D4 trên HANG1 và NHASX1): D4: SELECT Sohieuruou FROM HANG1 WHERE (HANG1.MaNSX = NHASX1.MaNSX) INTO HANG2.",
+        "Bước 4 (Câu hỏi kết quả cuối cùng Q3): Q3: SELECT UONG.TenNU FROM UONG, HANG2 WHERE (UONG.Sohieuruou = HANG2.Sohieuruou)."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bài 9: Tối ưu bằng biến đổi ĐSQH & tách câu hỏi trên MATHANG - HOADON - CHITIETHOADON (Khách hàng LE AN)",
+      "problem": "Cho CSDL MATHANG(MAHANG, TENHANG, DONVI, DONGIA), HOADON(SOHD, NGAYLAP, NGUOILAP, TENKHACH), CHITIETHOADON(SOHD, MAHANG, SOLUONG) và câu hỏi: 'Khách hàng LE AN đã mua những mặt hàng nào của cửa hàng' biểu diễn bởi Π_TENHANG(σ_{TENKHACH='LE AN'}(HOADON × CHITIETHOADON × MATHANG)). Tối ưu bằng cả hai phương pháp: biến đổi ĐSQH và tách câu hỏi.",
+      "solution_steps": [
+        "Bước 1 (Biến đổi ĐSQH — Quy tắc 1 & 2): Đẩy chọn σ_{TENKHACH='LE AN'} xuống HOADON; tách điều kiện kết nối HOADON.SOHD = CHITIETHOADON.SOHD và MATHANG.MAHANG = CHITIETHOADON.MAHANG thành kết nối tự nhiên/kết nối bằng (Quy tắc 5).",
+        "Bước 2 (Biến đổi ĐSQH — Quy tắc 3 đẩy chiếu): Đẩy Π_SOHD xuống nhánh HOADON, Π_{SOHD, MAHANG} xuống CHITIETHOADON, Π_MAHANG sau kết nối cặp này, và Π_{MAHANG, TENHANG} xuống MATHANG; gốc cuối là Π_TENHANG.",
+        "Bước 3 (Phương pháp tách câu hỏi): Tách D1 (1 biến HOADON): SELECT SOHD FROM HOADON WHERE TENKHACH='LE AN' INTO HD1. Tách D2 (2 biến MATHANG, CHITIETHOADON): SELECT MATHANG.TENHANG, SOHD FROM MATHANG, CHITIETHOADON WHERE CHITIETHOADON.MAHANG = MATHANG.MAHANG INTO CHITIETHOADON1.",
+        "Bước 4 (Câu hỏi kết quả Q2 và cây phân tách): Q2: SELECT TENHANG FROM HD1, CHITIETHOADON1 WHERE HD1.SOHD = CHITIETHOADON1.SOHD. Cây phân tách nối HOADON -> D1 -> HD1 với nhánh (CHITIETHOADON, MATHANG) -> D2 -> CHITIETHOADON1 tại Q2."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bài 10: Tối ưu bằng biến đổi ĐSQH & tách câu hỏi trên MATHANG - HOADON - CHITIETHOADON (Hóa đơn số 2311)",
+      "problem": "Trên CSDL MATHANG, CHITIETHOADON, xét câu hỏi: 'Hóa đơn có số 2311 bao gồm những mặt hàng nào và giá của mỗi mặt hàng là bao nhiêu' biểu diễn bởi Π_{TENHANG, DONGIA}(σ_{SOHD=2311}(CHITIETHOADON × MATHANG)). Hãy tối ưu bằng biến đổi ĐSQH và bằng phương pháp tách câu hỏi.",
+      "solution_steps": [
+        "Bước 1 (Biến đổi ĐSQH — Quy tắc 1, 2 & 5): Đẩy điều kiện chọn σ_{SOHD=2311} xuống trực tiếp trên quan hệ CHITIETHOADON, đồng thời chuyển tích Descartes kèm điều kiện CHITIETHOADON.MAHANG = MATHANG.MAHANG thành phép kết nối.",
+        "Bước 2 (Biến đổi ĐSQH — Quy tắc 3 đẩy chiếu): Giữ lại Π_MAHANG trên nhánh CHITIETHOADON đã lọc và Π_{MAHANG, TENHANG, DONGIA} trên nhánh MATHANG; nút gốc chiếu Π_{TENHANG, DONGIA}.",
+        "Bước 3 (Phương pháp tách câu hỏi — D1): Viết SQL gốc Q0 nối MATHANG và CHITIETHOADON với SOHD=2311. Tách câu hỏi con 1 biến D1: SELECT MAHANG FROM CHITIETHOADON WHERE SOHD = 2311 INTO CHITIETHD1.",
+        "Bước 4 (Câu hỏi cuối Q1 và cây phân tách): Q1: SELECT MATHANG.TENHANG, DONGIA FROM MATHANG, CHITIETHD1 WHERE MATHANG.MAHANG = CHITIETHD1.MAHANG. Cây phân tách có nhánh CHITIETHOADON -> D1 -> CHITIETHD1 kết hợp với MATHANG tại Q1."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bài 11: Tối ưu hóa truy vấn trên khung nhìn XLOANS (BOOKS - BORROWERS - LOANS)",
+      "problem": "Cho khung nhìn XLOANS = Π_S(σ_F(LOANS × BORROWERS × BOOKS)) với F = (BORROWERS.CARD_NO = LOANS.CARD_NO) AND (BOOKS.LC_NO = LOANS.LC_NO), và S = {TITLE, AUTHOR, PNAME, LC_NO, NAME, ADDR, CITY, CARD_NO, DATE}. Tối ưu câu truy vấn Π_TITLE(σ_{DATE < 08/03/2021}(XLOANS)) bằng biến đổi ĐSQH và mô tả cây qua từng bước.",
+      "solution_steps": [
+        "Bước 1 (Khai triển khung nhìn XLOANS): Thay XLOANS bằng định nghĩa để có cây gồm gốc Π_TITLE -> σ_{DATE<08/03/2021} -> Π_S -> σ_F -> ((LOANS × BORROWERS) × BOOKS).",
+        "Bước 2 (Tách và đẩy phép chọn xuống thấp nhất): Tách F thành 2 điều kiện nối. Đẩy σ_{DATE<08/03/2021} xuống áp dụng trực tiếp trên lá LOANS; giữ σ_{BORROWERS.CARD_NO = LOANS.CARD_NO} trên (σ_{DATE<...}(LOANS) × BORROWERS); giữ σ_{BOOKS.LC_NO = LOANS.LC_NO} ở trên cùng (vì nó chứa thuộc tính của BOOKS).",
+        "Bước 3 (Gộp phép chiếu và đẩy phép chiếu xuống): Gộp Π_TITLE và Π_S thành Π_TITLE, rồi đẩy phép chiếu xuống từng nhánh (giữ {BOOKS.LC_NO, TITLE} trên BOOKS; giữ {LOANS.LC_NO} trên tích dưới; giữ {BORROWERS.CARD_NO} trên BORROWERS; giữ {LOANS.LC_NO, LOANS.CARD_NO} trên nhánh LOANS đã lọc).",
+        "Bước 4 (Loại bỏ phép chiếu thừa trên LOANS): Vì toàn bộ 3 thuộc tính của LOANS (CARD_NO, LC_NO, DATE) đều được dùng ở các phép toán ngay trên nó, phép chiếu Π_{LOANS.LC_NO, LOANS.CARD_NO, DATE} ngay trên LOANS không cần thiết nên loại bỏ; hoàn thiện cây tối ưu cuối cùng."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Bài 12: Kiểm tra tương đương và định giá chi phí I/O trên R(A,B,C) và S(B,D,E,F)",
+      "problem": "Cho quan hệ R(A, B, C) có 1.000 bộ và quan hệ S(B, D, E, F) có 2.000 bộ. Xét hai biểu thức: BT(1) = Π_A(σ_{B=10}(R * S)) và BT(2) = Π_A(σ_{B=10}(R) * S) (giả sử có k bộ của R thỏa B=10 và kết quả nối với S tạo ra m bộ đủ nhỏ nằm trong bộ nhớ chính, với k, m ≪ 1.000). a) Hai biểu thức có tương đương không? Tại sao? b) Định giá chi phí I/O cho hai biểu thức.",
+      "solution_steps": [
+        "Bước 1 (Kiểm tra tương đương): Hai biểu thức tương đương nhau theo Quy tắc 2a (Mục 6.4.2): vì điều kiện chọn F = (B=10) chỉ liên quan đến thuộc tính B có mặt trong R nên σ_{B=10}(R * S) ≡ σ_{B=10}(R) * S, do đó Π_A(σ_{B=10}(R * S)) ≡ Π_A(σ_{B=10}(R) * S).",
+        "Bước 2 (Định giá I/O cho BT(1) — chưa tối ưu): B1 kết nối tự nhiên R * S trên B: đọc 1.000 bộ của R + đọc 2.000 bộ của S + ghi kết quả trung gian (giả sử cỡ 2.000 bộ nếu B là khóa của R, hoặc n_RS bộ ra đĩa). B2 đọc lại toàn bộ n_RS bộ từ đĩa để chọn B=10. B3 chiếu lên A trong RAM. Tổng I/O BT(1) = 1.000 + 2.000 + 2 × n_RS (ví dụ nếu n_RS = 2.000 thì tốn 7.000 I/O).",
+        "Bước 3 (Định giá I/O cho BT(2) — đã tối ưu): B1 chọn B=10 trên R: đọc 1.000 bộ của R, lọc ra k bộ đủ nhỏ để giữ trong bộ nhớ chính (1.000 I/O). B2 kết nối k bộ trong RAM với S: đọc 2.000 bộ của S, cho kết quả giữ trong RAM (2.000 I/O). B3 chiếu lên A trong RAM (0 I/O). Tổng I/O BT(2) = 1.000 + 2.000 = 3.000 I/O.",
+        "Bước 4 (So sánh): BT(2) chỉ tốn 3.000 thao tác I/O vì hoàn toàn không phải ghi kết quả kết nối trung gian ra đĩa rồi đọc lại như BT(1)."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Bài 13: Kiểm tra tương đương và định giá chi phí I/O trên R(A,B,C,D) và S(D,E,F)",
+      "problem": "Cho quan hệ R(A, B, C, D) có 10.000 bộ và quan hệ S(D, E, F) có 2.000 bộ. Xét cặp biểu thức ĐSQH: BT(1) = Π_{B,C}(σ_{A=1 AND E=5}(R * S)) và BT(2) = Π_{B,C}(σ_{A=1}(R) * σ_{E=5}(S)) (giả sử số bộ thỏa A=1 trên R và E=5 trên S đủ nhỏ để giữ trong RAM). a) Hai biểu thức có tương đương không? Tại sao? b) Định giá chi phí I/O cho hai biểu thức.",
+      "solution_steps": [
+        "Bước 1 (Kiểm tra tương đương): Theo Quy tắc 2b (Mục 6.4.2), vì điều kiện F1 = (A=1) chỉ chứa thuộc tính của R và F2 = (E=5) chỉ chứa thuộc tính của S nên σ_{A=1 AND E=5}(R * S) ≡ σ_{A=1}(R) * σ_{E=5}(S). Chiếu hai vế lên {B, C} vẫn cho cùng một tập kết quả nên BT(1) ≡ BT(2). (Lưu ý: nếu một biểu thức thiếu điều kiện chọn hoặc lọc sai thuộc tính không thuộc R hay S thì hai biểu thức không tương đương).",
+        "Bước 2 (Định giá I/O cho BT(1) — chưa tối ưu): B1 kết nối tự nhiên R * S trên D: đọc 10.000 bộ R + đọc 2.000 bộ S + ghi n_RS bộ kết quả trung gian ra đĩa (ví dụ nếu n_RS = 10.000 bộ khi D là khóa của S thì tốn 22.000 I/O). B2 đọc lại 10.000 bộ từ đĩa để chọn A=1 AND E=5. B3 chiếu lên B, C trong RAM. Tổng BT(1) = 10.000 + 2.000 + 2 × n_RS (với n_RS = 10.000 là 32.000 I/O).",
+        "Bước 3 (Định giá I/O cho BT(2) — đã tối ưu): B1 chọn A=1 trên R: đọc 10.000 bộ R, giữ các bộ thỏa trong RAM. B2 chọn E=5 trên S: đọc 2.000 bộ S, giữ các bộ thỏa trong RAM. B3 kết nối và chiếu lên B, C trực tiếp trong RAM (0 I/O). Tổng BT(2) = 10.000 + 2.000 = 12.000 I/O.",
+        "Bước 4 (Kết luận): BT(2) tiết kiệm 2 × n_RS thao tác I/O ghi/đọc kết quả trung gian trên đĩa (ví dụ 12.000 I/O so với 32.000 I/O)."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bài 14: Viết biểu thức ĐSQH và vẽ cây đại số cho 4 câu truy vấn trên SINHVIEN - HOCPHAN - DIEMTHI",
+      "problem": "Cho CSDL SINHVIEN(MASV, HOTEN), HOCPHAN(MAHP, TENHP, SOTC), DIEMTHI(MASV, MAHP, DIEM). Hãy viết biểu thức ĐSQH và mô tả cây đại số tối ưu cho 4 câu truy vấn: (a) Tên học phần có SOTC >= 2; (b) Họ tên sinh viên có điểm môn 'CSDL1' >= 5; (c) Tên học phần từ 2 tín chỉ trở lên có sinh viên bị điểm 0; (d) Danh sách HOTEN, TENHP, DIEM của các học phần 1 tín chỉ.",
+      "solution_steps": [
+        "Bước 1 (Câu a): Biểu thức: Π_TENHP(σ_{SOTC >= 2}(HOCPHAN)). Cây đại số: lá HOCPHAN -> σ_{SOTC >= 2} -> gốc Π_TENHP.",
+        "Bước 2 (Câu b): Biểu thức tối ưu: Π_HOTEN(Π_MASV(σ_{MAHP='CSDL1' AND DIEM>=5}(DIEMTHI)) * Π_{MASV, HOTEN}(SINHVIEN)). Cây gồm nhánh trái DIEMTHI lọc MAHP='CSDL1' AND DIEM>=5 rồi chiếu MASV, nhánh phải SINHVIEN chiếu MASV, HOTEN, nối * và chiếu gốc Π_HOTEN.",
+        "Bước 3 (Câu c): Biểu thức tối ưu: Π_TENHP(Π_{MAHP, TENHP}(σ_{SOTC>=2}(HOCPHAN)) * Π_MAHP(σ_{DIEM=0}(DIEMTHI))). Cây đẩy σ_{SOTC>=2} và Π_{MAHP, TENHP} xuống HOCPHAN, đẩy σ_{DIEM=0} và Π_MAHP xuống DIEMTHI, nối * và chiếu gốc Π_TENHP.",
+        "Bước 4 (Câu d): Biểu thức tối ưu: Π_{HOTEN, TENHP, DIEM}(Π_{MASV, HOTEN}(SINHVIEN) * (Π_{MAHP, TENHP}(σ_{SOTC=1}(HOCPHAN)) * DIEMTHI)). Cây đẩy σ_{SOTC=1} và Π_{MAHP, TENHP} xuống HOCPHAN, nối với DIEMTHI (kết quả chiếu Π_{MASV, TENHP, DIEM}), sau đó nối với Π_{MASV, HOTEN}(SINHVIEN) và chiếu gốc Π_{HOTEN, TENHP, DIEM}."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bài 15: Giải thích ý nghĩa, tối ưu ĐSQH và vẽ cây đại số trên SINHVIEN - HOCPHAN - DIEMHP",
+      "problem": "Cho SINHVIEN(MASV, HOTEN, NAMTS), HOCPHAN(MAHP, TENHP, SOTC), DIEMHP(MASV, MAHP, DIEM) và câu hỏi: Π_{HOTEN, TENHP, DIEM}(σ_F(SINHVIEN × (HOCPHAN * DIEMHP))) với F = (SINHVIEN.MASV = DIEMHP.MASV) AND (DIEMHP.DIEM < 5) AND (HOCPHAN.SOTC >= 2). Yêu cầu: a) Giải thích ý nghĩa câu hỏi; b) Tối ưu bằng biến đổi ĐSQH; c) Mô tả cây đại số qua từng bước.",
+      "solution_steps": [
+        "Bước 1 (Ý nghĩa câu hỏi): Câu hỏi liệt kê họ tên sinh viên, tên học phần và điểm thi của những sinh viên bị điểm dưới 5 (< 5) ở các học phần có từ 2 tín chỉ trở lên (SOTC >= 2).",
+        "Bước 2 (Tối ưu ĐSQH — Quy tắc 1, 2, 5): Tách F để đẩy σ_{DIEM < 5} xuống trực tiếp trên DIEMHP và đẩy σ_{SOTC >= 2} xuống trực tiếp trên HOCPHAN; chuyển tích Descartes với điều kiện SINHVIEN.MASV = DIEMHP.MASV thành phép kết nối tự nhiên/kết nối bằng.",
+        "Bước 3 (Tối ưu ĐSQH — Quy tắc 3 đẩy chiếu): Biểu thức tối ưu cuối cùng: Π_{HOTEN, TENHP, DIEM}(Π_{MASV, HOTEN}(SINHVIEN) * (Π_{MAHP, TENHP}(σ_{SOTC>=2}(HOCPHAN)) * Π_{MASV, MAHP, DIEM}(σ_{DIEM<5}(DIEMHP)))).",
+        "Bước 4 (Cây đại số qua từng bước): Bước 1 đẩy σ xuống lá HOCPHAN và DIEMHP; Bước 2 đổi × thành *; Bước 3 chèn các phép chiếu Π_{MASV, HOTEN}, Π_{MAHP, TENHP}, Π_{MASV, MAHP, DIEM} và Π_{MASV, TENHP, DIEM} trên các nhánh trung gian trước nút gốc Π_{HOTEN, TENHP, DIEM}."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bài 16: Tối ưu bằng tách câu hỏi và vẽ cây phân tách trên TAISAN - DONVI - PHANPHOI",
+      "problem": "Cho CSDL quản lý tài sản TAISAN(MATS, TENTS, NGAYSD, GIA), DONVI(MADV, TENDV, SLNV), PHANPHOI(MADV, MATS, SOLUONG) và câu SQL: SELECT T.TENTS FROM TAISAN T, DONVI D, PHANPHOI P WHERE T.MATS=P.MATS AND D.MADV=P.MADV AND T.GIA>10000000 AND D.SLNV<=10 AND P.SOLUONG>3. Hãy tối ưu bằng phương pháp tách câu hỏi và mô tả cây phân tách.",
+      "solution_steps": [
+        "Bước 1 (Tách các câu hỏi con 1 biến): D1: SELECT MATS, TENTS FROM TAISAN WHERE GIA > 10000000 INTO T1. D2: SELECT MADV FROM DONVI WHERE SLNV <= 10 INTO D1_TBL. D3: SELECT MADV, MATS FROM PHANPHOI WHERE SOLUONG > 3 INTO P1.",
+        "Bước 2 (Câu hỏi trung gian Q1): Q1: SELECT T1.TENTS FROM T1, D1_TBL, P1 WHERE T1.MATS = P1.MATS AND D1_TBL.MADV = P1.MADV.",
+        "Bước 3 (Tách câu hỏi con 2 biến D4 và câu hỏi cuối Q2): Chọn kết nối D1_TBL và P1 trước để không phải mang theo TENTS: D4: SELECT P1.MATS FROM D1_TBL, P1 WHERE D1_TBL.MADV = P1.MADV INTO P2. Câu hỏi cuối Q2: SELECT T1.TENTS FROM T1, P2 WHERE T1.MATS = P2.MATS.",
+        "Bước 4 (Cây phân tách): Các lá TAISAN, DONVI, PHANPHOI qua D1, D2, D3 tạo T1, D1_TBL, P1; nhánh D1_TBL và P1 qua D4 tạo P2; cuối cùng T1 và P2 kết nối tại Q2."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Bài 17: Viết SQL, ĐSQH, vẽ cây truy vấn và tối ưu hóa trên EMPLOYEE - DEPARTMENT - DEPT_LOCATIONS",
+      "problem": "Cho EMPLOYEE(ENAME, SSN, ADDRESS, SALARY, DoB, DNO), DEPARTMENT(DNAME, DNUMBER, MGRSSN), DEPT_LOCATIONS(DNUM, LOCATION). Yêu cầu: a) Viết SQL và ĐSQH liệt kê ENAME, ADDRESS của các trưởng phòng ban tại vị trí 'Ho Chi Minh' có lương > 10.000.000; b) Vẽ cây truy vấn; c) Tối ưu hóa từng bước cây truy vấn.",
+      "solution_steps": [
+        "Bước 1 (Viết SQL và ĐSQH ban đầu): SQL: SELECT E.ENAME, E.ADDRESS FROM EMPLOYEE E, DEPARTMENT D, DEPT_LOCATIONS L WHERE E.SSN = D.MGRSSN AND D.DNUMBER = L.DNUM AND L.LOCATION = 'Ho Chi Minh' AND E.SALARY > 10000000. ĐSQH: Π_{ENAME, ADDRESS}(σ_F(EMPLOYEE × DEPARTMENT × DEPT_LOCATIONS)) với F là các điều kiện trong WHERE.",
+        "Bước 2 (Cây truy vấn ban đầu): Gốc Π_{ENAME, ADDRESS} -> σ_F -> (EMPLOYEE × DEPARTMENT) × DEPT_LOCATIONS.",
+        "Bước 3 (Tối ưu bước 1 & 2 — Đẩy chọn và đổi sang phép kết nối): Đẩy σ_{SALARY>10000000} xuống EMPLOYEE và σ_{LOCATION='Ho Chi Minh'} xuống DEPT_LOCATIONS; gộp các điều kiện nối E.SSN=D.MGRSSN và D.DNUMBER=L.DNUM với × thành phép kết nối ⋈.",
+        "Bước 4 (Tối ưu bước 3 — Đẩy chiếu xuống nhánh): Trên EMPLOYEE chiếu Π_{SSN, ENAME, ADDRESS}; trên DEPARTMENT chiếu Π_{DNUMBER, MGRSSN}; trên DEPT_LOCATIONS chiếu Π_{DNUM}; kết nối thu gọn và chiếu gốc Π_{ENAME, ADDRESS}."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Bài 18: Tối ưu bằng tách câu hỏi và vẽ cây phân tách trên STUDENT - BOOK - CHECKOUT",
+      "problem": "Cho STUDENT(SID, NAME, AGE, ADDRESS), BOOK(BID, TITLE, AUTHOR), CHECKOUT(SID, BID, DATE) và câu SQL: SELECT S.NAME FROM STUDENT S, BOOK B, CHECKOUT C WHERE S.SID=C.SID AND B.BID=C.BID AND B.AUTHOR='OLDEN FAMES' AND S.AGE>12 AND S.AGE<20. Tối ưu bằng tách câu hỏi và mô tả cây phân tách.",
+      "solution_steps": [
+        "Bước 1 (Tách các câu hỏi con 1 biến): D1: SELECT SID, NAME FROM STUDENT WHERE AGE > 12 AND AGE < 20 INTO S1. D2: SELECT BID FROM BOOK WHERE AUTHOR = 'OLDEN FAMES' INTO B1. D3 (không có điều kiện chọn đơn trên CHECKOUT, chiếu lấy khóa nối): SELECT SID, BID FROM CHECKOUT INTO C1 (hoặc giữ nguyên CHECKOUT).",
+        "Bước 2 (Câu hỏi trung gian Q1): Q1: SELECT S1.NAME FROM S1, B1, C1 WHERE S1.SID = C1.SID AND B1.BID = C1.BID.",
+        "Bước 3 (Tách câu hỏi con 2 biến D4 và câu hỏi cuối Q2): Kết nối B1 và C1 trước để lọc ra danh sách SID đã mượn sách tác giả 'OLDEN FAMES': D4: SELECT C1.SID FROM B1, C1 WHERE B1.BID = C1.BID INTO C2. Câu hỏi cuối Q2: SELECT S1.NAME FROM S1, C2 WHERE S1.SID = C2.SID.",
+        "Bước 4 (Cây phân tách): STUDENT -> D1 -> S1; BOOK -> D2 -> B1; CHECKOUT -> (D3) -> C1; B1 và C1 qua D4 -> C2; cuối cùng S1 và C2 gặp nhau tại Q2 để trả về S1.NAME."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Bài 19: Tối ưu bằng tách câu hỏi và vẽ cây phân tách trên APPLICANTS - SCHOOLS - MAJOR",
+      "problem": "Cho APPLICANTS(ID, NAME, CITY, SID), SCHOOLS(SID, SNAME, SRANK), MAJOR(ID, MAJOR) và câu SQL: SELECT A.NAME FROM APPLICANTS A, SCHOOLS S, MAJOR M WHERE A.SID=S.SID AND A.ID=M.ID AND A.CITY='SEATTLE' AND S.SRANK<10 AND M.MAJOR='CSE'. Tối ưu bằng tách câu hỏi và mô tả cây phân tách.",
+      "solution_steps": [
+        "Bước 1 (Tách các câu hỏi con 1 biến): D1: SELECT ID, NAME, SID FROM APPLICANTS WHERE CITY = 'SEATTLE' INTO A1. D2: SELECT SID FROM SCHOOLS WHERE SRANK < 10 INTO S1. D3: SELECT ID FROM MAJOR WHERE MAJOR = 'CSE' INTO M1.",
+        "Bước 2 (Câu hỏi trung gian Q1): Q1: SELECT A1.NAME FROM A1, S1, M1 WHERE A1.SID = S1.SID AND A1.ID = M1.ID.",
+        "Bước 3 (Tách câu hỏi con 2 biến D4 và câu hỏi cuối Q2): Kết nối A1 với S1 (hoặc M1): D4: SELECT A1.ID, A1.NAME FROM A1, S1 WHERE A1.SID = S1.SID INTO A2. Câu hỏi cuối Q2: SELECT A2.NAME FROM A2, M1 WHERE A2.ID = M1.ID.",
+        "Bước 4 (Cây phân tách): APPLICANTS, SCHOOLS, MAJOR lần lượt qua D1, D2, D3 tạo A1, S1, M1; nhánh A1 và S1 qua D4 tạo A2; cuối cùng A2 và M1 kết nối tại Q2 để cho ra A2.NAME."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Bài 20: Tối ưu bằng tách câu hỏi và vẽ cây phân tách trên GUITARS - PLAYERS - LASTPLAYED",
+      "problem": "Cho GUITARS(GID, BRAND, PRICE), PLAYERS(PID, NAME, AGE), LASTPLAYED(GID, PID, DATE) và câu SQL: SELECT P.NAME FROM GUITARS G, PLAYERS P, LASTPLAYED L WHERE G.GID=L.GID AND P.PID=L.PID AND P.AGE<25 AND G.BRAND='GIBSON' AND G.PRICE>3000. Tối ưu bằng tách câu hỏi và mô tả cây phân tách.",
+      "solution_steps": [
+        "Bước 1 (Tách các câu hỏi con 1 biến): D1: SELECT GID FROM GUITARS WHERE BRAND = 'GIBSON' AND PRICE > 3000 INTO G1. D2: SELECT PID, NAME FROM PLAYERS WHERE AGE < 25 INTO P1. D3 (chiếu khóa nối trên LASTPLAYED): SELECT GID, PID FROM LASTPLAYED INTO L1.",
+        "Bước 2 (Câu hỏi trung gian Q1): Q1: SELECT P1.NAME FROM G1, P1, L1 WHERE G1.GID = L1.GID AND P1.PID = L1.PID.",
+        "Bước 3 (Tách câu hỏi con 2 biến D4 và câu hỏi cuối Q2): Kết nối G1 và L1 trước để thu gọn các PID từng chơi đàn Gibson giá > 3000: D4: SELECT L1.PID FROM G1, L1 WHERE G1.GID = L1.GID INTO L2. Câu hỏi cuối Q2: SELECT P1.NAME FROM P1, L2 WHERE P1.PID = L2.PID.",
+        "Bước 4 (Cây phân tách): GUITARS -> D1 -> G1; PLAYERS -> D2 -> P1; LASTPLAYED -> (D3) -> L1; G1 và L1 qua D4 -> L2; cuối cùng P1 và L2 kết nối tại Q2 cho ra P1.NAME."
+      ]
+    }
+  ]
+}

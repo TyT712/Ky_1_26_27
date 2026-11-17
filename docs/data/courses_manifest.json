@@ -5,171 +5,95 @@
    "id": "he_qtcsdl",
    "code": "HQTCSDL",
    "title": "Hệ Quản Trị Cơ Sở Dữ Liệu",
-   "description": "Nhập môn CSDL, mô hình E-R, đại số quan hệ, SQL, tối ưu truy vấn, ràng buộc toàn vẹn và lý thuyết chuẩn hóa.",
+   "description": "Giáo trình Thực hành Cơ sở dữ liệu (Phần I - Nhập môn, NXB Đại học Huế - 2022): Lý thuyết ghi nhớ Cornell, mô hình E-R, mô hình dữ liệu quan hệ & đại số quan hệ, ngôn ngữ SQL, tổ chức vật lý dữ liệu và tối ưu hóa câu hỏi.",
    "status": "active",
    "books": [
     {
-     "id": "quyen_1",
-     "title": "Quyển 1: Nhập môn CSDL (Chương 1 - 6)",
+     "id": "giao_trinh_thuc_hanh_csdl_phan_1",
+     "title": "Giáo trình Thực hành Cơ sở dữ liệu (Phần I - Nhập môn) - NXB Đại học Huế (2022)",
      "chapters": [
       {
-       "id": "q1_chuong_1",
+       "id": "chuong_1",
        "number": 1,
-       "title": "Tổng quan về CSDL & kiến trúc ANSI/SPARC",
-       "full_title": "Quyển 1 - Chương 1: Tổng quan về CSDL & kiến trúc ANSI/SPARC",
-       "summary": "DBMS, ba mức trừu tượng, độc lập dữ liệu, DDL/DML/DCL và tính chất ACID.",
-       "theory": "data/he_qtcsdl/q1_chuong_1_theory.md",
-       "exercises": "data/he_qtcsdl/q1_chuong_1_exercises.json",
+       "title": "Tổng quan về cơ sở dữ liệu",
+       "full_title": "Chương 1: Tổng quan về cơ sở dữ liệu",
+       "summary": "Ghi chú Cornell: Khái niệm, đặc điểm & ưu điểm CSDL, hệ QTCSDL (DBMS), 3 mức biểu diễn ANSI-SPARC, độc lập dữ liệu, lược đồ & thể hiện, ngôn ngữ DDL/DML/SQL, kiến trúc DBMS và các đối tượng sử dụng.",
+       "theory": "data/he_qtcsdl/chuong_1_theory.md",
+       "exercises": "data/he_qtcsdl/chuong_1_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
-        "essays": 4
+        "multiple_choice": 70,
+        "short_answers": 5,
+        "essays": 20
        }
       },
       {
-       "id": "q1_chuong_2",
+       "id": "chuong_2",
        "number": 2,
-       "title": "Mô hình thực thể - liên kết (E-R) & chuyển đổi sang mô hình quan hệ",
-       "full_title": "Quyển 1 - Chương 2: Mô hình thực thể - liên kết (E-R) & chuyển đổi sang mô hình quan hệ",
-       "summary": "Thực thể, thuộc tính, bản số, thực thể yếu và 7 quy tắc ánh xạ E-R sang quan hệ.",
-       "theory": "data/he_qtcsdl/q1_chuong_2_theory.md",
-       "exercises": "data/he_qtcsdl/q1_chuong_2_exercises.json",
+       "title": "Mô hình thực thể - quan hệ (E-R)",
+       "full_title": "Chương 2: Mô hình thực thể - quan hệ (E-R) (Entity Relationship Model)",
+       "summary": "Ghi chú Cornell: 4 bước thiết kế CSDL, thực thể, tập thực thể, thuộc tính, khóa, sơ đồ E-R, mối quan hệ nhị nguyên (1-1, n-1, n-n), bản số (min, max), kế thừa Is-a, phản xạ và đa nguyên.",
+       "theory": "data/he_qtcsdl/chuong_2_theory.md",
+       "exercises": "data/he_qtcsdl/chuong_2_exercises.json",
        "counts": {
-        "multiple_choice": 31,
-        "short_answers": 8,
-        "essays": 4
+        "multiple_choice": 70,
+        "short_answers": 5,
+        "essays": 20
        }
       },
       {
-       "id": "q1_chuong_3",
+       "id": "chuong_3",
        "number": 3,
-       "title": "Mô hình quan hệ & Đại số quan hệ",
-       "full_title": "Quyển 1 - Chương 3: Mô hình quan hệ & Đại số quan hệ",
-       "summary": "Các phép toán σ, π, ∪, ∩, −, ×, ⋈, ÷ và quy tắc biến đổi biểu thức.",
-       "theory": "data/he_qtcsdl/q1_chuong_3_theory.md",
-       "exercises": "data/he_qtcsdl/q1_chuong_3_exercises.json",
+       "title": "Mô hình dữ liệu quan hệ",
+       "full_title": "Chương 3: Mô hình dữ liệu quan hệ (Relational Data Model)",
+       "summary": "Ghi chú Cornell: Thuộc tính, lược đồ quan hệ, bộ (tuple), quan hệ, khóa/siêu khóa/khóa chính/khóa ngoại, chuyển đổi E-R sang quan hệ & gộp khóa chung, các phép toán tập hợp và phép toán đại số quan hệ.",
+       "theory": "data/he_qtcsdl/chuong_3_theory.md",
+       "exercises": "data/he_qtcsdl/chuong_3_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
-        "essays": 4
+        "multiple_choice": 70,
+        "short_answers": 5,
+        "essays": 20
        }
       },
       {
-       "id": "q1_chuong_4",
+       "id": "chuong_4",
        "number": 4,
-       "title": "Ngôn ngữ truy vấn SQL toàn diện",
-       "full_title": "Quyển 1 - Chương 4: Ngôn ngữ truy vấn SQL toàn diện",
-       "summary": "DDL/DML/DQL, JOIN, GROUP BY - HAVING, truy vấn con và thứ tự thực thi.",
-       "theory": "data/he_qtcsdl/q1_chuong_4_theory.md",
-       "exercises": "data/he_qtcsdl/q1_chuong_4_exercises.json",
+       "title": "Ngôn ngữ khai thác cơ sở dữ liệu",
+       "full_title": "Chương 4: Ngôn ngữ khai thác cơ sở dữ liệu (SQL)",
+       "summary": "Ghi chú Cornell: Kiểu dữ liệu & giá trị NULL, lệnh định nghĩa dữ liệu DDL (CREATE/ALTER/DROP TABLE, VIEW, ràng buộc), lệnh cập nhật DML (INSERT/UPDATE/DELETE), truy vấn SELECT, Subquery, cấu trúc điều khiển và bảo mật GRANT/REVOKE.",
+       "theory": "data/he_qtcsdl/chuong_4_theory.md",
+       "exercises": "data/he_qtcsdl/chuong_4_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
-        "essays": 4
+        "multiple_choice": 70,
+        "short_answers": 5,
+        "essays": 20
        }
       },
       {
-       "id": "q1_chuong_5",
+       "id": "chuong_5",
        "number": 5,
-       "title": "Tổ chức vật lý dữ liệu & chỉ mục B/B+",
-       "full_title": "Quyển 1 - Chương 5: Tổ chức vật lý dữ liệu & chỉ mục B/B+",
-       "summary": "Hệ số kết khối, tệp đống/tuần tự/băm, chỉ mục chính-phụ-gom cụm và cây B+.",
-       "theory": "data/he_qtcsdl/q1_chuong_5_theory.md",
-       "exercises": "data/he_qtcsdl/q1_chuong_5_exercises.json",
+       "title": "Tổ chức vật lý của dữ liệu",
+       "full_title": "Chương 5: Tổ chức vật lý của dữ liệu",
+       "summary": "Ghi chú Cornell: Bản ghi logic & bản ghi vật lý (block/page), tệp bản ghi cố định & thay đổi, danh sách móc nối xóa, tổ chức tuần tự, tổ chức ngẫu nhiên (hàm băm & xử lý đụng độ: thử tuyến tính, kết nối ngoài, kết nối trong), tệp chỉ dẫn và B-cây.",
+       "theory": "data/he_qtcsdl/chuong_5_theory.md",
+       "exercises": "data/he_qtcsdl/chuong_5_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
-        "essays": 4
+        "multiple_choice": 70,
+        "short_answers": 5,
+        "essays": 20
        }
       },
       {
-       "id": "q1_chuong_6",
+       "id": "chuong_6",
        "number": 6,
-       "title": "Xử lý & tối ưu hóa câu hỏi truy vấn",
-       "full_title": "Quyển 1 - Chương 6: Xử lý & tối ưu hóa câu hỏi truy vấn",
-       "summary": "Cây truy vấn, tối ưu heuristic, tối ưu theo chi phí và các thuật toán join.",
-       "theory": "data/he_qtcsdl/q1_chuong_6_theory.md",
-       "exercises": "data/he_qtcsdl/q1_chuong_6_exercises.json",
+       "title": "Xử lý và tối ưu hóa câu hỏi",
+       "full_title": "Chương 6: Xử lý và tối ưu hóa câu hỏi",
+       "summary": "Ghi chú Cornell: Các giai đoạn xử lý truy vấn, định giá chi phí I/O & CPU, 6 chiến lược Ullman, 5 quy tắc biến đổi đại số quan hệ, cây đại số, tối ưu nhờ tách câu hỏi (cây phân tách), phép nửa nối và ước lượng chi phí.",
+       "theory": "data/he_qtcsdl/chuong_6_theory.md",
+       "exercises": "data/he_qtcsdl/chuong_6_exercises.json",
        "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
-        "essays": 4
-       }
-      }
-     ]
-    },
-    {
-     "id": "quyen_2",
-     "title": "Quyển 2: Thiết kế CSDL (Chương 1 - 5)",
-     "chapters": [
-      {
-       "id": "q2_chuong_1",
-       "number": 1,
-       "title": "Ràng buộc toàn vẹn & kỹ thuật cài đặt Trigger",
-       "full_title": "Quyển 2 - Chương 1: Ràng buộc toàn vẹn & kỹ thuật cài đặt Trigger",
-       "summary": "Bốn yếu tố của RBTV, bảng tầm ảnh hưởng, bảng ảo INSERTED/DELETED, Trigger T-SQL.",
-       "theory": "data/he_qtcsdl/q2_chuong_1_theory.md",
-       "exercises": "data/he_qtcsdl/q2_chuong_1_exercises.json",
-       "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
-        "essays": 4
-       }
-      },
-      {
-       "id": "q2_chuong_2",
-       "number": 2,
-       "title": "Phụ thuộc hàm, bao đóng & thuật toán tìm khóa",
-       "full_title": "Quyển 2 - Chương 2: Phụ thuộc hàm, bao đóng & thuật toán tìm khóa",
-       "summary": "Hệ tiên đề Armstrong, bao đóng, tìm khóa và phủ tối thiểu.",
-       "theory": "data/he_qtcsdl/q2_chuong_2_theory.md",
-       "exercises": "data/he_qtcsdl/q2_chuong_2_exercises.json",
-       "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
-        "essays": 4
-       }
-      },
-      {
-       "id": "q2_chuong_3",
-       "number": 3,
-       "title": "Lý thuyết phân tách lược đồ & bảo toàn thông tin",
-       "full_title": "Quyển 2 - Chương 3: Lý thuyết phân tách lược đồ & bảo toàn thông tin",
-       "summary": "Bộ giả, điều kiện nối không mất thông tin, bảng Chase, bảo toàn phụ thuộc hàm.",
-       "theory": "data/he_qtcsdl/q2_chuong_3_theory.md",
-       "exercises": "data/he_qtcsdl/q2_chuong_3_exercises.json",
-       "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
-        "essays": 4
-       }
-      },
-      {
-       "id": "q2_chuong_4",
-       "number": 4,
-       "title": "Chuẩn hóa CSDL (1NF-BCNF) & thuật toán Bernstein",
-       "full_title": "Quyển 2 - Chương 4: Chuẩn hóa CSDL (1NF-BCNF) & thuật toán Bernstein",
-       "summary": "Định nghĩa 1NF/2NF/3NF/BCNF, phân tách BCNF và tổng hợp 3NF.",
-       "theory": "data/he_qtcsdl/q2_chuong_4_theory.md",
-       "exercises": "data/he_qtcsdl/q2_chuong_4_exercises.json",
-       "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
-        "essays": 4
-       }
-      },
-      {
-       "id": "q2_chuong_5",
-       "number": 5,
-       "title": "Phụ thuộc đa trị (MVD) & dạng chuẩn 4NF",
-       "full_title": "Quyển 2 - Chương 5: Phụ thuộc đa trị (MVD) & dạng chuẩn 4NF",
-       "summary": "MVD, luật bù, định lý Fagin và chuẩn hóa 4NF.",
-       "theory": "data/he_qtcsdl/q2_chuong_5_theory.md",
-       "exercises": "data/he_qtcsdl/q2_chuong_5_exercises.json",
-       "counts": {
-        "multiple_choice": 30,
-        "short_answers": 8,
-        "essays": 4
+        "multiple_choice": 70,
+        "short_answers": 5,
+        "essays": 20
        }
       }
      ]

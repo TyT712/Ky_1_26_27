@@ -1,0 +1,1164 @@
+{
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Trên bộ nhớ thứ cấp (secondary), cơ sở dữ liệu được tổ chức lưu trữ theo thứ bậc nào sau đây?",
+      "options": {
+        "A": "Một hay nhiều tệp, mỗi tệp gồm một hay nhiều bản ghi, mỗi bản ghi gồm một hay nhiều trường",
+        "B": "Một hay nhiều bảng, mỗi bảng gồm một hay nhiều trang nhớ chính",
+        "C": "Một khối duy nhất chứa toàn bộ các trường dữ liệu nối tiếp nhau",
+        "D": "Một danh sách móc nối các ký tự không phân chia thành bản ghi"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 5.1.1, trên bộ nhớ thứ cấp, CSDL được lưu trữ trong một hay nhiều tệp, mỗi tệp gồm một hay nhiều bản ghi và mỗi bản ghi gồm một hay nhiều trường.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Thông thường, trong mô hình tổ chức dữ liệu trên tệp, một bản ghi và một trường lần lượt tương ứng với thành phần nào?",
+      "options": {
+        "A": "Một thuộc tính và một mối quan hệ",
+        "B": "Một thực thể và một thuộc tính",
+        "C": "Một khối vật lý và một tệp dữ liệu",
+        "D": "Một con trỏ và một khóa ngoại"
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nêu rõ: thông thường, một bản ghi tương ứng với một thực thể và một trường tương ứng với một thuộc tính.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Khi người dùng yêu cầu hệ QTCSDL cung cấp một bản ghi (ví dụ nhân viên mã NV01), hệ thống sẽ xử lý như thế nào?",
+      "options": {
+        "A": "Đọc trực tiếp từng ký tự từ đĩa từ ra màn hình không qua bộ nhớ chính",
+        "B": "Xóa toàn bộ bộ nhớ đệm rồi sao chép cả tệp vào thanh ghi CPU",
+        "C": "Ánh xạ bản ghi logic này vào một bản ghi vật lý và truy xuất nó ở vùng nhớ đệm trong bộ nhớ chính",
+        "D": "Chuyển đổi bản ghi thành tệp chỉ mục mới rồi mới đọc từ bộ nhớ thứ cấp"
+      },
+      "correct_answer": "C",
+      "explanation": "Hệ QTCSDL ánh xạ bản ghi logic được yêu cầu vào một bản ghi vật lý tương ứng và truy xuất bản ghi vật lý đó ở vùng nhớ đệm trong bộ nhớ chính.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Đơn vị cơ bản trong việc truyền tải dữ liệu qua lại giữa đĩa từ và bộ nhớ chính là gì?",
+      "options": {
+        "A": "Trường dữ liệu (field)",
+        "B": "Bản ghi logic (logical record)",
+        "C": "Khóa chính (primary key)",
+        "D": "Bản ghi vật lý (physical record)"
+      },
+      "correct_answer": "D",
+      "explanation": "Bản ghi vật lý (còn gọi là khối - block hoặc trang - page) là đơn vị truyền tải qua lại giữa đĩa và bộ nhớ chính.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Trong các tài liệu về cơ sở dữ liệu, thuật ngữ 'khối' (block) hoặc 'trang' (page) dùng để chỉ khái niệm nào?",
+      "options": {
+        "A": "Bản ghi vật lý",
+        "B": "Bản ghi logic",
+        "C": "Trường khóa của tệp chỉ dẫn",
+        "D": "Đầu tệp (file header)"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 5.1.1, trong nhiều tài liệu về CSDL, thuật ngữ khối (block) hay trang (page) được dùng để chỉ bản ghi vật lý.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Yếu tố nào quyết định kích thước của một khối (block) trên đĩa?",
+      "options": {
+        "A": "Số lượng bản ghi logic người dùng nhập vào mỗi ngày",
+        "B": "Tính chất vật lý của đĩa từ và hệ điều hành",
+        "C": "Tên của các thuộc tính trong bảng quan hệ",
+        "D": "Số lượng con trỏ trong nút lá của B-cây"
+      },
+      "correct_answer": "B",
+      "explanation": "Các khối có kích thước xác định bởi tính chất vật lý của đĩa từ và bởi hệ điều hành, trong khi các bản ghi logic có thể có kích thước khác nhau.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Phát biểu nào sau đây ĐÚNG về mối quan hệ kích thước giữa khối (block) và bản ghi logic trong CSDL quan hệ?",
+      "options": {
+        "A": "Mỗi khối luôn chỉ chứa tối đa một trường của một bản ghi logic",
+        "B": "Các bản ghi thuộc các quan hệ khác nhau luôn có kích thước bằng nhau",
+        "C": "Thông thường một khối bao gồm nhiều hơn một bản ghi logic",
+        "D": "Kích thước khối thay đổi linh hoạt theo độ dài từng bản ghi logic"
+      },
+      "correct_answer": "C",
+      "explanation": "Trong CSDL quan hệ, các bản ghi của các quan hệ khác nhau thường có kích thước khác nhau, và thông thường một khối chứa nhiều hơn một bản ghi logic.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "question": "Trong ví dụ Bảng 5.1 (bảng NHÂN VIÊN lưu trong 2 khối), các nhân viên SL21, SG37, SG14 thuộc khối 1 và SA9, SG5, SL41 thuộc khối 2 minh họa cho điều gì?",
+      "options": {
+        "A": "Một bản ghi logic luôn có kích thước lớn hơn một khối",
+        "B": "Mỗi bản ghi logic bắt buộc phải tách thành 2 tệp riêng biệt",
+        "C": "Khóa chính của bảng phải được sắp xếp tăng dần trước khi lưu khối",
+        "D": "Mỗi bản ghi vật lý (khối) có thể chứa nhiều bản ghi logic của một quan hệ"
+      },
+      "correct_answer": "D",
+      "explanation": "Bảng 5.1 minh họa 6 bản ghi logic của quan hệ NHANVIEN được lưu trữ gọn trong 2 khối vật lý (mỗi khối chứa 3 bản ghi logic).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Hai cách cơ bản để ánh xạ một cơ sở dữ liệu vào các tệp trên đĩa là gì?",
+      "options": {
+        "A": "Dùng các tệp chỉ chứa bản ghi cùng kích thước, hoặc tổ chức các tệp chứa bản ghi có kích thước khác nhau",
+        "B": "Lưu tất cả trong bộ nhớ RAM hoặc lưu trong các biến toàn cục",
+        "C": "Chỉ dùng tệp văn bản ASCII hoặc tệp âm thanh nhị phân",
+        "D": "Tạo một tệp riêng cho mỗi thuộc tính của từng bản ghi"
+      },
+      "correct_answer": "A",
+      "explanation": "Cuối Mục 5.1.1 nêu hai cách ánh xạ CSDL vào tệp: dùng các tệp mà mỗi tệp chỉ chứa bản ghi cùng kích thước, hoặc tổ chức tệp chứa bản ghi có kích thước khác nhau.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "question": "Một khối (block) có kích thước 500 byte chứa các bản ghi `Taikhoan` (40 byte/bản ghi) được lưu liên tiếp sát nhau qua biên khối. Bản ghi thứ mấy là bản ghi ĐẦU TIÊN bị nằm chồng lên biên giữa khối 1 và khối 2?",
+      "options": {
+        "A": "Bản ghi thứ 12 (nằm trọn 480 byte ở khối 1)",
+        "B": "Bản ghi thứ 13 (20 byte nằm ở khối 1 và 20 byte nằm ở khối 2)",
+        "C": "Bản ghi thứ 10 (400 byte đầu ở khối 1)",
+        "D": "Không có bản ghi nào vắt qua biên khối vì 500 chia hết cho 40"
+      },
+      "correct_answer": "B",
+      "explanation": "12 bản ghi đầu chiếm $12 \\times 40 = 480$ byte của khối 1 (còn dư 20 byte). Bản ghi thứ 13 chiếm từ byte 481 đến byte 520, tức 20 byte ở khối 1 và 20 byte ở khối 2.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 11,
+      "question": "Xét khai báo bản ghi `Type Taikhoan = Record Tenchinhdanh : Char(22); Mataikhoan : Char(10); Sodu : Real; End;`. Nếu `Char` chiếm 1 byte và `Real` chiếm 8 byte thì kích thước mỗi bản ghi là bao nhiêu?",
+      "options": {
+        "A": "32 byte",
+        "B": "38 byte",
+        "C": "40 byte",
+        "D": "48 byte"
+      },
+      "correct_answer": "C",
+      "explanation": "Kích thước bản ghi `Taikhoan` = 22 * 1 + 10 * 1 + 8 = 40 byte.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "Hai vấn đề chính phát sinh khi lưu trữ tệp các bản ghi kích thước cố định (ví dụ 40 byte/bản ghi) là gì?",
+      "options": {
+        "A": "Không thể dùng khóa số nguyên và không lưu được ký tự chữ",
+        "B": "Không thể dùng hàm băm và không hỗ trợ tìm kiếm tuần tự",
+        "C": "Tệp bị tự động nén và mất dấu kết thúc bản ghi",
+        "D": "Khó xóa bản ghi (quản lý chỗ trống) và một số bản ghi có thể nằm chồng lên biên khối"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 5.1.2a chỉ rõ 2 vấn đề: (1) khó xóa một bản ghi và tái sử dụng không gian trống; (2) nếu kích thước khối không chia hết cho 40, bản ghi có thể nằm vắt qua biên hai khối.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "Hiện tượng 'bản ghi nằm chồng lên biên của khối' xảy ra trong điều kiện nào?",
+      "options": {
+        "A": "Khi kích thước của khối không phải là bội số của kích thước bản ghi cố định",
+        "B": "Khi kích thước bản ghi bằng đúng một nửa kích thước khối",
+        "C": "Khi tệp chỉ chứa duy nhất một bản ghi ở đầu tệp",
+        "D": "Khi tất cả các bản ghi trong tệp đều bị đánh dấu xóa"
+      },
+      "correct_answer": "A",
+      "explanation": "Nếu kích thước khối không phải bội số của kích thước bản ghi (ví dụ 40 byte), một phần bản ghi nằm ở khối này và phần còn lại nằm ở khối kế tiếp.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "Hệ quả trực tiếp khi một bản ghi nằm chồng lên biên của hai khối là gì?",
+      "options": {
+        "A": "Bản ghi tự động bị hệ điều hành cắt ngắn mất phần dư",
+        "B": "Phải truy cập cả hai khối mỗi khi đọc hoặc viết bản ghi đó",
+        "C": "Không thể thực hiện phép toán so sánh trên trường khóa",
+        "D": "Tệp bị chuyển thành dạng bản ghi kích thước thay đổi"
+      },
+      "correct_answer": "B",
+      "explanation": "Vì bản ghi nằm một phần ở khối trước và phần còn lại ở khối sau, hệ thống buộc phải truy cập cả hai khối mỗi khi đọc hay ghi bản ghi đó.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "Giả sử một khối có kích thước 512 byte và mỗi bản ghi `Taikhoan` dài 40 byte. Khi lưu liên tiếp không chừa khoảng trống biên khối, nhận xét nào sau đây đúng?",
+      "options": {
+        "A": "512 là bội số của 40 nên không có bản ghi nào vắt qua biên khối",
+        "B": "Mỗi khối chứa đúng 13 bản ghi trọn vẹn",
+        "C": "Khối thứ nhất chứa trọn 12 bản ghi (480 byte) và 32 byte đầu của bản ghi thứ 13; 8 byte còn lại nằm ở khối thứ hai",
+        "D": "Mỗi bản ghi phải cần tới 3 khối để lưu trữ"
+      },
+      "correct_answer": "C",
+      "explanation": "512 = 12 * 40 + 32. Vì 512 không chia hết cho 40, bản ghi thứ 13 có 32 byte ở khối 1 và 8 byte ở khối 2 (nằm chồng lên biên khối).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 16,
+      "question": "Khi xóa một bản ghi trong tệp kích thước cố định, nhược điểm của cách 'dịch chuyển mọi bản ghi phía sau lên trước' là gì?",
+      "options": {
+        "A": "Làm thay đổi kích thước từng bản ghi từ 40 byte xuống 32 byte",
+        "B": "Làm mất toàn bộ thông tin trong phần đầu tệp (file header)",
+        "C": "Không thể thêm bản ghi mới vào cuối tệp được nữa",
+        "D": "Đòi hỏi phải dịch chuyển một số lượng lớn bản ghi và tăng nhiều thao tác truy cập khối"
+      },
+      "correct_answer": "D",
+      "explanation": "Dịch chuyển toàn bộ bản ghi đứng sau bản ghi bị xóa lên trên đòi hỏi di chuyển một lượng lớn bản ghi, tốn nhiều thao tác truy cập khối.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "Phương án nào đơn giản hơn việc dịch chuyển toàn bộ các bản ghi phía sau khi xóa một bản ghi ở giữa tệp?",
+      "options": {
+        "A": "Chuyển bản ghi cuối cùng trong tệp vào chỗ của bản ghi vừa xóa",
+        "B": "Sao chép bản ghi đầu tiên đè lên bản ghi bị xóa",
+        "C": "Xóa luôn cả khối chứa bản ghi đó khỏi đĩa từ",
+        "D": "Tạo một tệp B-cây mới chứa tất cả các bản ghi còn lại"
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình nêu: có thể làm đơn giản hơn bằng cách chỉ cần chuyển bản ghi cuối cùng trong tệp vào chỗ của bản ghi vừa xóa.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Vì sao việc 'chỉ đánh dấu xóa các bản ghi' mà không có cơ chế liên kết lại chưa đủ hiệu quả khi thêm bản ghi mới?",
+      "options": {
+        "A": "Vì đánh dấu xóa làm hỏng định dạng của các trường kiểu Real",
+        "B": "Vì rất khó tìm lại được các khoảng trống đã xóa này khi muốn thêm bản ghi mới",
+        "C": "Vì bản ghi bị đánh dấu xóa vẫn tự động hiển thị trong kết quả truy vấn",
+        "D": "Vì hệ điều hành không cho phép ghi đè lên vùng nhớ đã từng đánh dấu"
+      },
+      "correct_answer": "B",
+      "explanation": "Nếu chỉ đánh dấu xóa, hệ thống rất khó tìm được các khoảng trống này khi thêm bản ghi mới (phải quét lại để tìm chỗ trống).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "Trong kỹ thuật quản lý chỗ trống tệp bản ghi kích thước cố định, phần đầu tệp (`file header`) lưu trữ thông tin gì?",
+      "options": {
+        "A": "Toàn bộ nội dung của bản ghi cuối cùng trong tệp",
+        "B": "Số lượng khối của tất cả các tệp khác trên đĩa",
+        "C": "Địa chỉ (con trỏ) của bản ghi đầu tiên đã bị xóa",
+        "D": "Hàm băm modulo dùng cho bảng nhân viên"
+      },
+      "correct_answer": "C",
+      "explanation": "Tại đầu tệp (`file header`) ta lưu giữ địa chỉ bản ghi đầu tiên đã bị xóa; bản ghi đó lại lưu địa chỉ bản ghi trống thứ hai,... tạo thành danh sách móc nối.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Cho danh sách móc nối các bản ghi bị xóa như Hình 5.1: `Header -> Record 1 -> Record 4 -> Record 6 -> Null`. Nếu xóa thêm `Record 3` (đưa lên đầu danh sách trống) rồi ngay sau đó chèn 1 bản ghi mới, giá trị con trỏ của `Header` sau 2 thao tác này trỏ tới đâu?",
+      "options": {
+        "A": "Record 4",
+        "B": "Record 3",
+        "C": "Record 6",
+        "D": "Record 1"
+      },
+      "correct_answer": "D",
+      "explanation": "Khi xóa `Record 3`, danh sách trống trở thành `Header -> 3 -> 1 -> 4 -> 6 -> Null`. Khi chèn 1 bản ghi mới, hệ thống dùng `Record 3` và cập nhật `Header` trỏ lại tới `Record 1`.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 21,
+      "question": "Với tệp gồm `Record 0 .. Record 7` đang có danh sách móc nối ô trống `Header -> Record 1 -> Record 4 -> Record 6 -> Null`, nếu thực hiện **4 lần thêm bản ghi mới liên tiếp**, bản ghi thứ 4 sẽ được lưu ở vị trí nào?",
+      "options": {
+        "A": "Thêm vào cuối tệp (vị trí `Record 8`) vì các ô trống 1, 4, 6 đã dùng hết",
+        "B": "Ghi đè lên `Record 0` ở đầu tệp",
+        "C": "Ghi đè lại vào `Record 1`",
+        "D": "Báo lỗi vì không thể thêm quá 3 bản ghi"
+      },
+      "correct_answer": "A",
+      "explanation": "3 bản ghi đầu lần lượt lấy hết các ô trống `Record 1`, `Record 4`, `Record 6`. Khi thêm bản ghi thứ 4, danh sách trống đã hết (`Null`), nên bản ghi mới được nối vào cuối tệp (`Record 8`).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "Khi sử dụng danh sách móc nối các bản ghi bị xóa, nếu không còn bản ghi trống nào trong danh sách thì bản ghi mới sẽ được thêm vào đâu?",
+      "options": {
+        "A": "Ghi đè lên Record 0 ở đầu tệp",
+        "B": "Thêm vào cuối tệp",
+        "C": "Tạo một tệp mới hoàn toàn và xóa tệp cũ",
+        "D": "Báo lỗi tràn bộ nhớ và hủy thao tác thêm"
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nêu: nếu không còn bản ghi trống nào, bản ghi mới sẽ được thêm vào cuối tệp.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "Trong ví dụ `Type Dstaikhoan = Record Tenchinhdanh : Char(22); ThongtinTK : Array [1..maxsize] of Record ... End; End;`, vì sao đây là bản ghi có kích thước thay đổi?",
+      "options": {
+        "A": "Vì trường `Tenchinhdanh` đổi kích thước liên tục từ 1 đến 100 ký tự",
+        "B": "Vì kiểu dữ liệu `real` thay đổi từ 4 byte sang 16 byte ngẫu nhiên",
+        "C": "Vì `ThongtinTK` là mảng có số phần tử tùy ý (ứng với số tài khoản khác nhau của từng người)",
+        "D": "Vì bản ghi này không chứa bất kỳ trường nào"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 5.1.2b giải thích `ThongtinTK` là một mảng có số phần tử tùy ý (không vượt quá giới hạn dung lượng đĩa từ), khiến mỗi bản ghi có độ dài khác nhau.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "question": "Giải pháp đơn giản để cài đặt các bản ghi có độ dài thay đổi là gì?",
+      "options": {
+        "A": "Chèn thêm ký tự trắng cho mọi bản ghi bằng đúng độ dài tối đa",
+        "B": "Cố định mọi bản ghi ở mức 40 byte giống bảng `Taikhoan`",
+        "C": "Chỉ lưu trường đầu tiên và bỏ qua phần mảng phía sau",
+        "D": "Thêm một ký hiệu kết thúc bản ghi đặc biệt vào cuối mỗi bản ghi và lưu như một xâu các byte liên tiếp"
+      },
+      "correct_answer": "D",
+      "explanation": "Một giải pháp đơn giản là thêm ký hiệu đặc biệt gọi là ký hiệu kết thúc bản ghi vào cuối mỗi bản ghi rồi lưu mỗi bản ghi như một xâu các byte liên tiếp.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "Tại sao việc tái sử dụng không gian trống khi thêm/xóa trên tệp bản ghi kích thước thay đổi lại phức tạp hơn tệp kích thước cố định?",
+      "options": {
+        "A": "Vì kích thước bản ghi thêm vào có thể không phù hợp (lớn hơn hoặc không vừa khít) với không gian rỗi do phép xóa trước đó để lại",
+        "B": "Vì tệp kích thước thay đổi không có quyền đọc từ đĩa từ",
+        "C": "Vì tệp kích thước thay đổi không thể lưu trên bộ nhớ thứ cấp",
+        "D": "Vì ký hiệu kết thúc bản ghi làm khóa chính bị trùng lặp"
+      },
+      "correct_answer": "A",
+      "explanation": "Với tệp cố định, ô trống từ 1 bản ghi bị xóa vừa đúng 1 bản ghi mới; còn với tệp kích thước thay đổi, bản ghi thêm vào có thể không vừa với khoảng trống do phép xóa để lại.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "question": "Trong khai báo `Dstaikhoan`, giả sử mỗi `Char` chiếm 1 byte, mỗi `Real` chiếm 8 byte và mỗi bản ghi dùng thêm 1 byte làm ký hiệu kết thúc bản ghi. Một khách hàng có 3 tài khoản trong `ThongtinTK` (gồm `Mataikhoan: Char(10)`, `Sodu: real`) sẽ chiếm tổng cộng bao nhiêu byte?",
+      "options": {
+        "A": "41 byte",
+        "B": "77 byte",
+        "C": "59 byte",
+        "D": "80 byte"
+      },
+      "correct_answer": "B",
+      "explanation": "`Tenchinhdanh` = 22 byte; mỗi phần tử `ThongtinTK` = 10 + 8 = 18 byte; 3 tài khoản = 3 * 18 = 54 byte; cộng 1 byte ký hiệu kết thúc = 22 + 54 + 1 = 77 byte.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "Nếu một khách hàng trong `Dstaikhoan` có 1 tài khoản (tổng 41 byte kể cả 1 byte ký hiệu kết thúc) bị xóa và khách hàng mới có 4 tài khoản (95 byte) cần chèn vào, nhận xét nào đúng?",
+      "options": {
+        "A": "Danh sách móc nối cố định tự động giải quyết trọn vẹn mà không cần quan tâm kích thước",
+        "B": "Hệ thống tự động thu nhỏ 4 tài khoản xuống còn 41 byte",
+        "C": "Bản ghi 95 byte không thể đặt vừa vào khoảng trống 41 byte để lại",
+        "D": "Bản ghi 95 byte luôn vừa khít vì đều là 1 bản ghi logic"
+      },
+      "correct_answer": "C",
+      "explanation": "Đây chính là hạn chế đã nêu ở cuối Mục 5.1.2a: kích thước bản ghi thêm vào (95 byte) không phù hợp với không gian rỗi (41 byte) do phép xóa để lại.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "Giới hạn số phần tử tối đa (`maxsize`) của mảng `ThongtinTK` trong tệp bản ghi kích thước thay đổi bị ràng buộc bởi yếu tố nào theo giáo trình?",
+      "options": {
+        "A": "Độ dài của trường `Tenchinhdanh` là 22 ký tự",
+        "B": "Số lần thử tuyến tính trong hàm băm",
+        "C": "Số lượng nhân viên trong Bảng 5.1",
+        "D": "Dung lượng của đĩa từ"
+      },
+      "correct_answer": "D",
+      "explanation": "Giáo trình nêu: `ThongtinTK` là một mảng có số phần tử tùy ý không vượt quá giới hạn dung lượng của đĩa từ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 29,
+      "question": "Đặc điểm cơ bản của phương pháp tổ chức tệp tuần tự là gì?",
+      "options": {
+        "A": "Các phần tử (bản ghi) của tệp được xếp lần lượt hết phần tử này đến phần tử khác",
+        "B": "Các bản ghi được lưu trữ rải ngẫu nhiên theo giá trị hàm băm",
+        "C": "Các bản ghi được tổ chức thành cây cân bằng cấp m",
+        "D": "Bắt buộc phải có tệp chỉ mục riêng đi kèm mới lưu được dữ liệu"
+      },
+      "correct_answer": "A",
+      "explanation": "Trong kiểu tổ chức tuần tự, các bản ghi được xếp lần lượt hết phần tử này đến phần tử khác và tìm kiếm bằng cách dò từ đầu tệp.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 30,
+      "question": "Trong ví dụ tệp tuần tự gồm 4 bản ghi lần lượt là `(Mai, 17)`, `(Mận, 35)`, `(Đào, 24)`, `(Lan, 44)`, để biết tuổi của `Đào`, hệ thống phải làm gì?",
+      "options": {
+        "A": "Tính hàm băm `h('Đào')` để nhảy thẳng tới vị trí thứ 3",
+        "B": "Đọc qua 3 bản ghi của 3 người trước (hoặc dò từ đầu qua Mai, Mận rồi tới Đào ở vị trí 3)",
+        "C": "Tra cứu số thứ tự vật lý trong tệp chỉ mục",
+        "D": "Thực hiện thao tác `pack` trước khi đọc"
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình nêu ví dụ: theo kiểu tổ chức tuần tự, để biết được Đào bao nhiêu tuổi, cần phải đọc dò tuần tự từ đầu tệp qua các bản ghi đứng trước.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "Thao tác 'Thêm một phần tử (bản ghi)' vào cuối tệp trên tệp tuần tự được thực hiện như thế nào?",
+      "options": {
+        "A": "Dịch chuyển toàn bộ bản ghi từ đầu tệp xuống 1 ô",
+        "B": "Chèn vào vị trí đầu tiên và đẩy các bản ghi cũ ra sau",
+        "C": "Thêm trực tiếp vào cuối tệp",
+        "D": "Phải chạy thao tác `pack` rồi mới thêm"
+      },
+      "correct_answer": "C",
+      "explanation": "Trên tệp tuần tự, thao tác thêm một phần tử mới được thực hiện bằng cách thêm vào cuối tệp.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 32,
+      "question": "Thao tác 'Chèn thêm một bản ghi' vào một vị trí xác định giữa tệp tuần tự đòi hỏi phải làm gì?",
+      "options": {
+        "A": "Ghi đè trực tiếp lên bản ghi đang nằm ở vị trí đó",
+        "B": "Đổi khóa thành số nguyên và lấy phần dư chia cho n",
+        "C": "Tạo con trỏ móc nối vòng giống phương pháp kết nối trong",
+        "D": "Chuyển dịch các bản ghi phía sau xuống phía dưới rồi mới đưa phần tử mới vào"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 5.2.1 ghi rõ: khi chèn thêm một bản ghi vào tệp tuần tự, phải thực hiện động tác chuyển dịch các bản ghi xuống phía dưới rồi mới thêm phần tử mới vào.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Khi thực hiện xóa một bản ghi trên tệp tuần tự bằng cách đánh dấu vào bản ghi đó và không dùng con trỏ tới nó nữa, hành động này được gọi là gì?",
+      "options": {
+        "A": "Xóa về mặt logic",
+        "B": "Xóa vật lý hoàn toàn (`pack`)",
+        "C": "Kết nối ngoài",
+        "D": "Thử cầu phương"
+      },
+      "correct_answer": "A",
+      "explanation": "Đánh dấu bản ghi và ngừng sử dụng con trỏ tới nó chỉ là xóa về mặt logic (bản ghi vẫn còn chiếm chỗ trên tệp vật lý).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 34,
+      "question": "Trong tổ chức tuần tự, thao tác `pack` có chức năng gì?",
+      "options": {
+        "A": "Sắp xếp các khóa trong tệp chỉ mục theo thứ tự giảm dần",
+        "B": "Nhặt nhạnh các bản ghi không bị đánh dấu xóa và ghi lại thành tệp mới để xóa hẳn bản ghi đã xóa logic",
+        "C": "Tính lại địa chỉ rải cho tất cả phần tử trong miền nhớ A",
+        "D": "Chia mỗi ô nhớ thành hai phần chứa địa chỉ và con trỏ"
+      },
+      "correct_answer": "B",
+      "explanation": "Nếu thực sự muốn xóa hẳn các bản ghi đã đánh dấu xóa trong tệp tuần tự, hệ thống phải nhặt nhạnh các bản ghi không bị đánh dấu xóa và ghi lại tệp mới (`pack`).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "Một tệp tuần tự ban đầu có 1.000 bản ghi, trong đó 250 bản ghi đã bị **đánh dấu xóa logic** nhưng chưa chạy `pack`. Khi tìm một khóa không tồn tại và sau đó thực hiện `pack`, hệ thống lần lượt phải duyệt qua bao nhiêu bản ghi khi tìm kiếm và ghi lại bao nhiêu bản ghi sang tệp mới?",
+      "options": {
+        "A": "Duyệt 750 bản ghi và ghi lại 250 bản ghi",
+        "B": "Duyệt 250 bản ghi và ghi lại 1.000 bản ghi",
+        "C": "Duyệt toàn bộ 1.000 bản ghi khi tìm kiếm và ghi lại 750 bản ghi khi chạy `pack`",
+        "D": "Duyệt 1 bản ghi đầu và ghi lại 750 bản ghi"
+      },
+      "correct_answer": "C",
+      "explanation": "Vì 250 bản ghi xóa logic vẫn nằm vật lý trên tệp, tìm kiếm tuần tự một khóa không tồn tại vẫn phải quét hết 1.000 vị trí; khi chạy `pack`, hệ thống nhặt 1.000 - 250 = 750 bản ghi hợp lệ để ghi sang tệp mới.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 36,
+      "question": "Nhược điểm lớn nhất của tệp tuần tự khi thực hiện nhiều thao tác chèn vào giữa và xóa logic liên tiếp mà chưa `pack` là gì?",
+      "options": {
+        "A": "Kích thước mỗi bản ghi tự động tăng gấp đôi sau mỗi lần xóa",
+        "B": "Không thể đọc được các bản ghi có trường kiểu ký tự",
+        "C": "Các bản ghi bị tự động băm sang miền nhớ khác",
+        "D": "Chèn giữa tốn công dịch chuyển nhiều bản ghi; xóa logic để lại dữ liệu rác làm tệp phình to và làm chậm việc dò tìm tuần tự"
+      },
+      "correct_answer": "D",
+      "explanation": "Chèn giữa cần dịch chuyển các bản ghi bên dưới, còn xóa logic chưa giải phóng dung lượng ngay nên tệp vẫn chứa bản ghi rác cho tới khi thực hiện `pack`.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Thao tác nào sau đây KHÔNG phải là thao tác đặc trưng được liệt kê trong Mục 5.2.1 cho tệp tuần tự?",
+      "options": {
+        "A": "Giải quyết đụng độ bằng phương pháp thử tuyến tính `(k + i) mod n`",
+        "B": "Chèn bản ghi bằng cách dịch chuyển các bản ghi xuống dưới",
+        "C": "Đánh dấu xóa logic và ghi lại tệp mới (`pack`)",
+        "D": "Thêm bản ghi vào cuối tệp"
+      },
+      "correct_answer": "A",
+      "explanation": "Thử tuyến tính `(k + i) mod n` thuộc phương pháp tổ chức ngẫu nhiên (hàm băm), không phải thao tác của tệp tuần tự.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 38,
+      "question": "Trong phương pháp tổ chức ngẫu nhiên cho tệp có $n$ phần tử, miền rải $A$ gồm $n$ ô nhớ ($A[0..n-1]$) dùng để lưu gì?",
+      "options": {
+        "A": "Tên của tất cả các trường thuộc tính trong bảng",
+        "B": "Địa chỉ vật lý của mỗi phần tử trên tệp dữ liệu",
+        "C": "Số lượng khối của hệ điều hành",
+        "D": "Các ký hiệu kết thúc bản ghi"
+      },
+      "correct_answer": "B",
+      "explanation": "Miền rải $A$ gồm $n$ ô nhớ, mỗi ô nhớ $A[m]$ lưu địa chỉ vật lý của phần tử có khóa tương ứng trên tệp (nơi ghi phần tử đó trên thiết bị nhớ).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 39,
+      "question": "Trong biểu thức hàm rải $h(k_i) = m$ với miền rải $A[0..n-1]$, điều kiện của địa chỉ rải $m$ là gì?",
+      "options": {
+        "A": "$1 \\le m \\le n$",
+        "B": "$m \\ge n$",
+        "C": "$0 \\le m < n$",
+        "D": "$-n \\le m \\le 0$"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 5.2.2, hàm $h$ đặt tương ứng khóa $k_i$ với số ngẫu nhiên $m$ thỏa mãn $0 \\le m < n$.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 40,
+      "question": "Trình tự đúng để truy cập một phần tử có khóa $k_i$ theo phương pháp tổ chức ngẫu nhiên là gì?",
+      "options": {
+        "A": "Nhập $k_i \\to$ Dò từ đầu tệp $\\to$ So sánh từng bản ghi $\\to$ Đọc kết quả",
+        "B": "Nhập $k_i \\to$ Duyệt B-cây từ lá lên gốc $\\to$ Lấy khóa lớn nhất",
+        "C": "Nhập $k_i \\to$ Tra tệp chỉ dẫn $\\to$ Lấy `STT` $\\to$ Sắp xếp lại tệp",
+        "D": "Nhập $k_i \\to$ Tính $h(k_i) = m \\to$ Lấy địa chỉ vật lý trong $A[m] \\to$ Định vị phần tử cần tìm"
+      },
+      "correct_answer": "D",
+      "explanation": "Trình tự truy cập trong Mục 5.2.2: Nhập $k_i \\to$ Tính $h(k_i) = m \\to$ Lấy địa chỉ vật lý tương ứng trong ô $A[m] \\to$ Dựa vào địa chỉ vật lý để định vị đến phần tử cần tìm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "Tính chất lý tưởng của hàm rải (hàm băm) $h$ khi thiết kế cho tổ chức ngẫu nhiên là gì?",
+      "options": {
+        "A": "$h$ càng đơn ánh càng tốt ($k_i \\neq k_j \\Rightarrow h(k_i) \\neq h(k_j)$) để phân bố rải khắp không gian nhớ, không trùng địa chỉ",
+        "B": "Mọi khóa đều cho ra cùng một giá trị $m = 0$",
+        "C": "$h$ luôn tạo ra giá trị lớn hơn $n$ để tránh ghi vào miền $A$",
+        "D": "$h$ phải phụ thuộc vào tốc độ quay của đĩa từ"
+      },
+      "correct_answer": "A",
+      "explanation": "Giáo trình nhấn mạnh: băm sao cho các mẫu tin phân bố rải khắp không gian nhớ, không trùng địa chỉ nhau; xây dựng $h$ càng đơn ánh càng tốt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "Với tập khóa $K = [5, 14, 15, 3, 6, 4, 16]$ và $n = 7$ dùng hàm $h(k_i) = k_i \\bmod 7$ (Bảng 5.2), khóa nào được lưu địa chỉ vật lý tại ô $A[2]$?",
+      "options": {
+        "A": "5",
+        "B": "16",
+        "C": "14",
+        "D": "3"
+      },
+      "correct_answer": "B",
+      "explanation": "$h(16) = 16 \\bmod 7 = 2$, do đó ô $A[2]$ chứa địa chỉ vật lý của phần tử có khóa $16$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "Xét tập khóa $K = [7, 10, 8, 3, 4]$ với $n = 5$ và hàm băm $h(k_i) = k_i \\bmod 5$. Hai khóa nào bị đụng độ với nhau?",
+      "options": {
+        "A": "7 và 10",
+        "B": "10 và 4",
+        "C": "8 và 3",
+        "D": "7 và 4"
+      },
+      "correct_answer": "C",
+      "explanation": "$h(8) = 8 \\bmod 5 = 3$ và $h(3) = 3 \\bmod 5 = 3$, nên khóa $8$ và khóa $3$ cùng có địa chỉ rải là $3$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "Khái niệm 'hiện tượng đụng độ' (Collision) trong tổ chức ngẫu nhiên được định nghĩa như thế nào?",
+      "options": {
+        "A": "Một phần tử có khóa duy nhất nhưng không tính được hàm $h(k_i)$",
+        "B": "Tệp chỉ mục bị mất trường số thứ tự vật lý (`STT`)",
+        "C": "Hai bản ghi nằm chồng lên biên của hai khối vật lý khác nhau",
+        "D": "Có nhiều phần tử có khóa khác nhau nhưng có địa chỉ rải giống nhau"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 5.2.2.2 định nghĩa: Hiện tượng đụng độ là hiện tượng có nhiều phần tử có khóa khác nhau nhưng có địa chỉ rải giống nhau.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 45,
+      "question": "Cho tập khóa $K = [12, 19, 26, 33, 40, 47]$. Với $n = 6$ ($h(k)=k\\bmod 6$) thì cả 6 khóa phân bố đều vào $A[0..5]$ không đụng độ; nhưng nếu đổi kích thước miền rải thành $n = 7$ ($h(k)=k\\bmod 7$), điều gì sẽ xảy ra?",
+      "options": {
+        "A": "Cả 6 khóa cùng băm vào duy nhất ô $A[5]$ (gây đụng độ 100%)",
+        "B": "Cả 6 khóa đều không đụng độ vì 7 là số nguyên tố",
+        "C": "Các khóa chia đều vào $A[0]$ và $A[1]$",
+        "D": "Chỉ có khóa `12` và `47` đụng độ tại $A[2]$"
+      },
+      "correct_answer": "A",
+      "explanation": "Vì các khóa tăng đều với công sai bằng 7 ($12 = 7\\cdot 1 + 5$, $19 = 7\\cdot 2 + 5$, ..., $47 = 7\\cdot 6 + 5$), khi chia lấy dư cho 7 cả 6 khóa đều cho kết quả $5$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 46,
+      "question": "Nếu tập khóa chỉ toàn các số chẵn $[2, 4, 6, 8, 10, 12]$ và chọn kích thước miền rải $n = 6$ với $h(k) = k \\bmod 6$, điều gì xảy ra?",
+      "options": {
+        "A": "Phân bố đều ra cả 6 ô từ $A[0]$ đến $A[5]$",
+        "B": "Các khóa chỉ rơi vào các ô có chỉ số chẵn $0, 2, 4$ và chắc chắn xảy ra đụng độ (mỗi ô chẵn nhận 2 khóa)",
+        "C": "Các khóa chỉ rơi vào các ô có chỉ số lẻ $1, 3, 5$",
+        "D": "Hàm modulo không tính được với số chẵn"
+      },
+      "correct_answer": "B",
+      "explanation": "Vì mọi số chẵn chia cho số chẵn $6$ chỉ có thể dư $0, 2, 4$, nên các khóa tập trung vào 3 ô chẵn ($2, 8 \\to 2$; $4, 10 \\to 4$; $6, 12 \\to 0$) và bỏ trống các ô $1, 3, 5$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 47,
+      "question": "Ba nhóm phương pháp khắc phục hiện tượng đụng độ được trình bày trong Mục 5.2.2.2 là gì?",
+      "options": {
+        "A": "Dùng tệp chỉ dẫn; Dùng B-cây; Dùng ký hiệu kết thúc bản ghi",
+        "B": "Xóa logic; Thao tác `pack`; Ghi đè vào khối trước",
+        "C": "Thay đổi hàm băm/biến đổi khóa; Phương pháp địa chỉ mở; Phương pháp địa chỉ kết nối",
+        "D": "Tăng kích thước trường Char; Giảm kích thước kiểu Real; Chia đôi khối"
+      },
+      "correct_answer": "C",
+      "explanation": "Giáo trình nêu 3 cách khắc phục đụng độ: (1) Thay đổi hàm băm hay biến đổi khóa, (2) Phương pháp địa chỉ mở, (3) Phương pháp địa chỉ kết nối.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 48,
+      "question": "Theo phương pháp biến đổi khóa bằng 'phương pháp tách' trong giáo trình, khóa $k_i = 1999$ được tách thành 2 phần `19` và `99` rồi cộng lại trước khi lấy modulo $n$. Giá trị khóa biến đổi $k_i'$ là bao nhiêu?",
+      "options": {
+        "A": "80",
+        "B": "9919",
+        "C": "1881",
+        "D": "118"
+      },
+      "correct_answer": "D",
+      "explanation": "Ví dụ 1 Mục 5.2.2.2a: Tách $1999$ thành $19$ và $99$, cộng lại: $19 + 99 = 118$, sau đó tính $h(118) = 118 \\bmod n$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 49,
+      "question": "Áp dụng **phương pháp gấp** (như Ví dụ 2 Mục 5.2.2.2a: khóa `199890` gấp 3 thành `19, 89, 90` rồi cộng lại) và sau đó lấy modulo với $n = 7$, địa chỉ rải thu được là bao nhiêu?",
+      "options": {
+        "A": "`2` (do $19 + 89 + 90 = 198$ và $198 \\bmod 7 = 2$)",
+        "B": "`6`",
+        "C": "`4`",
+        "D": "`0`"
+      },
+      "correct_answer": "A",
+      "explanation": "Gấp `199890` thành `19`, `89`, `90`; cộng lại được $19 + 89 + 90 = 198$; lấy $198 \\bmod 7 = 2$ (vì $198 = 7 \\times 28 + 2$).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 50,
+      "question": "Công thức của phương pháp thay đổi hàm băm bằng 'phương pháp nhân' trong Mục 5.2.2.2a là gì?",
+      "options": {
+        "A": "$h(k_i) = (k_i \\times 2) \\bmod n$",
+        "B": "$h(k_i) = k_i^2 \\bmod n$",
+        "C": "$h(k_i) = (k_i + n)^2 \\bmod n$",
+        "D": "$h(k_i) = \\sqrt{k_i} \\bmod n$"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 5.2.2.2a định nghĩa phương pháp nhân là $h(k_i) = k_i^2 \\bmod n$.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 51,
+      "question": "Áp dụng phương pháp nhân $h(k_i) = k_i^2 \\bmod n$ với $n = 7$ cho hai khóa $k_1 = 3$ và $k_2 = 10$ (vốn đụng độ nếu dùng $k \\bmod 7$). Kết quả địa chỉ rải lần lượt là bao nhiêu?",
+      "options": {
+        "A": "2 và 6",
+        "B": "3 và 3",
+        "C": "2 và 2 (vẫn đụng độ tại ô 2)",
+        "D": "4 và 5"
+      },
+      "correct_answer": "C",
+      "explanation": "$3^2 \\bmod 7 = 9 \\bmod 7 = 2$; $10^2 \\bmod 7 = 100 \\bmod 7 = 2$. Lưu ý toán học: nếu $k_1 \\equiv k_2 \\pmod n$ thì $k_1^2 \\equiv k_2^2 \\pmod n$, nên cùng dư modulo $n$ vẫn giữ nguyên tính đồng dư.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 52,
+      "question": "Trong phương pháp địa chỉ mở, 3 phép thử dùng để tìm ô trống lân cận ($1 \\le i \\le n-1$) gồm những phép thử nào?",
+      "options": {
+        "A": "Thử kết nối ngoài, thử kết nối trong, thử `pack`",
+        "B": "Thử nhân đôi $(2k)\\bmod n$, thử tách, thử gấp",
+        "C": "Thử nhị phân, thử B-cây, thử tuần tự",
+        "D": "Thử tuyến tính $(k+i)\\bmod n$, thử cầu phương $(k+i^2)\\bmod n$, thử ngẫu nhiên $(k+\\text{random}(i))\\bmod n$"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 5.2.2.2b liệt kê 3 phép thử với $1 \\le i \\le n-1$: thử tuyến tính $(k+i)\\bmod n$, thử cầu phương $(k+i^2)\\bmod n$, thử ngẫu nhiên $(k+\\text{random}(i))\\bmod n$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 53,
+      "question": "Cho dãy khóa $K = [7, 10, 8, 3, 4]$ với $n = 5$ và $h(k) = k \\bmod 5$, giải quyết đụng độ bằng **thử tuyến tính** (giữ `8` ở $A[3]$, dời `3`). Khi truy tìm lại khóa `3`, hệ thống phải kiểm tra tất cả bao nhiêu ô nhớ trong miền $A$ (tính cả ô băm ban đầu $A[3]$ và ô chứa `3`)?",
+      "options": {
+        "A": "4 ô ($A[3] \\to A[4] \\to A[0] \\to A[1]$)",
+        "B": "2 ô",
+        "C": "1 ô",
+        "D": "5 ô"
+      },
+      "correct_answer": "A",
+      "explanation": "Khóa `3` băm về $A[3]$ (chứa `8`), thử tiếp $i=1\\to A[4]$ (`4`), $i=2\\to A[0]$ (`10`), $i=3\\to A[1]$ (gặp `3`). Tổng cộng kiểm tra 4 ô nhớ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "question": "Cho dãy khóa $K = [5, 7, 10, 13, 15, 17, 24]$ với $n = 7$ và $h(k) = k \\bmod 7$. Sau khi đặt `10` vào $A[3]$ và `17` vào $A[4]$ bằng thử tuyến tính, khóa `24` cần đến bước thử thứ mấy ($i = ?$) để tìm được ô trống?",
+      "options": {
+        "A": "$i = 1$ (ô $A[4]$)",
+        "B": "$i = 6$ (ô $A[2]$)",
+        "C": "$i = 2$ (ô $A[5]$)",
+        "D": "$i = 5$ (ô $A[1]$)"
+      },
+      "correct_answer": "B",
+      "explanation": "Các ô $A[4](17), A[5](5), A[6](13), A[0](7), A[1](15)$ đều đã bị chiếm; ở $i = 6$, $(24 + 6) \\bmod 7 = 30 \\bmod 7 = 2$ nên $A[2]$ là ô trống nhận khóa `24`.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 55,
+      "question": "Cho $n = 7$, các ô $A[3], A[4], A[0]$ đã có phần tử, các ô khác còn trống. Khóa $k = 17$ có $h(17) = 17 \\bmod 7 = 3$ (đụng độ). Nếu dùng **thử cầu phương** $h(k) = (k + i^2) \\bmod 7$ ($i = 1, 2, \\dots$), khóa $17$ sẽ được lưu ở ô nào?",
+      "options": {
+        "A": "$A[4]$",
+        "B": "$A[0]$",
+        "C": "$A[5]$",
+        "D": "$A[6]$"
+      },
+      "correct_answer": "C",
+      "explanation": "Thử $i=1$: $(17+1^2)\\bmod 7 = 4$ (bận); $i=2$: $(17+2^2)\\bmod 7 = 21\\bmod 7 = 0$ (bận); $i=3$: $(17+3^2)\\bmod 7 = 26\\bmod 7 = 5$ (trống) $\\Rightarrow$ lưu vào ô $A[5]$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 56,
+      "question": "Trong phương pháp **kết nối ngoài** (External Chaining), mỗi ô nhớ $A[m]$ của miền rải đóng vai trò gì?",
+      "options": {
+        "A": "Lưu trực tiếp toàn bộ chuỗi ký tự của bản ghi đầu tiên và bỏ qua bản ghi đụng độ",
+        "B": "Lưu địa chỉ bản ghi bị xóa logic ở đầu tệp",
+        "C": "Chứa địa chỉ của nút gốc B-cây",
+        "D": "Là nút đầu của một danh sách móc nối lưu con trỏ tới các phần tử đụng độ, kết thúc bằng `Null`"
+      },
+      "correct_answer": "D",
+      "explanation": "Trong kết nối ngoài, mỗi ô $A[m]$ là nút đầu của một danh sách móc nối bên ngoài miền rải, lưu các con trỏ đến các phần tử đụng độ tại $m$ và kết thúc bằng `Null`.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 57,
+      "question": "Khi truy cập một phần tử có khóa $k_i$ trong cấu trúc **kết nối ngoài**, bước nào sau đây được thực hiện sau khi tìm ra ô $A[m]$?",
+      "options": {
+        "A": "Tìm tuần tự trên danh sách móc nối có nút đầu là $A[m]$",
+        "B": "Cộng thêm $i^2$ rồi chia lấy dư cho $n$",
+        "C": "Chuyển bản ghi cuối cùng về ô $A[m]$",
+        "D": "Thực hiện thao tác `pack` tệp dữ liệu"
+      },
+      "correct_answer": "A",
+      "explanation": "Trình tự truy cập kết nối ngoài: $k_i \\to h(k_i) \\to m \\to A[m] \\to$ tìm tuần tự trên danh sách có nút đầu $A[m]$.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 58,
+      "question": "Xét tập khóa $K = [7, 10, 8, 3, 4]$ với $n = 5$, $h(k) = k \\bmod 5$ và áp dụng **phương pháp kết nối trong**. Biết các khóa `10, 7, 8, 4` lần lượt nằm ở $A[0], A[2], A[3], A[4]$. Khóa `3` được lưu ở ô nào và con trỏ của $A[3]$ cùng ô chứa `3` lần lượt trỏ tới đâu?",
+      "options": {
+        "A": "`3` lưu ở $A[1]$; $A[3]$ trỏ tới `Null` và $A[1]$ trỏ tới `Null`",
+        "B": "`3` lưu ở $A[1]$; $A[3]$ trỏ tới $A[1]$ và $A[1]$ trỏ quay lại $A[3]$",
+        "C": "`3` lưu ở $A[4]$; $A[3]$ trỏ tới $A[4]$ và $A[4]$ trỏ tới $A[0]$",
+        "D": "`3` lưu bên ngoài miền $A$ và $A[3]$ trỏ tới `Null`"
+      },
+      "correct_answer": "B",
+      "explanation": "Ô còn trống duy nhất trong $A$ là $A[1]$ dùng để lưu `3`; phần con trỏ của $A[3]$ trỏ sang $A[1]$ và phần con trỏ của $A[1]$ trỏ vòng lại $A[3]$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 59,
+      "question": "Áp dụng **phương pháp kết nối trong** cho tập khóa $K = [5, 7, 10, 13, 15, 17, 24]$ với $n = 7$ và $h(k) = k \\bmod 7$ (đặt `10` tại $A[3]$, sau đó lần lượt đặt `17` vào ô trống $A[4]$ và `24` vào ô trống $A[2]$). Chu trình con trỏ móc nối khép kín của nhóm đụng độ này là gì?",
+      "options": {
+        "A": "$A[3] \\to A[4] \\to A[2] \\to \\text{Null}$",
+        "B": "$A[3] \\to A[2] \\to A[4] \\to A[0]$",
+        "C": "$A[3] \\to A[4] \\to A[2] \\to A[3]$",
+        "D": "$A[4] \\to A[5] \\to A[6] \\to A[4]$"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo quy tắc kết nối trong: $A[3](10)$ trỏ sang ô trống $A[4](17)$; $A[4]$ trỏ sang ô trống $A[2](24)$; và ô cuối cùng $A[2]$ trỏ quay lại ô gốc $A[3]$.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 60,
+      "question": "So với phương pháp kết nối ngoài, ưu điểm nổi bật của phương pháp kết nối trong là gì?",
+      "options": {
+        "A": "Không bao giờ phải tìm kiếm trên danh sách móc nối",
+        "B": "Không cần dùng hàm băm $h(k_i)$",
+        "C": "Có thể chứa vô hạn phần tử lớn hơn kích thước $n$ của miền $A$",
+        "D": "Ít tốn bộ nhớ hơn vì tận dụng chính các ô còn trống trong miền rải $A$"
+      },
+      "correct_answer": "D",
+      "explanation": "Cuối Mục 5.2.2.2c kết luận: phương pháp kết nối trong cũng phải truy tìm trên danh sách móc nối như kết nối ngoài, nhưng ít tốn bộ nhớ hơn phương pháp kết nối ngoài.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 61,
+      "question": "Tệp chỉ dẫn (tệp chỉ mục - Index file) trong Mục 5.2.3 gồm hai trường chính nào?",
+      "options": {
+        "A": "Trường 1 chứa giá trị khóa đã sắp thứ tự; Trường 2 chứa thứ tự vật lý (`STT`) của mẫu tin trên tệp dữ liệu",
+        "B": "Trường 1 chứa địa chỉ khối bị xóa; Trường 2 chứa ký hiệu kết thúc bản ghi",
+        "C": "Trường 1 chứa hàm băm $k_i^2$; Trường 2 chứa con trỏ `Null`",
+        "D": "Trường 1 chứa toàn bộ nội dung bản ghi; Trường 2 chứa tên tệp"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Mục 5.2.3, tệp chỉ mục gồm 2 trường chính: Trường 1 chứa giá trị khóa các mẫu tin được sắp thứ tự, Trường 2 chứa thứ tự vật lý (`STT`) của mẫu tin trên tệp dữ liệu.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 62,
+      "question": "Trong Bảng 5.4 (`NHANVIEN` theo thứ tự vật lý: dòng 1 là `A2`, dòng 2 là `A4`, dòng 3 là `A3`, dòng 4 là `A1`, dòng 5 là `A5`), mục thứ tư trong tệp chỉ mục (đã sắp theo `MANV`) sẽ có cặp giá trị `(MANV, STT)` là gì?",
+      "options": {
+        "A": "`(A4, 4)`",
+        "B": "`(A4, 2)`",
+        "C": "`(A1, 4)`",
+        "D": "`(A2, 1)`"
+      },
+      "correct_answer": "B",
+      "explanation": "Tệp chỉ mục sắp tăng theo `MANV`: `(A1, 4)`, `(A2, 1)`, `(A3, 3)`, `(A4, 2)`, `(A5, 5)`. Bản ghi `A4` nằm ở vị trí vật lý thứ 2 trên tệp dữ liệu.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 63,
+      "question": "Trong bài toán dùng tệp chỉ dẫn, khi thêm một bản ghi mới vào cuối tệp dữ liệu có khóa nằm xen giữa các khóa hiện có (ví dụ thêm `MASO = 175` vào cuối bảng `NHANSU` có 7 dòng), tệp chỉ dẫn thay đổi như thế nào?",
+      "options": {
+        "A": "Không thay đổi gì vì tệp chỉ dẫn chỉ cập nhật khi xóa bản ghi",
+        "B": "Xóa hết các mục cũ và đổi `STT` của bản ghi mới thành `1`",
+        "C": "Chèn thêm mục `(175, 8)` vào đúng vị trí đã sắp thứ tự theo `MASO` trong tệp chỉ dẫn",
+        "D": "Nối `(175, 8)` xuống cuối tệp chỉ dẫn mà không cần sắp thứ tự"
+      },
+      "correct_answer": "C",
+      "explanation": "Tệp dữ liệu thêm bản ghi `175` ở cuối (vị trí vật lý `STT = 8`), còn tệp chỉ dẫn phải chèn `(175, 8)` vào đúng vị trí sắp thứ tự của trường khóa `MASO`.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 64,
+      "question": "Khi tổ chức tệp chỉ dẫn cho bảng `HOADONCT` có khóa ghép `(MAHD, MAHANG)`, thứ tự các dòng trong tệp chỉ dẫn được sắp xếp như thế nào?",
+      "options": {
+        "A": "Sắp xếp ngẫu nhiên theo thời điểm nhập liệu",
+        "B": "Sắp xếp giảm dần theo `STT` vật lý",
+        "C": "Chỉ sắp xếp theo cột `SOLUONG` tăng dần",
+        "D": "Sắp xếp theo `MAHD` trước; nếu các dòng có cùng `MAHD` thì tiếp tục sắp xếp theo `MAHANG`"
+      },
+      "correct_answer": "D",
+      "explanation": "Với khóa ghép `(MAHD, MAHANG)`, tệp chỉ dẫn sắp xếp tăng dần theo thành phần khóa thứ nhất (`MAHD`), các khóa cùng `MAHD` được sắp xếp theo thành phần thứ hai (`MAHANG`), kèm cột `STT` tương ứng.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 65,
+      "question": "Tính chất nào sau đây ĐÚNG về **nút gốc** của một B-cây cân bằng cấp $m$?",
+      "options": {
+        "A": "Hoặc là 1 nút lá, hoặc có ít nhất 2 nút con",
+        "B": "Luôn có đúng $m$ nút con kể cả khi cây chỉ có 1 nút",
+        "C": "Luôn có số nút con nhỏ hơn $\\lceil m/2 \\rceil$ và không bao giờ là nút lá",
+        "D": "Không chứa bất kỳ thông tin nào về mẫu tin"
+      },
+      "correct_answer": "A",
+      "explanation": "Tính chất 1 của B-cây cân bằng cấp $m$: Gốc của cây hoặc là 1 nút lá hoặc có ít nhất 2 nút con.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 66,
+      "question": "Theo tính chất của B-cây cân bằng cấp $m$, mỗi nút (trừ nút gốc và nút lá) phải có số lượng nút con nằm trong khoảng nào?",
+      "options": {
+        "A": "Từ $1$ đến $m - 1$ nút con",
+        "B": "Từ $\\lceil m/2 \\rceil$ đến $m$ nút con",
+        "C": "Từ $2$ đến $2m$ nút con",
+        "D": "Luôn bằng đúng $m/2$ nút con"
+      },
+      "correct_answer": "B",
+      "explanation": "Tính chất 2 của B-cây cân bằng cấp $m$: Mỗi nút (trừ nút gốc và nút lá) có từ $\\lceil m/2 \\rceil$ đến $m$ nút con.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 67,
+      "question": "Tính chất cân bằng của B-cây cấp $m$ thể hiện qua phát biểu nào?",
+      "options": {
+        "A": "Mọi nút lá đều chứa cùng một giá trị khóa",
+        "B": "Số lượng bản ghi trong cây luôn chia hết cho $m$",
+        "C": "Mỗi đường đi từ gốc đến bất kỳ nút lá nào đều có độ dài như nhau",
+        "D": "Cây luôn chỉ có tối đa 2 mức (gốc và lá)"
+      },
+      "correct_answer": "C",
+      "explanation": "Tính chất 3 của B-cây cân bằng cấp $m$: Mỗi đường đi từ gốc đến bất kỳ lá nào đều có độ dài như nhau.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 68,
+      "question": "Về mặt cấu trúc lưu trữ, mỗi nút của B-cây cấp $m$ có bao nhiêu thành phần và gồm những gì?",
+      "options": {
+        "A": "Có $m$ thành phần, tất cả đều là dữ liệu mẫu tin",
+        "B": "Có $2m$ thành phần: $m$ khóa và $m$ địa chỉ khối",
+        "C": "Có $m - 1$ thành phần: chỉ chứa các con trỏ `Nil`",
+        "D": "Có $m + 1$ thành phần: 1 thành phần lưu thông tin về mẫu tin và $m$ thành phần là các con trỏ trỏ đến các nút con"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 5.2.4 mô tả: mỗi nút của B-cây cấp $m$ có $m + 1$ thành phần, trong đó 1 thành phần lưu thông tin về mẫu tin và $m$ thành phần còn lại là các con trỏ trỏ đến các nút con.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 69,
+      "question": "Cho một B-cây cân bằng cấp $m = 5$. Một nút trung gian (khác gốc và khác lá) hợp lệ của cây này có thể có số nút con nằm trong phạm vi nào?",
+      "options": {
+        "A": "Từ 3 đến 5 nút con",
+        "B": "Từ 2 đến 4 nút con",
+        "C": "Từ 1 đến 5 nút con",
+        "D": "Từ 5 đến 6 nút con"
+      },
+      "correct_answer": "A",
+      "explanation": "Với $m = 5$, $\\lceil m/2 \\rceil = \\lceil 5/2 \\rceil = 3$, nên mỗi nút trong (khác gốc và lá) có từ $3$ đến $5$ nút con.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 70,
+      "question": "Xét một B-cây cân bằng cấp $m = 7$ có chiều cao 3 mức (mức 1 là nút gốc có đúng 2 nút con, mức 2 là các nút trung gian, mức 3 là các nút lá). Số lượng nút lá **tối thiểu** của cây theo đúng tính chất B-cây là bao nhiêu?",
+      "options": {
+        "A": "4 nút lá",
+        "B": "8 nút lá (vì mỗi nút mức 2 phải có ít nhất $\\lceil 7/2 \\rceil = 4$ nút con)",
+        "C": "6 nút lá",
+        "D": "14 nút lá"
+      },
+      "correct_answer": "B",
+      "explanation": "Mức 2 có 2 nút trung gian; theo tính chất 2, mỗi nút trung gian của B-cây cấp $m=7$ phải có từ $\\lceil 7/2 \\rceil = 4$ đến $7$ nút con. Do đó mức 3 có ít nhất $2 \\times 4 = 8$ nút lá.",
+      "difficulty": "hard"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Phân biệt ngắn gọn 'bản ghi logic' và 'bản ghi vật lý' (khối/trang) trong tổ chức lưu trữ CSDL.",
+      "expected_answer": "- Bản ghi logic: Bản ghi ở mức khái niệm (thường ứng với một thực thể), kích thước có thể khác nhau giữa các quan hệ.\n- Bản ghi vật lý (khối/block hay trang/page): Đơn vị truyền tải dữ liệu qua lại giữa đĩa từ và vùng nhớ đệm trong bộ nhớ chính.\n- Kích thước khối do đĩa từ và hệ điều hành quy định; một khối thường chứa nhiều hơn một bản ghi logic."
+    },
+    {
+      "id": 2,
+      "question": "Trình bày cơ chế quản lý khoảng trống khi xóa và thêm bản ghi trong tệp kích thước cố định bằng `file header` và danh sách móc nối.",
+      "expected_answer": "- Phần đầu tệp (`file header`) lưu địa chỉ (con trỏ) của bản ghi đầu tiên đã bị xóa.\n- Mỗi bản ghi bị xóa lại lưu con trỏ trỏ tới bản ghi trống tiếp theo, tạo thành danh sách móc nối (VD: Header -> 1 -> 4 -> 6).\n- Khi thêm bản ghi mới: lấy ô mà `file header` đang trỏ tới và cập nhật `file header` sang ô trống kế tiếp.\n- Nếu danh sách trống hết, bản ghi mới được thêm vào cuối tệp."
+    },
+    {
+      "id": 3,
+      "question": "Trên tệp tổ chức tuần tự, sự khác biệt giữa thao tác xóa thông thường và thao tác `pack` là gì?",
+      "expected_answer": "- Xóa thông thường chỉ đánh dấu vào bản ghi và ngừng sử dụng con trỏ tới nó (xóa về mặt logic), bản ghi vẫn chiếm chỗ trên tệp.\n- Thao tác `pack` nhặt nhạnh toàn bộ các bản ghi không bị đánh dấu xóa và ghi lại thành một tệp mới.\n- Nhờ `pack`, các bản ghi đã xóa logic mới thực sự bị loại bỏ hoàn toàn khỏi tệp vật lý."
+    },
+    {
+      "id": 4,
+      "question": "Nêu khái niệm hiện tượng đụng độ (Collision) trong hàm băm và kể tên 3 nhóm phương pháp khắc phục.",
+      "expected_answer": "- Hiện tượng đụng độ: Có nhiều phần tử có khóa khác nhau ($k_i \\neq k_j$) nhưng cho cùng một địa chỉ rải ($h(k_i) = h(k_j) = m$).\n- Nhóm 1: Thay đổi hàm băm hoặc biến đổi khóa (phương pháp nhân, tách, gấp).\n- Nhóm 2: Phương pháp địa chỉ mở (thử tuyến tính, thử cầu phương, thử ngẫu nhiên).\n- Nhóm 3: Phương pháp địa chỉ kết nối (kết nối ngoài dùng `Null`, kết nối trong móc nối vòng trong miền $A$)."
+    },
+    {
+      "id": 5,
+      "question": "Nêu cấu trúc 2 trường của tệp chỉ dẫn và 3 tính chất cơ bản của B-cây cân bằng cấp $m$.",
+      "expected_answer": "- Tệp chỉ dẫn gồm 2 trường: (1) Giá trị khóa đã sắp thứ tự, và (2) Thứ tự vật lý (`STT`) của bản ghi trên tệp dữ liệu.\n- B-cây cấp $m$: (1) Nút gốc là nút lá hoặc có ít nhất 2 nút con; (2) Mỗi nút trung gian có từ $\\lceil m/2 \\rceil$ đến $m$ nút con; (3) Mọi đường đi từ gốc đến các lá đều dài bằng nhau.\n- Cấu trúc mỗi nút B-cây cấp $m$ có $m + 1$ thành phần (1 thông tin mẫu tin và $m$ con trỏ con)."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Bài 1 (Giáo trình): Hàm băm modulo và 3 cách giải quyết đụng độ với K = [13, 7, 10, 5, 24, 17, 15], n = 7",
+      "problem": "Cho tập khóa $K = [13, 7, 10, 5, 24, 17, 15]$ với kích thước miền rải $n = 7$.\na) Sử dụng hàm rải modulo $h(k_i) = k_i \\bmod 7$ để tính địa chỉ rải các phần tử.\nb) Nếu có hiện tượng đụng độ, hãy khắc phục bằng 3 phương pháp: Thử tuyến tính, Kết nối ngoài và Kết nối trong.",
+      "solution_steps": [
+        "Bước 1 — Tính hàm rải $h(k_i) = k_i \\bmod 7$: $h(13)=6$; $h(7)=0$; $h(10)=3$; $h(5)=5$; $h(24)=3$; $h(17)=3$; $h(15)=1$. Miền rải ban đầu: $A[0]=7$, $A[1]=15$, $A[2]$ trống, $A[3]=\\{10, 24, 17\\}$ (đụng độ 3 khóa tại $A[3]$), $A[4]$ trống, $A[5]=5$, $A[6]=13$.",
+        "Bước 2 — Phương pháp thử tuyến tính $h(k) = (k+i)\\bmod 7$: Theo lời giải giáo trình (giữ `10` tại $A[3]$, xét `17` trước `24`): `17` thử $i=1 \\Rightarrow (17+1)\\bmod 7 = 4$ (trống) $\\to$ lưu `17` vào $A[4]$; `24` thử $i=1\\to 4$ (bận), $i=2\\to 5$ (bận), $i=3\\to 6$ (bận), $i=4\\to 0$ (bận), $i=5\\to 1$ (bận), $i=6\\to 30\\bmod 7 = 2$ (trống) $\\to$ lưu `24` vào $A[2]$. *(Ghi chú: nếu duyệt đúng thứ tự từ trái sang phải trong $K$, `24` sẽ thử $i=1\\to A[4]$ và `17` thử $i=1..6\\to A[2]$).* ",
+        "Bước 3 — Phương pháp kết nối ngoài: Mỗi ô là nút đầu danh sách móc nối kết thúc bằng `Null`: $A[0]\\to 7\\to\\text{Null}$; $A[1]\\to 15\\to\\text{Null}$; $A[2]\\to\\text{Null}$; $A[3]\\to 10\\to 24\\to 17\\to\\text{Null}$; $A[4]\\to\\text{Null}$; $A[5]\\to 5\\to\\text{Null}$; $A[6]\\to 13\\to\\text{Null}$.",
+        "Bước 4 — Phương pháp kết nối trong: Dùng các ô còn trống trong $A$ là $A[4]$ và $A[2]$ để nối vòng: $A[0]=7$, $A[1]=15$, $A[3]=10$, $A[5]=5$, $A[6]=13$; theo thứ tự giáo trình đặt `17` vào $A[4]$ và `24` vào $A[2]$ với vòng con trỏ: $A[3] \\to A[4] \\to A[2] \\to A[3]$ (hoặc theo thứ tự xuất hiện: $A[3](10) \\to A[4](24) \\to A[2](17) \\to A[3]$)."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài 2a-b (Giáo trình): Hàm băm modulo và 3 cách giải quyết đụng độ với K = [22, 6, 12, 27, 5, 9, 16, 34, 25, 2], n = 10",
+      "problem": "Cho dãy khóa $K = [22, 6, 12, 27, 5, 9, 16, 34, 25, 2]$ với $n = 10$.\na) Sử dụng hàm rải $h(k_i) = k_i \\bmod 10$ để tính địa chỉ rải.\nb) Khắc phục hiện tượng đụng độ bằng 3 phương pháp: Thử tuyến tính, Kết nối ngoài và Kết nối trong.",
+      "solution_steps": [
+        "Bước 1 — Tính hàm rải $h(k_i) = k_i \\bmod 10$: $h(22)=2$; $h(6)=6$; $h(12)=2$; $h(27)=7$; $h(5)=5$; $h(9)=9$; $h(16)=6$; $h(34)=4$; $h(25)=5$; $h(2)=2$. Có 3 nhóm đụng độ: tại $A[2]$ gồm $\\{22, 12, 2\\}$; tại $A[5]$ gồm $\\{5, 25\\}$; tại $A[6]$ gồm $\\{6, 16\\}$. Các ô trống ban đầu: $A[0], A[1], A[3], A[8]$.",
+        "Bước 2 — Phương pháp thử tuyến tính $(k+i)\\bmod 10$: Nhóm tại $A[2]$: giữ `22` ở $A[2]$; `12` thử $i=1\\to 3$ (trống) $\\to A[3]$; `2` thử $i=1..5 \\to 3,4,5,6,7$ (bận), $i=6\\to 8$ (trống) $\\to A[8]$. Nhóm tại $A[5]$: giữ `5` ở $A[5]$; `25` thử $i=1..5 \\to 6,7,8,9,0$ (lưu ý `0` chưa bận trước khi xét `16` nếu xét theo thứ tự đến; nếu xét theo từng nhóm như lời giải giáo trình: `25` thử $i=1..5\\to 6,7,8,9,0$ hoặc nếu `16` đã lấy `0` trước? Kiểm tra kỹ: trong $K$, `16` đứng trước `25`! Nếu theo thứ tự giáo trình nhóm 5 trước nhóm 6: theo sách `25` thử $i=1..6\\to 1$ ($A[1]$) và `16` thử $i=1..4\\to 17,18,19,20\\bmod 10 = 0$ ($A[0]$); còn nếu theo đúng thứ tự duyệt mảng $K$ từ trái sang phải: `16` đến trước `25` nên `16` thử $i=1..4 \\to 7,8,9,0 \\Rightarrow A[0]$, sau đó `25` thử $i=1..6 \\to 6,7,8,9,0,1 \\Rightarrow A[1]$ — cả hai đều cho kết quả cuối cùng `16` ở $A[0]$ và `25` ở $A[1]$!).",
+        "Bước 3 — Phương pháp kết nối ngoài: $A[0]\\to\\text{Null}$; $A[1]\\to\\text{Null}$; $A[2]\\to 22\\to 12\\to 2\\to\\text{Null}$; $A[3]\\to\\text{Null}$; $A[4]\\to 34\\to\\text{Null}$; $A[5]\\to 5\\to 25\\to\\text{Null}$; $A[6]\\to 6\\to 16\\to\\text{Null}$; $A[7]\\to 27\\to\\text{Null}$; $A[8]\\to\\text{Null}$; $A[9]\\to 9\\to\\text{Null}$.",
+        "Bước 4 — Phương pháp kết nối trong: Dùng các ô trống $A[3], A[8], A[1], A[0]$ làm ô chứa phần tử đụng độ và nối vòng tương ứng: $A[2](22) \\to A[3](12) \\to A[8](2) \\to A[2]$; $A[5](5) \\to A[1](25) \\to A[5]$; $A[6](6) \\to A[0](16) \\to A[6]$. Các ô còn lại giữ nguyên: $A[4]=34$, $A[7]=27$, $A[9]=9$."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bài 2c.1 (Giáo trình): Hàm băm modulo và 3 cách giải quyết đụng độ với K = [11, 17, 24, 6, 28, 33, 22, 9], n = 8",
+      "problem": "Thực hiện tính địa chỉ băm và khắc phục đụng độ (thử tuyến tính, kết nối ngoài, kết nối trong) cho tập khóa $K = [11, 17, 24, 6, 28, 33, 22, 9]$ với $n = 8$.",
+      "solution_steps": [
+        "Bước 1 — Tính hàm rải $h(k_i) = k_i \\bmod 8$: $h(11)=3$; $h(17)=1$; $h(24)=0$; $h(6)=6$; $h(28)=4$; $h(33)=1$; $h(22)=6$; $h(9)=1$. Kết quả phân bố ban đầu: $A[0]=24$, $A[1]=\\{17, 33, 9\\}$ (đụng độ 3 khóa), $A[2]$ trống, $A[3]=11$, $A[4]=28$, $A[5]$ trống, $A[6]=\\{6, 22\\}$ (đụng độ 2 khóa), $A[7]$ trống.",
+        "Bước 2 — Phương pháp thử tuyến tính $(k+i)\\bmod 8$: Theo thứ tự xuất hiện trong $K$: `17` giữ $A[1]$; `33` thử $i=1\\to (33+1)\\bmod 8 = 2 \\Rightarrow A[2]$; `22` thử $i=1\\to (22+1)\\bmod 8 = 7 \\Rightarrow A[7]$; `9` thử $i=1\\to 2$ (bận), $i=2\\to 3$ (bận), $i=3\\to 4$ (bận), $i=4\\to (9+4)\\bmod 8 = 5 \\Rightarrow A[5]$. *(Ghi chú đáp án tham khảo giáo trình chọn `9` làm gốc ở $A[1]$ rồi dời `17` sang $A[2]$ ($i=1$) và `33` sang $A[5]$ ($i=4$), `22` sang $A[7]$ ($i=1$)).*",
+        "Bước 3 — Phương pháp kết nối ngoài: $A[0]\\to 24\\to\\text{Null}$; $A[1]\\to 17\\to 33\\to 9\\to\\text{Null}$; $A[2]\\to\\text{Null}$; $A[3]\\to 11\\to\\text{Null}$; $A[4]\\to 28\\to\\text{Null}$; $A[5]\\to\\text{Null}$; $A[6]\\to 6\\to 22\\to\\text{Null}$; $A[7]\\to\\text{Null}$.",
+        "Bước 4 — Phương pháp kết nối trong: Dùng 3 ô trống $A[2], A[5], A[7]$ để móc nối vòng các phần tử đụng độ: $A[1](17) \\to A[2](33) \\to A[5](9) \\to A[1]$ (hoặc theo giáo trình $A[1](9) \\to A[2](17) \\to A[5](33) \\to A[1]$) và $A[6](6) \\to A[7](22) \\to A[6]$; các ô không đụng độ giữ nguyên $A[0]=24, A[3]=11, A[4]=28$."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bài 2c.2 (Giáo trình): Hàm băm modulo và 3 cách giải quyết đụng độ với K = [35, 27, 15, 7, 18, 13, 6, 38, 19], n = 9",
+      "problem": "Thực hiện tính địa chỉ băm và khắc phục đụng độ (thử tuyến tính, kết nối ngoài, kết nối trong) cho tập khóa $K = [35, 27, 15, 7, 18, 13, 6, 38, 19]$ với $n = 9$.",
+      "solution_steps": [
+        "Bước 1 — Tính hàm rải $h(k_i) = k_i \\bmod 9$: $h(35)=8$; $h(27)=0$; $h(15)=6$; $h(7)=7$; $h(18)=0$; $h(13)=4$; $h(6)=6$; $h(38)=2$; $h(19)=1$. Phân bố ban đầu: $A[0]=\\{27, 18\\}$ (đụng độ), $A[1]=19$, $A[2]=38$, $A[3]$ trống, $A[4]=13$, $A[5]$ trống, $A[6]=\\{15, 6\\}$ (đụng độ), $A[7]=7$, $A[8]=35$.",
+        "Bước 2 — Phương pháp thử tuyến tính $(k+i)\\bmod 9$: Theo thứ tự trong $K$: `27` giữ $A[0]$, `18` thử $i=1\\to 1$ (bận), $i=2\\to 2$ (bận), $i=3\\to (18+3)\\bmod 9 = 3$ (trống) $\\Rightarrow A[3]$. `15` giữ $A[6]$, `6` thử $i=1..7 \\to 7,8,0,1,2,3,4$ (đều bận), $i=8\\to (6+8)\\bmod 9 = 5$ (trống) $\\Rightarrow A[5]$. *(Ghi chú đáp án tham khảo giáo trình xếp `18` tại $A[0]$, `27` tại $A[3]$ ($i=3$); `6` tại $A[6]$, `15` tại $A[5]$ ($i=8$)).*",
+        "Bước 3 — Phương pháp kết nối ngoài: $A[0]\\to 27\\to 18\\to\\text{Null}$; $A[1]\\to 19\\to\\text{Null}$; $A[2]\\to 38\\to\\text{Null}$; $A[3]\\to\\text{Null}$; $A[4]\\to 13\\to\\text{Null}$; $A[5]\\to\\text{Null}$; $A[6]\\to 15\\to 6\\to\\text{Null}$; $A[7]\\to 7\\to\\text{Null}$; $A[8]\\to 35\\to\\text{Null}$.",
+        "Bước 4 — Phương pháp kết nối trong: Dùng 2 ô trống $A[3]$ và $A[5]$: $A[0](27) \\to A[3](18) \\to A[0]$ và $A[6](15) \\to A[5](6) \\to A[6]$ (hoặc theo giáo trình $A[0](18)\\to A[3](27)\\to A[0]$ và $A[6](6)\\to A[5](15)\\to A[6]$); các ô còn lại gồm $A[1]=19, A[2]=38, A[4]=13, A[7]=7, A[8]=35$."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bài 3 (Giáo trình): Lập tệp chỉ dẫn và tìm kiếm trên bảng CTHD",
+      "problem": "Cho bảng dữ liệu `CTHD` (chi tiết hóa đơn) gồm các bản ghi lần lượt theo thứ tự vật lý (`STT` 1..5): `(SOHD=1, MAHANG=004, SOLUONG=70, DONGIA=800000)`, `(3, 001, 30, 150000)`, `(5, 002, 25, 500000)`, `(2, 003, 45, 900000)`, `(4, 005, 36, 270000)`.\na) Hãy đưa ra nội dung tệp chỉ dẫn tương ứng (sắp theo `SOHD`).\nb) Nêu cách tìm tới bản ghi có `SOHD = 2`, `MAHANG = 003`.",
+      "solution_steps": [
+        "Bước 1 — Xác định thứ tự vật lý (`STT`) của từng bản ghi trong tệp dữ liệu `CTHD`: dòng 1 (`SOHD=1`), dòng 2 (`SOHD=3`), dòng 3 (`SOHD=5`), dòng 4 (`SOHD=2`), dòng 5 (`SOHD=4`).",
+        "Bước 2 — Xây dựng tệp chỉ dẫn (2 trường `SOHOADON` và `STT`) bằng cách sắp xếp tăng dần theo `SOHOADON`: `(1, STT=1)`, `(2, STT=4)`, `(3, STT=2)`, `(4, STT=5)`, `(5, STT=3)`.",
+        "Bước 3 — Tìm bản ghi có `SOHD = 2, MAHANG = 003`: Truy tìm giá trị khóa `2` trên tệp chỉ dẫn đã sắp thứ tự, đọc được giá trị thứ tự vật lý `STT = 4`.",
+        "Bước 4 — Định vị dữ liệu: Từ `STT = 4`, hệ thống truy cập thẳng đến bản ghi thứ 4 trên tệp dữ liệu `CTHD` và lấy được thông tin đầy đủ: `(SOHD=2, MAHANG=003, SOLUONG=45, DONGIA=900000)`."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bài 4 (Giáo trình - Tự giải): Hàm băm modulo và 3 cách giải quyết đụng độ với K = [13, 22, 24, 25, 1, 29, 28, 37], n = 8",
+      "problem": "Cho dãy các khóa $K = [13, 22, 24, 25, 1, 29, 28, 37]$ với $n = 8$.\na) Sử dụng hàm rải modulo $h(k_i) = k_i \\bmod 8$ để tính địa chỉ vật lý các phần tử.\nb) Khắc phục đụng độ bằng 3 phương pháp: Thử tuyến tính, Kết nối ngoài và Kết nối trong.",
+      "solution_steps": [
+        "Bước 1 — Tính hàm rải $h(k_i) = k_i \\bmod 8$: $h(13)=5$; $h(22)=6$; $h(24)=0$; $h(25)=1$; $h(1)=1$; $h(29)=5$; $h(28)=4$; $h(37)=5$. Phân bố ban đầu: $A[0]=24$, $A[1]=\\{25, 1\\}$ (đụng độ), $A[2]$ trống, $A[3]$ trống, $A[4]=28$, $A[5]=\\{13, 29, 37\\}$ (đụng độ), $A[6]=22$, $A[7]$ trống.",
+        "Bước 2 — Phương pháp thử tuyến tính $(k+i)\\bmod 8$ (duyệt theo thứ tự trong $K$): `13` ở $A[5]$, `22` ở $A[6]$, `24` ở $A[0]$, `25` ở $A[1]$; `1` đụng độ tại $1$: thử $i=1\\to (1+1)\\bmod 8 = 2$ (trống) $\\Rightarrow A[2]$; `29` đụng độ tại $5$: thử $i=1\\to 6$ (bận), $i=2\\to 7$ (trống) $\\Rightarrow A[7]$; `28` ở $A[4]$; `37` đụng độ tại $5$: thử $i=1..5 \\to 6,7,0,1,2$ (đều bận), $i=6\\to (37+6)\\bmod 8 = 43\\bmod 8 = 3$ (trống) $\\Rightarrow A[3]$.",
+        "Bước 3 — Phương pháp kết nối ngoài: $A[0]\\to 24\\to\\text{Null}$; $A[1]\\to 25\\to 1\\to\\text{Null}$; $A[2]\\to\\text{Null}$; $A[3]\\to\\text{Null}$; $A[4]\\to 28\\to\\text{Null}$; $A[5]\\to 13\\to 29\\to 37\\to\\text{Null}$; $A[6]\\to 22\\to\\text{Null}$; $A[7]\\to\\text{Null}$.",
+        "Bước 4 — Phương pháp kết nối trong: Dùng 3 ô trống $A[2], A[7], A[3]$ để chứa các phần tử đụng độ và tạo vòng khép kín: $A[1](25) \\to A[2](1) \\to A[1]$; $A[5](13) \\to A[7](29) \\to A[3](37) \\to A[5]$. Các ô còn lại: $A[0]=24, A[4]=28, A[6]=22$."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bài 5 (Giáo trình - Tự giải): Hàm băm modulo và 3 cách giải quyết đụng độ với K = [26, 30, 25, 11, 9, 8, 8, 7, 10], n = 9",
+      "problem": "Cho dãy các khóa $K = [26, 30, 25, 11, 9, 8, 8, 7, 10]$ với $n = 9$ (lưu ý dãy đề bài có 2 phần tử mang giá trị khóa `8`).\na) Sử dụng hàm rải modulo $h(k_i) = k_i \\bmod 9$ để tính địa chỉ rải.\nb) Khắc phục đụng độ bằng 3 phương pháp: Thử tuyến tính, Kết nối ngoài và Kết nối trong.",
+      "solution_steps": [
+        "Bước 1 — Tính hàm rải $h(k_i) = k_i \\bmod 9$: $h(26)=8$; $h(30)=3$; $h(25)=7$; $h(11)=2$; $h(9)=0$; $h(8)=8$ (phần tử thứ 6); $h(8)=8$ (phần tử thứ 7); $h(7)=7$; $h(10)=1$. Ban đầu theo giá trị rải: $A[0]=9$, $A[1]=10$, $A[2]=11$, $A[3]=30$, $A[7]=\\{25, 7\\}$, $A[8]=\\{26, 8, 8\\}$; các ô trống là $A[4], A[5], A[6]$.",
+        "Bước 2 — Phương pháp thử tuyến tính $(k+i)\\bmod 9$ theo đúng thứ tự từ trái sang phải trong $K$: `26`$\\to A[8]$, `30`$\\to A[3]$, `25`$\\to A[7]$, `11`$\\to A[2]$, `9`$\\to A[0]$; `8` thứ nhất thử $i=1\\to 0$ (bận), $i=2\\to 1$ (trống lúc này) $\\Rightarrow A[1]$; `8` thứ hai thử $i=1..4 \\to 0,1,2,3$ (bận), $i=5\\to (8+5)\\bmod 9 = 4 \\Rightarrow A[4]$; `7` thử $i=1..6 \\to 8,0,1,2,3,4$ (bận), $i=7\\to (7+7)\\bmod 9 = 5 \\Rightarrow A[5]$; `10` có $h(10)=1$ nhưng $A[1]$ đã bị `8` chiếm nên thử $i=1..4 \\to 2,3,4,5$ (bận), $i=5\\to (10+5)\\bmod 9 = 6 \\Rightarrow A[6]$.",
+        "Bước 3 — Phương pháp kết nối ngoài: $A[0]\\to 9\\to\\text{Null}$; $A[1]\\to 10\\to\\text{Null}$; $A[2]\\to 11\\to\\text{Null}$; $A[3]\\to 30\\to\\text{Null}$; $A[4]\\to\\text{Null}$; $A[5]\\to\\text{Null}$; $A[6]\\to\\text{Null}$; $A[7]\\to 25\\to 7\\to\\text{Null}$; $A[8]\\to 26\\to 8\\to 8\\to\\text{Null}$.",
+        "Bước 4 — Phương pháp kết nối trong: Nếu đặt trước các phần tử không đụng độ vào ô gốc ($A[0]=9, A[1]=10, A[2]=11, A[3]=30, A[7]=25, A[8]=26$), 3 ô trống còn lại là $A[4], A[5], A[6]$ sẽ được dùng để nối vòng: $A[8](26) \\to A[4](8) \\to A[5](8) \\to A[8]$ và $A[7](25) \\to A[6](7) \\to A[7]$. *(Nếu chèn đúng tuần tự trái-sang-phải thì `8` chiếm $A[1]$ trước khi `10` tới, đẩy `10` sang ô trống $A[6]$ trong danh sách kết hợp).*"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bài 6 (Giáo trình - Tự giải): Lập, tra cứu và cập nhật tệp chỉ dẫn trên bảng NHANSU",
+      "problem": "Cho bảng dữ liệu `NHANSU` với khóa `MASO` theo thứ tự vật lý (`STT` 1..7): `(100, Nguyễn Văn Nam, Nam, Giám đốc, 2.500.000)`, `(103, Hoàng Thị Xuân, Nữ, Kế toán trưởng, 1.700.000)`, `(101, Đặng Ngọc Chiển, Nữ, Thư ký, 1.000.000)`, `(221, Phan Kỳ Nhân, Nam, Lái xe, 700.000)`, `(105, Nguyễn Thị Cao, Nữ, Trưởng phòng, 1.200.000)`, `(233, Đỗ Hữu Ngọc, Nam, Phó phòng, 1.000.000)`, `(210, Hoàng Thảo, Nam, Chuyên viên, 1.000.000)`.\na) Đưa ra nội dung tệp chỉ dẫn tương ứng.\nb) Nêu cách tìm bản ghi có `MASO = 105`.\nc) File dữ liệu và tệp chỉ dẫn thay đổi thế nào khi thêm bản ghi `(175, Nguyễn Văn Tài, Nam, Tạp vụ, 1.500.000)`?",
+      "solution_steps": [
+        "Bước 1 — Đánh số thứ tự vật lý (`STT` 1..7) trên file dữ liệu `NHANSU`: `1: 100`, `2: 103`, `3: 101`, `4: 221`, `5: 105`, `6: 233`, `7: 210`.",
+        "Bước 2 — Lập tệp chỉ dẫn gồm 2 cột `(MASO, STT)` sắp tăng dần theo `MASO`: `(100, 1)`, `(101, 3)`, `(103, 2)`, `(105, 5)`, `(210, 7)`, `(221, 4)`, `(233, 6)`.",
+        "Bước 3 — Tìm bản ghi `MASO = 105`: Tra trên tệp chỉ dẫn đã sắp thứ tự thấy khóa `105` ứng với `STT = 5`. Từ đó hệ thống định vị trực tiếp đến bản ghi thứ 5 trong file dữ liệu `NHANSU`: `(105, Nguyễn Thị Cao, Nữ, Trưởng phòng, 1.200.000)`.",
+        "Bước 4 — Cập nhật khi thêm bản ghi `MASO = 175`: Trên file dữ liệu `NHANSU`, bản ghi mới được nối vào cuối tệp ở vị trí vật lý `STT = 8`. Trên tệp chỉ dẫn, cặp `(175, 8)` được chèn vào giữa `(105, 5)` và `(210, 7)` để duy trì thứ tự tăng dần của `MASO`: `(100,1), (101,3), (103,2), (105,5), (175,8), (210,7), (221,4), (233,6)`."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bài 7 (Giáo trình - Tự giải): Tệp chỉ dẫn khóa ghép (MAHD, MAHANG) trên bảng HOADONCT",
+      "problem": "Cho bảng dữ liệu `HOADONCT` với khóa ghép `(MAHD, MAHANG)` theo thứ tự vật lý (`STT` 1..7): `(1203, XM01, 2)`, `(1011, XM01, 1)`, `(1203, SA01, 15)`, `(1010, SA02, 1)`, `(1011, CA03, 20)`, `(1011, CA01, 13)`, `(1010, XM01, 8)`.\na) Hãy đưa ra nội dung tệp chỉ dẫn tương ứng.\nb) Nêu cách tìm tới bản ghi có `MAHD = 1011` và `MAHANG = CA01`.",
+      "solution_steps": [
+        "Bước 1 — Ghi nhận vị trí vật lý (`STT` 1..7) của 7 bản ghi trong `HOADONCT`: `1: (1203, XM01)`, `2: (1011, XM01)`, `3: (1203, SA01)`, `4: (1010, SA02)`, `5: (1011, CA03)`, `6: (1011, CA01)`, `7: (1010, XM01)`.",
+        "Bước 2 — Sắp xếp theo thứ tự từ điển của khóa ghép `(MAHD, MAHANG)` (ưu tiên `MAHD` tăng dần, cùng `MAHD` xét `MAHANG` tăng dần): `(1010, SA02)`, `(1010, XM01)`, `(1011, CA01)`, `(1011, CA03)`, `(1011, XM01)`, `(1203, SA01)`, `(1203, XM01)`.",
+        "Bước 3 — Lập nội dung tệp chỉ dẫn `(MAHD, MAHANG, STT)`: `(1010, SA02, 4)`, `(1010, XM01, 7)`, `(1011, CA01, 6)`, `(1011, CA03, 5)`, `(1011, XM01, 2)`, `(1203, SA01, 3)`, `(1203, XM01, 1)`.",
+        "Bước 4 — Tìm kiếm bản ghi `MAHD = 1011, MAHANG = CA01`: Tra tìm cặp khóa `(1011, CA01)` trên tệp chỉ dẫn thu được `STT = 6`. Hệ thống định vị ngay tới dòng thứ 6 trên tệp dữ liệu `HOADONCT` và đọc được `(1011, CA01, SOLUONG=13)`."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Tính kích thước bản ghi cố định & phân tích hiện tượng nằm chồng lên biên khối",
+      "problem": "Một tệp chứa các bản ghi thông tin sinh viên có cấu trúc cố định (kiểu Pascal tương tự `Taikhoan` trong Mục 5.1.2a):\n`Type SinhVien = Record MaSV : Char(12); HoTen : Char(30); Lop : Char(10); DiemTB : Real; End;`\nBiết mỗi ký tự `Char` chiếm 1 byte, mỗi số thực `Real` chiếm 8 byte và kích thước một khối (block) của đĩa từ là `512 byte`.\na) Tính kích thước của một bản ghi `SinhVien`.\nb) Nếu lưu liên tiếp không để trống, mỗi khối chứa trọn vẹn tối đa bao nhiêu bản ghi và có xảy ra hiện tượng bản ghi nằm chồng lên biên khối không? Khi đọc một bản ghi vắt qua biên khối cần truy cập mấy khối?",
+      "solution_steps": [
+        "Bước 1 — Tính kích thước 1 bản ghi `SinhVien`: `MaSV` = 12 byte, `HoTen` = 30 byte, `Lop` = 10 byte, `DiemTB` = 8 byte. Tổng kích thước = $12 + 30 + 10 + 8 = 60\\text{ byte}$.",
+        "Bước 2 — Kiểm tra tính chia hết với kích thước khối: Thực hiện phép chia $512 : 60 = 8$ dư $32$ ($8 \\times 60 = 480\\text{ byte}$). Do $512$ không phải là bội số của $60$, mỗi khối chỉ chứa trọn vẹn được **8 bản ghi**.",
+        "Bước 3 — Phân tích biên khối: Sau 8 bản ghi đầu tiên (chiếm 480 byte của khối 1), còn dư 32 byte ở cuối khối 1. Bản ghi thứ 9 (60 byte) sẽ bị tách đôi: 32 byte đầu nằm ở cuối khối 1 và 28 byte còn lại nằm ở đầu khối 2 (hiện tượng nằm chồng lên biên khối).",
+        "Bước 4 — Chi phí truy cập: Mỗi khi đọc hoặc ghi bản ghi thứ 9 (và các bản ghi vắt biên tiếp theo), hệ QTCSDL buộc phải truy cập **cả 2 khối** (khối 1 và khối 2) vào vùng nhớ đệm."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Mô phỏng danh sách móc nối `file header` khi xóa và chèn bản ghi cố định",
+      "problem": "Xét một tệp bản ghi kích thước cố định có 8 vị trí `Record 0 .. Record 7` (tương tự Hình 5.1 Mục 5.1.2a). Ban đầu `file header` trỏ tới `Record 1`, `Record 1` trỏ tới `Record 4`, `Record 4` trỏ tới `Record 6`, và `Record 6` mang giá trị `Null` (hết chỗ trống).\nHãy mô phỏng sự thay đổi của `file header` và các con trỏ trong danh sách móc nối sau chuỗi 4 thao tác tuần tự:\n(1) Chèn bản ghi mới `X`; (2) Xóa `Record 2`; (3) Chèn bản ghi mới `Y`; (4) Chèn tiếp 3 bản ghi mới `Z, T, W`.",
+      "solution_steps": [
+        "Bước 1 — Trạng thái ban đầu: Danh sách móc nối các ô trống là `Header -> 1 -> 4 -> 6 -> Null` (các ô đang chứa dữ liệu là `0, 2, 3, 5, 7`).",
+        "Bước 2 — Thao tác (1) Chèn `X`: Lấy vị trí đầu tiên mà `Header` trỏ tới là `Record 1` để ghi `X`, sau đó cập nhật `Header` trỏ sang ô trống kế tiếp là `Record 4`. Danh sách trống còn: `Header -> 4 -> 6 -> Null`.",
+        "Bước 3 — Thao tác (2) Xóa `Record 2`: Đánh dấu `Record 2` trống và gắn vào đầu danh sách móc nối: `Record 2` lưu con trỏ trỏ tới `Record 4` (giá trị cũ của `Header`), còn `Header` cập nhật trỏ tới `Record 2`. Danh sách trống mới: `Header -> 2 -> 4 -> 6 -> Null`.",
+        "Bước 4 — Thao tác (3) Chèn `Y`: Ghi `Y` vào `Record 2` và cập nhật `Header -> 4 -> 6 -> Null`.",
+        "Bước 5 — Thao tác (4) Chèn `Z, T, W`: `Z` ghi vào `Record 4` (`Header -> 6 -> Null`); `T` ghi vào `Record 6` (`Header -> Null`, hết chỗ trống); đến `W` vì không còn bản ghi trống nào nên `W` được thêm vào **cuối tệp** tại `Record 8`."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Xử lý tệp tuần tự (`pack`) và tệp bản ghi kích thước thay đổi (`Dstaikhoan`)",
+      "problem": "Một tệp tuần tự lưu danh sách nhân viên gồm 5 bản ghi theo thứ tự: `(Mai, 17)`, `(Mận, 35)`, `(Đào, 24)`, `(Lan, 44)`, `(Cúc, 29)`.\na) Cần thực hiện những thao tác gì để chèn `(Trúc, 21)` vào ngay sau `Mận`, sau đó xóa `Đào` (xóa logic) rồi dọn tệp (`pack`)?\nb) Nếu đổi sang cấu trúc bản ghi kích thước thay đổi như `Dstaikhoan` (Mục 5.1.2b), hãy nêu cách lưu trữ và lý do vì sao việc chèn trực tiếp vào khoảng trống đã xóa lại khó khăn.",
+      "solution_steps": [
+        "Bước 1 — Chèn `(Trúc, 21)` vào ngay sau `Mận` (vị trí thứ 3): Vì là tệp tuần tự, hệ thống phải dịch chuyển lần lượt `Cúc`, `Lan`, `Đào` xuống phía dưới 1 vị trí (thành vị trí 6, 5, 4), sau đó mới ghi `(Trúc, 21)` vào vị trí 3.",
+        "Bước 2 — Xóa logic `Đào`: Dò tuần tự từ đầu tệp đến `Đào` (vị trí 4), đánh dấu xóa vào bản ghi này và ngừng dùng con trỏ tới nó. Bản ghi `Đào` vẫn tồn tại vật lý trong tệp.",
+        "Bước 3 — Dọn tệp bằng thao tác `pack`: Quét toàn bộ tệp, nhặt các bản ghi không bị đánh dấu xóa (`Mai, Mận, Trúc, Lan, Cúc`) và ghi lại thành một tệp tuần tự mới gồm 5 bản ghi, lúc này `Đào` mới bị xóa hẳn.",
+        "Bước 4 — Với tệp kích thước thay đổi (`Dstaikhoan`): Cuối mỗi bản ghi phải gắn thêm **ký hiệu kết thúc bản ghi** rồi lưu các byte liên tiếp. Nếu xóa một bản ghi ở giữa, khoảng trống để lại có độ dài cố định theo bản ghi cũ nên bản ghi mới (với mảng `ThongtinTK` dài hơn) có thể không vừa khít vào chỗ trống đó."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Biến đổi khóa bằng phương pháp nhân và phương pháp tách trước khi lấy modulo",
+      "problem": "Cho tập khóa 4 chữ số $K = [1219, 1999, 2504, 3110, 4007]$ và miền rải có $n = 7$ ô ($A[0..6]$).\na) Tính địa chỉ rải nếu dùng hàm modulo trực tiếp $h(k) = k \\bmod 7$.\nb) Áp dụng phương pháp **nhân** ($h_1(k) = k^2 \\bmod 7$) và phương pháp **tách** (tách mỗi khóa 4 chữ số thành hai số 2 chữ số, cộng lại thành $k'$ rồi tính $h_2(k) = k' \\bmod 7$). So sánh kết quả đụng độ giữa các cách.",
+      "solution_steps": [
+        "Bước 1 — Hàm modulo trực tiếp $h(k) = k \\bmod 7$: $1219\\bmod 7 = 1$; $1999\\bmod 7 = 4$; $2504\\bmod 7 = 5$; $3110\\bmod 7 = 2$; $4007\\bmod 7 = 3$. Với tập khóa này hàm trực tiếp không đụng độ.",
+        "Bước 2 — Phương pháp nhân $h_1(k) = k^2 \\bmod 7$: $1219^2\\bmod 7 \\equiv 1^2 = 1$; $1999^2\\bmod 7 \\equiv 4^2 = 16\\bmod 7 = 2$; $2504^2\\bmod 7 \\equiv 5^2 = 25\\bmod 7 = 4$; $3110^2\\bmod 7 \\equiv 2^2 = 4$; $4007^2\\bmod 7 \\equiv 3^2 = 9\\bmod 7 = 2$. Lưu ý: có đụng độ giữa `1999` và `4007` (cùng ở ô 2), và giữa `2504` và `3110` (cùng ở ô 4) vì $k^2 \\equiv (n-k)^2 \\pmod n$.",
+        "Bước 3 — Phương pháp tách (2 phần 2 chữ số rồi cộng lại): `1219` $\\to 12+19=31 \\to 31\\bmod 7 = 3$; `1999` $\\to 19+99=118 \\to 118\\bmod 7 = 6$; `2504` $\\to 25+04=29 \\to 29\\bmod 7 = 1$; `3110` $\\to 31+10=41 \\to 41\\bmod 7 = 6$; `4007` $\\to 40+07=47 \\to 47\\bmod 7 = 5$.",
+        "Bước 4 — Nhận xét: Phương pháp tách biến đổi `1999` thành `118` (giống Ví dụ 1 Mục 5.2.2.2a) và `3110` thành `41` nên tạo phân bố hoàn toàn mới (đụng độ tại ô 6); trong khi phương pháp nhân cần thận trọng với tính chất đối xứng bình phương modulo $n$ ($r^2 \\equiv (n-r)^2 \\pmod n$) dễ làm dồn khóa về các ô thặng dư chính phương."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Biến đổi khóa bằng phương pháp gấp (gấp 3 chữ số kép) trước khi lấy modulo",
+      "problem": "Cho tập khóa 6 chữ số $K = [199890, 241560, 350214, 187209]$ với kích thước miền rải $n = 11$.\na) Tính địa chỉ rải bằng hàm modulo trực tiếp $h(k) = k \\bmod 11$.\nb) Áp dụng quy tắc **phương pháp gấp** như Ví dụ 2 Mục 5.2.2.2a (gấp 3 thành các nhóm 2 chữ số: giữ phần đầu và phần cuối, đảo ngược phần giữa rồi cộng 3 phần lại thành $k'$, sau đó lấy $k' \\bmod 11$).",
+      "solution_steps": [
+        "Bước 1 — Hàm modulo trực tiếp $k \\bmod 11$: $199890\\bmod 11 = 0$; $241560\\bmod 11 = 0$; $350214\\bmod 11 = 0$; $187209\\bmod 11 = 4$. Ba khóa đầu cùng cho kết quả `0` nên xảy ra đụng độ nghiêm trọng tại $A[0]$.",
+        "Bước 2 — Biến đổi bằng phương pháp gấp (gấp 3 phần): `199890` $\\to$ gấp thành `19, 89, 90` $\\to k' = 19+89+90 = 198$; `241560` $\\to$ gấp thành `24, 51, 60` $\\to k' = 24+51+60 = 135$; `350214` $\\to$ gấp thành `35, 20, 14` $\\to k' = 35+20+14 = 69$; `187209` $\\to$ gấp thành `18, 27, 09` $\\to k' = 18+27+9 = 54$.",
+        "Bước 3 — Lấy modulo $n = 11$ trên các khóa đã gấp: $h(198) = 198\\bmod 11 = 0$; $h(135) = 135\\bmod 11 = 3$; $h(69) = 69\\bmod 11 = 3$; $h(54) = 54\\bmod 11 = 10$.",
+        "Bước 4 — Đánh giá: So với hàm modulo trực tiếp (3 khóa đụng độ tại ô 0), phương pháp gấp đã phân tán địa chỉ rải ra các ô $0, 3, 10$ (chỉ còn 2 khóa `241560` và `350214` đụng độ tại ô 3)."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Giải quyết đụng độ bằng Thử cầu phương $(k + i^2) \\bmod n$ và so sánh với Thử tuyến tính",
+      "problem": "Cho tập khóa $K = [10, 17, 24, 5, 19]$ và miền rải có $n = 7$ ô ($A[0..6]$) dùng hàm băm $h(k) = k \\bmod 7$.\na) Giải quyết đụng độ theo thứ tự xuất hiện bằng **phương pháp thử tuyến tính** $h(k) = (k + i) \\bmod 7$.\nb) Giải quyết đụng độ theo thứ tự xuất hiện bằng **phương pháp thử cầu phương** $h(k) = (k + i^2) \\bmod 7$ ($1 \\le i \\le 6$) và so sánh tổng số bước thử $i$ của hai phương pháp.",
+      "solution_steps": [
+        "Bước 1 — Tính giá trị băm ban đầu $k \\bmod 7$: $h(10)=3$; $h(17)=3$; $h(24)=3$; $h(5)=5$; $h(19)=5$. Có 2 nhóm đụng độ tại $A[3]$ và $A[5]$.",
+        "Bước 2 — Phương pháp thử tuyến tính $(k+i)\\bmod 7$: `10` $\\to A[3]$; `17` thử $i=1\\to 4$ (trống) $\\Rightarrow A[4]$ (1 bước); `24` thử $i=1\\to 4$(bận), $i=2\\to 5$(trống lúc này) $\\Rightarrow A[5]$ (2 bước); `5` có $h(5)=5$ bị `24` chiếm nên thử $i=1\\to 6$ (trống) $\\Rightarrow A[6]$ (1 bước); `19` có $h(19)=5$ thử $i=1\\to 6$(bận), $i=2\\to 0$(trống) $\\Rightarrow A[0]$ (2 bước). Tổng số bước thử = $1+2+1+2 = 6$.",
+        "Bước 3 — Phương pháp thử cầu phương $(k+i^2)\\bmod 7$: `10` $\\to A[3]$; `17` thử $i=1\\to (17+1)\\bmod 7 = 4$ (trống) $\\Rightarrow A[4]$ (1 bước); `24` thử $i=1\\to (24+1)\\bmod 7 = 4$(bận), $i=2\\to (24+4)\\bmod 7 = 0$ (trống) $\\Rightarrow A[0]$ (2 bước); `5` không bị chiếm ô 5 nên vào thẳng $A[5]$ (0 bước!); `19` đụng độ tại $5$: thử $i=1\\to (19+1)\\bmod 7 = 6$ (trống) $\\Rightarrow A[6]$ (1 bước). Tổng số bước thử = $1+2+0+1 = 4$.",
+        "Bước 4 — So sánh: Trên tập khóa này, thử tuyến tính gây hiệu ứng 'tụ cụm' làm `24` chiếm mất ô $A[5]$ của `5`, khiến tổng số bước thử lên tới $6$. Thử cầu phương nhảy cách $i^2$ tránh được ô $A[5]$, giúp `5` vào thẳng ô gốc và giảm tổng số bước thử xuống còn $4$."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "So sánh Kết nối ngoài và Kết nối trong trên tập khóa mới K = [18, 25, 11, 4, 32, 9], n = 7",
+      "problem": "Cho tập khóa $K = [18, 25, 11, 4, 32, 9]$ với $n = 7$ và hàm băm $h(k) = k \\bmod 7$.\na) Trình bày cấu trúc lưu trữ theo **kết nối ngoài** và nêu các bước truy cập khóa `32`.\nb) Trình bày cấu trúc lưu trữ theo **kết nối trong** và so sánh ưu/nhược điểm về bộ nhớ giữa hai phương pháp.",
+      "solution_steps": [
+        "Bước 1 — Tính $h(k) = k \\bmod 7$: $h(18)=4$; $h(25)=4$; $h(11)=4$; $h(4)=4$; $h(32)=4$; $h(9)=2$. Lưu ý đặc biệt: 5 khóa `18, 25, 11, 4, 32` cùng băm về ô $A[4]$; khóa `9` ở $A[2]$; các ô trống còn lại là $A[0], A[1], A[3], A[5], A[6]$.",
+        "Bước 2 — Phương pháp kết nối ngoài: $A[0], A[1], A[3], A[5], A[6] \\to \\text{Null}$; $A[2] \\to 9 \\to \\text{Null}$; $A[4] \\to 18 \\to 25 \\to 11 \\to 4 \\to 32 \\to \\text{Null}$. Để truy cập `32`: tính $h(32)=4$, tới nút đầu $A[4]$ rồi dò tuần tự qua `18 -> 25 -> 11 -> 4 -> 32`.",
+        "Bước 3 — Phương pháp kết nối trong: Dùng 4 ô trống ($A[0], A[1], A[3], A[5]$ hoặc $A[5], A[6], A[0], A[1]$) để lưu 4 phần tử đụng độ với $A[4]$ và nối thành vòng kín: $A[4](18) \\to A[5](25) \\to A[6](11) \\to A[0](4) \\to A[1](32) \\to A[4]$; riêng $A[2](9) \\to A[2]$ (hoặc tự trỏ/không đụng độ), ô $A[3]$ còn trống.",
+        "Bước 4 — So sánh: Cả hai phương pháp đều phải dò tuần tự theo danh sách móc nối khi truy cập khóa đụng độ. Tuy nhiên, **kết nối trong ít tốn bộ nhớ hơn kết nối ngoài** vì không phải cấp phát nút động bên ngoài miền rải $A$, nhưng bị giới hạn tổng số phần tử tối đa bằng kích thước $n$ của miền $A$."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Thiết kế tệp chỉ dẫn và mô phỏng cập nhật (thêm, xóa) cho bảng SINHVIEN",
+      "problem": "Cho bảng dữ liệu `SINHVIEN` với khóa `MASV` theo thứ tự vật lý (`STT` 1..5): `(SV04, Lê Minh, K45, 7.8)`, `(SV01, Trần An, K45, 8.5)`, `(SV05, Phạm Hà, K46, 6.9)`, `(SV02, Võ Bình, K45, 8.1)`, `(SV03, Đỗ Chi, K46, 7.4)`.\na) Lập tệp chỉ dẫn cho bảng `SINHVIEN` theo khóa `MASV`.\nb) Mô tả sự thay đổi của tệp dữ liệu và tệp chỉ dẫn khi: (1) Thêm sinh viên `SV00` vào cuối tệp dữ liệu; (2) Xóa sinh viên `SV04` (dùng xóa logic ở tệp dữ liệu và cập nhật tệp chỉ dẫn).",
+      "solution_steps": [
+        "Bước 1 — Tệp chỉ dẫn ban đầu `(MASV, STT)` sắp tăng dần theo `MASV`: `(SV01, 2)`, `(SV02, 4)`, `(SV03, 5)`, `(SV04, 1)`, `(SV05, 3)`.",
+        "Bước 2 — Tìm kiếm minh họa (ví dụ tìm `SV03`): Tra `SV03` trong tệp chỉ dẫn thấy `STT = 5`, đọc thẳng dòng 5 trong tệp dữ liệu thu được `(SV03, Đỗ Chi, K46, 7.4)`.",
+        "Bước 3 — Cập nhật khi thêm `SV00`: Bản ghi `SV00` được ghi vào cuối tệp dữ liệu ở `STT = 6`. Trong tệp chỉ dẫn, cặp `(SV00, 6)` được chèn lên đầu danh sách để giữ thứ tự tăng dần: `(SV00, 6), (SV01, 2), (SV02, 4), (SV03, 5), (SV04, 1), (SV05, 3)`.",
+        "Bước 4 — Cập nhật khi xóa `SV04`: Đánh dấu xóa logic tại dòng `STT = 1` trên tệp dữ liệu (không dịch chuyển các bản ghi khác để khỏi làm sai lệch `STT` 2..6), đồng thời loại bỏ mục `(SV04, 1)` khỏi tệp chỉ dẫn: `(SV00, 6), (SV01, 2), (SV02, 4), (SV03, 5), (SV05, 3)`."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Thiết kế tệp chỉ dẫn và tra cứu cập nhật cho bảng MATHANG",
+      "problem": "Cho bảng dữ liệu `MATHANG` với khóa `MAHANG` gồm 6 bản ghi theo thứ tự vật lý (`STT` 1..6): `(MH05, Bút bi, Cây, 5000)`, `(MH02, Vở 100 trang, Quyển, 12000)`, `(MH06, Thước kẻ, Cái, 8000)`, `(MH01, Bút chì, Cây, 4000)`, `(MH04, Tẩy, Cục, 3000)`, `(MH03, Compa, Bộ, 25000)`.\na) Lập tệp chỉ dẫn tương ứng.\nb) Nêu quy trình tìm kiếm mặt hàng `MH03`.\nc) Tệp dữ liệu và tệp chỉ dẫn thay đổi thế nào khi thêm mặt hàng `(MH02B, Vở 200 trang, Quyển, 22000)`?",
+      "solution_steps": [
+        "Bước 1 — Đánh số thứ tự vật lý (`STT` 1..6) trên file dữ liệu `MATHANG`: `1: MH05`, `2: MH02`, `3: MH06`, `4: MH01`, `5: MH04`, `6: MH03`.",
+        "Bước 2 — Lập tệp chỉ dẫn `(MAHANG, STT)` sắp theo thứ tự chữ cái-số: `(MH01, 4)`, `(MH02, 2)`, `(MH03, 6)`, `(MH04, 5)`, `(MH05, 1)`, `(MH06, 3)`.",
+        "Bước 3 — Tìm `MH03`: Tra khóa `MH03` trên tệp chỉ dẫn, lấy được `STT = 6`, định vị trực tiếp đến bản ghi thứ 6 của tệp dữ liệu `MATHANG` và đọc được `(MH03, Compa, Bộ, 25000)`.",
+        "Bước 4 — Thêm bản ghi `(MH02B, Vở 200 trang, Quyển, 22000)`: Ghi bản ghi mới vào cuối tệp dữ liệu tại `STT = 7`. Trên tệp chỉ dẫn, chèn `(MH02B, 7)` vào sau `(MH02, 2)` và trước `(MH03, 6)`: `(MH01,4), (MH02,2), (MH02B,7), (MH03,6), (MH04,5), (MH05,1), (MH06,3)`."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Phân tích tính chất số nút con và cấu trúc nút của B-cây cân bằng cấp m",
+      "problem": "Theo Mục 5.2.4 giáo trình:\na) Phát biểu đầy đủ 3 tính chất của B-cây cân bằng cấp $m$ và cấu trúc lưu trữ $m+1$ thành phần của một nút.\nb) Áp dụng tính toán cho trường hợp B-cây cấp $m = 5$ và $m = 6$: xác định số nút con tối thiểu/tối đa của nút gốc (khi không phải lá) và nút trung gian, cũng như tổng số thành phần trong mỗi nút.\nc) Nếu một B-cây cấp $m = 5$ có chiều cao 3 mức (mức 1: gốc; mức 2: nút trung gian; mức 3: lá) và gốc có đúng 2 con, tính số nút lá tối thiểu của cây.",
+      "solution_steps": [
+        "Bước 1 — Nhắc lại 3 tính chất của B-cây cân bằng cấp $m$: (1) Gốc hoặc là 1 nút lá hoặc có ít nhất 2 nút con; (2) Mỗi nút (trừ gốc và lá) có từ $\\lceil m/2 \\rceil$ đến $m$ nút con; (3) Mọi đường đi từ gốc đến bất kỳ lá nào đều có độ dài như nhau.",
+        "Bước 2 — Cấu trúc lưu trữ: Mỗi nút của B-cây cấp $m$ có $m + 1$ thành phần gồm **1 thành phần** lưu thông tin về mẫu tin và **$m$ thành phần** còn lại là các con trỏ trỏ tới tối đa $m$ nút con.",
+        "Bước 3 — Tính cho $m = 5$ và $m = 6$: Với $m = 5$: mỗi nút có $5 + 1 = 6$ thành phần; gốc có $2..5$ con; nút trung gian có $\\lceil 5/2 \\rceil = 3$ đến $5$ nút con. Với $m = 6$: mỗi nút có $6 + 1 = 7$ thành phần; gốc có $2..6$ con; nút trung gian có $\\lceil 6/2 \\rceil = 3$ đến $6$ nút con.",
+        "Bước 4 — Số nút lá tối thiểu ở mức 3 ($m = 5$, gốc có 2 con): Mức 1 (gốc) có 1 nút $\\to$ Mức 2 có tối thiểu 2 nút trung gian $\\to$ mỗi nút trung gian mức 2 phải có ít nhất $\\lceil 5/2 \\rceil = 3$ nút con ở mức 3 $\\Rightarrow$ số nút lá tối thiểu ở mức 3 là $2 \\times 3 = 6$ nút lá (và mọi đường đi từ gốc đến 6 lá này đều có độ dài bằng nhau)."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Mô phỏng quá trình duyệt tìm kiếm khóa K từ gốc xuống lá trên B-cây cân bằng",
+      "problem": "Xét một B-cây cân bằng cấp $m = 3$ theo mô tả cấu trúc của Mục 5.2.4 (mỗi nút lưu 1 khóa mẫu tin và 3 con trỏ con `P1, P2, P3`; nút lá có các con trỏ `= Nil`). Giả sử:\n- Nút gốc `N0` lưu khóa `50`, trỏ tới 3 nút con mức 2 là `N1(20)`, `N2(35)`, `N3(80)`.\n- `N1(20)` trỏ tới 2 nút lá `L1(10)`, `L2(25)`; `N2(35)` trỏ tới 2 nút lá `L3(30)`, `L4(42)`; `N3(80)` trỏ tới 2 nút lá `L5(65)`, `L6(90)`.\nHãy mô phỏng từng bước thuật toán tìm kiếm trong Mục 5.2.4 cho hai trường hợp: (a) Tìm khóa `K = 42`; (b) Tìm khóa `K = 70`.",
+      "solution_steps": [
+        "Bước 1 — Kiểm tra cấu trúc B-cây cấp $m = 3$: Mỗi nút có $3 + 1 = 4$ thành phần (1 thông tin mẫu tin + 3 con trỏ). Gốc `N0` có 3 con ($\\ge 2$); các nút mức 2 (`N1, N2, N3`) có 2 con (thỏa $\\lceil 3/2 \\rceil = 2$ đến $3$); mọi đường đi từ `N0` xuống các lá `L1..L6` đều dài 3 nút.",
+        "Bước 2 — Trường hợp (a) Tìm `K = 42`: Bắt đầu tại gốc `N0(50)`: so sánh `42 != 50`, nên lần xuống các nút con của `N0` duyệt từ trái sang phải: kiểm tra `N1(20)` (`42 != 20`, nhánh lá `L1(10), L2(25)` đều `Nil` và khác `42`), tiếp tục sang `N2(35)` (`42 != 35`), duyệt các con của `N2` từ trái sang phải qua `L3(30)` tới `L4(42)`.",
+        "Bước 3 — Kết quả trường hợp (a): Tại nút `L4(42)`, điều kiện `K = khóa tại nút` (`42 = 42`) thỏa mãn $\\Rightarrow$ việc truy xuất bản ghi có khóa `42` bắt đầu thành công.",
+        "Bước 4 — Trường hợp (b) Tìm `K = 70`: Duyệt từ gốc `N0(50)` (`70 != 50`), lần xuống từng nhánh con từ trái sang phải qua `N1`, `N2` (đệ quy đến lá có con trỏ `Nil` đều không khớp), sang `N3(80)` (`70 != 80`), tiếp tục duyệt các nút lá `L5(65)` và `L6(90)` đều có con trỏ `= Nil` và không khớp `70` $\\Rightarrow$ kết thúc tìm kiếm, kết luận không có khóa `70` trong cây."
+      ]
+    }
+  ]
+}

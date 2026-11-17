@@ -1,0 +1,1163 @@
+{
+  "multiple_choice": [
+    {
+      "id": 1,
+      "question": "Mô hình thực thể - quan hệ (E-R) do ai đề xuất và vào năm nào?",
+      "options": {
+        "A": "Peter Chen vào năm 1976",
+        "B": "Edgar F. Codd vào năm 1970",
+        "C": "Raymond Boyce vào năm 1974",
+        "D": "Donald Chamberlin vào năm 1976"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Phần Mở đầu Chương 2 giáo trình, mô hình thực thể - quan hệ (E-R) do Peter Chen đề xuất vào năm 1976 và được sử dụng phổ biến trong thiết kế CSDL.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Theo Chương 2, mô hình dữ liệu được định nghĩa là gì?",
+      "options": {
+        "A": "Một phần mềm quản trị hệ thống tệp tin trên đĩa cứng",
+        "B": "Một hệ thống các ký hiệu sử dụng để mô tả dữ liệu và một tập các phép toán dùng để xử lý dữ liệu đó",
+        "C": "Một ngôn ngữ lập trình hướng đối tượng dùng để viết giao diện người dùng",
+        "D": "Một tập hợp các bảng tính điện tử dùng để lưu trữ hồ sơ văn phòng"
+      },
+      "correct_answer": "B",
+      "explanation": "Giáo trình định nghĩa: Mô hình dữ liệu là một hệ thống các ký hiệu sử dụng để mô tả dữ liệu và một tập các phép toán dùng để xử lý dữ liệu đó.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Quá trình thiết kế cơ sở dữ liệu (Mục 2.1) bao gồm mấy bước chính?",
+      "options": {
+        "A": "2 bước",
+        "B": "3 bước",
+        "C": "4 bước",
+        "D": "5 bước"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.1 trình bày quá trình thiết kế CSDL gồm 4 bước: (1) Tập hợp và phân tích yêu cầu hệ thống, (2) Thiết kế khái niệm, (3) Thiết kế logic, (4) Thiết kế vật lý.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Bước đầu tiên trong quá trình thiết kế CSDL theo Mục 2.1 là gì?",
+      "options": {
+        "A": "Thiết kế khái niệm",
+        "B": "Thiết kế logic",
+        "C": "Thiết kế vật lý cho CSDL",
+        "D": "Tập hợp và phân tích yêu cầu hệ thống"
+      },
+      "correct_answer": "D",
+      "explanation": "Bước 1 là Tập hợp và phân tích yêu cầu hệ thống: thu thập yêu cầu người dùng để phân tích và xác định yêu cầu chức năng (Functional Requirements).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Kết quả của Bước 2 (Thiết kế khái niệm) trong quá trình thiết kế CSDL là gì?",
+      "options": {
+        "A": "Một lược đồ khái niệm (độc lập với hệ QTCSDL)",
+        "B": "Một cấu trúc tổ chức tệp nhị phân trên ổ đĩa",
+        "C": "Một tập hợp các câu lệnh tối ưu chỉ mục vật lý",
+        "D": "Một giao diện nhập liệu cho người dùng cuối"
+      },
+      "correct_answer": "A",
+      "explanation": "Ở Bước 2, người thiết kế chuyển đặc tả yêu cầu sang thành một lược đồ khái niệm, tập trung vào tính chất dữ liệu mà chưa quan tâm đến chi tiết lưu trữ hay DBMS cụ thể.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Bước 4 (Thiết kế vật lý cho CSDL) tập trung đặc tả nội dung nào sau đây?",
+      "options": {
+        "A": "Thu thập yêu cầu chức năng từ khách hàng",
+        "B": "Các cấu trúc lưu trữ bên trong và kiểu tổ chức tệp cho CSDL",
+        "C": "Vẽ sơ đồ khái niệm E-R bằng hình chữ nhật và hình thoi",
+        "D": "Phỏng vấn người quản lý để thống nhất thuật ngữ nghiệp vụ"
+      },
+      "correct_answer": "B",
+      "explanation": "Bước 4 (Physical Design) đặc tả các đặc điểm vật lý của CSDL, bao gồm các cấu trúc lưu trữ bên trong và kiểu tổ chức tệp cho CSDL.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Trong mô hình E-R, 'Thực thể' (Entity) được hiểu là gì?",
+      "options": {
+        "A": "Một thuộc tính đơn trị dùng để đặt tên cho bảng",
+        "B": "Một phép toán tìm kiếm dữ liệu trên máy chủ",
+        "C": "Một vật thể tồn tại và phân biệt được với các vật thể khác",
+        "D": "Một tệp cấu hình của hệ quản trị cơ sở dữ liệu"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.2 nêu rõ: Thực thể (entity) là một vật thể tồn tại và phân biệt được với các vật thể khác (ví dụ: mỗi cán bộ giảng dạy, mỗi sinh viên, mỗi môn học, mỗi xe máy).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Khái niệm 'Tập thực thể' (Entity Set) dùng để chỉ đối tượng nào?",
+      "options": {
+        "A": "Tập hợp các khóa ngoại liên kết nhiều bảng với nhau",
+        "B": "Tập các giá trị số nguyên mà một cột có thể nhận",
+        "C": "Tập các câu truy vấn thường dùng của người dùng cuối",
+        "D": "Một nhóm bao gồm các thực thể tương tự nhau"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 2.2, một nhóm bao gồm các thực thể 'tương tự' nhau tạo thành một tập thực thể (ví dụ: tập hợp các sinh viên Khoa CNTT, tập hợp các lớp học).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Tập các giá trị có thể gán cho một thuộc tính được gọi là gì?",
+      "options": {
+        "A": "Miền giá trị của thuộc tính",
+        "B": "Bản số của mối quan hệ",
+        "C": "Ràng buộc hàm của thuộc tính",
+        "D": "Lược đồ vật lý của thuộc tính"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.2 định nghĩa: Một tập các giá trị cho thuộc tính gọi là miền giá trị của thuộc tính.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Trong sơ đồ E-R, ký hiệu hình chữ nhật được dùng để biểu diễn thành phần nào?",
+      "options": {
+        "A": "Thuộc tính của thực thể",
+        "B": "Tập thực thể",
+        "C": "Mối quan hệ giữa các thực thể",
+        "D": "Miền giá trị của khóa"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 2.3: Trong sơ đồ thực thể - quan hệ, các hình chữ nhật biểu diễn các tập thực thể.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Trong sơ đồ E-R, hình oval được dùng để biểu diễn thành phần nào?",
+      "options": {
+        "A": "Tập thực thể",
+        "B": "Mối quan hệ kế thừa",
+        "C": "Thuộc tính",
+        "D": "Bản số (min, max)"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.3 quy định: Hình oval biểu diễn thuộc tính, chúng được liên kết với các tập thực thể bằng các cạnh vô hướng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "question": "Trong sơ đồ E-R, hình thoi dùng để biểu diễn thành phần nào?",
+      "options": {
+        "A": "Khóa chính của tập thực thể",
+        "B": "Thuộc tính đa trị",
+        "C": "Tập thực thể yếu",
+        "D": "Mối quan hệ"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo Mục 2.3, hình thoi biểu diễn mối quan hệ, được liên kết với các tập thực thể bằng các cạnh vô hướng hoặc có hướng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "question": "Các hình oval biểu diễn thuộc tính được nối với tập thực thể bằng loại cạnh nào?",
+      "options": {
+        "A": "Các cạnh vô hướng",
+        "B": "Các cạnh có hướng mũi tên hai chiều",
+        "C": "Các đường nét đứt có mũi tên",
+        "D": "Các mũi tên hướng từ thuộc tính vào hình thoi"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.3 nêu rõ: Hình oval biểu diễn thuộc tính, chúng được liên kết với các tập thực thể bằng các cạnh vô hướng.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "question": "Theo quy ước trong Mục 2.2, các thuộc tính của một mối quan hệ phải thỏa mãn điều kiện gì?",
+      "options": {
+        "A": "Phải là thuộc tính khóa ngoại",
+        "B": "Chỉ là các thuộc tính đơn trị",
+        "C": "Luôn là thuộc tính đa trị",
+        "D": "Chỉ xuất hiện ở quan hệ 1-1"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.2 quy ước: Một mối quan hệ có thể có các thuộc tính riêng (đặc biệt là quan hệ n-n), và các thuộc tính của một mối quan hệ quy ước chỉ là các thuộc tính đơn trị.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "question": "Khóa (Key) của một tập thực thể được định nghĩa là gì?",
+      "options": {
+        "A": "Thuộc tính đầu tiên được liệt kê trong tài liệu mô tả",
+        "B": "Bất kỳ thuộc tính kiểu chuỗi ký tự nào của thực thể",
+        "C": "Một thuộc tính hay tập các thuộc tính mà giá trị của nó xác định duy nhất mỗi thực thể",
+        "D": "Mối quan hệ nối tập thực thể đó với tất cả tập thực thể khác"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 2.2, khóa của tập thực thể là một thuộc tính hay một tập các thuộc tính mà giá trị của nó xác định duy nhất mỗi thực thể trong tập thực thể đó.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "question": "Theo ví dụ trong Mục 2.2 giáo trình, tập thực thể ĐiểmHT có khóa là gì?",
+      "options": {
+        "A": "DIEM",
+        "B": "MASV",
+        "C": "MAMH",
+        "D": "MASV, MAMH"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.2 nêu rõ các ví dụ về khóa: Tập thực thể Lớp học có khóa là Mã lớp; Môn học có khóa là Mã môn học; ĐiểmHT có khóa là MASV, MAMH.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "question": "Về mặt nguyên tắc trong mô hình E-R, điều nào sau đây đúng với khóa của mỗi tập thực thể?",
+      "options": {
+        "A": "Mỗi tập thực thể đều phải có một khóa để phân biệt các thực thể với nhau",
+        "B": "Chỉ những tập thực thể có trên 3 thuộc tính mới cần khóa",
+        "C": "Mỗi tập thực thể chỉ được phép dùng đúng 1 thuộc tính làm khóa",
+        "D": "Không cần khóa nếu tập thực thể tham gia quan hệ 1-1"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.2 khẳng định: Về mặt nguyên tắc, mỗi tập thực thể đều phải có một khóa để đáp ứng giả thiết là mỗi thực thể đều có khả năng phân biệt được với các thực thể khác.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "question": "Mối quan hệ nhị nguyên là mối quan hệ được thiết lập giữa bao nhiêu tập thực thể?",
+      "options": {
+        "A": "1 tập thực thể",
+        "B": "2 tập thực thể",
+        "C": "3 tập thực thể",
+        "D": "Từ 4 tập thực thể trở lên"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.4.1 định nghĩa: Mối quan hệ nhị nguyên là mối quan hệ giữa hai tập thực thể, bao gồm 1-1, n-1, n-n (và trường hợp đặc biệt Is-a).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 19,
+      "question": "Trong mô hình E-R, mối quan hệ kế thừa giữa tập thực thể A (lớp con) và tập thực thể B (lớp cha) được ký hiệu như thế nào?",
+      "options": {
+        "A": "B ISA A",
+        "B": "A -> B",
+        "C": "A ISA B",
+        "D": "A == B"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.4.1d nêu: Cho hai tập thực thể A và B, ta nói A có mối quan hệ Is-a với B, ký hiệu là A ISA B, nếu mỗi thực thể của A là một thực thể của B.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "question": "Mối quan hệ phản xạ (Mục 2.4.2) là mối quan hệ như thế nào?",
+      "options": {
+        "A": "Mối quan hệ nối tất cả các tập thực thể trong hệ thống lại với nhau",
+        "B": "Mối quan hệ giữa hai thực thể ở hai CSDL khác nhau",
+        "C": "Mối quan hệ chỉ tồn tại giữa thuộc tính và giá trị của nó",
+        "D": "Mối quan hệ giữa các thực thể của cùng một tập thực thể"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.4.2 định nghĩa ngắn gọn và chính xác: Mối quan hệ phản xạ là mối quan hệ giữa các thực thể của cùng một tập thực thể.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 21,
+      "question": "Mối quan hệ đa nguyên (Mục 2.4.3) là mối quan hệ giữa bao nhiêu tập thực thể?",
+      "options": {
+        "A": "Từ 3 tập thực thể trở lên",
+        "B": "Đúng 2 tập thực thể",
+        "C": "Đúng 1 tập thực thể",
+        "D": "Giữa 1 tập thực thể và 2 thuộc tính"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.4.3 định nghĩa: Mối quan hệ đa nguyên là mối quan hệ giữa 3 tập thực thể trở lên (ví dụ: GiaoVien, Lop, MonHoc qua mối quan hệ Day).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "question": "Theo ví dụ trong Mục 2.4.1, mối quan hệ QUANLY giữa KHOA và TRUONGKHOA (mỗi khoa có 1 trưởng khoa và mỗi trưởng khoa quản lý 1 khoa) thuộc loại nào?",
+      "options": {
+        "A": "Nhiều - một (n-1)",
+        "B": "Một - một (1-1)",
+        "C": "Nhiều - nhiều (n-n)",
+        "D": "Đa nguyên"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.4.1a lấy đây làm Ví dụ 1 cho mối quan hệ một - một (1-1): mỗi khoa có một trưởng khoa và mỗi trưởng khoa quản lý một khoa duy nhất.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "question": "Theo ví dụ trong Mục 2.4.1c, mối quan hệ BIET giữa tập thực thể SINHVIEN và NGOAINGU thuộc loại nào?",
+      "options": {
+        "A": "Một - một (1-1)",
+        "B": "Nhiều - một (n-1)",
+        "C": "Nhiều - nhiều (n-n)",
+        "D": "Kế thừa (Is-a)"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.4.1c giải thích: một sinh viên có thể biết nhiều ngoại ngữ và mỗi ngoại ngữ có thể được biết bởi nhiều sinh viên nên BIET là quan hệ nhiều - nhiều (n-n).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 24,
+      "question": "Trong Ví dụ 2 Mục 2.5 (Hệ thống quản lý bán hàng siêu thị), mô hình E-R bao gồm bao nhiêu tập thực thể?",
+      "options": {
+        "A": "4 tập thực thể",
+        "B": "5 tập thực thể",
+        "C": "6 tập thực thể",
+        "D": "7 tập thực thể"
+      },
+      "correct_answer": "D",
+      "explanation": "Ví dụ 2 Mục 2.5 liệt kê đúng 7 tập thực thể: NHACC, MATHANG, GIANH, NHANVIEN, NGUOIQL, KHACHH và DONDH.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 25,
+      "question": "Trong Ví dụ 2 Mục 2.5 (Hệ thống siêu thị), tập thực thể MATHANG được mô tả với các thuộc tính nào?",
+      "options": {
+        "A": "MAH, TENH",
+        "B": "MAGH, TENGH",
+        "C": "TENNCC, DCHINCC",
+        "D": "SOHD, NGAYHD"
+      },
+      "correct_answer": "A",
+      "explanation": "Trong Ví dụ 2 Mục 2.5, tập thực thể MATHANG có hai thuộc tính là MAH (mã mặt hàng) và TENH (tên mặt hàng).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 26,
+      "question": "Sự khác biệt cơ bản giữa Bước 2 (Thiết kế khái niệm) và Bước 3 (Thiết kế logic) trong quá trình thiết kế CSDL là gì?",
+      "options": {
+        "A": "Bước 2 phụ thuộc phần cứng lưu trữ, còn Bước 3 thu thập yêu cầu người dùng",
+        "B": "Bước 2 tạo lược đồ khái niệm độc lập DBMS, còn Bước 3 chuyển lược đồ đó sang mô hình dữ liệu thể hiện của một DBMS cụ thể",
+        "C": "Bước 2 chỉ xác định khóa ngoại, còn Bước 3 chỉ vẽ hình oval cho thuộc tính",
+        "D": "Bước 2 dùng mô hình quan hệ, còn Bước 3 dùng sơ đồ E-R"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 2.1, Bước 2 xây dựng lược đồ khái niệm (DBMS độc lập, chưa quan tâm lưu trữ), còn Bước 3 cài đặt bằng một hệ QTCSDL cụ thể bằng cách đổi sang mô hình dữ liệu thể hiện (như mô hình quan hệ hoặc hướng đối tượng).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "question": "Trong Mục 2.1, Bước 3 (Thiết kế logic) còn có tên gọi khác là gì?",
+      "options": {
+        "A": "Phân tích yêu cầu chức năng",
+        "B": "Tổ chức tệp vật lý",
+        "C": "Ánh xạ mô hình dữ liệu",
+        "D": "Chuẩn hóa lược đồ khái niệm"
+      },
+      "correct_answer": "C",
+      "explanation": "Tiêu đề Bước 3 trong Mục 2.1 ghi rõ: 'Bước 3: Thiết kế logic (còn gọi là ánh xạ mô hình dữ liệu)'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "question": "Nội dung nào sau đây KHÔNG thuộc 3 mục đích chính của mô hình E-R được nêu ở Mục 2.1?",
+      "options": {
+        "A": "Làm thống nhất quan điểm về dữ liệu của người quản lý, người dùng cuối và người thiết kế",
+        "B": "Xác định các xử lý về dữ liệu cũng như các ràng buộc trên dữ liệu",
+        "C": "Giúp thể hiện CSDL về mặt cấu trúc bằng thực thể, mối liên kết và sơ đồ",
+        "D": "Đặc tả cấu trúc lưu trữ bên trong và kiểu tổ chức tệp nhị phân trên đĩa"
+      },
+      "correct_answer": "D",
+      "explanation": "Đặc tả cấu trúc lưu trữ bên trong và kiểu tổ chức tệp thuộc Bước 4 (Thiết kế vật lý), không phải mục đích của mô hình E-R ở mức khái niệm.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "question": "Theo ví dụ ở Mục 2.2, khi xét tập thực thể 'Người' trên phạm vi nhiều quốc gia thay vì chỉ trong Việt Nam, khóa nên được chọn là gì và vì sao?",
+      "options": {
+        "A": "{Số CCCD, Quốc tịch} vì hai người ở hai nước khác nhau có thể trùng số căn cước công dân",
+        "B": "{Họ tên} vì họ tên trên toàn thế giới luôn duy nhất",
+        "C": "{Số CCCD} là đủ vì số CCCD mặc định duy nhất toàn cầu",
+        "D": "{Ngày sinh, Quốc tịch} vì không có hai người cùng quốc tịch sinh cùng ngày"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.2 giải thích: Nếu xét trên Việt Nam có thể chọn số CCCD; nhưng xét trên nhiều nước không đảm bảo không trùng số căn cước nên khóa là tập {số CCCD, quốc tịch}.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 30,
+      "question": "Quy tắc vẽ mối quan hệ một - một (1-1) giữa hai tập thực thể A và B trong sơ đồ E-R của giáo trình là gì?",
+      "options": {
+        "A": "Vẽ các cạnh không định hướng từ hình thoi R đến cả A và B",
+        "B": "Vẽ các cạnh định hướng (mũi tên) từ hình thoi R đến cả A và B",
+        "C": "Vẽ một mũi tên từ R đến A và một cạnh vô hướng từ R đến B",
+        "D": "Vẽ hai mũi tên hướng từ A và B chĩa vào hình thoi R"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.4.1a nêu rõ: Nếu R là mối quan hệ 1-1 giữa A và B thì vẽ các cạnh định hướng từ hình thoi nhãn R đến các hình chữ nhật nhãn A và B.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 31,
+      "question": "Nếu R là mối quan hệ nhiều - một (n-1) từ tập A đến tập B, cách vẽ cạnh nối trên sơ đồ E-R là gì?",
+      "options": {
+        "A": "Cạnh có hướng từ R vào A và cạnh không định hướng từ R vào B",
+        "B": "Cạnh có hướng từ R vào cả A và B",
+        "C": "Cung không định hướng từ R vào A và cạnh định hướng (mũi tên) từ R đến B",
+        "D": "Cung không định hướng từ R vào cả A và B"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.4.1b quy định: Mũi tên luôn trỏ vào đầu 1 (B), còn cạnh vô hướng nối vào đầu nhiều (A).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "question": "Cách biểu diễn mối quan hệ nhiều - nhiều (n-n) giữa A và B trong sơ đồ E-R theo Mục 2.4.1c là gì?",
+      "options": {
+        "A": "Vẽ mũi tên từ hình thoi R trỏ vào cả hai hình chữ nhật A và B",
+        "B": "Vẽ mũi tên từ A và B trỏ ngược vào hình thoi R",
+        "C": "Vẽ một cạnh nét đứt giữa A và B mà không cần hình thoi R",
+        "D": "Vẽ các cạnh không định hướng từ hình thoi R vào cả A và B"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.4.1c nêu rõ: Nếu R là mối quan hệ nhiều - nhiều giữa A và B thì vẽ các cạnh không định hướng từ hình thoi nhãn R vào các hình chữ nhật có nhãn A và B.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "question": "Loại mối quan hệ nhị nguyên nào được giáo trình nhận xét là 'có ý nghĩa nhất, cung cấp nhiều thông tin nhất'?",
+      "options": {
+        "A": "Mối quan hệ nhiều - một (n-1)",
+        "B": "Mối quan hệ một - một (1-1)",
+        "C": "Mối quan hệ nhiều - nhiều (n-n)",
+        "D": "Mối quan hệ kế thừa (Is-a)"
+      },
+      "correct_answer": "A",
+      "explanation": "Nhận xét ở Mục 2.4.1b nêu: Mối quan hệ nhiều - một là loại quan hệ có ý nghĩa nhất, cung cấp nhiều thông tin nhất (biết đầu 1 tìm được các thực thể đầu n, biết đầu n xác định được 1 thực thể đầu 1).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "question": "Cho sơ đồ bản số: A — (min1, max1) — R — (min2, max2) — B. Theo giáo trình, loại của mối quan hệ R giữa A và B được xác định bằng cặp nào?",
+      "options": {
+        "A": "min1 - min2",
+        "B": "max2 - max1",
+        "C": "max1 - min2",
+        "D": "min2 - max1"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo Mục 2.4.1c (Lưu ý về bản số): Mỗi phần tử A quan hệ với [min1, max1] phần tử B; mỗi phần tử B quan hệ với [min2, max2] phần tử A. Khi đó mối quan hệ R giữa A và B là mối quan hệ: max2 - max1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "question": "Cho sơ đồ Ví dụ 3 (Mục 2.4.1c): Sinhvien — (1,1) — tai — (1,n) — Lop. Áp dụng quy tắc bản số, mối quan hệ từ Sinhvien đến Lop thuộc loại nào?",
+      "options": {
+        "A": "1 - 1",
+        "B": "n - n",
+        "C": "n - 1",
+        "D": "1 - 0"
+      },
+      "correct_answer": "C",
+      "explanation": "Với A = Sinhvien có (min1, max1) = (1,1) và B = Lop có (min2, max2) = (1,n), loại quan hệ theo công thức max2 - max1 là n - 1 (nhiều sinh viên học tại một lớp).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 36,
+      "question": "Mối quan hệ 'Is-a' (A ISA B) được Mục 2.4.1d xem là trường hợp đặc biệt của loại mối quan hệ nhị nguyên nào?",
+      "options": {
+        "A": "Mối quan hệ nhiều - nhiều (n-n)",
+        "B": "Mối quan hệ nhiều - một (n-1)",
+        "C": "Mối quan hệ đa nguyên",
+        "D": "Mối quan hệ một - một (1-1)"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.4.1d nêu trực tiếp: Mối quan hệ 'Is-a' là trường hợp đặc biệt của mối quan hệ nhị nguyên 1-1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 37,
+      "question": "Phát biểu nào sau đây đúng nhất khi A có mối quan hệ kế thừa A ISA B?",
+      "options": {
+        "A": "Mọi thực thể thuộc A cũng thuộc B và A kế thừa mọi thuộc tính có trong B (cùng các thuộc tính riêng của A)",
+        "B": "Mọi thực thể thuộc B bắt buộc phải thuộc A",
+        "C": "A và B hoàn toàn độc lập về tập thuộc tính, không kế thừa nhau",
+        "D": "A chỉ kế thừa khóa chính của B mà không kế thừa các thuộc tính khác"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục 2.4.1d nhận xét: Nếu A ISA B thì mọi thực thể thuộc A thì cũng thuộc B, và mọi thuộc tính nào có trong B thì cũng có trong A (đồng thời A có thêm các thuộc tính khác).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 38,
+      "question": "Khi biểu diễn một mối quan hệ phản xạ trên sơ đồ E-R, lưu ý bắt buộc theo Mục 2.4.2 là gì?",
+      "options": {
+        "A": "Phải nhân đôi hình chữ nhật của tập thực thể thành hai hình tách biệt",
+        "B": "Cần xác định rõ tên vai trò cho mỗi bản số có trong mối quan hệ này",
+        "C": "Không được phép gán bản số (min, max) trên các nhánh",
+        "D": "Chỉ áp dụng được cho mối quan hệ có tính đối xứng 1-1"
+      },
+      "correct_answer": "B",
+      "explanation": "Lưu ý ở Mục 2.4.2 ghi rõ: Đối với mối quan hệ phản xạ, chúng ta cần xác định rõ tên vai trò cho mỗi bản số có trong mối quan hệ này.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 39,
+      "question": "Trong Ví dụ 1 (Mục 2.4.2) về mối quan hệ phản xạ 'LaCha' trên tập thực thể 'Người', bản số của vai trò 'Cha' và 'Con' lần lượt là gì?",
+      "options": {
+        "A": "Cha(0,n) và Con(1,1)",
+        "B": "Cha(0,1) và Con(0,1)",
+        "C": "Cha(1,1) và Con(0,n)",
+        "D": "Cha(1,n) và Con(1,n)"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo Mục 2.4.2: Một người có một và chỉ một người là cha nên vai trò Cha có bản số (1,1); một người có tối thiểu 0 và tối đa n người con nên vai trò Con có bản số (0,n).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 40,
+      "question": "Trong Ví dụ 2 (Mục 2.4.2) về mối quan hệ phản xạ 1-1 'KetHon' trên tập thực thể 'Người', cặp bản số gắn với hai vai trò 'Vo' và 'Chong' là gì?",
+      "options": {
+        "A": "Vo(1,1) và Chong(1,1)",
+        "B": "Vo(0,n) và Chong(0,n)",
+        "C": "Vo(1,n) và Chong(0,1)",
+        "D": "Vo(0,1) và Chong(0,1)"
+      },
+      "correct_answer": "D",
+      "explanation": "Hình 2.13 trong Mục 2.4.2 biểu diễn mối quan hệ phản xạ 1-1 KetHon với hai vai trò Vo(0,1) và Chong(0,1), vì một người có thể chưa kết hôn (0) hoặc hiện kết hôn với tối đa 1 người (1).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 41,
+      "question": "Trong Ví dụ 3 (Mục 2.4.2) về mối quan hệ phản xạ n-n 'Yeu' trên tập thực thể 'Người(Id, HT, NS)', thuộc tính riêng được gắn trên mối quan hệ 'Yeu' là gì?",
+      "options": {
+        "A": "TG (Thời gian)",
+        "B": "NS (Ngày sinh)",
+        "C": "HT (Họ tên)",
+        "D": "Id (Mã định danh)"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Hình 2.14 và giải thích ngữ nghĩa ở Mục 2.4.2: '(n1, n2) ∈ Yeu <=> n1 từng yêu n2 trong thời gian TG', trong đó TG là thuộc tính gắn vào hình thoi Yeu.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 42,
+      "question": "Trong mối quan hệ đa nguyên 'Day' giữa GiaoVien, Lop và MonHoc (Mục 2.4.3), việc vẽ cung mũi tên từ 'Day' hướng vào 'GiaoVien' biểu diễn điều gì?",
+      "options": {
+        "A": "Mỗi giáo viên chỉ được dạy duy nhất một lớp",
+        "B": "Ràng buộc hàm {Lop, MonHoc} -> {GiaoVien}",
+        "C": "Ràng buộc hàm {GiaoVien} -> {Lop, MonHoc}",
+        "D": "Quan hệ kế thừa GiaoVien ISA Lop"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.4.3 chỉ rõ: Ràng buộc hàm {Lop, MonHoc} -> {GiaoVien} có nghĩa là biết trước lớp l và môn m thì xác định tối đa một giáo viên g, nên trên mô hình E-R dùng cung mũi tên hướng vào GiaoVien.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 43,
+      "question": "Theo Mục 2.2, thuộc tính riêng của một mối quan hệ thường xuất hiện đặc biệt ở loại quan hệ nào?",
+      "options": {
+        "A": "Mối quan hệ kế thừa Is-a",
+        "B": "Mối quan hệ một - một (1-1)",
+        "C": "Mối quan hệ nhiều - nhiều (n-n)",
+        "D": "Chỉ xuất hiện ở tập thực thể gốc"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.2 nêu: Một mối quan hệ cũng có thể có các thuộc tính của riêng nó (đặc biệt là các mối quan hệ n - n), và quy ước chỉ là thuộc tính đơn trị.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 44,
+      "question": "Ở cuối Mục 2.3, giáo trình nhắc đến mô hình nào như một ví dụ của mô hình E-R mở rộng nhằm biểu diễn sự phức tạp của thế giới thực?",
+      "options": {
+        "A": "Mô hình mạng (Network)",
+        "B": "Mô hình phân cấp (Hierarchical)",
+        "C": "Mô hình tệp tuần tự",
+        "D": "Mô hình UML"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.3 viết: 'Dựa vào mô hình E-R, các mô hình E-R mở rộng cũng đã được đề xuất nhằm biểu diễn sự phong phú và phức tạp của thế giới thực (mô hình UML là một ví dụ).'",
+      "difficulty": "medium"
+    },
+    {
+      "id": 45,
+      "question": "Trong Ví dụ 1 Mục 2.5 (Hệ thống quản lý nhân viên), mối quan hệ QUANLY giữa PHONGBAN và NGUOI_QLY thuộc loại nào?",
+      "options": {
+        "A": "Một - một (1-1)",
+        "B": "Nhiều - một (n-1)",
+        "C": "Nhiều - nhiều (n-n)",
+        "D": "Phản xạ"
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ 1 Mục 2.5 giải thích: Mỗi phòng chỉ có một người quản lý và mỗi người quản lý cũng chỉ quản lý một phòng nên QUANLY là mối quan hệ một - một (1-1).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 46,
+      "question": "Trong Ví dụ 2 Mục 2.5 (Hệ thống siêu thị), mối quan hệ CHUA giữa MATHANG và GIANH có mũi tên hướng vào tập thực thể nào?",
+      "options": {
+        "A": "Hướng vào MATHANG",
+        "B": "Hướng vào GIANH",
+        "C": "Hướng vào cả MATHANG và GIANH",
+        "D": "Không có mũi tên ở cả hai phía"
+      },
+      "correct_answer": "B",
+      "explanation": "Mỗi gian hàng bán nhiều mặt hàng, nhưng mỗi mặt hàng chỉ được bán trong một gian hàng nhất định nên CHUA là quan hệ n-1 từ MATHANG vào GIANH; đầu 1 là GIANH nên có mũi tên hướng vào GIANH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 47,
+      "question": "Trong Ví dụ 2 Mục 2.5 (Hệ thống siêu thị), mối quan hệ giữa NGUOIQL và NHANVIEN là gì?",
+      "options": {
+        "A": "Quan hệ nhiều - nhiều (n-n)",
+        "B": "Quan hệ phản xạ trên NHANVIEN",
+        "C": "Quan hệ kế thừa ISA (NGUOIQL ISA NHANVIEN)",
+        "D": "Quan hệ đa nguyên với GIANH"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.5 nêu rõ: Những người quản lý các gian hàng được mô tả bởi tập thực thể NGUOIQL và tập thực thể này có mối quan hệ IsA với tập thực thể NHANVIEN.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 48,
+      "question": "Trong Ví dụ 2 Mục 2.5 (Hệ thống siêu thị), mối quan hệ DATH giữa DONDH và KHACHH thuộc loại nào?",
+      "options": {
+        "A": "Một - một (1-1)",
+        "B": "Nhiều - nhiều (n-n)",
+        "C": "Kế thừa (Is-a)",
+        "D": "Nhiều - một (n-1)"
+      },
+      "correct_answer": "D",
+      "explanation": "Mỗi khách hàng có thể đặt nhiều đơn đặt hàng, nhưng mỗi đơn đặt hàng chỉ thuộc về một khách hàng, nên DATH là quan hệ nhiều - một (n-1) với mũi tên hướng vào KHACHH.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 49,
+      "question": "Trong Bài tập 1 (Quỹ tín dụng), mối quan hệ THANHTOAN giữa PHIEUTT và HSVV (Hồ sơ vay vốn) thuộc loại nào?",
+      "options": {
+        "A": "Nhiều - một (n-1) từ PHIEUTT vào HSVV",
+        "B": "Một - một (1-1) giữa PHIEUTT và HSVV",
+        "C": "Nhiều - nhiều (n-n) giữa PHIEUTT và HSVV",
+        "D": "Nhiều - một (n-1) từ HSVV vào PHIEUTT"
+      },
+      "correct_answer": "A",
+      "explanation": "Lời giải Bài 1 nêu: Một hồ sơ vay vốn có thể có nhiều phiếu thanh toán khác nhau (theo từng tháng), nhưng một phiếu thanh toán chỉ thanh toán cho một hồ sơ vay vốn -> n-1 từ PHIEUTT vào HSVV.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 50,
+      "question": "Trong Bài tập 2 (Trung tâm tin học), mối quan hệ DANGKY giữa HOCVIEN và LOPHOC thuộc loại nào?",
+      "options": {
+        "A": "Một - một (1-1)",
+        "B": "Nhiều - nhiều (n-n)",
+        "C": "Nhiều - một (n-1) hướng vào HOCVIEN",
+        "D": "Nhiều - một (n-1) hướng vào LOPHOC"
+      },
+      "correct_answer": "B",
+      "explanation": "Lời giải Bài 2 chỉ rõ: Một học viên có thể đăng ký học nhiều lớp học khác nhau và mỗi lớp học có thể có nhiều học viên theo học -> mối quan hệ nhiều - nhiều (n-n).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 51,
+      "question": "Khi tổng quát hóa mối quan hệ nhiều - một cho k tập thực thể E1, E2, ..., Ek-1 đến Ek (như {Sinh viên, Môn học} -> Điểm Thi), cách vẽ trên sơ đồ E-R là gì?",
+      "options": {
+        "A": "Vẽ mũi tên từ hình thoi R vào tất cả các tập thực thể E1, ..., Ek",
+        "B": "Vẽ cạnh vô hướng vào tất cả các tập thực thể E1, ..., Ek",
+        "C": "Vẽ cạnh không định hướng từ hình thoi R vào E1, ..., Ek-1 và một cạnh định hướng (mũi tên) từ hình thoi vào Ek",
+        "D": "Vẽ cạnh định hướng vào E1, ..., Ek-1 và cạnh vô hướng vào Ek"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục 2.4.1b nêu rõ: Nếu R là mối quan hệ nhiều - một từ tập E1, ..., Ek-1 đến Ek thì vẽ các cạnh không định hướng từ hình thoi R vào E1, ..., Ek-1 và vẽ một cạnh định hướng từ hình thoi đến hình chữ nhật nhãn Ek.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 52,
+      "question": "Xét mối quan hệ đa nguyên Day(GiaoVien, Lop, MonHoc) có ràng buộc hàm {Lop, MonHoc} -> {GiaoVien}. Khẳng định nào sau đây mô tả đúng ngữ nghĩa của ràng buộc này?",
+      "options": {
+        "A": "Mỗi giáo viên chỉ được phép dạy tối đa một môn học trong toàn trường",
+        "B": "Mỗi lớp học chỉ học tối đa một môn học trong học kỳ",
+        "C": "Biết một giáo viên g thì xác định duy nhất một lớp l và một môn m",
+        "D": "Nếu biết trước lớp học l và môn học m thì xác định tối đa một giáo viên g giảng dạy"
+      },
+      "correct_answer": "D",
+      "explanation": "Mục 2.4.3 giải thích chính xác: {Lop, MonHoc} -> {GiaoVien} nghĩa là nếu biết trước lớp học l và môn học m thì xác định tối đa một giáo viên g của mối quan hệ.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 53,
+      "question": "Cho mối quan hệ nhị nguyên với bản số: A — (0,n) — R — (1,1) — B. Áp dụng quy tắc xác định loại quan hệ và quy tắc mũi tên, kết luận nào đúng?",
+      "options": {
+        "A": "Mối quan hệ là 1 - n (n-1 từ B vào A); vẽ mũi tên từ R vào A và cạnh vô hướng từ R vào B",
+        "B": "Mối quan hệ là n - 1 từ A vào B; vẽ mũi tên từ R vào B và cạnh vô hướng từ R vào A",
+        "C": "Mối quan hệ là 1 - 1; vẽ mũi tên vào cả A và B",
+        "D": "Mối quan hệ là n - n; vẽ cạnh vô hướng vào cả A và B"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo công thức max2 - max1: max1 = n (1 phần tử A nối tối đa n phần tử B) và max2 = 1 (1 phần tử B nối tối đa 1 phần tử A). Do đó đầu 1 là A (vẽ mũi tên vào A) và đầu nhiều là B (vẽ cạnh vô hướng vào B).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 54,
+      "question": "Cho mối quan hệ nhị nguyên với bản số: A — (1,1) — R — (0,1) — B. Theo quy tắc bản số max2 - max1, đây là loại quan hệ gì và vẽ cạnh thế nào?",
+      "options": {
+        "A": "Quan hệ n-1; mũi tên chỉ vào B",
+        "B": "Quan hệ 1-1; vẽ cạnh định hướng (mũi tên) từ R đến cả A và B",
+        "C": "Quan hệ 1-0; không vẽ cạnh nối B",
+        "D": "Quan hệ n-n; vẽ cạnh vô hướng đến cả A và B"
+      },
+      "correct_answer": "B",
+      "explanation": "Ở đây max1 = 1 và max2 = 1, nên max2 - max1 là 1 - 1. Đối với quan hệ 1-1, ta vẽ các cạnh định hướng (mũi tên) từ hình thoi R đến cả A và B.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 55,
+      "question": "Trong Bài tập 2 (Trung tâm tin học), mối quan hệ NOPHOCPHI kết nối HOCVIEN, LOPHOC và PHIEUTHUHP được thiết kế là quan hệ nhiều - một hướng vào PHIEUTHUHP vì lý do nào?",
+      "options": {
+        "A": "Mỗi học viên chỉ được đăng ký tối đa một lớp học trong toàn bộ trung tâm",
+        "B": "Một phiếu thu học phí có thể ghi chung cho nhiều học viên của nhiều lớp khác nhau",
+        "C": "Việc nộp học phí cho mỗi lần đăng ký học tại một lớp chỉ nộp một lần duy nhất nên mỗi cặp (HOCVIEN, LOPHOC) ứng với tối đa một PHIEUTHUHP",
+        "D": "Một lớp học chỉ được thu học phí từ duy nhất một học viên"
+      },
+      "correct_answer": "C",
+      "explanation": "Đề và lời giải Bài 2 nêu rõ: Việc nộp học phí cho mỗi lần đăng ký học tại một lớp chỉ được nộp trong một lần duy nhất, nên mỗi học viên ứng với mỗi lớp học có tối đa một phiếu thu học phí cho lớp học đó.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 56,
+      "question": "Trong Bài tập 3 (CSDL quản lý sinh viên gồm 6 tập thực thể), hai mối quan hệ tam nguyên GIANGDAY và KIEMTRA có mũi tên hướng vào các tập thực thể nào?",
+      "options": {
+        "A": "GIANGDAY hướng vào LOPHOC; KIEMTRA hướng vào SINHVIEN",
+        "B": "GIANGDAY hướng vào MONHOC; KIEMTRA hướng vào MONHOC",
+        "C": "Cả GIANGDAY và KIEMTRA đều không có mũi tên",
+        "D": "GIANGDAY hướng vào GIANGVIEN; KIEMTRA hướng vào DIEMTHI"
+      },
+      "correct_answer": "D",
+      "explanation": "Lời giải Bài 3 chỉ ra: (LOPHOC, MONHOC) có quan hệ n-1 đến GIANGVIEN bởi GIANGDAY (mũi tên vào GIANGVIEN); (SINHVIEN, MONHOC) có quan hệ n-1 đến DIEMTHI bởi KIEMTRA (mũi tên vào DIEMTHI).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 57,
+      "question": "Trong Bài tập 4 (Cửa hàng băng đĩa phim), nhận định nào đúng về các mối quan hệ giữa ĐĨA PHIM, NHÀ SX PHIM, HÓA ĐƠN và NHÂN VIÊN?",
+      "options": {
+        "A": "SX (ĐĨA PHIM -> NHÀ SX PHIM) và LẬP (HÓA ĐƠN -> NHÂN VIÊN) là n-1 có mũi tên vào NHÀ SX PHIM và NHÂN VIÊN; GỒM (ĐĨA PHIM - HÓA ĐƠN) là n-n",
+        "B": "Cả 3 mối quan hệ SX, LẬP, GỒM đều là mối quan hệ nhiều - nhiều (n-n)",
+        "C": "SX là quan hệ 1-1; LẬP là quan hệ n-1 có mũi tên vào HÓA ĐƠN; GỒM là n-n",
+        "D": "GỒM là quan hệ n-1 có mũi tên vào HÓA ĐƠN; LẬP là quan hệ n-n"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo Lời giải Bài 4: SX là n-1 (đầu 1 là NHÀ SX PHIM có mũi tên), LẬP là n-1 (đầu 1 là NHÂN VIÊN có mũi tên), và GỒM giữa HÓA ĐƠN và ĐĨA PHIM là n-n (cạnh vô hướng).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 58,
+      "question": "Trong Bài tập 5 (Quản lý Nhà sách), vì sao mối quan hệ VIẾT giữa SÁCH và TÁC GIẢ trong lời giải giáo trình được xác định là nhiều - một với mũi tên hướng vào TÁC GIẢ?",
+      "options": {
+        "A": "Vì mỗi tác giả trong đời chỉ được viết đúng một quyển sách",
+        "B": "Vì giáo trình giả định một tác giả viết nhiều sách, nhưng mỗi quyển sách chỉ do một tác giả (chủ biên) viết ra",
+        "C": "Vì một quyển sách có thể có nhiều tác giả và một tác giả viết nhiều sách",
+        "D": "Vì SÁCH kế thừa mọi thuộc tính của TÁC GIẢ theo quan hệ Is-a"
+      },
+      "correct_answer": "B",
+      "explanation": "Lời giải Bài 5 ghi rõ: 'Một TÁC GIẢ có thể VIẾT ra nhiều quyển SÁCH khác nhau, nhưng mỗi quyển SÁCH chỉ do một TÁC GIẢ (chủ biên) viết ra. Đầu nhiều là tập SÁCH, đầu 1 là tập TÁC GIẢ, khi vẽ quan hệ nhiều - một thì đầu 1 có dấu mũi tên.'",
+      "difficulty": "hard"
+    },
+    {
+      "id": 59,
+      "question": "Trong Bài tập 7 (Siêu thị gồm MẶT HÀNG, GIAN HÀNG, NHÂN VIÊN, HÓA ĐƠN), thống kê số lượng từng loại mối quan hệ theo lời giải giáo trình là bao nhiêu?",
+      "options": {
+        "A": "2 quan hệ n-1 và 2 quan hệ n-n",
+        "B": "4 quan hệ n-1 và 0 quan hệ n-n",
+        "C": "3 quan hệ n-1 (CHỨA, LÀM, LẬP) và 1 quan hệ n-n (BAO GỒM)",
+        "D": "1 quan hệ 1-1, 2 quan hệ n-1 và 1 quan hệ n-n"
+      },
+      "correct_answer": "C",
+      "explanation": "Lời giải Bài 7 trình bày 4 quan hệ: CHỨA (MẶT HÀNG -> GIAN HÀNG: n-1), LÀM (NHÂN VIÊN -> GIAN HÀNG: n-1), LẬP (HÓA ĐƠN -> NHÂN VIÊN: n-1), và BAO GỒM (HÓA ĐƠN - MẶT HÀNG: n-n).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 60,
+      "question": "Trong Bài tập 8 (Máy bay - Phi công - Chuyến bay), ràng buộc 'Một chuyến bay được thực hiện bởi ít nhất hai phi công' thể hiện bằng bản số nào ở phía tập thực thể CHUYẾN BAY?",
+      "options": {
+        "A": "(1,1)",
+        "B": "(0,1)",
+        "C": "(0,n)",
+        "D": "(2,n)"
+      },
+      "correct_answer": "D",
+      "explanation": "Một chuyến bay có tối thiểu 2 phi công (min = 2) và có thể nhiều hơn (max = n), nên bản số phía CHUYẾN BAY đối với quan hệ thực hiện cùng PHI CÔNG là (2,n).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "question": "Trong Bài tập 9 (Quản lý dự án sản xuất), yêu cầu 'mỗi gói công việc có thể bao gồm nhiều gói công việc khác' được mô hình hóa bằng loại mối quan hệ nào?",
+      "options": {
+        "A": "Mối quan hệ phản xạ trên tập thực thể GÓI CÔNG VIỆC với hai vai trò phân cấp (gói cha - gói con)",
+        "B": "Mối quan hệ kế thừa ISA giữa DỰ ÁN và GÓI CÔNG VIỆC",
+        "C": "Mối quan hệ đa nguyên giữa DỰ ÁN, NHÂN VIÊN và GÓI CÔNG VIỆC",
+        "D": "Mối quan hệ 1-1 giữa NHÂN VIÊN và DỰ ÁN"
+      },
+      "correct_answer": "A",
+      "explanation": "Khi các thực thể trong cùng tập GÓI CÔNG VIỆC liên kết phân cấp với nhau (một gói chứa nhiều gói con), ta dùng mối quan hệ phản xạ trên GÓI CÔNG VIỆC và đặt tên vai trò rõ ràng.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 62,
+      "question": "Trong Bài tập 9 (Dự án sản xuất), giữa NHÂN VIÊN và GÓI CÔNG VIỆC tồn tại đồng thời hai mối quan hệ khác loại nào?",
+      "options": {
+        "A": "Một quan hệ 1-1 và một quan hệ ISA",
+        "B": "Một quan hệ n-n (hoạt động/tham gia) và một quan hệ n-1 (chịu trách nhiệm chính, mũi tên vào NHÂN VIÊN)",
+        "C": "Hai quan hệ 1-1 có cùng ý nghĩa",
+        "D": "Một quan hệ phản xạ và một quan hệ đa nguyên"
+      },
+      "correct_answer": "B",
+      "explanation": "Đề bài 9 nêu rõ: Một nhân viên hoạt động trong nhiều gói và một gói sử dụng nhiều nhân viên (n-n); đồng thời mỗi gói có đúng 1 nhân viên chịu trách nhiệm chính còn nhân viên có thể chịu trách nhiệm nhiều gói (n-1 từ GÓI CÔNG VIỆC vào NHÂN VIÊN).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 63,
+      "question": "Trong Bài tập 12 (Hệ thống quản lý công ty), đặc tả 'Mỗi phòng ban có thể có một vài địa điểm' đòi hỏi xử lý thế nào trong mô hình E-R?",
+      "options": {
+        "A": "Bỏ qua thông tin địa điểm vì không thể lưu trong E-R",
+        "B": "Dùng quan hệ kế thừa ĐỊA ĐIỂM ISA PHÒNG BAN",
+        "C": "Tách ĐỊA ĐIỂM thành tập thực thể riêng có quan hệ n-1 hoặc n-n với PHÒNG BAN (hoặc thuộc tính đa trị) thay vì thuộc tính đơn trị",
+        "D": "Ghép tất cả địa điểm vào thuộc tính tên phòng ban"
+      },
+      "correct_answer": "C",
+      "explanation": "Vì một phòng ban có nhiều địa điểm, nếu dùng thuộc tính đơn trị sẽ không lưu được nhiều giá trị; trong E-R cần biểu diễn bằng thuộc tính đa trị hoặc tách thành tập thực thể ĐỊA ĐIỂM liên kết với PHÒNG BAN.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 64,
+      "question": "Trong Bài tập 13 (Liên đoàn bóng đá quốc gia), ràng buộc 'Mỗi đội có một đội trưởng và đội trưởng cũng là một cầu thủ' thể hiện chính xác nhất bằng cách nào?",
+      "options": {
+        "A": "Xem ĐỘI TRƯỞNG hoàn toàn tách rời khỏi CẦU THỦ không có liên hệ",
+        "B": "Gộp ĐỘI TRƯỞNG thành một thuộc tính của TRẬN ĐẤU",
+        "C": "Cho ĐỘI TRƯỞNG có quan hệ n-n với LIÊN ĐOÀN",
+        "D": "Dùng quan hệ kế thừa ĐỘI TRƯỞNG ISA CẦU THỦ (hoặc vai trò đặc biệt của CẦU THỦ) kết hợp quan hệ 1-1 với ĐỘI"
+      },
+      "correct_answer": "D",
+      "explanation": "Vì đội trưởng là một trường hợp đặc biệt của cầu thủ (ĐỘI TRƯỞNG ISA CẦU THỦ) và mỗi đội có một đội trưởng nên giữ mối quan hệ 1-1 giữa ĐỘI TRƯỞNG và ĐỘI (hoặc quan hệ 1-1 có tên vai trò giữa CẦU THỦ và ĐỘI).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 65,
+      "question": "Trong Bài tập 14 (Quản lý nhân viên bệnh viện), việc chia nhân viên thành 5 nhóm (bác sĩ, y sĩ, y tá, nhân viên văn phòng, kỹ thuật viên) với các thuộc tính riêng được thiết kế bằng cấu trúc nào?",
+      "options": {
+        "A": "Quan hệ kế thừa ISA: 5 tập thực thể con cùng ISA tập thực thể cha NHÂN VIÊN",
+        "B": "5 mối quan hệ phản xạ trên tập thực thể BỆNH NHÂN",
+        "C": "Một mối quan hệ đa nguyên bậc 6 nối cả 5 nhóm với nhau",
+        "D": "Lưu tất cả thuộc tính riêng của 5 nhóm vào một thuộc tính duy nhất của BỆNH VIỆN"
+      },
+      "correct_answer": "A",
+      "explanation": "Cả 5 nhóm đều dùng chung mã nhân viên, tên, địa chỉ, ngày sinh, SĐT và mỗi nhóm có thuộc tính riêng (chuyên ngành, chứng chỉ tốt nghiệp, loại công việc, kỹ năng) -> thiết kế chuẩn là 5 tập thực thể con có quan hệ ISA với NHÂN VIÊN.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 66,
+      "question": "Cũng trong Bài tập 14 (Bệnh viện), mối quan hệ giữa Y TÁ và KHU ĐIỀU TRỊ gồm những liên kết nào?",
+      "options": {
+        "A": "Chỉ có một quan hệ n-n trực ca",
+        "B": "Hai mối quan hệ: một quan hệ n-1 (phân công trực tại khu điều trị) và một quan hệ 1-1 (đảm nhiệm vai trò y tá trưởng của khu điều trị)",
+        "C": "Một quan hệ đa nguyên nối Y TÁ, BÁC SĨ và PHÒNG THÍ NGHIỆM",
+        "D": "Một quan hệ kế thừa KHU ĐIỀU TRỊ ISA Y TÁ"
+      },
+      "correct_answer": "B",
+      "explanation": "Đề bài 14 nêu rõ hai ý: (1) Mỗi y tá trực chỉ 1 khu, mỗi khu có nhiều y tá -> n-1 (mũi tên vào KHU ĐIỀU TRỊ); (2) Mỗi khu có 1 y tá trưởng -> 1-1 (mũi tên hai phía).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 67,
+      "question": "Trong Bài tập 15 (Bảo tàng nghệ thuật), để lưu trữ thông tin riêng cho tác phẩm 'sở hữu riêng' (ngày sở hữu, tình trạng, trị giá) và 'đi mượn' (bộ sưu tập, ngày mượn, ngày trả), ta áp dụng cơ chế nào?",
+      "options": {
+        "A": "Tạo hai tập thực thể không liên quan gì đến TPNT",
+        "B": "Dùng mối quan hệ phản xạ trên tập thực thể TÁC GIẢ",
+        "C": "Dùng quan hệ kế thừa ISA: TP_SOHUU ISA TPNT và TP_MUON ISA TPNT",
+        "D": "Gắn tất cả các thông tin mượn và sở hữu làm thuộc tính của TRIỂN LÃM"
+      },
+      "correct_answer": "C",
+      "explanation": "TPNT sở hữu riêng và TPNT đi mượn đều là tác phẩm nghệ thuật (kế thừa mã số, tên/chủ đề, thể loại, năm sáng tác...), nhưng có bộ thuộc tính chuyên biệt riêng, nên dùng quan hệ kế thừa ISA.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 68,
+      "question": "Trong Bài tập 11 (Cửa hàng bán đĩa CD qua Internet), đặc tả 'Giá của một đĩa CD phụ thuộc vào ngày nó được phát hành (thay đổi theo thời gian)' gợi ý mô hình hóa giá như thế nào?",
+      "options": {
+        "A": "Không lưu giá của đĩa CD trong CSDL",
+        "B": "Chỉ lưu một giá cố định duy nhất làm thuộc tính của KHÁCH HÀNG",
+        "C": "Gắn giá vào thuộc tính của đơn vị vận chuyển 40.000 VNĐ",
+        "D": "Biểu diễn thông tin giá theo mốc thời gian (tập thực thể LỊCH SỬ GIÁ / GIAI ĐOẠN GIÁ có quan hệ n-1 với CD) thay vì một giá bất biến"
+      },
+      "correct_answer": "D",
+      "explanation": "Vì giá CD biến động theo các giai đoạn sau ngày phát hành (vừa phải khi mới ra, tăng sau vài tuần, giảm sau vài tháng), cần tách thực thể/mức giá theo khoảng thời gian liên kết với CD để bảo toàn lịch sử giá.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 69,
+      "question": "Tổng hợp lại Ví dụ 2 Mục 2.5 (Hệ thống quản lý bán hàng siêu thị), mô hình E-R gồm có bao nhiêu tập thực thể và bao nhiêu mối quan hệ (tính cả ISA)?",
+      "options": {
+        "A": "7 tập thực thể và 7 mối quan hệ",
+        "B": "6 tập thực thể và 6 mối quan hệ",
+        "C": "7 tập thực thể và 5 mối quan hệ",
+        "D": "8 tập thực thể và 7 mối quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ 2 Mục 2.5 gồm 7 tập thực thể (NHACC, MATHANG, GIANH, NHANVIEN, NGUOIQL, KHACHH, DONDH) và 7 mối quan hệ (CUNGCAP, CHUA, LAMVIEC, ISA, QUANLY, DATH, BGOM).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 70,
+      "question": "Trong mô hình bản số A — (min1, max1) — R — (min2, max2) — B, phát biểu nào mô tả chính xác ý nghĩa của (min1, max1) theo Mục 2.4.1c?",
+      "options": {
+        "A": "Mỗi phần tử của B có quan hệ R với ít nhất min1 và nhiều nhất max1 phần tử của A",
+        "B": "Mỗi phần tử của A có quan hệ R với ít nhất min1 và nhiều nhất max1 phần tử của B",
+        "C": "Số lượng tối thiểu và tối đa các thuộc tính mà tập thực thể A được phép sở hữu",
+        "D": "Số lượng phần tử của A không tham gia bất kỳ mối quan hệ nào trong CSDL"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục 2.4.1c định nghĩa chính xác: Ràng buộc (min1, max1) gắn cạnh A chỉ ra mỗi phần tử (thực thể) của A có mối quan hệ R với ít nhất min1 phần tử của B và nhiều nhất max1 phần tử của B.",
+      "difficulty": "hard"
+    }
+  ],
+  "short_answers": [
+    {
+      "id": 1,
+      "question": "Hãy liệt kê 4 bước của quá trình thiết kế CSDL (Mục 2.1) và nêu sản phẩm đầu ra của Bước 2, Bước 3.",
+      "expected_answer": "- Bước 1: Tập hợp và phân tích yêu cầu hệ thống (xác định yêu cầu chức năng).\n- Bước 2: Thiết kế khái niệm -> Sản phẩm: Lược đồ khái niệm (độc lập DBMS).\n- Bước 3: Thiết kế logic (ánh xạ mô hình) -> Sản phẩm: Lược đồ CSDL dưới dạng mô hình dữ liệu thể hiện của DBMS.\n- Bước 4: Thiết kế vật lý -> Đặc tả cấu trúc lưu trữ bên trong và kiểu tổ chức tệp."
+    },
+    {
+      "id": 2,
+      "question": "Nêu 3 ký hiệu hình học cơ bản trong sơ đồ E-R và quy tắc vẽ cạnh có hướng, cạnh vô hướng.",
+      "expected_answer": "- Hình chữ nhật: biểu diễn tập thực thể; Hình oval: biểu diễn thuộc tính (nối bằng cạnh vô hướng); Hình thoi: biểu diễn mối quan hệ.\n- Quy tắc vẽ cạnh của mối quan hệ: vẽ cạnh có hướng (mũi tên) hướng vào đầu 1, và vẽ cạnh vô hướng vào đầu nhiều (n).\n- Cụ thể: 1-1 có mũi tên ở cả hai phía; n-1 có mũi tên ở đầu 1 và vô hướng ở đầu n; n-n vô hướng ở cả hai phía."
+    },
+    {
+      "id": 3,
+      "question": "Phát biểu công thức xác định loại mối quan hệ từ bản số A — (min1, max1) — R — (min2, max2) — B và áp dụng cho Sinhvien (1,1) — tai — (1,n) Lop.",
+      "expected_answer": "- Ý nghĩa: mỗi phần tử của A liên kết với [min1, max1] phần tử của B; mỗi phần tử của B liên kết với [min2, max2] phần tử của A.\n- Quy tắc: loại mối quan hệ R giữa A và B được xác định là max2 - max1.\n- Áp dụng: Sinhvien có max1 = 1, Lop có max2 = n => quan hệ là n - 1 (nhiều sinh viên học tại một lớp, mũi tên vào Lop)."
+    },
+    {
+      "id": 4,
+      "question": "Phân biệt ngắn gọn mối quan hệ kế thừa (A ISA B) và mối quan hệ phản xạ; nêu lưu ý bắt buộc khi vẽ quan hệ phản xạ.",
+      "expected_answer": "- Kế thừa (A ISA B): mỗi thực thể của A là một thực thể của B; A kế thừa toàn bộ thuộc tính của B và có thể thêm thuộc tính riêng (dạng đặc biệt của 1-1).\n- Phản xạ: mối quan hệ giữa các thực thể thuộc cùng một tập thực thể (gồm 3 dạng 1-1, 1-n, n-n).\n- Lưu ý bắt buộc với quan hệ phản xạ: phải xác định rõ tên vai trò gắn với từng bản số trên hai nhánh nối."
+    },
+    {
+      "id": 5,
+      "question": "Ràng buộc hàm trong mối quan hệ đa nguyên là gì? Giải thích ý nghĩa và cách vẽ {Lop, MonHoc} -> {GiaoVien} trong quan hệ Day.",
+      "expected_answer": "- Trong mối quan hệ đa nguyên (>= 3 tập thực thể), ngoài bản số còn có ràng buộc hàm dùng để biểu diễn sự xác định duy nhất một thực thể khi biết các thực thể còn lại.\n- {Lop, MonHoc} -> {GiaoVien}: biết trước lớp l và môn học m thì xác định tối đa một giáo viên g giảng dạy.\n- Cách vẽ: dùng cung có mũi tên từ hình thoi Day hướng vào tập thực thể bị xác định (GiaoVien), các tập còn lại dùng cạnh vô hướng."
+    }
+  ],
+  "essays": [
+    {
+      "id": 1,
+      "title": "Bài 1 (Giáo trình): Thiết kế mô hình E-R cho CSDL Quản lý cho vay vốn của Quỹ tín dụng",
+      "problem": "Một quỹ tín dụng cần tổ chức CSDL quản lý hoạt động cho vay vốn: Khách hàng (mã KH, tên KH, địa chỉ liên hệ); Hình thức vay vốn (mã hình thức, tên hình thức, thời gian vay tối đa theo tháng, lãi suất hàng tháng); Hồ sơ vay vốn (mã hồ sơ, số tiền vay, ngày bắt đầu vay, thuộc hình thức nào và của khách hàng nào); Phiếu thanh toán trả vốn và lãi hàng tháng (số phiếu, ngày thanh toán, số tiền vốn, số tiền lãi, thuộc hồ sơ nào). Hãy phân tích và thiết kế sơ đồ E-R biểu diễn CSDL trên.",
+      "solution_steps": [
+        "Bước 1 – Xác định 4 tập thực thể, thuộc tính và khóa: (1) KHACHHANG(MAKH [khóa], TENKH, DIACHI); (2) HTVV(MAHTVV [khóa], HTVV, TGVV, LAISUAT); (3) HSVV(MAHS [khóa], NGAYBDV, SOTIEN); (4) PHIEUTT(SOPHIEU [khóa], NGAYTT, TIENVON, TIENLAI).",
+        "Bước 2 – Phân tích mối quan hệ & bản số: (a) KHACHHANG — DANGKY — HSVV: 1 khách hàng đăng ký (1,n) hoặc (0,n) hồ sơ vay, 1 hồ sơ chỉ của (1,1) khách hàng => quan hệ nhiều - một (n-1) từ HSVV vào KHACHHANG. (b) HSVV — THUOC — HTVV: 1 hình thức có (0,n) hồ sơ, 1 hồ sơ thuộc (1,1) hình thức => quan hệ nhiều - một (n-1) từ HSVV vào HTVV. (c) PHIEUTT — THANHTOAN — HSVV: 1 hồ sơ có (0,n) phiếu thanh toán hàng tháng, 1 phiếu thanh toán trả cho (1,1) hồ sơ => quan hệ nhiều - một (n-1) từ PHIEUTT vào HSVV.",
+        "Bước 3 – Xác định hướng mũi tên trên sơ đồ E-R: Quan hệ DANGKY có cạnh vô hướng vào HSVV và mũi tên vào KHACHHANG; Quan hệ THUOC có cạnh vô hướng vào HSVV và mũi tên vào HTVV; Quan hệ THANHTOAN có cạnh vô hướng vào PHIEUTT và mũi tên vào HSVV.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Vẽ 4 hình chữ nhật (KHACHHANG, HSVV, HTVV, PHIEUTT) kèm các hình oval thuộc tính tương ứng, nối tuần tự qua 3 hình thoi (DANGKY, THUOC, THANHTOAN) với đúng hướng mũi tên về đầu 1 và ghi rõ bản số (min, max) trên từng cung."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bài 2 (Giáo trình): Thiết kế mô hình E-R cho CSDL Quản lý ghi danh và nộp học phí tại Trung tâm tin học",
+      "problem": "Trung tâm tin học quản lý: Học viên (MAHV, HOTEN, NGAYSINH, nơi sinh, DIACHI); Lớp học (MALOP, TENLOP, NGAYKG, HOCPHI, LOAICC); Đăng ký học (ngày đăng ký, mức giảm học phí, một học viên có thể học nhiều lớp); Phiếu thu học phí (SOPHIEU, NGAYNOP, SOTIEN; việc nộp học phí cho mỗi lần đăng ký học tại một lớp chỉ nộp một lần duy nhất). Hãy thiết kế sơ đồ E-R biểu diễn CSDL trên.",
+      "solution_steps": [
+        "Bước 1 – Xác định 3 tập thực thể, thuộc tính và khóa: (1) HOCVIEN(MAHV [khóa], HOTEN, NGAYSINH, NOISINH, DIACHI); (2) LOPHOC(MALOP [khóa], TENLOP, NGAYKG, HOCPHI, LOAICC); (3) PHIEUTHUHP(SOPHIEU [khóa], NGAYNOP, SOTIEN).",
+        "Bước 2 – Phân tích mối quan hệ, thuộc tính quan hệ & bản số: (a) HOCVIEN — DANGKY — LOPHOC: 1 học viên đăng ký (0,n) lớp, 1 lớp có (0,n) học viên => quan hệ nhiều - nhiều (n-n), mang 2 thuộc tính đơn trị riêng là NGAYDK và MUCGIAMHP. (b) Mối quan hệ tam nguyên NOPHOCPHI giữa HOCVIEN, LOPHOC và PHIEUTHUHP: vì mỗi học viên ứng với mỗi lớp học chỉ nộp học phí 1 lần và có tối đa 1 phiếu thu cho lớp đó nên đây là quan hệ nhiều - một từ {HOCVIEN, LOPHOC} đến PHIEUTHUHP (ràng buộc hàm {HOCVIEN, LOPHOC} -> {PHIEUTHUHP}).",
+        "Bước 3 – Xác định hướng mũi tên trên sơ đồ E-R: Trên quan hệ DANGKY (n-n) vẽ hai cạnh vô hướng nối HOCVIEN và LOPHOC. Trên quan hệ tam nguyên NOPHOCPHI vẽ cạnh vô hướng vào HOCVIEN và LOPHOC, còn cạnh định hướng (mũi tên) hướng vào PHIEUTHUHP.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Sơ đồ gồm 3 hình chữ nhật (HOCVIEN, LOPHOC, PHIEUTHUHP), 2 hình thoi (DANGKY với 2 hình oval thuộc tính NGAYDK, MUCGIAMHP; và NOPHOCPHI nối cả 3 tập thực thể với mũi tên trỏ vào PHIEUTHUHP)."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bài 3 (Giáo trình): Thiết kế mô hình E-R cho CSDL Quản lý sinh viên (6 tập thực thể)",
+      "problem": "Vẽ và phân tích sơ đồ thực thể - quan hệ mô tả thông tin trong CSDL quản lý sinh viên gồm 6 tập thực thể: KHOA, LOPHOC, MONHOC, GIANGVIEN, HOCVIEN (SINHVIEN) và DIEMTHI.",
+      "solution_steps": [
+        "Bước 1 – Xác định 6 tập thực thể và khóa gợi ý: KHOA(MAKHOA [khóa], TENKHOA), LOPHOC(MALOP [khóa], TENLOP, NIENKHOA), GIANGVIEN(MAGV [khóa], TENGV), SINHVIEN/HOCVIEN(MASV [khóa], HOTEN, NGAYSINH, PHAI), MONHOC(MAMH [khóa], TENMH, SODVHT), DIEMTHI(MADIEM/MASV+MAMH [khóa], DIEM).",
+        "Bước 2 – Phân tích các mối quan hệ nhị nguyên: (1) SINHVIEN — THEOHOC — LOPHOC: n-1 (mỗi sinh viên học 1 lớp (1,1), 1 lớp có nhiều sinh viên (1,n)). (2) LOPHOC — THUOC — KHOA: n-1 (mỗi lớp thuộc 1 khoa, 1 khoa có nhiều lớp). (3) GIANGVIEN — THUOC — KHOA: n-1 (mỗi giảng viên thuộc 1 khoa, 1 khoa có nhiều giảng viên). (4) SINHVIEN — KIEMTRA — MONHOC: n-n (1 sinh viên thi nhiều môn, 1 môn có nhiều sinh viên thi).",
+        "Bước 3 – Phân tích các mối quan hệ tam nguyên nhiều - một & hướng mũi tên: (5) GIANGDAY giữa LOPHOC, MONHOC và GIANGVIEN: mỗi lớp ứng với một môn học có một giảng viên giảng dạy => mũi tên hướng vào GIANGVIEN, vô hướng vào LOPHOC và MONHOC. (6) KIEMTRA giữa SINHVIEN, MONHOC và DIEMTHI: mỗi sinh viên ứng với một môn thi có điểm thi tương ứng => mũi tên hướng vào DIEMTHI, vô hướng vào SINHVIEN và MONHOC.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Đặt KHOA ở trung tâm nối mũi tên từ LOPHOC và GIANGVIEN; SINHVIEN trỏ mũi tên vào LOPHOC; hình thoi GIANGDAY nối LOPHOC, MONHOC với mũi tên vào GIANGVIEN; hình thoi KIEMTRA nối SINHVIEN, MONHOC với mũi tên vào DIEMTHI."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bài 4 (Giáo trình): Thiết kế mô hình E-R cho Cửa hàng bán băng đĩa phim",
+      "problem": "Quản lý bán băng đĩa phim với 4 tập thực thể: ĐĨAPHIM (mã phim, tên phim, ngày sản xuất, đơn giá), NHASXPHIM (mã nhà sản xuất, tên nhà sản xuất, địa chỉ), HÓAĐƠN (số hóa đơn, ngày hóa đơn), NHÂNVIÊN (mã nhân viên, tên nhân viên, địa chỉ, lương). Hãy thiết kế sơ đồ E-R biểu diễn các liên kết giữa chúng.",
+      "solution_steps": [
+        "Bước 1 – Xác định 4 tập thực thể và khóa: DIAPHIM(MAPHIM [khóa], TENPHIM, NGAYSX, DONGIA); NHASXPHIM(MANSX [khóa], TENNSX, DIACHI); HOADON(SOHD [khóa], NGAYHD); NHANVIEN(MANV [khóa], TENNV, DIACHI, LUONG).",
+        "Bước 2 – Phân tích mối quan hệ & bản số: (1) DIAPHIM — SX — NHASXPHIM: mỗi phim do (1,1) nhà SX làm ra, mỗi nhà SX làm (0,n) phim => quan hệ nhiều - một (n-1). (2) HOADON — LAP — NHANVIEN: mỗi hóa đơn do (1,1) nhân viên lập, mỗi nhân viên lập (0,n) hóa đơn => quan hệ nhiều - một (n-1). (3) HOADON — GOM — DIAPHIM: 1 hóa đơn gồm (1,n) đĩa phim, 1 đĩa phim nằm trong (0,n) hóa đơn => quan hệ nhiều - nhiều (n-n), có thể gắn thuộc tính đơn trị SOLUONG trên GOM.",
+        "Bước 3 – Xác định hướng mũi tên: Quan hệ SX vẽ cạnh vô hướng vào DIAPHIM và mũi tên vào NHASXPHIM; quan hệ LAP vẽ cạnh vô hướng vào HOADON và mũi tên vào NHANVIEN; quan hệ GOM vẽ hai cạnh vô hướng nối HOADON và DIAPHIM.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Vẽ 4 hình chữ nhật kèm đầy đủ hình oval thuộc tính, nối qua 3 hình thoi SX, GOM, LAP đúng hướng mũi tên vào đầu 1."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bài 5 (Giáo trình): Thiết kế mô hình E-R cho CSDL Quản lý bán sách trong Nhà sách",
+      "problem": "Quản lý bán sách trong nhà sách với 4 tập thực thể: SÁCH (mã sách, tên sách, đơn giá), KHÁCH HÀNG (mã khách hàng, tên khách hàng, địa chỉ), TÁC GIẢ (mã tác giả, tên tác giả, địa chỉ, điện thoại), HÓA ĐƠN (số hóa đơn, ngày hóa đơn). Hãy vẽ sơ đồ E-R biểu diễn các đối tượng và các mối quan hệ giữa chúng.",
+      "solution_steps": [
+        "Bước 1 – Xác định 4 tập thực thể và khóa: SACH(MASACH [khóa], TENSACH, DONGIA); KHACHHANG(MAKH [khóa], TENKH, DIACHI); TACGIA(MATG [khóa], TENTG, DIACHI, DIENTHOAI); HOADON(SOHD [khóa], NGAYHD).",
+        "Bước 2 – Phân tích mối quan hệ & bản số theo giáo trình: (1) SACH — VIET — TACGIA: mỗi quyển sách chỉ do (1,1) tác giả (chủ biên) viết, một tác giả viết (0,n) quyển sách => quan hệ n-1. (2) HOADON — THUOC — KHACHHANG: mỗi hóa đơn thuộc về (1,1) khách hàng, một khách hàng có (0,n) hóa đơn => quan hệ n-1. (3) HOADON — GOM — SACH: một hóa đơn gồm (1,n) quyển sách, một quyển sách xuất hiện trong (0,n) hóa đơn => quan hệ n-n (có thể thêm thuộc tính SOLUONG).",
+        "Bước 3 – Xác định hướng mũi tên: Quan hệ VIET có cạnh vô hướng vào SACH và mũi tên vào TACGIA; quan hệ THUOC có cạnh vô hướng vào HOADON và mũi tên vào KHACHHANG; quan hệ GOM dùng 2 cạnh vô hướng nối SACH và HOADON.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Trình bày 4 hình chữ nhật, các thuộc tính hình oval (gạch chân khóa), và 3 hình thoi VIET, GOM, THUOC liên kết tuần tự đúng chuẩn E-R."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bài 6 (Giáo trình): Thiết kế mô hình E-R cho CSDL Quản lý bán thuốc trong Nhà thuốc",
+      "problem": "Quản lý bán thuốc của nhân viên trong một nhà thuốc gồm 4 tập thực thể: THUỐC (mã thuốc, tên thuốc, đơn giá), NHÂN VIÊN (mã nhân viên, tên nhân viên, địa chỉ, lương), HÓA ĐƠN (số hóa đơn, ngày hóa đơn), NHÀ SẢN XUẤT (mã nhà sản xuất, tên nhà sản xuất, địa chỉ, điện thoại). Hãy thiết kế mô hình E-R cho bài toán trên.",
+      "solution_steps": [
+        "Bước 1 – Xác định 4 tập thực thể và khóa: THUOC(MATHUOC [khóa], TENTHUOC, DONGIA); NHANVIEN(MANV [khóa], TENNV, DIACHI, LUONG); HOADON(SOHD [khóa], NGAYHD); NHASX(MANSX [khóa], TENNSX, DIACHI, DIENTHOAI).",
+        "Bước 2 – Phân tích mối quan hệ & bản số: (1) THUOC — SX — NHASX: mỗi loại thuốc do (1,1) nhà SX làm ra, mỗi nhà SX sản xuất (0,n) loại thuốc => quan hệ n-1. (2) HOADON — LAP — NHANVIEN: mỗi hóa đơn do (1,1) nhân viên lập, mỗi nhân viên lập (0,n) hóa đơn => quan hệ n-1. (3) HOADON — BAOGOM — THUOC: 1 hóa đơn gồm (1,n) loại thuốc, 1 loại thuốc thuộc (0,n) hóa đơn => quan hệ n-n (thuộc tính đơn trị SOLUONG).",
+        "Bước 3 – Xác định hướng mũi tên: Mũi tên của SX trỏ vào NHASX (vô hướng vào THUOC); mũi tên của LAP trỏ vào NHANVIEN (vô hướng vào HOADON); BAOGOM nối bằng hai cạnh vô hướng giữa THUOC và HOADON.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Vẽ 4 hình chữ nhật tập thực thể cùng các hình oval thuộc tính, kết nối qua 3 hình thoi SX, BAOGOM, LAP với chú thích bản số rõ ràng."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Bài 7 (Giáo trình): Thiết kế mô hình E-R cho CSDL Quản lý bán hàng trong Siêu thị (4 tập thực thể)",
+      "problem": "Quản lý bán hàng trong siêu thị với 4 đối tượng: MẶT HÀNG (mã hàng, tên hàng, giá bán), GIAN HÀNG (mã gian hàng, tên gian hàng), NHÂN VIÊN (mã nhân viên, tên nhân viên, điện thoại), HÓA ĐƠN (số hóa đơn, ngày hóa đơn). Hãy thiết kế sơ đồ E-R biểu diễn các đối tượng và mối quan hệ giữa chúng.",
+      "solution_steps": [
+        "Bước 1 – Xác định 4 tập thực thể và khóa: MATHANG(MAH [khóa], TENH, GIABAN); GIANHANG(MAGH [khóa], TENGH); NHANVIEN(MANV [khóa], TENNV, DIENTHOAI); HOADON(SOHD [khóa], NGAYHD).",
+        "Bước 2 – Phân tích 4 mối quan hệ & bản số: (1) MATHANG — CHUA — GIANHANG: 1 gian hàng chứa (0,n) mặt hàng, 1 mặt hàng chỉ chứa trong (1,1) gian hàng => n-1. (2) NHANVIEN — LAM — GIANHANG: 1 gian hàng có (1,n) nhân viên, 1 nhân viên làm tại (1,1) gian hàng => n-1. (3) HOADON — LAP — NHANVIEN: 1 nhân viên lập (0,n) hóa đơn, 1 hóa đơn do (1,1) nhân viên lập => n-1. (4) HOADON — BAOGOM — MATHANG: 1 hóa đơn gồm (1,n) mặt hàng, 1 mặt hàng nằm trong (0,n) hóa đơn => n-n.",
+        "Bước 3 – Xác định hướng mũi tên: CHUA có mũi tên vào GIANHANG; LAM có mũi tên vào GIANHANG; LAP có mũi tên vào NHANVIEN; BAOGOM có cạnh vô hướng ở cả hai phía HOADON và MATHANG.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Sơ đồ tạo thành một vòng liên kết khép kín giữa 4 hình chữ nhật (MATHANG - GIANHANG - NHANVIEN - HOADON - MATHANG) qua 4 hình thoi (CHUA, LAM, LAP, BAOGOM) với hướng mũi tên chính xác."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Bài 8 (Giáo trình): Thiết kế mô hình E-R cho hệ thống Hàng không (Máy bay - Phi công - Chuyến bay)",
+      "problem": "Vẽ sơ đồ thực thể - quan hệ biểu diễn mối quan hệ giữa MÁY BAY, PHI CÔNG và CHUYẾN BAY biết rằng: Một máy bay được chỉ định cho một số chuyến bay, một chuyến bay sử dụng một máy bay; Một phi công có thể thực hiện một số chuyến bay, một chuyến bay được thực hiện bởi ít nhất hai phi công.",
+      "solution_steps": [
+        "Bước 1 – Xác định 3 tập thực thể, thuộc tính và khóa: (1) MAYBAY(MAMB [khóa], TENMB/LOAIMB, SOGHE); (2) PHICONG(MAPC [khóa], TENPC, NGAYSINH, KINHNGHIEM); (3) CHUYENBAY(MACB [khóa], NGAYBAY, GIOBAY, NOIDI, NOIDEN).",
+        "Bước 2 – Phân tích mối quan hệ & bản số (min, max): (a) CHUYENBAY — SUDUNG — MAYBAY: mỗi chuyến bay dùng đúng (1,1) máy bay; mỗi máy bay được chỉ định cho (0,n) chuyến bay => theo công thức max2 - max1 đây là quan hệ nhiều - một (n-1) từ CHUYENBAY vào MAYBAY. (b) PHICONG — THUCHIEN — CHUYENBAY: mỗi phi công thực hiện (0,n) chuyến bay; mỗi chuyến bay được thực hiện bởi ít nhất 2 phi công (2,n) => quan hệ nhiều - nhiều (n-n).",
+        "Bước 3 – Xác định hướng mũi tên trên sơ đồ E-R: Quan hệ SUDUNG vẽ cạnh vô hướng vào CHUYENBAY và mũi tên vào MAYBAY; quan hệ THUCHIEN vẽ hai cạnh vô hướng vào PHICONG và CHUYENBAY (có thể thêm thuộc tính VAITRO như cơ trưởng/cơ phó trên THUCHIEN).",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Vẽ 3 hình chữ nhật MAYBAY, CHUYENBAY, PHICONG; gắn bản số (0,n) và (1,1) trên SUDUNG (mũi tên trỏ vào MAYBAY); gắn bản số (0,n) ở nhánh PHICONG và (2,n) ở nhánh CHUYENBAY trên THUCHIEN."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bài 9 (Giáo trình): Thiết kế mô hình E-R cho hệ thống Quản lý dự án sản xuất và gói công việc",
+      "problem": "Vẽ sơ đồ E-R biểu diễn dữ liệu hệ thống quản lý dự án sản xuất: Một dự án gồm các gói công việc kết nối theo cấu trúc phân cấp (mỗi gói công việc có thể bao gồm nhiều gói công việc khác); Một dự án được quản lý bởi một nhân viên; Một nhân viên có thể hoạt động trong nhiều gói công việc và một gói công việc sử dụng nhiều nhân viên; Mỗi gói công việc có đúng một nhân viên chịu trách nhiệm chính (một nhân viên có thể chịu trách nhiệm nhiều gói).",
+      "solution_steps": [
+        "Bước 1 – Xác định 3 tập thực thể, thuộc tính và khóa: (1) DUAN(MADA [khóa], TENDA, NGAYBD, NGAYKT); (2) GOICONGVIEC(MAGCV [khóa], TENGCV, MOTA); (3) NHANVIEN(MANV [khóa], TENNV, CHUCVU).",
+        "Bước 2 – Phân tích 5 mối quan hệ & bản số: (a) GOICONGVIEC — THUOC_DA — DUAN: mỗi gói thuộc (1,1) dự án, một dự án có (1,n) gói => n-1. (b) GOICONGVIEC — BAOGOM (phản xạ phân cấp): vai trò GoiCha(0,1) (mỗi gói con trực thuộc tối đa 1 gói cha) và vai trò GoiCon(0,n) (một gói cha chứa 0..n gói con) => phản xạ 1-n. (c) DUAN — QUANLY — NHANVIEN: mỗi dự án có (1,1) nhân viên quản lý, 1 nhân viên quản lý (0,n) dự án => n-1. (d) NHANVIEN — HOATDONG — GOICONGVIEC: n-n (0,n ở cả 2 phía). (e) GOICONGVIEC — CHIUTRACHNHIEM — NHANVIEN: mỗi gói có (1,1) nhân viên chịu trách nhiệm chính, 1 nhân viên chịu trách nhiệm (0,n) gói => n-1.",
+        "Bước 3 – Xác định hướng mũi tên: THUOC_DA có mũi tên vào DUAN; QUANLY và CHIUTRACHNHIEM có mũi tên vào NHANVIEN; HOATDONG dùng 2 cạnh vô hướng; quan hệ phản xạ BAOGOM ghi rõ vai trò GoiCha(0,1) (mũi tên) và GoiCon(0,n) (vô hướng).",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Gắn đầy đủ hình chữ nhật, hình oval thuộc tính, 5 hình thoi quan hệ phân biệt rõ giữa tham gia hoạt động (n-n) và chịu trách nhiệm chính (n-1), cùng vòng phản xạ phân cấp trên GOICONGVIEC."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bài 10 (Giáo trình): Thiết kế mô hình E-R cho dữ liệu Quản lý Quán cà phê",
+      "problem": "Vẽ sơ đồ thực thể - quan hệ biểu diễn dữ liệu quản lý hoạt động của một quán cà phê (quản lý thực đơn đồ uống, khu vực/bàn, nhân viên phục vụ/thu ngân, khách hàng và hóa đơn/phiếu gọi món).",
+      "solution_steps": [
+        "Bước 1 – Xác định các tập thực thể và khóa: (1) NHOMMON(MANHOM [khóa], TENNHOM); (2) DOUONG(MAMON [khóa], TENMON, DONGIA, DONVITINH); (3) BAN(MABAN [khóa], TENBAN, KHUVUC, TRANGTHAI); (4) NHANVIEN(MANV [khóa], TENNV, CHUCVU, SDT, LUONG); (5) HOADON(SOHD [khóa], NGAYLAP, GIOLAP, TONGTIEN); (6) KHACHHANG(MAKH [khóa], TENKH, SDT) (nếu quản lý khách quen/tích điểm).",
+        "Bước 2 – Phân tích mối quan hệ & bản số: (a) DOUONG — THUOC — NHOMMON: n-1 (mỗi đồ uống thuộc 1 nhóm, 1 nhóm có nhiều món). (b) HOADON — TAI_BAN — BAN: n-1 (mỗi hóa đơn phát sinh tại 1 bàn, 1 bàn có nhiều hóa đơn theo thời gian). (c) HOADON — LAP — NHANVIEN: n-1 (mỗi hóa đơn do 1 nhân viên lập, 1 nhân viên lập nhiều hóa đơn). (d) HOADON — CUA — KHACHHANG: n-1 (0,1 ở phía HOADON nếu có khách vãng lai, 0,n ở phía KHACHHANG). (e) HOADON — GOM — DOUONG: n-n (1 hóa đơn gọi nhiều đồ uống, 1 đồ uống có mặt trong nhiều hóa đơn), có thuộc tính đơn trị SOLUONG và DONGIA_BAN.",
+        "Bước 3 – Xác định hướng mũi tên trên sơ đồ E-R: Mũi tên hướng vào NHOMMON (từ THUOC), BAN (từ TAI_BAN), NHANVIEN (từ LAP), KHACHHANG (từ CUA); riêng quan hệ GOM giữa HOADON và DOUONG vẽ 2 cạnh vô hướng.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Sơ đồ lấy HOADON làm trung tâm kết nối n-1 tới BAN, NHANVIEN, KHACHHANG và kết nối n-n tới DOUONG (với thuộc tính SOLUONG), DOUONG nối n-1 tới NHOMMON."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bài 11 (Giáo trình): Thiết kế mô hình E-R cho Cửa hàng bán đĩa CD qua Internet",
+      "problem": "Thiết kế mô hình E-R cho cửa hàng bán đĩa CD qua Internet: Khách hàng mở tài khoản (email, mật khẩu, tình trạng hôn nhân, địa chỉ lập hóa đơn, số thẻ thân thiết nếu có); Danh mục CD (ảnh bìa, lời bình, phiên bản đặc biệt hay không, mã vạch khác nhau theo ấn bản, tác giả, tiêu đề, danh sách bản nhạc, giá thay đổi theo ngày phát hành); Giỏ hàng (đặt CD với số lượng, chỉnh sửa trước thanh toán); Hóa đơn thanh toán (số hóa đơn duy nhất, liên hệ KH, địa chỉ thanh toán, địa chỉ giao hàng, danh sách CD mua, phí ship 40.000 VND, trạng thái 'đang xử lý'/'đang giao hàng'/'đã giao hàng'); Chức năng gợi ý CD thường mua cùng.",
+      "solution_steps": [
+        "Bước 1 – Xác định các tập thực thể & khóa: (1) KHACHHANG(EMAIL [khóa], MATKHAU, TTHONNHAN, DIACHI_HD, SOTHE_TT); (2) ALBUM_CD(MAVACH [khóa], TIEUDE, ANHBIA, LOIBINH, PHIENBAN_DB, NGAYPHATHANH); (3) TACGIA(MATG [khóa], TENTG); (4) BANNHAC(MABH [khóa], TENBH, THOILUONG); (5) LICHSUGIA(MAGIA [khóa], NGAYAPDUNG, GIABAN); (6) GIOHANG(MAGH [khóa], NGAYTAO, TRANGTHAI); (7) HOADON(SOHD [khóa], NGAYLAP, DIACHI_TT, DIACHI_GH, PHISHIP, TRANGTHAI).",
+        "Bước 2 – Phân tích mối quan hệ & bản số: (a) ALBUM_CD — SANGTAC — TACGIA: n-n (một CD có thể có nhiều tác giả, một tác giả có nhiều CD). (b) BANNHAC — THUOC_CD — ALBUM_CD: n-n (một bản nhạc có thể nằm trong nhiều CD/ấn bản, một CD chứa nhiều bản nhạc). (c) LICHSUGIA — AP_DUNG — ALBUM_CD: n-1 (một CD có nhiều mốc giá theo thời gian kể từ ngày phát hành, mỗi mốc giá gắn với 1 CD). (d) GIOHANG — CUA — KHACHHANG: n-1 (một khách hàng có nhiều giỏ hàng theo phiên, mỗi giỏ thuộc 1 khách hàng). (e) GIOHANG — CHON — ALBUM_CD: n-n (thuộc tính SOLUONG).",
+        "Bước 3 – Phân tích luồng thanh toán & gợi ý CD: (f) HOADON — DAT_BOI — KHACHHANG: n-1 (mũi tên vào KHACHHANG). (g) HOADON — CHUYEN_TU — GIOHANG: 1-1 (mỗi giỏ hàng thanh toán tạo 1 hóa đơn, mũi tên 2 phía). (h) HOADON — BAO_GOM — ALBUM_CD: n-n (thuộc tính SOLUONG, DONGIAMUA). (i) Quan hệ phản xạ n-n MUACUNG trên ALBUM_CD (vai trò CD_Goc(0,n) – CD_GoiY(0,n)) hoặc suy xuất từ đồng xuất hiện trong HOADON để gợi ý 'Người dùng đã mua CD này cũng đã mua'.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh & kiểm tra ràng buộc: Vẽ đầy đủ 7 tập thực thể chính, các cạnh có hướng cho các quan hệ n-1 và 1-1 (DAT_BOI, AP_DUNG, CUA, CHUYEN_TU), cạnh vô hướng cho các quan hệ n-n (CHON, BAO_GOM, SANGTAC, THUOC_CD, MUACUNG), đảm bảo bao phủ toàn bộ yêu cầu nghiệp vụ của đề."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Bài 12 (Giáo trình): Thiết kế mô hình E-R cho Hệ thống quản lý công ty",
+      "problem": "Vẽ mô hình E-R cho hệ thống quản lý công ty: Công ty có vài phòng ban; Mỗi phòng ban có số phòng ban, tên và có thể có nhiều địa điểm; Một người quản lý quản lý một phòng ban cụ thể; Mỗi phòng ban liên kết với một số dự án; Nhân viên có ID, tên, địa chỉ, ngày vào công ty; Mỗi nhân viên làm việc ở một phòng ban nhưng có thể tham gia nhiều dự án; Dự án có số dự án, tên dự án.",
+      "solution_steps": [
+        "Bước 1 – Xác định tập thực thể, thuộc tính & xử lý thuộc tính đa trị: (1) PHONGBAN(SOPB [khóa], TENPB); (2) DIADIEM(MADD [khóa], TENDIADIEM) (tách từ địa điểm đa trị của phòng ban, hoặc thuộc tính đa trị trên PHONGBAN); (3) NHANVIEN(ID [khóa], TENNV, DIACHI, NGAYVAOCONG); (4) NGUOIQL(MAQL [khóa], TENQL) với NGUOIQL ISA NHANVIEN; (5) DUAN(SODA [khóa], TENDA).",
+        "Bước 2 – Phân tích mối quan hệ & bản số: (a) PHONGBAN — DAT_TAI — DIADIEM: n-n (mỗi phòng ban có nhiều địa điểm, một địa điểm có thể đặt nhiều phòng ban). (b) NGUOIQL — QUANLY — PHONGBAN: 1-1 (mỗi phòng ban có 1 người quản lý và mỗi người quản lý phụ trách 1 phòng ban). (c) NHANVIEN — LAMVIEC — PHONGBAN: n-1 (mỗi nhân viên làm tại (1,1) phòng ban, một phòng có (1,n) nhân viên). (d) DUAN — THUOC — PHONGBAN: n-1 (mỗi dự án thuộc sự quản lý/liên kết của 1 phòng ban, 1 phòng ban có (0,n) dự án; nếu 1 dự án liên kết nhiều phòng thì là n-n). (e) NHANVIEN — THAMGIA — DUAN: n-n (nhân viên tham gia (0,n) dự án, dự án có (1,n) nhân viên).",
+        "Bước 3 – Xác định hướng mũi tên: QUANLY (1-1) có mũi tên hai phía vào NGUOIQL và PHONGBAN; NGUOIQL ISA NHANVIEN; LAMVIEC có mũi tên vào PHONGBAN; THUOC có mũi tên vào PHONGBAN; THAMGIA và DAT_TAI dùng cạnh vô hướng.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Liên kết 5 hình chữ nhật theo đúng cấu trúc nghiệp vụ công ty, thể hiện rõ vai trò vừa làm việc tại một phòng ban vừa tham gia nhiều dự án của nhân viên."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Bài 13 (Giáo trình): Thiết kế mô hình E-R cho Hệ thống Liên đoàn bóng đá quốc gia",
+      "problem": "Vẽ mô hình E-R biểu diễn CSDL Liên đoàn bóng đá quốc gia: Liên đoàn có nhiều đội; Mỗi đội có tên, thành phố, huấn luyện viên, đội trưởng và danh sách cầu thủ; Mỗi cầu thủ chỉ thuộc về một đội, gồm tên, vị trí thi đấu, trình độ kỹ năng và hồ sơ các chấn thương; Đội trưởng cũng là một cầu thủ; Một trận đấu diễn ra giữa hai đội, có ngày giờ và kết quả tỷ số.",
+      "solution_steps": [
+        "Bước 1 – Xác định tập thực thể & khóa: (1) LIENDOAN(MALD [khóa], TENLD); (2) DOI(MADOI [khóa], TENDOI, THANHPHO, HUANLUYENVIEN); (3) CAUTHU(MACT [khóa], TENCT, VITRI, TRINHDOKYNANG); (4) DOITRUONG(MADT [khóa]) với DOITRUONG ISA CAUTHU; (5) HOSOCHANTHUONG(MAHS [khóa], LOAICHANTHUONG, NGAYBI, MUCDO); (6) TRANDAU(MATD [khóa], NGAYGIO, TYSODOINHA, TYSODOIKHACH).",
+        "Bước 2 – Phân tích mối quan hệ & bản số: (a) DOI — THUOC — LIENDOAN: n-1 (1 liên đoàn có nhiều đội, 1 đội thuộc 1 liên đoàn). (b) CAUTHU — CHOI_CHO — DOI: n-1 (1 cầu thủ chỉ thuộc (1,1) đội, 1 đội có (1,n) cầu thủ). (c) DOITRUONG — LAM_DT — DOI: 1-1 (mỗi đội có 1 đội trưởng và DOITRUONG ISA CAUTHU). (d) HOSOCHANTHUONG — CUA — CAUTHU: n-1 (1 cầu thủ có (0,n) hồ sơ chấn thương, 1 hồ sơ của (1,1) cầu thủ). (e) DOI — THIDAU — TRANDAU: n-n (một đội thi đấu (0,n) trận; một trận đấu diễn ra giữa đúng 2 đội (2,2), có thể tách 2 vai trò DoiNha(1,1) và DoiKhach(1,1) từ TRANDAU vào DOI).",
+        "Bước 3 – Xác định hướng mũi tên: THUOC có mũi tên vào LIENDOAN; CHOI_CHO có mũi tên vào DOI; CUA có mũi tên vào CAUTHU; LAM_DT (1-1) có mũi tên 2 phía; nếu biểu diễn THIDAU bằng 2 quan hệ n-1 (DOI_NHA và DOI_KHACH) từ TRANDAU vào DOI thì mũi tên hướng vào DOI (hoặc dùng n-n với bản số (2,2) phía TRANDAU).",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Đảm bảo phân biệt rõ ràng cầu thủ thường, đội trưởng (ISA), lịch sử chấn thương tách riêng khỏi CAUTHU để không vi phạm đơn trị, và cặp đội tham gia mỗi trận đấu kèm ngày giờ, tỷ số."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bài 14 (Giáo trình): Thiết kế mô hình E-R cho CSDL Quản lý nhân viên Bệnh viện (5 nhóm ISA)",
+      "problem": "Bệnh viện quản lý nhân viên chia làm 5 nhóm: bác sĩ, y sĩ, y tá, nhân viên văn phòng, kỹ thuật viên (mỗi nhân viên có mã số, tên, địa chỉ, ngày sinh, SĐT; bác sĩ và y sĩ có chuyên ngành; y tá có mã chứng chỉ tốt nghiệp; NV văn phòng có loại công việc; KTV có kỹ năng). Mỗi bác sĩ điều trị 0..n bệnh nhân và có 1 y sĩ hỗ trợ; Bệnh nhân có mã BN, địa chỉ, ngày nhập viện, triệu chứng; Mỗi y tá trực 1 khu điều trị (tên, địa điểm), mỗi khu có 1..n y tá và 1 y tá trưởng; Mỗi KTV phục vụ 1..n phòng thí nghiệm (tên, địa điểm), mỗi phòng TN có 1..n KTV.",
+      "solution_steps": [
+        "Bước 1 – Xác định tập thực thể cha, 5 tập con ISA và các tập thực thể nghiệp vụ: Tập cha NHANVIEN(MANV [khóa], TENNV, DIACHI, NGAYSINH, SDT). Năm tập con đều có quan hệ ISA với NHANVIEN: BACSI(CHUYENNGANH), YSI(CHUYENNGANH), YTA(MA_CHUNGCHI), NV_VANPHONG(LOAICONGVIEC), KYTHUATVIEN(KYNANG). Các tập thực thể khác: BENHNHAN(MABN [khóa], DIACHI, NGAYNHAPVIEN, TRIEUCHUNG); KHUDIEUTRI(MAKHU [khóa], TENKHU, DIADIEM); PHONGTHINGHIEM(MAPTN [khóa], TENPTN, DIADIEM).",
+        "Bước 2 – Phân tích mối quan hệ & bản số: (a) BACSI — DIEUTRI — BENHNHAN: 1 bác sĩ điều trị (0,n) bệnh nhân, 1 bệnh nhân do (1,n) hoặc (1,1) bác sĩ điều trị (nếu 1 bác sĩ chính thì n-1, tổng quát hơn là 1-n hoặc n-n tùy ngữ cảnh). (b) BACSI — HOTRO — YSI: 1-1 (một bác sĩ có một y sĩ hỗ trợ). (c) YTA — TRUC — KHUDIEUTRI: n-1 (mỗi y tá trực (1,1) khu, mỗi khu có (1,n) y tá). (d) YTA — TRUONGKHU — KHUDIEUTRI: 1-1 (mỗi khu có 1 y tá trưởng). (e) KYTHUATVIEN — PHUCVU — PHONGTHINGHIEM: n-n ((1,n) ở cả hai đầu vì mỗi KTV phục vụ 1..n phòng TN và mỗi phòng TN phải có 1..n KTV).",
+        "Bước 3 – Xác định hướng mũi tên: Vẽ 5 mũi tên ISA từ BACSI, YSI, YTA, NV_VANPHONG, KYTHUATVIEN vào NHANVIEN; HOTRO (1-1) và TRUONGKHU (1-1) vẽ mũi tên 2 phía; TRUC vẽ mũi tên vào KHUDIEUTRI; PHUCVU vẽ 2 cạnh vô hướng.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Tổ chức sơ đồ theo 2 tầng: tầng trên là cây kế thừa NHANVIEN -> 5 nhóm nhân viên; tầng dưới là các liên kết nghiệp vụ sang BENHNHAN, KHUDIEUTRI và PHONGTHINGHIEM."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bài 15 (Giáo trình): Thiết kế mô hình E-R cho Hệ thống quản lý Bảo tàng nghệ thuật",
+      "problem": "Bảo tàng quản lý bộ sưu tập tác phẩm nghệ thuật (TPNT): mã số duy nhất, tác giả, năm sáng tác (nếu có), chủ đề, lời diễn giải, thể loại (Hội họa, Điêu khắc, Tạc tượng), quốc gia xuất xứ, thời đại (phục hưng, hiện đại, cổ đại...). TPNT phân thành loại sở hữu riêng (ngày sở hữu, tình trạng trưng bày/lưu kho, trị giá) và loại đi mượn (thông tin bộ sưu tập, ngày mượn, ngày trả). Tác giả (tên duy nhất, ngày sinh, ngày mất, quốc tịch, thời đại, phong cách chính, diễn giải). Cuộc triển lãm (tên, ngày bắt đầu, ngày kết thúc).",
+      "solution_steps": [
+        "Bước 1 – Xác định tập thực thể & cấu trúc ISA: Tập cha TPNT(MATP [khóa], NAMSANGTAC, CHUDE, DIENGIAI, THELOAI, QUOCGIA, THOIDAI). Hai tập con kế thừa ISA từ TPNT: TP_SOHUU(NGAYSOHUU, TINHTRANG, TRIGIA) và TP_MUON(BOSUUTAP, NGAYMUON, NGAYTRA) (có thể tách thêm BOSUUTAP(MABST, TENBST) nếu quản lý nhiều đợt mượn từ các bộ sưu tập). Các tập thực thể khác: TACGIA(TENTG [khóa], NGAYSINH, NGAYMAT, QUOCTICH, THOIDAI, PHONGCACH, DIENGIAI); TRIENLAM(TENTL [khóa], NGAYBD, NGAYKT).",
+        "Bước 2 – Phân tích mối quan hệ & bản số: (a) TP_SOHUU ISA TPNT và TP_MUON ISA TPNT (kế thừa 1-1 đặc biệt). (b) TPNT — SANGTAC — TACGIA: mỗi TPNT có (0,1) tác giả (vì đề ghi 'năm sáng tác nếu có', 'tác giả nếu có'), mỗi tác giả sáng tác (1,n) TPNT => quan hệ n-1 (mũi tên vào TACGIA). (c) TPNT — TRUNGBAY — TRIENLAM: một TPNT có thể tham gia (0,n) cuộc triển lãm, một cuộc triển lãm trưng bày (1,n) TPNT => quan hệ n-n.",
+        "Bước 3 – Xác định hướng mũi tên: Vẽ liên kết ISA từ TP_SOHUU và TP_MUON tới TPNT; SANGTAC có cạnh vô hướng vào TPNT và mũi tên vào TACGIA; TRUNGBAY dùng hai cạnh vô hướng giữa TPNT và TRIENLAM (nếu tách BOSUUTAP cho TP_MUON thì mũi tên từ TP_MUON trỏ vào BOSUUTAP).",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Làm rõ hai nhánh phân loại tài sản sở hữu/đi mượn, thuộc tính phân loại thể loại/thời đại/quốc gia trên TPNT, liên kết tùy chọn với TACGIA (min=0) và liên kết n-n với TRIENLAM."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bài 16 (Giáo trình): Thiết kế mô hình E-R cho CSDL Quản lý Viện dưỡng lão",
+      "problem": "Ở Viện dưỡng lão: Phòng (mã phòng, tên phòng, số người ở); Người vào ở là người già đơn thân (tên, tuổi, quê quán, tình trạng quan hệ gia đình, giấy xác nhận địa phương); Sư cô (quản lý phòng, tiếp nhận người ở, thêm phật tử, lập/sửa lịch chăm sóc); Phật tử (tên, tuổi, ngày tháng năm sinh, giấy tờ tùy thân nếu có); Lịch làm việc/chăm sóc theo tuần (ngày, tên công việc, người làm tương ứng); Khoản chi tiêu trong ngày (ngày chi, tên khoản chi, số tiền, số lượng).",
+      "solution_steps": [
+        "Bước 1 – Xác định 6 tập thực thể & khóa: (1) PHONG(MAPHONG [khóa], TENPHONG, SONGUOIO); (2) NGUOIGIA(MANG [khóa], TENNG, TUOI, QUEQUAN, TT_GIADINH, GIAYXACNHAN); (3) SUCO(MASC [khóa], PHAPDANH/TENSC, QUYENHAN); (4) PHATTU(MAPT [khóa], TENPT, TUOI, NGAYSINH, GIAYTOTUYTHAN); (5) LICHLAMVIEC(MALICH [khóa], TUAN, NGAY, TENCONGVIEC); (6) KHOANCHI(MAKC [khóa], NGAYCHI, TENKHOANCHI, SOTIEN, SOLUONG).",
+        "Bước 2 – Phân tích mối quan hệ & bản số: (a) NGUOIGIA — O_TAI — PHONG: n-1 (mỗi người già ở (1,1) phòng còn trống, một phòng chứa (0,n) người). (b) NGUOIGIA — TIEPNHAN — SUCO: n-1 (mỗi người già do 1 sư cô xác nhận tiếp nhận, 1 sư cô tiếp nhận nhiều người). (c) LICHLAMVIEC — LAP_SUA — SUCO: n-1 (mỗi lịch do 1 sư cô lập/chỉnh sửa). (d) LICHLAMVIEC — THUCHIEN — PHATTU: n-1 hoặc n-n (mỗi ca lịch phân công cho phật tử thực hiện). (e) PHATTU — CHAMSOC — NGUOIGIA: n-n (phật tử chăm sóc các cụ già theo lịch). (f) KHOANCHI — GHI_NHAN — SUCO: n-1 (các khoản chi tiêu trong ngày được sư cô cập nhật).",
+        "Bước 3 – Xác định hướng mũi tên: Mũi tên của O_TAI vào PHONG; mũi tên của TIEPNHAN, LAP_SUA, GHI_NHAN vào SUCO; mũi tên của THUCHIEN vào PHATTU (nếu 1 ca 1 người); cạnh vô hướng hai phía cho CHAMSOC.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Kết nối rõ ràng 3 đối tượng con người (NGUOIGIA, PHATTU, SUCO) với 3 đối tượng quản trị nghiệp vụ (PHONG, LICHLAMVIEC, KHOANCHI), thể hiện đúng luồng kiểm tra phòng trống và phân ca chăm sóc hàng tuần."
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Bài 17 (Tổng hợp Mục 2.5): Phân tích và thiết kế mô hình E-R đầy đủ cho Hệ thống Siêu thị bán hàng (7 tập thực thể)",
+      "problem": "Dựa vào Ví dụ 2 Mục 2.5 trong giáo trình, hãy phân tích chi tiết và dựng sơ đồ E-R hoàn chỉnh cho hệ thống bán hàng siêu thị gồm 7 tập thực thể: NHACC, MATHANG, GIANH, NHANVIEN, NGUOIQL, KHACHH, DONDH cùng toàn bộ các thuộc tính và 7 mối quan hệ giữa chúng.",
+      "solution_steps": [
+        "Bước 1 – Liệt kê chính xác 7 tập thực thể & thuộc tính theo giáo trình: NHACC(TENNCC, DCHINCC); MATHANG(MAH [khóa], TENH); GIANH(MAGH [khóa], TENGH); NHANVIEN(TENNV, LUONG); NGUOIQL(TENNQL); KHACHH(TENKH, DCHI_KH, TAIKHOAN); DONDH(SOHD [khóa], NGAYDH).",
+        "Bước 2 – Phân tích toàn bộ 7 mối quan hệ & bản số: (1) MATHANG — CUNGCAP — NHACC: n-n (1 NCC cung ứng nhiều mặt hàng, 1 mặt hàng do nhiều NCC cung cấp). (2) MATHANG — CHUA — GIANH: n-1 (1 gian hàng bán nhiều mặt hàng, 1 mặt hàng chỉ bán tại 1 gian hàng). (3) NHANVIEN — LAMVIEC — GIANH: n-1 (1 gian hàng có nhiều nhân viên, 1 nhân viên làm tại 1 gian hàng). (4) NGUOIQL ISA NHANVIEN (kế thừa 1-1 đặc biệt). (5) NGUOIQL — QUANLY — GIANH: 1-1 (mỗi gian hàng có 1 người quản lý, mỗi người quản lý phụ trách 1 gian hàng). (6) DONDH — DATH — KHACHH: n-1 (1 khách hàng đặt nhiều đơn, 1 đơn của 1 khách hàng). (7) DONDH — BGOM — MATHANG: n-n (1 đơn gồm nhiều mặt hàng, 1 mặt hàng nằm trong nhiều đơn).",
+        "Bước 3 – Quy tắc vẽ cạnh & mũi tên trên sơ đồ E-R: Vẽ cạnh vô hướng 2 phía cho CUNGCAP và BGOM; vẽ mũi tên vào GIANH từ CHUA và LAMVIEC; vẽ mũi tên vào KHACHH từ DATH; vẽ mũi tên 2 phía cho QUANLY (1-1); vẽ ký hiệu kế thừa ISA từ NGUOIQL sang NHANVIEN.",
+        "Bước 4 – Mô tả sơ đồ E-R tổng thể & kiểm tra tính nhất quán: Sơ đồ thể hiện mạch dữ liệu từ khâu nhập hàng (NHACC -> MATHANG), phân khu bán (GIANH - NHANVIEN - NGUOIQL), đến khâu bán hàng cho khách (KHACHH <- DONDH <-> MATHANG), khớp 100% với Hình 2.18 của giáo trình."
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Bài 18 (Mở rộng theo chuẩn Chương 2): Thiết kế mô hình E-R cho Hệ thống quản lý Xuất - Nhập kho",
+      "problem": "Một doanh nghiệp cần quản lý hoạt động xuất nhập kho với các đối tượng: Nhà cung cấp (MANCC, TENNCC, DIACHI, SDT), Phiếu nhập (SOPN, NGAYNHAP), Kho hàng (MAKHO, TENKHO, DIACHI), Mặt hàng (MAH, TENH, DVT), Khách hàng (MAKH, TENKH, DIACHI), Phiếu xuất (SOPX, NGAYXUAT). Biết mỗi phiếu nhập do 1 NCC giao vào 1 kho và gồm nhiều mặt hàng (có số lượng nhập, đơn giá nhập); mỗi phiếu xuất xuất từ 1 kho giao cho 1 khách hàng và gồm nhiều mặt hàng (có số lượng xuất, đơn giá xuất). Hãy thiết kế sơ đồ E-R.",
+      "solution_steps": [
+        "Bước 1 – Xác định 6 tập thực thể & khóa: NHACUNGCAP(MANCC [khóa], TENNCC, DIACHI, SDT); PHIEUNHAP(SOPN [khóa], NGAYNHAP); KHO(MAKHO [khóa], TENKHO, DIACHI); MATHANG(MAH [khóa], TENH, DVT); KHACHHANG(MAKH [khóa], TENKH, DIACHI); PHIEUXUAT(SOPX [khóa], NGAYXUAT).",
+        "Bước 2 – Phân tích các mối quan hệ & bản số: (1) PHIEUNHAP — GIAO_BOI — NHACUNGCAP: n-1 (mỗi phiếu nhập từ (1,1) NCC, 1 NCC giao (0,n) phiếu). (2) PHIEUNHAP — NHAP_VAO — KHO: n-1 (mỗi phiếu nhập vào (1,1) kho, 1 kho nhận (0,n) phiếu). (3) PHIEUNHAP — CT_NHAP — MATHANG: n-n (thuộc tính đơn trị SL_NHAP, DG_NHAP). (4) PHIEUXUAT — XUAT_TU — KHO: n-1 (mỗi phiếu xuất từ (1,1) kho). (5) PHIEUXUAT — GIAO_CHO — KHACHHANG: n-1 (mỗi phiếu xuất cho (1,1) khách hàng). (6) PHIEUXUAT — CT_XUAT — MATHANG: n-n (thuộc tính đơn trị SL_XUAT, DG_XUAT).",
+        "Bước 3 – Xác định hướng mũi tên: Vẽ mũi tên vào NHACUNGCAP (từ GIAO_BOI), vào KHO (từ NHAP_VAO và XUAT_TU), vào KHACHHANG (từ GIAO_CHO); vẽ 2 cạnh vô hướng cho CT_NHAP và CT_XUAT kèm các hình oval thuộc tính đơn trị.",
+        "Bước 4 – Mô tả sơ đồ E-R hoàn chỉnh: Tổ chức đối xứng 2 luồng Nhập (NHACUNGCAP - PHIEUNHAP) và Xuất (KHACHHANG - PHIEUXUAT) cùng hội tụ vào hai tập lõi ở giữa là KHO (qua quan hệ n-1) và MATHANG (qua quan hệ n-n)."
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Bài 19 (Mở rộng Mục 2.4.3): Phân tích mối quan hệ đa nguyên và ràng buộc hàm trên mô hình E-R",
+      "problem": "Phân tích mối quan hệ tam nguyên Day(GiaoVien, Lop, MonHoc) với ràng buộc hàm {Lop, MonHoc} -> {GiaoVien} trong Mục 2.4.3, sau đó áp dụng cùng nguyên lý để thiết kế và so sánh mối quan hệ tam nguyên CUNGUNG(NhaCungCap, DuAn, MatHang) với giả thiết: biết trước Dự án và Mặt hàng thì xác định duy nhất một Nhà cung cấp, hoặc không có ràng buộc hàm.",
+      "solution_steps": [
+        "Bước 1 – Phân tích chuẩn mẫu Day(GiaoVien, Lop, MonHoc): Ba tập thực thể là GiaoVien(MAGV, TENGV), Lop(MALOP, TENLOP), MonHoc(MAMH, TENMH). Hình thoi Day có thể mang thuộc tính đơn trị (như HOCKY, NAMHOC). Ngữ nghĩa: (g, l, m) ∈ Day <=> giáo viên g dạy môn m cho lớp l vào học kỳ hk của năm học n.",
+        "Bước 2 – Giải thích ràng buộc hàm {Lop, MonHoc} -> {GiaoVien} & cách vẽ: Trong nhiều phương án gán bản số (0,n)/(n,n), ràng buộc hàm khẳng định khi cố định cặp (Lop l, MonHoc m) thì có tối đa 1 GiaoVien g phụ trách. Trên sơ đồ E-R, vẽ cạnh vô hướng từ Day tới Lop và MonHoc, còn từ Day tới GiaoVien vẽ cung có mũi tên hướng vào GiaoVien.",
+        "Bước 3 – Áp dụng cho CUNGUNG(NhaCungCap, DuAn, MatHang): (a) Trường hợp có ràng buộc hàm {DuAn, MatHang} -> {NhaCungCap} (mỗi mặt hàng dùng cho một dự án chỉ lấy từ tối đa 1 nhà cung cấp): vẽ mũi tên từ CUNGUNG hướng vào NhaCungCap, cạnh vô hướng tới DuAn và MatHang. (b) Trường hợp không có ràng buộc hàm (1 dự án có thể mua cùng 1 mặt hàng từ nhiều NCC): vẽ cả 3 cạnh đều vô hướng với bản số (0,n).",
+        "Bước 4 – Kết luận sư phạm: Ràng buộc hàm giúp biểu diễn chính xác ngữ nghĩa nghiệp vụ bậc cao trên quan hệ đa nguyên (như tổng quát hóa n-1), điều mà bản số (min, max) đơn lẻ trên từng nhánh không thể phân biệt được."
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Bài 20 (Mở rộng Mục 2.4.2): Phân tích và thiết kế các mối quan hệ phản xạ 1-1, 1-n, n-n trên tập thực thể NGUOI và NHANVIEN",
+      "problem": "Trình bày và thiết kế mô hình E-R cho 3 dạng mối quan hệ phản xạ (1-1, 1-n, n-n) trên tập thực thể NGUOI (LaCha, KetHon, Yeu trong Mục 2.4.2) và mở rộng thiết kế 2 mối quan hệ phản xạ trên tập thực thể NHANVIEN(MANV, TENNV, CHUCVU) trong doanh nghiệp: QuanLyTrucTiep (một nhân viên chịu sự quản lý trực tiếp của tối đa 1 quản lý, một quản lý quản lý nhiều nhân viên) và HoTroDuAn (nhiều nhân viên hỗ trợ qua lại lẫn nhau kèm thời gian hỗ trợ).",
+      "solution_steps": [
+        "Bước 1 – Thiết kế 3 quan hệ phản xạ chuẩn trên tập NGUOI(Id, HT, NS): (1) LaCha (phản xạ 1-n): nhánh Cha(1,1) (mũi tên vào NGUOI) và nhánh Con(0,n) (vô hướng), ngữ nghĩa (n1, n2) ∈ LaCha <=> n1 là cha của n2. (2) KetHon (phản xạ 1-1): nhánh Vo(0,1) và Chong(0,1) (cả hai nhánh đều vẽ mũi tên về NGUOI), ngữ nghĩa (n1, n2) ∈ KetHon <=> n1 hiện là chồng của n2. (3) Yeu (phản xạ n-n): nhánh YeuAi(0,n) và AiYeu(0,n) (cả hai cạnh vô hướng), gắn thêm thuộc tính đơn trị TG (thời gian).",
+        "Bước 2 – Thiết kế quan hệ phản xạ QuanLyTrucTiep trên NHANVIEN: Đây là quan hệ phản xạ 1-n (tương tự LaCha nhưng min ở nhánh quản lý là 0 vì giám đốc không có cấp trên). Gắn tên vai trò rõ ràng: QuanLy(0,1) (vẽ mũi tên vào NHANVIEN) và NhanVienDuoiQuyen(0,n) (cạnh vô hướng).",
+        "Bước 3 – Thiết kế quan hệ phản xạ HoTroDuAn trên NHANVIEN: Đây là quan hệ phản xạ n-n (một nhân viên hỗ trợ 0..n đồng nghiệp và nhận hỗ trợ từ 0..n đồng nghiệp). Gắn tên vai trò NguoiHoTro(0,n) và NguoiDuocHoTro(0,n) bằng 2 cạnh vô hướng, kèm thuộc tính đơn trị THOIGIAN_HT trên hình thoi HoTroDuAn.",
+        "Bước 4 – Tổng kết quy tắc vàng cho quan hệ phản xạ: Luôn giữ nguyên 1 hình chữ nhật tập thực thể duy nhất, nối 2 nhánh từ hình chữ nhật vào cùng 1 hình thoi, bắt buộc đặt tên vai trò phân biệt và ghi đủ bản số (min, max) trên từng nhánh để tránh nhập nhằng chiều quan hệ."
+      ]
+    }
+  ]
+}
